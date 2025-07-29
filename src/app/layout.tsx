@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import AuthProvider from '@/components/providers/session-provider'
-import LightParticles from '@/components/LightParticles'
-import GradientOverlay from '@/components/GradientOverlay'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
+import SessionWrapper from '@/components/SessionWrapper'
 
 export const metadata: Metadata = {
   title: 'Intellego Platform',
@@ -21,11 +19,9 @@ export default async function RootLayout({
   return (
     <html lang="es">
       <body className="min-h-screen">
-        <AuthProvider session={session}>
-          <GradientOverlay />
-          <LightParticles />
+        <SessionWrapper session={session}>
           {children}
-        </AuthProvider>
+        </SessionWrapper>
       </body>
     </html>
   )

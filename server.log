@@ -992,3 +992,24 @@ https://nextjs.org/docs/messages/module-not-found
 
 Import trace for requested module:
 ./src/app/dashboard/student/page.tsx
+Middleware executing for: /
+ GET / 500 in 35ms
+ ⨯ ./src/components/WeeklyReportForm.tsx:4:1
+Module not found: Can't resolve './FileUpload'
+  2 |
+  3 | import { useState, useEffect } from 'react'
+> 4 | import FileUpload from './FileUpload'
+    | ^
+  5 |
+  6 | interface WeeklyReportFormProps {
+  7 |   onSubmit: (data: WeeklyReportData) => Promise<void>
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/dashboard/student/page.tsx
+ GET /_next/static/chunks/fallback/webpack.js 500 in 731ms
+ GET /_next/static/chunks/fallback/main.js 500 in 688ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 685ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 455ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 456ms

@@ -1,12 +1,9 @@
 "use client"
 
-import { useState, useEffect } from 'react'
-import FileUpload from './FileUpload'
+import { useState } from 'react'
 
 interface WeeklyReportFormProps {
-  onSubmit: (data: WeeklyReportData) => Promise<void>
-  canSubmit: boolean
-  isLoading?: boolean
+  onSubmissionSuccess?: () => void
   className?: string
 }
 
@@ -16,24 +13,19 @@ interface WeeklyReportData {
   dificultadesEstrategias: string
   conexionesAplicacion: string
   comentariosAdicionales: string
-  attachments?: File[]
 }
 
-export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = false, className }: WeeklyReportFormProps) {
+export default function WeeklyReportForm({ onSubmissionSuccess, className }: WeeklyReportFormProps) {
   const [formData, setFormData] = useState<WeeklyReportData>({
     temasYDominio: '',
     evidenciaAprendizaje: '',
     dificultadesEstrategias: '',
     conexionesAplicacion: '',
-    comentariosAdicionales: '',
-    attachments: []
+    comentariosAdicionales: ''
   })
-
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState('')
   const [errors, setErrors] = useState<Record<string, string>>({})
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submissionSuccess, setSubmissionSuccess] = useState(false)
-  const [fieldCompletionStatus, setFieldCompletionStatus] = useState<Record<string, boolean>>({})
-  const [animationStep, setAnimationStep] = useState<'pending' | 'submitting' | 'success'>('pending')
 
   const handleChange = (field: keyof WeeklyReportData, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }))
@@ -41,17 +33,6 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
     if (errors[field]) {
       setErrors(prev => ({ ...prev, [field]: '' }))
     }
-    
-    // Update field completion status
-    const isCompleted = value.trim().length > 10 // Consider field completed if has substantial content
-    setFieldCompletionStatus(prev => ({
-      ...prev,
-      [field]: isCompleted
-    }))
-  }
-
-  const handleFilesChange = (files: File[]) => {
-    setFormData(prev => ({ ...prev, attachments: files }))
   }
 
   const validateForm = (): boolean => {
@@ -81,130 +62,77 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
       return
     }
 
-    setIsSubmitting(true)
-    setAnimationStep('submitting')
+    setIsLoading(true)
+    setError('')
     
     try {
-      await onSubmit(formData)
-      
-      // Success animation sequence
-      setAnimationStep('success')
-      setSubmissionSuccess(true)
-      
-      // Reset form after successful submission
-      setTimeout(() => {
+      const response = await fetch('/api/weekly-reports', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        // Reset form
         setFormData({
           temasYDominio: '',
           evidenciaAprendizaje: '',
           dificultadesEstrategias: '',
           conexionesAplicacion: '',
-          comentariosAdicionales: '',
-          attachments: []
+          comentariosAdicionales: ''
         })
-        setFieldCompletionStatus({})
-        setSubmissionSuccess(false)
-        setAnimationStep('pending')
-      }, 3000)
+        
+        if (onSubmissionSuccess) {
+          onSubmissionSuccess()
+        }
+      } else {
+        const data = await response.json()
+        setError(data.error || 'Error al enviar el reporte')
+      }
       
     } catch (error) {
       console.error('Error submitting form:', error)
-      setAnimationStep('pending')
+      setError('Error al enviar el reporte')
     } finally {
-      setIsSubmitting(false)
+      setIsLoading(false)
     }
-  }
-
-  // Helper function to get field styling based on completion status
-  const getFieldStyling = (field: string, hasError: boolean) => {
-    const baseClass = "mac-input h-32 resize-none transition-all duration-500 ease-in-out"
-    
-    if (hasError) {
-      return `${baseClass} border-red-300 bg-red-50/50`
-    }
-    
-    if (fieldCompletionStatus[field]) {
-      return `${baseClass} border-green-400 bg-green-50/30 shadow-green-100 shadow-sm`
-    }
-    
-    if (formData[field as keyof WeeklyReportData].trim().length > 0) {
-      return `${baseClass} border-yellow-400 bg-yellow-50/30 shadow-yellow-100 shadow-sm`
-    }
-    
-    return `${baseClass} border-gray-300`
-  }
-
-  // Helper function to get container styling based on animation step
-  const getContainerStyling = () => {
-    const baseClass = "mac-card p-8 space-y-6 transition-all duration-1000 ease-in-out"
-    
-    switch (animationStep) {
-      case 'submitting':
-        return `${baseClass} bg-gradient-to-br from-yellow-50 to-orange-50 border-yellow-200`
-      case 'success':
-        return `${baseClass} bg-gradient-to-br from-green-50 to-emerald-50 border-green-200 shadow-green-100 shadow-lg`
-      default:
-        return `${baseClass} bg-white`
-    }
-  }
-
-  if (!canSubmit) {
-    return (
-      <div className={`mac-card p-8 text-center ${className}`}>
-        <div className="text-gray-500 mb-4">
-          <svg className="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-          </svg>
-        </div>
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Registro no disponible</h3>
-        <p className="text-gray-600">
-          Ya enviaste tu registro de esta semana o aún no está disponible para entregar.
-        </p>
-      </div>
-    )
   }
 
   return (
-    <form onSubmit={handleSubmit} className={`${getContainerStyling()} ${className}`}>
-      {submissionSuccess && (
-        <div className="text-center mb-6 animate-bounce">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-green-500 text-white rounded-full mb-4">
-            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 className="text-xl font-bold text-green-800 mb-2">¡Registro Enviado Exitosamente!</h3>
-          <p className="text-green-600">Tu reporte ha sido guardado correctamente.</p>
+    <form onSubmit={handleSubmit} className={`space-y-6 ${className}`}>
+      {error && (
+        <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg">
+          {error}
         </div>
       )}
       
       <div className="text-center mb-8">
-        <h2 className={`text-2xl font-bold mb-2 transition-colors duration-500 ${
-          animationStep === 'success' ? 'text-green-800' : 'text-gray-800'
-        }`}>
+        <h2 className="text-2xl font-bold text-slate-800 mb-2">
           Registro Semanal
         </h2>
-        <p className={`transition-colors duration-500 ${
-          animationStep === 'success' ? 'text-green-600' : 'text-gray-600'
-        }`}>
-          {animationStep === 'success' ? '¡Completado!' : 'Completa tu reporte de progreso de esta semana'}
+        <p className="text-slate-600">
+          Completa tu reporte de progreso de esta semana
         </p>
       </div>
 
       {/* Pregunta 1: Temas y Dominio */}
       <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-slate-700">
           1. Temas trabajados y nivel de dominio <span className="text-red-500">*</span>
         </label>
-        <p className="text-sm text-gray-600 mb-3">
-          Describí los temas que trabajamos esta semana y tu nivel de dominio en cada uno. 
-          Para cada tema, indicá: el nombre del tema, tu nivel de dominio (nivel 1, 2, 3 o 4) y por qué te ubicás en ese nivel.
+        <p className="text-sm text-slate-600 mb-3">
+          Describí los temas que trabajamos esta semana y tu nivel de dominio en cada uno.
         </p>
         <textarea
           value={formData.temasYDominio}
           onChange={(e) => handleChange('temasYDominio', e.target.value)}
-          className={getFieldStyling('temasYDominio', !!errors.temasYDominio)}
+          className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${
+            errors.temasYDominio ? 'border-red-300 bg-red-50' : 'border-slate-300'
+          }`}
           placeholder="Ejemplo: JavaScript - Nivel 3: Puedo crear funciones complejas y trabajar con arrays, pero aún me cuesta con async/await..."
-          disabled={isSubmitting || isLoading}
+          disabled={isLoading}
         />
         {errors.temasYDominio && (
           <p className="text-red-600 text-sm">{errors.temasYDominio}</p>
@@ -213,57 +141,42 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
 
       {/* Pregunta 2: Evidencia de Aprendizaje */}
       <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-slate-700">
           2. Evidencia de aprendizaje <span className="text-red-500">*</span>
         </label>
-        <p className="text-sm text-gray-600 mb-3">
-          Describí un problema o ejercicio específico que hayas resuelto esta semana. 
-          Incluí: el tema, el enunciado (resumido), tu proceso de resolución y el resultado obtenido.
+        <p className="text-sm text-slate-600 mb-3">
+          Describí un problema o ejercicio específico que hayas resuelto esta semana.
         </p>
         <textarea
           value={formData.evidenciaAprendizaje}
           onChange={(e) => handleChange('evidenciaAprendizaje', e.target.value)}
-          className={getFieldStyling('evidenciaAprendizaje', !!errors.evidenciaAprendizaje)}
+          className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${
+            errors.evidenciaAprendizaje ? 'border-red-300 bg-red-50' : 'border-slate-300'
+          }`}
           placeholder="Ejemplo: Resolví un ejercicio de ordenamiento de arrays. El problema era ordenar una lista de estudiantes por nota..."
-          disabled={isSubmitting || isLoading}
+          disabled={isLoading}
         />
         {errors.evidenciaAprendizaje && (
           <p className="text-red-600 text-sm">{errors.evidenciaAprendizaje}</p>
         )}
       </div>
 
-      {/* Archivos de Evidencia */}
-      <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
-          Archivos de evidencia (opcional)
-        </label>
-        <p className="text-sm text-gray-600 mb-3">
-          Podés adjuntar capturas de pantalla, documentos, archivos de código u otros materiales que respalden tu evidencia de aprendizaje.
-        </p>
-        <FileUpload
-          onFilesChange={handleFilesChange}
-          acceptedTypes={['image/*', 'application/pdf', '.doc', '.docx', '.txt', '.js', '.py', '.html', '.css']}
-          maxFiles={5}
-          maxSizeInMB={10}
-          className="w-full"
-        />
-      </div>
-
       {/* Pregunta 3: Dificultades y Estrategias */}
       <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-slate-700">
           3. Dificultades y estrategias <span className="text-red-500">*</span>
         </label>
-        <p className="text-sm text-gray-600 mb-3">
-          ¿Qué aspectos específicos de los temas de esta semana te resultaron más difíciles? 
-          ¿Qué estrategias utilizaste o necesitarías para superarlos?
+        <p className="text-sm text-slate-600 mb-3">
+          ¿Qué aspectos específicos de los temas de esta semana te resultaron más difíciles?
         </p>
         <textarea
           value={formData.dificultadesEstrategias}
           onChange={(e) => handleChange('dificultadesEstrategias', e.target.value)}
-          className={getFieldStyling('dificultadesEstrategias', !!errors.dificultadesEstrategias)}
+          className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${
+            errors.dificultadesEstrategias ? 'border-red-300 bg-red-50' : 'border-slate-300'
+          }`}
           placeholder="Ejemplo: Me resultó difícil entender los closures en JavaScript. Para superarlo, practiqué con ejemplos simples..."
-          disabled={isSubmitting || isLoading}
+          disabled={isLoading}
         />
         {errors.dificultadesEstrategias && (
           <p className="text-red-600 text-sm">{errors.dificultadesEstrategias}</p>
@@ -272,19 +185,20 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
 
       {/* Pregunta 4: Conexiones y Aplicación */}
       <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-slate-700">
           4. Conexiones y aplicación avanzada <span className="text-red-500">*</span>
         </label>
-        <p className="text-sm text-gray-600 mb-3">
-          a) ¿Cómo se conectan los temas de esta semana con otros temas o materias que ya conocés? 
-          b) Proponé un problema o situación más compleja donde se apliquen estos conocimientos.
+        <p className="text-sm text-slate-600 mb-3">
+          ¿Cómo se conectan los temas de esta semana con otros temas o materias que ya conocés?
         </p>
         <textarea
           value={formData.conexionesAplicacion}
           onChange={(e) => handleChange('conexionesAplicacion', e.target.value)}
-          className={getFieldStyling('conexionesAplicacion', !!errors.conexionesAplicacion)}
-          placeholder="Ejemplo: Los arrays se conectan con lo que vimos de bases de datos porque son como tablas... Podría aplicarlo para crear un sistema de inventario..."
-          disabled={isSubmitting || isLoading}
+          className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${
+            errors.conexionesAplicacion ? 'border-red-300 bg-red-50' : 'border-slate-300'
+          }`}
+          placeholder="Ejemplo: Los arrays se conectan con lo que vimos de bases de datos porque son como tablas..."
+          disabled={isLoading}
         />
         {errors.conexionesAplicacion && (
           <p className="text-red-600 text-sm">{errors.conexionesAplicacion}</p>
@@ -293,19 +207,18 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
 
       {/* Pregunta 5: Comentarios Adicionales (Opcional) */}
       <div className="space-y-2">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-slate-700">
           5. Comentarios adicionales (opcional)
         </label>
-        <p className="text-sm text-gray-600 mb-3">
-          ¿Hay algo más que quieras compartir sobre tu experiencia de aprendizaje esta semana? 
-          (Dudas pendientes, sugerencias, comentarios, etc.)
+        <p className="text-sm text-slate-600 mb-3">
+          ¿Hay algo más que quieras compartir sobre tu experiencia de aprendizaje esta semana?
         </p>
         <textarea
           value={formData.comentariosAdicionales}
           onChange={(e) => handleChange('comentariosAdicionales', e.target.value)}
-          className={getFieldStyling('comentariosAdicionales', false).replace('h-32', 'h-24')}
+          className="w-full px-3 py-2 border border-slate-300 rounded-lg h-24 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
           placeholder="Comentarios adicionales, sugerencias, dudas..."
-          disabled={isSubmitting || isLoading}
+          disabled={isLoading}
         />
       </div>
 
@@ -313,27 +226,12 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
       <div className="pt-6">
         <button
           type="submit"
-          disabled={isSubmitting || isLoading || submissionSuccess}
-          className={`w-full py-3 px-6 rounded-xl font-semibold transition-all duration-500 ease-in-out transform ${
-            animationStep === 'success' 
-              ? 'bg-green-500 text-white shadow-lg scale-105' 
-              : animationStep === 'submitting'
-              ? 'bg-yellow-500 text-white shadow-md'
-              : 'mac-button-primary hover:scale-[1.02]'
-          } disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none`}
+          disabled={isLoading}
+          className="w-full py-3 px-6 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {animationStep === 'success' ? (
+          {isLoading ? (
             <div className="flex items-center justify-center gap-2">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              ¡Enviado Exitosamente!
-            </div>
-          ) : isSubmitting ? (
-            <div className="flex items-center justify-center gap-2">
-              <svg className="animate-spin w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-              </svg>
+              <div className="animate-spin w-5 h-5 border-2 border-white border-t-transparent rounded-full"></div>
               Enviando...
             </div>
           ) : (
@@ -342,7 +240,7 @@ export default function WeeklyReportForm({ onSubmit, canSubmit, isLoading = fals
         </button>
       </div>
 
-      <div className="text-sm text-gray-500 text-center">
+      <div className="text-sm text-slate-500 text-center">
         <span className="text-red-500">*</span> Campos requeridos
       </div>
     </form>
