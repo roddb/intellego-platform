@@ -1,0 +1,709 @@
+
+> intellego-platform@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.96:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1445ms
+ ✓ Compiled /middleware in 198ms (210 modules)
+Middleware executing for: /
+ ○ Compiling / ...
+ ✓ Compiled / in 1519ms (1056 modules)
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET / 200 in 2073ms
+ ✓ Compiled in 175ms (367 modules)
+Middleware executing for: /
+ GET / 200 in 61ms
+ ✓ Compiled /api/auth/[...nextauth] in 421ms (1049 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 1459ms
+Middleware executing for: /auth/signin
+ ✓ Compiled /auth/signin in 415ms (1058 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /auth/signin 200 in 570ms
+ GET /api/auth/providers 200 in 17ms
+ GET /api/auth/csrf 200 in 4ms
+ POST /api/auth/callback/credentials 200 in 354ms
+ GET /api/auth/session 200 in 7ms
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 16ms
+Middleware executing for: /dashboard/student
+🔧 Inicializando usuarios por defecto...
+ ○ Compiling /dashboard/student ...
+ ✓ Compiled /dashboard/student in 788ms (1270 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 874ms
+ ✓ Compiled /api/weekly-reports in 378ms (1359 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:24:23.814Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 508ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:24:23.825Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 10ms
+ ✓ Compiled /api/ai-calendar/upcoming-events in 336ms (1361 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+📅 Inicializando datos de calendario demo...
+✅ Datos de calendario demo inicializados
+ GET /api/ai-calendar/upcoming-events 200 in 413ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:24:24.233Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 405ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:24:24.242Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 5ms
+ GET /api/ai-calendar/upcoming-events 200 in 9ms
+ ○ Compiling /api/ai-chat/initialize ...
+ ✓ Compiled /api/ai-chat/initialize in 790ms (1700 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+ POST /api/ai-chat/initialize 200 in 975ms
+ POST /api/ai-chat/initialize 200 in 980ms
+ ✓ Compiled /api/ai-chat/enhanced-message in 425ms (1624 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+ POST /api/ai-chat/enhanced-message 200 in 2128ms
+ POST /api/ai-chat/enhanced-message 200 in 1488ms
+ ✓ Compiled in 584ms (1258 modules)
+Middleware executing for: /dashboard/student
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 118ms
+ ✓ Compiled in 150ms (1258 modules)
+Middleware executing for: /dashboard/student
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 65ms
+ ✓ Compiled /api/ai-chat/enhanced-message in 280ms (828 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+ POST /api/ai-chat/enhanced-message 401 in 394ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 47ms
+ ✓ Compiled /api/auth/[...nextauth] in 331ms (802 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 448ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 48ms
+ ○ Compiling /api/weekly-reports ...
+🔧 Inicializando usuarios por defecto...
+ ✓ Compiled /api/weekly-reports in 626ms (1154 modules)
+Middleware executing for: /dashboard/student
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ ✓ Compiled in 1ms (1230 modules)
+ ✓ Compiled in 1ms (1230 modules)
+ ✓ Compiled in 0ms (1230 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+ POST /api/ai-chat/initialize 200 in 1273ms
+ ✓ Compiled in 1ms (1230 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:38:41.769Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 1466ms
+ GET /dashboard/student 200 in 822ms
+Middleware executing for: /dashboard/student
+ ✓ Compiled in 1ms (1230 modules)
+ ✓ Compiled in 0ms (1230 modules)
+ ✓ Compiled in 0ms (1230 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 748ms
+ ✓ Compiled in 0ms (1230 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 546ms
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+🔧 Inicializando usuarios por defecto...
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:38:42.579Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 403ms
+ POST /api/ai-chat/initialize 200 in 404ms
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+Middleware executing for: /dashboard/student
+ ✓ Compiled in 677ms (1902 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 478ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 12ms
+ ✓ Compiled /api/debug-sara-memory in 392ms (1694 modules)
+🧪 Debug Sara Memory - Action: full_integration_test
+🎯 Running full integration test...
+🧠 Testing persistent memory system...
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+✅ Datos de calendario demo ya existen
+💬 Created conversation session integration-session for user debug-test-student
+💬 Processing message for session integration-session: "Hola Sara, explícame qué son las ecuaciones cuadrá..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session integration-session - 1 turns
+📊 Learning profile updated for debug-test-student: Primary=multimodal, Secondary=none
+🔍 Checking for calendar tasks in message: "Hola Sara, explícame qué son las ecuaciones cuadrá..."
+💬 Updated session integration-session - 2 turns
+💬 Processing message for session integration-session: "Continúa explicando con ejemplos prácticos..."
+📊 Session has 2 previous turns, 0 pending tasks
+💬 Updated session integration-session - 3 turns
+🔍 Checking for calendar tasks in message: "Continúa explicando con ejemplos prácticos..."
+💬 Updated session integration-session - 4 turns
+📋 Added pending task: Examen de matemáticas para el viernes
+💬 Updated session integration-session - 4 turns
+📅 Testing calendar task execution...
+Sending calendar test message: "Agrega una sesión de estudio de matemáticas para mañana a las 3 PM"
+💬 Created conversation session calendar-test-session for user debug-test-student
+💬 Processing message for session calendar-test-session: "Agrega una sesión de estudio de matemáticas para m..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session calendar-test-session - 1 turns
+🔍 Checking for calendar tasks in message: "Agrega una sesión de estudio de matemáticas para m..."
+❌ Error in AI event creation: TypeError: Failed to parse URL from /api/ai-calendar/create-event
+    at createEventFromAI (src/lib/calendar-ai-integration.ts:454:27)
+    at AICalendarIntegration.createPendingEvent (src/lib/calendar-ai-integration.ts:686:25)
+    at AICalendarIntegration.processMessage (src/lib/calendar-ai-integration.ts:634:34)
+    at ContextualConversationManager.handleCalendarTasks (src/lib/contextual-conversation-manager.ts:229:53)
+    at ContextualConversationManager.generateContextualResponse (src/lib/contextual-conversation-manager.ts:521:38)
+    at ContextualConversationManager.processContextualMessage (src/lib/contextual-conversation-manager.ts:127:32)
+    at testCalendarExecution (src/app/api/debug-sara-memory/route.ts:147:55)
+    at fullIntegrationTest (src/app/api/debug-sara-memory/route.ts:263:29)
+    at async POST (src/app/api/debug-sara-memory/route.ts:32:26)
+  452 |     }
+  453 |
+> 454 |     const response = await fetch('/api/ai-calendar/create-event', {
+      |                           ^
+  455 |       method: 'POST',
+  456 |       headers: {
+  457 |         'Content-Type': 'application/json', {
+  [cause]: TypeError: Invalid URL
+      at createEventFromAI (src/lib/calendar-ai-integration.ts:454:27)
+      at AICalendarIntegration.createPendingEvent (src/lib/calendar-ai-integration.ts:686:25)
+      at AICalendarIntegration.processMessage (src/lib/calendar-ai-integration.ts:634:34)
+      at ContextualConversationManager.handleCalendarTasks (src/lib/contextual-conversation-manager.ts:229:53)
+      at ContextualConversationManager.generateContextualResponse (src/lib/contextual-conversation-manager.ts:521:38)
+      at ContextualConversationManager.processContextualMessage (src/lib/contextual-conversation-manager.ts:127:32)
+      at testCalendarExecution (src/app/api/debug-sara-memory/route.ts:147:55)
+      at fullIntegrationTest (src/app/api/debug-sara-memory/route.ts:263:29)
+      at async POST (src/app/api/debug-sara-memory/route.ts:32:26)
+    452 |     }
+    453 |
+  > 454 |     const response = await fetch('/api/ai-calendar/create-event', {
+        |                           ^
+    455 |       method: 'POST',
+    456 |       headers: {
+    457 |         'Content-Type': 'application/json', {
+    code: 'ERR_INVALID_URL',
+    input: '/api/ai-calendar/create-event'
+  }
+}
+🎯 Calendar task detected and executed!
+📅 Calendar task executed: calendar_event_creation
+💬 Updated session calendar-test-session - 2 turns
+💬 Testing conversation coherence...
+Sending message 1: "Sara, necesito ayuda con física, específicamente con cinemática"
+💬 Created conversation session coherence-session for user debug-test-student
+💬 Processing message for session coherence-session: "Sara, necesito ayuda con física, específicamente c..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 1 turns
+🔍 Checking for calendar tasks in message: "Sara, necesito ayuda con física, específicamente c..."
+💬 Updated session coherence-session - 2 turns
+Sending message 2: "Explícame qué es el movimiento rectilíneo uniforme"
+💬 Processing message for session coherence-session: "Explícame qué es el movimiento rectilíneo uniforme..."
+📊 Session has 2 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 3 turns
+📊 Learning profile updated for debug-test-student: Primary=multimodal, Secondary=none
+🔍 Checking for calendar tasks in message: "Explícame qué es el movimiento rectilíneo uniforme..."
+💬 Updated session coherence-session - 4 turns
+Sending message 3: "¿Puedes darme ejemplos de la vida real?"
+💬 Processing message for session coherence-session: "¿Puedes darme ejemplos de la vida real?..."
+📊 Session has 4 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 5 turns
+🔍 Checking for calendar tasks in message: "¿Puedes darme ejemplos de la vida real?..."
+💬 Updated session coherence-session - 6 turns
+ POST /api/debug-sara-memory 200 in 9744ms
+ ✓ Compiled in 241ms (821 modules)
+🧪 Debug Sara Memory - Action: test_calendar_execution
+📅 Testing calendar task execution...
+✅ Datos de calendario demo ya existen
+Sending calendar test message: "Sara, agrega un examen de química para el viernes 25 de julio a las 9 AM en aula 104"
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+💬 Created conversation session calendar-test-session for user debug-test-student-2
+💬 Processing message for session calendar-test-session: "Sara, agrega un examen de química para el viernes ..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session calendar-test-session - 1 turns
+🔍 Checking for calendar tasks in message: "Sara, agrega un examen de química para el viernes ..."
+🔄 Using temp-storage system for reliability
+Direct API call failed, trying alternative approach: TypeError: createCalendarEvent is not a function
+    at createEventFromAI (src/lib/calendar-ai-integration.ts:460:29)
+    at AICalendarIntegration.createPendingEvent (src/lib/calendar-ai-integration.ts:722:25)
+    at AICalendarIntegration.processMessage (src/lib/calendar-ai-integration.ts:670:34)
+    at ContextualConversationManager.handleCalendarTasks (src/lib/contextual-conversation-manager.ts:229:53)
+    at ContextualConversationManager.generateContextualResponse (src/lib/contextual-conversation-manager.ts:521:38)
+    at ContextualConversationManager.processContextualMessage (src/lib/contextual-conversation-manager.ts:127:32)
+    at testCalendarExecution (src/app/api/debug-sara-memory/route.ts:147:55)
+    at POST (src/app/api/debug-sara-memory/route.ts:24:32)
+  458 |         json: async () => eventData
+  459 |       }
+> 460 |       const response = await createCalendarEvent(mockRequest as any)
+      |                             ^
+  461 |       const result = await response.json()
+  462 |       
+  463 |       return {
+🎯 Calendar task detected and executed!
+📅 Calendar task executed: calendar_event_creation
+💬 Updated session calendar-test-session - 2 turns
+ POST /api/debug-sara-memory 200 in 143ms
+ ✓ Compiled in 128ms (821 modules)
+🧪 Debug Sara Memory - Action: test_calendar_execution
+📅 Testing calendar task execution...
+✅ Datos de calendario demo ya existen
+Sending calendar test message: "Sara, agrega un examen de matemáticas para el viernes a las 10 AM"
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+💬 Created conversation session calendar-test-session for user debug-test-student-3
+💬 Processing message for session calendar-test-session: "Sara, agrega un examen de matemáticas para el vier..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session calendar-test-session - 1 turns
+🔍 Checking for calendar tasks in message: "Sara, agrega un examen de matemáticas para el vier..."
+🎯 Calendar task detected and executed!
+📅 Calendar task executed: calendar_event_creation
+💬 Updated session calendar-test-session - 2 turns
+ POST /api/debug-sara-memory 200 in 73ms
+🧪 Debug Sara Memory - Action: test_calendar_execution
+📅 Testing calendar task execution...
+Sending calendar test message: "Sara, agrega un examen de matemáticas para el viernes a las 10 AM en aula 203"
+💬 Created conversation session calendar-test-session for user debug-test-student-4
+💬 Processing message for session calendar-test-session: "Sara, agrega un examen de matemáticas para el vier..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session calendar-test-session - 1 turns
+🔍 Checking for calendar tasks in message: "Sara, agrega un examen de matemáticas para el vier..."
+🔄 Using temp-storage system for reliability
+Direct API call failed, trying alternative approach: TypeError: createCalendarEvent is not a function
+    at createEventFromAI (src/lib/calendar-ai-integration.ts:460:29)
+    at AICalendarIntegration.createPendingEvent (src/lib/calendar-ai-integration.ts:730:25)
+    at AICalendarIntegration.processMessage (src/lib/calendar-ai-integration.ts:678:34)
+    at ContextualConversationManager.handleCalendarTasks (src/lib/contextual-conversation-manager.ts:229:53)
+    at ContextualConversationManager.generateContextualResponse (src/lib/contextual-conversation-manager.ts:521:38)
+    at ContextualConversationManager.processContextualMessage (src/lib/contextual-conversation-manager.ts:127:32)
+    at testCalendarExecution (src/app/api/debug-sara-memory/route.ts:147:55)
+    at POST (src/app/api/debug-sara-memory/route.ts:24:32)
+  458 |         json: async () => eventData
+  459 |       }
+> 460 |       const response = await createCalendarEvent(mockRequest as any)
+      |                             ^
+  461 |       const result = await response.json()
+  462 |       
+  463 |       return {
+🆕 Creating calendar data for user debug-test-student-4
+📅 Creating event: Examen de Matemáticas for 2025-07-22T13:44:30.366Z at 10:00
+📅 Evento agregado: Examen de Matemáticas - Total eventos: 1
+🎯 Calendar task detected and executed!
+📅 Calendar task executed: calendar_event_creation
+💬 Updated session calendar-test-session - 2 turns
+ POST /api/debug-sara-memory 200 in 93ms
+🧪 Debug Sara Memory - Action: full_integration_test
+🎯 Running full integration test...
+🧠 Testing persistent memory system...
+💬 Created conversation session integration-session for user final-test-student
+💬 Processing message for session integration-session: "Hola Sara, explícame qué son las ecuaciones cuadrá..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session integration-session - 1 turns
+📊 Learning profile updated for final-test-student: Primary=multimodal, Secondary=none
+🔍 Checking for calendar tasks in message: "Hola Sara, explícame qué son las ecuaciones cuadrá..."
+💬 Updated session integration-session - 2 turns
+💬 Processing message for session integration-session: "Continúa explicando con ejemplos prácticos..."
+📊 Session has 2 previous turns, 0 pending tasks
+💬 Updated session integration-session - 3 turns
+🔍 Checking for calendar tasks in message: "Continúa explicando con ejemplos prácticos..."
+💬 Updated session integration-session - 4 turns
+📋 Added pending task: Examen de matemáticas para el viernes
+💬 Updated session integration-session - 4 turns
+📅 Testing calendar task execution...
+Sending calendar test message: "Agrega una sesión de estudio de matemáticas para mañana a las 3 PM"
+💬 Created conversation session calendar-test-session for user final-test-student
+💬 Processing message for session calendar-test-session: "Agrega una sesión de estudio de matemáticas para m..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session calendar-test-session - 1 turns
+🔍 Checking for calendar tasks in message: "Agrega una sesión de estudio de matemáticas para m..."
+Direct API call failed, trying alternative approach: TypeError: createCalendarEvent is not a function
+    at createEventFromAI (src/lib/calendar-ai-integration.ts:460:29)
+    at AICalendarIntegration.createPendingEvent (src/lib/calendar-ai-integration.ts:730:25)
+    at AICalendarIntegration.processMessage (src/lib/calendar-ai-integration.ts:678:34)
+    at ContextualConversationManager.handleCalendarTasks (src/lib/contextual-conversation-manager.ts:229:53)
+    at ContextualConversationManager.generateContextualResponse (src/lib/contextual-conversation-manager.ts:521:38)
+    at ContextualConversationManager.processContextualMessage (src/lib/contextual-conversation-manager.ts:127:32)
+    at testCalendarExecution (src/app/api/debug-sara-memory/route.ts:147:55)
+    at fullIntegrationTest (src/app/api/debug-sara-memory/route.ts:263:29)
+    at async POST (src/app/api/debug-sara-memory/route.ts:32:26)
+  458 |         json: async () => eventData
+  459 |       }
+> 460 |       const response = await createCalendarEvent(mockRequest as any)
+      |                             ^
+  461 |       const result = await response.json()
+  462 |       
+  463 |       return {
+🆕 Creating calendar data for user final-test-student
+📅 Creating event: Sesión de Estudio - Estudio for 2025-07-22T13:48:36.715Z at 15:00
+📅 Evento agregado: Sesión de Estudio - Estudio - Total eventos: 1
+🎯 Calendar task detected and executed!
+📅 Calendar task executed: calendar_event_creation
+💬 Updated session calendar-test-session - 2 turns
+💬 Testing conversation coherence...
+Sending message 1: "Sara, necesito ayuda con física, específicamente con cinemática"
+💬 Created conversation session coherence-session for user final-test-student
+💬 Processing message for session coherence-session: "Sara, necesito ayuda con física, específicamente c..."
+📊 Session has 0 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 1 turns
+🔍 Checking for calendar tasks in message: "Sara, necesito ayuda con física, específicamente c..."
+💬 Updated session coherence-session - 2 turns
+Sending message 2: "Explícame qué es el movimiento rectilíneo uniforme"
+💬 Processing message for session coherence-session: "Explícame qué es el movimiento rectilíneo uniforme..."
+📊 Session has 2 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 3 turns
+📊 Learning profile updated for final-test-student: Primary=multimodal, Secondary=none
+🔍 Checking for calendar tasks in message: "Explícame qué es el movimiento rectilíneo uniforme..."
+💬 Updated session coherence-session - 4 turns
+Sending message 3: "¿Puedes darme ejemplos de la vida real?"
+💬 Processing message for session coherence-session: "¿Puedes darme ejemplos de la vida real?..."
+📊 Session has 4 previous turns, 0 pending tasks
+💬 Updated session coherence-session - 5 turns
+🔍 Checking for calendar tasks in message: "¿Puedes darme ejemplos de la vida real?..."
+💬 Updated session coherence-session - 6 turns
+ POST /api/debug-sara-memory 200 in 9960ms
+Middleware executing for: /
+ ✓ Compiled / in 295ms (802 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET / 200 in 462ms
+ ✓ Compiled /api/auth/[...nextauth] in 212ms (808 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 298ms
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+Middleware executing for: /auth/signin
+ GET /auth/signin 200 in 36ms
+ GET /api/auth/providers 200 in 15ms
+ GET /api/auth/csrf 200 in 5ms
+ POST /api/auth/callback/credentials 200 in 321ms
+🔧 Inicializando usuarios por defecto...
+ GET /api/auth/session 200 in 10ms
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 11ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 34ms
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ ✓ Compiled /api/weekly-reports in 380ms (897 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:53:17.990Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 497ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:53:18.005Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 11ms
+ ✓ Compiled /api/ai-calendar/upcoming-events in 161ms (899 modules)
+Middleware executing for: /dashboard/student
+ ✓ Compiled in 1ms (899 modules)
+ ✓ Compiled in 0ms (899 modules)
+ ✓ Compiled in 1ms (899 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+ GET /api/ai-calendar/upcoming-events 200 in 495ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:53:18.492Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 486ms
+ ✓ Compiled in 1ms (899 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /dashboard/student 200 in 467ms
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+ GET /api/ai-calendar/upcoming-events 200 in 282ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-21T13:53:18.778Z
+  Week start: 2025-07-21T03:00:00.000Z
+  Week end: 2025-07-28T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 285ms
+ ✓ Compiled /api/ai-chat/initialize in 428ms (1239 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+ POST /api/ai-chat/initialize 200 in 561ms
+ POST /api/ai-chat/initialize 200 in 566ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 44ms
+ ✓ Compiled /api/ai-chat/enhanced-message in 385ms (1249 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 38ms
+ POST /api/ai-chat/enhanced-message 200 in 1933ms
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+ POST /api/ai-chat/initialize 200 in 95ms
+ POST /api/ai-chat/initialize 200 in 96ms
+ POST /api/ai-chat/enhanced-message 200 in 1400ms
+ POST /api/ai-chat/enhanced-message 200 in 1255ms
+ ✓ Compiled in 1204ms (1278 modules)
+ ✓ Compiled in 286ms (1278 modules)
+ ✓ Compiled in 340ms (1278 modules)
+ ✓ Compiled in 271ms (1278 modules)
+ ✓ Compiled in 173ms (476 modules)
+ ✓ Compiled in 165ms (476 modules)
+ ✓ Compiled in 130ms (476 modules)
+Middleware executing for: /
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET / 200 in 239ms
+ ✓ Compiled in 431ms (476 modules)
+Middleware executing for: /
+ GET / 200 in 47ms
+ ○ Compiling /api/ai-chat/initialize ...
+ ✓ Compiled /api/ai-chat/initialize in 664ms (1159 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+✅ Novu notification service initialized successfully
+📱 Push notifications, email, and SMS are now available
+ POST /api/ai-chat/initialize 401 in 916ms
+ ✓ Compiled /api/ai-chat/enhanced-message in 252ms (1169 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+✅ Datos de calendario demo ya existen
+ POST /api/ai-chat/enhanced-message 401 in 323ms
+ POST /api/ai-chat/enhanced-message 401 in 4ms
+ POST /api/ai-chat/enhanced-message 401 in 3ms
+ ✓ Compiled in 202ms (802 modules)
+ ✓ Compiled in 284ms (476 modules)
+🧹 Cleaned up 9 old conversation sessions
+Middleware executing for: /
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET / 200 in 568ms
+Middleware executing for: /auth/signin
+ GET /auth/signin 200 in 54ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 939ms (808 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+ GET /api/auth/providers 200 in 1183ms
+ GET /api/auth/csrf 200 in 7ms
+ POST /api/auth/callback/credentials 200 in 436ms
+ GET /api/auth/session 200 in 22ms
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ GET /api/auth/session 200 in 12ms
+Middleware executing for: /dashboard/student
+ GET /dashboard/student 200 in 175ms
+🔧 Inicializando usuarios por defecto...
+✅ Usuario estudiante demo creado
+✅ Usuario instructor demo creado
+✅ Verificación de usuarios por defecto completada
+📝 Inicializando reportes de muestra...
+✅ Reportes de muestra creados exitosamente
+🔄 Using temp-storage system for reliability
+ ○ Compiling /api/weekly-reports ...
+ ✓ Compiled /api/weekly-reports in 570ms (897 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-28T14:44:17.141Z
+  Week start: 2025-07-28T03:00:00.000Z
+  Week end: 2025-08-04T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 1052ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-28T14:44:17.161Z
+  Week start: 2025-07-28T03:00:00.000Z
+  Week end: 2025-08-04T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 18ms
+ ✓ Compiled /api/ai-calendar/upcoming-events in 170ms (899 modules)
+✅ Usuarios demo ya existen, no se reinicializan
+✅ Reportes de muestra ya existen, no se reinicializan
+🔄 Using temp-storage system for reliability
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-28T14:44:17.525Z
+  Week start: 2025-07-28T03:00:00.000Z
+  Week end: 2025-08-04T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 360ms
+✅ Datos de calendario demo ya existen
+ GET /api/ai-calendar/upcoming-events 200 in 379ms
+🔍 Debug canSubmitThisWeek for user demo-student-fixed:
+  Current date: 2025-07-28T14:44:17.542Z
+  Week start: 2025-07-28T03:00:00.000Z
+  Week end: 2025-08-04T02:59:59.999Z
+  Is current week: true
+  Existing report: NO
+  Can submit: true
+ GET /api/weekly-reports 200 in 13ms
+ GET /api/ai-calendar/upcoming-events 200 in 14ms

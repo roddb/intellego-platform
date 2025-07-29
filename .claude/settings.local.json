@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(lsof:*)",
+      "Bash(HOST=0.0.0.0 PORT=3001 npm run dev)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(NODE_ENV=development npm run dev)",
+      "Bash(npx prisma:*)",
+      "Bash(npx next dev:*)",
+      "Bash(ls:*)",
+      "Bash(kill:*)",
+      "Bash(rm:*)",
+      "Bash(npm run lint)",
+      "Bash(npx tsx:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(npm cache clean:*)",
+      "Bash(npx tsc:*)",
+      "Bash(grep:*)",
+      "mcp__ide__executeCode",
+      "Bash(node:*)",
+      "WebFetch(domain:dashboard-v2.novu.co)",
+      "Bash(chmod:*)",
+      "Bash(./test-sara.sh:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}
