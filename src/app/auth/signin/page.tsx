@@ -1,10 +1,9 @@
 "use client"
 
 import { signIn, getSession } from "next-auth/react"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-import ParticleStrand from "@/components/ParticleStrand"
 
 export default function SignIn() {
   const [email, setEmail] = useState("")
@@ -15,17 +14,7 @@ export default function SignIn() {
     email: "",
     password: ""
   })
-  const [isTransitioning, setIsTransitioning] = useState(false)
-  
   const router = useRouter()
-  
-  useEffect(() => {
-    // Add entrance animation to login card
-    const loginCard = document.querySelector('.mac-card')
-    if (loginCard) {
-      loginCard.classList.add('login-card-transition')
-    }
-  }, [])
 
   const validateEmail = (email: string) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -77,28 +66,12 @@ export default function SignIn() {
       if (result?.error) {
         setError("Credenciales inválidas")
       } else {
-        setIsTransitioning(true)
-        
-        // Add shimmer effect to login card
-        const loginCard = document.querySelector('.mac-card')
-        if (loginCard) {
-          const shimmerDiv = document.createElement('div')
-          shimmerDiv.className = 'shimmer-overlay'
-          loginCard.appendChild(shimmerDiv)
-          
-          // Add glow effect
-          loginCard.classList.add('glow-effect')
+        const session = await getSession()
+        if (session?.user?.role === "INSTRUCTOR") {
+          router.push("/dashboard/instructor")
+        } else {
+          router.push("/dashboard/student")
         }
-        
-        // Wait for transition effects before navigating
-        setTimeout(async () => {
-          const session = await getSession()
-          if (session?.user?.role === "INSTRUCTOR") {
-            router.push("/dashboard/instructor")
-          } else {
-            router.push("/dashboard/student")
-          }
-        }, 1500)
       }
     } catch (error) {
       setError("Error al iniciar sesión")
@@ -108,26 +81,19 @@ export default function SignIn() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-6 login-page relative">
-      {/* Particle Strand Background */}
-      <ParticleStrand 
-        particleCount={30}
-        connectionDistance={150}
-        className="absolute inset-0"
-      />
-      
-      <div className={`mac-card login-card-enhanced p-12 max-w-md w-full relative overflow-hidden ${isTransitioning ? 'page-transition-exit' : ''}`}>
-        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg" style={{ background: 'linear-gradient(135deg, var(--silver-tree), var(--sea-nymph))' }}>
+    <main className="min-h-screen flex items-center justify-center p-6 bg-slate-50">
+      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-teal-500 shadow-lg">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
         </div>
         
-        <h1 className="text-3xl font-bold mb-2 text-center" style={{ color: 'var(--heavy-metal)' }}>
+        <h1 className="text-3xl font-bold mb-2 text-center text-slate-800">
           Iniciar Sesión
         </h1>
         
-        <p className="mb-8 text-center text-sm" style={{ color: 'var(--granite-green)' }}>
+        <p className="mb-8 text-center text-sm text-slate-600">
           Accede a tu cuenta de Intellego Platform
         </p>
 
@@ -139,7 +105,7 @@ export default function SignIn() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+            <label htmlFor="email" className="block text-sm font-semibold mb-2 text-slate-700">
               Email
             </label>
             <input
@@ -147,7 +113,7 @@ export default function SignIn() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className={`mac-input ${fieldErrors.email ? 'border-red-300 focus:border-red-500 focus:ring-red-500' : ''}`}
+              className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${fieldErrors.email ? 'border-red-300' : 'border-slate-300'}`}
               required
             />
             {fieldErrors.email && (
@@ -156,7 +122,7 @@ export default function SignIn() {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+            <label htmlFor="password" className="block text-sm font-semibold mb-2 text-slate-700">
               Contraseña
             </label>
             <input
@@ -164,7 +130,7 @@ export default function SignIn() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className={`mac-input ${fieldErrors.password ? 'border-red-300 focus:border-red-500 focus:ring-red-500' : ''}`}
+              className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${fieldErrors.password ? 'border-red-300' : 'border-slate-300'}`}
               required
             />
             {fieldErrors.password && (
@@ -176,7 +142,7 @@ export default function SignIn() {
           <button
             type="submit"
             disabled={isLoading}
-            className="mac-button-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isLoading ? "Iniciando sesión..." : "Iniciar Sesión"}
           </button>
@@ -197,9 +163,9 @@ export default function SignIn() {
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-sm" style={{ color: 'var(--granite-green)' }}>
+          <p className="text-sm text-slate-600">
             ¿No tienes cuenta?{" "}
-            <Link href="/auth/signup" className="font-semibold hover:opacity-80 transition-opacity" style={{ color: 'var(--silver-tree)' }}>
+            <Link href="/auth/signup" className="font-semibold text-teal-600 hover:text-teal-700 transition-colors">
               Regístrate aquí
             </Link>
           </p>

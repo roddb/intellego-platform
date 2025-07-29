@@ -707,3 +707,288 @@ Middleware executing for: /dashboard/student
   Can submit: true
  GET /api/weekly-reports 200 in 13ms
  GET /api/ai-calendar/upcoming-events 200 in 14ms
+   Reload env: .env
+ ✓ Compiled in 708ms (1474 modules)
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/AITutor.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/AITutor.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/AITutor.tsx
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/DynamicBreadcrumbs.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/DynamicBreadcrumbs.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/DynamicBreadcrumbs.tsx
+./src/components/Navigation.tsx
+./src/app/dashboard/student/page.tsx
+Middleware executing for: /
+ ○ Compiling /_error ...
+ ⨯ ./src/components/DynamicBreadcrumbs.tsx
+Error: Failed to read source code from /Users/rodrigodibernardo33gmail.com/Documents/App Development Proyects/Intellego Platform/src/components/DynamicBreadcrumbs.tsx
+
+Caused by:
+    No such file or directory (os error 2)
+
+Import trace for requested module:
+./src/components/DynamicBreadcrumbs.tsx
+./src/components/Navigation.tsx
+./src/app/dashboard/student/page.tsx
+ GET / 500 in 2457ms
+Middleware executing for: /
+ GET / 500 in 15ms
+ ⨯ ./src/components/WeeklyReportForm.tsx:4:1
+Module not found: Can't resolve './FileUpload'
+  2 |
+  3 | import { useState, useEffect } from 'react'
+> 4 | import FileUpload from './FileUpload'
+    | ^
+  5 |
+  6 | interface WeeklyReportFormProps {
+  7 |   onSubmit: (data: WeeklyReportData) => Promise<void>
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/WeeklyReportForm.tsx:4:1
+Module not found: Can't resolve './FileUpload'
+  2 |
+  3 | import { useState, useEffect } from 'react'
+> 4 | import FileUpload from './FileUpload'
+    | ^
+  5 |
+  6 | interface WeeklyReportFormProps {
+  7 |   onSubmit: (data: WeeklyReportData) => Promise<void>
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/dashboard/student/page.tsx
+ ⨯ ./src/components/WeeklyReportForm.tsx:4:1
+Module not found: Can't resolve './FileUpload'
+  2 |
+  3 | import { useState, useEffect } from 'react'
+> 4 | import FileUpload from './FileUpload'
+    | ^
+  5 |
+  6 | interface WeeklyReportFormProps {
+  7 |   onSubmit: (data: WeeklyReportData) => Promise<void>
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/dashboard/student/page.tsx
