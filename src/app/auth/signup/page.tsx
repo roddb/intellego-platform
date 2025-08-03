@@ -11,10 +11,10 @@ export default function SignUp() {
     email: "",
     password: "",
     confirmPassword: "",
-    role: "STUDENT",
-    program: "",
-    phoneNumber: "",
-    dateOfBirth: ""
+    sede: "",
+    academicYear: "",
+    division: "",
+    subjects: [] as string[]
   })
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
@@ -24,36 +24,49 @@ export default function SignUp() {
     email: "",
     password: "",
     confirmPassword: "",
-    program: "",
-    phoneNumber: ""
+    sede: "",
+    academicYear: "",
+    division: "",
+    subjects: ""
   })
   
   const router = useRouter()
 
+  // Academic year and division mapping
+  const DIVISION_OPTIONS = {
+    "4to Año": ["C", "D", "E"],
+    "5to Año": ["A", "B", "C", "D"]
+  }
+
   // Real-time validation functions
-  const validateField = (name: string, value: string) => {
+  const validateField = (name: string, value: string | string[]) => {
     let error = ""
     
     switch (name) {
       case "name":
-        if (value.length < 2) error = "El nombre debe tener al menos 2 caracteres"
+        if ((value as string).length < 2) error = "El nombre debe tener al menos 2 caracteres"
         break
       case "email":
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-        if (!emailRegex.test(value)) error = "Email inválido"
+        if (!emailRegex.test(value as string)) error = "Email inválido"
         break
       case "password":
-        if (value.length < 6) error = "La contraseña debe tener al menos 6 caracteres"
+        if ((value as string).length < 6) error = "La contraseña debe tener al menos 6 caracteres"
         break
       case "confirmPassword":
         if (value !== formData.password) error = "Las contraseñas no coinciden"
         break
-      case "program":
-        if (formData.role === "STUDENT" && value.length < 2) error = "El programa es requerido para estudiantes"
+      case "sede":
+        if (!(value as string)) error = "Selecciona una sede"
         break
-      case "phoneNumber":
-        const phoneRegex = /^[+]?[\d\s-()]{10,}$/
-        if (value && !phoneRegex.test(value)) error = "Formato de teléfono inválido"
+      case "academicYear":
+        if (!(value as string)) error = "Selecciona un año académico"
+        break
+      case "division":
+        if (!(value as string)) error = "Selecciona una división"
+        break
+      case "subjects":
+        if ((value as string[]).length === 0) error = "Selecciona al menos una materia"
         break
     }
     
@@ -68,12 +81,13 @@ export default function SignUp() {
     setSuccess("")
 
     // Validate all fields
-    const isValid = Object.keys(formData).every(key => {
-      if (key === "confirmPassword" || key === "dateOfBirth") return true
-      return validateField(key, formData[key as keyof typeof formData])
+    const fieldsToValidate = ['name', 'email', 'password', 'sede', 'academicYear', 'division', 'subjects']
+    const isValid = fieldsToValidate.every(key => {
+      const value = key === 'subjects' ? formData.subjects : formData[key as keyof typeof formData]
+      return validateField(key, value)
     })
 
-    if (!isValid || formData.password !== formData.confirmPassword) {
+    if (!isValid || formData.password !== formData.confirmPassword || formData.subjects.length === 0) {
       setError("Por favor corrige los errores en el formulario")
       setIsLoading(false)
       return
@@ -89,10 +103,10 @@ export default function SignUp() {
           name: formData.name,
           email: formData.email,
           password: formData.password,
-          role: formData.role,
-          program: formData.program || undefined,
-          phoneNumber: formData.phoneNumber || undefined,
-          dateOfBirth: formData.dateOfBirth ? new Date(formData.dateOfBirth) : undefined,
+          sede: formData.sede,
+          academicYear: formData.academicYear,
+          division: formData.division,
+          subjects: formData.subjects.join(','), // Convert array to comma-separated string
         }),
       })
 
@@ -108,7 +122,7 @@ export default function SignUp() {
 
         if (result?.ok) {
           setTimeout(() => {
-            router.push(formData.role === "INSTRUCTOR" ? "/dashboard/instructor" : "/dashboard/student")
+            router.push("/dashboard/student")
           }, 1000)
         }
       } else {
@@ -123,14 +137,28 @@ export default function SignUp() {
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = e.target
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }))
+    const { name, value, type } = e.target
     
-    // Real-time validation
-    validateField(name, value)
+    if (type === 'checkbox') {
+      const checkbox = e.target as HTMLInputElement
+      setFormData(prev => {
+        const newSubjects = checkbox.checked 
+          ? [...prev.subjects, value]
+          : prev.subjects.filter(s => s !== value)
+        return { ...prev, subjects: newSubjects }
+      })
+      validateField('subjects', formData.subjects)
+    } else {
+      setFormData(prev => {
+        const newData = { ...prev, [name]: value }
+        // Reset division when academic year changes
+        if (name === 'academicYear') {
+          newData.division = ""
+        }
+        return newData
+      })
+      validateField(name, value)
+    }
   }
 
   return (
@@ -200,75 +228,102 @@ export default function SignUp() {
           </div>
 
           <div>
-            <label htmlFor="role" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
-              Tipo de Usuario
+            <label htmlFor="sede" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+              Sede
             </label>
             <select
-              id="role"
-              name="role"
-              value={formData.role}
+              id="sede"
+              name="sede"
+              value={formData.sede}
               onChange={handleChange}
-              className="mac-input"
+              className={`mac-input ${validationErrors.sede ? 'border-red-300' : 'border-gray-200'}`}
               required
             >
-              <option value="STUDENT">Estudiante</option>
-              <option value="INSTRUCTOR">Instructor</option>
+              <option value="">Selecciona sede</option>
+              <option value="Congreso">Congreso</option>
+              <option value="Colegiales">Colegiales</option>
             </select>
-          </div>
-
-          {formData.role === "STUDENT" && (
-            <div>
-              <label htmlFor="program" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
-                Programa de Estudios
-              </label>
-              <input
-                id="program"
-                name="program"
-                type="text"
-                value={formData.program}
-                onChange={handleChange}
-                className={`mac-input ${validationErrors.program ? 'border-red-300' : 'border-gray-200'}`}
-                placeholder="Ej: Ingeniería en Sistemas"
-                required={formData.role === "STUDENT"}
-              />
-              {validationErrors.program && (
-                <p className="text-red-500 text-xs mt-1">{validationErrors.program}</p>
-              )}
-            </div>
-          )}
-
-          <div>
-            <label htmlFor="phoneNumber" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
-              Número de Teléfono (Opcional)
-            </label>
-            <input
-              id="phoneNumber"
-              name="phoneNumber"
-              type="tel"
-              value={formData.phoneNumber}
-              onChange={handleChange}
-              className={`mac-input ${validationErrors.phoneNumber ? 'border-red-300' : 'border-gray-200'}`}
-              placeholder="+1234567890"
-            />
-            {validationErrors.phoneNumber && (
-              <p className="text-red-500 text-xs mt-1">{validationErrors.phoneNumber}</p>
+            {validationErrors.sede && (
+              <p className="text-red-500 text-xs mt-1">{validationErrors.sede}</p>
             )}
           </div>
 
           <div>
-            <label htmlFor="dateOfBirth" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
-              Fecha de Nacimiento (Opcional)
+            <label htmlFor="academicYear" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+              Año Académico
             </label>
-            <input
-              id="dateOfBirth"
-              name="dateOfBirth"
-              type="date"
-              value={formData.dateOfBirth}
+            <select
+              id="academicYear"
+              name="academicYear"
+              value={formData.academicYear}
               onChange={handleChange}
-              className="mac-input"
-            />
+              className={`mac-input ${validationErrors.academicYear ? 'border-red-300' : 'border-gray-200'}`}
+              required
+            >
+              <option value="">Selecciona año</option>
+              <option value="4to Año">4to Año</option>
+              <option value="5to Año">5to Año</option>
+            </select>
+            {validationErrors.academicYear && (
+              <p className="text-red-500 text-xs mt-1">{validationErrors.academicYear}</p>
+            )}
           </div>
 
+          <div>
+            <label htmlFor="division" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+              División
+            </label>
+            <select
+              id="division"
+              name="division"
+              value={formData.division}
+              onChange={handleChange}
+              className={`mac-input ${validationErrors.division ? 'border-red-300' : 'border-gray-200'}`}
+              required
+              disabled={!formData.academicYear}
+            >
+              <option value="">Selecciona división</option>
+              {formData.academicYear && DIVISION_OPTIONS[formData.academicYear as keyof typeof DIVISION_OPTIONS]?.map(div => (
+                <option key={div} value={div}>{div}</option>
+              ))}
+            </select>
+            {validationErrors.division && (
+              <p className="text-red-500 text-xs mt-1">{validationErrors.division}</p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>
+              Materias que cursas conmigo
+            </label>
+            <div className="space-y-2">
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  name="subjects"
+                  value="Física"
+                  checked={formData.subjects.includes('Física')}
+                  onChange={handleChange}
+                  className="mr-2"
+                />
+                <span>Física</span>
+              </label>
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  name="subjects"
+                  value="Química"
+                  checked={formData.subjects.includes('Química')}
+                  onChange={handleChange}
+                  className="mr-2"
+                />
+                <span>Química</span>
+              </label>
+            </div>
+            {validationErrors.subjects && (
+              <p className="text-red-500 text-xs mt-1">{validationErrors.subjects}</p>
+            )}
+          </div>
 
           <div>
             <label htmlFor="password" className="block text-sm font-semibold mb-2" style={{ color: 'var(--heavy-metal)' }}>

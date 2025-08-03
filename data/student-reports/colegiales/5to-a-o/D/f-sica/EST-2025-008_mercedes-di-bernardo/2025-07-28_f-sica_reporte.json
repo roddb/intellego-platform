@@ -1,0 +1,25 @@
+{
+  "student": {
+    "id": "EST-2025-008",
+    "name": "Mercedes Di Bernardo",
+    "email": "mercedes.dibernardo@gmail.com"
+  },
+  "academic": {
+    "sede": "Colegiales",
+    "year": "5to Año",
+    "division": "D",
+    "subject": "Física"
+  },
+  "week": {
+    "start": "2025-07-28",
+    "end": "2025-08-04"
+  },
+  "submittedAt": "2025-07-31T04:25:32.769Z",
+  "answers": {
+    "temasYDominio": "Prueba",
+    "evidenciaAprendizaje": "de",
+    "dificultadesEstrategias": "datos",
+    "conexionesAplicacion": "nueva",
+    "comentariosAdicionales": "mercedes"
+  }
+}

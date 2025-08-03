@@ -3,6 +3,7 @@
 import { useState } from 'react'
 
 interface WeeklyReportFormProps {
+  subject: string
   onSubmissionSuccess?: () => void
   className?: string
 }
@@ -15,7 +16,7 @@ interface WeeklyReportData {
   comentariosAdicionales: string
 }
 
-export default function WeeklyReportForm({ onSubmissionSuccess, className }: WeeklyReportFormProps) {
+export default function WeeklyReportForm({ subject, onSubmissionSuccess, className }: WeeklyReportFormProps) {
   const [formData, setFormData] = useState<WeeklyReportData>({
     temasYDominio: '',
     evidenciaAprendizaje: '',
@@ -71,7 +72,7 @@ export default function WeeklyReportForm({ onSubmissionSuccess, className }: Wee
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, subject }),
       })
 
       if (response.ok) {
@@ -110,10 +111,10 @@ export default function WeeklyReportForm({ onSubmissionSuccess, className }: Wee
       
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-slate-800 mb-2">
-          Registro Semanal
+          Registro Semanal - {subject}
         </h2>
         <p className="text-slate-600">
-          Completa tu reporte de progreso de esta semana
+          Completa tu reporte de progreso de {subject} para esta semana
         </p>
       </div>
 
@@ -235,7 +236,7 @@ export default function WeeklyReportForm({ onSubmissionSuccess, className }: Wee
               Enviando...
             </div>
           ) : (
-            'Enviar Registro Semanal'
+`Enviar Registro de ${subject}`
           )}
         </button>
       </div>

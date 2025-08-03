@@ -29,6 +29,10 @@ export async function createUser(userData: {
   password: string;
   role: 'STUDENT' | 'INSTRUCTOR' | 'ADMIN';
   studentId?: string;
+  sede?: string;
+  academicYear?: string;
+  division?: string;
+  subjects?: string;
 }) {
   const hashedPassword = await bcrypt.hash(userData.password, 12);
   
@@ -48,9 +52,36 @@ export async function validateUserPassword(email: string, password: string) {
   return isValid ? user : null;
 }
 
+// Generate unique student ID
+export async function generateStudentId(): Promise<string> {
+  const year = new Date().getFullYear();
+  const prefix = `EST-${year}-`;
+  
+  // Find the highest existing student ID for this year
+  const lastStudent = await prisma.user.findFirst({
+    where: {
+      studentId: {
+        startsWith: prefix
+      }
+    },
+    orderBy: {
+      studentId: 'desc'
+    }
+  });
+  
+  let nextNumber = 1;
+  if (lastStudent?.studentId) {
+    const lastNumber = parseInt(lastStudent.studentId.split('-')[2]);
+    nextNumber = lastNumber + 1;
+  }
+  
+  return `${prefix}${nextNumber.toString().padStart(3, '0')}`;
+}
+
 // Weekly Reports operations  
 export async function createWeeklyReport(data: {
   userId: string;
+  subject: string;
   weekStart: Date;
   weekEnd: Date;
   answers: Array<{
@@ -61,6 +92,7 @@ export async function createWeeklyReport(data: {
   return await prisma.progressReport.create({
     data: {
       userId: data.userId,
+      subject: data.subject,
       weekStart: data.weekStart,
       weekEnd: data.weekEnd,
       answers: {
@@ -93,12 +125,18 @@ export async function findWeeklyReportsByUser(userId: string) {
   });
 }
 
-export async function findWeeklyReportByUserAndWeek(userId: string, weekStart: Date) {
+export async function findWeeklyReportByUserAndWeek(userId: string, weekStart: Date, subject?: string) {
+  const whereCondition: any = {
+    userId,
+    weekStart
+  };
+  
+  if (subject) {
+    whereCondition.subject = subject;
+  }
+  
   return await prisma.progressReport.findFirst({
-    where: {
-      userId,
-      weekStart
-    },
+    where: whereCondition,
     include: {
       answers: {
         include: {
@@ -160,14 +198,62 @@ export function getCurrentWeekEnd(): Date {
 }
 
 export async function canSubmitThisWeek(userId: string): Promise<boolean> {
+  // This function is kept for backward compatibility but deprecated
+  // Use canSubmitForSubject instead
   const weekStart = getCurrentWeekStart();
   const weekEnd = getCurrentWeekEnd();
   const currentDate = new Date();
   
-  const existingReport = await findWeeklyReportByUserAndWeek(userId, weekStart);
+  const isCurrentWeek = currentDate >= weekStart && currentDate <= weekEnd;
+  return isCurrentWeek;
+}
+
+// New function to check if user can submit for specific subject
+export async function canSubmitForSubject(userId: string, subject: string): Promise<boolean> {
+  const weekStart = getCurrentWeekStart();
+  const weekEnd = getCurrentWeekEnd();
+  const currentDate = new Date();
+  
+  const existingReport = await findWeeklyReportByUserAndWeek(userId, weekStart, subject);
   const isCurrentWeek = currentDate >= weekStart && currentDate <= weekEnd;
   
   return isCurrentWeek && !existingReport;
+}
+
+// Get user's registered subjects
+export async function getUserSubjects(userId: string): Promise<string[]> {
+  const user = await findUserById(userId);
+  if (!user?.subjects) return [];
+  
+  return user.subjects.split(',').map(s => s.trim()).filter(s => s);
+}
+
+// Get reports grouped by subject for a user
+export async function findWeeklyReportsByUserGroupedBySubject(userId: string) {
+  const reports = await prisma.progressReport.findMany({
+    where: { userId },
+    include: {
+      answers: {
+        include: {
+          question: true
+        }
+      }
+    },
+    orderBy: {
+      weekStart: 'desc'
+    }
+  });
+
+  // Group by subject
+  const groupedReports: { [subject: string]: typeof reports } = {};
+  reports.forEach(report => {
+    if (!groupedReports[report.subject]) {
+      groupedReports[report.subject] = [];
+    }
+    groupedReports[report.subject].push(report);
+  });
+
+  return groupedReports;
 }
 
 // Export data functions

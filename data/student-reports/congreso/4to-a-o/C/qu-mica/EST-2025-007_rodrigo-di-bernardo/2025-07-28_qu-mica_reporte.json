@@ -1,0 +1,25 @@
+{
+  "student": {
+    "id": "EST-2025-007",
+    "name": "Rodrigo Di Bernardo",
+    "email": "rodrigo.dibernardo@gmail.com"
+  },
+  "academic": {
+    "sede": "Congreso",
+    "year": "4to Año",
+    "division": "C",
+    "subject": "Química"
+  },
+  "week": {
+    "start": "2025-07-28",
+    "end": "2025-08-04"
+  },
+  "submittedAt": "2025-07-31T04:12:55.162Z",
+  "answers": {
+    "temasYDominio": "esto",
+    "evidenciaAprendizaje": "es",
+    "dificultadesEstrategias": "una ",
+    "conexionesAplicacion": "prueba",
+    "comentariosAdicionales": "quimica"
+  }
+}

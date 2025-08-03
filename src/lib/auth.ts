@@ -1,7 +1,6 @@
 import { NextAuthOptions } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
-import bcrypt from "bcryptjs"
-import { findUserByEmail } from "./hybrid-storage"
+import { validateUserPassword } from "./db-operations"
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -16,19 +15,10 @@ export const authOptions: NextAuthOptions = {
           return null
         }
 
-        // Find user in database
-        const user = await findUserByEmail(credentials.email)
+        // Validate user credentials using database
+        const user = await validateUserPassword(credentials.email, credentials.password)
 
-        if (!user || !user.password) {
-          return null
-        }
-
-        const isPasswordValid = await bcrypt.compare(
-          credentials.password,
-          user.password
-        )
-
-        if (!isPasswordValid) {
+        if (!user) {
           return null
         }
 
@@ -38,6 +28,10 @@ export const authOptions: NextAuthOptions = {
           name: user.name,
           role: user.role,
           studentId: user.studentId || undefined,
+          sede: user.sede || undefined,
+          academicYear: user.academicYear || undefined,
+          division: user.division || undefined,
+          subjects: user.subjects || undefined,
         }
       }
     })
@@ -50,6 +44,10 @@ export const authOptions: NextAuthOptions = {
       if (user) {
         token.role = user.role
         token.studentId = user.studentId
+        token.sede = user.sede
+        token.academicYear = user.academicYear
+        token.division = user.division
+        token.subjects = user.subjects
       }
       return token
     },
@@ -58,6 +56,10 @@ export const authOptions: NextAuthOptions = {
         session.user.id = token.sub!
         session.user.role = token.role as string
         session.user.studentId = token.studentId as string
+        session.user.sede = token.sede as string
+        session.user.academicYear = token.academicYear as string
+        session.user.division = token.division as string
+        session.user.subjects = token.subjects as string
       }
       return session
     },

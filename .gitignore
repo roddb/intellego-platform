@@ -1,5 +1,67 @@
-node_modules
-# Keep environment variables out of version control
-.env
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
 
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env*.local
+.env.development
+.env.test
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Database
+/prisma/data/
+*.db
+*.db-journal
+
+# Logs
+*.log
+server.log
+prisma-studio.log
+
+# Cache
+.next/cache/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+
+# Temporary files
+migration.sql
+questions_export.sql
+*.tmp
+
+# Generated
 /generated/prisma
