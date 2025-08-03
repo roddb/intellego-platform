@@ -80,8 +80,19 @@ export async function POST(request: NextRequest) {
 
   } catch (error) {
     console.error("Error creating user:", error)
+    
+    // Better error handling for debugging
+    let errorMessage = "Error interno del servidor"
+    if (error instanceof Error) {
+      console.error("Error details:", error.message, error.stack)
+      // In development, show more details
+      if (process.env.NODE_ENV === 'development') {
+        errorMessage = error.message
+      }
+    }
+    
     return NextResponse.json(
-      { message: "Error interno del servidor" },
+      { message: errorMessage, error: process.env.NODE_ENV === 'development' ? String(error) : undefined },
       { status: 500 }
     )
   }

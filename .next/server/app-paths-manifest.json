@@ -1,19 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/calendar/events/route": "app/api/calendar/events/route.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/calendar/tasks/route": "app/api/calendar/tasks/route.js",
-  "/api/auth/register/route": "app/api/auth/register/route.js",
-  "/api/instructor/download/route": "app/api/instructor/download/route.js",
-  "/api/schedule/analysis/route": "app/api/schedule/analysis/route.js",
-  "/api/schedule/templates/route": "app/api/schedule/templates/route.js",
-  "/api/instructor/reports/route": "app/api/instructor/reports/route.js",
-  "/api/schedule/recurring/route": "app/api/schedule/recurring/route.js",
-  "/api/weekly-reports/route": "app/api/weekly-reports/route.js",
-  "/api/student/download-report/route": "app/api/student/download-report/route.js",
-  "/auth/signup/page": "app/auth/signup/page.js",
   "/auth/signin/page": "app/auth/signin/page.js",
-  "/dashboard/instructor/page": "app/dashboard/instructor/page.js",
-  "/dashboard/student/page": "app/dashboard/student/page.js",
-  "/page": "app/page.js"
+  "/dashboard/student/page": "app/dashboard/student/page.js"
 }
