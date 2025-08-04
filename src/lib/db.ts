@@ -14,26 +14,31 @@ console.log('Environment check:', {
   TURSO_URL_start: process.env.TURSO_DATABASE_URL?.substring(0, 20) + '...'
 })
 
-if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
-  // En producción con Turso, usamos el adaptador
+// Función para inicializar Prisma con Turso (solo en runtime)
+function initializeTursoClient() {
   try {
-    const { createClient } = require('@libsql/client')
-    const { PrismaLibSQL } = require('@prisma/adapter-libsql')
+    // Solo importar dinámicamente en tiempo de ejecución
+    const { PrismaLibSQL } = eval('require')('@prisma/adapter-libsql')
     
     console.log('Connecting to Turso database...')
     
-    const libsql = createClient({
-      url: process.env.TURSO_DATABASE_URL,
-      authToken: process.env.TURSO_AUTH_TOKEN,
+    const adapter = new PrismaLibSQL({
+      url: process.env.TURSO_DATABASE_URL!,
+      authToken: process.env.TURSO_AUTH_TOKEN!,
     })
 
-    const adapter = new PrismaLibSQL(libsql)
-    prisma = new PrismaClient({ adapter })
-    console.log('Turso connection established successfully')
+    return new PrismaClient({ adapter })
   } catch (error) {
-    console.error('Error setting up Turso connection:', error)
-    throw error
+    console.error('Turso setup failed, falling back to basic client:', error)
+    return new PrismaClient()
   }
+}
+
+// Inicializar Prisma Client
+if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
+  // En producción con Turso, usar inicialización dinámica
+  prisma = initializeTursoClient()
+  console.log('Turso connection established successfully')
 } else {
   // En desarrollo, usar SQLite local
   console.log('Using local SQLite database...')
