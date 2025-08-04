@@ -51,15 +51,17 @@ async function createPrismaClient() {
 
 // Inicialización síncrona para compatibilidad
 if (process.env.NODE_ENV === 'production') {
-  // En producción, usar PrismaClient básico para evitar webpack issues durante build
+  // En producción, configurar correctamente la URL de base de datos
+  const databaseUrl = process.env.TURSO_DATABASE_URL || process.env.DATABASE_URL || "file:./prisma/data/intellego.db"
+  
   prisma = new PrismaClient({
     datasources: {
       db: {
-        url: process.env.DATABASE_URL || "file:./prisma/data/intellego.db"
+        url: databaseUrl
       }
     }
   })
-  console.log('Production: Basic PrismaClient initialized for build compatibility')
+  console.log(`Production: PrismaClient initialized with URL: ${databaseUrl.substring(0, 20)}...`)
 } else {
   // En desarrollo
   if (!global.__prisma) {

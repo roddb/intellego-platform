@@ -1,14 +1,8 @@
-import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import { prisma } from './db'; // Use the configured prisma instance
 
-// Singleton pattern for Prisma Client
-const globalForPrisma = globalThis as unknown as {
-  prisma: PrismaClient | undefined;
-};
-
-export const prisma = globalForPrisma.prisma ?? new PrismaClient();
-
-if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
+// Export prisma for compatibility
+export { prisma };
 
 // User operations
 export async function findUserByEmail(email: string) {
