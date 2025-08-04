@@ -161,72 +161,75 @@ export async function createWeeklyReport(data: {
 }
 
 export async function findWeeklyReportsByUser(userId: string) {
-  return await prisma.progressReport.findMany({
-    where: { userId },
-    include: {
-      answers: {
-        include: {
-          question: true
-        }
-      }
-    },
-    orderBy: {
-      weekStart: 'desc'
-    }
-  });
+  try {
+    const result = await query(`
+      SELECT pr.*, u.name as userName, u.email as userEmail
+      FROM ProgressReport pr
+      JOIN User u ON pr.userId = u.id
+      WHERE pr.userId = ?
+      ORDER BY pr.weekStart DESC
+    `, [userId]);
+    
+    return result.rows;
+  } catch (error) {
+    console.error('Error finding weekly reports by user:', error)
+    throw error
+  }
 }
 
 export async function findWeeklyReportByUserAndWeek(userId: string, weekStart: Date, subject?: string) {
-  const whereCondition: any = {
-    userId,
-    weekStart
-  };
-  
-  if (subject) {
-    whereCondition.subject = subject;
-  }
-  
-  return await prisma.progressReport.findFirst({
-    where: whereCondition,
-    include: {
-      answers: {
-        include: {
-          question: true
-        }
-      }
+  try {
+    let sql = `
+      SELECT * FROM ProgressReport 
+      WHERE userId = ? AND weekStart = ?
+    `;
+    const params = [userId, weekStart.toISOString()];
+    
+    if (subject) {
+      sql += ' AND subject = ?';
+      params.push(subject);
     }
-  });
+    
+    sql += ' LIMIT 1';
+    
+    const result = await query(sql, params);
+    return result.rows.length > 0 ? result.rows[0] : null;
+  } catch (error) {
+    console.error('Error finding weekly report by user and week:', error)
+    throw error
+  }
 }
 
 export async function getAllWeeklyReports() {
-  return await prisma.progressReport.findMany({
-    include: {
-      user: {
-        select: {
-          id: true,
-          name: true,
-          email: true,
-          studentId: true
-        }
-      },
-      answers: {
-        include: {
-          question: true
-        }
-      }
-    },
-    orderBy: {
-      submittedAt: 'desc'
-    }
-  });
+  try {
+    const result = await query(`
+      SELECT pr.*, u.id as userId, u.name as userName, u.email as userEmail, u.studentId
+      FROM ProgressReport pr
+      JOIN User u ON pr.userId = u.id
+      ORDER BY pr.submittedAt DESC
+    `);
+    
+    return result.rows;
+  } catch (error) {
+    console.error('Error getting all weekly reports:', error)
+    throw error
+  }
 }
 
 // Questions operations
 export async function getAllQuestions() {
-  return await prisma.question.findMany({
-    where: { isActive: true },
-    orderBy: { order: 'asc' }
-  });
+  try {
+    const result = await query(`
+      SELECT * FROM Question 
+      WHERE isActive = 1 
+      ORDER BY "order" ASC
+    `);
+    
+    return result.rows;
+  } catch (error) {
+    console.error('Error getting all questions:', error)
+    throw error
+  }
 }
 
 // Date utility functions
@@ -281,30 +284,29 @@ export async function getUserSubjects(userId: string): Promise<string[]> {
 
 // Get reports grouped by subject for a user
 export async function findWeeklyReportsByUserGroupedBySubject(userId: string) {
-  const reports = await prisma.progressReport.findMany({
-    where: { userId },
-    include: {
-      answers: {
-        include: {
-          question: true
-        }
+  try {
+    const result = await query(`
+      SELECT * FROM ProgressReport 
+      WHERE userId = ? 
+      ORDER BY weekStart DESC
+    `, [userId]);
+    
+    const reports = result.rows;
+    
+    // Group by subject
+    const groupedReports: { [subject: string]: any[] } = {};
+    reports.forEach(report => {
+      if (!groupedReports[report.subject]) {
+        groupedReports[report.subject] = [];
       }
-    },
-    orderBy: {
-      weekStart: 'desc'
-    }
-  });
+      groupedReports[report.subject].push(report);
+    });
 
-  // Group by subject
-  const groupedReports: { [subject: string]: typeof reports } = {};
-  reports.forEach(report => {
-    if (!groupedReports[report.subject]) {
-      groupedReports[report.subject] = [];
-    }
-    groupedReports[report.subject].push(report);
-  });
-
-  return groupedReports;
+    return groupedReports;
+  } catch (error) {
+    console.error('Error finding weekly reports by user grouped by subject:', error)
+    throw error
+  }
 }
 
 // Export data functions
@@ -315,29 +317,25 @@ export async function exportReportsAsCSV() {
     'Estudiante',
     'Email',
     'ID Estudiante', 
+    'Materia',
     'Semana Inicio',
     'Semana Fin',
-    'Fecha Envío',
-    'Pregunta',
-    'Respuesta'
+    'Fecha Envío'
   ];
   
   const csvRows = [csvHeaders.join(',')];
   
   for (const report of reports) {
-    for (const answer of report.answers) {
-      const row = [
-        `"${report.user.name || ''}"`,
-        `"${report.user.email}"`,
-        `"${report.user.studentId || ''}"`,
-        `"${report.weekStart.toISOString().split('T')[0]}"`,
-        `"${report.weekEnd.toISOString().split('T')[0]}"`,
-        `"${report.submittedAt.toISOString().split('T')[0]}"`,
-        `"${answer.question.text}"`,
-        `"${answer.answer.replace(/"/g, '""')}"`
-      ];
-      csvRows.push(row.join(','));
-    }
+    const row = [
+      `"${report.userName || ''}"`,
+      `"${report.userEmail}"`,
+      `"${report.studentId || ''}"`,
+      `"${report.subject || ''}"`,
+      `"${new Date(report.weekStart).toISOString().split('T')[0]}"`,
+      `"${new Date(report.weekEnd).toISOString().split('T')[0]}"`,
+      `"${new Date(report.submittedAt).toISOString().split('T')[0]}"`
+    ];
+    csvRows.push(row.join(','));
   }
   
   return csvRows.join('\n');
@@ -349,16 +347,11 @@ export async function exportReportsAsMarkdown() {
   let markdown = '# Reportes de Progreso Semanal\n\n';
   
   for (const report of reports) {
-    markdown += `## ${report.user.name} (${report.user.email})\n`;
-    markdown += `**ID Estudiante:** ${report.user.studentId || 'N/A'}\n`;
-    markdown += `**Semana:** ${report.weekStart.toISOString().split('T')[0]} - ${report.weekEnd.toISOString().split('T')[0]}\n`;
-    markdown += `**Fecha de Envío:** ${report.submittedAt.toISOString().split('T')[0]}\n\n`;
-    
-    for (const answer of report.answers) {
-      markdown += `### ${answer.question.text}\n\n`;
-      markdown += `${answer.answer}\n\n`;
-    }
-    
+    markdown += `## ${report.userName} (${report.userEmail})\n`;
+    markdown += `**ID Estudiante:** ${report.studentId || 'N/A'}\n`;
+    markdown += `**Materia:** ${report.subject || 'N/A'}\n`;
+    markdown += `**Semana:** ${new Date(report.weekStart).toISOString().split('T')[0]} - ${new Date(report.weekEnd).toISOString().split('T')[0]}\n`;
+    markdown += `**Fecha de Envío:** ${new Date(report.submittedAt).toISOString().split('T')[0]}\n\n`;
     markdown += '---\n\n';
   }
   
