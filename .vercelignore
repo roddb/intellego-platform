@@ -1,0 +1,4 @@
+# Force cache invalidation for Prisma schema changes
+# This file helps ensure Vercel rebuilds with fresh Prisma client
+node_modules/@prisma/client
+.next/cache
