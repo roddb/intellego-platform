@@ -14,19 +14,27 @@ console.log('🔧 Database configuration:', {
   TURSO_URL_start: process.env.TURSO_DATABASE_URL?.substring(0, 30) + '...'
 })
 
-// Función para crear cliente Turso según documentación oficial
+// Función para crear cliente Turso con embedded replicas
 function createTursoClient() {
   try {
-    console.log('🚀 Creating Turso client with official configuration...')
+    console.log('🚀 Creating Turso client with embedded replicas...')
     
-    // Importar adaptador oficial de Prisma
+    // Importar módulos necesarios
     const { PrismaLibSQL } = require('@prisma/adapter-libsql')
+    const { createClient } = require('@libsql/client')
     
-    // Crear adaptador según documentación oficial
-    const adapter = new PrismaLibSQL({
-      url: process.env.TURSO_DATABASE_URL!,
+    // Crear cliente libSQL con embedded replica
+    const libsql = createClient({
+      url: "file:./local-replica.db", // Local embedded replica
       authToken: process.env.TURSO_AUTH_TOKEN!,
+      syncUrl: process.env.TURSO_DATABASE_URL!, // Remote primary database
+      syncInterval: 60, // Auto-sync every 60 seconds
     })
+    
+    console.log('✅ libSQL client with embedded replica created')
+    
+    // Crear adaptador Prisma con el cliente libSQL
+    const adapter = new PrismaLibSQL(libsql)
     
     console.log('✅ Turso adapter created successfully')
     
@@ -36,11 +44,11 @@ function createTursoClient() {
       log: ['error']
     })
     
-    console.log('✅ Turso Prisma client initialized')
+    console.log('✅ Turso Prisma client with embedded replicas initialized')
     return client
     
   } catch (error) {
-    console.error('❌ Failed to create Turso client:', error)
+    console.error('❌ Failed to create Turso client with embedded replicas:', error)
     throw error
   }
 }
