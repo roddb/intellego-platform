@@ -17,18 +17,25 @@ console.log('Environment check:', {
 // Función para crear Prisma client con Turso adapter
 function createTursoClient() {
   try {
+    console.log('🔧 Starting Turso client creation...')
+    console.log('📍 TURSO_DATABASE_URL length:', process.env.TURSO_DATABASE_URL?.length)
+    console.log('📍 TURSO_AUTH_TOKEN length:', process.env.TURSO_AUTH_TOKEN?.length)
+    
     // Import Turso adapter synchronously for production
     const { PrismaLibSQL } = require('@prisma/adapter-libsql')
     const { createClient } = require('@libsql/client')
+    console.log('✅ Turso modules imported successfully')
     
     // Create libSQL client first
     const libsql = createClient({
       url: process.env.TURSO_DATABASE_URL!,
       authToken: process.env.TURSO_AUTH_TOKEN!,
     })
+    console.log('✅ libSQL client created')
     
     // Create Prisma adapter with libSQL client
     const adapter = new PrismaLibSQL(libsql)
+    console.log('✅ Prisma adapter created')
 
     const client = new PrismaClient({ 
       adapter,
@@ -37,7 +44,12 @@ function createTursoClient() {
     console.log('✅ Turso connection established successfully')
     return client
   } catch (error) {
-    console.error('❌ Turso adapter failed:', error)
+    console.error('❌ Turso adapter failed at step:', error)
+    console.error('❌ Error details:', {
+      name: error instanceof Error ? error.name : 'Unknown',
+      message: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined
+    })
     throw error
   }
 }
