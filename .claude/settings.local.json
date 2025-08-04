@@ -42,7 +42,11 @@
       "Bash(turso db:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git reset:*)",
+      "WebFetch(domain:intellego-platform.vercel.app)",
+      "WebFetch(domain:vercel.com)"
     ],
     "deny": []
   }
