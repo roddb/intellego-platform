@@ -14,54 +14,35 @@ console.log('Environment check:', {
   TURSO_URL_start: process.env.TURSO_DATABASE_URL?.substring(0, 20) + '...'
 })
 
-// Función para crear Prisma client con manejo robusto de errores
-async function createPrismaClient() {
-  if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN && process.env.NODE_ENV === 'production') {
-    // Solo intentar usar Turso adapter en producción real (runtime)
-    try {
-      console.log('Attempting to initialize Turso connection...')
-      // Dynamic import to avoid webpack build issues
-      const { PrismaLibSQL } = await import('@prisma/adapter-libsql')
-      
-      const adapter = new PrismaLibSQL({
-        url: process.env.TURSO_DATABASE_URL,
-        authToken: process.env.TURSO_AUTH_TOKEN,
-      })
+// Función para crear Prisma client con Turso adapter
+function createTursoClient() {
+  try {
+    // Import Turso adapter synchronously for production
+    const { PrismaLibSQL } = require('@prisma/adapter-libsql')
+    
+    const adapter = new PrismaLibSQL({
+      url: process.env.TURSO_DATABASE_URL!,
+      authToken: process.env.TURSO_AUTH_TOKEN!,
+    })
 
-      const client = new PrismaClient({ adapter })
-      console.log('✅ Turso connection established successfully')
-      return client
-    } catch (error) {
-      console.warn('⚠️  Turso adapter failed, falling back to basic client:', error)
-      // Fallback para producción sin adapter
-      return new PrismaClient({
-        datasources: {
-          db: {
-            url: process.env.DATABASE_URL || "file:./prisma/data/intellego.db"
-          }
-        }
-      })
-    }
-  } else {
-    // Desarrollo - usar SQLite local
-    console.log('Using local SQLite database...')
+    const client = new PrismaClient({ adapter })
+    console.log('✅ Turso connection established successfully')
+    return client
+  } catch (error) {
+    console.warn('⚠️  Turso adapter failed, using local SQLite:', error)
     return new PrismaClient()
   }
 }
 
-// Inicialización síncrona para compatibilidad
+// Inicialización del cliente
 if (process.env.NODE_ENV === 'production') {
-  // En producción, configurar correctamente la URL de base de datos
-  const databaseUrl = process.env.TURSO_DATABASE_URL || process.env.DATABASE_URL || "file:./prisma/data/intellego.db"
-  
-  prisma = new PrismaClient({
-    datasources: {
-      db: {
-        url: databaseUrl
-      }
-    }
-  })
-  console.log(`Production: PrismaClient initialized with URL: ${databaseUrl.substring(0, 20)}...`)
+  // En producción, intentar usar Turso, fallback a SQLite local
+  if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
+    prisma = createTursoClient()
+  } else {
+    console.log('Production: Using local SQLite database')
+    prisma = new PrismaClient()
+  }
 } else {
   // En desarrollo
   if (!global.__prisma) {
@@ -69,6 +50,11 @@ if (process.env.NODE_ENV === 'production') {
   }
   prisma = global.__prisma
   console.log('Development: Local SQLite client initialized')
+}
+
+// Función async para crear cliente (para compatibilidad)
+async function createPrismaClient() {
+  return prisma
 }
 
 export { prisma, createPrismaClient }
