@@ -6,9 +6,14 @@ export { prisma };
 
 // User operations
 export async function findUserByEmail(email: string) {
-  return await prisma.user.findUnique({
-    where: { email }
-  });
+  try {
+    return await prisma.user.findUnique({
+      where: { email }
+    });
+  } catch (error) {
+    console.error('Error finding user by email:', error)
+    throw error
+  }
 }
 
 export async function findUserById(id: string) {
@@ -28,14 +33,19 @@ export async function createUser(userData: {
   division?: string;
   subjects?: string;
 }) {
-  const hashedPassword = await bcrypt.hash(userData.password, 12);
-  
-  return await prisma.user.create({
-    data: {
-      ...userData,
-      password: hashedPassword
-    }
-  });
+  try {
+    const hashedPassword = await bcrypt.hash(userData.password, 12);
+    
+    return await prisma.user.create({
+      data: {
+        ...userData,
+        password: hashedPassword
+      }
+    });
+  } catch (error) {
+    console.error('Error creating user:', error)
+    throw error
+  }
 }
 
 export async function validateUserPassword(email: string, password: string) {
@@ -48,28 +58,33 @@ export async function validateUserPassword(email: string, password: string) {
 
 // Generate unique student ID
 export async function generateStudentId(): Promise<string> {
-  const year = new Date().getFullYear();
-  const prefix = `EST-${year}-`;
-  
-  // Find the highest existing student ID for this year
-  const lastStudent = await prisma.user.findFirst({
-    where: {
-      studentId: {
-        startsWith: prefix
+  try {
+    const year = new Date().getFullYear();
+    const prefix = `EST-${year}-`;
+    
+    // Find the highest existing student ID for this year
+    const lastStudent = await prisma.user.findFirst({
+      where: {
+        studentId: {
+          startsWith: prefix
+        }
+      },
+      orderBy: {
+        studentId: 'desc'
       }
-    },
-    orderBy: {
-      studentId: 'desc'
+    });
+    
+    let nextNumber = 1;
+    if (lastStudent?.studentId) {
+      const lastNumber = parseInt(lastStudent.studentId.split('-')[2]);
+      nextNumber = lastNumber + 1;
     }
-  });
-  
-  let nextNumber = 1;
-  if (lastStudent?.studentId) {
-    const lastNumber = parseInt(lastStudent.studentId.split('-')[2]);
-    nextNumber = lastNumber + 1;
+    
+    return `${prefix}${nextNumber.toString().padStart(3, '0')}`;
+  } catch (error) {
+    console.error('Error generating student ID:', error)
+    throw error
   }
-  
-  return `${prefix}${nextNumber.toString().padStart(3, '0')}`;
 }
 
 // Weekly Reports operations  
