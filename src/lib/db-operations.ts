@@ -1,7 +1,7 @@
 import bcrypt from 'bcryptjs';
 import { db, query } from './db'; // Use the libSQL client
 
-// Export db for compatibility
+// Export db getter for compatibility
 export { db };
 
 // User operations

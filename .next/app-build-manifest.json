@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/api/test-libsql/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/test-libsql/route.js"
+    ],
     "/api/auth/register/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
