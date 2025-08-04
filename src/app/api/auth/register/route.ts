@@ -3,11 +3,15 @@ import { createUser, findUserByEmail, generateStudentId } from "@/lib/db-operati
 
 export async function POST(request: NextRequest) {
   try {
+    console.log('📥 Registration request received')
     const body = await request.json()
+    console.log('📋 Request body parsed:', { ...body, password: '[HIDDEN]' })
+    
     const { name, email, password, sede, academicYear, division, subjects } = body
 
     // Validate required fields
     if (!name || !email || !password || !sede || !academicYear || !division || !subjects) {
+      console.log('❌ Validation failed - missing required fields')
       return NextResponse.json(
         { message: "Todos los campos académicos son requeridos" },
         { status: 400 }
@@ -46,18 +50,24 @@ export async function POST(request: NextRequest) {
     }
 
     // Check if user already exists
+    console.log('🔍 Checking if user exists:', email)
     const existingUser = await findUserByEmail(email)
     if (existingUser) {
+      console.log('❌ User already exists')
       return NextResponse.json(
         { message: "Ya existe un usuario con este email" },
         { status: 400 }
       )
     }
+    console.log('✅ User does not exist, proceeding')
 
     // Generate student ID
+    console.log('🆔 Generating student ID')
     const studentId = await generateStudentId()
+    console.log('✅ Student ID generated:', studentId)
 
     // Create user with academic fields
+    console.log('👤 Creating user')
     const newUser = await createUser({
       name,
       email,
@@ -69,6 +79,7 @@ export async function POST(request: NextRequest) {
       division,
       subjects: subjects // Store as comma-separated string
     })
+    console.log('✅ User created successfully:', newUser.id)
 
     // Return success without password
     const { password: _, ...userWithoutPassword } = newUser
@@ -79,20 +90,34 @@ export async function POST(request: NextRequest) {
     }, { status: 201 })
 
   } catch (error) {
-    console.error("Error creating user:", error)
+    console.error("❌ Error creating user:", error)
     
-    // Better error handling for debugging
-    let errorMessage = "Error interno del servidor"
+    // Enhanced error logging for production debugging
     if (error instanceof Error) {
-      console.error("Error details:", error.message, error.stack)
-      // In development, show more details
-      if (process.env.NODE_ENV === 'development') {
-        errorMessage = error.message
+      console.error("📝 Error name:", error.name)
+      console.error("📝 Error message:", error.message)
+      console.error("📝 Error stack:", error.stack)
+      
+      // Log additional error properties if they exist
+      if ('code' in error) {
+        console.error("📝 Error code:", error.code)
+      }
+      if ('cause' in error) {
+        console.error("📝 Error cause:", error.cause)
       }
     }
     
+    // In production, still hide sensitive details from client
+    let errorMessage = "Error interno del servidor"
+    let errorDetails = undefined
+    
+    if (process.env.NODE_ENV === 'development') {
+      errorMessage = error instanceof Error ? error.message : String(error)
+      errorDetails = String(error)
+    }
+    
     return NextResponse.json(
-      { message: errorMessage, error: process.env.NODE_ENV === 'development' ? String(error) : undefined },
+      { message: errorMessage, error: errorDetails },
       { status: 500 }
     )
   }
