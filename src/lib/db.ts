@@ -6,22 +6,56 @@ declare global {
   var __prisma: PrismaClient | undefined
 }
 
-// Configuración simplificada
+// Configuración según documentación oficial de Prisma + Turso
 console.log('🔧 Database configuration:', {
   NODE_ENV: process.env.NODE_ENV,
-  DATABASE_URL_set: !!process.env.DATABASE_URL,
-  DATABASE_URL_type: process.env.DATABASE_URL?.startsWith('libsql://') ? 'turso' : 'local'
+  has_TURSO_URL: !!process.env.TURSO_DATABASE_URL,
+  has_TURSO_TOKEN: !!process.env.TURSO_AUTH_TOKEN,
+  TURSO_URL_start: process.env.TURSO_DATABASE_URL?.substring(0, 30) + '...'
 })
 
-// Inicialización simplificada
+// Función para crear cliente Turso según documentación oficial
+function createTursoClient() {
+  try {
+    console.log('🚀 Creating Turso client with official configuration...')
+    
+    // Importar adaptador oficial de Prisma
+    const { PrismaLibSQL } = require('@prisma/adapter-libsql')
+    
+    // Crear adaptador según documentación oficial
+    const adapter = new PrismaLibSQL({
+      url: process.env.TURSO_DATABASE_URL!,
+      authToken: process.env.TURSO_AUTH_TOKEN!,
+    })
+    
+    console.log('✅ Turso adapter created successfully')
+    
+    // Crear cliente Prisma con adaptador
+    const client = new PrismaClient({ 
+      adapter,
+      log: ['error']
+    })
+    
+    console.log('✅ Turso Prisma client initialized')
+    return client
+    
+  } catch (error) {
+    console.error('❌ Failed to create Turso client:', error)
+    throw error
+  }
+}
+
+// Inicialización según documentación oficial
 if (process.env.NODE_ENV === 'production') {
-  console.log('🚀 Production: Initializing Prisma client')
-  prisma = new PrismaClient({
-    log: ['error']
-  })
-  console.log('✅ Production Prisma client initialized')
+  // En producción, usar Turso con adaptador oficial
+  if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
+    prisma = createTursoClient()
+  } else {
+    console.error('❌ Missing Turso credentials in production')
+    throw new Error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are required in production')
+  }
 } else {
-  // En desarrollo
+  // En desarrollo, usar SQLite local
   if (!global.__prisma) {
     global.__prisma = new PrismaClient({
       log: ['error', 'warn']

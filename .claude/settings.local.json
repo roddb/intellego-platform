@@ -46,7 +46,8 @@
       "Bash(git config:*)",
       "Bash(git reset:*)",
       "WebFetch(domain:intellego-platform.vercel.app)",
-      "WebFetch(domain:vercel.com)"
+      "WebFetch(domain:vercel.com)",
+      "WebFetch(domain:www.prisma.io)"
     ],
     "deny": []
   }
