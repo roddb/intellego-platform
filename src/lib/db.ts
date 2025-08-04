@@ -1,79 +1,69 @@
-import { PrismaClient } from '@prisma/client'
+import { createClient, Client } from '@libsql/client'
 
-let prisma: PrismaClient
+let db: Client
 
 declare global {
-  var __prisma: PrismaClient | undefined
+  var __db: Client | undefined
 }
 
-// Configuración según documentación oficial de Prisma + Turso
-console.log('🔧 Database configuration:', {
+// Configuración libSQL directo
+console.log('🔧 libSQL Database configuration:', {
   NODE_ENV: process.env.NODE_ENV,
   has_TURSO_URL: !!process.env.TURSO_DATABASE_URL,
   has_TURSO_TOKEN: !!process.env.TURSO_AUTH_TOKEN,
   TURSO_URL_start: process.env.TURSO_DATABASE_URL?.substring(0, 30) + '...'
 })
 
-// Función para crear cliente Turso directo (sin embedded replicas para serverless)
-function createTursoClient() {
+// Función para crear cliente libSQL directo
+function createLibSQLClient(): Client {
   try {
-    console.log('🚀 Creating Turso client for serverless (no embedded replicas)...')
+    console.log('🚀 Creating libSQL client direct connection...')
     
-    // Importar módulos necesarios
-    const { PrismaLibSQL } = require('@prisma/adapter-libsql')
-    const { createClient } = require('@libsql/client')
-    
-    // Crear cliente libSQL directo para serverless
-    const libsql = createClient({
+    const client = createClient({
       url: process.env.TURSO_DATABASE_URL!,
       authToken: process.env.TURSO_AUTH_TOKEN!,
     })
     
-    console.log('✅ libSQL direct client created for serverless')
-    
-    // Crear adaptador Prisma con el cliente libSQL
-    const adapter = new PrismaLibSQL(libsql)
-    
-    console.log('✅ Turso adapter created successfully')
-    
-    // Crear cliente Prisma con adaptador
-    const client = new PrismaClient({ 
-      adapter,
-      log: ['error']
-    })
-    
-    console.log('✅ Turso Prisma client initialized for serverless')
+    console.log('✅ libSQL direct client created successfully')
     return client
     
   } catch (error) {
-    console.error('❌ Failed to create Turso client:', error)
+    console.error('❌ Failed to create libSQL client:', error)
     throw error
   }
 }
 
-// Inicialización según documentación oficial
+// Inicialización del cliente libSQL
 if (process.env.NODE_ENV === 'production') {
-  // En producción, usar Turso con adaptador oficial
+  // En producción, usar Turso directo
   if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
-    prisma = createTursoClient()
+    db = createLibSQLClient()
+    console.log('🚀 Production: libSQL client initialized')
   } else {
     console.error('❌ Missing Turso credentials in production')
     throw new Error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are required in production')
   }
 } else {
   // En desarrollo, usar SQLite local
-  if (!global.__prisma) {
-    global.__prisma = new PrismaClient({
-      log: ['error', 'warn']
+  if (!global.__db) {
+    global.__db = createClient({
+      url: 'file:./prisma/data/intellego.db'
     })
   }
-  prisma = global.__prisma
+  db = global.__db
   console.log('🛠️ Development: Local SQLite client initialized')
 }
 
-// Función async para crear cliente (para compatibilidad)
-async function createPrismaClient() {
-  return prisma
-}
+// Exportar cliente
+export { db }
 
-export { prisma, createPrismaClient }
+// Función helper para queries
+export const query = async (sql: string, params?: any[]) => {
+  try {
+    const result = await db.execute(sql, params)
+    return result
+  } catch (error) {
+    console.error('❌ Query error:', error)
+    throw error
+  }
+}

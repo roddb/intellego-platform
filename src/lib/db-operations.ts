@@ -1,15 +1,17 @@
 import bcrypt from 'bcryptjs';
-import { prisma } from './db'; // Use the configured prisma instance
+import { db, query } from './db'; // Use the libSQL client
 
-// Export prisma for compatibility
-export { prisma };
+// Export db for compatibility
+export { db };
 
 // User operations
 export async function findUserByEmail(email: string) {
   try {
-    return await prisma.user.findUnique({
-      where: { email }
-    });
+    const result = await query(
+      'SELECT * FROM User WHERE email = ? LIMIT 1',
+      [email]
+    );
+    return result.rows.length > 0 ? result.rows[0] : null;
   } catch (error) {
     console.error('Error finding user by email:', error)
     throw error
@@ -17,9 +19,16 @@ export async function findUserByEmail(email: string) {
 }
 
 export async function findUserById(id: string) {
-  return await prisma.user.findUnique({
-    where: { id }
-  });
+  try {
+    const result = await query(
+      'SELECT * FROM User WHERE id = ? LIMIT 1',
+      [id]
+    );
+    return result.rows.length > 0 ? result.rows[0] : null;
+  } catch (error) {
+    console.error('Error finding user by id:', error)
+    throw error
+  }
 }
 
 export async function createUser(userData: {
@@ -36,12 +45,24 @@ export async function createUser(userData: {
   try {
     const hashedPassword = await bcrypt.hash(userData.password, 12);
     
-    return await prisma.user.create({
-      data: {
-        ...userData,
-        password: hashedPassword
-      }
-    });
+    // Generate a unique ID (cuid-like)
+    const id = generateId();
+    const now = new Date().toISOString();
+    
+    await query(`
+      INSERT INTO User (
+        id, name, email, password, role, studentId, 
+        sede, academicYear, division, subjects, 
+        status, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'ACTIVE', ?, ?)
+    `, [
+      id, userData.name, userData.email, hashedPassword, userData.role,
+      userData.studentId, userData.sede, userData.academicYear, 
+      userData.division, userData.subjects, now, now
+    ]);
+    
+    // Return the created user
+    return await findUserById(id);
   } catch (error) {
     console.error('Error creating user:', error)
     throw error
@@ -63,20 +84,16 @@ export async function generateStudentId(): Promise<string> {
     const prefix = `EST-${year}-`;
     
     // Find the highest existing student ID for this year
-    const lastStudent = await prisma.user.findFirst({
-      where: {
-        studentId: {
-          startsWith: prefix
-        }
-      },
-      orderBy: {
-        studentId: 'desc'
-      }
-    });
+    const result = await query(`
+      SELECT studentId FROM User 
+      WHERE studentId LIKE ? 
+      ORDER BY studentId DESC 
+      LIMIT 1
+    `, [`${prefix}%`]);
     
     let nextNumber = 1;
-    if (lastStudent?.studentId) {
-      const lastNumber = parseInt(lastStudent.studentId.split('-')[2]);
+    if (result.rows.length > 0 && result.rows[0].studentId) {
+      const lastNumber = parseInt(result.rows[0].studentId.split('-')[2]);
       nextNumber = lastNumber + 1;
     }
     
@@ -85,6 +102,11 @@ export async function generateStudentId(): Promise<string> {
     console.error('Error generating student ID:', error)
     throw error
   }
+}
+
+// Helper function to generate unique IDs
+function generateId(): string {
+  return 'u_' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
 }
 
 // Weekly Reports operations  
@@ -98,24 +120,44 @@ export async function createWeeklyReport(data: {
     answer: string;
   }>;
 }) {
-  return await prisma.progressReport.create({
-    data: {
+  try {
+    const reportId = generateId();
+    const now = new Date().toISOString();
+    
+    // Create the progress report
+    await query(`
+      INSERT INTO ProgressReport (
+        id, userId, subject, weekStart, weekEnd, submittedAt
+      ) VALUES (?, ?, ?, ?, ?, ?)
+    `, [
+      reportId, data.userId, data.subject, 
+      data.weekStart.toISOString(), data.weekEnd.toISOString(), now
+    ]);
+    
+    // Create the answers
+    for (const answer of data.answers) {
+      const answerId = generateId();
+      await query(`
+        INSERT INTO Answer (
+          id, questionId, progressReportId, answer
+        ) VALUES (?, ?, ?, ?)
+      `, [answerId, answer.questionId, reportId, answer.answer]);
+    }
+    
+    // Return the created report (simplified for now)
+    return {
+      id: reportId,
       userId: data.userId,
       subject: data.subject,
       weekStart: data.weekStart,
       weekEnd: data.weekEnd,
-      answers: {
-        create: data.answers
-      }
-    },
-    include: {
-      answers: {
-        include: {
-          question: true
-        }
-      }
-    }
-  });
+      submittedAt: new Date(now),
+      answers: data.answers
+    };
+  } catch (error) {
+    console.error('Error creating weekly report:', error)
+    throw error
+  }
 }
 
 export async function findWeeklyReportsByUser(userId: string) {
