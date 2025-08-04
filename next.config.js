@@ -19,23 +19,24 @@ const nextConfig = {
       config.externals = [...(config.externals || []), '@libsql/client', '@prisma/adapter-libsql']
     }
     
-    // More comprehensive approach to ignore non-JS files
-    config.module.rules.push(
-      {
-        test: /\.(md|txt|LICENSE|CHANGELOG)$/i,
-        use: 'raw-loader',
-      },
-      {
-        test: /README\.md$/i,
-        use: 'raw-loader',
-      }
-    )
+    // Solución específica para el error de libsql README.md files
+    // Basado en: https://github.com/tursodatabase/libsql/issues/1276
+    config.module.rules.push({
+      test: /\.md$/,
+      type: 'asset/source',
+    })
     
-    // Ignore specific problematic directories
+    // Solución adicional para archivos LICENSE y otros
+    config.module.rules.push({
+      test: /\.(txt|LICENSE|CHANGELOG)$/i,
+      type: 'asset/source',
+    })
+    
+    // IgnorePlugin para evitar que webpack procese estos archivos completamente
     config.plugins.push(
       new (require('webpack')).IgnorePlugin({
         resourceRegExp: /\.(md|txt|LICENSE|CHANGELOG)$/i,
-        contextRegExp: /node_modules/,
+        contextRegExp: /node_modules\/@libsql/,
       })
     )
     
