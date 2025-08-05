@@ -23,15 +23,15 @@ export const authOptions: NextAuthOptions = {
         }
 
         return {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-          role: user.role,
-          studentId: user.studentId || undefined,
-          sede: user.sede || undefined,
-          academicYear: user.academicYear || undefined,
-          division: user.division || undefined,
-          subjects: user.subjects || undefined,
+          id: String(user.id),
+          email: String(user.email),
+          name: String(user.name),
+          role: String(user.role),
+          studentId: user.studentId ? String(user.studentId) : undefined,
+          sede: user.sede ? String(user.sede) : undefined,
+          academicYear: user.academicYear ? String(user.academicYear) : undefined,
+          division: user.division ? String(user.division) : undefined,
+          subjects: user.subjects ? String(user.subjects) : undefined,
         }
       }
     })

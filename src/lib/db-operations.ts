@@ -73,7 +73,7 @@ export async function validateUserPassword(email: string, password: string) {
   const user = await findUserByEmail(email);
   if (!user || !user.password) return null;
   
-  const isValid = await bcrypt.compare(password, user.password);
+  const isValid = await bcrypt.compare(password, String(user.password));
   return isValid ? user : null;
 }
 
@@ -93,7 +93,7 @@ export async function generateStudentId(): Promise<string> {
     
     let nextNumber = 1;
     if (result.rows.length > 0 && result.rows[0].studentId) {
-      const lastNumber = parseInt(result.rows[0].studentId.split('-')[2]);
+      const lastNumber = parseInt(String(result.rows[0].studentId).split('-')[2]);
       nextNumber = lastNumber + 1;
     }
     
@@ -279,7 +279,7 @@ export async function getUserSubjects(userId: string): Promise<string[]> {
   const user = await findUserById(userId);
   if (!user?.subjects) return [];
   
-  return user.subjects.split(',').map(s => s.trim()).filter(s => s);
+  return String(user.subjects).split(',').map(s => s.trim()).filter(s => s);
 }
 
 // Get reports grouped by subject for a user
@@ -296,10 +296,11 @@ export async function findWeeklyReportsByUserGroupedBySubject(userId: string) {
     // Group by subject
     const groupedReports: { [subject: string]: any[] } = {};
     reports.forEach(report => {
-      if (!groupedReports[report.subject]) {
-        groupedReports[report.subject] = [];
+      const subject = String(report.subject);
+      if (!groupedReports[subject]) {
+        groupedReports[subject] = [];
       }
-      groupedReports[report.subject].push(report);
+      groupedReports[subject].push(report);
     });
 
     return groupedReports;
@@ -331,9 +332,9 @@ export async function exportReportsAsCSV() {
       `"${report.userEmail}"`,
       `"${report.studentId || ''}"`,
       `"${report.subject || ''}"`,
-      `"${new Date(report.weekStart).toISOString().split('T')[0]}"`,
-      `"${new Date(report.weekEnd).toISOString().split('T')[0]}"`,
-      `"${new Date(report.submittedAt).toISOString().split('T')[0]}"`
+      `"${new Date(String(report.weekStart)).toISOString().split('T')[0]}"`,
+      `"${new Date(String(report.weekEnd)).toISOString().split('T')[0]}"`,
+      `"${new Date(String(report.submittedAt)).toISOString().split('T')[0]}"`
     ];
     csvRows.push(row.join(','));
   }
@@ -350,8 +351,8 @@ export async function exportReportsAsMarkdown() {
     markdown += `## ${report.userName} (${report.userEmail})\n`;
     markdown += `**ID Estudiante:** ${report.studentId || 'N/A'}\n`;
     markdown += `**Materia:** ${report.subject || 'N/A'}\n`;
-    markdown += `**Semana:** ${new Date(report.weekStart).toISOString().split('T')[0]} - ${new Date(report.weekEnd).toISOString().split('T')[0]}\n`;
-    markdown += `**Fecha de Envío:** ${new Date(report.submittedAt).toISOString().split('T')[0]}\n\n`;
+    markdown += `**Semana:** ${new Date(String(report.weekStart)).toISOString().split('T')[0]} - ${new Date(String(report.weekEnd)).toISOString().split('T')[0]}\n`;
+    markdown += `**Fecha de Envío:** ${new Date(String(report.submittedAt)).toISOString().split('T')[0]}\n\n`;
     markdown += '---\n\n';
   }
   

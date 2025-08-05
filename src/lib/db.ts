@@ -66,7 +66,7 @@ export const db = getClient
 export const query = async (sql: string, params?: any[]) => {
   try {
     const client = getClient()
-    const result = await client.execute(sql, params)
+    const result = params ? await client.execute({ sql, args: params }) : await client.execute(sql)
     return result
   } catch (error) {
     console.error('❌ Query error:', error)

@@ -79,9 +79,12 @@ export async function POST(request: NextRequest) {
       division,
       subjects: subjects // Store as comma-separated string
     })
-    console.log('✅ User created successfully:', newUser.id)
+    console.log('✅ User created successfully:', newUser?.id)
 
     // Return success without password
+    if (!newUser) {
+      throw new Error('Failed to create user')
+    }
     const { password: _, ...userWithoutPassword } = newUser
     
     return NextResponse.json({

@@ -48,7 +48,9 @@
       "WebFetch(domain:intellego-platform.vercel.app)",
       "WebFetch(domain:vercel.com)",
       "WebFetch(domain:www.prisma.io)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.turso.tech)",
+      "WebFetch(domain:turso.tech)"
     ],
     "deny": []
   }
