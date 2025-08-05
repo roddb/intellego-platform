@@ -196,13 +196,34 @@ export default function StudentDashboard() {
       return updated
     })
     
-    // Fetch fresh data from server to ensure consistency
-    fetchStudentData()
+    // Fetch fresh data from server to update other state but don't let it override calendar
+    refreshDataAfterSubmission()
     
     // Clear success message after 3 seconds
     setTimeout(() => {
       setSuccessMessage("")
     }, 3000)
+  }
+
+  const refreshDataAfterSubmission = async () => {
+    try {
+      const response = await fetch("/api/weekly-reports", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+
+      if (response.ok) {
+        const data = await response.json()
+        // Update other state but NOT the calendar weeks
+        setUserSubjects(data.subjects || [])
+        setCanSubmitBySubject(data.canSubmitBySubject || {})
+        setReportsBySubject(data.reportsBySubject || {})
+      }
+    } catch (error) {
+      console.error("Error refreshing student data:", error)
+    }
   }
 
 

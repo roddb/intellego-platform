@@ -1,1 +1,15 @@
-{}
+{
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/env-check/route": "app/api/env-check/route.js",
+  "/api/auth/register/route": "app/api/auth/register/route.js",
+  "/api/test-libsql/route": "app/api/test-libsql/route.js",
+  "/api/instructor/download/route": "app/api/instructor/download/route.js",
+  "/api/instructor/reports/route": "app/api/instructor/reports/route.js",
+  "/api/weekly-reports/route": "app/api/weekly-reports/route.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/dashboard/student/page": "app/dashboard/student/page.js",
+  "/page": "app/page.js",
+  "/dashboard/instructor/page": "app/dashboard/instructor/page.js"
+}
