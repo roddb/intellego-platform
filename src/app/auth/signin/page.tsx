@@ -149,18 +149,6 @@ export default function SignIn() {
         </form>
 
 
-        {/* Demo Credentials */}
-        <div className="mt-6 p-4 bg-blue-50/80 rounded-xl border border-blue-200/50">
-          <h3 className="text-sm font-semibold text-blue-800 mb-2">Credenciales de Prueba</h3>
-          <div className="space-y-2 text-xs text-blue-700">
-            <div>
-              <strong>Estudiante:</strong> estudiante@demo.com / Estudiante123!!!
-            </div>
-            <div>
-              <strong>Instructor:</strong> instructor@demo.com / 123456
-            </div>
-          </div>
-        </div>
 
         <div className="mt-6 text-center">
           <p className="text-sm text-slate-600">
