@@ -179,11 +179,15 @@ export async function findWeeklyReportsByUser(userId: string) {
 
 export async function findWeeklyReportByUserAndWeek(userId: string, weekStart: Date, subject?: string) {
   try {
+    // Use date comparison instead of exact timestamp matching
+    // This is more robust as it accounts for potential small differences in milliseconds
+    const weekStartDateOnly = weekStart.toISOString().split('T')[0]; // Get YYYY-MM-DD only
+    
     let sql = `
       SELECT * FROM ProgressReport 
-      WHERE userId = ? AND weekStart = ?
+      WHERE userId = ? AND DATE(weekStart) = ?
     `;
-    const params = [userId, weekStart.toISOString()];
+    const params = [userId, weekStartDateOnly];
     
     if (subject) {
       sql += ' AND subject = ?';
