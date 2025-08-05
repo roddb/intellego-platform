@@ -155,9 +155,12 @@ export default function StudentDashboard() {
         const isFutureWeek = week.start > now && !isCurrentWeek
         
         // Check if this subject has reports and if any match this week
+        // Use date comparison instead of exact timestamp to avoid millisecond differences
         const hasReport = reportsBySubjectData[subject]?.some(report => {
           const reportWeekStart = new Date(report.weekStart)
-          return reportWeekStart.getTime() === week.start.getTime()
+          const reportDateOnly = reportWeekStart.toISOString().split('T')[0]
+          const weekDateOnly = week.start.toISOString().split('T')[0]
+          return reportDateOnly === weekDateOnly
         }) || false
         
         return {
