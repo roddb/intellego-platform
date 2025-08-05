@@ -178,6 +178,25 @@ export default function StudentDashboard() {
   const handleSubmissionSuccess = (subject: string) => {
     setSuccessMessage(`¡Reporte de ${subject} enviado exitosamente!`)
     setCanSubmitBySubject(prev => ({ ...prev, [subject]: false }))
+    
+    // Immediately update the calendar visual state for this subject and current week
+    const now = new Date()
+    const currentWeekStart = getWeekStart(now)
+    
+    setMonthWeeksBySubject(prev => {
+      const updated = { ...prev }
+      if (updated[subject]) {
+        updated[subject] = updated[subject].map(week => {
+          if (week.start.getTime() === currentWeekStart.getTime()) {
+            return { ...week, hasReport: true }
+          }
+          return week
+        })
+      }
+      return updated
+    })
+    
+    // Fetch fresh data from server to ensure consistency
     fetchStudentData()
     
     // Clear success message after 3 seconds
