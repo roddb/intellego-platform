@@ -63,5 +63,8 @@ class SimpleRateLimit {
   }
 }
 
-// Export a singleton instance for the feedback API
+// Export singleton instances for different types of operations
 export const ratelimit = new SimpleRateLimit(5, 300000); // 5 requests per 5 minutes for AI operations
+export const instructorApiRateLimit = new SimpleRateLimit(100, 60000); // 100 requests per minute for instructor API
+export const hierarchicalApiRateLimit = new SimpleRateLimit(50, 60000); // 50 requests per minute for hierarchical data
+export const exportApiRateLimit = new SimpleRateLimit(10, 300000); // 10 exports per 5 minutes

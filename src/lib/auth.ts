@@ -38,9 +38,15 @@ export const authOptions: NextAuthOptions = {
   ],
   session: {
     strategy: "jwt",
+    maxAge: 8 * 60 * 60, // 8 hours (reasonable for educational platform)
+    updateAge: 2 * 60 * 60, // Update session every 2 hours
+  },
+  jwt: {
+    maxAge: 8 * 60 * 60, // 8 hours
   },
   callbacks: {
     async jwt({ token, user }) {
+      // Set user data on first sign in
       if (user) {
         token.role = user.role
         token.studentId = user.studentId
@@ -48,7 +54,21 @@ export const authOptions: NextAuthOptions = {
         token.academicYear = user.academicYear
         token.division = user.division
         token.subjects = user.subjects
+        token.lastActivity = Date.now()
       }
+      
+      // Check token expiration and activity
+      const now = Date.now()
+      const maxInactivity = 4 * 60 * 60 * 1000 // 4 hours of inactivity
+      
+      if (token.lastActivity && (now - (token.lastActivity as number)) > maxInactivity) {
+        console.log(`🔒 Token expired due to inactivity - User: ${token.email}`)
+        // Return a minimal token that will cause re-authentication
+        return { expired: true } as any
+      }
+      
+      // Update last activity on each token refresh
+      token.lastActivity = now
       return token
     },
     async session({ session, token }) {
