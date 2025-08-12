@@ -11,7 +11,6 @@ interface HealthCheckResult {
   uptime: number;
   checks: {
     database: boolean;
-    ai_providers: boolean;
     authentication: boolean;
     file_system: boolean;
   };
@@ -22,8 +21,6 @@ interface HealthCheckResult {
   };
   features: {
     progress_reports: boolean;
-    ai_feedback: boolean;
-    email_notifications: boolean;
     calendar_events: boolean;
   };
   deployment: {
@@ -44,7 +41,6 @@ export async function GET(request: NextRequest) {
       uptime: process.uptime(),
       checks: {
         database: false,
-        ai_providers: false,
         authentication: false,
         file_system: false
       },
@@ -55,8 +51,6 @@ export async function GET(request: NextRequest) {
       },
       features: {
         progress_reports: false,
-        ai_feedback: false,
-        email_notifications: false,
         calendar_events: false
       },
       deployment: {
@@ -86,25 +80,8 @@ export async function GET(request: NextRequest) {
       healthCheck.status = 'degraded';
     }
 
-    // 2. AI PROVIDERS HEALTH CHECK
-    try {
-      // Check if AI environment variables are configured
-      const hasGroq = !!process.env.GROQ_API_KEY;
-      const hasGoogleAI = !!process.env.GOOGLE_AI_API_KEY;
-      const hasOpenAI = !!process.env.OPENAI_API_KEY;
-      
-      healthCheck.checks.ai_providers = hasGroq || hasGoogleAI || hasOpenAI;
-      
-      if (!healthCheck.checks.ai_providers) {
-        healthCheck.status = 'degraded';
-      }
-    } catch (error) {
-      console.error('AI providers health check failed:', error);
-      healthCheck.checks.ai_providers = false;
-      healthCheck.status = 'degraded';
-    }
 
-    // 3. AUTHENTICATION HEALTH CHECK
+    // 2. AUTHENTICATION HEALTH CHECK
     try {
       // Check NextAuth configuration
       const hasNextAuthSecret = !!process.env.NEXTAUTH_SECRET;
@@ -121,7 +98,7 @@ export async function GET(request: NextRequest) {
       healthCheck.status = 'unhealthy';
     }
 
-    // 4. FILE SYSTEM HEALTH CHECK
+    // 3. FILE SYSTEM HEALTH CHECK
     try {
       // In production (Vercel), we only check read access
       // File writing is handled by Vercel's ephemeral file system
@@ -132,17 +109,10 @@ export async function GET(request: NextRequest) {
       healthCheck.status = 'degraded';
     }
 
-    // 5. FEATURE HEALTH CHECKS
+    // 4. FEATURE HEALTH CHECKS
     try {
       // Progress Reports
       healthCheck.features.progress_reports = healthCheck.checks.database && healthCheck.checks.authentication;
-      
-      // AI Feedback
-      healthCheck.features.ai_feedback = healthCheck.checks.ai_providers && healthCheck.checks.database;
-      
-      // Email Notifications
-      const hasEmailConfig = !!(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET);
-      healthCheck.features.email_notifications = hasEmailConfig && healthCheck.checks.database;
       
       // Calendar Events
       healthCheck.features.calendar_events = healthCheck.checks.database && healthCheck.checks.authentication;
@@ -150,12 +120,12 @@ export async function GET(request: NextRequest) {
       console.error('Feature health check failed:', error);
     }
 
-    // 6. PERFORMANCE METRICS
+    // 5. PERFORMANCE METRICS
     const memoryUsage = process.memoryUsage();
     healthCheck.performance.memory_usage_mb = Math.round(memoryUsage.heapUsed / 1024 / 1024);
     healthCheck.performance.response_time_ms = Math.round(performance.now() - startTime);
 
-    // 7. OVERALL HEALTH DETERMINATION
+    // 6. OVERALL HEALTH DETERMINATION
     const criticalChecks = [
       healthCheck.checks.database,
       healthCheck.checks.authentication

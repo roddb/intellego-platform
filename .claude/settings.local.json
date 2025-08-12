@@ -57,7 +57,8 @@
       "Bash([ -f .env ])",
       "Bash(HOST=0.0.0.0 PORT=3000 npm run dev)",
       "Bash(nc:*)",
-      "Bash(DEBUG=next:*)"
+      "Bash(DEBUG=next:*)",
+      "Bash(git restore:*)"
     ],
     "deny": []
   }
