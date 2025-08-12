@@ -50,7 +50,14 @@
       "WebFetch(domain:www.prisma.io)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:docs.turso.tech)",
-      "WebFetch(domain:turso.tech)"
+      "WebFetch(domain:turso.tech)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(npx ts-node:*)",
+      "Bash([ -f .env ])",
+      "Bash(HOST=0.0.0.0 PORT=3000 npm run dev)",
+      "Bash(nc:*)",
+      "Bash(DEBUG=next:*)"
     ],
     "deny": []
   }

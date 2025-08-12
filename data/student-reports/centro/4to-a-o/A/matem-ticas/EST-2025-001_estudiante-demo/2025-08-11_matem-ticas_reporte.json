@@ -1,0 +1,25 @@
+{
+  "student": {
+    "id": "EST-2025-001",
+    "name": "Estudiante Demo",
+    "email": "estudiante@demo.com"
+  },
+  "academic": {
+    "sede": "Centro",
+    "year": "4to Año",
+    "division": "A",
+    "subject": "Matemáticas"
+  },
+  "week": {
+    "start": "2025-08-11",
+    "end": "2025-08-18"
+  },
+  "submittedAt": "2025-08-11T22:26:52.283Z",
+  "answers": {
+    "temasYDominio": "Esto",
+    "evidenciaAprendizaje": "Es",
+    "dificultadesEstrategias": "Una ",
+    "conexionesAplicacion": "Prueba",
+    "comentariosAdicionales": "Del estudiante de prueba"
+  }
+}

@@ -280,3 +280,343 @@ curl https://intellego-platform.vercel.app/api/auth/providers
 - Sistema de notificaciones push
 - Exportación avanzada de datos
 
+## 🚨 NEW DEVELOPMENT WORKFLOW PROTOCOL (CRITICAL)
+
+⚠️ **PRODUCTION PLATFORM IN USE - ZERO DOWNTIME TOLERANCE**
+
+The Intellego Platform is currently being used by real students and instructors in production. Any breaking change could disrupt their academic workflow and progress tracking.
+
+### 🔒 MANDATORY SECURITY WORKFLOW
+
+**ALL DEVELOPMENT MUST FOLLOW THIS PROTOCOL:**
+
+1. **LOCAL-FIRST DEVELOPMENT**
+   - ALL changes must be developed and tested locally first
+   - NO direct commits to main without local testing
+   - Use `npm run dev` for local development server
+   - Test ALL functionality before considering deployment
+
+2. **COMPREHENSIVE LOCAL TESTING**
+   - Authentication flows (login/logout/signup)
+   - Progress report submission and persistence
+   - Calendar functionality
+   - Database operations (read/write)
+   - User role permissions
+   - File system operations (JSON exports)
+
+3. **DEPLOYMENT SAFETY**
+   - Only commit after 100% local verification
+   - GitHub auto-deploys to Vercel (NO manual intervention)
+   - Monitor Vercel deployment logs immediately after push
+   - Have rollback plan ready if issues arise
+
+4. **ROLLBACK PROTOCOL**
+   ```bash
+   # If deployment breaks production:
+   git log --oneline -5  # Find last working commit
+   git revert [COMMIT_HASH]  # Revert breaking change
+   git push  # Auto-deploy fix
+   ```
+
+### ⚡ DEVELOPMENT COMMANDS
+
+```bash
+# MANDATORY before any commit:
+npm run dev              # Start local server
+npm run build           # Test production build
+npm run lint            # Check code quality
+npm run type-check      # Verify TypeScript
+
+# Health verification:
+curl -s http://localhost:3000/api/auth/providers > /dev/null && echo "✅ Auth OK"
+curl -s http://localhost:3000/api/test-libsql > /dev/null && echo "✅ DB OK"
+```
+
+## 🎯 COMPLETE AI ASSESSMENT SYSTEM ROADMAP
+
+**APPROVED PROJECT**: Comprehensive AI-powered assessment and rubric system for the Intellego Platform.
+
+### 📋 IMPLEMENTATION PHASES
+
+#### **PHASE 1: Foundation Setup (Infrastructure Agent)**
+**Status**: Ready to Begin  
+**Agent**: DevOps/System Administration Expert  
+**Duration**: 2-3 days
+
+**Tasks:**
+- [ ] Create database schema for rubrics, criteria, and assessments
+- [ ] Set up subject-specific configuration management
+- [ ] Implement sede-specific rubric variations
+- [ ] Create AI assessment service foundation
+- [ ] Configure environment variables for AI services
+
+**Database Extensions:**
+```sql
+-- Rubrics table
+CREATE TABLE Rubric (
+  id TEXT PRIMARY KEY,
+  subject TEXT NOT NULL,
+  sede TEXT NOT NULL,
+  academicYear TEXT NOT NULL,
+  name TEXT NOT NULL,
+  description TEXT,
+  totalPoints INTEGER NOT NULL,
+  criteria TEXT, -- JSON array of criteria
+  aiPromptTemplate TEXT,
+  status TEXT DEFAULT 'ACTIVE',
+  createdBy TEXT NOT NULL,
+  createdAt TEXT NOT NULL,
+  updatedAt TEXT NOT NULL,
+  FOREIGN KEY (createdBy) REFERENCES User(id)
+);
+
+-- Assessment table
+CREATE TABLE Assessment (
+  id TEXT PRIMARY KEY,
+  rubricId TEXT NOT NULL,
+  progressReportId TEXT NOT NULL,
+  userId TEXT NOT NULL,
+  aiScore INTEGER,
+  aiAnalysis TEXT, -- JSON with detailed breakdown
+  instructorOverride INTEGER,
+  instructorComments TEXT,
+  status TEXT DEFAULT 'PENDING',
+  assessedAt TEXT,
+  FOREIGN KEY (rubricId) REFERENCES Rubric(id),
+  FOREIGN KEY (progressReportId) REFERENCES ProgressReport(id),
+  FOREIGN KEY (userId) REFERENCES User(id)
+);
+```
+
+#### **PHASE 2: Rubric Management System (Frontend Specialist)**
+**Status**: Pending Phase 1  
+**Agent**: React/Next.js Frontend Expert  
+**Duration**: 3-4 days
+
+**Tasks:**
+- [ ] Create rubric builder interface for instructors
+- [ ] Implement subject-specific rubric templates
+- [ ] Build criteria management system
+- [ ] Create rubric preview and testing interface
+- [ ] Implement rubric versioning system
+
+**Key Components:**
+- `/admin/rubrics` - Rubric management dashboard
+- `/admin/rubrics/new` - Rubric builder
+- `/admin/rubrics/[id]/edit` - Rubric editor
+- `RubricBuilder.tsx` - Drag-and-drop rubric creator
+- `CriteriaManager.tsx` - Individual criteria configuration
+
+#### **PHASE 3: AI Integration Core (AI/ML Specialist)**
+**Status**: Pending Phase 2  
+**Agent**: AI/ML Integration Expert  
+**Duration**: 4-5 days
+
+**Tasks:**
+- [ ] Integrate OpenAI/Claude API for assessment
+- [ ] Create prompt engineering system
+- [ ] Implement assessment scoring algorithms
+- [ ] Build assessment result processing
+- [ ] Create feedback generation system
+
+**AI Services:**
+- Assessment service with configurable prompts
+- Rubric-aware scoring system
+- Natural language feedback generation
+- Confidence scoring for AI assessments
+- Fallback mechanisms for API failures
+
+#### **PHASE 4: Assessment Dashboard (Data Visualization Expert)**
+**Status**: Pending Phase 3  
+**Agent**: Dashboard/Analytics Specialist  
+**Duration**: 3-4 days
+
+**Tasks:**
+- [ ] Create instructor assessment dashboard
+- [ ] Build student progress visualization
+- [ ] Implement assessment history tracking
+- [ ] Create comparative analytics
+- [ ] Build assessment export system
+
+**Dashboard Features:**
+- Real-time assessment results
+- Student progress trending
+- Rubric effectiveness metrics
+- Batch assessment processing
+- Assessment override interface
+
+#### **PHASE 5: Student Feedback Interface (UX/UI Specialist)**
+**Status**: Pending Phase 4  
+**Agent**: User Experience Expert  
+**Duration**: 2-3 days
+
+**Tasks:**
+- [ ] Design student assessment results view
+- [ ] Create progress tracking interface
+- [ ] Implement improvement suggestions
+- [ ] Build assessment history for students
+- [ ] Create goal-setting interface
+
+**Student Features:**
+- Personalized assessment feedback
+- Progress visualization
+- Improvement recommendations
+- Goal tracking system
+- Historical performance analysis
+
+#### **PHASE 6: Advanced Analytics (Data Analytics Expert)**
+**Status**: Pending Phase 5  
+**Agent**: Data Analytics Specialist  
+**Duration**: 3-4 days
+
+**Tasks:**
+- [ ] Implement learning analytics
+- [ ] Create predictive modeling
+- [ ] Build instructor insights dashboard
+- [ ] Develop sede-wide reporting
+- [ ] Create academic performance trends
+
+**Analytics Features:**
+- Learning pattern recognition
+- At-risk student identification
+- Subject-specific performance insights
+- Sede comparative analysis
+- Predictive academic outcomes
+
+#### **PHASE 7: System Integration & Testing (QA/Integration Specialist)**
+**Status**: Pending Phase 6  
+**Agent**: Quality Assurance Expert  
+**Duration**: 2-3 days
+
+**Tasks:**
+- [ ] Comprehensive system testing
+- [ ] Performance optimization
+- [ ] Security audit and hardening
+- [ ] Documentation completion
+- [ ] Production deployment verification
+
+**Final Deliverables:**
+- Complete AI assessment system
+- User training documentation
+- Admin configuration guides
+- Performance monitoring setup
+- Maintenance procedures
+
+### 🔄 DEVELOPMENT PROTOCOL FOR EACH PHASE
+
+**Phase Initiation:**
+1. Create feature branch: `feature/phase-[X]-[description]`
+2. Complete local development following security workflow
+3. Comprehensive testing with real data scenarios
+4. Peer review with previous phase deliverables
+5. Integration testing with existing system
+6. Documentation update
+7. Production deployment via main branch
+
+**Quality Gates:**
+- [ ] All tests passing locally
+- [ ] No breaking changes to existing functionality
+- [ ] Database migrations tested
+- [ ] User role permissions verified
+- [ ] Performance benchmarks met
+- [ ] Security audit completed
+
+## ✅ DEPLOYMENT SAFETY CHECKLIST
+
+**MANDATORY CHECKLIST BEFORE ANY COMMIT/PUSH:**
+
+### 🔍 PRE-COMMIT VERIFICATION
+
+- [ ] **Local Development Server Running**: `npm run dev` successful
+- [ ] **Authentication Working**: Login/logout flows tested
+- [ ] **Database Connection**: Local and production DB accessible
+- [ ] **Core Features**: Progress reports, calendar, tasks functional
+- [ ] **Build Success**: `npm run build` completes without errors
+- [ ] **Type Safety**: `npm run type-check` passes
+- [ ] **Code Quality**: `npm run lint` passes with no critical issues
+
+### 🧪 FUNCTIONAL TESTING
+
+- [ ] **User Registration**: New user signup works
+- [ ] **User Login**: Existing user authentication works
+- [ ] **Progress Reports**: Report submission and persistence
+- [ ] **Calendar Integration**: Events creation and display
+- [ ] **File System**: JSON export functionality
+- [ ] **Role Permissions**: Student/Instructor access controls
+- [ ] **Database Operations**: CRUD operations functioning
+
+### 🚀 DEPLOYMENT READINESS
+
+- [ ] **Environment Variables**: All required vars configured
+- [ ] **Dependencies**: No missing or conflicting packages
+- [ ] **API Endpoints**: All routes responding correctly
+- [ ] **Error Handling**: Graceful error recovery implemented
+- [ ] **Performance**: No significant performance degradation
+- [ ] **Security**: No exposed credentials or vulnerabilities
+
+### 📊 POST-DEPLOYMENT MONITORING
+
+**IMMEDIATELY after push to main:**
+
+1. **Vercel Dashboard Check** (< 2 minutes)
+   - Deployment status: Success
+   - Build logs: No errors
+   - Function status: All healthy
+
+2. **Production Health Check** (< 5 minutes)
+   ```bash
+   curl https://intellego-platform.vercel.app/api/auth/providers
+   curl https://intellego-platform.vercel.app/api/test-libsql
+   ```
+
+3. **User Flow Verification** (< 10 minutes)
+   - Test login with demo account
+   - Submit test progress report
+   - Verify data persistence
+   - Check JSON file generation
+
+### 🆘 EMERGENCY ROLLBACK PROCEDURE
+
+**If production breaks:**
+
+```bash
+# Immediate rollback (execute within 5 minutes)
+git log --oneline -10                    # Find last working commit
+git revert [BREAKING_COMMIT_HASH]        # Create revert commit
+git push                                 # Auto-deploy rollback
+
+# Alternative: Hard reset (use only if revert fails)
+git reset --hard [LAST_WORKING_COMMIT]
+git push --force-with-lease
+```
+
+**Emergency Contacts:**
+- Vercel Status: https://vercel.com/status
+- Turso Status: https://turso.tech/status
+- GitHub Status: https://githubstatus.com
+
+### 📝 COMMIT MESSAGE STANDARDS
+
+**Format**: `[TYPE]: [Brief description]`
+
+**Types:**
+- `FEAT`: New feature implementation
+- `FIX`: Bug fix or error correction
+- `REFACTOR`: Code restructuring without functionality change
+- `CONFIG`: Configuration or environment changes
+- `DOCS`: Documentation updates
+- `SECURITY`: Security-related changes
+- `HOTFIX`: Emergency production fixes
+
+**Examples:**
+```
+FEAT: Add AI assessment rubric builder interface
+FIX: Resolve calendar persistence after logout
+CONFIG: Update Turso connection parameters
+SECURITY: Implement additional input validation
+```
+
+---
+
+**⚠️ CRITICAL REMINDER**: This platform serves real students and instructors. Every commit affects their academic progress tracking. When in doubt, test more. Better to be slow and stable than fast and broken.
+
