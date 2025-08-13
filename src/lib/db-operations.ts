@@ -70,11 +70,36 @@ export async function createUser(userData: {
 }
 
 export async function validateUserPassword(email: string, password: string) {
+  console.log('🔍 validateUserPassword called for:', email);
+  
   const user = await findUserByEmail(email);
-  if (!user || !user.password) return null;
+  
+  if (!user) {
+    console.log('❌ User not found:', email);
+    return null;
+  }
+  
+  if (!user.password) {
+    console.log('❌ User has no password:', email);
+    return null;
+  }
+  
+  console.log('🔍 Found user, testing password...');
+  console.log('   User ID:', user.id);
+  console.log('   User name:', user.name);
+  console.log('   Password hash length:', String(user.password).length);
   
   const isValid = await bcrypt.compare(password, String(user.password));
-  return isValid ? user : null;
+  
+  console.log('🔍 Password validation result:', isValid);
+  
+  if (isValid) {
+    console.log('✅ Password valid, returning user');
+    return user;
+  } else {
+    console.log('❌ Password invalid');
+    return null;
+  }
 }
 
 // Generate unique student ID
@@ -783,21 +808,21 @@ export async function getCoursesBySubjectAndYear(subject: string, year: string):
  */
 export async function getStudentsByCourse(subject: string, year: string, course: string): Promise<HierarchicalStudent[]> {
   try {
-    // Get students who have submitted reports for this specific subject, year, and course
-    // This ensures we only show students who actually have data for this subject
+    // Get ALL students registered for this subject, year, and course
+    // Uses LEFT JOIN to include students even if they haven't submitted reports yet
     const result = await query(`
       SELECT DISTINCT 
         u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects,
         COUNT(pr.id) as reportCount
       FROM User u
-      INNER JOIN ProgressReport pr ON u.id = pr.userId
+      LEFT JOIN ProgressReport pr ON (u.id = pr.userId AND pr.subject = ?)
       WHERE u.role = 'STUDENT' 
         AND u.academicYear = ?
         AND u.division = ?
-        AND pr.subject = ?
+        AND u.subjects LIKE ?
       GROUP BY u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects
       ORDER BY u.name
-    `, [year, course, subject]);
+    `, [subject, year, course, `%${subject}%`]);
     
     return result.rows.map(row => ({
       id: String((row as any).id),
