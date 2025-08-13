@@ -783,36 +783,21 @@ export async function getCoursesBySubjectAndYear(subject: string, year: string):
  */
 export async function getStudentsByCourse(subject: string, year: string, course: string): Promise<HierarchicalStudent[]> {
   try {
+    // Get students who have submitted reports for this specific subject, year, and course
+    // This ensures we only show students who actually have data for this subject
     const result = await query(`
       SELECT DISTINCT 
         u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects,
         COUNT(pr.id) as reportCount
       FROM User u
-      LEFT JOIN ProgressReport pr ON u.id = pr.userId AND pr.subject = ?
+      INNER JOIN ProgressReport pr ON u.id = pr.userId
       WHERE u.role = 'STUDENT' 
-      AND u.academicYear = ?
-      AND u.division = ?
-      AND (
-        (u.subjects IS NOT NULL AND (
-          u.subjects LIKE ? OR 
-          u.subjects LIKE ? OR 
-          u.subjects LIKE ? OR
-          u.subjects = ?
-        ))
-        OR pr.subject = ?
-      )
+        AND u.academicYear = ?
+        AND u.division = ?
+        AND pr.subject = ?
       GROUP BY u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects
       ORDER BY u.name
-    `, [
-      subject, // for pr.subject = ?
-      year, 
-      course,
-      `${subject},%`, 
-      `%,${subject},%`, 
-      `%,${subject}`, 
-      subject, 
-      subject // for pr.subject = ?
-    ]);
+    `, [year, course, subject]);
     
     return result.rows.map(row => ({
       id: String((row as any).id),
@@ -1149,27 +1134,22 @@ export async function getHierarchicalNavigation(): Promise<{
   }
 }> {
   try {
+    // Get subjects from actual progress reports to ensure we only show subjects with data
     const result = await query(`
       SELECT DISTINCT 
-        CASE 
-          WHEN pr.subject IS NOT NULL THEN pr.subject
-          WHEN u.subjects LIKE '%,%' THEN TRIM(SUBSTR(u.subjects, 1, INSTR(u.subjects, ',') - 1))
-          ELSE TRIM(u.subjects)
-        END as subject,
+        pr.subject,
         u.academicYear,
         u.division
-      FROM User u
-      LEFT JOIN ProgressReport pr ON u.id = pr.userId
+      FROM ProgressReport pr
+      INNER JOIN User u ON pr.userId = u.id
       WHERE u.role = 'STUDENT' 
-      AND u.academicYear IS NOT NULL 
-      AND u.academicYear != ''
-      AND u.division IS NOT NULL 
-      AND u.division != ''
-      AND (
-        pr.subject IS NOT NULL 
-        OR (u.subjects IS NOT NULL AND u.subjects != '')
-      )
-      ORDER BY subject, u.academicYear DESC, u.division
+        AND pr.subject IS NOT NULL
+        AND pr.subject != ''
+        AND u.academicYear IS NOT NULL 
+        AND u.academicYear != ''
+        AND u.division IS NOT NULL 
+        AND u.division != ''
+      ORDER BY pr.subject, u.academicYear DESC, u.division
     `);
     
     const navigation: { [subject: string]: { [year: string]: string[] } } = {};
