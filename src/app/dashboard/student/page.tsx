@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
+import { toArgentinaDate, getCurrentArgentinaDate, isCurrentWeekInArgentina, isPastWeekInArgentina, isFutureWeekInArgentina } from "@/lib/timezone-utils"
 
 // Helper functions for date management
 function getWeekStart(date: Date): Date {
@@ -145,14 +146,14 @@ export default function StudentDashboard() {
     
     // Initialize calendar for ALL user subjects, not just those with reports
     allUserSubjects.forEach(subject => {
-      const now = new Date()
+      const now = getCurrentArgentinaDate()
       const weeks = getMonthWeeks(now.getFullYear(), now.getMonth())
       const currentWeekStart = getWeekStart(now)
       
       const weeksWithStatus = weeks.map(week => {
-        const isCurrentWeek = week.start.getTime() === currentWeekStart.getTime()
-        const isPastWeek = week.end < now && !isCurrentWeek
-        const isFutureWeek = week.start > now && !isCurrentWeek
+        const isCurrentWeek = isCurrentWeekInArgentina(week.start, week.end)
+        const isPastWeek = isPastWeekInArgentina(week.end) && !isCurrentWeek
+        const isFutureWeek = isFutureWeekInArgentina(week.start) && !isCurrentWeek
         
         // Check if this subject has reports and if any match this week
         // Use date comparison instead of exact timestamp to avoid millisecond differences
@@ -354,8 +355,8 @@ export default function StudentDashboard() {
 
                       <div className="space-y-2 max-h-64 overflow-y-auto">
                         {monthWeeksBySubject[subject]?.map((week, index) => {
-                          const weekStartStr = week.start.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' })
-                          const weekEndStr = week.end.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' })
+                          const weekStartStr = toArgentinaDate(week.start).slice(0, 5) // DD/MM format
+                          const weekEndStr = toArgentinaDate(week.end).slice(0, 5) // DD/MM format
                           
                           return (
                             <div 
@@ -372,7 +373,7 @@ export default function StudentDashboard() {
                             >
                               <div className="flex items-center justify-between">
                                 <span className="font-medium">
-                                  Semana {index + 1} ({weekStartStr} - {weekEndStr})
+                                  Semana {index + 1} ({weekStartStr} - {weekEndStr}) ART
                                 </span>
                                 <span className="text-xs font-medium">
                                   {week.hasReport ? '✅ Enviado' : 

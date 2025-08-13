@@ -1,5 +1,7 @@
 "use client"
 
+import { formatArgentinaWeekRange, formatSubmissionTimestamp } from "@/lib/timezone-utils"
+
 interface Student {
   id: string
   name: string
@@ -68,9 +70,7 @@ export default function StudentDetailView({
   })
 
   const formatWeekRange = (weekStart: string, weekEnd: string) => {
-    const start = new Date(weekStart)
-    const end = new Date(weekEnd)
-    return `${start.toLocaleDateString()} - ${end.toLocaleDateString()}`
+    return formatArgentinaWeekRange(weekStart, weekEnd)
   }
 
   return (
@@ -151,8 +151,7 @@ export default function StudentDetailView({
                           Semana del {formatWeekRange(report.weekStart, report.weekEnd)}
                         </h4>
                         <p className="text-sm text-slate-600 mt-1">
-                          Enviado el {new Date(report.submittedAt).toLocaleDateString()} a las{' '}
-                          {new Date(report.submittedAt).toLocaleTimeString()}
+                          {formatSubmissionTimestamp(report.submittedAt)}
                         </p>
                       </div>
                       <div className="flex items-center gap-2">

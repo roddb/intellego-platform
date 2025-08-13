@@ -1,5 +1,7 @@
 "use client"
 
+import { formatArgentinaWeekRange, toArgentinaDate, toArgentinaTimeOnly } from "@/lib/timezone-utils"
+
 interface Report {
   id: string
   userId: string
@@ -42,9 +44,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
   }
 
   const formatWeekRange = (weekStart: string, weekEnd: string) => {
-    const start = new Date(weekStart)
-    const end = new Date(weekEnd)
-    return `${start.toLocaleDateString()} - ${end.toLocaleDateString()}`
+    return formatArgentinaWeekRange(weekStart, weekEnd)
   }
 
   const handleDownloadJSON = async () => {
@@ -120,10 +120,10 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
           <div>
             <label className="text-sm font-medium text-slate-600">Fecha de Envío</label>
             <p className="text-slate-800">
-              {new Date(report.submittedAt).toLocaleDateString()}
+              {toArgentinaDate(report.submittedAt)}
             </p>
             <p className="text-sm text-slate-500">
-              {new Date(report.submittedAt).toLocaleTimeString()}
+              {toArgentinaTimeOnly(report.submittedAt)} (ART)
             </p>
           </div>
         </div>
