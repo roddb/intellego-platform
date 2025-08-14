@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
-import SessionWrapper from '@/components/SessionWrapper'
 import ErrorBoundary from '@/components/ErrorBoundary'
+import { SessionProvider } from 'next-auth/react'
+import { auth } from '@/lib/auth'
 
 export const metadata: Metadata = {
   title: 'Intellego Platform',
@@ -15,16 +14,16 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const session = await getServerSession(authOptions)
-  
+  const session = await auth()
+
   return (
     <html lang="es">
       <body className="min-h-screen">
-        <ErrorBoundary>
-          <SessionWrapper session={session}>
+        <SessionProvider session={session}>
+          <ErrorBoundary>
             {children}
-          </SessionWrapper>
-        </ErrorBoundary>
+          </ErrorBoundary>
+        </SessionProvider>
       </body>
     </html>
   )

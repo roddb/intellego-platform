@@ -1,5 +1,6 @@
 import bcrypt from 'bcryptjs';
 import { db, query } from './db'; // Use the libSQL client
+import { toArgentinaDate, toArgentinaTimeOnly } from './timezone-utils';
 
 // Export db getter and query function for compatibility
 export { db, query };
@@ -1273,8 +1274,8 @@ export async function generateReportJSON(reportId: string): Promise<string> {
         },
         submissionInfo: {
           submittedAt: reportData.reportMetadata.submittedAt,
-          submittedDate: new Date(reportData.reportMetadata.submittedAt).toLocaleDateString('es-ES'),
-          submittedTime: new Date(reportData.reportMetadata.submittedAt).toLocaleTimeString('es-ES')
+          submittedDate: toArgentinaDate(reportData.reportMetadata.submittedAt),
+          submittedTime: toArgentinaTimeOnly(reportData.reportMetadata.submittedAt)
         }
       },
       responses: Object.entries(reportData.answers).map(([questionId, answer]) => ({
@@ -1348,7 +1349,7 @@ export async function generateStudentSubjectJSON(userId: string, subject: string
         },
         submission: {
           submittedAt: report.submittedAt,
-          submittedDate: new Date(report.submittedAt).toLocaleDateString('es-ES')
+          submittedDate: toArgentinaDate(report.submittedAt)
         },
         responses: Object.entries(report.answers).map(([questionId, answer]) => ({
           questionId,
@@ -1444,4 +1445,759 @@ export function generateReportFilename(student: HierarchicalStudent, subject: st
   const safeSubject = subject.replace(/[^a-zA-Z0-9]/g, '_');
   
   return `${student.studentId}_${safeName}_${safeSubject}_${date}_reporte.${type}`;
+}
+
+// =====================================================================================
+// PASSWORD MANAGEMENT & AUDIT OPERATIONS
+// Comprehensive password change tracking and security audit functions
+// =====================================================================================
+
+/**
+ * Password audit action types
+ */
+export type PasswordActionType = 'CHANGE' | 'RESET' | 'ADMIN_RESET' | 'FORCE_CHANGE';
+
+/**
+ * Who initiated the password action
+ */
+export type ActionInitiator = 'USER' | 'ADMIN' | 'SYSTEM';
+
+/**
+ * Password audit entry interface
+ */
+export interface PasswordAuditEntry {
+  id: string;
+  userId: string;
+  actionType: PasswordActionType;
+  actionInitiatedBy: ActionInitiator;
+  adminUserId?: string;
+  previousPasswordHash?: string;
+  newPasswordHash: string;
+  changeReason?: string;
+  securityContext: {
+    ipAddress?: string;
+    userAgent?: string;
+    sessionId?: string;
+    location?: string;
+    deviceInfo?: string;
+  };
+  isSuccessful: boolean;
+  errorMessage?: string;
+  passwordStrengthScore?: number;
+  complianceFlags: {
+    meetsMinLength: boolean;
+    hasUppercase: boolean;
+    hasLowercase: boolean;
+    hasNumbers: boolean;
+    hasSpecialChars: boolean;
+    notRecentlyUsed: boolean;
+    entropyScore: number;
+  };
+  notificationSent: boolean;
+  createdAt: string;
+}
+
+/**
+ * Password policy configuration
+ */
+export interface PasswordPolicy {
+  id: string;
+  policyName: string;
+  description?: string;
+  minLength: number;
+  maxLength: number;
+  requireUppercase: boolean;
+  requireLowercase: boolean;
+  requireNumbers: boolean;
+  requireSpecialChars: boolean;
+  allowedSpecialChars: string;
+  preventReuse: number;
+  expirationDays?: number;
+  lockoutAttempts: number;
+  lockoutDuration: number;
+  isActive: boolean;
+  appliesTo: string;
+}
+
+/**
+ * Logs a password audit entry with comprehensive security context
+ */
+export async function logPasswordAudit(auditData: {
+  userId: string;
+  actionType: PasswordActionType;
+  actionInitiatedBy: ActionInitiator;
+  adminUserId?: string;
+  previousPasswordHash?: string;
+  newPasswordHash: string;
+  changeReason?: string;
+  securityContext: {
+    ipAddress?: string;
+    userAgent?: string;
+    sessionId?: string;
+    location?: string;
+    deviceInfo?: string;
+  };
+  isSuccessful?: boolean;
+  errorMessage?: string;
+  passwordStrengthScore?: number;
+  complianceFlags?: {
+    meetsMinLength: boolean;
+    hasUppercase: boolean;
+    hasLowercase: boolean;
+    hasNumbers: boolean;
+    hasSpecialChars: boolean;
+    notRecentlyUsed: boolean;
+    entropyScore: number;
+  };
+  notificationSent?: boolean;
+}): Promise<string> {
+  try {
+    const auditId = generateId();
+    const now = new Date().toISOString();
+    
+    // Set defaults
+    const isSuccessful = auditData.isSuccessful ?? true;
+    const notificationSent = auditData.notificationSent ?? false;
+    const passwordStrengthScore = auditData.passwordStrengthScore ?? calculatePasswordStrength(auditData.newPasswordHash);
+    
+    // Default compliance flags if not provided
+    const defaultComplianceFlags = {
+      meetsMinLength: true,
+      hasUppercase: true,
+      hasLowercase: true,
+      hasNumbers: true,
+      hasSpecialChars: true,
+      notRecentlyUsed: true,
+      entropyScore: passwordStrengthScore
+    };
+    const complianceFlags = auditData.complianceFlags ?? defaultComplianceFlags;
+    
+    await query(`
+      INSERT INTO PasswordAudit (
+        id, userId, actionType, actionInitiatedBy, adminUserId,
+        previousPasswordHash, newPasswordHash, changeReason,
+        securityContext, ipAddress, userAgent, sessionId,
+        isSuccessful, errorMessage, passwordStrengthScore,
+        complianceFlags, notificationSent, createdAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [
+      auditId,
+      auditData.userId,
+      auditData.actionType,
+      auditData.actionInitiatedBy,
+      auditData.adminUserId || null,
+      auditData.previousPasswordHash || null,
+      auditData.newPasswordHash,
+      auditData.changeReason || null,
+      JSON.stringify(auditData.securityContext),
+      auditData.securityContext.ipAddress || null,
+      auditData.securityContext.userAgent || null,
+      auditData.securityContext.sessionId || null,
+      isSuccessful ? 1 : 0,
+      auditData.errorMessage || null,
+      passwordStrengthScore,
+      JSON.stringify(complianceFlags),
+      notificationSent ? 1 : 0,
+      now
+    ]);
+    
+    console.log(`🔐 Password audit logged: ${auditData.actionType} for user ${auditData.userId}`);
+    return auditId;
+  } catch (error) {
+    console.error('Error logging password audit:', error);
+    throw error;
+  }
+}
+
+/**
+ * Updates user password with comprehensive audit logging
+ */
+export async function changeUserPassword(
+  userId: string,
+  currentPassword: string,
+  newPassword: string,
+  securityContext: {
+    ipAddress?: string;
+    userAgent?: string;
+    sessionId?: string;
+  },
+  changeReason?: string
+): Promise<{ success: boolean; message: string; auditId?: string }> {
+  try {
+    // Verify current password
+    const user = await findUserById(userId);
+    if (!user) {
+      return { success: false, message: 'User not found' };
+    }
+    
+    const isCurrentPasswordValid = await bcrypt.compare(currentPassword, String(user.password));
+    if (!isCurrentPasswordValid) {
+      // Log failed attempt
+      const auditId = await logPasswordAudit({
+        userId,
+        actionType: 'CHANGE',
+        actionInitiatedBy: 'USER',
+        previousPasswordHash: String(user.password),
+        newPasswordHash: '', // Empty for failed attempts
+        changeReason: changeReason || 'User-initiated password change',
+        securityContext,
+        isSuccessful: false,
+        errorMessage: 'Invalid current password provided'
+      });
+      
+      return { 
+        success: false, 
+        message: 'Current password is incorrect', 
+        auditId 
+      };
+    }
+    
+    // Validate new password against policy
+    const policy = await getActivePasswordPolicy();
+    const validationResult = validatePasswordAgainstPolicy(newPassword, policy);
+    
+    if (!validationResult.isValid) {
+      // Log validation failure
+      const auditId = await logPasswordAudit({
+        userId,
+        actionType: 'CHANGE',
+        actionInitiatedBy: 'USER',
+        previousPasswordHash: String(user.password),
+        newPasswordHash: '', // Empty for failed attempts
+        changeReason: changeReason || 'User-initiated password change',
+        securityContext,
+        isSuccessful: false,
+        errorMessage: `Password validation failed: ${validationResult.errors.join(', ')}`,
+        complianceFlags: validationResult.complianceFlags
+      });
+      
+      return { 
+        success: false, 
+        message: `Password does not meet requirements: ${validationResult.errors.join(', ')}`,
+        auditId 
+      };
+    }
+    
+    // Check for password reuse
+    const isReused = await checkPasswordReuse(userId, newPassword, policy.preventReuse);
+    if (isReused) {
+      const auditId = await logPasswordAudit({
+        userId,
+        actionType: 'CHANGE',
+        actionInitiatedBy: 'USER',
+        previousPasswordHash: String(user.password),
+        newPasswordHash: '', // Empty for failed attempts
+        changeReason: changeReason || 'User-initiated password change',
+        securityContext,
+        isSuccessful: false,
+        errorMessage: `Password was recently used. Cannot reuse last ${policy.preventReuse} passwords.`,
+        complianceFlags: { ...validationResult.complianceFlags, notRecentlyUsed: false }
+      });
+      
+      return { 
+        success: false, 
+        message: `Password was recently used. Please choose a different password.`,
+        auditId 
+      };
+    }
+    
+    // Hash new password
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
+    const now = new Date().toISOString();
+    
+    // Update user password
+    await query(`
+      UPDATE User 
+      SET password = ?, updatedAt = ?
+      WHERE id = ?
+    `, [hashedPassword, now, userId]);
+    
+    // Log successful password change
+    const auditId = await logPasswordAudit({
+      userId,
+      actionType: 'CHANGE',
+      actionInitiatedBy: 'USER',
+      previousPasswordHash: String(user.password),
+      newPasswordHash: hashedPassword,
+      changeReason: changeReason || 'User-initiated password change',
+      securityContext,
+      isSuccessful: true,
+      passwordStrengthScore: validationResult.strengthScore,
+      complianceFlags: validationResult.complianceFlags
+    });
+    
+    return { 
+      success: true, 
+      message: 'Password changed successfully', 
+      auditId 
+    };
+    
+  } catch (error) {
+    console.error('Error changing user password:', error);
+    
+    // Log system error
+    try {
+      const auditId = await logPasswordAudit({
+        userId,
+        actionType: 'CHANGE',
+        actionInitiatedBy: 'USER',
+        previousPasswordHash: '',
+        newPasswordHash: '',
+        changeReason: changeReason || 'User-initiated password change',
+        securityContext,
+        isSuccessful: false,
+        errorMessage: `System error: ${error instanceof Error ? error.message : 'Unknown error'}`
+      });
+      
+      return { 
+        success: false, 
+        message: 'An error occurred while changing password', 
+        auditId 
+      };
+    } catch (auditError) {
+      console.error('Error logging password audit:', auditError);
+      return { 
+        success: false, 
+        message: 'An error occurred while changing password' 
+      };
+    }
+  }
+}
+
+/**
+ * Admin-initiated password reset with comprehensive audit logging
+ */
+export async function adminResetPassword(
+  adminUserId: string,
+  targetUserId: string,
+  newPassword: string,
+  securityContext: {
+    ipAddress?: string;
+    userAgent?: string;
+    sessionId?: string;
+  },
+  resetReason: string
+): Promise<{ success: boolean; message: string; auditId?: string }> {
+  try {
+    // Verify admin permissions
+    const admin = await findUserById(adminUserId);
+    if (!admin || (admin.role !== 'ADMIN' && admin.role !== 'INSTRUCTOR')) {
+      return { success: false, message: 'Insufficient permissions for password reset' };
+    }
+    
+    // Get target user
+    const targetUser = await findUserById(targetUserId);
+    if (!targetUser) {
+      return { success: false, message: 'Target user not found' };
+    }
+    
+    // Validate new password against policy
+    const policy = await getActivePasswordPolicy();
+    const validationResult = validatePasswordAgainstPolicy(newPassword, policy);
+    
+    if (!validationResult.isValid) {
+      const auditId = await logPasswordAudit({
+        userId: targetUserId,
+        actionType: 'ADMIN_RESET',
+        actionInitiatedBy: 'ADMIN',
+        adminUserId,
+        previousPasswordHash: String(targetUser.password),
+        newPasswordHash: '',
+        changeReason: resetReason,
+        securityContext,
+        isSuccessful: false,
+        errorMessage: `Password validation failed: ${validationResult.errors.join(', ')}`,
+        complianceFlags: validationResult.complianceFlags
+      });
+      
+      return { 
+        success: false, 
+        message: `Password does not meet requirements: ${validationResult.errors.join(', ')}`,
+        auditId 
+      };
+    }
+    
+    // Hash new password
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
+    const now = new Date().toISOString();
+    
+    // Update target user password
+    await query(`
+      UPDATE User 
+      SET password = ?, updatedAt = ?
+      WHERE id = ?
+    `, [hashedPassword, now, targetUserId]);
+    
+    // Log successful admin password reset
+    const auditId = await logPasswordAudit({
+      userId: targetUserId,
+      actionType: 'ADMIN_RESET',
+      actionInitiatedBy: 'ADMIN',
+      adminUserId,
+      previousPasswordHash: String(targetUser.password),
+      newPasswordHash: hashedPassword,
+      changeReason: resetReason,
+      securityContext,
+      isSuccessful: true,
+      passwordStrengthScore: validationResult.strengthScore,
+      complianceFlags: validationResult.complianceFlags
+    });
+    
+    return { 
+      success: true, 
+      message: 'Password reset successfully', 
+      auditId 
+    };
+    
+  } catch (error) {
+    console.error('Error resetting password:', error);
+    
+    // Log system error
+    try {
+      const auditId = await logPasswordAudit({
+        userId: targetUserId,
+        actionType: 'ADMIN_RESET',
+        actionInitiatedBy: 'ADMIN',
+        adminUserId,
+        previousPasswordHash: '',
+        newPasswordHash: '',
+        changeReason: resetReason,
+        securityContext,
+        isSuccessful: false,
+        errorMessage: `System error: ${error instanceof Error ? error.message : 'Unknown error'}`
+      });
+      
+      return { 
+        success: false, 
+        message: 'An error occurred while resetting password', 
+        auditId 
+      };
+    } catch (auditError) {
+      console.error('Error logging password audit:', auditError);
+      return { 
+        success: false, 
+        message: 'An error occurred while resetting password' 
+      };
+    }
+  }
+}
+
+/**
+ * Gets password audit history for a user
+ */
+export async function getUserPasswordAuditHistory(
+  userId: string, 
+  limit: number = 50,
+  offset: number = 0
+): Promise<PasswordAuditEntry[]> {
+  try {
+    const result = await query(`
+      SELECT 
+        pa.*,
+        u.name as adminName
+      FROM PasswordAudit pa
+      LEFT JOIN User u ON pa.adminUserId = u.id
+      WHERE pa.userId = ?
+      ORDER BY pa.createdAt DESC
+      LIMIT ? OFFSET ?
+    `, [userId, limit, offset]);
+    
+    return result.rows.map(row => ({
+      id: String(row.id),
+      userId: String(row.userId),
+      actionType: String(row.actionType) as PasswordActionType,
+      actionInitiatedBy: String(row.actionInitiatedBy) as ActionInitiator,
+      adminUserId: row.adminUserId ? String(row.adminUserId) : undefined,
+      previousPasswordHash: row.previousPasswordHash ? String(row.previousPasswordHash) : undefined,
+      newPasswordHash: String(row.newPasswordHash),
+      changeReason: row.changeReason ? String(row.changeReason) : undefined,
+      securityContext: JSON.parse(String(row.securityContext || '{}')),
+      isSuccessful: Boolean(row.isSuccessful),
+      errorMessage: row.errorMessage ? String(row.errorMessage) : undefined,
+      passwordStrengthScore: row.passwordStrengthScore ? Number(row.passwordStrengthScore) : undefined,
+      complianceFlags: JSON.parse(String(row.complianceFlags || '{}')),
+      notificationSent: Boolean(row.notificationSent),
+      createdAt: String(row.createdAt)
+    }));
+  } catch (error) {
+    console.error('Error getting user password audit history:', error);
+    throw error;
+  }
+}
+
+/**
+ * Gets system-wide password audit statistics
+ */
+export async function getPasswordAuditStatistics(
+  startDate?: string,
+  endDate?: string
+): Promise<{
+  totalPasswordChanges: number;
+  successfulChanges: number;
+  failedChanges: number;
+  userInitiated: number;
+  adminInitiated: number;
+  systemInitiated: number;
+  averagePasswordStrength: number;
+  topFailureReasons: Array<{ reason: string; count: number }>;
+}> {
+  try {
+    let whereClause = '';
+    const params: any[] = [];
+    
+    if (startDate && endDate) {
+      whereClause = 'WHERE pa.createdAt BETWEEN ? AND ?';
+      params.push(startDate, endDate);
+    } else if (startDate) {
+      whereClause = 'WHERE pa.createdAt >= ?';
+      params.push(startDate);
+    } else if (endDate) {
+      whereClause = 'WHERE pa.createdAt <= ?';
+      params.push(endDate);
+    }
+    
+    // Get overall statistics
+    const statsResult = await query(`
+      SELECT 
+        COUNT(*) as totalPasswordChanges,
+        SUM(CASE WHEN isSuccessful = 1 THEN 1 ELSE 0 END) as successfulChanges,
+        SUM(CASE WHEN isSuccessful = 0 THEN 1 ELSE 0 END) as failedChanges,
+        SUM(CASE WHEN actionInitiatedBy = 'USER' THEN 1 ELSE 0 END) as userInitiated,
+        SUM(CASE WHEN actionInitiatedBy = 'ADMIN' THEN 1 ELSE 0 END) as adminInitiated,
+        SUM(CASE WHEN actionInitiatedBy = 'SYSTEM' THEN 1 ELSE 0 END) as systemInitiated,
+        AVG(CASE WHEN passwordStrengthScore IS NOT NULL THEN passwordStrengthScore ELSE 0 END) as averagePasswordStrength
+      FROM PasswordAudit pa
+      ${whereClause}
+    `, params);
+    
+    // Get top failure reasons
+    const failureReasonsResult = await query(`
+      SELECT 
+        errorMessage as reason,
+        COUNT(*) as count
+      FROM PasswordAudit pa
+      ${whereClause ? whereClause + ' AND' : 'WHERE'} isSuccessful = 0 
+      AND errorMessage IS NOT NULL
+      GROUP BY errorMessage
+      ORDER BY count DESC
+      LIMIT 10
+    `, params);
+    
+    const stats = statsResult.rows[0];
+    
+    return {
+      totalPasswordChanges: Number(stats.totalPasswordChanges || 0),
+      successfulChanges: Number(stats.successfulChanges || 0),
+      failedChanges: Number(stats.failedChanges || 0),
+      userInitiated: Number(stats.userInitiated || 0),
+      adminInitiated: Number(stats.adminInitiated || 0),
+      systemInitiated: Number(stats.systemInitiated || 0),
+      averagePasswordStrength: Math.round(Number(stats.averagePasswordStrength || 0) * 100) / 100,
+      topFailureReasons: failureReasonsResult.rows.map(row => ({
+        reason: String(row.reason),
+        count: Number(row.count)
+      }))
+    };
+  } catch (error) {
+    console.error('Error getting password audit statistics:', error);
+    throw error;
+  }
+}
+
+/**
+ * Gets active password policy
+ */
+export async function getActivePasswordPolicy(): Promise<PasswordPolicy> {
+  try {
+    const result = await query(`
+      SELECT * FROM PasswordPolicy
+      WHERE isActive = 1
+      ORDER BY createdAt DESC
+      LIMIT 1
+    `);
+    
+    if (result.rows.length === 0) {
+      // Return default policy if none found
+      return {
+        id: 'default',
+        policyName: 'default_policy',
+        description: 'Default password policy',
+        minLength: 8,
+        maxLength: 128,
+        requireUppercase: true,
+        requireLowercase: true,
+        requireNumbers: true,
+        requireSpecialChars: true,
+        allowedSpecialChars: '!@#$%^&*()_+-=[]{}|;:,.<>?',
+        preventReuse: 5,
+        expirationDays: undefined,
+        lockoutAttempts: 5,
+        lockoutDuration: 1800,
+        isActive: true,
+        appliesTo: 'ALL'
+      };
+    }
+    
+    const row = result.rows[0];
+    return {
+      id: String(row.id),
+      policyName: String(row.policyName),
+      description: row.description ? String(row.description) : undefined,
+      minLength: Number(row.minLength),
+      maxLength: Number(row.maxLength),
+      requireUppercase: Boolean(row.requireUppercase),
+      requireLowercase: Boolean(row.requireLowercase),
+      requireNumbers: Boolean(row.requireNumbers),
+      requireSpecialChars: Boolean(row.requireSpecialChars),
+      allowedSpecialChars: String(row.allowedSpecialChars),
+      preventReuse: Number(row.preventReuse),
+      expirationDays: row.expirationDays ? Number(row.expirationDays) : undefined,
+      lockoutAttempts: Number(row.lockoutAttempts),
+      lockoutDuration: Number(row.lockoutDuration),
+      isActive: Boolean(row.isActive),
+      appliesTo: String(row.appliesTo)
+    };
+  } catch (error) {
+    console.error('Error getting active password policy:', error);
+    throw error;
+  }
+}
+
+/**
+ * Validates password against policy requirements
+ */
+export function validatePasswordAgainstPolicy(
+  password: string, 
+  policy: PasswordPolicy
+): {
+  isValid: boolean;
+  errors: string[];
+  strengthScore: number;
+  complianceFlags: {
+    meetsMinLength: boolean;
+    hasUppercase: boolean;
+    hasLowercase: boolean;
+    hasNumbers: boolean;
+    hasSpecialChars: boolean;
+    notRecentlyUsed: boolean;
+    entropyScore: number;
+  };
+} {
+  const errors: string[] = [];
+  const complianceFlags = {
+    meetsMinLength: password.length >= policy.minLength,
+    hasUppercase: /[A-Z]/.test(password),
+    hasLowercase: /[a-z]/.test(password),
+    hasNumbers: /\d/.test(password),
+    hasSpecialChars: new RegExp(`[${policy.allowedSpecialChars.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')}]`).test(password),
+    notRecentlyUsed: true, // This will be checked separately
+    entropyScore: calculatePasswordEntropy(password)
+  };
+  
+  // Check length
+  if (!complianceFlags.meetsMinLength) {
+    errors.push(`Password must be at least ${policy.minLength} characters long`);
+  }
+  if (password.length > policy.maxLength) {
+    errors.push(`Password must be no more than ${policy.maxLength} characters long`);
+  }
+  
+  // Check character requirements
+  if (policy.requireUppercase && !complianceFlags.hasUppercase) {
+    errors.push('Password must contain at least one uppercase letter');
+  }
+  if (policy.requireLowercase && !complianceFlags.hasLowercase) {
+    errors.push('Password must contain at least one lowercase letter');
+  }
+  if (policy.requireNumbers && !complianceFlags.hasNumbers) {
+    errors.push('Password must contain at least one number');
+  }
+  if (policy.requireSpecialChars && !complianceFlags.hasSpecialChars) {
+    errors.push(`Password must contain at least one special character (${policy.allowedSpecialChars})`);
+  }
+  
+  const strengthScore = calculatePasswordStrength(password);
+  
+  return {
+    isValid: errors.length === 0,
+    errors,
+    strengthScore,
+    complianceFlags
+  };
+}
+
+/**
+ * Checks if password was recently used
+ */
+export async function checkPasswordReuse(
+  userId: string,
+  newPassword: string,
+  preventReuseCount: number
+): Promise<boolean> {
+  try {
+    if (preventReuseCount <= 0) return false;
+    
+    const result = await query(`
+      SELECT newPasswordHash
+      FROM PasswordAudit
+      WHERE userId = ? AND isSuccessful = 1
+      ORDER BY createdAt DESC
+      LIMIT ?
+    `, [userId, preventReuseCount]);
+    
+    for (const row of result.rows) {
+      const isReused = await bcrypt.compare(newPassword, String(row.newPasswordHash));
+      if (isReused) return true;
+    }
+    
+    return false;
+  } catch (error) {
+    console.error('Error checking password reuse:', error);
+    // In case of error, allow the password to be safe
+    return false;
+  }
+}
+
+/**
+ * Calculates password strength score (1-5)
+ */
+export function calculatePasswordStrength(password: string): number {
+  let score = 0;
+  
+  // Length score
+  if (password.length >= 8) score += 1;
+  if (password.length >= 12) score += 1;
+  
+  // Character variety score
+  if (/[a-z]/.test(password)) score += 0.5;
+  if (/[A-Z]/.test(password)) score += 0.5;
+  if (/\d/.test(password)) score += 0.5;
+  if (/[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/.test(password)) score += 0.5;
+  
+  // Entropy bonus
+  const entropy = calculatePasswordEntropy(password);
+  if (entropy >= 30) score += 0.5;
+  if (entropy >= 50) score += 0.5;
+  
+  return Math.min(5, Math.max(1, Math.round(score)));
+}
+
+/**
+ * Calculates password entropy
+ */
+export function calculatePasswordEntropy(password: string): number {
+  const charset = {
+    lowercase: /[a-z]/.test(password),
+    uppercase: /[A-Z]/.test(password),
+    numbers: /\d/.test(password),
+    special: /[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/.test(password)
+  };
+  
+  let possibleChars = 0;
+  if (charset.lowercase) possibleChars += 26;
+  if (charset.uppercase) possibleChars += 26;
+  if (charset.numbers) possibleChars += 10;
+  if (charset.special) possibleChars += 32;
+  
+  return Math.log2(Math.pow(possibleChars, password.length));
 }

@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
+import PasswordResetModal from "@/components/instructor/PasswordResetModal"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
 // Hierarchical data interfaces - Force deployment for timezone fix
@@ -86,6 +87,8 @@ export default function InstructorDashboard() {
   const [hierarchicalSummary, setHierarchicalSummary] = useState<HierarchicalInstructorData['summary'] | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [loadingAction, setLoadingAction] = useState<string>('')
+  const [isPasswordResetModalOpen, setIsPasswordResetModalOpen] = useState(false)
+  const [studentForPasswordReset, setStudentForPasswordReset] = useState<HierarchicalStudent | null>(null)
 
   useEffect(() => {
     if (status === "loading") return
@@ -298,6 +301,26 @@ export default function InstructorDashboard() {
   const handleReportSelect = (report: HierarchicalWeeklyReport) => {
     setSelectedReport(report)
   }
+
+  const handlePasswordResetClick = (student: HierarchicalStudent) => {
+    setStudentForPasswordReset(student)
+    setIsPasswordResetModalOpen(true)
+  }
+
+  const handlePasswordResetModalClose = () => {
+    setIsPasswordResetModalOpen(false)
+    setStudentForPasswordReset(null)
+  }
+
+  const handlePasswordResetSuccess = (student: HierarchicalStudent) => {
+    console.log(`Password reset successful for ${student.name}`)
+    // Could add additional success handling here like showing a toast notification
+  }
+
+  const handlePasswordResetError = (error: string) => {
+    console.error("Password reset error:", error)
+    // Could add additional error handling here like showing a toast notification
+  }
   
 
   if (status === "loading" || isLoading) {
@@ -503,10 +526,20 @@ export default function InstructorDashboard() {
                         </p>
                       </div>
                       
-                      <div className="text-right">
+                      <div className="text-right space-y-2">
                         <div className="bg-teal-100 text-teal-800 px-2 py-1 rounded-full text-xs font-medium">
                           {student.reportCount} reportes
                         </div>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            handlePasswordResetClick(student)
+                          }}
+                          className="px-2 py-1 text-xs text-orange-600 hover:text-orange-700 border border-orange-200 hover:border-orange-300 rounded transition-colors"
+                          title="Restablecer contraseña del estudiante"
+                        >
+                          🔐 Reset
+                        </button>
                       </div>
                     </div>
                     
@@ -630,6 +663,15 @@ export default function InstructorDashboard() {
             </div>
           </div>
         )}
+
+        {/* Password Reset Modal */}
+        <PasswordResetModal
+          isOpen={isPasswordResetModalOpen}
+          onClose={handlePasswordResetModalClose}
+          student={studentForPasswordReset}
+          onSuccess={(student) => handlePasswordResetSuccess(student as HierarchicalStudent)}
+          onError={handlePasswordResetError}
+        />
       </main>
     </div>
   )

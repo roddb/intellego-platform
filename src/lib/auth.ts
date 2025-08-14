@@ -1,47 +1,41 @@
-import { NextAuthOptions } from "next-auth"
-import CredentialsProvider from "next-auth/providers/credentials"
+import NextAuth from "next-auth"
+import Credentials from "next-auth/providers/credentials"
 import { validateUserPassword } from "./db-operations"
 
-console.log('🔍 AUTH CONFIG: validateUserPassword function imported:', typeof validateUserPassword);
+console.log('🔍 AUTH CONFIG V5: validateUserPassword function imported:', typeof validateUserPassword);
 
-export const authOptions: NextAuthOptions = {
+export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [
-    CredentialsProvider({
-      id: "credentials",
-      name: "credentials", 
+    Credentials({
       credentials: {
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
-        console.log('🔍 NextAuth authorize called with:', {
+        console.log('🔍 AUTH V5 AUTHORIZE FUNCTION CALLED!');
+        console.log('🔍 Credentials received:', {
           email: credentials?.email,
           hasPassword: !!credentials?.password
         });
 
         if (!credentials?.email || !credentials?.password) {
           console.log('❌ Missing email or password');
-          return null
+          return null;
         }
 
         try {
-          // Validate user credentials using database
-          console.log('🔍 Calling validateUserPassword for:', credentials.email);
-          const user = await validateUserPassword(credentials.email, credentials.password)
+          console.log('🔍 Validating user:', credentials.email);
+          const user = await validateUserPassword(credentials.email as string, credentials.password as string);
           
           if (!user) {
-            console.log('❌ validateUserPassword returned null for:', credentials.email);
-            return null
+            console.log('❌ User validation failed');
+            return null;
           }
 
-          console.log('✅ User validated successfully:', {
-            id: user.id,
-            name: user.name,
-            email: user.email,
-            studentId: user.studentId
-          });
-
-          const result = {
+          console.log('✅ User validated successfully');
+          
+          // Return user object in correct format for NextAuth v5
+          return {
             id: String(user.id),
             email: String(user.email),
             name: String(user.name),
@@ -52,9 +46,6 @@ export const authOptions: NextAuthOptions = {
             division: user.division ? String(user.division) : undefined,
             subjects: user.subjects ? String(user.subjects) : undefined,
           };
-          
-          console.log('✅ Returning user object:', result);
-          return result;
         } catch (error) {
           console.error('❌ Error in authorize function:', error);
           return null;
@@ -66,9 +57,6 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
     maxAge: 8 * 60 * 60, // 8 hours (reasonable for educational platform)
     updateAge: 2 * 60 * 60, // Update session every 2 hours
-  },
-  jwt: {
-    maxAge: 8 * 60 * 60, // 8 hours
   },
   callbacks: {
     async jwt({ token, user }) {
@@ -136,4 +124,12 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/auth/signin",
   },
+})
+
+// Export authOptions for compatibility with existing code
+export const authOptions = {
+  providers: [],
+  session: { strategy: "jwt" as const },
+  callbacks: {},
+  pages: { signIn: "/auth/signin" }
 }

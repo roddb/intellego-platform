@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
-import { authOptions } from '@/lib/auth';
+import { auth } from '@/lib/auth';
+import {  } from '@/lib/auth';
 import { hierarchicalApiRateLimit, exportApiRateLimit } from '@/lib/rate-limit';
 import { 
   logUnauthorizedAccess, 
@@ -28,7 +28,7 @@ import {
 export async function GET(request: Request) {
   try {
     // Enhanced session validation
-    const session = await getServerSession(authOptions);
+    const session = await auth();
     
     if (!session?.user) {
       logUnauthorizedAccess('/api/instructor/hierarchical');

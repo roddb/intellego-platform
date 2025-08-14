@@ -3,8 +3,7 @@
  * Ensures instructors can only access data for their assigned subjects and students
  */
 
-import { getServerSession } from 'next-auth/next';
-import { authOptions } from '@/lib/auth';
+import { auth } from '@/lib/auth';
 import { logRoleViolation, SecurityEventType, securityLogger } from '@/lib/security-logger';
 
 export interface InstructorPermissions {
@@ -21,7 +20,7 @@ export interface InstructorPermissions {
  * with proper instructor-subject assignments from the database
  */
 export async function getInstructorPermissions(): Promise<InstructorPermissions | null> {
-  const session = await getServerSession(authOptions);
+  const session = await auth();
   
   if (!session?.user || session.user.role !== 'INSTRUCTOR') {
     return null;
