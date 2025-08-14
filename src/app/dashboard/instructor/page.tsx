@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
-// Hierarchical data interfaces
+// Hierarchical data interfaces - Force deployment for timezone fix
 interface HierarchicalStudent {
   id: string;
   name: string;
