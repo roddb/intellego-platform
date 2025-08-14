@@ -76,20 +76,28 @@
     animation: glowPulse 3s ease-in-out infinite;
   }
   
-  /* Particle Strand System */
+  /* Particle Strand System - DISABLED TO FIX UI ISSUES */
   .particle-strand-container {
-    position: absolute;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    /* DISABLED - CAUSING CIRCULAR UI ISSUES */
+    /* position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
     overflow: hidden;
-    z-index: 1;
+    z-index: 1; */
   }
   
   .particle {
-    position: absolute;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    /* DISABLED - CAUSING CIRCULAR UI ISSUES */
+    /* position: absolute;
     width: 4px;
     height: 4px;
     background: radial-gradient(circle, #1a202c 0%, #2d3748 50%, #4a5568 100%);
@@ -100,15 +108,18 @@
       0 0 16px rgba(45, 55, 72, 0.5),
       inset 0 1px 1px rgba(255, 255, 255, 0.2);
     transition: all 0.2s ease-out;
-    will-change: transform, opacity;
+    will-change: transform, opacity; */
   }
   
   .particle:hover {
-    transform: scale(1.3) !important;
+    display: none !important;
+    visibility: hidden !important;
+    /* DISABLED - CAUSING CIRCULAR UI ISSUES */
+    /* transform: scale(1.3) !important;
     box-shadow: 
       0 0 15px rgba(26, 32, 44, 1),
       0 0 30px rgba(45, 55, 72, 0.7);
-    z-index: 10;
+    z-index: 10; */
   }
   
   .strand-svg {
@@ -252,16 +263,20 @@
       0 8px 24px rgba(130, 170, 156, 0.2);
   }
   
-  /* Enhanced particle system base styles */
+  /* Enhanced particle system base styles - DISABLED TO FIX UI ISSUES */
   .particles-container {
-    position: fixed;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    /* DISABLED - CAUSING CIRCULAR UI ISSUES */
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
     z-index: -1;
-    overflow: hidden;
+    overflow: hidden; */
   }
 }
 
@@ -559,4 +574,46 @@
   background: transparent !important;
 }
 
-/* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - UI FIX COMPLETED */
+/* EMERGENCY FIX: COMPLETELY DISABLE ALL PARTICLE SYSTEM ELEMENTS */
+.particle,
+.particle-strand-container,
+.particles-container,
+.strand-svg,
+.strand-path {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  z-index: -9999 !important;
+  pointer-events: none !important;
+}
+
+/* FORCE DISABLE ANY CIRCULAR/RING ELEMENTS ON AUTH PAGES */
+.auth-page-container *,
+.auth-page-container *::before,
+.auth-page-container *::after {
+  border-radius: 0 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Override any potential circular elements globally */
+*[class*="particle"],
+*[class*="circle"],
+*[class*="ring"],
+*[class*="radial"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Force clean background on body for auth pages */
+body:has(.auth-page-container) {
+  background: #f8fafc !important;
+  background-image: none !important;
+}
+
+/* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - EMERGENCY PARTICLE SYSTEM DISABLE */

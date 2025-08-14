@@ -91,7 +91,8 @@
       "Bash(cp:*)",
       "Bash(git rev-parse:*)",
       "Bash(gh auth:*)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Bash(git rm:*)"
     ],
     "deny": []
   }
