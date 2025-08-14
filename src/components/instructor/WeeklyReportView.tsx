@@ -75,7 +75,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
         <div className="flex items-center">
           <button
             onClick={onBack}
-            className="flex items-center text-slate-600 hover:text-slate-800 mr-4"
+            className="mac-button mac-button-secondary flex items-center mr-4"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -92,7 +92,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
         
         <button
           onClick={handleDownloadJSON}
-          className="flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
+          className="mac-button mac-button-primary flex items-center"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -102,7 +102,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
       </div>
 
       {/* Report Header */}
-      <div className="bg-white border border-slate-200 rounded-lg p-6 mb-6">
+      <div className="mac-card p-6 mb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div>
             <label className="text-sm font-medium text-slate-600">Estudiante</label>
@@ -140,7 +140,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
       </div>
 
       {/* Report Answers */}
-      <div className="bg-white border border-slate-200 rounded-lg p-6">
+      <div className="mac-card p-6">
         <h3 className="text-lg font-semibold text-slate-800 mb-6">Respuestas del Reporte</h3>
         
         {Object.keys(report.answers).length === 0 ? (
@@ -155,11 +155,11 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
         ) : (
           <div className="space-y-6">
             {Object.entries(report.answers).map(([questionId, answer]) => (
-              <div key={questionId} className="border-l-4 border-teal-200 pl-6">
+              <div key={questionId} className="border-l-4 border-teal-200 pl-6 mb-4">
                 <h4 className="font-medium text-slate-800 mb-3">
                   {QUESTIONS[questionId] || `Pregunta ${questionId}`}
                 </h4>
-                <div className="bg-slate-50 rounded-lg p-4">
+                <div className="mac-card bg-slate-50/80 p-4">
                   <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
                     {answer || 'Sin respuesta'}
                   </p>
@@ -171,7 +171,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
       </div>
 
       {/* Additional Metadata */}
-      <div className="mt-6 p-4 bg-slate-50 rounded-lg">
+      <div className="mac-card mt-6 p-4 bg-slate-50/60">
         <p className="text-xs text-slate-500">
           Reporte ID: {report.id} | Usuario ID: {report.userId} | 
           Total de respuestas: {Object.keys(report.answers).length}
