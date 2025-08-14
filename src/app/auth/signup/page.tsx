@@ -162,7 +162,9 @@ export default function SignUp() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-6">
+    <main className="auth-page-container min-h-screen flex items-center justify-center p-6 bg-slate-50">
+      {/* Ensure no background elements interfere */}
+      <div className="absolute inset-0 bg-slate-50 -z-10"></div>
       <div className="mac-card p-12 max-w-md w-full">
         <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg" style={{ background: 'linear-gradient(135deg, var(--silver-tree), var(--sea-nymph))' }}>
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

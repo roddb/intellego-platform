@@ -81,8 +81,10 @@ export default function SignIn() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-6 bg-slate-50">
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+    <main className="auth-page-container min-h-screen flex items-center justify-center p-6 bg-slate-50">
+      {/* Ensure no background elements interfere */}
+      <div className="absolute inset-0 bg-slate-50 -z-10"></div>
+      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full relative z-10">
         <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-teal-500 shadow-lg">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />

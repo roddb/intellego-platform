@@ -527,4 +527,22 @@
   100% {
     transform: rotate(360deg);
   }
-}/* Deployment verification - Thu Aug 14 16:27:28 -03 2025 */
+}/* Emergency UI fix - Prevent particle system interference on auth pages */
+.auth-page-container {
+  position: relative;
+  isolation: isolate;
+  z-index: 100;
+}
+
+.auth-page-container::before,
+.auth-page-container::after {
+  display: none !important;
+}
+
+.auth-page-container .particle-strand-container,
+.auth-page-container .particles-container,
+.auth-page-container .particle {
+  display: none !important;
+}
+
+/* Deployment verification - Thu Aug 14 16:27:28 -03 2025 */

@@ -89,7 +89,9 @@
       "Bash(open:*)",
       "Bash(./error_handling_tests.sh:*)",
       "Bash(cp:*)",
-      "Bash(git rev-parse:*)"
+      "Bash(git rev-parse:*)",
+      "Bash(gh auth:*)",
+      "Bash(vercel:*)"
     ],
     "deny": []
   }
