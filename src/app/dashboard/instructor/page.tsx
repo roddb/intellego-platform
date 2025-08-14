@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
+import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
 // Hierarchical data interfaces
 interface HierarchicalStudent {
@@ -571,10 +572,10 @@ export default function InstructorDashboard() {
                     <div className="flex justify-between items-start mb-2">
                       <div>
                         <h4 className="font-medium text-slate-800 text-sm">
-                          Semana del {new Date(report.weekStart).toLocaleDateString()}
+                          Semana del {formatArgentinaWeekRange(report.weekStart, report.weekEnd)}
                         </h4>
                         <p className="text-xs text-slate-500">
-                          Enviado: {new Date(report.submittedAt).toLocaleDateString()}
+                          Enviado: {toArgentinaDate(report.submittedAt)}
                         </p>
                       </div>
                       <div className="flex gap-2">
@@ -601,7 +602,7 @@ export default function InstructorDashboard() {
             {selectedReport && (
               <div className="mt-6 pt-6 border-t border-slate-200">
                 <h3 className="font-medium text-slate-800 mb-4">
-                  Detalles - Semana del {new Date(selectedReport.weekStart).toLocaleDateString()}
+                  Detalles - Semana del {formatArgentinaWeekRange(selectedReport.weekStart, selectedReport.weekEnd)}
                 </h3>
                 <div className="space-y-3">
                   {Object.entries(selectedReport.answers).map(([questionId, answer]) => (
