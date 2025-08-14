@@ -538,122 +538,18 @@
   100% {
     transform: rotate(360deg);
   }
-}/* Emergency UI fix - Prevent particle system interference on auth pages */
-.auth-page-container {
-  position: relative;
-  isolation: isolate;
-  z-index: 100;
-  background: #f8fafc !important; /* Force clean background */
+}/* 🎯 TARGETED SVG FIX: Prevent giant icon rendering while preserving Mac styling */
+svg {
+  max-width: 200px !important;
+  max-height: 200px !important;
 }
 
-.auth-page-container::before,
-.auth-page-container::after,
-.auth-page-container *::before,
-.auth-page-container *::after {
-  display: none !important;
-}
+/* Respect Tailwind size classes for SVGs */
+.w-4 svg, svg.w-4 { width: 1rem !important; height: 1rem !important; }
+.w-6 svg, svg.w-6 { width: 1.5rem !important; height: 1.5rem !important; }
+.w-8 svg, svg.w-8 { width: 2rem !important; height: 2rem !important; }
+.w-12 svg, svg.w-12 { width: 3rem !important; height: 3rem !important; }
+.w-16 svg, svg.w-16 { width: 4rem !important; height: 4rem !important; }
+.w-24 svg, svg.w-24 { width: 6rem !important; height: 6rem !important; }
 
-.auth-page-container .particle-strand-container,
-.auth-page-container .particles-container,
-.auth-page-container .particle,
-.auth-page-container .login-page::before,
-.auth-page-container .login-page::after {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-}
-
-/* Force override any background gradients or effects */
-.auth-page-container, 
-.auth-page-container * {
-  background-image: none !important;
-}
-
-/* Ensure clean UI for authentication pages */
-.auth-page-container main {
-  background: transparent !important;
-}
-
-/* EMERGENCY FIX: COMPLETELY DISABLE ALL PARTICLE SYSTEM ELEMENTS */
-.particle,
-.particle-strand-container,
-.particles-container,
-.strand-svg,
-.strand-path {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  width: 0 !important;
-  height: 0 !important;
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-  z-index: -9999 !important;
-  pointer-events: none !important;
-}
-
-/* FORCE DISABLE ANY CIRCULAR/RING ELEMENTS ON AUTH PAGES */
-.auth-page-container *,
-.auth-page-container *::before,
-.auth-page-container *::after {
-  border-radius: 0 !important;
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-/* Override any potential circular elements globally */
-*[class*="particle"],
-*[class*="circle"],
-*[class*="ring"],
-*[class*="radial"] {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* Force clean background on body for auth pages */
-body:has(.auth-page-container) {
-  background: #f8fafc !important;
-  background-image: none !important;
-}
-
-/* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - EMERGENCY PARTICLE SYSTEM DISABLE */
-
-/* 🎯 EMERGENCY SVG FIX: Prevent giant icon rendering */
-@media screen {
-  /* FORCE SVG size constraints to prevent giant icons */
-  svg {
-    max-width: 200px !important;
-    max-height: 200px !important;
-    width: auto !important;
-    height: auto !important;
-  }
-  
-  /* Respect Tailwind size classes for SVGs */
-  .w-4 svg, svg.w-4 { width: 1rem !important; height: 1rem !important; }
-  .w-6 svg, svg.w-6 { width: 1.5rem !important; height: 1.5rem !important; }
-  .w-8 svg, svg.w-8 { width: 2rem !important; height: 2rem !important; }
-  .w-12 svg, svg.w-12 { width: 3rem !important; height: 3rem !important; }
-  .w-16 svg, svg.w-16 { width: 4rem !important; height: 4rem !important; }
-  
-  /* Force container constraints */
-  div[class*="w-12"][class*="h-12"] {
-    width: 3rem !important;
-    height: 3rem !important;
-    max-width: 3rem !important;
-    max-height: 3rem !important;
-  }
-  
-  div[class*="w-16"][class*="h-16"] {
-    width: 4rem !important;
-    height: 4rem !important;
-    max-width: 4rem !important;
-    max-height: 4rem !important;
-  }
-  
-  /* Ensure proper flex containment */
-  .flex.items-center.justify-center {
-    overflow: hidden !important;
-  }
-}
-
-/* Emergency deployment - Thu Aug 14 19:35:00 -03 2025 - SURGICAL APPROACH */
+/* Emergency fix - Thu Aug 14 19:45:00 -03 2025 - RESTORE MAC STYLING */
