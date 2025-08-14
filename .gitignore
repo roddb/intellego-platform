@@ -27,6 +27,9 @@ yarn-error.log*
 .env*.local
 .env.development
 .env.test
+.env.production
+.env.production.secure
+.env.production.*
 
 # Vercel
 .vercel
@@ -65,3 +68,14 @@ questions_export.sql
 
 # Generated
 /generated/prisma
+
+# Testing and diagnostic scripts (may contain sensitive data)
+test-*.js
+check-*.js
+diagnose-*.js
+fix-*.js
+create-*.js
+final-*.js
+database-*.js
+*-audit*.js
+timestamp-audit-results.json
