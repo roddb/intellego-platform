@@ -617,3 +617,52 @@ body:has(.auth-page-container) {
 }
 
 /* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - EMERGENCY PARTICLE SYSTEM DISABLE */
+
+/* 🚨🚨🚨 NUCLEAR OPTION - ELIMINATE MASSIVE CIRCLE ELEMENT 🚨🚨🚨 */
+
+/* TOTAL OVERRIDE: Force all elements to be rectangular and clean */
+*,
+*::before, 
+*::after {
+  border-radius: 0 !important;
+  transform: none !important;
+  clip-path: none !important;
+  background-image: none !important;
+  background: transparent !important;
+  mask: none !important;
+  filter: none !important;
+}
+
+/* HIDE EVERYTHING THAT COULD POSSIBLY CREATE A CIRCLE */
+svg, canvas, img[src*="circle"], 
+[style*="border-radius"], [style*="clip-path"], [style*="mask"],
+[class*="circle"], [class*="ring"], [class*="oval"], [class*="round"],
+[data-testid*="circle"], [aria-label*="circle"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* FORCE RECTANGULAR BOXES ONLY */
+.auth-page-container * {
+  background: transparent !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* ENSURE LOGIN FORM IS VISIBLE AND CLEAN */
+.auth-page-container form,
+.auth-page-container input,
+.auth-page-container button {
+  background: white !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+}
+
+/* EMERGENCY DEPLOYMENT - Thu Aug 14 19:32:00 -03 2025 - NUCLEAR OPTION */
