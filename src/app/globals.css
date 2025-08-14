@@ -140,19 +140,14 @@
     animation: slideOutToLeft 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   }
   
-  /* Login Page Specific Styles */
+  /* Login Page Specific Styles - DISABLED TO FIX UI ISSUE */
   .login-page {
     position: relative;
-    background: linear-gradient(135deg, 
-      #f8fafc 0%,
-      #e2e8f0 25%,
-      #f1f5f9 50%,
-      #e2e8f0 75%,
-      #f8fafc 100%
-    );
+    background: #f8fafc; /* Simple solid background instead of gradient */
     overflow: hidden;
   }
   
+  /* DISABLED - This was causing the semicircle issue
   .login-page::before {
     content: '';
     position: absolute;
@@ -164,6 +159,7 @@
                 radial-gradient(circle at 70% 30%, rgba(130, 170, 156, 0.03) 0%, transparent 50%);
     z-index: 0;
   }
+  */
   
   .login-card-enhanced {
     position: relative;
@@ -532,17 +528,35 @@
   position: relative;
   isolation: isolate;
   z-index: 100;
+  background: #f8fafc !important; /* Force clean background */
 }
 
 .auth-page-container::before,
-.auth-page-container::after {
+.auth-page-container::after,
+.auth-page-container *::before,
+.auth-page-container *::after {
   display: none !important;
 }
 
 .auth-page-container .particle-strand-container,
 .auth-page-container .particles-container,
-.auth-page-container .particle {
+.auth-page-container .particle,
+.auth-page-container .login-page::before,
+.auth-page-container .login-page::after {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
-/* Deployment verification - Thu Aug 14 16:27:28 -03 2025 */
+/* Force override any background gradients or effects */
+.auth-page-container, 
+.auth-page-container * {
+  background-image: none !important;
+}
+
+/* Ensure clean UI for authentication pages */
+.auth-page-container main {
+  background: transparent !important;
+}
+
+/* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - UI FIX COMPLETED */
