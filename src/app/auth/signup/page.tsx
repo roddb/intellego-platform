@@ -162,21 +162,19 @@ export default function SignUp() {
   }
 
   return (
-    <main className="auth-page-container min-h-screen flex items-center justify-center p-6 bg-slate-50">
-      {/* Ensure no background elements interfere */}
-      <div className="absolute inset-0 bg-slate-50 -z-10"></div>
-      <div className="mac-card p-12 max-w-md w-full">
-        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg" style={{ background: 'linear-gradient(135deg, var(--silver-tree), var(--sea-nymph))' }}>
+    <main className="login-page min-h-screen flex items-center justify-center p-6">
+      <div className="login-card-enhanced mac-card p-8 max-w-md w-full login-card-transition">
+        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-silver-tree to-sea-nymph shadow-xl">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
           </svg>
         </div>
         
-        <h1 className="text-3xl font-bold mb-2 text-center" style={{ color: 'var(--heavy-metal)' }}>
+        <h1 className="text-3xl font-semibold mb-2 text-center text-heavy-metal font-san-francisco">
           Crear Cuenta
         </h1>
         
-        <p className="mb-8 text-center text-sm" style={{ color: 'var(--granite-green)' }}>
+        <p className="mb-8 text-center text-sm text-granite-green">
           Únete a Intellego Platform
         </p>
 

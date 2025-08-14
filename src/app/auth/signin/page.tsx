@@ -81,21 +81,19 @@ export default function SignIn() {
   }
 
   return (
-    <main className="auth-page-container min-h-screen flex items-center justify-center p-6 bg-slate-50">
-      {/* Ensure no background elements interfere */}
-      <div className="absolute inset-0 bg-slate-50 -z-10"></div>
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full relative z-10">
-        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-teal-500 shadow-lg">
+    <main className="login-page min-h-screen flex items-center justify-center p-6">
+      <div className="login-card-enhanced mac-card p-8 max-w-md w-full login-card-transition">
+        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-silver-tree to-sea-nymph shadow-xl">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
         </div>
         
-        <h1 className="text-3xl font-bold mb-2 text-center text-slate-800">
+        <h1 className="text-3xl font-semibold mb-2 text-center text-heavy-metal font-san-francisco">
           Iniciar Sesión
         </h1>
         
-        <p className="mb-8 text-center text-sm text-slate-600">
+        <p className="mb-8 text-center text-sm text-granite-green">
           Accede a tu cuenta de Intellego Platform
         </p>
 
@@ -105,9 +103,9 @@ export default function SignIn() {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold mb-2 text-slate-700">
+            <label htmlFor="email" className="block text-sm font-semibold mb-2 text-heavy-metal">
               Email
             </label>
             <input
@@ -115,7 +113,8 @@ export default function SignIn() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${fieldErrors.email ? 'border-red-300' : 'border-slate-300'}`}
+              className={`mac-input ${fieldErrors.email ? 'border-red-300' : ''}`}
+              placeholder="tu@email.com"
               required
             />
             {fieldErrors.email && (
@@ -124,7 +123,7 @@ export default function SignIn() {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-semibold mb-2 text-slate-700">
+            <label htmlFor="password" className="block text-sm font-semibold mb-2 text-heavy-metal">
               Contraseña
             </label>
             <input
@@ -132,7 +131,8 @@ export default function SignIn() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${fieldErrors.password ? 'border-red-300' : 'border-slate-300'}`}
+              className={`mac-input ${fieldErrors.password ? 'border-red-300' : ''}`}
+              placeholder="Tu contraseña"
               required
             />
             {fieldErrors.password && (
@@ -140,11 +140,10 @@ export default function SignIn() {
             )}
           </div>
 
-
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="mac-button mac-button-primary w-full glow-effect disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isLoading ? "Iniciando sesión..." : "Iniciar Sesión"}
           </button>
@@ -153,9 +152,9 @@ export default function SignIn() {
 
 
         <div className="mt-6 text-center">
-          <p className="text-sm text-slate-600">
+          <p className="text-sm text-granite-green">
             ¿No tienes cuenta?{" "}
-            <Link href="/auth/signup" className="font-semibold text-teal-600 hover:text-teal-700 transition-colors">
+            <Link href="/auth/signup" className="font-semibold text-silver-tree hover:text-sea-nymph transition-colors">
               Regístrate aquí
             </Link>
           </p>
