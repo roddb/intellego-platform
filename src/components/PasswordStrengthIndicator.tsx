@@ -99,7 +99,7 @@ export default function PasswordStrengthIndicator({
 
     setIsLoading(true)
     try {
-      const response = await fetch("/api/auth/password/validate", {
+      const response = await fetch("/api/user/password/validate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -129,7 +129,7 @@ export default function PasswordChangeForm({
     setIsLoading(true)
 
     try {
-      const response = await fetch("/api/auth/password/change", {
+      const response = await fetch("/api/user/password/change", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
