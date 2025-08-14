@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "buildCommand": "npm run build",
   "crons": [
     {
       "path": "/api/cron/weekly-reminders",
@@ -9,5 +11,16 @@
     "src/app/api/cron/weekly-reminders/route.ts": {
       "maxDuration": 300
     }
-  }
+  },
+  "headers": [
+    {
+      "source": "/_next/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
 }
