@@ -63,8 +63,35 @@ class SimpleRateLimit {
   }
 }
 
+/**
+ * Alternative rate limiting interface for compatibility
+ */
+interface RateLimitConfig {
+  interval: number; // window in milliseconds
+  uniqueTokenPerInterval: number; // max unique tokens to track
+}
+
+export function rateLimit(config: RateLimitConfig) {
+  const limiter = new SimpleRateLimit(config.uniqueTokenPerInterval, config.interval);
+  
+  return {
+    async check(limit: number, identifier: string) {
+      // Create a custom limiter for this specific check
+      const customLimiter = new SimpleRateLimit(limit, config.interval);
+      const result = await customLimiter.limit(identifier);
+      
+      if (!result.success) {
+        throw new Error("Rate limit exceeded");
+      }
+      
+      return result;
+    }
+  };
+}
+
 // Export singleton instances for different types of operations
 export const ratelimit = new SimpleRateLimit(5, 300000); // 5 requests per 5 minutes for AI operations
 export const instructorApiRateLimit = new SimpleRateLimit(100, 60000); // 100 requests per minute for instructor API
 export const hierarchicalApiRateLimit = new SimpleRateLimit(50, 60000); // 50 requests per minute for hierarchical data
 export const exportApiRateLimit = new SimpleRateLimit(10, 300000); // 10 exports per 5 minutes
+export const passwordChangeRateLimit = new SimpleRateLimit(5, 60000); // 5 password changes per minute

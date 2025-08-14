@@ -2,51 +2,14 @@
 > intellego-platform@1.0.0 dev
 > next dev
 
+ ⚠ Port 3000 is in use, using available port 3001 instead.
    ▲ Next.js 15.3.4
-   - Local:        http://localhost:3000
-   - Network:      http://172.17.3.84:3000
+   - Local:        http://localhost:3001
+   - Network:      http://172.16.3.33:3001
    - Environments: .env
+   - Experiments (use with caution):
+     ✓ webpackMemoryOptimizations
 
  ✓ Starting...
- ✓ Ready in 1708ms
- ○ Compiling /api/security-test ...
- ✓ Compiled /api/security-test in 810ms (600 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- GET /api/security-test?test=environment 200 in 1011ms
- ✓ Compiled /api/instructor/hierarchical in 306ms (603 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-❌ [SECURITY] UNAUTHORIZED_ACCESS: Unauthorized access attempt to: /api/instructor/hierarchical - 2025-08-12T15:00:51.052Z
- GET /api/instructor/hierarchical?action=subjects 401 in 368ms
- ✓ Compiled /middleware in 210ms (210 modules)
-❌ Unauthorized access attempt to: /dashboard/instructor
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- GET /api/security-test?test=security-logs 200 in 44ms
- ✓ Compiled in 140ms (324 modules)
- ✓ Compiled in 196ms (325 modules)
- ✓ Compiled in 57ms (321 modules)
- ✓ Compiled /api/instructor/hierarchical in 139ms (323 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-❌ [SECURITY] UNAUTHORIZED_ACCESS: Unauthorized access attempt to: /api/instructor/hierarchical - 2025-08-12T15:02:10.373Z
- GET /api/instructor/hierarchical?action=export-complete 401 in 187ms
- ✓ Compiled in 255ms (812 modules)
+ ✓ Ready in 1688ms
 [?25h

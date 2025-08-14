@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
-import { authOptions } from '@/lib/auth';
+import { auth } from '@/lib/auth';
+import {  } from '@/lib/auth';
 import { securityLogger, SecurityEventType } from '@/lib/security-logger';
 import { auditInstructorActivity } from '@/lib/instructor-authorization';
 import { instructorApiRateLimit, hierarchicalApiRateLimit, exportApiRateLimit } from '@/lib/rate-limit';
@@ -12,7 +12,7 @@ import { instructorApiRateLimit, hierarchicalApiRateLimit, exportApiRateLimit } 
  */
 export async function GET(request: Request) {
   try {
-    const session = await getServerSession(authOptions);
+    const session = await auth();
     
     // Strict access control - only admins and coordinators
     if (!session?.user || (session.user.role !== 'ADMIN' && session.user.role !== 'COORDINATOR')) {
@@ -223,7 +223,7 @@ export async function GET(request: Request) {
  */
 export async function POST(request: Request) {
   try {
-    const session = await getServerSession(authOptions);
+    const session = await auth();
     
     if (!session?.user || (session.user.role !== 'ADMIN' && session.user.role !== 'COORDINATOR')) {
       return NextResponse.json(

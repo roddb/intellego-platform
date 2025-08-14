@@ -79,7 +79,17 @@
       "Bash(do echo \"Test $i:\")",
       "Bash(do echo \"Dashboard Load Test $i:\")",
       "Bash(TURSO_DATABASE_URL=\"libsql://intellego-production-roddb.aws-us-east-1.turso.io\" TURSO_AUTH_TOKEN=\"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTQyNDUyNjUsImlkIjoiMzZlNDhmZTQtMGE3ZC00Yjk5LWIyZmEtMWFiOTBiZTVkMzUzIiwicmlkIjoiNmY2ODFjNWUtNDdiOS00ZjYwLWFkYjctNjA3NWNhMmZjMzUyIn0.X6NQ5rLuainoba0mZlOKx3O7LGB1AdUR3X3aQlqqiLHLUh9lJ2JIx1JdYEeSorAIciUL4PhVwK3cVi8pf7fUAw\" node fix-subjects-format.js)",
-      "Bash(./manage-local-db.sh:*)"
+      "Bash(./manage-local-db.sh:*)",
+      "Bash(NODE_ENV=production node database-timestamp-audit.js)",
+      "Bash(PORT=3001 npm run dev)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(mv:*)",
+      "Bash(./password_test_scenarios.sh:*)",
+      "Bash(open:*)",
+      "Bash(./error_handling_tests.sh:*)",
+      "Bash(cp:*)",
+      "Bash(git rev-parse:*)"
     ],
     "deny": []
   }

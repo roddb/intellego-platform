@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
-import { authOptions } from '@/lib/auth';
+import { auth } from '@/lib/auth';
+import {  } from '@/lib/auth';
 import { securityLogger } from '@/lib/security-logger';
 
 /**
@@ -11,7 +11,7 @@ import { securityLogger } from '@/lib/security-logger';
 export async function GET(request: Request) {
   // Only allow in development environment or for admin users
   if (process.env.NODE_ENV === 'production') {
-    const session = await getServerSession(authOptions);
+    const session = await auth();
     if (!session?.user || (session.user.role !== 'ADMIN' && session.user.role !== 'COORDINATOR')) {
       return NextResponse.json(
         { error: 'Forbidden. Admin access required in production.' },
@@ -26,7 +26,7 @@ export async function GET(request: Request) {
   try {
     switch (testType) {
       case 'auth-session':
-        const session = await getServerSession(authOptions);
+        const session = await auth();
         return NextResponse.json({
           test: 'auth-session',
           success: true,
@@ -45,7 +45,7 @@ export async function GET(request: Request) {
         });
 
       case 'role-check':
-        const userSession = await getServerSession(authOptions);
+        const userSession = await auth();
         const requiredRole = searchParams.get('role');
         
         if (!userSession?.user) {
@@ -90,7 +90,7 @@ export async function GET(request: Request) {
         });
 
       case 'user-logs':
-        const logSession = await getServerSession(authOptions);
+        const logSession = await auth();
         if (!logSession?.user?.id) {
           return NextResponse.json({
             test: 'user-logs',
@@ -127,7 +127,7 @@ export async function GET(request: Request) {
 
       case 'middleware-test':
         // This tests if the request made it past middleware
-        const middlewareSession = await getServerSession(authOptions);
+        const middlewareSession = await auth();
         return NextResponse.json({
           test: 'middleware-test',
           success: true,
@@ -166,7 +166,7 @@ export async function GET(request: Request) {
  * Test POST endpoint to verify authentication in write operations
  */
 export async function POST(request: Request) {
-  const session = await getServerSession(authOptions);
+  const session = await auth();
   
   if (!session?.user) {
     return NextResponse.json(

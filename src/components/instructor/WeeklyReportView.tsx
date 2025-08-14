@@ -56,7 +56,7 @@ export default function WeeklyReportView({ report, onBack, isLoading }: WeeklyRe
         const a = document.createElement('a')
         a.style.display = 'none'
         a.href = url
-        a.download = `reporte_${report.studentId}_${report.subject}_${new Date(report.weekStart).toISOString().split('T')[0]}.json`
+        a.download = `reporte_${report.studentId}_${report.subject}_${toArgentinaDate(report.weekStart).replace(/\//g, '-')}.json`
         document.body.appendChild(a)
         a.click()
         window.URL.revokeObjectURL(url)
