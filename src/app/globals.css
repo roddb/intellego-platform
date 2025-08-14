@@ -617,3 +617,38 @@ body:has(.auth-page-container) {
 }
 
 /* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - EMERGENCY PARTICLE SYSTEM DISABLE */
+
+/* 🎯 SURGICAL FIX: Target ONLY the problematic large circle element */
+@media screen {
+  /* Hide any large circular elements that could be causing the UI issue */
+  *[style*="width: 100%"][style*="height: 100%"] {
+    display: none !important;
+  }
+  
+  /* Target large background circular elements */
+  div[style*="border-radius"][style*="width"] {
+    background: transparent !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Ensure auth page has clean layering */
+  .auth-page-container {
+    position: relative !important;
+    z-index: 999 !important;
+    background: #f8fafc !important;
+  }
+  
+  /* Hide any potential floating/absolute positioned large elements */
+  div[style*="position: absolute"][style*="top: 0"][style*="left: 0"] {
+    display: none !important;
+  }
+  
+  /* Specifically target elements that could create the massive circle */
+  *[class*="w-full"][class*="h-full"],
+  *[style*="position: fixed"],
+  canvas[width][height] {
+    display: none !important;
+  }
+}
+
+/* Emergency deployment - Thu Aug 14 19:35:00 -03 2025 - SURGICAL APPROACH */
