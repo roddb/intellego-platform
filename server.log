@@ -4,144 +4,49 @@
 
    ▲ Next.js 15.3.4
    - Local:        http://localhost:3000
-   - Network:      http://192.168.0.102:3000
+   - Network:      http://172.17.3.84:3000
    - Environments: .env
 
  ✓ Starting...
- ✓ Ready in 1579ms
- ✓ Compiled /middleware in 469ms (210 modules)
-Middleware executing for: /
- ○ Compiling / ...
- ✓ Compiled / in 2.5s (1047 modules)
+ ✓ Ready in 1708ms
+ ○ Compiling /api/security-test ...
+ ✓ Compiled /api/security-test in 810ms (600 modules)
 🔧 libSQL Database configuration: {
   NODE_ENV: 'development',
   has_TURSO_URL: false,
   has_TURSO_TOKEN: false,
   TURSO_URL_start: 'undefined...'
 }
- ✓ Compiled in 373ms (364 modules)
- HEAD / 200 in 2899ms
-Middleware executing for: /
- GET / 200 in 39ms
-Middleware executing for: /auth/signin
- ✓ Compiled /auth/signin in 355ms (1042 modules)
+ GET /api/security-test?test=environment 200 in 1011ms
+ ✓ Compiled /api/instructor/hierarchical in 306ms (603 modules)
 🔧 libSQL Database configuration: {
   NODE_ENV: 'development',
   has_TURSO_URL: false,
   has_TURSO_TOKEN: false,
   TURSO_URL_start: 'undefined...'
 }
- GET /auth/signin 200 in 503ms
-Middleware executing for: /auth/signup
- ✓ Compiled /auth/signup in 207ms (1049 modules)
+❌ [SECURITY] UNAUTHORIZED_ACCESS: Unauthorized access attempt to: /api/instructor/hierarchical - 2025-08-12T15:00:51.052Z
+ GET /api/instructor/hierarchical?action=subjects 401 in 368ms
+ ✓ Compiled /middleware in 210ms (210 modules)
+❌ Unauthorized access attempt to: /dashboard/instructor
 🔧 libSQL Database configuration: {
   NODE_ENV: 'development',
   has_TURSO_URL: false,
   has_TURSO_TOKEN: false,
   TURSO_URL_start: 'undefined...'
 }
- GET /auth/signup 200 in 310ms
-Middleware executing for: /
- GET / 200 in 94ms
-Middleware executing for: /auth/signin
- GET /auth/signin 200 in 27ms
- ✓ Compiled /api/auth/[...nextauth] in 250ms (1056 modules)
+ GET /api/security-test?test=security-logs 200 in 44ms
+ ✓ Compiled in 140ms (324 modules)
+ ✓ Compiled in 196ms (325 modules)
+ ✓ Compiled in 57ms (321 modules)
+ ✓ Compiled /api/instructor/hierarchical in 139ms (323 modules)
 🔧 libSQL Database configuration: {
   NODE_ENV: 'development',
   has_TURSO_URL: false,
   has_TURSO_TOKEN: false,
   TURSO_URL_start: 'undefined...'
 }
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- GET /api/auth/providers 200 in 817ms
- GET /api/auth/csrf 200 in 5ms
-🛠️ Development: Local SQLite client initialized
- POST /api/auth/callback/credentials 200 in 310ms
- GET /api/auth/session 200 in 6ms
- GET /api/auth/session 200 in 5ms
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-Middleware executing for: /dashboard/instructor
- ✓ Compiled /dashboard/instructor in 362ms (1065 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- GET /dashboard/instructor 200 in 432ms
- ✓ Compiled /api/instructor/reports-with-feedback in 349ms (1079 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-📊 Fetching enhanced instructor reports with feedback data...
-🛠️ Development: Local SQLite client initialized
-✅ Successfully enhanced 4 reports with feedback data
- GET /api/instructor/reports-with-feedback 200 in 433ms
-📊 Fetching enhanced instructor reports with feedback data...
-✅ Successfully enhanced 4 reports with feedback data
- GET /api/instructor/reports-with-feedback 200 in 4ms
- ✓ Compiled /api/instructor/download in 324ms (1076 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-🛠️ Development: Local SQLite client initialized
- GET /api/instructor/download?format=csv 200 in 393ms
- GET /api/auth/csrf 200 in 68ms
- POST /api/auth/signout 200 in 13ms
-Middleware executing for: /
- GET / 200 in 129ms
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-Middleware executing for: /auth/signin
- GET /auth/signin 200 in 21ms
- GET /api/auth/providers 200 in 19ms
- GET /api/auth/csrf 200 in 7ms
- POST /api/auth/callback/credentials 200 in 316ms
- GET /api/auth/session 200 in 4ms
- GET /api/auth/session 200 in 5ms
-Middleware executing for: /dashboard/student
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- ✓ Compiled /dashboard/student in 397ms (1083 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
- GET /dashboard/student 200 in 486ms
- ✓ Compiled /api/weekly-reports in 162ms (1087 modules)
-🔧 libSQL Database configuration: {
-  NODE_ENV: 'development',
-  has_TURSO_URL: false,
-  has_TURSO_TOKEN: false,
-  TURSO_URL_start: 'undefined...'
-}
-🛠️ Development: Local SQLite client initialized
- GET /api/weekly-reports 200 in 209ms
- GET /api/weekly-reports 200 in 4ms
+❌ [SECURITY] UNAUTHORIZED_ACCESS: Unauthorized access attempt to: /api/instructor/hierarchical - 2025-08-12T15:02:10.373Z
+ GET /api/instructor/hierarchical?action=export-complete 401 in 187ms
+ ✓ Compiled in 255ms (812 modules)
 [?25h

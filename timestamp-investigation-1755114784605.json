@@ -1,0 +1,1294 @@
+{
+  "metadata": {
+    "generatedAt": "2025-08-13T19:53:04.605Z",
+    "environment": "LOCAL",
+    "purpose": "Student submission timestamp discrepancy investigation",
+    "scope": "All progress reports in database"
+  },
+  "summary": {
+    "totalAnomaliesFound": 0,
+    "weekBoundaryIssues": 50,
+    "duplicateSubmissions": 0,
+    "recentSubmissionsAnalyzed": 100
+  },
+  "findings": {
+    "temporalAnomalies": [],
+    "weekBoundarySubmissions": [
+      {
+        "id": "40642ff8-20fe-401b-af24-027c825bc5fc",
+        "name": "Juliana Ceriani Cernadas",
+        "email": "julicerianic30@gmail.con",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-13T01:16:56.200Z",
+        "dayOfWeek": "3",
+        "hourOfDay": "01",
+        "dayName": "Wednesday"
+      },
+      {
+        "id": "3d82301c-cc80-436d-978b-96830845b882",
+        "name": "Stefano Esses",
+        "email": "stefanoeduardo2016@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-12T13:11:27.125Z",
+        "dayOfWeek": "2",
+        "hourOfDay": "13",
+        "dayName": "Tuesday"
+      },
+      {
+        "id": "13909c01-07fb-4b0a-b306-f7ea93264c78",
+        "name": "María Catalina Prypsztejn Mila",
+        "email": "catalina.prypsztejn@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-12T12:22:37.421Z",
+        "dayOfWeek": "2",
+        "hourOfDay": "12",
+        "dayName": "Tuesday"
+      },
+      {
+        "id": "u_yklcemhn7me8go1a9",
+        "name": "Ema Trejo",
+        "email": "trejoemit07@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-12T11:31:27.489Z",
+        "dayOfWeek": "2",
+        "hourOfDay": "11",
+        "dayName": "Tuesday"
+      },
+      {
+        "id": "u_b15eidwxbme7hdq9v",
+        "name": "Maria Josefina Baez",
+        "email": "majosefinabaez00@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T19:03:40.099Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "19",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_5d09ddwvlme7cssj3",
+        "name": "Angelines Wu",
+        "email": "angiiiewu@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T16:55:24.783Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "16",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_1sbcejp48me6k0jjl",
+        "name": "Brenda Behmer",
+        "email": "behmercavallobrenda@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T03:29:37.521Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "03",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_y8m75q11wme6k02ye",
+        "name": "Brenda Behmer",
+        "email": "behmercavallobrenda@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T03:29:16.022Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "03",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_39i7xm2fwme6j53ja",
+        "name": "Julieta Napoli",
+        "email": "julietamanapoli@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T03:05:10.438Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "03",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_z8ohqqrlsme6ivml2",
+        "name": "Maria Emilia Delaico",
+        "email": "emiliadelaico2009@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:57:48.566Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_l13vogu0eme6ij4io",
+        "name": "Sofia Bargas",
+        "email": "sofiabargas000@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:48:05.280Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_2yui23lahme6ihx1g",
+        "name": "Sofia Bargas",
+        "email": "sofiabargas000@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:47:08.932Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_g3ekr2wd7me6igvoc",
+        "name": "Ian Svendsen",
+        "email": "iansvendsen862@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:46:20.508Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_y48nt99sfme6i8fmp",
+        "name": "Matilde Pasarin de la Torre",
+        "email": "matildepasarinsc@uca.edu.ar",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:39:46.465Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_ysvfbczb5me6i7yp2",
+        "name": "mercedes rizzo lynch",
+        "email": "mechirizzolynch@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:39:24.518Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_cjn578lgame6i7xnf",
+        "name": "Matilde Pasarin de la Torre",
+        "email": "matildepasarinsc@uca.edu.ar",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:39:23.163Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_q1gq7bbkrme6i6ao9",
+        "name": "juana giurovich",
+        "email": "giurovichjuana@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:38:06.729Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_20z4hyefzme6i2x93",
+        "name": "Milagros Zacharec ",
+        "email": "milizacharec@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:35:29.367Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_oqwdqtiqcme6hzm9z",
+        "name": "Lucas Mingotti Tziavaras",
+        "email": "mtlucas247@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:32:55.175Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_nesufvkvmme6hz0pi",
+        "name": "Lucas Mingotti Tziavaras",
+        "email": "mtlucas247@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:32:27.222Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_w9v0v3g08me6hyzok",
+        "name": "Helena Machado",
+        "email": "helenmachado2008@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:32:25.892Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_24hgrt1egme6hx3a5",
+        "name": "camilo giles ",
+        "email": "camigiles2020@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:30:57.245Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_fdyjwcbqlme6hwjs0",
+        "name": "Paloma Castro",
+        "email": "castrojalilepaloma@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:30:31.968Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_a88298653me6hw27z",
+        "name": "camilo giles ",
+        "email": "camigiles2020@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:30:09.215Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_39ei84l23me6huwij",
+        "name": "Uma Valle",
+        "email": "umavalle09@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:29:15.163Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_azkbtndshme6hsthu",
+        "name": "Fiorella",
+        "email": "fiorevertedor@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:27:37.938Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_eobwtlx3jme6hoow8",
+        "name": "Uma Valle",
+        "email": "umavalle09@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:24:25.352Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_cnc2u73t4me6hl6pf",
+        "name": "Lourdes María Converset",
+        "email": "luluconverset@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:21:41.811Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_j8mroedmome6hexbn",
+        "name": "Mia Pleitel",
+        "email": "pleitelmia@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:16:49.715Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_2cua7ag2bme6h6ms6",
+        "name": "Bianca Nazareth Picone",
+        "email": "bncpicone@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:10:22.806Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_dhdxexif6me6h6bc0",
+        "name": "Gonzalo Rosler Buglione",
+        "email": "gonzarosbug@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:10:07.968Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_410ftcz5ime6gz6sn",
+        "name": "Mia Pleitel",
+        "email": "pleitelmia@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T02:04:35.495Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "02",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_t2jbs9jrime6gnamz",
+        "name": "Paloma Castro",
+        "email": "castrojalilepaloma@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:55:20.603Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_4rtqcyi5ame6giien",
+        "name": "Pedro Salgado Canepa",
+        "email": "pedronicosalgado@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:51:37.391Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_166udxlf8me6gah0t",
+        "name": "Valentino Papa",
+        "email": "valentino.papa@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:45:22.349Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_4f61o3g3zme6g9zas",
+        "name": "Helena Machado",
+        "email": "helenmachado2008@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:44:59.380Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_30itiq8kome6g2x52",
+        "name": "Juan Pablo Oviedo Goite",
+        "email": "juanpabloog2007@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:39:29.990Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_q9458q5csme6fykkl",
+        "name": "Valentino Papa",
+        "email": "valentino.papa@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:36:07.077Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_wac0xzbgome6ftq13",
+        "name": "Juan Pablo Oviedo Goite",
+        "email": "juanpabloog2007@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:32:20.871Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_3hseybu46me6fcfzd",
+        "name": "Guadalupe rueda",
+        "email": "ruedaclaraguada@gmail.con",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:18:54.697Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_hd3ho5j2pme6fcdf8",
+        "name": "Guadalupe rueda",
+        "email": "ruedaclaraguada@gmail.con",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:18:51.380Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_3oji4zkqzme6fbpmq",
+        "name": "Bautista",
+        "email": "bautimaioli@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:18:20.546Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_nwyexrue9me6fbdrc",
+        "name": "Victoria Patiño ",
+        "email": "patinoalexandravicky@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:18:05.160Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_8xlunkjxyme6fak1t",
+        "name": "Morena Danio",
+        "email": "morenadanio@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:17:26.657Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_x8z9ucafcme6fagnq",
+        "name": "Bautista",
+        "email": "bautimaioli@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:17:22.262Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_zeunfrhplme6f63oc",
+        "name": "Candelaria María Nasjleti Paz",
+        "email": "candelariamnp2008@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:13:58.812Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_teadgmckfme6f3uyf",
+        "name": "Victoria Patiño ",
+        "email": "patinoalexandravicky@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:12:14.199Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_crww7mi0zme6f1rsx",
+        "name": "Federica Fontan",
+        "email": "federicafontandecortazar@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T01:10:36.801Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "01",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_dpieshv7cme6ekqyq",
+        "name": "Catalina Dobniewski",
+        "email": "catalina.dobniewski@gmail.com",
+        "subject": "Química",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T00:57:22.562Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "00",
+        "dayName": "Monday"
+      },
+      {
+        "id": "u_6c2u8acblme6ekomo",
+        "name": "Catalina Dobniewski",
+        "email": "catalina.dobniewski@gmail.com",
+        "subject": "Física",
+        "weekStart": "2025-08-11T00:00:00.000Z",
+        "weekEnd": "2025-08-17T23:59:59.999Z",
+        "submittedAt": "2025-08-11T00:57:19.536Z",
+        "dayOfWeek": "1",
+        "hourOfDay": "00",
+        "dayName": "Monday"
+      }
+    ],
+    "duplicateSubmissions": [],
+    "submissionPatterns": [
+      {
+        "totalSubmissions": 1,
+        "submissionDate": "2025-08-13",
+        "earliestSubmission": "2025-08-13T01:16:56.200Z",
+        "latestSubmission": "2025-08-13T01:16:56.200Z",
+        "uniqueStudents": 1
+      },
+      {
+        "totalSubmissions": 3,
+        "submissionDate": "2025-08-12",
+        "earliestSubmission": "2025-08-12T11:31:27.489Z",
+        "latestSubmission": "2025-08-12T13:11:27.125Z",
+        "uniqueStudents": 3
+      },
+      {
+        "totalSubmissions": 55,
+        "submissionDate": "2025-08-11",
+        "earliestSubmission": "2025-08-11T00:05:22.084Z",
+        "latestSubmission": "2025-08-11T19:03:40.099Z",
+        "uniqueStudents": 37
+      },
+      {
+        "totalSubmissions": 49,
+        "submissionDate": "2025-08-10",
+        "earliestSubmission": "2025-08-10T00:32:28.812Z",
+        "latestSubmission": "2025-08-10T23:59:11.684Z",
+        "uniqueStudents": 34
+      },
+      {
+        "totalSubmissions": 17,
+        "submissionDate": "2025-08-09",
+        "earliestSubmission": "2025-08-09T00:17:46.760Z",
+        "latestSubmission": "2025-08-09T23:12:51.883Z",
+        "uniqueStudents": 12
+      },
+      {
+        "totalSubmissions": 24,
+        "submissionDate": "2025-08-08",
+        "earliestSubmission": "2025-08-08T01:53:05.798Z",
+        "latestSubmission": "2025-08-08T23:35:46.098Z",
+        "uniqueStudents": 17
+      },
+      {
+        "totalSubmissions": 15,
+        "submissionDate": "2025-08-07",
+        "earliestSubmission": "2025-08-07T00:51:32.111Z",
+        "latestSubmission": "2025-08-07T22:46:29.528Z",
+        "uniqueStudents": 11
+      },
+      {
+        "totalSubmissions": 12,
+        "submissionDate": "2025-08-06",
+        "earliestSubmission": "2025-08-06T16:34:56.865Z",
+        "latestSubmission": "2025-08-06T22:57:07.731Z",
+        "uniqueStudents": 9
+      },
+      {
+        "totalSubmissions": 1,
+        "submissionDate": "2025-08-05",
+        "earliestSubmission": "2025-08-05T14:41:54.539Z",
+        "latestSubmission": "2025-08-05T14:41:54.539Z",
+        "uniqueStudents": 1
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "category": "USER_INTERFACE",
+      "recommendation": "Add clear week boundary indicators in the submission form",
+      "priority": "HIGH",
+      "rationale": "Prevent student confusion about submission windows"
+    },
+    {
+      "category": "TIMEZONE_HANDLING",
+      "recommendation": "Implement explicit timezone display in all date/time fields",
+      "priority": "MEDIUM",
+      "rationale": "Eliminate timezone confusion in submissions"
+    },
+    {
+      "category": "VALIDATION",
+      "recommendation": "Add client-side validation for submission timing",
+      "priority": "HIGH",
+      "rationale": "Prevent submissions outside valid time windows"
+    },
+    {
+      "category": "AUDIT_TRAIL",
+      "recommendation": "Implement immutable audit logging for all timestamp-related operations",
+      "priority": "CRITICAL",
+      "rationale": "Maintain academic integrity and compliance"
+    }
+  ],
+  "investigationLog": {
+    "startTime": "2025-08-13T19:53:04.594Z",
+    "environment": "LOCAL",
+    "investigator": "SYSTEM_ADMIN",
+    "purpose": "TIMESTAMP_ANOMALY_INVESTIGATION",
+    "activities": [
+      {
+        "timestamp": "2025-08-13T19:53:04.596Z",
+        "activity": "TIMESTAMP_ANALYSIS_STARTED",
+        "data": {
+          "scope": "ALL_PROGRESS_REPORTS",
+          "readonly": true
+        },
+        "findings": null,
+        "environment": "LOCAL"
+      },
+      {
+        "timestamp": "2025-08-13T19:53:04.598Z",
+        "activity": "SUBMISSION_PATTERNS_ANALYZED",
+        "data": {
+          "daysAnalyzed": 9,
+          "totalDays": 30
+        },
+        "findings": {
+          "patterns": [
+            {
+              "date": "2025-08-13",
+              "submissions": 1,
+              "students": 1
+            },
+            {
+              "date": "2025-08-12",
+              "submissions": 3,
+              "students": 3
+            },
+            {
+              "date": "2025-08-11",
+              "submissions": 55,
+              "students": 37
+            },
+            {
+              "date": "2025-08-10",
+              "submissions": 49,
+              "students": 34
+            },
+            {
+              "date": "2025-08-09",
+              "submissions": 17,
+              "students": 12
+            },
+            {
+              "date": "2025-08-08",
+              "submissions": 24,
+              "students": 17
+            },
+            {
+              "date": "2025-08-07",
+              "submissions": 15,
+              "students": 11
+            },
+            {
+              "date": "2025-08-06",
+              "submissions": 12,
+              "students": 9
+            },
+            {
+              "date": "2025-08-05",
+              "submissions": 1,
+              "students": 1
+            }
+          ]
+        },
+        "environment": "LOCAL"
+      },
+      {
+        "timestamp": "2025-08-13T19:53:04.599Z",
+        "activity": "TEMPORAL_ANOMALIES_CHECKED",
+        "data": {
+          "anomaliesFound": 0
+        },
+        "findings": {
+          "anomalies": []
+        },
+        "environment": "LOCAL"
+      },
+      {
+        "timestamp": "2025-08-13T19:53:04.601Z",
+        "activity": "WEEK_BOUNDARY_ANALYSIS",
+        "data": {
+          "potentialBoundaryIssues": 50
+        },
+        "findings": {
+          "boundarySubmissions": [
+            {
+              "student": "Juliana Ceriani Cernadas",
+              "subject": "Química",
+              "submittedAt": "2025-08-13T01:16:56.200Z",
+              "dayName": "Wednesday",
+              "hour": "01"
+            },
+            {
+              "student": "Stefano Esses",
+              "subject": "Química",
+              "submittedAt": "2025-08-12T13:11:27.125Z",
+              "dayName": "Tuesday",
+              "hour": "13"
+            },
+            {
+              "student": "María Catalina Prypsztejn Mila",
+              "subject": "Química",
+              "submittedAt": "2025-08-12T12:22:37.421Z",
+              "dayName": "Tuesday",
+              "hour": "12"
+            },
+            {
+              "student": "Ema Trejo",
+              "subject": "Química",
+              "submittedAt": "2025-08-12T11:31:27.489Z",
+              "dayName": "Tuesday",
+              "hour": "11"
+            },
+            {
+              "student": "Maria Josefina Baez",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T19:03:40.099Z",
+              "dayName": "Monday",
+              "hour": "19"
+            },
+            {
+              "student": "Angelines Wu",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T16:55:24.783Z",
+              "dayName": "Monday",
+              "hour": "16"
+            },
+            {
+              "student": "Brenda Behmer",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T03:29:37.521Z",
+              "dayName": "Monday",
+              "hour": "03"
+            },
+            {
+              "student": "Brenda Behmer",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T03:29:16.022Z",
+              "dayName": "Monday",
+              "hour": "03"
+            },
+            {
+              "student": "Julieta Napoli",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T03:05:10.438Z",
+              "dayName": "Monday",
+              "hour": "03"
+            },
+            {
+              "student": "Maria Emilia Delaico",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:57:48.566Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Sofia Bargas",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:48:05.280Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Sofia Bargas",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:47:08.932Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Ian Svendsen",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:46:20.508Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Matilde Pasarin de la Torre",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:39:46.465Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "mercedes rizzo lynch",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:39:24.518Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Matilde Pasarin de la Torre",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:39:23.163Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "juana giurovich",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:38:06.729Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Milagros Zacharec ",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:35:29.367Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Lucas Mingotti Tziavaras",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:32:55.175Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Lucas Mingotti Tziavaras",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:32:27.222Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Helena Machado",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:32:25.892Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "camilo giles ",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:30:57.245Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Paloma Castro",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:30:31.968Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "camilo giles ",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:30:09.215Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Uma Valle",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:29:15.163Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Fiorella",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:27:37.938Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Uma Valle",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:24:25.352Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Lourdes María Converset",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:21:41.811Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Mia Pleitel",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:16:49.715Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Bianca Nazareth Picone",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:10:22.806Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Gonzalo Rosler Buglione",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T02:10:07.968Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Mia Pleitel",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T02:04:35.495Z",
+              "dayName": "Monday",
+              "hour": "02"
+            },
+            {
+              "student": "Paloma Castro",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:55:20.603Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Pedro Salgado Canepa",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:51:37.391Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Valentino Papa",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:45:22.349Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Helena Machado",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:44:59.380Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Juan Pablo Oviedo Goite",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:39:29.990Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Valentino Papa",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:36:07.077Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Juan Pablo Oviedo Goite",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:32:20.871Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Guadalupe rueda",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:18:54.697Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Guadalupe rueda",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:18:51.380Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Bautista",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:18:20.546Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Victoria Patiño ",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:18:05.160Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Morena Danio",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:17:26.657Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Bautista",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:17:22.262Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Candelaria María Nasjleti Paz",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:13:58.812Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Victoria Patiño ",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T01:12:14.199Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Federica Fontan",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T01:10:36.801Z",
+              "dayName": "Monday",
+              "hour": "01"
+            },
+            {
+              "student": "Catalina Dobniewski",
+              "subject": "Química",
+              "submittedAt": "2025-08-11T00:57:22.562Z",
+              "dayName": "Monday",
+              "hour": "00"
+            },
+            {
+              "student": "Catalina Dobniewski",
+              "subject": "Física",
+              "submittedAt": "2025-08-11T00:57:19.536Z",
+              "dayName": "Monday",
+              "hour": "00"
+            }
+          ]
+        },
+        "environment": "LOCAL"
+      },
+      {
+        "timestamp": "2025-08-13T19:53:04.603Z",
+        "activity": "DUPLICATE_SUBMISSIONS_CHECK",
+        "data": {
+          "duplicateGroups": 0
+        },
+        "findings": {
+          "duplicates": []
+        },
+        "environment": "LOCAL"
+      },
+      {
+        "timestamp": "2025-08-13T19:53:04.604Z",
+        "activity": "RECENT_SUBMISSIONS_ANALYSIS",
+        "data": {
+          "recentCount": 100,
+          "timeRange": "14 days"
+        },
+        "findings": {
+          "submissions": [
+            {
+              "name": "Juliana Ceriani Cernadas",
+              "email": "julicerianic30@gmail.con",
+              "studentId": "EST-2025-035",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-13T01:16:56.200Z",
+              "hoursAfterWeekStart": 49.28,
+              "hoursBeforeWeekEnd": 118.72
+            },
+            {
+              "name": "Stefano Esses",
+              "email": "stefanoeduardo2016@gmail.com",
+              "studentId": "EST-2025-092",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-12T13:11:27.125Z",
+              "hoursAfterWeekStart": 37.19,
+              "hoursBeforeWeekEnd": 130.81
+            },
+            {
+              "name": "María Catalina Prypsztejn Mila",
+              "email": "catalina.prypsztejn@gmail.com",
+              "studentId": "EST-2025-044",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-12T12:22:37.421Z",
+              "hoursAfterWeekStart": 36.38,
+              "hoursBeforeWeekEnd": 131.62
+            },
+            {
+              "name": "Ema Trejo",
+              "email": "trejoemit07@gmail.com",
+              "studentId": "EST-2025-137",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-12T11:31:27.489Z",
+              "hoursAfterWeekStart": 35.52,
+              "hoursBeforeWeekEnd": 132.48
+            },
+            {
+              "name": "Maria Josefina Baez",
+              "email": "majosefinabaez00@gmail.com",
+              "studentId": "EST-2025-136",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T19:03:40.099Z",
+              "hoursAfterWeekStart": 19.06,
+              "hoursBeforeWeekEnd": 148.94
+            },
+            {
+              "name": "Angelines Wu",
+              "email": "angiiiewu@gmail.com",
+              "studentId": "EST-2025-051",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T16:55:24.783Z",
+              "hoursAfterWeekStart": 16.92,
+              "hoursBeforeWeekEnd": 151.08
+            },
+            {
+              "name": "Brenda Behmer",
+              "email": "behmercavallobrenda@gmail.com",
+              "studentId": "EST-2025-119",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T03:29:37.521Z",
+              "hoursAfterWeekStart": 3.49,
+              "hoursBeforeWeekEnd": 164.51
+            },
+            {
+              "name": "Brenda Behmer",
+              "email": "behmercavallobrenda@gmail.com",
+              "studentId": "EST-2025-119",
+              "subject": "Física",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T03:29:16.022Z",
+              "hoursAfterWeekStart": 3.49,
+              "hoursBeforeWeekEnd": 164.51
+            },
+            {
+              "name": "Julieta Napoli",
+              "email": "julietamanapoli@gmail.com",
+              "studentId": "EST-2025-133",
+              "subject": "Química",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T03:05:10.438Z",
+              "hoursAfterWeekStart": 3.09,
+              "hoursBeforeWeekEnd": 164.91
+            },
+            {
+              "name": "Maria Emilia Delaico",
+              "email": "emiliadelaico2009@gmail.com",
+              "studentId": "EST-2025-014",
+              "subject": "Física",
+              "weekStart": "2025-08-11T00:00:00.000Z",
+              "weekEnd": "2025-08-17T23:59:59.999Z",
+              "submittedAt": "2025-08-11T02:57:48.566Z",
+              "hoursAfterWeekStart": 2.96,
+              "hoursBeforeWeekEnd": 165.04
+            }
+          ]
+        },
+        "environment": "LOCAL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "id": "cmdqw634r000pxu94gztibkya",
+    "studentId": "EST-2025-008",
+    "studentName": "Mercedes Di Bernardo",
+    "email": "mercedes.dibernardo@gmail.com",
+    "sede": "Colegiales",
+    "academicYear": "5to Año",
+    "division": "D",
+    "subject": "Física",
+    "syncedAt": "2025-08-12T15:26:16.031Z",
+    "version": "2.0.0"
+  },
+  "academicPeriod": {
+    "weekStart": 1753671600000,
+    "weekEnd": 1754276399999,
+    "submittedAt": 1753935932763
+  },
+  "responses": {
+    "q1": "Prueba",
+    "q2": "de",
+    "q3": "datos",
+    "q4": "nueva",
+    "q5": "mercedes"
+  },
+  "integrity": {
+    "recordCount": 5,
+    "checksum": "-2304e7cc"
+  }
+}

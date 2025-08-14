@@ -1,0 +1,738 @@
+{
+  "timestamp": "2025-08-13T19:28:18.269Z",
+  "courses": {
+    "5toA": {
+      "division": "A",
+      "totalStudents": 18,
+      "students": [
+        "Lucio Fernández rico (EST-2025-003)",
+        "Helena Machado (EST-2025-004)",
+        "Catalina Varrente (EST-2025-005)",
+        "Felipe Muttini Pagadizabal (EST-2025-006)",
+        "Bianca Nazareth Picone (EST-2025-078)",
+        "Josefina Sesé Frers  (EST-2025-079)",
+        "Martina Yablonovich (EST-2025-080)",
+        "Nicolás Cartasegna (EST-2025-082)",
+        "Candela Greco (EST-2025-100)",
+        "Lucio Fernández Rico (EST-2025-102)",
+        "Tiziana Zapozko (EST-2025-103)",
+        "Matías Ernesto Alippi (EST-2025-111)",
+        "Catalina Dobniewski (EST-2025-114)",
+        "Sol Fontán (EST-2025-118)",
+        "Victoria Patiño  (EST-2025-122)",
+        "Juan Pablo Oviedo Goite (EST-2025-123)",
+        "tobías barisch (EST-2025-135)",
+        "Ana Rosiello (EST-2025-139)"
+      ],
+      "details": [
+        {
+          "name": "Ana Rosiello",
+          "email": "ana.rosielloyornet@gmail.com",
+          "studentId": "EST-2025-139",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-12T02:18:25.102Z"
+        },
+        {
+          "name": "Bianca Nazareth Picone",
+          "email": "bncpicone@gmail.com",
+          "studentId": "EST-2025-078",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-07T17:13:42.824Z"
+        },
+        {
+          "name": "Candela Greco",
+          "email": "candelarociogreco@gmail.com",
+          "studentId": "EST-2025-100",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T00:27:34.937Z"
+        },
+        {
+          "name": "Catalina Dobniewski",
+          "email": "catalina.dobniewski@gmail.com",
+          "studentId": "EST-2025-114",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T22:29:29.196Z"
+        },
+        {
+          "name": "Catalina Varrente",
+          "email": "cata.varrente2008@gmail.com",
+          "studentId": "EST-2025-005",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-05T14:47:59.529Z"
+        },
+        {
+          "name": "Felipe Muttini Pagadizabal",
+          "email": "felipe.muttini.pagadizabal@gmail.com",
+          "studentId": "EST-2025-006",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-05T15:02:41.718Z"
+        },
+        {
+          "name": "Helena Machado",
+          "email": "helenmachado2008@gmail.com",
+          "studentId": "EST-2025-004",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-05T14:45:27.273Z"
+        },
+        {
+          "name": "Josefina Sesé Frers ",
+          "email": "sesefrersjosefinaa@gmail.com",
+          "studentId": "EST-2025-079",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-07T17:42:18.367Z"
+        },
+        {
+          "name": "Juan Pablo Oviedo Goite",
+          "email": "juanpabloog2007@gmail.com",
+          "studentId": "EST-2025-123",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T01:27:02.615Z"
+        },
+        {
+          "name": "Lucio Fernández Rico",
+          "email": "fernandezlucio4@gmail.com",
+          "studentId": "EST-2025-102",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T14:24:02.108Z"
+        },
+        {
+          "name": "Lucio Fernández rico",
+          "email": "fernandezlucio4@gnail.com",
+          "studentId": "EST-2025-003",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-05T14:38:34.331Z"
+        },
+        {
+          "name": "Martina Yablonovich",
+          "email": "martuyablo@gmail.com",
+          "studentId": "EST-2025-080",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-07T19:03:21.203Z"
+        },
+        {
+          "name": "Matías Ernesto Alippi",
+          "email": "matias.e.19a@gmail.com",
+          "studentId": "EST-2025-111",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T21:44:10.544Z"
+        },
+        {
+          "name": "Nicolás Cartasegna",
+          "email": "niko.6abril@gmail.com",
+          "studentId": "EST-2025-082",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T01:17:56.090Z"
+        },
+        {
+          "name": "Sol Fontán",
+          "email": "solaluminefontan@gmail.com",
+          "studentId": "EST-2025-118",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T00:03:17.089Z"
+        },
+        {
+          "name": "Tiziana Zapozko",
+          "email": "lucyzapozko@gmail.com",
+          "studentId": "EST-2025-103",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T15:44:38.845Z"
+        },
+        {
+          "name": "Victoria Patiño ",
+          "email": "patinoalexandravicky@gmail.com",
+          "studentId": "EST-2025-122",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T01:08:19.178Z"
+        },
+        {
+          "name": "tobías barisch",
+          "email": "toto.barisch@gmail.com",
+          "studentId": "EST-2025-135",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T12:45:51.275Z"
+        }
+      ],
+      "reportAnalysis": {
+        "totalStudents": 18,
+        "studentsWithReports": {},
+        "studentsWithoutReports": [
+          "Ana Rosiello",
+          "Catalina Varrente",
+          "Felipe Muttini Pagadizabal",
+          "Lucio Fernández rico",
+          "Tiziana Zapozko",
+          "tobías barisch"
+        ],
+        "weeklyBreakdown": {},
+        "subjectBreakdown": {
+          "Química": 12,
+          "Física": 12
+        }
+      }
+    },
+    "5toB": {
+      "division": "B",
+      "totalStudents": 15,
+      "students": [
+        "Constanza Mac Donald (EST-2025-086)",
+        "Andrés Francisco Ruffino  (EST-2025-087)",
+        "Juana Del Giudice (EST-2025-091)",
+        "Bautista Pergolesi (EST-2025-098)",
+        "Milagros Zacharec  (EST-2025-109)",
+        "victoria cerredo (EST-2025-110)",
+        "Sofía Arévalo (EST-2025-113)",
+        "Fabrizio Sabino (EST-2025-115)",
+        "catalina cresci (EST-2025-117)",
+        "Candelaria María Nasjleti Paz (EST-2025-121)",
+        "manuela  (EST-2025-125)",
+        "agustina trillo (EST-2025-126)",
+        "juana giurovich (EST-2025-130)",
+        "Julieta Napoli (EST-2025-133)",
+        "Isabel Ortiz Güemes (EST-2025-134)"
+      ],
+      "details": [
+        {
+          "name": "Andrés Francisco Ruffino ",
+          "email": "andrefranruff@gmail.com",
+          "studentId": "EST-2025-087",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T17:54:47.259Z"
+        },
+        {
+          "name": "Bautista Pergolesi",
+          "email": "bautista.pergolesi@gmail.com",
+          "studentId": "EST-2025-098",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T20:28:57.678Z"
+        },
+        {
+          "name": "Candelaria María Nasjleti Paz",
+          "email": "candelariamnp2008@gmail.com",
+          "studentId": "EST-2025-121",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T01:08:17.095Z"
+        },
+        {
+          "name": "Constanza Mac Donald",
+          "email": "conimacdonald0@gmail.com",
+          "studentId": "EST-2025-086",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T17:44:40.132Z"
+        },
+        {
+          "name": "Fabrizio Sabino",
+          "email": "fabriziosabino8@gmail.com",
+          "studentId": "EST-2025-115",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T22:39:38.173Z"
+        },
+        {
+          "name": "Isabel Ortiz Güemes",
+          "email": "ortizguemesisabel@gmail.com",
+          "studentId": "EST-2025-134",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T12:30:07.805Z"
+        },
+        {
+          "name": "Juana Del Giudice",
+          "email": "delgiudicejuana@gmail.com",
+          "studentId": "EST-2025-091",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T23:30:05.636Z"
+        },
+        {
+          "name": "Julieta Napoli",
+          "email": "julietamanapoli@gmail.com",
+          "studentId": "EST-2025-133",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T03:02:17.707Z"
+        },
+        {
+          "name": "Milagros Zacharec ",
+          "email": "milizacharec@gmail.com",
+          "studentId": "EST-2025-109",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T21:32:03.129Z"
+        },
+        {
+          "name": "Sofía Arévalo",
+          "email": "soarev280208@gmail.com",
+          "studentId": "EST-2025-113",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T22:15:20.701Z"
+        },
+        {
+          "name": "agustina trillo",
+          "email": "agustrillo2007@gmail.com",
+          "studentId": "EST-2025-126",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T02:08:00.889Z"
+        },
+        {
+          "name": "catalina cresci",
+          "email": "catalina.cresci@gmail.com",
+          "studentId": "EST-2025-117",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T23:34:42.040Z"
+        },
+        {
+          "name": "juana giurovich",
+          "email": "giurovichjuana@gmail.com",
+          "studentId": "EST-2025-130",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T02:34:06.724Z"
+        },
+        {
+          "name": "manuela ",
+          "email": "manu.j.uria@gmail.com",
+          "studentId": "EST-2025-125",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T02:05:34.839Z"
+        },
+        {
+          "name": "victoria cerredo",
+          "email": "cerredokiki@gmail.com",
+          "studentId": "EST-2025-110",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T21:34:26.387Z"
+        }
+      ],
+      "reportAnalysis": {
+        "totalStudents": 15,
+        "studentsWithReports": {},
+        "studentsWithoutReports": [
+          "Isabel Ortiz Güemes",
+          "agustina trillo",
+          "manuela ",
+          "victoria cerredo"
+        ],
+        "weeklyBreakdown": {},
+        "subjectBreakdown": {
+          "Química": 11
+        }
+      }
+    },
+    "5toD": {
+      "division": "D",
+      "totalStudents": 24,
+      "students": [
+        "RDB (EST-2025-002)",
+        "Maria Lucia Gastaldi (EST-2025-043)",
+        "María Catalina Prypsztejn Mila (EST-2025-044)",
+        "pilar salomone (EST-2025-045)",
+        "Gonzalo Rosler Buglione (EST-2025-046)",
+        "Martin Zournadjian  (EST-2025-089)",
+        "Victoria Gómez arroyo (EST-2025-090)",
+        "Stefano Esses (EST-2025-092)",
+        "Facundo Gubinelli (EST-2025-093)",
+        "Matías Vaccaro (EST-2025-094)",
+        "Franco Nuñez (EST-2025-095)",
+        "Ian Svendsen (EST-2025-096)",
+        "Lola Gomez (EST-2025-099)",
+        "Juana Cestari (EST-2025-106)",
+        "Belen Smiriglio (EST-2025-107)",
+        "Ignacio Benson (EST-2025-108)",
+        "Santino Colonnese Cuttica (EST-2025-112)",
+        "Rocco Ruiz (EST-2025-116)",
+        "Morena Danio (EST-2025-120)",
+        "Pedro Salgado Canepa (EST-2025-124)",
+        "Lourdes María Converset (EST-2025-127)",
+        "Maria Josefina Baez (EST-2025-136)",
+        "Ema Trejo (EST-2025-137)",
+        "Santino Jurado (EST-2025-138)"
+      ],
+      "details": [
+        {
+          "name": "Belen Smiriglio",
+          "email": "belensmiriglio@gmail.com",
+          "studentId": "EST-2025-107",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T20:19:54.516Z"
+        },
+        {
+          "name": "Ema Trejo",
+          "email": "trejoemit07@gmail.com",
+          "studentId": "EST-2025-137",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T19:10:39.994Z"
+        },
+        {
+          "name": "Facundo Gubinelli",
+          "email": "facuchogubinelli@gmail.com",
+          "studentId": "EST-2025-093",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T00:41:56.647Z"
+        },
+        {
+          "name": "Franco Nuñez",
+          "email": "franco.g.nunezz@gmail.com",
+          "studentId": "EST-2025-095",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T13:50:02.496Z"
+        },
+        {
+          "name": "Gonzalo Rosler Buglione",
+          "email": "gonzarosbug@gmail.com",
+          "studentId": "EST-2025-046",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-07T03:06:48.114Z"
+        },
+        {
+          "name": "Ian Svendsen",
+          "email": "iansvendsen862@gmail.com",
+          "studentId": "EST-2025-096",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T15:44:37.620Z"
+        },
+        {
+          "name": "Ignacio Benson",
+          "email": "nachibenson@gmail.com",
+          "studentId": "EST-2025-108",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T21:26:19.346Z"
+        },
+        {
+          "name": "Juana Cestari",
+          "email": "cestarijuana3@gmail.com",
+          "studentId": "EST-2025-106",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T20:15:45.576Z"
+        },
+        {
+          "name": "Lola Gomez",
+          "email": "lolitagomez0104@gmail.com",
+          "studentId": "EST-2025-099",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T23:11:56.161Z"
+        },
+        {
+          "name": "Lourdes María Converset",
+          "email": "luluconverset@gmail.com",
+          "studentId": "EST-2025-127",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T02:19:13.530Z"
+        },
+        {
+          "name": "Maria Josefina Baez",
+          "email": "majosefinabaez00@gmail.com",
+          "studentId": "EST-2025-136",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T18:59:45.482Z"
+        },
+        {
+          "name": "Maria Lucia Gastaldi",
+          "email": "luciaagastaldi@gmail.com",
+          "studentId": "EST-2025-043",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-06T21:41:21.278Z"
+        },
+        {
+          "name": "Martin Zournadjian ",
+          "email": "martinzournadjian@gmail.com",
+          "studentId": "EST-2025-089",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T20:16:21.415Z"
+        },
+        {
+          "name": "María Catalina Prypsztejn Mila",
+          "email": "catalina.prypsztejn@gmail.com",
+          "studentId": "EST-2025-044",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-06T22:47:41.535Z"
+        },
+        {
+          "name": "Matías Vaccaro",
+          "email": "matiasvaccaro08@gmail.com",
+          "studentId": "EST-2025-094",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T00:46:07.511Z"
+        },
+        {
+          "name": "Morena Danio",
+          "email": "morenadanio@gmail.com",
+          "studentId": "EST-2025-120",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T00:50:55.568Z"
+        },
+        {
+          "name": "Pedro Salgado Canepa",
+          "email": "pedronicosalgado@gmail.com",
+          "studentId": "EST-2025-124",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T01:39:31.001Z"
+        },
+        {
+          "name": "RDB",
+          "email": "RDB@test.com",
+          "studentId": "EST-2025-002",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-05T12:10:30.704Z"
+        },
+        {
+          "name": "Rocco Ruiz",
+          "email": "roccoruiz2000@gmail.com",
+          "studentId": "EST-2025-116",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T22:55:23.057Z"
+        },
+        {
+          "name": "Santino Colonnese Cuttica",
+          "email": "santinocolonnesecuttica@gmail.com",
+          "studentId": "EST-2025-112",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-10T21:49:27.873Z"
+        },
+        {
+          "name": "Santino Jurado",
+          "email": "santinojurado@gmail.com",
+          "studentId": "EST-2025-138",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-11T19:11:36.457Z"
+        },
+        {
+          "name": "Stefano Esses",
+          "email": "stefanoeduardo2016@gmail.com",
+          "studentId": "EST-2025-092",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-09T00:09:12.090Z"
+        },
+        {
+          "name": "Victoria Gómez arroyo",
+          "email": "gomezarroyovictoria@gmail.com",
+          "studentId": "EST-2025-090",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-08T20:35:29.977Z"
+        },
+        {
+          "name": "pilar salomone",
+          "email": "pilisalomone@gmail.com",
+          "studentId": "EST-2025-045",
+          "subjects": [],
+          "subjectCount": 0,
+          "createdAt": "2025-08-07T00:46:02.678Z"
+        }
+      ],
+      "reportAnalysis": {
+        "totalStudents": 24,
+        "studentsWithReports": {},
+        "studentsWithoutReports": [
+          "Ignacio Benson",
+          "Santino Jurado"
+        ],
+        "weeklyBreakdown": {},
+        "subjectBreakdown": {
+          "Química": 23,
+          "Física": 1
+        }
+      }
+    }
+  },
+  "summary": {
+    "totalStudents": 57,
+    "totalReports": 59,
+    "studentsWithReports": 45,
+    "studentsWithoutReports": 12,
+    "engagementRate": 78.94736842105263,
+    "criticalIssuesCount": 68
+  },
+  "criticalIssues": [
+    "Ana Rosiello (EST-2025-139): Invalid subjects JSON",
+    "Bianca Nazareth Picone (EST-2025-078): Invalid subjects JSON",
+    "Candela Greco (EST-2025-100): Invalid subjects JSON",
+    "Catalina Dobniewski (EST-2025-114): Invalid subjects JSON",
+    "Catalina Varrente (EST-2025-005): Invalid subjects JSON",
+    "Felipe Muttini Pagadizabal (EST-2025-006): Invalid subjects JSON",
+    "Helena Machado (EST-2025-004): Invalid subjects JSON",
+    "Josefina Sesé Frers  (EST-2025-079): Invalid subjects JSON",
+    "Juan Pablo Oviedo Goite (EST-2025-123): Invalid subjects JSON",
+    "Lucio Fernández Rico (EST-2025-102): Invalid subjects JSON",
+    "Lucio Fernández rico (EST-2025-003): Invalid subjects JSON",
+    "Martina Yablonovich (EST-2025-080): Invalid subjects JSON",
+    "Matías Ernesto Alippi (EST-2025-111): Invalid subjects JSON",
+    "Nicolás Cartasegna (EST-2025-082): Invalid subjects JSON",
+    "Sol Fontán (EST-2025-118): Invalid subjects JSON",
+    "Tiziana Zapozko (EST-2025-103): Invalid subjects JSON",
+    "Victoria Patiño  (EST-2025-122): Invalid subjects JSON",
+    "tobías barisch (EST-2025-135): Invalid subjects JSON",
+    "Andrés Francisco Ruffino  (EST-2025-087): Invalid subjects JSON",
+    "Bautista Pergolesi (EST-2025-098): Invalid subjects JSON",
+    "Candelaria María Nasjleti Paz (EST-2025-121): Invalid subjects JSON",
+    "Constanza Mac Donald (EST-2025-086): Invalid subjects JSON",
+    "Fabrizio Sabino (EST-2025-115): Invalid subjects JSON",
+    "Isabel Ortiz Güemes (EST-2025-134): Invalid subjects JSON",
+    "Juana Del Giudice (EST-2025-091): Invalid subjects JSON",
+    "Julieta Napoli (EST-2025-133): Invalid subjects JSON",
+    "Milagros Zacharec  (EST-2025-109): Invalid subjects JSON",
+    "Sofía Arévalo (EST-2025-113): Invalid subjects JSON",
+    "agustina trillo (EST-2025-126): Invalid subjects JSON",
+    "catalina cresci (EST-2025-117): Invalid subjects JSON",
+    "juana giurovich (EST-2025-130): Invalid subjects JSON",
+    "manuela  (EST-2025-125): Invalid subjects JSON",
+    "victoria cerredo (EST-2025-110): Invalid subjects JSON",
+    "Belen Smiriglio (EST-2025-107): Invalid subjects JSON",
+    "Ema Trejo (EST-2025-137): Invalid subjects JSON",
+    "Facundo Gubinelli (EST-2025-093): Invalid subjects JSON",
+    "Franco Nuñez (EST-2025-095): Invalid subjects JSON",
+    "Gonzalo Rosler Buglione (EST-2025-046): Invalid subjects JSON",
+    "Ian Svendsen (EST-2025-096): Invalid subjects JSON",
+    "Ignacio Benson (EST-2025-108): Invalid subjects JSON",
+    "Juana Cestari (EST-2025-106): Invalid subjects JSON",
+    "Lola Gomez (EST-2025-099): Invalid subjects JSON",
+    "Lourdes María Converset (EST-2025-127): Invalid subjects JSON",
+    "Maria Josefina Baez (EST-2025-136): Invalid subjects JSON",
+    "Maria Lucia Gastaldi (EST-2025-043): Invalid subjects JSON",
+    "Martin Zournadjian  (EST-2025-089): Invalid subjects JSON",
+    "María Catalina Prypsztejn Mila (EST-2025-044): Invalid subjects JSON",
+    "Matías Vaccaro (EST-2025-094): Invalid subjects JSON",
+    "Morena Danio (EST-2025-120): Invalid subjects JSON",
+    "Pedro Salgado Canepa (EST-2025-124): Invalid subjects JSON",
+    "RDB (EST-2025-002): Invalid subjects JSON",
+    "Rocco Ruiz (EST-2025-116): Invalid subjects JSON",
+    "Santino Colonnese Cuttica (EST-2025-112): Invalid subjects JSON",
+    "Santino Jurado (EST-2025-138): Invalid subjects JSON",
+    "Stefano Esses (EST-2025-092): Invalid subjects JSON",
+    "Victoria Gómez arroyo (EST-2025-090): Invalid subjects JSON",
+    "pilar salomone (EST-2025-045): Invalid subjects JSON",
+    "Lucio Fernández Rico appears 2 times in 5to A",
+    "Lucio Fernández rico appears 2 times in 5to A",
+    "Josefina Sesé Frers : Name has leading/trailing spaces",
+    "Victoria Patiño : Name has leading/trailing spaces",
+    "Andrés Francisco Ruffino : Name has leading/trailing spaces",
+    "Milagros Zacharec : Name has leading/trailing spaces",
+    "manuela : Name has leading/trailing spaces",
+    "Martin Zournadjian : Name has leading/trailing spaces",
+    "5to A: Subject registration inconsistencies found",
+    "5to B: Subject registration inconsistencies found",
+    "5to D: Subject registration inconsistencies found"
+  ],
+  "actionPlan": [
+    {
+      "priority": "CRITICAL",
+      "action": "Resolve data integrity issues",
+      "details": "Fix 68 critical issues including duplicates, formatting problems, and subject inconsistencies"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Student engagement intervention",
+      "details": "12 students have submitted no reports. Requires immediate outreach and system verification"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Subject registration audit",
+      "details": "Multiple courses show inconsistencies between registered subjects and report submissions"
+    },
+    {
+      "priority": "LOW",
+      "action": "Data formatting standardization",
+      "details": "Clean up name formatting, email validation, and studentId consistency across all 5to courses"
+    }
+  ],
+  "subjectConsistency": {
+    "5toA": {
+      "registeredSubjects": {},
+      "reportedSubjects": {},
+      "inconsistencies": [
+        {
+          "type": "reported_not_registered",
+          "subjects": [
+            "Física",
+            "Química"
+          ]
+        }
+      ]
+    },
+    "5toB": {
+      "registeredSubjects": {},
+      "reportedSubjects": {},
+      "inconsistencies": [
+        {
+          "type": "reported_not_registered",
+          "subjects": [
+            "Química"
+          ]
+        }
+      ]
+    },
+    "5toD": {
+      "registeredSubjects": {},
+      "reportedSubjects": {},
+      "inconsistencies": [
+        {
+          "type": "reported_not_registered",
+          "subjects": [
+            "Física",
+            "Química"
+          ]
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "quintoAño": {
+      "totalStudents": 57,
+      "totalReports": 59,
+      "reportsPerStudent": 1.0350877192982457
+    },
+    "cuartoAño": {
+      "totalStudents": 132,
+      "totalReports": 117,
+      "reportsPerStudent": 0.8863636363636364
+    }
+  }
+}

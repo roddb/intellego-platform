@@ -3,6 +3,7 @@ import './globals.css'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import SessionWrapper from '@/components/SessionWrapper'
+import ErrorBoundary from '@/components/ErrorBoundary'
 
 export const metadata: Metadata = {
   title: 'Intellego Platform',
@@ -19,9 +20,11 @@ export default async function RootLayout({
   return (
     <html lang="es">
       <body className="min-h-screen">
-        <SessionWrapper session={session}>
-          {children}
-        </SessionWrapper>
+        <ErrorBoundary>
+          <SessionWrapper session={session}>
+            {children}
+          </SessionWrapper>
+        </ErrorBoundary>
       </body>
     </html>
   )

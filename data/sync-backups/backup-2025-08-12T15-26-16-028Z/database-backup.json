@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "timestamp": "2025-08-12T15-26-16-028Z",
+    "totalRecords": 4,
+    "integrity_hash": "52b0ebd1",
+    "backup_type": "incremental"
+  },
+  "reports": [
+    {
+      "id": "u_lj2vz9qqtme7on1tg",
+      "userId": "cmdv8dzuo0000xuskyig8c7dr",
+      "subject": "Matemáticas",
+      "weekStart": "2025-08-11T03:00:00.000Z",
+      "weekEnd": "2025-08-18T02:59:59.999Z",
+      "submittedAt": "2025-08-11T22:26:52.276Z",
+      "userName": "Estudiante Demo",
+      "userEmail": "estudiante@demo.com",
+      "studentId": "EST-2025-001"
+    },
+    {
+      "id": "cmdqw634r000pxu94gztibkya",
+      "userId": "cmdqvib8e0007xu94mj522tqt",
+      "subject": "Física",
+      "weekStart": 1753671600000,
+      "weekEnd": 1754276399999,
+      "submittedAt": 1753935932763,
+      "userName": "Mercedes Di Bernardo",
+      "userEmail": "mercedes.dibernardo@gmail.com",
+      "studentId": "EST-2025-008"
+    },
+    {
+      "id": "cmdqvpuk7000hxu94ozy5cfxb",
+      "userId": "cmdqvgyda0006xu94lonhal2g",
+      "subject": "Química",
+      "weekStart": 1753671600000,
+      "weekEnd": 1754276399999,
+      "submittedAt": 1753935175160,
+      "userName": "Rodrigo Di Bernardo",
+      "userEmail": "rodrigo.dibernardo@gmail.com",
+      "studentId": "EST-2025-007"
+    },
+    {
+      "id": "cmdqvpkzp0009xu945xc2nna3",
+      "userId": "cmdqvgyda0006xu94lonhal2g",
+      "subject": "Física",
+      "weekStart": 1753671600000,
+      "weekEnd": 1754276399999,
+      "submittedAt": 1753935162757,
+      "userName": "Rodrigo Di Bernardo",
+      "userEmail": "rodrigo.dibernardo@gmail.com",
+      "studentId": "EST-2025-007"
+    }
+  ]
+}

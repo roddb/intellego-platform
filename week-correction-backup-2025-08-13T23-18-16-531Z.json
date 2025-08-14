@@ -1,0 +1,2213 @@
+{
+  "timestamp": "2025-08-13T23:18:16.547Z",
+  "correctionType": "week-assignment-bug-fix",
+  "description": "Backup before moving Sunday submissions from Week 3 to Week 2",
+  "affectedReportsCount": 50,
+  "affectedAnswersCount": 250,
+  "reports": [
+    {
+      "id": "u_n43dn6w48me6cpv6s",
+      "userId": "u_9vp2o3qntme4y2kyh",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:05:22.084Z",
+      "userName": "Candela Greco",
+      "studentId": "EST-2025-100",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:05:22"
+    },
+    {
+      "id": "u_k5hr0xcmgme6cte11",
+      "userId": "u_67kfbewk9me6cn6qp",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:08:06.469Z",
+      "userName": "Sol Fontán",
+      "studentId": "EST-2025-118",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:08:06"
+    },
+    {
+      "id": "u_r7sliitkpme6cw4me",
+      "userId": "u_67kfbewk9me6cn6qp",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:10:14.246Z",
+      "userName": "Sol Fontán",
+      "studentId": "EST-2025-118",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:10:14"
+    },
+    {
+      "id": "u_jowcbrcipme6dd82j",
+      "userId": "u_madzeow6xme0bap6m",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:23:31.867Z",
+      "userName": "Fiorella",
+      "studentId": "EST-2025-039",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 21:23:31"
+    },
+    {
+      "id": "u_46hpt9qaime6dksho",
+      "userId": "u_062kts0erme64nx90",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:29:24.924Z",
+      "userName": "Belen Smiriglio",
+      "studentId": "EST-2025-107",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 21:29:24"
+    },
+    {
+      "id": "u_8hontx7yime6dvdnt",
+      "userId": "u_abe3h0317me06njgs",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:37:38.921Z",
+      "userName": "Catalina Gilardi",
+      "studentId": "EST-2025-015",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 21:37:38"
+    },
+    {
+      "id": "u_ze6ku5txcme6e3zz1",
+      "userId": "u_abe3h0317me06njgs",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:44:21.085Z",
+      "userName": "Catalina Gilardi",
+      "studentId": "EST-2025-015",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 21:44:21"
+    },
+    {
+      "id": "u_a2a9bxcsrme6e6gin",
+      "userId": "u_yf5munab0me67oai8",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:46:15.839Z",
+      "userName": "Matías Ernesto Alippi",
+      "studentId": "EST-2025-111",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:46:15"
+    },
+    {
+      "id": "u_msne5wmp9me6e9aun",
+      "userId": "u_mmb5fvk8sme3ac9q1",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:48:28.463Z",
+      "userName": "Victoria Gómez arroyo",
+      "studentId": "EST-2025-090",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 21:48:28"
+    },
+    {
+      "id": "u_6c2u8acblme6ekomo",
+      "userId": "u_1wt2lfnz3me69ak8c",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:57:19.536Z",
+      "userName": "Catalina Dobniewski",
+      "studentId": "EST-2025-114",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:57:19"
+    },
+    {
+      "id": "u_dpieshv7cme6ekqyq",
+      "userId": "u_1wt2lfnz3me69ak8c",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T00:57:22.562Z",
+      "userName": "Catalina Dobniewski",
+      "studentId": "EST-2025-114",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 21:57:22"
+    },
+    {
+      "id": "u_crww7mi0zme6f1rsx",
+      "userId": "u_pv2qe98lhme0b4xi4",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:10:36.801Z",
+      "userName": "Federica Fontan",
+      "studentId": "EST-2025-024",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:10:36"
+    },
+    {
+      "id": "u_teadgmckfme6f3uyf",
+      "userId": "u_r0mxgr11pme6eytm2",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:12:14.199Z",
+      "userName": "Victoria Patiño ",
+      "studentId": "EST-2025-122",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 22:12:14"
+    },
+    {
+      "id": "u_zeunfrhplme6f63oc",
+      "userId": "u_bx5yrhd48me6eys07",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:13:58.812Z",
+      "userName": "Candelaria María Nasjleti Paz",
+      "studentId": "EST-2025-121",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "B",
+      "submittedAtArgentina": "2025-08-10 22:13:58"
+    },
+    {
+      "id": "u_x8z9ucafcme6fagnq",
+      "userId": "u_rkrgujb30me0b536p",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:17:22.262Z",
+      "userName": "Bautista",
+      "studentId": "EST-2025-025",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:17:22"
+    },
+    {
+      "id": "u_8xlunkjxyme6fak1t",
+      "userId": "u_igtqfpy9ime6ecgcw",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:17:26.657Z",
+      "userName": "Morena Danio",
+      "studentId": "EST-2025-120",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 22:17:26"
+    },
+    {
+      "id": "u_nwyexrue9me6fbdrc",
+      "userId": "u_r0mxgr11pme6eytm2",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:18:05.160Z",
+      "userName": "Victoria Patiño ",
+      "studentId": "EST-2025-122",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 22:18:05"
+    },
+    {
+      "id": "u_3oji4zkqzme6fbpmq",
+      "userId": "u_rkrgujb30me0b536p",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:18:20.546Z",
+      "userName": "Bautista",
+      "studentId": "EST-2025-025",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:18:20"
+    },
+    {
+      "id": "u_hd3ho5j2pme6fcdf8",
+      "userId": "u_ef94s2t87me0b27mi",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:18:51.380Z",
+      "userName": "Guadalupe rueda",
+      "studentId": "EST-2025-018",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:18:51"
+    },
+    {
+      "id": "u_3hseybu46me6fcfzd",
+      "userId": "u_ef94s2t87me0b27mi",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:18:54.697Z",
+      "userName": "Guadalupe rueda",
+      "studentId": "EST-2025-018",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:18:54"
+    },
+    {
+      "id": "u_wac0xzbgome6ftq13",
+      "userId": "u_udp8usbw0me6fmwgn",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:32:20.871Z",
+      "userName": "Juan Pablo Oviedo Goite",
+      "studentId": "EST-2025-123",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 22:32:20"
+    },
+    {
+      "id": "u_q9458q5csme6fykkl",
+      "userId": "u_c8qoo6z03me0b5zlp",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:36:07.077Z",
+      "userName": "Valentino Papa",
+      "studentId": "EST-2025-032",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:36:07"
+    },
+    {
+      "id": "u_30itiq8kome6g2x52",
+      "userId": "u_udp8usbw0me6fmwgn",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:39:29.990Z",
+      "userName": "Juan Pablo Oviedo Goite",
+      "studentId": "EST-2025-123",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 22:39:29"
+    },
+    {
+      "id": "u_4f61o3g3zme6g9zas",
+      "userId": "u_bgnqcmox2mdynijxl",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:44:59.380Z",
+      "userName": "Helena Machado",
+      "studentId": "EST-2025-004",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 22:44:59"
+    },
+    {
+      "id": "u_166udxlf8me6gah0t",
+      "userId": "u_c8qoo6z03me0b5zlp",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:45:22.349Z",
+      "userName": "Valentino Papa",
+      "studentId": "EST-2025-032",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 22:45:22"
+    },
+    {
+      "id": "u_4rtqcyi5ame6giien",
+      "userId": "u_3620qcgjwme6g2xx5",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:51:37.391Z",
+      "userName": "Pedro Salgado Canepa",
+      "studentId": "EST-2025-124",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 22:51:37"
+    },
+    {
+      "id": "u_t2jbs9jrime6gnamz",
+      "userId": "u_ktmv2zgznme1ei0iq",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T01:55:20.603Z",
+      "userName": "Paloma Castro",
+      "studentId": "EST-2025-071",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "E",
+      "submittedAtArgentina": "2025-08-10 22:55:20"
+    },
+    {
+      "id": "u_410ftcz5ime6gz6sn",
+      "userId": "u_orrudyvptme0b5ua2",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:04:35.495Z",
+      "userName": "Mia Pleitel",
+      "studentId": "EST-2025-031",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:04:35"
+    },
+    {
+      "id": "u_dhdxexif6me6h6bc0",
+      "userId": "u_3qohn2lp7me0tfs8i",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:10:07.968Z",
+      "userName": "Gonzalo Rosler Buglione",
+      "studentId": "EST-2025-046",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 23:10:07"
+    },
+    {
+      "id": "u_2cua7ag2bme6h6ms6",
+      "userId": "u_l3ppw0vlzme1nox48",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:10:22.806Z",
+      "userName": "Bianca Nazareth Picone",
+      "studentId": "EST-2025-078",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 23:10:22"
+    },
+    {
+      "id": "u_j8mroedmome6hexbn",
+      "userId": "u_orrudyvptme0b5ua2",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:16:49.715Z",
+      "userName": "Mia Pleitel",
+      "studentId": "EST-2025-031",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:16:49"
+    },
+    {
+      "id": "u_cnc2u73t4me6hl6pf",
+      "userId": "u_qobf27jv7me6hi0ai",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:21:41.811Z",
+      "userName": "Lourdes María Converset",
+      "studentId": "EST-2025-127",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 23:21:41"
+    },
+    {
+      "id": "u_eobwtlx3jme6hoow8",
+      "userId": "u_3wmjdusbdme1bxp0i",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:24:25.352Z",
+      "userName": "Uma Valle",
+      "studentId": "EST-2025-061",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "E",
+      "submittedAtArgentina": "2025-08-10 23:24:25"
+    },
+    {
+      "id": "u_azkbtndshme6hsthu",
+      "userId": "u_madzeow6xme0bap6m",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:27:37.938Z",
+      "userName": "Fiorella",
+      "studentId": "EST-2025-039",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:27:37"
+    },
+    {
+      "id": "u_39ei84l23me6huwij",
+      "userId": "u_3wmjdusbdme1bxp0i",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:29:15.163Z",
+      "userName": "Uma Valle",
+      "studentId": "EST-2025-061",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "E",
+      "submittedAtArgentina": "2025-08-10 23:29:15"
+    },
+    {
+      "id": "u_a88298653me6hw27z",
+      "userId": "u_4goz47h3xme6htid0",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:30:09.215Z",
+      "userName": "camilo giles ",
+      "studentId": "EST-2025-128",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:30:09"
+    },
+    {
+      "id": "u_fdyjwcbqlme6hwjs0",
+      "userId": "u_ktmv2zgznme1ei0iq",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:30:31.968Z",
+      "userName": "Paloma Castro",
+      "studentId": "EST-2025-071",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "E",
+      "submittedAtArgentina": "2025-08-10 23:30:31"
+    },
+    {
+      "id": "u_24hgrt1egme6hx3a5",
+      "userId": "u_4goz47h3xme6htid0",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:30:57.245Z",
+      "userName": "camilo giles ",
+      "studentId": "EST-2025-128",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:30:57"
+    },
+    {
+      "id": "u_w9v0v3g08me6hyzok",
+      "userId": "u_bgnqcmox2mdynijxl",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:32:25.892Z",
+      "userName": "Helena Machado",
+      "studentId": "EST-2025-004",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "A",
+      "submittedAtArgentina": "2025-08-10 23:32:25"
+    },
+    {
+      "id": "u_nesufvkvmme6hz0pi",
+      "userId": "u_e14kez4ghme6hx5nr",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:32:27.222Z",
+      "userName": "Lucas Mingotti Tziavaras",
+      "studentId": "EST-2025-129",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:32:27"
+    },
+    {
+      "id": "u_oqwdqtiqcme6hzm9z",
+      "userId": "u_e14kez4ghme6hx5nr",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:32:55.175Z",
+      "userName": "Lucas Mingotti Tziavaras",
+      "studentId": "EST-2025-129",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:32:55"
+    },
+    {
+      "id": "u_20z4hyefzme6i2x93",
+      "userId": "u_alllafm0rme678p88",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:35:29.367Z",
+      "userName": "Milagros Zacharec ",
+      "studentId": "EST-2025-109",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "B",
+      "submittedAtArgentina": "2025-08-10 23:35:29"
+    },
+    {
+      "id": "u_q1gq7bbkrme6i6ao9",
+      "userId": "u_zh9pgmfs9me6i15hg",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:38:06.729Z",
+      "userName": "juana giurovich",
+      "studentId": "EST-2025-130",
+      "sede": "Congreso",
+      "academicYear": "5to Año",
+      "division": "B",
+      "submittedAtArgentina": "2025-08-10 23:38:06"
+    },
+    {
+      "id": "u_cjn578lgame6i7xnf",
+      "userId": "u_tid7bop2gme6i2g6e",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:39:23.163Z",
+      "userName": "Matilde Pasarin de la Torre",
+      "studentId": "EST-2025-131",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:39:23"
+    },
+    {
+      "id": "u_ysvfbczb5me6i7yp2",
+      "userId": "u_gw49maclcme6i3g64",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:39:24.518Z",
+      "userName": "mercedes rizzo lynch",
+      "studentId": "EST-2025-132",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:39:24"
+    },
+    {
+      "id": "u_y48nt99sfme6i8fmp",
+      "userId": "u_tid7bop2gme6i2g6e",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:39:46.465Z",
+      "userName": "Matilde Pasarin de la Torre",
+      "studentId": "EST-2025-131",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:39:46"
+    },
+    {
+      "id": "u_g3ekr2wd7me6igvoc",
+      "userId": "u_fdz0c0x1lme4fe22c",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:46:20.508Z",
+      "userName": "Ian Svendsen",
+      "studentId": "EST-2025-096",
+      "sede": "Colegiales",
+      "academicYear": "5to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 23:46:20"
+    },
+    {
+      "id": "u_2yui23lahme6ihx1g",
+      "userId": "u_tv7hzrijlme0b5735",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:47:08.932Z",
+      "userName": "Sofia Bargas",
+      "studentId": "EST-2025-027",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:47:08"
+    },
+    {
+      "id": "u_l13vogu0eme6ij4io",
+      "userId": "u_tv7hzrijlme0b5735",
+      "subject": "Química",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:48:05.280Z",
+      "userName": "Sofia Bargas",
+      "studentId": "EST-2025-027",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "C",
+      "submittedAtArgentina": "2025-08-10 23:48:05"
+    },
+    {
+      "id": "u_z8ohqqrlsme6ivml2",
+      "userId": "u_tk1vcmquxme06mhr4",
+      "subject": "Física",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "submittedAt": "2025-08-11T02:57:48.566Z",
+      "userName": "Maria Emilia Delaico",
+      "studentId": "EST-2025-014",
+      "sede": "Colegiales",
+      "academicYear": "4to Año",
+      "division": "D",
+      "submittedAtArgentina": "2025-08-10 23:57:48"
+    }
+  ],
+  "answers": [
+    {
+      "id": "u_x9wyaj7jgme6ivmpk",
+      "questionId": "q1",
+      "progressReportId": "u_z8ohqqrlsme6ivml2",
+      "answer": "El tema que trabajamos en FISICA esta primera semana después del receso fueron las fases y fundamentos del pensamiento critico. Haciendo las actividades me di cuenta que debo releer el material varias veces para realizar los ejercicios, por lo cual diría que mi nivel de dominio no es muy alto, es bajo."
+    },
+    {
+      "id": "u_yd8evjx8hme6ivmt7",
+      "questionId": "q2",
+      "progressReportId": "u_z8ohqqrlsme6ivml2",
+      "answer": "Resolvi un ejercicio de Identificacion del pensamiento critico, en el cual tenia que analizar dos conversaciones distintas y poder deducir cual era la converzacion en la cual se planteaba un pensamiento critico."
+    },
+    {
+      "id": "u_gto77r2t6me6ivmwx",
+      "questionId": "q3",
+      "progressReportId": "u_z8ohqqrlsme6ivml2",
+      "answer": "Me resulto dificil el tema de recopilar informacion y saber cual necesito y cual no."
+    },
+    {
+      "id": "u_wi1nd8w0vme6ivn0j",
+      "questionId": "q4",
+      "progressReportId": "u_z8ohqqrlsme6ivml2",
+      "answer": "yo diria que se conecta con varias materias y o situacionees de nuestro dia a dia, ya que nos hacen pensar de una forma mas eficaz, organizada y que nos satisface a futuro xq es la decicion correcta o la que mas nos favorece para no llegar a un resultado no deseado. "
+    },
+    {
+      "id": "u_dvfef0c2gme6ivn48",
+      "questionId": "q5",
+      "progressReportId": "u_z8ohqqrlsme6ivml2",
+      "answer": "no"
+    },
+    {
+      "id": "u_kplazfb8qme6ij4mf",
+      "questionId": "q1",
+      "progressReportId": "u_l13vogu0eme6ij4io",
+      "answer": "No tuvimos clase de quimica esta semana."
+    },
+    {
+      "id": "u_olykd61ijme6ij4q5",
+      "questionId": "q2",
+      "progressReportId": "u_l13vogu0eme6ij4io",
+      "answer": "No tuvimos clase de quimica esta semana."
+    },
+    {
+      "id": "u_on3u82ku1me6ij4tu",
+      "questionId": "q3",
+      "progressReportId": "u_l13vogu0eme6ij4io",
+      "answer": "No tuvimos clase de quimica esta semana."
+    },
+    {
+      "id": "u_e4mnr8brrme6ij4xh",
+      "questionId": "q4",
+      "progressReportId": "u_l13vogu0eme6ij4io",
+      "answer": "No tuvimos clase de quimica esta semana."
+    },
+    {
+      "id": "u_r7eetpilcme6ij518",
+      "questionId": "q5",
+      "progressReportId": "u_l13vogu0eme6ij4io",
+      "answer": "No tuvimos clase de quimica esta semana."
+    },
+    {
+      "id": "u_g2ko96qy9me6ihx58",
+      "questionId": "q1",
+      "progressReportId": "u_2yui23lahme6ihx1g",
+      "answer": "Lo entendí super bien! Nivel 1"
+    },
+    {
+      "id": "u_k748fhve5me6ihx8w",
+      "questionId": "q2",
+      "progressReportId": "u_2yui23lahme6ihx1g",
+      "answer": "Piensa en una decisión importante que tomaste el año pasado (puede ser sobre estudios,\namistades, actividades, etc.)"
+    },
+    {
+      "id": "u_0d8l5fccame6ihxcj",
+      "questionId": "q3",
+      "progressReportId": "u_2yui23lahme6ihx1g",
+      "answer": "Recordar el nombre de cada paso."
+    },
+    {
+      "id": "u_srzystgtcme6ihxg6",
+      "questionId": "q4",
+      "progressReportId": "u_2yui23lahme6ihx1g",
+      "answer": "Lo relaciono con el día a día ya que antes de tomar decisiones importantes, pienso mucho en la ventajas, desventajas y despues de tomar la decisión reflexiono como funciono y que podria haber mejorado."
+    },
+    {
+      "id": "u_ol8tgojx9me6ihxjv",
+      "questionId": "q5",
+      "progressReportId": "u_2yui23lahme6ihx1g",
+      "answer": "Me divertí resolviendo los ejercicios "
+    },
+    {
+      "id": "u_lrvry4zc0me6igvsp",
+      "questionId": "q1",
+      "progressReportId": "u_g3ekr2wd7me6igvoc",
+      "answer": "En base al cuadernillo,  Metodología de los 5 pasos, Nivel 3: La apliqué para ordenar el razonamiento del Problema 1\nEquilibrio químico Nivel 3: Distingo reacciones reversibles vs. irreversibles \nHerramientas de equilibrio Nivel 2: entiendo el concepto y para que sirven\nTabla ICE y le chatelier Nivel 1: por ahora conozco la idea general "
+    },
+    {
+      "id": "u_57r5emki9me6igvwe",
+      "questionId": "q2",
+      "progressReportId": "u_g3ekr2wd7me6igvoc",
+      "answer": "Tomando como referencia el ejercicio 1, en el paso 1 que era definir el objetivo del problema  y luego de eso el paso 2 que era recolectar la información del problema.\nPara decidir si los 3 sistemas podían estar en equilibrio. Llegué a la conclusión en la cual solo la botella con gaseosas podía llegar a estar en equilibrio dinámico debido a que CO₂ disuelto ↔ CO₂ gaseoso, mientras que la vela y la neutralización son irreversibles."
+    },
+    {
+      "id": "u_5bv1rrk3ume6igw05",
+      "questionId": "q3",
+      "progressReportId": "u_g3ekr2wd7me6igvoc",
+      "answer": "Al principio me costó diferenciar cuando hablaba del equilibrio y de la reacción completa y dudé mi ho de la neutralización, (pensaba que todo equilibrio tenía que tener reacción inversa visible) y con la idea de sistema abierto vs sistema cerrado que me Marie un poco para entenderlo mejor, abrí el cuadernillo teórico mientras resolvía el ejercicio, y verifiqué las preguntas que decían al principio de la página que la verdad me ayudó mucho como guía. "
+    },
+    {
+      "id": "u_qwrltnkk7me6igw3t",
+      "questionId": "q4",
+      "progressReportId": "u_g3ekr2wd7me6igvoc",
+      "answer": "Por ahora me costaría, conectar con algún tema que hayamos visto o con otra materia, yo creo que más que nada porque recién empezamos y por hay mediante vayamos avanzando lo podría con extra con otra materia."
+    },
+    {
+      "id": "u_s6cmdbazfme6igw7h",
+      "questionId": "q5",
+      "progressReportId": "u_g3ekr2wd7me6igvoc",
+      "answer": ""
+    },
+    {
+      "id": "u_s44u9xhkwme6i8fqc",
+      "questionId": "q1",
+      "progressReportId": "u_y48nt99sfme6i8fmp",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_7anpjgp3lme6i8ftz",
+      "questionId": "q2",
+      "progressReportId": "u_y48nt99sfme6i8fmp",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_navrhcm3bme6i8fxn",
+      "questionId": "q3",
+      "progressReportId": "u_y48nt99sfme6i8fmp",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_uslqjcowpme6i8g1b",
+      "questionId": "q4",
+      "progressReportId": "u_y48nt99sfme6i8fmp",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_9au7hpekrme6i8g4y",
+      "questionId": "q5",
+      "progressReportId": "u_y48nt99sfme6i8fmp",
+      "answer": "no."
+    },
+    {
+      "id": "u_zznxn6k8xme6i7ysp",
+      "questionId": "q1",
+      "progressReportId": "u_ysvfbczb5me6i7yp2",
+      "answer": "falte, pero lo que vi me costo"
+    },
+    {
+      "id": "u_bshhr5rutme6i7ywg",
+      "questionId": "q2",
+      "progressReportId": "u_ysvfbczb5me6i7yp2",
+      "answer": "no se"
+    },
+    {
+      "id": "u_9060ffk1ume6i7z03",
+      "questionId": "q3",
+      "progressReportId": "u_ysvfbczb5me6i7yp2",
+      "answer": "."
+    },
+    {
+      "id": "u_m60lztzcfme6i7z3r",
+      "questionId": "q4",
+      "progressReportId": "u_ysvfbczb5me6i7yp2",
+      "answer": "poder entender los ejercicios mas profundamente como matematica"
+    },
+    {
+      "id": "u_go2bnxyugme6i7z7e",
+      "questionId": "q5",
+      "progressReportId": "u_ysvfbczb5me6i7yp2",
+      "answer": ""
+    },
+    {
+      "id": "u_ry13gc984me6i7xr3",
+      "questionId": "q1",
+      "progressReportId": "u_cjn578lgame6i7xnf",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_8f6vb76nome6i7xus",
+      "questionId": "q2",
+      "progressReportId": "u_cjn578lgame6i7xnf",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_ac83u03w6me6i7xyh",
+      "questionId": "q3",
+      "progressReportId": "u_cjn578lgame6i7xnf",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_kqz5gba24me6i7y24",
+      "questionId": "q4",
+      "progressReportId": "u_cjn578lgame6i7xnf",
+      "answer": "Esta semana no vimos ninguna explicacion de algun contenido nuevo. El profesor nos explicó a cómo utilizar esta nueva plataforma."
+    },
+    {
+      "id": "u_n1012hofkme6i7y5r",
+      "questionId": "q5",
+      "progressReportId": "u_cjn578lgame6i7xnf",
+      "answer": "No"
+    },
+    {
+      "id": "u_b9l4yzbyvme6i6at0",
+      "questionId": "q1",
+      "progressReportId": "u_q1gq7bbkrme6i6ao9",
+      "answer": "Esta semana todavía no discutimos ningún tema nuevo. "
+    },
+    {
+      "id": "u_6a0qj98mgme6i6awy",
+      "questionId": "q2",
+      "progressReportId": "u_q1gq7bbkrme6i6ao9",
+      "answer": "Intenté resolver el ejercicio 1 de la guía de esta semana pero no logré entenderlo. "
+    },
+    {
+      "id": "u_l0mxzba8sme6i6b0n",
+      "questionId": "q3",
+      "progressReportId": "u_q1gq7bbkrme6i6ao9",
+      "answer": "Me resultó difícil comprender los ejercicios de la guía. "
+    },
+    {
+      "id": "u_bd0v9iit0me6i6b4i",
+      "questionId": "q4",
+      "progressReportId": "u_q1gq7bbkrme6i6ao9",
+      "answer": "El ejercicio 1 se conecta con los cambios físicos y químicos que vimos el año pasado. "
+    },
+    {
+      "id": "u_2ji4is6mjme6i6b8q",
+      "questionId": "q5",
+      "progressReportId": "u_q1gq7bbkrme6i6ao9",
+      "answer": "No, nada más. "
+    },
+    {
+      "id": "u_p4oka9cibme6i2xcq",
+      "questionId": "q1",
+      "progressReportId": "u_20z4hyefzme6i2x93",
+      "answer": "según los contenidos que tiene el cuadernillo, vimos los 5 pasos para aplicado al equilibrio quimico, los conceptos fundamentales para la fase 1 y la información relevante e irrelevante"
+    },
+    {
+      "id": "u_i56qmpb2qme6i2xge",
+      "questionId": "q2",
+      "progressReportId": "u_20z4hyefzme6i2x93",
+      "answer": "un ejercicio que resolví por ejemplo, es el de identificar sistemas de equilibrio, donde me pedía que aplique los pasos en cada caso del problema con los sistemas A, B y C"
+    },
+    {
+      "id": "u_s4cnknokyme6i2xk2",
+      "questionId": "q3",
+      "progressReportId": "u_20z4hyefzme6i2x93",
+      "answer": "Ninguno, todos me resultaron normal para hacer, gracias a la ayuda de la guía teórica "
+    },
+    {
+      "id": "u_9uuvi8153me6i2xnp",
+      "questionId": "q4",
+      "progressReportId": "u_20z4hyefzme6i2x93",
+      "answer": "Yo creo que por ahí se conecta con otros temas como esquiometria, por el seguimiento de pasos y el encontrar el equilibrio."
+    },
+    {
+      "id": "u_ocqakrejame6i2xre",
+      "questionId": "q5",
+      "progressReportId": "u_20z4hyefzme6i2x93",
+      "answer": "no"
+    },
+    {
+      "id": "u_8tbxu56p4me6hzmed",
+      "questionId": "q1",
+      "progressReportId": "u_oqwdqtiqcme6hzm9z",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_w5cwfojcbme6hzmi2",
+      "questionId": "q2",
+      "progressReportId": "u_oqwdqtiqcme6hzm9z",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_e3a01tvfrme6hzmls",
+      "questionId": "q3",
+      "progressReportId": "u_oqwdqtiqcme6hzm9z",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_s5ga8ygpume6hzmpd",
+      "questionId": "q4",
+      "progressReportId": "u_oqwdqtiqcme6hzm9z",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_133sp1ot2me6hzmty",
+      "questionId": "q5",
+      "progressReportId": "u_oqwdqtiqcme6hzm9z",
+      "answer": ""
+    },
+    {
+      "id": "u_zjeujdq1ume6hz0t5",
+      "questionId": "q1",
+      "progressReportId": "u_nesufvkvmme6hz0pi",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_r3m7t339pme6hz0ws",
+      "questionId": "q2",
+      "progressReportId": "u_nesufvkvmme6hz0pi",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_gdrujmsk7me6hz10g",
+      "questionId": "q3",
+      "progressReportId": "u_nesufvkvmme6hz0pi",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_nj72sbfyeme6hz143",
+      "questionId": "q4",
+      "progressReportId": "u_nesufvkvmme6hz0pi",
+      "answer": "Estuve ausente el lunes por el viaje a londres con el colegio y estuve ausente el miercoles debido a enfermedad (certificado medico entregado en preceptoria)"
+    },
+    {
+      "id": "u_hkyurhmmnme6hz17q",
+      "questionId": "q5",
+      "progressReportId": "u_nesufvkvmme6hz0pi",
+      "answer": ""
+    },
+    {
+      "id": "u_8wpmjdj5kme6hyzs7",
+      "questionId": "q1",
+      "progressReportId": "u_w9v0v3g08me6hyzok",
+      "answer": "Equilibrio: Nivel 1 - estuvimos viendo más conceptos y pensamiento crítico, por lo que todavía queda mucho por entender. "
+    },
+    {
+      "id": "u_gq2ezr48rme6hyzws",
+      "questionId": "q2",
+      "progressReportId": "u_w9v0v3g08me6hyzok",
+      "answer": "Como dije antes, vimos más pensamiento crítico que cuentas, por lo que teníamos ejercicios como el ejercicio 7 del cuadernillo: primero se nos pide cuál es el problema (diferente resultado  a pesar de haber hecho lo mismo), luego que información adicional necesitaríamos para resolver la discrepancia (como T inicial y final, Volumen, Presión), después posibles explicaciones (distinta T, vol o P) y por último como determinar que grupo hizo lo correcto (preguntándole a alguien cuál era el resultado esperado, o tal vez ambos grupos estaban bien)"
+    },
+    {
+      "id": "u_0i7woug0ime6hz00f",
+      "questionId": "q3",
+      "progressReportId": "u_w9v0v3g08me6hyzok",
+      "answer": "No entendía a qué se refería con equilibrio, así que le pedí ayuda a chat y entendí que era más simple de lo que pensaba (que la reacción se mantenga constante). Me pasó lo mismo con endotermica y exotérmica. "
+    },
+    {
+      "id": "u_eqrpgpmr1me6hz042",
+      "questionId": "q4",
+      "progressReportId": "u_w9v0v3g08me6hyzok",
+      "answer": "Se conecta con balance (visto en el cuatrimestre pasado)"
+    },
+    {
+      "id": "u_pn8lhw895me6hz07q",
+      "questionId": "q5",
+      "progressReportId": "u_w9v0v3g08me6hyzok",
+      "answer": "Estaría bueno que en el cuadernillo explica que es exactamente el equilibrio y porque necesitaríamos distinta información (ej: porque podría necesitar la temperatura? Hay alguna fórmula que lo pida? Que es el cociente de reacción?)"
+    },
+    {
+      "id": "u_hixct2gd8me6hx3dr",
+      "questionId": "q1",
+      "progressReportId": "u_24hgrt1egme6hx3a5",
+      "answer": "esta semana no asisti al colegio debido a que estuve en un viaje."
+    },
+    {
+      "id": "u_wduwhh5wime6hx3hf",
+      "questionId": "q2",
+      "progressReportId": "u_24hgrt1egme6hx3a5",
+      "answer": "esta semana no asisti al colegio debido a que estuve en un viaje."
+    },
+    {
+      "id": "u_r412k6tfnme6hx3l3",
+      "questionId": "q3",
+      "progressReportId": "u_24hgrt1egme6hx3a5",
+      "answer": "a pesar de que esta semana no estuve en el colegio, el ultimo tema me resulto facil."
+    },
+    {
+      "id": "u_0ivem5jo9me6hx3or",
+      "questionId": "q4",
+      "progressReportId": "u_24hgrt1egme6hx3a5",
+      "answer": "."
+    },
+    {
+      "id": "u_5usaw8phime6hx3sd",
+      "questionId": "q5",
+      "progressReportId": "u_24hgrt1egme6hx3a5",
+      "answer": ""
+    },
+    {
+      "id": "u_6ey1grnlgme6hwjvm",
+      "questionId": "q1",
+      "progressReportId": "u_fdyjwcbqlme6hwjs0",
+      "answer": "Esta semana trabajamos el tema de Gases Ideales aplicando la teoría del Pensamiento Crítico en química. Nivel 3 Comprendo el proceso de 5 pasos, aunque todavía me cuesta aplicarlo siempre sin checkear las explicaciones del cuadernillo."
+    },
+    {
+      "id": "u_m1bjzphtpme6hwjza",
+      "questionId": "q2",
+      "progressReportId": "u_fdyjwcbqlme6hwjs0",
+      "answer": "Habia un ejercicio sobre el cambio de volumen de un globo con helio al aumentar la temperatura. Apliqué los 5 pasos para identificar que el aumento de temperatura provoca la expansión del gas, manteniéndose la presión constante, lo que se relaciona con el comportamiento de un gas ideal."
+    },
+    {
+      "id": "u_xsuyyxnotme6hwk2x",
+      "questionId": "q3",
+      "progressReportId": "u_fdyjwcbqlme6hwjs0",
+      "answer": "Me costó distinguir qué datos eran realmente útiles en un problema, ya que a veces me enfocaba en información que no influía en la respuesta. Para mejorarlo, reforcé el segundo paso de la metodología y practiqué identificando y separando datos clave de los secundarios en varios ejemplos."
+    },
+    {
+      "id": "u_giknbp98eme6hwk6l",
+      "questionId": "q4",
+      "progressReportId": "u_fdyjwcbqlme6hwjs0",
+      "answer": "Estos temas se relacionan con física, con la ley de Charles y la ley de Boyle, y con situaciones de la vida diaria como la presión en neumáticos, el vuelo de globos aerostáticos o cómo se comporta el aire en los pulmones. esta metodología también la aplico en otros problemas de química, como el estudio de reacciones, donde es fundamental reconocer las variables y sus relaciones antes de hacer los cálculos."
+    },
+    {
+      "id": "u_mq1szulglme6hwka9",
+      "questionId": "q5",
+      "progressReportId": "u_fdyjwcbqlme6hwjs0",
+      "answer": ""
+    },
+    {
+      "id": "u_8ggpee9ekme6hw2bn",
+      "questionId": "q1",
+      "progressReportId": "u_a88298653me6hw27z",
+      "answer": "esta semana no asisti al colegio debido a que estuve en un viaje."
+    },
+    {
+      "id": "u_vdyetm8icme6hw2fb",
+      "questionId": "q2",
+      "progressReportId": "u_a88298653me6hw27z",
+      "answer": "esta semana no asisti al colegio debido a que estuve en un viaje."
+    },
+    {
+      "id": "u_vpuo2uwcqme6hw2iz",
+      "questionId": "q3",
+      "progressReportId": "u_a88298653me6hw27z",
+      "answer": "a pesar de que esta semana no estuve, me puse al dia con la materia y logre aprobar el ultimo tema."
+    },
+    {
+      "id": "u_k8ghjnz4kme6hw2mm",
+      "questionId": "q4",
+      "progressReportId": "u_a88298653me6hw27z",
+      "answer": "."
+    },
+    {
+      "id": "u_6l8nty4pvme6hw2qa",
+      "questionId": "q5",
+      "progressReportId": "u_a88298653me6hw27z",
+      "answer": ""
+    },
+    {
+      "id": "u_psskzsvxime6huwm7",
+      "questionId": "q1",
+      "progressReportId": "u_39ei84l23me6huwij",
+      "answer": "Vimos qué es pensar de forma crítica y cómo usar un plan de 5 pasos para tomar decisiones: ver el problema, juntar info, pensar opciones, ver pros y contras y elegir. Lo entendí, pero todavía me cuesta pensar varias opciones antes de decidir. soy nivel 2 "
+    },
+    {
+      "id": "u_80lbd2gvrme6huwq4",
+      "questionId": "q2",
+      "progressReportId": "u_39ei84l23me6huwij",
+      "answer": "Hicimos un ejemplo de elegir una carrera. Pude decir qué info tenía, qué me faltaba y las ventajas y desventajas de cada opción."
+    },
+    {
+      "id": "u_cj0ffb0mame6huwtr",
+      "questionId": "q3",
+      "progressReportId": "u_39ei84l23me6huwij",
+      "answer": "Me costó pasar de ejemplos de la vida diaria a cómo usar esto en física. Para mejorar, voy a practicar con problemas fáciles y usar siempre los 5 pasos."
+    },
+    {
+      "id": "u_uy95a7qbame6huwxe",
+      "questionId": "q4",
+      "progressReportId": "u_39ei84l23me6huwij",
+      "answer": "Sirve para resolver problemas de física porque primero hay que entender bien todo antes de hacer cuentas. También ayuda en otras materias y en la vida diaria."
+    },
+    {
+      "id": "u_7h3s3ghpnme6hux0z",
+      "questionId": "q5",
+      "progressReportId": "u_39ei84l23me6huwij",
+      "answer": "Es útil porque no es solo para física, también sirve para tomar mejores decisiones en cualquier cosa.\n"
+    },
+    {
+      "id": "u_e06gfg574me6hstma",
+      "questionId": "q1",
+      "progressReportId": "u_azkbtndshme6hsthu",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_0rqyskcpume6hstpx",
+      "questionId": "q2",
+      "progressReportId": "u_azkbtndshme6hsthu",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_yfyb6sji4me6hsttj",
+      "questionId": "q3",
+      "progressReportId": "u_azkbtndshme6hsthu",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_53hd625mpme6hstx5",
+      "questionId": "q4",
+      "progressReportId": "u_azkbtndshme6hsthu",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_3o14jvsfvme6hsu0t",
+      "questionId": "q5",
+      "progressReportId": "u_azkbtndshme6hsthu",
+      "answer": ""
+    },
+    {
+      "id": "u_z8ko1lk7jme6hoozu",
+      "questionId": "q1",
+      "progressReportId": "u_eobwtlx3jme6hoow8",
+      "answer": " trabajamos el tema de Gases Ideales aplicando la Metodología de Pensamiento Crítico en química. Nivel de dominio es 2 Comprendo el proceso de 5 pasos identificar el problema, recopilar información, analizar opciones, evaluar consecuencias y tomar una decisión), aunque todavía me cuesta aplicarlo de forma automática sin necesitar las explicaciones del cuadernillo."
+    },
+    {
+      "id": "u_xb8dundcsme6hop3i",
+      "questionId": "q2",
+      "progressReportId": "u_eobwtlx3jme6hoow8",
+      "answer": "Hicimos un ejemplo con un globo de helio que se agranda cuando sube la temperatura. Con los 5 pasos entendí que el gas se expande cuando se calienta si la presión se mantiene igual."
+    },
+    {
+      "id": "u_10reqy6k3me6hop76",
+      "questionId": "q3",
+      "progressReportId": "u_eobwtlx3jme6hoow8",
+      "answer": "Me costó un poco diferenciar qué datos eran realmente importantes y cuáles no. Para mejorarlo, volví a leer el paso 2 y practiqué separando la información útil de la que no hace falta."
+    },
+    {
+      "id": "u_7uqa1ohqkme6hopat",
+      "questionId": "q4",
+      "progressReportId": "u_eobwtlx3jme6hoow8",
+      "answer": "Esto se relaciona con cosas de física como las leyes de los gases, y también con cosas que pasan todos los días, como la presión de las ruedas del auto o los globos aerostáticos. Creo que puedo usar este método para otros temas de química."
+    },
+    {
+      "id": "u_exobt1lvvme6hopei",
+      "questionId": "q5",
+      "progressReportId": "u_eobwtlx3jme6hoow8",
+      "answer": "Me gustó que no fuera solo aprender fórmulas, sino entender primero lo que pasa.\n"
+    },
+    {
+      "id": "u_qqvaxa190me6hl6tt",
+      "questionId": "q1",
+      "progressReportId": "u_cnc2u73t4me6hl6pf",
+      "answer": "-"
+    },
+    {
+      "id": "u_2p3x4z3hgme6hl6xg",
+      "questionId": "q2",
+      "progressReportId": "u_cnc2u73t4me6hl6pf",
+      "answer": "-"
+    },
+    {
+      "id": "u_gv9gtomydme6hl714",
+      "questionId": "q3",
+      "progressReportId": "u_cnc2u73t4me6hl6pf",
+      "answer": "-"
+    },
+    {
+      "id": "u_x07ljwvm2me6hl74u",
+      "questionId": "q4",
+      "progressReportId": "u_cnc2u73t4me6hl6pf",
+      "answer": "-"
+    },
+    {
+      "id": "u_84e74o3bvme6hl78i",
+      "questionId": "q5",
+      "progressReportId": "u_cnc2u73t4me6hl6pf",
+      "answer": "Ausente"
+    },
+    {
+      "id": "u_fa3mkh2pqme6hexfx",
+      "questionId": "q1",
+      "progressReportId": "u_j8mroedmome6hexbn",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_kmcw7vp8rme6hexjk",
+      "questionId": "q2",
+      "progressReportId": "u_j8mroedmome6hexbn",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_tbnzqf9xgme6hexn8",
+      "questionId": "q3",
+      "progressReportId": "u_j8mroedmome6hexbn",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_nmeuuo5dgme6hexqv",
+      "questionId": "q4",
+      "progressReportId": "u_j8mroedmome6hexbn",
+      "answer": "No hubo clase"
+    },
+    {
+      "id": "u_o1xfiw0vime6hexuk",
+      "questionId": "q5",
+      "progressReportId": "u_j8mroedmome6hexbn",
+      "answer": ""
+    },
+    {
+      "id": "u_xheemwehome6h6mvv",
+      "questionId": "q1",
+      "progressReportId": "u_2cua7ag2bme6h6ms6",
+      "answer": "Tema: fundamentos del pensamiento crítico - Nivel 2: entiendo la teoría, pero hay algunos ejercicios donde me es más difícil de aplicarla que en otros."
+    },
+    {
+      "id": "u_qcogrl8yrme6h6mzj",
+      "questionId": "q2",
+      "progressReportId": "u_2cua7ag2bme6h6ms6",
+      "answer": "Resolví el ejercicio seis de planificación experimental. Enunciado: un estudiante quiera investigar cómo afecta la masa de un objeto metálico a la cantidad de calor que puede transferir al agua. El estudiante tiene disponibles cilindros metálicos de diferentes masas (50g, 100g, 200g), un mechero para calentar, un termómetro, vasos con agua, un cronómetro. Diseña un proceso experimental para investigar esta relación. Respuesta: vamos a tomar tres vasos con 100 ml de agua cada uno y vamos a tomar su temperatura inicial con un termómetro; luego debemos calentar cada cilindro con el mechero hasta que alcancen los 80°C (la temperatura la calculamos con el termómetro); después vamos a arrojar cada cilindro calentado en cada vaso de agua; por último vamos a calcular un minuto con el cronómetro y vamos a volver a medir la temperatura del agua de cada vaso pasado el minuto."
+    },
+    {
+      "id": "u_06e208xq6me6h6n36",
+      "questionId": "q3",
+      "progressReportId": "u_2cua7ag2bme6h6ms6",
+      "answer": "Hay algunos conceptos de termodinámica que me resultan difíciles entender como el de temperatura o lo de de calores específicos y capacidades calóricas."
+    },
+    {
+      "id": "u_3lu5wygswme6h6n6u",
+      "questionId": "q4",
+      "progressReportId": "u_2cua7ag2bme6h6ms6",
+      "answer": "Los diagramas termodinámicas que se usan para visualizar procesos se conectan con matemática ya que tienen forma de gráficos."
+    },
+    {
+      "id": "u_qu3uprty9me6h6nah",
+      "questionId": "q5",
+      "progressReportId": "u_2cua7ag2bme6h6ms6",
+      "answer": ""
+    },
+    {
+      "id": "u_0f9t4pwjbme6h6bgh",
+      "questionId": "q1",
+      "progressReportId": "u_dhdxexif6me6h6bc0",
+      "answer": "Distingo dos espacios diferentes de aprendizaje. El primero, la incorporación de teoría y metodología con el cuadernillo y, después, su práctica y dominio con la guía de ejercicios. \nAprendí una metodología de 5 pasos para resolver de manera efectiva los problemas de equilibrio químico. \n1. Analizar información química\nDeterminar el problema, si la reacción esta o no en equilibrio y el objetivo final (calcular concentraciones, predecir direcciones, analizar perturbaciones, etc.)\n2. Identificar qué datos son relevantes\nQue información tengo, cual me falta, cual es irrelevante. Si la ecuación esta ya balanceada. Aprendí el tipo de información que es relevante; estos son las Concentraciones iniciales de reactivos y productos, Temperatura del sistema, Presión (si hay gases involucrados), Volumen del reactor, Constante de equilibrio (Kc), Cociente de reacción en concentración (Qc), Naturaleza de la reacción (endotérmica o exotérmica) pero todavía no fue explicado como aplicarlas en un ejercicio practico por lo que su dominio es bajo.\n3. Evaluar diferentes enfoques para abordar una situación química.\nQue enfoque usar, si hay mas de una forma de calcular lo que necesito, que herramienta teórica me sirve para resolver el problema (se alinea con los datos y con mi objetivo final). Las herramientas que aprendí pero todavía no domino prácticamente son la Constante de equilibrio (Kc), el Cociente de reacción (Qc), el Principio de Le Chatelier, la Tabla ICE (Inicial, Cambio, Equilibrio) y el Análisis gráfico \n4.Tomar decisiones\nAnalizar ventajas y desventajas de cada enfoque químico, cual me llevara al mejor resultado con la menor probabilidad de error y sea verificable. Que sea preciso, con la menor cantidad de suposiciones, respete las leyes de conservación y sea quimicamente razonable. \n5.Reflexionar sobre la validez de nuestros resultados\n¿Llegue al resultado correcto, fue el enfoque utilizado correcto? Analizar si el metodo es extrapolable a problematicas similares. \n\nLuego aprendi sobre conceptos quimicos fundamentales como:\nReacciones irreversibles: avanzan en un solo sentido, desde los reactivos hacia los productos, y no vuelven hacia atrás. Se consideran completas porque al final del proceso al menos uno de los reactivos se consume por completo, impidiendo que la reacción se revierta.\nReacciones reversibles: los productos pueden transformarse nuevamente en reactivos. Por eso se dice que ocurren en ambos sentidos: reacción directa (reactivos → productos) y reacción inversa (productos → reactivos).\nEquilibrio dinámico: las concentraciones no cambian, las reacciones directa e inversa siguen ocurriendo simultáneamente a la misma velocidad. Esto significa que hay actividad continua, pero el sistema se mantiene estable.\nCombinación incompleta: En el equilibrio, tanto reactivos como productos están presentes al mismo tiempo. Ninguno se consume por completo, porque el sistema encuentra un balance entre la formación y el consumo de cada sustancia.\nComposición invariable: Las concentraciones permanecen constantes mientras no se modifiquen las condiciones.\nEs reversible: Se puede alcanzar desde ambos sentidos de la reacción.\nMovilidad del equilibrio: El equilibrio no es fijo; si cambian las condiciones del sistema, la composición puede alterarse. Factores como concentración, temperatura o presión pueden desplazarlo hacia más reactivos o más productos.\n\nLuego, la segunda fase del aprendizaje fue aplicar todos estos conceptos a la guia de ejercicios, donde amplie el dominio de estos conceptos con preguntas que desafiaban mi forma de pensar porque no tenian repsuesta unica. La idea es que me familiarize con la forma de resolucion y cree ese pensamiento critico. "
+    },
+    {
+      "id": "u_z44wr457gme6h6bk5",
+      "questionId": "q2",
+      "progressReportId": "u_dhdxexif6me6h6bc0",
+      "answer": "EJERCICIO 6: PLANIFICACION EXPERIMENTAL  \n\nUn estudiante quiere investigar cómo la temperatura afecta el equilibrio de la reacción:\nCo(H2O)2+6(aq) + 4Cl−(aq) ⇌ CoCl2−4(aq) + 6H2O(l) \nEl estudiante sabe que esta reacción es endotérmica en el sentido directo.\n\nPREGUNTAS:\n\n1. Aplica los Pasos 1 y 2: ¿Cuál es el objetivo del experimento y qué información necesita\nrecopilar?\n\nEl objetivo del experimento es determinar de que forma la elevación temperatura afecta el equilibrio de la reacción mencionada y comprobar de forma mecánica que cuando se da este aumento( por ser una reacción directa endotérmica) el equilibrio se desplaza hacia la derecha. Según lo expuesto en el problema, el color pasará e rosado a progresivamente mas azul. \n\nLa información que se necesita es:\nConcentraciones iniciales de los reactivos \nColores de ambos reactivos \nRango de temperaturas a estudiar (ej.: 5, 15, 25, 40, 60 °C).\nTiempo necesario para alcanzar equilibrio a cada temperatura.\nValor de Kc (o mediciones que permitan calcular Kc) a cada Temperatura.\nCondiciones experimentales constantes como volumen del recipiente y presión.\nObservar la posibilidad de su reversibilidad\n\n2. Aplica el Paso 3 (Analizar opciones): Diseña un procedimiento experimental para investigar el efecto de la temperatura.\n\n1. Preparar varias muestras idénticas a la misma concentración de ambos reactivos.\n2. Someter cada muestra a una temperatura controlada diferente (p. ej. 10, 25, 40, 60 °C). Mantener por tiempo suficiente para alcanzar estabilidad.\n3. Registrar color con un fotografia y cuantificar el cambio en el espectro de color.\n4. Repetir subida y bajada de temperatura para comprobar la naturaleza reversible de la reacción. \n5. Usar ICE y calcular Qc para organizar datos y confirmar la dirección de la reacción (directa cuando es mas azul o inversa cuando es mas rosado).\n\n3. Aplica el Paso 4 (Evaluar consecuencias): ¿Qué resultados esperarías observar y cómo\ninterpretarías los cambios de color?\n\nLa reacción directa es endotérmica por lo que aumentar la Temperatura favorece la formación de productos. Por tanto, al subir la temperatura las muestras se verán más azules. Si se enfría, se vuelve más rosado (reacción inversa favorecida).  La variación del color confirmará el desplazamiento hacia la derecha. "
+    },
+    {
+      "id": "u_3l4wc7sqeme6h6bnt",
+      "questionId": "q3",
+      "progressReportId": "u_dhdxexif6me6h6bc0",
+      "answer": "En general todos los ejercicios con un poco de revisión del cuadernillo se pudieron hacer. Pero lo que más me cuesta es la evaluación de los enfoques para llevar a cabo un problema. Me costó el ej 4 donde se pregunta que puede hacer el operador de la planta química ante perturbaciones en la reacción.  \n\n Todavía no identifico correctamente que reacciones pueden llegar a un equilibrio químico (donde las velocidades de las reacciones directa e inversa sean iguales, resultando en concentraciones constantes de reactivos y productos). Comprendo lo de reversible vs irrebersible pero todavia no tengo la capacidad para imaginar la reacción y su equilibrio. \n\nEn el ej 9 entiendo lo que ocurre con las concentraciones de reactivos y productos, la naturaleza directa de la reacción que favorece a los productos y el hecho de que se cumple la ley de conservacion de la masa. Pero cunado habla de que se dupliquen los reactivos y entra el concepto de Kc y Qc no comprendo todavia las cuentas. "
+    },
+    {
+      "id": "u_adfme3qv5me6h6brh",
+      "questionId": "q4",
+      "progressReportId": "u_dhdxexif6me6h6bc0",
+      "answer": "Lo temas vistos en esta semana se relaciones muy profundamente con la unidad anterior de soluciones químicas. El hecho de concentraciones, pureza, etc. Esta en acción la ley de conservación de la masa y las ecuaciones deben estar balanceadas como vimos. Tambien esta la teoria de los cálculos estequiométricos y los coeficientes estequiométricos para hacer los cálculos de Kc. "
+    },
+    {
+      "id": "u_nsvuiz8hwme6h6bv5",
+      "questionId": "q5",
+      "progressReportId": "u_dhdxexif6me6h6bc0",
+      "answer": "El tema es muy interesante y continnua lo que veniamos aprendiendo en la primer parte del año. Es complejo y desafiante y eso me gusta. Lo que mas me interesa dominar es la metodologia de 5 pasos para resolver los ejercicios y tener la capacidad de pensamiento critico como para resolver este tipo de ejercicios que no tienen respuesta unica. Lo que tambien aprecio es este modelo de clase libre, semejante a la vida facultativa que deberemos aprender tarde o temprano. Ansioso por esta parte del año. "
+    },
+    {
+      "id": "u_m90vo06gdme6gz6x4",
+      "questionId": "q1",
+      "progressReportId": "u_410ftcz5ime6gz6sn",
+      "answer": "Introduccion al segundo cuatrimestre: nivel 2. entendi un poco como va a ser la nueva modalidad y contestar las pregutnas, no pude hacer los ejercicios. "
+    },
+    {
+      "id": "u_yujzidpa4me6gz711",
+      "questionId": "q2",
+      "progressReportId": "u_410ftcz5ime6gz6sn",
+      "answer": "Una de las preguntas era “en que ejemplos de mi vida use el pensamiento critico?”. En este, utilice como ejemplos analizar si realmente me convenia comprar un producto mas chico, o uno mas grande con descuento."
+    },
+    {
+      "id": "u_8z4es904cme6gz74q",
+      "questionId": "q3",
+      "progressReportId": "u_410ftcz5ime6gz6sn",
+      "answer": "No pude resolver los ejercicios de tiro oblicuo"
+    },
+    {
+      "id": "u_919pynx2pme6gz78d",
+      "questionId": "q4",
+      "progressReportId": "u_410ftcz5ime6gz6sn",
+      "answer": "Puedo inferir que tiro oblicuo va a relacionarse de alguna manera con tiro vertical, aunque tengo mis dudas."
+    },
+    {
+      "id": "u_hvonw5s3cme6gz7cd",
+      "questionId": "q5",
+      "progressReportId": "u_410ftcz5ime6gz6sn",
+      "answer": ""
+    },
+    {
+      "id": "u_7ypxf2397me6gnaqn",
+      "questionId": "q1",
+      "progressReportId": "u_t2jbs9jrime6gnamz",
+      "answer": "En las clases de esta semana estuvimos trabajando con actividades y textos sobre los fundamentos del pensamiento critico (que es pensar críticamente)la toma de decisiones, y la reflexión de uno mismo, también la autoevaluación. Creo que tuve una buena comprensión frente a estos temas aunque podría entenderlo más y desarrollar. Nivel 3"
+    },
+    {
+      "id": "u_1cq30s3t4me6gnaub",
+      "questionId": "q2",
+      "progressReportId": "u_t2jbs9jrime6gnamz",
+      "answer": "Un ejercicio que hice de la guía era de Pensamiento Crítico. En este tenía que identificar qué conversación mostraba este tipo de pensamiento. Analicé dos diálogos y note que la conversación B lo mostraba, porque los estudiantes hicieron preguntas, buscaron datos y evaluaron cómo relacionarlos antes de actuar. Reconocí características como hacer preguntas antes de actuar, buscar evidencia y considerar varias perspectivas. También reescribí la conversación A aplicando pensamiento crítico, transformándola en un diálogo donde se analizan los datos, se plantean posibles caminos y se evita actuar por impulso.\n"
+    },
+    {
+      "id": "u_kmxy3x85ime6gnay3",
+      "questionId": "q3",
+      "progressReportId": "u_t2jbs9jrime6gnamz",
+      "answer": "Me resultó difícil identificar todas las características del pensamiento crítico en una conversación, porque a veces se parecen a las de un pensamiento común. Igual después comparé ejemplos e hice ejercicios \naplicando las características."
+    },
+    {
+      "id": "u_6uxc9tt92me6gnb1s",
+      "questionId": "q4",
+      "progressReportId": "u_t2jbs9jrime6gnamz",
+      "answer": "El tema de pensamiento crítico se conecta con otras materias como Biología, se analiza información científica y se buscan evidencias. También con Matemática, donde es necesario interpretar datos y planificar procedimientos."
+    },
+    {
+      "id": "u_ygeieewp5me6gnb5g",
+      "questionId": "q5",
+      "progressReportId": "u_t2jbs9jrime6gnamz",
+      "answer": ""
+    },
+    {
+      "id": "u_cr8mf5znsme6giij3",
+      "questionId": "q1",
+      "progressReportId": "u_4rtqcyi5ame6giien",
+      "answer": "Tema: Equilibrio Químico. Nivel 2: Comprendo la definición de equilibrio químico como un estado dinámico en el que la reacción directa y la inversa ocurren a la misma velocidad, manteniendo constantes las concentraciones de reactivos y productos. También reconozco la importancia de la constante de equilibrio (Kc) y cómo se expresa a partir de las concentraciones. Sin embargo, al tratarse de un tema nuevo que trabajamos a través de lecturas y resúmenes sin práctica guiada en clase, todavía me cuesta aplicar el concepto a problemas más complejos, como el cálculo de Kc o la predicción de la dirección de una reacción usando Qc."
+    },
+    {
+      "id": "u_939tfi20wme6giimx",
+      "questionId": "q2",
+      "progressReportId": "u_4rtqcyi5ame6giien",
+      "answer": "Tema: Constante de equilibrio (Kc)\n\nEnunciado (resumido): Para la reacción 2 CO(g) + O2(g) ⇄ 2 CO2(g), escribir la expresión de la constante de equilibrio.\n\nProceso:\n\tEscribir la expresión general de Kc usando las concentraciones molares de productos y reactivos.\n\tElevar cada concentración al coeficiente estequiométrico correspondiente.\n\tOmitir sólidos o líquidos puros (si existieran) y recordar que las concentraciones se expresan en mol/L.\n\tIndicar que Kc depende de la temperatura y que hay que especificar la ecuación balanceada y la T.\n\nResultado:\nKc = ([CO2] ^ 2) / ( [CO] ^ 2 * [O2] )\n\n(Aquí [CO2], [CO] y [O2] significan las concentraciones molares en mol/L. Si te dan valores numéricos, reemplazás las concentraciones y calculás el cociente.)"
+    },
+    {
+      "id": "u_2x33thnm5me6giiqm",
+      "questionId": "q3",
+      "progressReportId": "u_4rtqcyi5ame6giien",
+      "answer": "Me resultó difícil visualizar cómo se alcanza el equilibrio químico y por qué, a pesar de que las concentraciones no cambian en el tiempo, las reacciones siguen ocurriendo a nivel molecular. También me cuesta aplicar el Principio de Le Chatelier en casos combinados, donde cambian varias variables (por ejemplo, presión y temperatura a la vez). Como estrategia, necesito trabajar con más ejemplos prácticos y representaciones gráficas que muestren la evolución de las concentraciones hasta llegar al equilibrio. Además, practicar comparando Qc y Kc me ayudaría a consolidar el criterio sobre la dirección de las reacciones."
+    },
+    {
+      "id": "u_mfbrng42tme6giiub",
+      "questionId": "q4",
+      "progressReportId": "u_4rtqcyi5ame6giien",
+      "answer": "El tema se conecta con la cinética química, ya que entender el equilibrio implica también comprender la velocidad de las reacciones y cómo estas se igualan en el estado de equilibrio. También se relaciona con situaciones reales como el funcionamiento de sistemas industriales (por ejemplo, el proceso Haber para la obtención de amoníaco), donde se ajustan condiciones de presión y temperatura para maximizar la producción. Un ejemplo cotidiano sería la disolución de gases en bebidas carbonatadas: al abrir la botella, disminuye la presión y el equilibrio se desplaza liberando CO₂, lo que explica la efervescencia."
+    },
+    {
+      "id": "u_gx6lg8gm5me6giiy0",
+      "questionId": "q5",
+      "progressReportId": "u_4rtqcyi5ame6giien",
+      "answer": ""
+    },
+    {
+      "id": "u_j7gydjfn0me6gah4j",
+      "questionId": "q1",
+      "progressReportId": "u_166udxlf8me6gah0t",
+      "answer": "Hemos trabajado con el tiro oblicuo el cual lo dominó con un nivel 3: ya que puedo resolver ejercicios fácilmente, pero a veces es medio complejo entenderlos."
+    },
+    {
+      "id": "u_vuc7wwjkrme6gah87",
+      "questionId": "q2",
+      "progressReportId": "u_166udxlf8me6gah0t",
+      "answer": "Se patea una pelota con un ángulo de 40º a una velocidad de 35 m/s. ¿Qué altura máxima  alcanza y a qué distancia cae? Este problema resolví esta semana, el cual no se me hizo muy difícil de resolver."
+    },
+    {
+      "id": "u_dmmbczoo8me6gahbx",
+      "questionId": "q3",
+      "progressReportId": "u_166udxlf8me6gah0t",
+      "answer": "Lo que me resultó más difícil es el hecho de plantear el problema, después resolverlo es más fácil."
+    },
+    {
+      "id": "u_xr28zb4fmme6gahfm",
+      "questionId": "q4",
+      "progressReportId": "u_166udxlf8me6gah0t",
+      "answer": "Por ejemplo ahora estamos viendo tiro oblicuo, el cual se relaciona con tiro vertical."
+    },
+    {
+      "id": "u_4g9erqn4yme6gahjb",
+      "questionId": "q5",
+      "progressReportId": "u_166udxlf8me6gah0t",
+      "answer": "Nada, a seguir aprendiendo."
+    },
+    {
+      "id": "u_7pnrzls8kme6g9zf5",
+      "questionId": "q1",
+      "progressReportId": "u_4f61o3g3zme6g9zas",
+      "answer": "Termodinámica: Nivel 1 - recién empezamos a entender los conceptos del tema y más que nada vimos cómo aplicar el pensamiento crítico  "
+    },
+    {
+      "id": "u_w7mk0okaome6g9ziu",
+      "questionId": "q2",
+      "progressReportId": "u_4f61o3g3zme6g9zas",
+      "answer": "Como dije antes, vimos más ejercicios donde se nos daba una situación y teníamos que analizarla, no precisamente resolver. Ej: el ejercicio 2, primero listamos información  importante (como la masa y temperatura) luego quitamos lo irrelevante (como el tiempo, la forma del objeto) y por último la info adicional que necesitaríamos ( como la T del aluminio)"
+    },
+    {
+      "id": "u_kh0kron9lme6g9zmj",
+      "questionId": "q3",
+      "progressReportId": "u_4f61o3g3zme6g9zas",
+      "answer": "Ningún aspecto me pareció difícil "
+    },
+    {
+      "id": "u_7qml4oztome6g9zq7",
+      "questionId": "q4",
+      "progressReportId": "u_4f61o3g3zme6g9zas",
+      "answer": "Se concerts con cosas que pasa en nuestro día a día (como calentar agua)."
+    },
+    {
+      "id": "u_nyv5onw14me6g9ztx",
+      "questionId": "q5",
+      "progressReportId": "u_4f61o3g3zme6g9zas",
+      "answer": ""
+    },
+    {
+      "id": "u_9aa9fddpxme6g2x9o",
+      "questionId": "q1",
+      "progressReportId": "u_30itiq8kome6g2x52",
+      "answer": "Equilibrio quimico - Nivel 2: Tengo la base de este tema gracias a la unidad pasada, pero todavia me cuesta entender que es un reactivo y como nos puede cambiar nuestro resultado en una ecuacion. "
+    },
+    {
+      "id": "u_q7aomn6t2me6g2xdc",
+      "questionId": "q2",
+      "progressReportId": "u_30itiq8kome6g2x52",
+      "answer": "Aplique el pensamiento critico en el ejercicio que se nos presenta en el cuadernillo. "
+    },
+    {
+      "id": "u_qe2r7g8a5me6g2xh1",
+      "questionId": "q3",
+      "progressReportId": "u_30itiq8kome6g2x52",
+      "answer": "Me resulto dificil entender como es que una composicion puede ser invariable. "
+    },
+    {
+      "id": "u_qn98bi8glme6g2xvw",
+      "questionId": "q4",
+      "progressReportId": "u_30itiq8kome6g2x52",
+      "answer": "El equilibrio quimico se conecta con los calculos estequiometricos que vimos en la unidad pasada. "
+    },
+    {
+      "id": "u_skhmnc4htme6g2xzk",
+      "questionId": "q5",
+      "progressReportId": "u_30itiq8kome6g2x52",
+      "answer": ""
+    },
+    {
+      "id": "u_kb2d260ieme6fykob",
+      "questionId": "q1",
+      "progressReportId": "u_q9458q5csme6fykkl",
+      "answer": "En esta semana no hemos trabajo ningún tema aún."
+    },
+    {
+      "id": "u_3gbvz5cr6me6fyks2",
+      "questionId": "q2",
+      "progressReportId": "u_q9458q5csme6fykkl",
+      "answer": "En esta semana no hemos trabajo ningún tema aún."
+    },
+    {
+      "id": "u_b5wvue2keme6fykvs",
+      "questionId": "q3",
+      "progressReportId": "u_q9458q5csme6fykkl",
+      "answer": "En esta semana no hemos trabajo ningún tema aún."
+    },
+    {
+      "id": "u_s1ke0w2whme6fykzh",
+      "questionId": "q4",
+      "progressReportId": "u_q9458q5csme6fykkl",
+      "answer": "En esta semana no hemos trabajo ningún tema aún."
+    },
+    {
+      "id": "u_mk8735wypme6fyl39",
+      "questionId": "q5",
+      "progressReportId": "u_q9458q5csme6fykkl",
+      "answer": "En esta semana no hemos trabajo ningún tema aún."
+    },
+    {
+      "id": "u_a9gycvuvsme6ftq5g",
+      "questionId": "q1",
+      "progressReportId": "u_wac0xzbgome6ftq13",
+      "answer": "Termodinamica - Nivel 2: Todavia no he entrado profundamente en la resolucion de ejercicios de este tema. "
+    },
+    {
+      "id": "u_hvmeyrnceme6ftq99",
+      "questionId": "q2",
+      "progressReportId": "u_wac0xzbgome6ftq13",
+      "answer": "Aplique el uso del pensamiento critico para el problema que se me presentaba en el cuadernillo. "
+    },
+    {
+      "id": "u_o4z6j46gnme6ftqcy",
+      "questionId": "q3",
+      "progressReportId": "u_wac0xzbgome6ftq13",
+      "answer": "Me resulto dificil entender como me puedo dar cuenta si estoy trabajando con ecuaciones directas. "
+    },
+    {
+      "id": "u_2bbajag1tme6ftql1",
+      "questionId": "q4",
+      "progressReportId": "u_wac0xzbgome6ftq13",
+      "answer": "La termodinamica se puede conectar con el fuego, un elemento que utilizamos para muchas cosas, sea para buscar calor, cocinar, como iluminacion, etc. "
+    },
+    {
+      "id": "u_4cc4nfxikme6ftqoq",
+      "questionId": "q5",
+      "progressReportId": "u_wac0xzbgome6ftq13",
+      "answer": ""
+    },
+    {
+      "id": "u_6ncqqjljbme6fcg35",
+      "questionId": "q1",
+      "progressReportId": "u_3hseybu46me6fcfzd",
+      "answer": "no tuvimos clase"
+    },
+    {
+      "id": "u_tbmb0ckrtme6fcg6u",
+      "questionId": "q2",
+      "progressReportId": "u_3hseybu46me6fcfzd",
+      "answer": "no tuvimos clase"
+    },
+    {
+      "id": "u_zmyovio4rme6fcgaj",
+      "questionId": "q3",
+      "progressReportId": "u_3hseybu46me6fcfzd",
+      "answer": "no tuvimos clase"
+    },
+    {
+      "id": "u_jaueoy6udme6fcge9",
+      "questionId": "q4",
+      "progressReportId": "u_3hseybu46me6fcfzd",
+      "answer": "no tuvimos clase"
+    },
+    {
+      "id": "u_meatkr08sme6fcgi2",
+      "questionId": "q5",
+      "progressReportId": "u_3hseybu46me6fcfzd",
+      "answer": "."
+    },
+    {
+      "id": "u_keh2bmr0ime6fcdjs",
+      "questionId": "q1",
+      "progressReportId": "u_hd3ho5j2pme6fcdf8",
+      "answer": "Aprendimos qué es el pensamiento crítico, cómo tomar decisiones y aplicarlo en la vida diaria.\nPensamiento crítico: nivel 3 (lo identifico bien).\nPasos para decidir: nivel 2 (necesito más práctica)."
+    },
+    {
+      "id": "u_5o7518d2bme6fcdnj",
+      "questionId": "q2",
+      "progressReportId": "u_hd3ho5j2pme6fcdf8",
+      "answer": "Pude identificar el problema, que se basaba en que tenía que identificar en cuál de las dos conversaciones se pensaba de manera crítica. La Conversación B muestra pensamiento crítico porque analiza el problema, formula preguntas (¿qué datos dan?, ¿qué nos piden?), busca datos relevantes, recopila información importante, analiza opciones, evalúa consecuencias, aplica razonamiento lógico y tiene ganas de investigar y resolverlo. Después reescribí la Conversación A aplicando pensamiento crítico, incluyendo análisis de la situación, búsqueda de información y propuesta de soluciones."
+    },
+    {
+      "id": "u_883l4b7pgme6fcdr8",
+      "questionId": "q3",
+      "progressReportId": "u_hd3ho5j2pme6fcdf8",
+      "answer": "Me cuesta pensar rápido y ordenar las ideas. Quiero practicar más para hacerlo con más facil"
+    },
+    {
+      "id": "u_2il5m8bmcme6fcdux",
+      "questionId": "q4",
+      "progressReportId": "u_hd3ho5j2pme6fcdf8",
+      "answer": "Sirve para la vida diaria, por ejemplo, resolver un conflicto entre amigos y llegar a un acuerdo"
+    },
+    {
+      "id": "u_dscis70jkme6fcdyo",
+      "questionId": "q5",
+      "progressReportId": "u_hd3ho5j2pme6fcdf8",
+      "answer": "."
+    },
+    {
+      "id": "u_atvn3aiibme6fbpqh",
+      "questionId": "q1",
+      "progressReportId": "u_3oji4zkqzme6fbpmq",
+      "answer": "No tuvimos clase esta semana."
+    },
+    {
+      "id": "u_zqzsd8ubume6fbpu8",
+      "questionId": "q2",
+      "progressReportId": "u_3oji4zkqzme6fbpmq",
+      "answer": "No tuvimos clase esta semana."
+    },
+    {
+      "id": "u_j8uclfau1me6fbpxw",
+      "questionId": "q3",
+      "progressReportId": "u_3oji4zkqzme6fbpmq",
+      "answer": "No tuvimos clase esta semana."
+    },
+    {
+      "id": "u_pbmtpowbjme6fbq1n",
+      "questionId": "q4",
+      "progressReportId": "u_3oji4zkqzme6fbpmq",
+      "answer": "No tuvimos clase esta semana."
+    },
+    {
+      "id": "u_g03zz7mwvme6fbq5f",
+      "questionId": "q5",
+      "progressReportId": "u_3oji4zkqzme6fbpmq",
+      "answer": ""
+    },
+    {
+      "id": "u_e06f1453jme6fbdv0",
+      "questionId": "q1",
+      "progressReportId": "u_nwyexrue9me6fbdrc",
+      "answer": "Equilibrio químico y como llevar a cabo el pensamiento necesario "
+    },
+    {
+      "id": "u_1e18abjdtme6fbdyt",
+      "questionId": "q2",
+      "progressReportId": "u_nwyexrue9me6fbdrc",
+      "answer": "Resolvi uno que era entender si lo que pasó en el laboratorio tenía el correcto equilibrio químico "
+    },
+    {
+      "id": "u_2736ooferme6fbe2j",
+      "questionId": "q3",
+      "progressReportId": "u_nwyexrue9me6fbdrc",
+      "answer": "No entendí bien cómo sacar el equilibrio, solo a identificar el problema "
+    },
+    {
+      "id": "u_antdp1igcme6fbe69",
+      "questionId": "q4",
+      "progressReportId": "u_nwyexrue9me6fbdrc",
+      "answer": "Aun no se "
+    },
+    {
+      "id": "u_oqnjh7rdhme6fbe9z",
+      "questionId": "q5",
+      "progressReportId": "u_nwyexrue9me6fbdrc",
+      "answer": "No"
+    },
+    {
+      "id": "u_0puhkqraxme6fak5j",
+      "questionId": "q1",
+      "progressReportId": "u_8xlunkjxyme6fak1t",
+      "answer": " Temas trabajados y nivel de dominio\nEquilibrio químico – Nivel 2: Con apoyo de la IA, logro resolver los ejercicios. Comprendo el proceso cuando lo analizo paso a paso, aunque todavía no me siento completamente segura de hacerlo de forma independiente.\nReacciones reversibles e irreversibles – Nivel 1: Conozco la definición de cada tipo, pero me resulta difícil reconocerlas en situaciones concretas.\nFactores que afectan el equilibrio – Nivel 1: Sé que la temperatura, la presión y la concentración influyen en el equilibrio, pero necesito repasar el cuadernillo para recordar la forma exacta en que actúa cada uno."
+    },
+    {
+      "id": "u_gglovwevyme6fak9a",
+      "questionId": "q2",
+      "progressReportId": "u_8xlunkjxyme6fak1t",
+      "answer": "Esta semana completé, con ayuda de la IA, los 10 ejercicios de la guía de Equilibrio Químico. En cada uno:\nDeterminé si el proceso era reversible o irreversible (aún con algunas dudas).\nVerifiqué si el sistema estaba cerrado y si sus condiciones eran estables.\nUse la teoría del cuadernillo para justificar mis respuestas.\nAl final, comprendí el razonamiento de cada ejercicio y puedo explicarlo, aunque todavía recurro al cuadernillo y a la IA para confirmar la corrección."
+    },
+    {
+      "id": "u_8zrawqg0tme6fakd1",
+      "questionId": "q3",
+      "progressReportId": "u_8xlunkjxyme6fak1t",
+      "answer": "Me cuesta identificar por cuenta propia cuándo una reacción es reversible o no. También confundo ciertos conceptos ya vistos y necesito releerlos en el cuadernillo. Para mejorar, repaso ejemplos teóricos y vuelvo a resolver los ejercicios agregando una breve justificación para reforzar la comprensión."
+    },
+    {
+      "id": "u_fg9qy3seame6fakgq",
+      "questionId": "q4",
+      "progressReportId": "u_8xlunkjxyme6fak1t",
+      "answer": "Puedo vincular el equilibrio químico con ejemplos cotidianos, como cuando una gaseosa pierde gas al dejarla destapada: el CO₂ disuelto se escapa y no regresa, ya que el sistema no está cerrado."
+    },
+    {
+      "id": "u_ic4c2v7q1me6fakkh",
+      "questionId": "q5",
+      "progressReportId": "u_8xlunkjxyme6fak1t",
+      "answer": "El trabajo con la IA me permitió organizar mejor las ideas y evitar saltarme pasos. "
+    },
+    {
+      "id": "u_ahd2oiy0hme6fagrg",
+      "questionId": "q1",
+      "progressReportId": "u_x8z9ucafcme6fagnq",
+      "answer": " Fundamentos del pensamiento crítico aplicada a Física, como preparación para resolver problemas de tiro oblicuo. Practicamos identificar un problema, analizar opciones, evaluar consecuencias y tomar decisiones con reflexión posterior.\n\nPensamiento crítico: Nivel 4. Puedo identificar problemas, separar información relevante de irrelevante y evaluar opciones, aunque todavía me cuesta aplicarlo.\n\nProceso de 5 pasos para toma de decisiones: Nivel 3. Entiendo cada paso y su lógica, pero aún necesito más práctica para aplicarlo rápido en contextos de Física."
+    },
+    {
+      "id": "u_4810yvqmrme6fagv8",
+      "questionId": "q2",
+      "progressReportId": "u_x8z9ucafcme6fagnq",
+      "answer": "Resolví un ejercicio de aplicación del pensamiento crítico a una situación cotidiana, en este caso, elegir una carrera universitaria. siguiendo los 5 pasos: definir el problema, recopilar información, analizar opciones, evaluar consecuencias y decidir. Logré justificar cada decisión con razonamientos claros."
+    },
+    {
+      "id": "u_3w513w21sme6fagyx",
+      "questionId": "q3",
+      "progressReportId": "u_x8z9ucafcme6fagnq",
+      "answer": "Lo más difícil fue aprender a separar la informacion importante de la no importante. Aunque los demas temas me parecieron faciles ya que los enunciados del cuadernillo eran claros y te explicaban bien"
+    },
+    {
+      "id": "u_8z8oxq77vme6fah2p",
+      "questionId": "q4",
+      "progressReportId": "u_x8z9ucafcme6fagnq",
+      "answer": "El tema se conecta con la resolución de problemas de fisica porque el analisis del paso a paso y el pensamiento se pueden usar para resolver ejercicios. También se conecta con matematica por el análisis y la organización delos datos."
+    },
+    {
+      "id": "u_rg56ku3ilme6fah6e",
+      "questionId": "q5",
+      "progressReportId": "u_x8z9ucafcme6fagnq",
+      "answer": ""
+    },
+    {
+      "id": "u_jqft14ibhme6f63sr",
+      "questionId": "q1",
+      "progressReportId": "u_zeunfrhplme6f63oc",
+      "answer": "Esta semana comenzamos con la guía y el cuadernillo de ejercicios. Me cuesta comprender algunos conceptos y no entiendo mucho. "
+    },
+    {
+      "id": "u_5n8rymogzme6f63wj",
+      "questionId": "q2",
+      "progressReportId": "u_zeunfrhplme6f63oc",
+      "answer": "No he resuelto un ejercicio como tal pero estuve leyendo la teoría e intentar de hacer el primer ejercicio que habla sobre el equilibrio. "
+    },
+    {
+      "id": "u_55s62b1xime6f640b",
+      "questionId": "q3",
+      "progressReportId": "u_zeunfrhplme6f63oc",
+      "answer": "Se me complica entender un poco los conceptos pero preguntare más."
+    },
+    {
+      "id": "u_rnf5e34skme6f6442",
+      "questionId": "q4",
+      "progressReportId": "u_zeunfrhplme6f63oc",
+      "answer": "Se puede relacionar con física ya que son dos materias que son equivalentes una para la otras. "
+    },
+    {
+      "id": "u_ranee6lvzme6f647s",
+      "questionId": "q5",
+      "progressReportId": "u_zeunfrhplme6f63oc",
+      "answer": "Clases muy divertidas "
+    },
+    {
+      "id": "u_0iu0q8eneme6f3v24",
+      "questionId": "q1",
+      "progressReportId": "u_teadgmckfme6f3uyf",
+      "answer": "Termodinámica y pensamiento para entender cómo diferenciar los puntos del tema. "
+    },
+    {
+      "id": "u_hmx7f68arme6f3v5u",
+      "questionId": "q2",
+      "progressReportId": "u_teadgmckfme6f3uyf",
+      "answer": "Uno que pedía encontrar el calor que había usado un chico calentando 200g de agua de 20° a 80°"
+    },
+    {
+      "id": "u_zrndw766wme6f3v9l",
+      "questionId": "q3",
+      "progressReportId": "u_teadgmckfme6f3uyf",
+      "answer": "No entiendo bien si me dan los datos así. Siento que me faltó una instrucción al tema entocnes como que no entiendo cómo arrancar. "
+    },
+    {
+      "id": "u_ibt1247j5me6f3vd9",
+      "questionId": "q4",
+      "progressReportId": "u_teadgmckfme6f3uyf",
+      "answer": "Con la vida real"
+    },
+    {
+      "id": "u_pwn9mn1pcme6f3vgy",
+      "questionId": "q5",
+      "progressReportId": "u_teadgmckfme6f3uyf",
+      "answer": "no "
+    },
+    {
+      "id": "u_6a482boh4me6f1rwl",
+      "questionId": "q1",
+      "progressReportId": "u_crww7mi0zme6f1rsx",
+      "answer": "Esta semana no hubo clase, por ende no hay temas trabajados ni nivel de dominio para registrar."
+    },
+    {
+      "id": "u_ltw7r0bfime6f1s0a",
+      "questionId": "q2",
+      "progressReportId": "u_crww7mi0zme6f1rsx",
+      "answer": "Al no dictarse clases esta semana, no se resolvieron problemas, entonces no puedo describirlos ni demostrar evidencias de aprendizaje."
+    },
+    {
+      "id": "u_rew6nux0hme6f1s3y",
+      "questionId": "q3",
+      "progressReportId": "u_crww7mi0zme6f1rsx",
+      "answer": "Ningún aspecto específico de los temas de esta semana me resultó más difícil ya que no hubo tal clase."
+    },
+    {
+      "id": "u_bzuyo6t9kme6f1s7n",
+      "questionId": "q4",
+      "progressReportId": "u_crww7mi0zme6f1rsx",
+      "answer": "No se vieron temas esta semana, por lo cual no puedo conectarlos con otros temas o materias que ya conozca."
+    },
+    {
+      "id": "u_6bnyxjsk0me6f1sbb",
+      "questionId": "q5",
+      "progressReportId": "u_crww7mi0zme6f1rsx",
+      "answer": "Ninguno."
+    },
+    {
+      "id": "u_jp92xcw3eme6ekr2i",
+      "questionId": "q1",
+      "progressReportId": "u_dpieshv7cme6ekqyq",
+      "answer": "No se explicó nada nuevo en clase."
+    },
+    {
+      "id": "u_nlimme9weme6ekr68",
+      "questionId": "q2",
+      "progressReportId": "u_dpieshv7cme6ekqyq",
+      "answer": "No tengo ninguno."
+    },
+    {
+      "id": "u_lb1rd43m1me6ekr9z",
+      "questionId": "q3",
+      "progressReportId": "u_dpieshv7cme6ekqyq",
+      "answer": "Ninguno."
+    },
+    {
+      "id": "u_og87dkwvgme6ekrdp",
+      "questionId": "q4",
+      "progressReportId": "u_dpieshv7cme6ekqyq",
+      "answer": "No sé."
+    },
+    {
+      "id": "u_snw7qleivme6ekrhi",
+      "questionId": "q5",
+      "progressReportId": "u_dpieshv7cme6ekqyq",
+      "answer": ""
+    },
+    {
+      "id": "u_emqx47sh7me6ekor2",
+      "questionId": "q1",
+      "progressReportId": "u_6c2u8acblme6ekomo",
+      "answer": "No se explicó nada nuevo en clase."
+    },
+    {
+      "id": "u_btwhd7fukme6ekous",
+      "questionId": "q2",
+      "progressReportId": "u_6c2u8acblme6ekomo",
+      "answer": "No tengo ninguno."
+    },
+    {
+      "id": "u_enrkil2g1me6ekoys",
+      "questionId": "q3",
+      "progressReportId": "u_6c2u8acblme6ekomo",
+      "answer": "Ninguno."
+    },
+    {
+      "id": "u_ggl2utzicme6ekp2h",
+      "questionId": "q4",
+      "progressReportId": "u_6c2u8acblme6ekomo",
+      "answer": "No sé."
+    },
+    {
+      "id": "u_3tryeaftwme6ekp66",
+      "questionId": "q5",
+      "progressReportId": "u_6c2u8acblme6ekomo",
+      "answer": ""
+    },
+    {
+      "id": "u_kb95o215kme6e9ayl",
+      "questionId": "q1",
+      "progressReportId": "u_msne5wmp9me6e9aun",
+      "answer": "Equilibrio químico – Nivel 2: Puedo resolver los ejercicios con ayuda de la IA. Entiendo lo que hago cuando lo voy razonando paso a paso, pero todavía no me sale sola sin ayuda de la IA\nReacciones reversibles e irreversibles – Nivel 1: Entiendo la definición de cada una, pero todavía me cuesta identificar en la práctica cuándo una reacción es reversible y cuándo no\nFactores que afectan el equilibrio – Nivel 1: Sé que cosas pueden modificar el equilibrio, pero necesito chequear en el cuadernillo para acordarme cómo actúa cada uno"
+    },
+    {
+      "id": "u_egsjq2eyime6e9b2c",
+      "questionId": "q2",
+      "progressReportId": "u_msne5wmp9me6e9aun",
+      "answer": "Esta semana resolví, con ayuda de la IA, los 10 ejercicios de la guía de Equilibrio Químico en los cuales entendí el razonamiento de cada ejercicio y puedo explicarlo, aunque todavía necesito usar el cuadernillo y la IA para confirmar que todo esté bien"
+    },
+    {
+      "id": "u_olk03zkh7me6e9b63",
+      "questionId": "q3",
+      "progressReportId": "u_msne5wmp9me6e9aun",
+      "answer": "Me cuesta identificar por mi cuenta cuándo una reacción es reversible y cuándo no. También me confundo en algunos conceptos que ya vimos, pero que necesito volver a leer en el cuadernillo para recordarlos pero con chequear el cuadernillo y preguntarle a la IA me sale y lo entiendo, creo que es cuestión de practicar hasta que me salga bien, noté que a medida que pasaban los ejercicios dependía cada vez menos de el cuadernillo y de chat gpt "
+    },
+    {
+      "id": "u_67kcrq2dame6e9b9s",
+      "questionId": "q4",
+      "progressReportId": "u_msne5wmp9me6e9aun",
+      "answer": "El equilibrio químico lo puedo relacionar con ejemplos del día a día, como cuando se deja un vaso con gaseosa sin tapar, el gas sale y no vuelve a entrar porque el sistema ya no está cerrado"
+    },
+    {
+      "id": "u_lo7zw4e1ume6e9bdj",
+      "questionId": "q5",
+      "progressReportId": "u_msne5wmp9me6e9aun",
+      "answer": ""
+    },
+    {
+      "id": "u_bgsc6jwy2me6e6gme",
+      "questionId": "q1",
+      "progressReportId": "u_a2a9bxcsrme6e6gin",
+      "answer": "Termodinámica: Nivel 4:Esta semana en física hemos empezado con una guía de ejercicios que nos orientan sobre como debemos pensar a la hora de realizar ejercicios físicos. Creo que no fue muy complicado entenderlo y que el sistema lineal/estructural de pasos me ayuda mucho a entenderlo ya que es la manera en la que yo aprendo más fácilmente. "
+    },
+    {
+      "id": "u_b82lbak98me6e6gq8",
+      "questionId": "q2",
+      "progressReportId": "u_a2a9bxcsrme6e6gin",
+      "answer": "En el ejercicio 5 de la guía se pide identificar para 5 procesos si son isotérmicos, isobáricos, adiabático o isocórico1)\nA.Isotérmico\nB.Isobárico e isocórico\nC.Adiabático\nD.Adiabático\nE.Isocórico\n2)\nA.La temperatura se mantiene pero el volumen cambia.\nB.El volumen y presión se mantienen igual pero la temperatura cambia\nC.Es adiabático ya que no hay interacción térmica con el entorno.\nD. Es adiabático y isocórico pero la temperatura cambia.\nE.Isocórico"
+    },
+    {
+      "id": "u_ifdb6tbx5me6e6gty",
+      "questionId": "q3",
+      "progressReportId": "u_a2a9bxcsrme6e6gin",
+      "answer": "Los enunciados de los ejercicios podían complicarse un poco pero al final salieron, la guía ayudó dando las definiciones de los procesos y otros datos relevantes."
+    },
+    {
+      "id": "u_ow2i3wqbzme6e6gxo",
+      "questionId": "q4",
+      "progressReportId": "u_a2a9bxcsrme6e6gin",
+      "answer": "Se relaciona un poco con lo que vimos en físico-química en 3er año sobre las propiedades de los materiales. "
+    },
+    {
+      "id": "u_xm56oa8plme6e6h1d",
+      "questionId": "q5",
+      "progressReportId": "u_a2a9bxcsrme6e6gin",
+      "answer": "Creo que estos cuadernillos son muy útiles; sobre todo por el sistema de pasos. Creo que necesitamos más clases de teoría y práctica."
+    },
+    {
+      "id": "u_3l6vhignome6e403e",
+      "questionId": "q1",
+      "progressReportId": "u_ze6ku5txcme6e3zz1",
+      "answer": "pensamiento critico: nivel 3"
+    },
+    {
+      "id": "u_uks3vzwvime6e4077",
+      "questionId": "q2",
+      "progressReportId": "u_ze6ku5txcme6e3zz1",
+      "answer": "El ejercicio es de analizar conversaciones e identificar cual conversacion muestra pensamiento critico\nCONVERSACIÓN\nA:\nEstudiante 1: “¡Los gases son imposibles de entender!”\nEstudiante 2:  “Sí, mejor memoricemos las fórmulas para el examen”\n\nCONVERSACIÓN\nB:\nEstudiante\n 1: “Este problema de gases parece complejo”\nEstudiante 2: “Analicemos... ¿qué está pasando químicamente? ¿qué\nvariables están cambiando? ¿cómo se relacionan entre sí?”\n\nRespuesta: \nLa conversación que muestra pensamiento critico es la “B” ya que identifica el problema y trata de buscar soluciones como preguntarse que variables estan cambiando. En cambio, la convesacion “A” no intenta pensar y aprender sino que buscar una manera mas fácil de resolverlo y no esta utilizando el pensamiento critico."
+    },
+    {
+      "id": "u_c6cv2rk1kme6e40aw",
+      "questionId": "q3",
+      "progressReportId": "u_ze6ku5txcme6e3zz1",
+      "answer": "El ejercicio 4 que era de imaginarte que te enfrentas a un problema y aplicar 2 pasos del pensamiento critico."
+    },
+    {
+      "id": "u_6jlj3u1p1me6e40em",
+      "questionId": "q4",
+      "progressReportId": "u_ze6ku5txcme6e3zz1",
+      "answer": "Se puede conectar con Estudio Dirigido ya que es una materia que ayuda a pensar y a estudiar mejor, al igual que el pensamiento critico."
+    },
+    {
+      "id": "u_gq60ezgcwme6e40ie",
+      "questionId": "q5",
+      "progressReportId": "u_ze6ku5txcme6e3zz1",
+      "answer": ""
+    },
+    {
+      "id": "u_5kudkdqeqme6dvds9",
+      "questionId": "q1",
+      "progressReportId": "u_8hontx7yime6dvdnt",
+      "answer": "pensamiento critico: nivel 3"
+    },
+    {
+      "id": "u_ilvcakgowme6dvdw0",
+      "questionId": "q2",
+      "progressReportId": "u_8hontx7yime6dvdnt",
+      "answer": "El ejercicio era de identificar cual de las 2 conversaciones estaba utilizando el pensamiento crítico.\nCONVERSACION A:\nEstudiante 1: “¡Este problema de matematica es imposible!”\nEstudiante 2: “Sı, mejor lo saltamos y seguimos con el siguiente”\n\nCONVERSACION B:\nEstudiante 1: “Este problema parece complejo”\nEstudiante 2: “Veamos... ¿que datos nos dan? ¿que nos piden encontrar? ¿tenemos alguna fórmula que relacione estos datos?”\n\nLa conversación B ya que se hace preguntas antes de actuar, intenta analizar los datos y utilizar las formulas para guiarse e intenta resolver el ejercicio. En cambio en la conversación A deciden pasar a otro ejercicio en vez de resolverlo y utilizar el pensamiento critico."
+    },
+    {
+      "id": "u_orp1156jyme6dvdzr",
+      "questionId": "q3",
+      "progressReportId": "u_8hontx7yime6dvdnt",
+      "answer": "Me resulto mas dificil el ejercicio 6 de la guia que era de aplicar el pensamiento critico a una situacion de mi vida actual."
+    },
+    {
+      "id": "u_is0moy67hme6dve3i",
+      "questionId": "q4",
+      "progressReportId": "u_8hontx7yime6dvdnt",
+      "answer": "Se puede conectar con Estudio Dirigido ya que es una materia que ayuda a pensar y a estudiar mejor, al igual que el pensamiento critico."
+    },
+    {
+      "id": "u_uso6kaumome6dve77",
+      "questionId": "q5",
+      "progressReportId": "u_8hontx7yime6dvdnt",
+      "answer": ""
+    },
+    {
+      "id": "u_0q0sltjb7me6dksm6",
+      "questionId": "q1",
+      "progressReportId": "u_46hpt9qaime6dksho",
+      "answer": "Equilibrio químico - nivel 2: entiendo lo básico de reacciones reversibles e irreversibles "
+    },
+    {
+      "id": "u_aqboyuu7eme6dksq0",
+      "questionId": "q2",
+      "progressReportId": "u_46hpt9qaime6dksho",
+      "answer": "Resolví un ejercicio donde tenía que explicar por qué una reacción irreversible no puede alcanzar el equilibrio químico. Expliqué que sólo avanza en un sentido y que no quedan reactivos para que ocurra la reacción inversa, a diferencia de las reacciones reversibles donde sí se puede llegar al equilibrio. "
+    },
+    {
+      "id": "u_3i8idxl71me6dkstu",
+      "questionId": "q3",
+      "progressReportId": "u_46hpt9qaime6dksho",
+      "answer": "Me costó entender que en el equilibrio las concentraciones no cambian aunque las reacciones sigan. Lo repasé con ejemplos simples. "
+    },
+    {
+      "id": "u_sn9hjuq4bme6dksxl",
+      "questionId": "q4",
+      "progressReportId": "u_46hpt9qaime6dksho",
+      "answer": "Lo puedo conectar con física, ya que ahí también hay equilibrios, y conectar matemática, porque usamos cálculos para entender los procesos. "
+    },
+    {
+      "id": "u_yeyx9ol58me6dkt1c",
+      "questionId": "q5",
+      "progressReportId": "u_46hpt9qaime6dksho",
+      "answer": "Nada para agregar. "
+    },
+    {
+      "id": "u_rxyyty1i1me6dd86v",
+      "questionId": "q1",
+      "progressReportId": "u_jowcbrcipme6dd82j",
+      "answer": "Esta semana trabajamos sobre el pensamiento critico y la toma de decisiones\nNivel de ambas: 3 \nYo creo que puedo identificar y pensar críticamente sobre una situación, y tomar una decisión acorde a la situación. \nPude comprender los 5 pasos: identificar la situación, recopilar info., analizar opciones, evaluar las consecuencias y tomar la decisión "
+    },
+    {
+      "id": "u_4zgum6l1ome6dd8ak",
+      "questionId": "q2",
+      "progressReportId": "u_jowcbrcipme6dd82j",
+      "answer": "Ejercicio 1:\nLa conversación B Ya que logra analizar el problema, buscar datos y la forma para resolverlo\n2: \nEncuentro la formulación de preguntas (¿que dan? ¿que nos piden?) un análisis de info, razonamiento y ganas de resolverlo\n3: Estudiante 1: \"Este problema me resulta complicado, que podemos hacer al respecto?\"\nEstudiante 2: \"Pensemos que datos da? ¿que nos pide? y busquemos la formula adecuada” \nPude identificar el problema el cual era que debían identificar en cual de las dos conversaciones se pensaba de manera critica "
+    },
+    {
+      "id": "u_dlevajxpvme6dd8e8",
+      "questionId": "q3",
+      "progressReportId": "u_jowcbrcipme6dd82j",
+      "answer": "Pude entender la mayoría de  los ejercicios ya que eran claros "
+    },
+    {
+      "id": "u_8m7lxz0gjme6dd8hw",
+      "questionId": "q4",
+      "progressReportId": "u_jowcbrcipme6dd82j",
+      "answer": "Yo pienso que se conectan con nuestras situaciones del día a día. Alguna discusión con alguien o desacuerdos en grupos grandes, situaciones en las que hay que buscar una solución"
+    },
+    {
+      "id": "u_ju90lq2uqme6dd8lj",
+      "questionId": "q5",
+      "progressReportId": "u_jowcbrcipme6dd82j",
+      "answer": "."
+    },
+    {
+      "id": "u_mvdaudib3me6cw4q2",
+      "questionId": "q1",
+      "progressReportId": "u_r7sliitkpme6cw4me",
+      "answer": "Tema trabajado: termodinámica: 1"
+    },
+    {
+      "id": "u_soyemya6wme6cw4to",
+      "questionId": "q2",
+      "progressReportId": "u_r7sliitkpme6cw4me",
+      "answer": "Por ahora estuve leyendo los apuntes "
+    },
+    {
+      "id": "u_2392o8rgvme6cw4xa",
+      "questionId": "q3",
+      "progressReportId": "u_r7sliitkpme6cw4me",
+      "answer": "No "
+    },
+    {
+      "id": "u_kzhkl4w3zme6cw50z",
+      "questionId": "q4",
+      "progressReportId": "u_r7sliitkpme6cw4me",
+      "answer": "Aun no "
+    },
+    {
+      "id": "u_kzsd61xgpme6cw54k",
+      "questionId": "q5",
+      "progressReportId": "u_r7sliitkpme6cw4me",
+      "answer": "-"
+    },
+    {
+      "id": "u_8d3rep5xume6cte4o",
+      "questionId": "q1",
+      "progressReportId": "u_k5hr0xcmgme6cte11",
+      "answer": "Tema trabajado:  equilibrio quimico :1"
+    },
+    {
+      "id": "u_5epbx1ux1me6cte8f",
+      "questionId": "q2",
+      "progressReportId": "u_k5hr0xcmgme6cte11",
+      "answer": "No resolví ejercicios, lei los apuntes "
+    },
+    {
+      "id": "u_dd7b8mtj9me6ctec1",
+      "questionId": "q3",
+      "progressReportId": "u_k5hr0xcmgme6cte11",
+      "answer": "Por ahora nada "
+    },
+    {
+      "id": "u_pw2yegy2ume6ctefr",
+      "questionId": "q4",
+      "progressReportId": "u_k5hr0xcmgme6cte11",
+      "answer": "No se "
+    },
+    {
+      "id": "u_vvc8i4v7eme6ctek8",
+      "questionId": "q5",
+      "progressReportId": "u_k5hr0xcmgme6cte11",
+      "answer": "-"
+    },
+    {
+      "id": "u_u3xkadrxhme6cpvah",
+      "questionId": "q1",
+      "progressReportId": "u_n43dn6w48me6cpv6s",
+      "answer": "Estuvimos trabajando el equilibro químico de una reacción. Mi nivel de comprensión podría decir que es un 2, ya que todavía debo comprender algunos conceptos teóricos para poder ponerlos en práctica y lograr un mejor resultado "
+    },
+    {
+      "id": "u_ho94fx0yime6cpve8",
+      "questionId": "q2",
+      "progressReportId": "u_n43dn6w48me6cpv6s",
+      "answer": "Un estudiante de química observa tres sistemas diferentes en el laboratorio:\nSistema A: Una vela encendida que se consume completamente hasta convertirse en cera\nderretida, dióxido de carbono y vapor de agua.\nSistema B: Una botella de refresco cerrada donde el CO2 disuelto está en contacto con el CO2 gaseoso del espacio superior.\nSistema C: Una reacción de neutralización donde se mezcla ácido clorhídrico con hidróxido de sodio hasta obtener una solución neutra."
+    },
+    {
+      "id": "u_mzxk0npvome6cpvhw",
+      "questionId": "q3",
+      "progressReportId": "u_n43dn6w48me6cpv6s",
+      "answer": "Me costó responder el 3er enunciado que pedía justificar utilizando criterios químicos"
+    },
+    {
+      "id": "u_lkm89cbd8me6cpvlj",
+      "questionId": "q4",
+      "progressReportId": "u_n43dn6w48me6cpv6s",
+      "answer": "En los ejemplos de productos reversibles e irreversibles, pude hacer una asociación con respecto al balanceo de ecuaciones "
+    },
+    {
+      "id": "u_tv0krn8ugme6cpvp7",
+      "questionId": "q5",
+      "progressReportId": "u_n43dn6w48me6cpv6s",
+      "answer": ""
+    }
+  ],
+  "targetWeekStart": "2025-08-04T00:00:00.000Z",
+  "targetWeekEnd": "2025-08-10T23:59:59.999Z"
+}

@@ -116,7 +116,8 @@ npm run type-check   # Run TypeScript type checking
 ## Demo Credentials
 
 - **Student**: `estudiante@demo.com` / `Estudiante123!!!`
-- **Instructor**: `instructor@demo.com` / `123456`
+- **Instructor**: `instructor@demo.com` / `123456` (local only)
+- **Instructor Production**: `rdb@intellego.com` / `02R07d91!` (Turso)
 - **Registration**: Available at `/auth/signup`
 
 ## Current System Status
@@ -128,8 +129,11 @@ npm run type-check   # Run TypeScript type checking
 - ✅ Dual file storage (database + JSON folders)
 - ✅ Student organizer with calendar and tasks
 - ✅ Academic hierarchy: sede/año/división/materia/estudiante
+- ✅ Instructor hierarchical dashboard: materias→año→curso→estudiantes→semanas
+- ✅ JSON export functionality for individual reports
 - ✅ Serverless deployment on Vercel
 - ✅ Automatic CI/CD pipeline
+- ✅ AI functionality completely removed (2025-01-13)
 
 ### File Organization
 ```
@@ -144,7 +148,7 @@ data/student-reports/
 
 ### Database Location
 - **Development**: `prisma/data/intellego.db` (Local SQLite)
-- **Production**: Turso Cloud Database (libSQL)
+- **Production**: Turso Cloud Database (libSQL) - 140 users, 176 reports (2025-01-13)
 - **Management**: https://app.turso.tech/roddb/databases/intellego-production
 
 ## Server Restart Protocol

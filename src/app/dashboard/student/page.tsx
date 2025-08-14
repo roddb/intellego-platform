@@ -5,7 +5,10 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
-import { toArgentinaDate, getCurrentArgentinaDate, isCurrentWeekInArgentina, isPastWeekInArgentina, isFutureWeekInArgentina } from "@/lib/timezone-utils"
+import { useChunkErrorHandler } from "@/components/ErrorBoundary"
+// Import timezone utilities with dynamic import to prevent chunk loading issues
+import * as TimezoneUtils from "@/lib/timezone-utils"
+const { toArgentinaDate, getCurrentArgentinaDate, isCurrentWeekInArgentina, isPastWeekInArgentina, isFutureWeekInArgentina } = TimezoneUtils
 
 // Helper functions for date management
 function getWeekStart(date: Date): Date {
@@ -44,6 +47,9 @@ function getMonthWeeks(year: number, month: number): Array<{start: Date, end: Da
 }
 
 export default function StudentDashboard() {
+  // Initialize chunk error handler for better error recovery
+  useChunkErrorHandler()
+  
   const { data: session, status } = useSession()
   const router = useRouter()
   const [userSubjects, setUserSubjects] = useState<string[]>([])

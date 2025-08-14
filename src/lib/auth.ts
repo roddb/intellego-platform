@@ -2,36 +2,62 @@ import { NextAuthOptions } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import { validateUserPassword } from "./db-operations"
 
+console.log('🔍 AUTH CONFIG: validateUserPassword function imported:', typeof validateUserPassword);
+
 export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
-      name: "credentials",
+      id: "credentials",
+      name: "credentials", 
       credentials: {
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
+        console.log('🔍 NextAuth authorize called with:', {
+          email: credentials?.email,
+          hasPassword: !!credentials?.password
+        });
+
         if (!credentials?.email || !credentials?.password) {
+          console.log('❌ Missing email or password');
           return null
         }
 
-        // Validate user credentials using database
-        const user = await validateUserPassword(credentials.email, credentials.password)
+        try {
+          // Validate user credentials using database
+          console.log('🔍 Calling validateUserPassword for:', credentials.email);
+          const user = await validateUserPassword(credentials.email, credentials.password)
+          
+          if (!user) {
+            console.log('❌ validateUserPassword returned null for:', credentials.email);
+            return null
+          }
 
-        if (!user) {
-          return null
-        }
+          console.log('✅ User validated successfully:', {
+            id: user.id,
+            name: user.name,
+            email: user.email,
+            studentId: user.studentId
+          });
 
-        return {
-          id: String(user.id),
-          email: String(user.email),
-          name: String(user.name),
-          role: String(user.role),
-          studentId: user.studentId ? String(user.studentId) : undefined,
-          sede: user.sede ? String(user.sede) : undefined,
-          academicYear: user.academicYear ? String(user.academicYear) : undefined,
-          division: user.division ? String(user.division) : undefined,
-          subjects: user.subjects ? String(user.subjects) : undefined,
+          const result = {
+            id: String(user.id),
+            email: String(user.email),
+            name: String(user.name),
+            role: String(user.role),
+            studentId: user.studentId ? String(user.studentId) : undefined,
+            sede: user.sede ? String(user.sede) : undefined,
+            academicYear: user.academicYear ? String(user.academicYear) : undefined,
+            division: user.division ? String(user.division) : undefined,
+            subjects: user.subjects ? String(user.subjects) : undefined,
+          };
+          
+          console.log('✅ Returning user object:', result);
+          return result;
+        } catch (error) {
+          console.error('❌ Error in authorize function:', error);
+          return null;
         }
       }
     })
@@ -46,8 +72,11 @@ export const authOptions: NextAuthOptions = {
   },
   callbacks: {
     async jwt({ token, user }) {
+      console.log('🔍 JWT callback called:', { hasUser: !!user, tokenEmail: token.email });
+      
       // Set user data on first sign in
       if (user) {
+        console.log('✅ JWT callback - Setting user data on token:', user);
         token.role = user.role
         token.studentId = user.studentId
         token.sede = user.sede
@@ -72,6 +101,8 @@ export const authOptions: NextAuthOptions = {
       return token
     },
     async session({ session, token }) {
+      console.log('🔍 Session callback called:', { hasToken: !!token, tokenEmail: token?.email });
+      
       if (token) {
         session.user.id = token.sub!
         session.user.role = token.role as string
@@ -84,6 +115,8 @@ export const authOptions: NextAuthOptions = {
       return session
     },
     async redirect({ url, baseUrl }) {
+      console.log('🔍 Redirect callback called:', { url, baseUrl });
+      
       // Handle internal redirects
       if (url.startsWith("/")) return `${baseUrl}${url}`
       else if (new URL(url).origin === baseUrl) return url
@@ -92,6 +125,11 @@ export const authOptions: NextAuthOptions = {
       return baseUrl
     },
     async signIn({ user, account, profile }) {
+      console.log('🔍 SignIn callback called:', { 
+        hasUser: !!user, 
+        userEmail: user?.email,
+        accountType: account?.type 
+      });
       return true
     }
   },

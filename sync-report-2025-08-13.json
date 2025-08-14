@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-08-13T15:08:38.781Z",
+  "operation": "Production Database Synchronization - 4to C Colegiales",
+  "database": "Turso Production (intellego-production-roddb)",
+  "success": true,
+  "summary": {
+    "backupCreated": true,
+    "studentsUpdated": 0,
+    "accountsDeleted": 3,
+    "totalErrors": 0
+  },
+  "changes": {
+    "subjectUpdates": [],
+    "deletedAccounts": [
+      {
+        "studentId": "EST-2025-038",
+        "name": "Agustin Lo Valvo",
+        "email": "agustinlovalvo08@gmail.com",
+        "subjects": "Física",
+        "status": "ACTIVE"
+      },
+      {
+        "studentId": "EST-2025-021",
+        "name": "Juliana Ceriani Cernadas",
+        "email": "julicerianicernadas@gmail.com",
+        "subjects": "Física",
+        "status": "ACTIVE"
+      },
+      {
+        "studentId": "EST-2025-037",
+        "name": "Matilde Pasarin de la Torre",
+        "email": "matildepasarin@gmail.com",
+        "subjects": "Física",
+        "status": "ACTIVE"
+      }
+    ],
+    "errors": []
+  }
+}

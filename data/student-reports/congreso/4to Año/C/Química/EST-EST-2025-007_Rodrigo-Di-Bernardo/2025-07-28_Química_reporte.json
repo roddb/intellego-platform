@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "id": "cmdqvpuk7000hxu94ozy5cfxb",
+    "studentId": "EST-2025-007",
+    "studentName": "Rodrigo Di Bernardo",
+    "email": "rodrigo.dibernardo@gmail.com",
+    "sede": "Congreso",
+    "academicYear": "4to Año",
+    "division": "C",
+    "subject": "Química",
+    "syncedAt": "2025-08-12T15:26:16.032Z",
+    "version": "2.0.0"
+  },
+  "academicPeriod": {
+    "weekStart": 1753671600000,
+    "weekEnd": 1754276399999,
+    "submittedAt": 1753935175160
+  },
+  "responses": {
+    "q1": "esto",
+    "q2": "es",
+    "q3": "una ",
+    "q4": "prueba",
+    "q5": "quimica"
+  },
+  "integrity": {
+    "recordCount": 5,
+    "checksum": "ccb7459"
+  }
+}

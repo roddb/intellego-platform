@@ -1,0 +1,1777 @@
+{
+  "timestamp": "2025-08-13T23:31:21.327Z",
+  "description": "Backup before UTC midnight cutoff corrections",
+  "totalReports": 177,
+  "reports": [
+    {
+      "id": "u_3ll3tewy4mdyndzsb",
+      "userId": "u_5inzfd9ncmdyhzank",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-05T14:41:54.539Z",
+      "userName": "RDB",
+      "studentId": "EST-2025-002"
+    },
+    {
+      "id": "u_2j3nvh1l0me06v7q9",
+      "userId": "u_13sv4a69ome06gv2t",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-06T16:34:56.865Z",
+      "userName": "Emma Bono",
+      "studentId": "EST-2025-008"
+    },
+    {
+      "id": "u_gbaw85nmxme082edq",
+      "userId": "u_13sv4a69ome06gv2t",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T17:08:31.694Z",
+      "userName": "Emma Bono",
+      "studentId": "EST-2025-008"
+    },
+    {
+      "id": "u_2nskm0fbdme0b7btw",
+      "userId": "u_qt28g6pmrme0b1swg",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-06T18:36:20.516Z",
+      "userName": "Morena Garmendia",
+      "studentId": "EST-2025-017"
+    },
+    {
+      "id": "u_zh1huhwq0me0b85hr",
+      "userId": "u_qt28g6pmrme0b1swg",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:36:58.959Z",
+      "userName": "Morena Garmendia",
+      "studentId": "EST-2025-017"
+    },
+    {
+      "id": "u_g5zovt4psme0bacs3",
+      "userId": "u_l0o1myrbrme0b2mhd",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:38:41.715Z",
+      "userName": "lola perri",
+      "studentId": "EST-2025-020"
+    },
+    {
+      "id": "u_ykdpbykxeme0baesm",
+      "userId": "u_h08h8vyowme0b6fc8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:38:44.326Z",
+      "userName": "Isabel Gaeta",
+      "studentId": "EST-2025-033"
+    },
+    {
+      "id": "u_4i6mitxspme0bbjqo",
+      "userId": "u_0mkknqzfwme0b1gv6",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-06T18:39:37.392Z",
+      "userName": "joaquín margueirat ",
+      "studentId": "EST-2025-016"
+    },
+    {
+      "id": "u_89pcvv3prme0betft",
+      "userId": "u_0mkknqzfwme0b1gv6",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:42:09.929Z",
+      "userName": "joaquín margueirat ",
+      "studentId": "EST-2025-016"
+    },
+    {
+      "id": "u_z03unvt3ome0bfdvv",
+      "userId": "u_zbzlsfka9me0bba6t",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:42:36.427Z",
+      "userName": "Ulises García Canteli ",
+      "studentId": "EST-2025-040"
+    },
+    {
+      "id": "u_qgergotsmme0bghpf",
+      "userId": "u_q8vglr2n7me0b5ree",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T18:43:28.035Z",
+      "userName": "Magdalena Donadio",
+      "studentId": "EST-2025-030"
+    },
+    {
+      "id": "u_cj3kb71keme0jeoq5",
+      "userId": "u_3oh1h3b60me0ht98e",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T22:26:00.749Z",
+      "userName": "Maria Lucia Gastaldi",
+      "studentId": "EST-2025-043"
+    },
+    {
+      "id": "u_yknzwx22mme0kipar",
+      "userId": "u_lwcsti4hume0k6kf3",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-06T22:57:07.731Z",
+      "userName": "María Catalina Prypsztejn Mila",
+      "studentId": "EST-2025-044"
+    },
+    {
+      "id": "u_elenxovsgme0oltvz",
+      "userId": "u_zqpn5388ime0oerp2",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T00:51:32.111Z",
+      "userName": "pilar salomone",
+      "studentId": "EST-2025-045"
+    },
+    {
+      "id": "u_z2imb71nume1bhoe7",
+      "userId": "u_wls4ynud9me1bcsn3",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T11:32:09.535Z",
+      "userName": "zoe poggi ",
+      "studentId": "EST-2025-048"
+    },
+    {
+      "id": "u_u42v6500yme1bhros",
+      "userId": "u_wls4ynud9me1bcsn3",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T11:32:13.804Z",
+      "userName": "zoe poggi ",
+      "studentId": "EST-2025-048"
+    },
+    {
+      "id": "u_fn8mfizyume1cofdq",
+      "userId": "u_4x9psb775me1bw3a3",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T12:05:24.062Z",
+      "userName": "Angelines Wu",
+      "studentId": "EST-2025-051"
+    },
+    {
+      "id": "u_knkrylsclme1dilv9",
+      "userId": "u_4sfzulloame0eeb4n",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T12:28:52.149Z",
+      "userName": "Teodora Ces Casalí",
+      "studentId": "EST-2025-042"
+    },
+    {
+      "id": "u_l18pfq8dgme1ev15x",
+      "userId": "u_tmyqpybslme1bxt15",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T13:06:31.461Z",
+      "userName": "Francisco Amato",
+      "studentId": "EST-2025-062"
+    },
+    {
+      "id": "u_3tes8bqqome1ev1nd",
+      "userId": "u_ps7y0ovuvme1bx96e",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T13:06:32.089Z",
+      "userName": "Iñaki Zubero",
+      "studentId": "EST-2025-056"
+    },
+    {
+      "id": "u_os0lvim0gme1fpvz7",
+      "userId": "u_t7fxqb0y0me1fm6ec",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T13:30:31.075Z",
+      "userName": "Salvador Veltri",
+      "studentId": "EST-2025-072"
+    },
+    {
+      "id": "u_6b1hurxdome1fqfbi",
+      "userId": "u_h52avro4ome1fmelf",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T13:30:56.142Z",
+      "userName": "Franco Lugo",
+      "studentId": "EST-2025-073"
+    },
+    {
+      "id": "u_4vral04n8me1fqord",
+      "userId": "u_h52avro4ome1fmelf",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T13:31:08.377Z",
+      "userName": "Franco Lugo",
+      "studentId": "EST-2025-073"
+    },
+    {
+      "id": "u_mpixhv0fnme1frowi",
+      "userId": "u_0dw79d8pume1fp20s",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T13:31:55.218Z",
+      "userName": "Juan Ignacio Rios",
+      "studentId": "EST-2025-075"
+    },
+    {
+      "id": "u_5uutb5ih5me1fsi4b",
+      "userId": "u_0dw79d8pume1fp20s",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T13:32:33.083Z",
+      "userName": "Juan Ignacio Rios",
+      "studentId": "EST-2025-075"
+    },
+    {
+      "id": "u_jsgpihfz3me1fvjlm",
+      "userId": "u_zsmjtajb0me1fut40",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T13:34:54.970Z",
+      "userName": "Salvador Veltri",
+      "studentId": "EST-2025-077"
+    },
+    {
+      "id": "u_v3ejt5aaome1za2e5",
+      "userId": "u_icojg9yv3me1yt3l8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-07T22:38:05.213Z",
+      "userName": "Veronica Hansen",
+      "studentId": "EST-2025-081"
+    },
+    {
+      "id": "u_0ie7mjykame1zkviw",
+      "userId": "u_icojg9yv3me1yt3l8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-07T22:46:29.528Z",
+      "userName": "Veronica Hansen",
+      "studentId": "EST-2025-081"
+    },
+    {
+      "id": "u_nvkj8cz8ume268ume",
+      "userId": "u_q8vglr2n7me0b5ree",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T01:53:05.798Z",
+      "userName": "Magdalena Donadio",
+      "studentId": "EST-2025-030"
+    },
+    {
+      "id": "u_vr303nbxsme279pnm",
+      "userId": "u_g54zele3lme24zmre",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T02:21:45.634Z",
+      "userName": "Nicolás Cartasegna",
+      "studentId": "EST-2025-082"
+    },
+    {
+      "id": "u_4e1bri1sfme279rs7",
+      "userId": "u_g54zele3lme24zmre",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T02:21:48.391Z",
+      "userName": "Nicolás Cartasegna",
+      "studentId": "EST-2025-082"
+    },
+    {
+      "id": "u_vdyxvfv76me2xhaar",
+      "userId": "u_jb53muhskme2x8253",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:35:28.995Z",
+      "userName": "Gabriel Maximiliano Bollmann",
+      "studentId": "EST-2025-083"
+    },
+    {
+      "id": "u_ozsm8ks9tme2xm825",
+      "userId": "u_gcjmjnrnqme1c1o1f",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:39:19.373Z",
+      "userName": "Agustín kemel",
+      "studentId": "EST-2025-067"
+    },
+    {
+      "id": "u_fi6hyl83lme2xphkh",
+      "userId": "u_jb53muhskme2x8253",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T14:41:51.665Z",
+      "userName": "Gabriel Maximiliano Bollmann",
+      "studentId": "EST-2025-083"
+    },
+    {
+      "id": "u_tbj4cw9rlme2xqoee",
+      "userId": "u_4x9psb775me1bw3a3",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T14:42:47.174Z",
+      "userName": "Angelines Wu",
+      "studentId": "EST-2025-051"
+    },
+    {
+      "id": "u_6yi5mg837me2xsdgm",
+      "userId": "u_g4dq2j6g8me1bxxtu",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:44:06.310Z",
+      "userName": "Julia Mayenfisch Paz",
+      "studentId": "EST-2025-064"
+    },
+    {
+      "id": "u_kjy7xccxhme2xsnhl",
+      "userId": "u_4prlxg2qvme1bx6m7",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:44:19.305Z",
+      "userName": "Bautista Attanasio",
+      "studentId": "EST-2025-054"
+    },
+    {
+      "id": "u_au2x2f6p5me2xt6ng",
+      "userId": "u_iyu24v3tpme1bx7zr",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:44:44.140Z",
+      "userName": "Agustina Sarti",
+      "studentId": "EST-2025-055"
+    },
+    {
+      "id": "u_9bc0o6v6cme2xycc4",
+      "userId": "u_gz7nt32scme1bxita",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T14:48:44.788Z",
+      "userName": "Dunia Claro",
+      "studentId": "EST-2025-058"
+    },
+    {
+      "id": "u_zgmk0thhtme2xyox5",
+      "userId": "u_4prlxg2qvme1bx6m7",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T14:49:01.098Z",
+      "userName": "Bautista Attanasio",
+      "studentId": "EST-2025-054"
+    },
+    {
+      "id": "u_dq9h96qa9me2y60oj",
+      "userId": "u_4sfzulloame0eeb4n",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T14:54:42.931Z",
+      "userName": "Teodora Ces Casalí",
+      "studentId": "EST-2025-042"
+    },
+    {
+      "id": "u_3fhu3o3ylme2ybhp3",
+      "userId": "u_g4dq2j6g8me1bxxtu",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T14:58:58.263Z",
+      "userName": "Julia Mayenfisch Paz",
+      "studentId": "EST-2025-064"
+    },
+    {
+      "id": "u_o1vr2lpmxme2ye3ej",
+      "userId": "u_49vfe6x03me1c9en0",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T15:00:59.707Z",
+      "userName": "Emilia Sarti",
+      "studentId": "EST-2025-070"
+    },
+    {
+      "id": "u_ul6a76vz4me2yfand",
+      "userId": "u_tmyqpybslme1bxt15",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T15:01:55.753Z",
+      "userName": "Francisco Amato",
+      "studentId": "EST-2025-062"
+    },
+    {
+      "id": "u_ysblyniurme2yl1x2",
+      "userId": "u_ppoee7dwpme2xaxbm",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T15:06:24.374Z",
+      "userName": "Ignacio Ortiz Gagliano",
+      "studentId": "EST-2025-085"
+    },
+    {
+      "id": "u_dmsmtzfmvme2ynpef",
+      "userId": "u_49vfe6x03me1c9en0",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T15:08:28.119Z",
+      "userName": "Emilia Sarti",
+      "studentId": "EST-2025-070"
+    },
+    {
+      "id": "u_7vly55yocme2yqu7o",
+      "userId": "u_ps7y0ovuvme1bx96e",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T15:10:54.324Z",
+      "userName": "Iñaki Zubero",
+      "studentId": "EST-2025-056"
+    },
+    {
+      "id": "u_03753ydbzme2yzacs",
+      "userId": "u_ppoee7dwpme2xaxbm",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T15:17:28.492Z",
+      "userName": "Ignacio Ortiz Gagliano",
+      "studentId": "EST-2025-085"
+    },
+    {
+      "id": "u_mgvt99v3tme2z6mpt",
+      "userId": "u_gcjmjnrnqme1c1o1f",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T15:23:11.105Z",
+      "userName": "Agustín kemel",
+      "studentId": "EST-2025-067"
+    },
+    {
+      "id": "u_7q40lweteme38zbo8",
+      "userId": "u_2a8ho1wtpme1opou7",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T19:57:26.360Z",
+      "userName": "Josefina Sesé Frers ",
+      "studentId": "EST-2025-079"
+    },
+    {
+      "id": "u_j2gs60e5ome3c6i11",
+      "userId": "u_1wjc7u8gpme1bxkgh",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-08T21:27:00.037Z",
+      "userName": "Violeta Legname",
+      "studentId": "EST-2025-059"
+    },
+    {
+      "id": "u_54nnrabr4me3gs3hu",
+      "userId": "u_0wl5v4c4qme3gkssk",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-08T23:35:46.098Z",
+      "userName": "Juana Del Giudice",
+      "studentId": "EST-2025-091"
+    },
+    {
+      "id": "u_gtq5j7jobme3ia4g8",
+      "userId": "u_e31zk82yime3hz3bu",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T00:17:46.760Z",
+      "userName": "Stefano Esses",
+      "studentId": "EST-2025-092"
+    },
+    {
+      "id": "u_627o1sfirme3iarfv",
+      "userId": "u_ipbwdsmfkme39nnhj",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T00:18:16.555Z",
+      "userName": "Martin Zournadjian ",
+      "studentId": "EST-2025-089"
+    },
+    {
+      "id": "u_62ihz9qbqme421tp8",
+      "userId": "u_qo63sfz3tme13og82",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-09T09:31:11.900Z",
+      "userName": "Lourdes Bongiovanni",
+      "studentId": "EST-2025-047"
+    },
+    {
+      "id": "u_2ipqowqzlme422amx",
+      "userId": "u_qo63sfz3tme13og82",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T09:31:33.849Z",
+      "userName": "Lourdes Bongiovanni",
+      "studentId": "EST-2025-047"
+    },
+    {
+      "id": "u_u2ihyqn79me4g61bt",
+      "userId": "u_0ppntptacme4bap6o",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T16:06:23.033Z",
+      "userName": "Franco Nuñez",
+      "studentId": "EST-2025-095"
+    },
+    {
+      "id": "u_ahtfinhbmme4itmvq",
+      "userId": "u_ptsyo9w0pme4ihnen",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-09T17:20:43.286Z",
+      "userName": "Agustin Lo Valvo",
+      "studentId": "EST-2025-097"
+    },
+    {
+      "id": "u_vc8ibj8fvme4ixtp4",
+      "userId": "u_ptsyo9w0pme4ihnen",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T17:23:58.744Z",
+      "userName": "Agustin Lo Valvo",
+      "studentId": "EST-2025-097"
+    },
+    {
+      "id": "u_amcpwxbe0me4l235d",
+      "userId": "u_5slmhhh0xme36sglh",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-09T18:23:16.849Z",
+      "userName": "Tomas Carbajales",
+      "studentId": "EST-2025-088"
+    },
+    {
+      "id": "u_0uqktidj7me4l4zqz",
+      "userId": "u_5slmhhh0xme36sglh",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T18:25:32.411Z",
+      "userName": "Tomas Carbajales",
+      "studentId": "EST-2025-088"
+    },
+    {
+      "id": "u_k67za0adcme4mu17f",
+      "userId": "u_1wjc7u8gpme1bxkgh",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T19:13:00.315Z",
+      "userName": "Violeta Legname",
+      "studentId": "EST-2025-059"
+    },
+    {
+      "id": "u_ltg8ib7ghme4okvsf",
+      "userId": "u_njqfuieodme3jakrb",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T20:01:52.623Z",
+      "userName": "Matías Vaccaro",
+      "studentId": "EST-2025-094"
+    },
+    {
+      "id": "u_1x6ae43kome4p2d3c",
+      "userId": "u_asv9bhh8zme06j7jo",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-09T20:15:28.200Z",
+      "userName": "Conrado Diaz",
+      "studentId": "EST-2025-010"
+    },
+    {
+      "id": "u_9ywhjux9hme4qq4lh",
+      "userId": "u_asv9bhh8zme06j7jo",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T21:01:56.549Z",
+      "userName": "Conrado Diaz",
+      "studentId": "EST-2025-010"
+    },
+    {
+      "id": "u_pbw6h10qnme4r91ig",
+      "userId": "u_03h8i0t6nme1rlx0z",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-09T21:16:39.016Z",
+      "userName": "Martina Yablonovich",
+      "studentId": "EST-2025-080"
+    },
+    {
+      "id": "u_ncfosajdnme4r9gbe",
+      "userId": "u_03h8i0t6nme1rlx0z",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T21:16:58.202Z",
+      "userName": "Martina Yablonovich",
+      "studentId": "EST-2025-080"
+    },
+    {
+      "id": "u_tn753b5xime4si302",
+      "userId": "u_th3a596w3me34llcr",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T21:51:40.466Z",
+      "userName": "Andrés Francisco Ruffino ",
+      "studentId": "EST-2025-087"
+    },
+    {
+      "id": "u_mjio8fcpmme4veht7",
+      "userId": "u_6iq1odbgqme4vdatd",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-09T23:12:51.883Z",
+      "userName": "Lola Gomez",
+      "studentId": "EST-2025-099"
+    },
+    {
+      "id": "u_51qpxcf5ome4y8vpo",
+      "userId": "u_9vp2o3qntme4y2kyh",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T00:32:28.812Z",
+      "userName": "Candela Greco",
+      "studentId": "EST-2025-100"
+    },
+    {
+      "id": "u_z97fl8yh7me5om4dz",
+      "userId": "u_2a8ho1wtpme1opou7",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T12:50:36.599Z",
+      "userName": "Josefina Sesé Frers ",
+      "studentId": "EST-2025-079"
+    },
+    {
+      "id": "u_r3ksdtwmlme5rd6ye",
+      "userId": "u_m51eualryme5r2p4u",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T14:07:38.870Z",
+      "userName": "Ignacio Medrano ",
+      "studentId": "EST-2025-101"
+    },
+    {
+      "id": "u_uxgr9wnnume5s44cj",
+      "userId": "u_l0o1myrbrme0b2mhd",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T14:28:35.203Z",
+      "userName": "lola perri",
+      "studentId": "EST-2025-020"
+    },
+    {
+      "id": "u_eeg9fb84fme5s49my",
+      "userId": "u_qjugmxdtzme5ry9mk",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T14:28:42.058Z",
+      "userName": "Lucio Fernández Rico",
+      "studentId": "EST-2025-102"
+    },
+    {
+      "id": "u_rebk35y97me5s6hky",
+      "userId": "u_qjugmxdtzme5ry9mk",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T14:30:25.666Z",
+      "userName": "Lucio Fernández Rico",
+      "studentId": "EST-2025-102"
+    },
+    {
+      "id": "u_qnwiy55fbme5tx3vw",
+      "userId": "u_1zev16wwsme0b4u1q",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T15:19:07.244Z",
+      "userName": "Clara Aiello",
+      "studentId": "EST-2025-023"
+    },
+    {
+      "id": "u_wshxu8766me5xomsz",
+      "userId": "u_1zev16wwsme0b4u1q",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T17:04:30.323Z",
+      "userName": "Clara Aiello",
+      "studentId": "EST-2025-023"
+    },
+    {
+      "id": "u_y2zgjuofgme5xwdy7",
+      "userId": "u_r9e5ufdasme0b8zqx",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T17:10:32.095Z",
+      "userName": "Juliana Ceriani Cernadas",
+      "studentId": "EST-2025-035"
+    },
+    {
+      "id": "u_s1umqp4tyme5y6imm",
+      "userId": "u_e06uzoxujme1bwdgt",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T17:18:24.718Z",
+      "userName": "Mateo Delaygue",
+      "studentId": "EST-2025-053"
+    },
+    {
+      "id": "u_zdjw9vkcwme5yalm8",
+      "userId": "u_e06uzoxujme1bwdgt",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T17:21:35.216Z",
+      "userName": "Mateo Delaygue",
+      "studentId": "EST-2025-053"
+    },
+    {
+      "id": "u_eq4nshd9eme5ygq6o",
+      "userId": "u_mpa1z25bmme5yempy",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T17:26:21.072Z",
+      "userName": "francesca paccie ",
+      "studentId": "EST-2025-104"
+    },
+    {
+      "id": "u_6ljudka13me5yhxwx",
+      "userId": "u_mpa1z25bmme5yempy",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T17:27:17.745Z",
+      "userName": "francesca paccie ",
+      "studentId": "EST-2025-104"
+    },
+    {
+      "id": "u_m9ezi3czsme5yn3df",
+      "userId": "u_r9e5ufdasme0b8zqx",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T17:31:18.099Z",
+      "userName": "Juliana Ceriani Cernadas",
+      "studentId": "EST-2025-035"
+    },
+    {
+      "id": "u_fuozouedime5yz6gn",
+      "userId": "u_8msj4nva8me0b5qcj",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T17:40:41.975Z",
+      "userName": "Agustina",
+      "studentId": "EST-2025-029"
+    },
+    {
+      "id": "u_df3nr4ut1me5yz961",
+      "userId": "u_8msj4nva8me0b5qcj",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T17:40:45.481Z",
+      "userName": "Agustina",
+      "studentId": "EST-2025-029"
+    },
+    {
+      "id": "u_vq0jjw4usme60fite",
+      "userId": "u_fcr9p35cgme607v47",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T18:21:24.098Z",
+      "userName": "Delfina Grasso",
+      "studentId": "EST-2025-105"
+    },
+    {
+      "id": "u_21sr38zwmme61imoc",
+      "userId": "u_f1hq5788gme0b92xe",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T18:51:48.684Z",
+      "userName": "Franco Palamenghi ",
+      "studentId": "EST-2025-036"
+    },
+    {
+      "id": "u_4kzbr2yovme61nnr1",
+      "userId": "u_7vuuihvajme0bd1v8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T18:55:43.357Z",
+      "userName": "Mateo Barrera",
+      "studentId": "EST-2025-041"
+    },
+    {
+      "id": "u_dhr0vzp4bme61nuj7",
+      "userId": "u_7vuuihvajme0bd1v8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T18:55:52.147Z",
+      "userName": "Mateo Barrera",
+      "studentId": "EST-2025-041"
+    },
+    {
+      "id": "u_1j2csju1xme63kd38",
+      "userId": "u_wnrgoh2t1me4pjpou",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T19:49:08.804Z",
+      "userName": "Bautista Pergolesi",
+      "studentId": "EST-2025-098"
+    },
+    {
+      "id": "u_idnncbslsme63ppjq",
+      "userId": "u_9ecakaqjlme1bw973",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T19:53:18.230Z",
+      "userName": "Enzo Shofs Turoni Lima",
+      "studentId": "EST-2025-052"
+    },
+    {
+      "id": "u_5bvumz377me641wf4",
+      "userId": "u_9ecakaqjlme1bw973",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T20:02:47.008Z",
+      "userName": "Enzo Shofs Turoni Lima",
+      "studentId": "EST-2025-052"
+    },
+    {
+      "id": "u_238iujs54me64f59k",
+      "userId": "u_wqdxobbqpme348kw4",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T20:13:05.000Z",
+      "userName": "Constanza Mac Donald",
+      "studentId": "EST-2025-086"
+    },
+    {
+      "id": "u_zq0f98vgpme6591vk",
+      "userId": "u_7l7mqqsh4me06hzx8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T20:36:20.288Z",
+      "userName": "Uma Cesarini",
+      "studentId": "EST-2025-009"
+    },
+    {
+      "id": "u_toez5spc3me65j0i2",
+      "userId": "u_7l7mqqsh4me06hzx8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T20:44:05.066Z",
+      "userName": "Uma Cesarini",
+      "studentId": "EST-2025-009"
+    },
+    {
+      "id": "u_iktryf7ctme65l7j8",
+      "userId": "u_pv1olo186me64il60",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T20:45:47.492Z",
+      "userName": "Juana Cestari",
+      "studentId": "EST-2025-106"
+    },
+    {
+      "id": "u_1h40jvc07me66k751",
+      "userId": "u_pdb4f4ng5me0b54u2",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T21:12:59.941Z",
+      "userName": "Tomas Forrester",
+      "studentId": "EST-2025-026"
+    },
+    {
+      "id": "u_o7j2unsgxme67lpb2",
+      "userId": "u_pdb4f4ng5me0b54u2",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T21:42:09.758Z",
+      "userName": "Tomas Forrester",
+      "studentId": "EST-2025-026"
+    },
+    {
+      "id": "u_hds4rfjmzme67twuq",
+      "userId": "u_4920yklv9me1fto0f",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T21:48:32.786Z",
+      "userName": "Lola Valverde",
+      "studentId": "EST-2025-076"
+    },
+    {
+      "id": "u_ol5jtt9l5me696x8h",
+      "userId": "u_gjtitt5qlme0b5p2x",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T22:26:39.425Z",
+      "userName": "Lola ",
+      "studentId": "EST-2025-028"
+    },
+    {
+      "id": "u_m5y1e8rqome697no5",
+      "userId": "u_gjtitt5qlme0b5p2x",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:27:13.685Z",
+      "userName": "Lola ",
+      "studentId": "EST-2025-028"
+    },
+    {
+      "id": "u_ualso81aqme69d7bq",
+      "userId": "u_4920yklv9me1fto0f",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:31:32.438Z",
+      "userName": "Lola Valverde",
+      "studentId": "EST-2025-076"
+    },
+    {
+      "id": "u_gnqcbx6vgme69dy4s",
+      "userId": "u_irosems63me0b6lym",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:32:07.180Z",
+      "userName": "Miranda  Lazaro",
+      "studentId": "EST-2025-034"
+    },
+    {
+      "id": "u_vb4gm44jsme69rdd2",
+      "userId": "u_xn3pcc41gme67v3cx",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:42:33.447Z",
+      "userName": "Santino Colonnese Cuttica",
+      "studentId": "EST-2025-112"
+    },
+    {
+      "id": "u_wvwip25vome69y8tm",
+      "userId": "u_tq3ado57dme68sdj1",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:47:54.154Z",
+      "userName": "Sofía Arévalo",
+      "studentId": "EST-2025-113"
+    },
+    {
+      "id": "u_xuq107vclme69ybpi",
+      "userId": "u_irosems63me0b6lym",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T22:47:57.894Z",
+      "userName": "Miranda  Lazaro",
+      "studentId": "EST-2025-034"
+    },
+    {
+      "id": "u_40byxjc1ume6abh3t",
+      "userId": "u_5hi83id4ime69nm4d",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T22:58:11.417Z",
+      "userName": "Fabrizio Sabino",
+      "studentId": "EST-2025-115"
+    },
+    {
+      "id": "u_3wh2t4v2jme6akjat",
+      "userId": "u_h08h8vyowme0b6fc8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T23:05:14.165Z",
+      "userName": "Isabel Gaeta",
+      "studentId": "EST-2025-033"
+    },
+    {
+      "id": "u_lqskvd7u1me6al6fy",
+      "userId": "u_of6to0o91me0b47mk",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T23:05:44.158Z",
+      "userName": "Milagros Monsegur",
+      "studentId": "EST-2025-022"
+    },
+    {
+      "id": "u_t2ndz70i5me6anyh1",
+      "userId": "u_2dnwoitzgme3j576v",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:07:53.798Z",
+      "userName": "Facundo Gubinelli",
+      "studentId": "EST-2025-093"
+    },
+    {
+      "id": "u_646mcvs2lme6apvyk",
+      "userId": "u_of6to0o91me0b47mk",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:09:23.852Z",
+      "userName": "Milagros Monsegur",
+      "studentId": "EST-2025-022"
+    },
+    {
+      "id": "u_q57ezuz6tme6av2u4",
+      "userId": "u_d84azjl1cme6a7v75",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:13:26.044Z",
+      "userName": "Rocco Ruiz",
+      "studentId": "EST-2025-116"
+    },
+    {
+      "id": "u_p1yhb5i46me6avv1q",
+      "userId": "u_yf5munab0me67oai8",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:14:02.606Z",
+      "userName": "Matías Ernesto Alippi",
+      "studentId": "EST-2025-111"
+    },
+    {
+      "id": "u_cotwxwgjkme6bowb1",
+      "userId": "u_yjrnyfsg2me6bmfeg",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:36:37.261Z",
+      "userName": "catalina cresci",
+      "studentId": "EST-2025-117"
+    },
+    {
+      "id": "u_kv0yxoc6zme6c8ubu",
+      "userId": "u_92u4fm0txme1fny4m",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T23:52:07.818Z",
+      "userName": "Justina Manzullo",
+      "studentId": "EST-2025-074"
+    },
+    {
+      "id": "u_j85y71amhme6c9161",
+      "userId": "u_92u4fm0txme1fny4m",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:52:16.681Z",
+      "userName": "Justina Manzullo",
+      "studentId": "EST-2025-074"
+    },
+    {
+      "id": "u_rhbqsr0ajme6chp9d",
+      "userId": "u_l3ppw0vlzme1nox48",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-10T23:59:01.153Z",
+      "userName": "Bianca Nazareth Picone",
+      "studentId": "EST-2025-078"
+    },
+    {
+      "id": "u_18dv757rpme6chxdw",
+      "userId": "u_pv2qe98lhme0b4xi4",
+      "weekStart": "2025-08-04T00:00:00.000Z",
+      "weekEnd": "2025-08-10T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-10T23:59:11.684Z",
+      "userName": "Federica Fontan",
+      "studentId": "EST-2025-024"
+    },
+    {
+      "id": "u_n43dn6w48me6cpv6s",
+      "userId": "u_9vp2o3qntme4y2kyh",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:05:22.084Z",
+      "userName": "Candela Greco",
+      "studentId": "EST-2025-100"
+    },
+    {
+      "id": "u_k5hr0xcmgme6cte11",
+      "userId": "u_67kfbewk9me6cn6qp",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:08:06.469Z",
+      "userName": "Sol Fontán",
+      "studentId": "EST-2025-118"
+    },
+    {
+      "id": "u_r7sliitkpme6cw4me",
+      "userId": "u_67kfbewk9me6cn6qp",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T00:10:14.246Z",
+      "userName": "Sol Fontán",
+      "studentId": "EST-2025-118"
+    },
+    {
+      "id": "u_jowcbrcipme6dd82j",
+      "userId": "u_madzeow6xme0bap6m",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T00:23:31.867Z",
+      "userName": "Fiorella",
+      "studentId": "EST-2025-039"
+    },
+    {
+      "id": "u_46hpt9qaime6dksho",
+      "userId": "u_062kts0erme64nx90",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:29:24.924Z",
+      "userName": "Belen Smiriglio",
+      "studentId": "EST-2025-107"
+    },
+    {
+      "id": "u_8hontx7yime6dvdnt",
+      "userId": "u_abe3h0317me06njgs",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T00:37:38.921Z",
+      "userName": "Catalina Gilardi",
+      "studentId": "EST-2025-015"
+    },
+    {
+      "id": "u_ze6ku5txcme6e3zz1",
+      "userId": "u_abe3h0317me06njgs",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:44:21.085Z",
+      "userName": "Catalina Gilardi",
+      "studentId": "EST-2025-015"
+    },
+    {
+      "id": "u_a2a9bxcsrme6e6gin",
+      "userId": "u_yf5munab0me67oai8",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T00:46:15.839Z",
+      "userName": "Matías Ernesto Alippi",
+      "studentId": "EST-2025-111"
+    },
+    {
+      "id": "u_msne5wmp9me6e9aun",
+      "userId": "u_mmb5fvk8sme3ac9q1",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:48:28.463Z",
+      "userName": "Victoria Gómez arroyo",
+      "studentId": "EST-2025-090"
+    },
+    {
+      "id": "u_6c2u8acblme6ekomo",
+      "userId": "u_1wt2lfnz3me69ak8c",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T00:57:19.536Z",
+      "userName": "Catalina Dobniewski",
+      "studentId": "EST-2025-114"
+    },
+    {
+      "id": "u_dpieshv7cme6ekqyq",
+      "userId": "u_1wt2lfnz3me69ak8c",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T00:57:22.562Z",
+      "userName": "Catalina Dobniewski",
+      "studentId": "EST-2025-114"
+    },
+    {
+      "id": "u_crww7mi0zme6f1rsx",
+      "userId": "u_pv2qe98lhme0b4xi4",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:10:36.801Z",
+      "userName": "Federica Fontan",
+      "studentId": "EST-2025-024"
+    },
+    {
+      "id": "u_teadgmckfme6f3uyf",
+      "userId": "u_r0mxgr11pme6eytm2",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:12:14.199Z",
+      "userName": "Victoria Patiño ",
+      "studentId": "EST-2025-122"
+    },
+    {
+      "id": "u_zeunfrhplme6f63oc",
+      "userId": "u_bx5yrhd48me6eys07",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:13:58.812Z",
+      "userName": "Candelaria María Nasjleti Paz",
+      "studentId": "EST-2025-121"
+    },
+    {
+      "id": "u_x8z9ucafcme6fagnq",
+      "userId": "u_rkrgujb30me0b536p",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:17:22.262Z",
+      "userName": "Bautista",
+      "studentId": "EST-2025-025"
+    },
+    {
+      "id": "u_8xlunkjxyme6fak1t",
+      "userId": "u_igtqfpy9ime6ecgcw",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:17:26.657Z",
+      "userName": "Morena Danio",
+      "studentId": "EST-2025-120"
+    },
+    {
+      "id": "u_nwyexrue9me6fbdrc",
+      "userId": "u_r0mxgr11pme6eytm2",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:18:05.160Z",
+      "userName": "Victoria Patiño ",
+      "studentId": "EST-2025-122"
+    },
+    {
+      "id": "u_3oji4zkqzme6fbpmq",
+      "userId": "u_rkrgujb30me0b536p",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:18:20.546Z",
+      "userName": "Bautista",
+      "studentId": "EST-2025-025"
+    },
+    {
+      "id": "u_hd3ho5j2pme6fcdf8",
+      "userId": "u_ef94s2t87me0b27mi",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:18:51.380Z",
+      "userName": "Guadalupe rueda",
+      "studentId": "EST-2025-018"
+    },
+    {
+      "id": "u_3hseybu46me6fcfzd",
+      "userId": "u_ef94s2t87me0b27mi",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:18:54.697Z",
+      "userName": "Guadalupe rueda",
+      "studentId": "EST-2025-018"
+    },
+    {
+      "id": "u_wac0xzbgome6ftq13",
+      "userId": "u_udp8usbw0me6fmwgn",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:32:20.871Z",
+      "userName": "Juan Pablo Oviedo Goite",
+      "studentId": "EST-2025-123"
+    },
+    {
+      "id": "u_q9458q5csme6fykkl",
+      "userId": "u_c8qoo6z03me0b5zlp",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:36:07.077Z",
+      "userName": "Valentino Papa",
+      "studentId": "EST-2025-032"
+    },
+    {
+      "id": "u_30itiq8kome6g2x52",
+      "userId": "u_udp8usbw0me6fmwgn",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:39:29.990Z",
+      "userName": "Juan Pablo Oviedo Goite",
+      "studentId": "EST-2025-123"
+    },
+    {
+      "id": "u_4f61o3g3zme6g9zas",
+      "userId": "u_bgnqcmox2mdynijxl",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:44:59.380Z",
+      "userName": "Helena Machado",
+      "studentId": "EST-2025-004"
+    },
+    {
+      "id": "u_166udxlf8me6gah0t",
+      "userId": "u_c8qoo6z03me0b5zlp",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:45:22.349Z",
+      "userName": "Valentino Papa",
+      "studentId": "EST-2025-032"
+    },
+    {
+      "id": "u_4rtqcyi5ame6giien",
+      "userId": "u_3620qcgjwme6g2xx5",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T01:51:37.391Z",
+      "userName": "Pedro Salgado Canepa",
+      "studentId": "EST-2025-124"
+    },
+    {
+      "id": "u_t2jbs9jrime6gnamz",
+      "userId": "u_ktmv2zgznme1ei0iq",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T01:55:20.603Z",
+      "userName": "Paloma Castro",
+      "studentId": "EST-2025-071"
+    },
+    {
+      "id": "u_410ftcz5ime6gz6sn",
+      "userId": "u_orrudyvptme0b5ua2",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:04:35.495Z",
+      "userName": "Mia Pleitel",
+      "studentId": "EST-2025-031"
+    },
+    {
+      "id": "u_dhdxexif6me6h6bc0",
+      "userId": "u_3qohn2lp7me0tfs8i",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:10:07.968Z",
+      "userName": "Gonzalo Rosler Buglione",
+      "studentId": "EST-2025-046"
+    },
+    {
+      "id": "u_2cua7ag2bme6h6ms6",
+      "userId": "u_l3ppw0vlzme1nox48",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:10:22.806Z",
+      "userName": "Bianca Nazareth Picone",
+      "studentId": "EST-2025-078"
+    },
+    {
+      "id": "u_j8mroedmome6hexbn",
+      "userId": "u_orrudyvptme0b5ua2",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:16:49.715Z",
+      "userName": "Mia Pleitel",
+      "studentId": "EST-2025-031"
+    },
+    {
+      "id": "u_cnc2u73t4me6hl6pf",
+      "userId": "u_qobf27jv7me6hi0ai",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:21:41.811Z",
+      "userName": "Lourdes María Converset",
+      "studentId": "EST-2025-127"
+    },
+    {
+      "id": "u_eobwtlx3jme6hoow8",
+      "userId": "u_3wmjdusbdme1bxp0i",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:24:25.352Z",
+      "userName": "Uma Valle",
+      "studentId": "EST-2025-061"
+    },
+    {
+      "id": "u_azkbtndshme6hsthu",
+      "userId": "u_madzeow6xme0bap6m",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:27:37.938Z",
+      "userName": "Fiorella",
+      "studentId": "EST-2025-039"
+    },
+    {
+      "id": "u_39ei84l23me6huwij",
+      "userId": "u_3wmjdusbdme1bxp0i",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:29:15.163Z",
+      "userName": "Uma Valle",
+      "studentId": "EST-2025-061"
+    },
+    {
+      "id": "u_a88298653me6hw27z",
+      "userId": "u_4goz47h3xme6htid0",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:30:09.215Z",
+      "userName": "camilo giles ",
+      "studentId": "EST-2025-128"
+    },
+    {
+      "id": "u_fdyjwcbqlme6hwjs0",
+      "userId": "u_ktmv2zgznme1ei0iq",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:30:31.968Z",
+      "userName": "Paloma Castro",
+      "studentId": "EST-2025-071"
+    },
+    {
+      "id": "u_24hgrt1egme6hx3a5",
+      "userId": "u_4goz47h3xme6htid0",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:30:57.245Z",
+      "userName": "camilo giles ",
+      "studentId": "EST-2025-128"
+    },
+    {
+      "id": "u_w9v0v3g08me6hyzok",
+      "userId": "u_bgnqcmox2mdynijxl",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:32:25.892Z",
+      "userName": "Helena Machado",
+      "studentId": "EST-2025-004"
+    },
+    {
+      "id": "u_nesufvkvmme6hz0pi",
+      "userId": "u_e14kez4ghme6hx5nr",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:32:27.222Z",
+      "userName": "Lucas Mingotti Tziavaras",
+      "studentId": "EST-2025-129"
+    },
+    {
+      "id": "u_oqwdqtiqcme6hzm9z",
+      "userId": "u_e14kez4ghme6hx5nr",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:32:55.175Z",
+      "userName": "Lucas Mingotti Tziavaras",
+      "studentId": "EST-2025-129"
+    },
+    {
+      "id": "u_20z4hyefzme6i2x93",
+      "userId": "u_alllafm0rme678p88",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:35:29.367Z",
+      "userName": "Milagros Zacharec ",
+      "studentId": "EST-2025-109"
+    },
+    {
+      "id": "u_q1gq7bbkrme6i6ao9",
+      "userId": "u_zh9pgmfs9me6i15hg",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:38:06.729Z",
+      "userName": "juana giurovich",
+      "studentId": "EST-2025-130"
+    },
+    {
+      "id": "u_cjn578lgame6i7xnf",
+      "userId": "u_tid7bop2gme6i2g6e",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:39:23.163Z",
+      "userName": "Matilde Pasarin de la Torre",
+      "studentId": "EST-2025-131"
+    },
+    {
+      "id": "u_ysvfbczb5me6i7yp2",
+      "userId": "u_gw49maclcme6i3g64",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:39:24.518Z",
+      "userName": "mercedes rizzo lynch",
+      "studentId": "EST-2025-132"
+    },
+    {
+      "id": "u_y48nt99sfme6i8fmp",
+      "userId": "u_tid7bop2gme6i2g6e",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:39:46.465Z",
+      "userName": "Matilde Pasarin de la Torre",
+      "studentId": "EST-2025-131"
+    },
+    {
+      "id": "u_g3ekr2wd7me6igvoc",
+      "userId": "u_fdz0c0x1lme4fe22c",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:46:20.508Z",
+      "userName": "Ian Svendsen",
+      "studentId": "EST-2025-096"
+    },
+    {
+      "id": "u_2yui23lahme6ihx1g",
+      "userId": "u_tv7hzrijlme0b5735",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:47:08.932Z",
+      "userName": "Sofia Bargas",
+      "studentId": "EST-2025-027"
+    },
+    {
+      "id": "u_l13vogu0eme6ij4io",
+      "userId": "u_tv7hzrijlme0b5735",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T02:48:05.280Z",
+      "userName": "Sofia Bargas",
+      "studentId": "EST-2025-027"
+    },
+    {
+      "id": "u_z8ohqqrlsme6ivml2",
+      "userId": "u_tk1vcmquxme06mhr4",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T02:57:48.566Z",
+      "userName": "Maria Emilia Delaico",
+      "studentId": "EST-2025-014"
+    },
+    {
+      "id": "u_39i7xm2fwme6j53ja",
+      "userId": "u_oho1zrk6pme6j1e97",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T03:05:10.438Z",
+      "userName": "Julieta Napoli",
+      "studentId": "EST-2025-133"
+    },
+    {
+      "id": "u_y8m75q11wme6k02ye",
+      "userId": "u_ws61mg4b5me6e599g",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Física",
+      "submittedAt": "2025-08-11T03:29:16.022Z",
+      "userName": "Brenda Behmer",
+      "studentId": "EST-2025-119"
+    },
+    {
+      "id": "u_1sbcejp48me6k0jjl",
+      "userId": "u_ws61mg4b5me6e599g",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T03:29:37.521Z",
+      "userName": "Brenda Behmer",
+      "studentId": "EST-2025-119"
+    },
+    {
+      "id": "u_5d09ddwvlme7cssj3",
+      "userId": "u_4x9psb775me1bw3a3",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T16:55:24.783Z",
+      "userName": "Angelines Wu",
+      "studentId": "EST-2025-051"
+    },
+    {
+      "id": "u_b15eidwxbme7hdq9v",
+      "userId": "u_p20qzlyqjme7h8p8q",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-11T19:03:40.099Z",
+      "userName": "Maria Josefina Baez",
+      "studentId": "EST-2025-136"
+    },
+    {
+      "id": "u_yklcemhn7me8go1a9",
+      "userId": "u_gnwsffmrume7hmq9m",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-12T11:31:27.489Z",
+      "userName": "Ema Trejo",
+      "studentId": "EST-2025-137"
+    },
+    {
+      "id": "13909c01-07fb-4b0a-b306-f7ea93264c78",
+      "userId": "u_lwcsti4hume0k6kf3",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-12T12:22:37.421Z",
+      "userName": "María Catalina Prypsztejn Mila",
+      "studentId": "EST-2025-044"
+    },
+    {
+      "id": "3d82301c-cc80-436d-978b-96830845b882",
+      "userId": "u_e31zk82yime3hz3bu",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-12T13:11:27.125Z",
+      "userName": "Stefano Esses",
+      "studentId": "EST-2025-092"
+    },
+    {
+      "id": "40642ff8-20fe-401b-af24-027c825bc5fc",
+      "userId": "u_r9e5ufdasme0b8zqx",
+      "weekStart": "2025-08-11T00:00:00.000Z",
+      "weekEnd": "2025-08-17T23:59:59.999Z",
+      "subject": "Química",
+      "submittedAt": "2025-08-13T01:16:56.200Z",
+      "userName": "Juliana Ceriani Cernadas",
+      "studentId": "EST-2025-035"
+    }
+  ]
+}

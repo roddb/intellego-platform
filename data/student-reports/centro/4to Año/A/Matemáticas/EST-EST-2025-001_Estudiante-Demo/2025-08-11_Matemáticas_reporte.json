@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "id": "u_lj2vz9qqtme7on1tg",
+    "studentId": "EST-2025-001",
+    "studentName": "Estudiante Demo",
+    "email": "estudiante@demo.com",
+    "sede": "Centro",
+    "academicYear": "4to Año",
+    "division": "A",
+    "subject": "Matemáticas",
+    "syncedAt": "2025-08-12T15:26:16.030Z",
+    "version": "2.0.0"
+  },
+  "academicPeriod": {
+    "weekStart": "2025-08-11T03:00:00.000Z",
+    "weekEnd": "2025-08-18T02:59:59.999Z",
+    "submittedAt": "2025-08-11T22:26:52.276Z"
+  },
+  "responses": {
+    "q1": "Esto",
+    "q2": "Es",
+    "q3": "Una ",
+    "q4": "Prueba",
+    "q5": "Del estudiante de prueba"
+  },
+  "integrity": {
+    "recordCount": 5,
+    "checksum": "-63b6be6d"
+  }
+}

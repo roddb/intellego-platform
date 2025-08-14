@@ -1,0 +1,398 @@
+{
+  "scriptName": "production-5to-subjects-sync.js",
+  "executionTime": "2025-08-13T19:36:49.243Z",
+  "database": "Turso Production",
+  "operation": "5to Año Subject Corrections",
+  "initialState": {
+    "A": [
+      {
+        "studentId": "EST-2025-139",
+        "name": "Ana Rosiello",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-078",
+        "name": "Bianca Nazareth Picone",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-100",
+        "name": "Candela Greco",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-114",
+        "name": "Catalina Dobniewski",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-005",
+        "name": "Catalina Varrente",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-006",
+        "name": "Felipe Muttini Pagadizabal",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-004",
+        "name": "Helena Machado",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-079",
+        "name": "Josefina Sesé Frers ",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-123",
+        "name": "Juan Pablo Oviedo Goite",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-102",
+        "name": "Lucio Fernández Rico",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-003",
+        "name": "Lucio Fernández rico",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-080",
+        "name": "Martina Yablonovich",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-111",
+        "name": "Matías Ernesto Alippi",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-082",
+        "name": "Nicolás Cartasegna",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-118",
+        "name": "Sol Fontán",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-103",
+        "name": "Tiziana Zapozko",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-122",
+        "name": "Victoria Patiño ",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-135",
+        "name": "tobías barisch",
+        "subjects": "Física"
+      }
+    ],
+    "B": [
+      {
+        "studentId": "EST-2025-087",
+        "name": "Andrés Francisco Ruffino ",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-098",
+        "name": "Bautista Pergolesi",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-121",
+        "name": "Candelaria María Nasjleti Paz",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-086",
+        "name": "Constanza Mac Donald",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-115",
+        "name": "Fabrizio Sabino",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-134",
+        "name": "Isabel Ortiz Güemes",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-091",
+        "name": "Juana Del Giudice",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-133",
+        "name": "Julieta Napoli",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-109",
+        "name": "Milagros Zacharec ",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-113",
+        "name": "Sofía Arévalo",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-126",
+        "name": "agustina trillo",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-117",
+        "name": "catalina cresci",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-130",
+        "name": "juana giurovich",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-125",
+        "name": "manuela ",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-110",
+        "name": "victoria cerredo",
+        "subjects": "Química"
+      }
+    ],
+    "D": [
+      {
+        "studentId": "EST-2025-107",
+        "name": "Belen Smiriglio",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-137",
+        "name": "Ema Trejo",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-093",
+        "name": "Facundo Gubinelli",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-095",
+        "name": "Franco Nuñez",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-046",
+        "name": "Gonzalo Rosler Buglione",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-096",
+        "name": "Ian Svendsen",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-108",
+        "name": "Ignacio Benson",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-106",
+        "name": "Juana Cestari",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-099",
+        "name": "Lola Gomez",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-127",
+        "name": "Lourdes María Converset",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-136",
+        "name": "Maria Josefina Baez",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-043",
+        "name": "Maria Lucia Gastaldi",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-089",
+        "name": "Martin Zournadjian ",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-044",
+        "name": "María Catalina Prypsztejn Mila",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-094",
+        "name": "Matías Vaccaro",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-120",
+        "name": "Morena Danio",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-124",
+        "name": "Pedro Salgado Canepa",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-002",
+        "name": "RDB",
+        "subjects": "Física"
+      },
+      {
+        "studentId": "EST-2025-116",
+        "name": "Rocco Ruiz",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-112",
+        "name": "Santino Colonnese Cuttica",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-138",
+        "name": "Santino Jurado",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-092",
+        "name": "Stefano Esses",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-090",
+        "name": "Victoria Gómez arroyo",
+        "subjects": "Química"
+      },
+      {
+        "studentId": "EST-2025-045",
+        "name": "pilar salomone",
+        "subjects": "Química"
+      }
+    ]
+  },
+  "updateResults": [
+    {
+      "division": "A",
+      "targetSubjects": "Física,Química",
+      "studentsUpdated": 18,
+      "status": "success"
+    },
+    {
+      "division": "B",
+      "targetSubjects": "Química",
+      "studentsUpdated": 15,
+      "status": "success"
+    },
+    {
+      "division": "D",
+      "targetSubjects": "Química",
+      "studentsUpdated": 24,
+      "status": "success"
+    }
+  ],
+  "finalVerification": {
+    "allCorrect": true,
+    "results": [
+      {
+        "division": "A",
+        "expected": "Física,Química",
+        "totalStudents": 18,
+        "correctStudents": 18,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      },
+      {
+        "division": "B",
+        "expected": "Química",
+        "totalStudents": 15,
+        "correctStudents": 15,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      },
+      {
+        "division": "D",
+        "expected": "Química",
+        "totalStudents": 24,
+        "correctStudents": 24,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      }
+    ]
+  },
+  "summaryReport": {
+    "timestamp": "2025-08-13T19:36:49.242Z",
+    "overallStatus": "SUCCESS",
+    "updatesApplied": [
+      {
+        "division": "A",
+        "targetSubjects": "Física,Química",
+        "studentsUpdated": 18,
+        "status": "success"
+      },
+      {
+        "division": "B",
+        "targetSubjects": "Química",
+        "studentsUpdated": 15,
+        "status": "success"
+      },
+      {
+        "division": "D",
+        "targetSubjects": "Química",
+        "studentsUpdated": 24,
+        "status": "success"
+      }
+    ],
+    "finalVerification": [
+      {
+        "division": "A",
+        "expected": "Física,Química",
+        "totalStudents": 18,
+        "correctStudents": 18,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      },
+      {
+        "division": "B",
+        "expected": "Química",
+        "totalStudents": 15,
+        "correctStudents": 15,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      },
+      {
+        "division": "D",
+        "expected": "Química",
+        "totalStudents": 24,
+        "correctStudents": 24,
+        "incorrectStudents": 0,
+        "isCorrect": true
+      }
+    ]
+  }
+}

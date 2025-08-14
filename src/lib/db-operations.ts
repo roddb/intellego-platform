@@ -266,23 +266,41 @@ export async function getAllQuestions() {
   }
 }
 
-// Date utility functions
+// Date utility functions - FIXED to use Argentina timezone
 export function getCurrentWeekStart(): Date {
-  const now = new Date();
-  const monday = new Date(now);
-  const day = now.getDay();
-  const diff = now.getDate() - day + (day === 0 ? -6 : 1);
-  monday.setDate(diff);
-  monday.setHours(0, 0, 0, 0);
-  return monday;
+  // Get current UTC time
+  const nowUTC = new Date();
+  
+  // Convert to Argentina timezone (UTC-3)
+  // Create a date object representing the current time in Argentina
+  const argentinaOffset = -3 * 60; // Argentina is UTC-3 (in minutes)
+  const argentinaTime = new Date(nowUTC.getTime() + (argentinaOffset * 60 * 1000));
+  
+  // Calculate Monday of current week in Argentina timezone
+  const day = argentinaTime.getUTCDay(); // Use UTC methods since we manually adjusted for timezone
+  const diff = argentinaTime.getUTCDate() - day + (day === 0 ? -6 : 1);
+  
+  const monday = new Date(argentinaTime);
+  monday.setUTCDate(diff);
+  monday.setUTCHours(0, 0, 0, 0);
+  
+  // Convert back to UTC for storage, but maintain the Argentina-based week calculation
+  const mondayUTC = new Date(monday.getTime() - (argentinaOffset * 60 * 1000));
+  
+  return mondayUTC;
 }
 
 export function getCurrentWeekEnd(): Date {
   const weekStart = getCurrentWeekStart();
   const weekEnd = new Date(weekStart);
-  weekEnd.setDate(weekStart.getDate() + 6);
-  weekEnd.setHours(23, 59, 59, 999);
-  return weekEnd;
+  weekEnd.setUTCDate(weekStart.getUTCDate() + 6);
+  weekEnd.setUTCHours(23, 59, 59, 999);
+  
+  // Ensure we're still in Argentina timezone for the end boundary
+  const argentinaOffset = -3 * 60; // Argentina is UTC-3 (in minutes) 
+  const adjustedEnd = new Date(weekEnd.getTime() + (argentinaOffset * 60 * 1000));
+  
+  return adjustedEnd;
 }
 
 export async function canSubmitThisWeek(userId: string): Promise<boolean> {
