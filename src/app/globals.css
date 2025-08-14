@@ -618,36 +618,41 @@ body:has(.auth-page-container) {
 
 /* Deployment verification - Thu Aug 14 19:22:30 -03 2025 - EMERGENCY PARTICLE SYSTEM DISABLE */
 
-/* 🎯 SURGICAL FIX: Target ONLY the problematic large circle element */
+/* 🎯 EMERGENCY SVG FIX: Prevent giant icon rendering */
 @media screen {
-  /* Hide any large circular elements that could be causing the UI issue */
-  *[style*="width: 100%"][style*="height: 100%"] {
-    display: none !important;
+  /* FORCE SVG size constraints to prevent giant icons */
+  svg {
+    max-width: 200px !important;
+    max-height: 200px !important;
+    width: auto !important;
+    height: auto !important;
   }
   
-  /* Target large background circular elements */
-  div[style*="border-radius"][style*="width"] {
-    background: transparent !important;
-    border-radius: 8px !important;
+  /* Respect Tailwind size classes for SVGs */
+  .w-4 svg, svg.w-4 { width: 1rem !important; height: 1rem !important; }
+  .w-6 svg, svg.w-6 { width: 1.5rem !important; height: 1.5rem !important; }
+  .w-8 svg, svg.w-8 { width: 2rem !important; height: 2rem !important; }
+  .w-12 svg, svg.w-12 { width: 3rem !important; height: 3rem !important; }
+  .w-16 svg, svg.w-16 { width: 4rem !important; height: 4rem !important; }
+  
+  /* Force container constraints */
+  div[class*="w-12"][class*="h-12"] {
+    width: 3rem !important;
+    height: 3rem !important;
+    max-width: 3rem !important;
+    max-height: 3rem !important;
   }
   
-  /* Ensure auth page has clean layering */
-  .auth-page-container {
-    position: relative !important;
-    z-index: 999 !important;
-    background: #f8fafc !important;
+  div[class*="w-16"][class*="h-16"] {
+    width: 4rem !important;
+    height: 4rem !important;
+    max-width: 4rem !important;
+    max-height: 4rem !important;
   }
   
-  /* Hide any potential floating/absolute positioned large elements */
-  div[style*="position: absolute"][style*="top: 0"][style*="left: 0"] {
-    display: none !important;
-  }
-  
-  /* Specifically target elements that could create the massive circle */
-  *[class*="w-full"][class*="h-full"],
-  *[style*="position: fixed"],
-  canvas[width][height] {
-    display: none !important;
+  /* Ensure proper flex containment */
+  .flex.items-center.justify-center {
+    overflow: hidden !important;
   }
 }
 
