@@ -58,8 +58,8 @@ const fetchWeekData = async (
   try {
     const params = new URLSearchParams({
       action: 'weekly-preview',
-      weekStart: start.toISOString().split('T')[0],
-      weekEnd: end.toISOString().split('T')[0],
+      weekStart: start.toISOString(),
+      weekEnd: end.toISOString(),
     });
 
     // Add optional filters
@@ -135,8 +135,8 @@ const downloadWeekData = async (
   try {
     const params = new URLSearchParams({
       action: 'weekly-download',
-      weekStart: start.toISOString().split('T')[0],
-      weekEnd: end.toISOString().split('T')[0],
+      weekStart: start.toISOString(),
+      weekEnd: end.toISOString(),
       format: downloadFormat.toLowerCase(),
     });
 
