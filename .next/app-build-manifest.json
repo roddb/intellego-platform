@@ -16,20 +16,6 @@
       "static/chunks/493-875bc9ac94213778.js",
       "static/chunks/app/layout-a48d3ffd02ea1e1b.js"
     ],
-    "/api/debug-register-full/route": [
-      "static/chunks/webpack-6b3c4bafba00fe32.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-238f4b7b1124dd2d.js",
-      "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/debug-register-full/route-59129df8e7e57320.js"
-    ],
-    "/api/admin/password/reset/route": [
-      "static/chunks/webpack-6b3c4bafba00fe32.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-238f4b7b1124dd2d.js",
-      "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/admin/password/reset/route-59129df8e7e57320.js"
-    ],
     "/api/auth/register/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
@@ -37,12 +23,12 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/auth/register/route-59129df8e7e57320.js"
     ],
-    "/api/deployment-monitor/route": [
+    "/api/debug-register-full/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/deployment-monitor/route-59129df8e7e57320.js"
+      "static/chunks/app/api/debug-register-full/route-59129df8e7e57320.js"
     ],
     "/api/debug-register/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -51,12 +37,33 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/debug-register/route-59129df8e7e57320.js"
     ],
+    "/api/admin/password/reset/route": [
+      "static/chunks/webpack-6b3c4bafba00fe32.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-238f4b7b1124dd2d.js",
+      "static/chunks/main-app-f6014a01e7c7da91.js",
+      "static/chunks/app/api/admin/password/reset/route-59129df8e7e57320.js"
+    ],
     "/api/env-check/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/env-check/route-59129df8e7e57320.js"
+    ],
+    "/api/instructor/download/route": [
+      "static/chunks/webpack-6b3c4bafba00fe32.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-238f4b7b1124dd2d.js",
+      "static/chunks/main-app-f6014a01e7c7da91.js",
+      "static/chunks/app/api/instructor/download/route-59129df8e7e57320.js"
+    ],
+    "/api/deployment-monitor/route": [
+      "static/chunks/webpack-6b3c4bafba00fe32.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-238f4b7b1124dd2d.js",
+      "static/chunks/main-app-f6014a01e7c7da91.js",
+      "static/chunks/app/api/deployment-monitor/route-59129df8e7e57320.js"
     ],
     "/api/health-check/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -65,12 +72,12 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/health-check/route-59129df8e7e57320.js"
     ],
-    "/api/instructor/download/route": [
+    "/api/instructor/hierarchy/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/instructor/download/route-59129df8e7e57320.js"
+      "static/chunks/app/api/instructor/hierarchy/route-59129df8e7e57320.js"
     ],
     "/api/instructor/report/[reportId]/download/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -100,12 +107,12 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/instructor/student/[studentId]/reports/route-59129df8e7e57320.js"
     ],
-    "/api/instructor/hierarchy/route": [
+    "/api/instructor/hierarchical/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/instructor/hierarchy/route-59129df8e7e57320.js"
+      "static/chunks/app/api/instructor/hierarchical/route-59129df8e7e57320.js"
     ],
     "/api/password-health/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -113,13 +120,6 @@
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/password-health/route-59129df8e7e57320.js"
-    ],
-    "/api/instructor/hierarchical/route": [
-      "static/chunks/webpack-6b3c4bafba00fe32.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-238f4b7b1124dd2d.js",
-      "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/instructor/hierarchical/route-59129df8e7e57320.js"
     ],
     "/api/security-admin/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -135,12 +135,12 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/security-test/route-59129df8e7e57320.js"
     ],
-    "/api/turso-health/route": [
+    "/api/test-user-auth/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/turso-health/route-59129df8e7e57320.js"
+      "static/chunks/app/api/test-user-auth/route-59129df8e7e57320.js"
     ],
     "/api/user/password/change/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -149,12 +149,12 @@
       "static/chunks/main-app-f6014a01e7c7da91.js",
       "static/chunks/app/api/user/password/change/route-59129df8e7e57320.js"
     ],
-    "/api/test-user-auth/route": [
+    "/api/turso-health/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-238f4b7b1124dd2d.js",
       "static/chunks/main-app-f6014a01e7c7da91.js",
-      "static/chunks/app/api/test-user-auth/route-59129df8e7e57320.js"
+      "static/chunks/app/api/turso-health/route-59129df8e7e57320.js"
     ],
     "/api/weekly-reports/route": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
@@ -195,7 +195,7 @@
       "static/chunks/874-e4f7d5eb734e49f8.js",
       "static/chunks/124-63f2fb0f5860effa.js",
       "static/chunks/80-0bdcf87acef927e4.js",
-      "static/chunks/app/dashboard/instructor/page-0fa73b4a8216afc7.js"
+      "static/chunks/app/dashboard/instructor/page-46e6e620ed7fd7b1.js"
     ],
     "/dashboard/profile/page": [
       "static/chunks/webpack-6b3c4bafba00fe32.js",
