@@ -1552,9 +1552,12 @@ export async function getReportsByWeekRange(weekStart: Date, weekEnd: Date): Pro
         u.sede
       FROM ProgressReport pr
       JOIN User u ON pr.userId = u.id
-      WHERE pr.weekStart >= ? AND pr.weekStart <= ?
+      WHERE (
+        -- Check if the report's week range overlaps with the selected week range
+        pr.weekStart <= ? AND pr.weekEnd >= ?
+      )
       ORDER BY pr.weekStart DESC, u.academicYear, pr.subject, u.division, u.name
-    `, [startStr, endStr]);
+    `, [endStr, startStr]);
     
     console.log('✅ Found', result.rows.length, 'reports in week range');
     
