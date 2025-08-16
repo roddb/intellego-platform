@@ -79,3 +79,10 @@ final-*.js
 database-*.js
 *-audit*.js
 timestamp-audit-results.json
+
+# Organized project structure
+/temp-scripts/          # Temporary and testing scripts
+/logs/                  # Log files and debugging output
+/backups/*.json         # Backup files (exclude sensitive production backups)
+/backups/*.sql          # Database dumps (exclude sensitive data)
+/documentation/reports/ # Generated reports (some may contain sensitive data)

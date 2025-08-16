@@ -72,12 +72,12 @@ export async function POST(request: NextRequest) {
       name,
       email,
       password,
-      role: 'STUDENT', // Always student
+      role: 'STUDENT',
       studentId,
       sede,
       academicYear,
       division,
-      subjects: subjects // Store as comma-separated string
+      subjects
     })
     console.log('✅ User created successfully:', newUser?.id)
 
