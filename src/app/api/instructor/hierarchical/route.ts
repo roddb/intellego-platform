@@ -22,7 +22,9 @@ import {
   generateCompleteHierarchicalJSON,
   generateStudentSubjectJSON,
   generateReportJSON,
-  getReportWithAnswers
+  getReportWithAnswers,
+  getHierarchicalReportsByWeek,
+  generateWeeklyDownloadJSON
 } from '@/lib/db-operations';
 
 export async function GET(request: Request) {
@@ -289,9 +291,113 @@ export async function GET(request: Request) {
           timestamp: new Date().toISOString()
         });
 
+      case 'weekly-preview':
+        // Get weekly reports preview data
+        const previewWeekStart = searchParams.get('weekStart');
+        const previewWeekEnd = searchParams.get('weekEnd');
+
+        if (!previewWeekStart || !previewWeekEnd) {
+          return NextResponse.json(
+            { error: 'weekStart and weekEnd parameters are required for weekly-preview action' },
+            { status: 400 }
+          );
+        }
+
+        // Validate date format and range
+        const previewStartDate = new Date(previewWeekStart);
+        const previewEndDate = new Date(previewWeekEnd);
+
+        if (isNaN(previewStartDate.getTime()) || isNaN(previewEndDate.getTime())) {
+          return NextResponse.json(
+            { error: 'Invalid date format. Use YYYY-MM-DD format.' },
+            { status: 400 }
+          );
+        }
+
+        if (previewEndDate <= previewStartDate) {
+          return NextResponse.json(
+            { error: 'weekEnd must be after weekStart' },
+            { status: 400 }
+          );
+        }
+
+        try {
+          const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(previewStartDate, previewEndDate);
+          
+          return NextResponse.json({ 
+            success: true, 
+            data: {
+              hierarchicalData,
+              weekMetadata,
+              weekStart: previewWeekStart,
+              weekEnd: previewWeekEnd
+            },
+            timestamp: new Date().toISOString()
+          });
+        } catch (error) {
+          console.error('Weekly preview error:', error);
+          return NextResponse.json(
+            { error: 'Failed to generate weekly preview' },
+            { status: 500 }
+          );
+        }
+
+      case 'weekly-download':
+        // Get weekly reports for download
+        const downloadWeekStart = searchParams.get('weekStart');
+        const downloadWeekEnd = searchParams.get('weekEnd');
+        const downloadFormat = searchParams.get('format') || 'json';
+
+        if (!downloadWeekStart || !downloadWeekEnd) {
+          return NextResponse.json(
+            { error: 'weekStart and weekEnd parameters are required for weekly-download action' },
+            { status: 400 }
+          );
+        }
+
+        // Validate date format and range
+        const downloadStartDate = new Date(downloadWeekStart);
+        const downloadEndDate = new Date(downloadWeekEnd);
+
+        if (isNaN(downloadStartDate.getTime()) || isNaN(downloadEndDate.getTime())) {
+          return NextResponse.json(
+            { error: 'Invalid date format. Use YYYY-MM-DD format.' },
+            { status: 400 }
+          );
+        }
+
+        if (downloadEndDate <= downloadStartDate) {
+          return NextResponse.json(
+            { error: 'weekEnd must be after weekStart' },
+            { status: 400 }
+          );
+        }
+
+        // Log the export action
+        logExportAction('weekly-download', downloadFormat, session.user.id, session.user.email || 'unknown');
+
+        try {
+          const jsonData = await generateWeeklyDownloadJSON(downloadStartDate, downloadEndDate);
+          const filename = `weekly-report-${downloadWeekStart}-to-${downloadWeekEnd}.${downloadFormat}`;
+          
+          return new NextResponse(jsonData, {
+            status: 200,
+            headers: {
+              'Content-Type': 'application/json',
+              'Content-Disposition': `attachment; filename="${filename}"`
+            }
+          });
+        } catch (error) {
+          console.error('Weekly download error:', error);
+          return NextResponse.json(
+            { error: 'Failed to generate weekly download' },
+            { status: 500 }
+          );
+        }
+
       default:
         return NextResponse.json(
-          { error: 'Invalid action parameter. Supported actions: navigation, subjects, years, courses, students, student-reports, subject-statistics, complete, export-complete, export-student-subject, export-report, report-details' },
+          { error: 'Invalid action parameter. Supported actions: navigation, subjects, years, courses, students, student-reports, subject-statistics, complete, export-complete, export-student-subject, export-report, report-details, weekly-preview, weekly-download' },
           { status: 400 }
         );
     }

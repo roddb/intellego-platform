@@ -216,7 +216,123 @@ example_usage:
     validation: "Credentials removed, new tokens generated, no data breach"
 ```
 
-### 5. DEPLOYMENT WORKFLOW
+### 5. PRODUCTION BUG FIX WORKFLOW (REFINED)
+
+```yaml
+workflow_type: production_bug_fix
+trigger: "User reports bug affecting production users"
+priority: "HIGH - Real users affected"
+
+step_1_context_verification:
+  agent: diagnosis-specialist
+  required_actions:
+    - Verify if issue affects production (not local development)
+    - Determine number of users affected
+    - Check if issue is reproducible in production environment
+    - Assess urgency level (LOW/MEDIUM/HIGH/CRITICAL)
+  mandatory_checks:
+    - [ ] "Is this a production issue affecting real users?"
+    - [ ] "Can I reproduce this exact error in production?"
+    - [ ] "What is the business impact?"
+  deliverable: "Context verification report"
+
+step_2_comprehensive_diagnosis:
+  agent: diagnosis-specialist
+  required_actions:
+    - Test the exact user scenario in production
+    - Create debug endpoints if needed for deeper analysis
+    - Identify ALL root causes, not just the first one found
+    - Map dependencies and potential side effects
+    - Analyze production logs and error traces
+  mandatory_checks:
+    - [ ] "Have I reproduced the exact user error?"
+    - [ ] "Have I identified ALL contributing factors?"
+    - [ ] "Have I checked for related issues?"
+    - [ ] "Do I understand the complete failure chain?"
+  deliverable: "Complete root cause analysis with ALL issues listed"
+  red_flags:
+    - Stopping at first issue found
+    - Testing only locally
+    - Assuming without verifying
+
+step_3_comprehensive_planning:
+  orchestrator: claude_primary
+  required_inputs: [context_verification, root_cause_analysis]
+  actions:
+    - List ALL problems in order of dependency
+    - Plan fixes in correct sequence
+    - Define specific validation for each fix
+    - Prepare rollback strategy for each change
+    - Estimate time to resolution
+  mandatory_checks:
+    - [ ] "Are fixes ordered by dependency?"
+    - [ ] "Is each fix independently validatable?"
+    - [ ] "Do I have rollback plan for each change?"
+  deliverable: "Sequential fix plan with validation checkpoints"
+
+step_4_incremental_implementation:
+  pattern: "Fix → Deploy → Validate → Next Fix"
+  agents: [selected_specialists]
+  for_each_fix:
+    implementation:
+      - Code the fix
+      - Build successfully
+      - Commit and push to production
+      - Wait for deployment (60+ seconds)
+    validation:
+      - Test exact fix in production
+      - Verify no new issues introduced
+      - Check related functionality still works
+    checkpoint: "STOP if validation fails - re-diagnose before continuing"
+  red_flags:
+    - Implementing multiple fixes before validating
+    - Testing only locally
+    - Continuing after failed validation
+
+step_5_end_to_end_validation:
+  agent: production-validator
+  required_actions:
+    - Test original user scenario - must work 100%
+    - Test related scenarios to ensure no regressions
+    - Monitor system performance and error rates
+    - Verify logs show no new errors
+    - Confirm user can complete their original task
+  mandatory_checks:
+    - [ ] "Original user scenario works perfectly"
+    - [ ] "No regressions in related functionality"
+    - [ ] "System performance is acceptable"
+    - [ ] "Error logs are clean"
+  deliverable: "Complete system validation report"
+  success_criteria: "User can complete their original task without any errors"
+
+step_6_user_confirmation:
+  required_actions:
+    - Provide clear update to user
+    - Include specific test results
+    - Explain what was fixed
+    - Provide any necessary new instructions
+  deliverable: "User notification with test evidence"
+
+example_usage:
+  user_request: "Student Catalina Parker cannot register - getting 'Error interno del servidor'"
+  workflow_execution:
+    context: "Production registration system affecting new students"
+    diagnosis: "Found import errors AND UNIQUE constraint conflict in studentId generation"
+    plan: "Fix 1: Correct imports, Fix 2: Fix generateStudentId algorithm"
+    implementation: 
+      - "Fix imports → deploy → test → SUCCESS"
+      - "Fix studentId → deploy → test → SUCCESS"
+    validation: "Catalina Parker successfully registered with EST-2025-1003"
+    user_update: "Registration working, account created, here are login credentials"
+
+critical_success_factors:
+  - "NEVER declare resolved without production validation"
+  - "ALWAYS fix in production environment for production issues"
+  - "STOP and re-diagnose if any step fails"
+  - "Validate after EACH change, not at the end"
+```
+
+### 6. DEPLOYMENT WORKFLOW
 
 ```yaml
 workflow_type: deployment

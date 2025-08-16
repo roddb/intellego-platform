@@ -344,7 +344,47 @@ curl -s http://localhost:3000/api/auth/providers > /dev/null && echo "✅ Server
 
 **NEW DEVELOPMENT PROTOCOL**: All development MUST use specialized agents following diagnosis-first workflow.
 
-**Complete Development Cycle:**
+### 🚨 **PRODUCTION-FIRST PROTOCOL FOR BUG FIXES**
+
+**For production issues affecting real users, use REFINED Production Bug Fix Workflow:**
+
+```bash
+# 1. CONTEXT VERIFICATION (Always first for production issues)
+"User reports production issue" 
+→ diagnosis-specialist verifies: Is this affecting production users?
+→ Test exact user scenario in production environment
+→ Confirm business impact and urgency
+
+# 2. COMPREHENSIVE DIAGNOSIS (NEVER stop at first issue found)
+→ diagnosis-specialist identifies ALL root causes
+→ Maps complete failure chain and dependencies
+→ Tests every suspected issue in production
+→ Creates complete inventory of problems
+
+# 3. SEQUENTIAL PLANNING
+→ Claude primary agent orders fixes by dependency
+→ Plans Fix → Deploy → Validate → Next Fix cycle
+→ Defines specific validation for each change
+
+# 4. INCREMENTAL IMPLEMENTATION
+→ Fix ONE issue → Commit/Push → Deploy → Validate in production
+→ IF validation fails: STOP and re-diagnose
+→ IF validation succeeds: Continue to next issue
+→ NEVER implement multiple fixes before validating
+
+# 5. PRODUCTION VALIDATION (NEW - Mandatory)
+→ production-validator tests exact user scenario
+→ Verifies no regressions in related functionality
+→ Confirms system performance and stability
+→ Must PASS before declaring resolved
+
+# 6. USER CONFIRMATION
+→ Provide evidence of successful fix
+→ Include test results and validation proof
+→ ONLY declare "resolved" after production validation
+```
+
+### 🎯 **Standard Development Cycle (Non-production issues):**
 ```bash
 # 1. DIAGNOSIS PHASE (Always first)
 "I need to implement [feature]" 
@@ -372,6 +412,20 @@ curl -s http://localhost:3000/api/auth/providers > /dev/null && echo "✅ Server
 → Monitors deployment success
 → Executes rollback if issues arise
 ```
+
+### 🔍 **Workflow Selection Criteria**
+
+**Use PRODUCTION-FIRST workflow when:**
+- User reports error affecting production platform
+- Real users cannot complete their tasks
+- Production data or functionality is impacted
+- Error messages or failures occur in live environment
+
+**Use STANDARD workflow when:**
+- Implementing new features
+- Enhancement requests
+- Local development issues
+- Non-urgent improvements
 
 ### 🎯 **WORKFLOW SELECTOR RÁPIDO**
 

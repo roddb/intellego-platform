@@ -1458,6 +1458,406 @@ export function generateReportFilename(student: HierarchicalStudent, subject: st
 }
 
 // =====================================================================================
+// WEEKLY RANGE REPORTING OPERATIONS
+// Functions for querying and organizing reports by week ranges
+// =====================================================================================
+
+/**
+ * Interface for basic report information with user details
+ */
+export interface WeekRangeReport {
+  id: string;
+  userId: string;
+  subject: string;
+  weekStart: string;
+  weekEnd: string;
+  submittedAt: string;
+  userName: string;
+  userEmail: string;
+  studentId: string;
+  academicYear: string;
+  division: string;
+  sede: string;
+}
+
+/**
+ * Interface for weekly download JSON structure
+ */
+export interface WeeklyDownloadData {
+  metadata: {
+    weekStart: string;
+    weekEnd: string;
+    generatedAt: string;
+    totalReports: number;
+    totalStudents: number;
+    completionRate: number;
+  };
+  summary: {
+    bySubject: { [subject: string]: number };
+    byYear: { [year: string]: number };
+    bySede: { [sede: string]: number };
+  };
+  hierarchicalData: {
+    [year: string]: {
+      [subject: string]: {
+        [course: string]: {
+          students: {
+            id: string;
+            name: string;
+            email: string;
+            studentId: string;
+            sede: string;
+            academicYear: string;
+            division: string;
+            report?: {
+              id: string;
+              submittedAt: string;
+              answers: { [questionId: string]: string };
+            };
+          }[];
+          reportCount: number;
+          studentCount: number;
+        };
+      };
+    };
+  };
+}
+
+/**
+ * Get all progress reports within a specific week range with user information
+ * @param weekStart Start date of the week range
+ * @param weekEnd End date of the week range
+ * @returns Array of reports with basic info and user details
+ */
+export async function getReportsByWeekRange(weekStart: Date, weekEnd: Date): Promise<WeekRangeReport[]> {
+  try {
+    const startStr = weekStart.toISOString();
+    const endStr = weekEnd.toISOString();
+    
+    console.log('🔍 Querying reports for week range:', { weekStart: startStr, weekEnd: endStr });
+    
+    const result = await query(`
+      SELECT 
+        pr.id,
+        pr.userId,
+        pr.subject,
+        pr.weekStart,
+        pr.weekEnd,
+        pr.submittedAt,
+        u.name as userName,
+        u.email as userEmail,
+        u.studentId,
+        u.academicYear,
+        u.division,
+        u.sede
+      FROM ProgressReport pr
+      JOIN User u ON pr.userId = u.id
+      WHERE pr.weekStart >= ? AND pr.weekStart <= ?
+      ORDER BY pr.weekStart DESC, u.academicYear, pr.subject, u.division, u.name
+    `, [startStr, endStr]);
+    
+    console.log('✅ Found', result.rows.length, 'reports in week range');
+    
+    return result.rows.map(row => ({
+      id: String(row.id),
+      userId: String(row.userId),
+      subject: String(row.subject),
+      weekStart: String(row.weekStart),
+      weekEnd: String(row.weekEnd),
+      submittedAt: String(row.submittedAt),
+      userName: String(row.userName),
+      userEmail: String(row.userEmail),
+      studentId: String(row.studentId || ''),
+      academicYear: String(row.academicYear || ''),
+      division: String(row.division || ''),
+      sede: String(row.sede || '')
+    }));
+  } catch (error) {
+    console.error('Error getting reports by week range:', error);
+    throw error;
+  }
+}
+
+/**
+ * Get all reports for a week organized hierarchically by Year → Subject → Course → Students
+ * @param weekStart Start date of the week
+ * @param weekEnd End date of the week
+ * @returns Hierarchical organization with aggregated statistics
+ */
+export async function getHierarchicalReportsByWeek(weekStart: Date, weekEnd: Date): Promise<{
+  data: HierarchicalInstructorData;
+  weekMetadata: {
+    weekStart: string;
+    weekEnd: string;
+    totalReports: number;
+    totalStudents: number;
+    completionRate: number;
+  };
+}> {
+  try {
+    console.log('🔍 Building hierarchical reports for week:', { weekStart, weekEnd });
+    
+    // Get all reports for the week
+    const reports = await getReportsByWeekRange(weekStart, weekEnd);
+    
+    // Get all unique students who could have submitted in this week
+    // This helps calculate completion rate
+    const allStudentsResult = await query(`
+      SELECT DISTINCT u.id, u.academicYear, u.division, u.sede, u.subjects
+      FROM User u
+      WHERE u.role = 'STUDENT' AND u.status = 'ACTIVE'
+    `);
+    
+    const hierarchicalData: HierarchicalInstructorData = {
+      subjects: {},
+      summary: {
+        totalSubjects: 0,
+        totalStudents: 0,
+        totalReports: reports.length,
+        totalYears: 0,
+        totalCourses: 0
+      }
+    };
+    
+    // Build hierarchical structure
+    const processedStudents = new Set<string>();
+    
+    for (const report of reports) {
+      const { subject, academicYear, division } = report;
+      
+      // Initialize subject if not exists
+      if (!hierarchicalData.subjects[subject]) {
+        hierarchicalData.subjects[subject] = {
+          subject,
+          years: {},
+          totalStudents: 0,
+          totalReports: 0
+        };
+      }
+      
+      // Initialize year if not exists
+      if (!hierarchicalData.subjects[subject].years[academicYear]) {
+        hierarchicalData.subjects[subject].years[academicYear] = {
+          academicYear,
+          courses: {},
+          studentCount: 0,
+          totalReports: 0
+        };
+      }
+      
+      // Initialize course if not exists
+      if (!hierarchicalData.subjects[subject].years[academicYear].courses[division]) {
+        hierarchicalData.subjects[subject].years[academicYear].courses[division] = {
+          division,
+          studentCount: 0,
+          students: [],
+          totalReports: 0
+        };
+      }
+      
+      const course = hierarchicalData.subjects[subject].years[academicYear].courses[division];
+      
+      // Check if student already exists in this course
+      let student = course.students.find(s => s.id === report.userId);
+      if (!student) {
+        const newStudent: HierarchicalStudentWithReports = {
+          id: report.userId,
+          name: report.userName,
+          email: report.userEmail,
+          studentId: report.studentId,
+          sede: report.sede,
+          academicYear: report.academicYear,
+          division: report.division,
+          subjects: [], // Will be populated if needed
+          reportCount: 0,
+          weeklyReports: [], // Initialize empty reports array
+          completedWeeks: 0   // Initialize completed weeks
+        };
+        course.students.push(newStudent);
+        course.studentCount++;
+        processedStudents.add(report.userId);
+        student = newStudent;
+      }
+      
+      student.reportCount++;
+      student.completedWeeks++; // Update completed weeks for consistency
+      course.totalReports++;
+      hierarchicalData.subjects[subject].years[academicYear].totalReports++;
+      hierarchicalData.subjects[subject].totalReports++;
+    }
+    
+    // Calculate summary statistics
+    hierarchicalData.summary.totalSubjects = Object.keys(hierarchicalData.subjects).length;
+    hierarchicalData.summary.totalStudents = processedStudents.size;
+    
+    let totalYears = 0;
+    let totalCourses = 0;
+    
+    for (const subject of Object.values(hierarchicalData.subjects)) {
+      const yearsCount = Object.keys(subject.years).length;
+      totalYears += yearsCount;
+      
+      for (const year of Object.values(subject.years)) {
+        totalCourses += Object.keys(year.courses).length;
+        subject.totalStudents += year.studentCount;
+      }
+    }
+    
+    hierarchicalData.summary.totalYears = totalYears;
+    hierarchicalData.summary.totalCourses = totalCourses;
+    
+    // Calculate completion rate (reports vs potential reports)
+    const totalPotentialReports = allStudentsResult.rows.length; // Simplified - could be more complex
+    const completionRate = totalPotentialReports > 0 
+      ? Math.round((reports.length / totalPotentialReports) * 100) 
+      : 0;
+    
+    const weekMetadata = {
+      weekStart: weekStart.toISOString(),
+      weekEnd: weekEnd.toISOString(),
+      totalReports: reports.length,
+      totalStudents: processedStudents.size,
+      completionRate
+    };
+    
+    console.log('✅ Built hierarchical data:', {
+      subjects: hierarchicalData.summary.totalSubjects,
+      students: hierarchicalData.summary.totalStudents,
+      reports: hierarchicalData.summary.totalReports,
+      completionRate
+    });
+    
+    return {
+      data: hierarchicalData,
+      weekMetadata
+    };
+  } catch (error) {
+    console.error('Error getting hierarchical reports by week:', error);
+    throw error;
+  }
+}
+
+/**
+ * Generate a complete JSON export for a specific week with full hierarchical organization
+ * @param weekStart Start date of the week
+ * @param weekEnd End date of the week
+ * @returns Complete JSON export string
+ */
+export async function generateWeeklyDownloadJSON(weekStart: Date, weekEnd: Date): Promise<string> {
+  try {
+    console.log('🔍 Generating weekly download JSON for:', { weekStart, weekEnd });
+    
+    // Get hierarchical data
+    const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(weekStart, weekEnd);
+    
+    // Get all reports with answers for detailed export
+    const reports = await getReportsByWeekRange(weekStart, weekEnd);
+    
+    // Build the download structure
+    const downloadData: WeeklyDownloadData = {
+      metadata: {
+        weekStart: weekStart.toISOString(),
+        weekEnd: weekEnd.toISOString(),
+        generatedAt: new Date().toISOString(),
+        totalReports: weekMetadata.totalReports,
+        totalStudents: weekMetadata.totalStudents,
+        completionRate: weekMetadata.completionRate
+      },
+      summary: {
+        bySubject: {},
+        byYear: {},
+        bySede: {}
+      },
+      hierarchicalData: {}
+    };
+    
+    // Calculate summary statistics
+    for (const report of reports) {
+      // By subject
+      downloadData.summary.bySubject[report.subject] = 
+        (downloadData.summary.bySubject[report.subject] || 0) + 1;
+      
+      // By year
+      downloadData.summary.byYear[report.academicYear] = 
+        (downloadData.summary.byYear[report.academicYear] || 0) + 1;
+      
+      // By sede
+      downloadData.summary.bySede[report.sede] = 
+        (downloadData.summary.bySede[report.sede] || 0) + 1;
+    }
+    
+    // Build hierarchical data with answers
+    for (const [subjectName, subject] of Object.entries(hierarchicalData.subjects)) {
+      for (const [yearName, year] of Object.entries(subject.years)) {
+        if (!downloadData.hierarchicalData[yearName]) {
+          downloadData.hierarchicalData[yearName] = {};
+        }
+        
+        if (!downloadData.hierarchicalData[yearName][subjectName]) {
+          downloadData.hierarchicalData[yearName][subjectName] = {};
+        }
+        
+        for (const [courseName, course] of Object.entries(year.courses)) {
+          downloadData.hierarchicalData[yearName][subjectName][courseName] = {
+            students: [],
+            reportCount: course.totalReports,
+            studentCount: course.studentCount
+          };
+          
+          // Add student data with their reports and answers
+          for (const student of course.students) {
+            // Find the student's report for this week and subject
+            const studentReport = reports.find(r => 
+              r.userId === student.id && r.subject === subjectName
+            );
+            
+            const studentData: any = {
+              id: student.id,
+              name: student.name,
+              email: student.email,
+              studentId: student.studentId,
+              sede: student.sede,
+              academicYear: student.academicYear,
+              division: student.division
+            };
+            
+            if (studentReport) {
+              // Get answers for this report
+              const answersResult = await query(`
+                SELECT questionId, answer
+                FROM Answer
+                WHERE progressReportId = ?
+                ORDER BY questionId
+              `, [studentReport.id]);
+              
+              const answers: { [questionId: string]: string } = {};
+              for (const answerRow of answersResult.rows) {
+                answers[String(answerRow.questionId)] = String(answerRow.answer);
+              }
+              
+              studentData.report = {
+                id: studentReport.id,
+                submittedAt: studentReport.submittedAt,
+                answers
+              };
+            }
+            
+            downloadData.hierarchicalData[yearName][subjectName][courseName].students.push(studentData);
+          }
+        }
+      }
+    }
+    
+    console.log('✅ Generated weekly download JSON with', Object.keys(downloadData.hierarchicalData).length, 'years');
+    
+    return JSON.stringify(downloadData, null, 2);
+  } catch (error) {
+    console.error('Error generating weekly download JSON:', error);
+    throw error;
+  }
+}
+
+// =====================================================================================
 // PASSWORD MANAGEMENT & AUDIT OPERATIONS
 // Comprehensive password change tracking and security audit functions
 // =====================================================================================

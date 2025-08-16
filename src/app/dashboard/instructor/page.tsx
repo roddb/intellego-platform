@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import PasswordResetModal from "@/components/instructor/PasswordResetModal"
+import { WeeklyDownloadModal } from "@/components/instructor"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
 // Hierarchical data interfaces - Force deployment for timezone fix
@@ -89,6 +90,7 @@ export default function InstructorDashboard() {
   const [loadingAction, setLoadingAction] = useState<string>('')
   const [isPasswordResetModalOpen, setIsPasswordResetModalOpen] = useState(false)
   const [studentForPasswordReset, setStudentForPasswordReset] = useState<HierarchicalStudent | null>(null)
+  const [isWeeklyDownloadModalOpen, setIsWeeklyDownloadModalOpen] = useState(false)
 
   useEffect(() => {
     if (status === "loading") return
@@ -454,6 +456,16 @@ export default function InstructorDashboard() {
               
               <div className="flex flex-wrap gap-2">
                 <button
+                  onClick={() => setIsWeeklyDownloadModalOpen(true)}
+                  className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium flex items-center gap-2"
+                  title="Descargar reportes por semana específica"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  Descarga Semanal
+                </button>
+                <button
                   onClick={() => downloadReports('json')}
                   disabled={!selectedStudent}
                   className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors text-sm disabled:bg-slate-300 disabled:cursor-not-allowed"
@@ -671,6 +683,16 @@ export default function InstructorDashboard() {
           student={studentForPasswordReset}
           onSuccess={(student) => handlePasswordResetSuccess(student as HierarchicalStudent)}
           onError={handlePasswordResetError}
+        />
+
+        {/* Weekly Download Modal */}
+        <WeeklyDownloadModal
+          isOpen={isWeeklyDownloadModalOpen}
+          onClose={() => setIsWeeklyDownloadModalOpen(false)}
+          selectedSubject={selectedSubject}
+          sede="N/A" // TODO: Get from user session or selected student
+          academicYear={selectedYear}
+          division={selectedCourse}
         />
       </main>
     </div>
