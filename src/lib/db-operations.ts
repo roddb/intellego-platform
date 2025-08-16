@@ -1527,15 +1527,55 @@ export interface WeeklyDownloadData {
  * Get all progress reports within a specific week range with user information
  * @param weekStart Start date of the week range
  * @param weekEnd End date of the week range
+ * @param filters Optional filters for subject, academicYear, division, sede
  * @returns Array of reports with basic info and user details
  */
-export async function getReportsByWeekRange(weekStart: Date, weekEnd: Date): Promise<WeekRangeReport[]> {
+export async function getReportsByWeekRange(
+  weekStart: Date, 
+  weekEnd: Date,
+  filters?: {
+    subject?: string;
+    academicYear?: string;
+    division?: string;
+    sede?: string;
+  }
+): Promise<WeekRangeReport[]> {
   try {
     const startStr = weekStart.toISOString();
     const endStr = weekEnd.toISOString();
     
-    console.log('🔍 Querying reports for week range:', { weekStart: startStr, weekEnd: endStr });
+    // Build WHERE clause with optional filters
+    const whereConditions = [
+      '(pr.weekStart <= ? AND pr.weekEnd >= ?)'
+    ];
+    const queryParams = [endStr, startStr];
     
+    if (filters?.subject) {
+      whereConditions.push('pr.subject = ?');
+      queryParams.push(filters.subject);
+    }
+    
+    if (filters?.academicYear) {
+      whereConditions.push('u.academicYear = ?');
+      queryParams.push(filters.academicYear);
+    }
+    
+    if (filters?.division) {
+      whereConditions.push('u.division = ?');
+      queryParams.push(filters.division);
+    }
+    
+    if (filters?.sede) {
+      whereConditions.push('u.sede = ?');
+      queryParams.push(filters.sede);
+    }
+
+    console.log('🔍 Querying reports for week range with filters:', { 
+      weekStart: startStr, 
+      weekEnd: endStr,
+      filters: filters || 'none'
+    });
+
     const result = await query(`
       SELECT 
         pr.id,
@@ -1552,12 +1592,9 @@ export async function getReportsByWeekRange(weekStart: Date, weekEnd: Date): Pro
         u.sede
       FROM ProgressReport pr
       JOIN User u ON pr.userId = u.id
-      WHERE (
-        -- Check if the report's week range overlaps with the selected week range
-        pr.weekStart <= ? AND pr.weekEnd >= ?
-      )
+      WHERE ${whereConditions.join(' AND ')}
       ORDER BY pr.weekStart DESC, u.academicYear, pr.subject, u.division, u.name
-    `, [endStr, startStr]);
+    `, queryParams);
     
     console.log('✅ Found', result.rows.length, 'reports in week range');
     
@@ -1585,9 +1622,19 @@ export async function getReportsByWeekRange(weekStart: Date, weekEnd: Date): Pro
  * Get all reports for a week organized hierarchically by Year → Subject → Course → Students
  * @param weekStart Start date of the week
  * @param weekEnd End date of the week
+ * @param filters Optional filters for subject, academicYear, division, sede
  * @returns Hierarchical organization with aggregated statistics
  */
-export async function getHierarchicalReportsByWeek(weekStart: Date, weekEnd: Date): Promise<{
+export async function getHierarchicalReportsByWeek(
+  weekStart: Date, 
+  weekEnd: Date,
+  filters?: {
+    subject?: string;
+    academicYear?: string;
+    division?: string;
+    sede?: string;
+  }
+): Promise<{
   data: HierarchicalInstructorData;
   weekMetadata: {
     weekStart: string;
@@ -1598,18 +1645,45 @@ export async function getHierarchicalReportsByWeek(weekStart: Date, weekEnd: Dat
   };
 }> {
   try {
-    console.log('🔍 Building hierarchical reports for week:', { weekStart, weekEnd });
+    console.log('🔍 Building hierarchical reports for week:', { weekStart, weekEnd, filters: filters || 'none' });
     
-    // Get all reports for the week
-    const reports = await getReportsByWeekRange(weekStart, weekEnd);
+    // Get all reports for the week with filters
+    const reports = await getReportsByWeekRange(weekStart, weekEnd, filters);
     
-    // Get all unique students who could have submitted in this week
-    // This helps calculate completion rate
+    // Get all unique students who could have submitted in this week (with filters)
+    // This helps calculate completion rate accurately
+    const studentWhereConditions = [
+      "u.role = 'STUDENT'",
+      "u.status = 'ACTIVE'"
+    ];
+    const studentQueryParams: string[] = [];
+    
+    if (filters?.academicYear) {
+      studentWhereConditions.push('u.academicYear = ?');
+      studentQueryParams.push(filters.academicYear);
+    }
+    
+    if (filters?.division) {
+      studentWhereConditions.push('u.division = ?');
+      studentQueryParams.push(filters.division);
+    }
+    
+    if (filters?.sede) {
+      studentWhereConditions.push('u.sede = ?');
+      studentQueryParams.push(filters.sede);
+    }
+    
+    // For subject filtering, we need to check if the subject is in the student's subjects JSON
+    if (filters?.subject) {
+      studentWhereConditions.push("(u.subjects LIKE ? OR u.subjects IS NULL)");
+      studentQueryParams.push(`%"${filters.subject}"%`);
+    }
+
     const allStudentsResult = await query(`
       SELECT DISTINCT u.id, u.academicYear, u.division, u.sede, u.subjects
       FROM User u
-      WHERE u.role = 'STUDENT' AND u.status = 'ACTIVE'
-    `);
+      WHERE ${studentWhereConditions.join(' AND ')}
+    `, studentQueryParams);
     
     const hierarchicalData: HierarchicalInstructorData = {
       subjects: {},
@@ -1744,17 +1818,27 @@ export async function getHierarchicalReportsByWeek(weekStart: Date, weekEnd: Dat
  * Generate a complete JSON export for a specific week with full hierarchical organization
  * @param weekStart Start date of the week
  * @param weekEnd End date of the week
+ * @param filters Optional filters for subject, academicYear, division, sede
  * @returns Complete JSON export string
  */
-export async function generateWeeklyDownloadJSON(weekStart: Date, weekEnd: Date): Promise<string> {
+export async function generateWeeklyDownloadJSON(
+  weekStart: Date, 
+  weekEnd: Date,
+  filters?: {
+    subject?: string;
+    academicYear?: string;
+    division?: string;
+    sede?: string;
+  }
+): Promise<string> {
   try {
     console.log('🔍 Generating weekly download JSON for:', { weekStart, weekEnd });
     
     // Get hierarchical data
-    const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(weekStart, weekEnd);
+    const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(weekStart, weekEnd, filters);
     
     // Get all reports with answers for detailed export
-    const reports = await getReportsByWeekRange(weekStart, weekEnd);
+    const reports = await getReportsByWeekRange(weekStart, weekEnd, filters);
     
     // Build the download structure
     const downloadData: WeeklyDownloadData = {

@@ -295,6 +295,12 @@ export async function GET(request: Request) {
         // Get weekly reports preview data
         const previewWeekStart = searchParams.get('weekStart');
         const previewWeekEnd = searchParams.get('weekEnd');
+        
+        // Capture filter parameters
+        const previewSubject = searchParams.get('subject');
+        const previewSede = searchParams.get('sede');
+        const previewAcademicYear = searchParams.get('academicYear');
+        const previewDivision = searchParams.get('division');
 
         if (!previewWeekStart || !previewWeekEnd) {
           return NextResponse.json(
@@ -321,8 +327,16 @@ export async function GET(request: Request) {
           );
         }
 
+        // Prepare filters object
+        const previewFilters = {
+          subject: previewSubject || undefined,
+          sede: previewSede || undefined,
+          academicYear: previewAcademicYear || undefined,
+          division: previewDivision || undefined,
+        };
+
         try {
-          const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(previewStartDate, previewEndDate);
+          const { data: hierarchicalData, weekMetadata } = await getHierarchicalReportsByWeek(previewStartDate, previewEndDate, previewFilters);
           
           return NextResponse.json({ 
             success: true, 
@@ -330,7 +344,8 @@ export async function GET(request: Request) {
               hierarchicalData,
               weekMetadata,
               weekStart: previewWeekStart,
-              weekEnd: previewWeekEnd
+              weekEnd: previewWeekEnd,
+              appliedFilters: previewFilters
             },
             timestamp: new Date().toISOString()
           });
@@ -347,6 +362,12 @@ export async function GET(request: Request) {
         const downloadWeekStart = searchParams.get('weekStart');
         const downloadWeekEnd = searchParams.get('weekEnd');
         const downloadFormat = searchParams.get('format') || 'json';
+        
+        // Capture filter parameters
+        const downloadSubject = searchParams.get('subject');
+        const downloadSede = searchParams.get('sede');
+        const downloadAcademicYear = searchParams.get('academicYear');
+        const downloadDivision = searchParams.get('division');
 
         if (!downloadWeekStart || !downloadWeekEnd) {
           return NextResponse.json(
@@ -373,11 +394,23 @@ export async function GET(request: Request) {
           );
         }
 
-        // Log the export action
-        logExportAction('weekly-download', downloadFormat, session.user.id, session.user.email || 'unknown');
+        // Prepare filters object
+        const downloadFilters = {
+          subject: downloadSubject || undefined,
+          sede: downloadSede || undefined,
+          academicYear: downloadAcademicYear || undefined,
+          division: downloadDivision || undefined,
+        };
+
+        // Log the export action with filter info
+        const filterInfo = Object.entries(downloadFilters)
+          .filter(([, value]) => value)
+          .map(([key, value]) => `${key}:${value}`)
+          .join(', ');
+        logExportAction('weekly-download', `${downloadFormat}${filterInfo ? ` (${filterInfo})` : ''}`, session.user.id, session.user.email || 'unknown');
 
         try {
-          const jsonData = await generateWeeklyDownloadJSON(downloadStartDate, downloadEndDate);
+          const jsonData = await generateWeeklyDownloadJSON(downloadStartDate, downloadEndDate, downloadFilters);
           const filename = `weekly-report-${downloadWeekStart}-to-${downloadWeekEnd}.${downloadFormat}`;
           
           return new NextResponse(jsonData, {
