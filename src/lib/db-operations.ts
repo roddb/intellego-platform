@@ -109,20 +109,30 @@ export async function generateStudentId(): Promise<string> {
     const year = new Date().getFullYear();
     const prefix = `EST-${year}-`;
     
-    // Find the highest existing student ID for this year
+    // Find all existing student IDs for this year and get the highest number
     const result = await query(`
       SELECT studentId FROM User 
-      WHERE studentId LIKE ? 
-      ORDER BY studentId DESC 
-      LIMIT 1
+      WHERE studentId LIKE ?
     `, [`${prefix}%`]);
     
-    let nextNumber = 1;
-    if (result.rows.length > 0 && result.rows[0].studentId) {
-      const lastNumber = parseInt(String(result.rows[0].studentId).split('-')[2]);
-      nextNumber = lastNumber + 1;
+    let maxNumber = 0;
+    
+    // Parse all student IDs to find the highest number
+    if (result.rows.length > 0) {
+      for (const row of result.rows) {
+        if (row.studentId) {
+          const parts = String(row.studentId).split('-');
+          if (parts.length === 3 && parts[0] === 'EST' && parts[1] === String(year)) {
+            const number = parseInt(parts[2]);
+            if (!isNaN(number) && number > maxNumber) {
+              maxNumber = number;
+            }
+          }
+        }
+      }
     }
     
+    const nextNumber = maxNumber + 1;
     return `${prefix}${nextNumber.toString().padStart(3, '0')}`;
   } catch (error) {
     console.error('Error generating student ID:', error)
