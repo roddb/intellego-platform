@@ -37,7 +37,11 @@ interface ErrorState {
 const getWeekRange = (date: Date) => {
   const start = startOfWeek(date, { weekStartsOn: 1 }); // Monday
   const end = endOfWeek(date, { weekStartsOn: 1 }); // Sunday
-  return { start, end };
+  // Normalize to UTC midnight to match database format
+    const startUTC = new Date(Date.UTC(start.getFullYear(), start.getMonth(), start.getDate(), 0, 0, 0, 0));
+    const endUTC = new Date(Date.UTC(end.getFullYear(), end.getMonth(), end.getDate(), 23, 59, 59, 999));
+    
+    return { start: startUTC, end: endUTC };
 };
 
 const formatWeekRange = (start: Date, end: Date) => {
