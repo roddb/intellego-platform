@@ -120,3 +120,41 @@ export function isFutureWeekInArgentina(weekStart: string | Date): boolean {
   
   return start > now;
 }
+
+/**
+ * Get the start of the current week (Monday) in Argentina timezone
+ * Returns a UTC Date object representing Monday 00:00:00 in Argentina time
+ */
+export function getWeekStartInArgentina(date?: Date): Date {
+  const baseDate = date || new Date();
+  
+  // Get Argentina time
+  const argentinaTime = new Date(baseDate.toLocaleString("en-US", {timeZone: "America/Argentina/Buenos_Aires"}));
+  
+  // Calculate Monday of current week
+  const day = argentinaTime.getDay();
+  const diff = argentinaTime.getDate() - day + (day === 0 ? -6 : 1);
+  
+  const monday = new Date(argentinaTime);
+  monday.setDate(diff);
+  monday.setHours(0, 0, 0, 0);
+  
+  // Convert back to UTC while maintaining the Argentina-calculated Monday
+  // This ensures consistency with how the database stores dates
+  const mondayUTC = new Date(monday.toLocaleString("en-US", {timeZone: "UTC"}));
+  
+  return mondayUTC;
+}
+
+/**
+ * Get the end of the current week (Sunday) in Argentina timezone
+ * Returns a UTC Date object representing Sunday 23:59:59 in Argentina time
+ */
+export function getWeekEndInArgentina(date?: Date): Date {
+  const weekStart = getWeekStartInArgentina(date);
+  const weekEnd = new Date(weekStart);
+  weekEnd.setUTCDate(weekStart.getUTCDate() + 6);
+  weekEnd.setUTCHours(23, 59, 59, 999);
+  
+  return weekEnd;
+}

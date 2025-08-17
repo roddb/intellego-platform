@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import { db, query } from './db'; // Use the libSQL client
-import { toArgentinaDate, toArgentinaTimeOnly } from './timezone-utils';
+import { toArgentinaDate, toArgentinaTimeOnly, getWeekStartInArgentina, getWeekEndInArgentina } from './timezone-utils';
 
 // Export db getter and query function for compatibility
 export { db, query };
@@ -279,39 +279,13 @@ export async function getAllQuestions() {
 
 // Date utility functions - FIXED to use Argentina timezone
 export function getCurrentWeekStart(): Date {
-  // Get current UTC time
-  const nowUTC = new Date();
-  
-  // Convert to Argentina timezone (UTC-3)
-  // Create a date object representing the current time in Argentina
-  const argentinaOffset = -3 * 60; // Argentina is UTC-3 (in minutes)
-  const argentinaTime = new Date(nowUTC.getTime() + (argentinaOffset * 60 * 1000));
-  
-  // Calculate Monday of current week in Argentina timezone
-  const day = argentinaTime.getUTCDay(); // Use UTC methods since we manually adjusted for timezone
-  const diff = argentinaTime.getUTCDate() - day + (day === 0 ? -6 : 1);
-  
-  const monday = new Date(argentinaTime);
-  monday.setUTCDate(diff);
-  monday.setUTCHours(0, 0, 0, 0);
-  
-  // Convert back to UTC for storage, but maintain the Argentina-based week calculation
-  const mondayUTC = new Date(monday.getTime() - (argentinaOffset * 60 * 1000));
-  
-  return mondayUTC;
+  // Use the same logic as timezone-utils.ts for consistency
+  return getWeekStartInArgentina(new Date());
 }
 
 export function getCurrentWeekEnd(): Date {
-  const weekStart = getCurrentWeekStart();
-  const weekEnd = new Date(weekStart);
-  weekEnd.setUTCDate(weekStart.getUTCDate() + 6);
-  weekEnd.setUTCHours(23, 59, 59, 999);
-  
-  // Ensure we're still in Argentina timezone for the end boundary
-  const argentinaOffset = -3 * 60; // Argentina is UTC-3 (in minutes) 
-  const adjustedEnd = new Date(weekEnd.getTime() + (argentinaOffset * 60 * 1000));
-  
-  return adjustedEnd;
+  // Use the same logic as timezone-utils.ts for consistency
+  return getWeekEndInArgentina(new Date());
 }
 
 export async function canSubmitThisWeek(userId: string): Promise<boolean> {
