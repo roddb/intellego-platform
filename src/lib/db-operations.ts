@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import { db, query } from './db'; // Use the libSQL client
-import { toArgentinaDate, toArgentinaTimeOnly, getWeekStartInArgentina, getWeekEndInArgentina } from './timezone-utils';
+import { toArgentinaDate, toArgentinaTimeOnly, getWeekStartInArgentina, getWeekEndInArgentina, getCurrentArgentinaDate } from './timezone-utils';
 
 // Export db getter and query function for compatibility
 export { db, query };
@@ -293,7 +293,7 @@ export async function canSubmitThisWeek(userId: string): Promise<boolean> {
   // Use canSubmitForSubject instead
   const weekStart = getCurrentWeekStart();
   const weekEnd = getCurrentWeekEnd();
-  const currentDate = new Date();
+  const currentDate = getCurrentArgentinaDate();
   
   const isCurrentWeek = currentDate >= weekStart && currentDate <= weekEnd;
   return isCurrentWeek;
@@ -303,7 +303,7 @@ export async function canSubmitThisWeek(userId: string): Promise<boolean> {
 export async function canSubmitForSubject(userId: string, subject: string): Promise<boolean> {
   const weekStart = getCurrentWeekStart();
   const weekEnd = getCurrentWeekEnd();
-  const currentDate = new Date();
+  const currentDate = getCurrentArgentinaDate();
   
   const existingReport = await findWeeklyReportByUserAndWeek(userId, weekStart, subject);
   const isCurrentWeek = currentDate >= weekStart && currentDate <= weekEnd;
