@@ -162,12 +162,15 @@ export default function StudentDashboard() {
         const isFutureWeek = isFutureWeekInArgentina(week.start) && !isCurrentWeek
         
         // Check if this subject has reports and if any match this week
-        // Use date comparison instead of exact timestamp to avoid millisecond differences
+        // Use date range comparison to handle reports submitted within any part of the week
         const hasReport = reportsBySubjectData[subject]?.some(report => {
           const reportWeekStart = new Date(report.weekStart)
-          const reportDateOnly = reportWeekStart.toISOString().split('T')[0]
-          const weekDateOnly = week.start.toISOString().split('T')[0]
-          return reportDateOnly === weekDateOnly
+          const reportWeekEnd = new Date(report.weekEnd)
+          const weekStart = new Date(week.start)
+          const weekEnd = new Date(week.end)
+          
+          // Check if report's date range overlaps with calendar week's date range
+          return (reportWeekStart <= weekEnd && reportWeekEnd >= weekStart)
         }) || false
         
         return {
@@ -189,25 +192,17 @@ export default function StudentDashboard() {
     setSuccessMessage(`¡Reporte de ${subject} enviado exitosamente!`)
     setCanSubmitBySubject(prev => ({ ...prev, [subject]: false }))
     
-    // Immediately update the calendar visual state for this subject and current week
-    const now = new Date()
-    const currentWeekStart = getWeekStart(now)
-    
-    setMonthWeeksBySubject(prev => {
-      const updated = { ...prev }
-      if (updated[subject]) {
-        updated[subject] = updated[subject].map(week => {
-          if (week.start.getTime() === currentWeekStart.getTime()) {
-            return { ...week, hasReport: true }
-          }
-          return week
-        })
-      }
-      return updated
+    // Fetch fresh data from server first to get the actual report data
+    refreshDataAfterSubmission().then(() => {
+      // After getting fresh data, update the calendar to reflect the new report
+      // This ensures the calendar uses the actual report data from the database
+      // The reportsBySubject and userSubjects will be updated by the fetch, 
+      // so we need to wait a bit for the state to update
+      setTimeout(() => {
+        // Use current state values for the calendar update
+        updateMonthWeeksWithReportsBySubject(reportsBySubject, userSubjects)
+      }, 100)
     })
-    
-    // Fetch fresh data from server to update other state but don't let it override calendar
-    refreshDataAfterSubmission()
     
     // Clear success message after 3 seconds
     setTimeout(() => {
@@ -226,7 +221,7 @@ export default function StudentDashboard() {
 
       if (response.ok) {
         const data = await response.json()
-        // Update other state but NOT the calendar weeks
+        // Update all state including reports data for calendar recalculation
         setUserSubjects(data.subjects || [])
         setCanSubmitBySubject(data.canSubmitBySubject || {})
         setReportsBySubject(data.reportsBySubject || {})
@@ -334,26 +329,56 @@ export default function StudentDashboard() {
                         💬 Reporte Semanal - {subject}
                       </h3>
                       
-                      {canSubmitBySubject[subject] ? (
-                        <WeeklyReportForm 
-                          subject={subject}
-                          onSubmissionSuccess={() => handleSubmissionSuccess(subject)} 
-                        />
-                      ) : (
-                        <div className="text-center py-6 bg-slate-50 rounded-lg">
-                          <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <svg className="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                          </div>
-                          <h4 className="text-md font-medium text-slate-700 mb-1">
-                            Reporte de {subject} enviado
-                          </h4>
-                          <p className="text-sm text-slate-500">
-                            Ya enviaste tu reporte de {subject} esta semana.
-                          </p>
-                        </div>
-                      )}
+                      {(() => {
+                        // Check if current week has a report for this subject
+                        const currentWeekHasReport = monthWeeksBySubject[subject]?.some(week => 
+                          week.isCurrentWeek && week.hasReport
+                        ) || false
+                        
+                        if (canSubmitBySubject[subject] && !currentWeekHasReport) {
+                          // Can submit and no report exists for current week
+                          return (
+                            <WeeklyReportForm 
+                              subject={subject}
+                              onSubmissionSuccess={() => handleSubmissionSuccess(subject)} 
+                            />
+                          )
+                        } else if (currentWeekHasReport) {
+                          // Report exists for current week
+                          return (
+                            <div className="text-center py-6 bg-slate-50 rounded-lg">
+                              <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <svg className="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                              </div>
+                              <h4 className="text-md font-medium text-slate-700 mb-1">
+                                Reporte de {subject} enviado
+                              </h4>
+                              <p className="text-sm text-slate-500">
+                                Ya enviaste tu reporte de {subject} esta semana.
+                              </p>
+                            </div>
+                          )
+                        } else {
+                          // Cannot submit (either not current week or other restrictions)
+                          return (
+                            <div className="text-center py-6 bg-slate-100 rounded-lg">
+                              <div className="w-12 h-12 bg-slate-300 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <svg className="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                              </div>
+                              <h4 className="text-md font-medium text-slate-600 mb-1">
+                                Fuera del período de entrega
+                              </h4>
+                              <p className="text-sm text-slate-500">
+                                Los reportes se entregan solo durante la semana correspondiente.
+                              </p>
+                            </div>
+                          )
+                        }
+                      })()}
                     </div>
 
                     {/* Subject Monthly Calendar */}
