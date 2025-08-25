@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import PasswordResetModal from "@/components/instructor/PasswordResetModal"
 import { WeeklyDownloadModal } from "@/components/instructor"
+import DatabaseManager from "@/components/instructor/DatabaseManager"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
 // Hierarchical data interfaces - Force deployment for timezone fix
@@ -91,6 +92,7 @@ export default function InstructorDashboard() {
   const [isPasswordResetModalOpen, setIsPasswordResetModalOpen] = useState(false)
   const [studentForPasswordReset, setStudentForPasswordReset] = useState<HierarchicalStudent | null>(null)
   const [isWeeklyDownloadModalOpen, setIsWeeklyDownloadModalOpen] = useState(false)
+  const [isDatabaseManagerOpen, setIsDatabaseManagerOpen] = useState(false)
 
   useEffect(() => {
     if (status === "loading") return
@@ -352,6 +354,19 @@ export default function InstructorDashboard() {
           <p className="text-slate-600 mb-4">
             Bienvenido, {session?.user?.name}
           </p>
+          
+          {/* Admin Database Button */}
+          <div className="mb-6">
+            <button
+              onClick={() => setIsDatabaseManagerOpen(true)}
+              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+              </svg>
+              Administrar Base de Datos
+            </button>
+          </div>
           
           {/* Hierarchical Navigation */}
           <div className="bg-white rounded-lg p-6 border border-slate-200 mb-6">
@@ -693,6 +708,12 @@ export default function InstructorDashboard() {
           sede="N/A" // TODO: Get from user session or selected student
           academicYear={selectedYear}
           division={selectedCourse}
+        />
+
+        {/* Database Manager Modal */}
+        <DatabaseManager
+          isOpen={isDatabaseManagerOpen}
+          onClose={() => setIsDatabaseManagerOpen(false)}
         />
       </main>
     </div>

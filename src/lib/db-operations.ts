@@ -1918,6 +1918,167 @@ export async function generateWeeklyDownloadJSON(
   }
 }
 
+// Database Export Function for Structured Folder Export
+export async function generateDatabaseExportStructure(): Promise<{ files: Array<{ path: string; content: string }>, metadata: any }> {
+  try {
+    console.log('📊 Starting structured database export...');
+    
+    // Get all users with their academic information
+    const usersResult = await query(`
+      SELECT id, name, email, role, studentId, sede, academicYear, division, subjects, status, createdAt
+      FROM User
+      WHERE role = 'STUDENT' AND status = 'ACTIVE'
+      ORDER BY sede, academicYear, division, name
+    `);
+    
+    // Get all progress reports
+    const reportsResult = await query(`
+      SELECT id, userId, subject, weekStart, weekEnd, submittedAt
+      FROM ProgressReport
+      ORDER BY weekStart ASC
+    `);
+    
+    // Get all answers
+    const answersResult = await query(`
+      SELECT progressReportId, questionId, answer
+      FROM Answer
+      ORDER BY progressReportId, questionId
+    `);
+    
+    // Create answer lookup map
+    const answersByReport: { [reportId: string]: { [questionId: string]: string } } = {};
+    for (const answer of answersResult.rows) {
+      const reportId = String(answer.progressReportId);
+      const questionId = String(answer.questionId);
+      
+      if (!answersByReport[reportId]) {
+        answersByReport[reportId] = {};
+      }
+      answersByReport[reportId][questionId] = String(answer.answer);
+    }
+    
+    // Files array for the export structure
+    const files: Array<{ path: string; content: string }> = [];
+    let totalStudents = 0;
+    let totalReports = 0;
+    let totalFiles = 0;
+    
+    // Create a map to track week numbers
+    const weekNumberMap = new Map<string, number>();
+    let currentWeekNumber = 1;
+    
+    // Sort reports by date to assign week numbers
+    const sortedReports = reportsResult.rows.sort((a, b) => 
+      new Date(String(a.weekStart)).getTime() - new Date(String(b.weekStart)).getTime()
+    );
+    
+    // Assign week numbers based on unique week ranges
+    for (const report of sortedReports) {
+      const weekKey = `${report.weekStart}_${report.weekEnd}`;
+      if (!weekNumberMap.has(weekKey)) {
+        weekNumberMap.set(weekKey, currentWeekNumber++);
+      }
+    }
+    
+    // Process each student
+    for (const user of usersResult.rows) {
+      const userName = String(user.name);
+      const userId = String(user.id);
+      const sede = String(user.sede || 'Sin_Sede').replace(/\s+/g, '_');
+      const academicYear = String(user.academicYear || 'Sin_Año').replace(/\s+/g, '_');
+      const division = String(user.division || 'Sin_División').replace(/\s+/g, '_');
+      const subjects = String(user.subjects || '').split(',').map(s => s.trim()).filter(s => s);
+      
+      totalStudents++;
+      
+      // Process each subject for this student
+      for (const subject of subjects) {
+        const subjectFolder = subject.replace(/\s+/g, '_');
+        const studentFolder = userName.replace(/\s+/g, '_');
+        
+        // Get all reports for this student and subject
+        const studentReports = reportsResult.rows.filter(r => 
+          String(r.userId) === userId && String(r.subject) === subject
+        );
+        
+        // Create a JSON file for each week's report
+        for (const report of studentReports) {
+          const weekKey = `${report.weekStart}_${report.weekEnd}`;
+          const weekNumber = weekNumberMap.get(weekKey) || 0;
+          
+          // Build the file path
+          const filePath = `${sede}/${academicYear}/${subjectFolder}/${studentFolder}/semana_${weekNumber}.json`;
+          
+          // Create the content for this week
+          const fileContent = {
+            studentInfo: {
+              name: userName,
+              studentId: String(user.studentId),
+              email: String(user.email),
+              sede: String(user.sede),
+              año: String(user.academicYear),
+              materia: subject,
+              division: String(user.division)
+            },
+            weekInfo: {
+              semana: weekNumber,
+              weekStart: toArgentinaDate(String(report.weekStart)),
+              weekEnd: toArgentinaDate(String(report.weekEnd)),
+              submittedAt: toArgentinaDate(String(report.submittedAt)) + ' ' + toArgentinaTimeOnly(String(report.submittedAt))
+            },
+            answers: answersByReport[String(report.id)] || {}
+          };
+          
+          files.push({
+            path: filePath,
+            content: JSON.stringify(fileContent, null, 2)
+          });
+          
+          totalReports++;
+          totalFiles++;
+        }
+      }
+    }
+    
+    // Create metadata
+    const metadata = {
+      exportDate: toArgentinaDate(new Date().toISOString()),
+      exportTime: toArgentinaTimeOnly(new Date().toISOString()),
+      version: '2.0',
+      platform: 'Intellego Platform',
+      exportType: 'structured_folder',
+      totalStudents,
+      totalReports,
+      totalFiles,
+      structure: 'sede/año/materia/alumno/semana_X.json'
+    };
+    
+    console.log('✅ Structured export completed:', {
+      students: totalStudents,
+      reports: totalReports,
+      files: totalFiles
+    });
+    
+    return { files, metadata };
+  } catch (error) {
+    console.error('❌ Error generating structured export:', error);
+    throw new Error('Failed to generate structured export');
+  }
+}
+
+// Helper function to count students in a sede structure
+function countStudentsInSede(sedeData: any): number {
+  let count = 0;
+  for (const subject of Object.values(sedeData)) {
+    for (const year of Object.values(subject as any)) {
+      for (const division of Object.values(year as any)) {
+        count += Object.keys(division as any).length;
+      }
+    }
+  }
+  return count;
+}
+
 // =====================================================================================
 // PASSWORD MANAGEMENT & AUDIT OPERATIONS
 // Comprehensive password change tracking and security audit functions
