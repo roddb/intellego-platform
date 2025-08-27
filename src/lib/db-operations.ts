@@ -2833,3 +2833,279 @@ export function calculatePasswordEntropy(password: string): number {
   
   return Math.log2(Math.pow(possibleChars, password.length));
 }
+
+// ============================================
+// FEEDBACK OPERATIONS
+// ============================================
+
+interface FeedbackData {
+  id?: string;
+  studentId: string;
+  progressReportId?: string;
+  weekStart: string;
+  subject: string;
+  score?: number;
+  generalComments?: string;
+  strengths?: string[];
+  improvements?: string[];
+  aiAnalysis?: string;
+  createdBy: string;
+}
+
+/**
+ * Create a new feedback entry
+ */
+export async function createFeedback(data: FeedbackData): Promise<string> {
+  try {
+    const id = generateId();
+    const now = new Date().toISOString();
+    
+    await query(`
+      INSERT INTO Feedback (
+        id, studentId, progressReportId, weekStart, subject,
+        score, generalComments, strengths, improvements, aiAnalysis,
+        createdBy, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [
+      id,
+      data.studentId,
+      data.progressReportId || null,
+      data.weekStart,
+      data.subject,
+      data.score || null,
+      data.generalComments || null,
+      JSON.stringify(data.strengths || []),
+      JSON.stringify(data.improvements || []),
+      data.aiAnalysis || null,
+      data.createdBy,
+      now,
+      now
+    ]);
+    
+    return id;
+  } catch (error) {
+    console.error('Error creating feedback:', error);
+    throw error;
+  }
+}
+
+/**
+ * Get feedback for a specific student, week, and subject
+ */
+export async function getFeedbackByWeek(
+  studentId: string, 
+  weekStart: string, 
+  subject: string
+): Promise<any | null> {
+  try {
+    const result = await query(`
+      SELECT 
+        f.*,
+        u.name as instructorName,
+        u.email as instructorEmail
+      FROM Feedback f
+      JOIN User u ON f.createdBy = u.id
+      WHERE f.studentId = ? 
+        AND f.weekStart = ? 
+        AND f.subject = ?
+      LIMIT 1
+    `, [studentId, weekStart, subject]);
+    
+    if (result.rows.length === 0) {
+      return null;
+    }
+    
+    const feedback = result.rows[0] as any;
+    
+    // Parse JSON fields
+    return {
+      ...feedback,
+      strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+    };
+  } catch (error) {
+    console.error('Error getting feedback by week:', error);
+    throw error;
+  }
+}
+
+/**
+ * Get all feedbacks for a student
+ */
+export async function getFeedbacksByStudent(studentId: string): Promise<any[]> {
+  try {
+    const result = await query(`
+      SELECT 
+        f.*,
+        u.name as instructorName,
+        u.email as instructorEmail
+      FROM Feedback f
+      JOIN User u ON f.createdBy = u.id
+      WHERE f.studentId = ?
+      ORDER BY f.weekStart DESC, f.subject
+    `, [studentId]);
+    
+    return result.rows.map((feedback: any) => ({
+      ...feedback,
+      strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+    }));
+  } catch (error) {
+    console.error('Error getting feedbacks by student:', error);
+    throw error;
+  }
+}
+
+/**
+ * Check if feedback exists for a student/week/subject combination
+ */
+export async function feedbackExists(
+  studentId: string, 
+  weekStart: string, 
+  subject: string
+): Promise<boolean> {
+  try {
+    const result = await query(`
+      SELECT COUNT(*) as count
+      FROM Feedback
+      WHERE studentId = ? 
+        AND DATE(weekStart) = DATE(?) 
+        AND subject = ?
+    `, [studentId, weekStart, subject]);
+    
+    return (result.rows[0] as any).count > 0;
+  } catch (error) {
+    console.error('Error checking feedback existence:', error);
+    throw error;
+  }
+}
+
+/**
+ * Update existing feedback
+ */
+export async function updateFeedback(
+  id: string,
+  data: Partial<FeedbackData>
+): Promise<void> {
+  try {
+    const updateFields = [];
+    const values = [];
+    
+    if (data.score !== undefined) {
+      updateFields.push('score = ?');
+      values.push(data.score);
+    }
+    if (data.generalComments !== undefined) {
+      updateFields.push('generalComments = ?');
+      values.push(data.generalComments);
+    }
+    if (data.strengths !== undefined) {
+      updateFields.push('strengths = ?');
+      values.push(JSON.stringify(data.strengths));
+    }
+    if (data.improvements !== undefined) {
+      updateFields.push('improvements = ?');
+      values.push(JSON.stringify(data.improvements));
+    }
+    if (data.aiAnalysis !== undefined) {
+      updateFields.push('aiAnalysis = ?');
+      values.push(data.aiAnalysis);
+    }
+    
+    if (updateFields.length === 0) {
+      return; // Nothing to update
+    }
+    
+    updateFields.push('updatedAt = ?');
+    values.push(new Date().toISOString());
+    values.push(id);
+    
+    await query(`
+      UPDATE Feedback 
+      SET ${updateFields.join(', ')}
+      WHERE id = ?
+    `, values);
+  } catch (error) {
+    console.error('Error updating feedback:', error);
+    throw error;
+  }
+}
+
+/**
+ * Delete feedback
+ */
+export async function deleteFeedback(id: string): Promise<void> {
+  try {
+    await query('DELETE FROM Feedback WHERE id = ?', [id]);
+  } catch (error) {
+    console.error('Error deleting feedback:', error);
+    throw error;
+  }
+}
+
+/**
+ * Validate feedback data for bulk upload
+ */
+export async function validateFeedbackData(
+  studentEmail: string,
+  studentId: string,
+  weekStart: string,
+  subject: string
+): Promise<{ valid: boolean; error?: string; userId?: string }> {
+  try {
+    // Check if student exists with matching email and studentId
+    const studentResult = await query(`
+      SELECT id, email, studentId, subjects
+      FROM User
+      WHERE email = ? AND studentId = ? AND role = 'STUDENT'
+      LIMIT 1
+    `, [studentEmail, studentId]);
+    
+    if (studentResult.rows.length === 0) {
+      return { 
+        valid: false, 
+        error: `Student not found with email ${studentEmail} and ID ${studentId}` 
+      };
+    }
+    
+    const student = studentResult.rows[0] as any;
+    
+    // Check if student has this subject
+    const studentSubjects = student.subjects ? student.subjects.split(',').map((s: string) => s.trim()) : [];
+    if (!studentSubjects.includes(subject)) {
+      return { 
+        valid: false, 
+        error: `Student ${studentEmail} is not enrolled in ${subject}` 
+      };
+    }
+    
+    // Check if there's a progress report for this week
+    // Accept both simple date format (YYYY-MM-DD) and full timestamp
+    const reportResult = await query(`
+      SELECT id
+      FROM ProgressReport
+      WHERE userId = ? 
+        AND DATE(weekStart) = DATE(?) 
+        AND subject = ?
+      LIMIT 1
+    `, [student.id, weekStart, subject]);
+    
+    if (reportResult.rows.length === 0) {
+      return { 
+        valid: false, 
+        error: `No progress report found for ${studentEmail} in ${subject} for week ${weekStart}` 
+      };
+    }
+    
+    return { 
+      valid: true, 
+      userId: student.id 
+    };
+  } catch (error) {
+    console.error('Error validating feedback data:', error);
+    return { 
+      valid: false, 
+      error: 'Database error during validation' 
+    };
+  }
+}

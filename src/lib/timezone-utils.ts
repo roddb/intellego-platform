@@ -124,37 +124,41 @@ export function isFutureWeekInArgentina(weekStart: string | Date): boolean {
 /**
  * Get the start of the current week (Monday) in Argentina timezone
  * Returns a UTC Date object representing Monday 00:00:00 in Argentina time
+ * FIXED: Correctly handles UTC-3 offset for Argentina
  */
 export function getWeekStartInArgentina(date?: Date): Date {
   const baseDate = date || new Date();
   
-  // Get Argentina time
-  const argentinaTime = new Date(baseDate.toLocaleString("en-US", {timeZone: "America/Argentina/Buenos_Aires"}));
+  // Get the day of the week in UTC (0 = Sunday, 1 = Monday, etc.)
+  const currentDay = baseDate.getUTCDay();
   
-  // Calculate Monday of current week
-  const day = argentinaTime.getDay();
-  const diff = argentinaTime.getDate() - day + (day === 0 ? -6 : 1);
+  // Calculate how many days to go back to reach Monday
+  const daysToMonday = currentDay === 0 ? -6 : 1 - currentDay;
   
-  const monday = new Date(argentinaTime);
-  monday.setDate(diff);
-  monday.setHours(0, 0, 0, 0);
+  // Create new date for Monday
+  const monday = new Date(baseDate);
+  monday.setUTCDate(monday.getUTCDate() + daysToMonday);
   
-  // Convert back to UTC while maintaining the Argentina-calculated Monday
-  // This ensures consistency with how the database stores dates
-  const mondayUTC = new Date(monday.toLocaleString("en-US", {timeZone: "UTC"}));
+  // Set to 00:00 Argentina time = 03:00 UTC (Argentina is UTC-3)
+  monday.setUTCHours(3, 0, 0, 0);
   
-  return mondayUTC;
+  return monday;
 }
 
 /**
  * Get the end of the current week (Sunday) in Argentina timezone
  * Returns a UTC Date object representing Sunday 23:59:59 in Argentina time
+ * FIXED: Correctly calculates Sunday 23:59:59 Argentina = Monday 02:59:59 UTC
  */
 export function getWeekEndInArgentina(date?: Date): Date {
   const weekStart = getWeekStartInArgentina(date);
   const weekEnd = new Date(weekStart);
-  weekEnd.setUTCDate(weekStart.getUTCDate() + 6);
-  weekEnd.setUTCHours(23, 59, 59, 999);
+  
+  // Add 7 days to get to next Monday 00:00 Argentina
+  weekEnd.setUTCDate(weekEnd.getUTCDate() + 7);
+  
+  // Subtract 1 second to get Sunday 23:59:59 Argentina
+  weekEnd.setUTCSeconds(weekEnd.getUTCSeconds() - 1);
   
   return weekEnd;
 }

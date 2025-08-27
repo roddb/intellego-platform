@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
+import FeedbackViewer from "@/components/student/FeedbackViewer"
 import { useChunkErrorHandler } from "@/components/ErrorBoundary"
 // Import timezone utilities with dynamic import to prevent chunk loading issues
 import * as TimezoneUtils from "@/lib/timezone-utils"
@@ -61,6 +62,8 @@ export default function StudentDashboard() {
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
   const [activeTab, setActiveTab] = useState<'reports' | 'profile'>('reports')
+  const [feedbackModalOpen, setFeedbackModalOpen] = useState(false)
+  const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
 
   useEffect(() => {
     if (status === "loading") return
@@ -208,6 +211,11 @@ export default function StudentDashboard() {
     setTimeout(() => {
       setSuccessMessage("")
     }, 3000)
+  }
+
+  const handleViewFeedback = (weekStart: string, subject: string) => {
+    setSelectedFeedbackWeek({ weekStart, subject })
+    setFeedbackModalOpen(true)
   }
 
   const refreshDataAfterSubmission = async () => {
@@ -416,12 +424,26 @@ export default function StudentDashboard() {
                                 <span className="font-medium">
                                   Semana {index + 1} ({weekStartStr} - {weekEndStr}) ART
                                 </span>
-                                <span className="text-xs font-medium">
-                                  {week.hasReport ? '✅ Enviado' : 
-                                   week.isPastWeek ? '🔴 Atrasado' : 
-                                   week.isCurrentWeek ? '🟡 Actual' : 
-                                   '⚪ Futuro'}
-                                </span>
+                                <div className="flex items-center gap-2">
+                                  <span className="text-xs font-medium">
+                                    {week.hasReport ? '✅ Enviado' : 
+                                     week.isPastWeek ? '🔴 Atrasado' : 
+                                     week.isCurrentWeek ? '🟡 Actual' : 
+                                     '⚪ Futuro'}
+                                  </span>
+                                  {week.hasReport && (
+                                    <button
+                                      onClick={() => {
+                                        const weekStartISO = week.start.toISOString().split('T')[0]
+                                        handleViewFeedback(weekStartISO, subject)
+                                      }}
+                                      className="px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors"
+                                      title="Ver devolución"
+                                    >
+                                      📝 Devolución
+                                    </button>
+                                  )}
+                                </div>
                               </div>
                             </div>
                           )
@@ -543,6 +565,19 @@ export default function StudentDashboard() {
               </div>
             </div>
           </div>
+        )}
+
+        {/* Feedback Viewer Modal */}
+        {selectedFeedbackWeek && (
+          <FeedbackViewer
+            isOpen={feedbackModalOpen}
+            onClose={() => {
+              setFeedbackModalOpen(false)
+              setSelectedFeedbackWeek(null)
+            }}
+            weekStart={selectedFeedbackWeek.weekStart}
+            subject={selectedFeedbackWeek.subject}
+          />
         )}
 
       </main>
