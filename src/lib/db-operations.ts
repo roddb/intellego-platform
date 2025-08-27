@@ -1963,20 +1963,23 @@ export async function generateDatabaseExportStructure(): Promise<{ files: Array<
     let totalReports = 0;
     let totalFiles = 0;
     
-    // Create a map to track week numbers
+    // Academic cycle start date (Monday, July 28, 2025, 00:00 Argentina time = 03:00 UTC)
+    const CYCLE_START_DATE = new Date('2025-07-28T03:00:00.000Z');
+    
+    // Create a map to track week numbers based on academic calendar
     const weekNumberMap = new Map<string, number>();
-    let currentWeekNumber = 1;
     
-    // Sort reports by date to assign week numbers
-    const sortedReports = reportsResult.rows.sort((a, b) => 
-      new Date(String(a.weekStart)).getTime() - new Date(String(b.weekStart)).getTime()
-    );
-    
-    // Assign week numbers based on unique week ranges
-    for (const report of sortedReports) {
+    // Calculate week numbers based on cycle start date
+    for (const report of reportsResult.rows) {
       const weekKey = `${report.weekStart}_${report.weekEnd}`;
+      
       if (!weekNumberMap.has(weekKey)) {
-        weekNumberMap.set(weekKey, currentWeekNumber++);
+        const weekStart = new Date(String(report.weekStart));
+        const diffInMs = weekStart.getTime() - CYCLE_START_DATE.getTime();
+        const diffInWeeks = Math.floor(diffInMs / (7 * 24 * 60 * 60 * 1000));
+        // Ensure minimum week number is 1
+        const weekNumber = Math.max(1, diffInWeeks + 1);
+        weekNumberMap.set(weekKey, weekNumber);
       }
     }
     
