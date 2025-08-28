@@ -183,60 +183,6 @@
       0 10px 20px rgba(0, 0, 0, 0.08),
       inset 0 1px 0 rgba(255, 255, 255, 0.9);
   }
-  .mac-card {
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(20px);
-    border-radius: 24px;
-    box-shadow: 
-      0 20px 40px rgba(0, 0, 0, 0.1),
-      0 8px 16px rgba(0, 0, 0, 0.05),
-      inset 0 1px 0 rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  .mac-button {
-    padding: 12px 24px;
-    border-radius: 16px;
-    font-weight: 600;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    outline: none;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .mac-button-primary {
-    background: linear-gradient(135deg, #ffffff, #f0f0f0);
-    color: #000000;
-    box-shadow: 
-      0 8px 24px rgba(255, 255, 255, 0.2),
-      0 4px 8px rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  .mac-button-primary:hover {
-    background: linear-gradient(135deg, #f8f8f8, #e8e8e8);
-    transform: translateY(-2px);
-    box-shadow: 
-      0 12px 32px rgba(255, 255, 255, 0.3),
-      0 8px 16px rgba(255, 255, 255, 0.2);
-  }
-  
-  .mac-button-primary:active {
-    transform: translateY(0);
-    transition: transform 0.1s;
-  }
-  
-  .mac-button-secondary {
-    background: rgba(196, 193, 170, 0.8);
-    color: var(--heavy-metal);
-    border: 1px solid rgba(164, 156, 149, 0.3);
-    backdrop-filter: blur(8px);
-  }
-  
-  .mac-button-secondary:hover {
-    background: rgba(175, 196, 186, 0.9);
-    transform: translateY(-1px);
-  }
   
   .mac-input {
     width: 100%;
@@ -577,20 +523,20 @@ svg {
 }
 
 .mac-button-primary {
-  background: linear-gradient(135deg, #ffffff, #f0f0f0);
-  color: #000000;
+  background: linear-gradient(135deg, var(--silver-tree), var(--sea-nymph));
+  color: white;
   box-shadow: 
-    0 8px 24px rgba(255, 255, 255, 0.2),
-    0 4px 8px rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+    0 8px 24px rgba(99, 177, 155, 0.25),
+    0 4px 8px rgba(99, 177, 155, 0.15);
+  border: 1px solid rgba(99, 177, 155, 0.3);
 }
 
 .mac-button-primary:hover {
-  background: linear-gradient(135deg, #f8f8f8, #e8e8e8);
+  background: linear-gradient(135deg, var(--sea-nymph), var(--powder-ash));
   transform: translateY(-2px);
   box-shadow: 
-    0 12px 32px rgba(255, 255, 255, 0.3),
-    0 8px 16px rgba(255, 255, 255, 0.2);
+    0 12px 32px rgba(99, 177, 155, 0.35),
+    0 8px 16px rgba(99, 177, 155, 0.25);
 }
 
 .mac-button-primary:active {
@@ -599,15 +545,18 @@ svg {
 }
 
 .mac-button-secondary {
-  background: rgba(196, 193, 170, 0.8);
+  background: rgba(220, 219, 208, 0.8);
   color: var(--heavy-metal);
-  border: 1px solid rgba(164, 156, 149, 0.3);
+  border: 1px solid rgba(164, 156, 149, 0.4);
   backdrop-filter: blur(8px);
 }
 
 .mac-button-secondary:hover {
-  background: rgba(175, 196, 186, 0.9);
+  background: rgba(196, 193, 170, 0.9);
   transform: translateY(-1px);
+  box-shadow: 
+    0 6px 20px rgba(164, 156, 149, 0.2),
+    0 3px 8px rgba(164, 156, 149, 0.1);
 }
 
 .mac-input {
