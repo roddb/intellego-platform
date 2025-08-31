@@ -7,6 +7,10 @@ import {
 } from '@/lib/feedback-processor';
 import { logDataAccess, logUnauthorizedAccess, logRoleViolation } from '@/lib/security-logger';
 
+// Configure to use Node.js runtime instead of Edge Runtime
+// This is necessary because auth() uses bcryptjs which requires Node.js APIs
+export const runtime = 'nodejs';
+
 export async function POST(request: NextRequest) {
   try {
     // Authenticate user
