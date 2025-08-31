@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "instructor": "instructor@demo.com",
+    "generated_at": "2025-08-31T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-18",
+      "subject": "Física",
+      "feedback": {
+        "score": 92,
+        "general_comments": "Excelente semana 3 en Física",
+        "strengths": ["Dominio de conceptos", "Creatividad en soluciones"],
+        "improvements": ["Mantener el nivel"],
+        "ai_analysis": "Rendimiento sobresaliente."
+      }
+    },
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-18",
+      "subject": "Química",
+      "feedback": {
+        "score": 87,
+        "general_comments": "Buen trabajo en semana 3 de Química",
+        "strengths": ["Mejora en balanceo", "Buena participación"],
+        "improvements": ["Revisar estequiometría"],
+        "ai_analysis": "Progreso constante."
+      }
+    },
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-25",
+      "subject": "Física",
+      "feedback": {
+        "score": 89,
+        "general_comments": "Semana 4 consistente",
+        "strengths": ["Consistencia", "Método científico aplicado"],
+        "improvements": ["Más práctica con vectores"],
+        "ai_analysis": "Mantiene buen nivel."
+      }
+    }
+  ]
+}

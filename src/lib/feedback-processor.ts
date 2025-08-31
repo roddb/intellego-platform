@@ -119,8 +119,11 @@ export function validateJSONStructure(data: any): { valid: boolean; error?: stri
   }
 }
 
+// Batch size for processing
+const BATCH_SIZE = 50;
+
 /**
- * Process the feedback JSON file
+ * Process the feedback JSON file with batch processing
  */
 export async function processFeedbackJSON(
   jsonData: FeedbackJSON,
@@ -153,81 +156,110 @@ export async function processFeedbackJSON(
       return result;
     }
     
-    // Process each feedback entry
-    for (const entry of jsonData.feedbacks) {
-      try {
-        // Validate the student and report data
-        const validation = await validateFeedbackData(
-          entry.student_email,
-          entry.student_id,
-          entry.week_start,
-          entry.subject
-        );
-        
-        if (!validation.valid) {
-          result.errors.push({
-            studentEmail: entry.student_email,
-            studentId: entry.student_id,
-            week: entry.week_start,
+    // Process feedbacks in batches for better performance
+    const batches = [];
+    for (let i = 0; i < jsonData.feedbacks.length; i += BATCH_SIZE) {
+      batches.push(jsonData.feedbacks.slice(i, i + BATCH_SIZE));
+    }
+    
+    // Process each batch
+    for (const batch of batches) {
+      const batchPromises = batch.map(async (entry) => {
+        try {
+          // Validate the student and report data
+          const validation = await validateFeedbackData(
+            entry.student_email,
+            entry.student_id,
+            entry.week_start,
+            entry.subject
+          );
+          
+          if (!validation.valid) {
+            return {
+              success: false,
+              entry,
+              error: validation.error || 'Validation failed'
+            };
+          }
+          
+          const studentUserId = validation.userId!;
+          
+          // Check if feedback already exists
+          const exists = await feedbackExists(
+            studentUserId,
+            entry.week_start,
+            entry.subject
+          );
+          
+          // Prepare feedback data
+          const feedbackData = {
+            studentId: studentUserId,
+            weekStart: entry.week_start,
             subject: entry.subject,
-            error: validation.error || 'Validation failed'
-          });
-          result.summary.failed++;
-          continue;
+            score: entry.feedback.score,
+            generalComments: entry.feedback.general_comments,
+            strengths: entry.feedback.strengths,
+            improvements: entry.feedback.improvements,
+            aiAnalysis: entry.feedback.ai_analysis,
+            createdBy: instructorId
+          };
+          
+          if (exists) {
+            // For now, update with new data (overwrite)
+            // In future, could merge or version control
+            await updateFeedback(studentUserId, entry.week_start, entry.subject, feedbackData);
+            return {
+              success: true,
+              entry,
+              action: 'updated'
+            };
+          } else {
+            // Create new feedback
+            await createFeedback(feedbackData);
+            return {
+              success: true,
+              entry,
+              action: 'created'
+            };
+          }
+        } catch (error) {
+          return {
+            success: false,
+            entry,
+            error: `Processing error: ${(error as Error).message}`
+          };
         }
-        
-        const studentUserId = validation.userId!;
-        
-        // Check if feedback already exists
-        const exists = await feedbackExists(
-          studentUserId,
-          entry.week_start,
-          entry.subject
-        );
-        
-        // Prepare feedback data
-        const feedbackData = {
-          studentId: studentUserId,
-          weekStart: entry.week_start,
-          subject: entry.subject,
-          score: entry.feedback.score,
-          generalComments: entry.feedback.general_comments,
-          strengths: entry.feedback.strengths,
-          improvements: entry.feedback.improvements,
-          aiAnalysis: entry.feedback.ai_analysis,
-          createdBy: instructorId
-        };
-        
-        if (exists) {
-          // Update existing feedback
-          // Note: In a real implementation, you might want to get the existing ID first
-          // For now, we'll skip updates to avoid complexity
-          result.errors.push({
-            studentEmail: entry.student_email,
-            studentId: entry.student_id,
-            week: entry.week_start,
-            subject: entry.subject,
-            error: 'Feedback already exists for this week. Updates not implemented yet.'
-          });
-          result.summary.failed++;
+      });
+      
+      // Wait for all promises in this batch to settle
+      const batchResults = await Promise.allSettled(batchPromises);
+      
+      // Process batch results
+      for (const promiseResult of batchResults) {
+        if (promiseResult.status === 'fulfilled') {
+          const res = promiseResult.value;
+          if (res.success) {
+            result.processed++;
+            result.summary.successful++;
+            if (res.action === 'created') {
+              result.summary.created++;
+            } else if (res.action === 'updated') {
+              result.summary.updated++;
+            }
+          } else {
+            result.errors.push({
+              studentEmail: res.entry.student_email,
+              studentId: res.entry.student_id,
+              week: res.entry.week_start,
+              subject: res.entry.subject,
+              error: res.error
+            });
+            result.summary.failed++;
+          }
         } else {
-          // Create new feedback
-          await createFeedback(feedbackData);
-          result.summary.created++;
-          result.summary.successful++;
+          // Promise rejected
+          result.summary.failed++;
         }
-        
-        result.processed++;
-        
-      } catch (error) {
-        result.errors.push({
-          studentEmail: entry.student_email,
-          studentId: entry.student_id,
-          week: entry.week_start,
-          subject: entry.subject,
-          error: `Processing error: ${(error as Error).message}`
-        });
-        result.summary.failed++;
       }
     }
     

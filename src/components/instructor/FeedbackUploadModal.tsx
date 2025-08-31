@@ -14,6 +14,8 @@ export default function FeedbackUploadModal({ isOpen, onClose }: FeedbackUploadM
   const [error, setError] = useState<string | null>(null);
   const [uploadResult, setUploadResult] = useState<any>(null);
   const [dragActive, setDragActive] = useState(false);
+  const [fileCount, setFileCount] = useState(0);
+  const [processedFiles, setProcessedFiles] = useState<string[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleDrag = (e: React.DragEvent) => {
@@ -31,58 +33,112 @@ export default function FeedbackUploadModal({ isOpen, onClose }: FeedbackUploadM
     e.stopPropagation();
     setDragActive(false);
     
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      handleFile(e.dataTransfer.files[0]);
+    if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+      handleMultipleFiles(e.dataTransfer.files);
     }
   };
 
   const handleFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      handleFile(e.target.files[0]);
+    if (e.target.files && e.target.files.length > 0) {
+      handleMultipleFiles(e.target.files);
     }
   };
 
-  const handleFile = (file: File) => {
+  const handleMultipleFiles = async (files: FileList) => {
     setError(null);
     setUploadResult(null);
+    setProcessedFiles([]);
     
-    if (file.type !== "application/json") {
-      setError("Por favor, seleccione un archivo JSON válido");
+    const filesArray = Array.from(files);
+    const jsonFiles = filesArray.filter(file => file.type === "application/json" || file.name.endsWith('.json'));
+    
+    if (jsonFiles.length === 0) {
+      setError("Por favor, seleccione al menos un archivo JSON válido");
       return;
     }
-
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const content = JSON.parse(e.target?.result as string);
-        
-        // Validate basic structure
-        if (!content.metadata || !content.feedbacks) {
-          setError("El archivo JSON debe contener 'metadata' y 'feedbacks'");
-          setJsonContent(null);
-          return;
-        }
-        
-        if (!content.metadata.instructor) {
-          setError("El archivo JSON debe especificar el instructor en metadata");
-          setJsonContent(null);
-          return;
-        }
-        
-        if (!Array.isArray(content.feedbacks) || content.feedbacks.length === 0) {
-          setError("El archivo JSON debe contener al menos un feedback");
-          setJsonContent(null);
-          return;
-        }
-        
-        setJsonContent(content);
-        setError(null);
-      } catch (err) {
-        setError("Error al leer el archivo JSON. Verifique el formato.");
-        setJsonContent(null);
-      }
+    
+    if (jsonFiles.length > 100) {
+      setError("Máximo 100 archivos permitidos por carga");
+      return;
+    }
+    
+    setFileCount(jsonFiles.length);
+    
+    // Combined JSON structure
+    const combinedJSON: FeedbackJSON = {
+      metadata: {
+        instructor: "",
+        generated_at: new Date().toISOString(),
+        version: "1.0"
+      },
+      feedbacks: []
     };
-    reader.readAsText(file);
+    
+    const errorFiles: string[] = [];
+    const successFiles: string[] = [];
+    
+    for (const file of jsonFiles) {
+      try {
+        const text = await file.text();
+        const json = JSON.parse(text);
+        
+        // Validate and extract feedbacks
+        if (json.feedbacks && Array.isArray(json.feedbacks)) {
+          combinedJSON.feedbacks.push(...json.feedbacks);
+          successFiles.push(file.name);
+          
+          // Use first valid instructor email found
+          if (!combinedJSON.metadata.instructor && json.metadata?.instructor) {
+            combinedJSON.metadata.instructor = json.metadata.instructor;
+          }
+        } else {
+          errorFiles.push(file.name);
+        }
+      } catch (err) {
+        errorFiles.push(file.name);
+      }
+    }
+    
+    setProcessedFiles(successFiles);
+    
+    if (combinedJSON.feedbacks.length === 0) {
+      setError(`No se pudieron procesar feedbacks válidos. Archivos con error: ${errorFiles.join(', ')}`);
+      setJsonContent(null);
+      return;
+    }
+    
+    // Remove duplicates based on student_email + week_start + subject
+    const uniqueFeedbacks = removeDuplicates(combinedJSON.feedbacks);
+    const duplicatesRemoved = combinedJSON.feedbacks.length - uniqueFeedbacks.length;
+    
+    combinedJSON.feedbacks = uniqueFeedbacks;
+    setJsonContent(combinedJSON);
+    
+    if (errorFiles.length > 0) {
+      setError(`Archivos con error (${errorFiles.length}): ${errorFiles.join(', ')}`);
+    } else if (duplicatesRemoved > 0) {
+      setError(`Se eliminaron ${duplicatesRemoved} feedbacks duplicados`);
+    }
+  };
+  
+  // Helper function to remove duplicates
+  const removeDuplicates = (feedbacks: any[]) => {
+    const seen = new Set();
+    return feedbacks.filter(fb => {
+      const key = `${fb.student_email}-${fb.week_start}-${fb.subject}`;
+      if (seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    });
+  };
+
+  const handleFile = (file: File) => {
+    // Keep for backward compatibility - single file
+    const fileList = new DataTransfer();
+    fileList.items.add(file);
+    handleMultipleFiles(fileList.files);
   };
 
   const handleUpload = async () => {
@@ -196,8 +252,9 @@ export default function FeedbackUploadModal({ isOpen, onClose }: FeedbackUploadM
             <input
               ref={fileInputRef}
               type="file"
-              accept="application/json"
+              accept="application/json,.json"
               onChange={handleFileInput}
+              multiple
               className="hidden"
             />
             
@@ -206,14 +263,17 @@ export default function FeedbackUploadModal({ isOpen, onClose }: FeedbackUploadM
             </svg>
             
             <p className="text-slate-600 mb-2">
-              Arrastre y suelte su archivo JSON aquí o
+              Arrastre y suelte sus archivos JSON aquí o
             </p>
             <button
               onClick={() => fileInputRef.current?.click()}
               className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
-              Seleccionar Archivo
+              Seleccionar Archivos
             </button>
+            <p className="text-sm text-slate-500 mt-2">
+              Máximo 100 archivos JSON a la vez
+            </p>
           </div>
 
           {/* Error Display */}
@@ -228,17 +288,35 @@ export default function FeedbackUploadModal({ isOpen, onClose }: FeedbackUploadM
             </div>
           )}
 
+          {/* Files Processed Info */}
+          {processedFiles.length > 0 && (
+            <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <div className="flex items-center">
+                <svg className="w-5 h-5 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <p className="text-blue-700">
+                  {processedFiles.length} archivo(s) procesados correctamente
+                </p>
+              </div>
+            </div>
+          )}
+
           {/* JSON Content Preview */}
           {jsonContent && jsonContent.metadata && jsonContent.feedbacks && !uploadResult && (
             <div className="mt-6">
-              <h3 className="font-semibold text-slate-800 mb-3">Vista Previa del Contenido</h3>
+              <h3 className="font-semibold text-slate-800 mb-3">Vista Previa del Contenido Combinado</h3>
               <div className="bg-slate-100 rounded-lg p-4">
+                <div className="mb-3">
+                  <span className="font-medium text-slate-700">Archivos procesados:</span>
+                  <span className="ml-2 text-slate-600">{fileCount}</span>
+                </div>
                 <div className="mb-3">
                   <span className="font-medium text-slate-700">Instructor:</span>
                   <span className="ml-2 text-slate-600">{jsonContent.metadata.instructor}</span>
                 </div>
                 <div className="mb-3">
-                  <span className="font-medium text-slate-700">Total de Feedbacks:</span>
+                  <span className="font-medium text-slate-700">Total de Feedbacks únicos:</span>
                   <span className="ml-2 text-slate-600">{jsonContent.feedbacks.length}</span>
                 </div>
                 

@@ -10,6 +10,9 @@
   "functions": {
     "src/app/api/cron/weekly-reminders/route.ts": {
       "maxDuration": 300
+    },
+    "src/app/api/instructor/feedback/upload/route.ts": {
+      "maxDuration": 60
     }
   },
   "headers": [

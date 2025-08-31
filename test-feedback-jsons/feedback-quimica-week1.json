@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "instructor": "instructor@demo.com",
+    "generated_at": "2025-08-31T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-04",
+      "subject": "Química",
+      "feedback": {
+        "score": 90,
+        "general_comments": "Muy buen desempeño en Química esta semana",
+        "strengths": [
+          "Excelente manejo de nomenclatura",
+          "Buena comprensión de reacciones",
+          "Trabajo ordenado"
+        ],
+        "improvements": [
+          "Practicar balanceo de ecuaciones",
+          "Revisar tabla periódica"
+        ],
+        "ai_analysis": "Rendimiento destacado en química, especialmente en nomenclatura orgánica."
+      }
+    }
+  ]
+}

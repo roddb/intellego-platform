@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "instructor": "instructor@demo.com",
+    "generated_at": "2025-08-31T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-04",
+      "subject": "Física",
+      "feedback": {
+        "score": 85,
+        "general_comments": "Excelente trabajo en la primera semana de Física",
+        "strengths": [
+          "Comprensión de conceptos básicos",
+          "Participación activa",
+          "Buena resolución de problemas"
+        ],
+        "improvements": [
+          "Mejorar notación científica",
+          "Incluir más diagramas"
+        ],
+        "ai_analysis": "El estudiante muestra un sólido entendimiento inicial de los conceptos físicos fundamentales."
+      }
+    }
+  ]
+}

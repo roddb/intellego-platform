@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "instructor": "instructor@demo.com",
+    "generated_at": "2025-08-31T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-11",
+      "subject": "Física",
+      "feedback": {
+        "score": 88,
+        "general_comments": "Progreso consistente en la segunda semana",
+        "strengths": [
+          "Mejora en resolución de problemas",
+          "Aplicación correcta de fórmulas",
+          "Análisis dimensional correcto"
+        ],
+        "improvements": [
+          "Trabajar en interpretación gráfica",
+          "Mejorar redacción de conclusiones"
+        ],
+        "ai_analysis": "El estudiante demuestra mejora continua y adaptación a conceptos más complejos."
+      }
+    }
+  ]
+}
