@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
-import { adminResetPassword, findUserById } from "@/lib/db-operations";
+
+// Configure to use Node.js runtime instead of Edge Runtime
+// This is necessary because auth() uses bcryptjs which requires Node.js APIs
+export const runtime = 'nodejs';import { adminResetPassword, findUserById } from "@/lib/db-operations";
 import { rateLimit } from "@/lib/rate-limit";
 
 // Rate limiting configuration - very strict for admin password resets

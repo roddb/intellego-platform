@@ -1963,23 +1963,20 @@ export async function generateDatabaseExportStructure(): Promise<{ files: Array<
     let totalReports = 0;
     let totalFiles = 0;
     
-    // Academic cycle start date (Monday, July 28, 2025, 00:00 Argentina time = 03:00 UTC)
-    const CYCLE_START_DATE = new Date('2025-07-28T03:00:00.000Z');
-    
-    // Create a map to track week numbers based on academic calendar
+    // Create a map to track week numbers
     const weekNumberMap = new Map<string, number>();
+    let currentWeekNumber = 1;
     
-    // Calculate week numbers based on cycle start date
-    for (const report of reportsResult.rows) {
+    // Sort reports by date to assign week numbers
+    const sortedReports = reportsResult.rows.sort((a, b) => 
+      new Date(String(a.weekStart)).getTime() - new Date(String(b.weekStart)).getTime()
+    );
+    
+    // Assign week numbers based on unique week ranges
+    for (const report of sortedReports) {
       const weekKey = `${report.weekStart}_${report.weekEnd}`;
-      
       if (!weekNumberMap.has(weekKey)) {
-        const weekStart = new Date(String(report.weekStart));
-        const diffInMs = weekStart.getTime() - CYCLE_START_DATE.getTime();
-        const diffInWeeks = Math.floor(diffInMs / (7 * 24 * 60 * 60 * 1000));
-        // Ensure minimum week number is 1
-        const weekNumber = Math.max(1, diffInWeeks + 1);
-        weekNumberMap.set(weekKey, weekNumber);
+        weekNumberMap.set(weekKey, currentWeekNumber++);
       }
     }
     
@@ -2979,33 +2976,6 @@ export async function feedbackExists(
     return (result.rows[0] as any).count > 0;
   } catch (error) {
     console.error('Error checking feedback existence:', error);
-    throw error;
-  }
-}
-
-/**
- * Get feedback by student, week, and subject
- */
-export async function getFeedbackByStudentWeekSubject(
-  studentId: string, 
-  weekStart: string, 
-  subject: string
-): Promise<any | null> {
-  try {
-    const result = await query(`
-      SELECT id, studentId, weekStart, subject, score, 
-             generalComments, strengths, improvements, aiAnalysis,
-             createdBy, createdAt, updatedAt
-      FROM Feedback
-      WHERE studentId = ? 
-        AND DATE(weekStart) = DATE(?) 
-        AND subject = ?
-      LIMIT 1
-    `, [studentId, weekStart, subject]);
-    
-    return result.rows.length > 0 ? result.rows[0] : null;
-  } catch (error) {
-    console.error('Error getting feedback by student/week/subject:', error);
     throw error;
   }
 }

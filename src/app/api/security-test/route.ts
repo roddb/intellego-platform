@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/lib/auth';
-import {  } from '@/lib/auth';
+
+// Configure to use Node.js runtime instead of Edge Runtime
+// This is necessary because auth() uses bcryptjs which requires Node.js APIs
+export const runtime = 'nodejs';import {  } from '@/lib/auth';
 import { securityLogger } from '@/lib/security-logger';
 
 /**

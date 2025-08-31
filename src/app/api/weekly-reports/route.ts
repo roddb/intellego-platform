@@ -11,6 +11,10 @@ import {
 } from "@/lib/db-operations"
 import { saveStudentReportAsJSON } from "@/lib/simple-file-storage"
 
+// Configure to use Node.js runtime instead of Edge Runtime
+// This is necessary because auth() uses bcryptjs which requires Node.js APIs
+export const runtime = 'nodejs';
+
 export async function GET(request: NextRequest) {
   try {
     const session = await auth()

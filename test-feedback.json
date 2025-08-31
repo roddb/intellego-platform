@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "instructor": "rdb@intellego.com",
+    "generated_at": "2025-01-15T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-18",
+      "subject": "Física",
+      "feedback": {
+        "score": 85,
+        "general_comments": "Excelente trabajo esta semana. Has demostrado un muy buen entendimiento de los conceptos de cinemática.",
+        "strengths": [
+          "Comprensión clara del movimiento rectilíneo uniforme",
+          "Uso correcto de las fórmulas de velocidad y aceleración",
+          "Buena capacidad de análisis en problemas prácticos"
+        ],
+        "improvements": [
+          "Mejorar la notación matemática en las respuestas",
+          "Incluir más detalle en los diagramas de cuerpo libre",
+          "Revisar las unidades en los cálculos finales"
+        ],
+        "ai_analysis": "El estudiante muestra un progreso consistente en física. Se recomienda reforzar conceptos de vectores para preparar próximos temas."
+      }
+    },
+    {
+      "student_email": "estudiante@demo.com",
+      "student_id": "EST-2025-001",
+      "week_start": "2025-08-18",
+      "subject": "Química",
+      "feedback": {
+        "score": 78,
+        "general_comments": "Buen avance en los conceptos de estequiometría. Se nota el esfuerzo en los ejercicios prácticos.",
+        "strengths": [
+          "Manejo adecuado de la tabla periódica",
+          "Comprensión de las reacciones de oxidación-reducción",
+          "Buena identificación de reactivos y productos"
+        ],
+        "improvements": [
+          "Practicar más el balanceo de ecuaciones químicas",
+          "Mejorar el cálculo de masas molares",
+          "Repasar las reglas de nomenclatura química"
+        ],
+        "ai_analysis": "El estudiante tiene una base sólida pero necesita más práctica en cálculos estequiométricos para alcanzar el dominio completo del tema."
+      }
+    }
+  ]
+}

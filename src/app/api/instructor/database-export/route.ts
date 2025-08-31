@@ -11,6 +11,10 @@ import {
 import { generateDatabaseExportStructure } from '@/lib/db-operations';
 import JSZip from 'jszip';
 
+// Configure to use Node.js runtime instead of Edge Runtime
+// This is necessary because auth() uses bcryptjs which requires Node.js APIs
+export const runtime = 'nodejs';
+
 // Helper function to extract sede breakdown from files
 function extractSedeBreakdown(files: Array<{ path: string; content: string }>) {
   const sedeMap = new Map<string, { studentCount: Set<string>; subjects: Set<string> }>();

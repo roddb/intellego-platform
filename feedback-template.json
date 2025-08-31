@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "instructor": "EMAIL_DEL_INSTRUCTOR_QUE_SUBIRA_EL_ARCHIVO",
+    "generated_at": "2025-08-25T12:00:00Z",
+    "version": "1.0"
+  },
+  "feedbacks": [
+    {
+      "student_email": "email@estudiante.com",
+      "student_id": "EST-2025-XXX",
+      "week_start": "YYYY-MM-DD",
+      "subject": "Física | Química",
+      "feedback": {
+        "score": 85,
+        "general_comments": "Comentarios generales sobre el desempeño del estudiante esta semana",
+        "strengths": [
+          "Primera fortaleza identificada",
+          "Segunda fortaleza identificada",
+          "Tercera fortaleza identificada"
+        ],
+        "improvements": [
+          "Primera área de mejora",
+          "Segunda área de mejora",
+          "Tercera área de mejora"
+        ],
+        "ai_analysis": "Análisis detallado generado por IA sobre el progreso y recomendaciones"
+      }
+    }
+  ]
+}

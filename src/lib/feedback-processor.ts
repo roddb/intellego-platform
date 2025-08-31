@@ -3,6 +3,7 @@ import {
   createFeedback,
   updateFeedback,
   feedbackExists,
+  getFeedbackByStudentWeekSubject,
   findUserByEmail
 } from './db-operations';
 
@@ -185,7 +186,7 @@ export async function processFeedbackJSON(
           const studentUserId = validation.userId!;
           
           // Check if feedback already exists
-          const exists = await feedbackExists(
+          const existingFeedback = await getFeedbackByStudentWeekSubject(
             studentUserId,
             entry.week_start,
             entry.subject
@@ -204,10 +205,10 @@ export async function processFeedbackJSON(
             createdBy: instructorId
           };
           
-          if (exists) {
+          if (existingFeedback) {
             // For now, update with new data (overwrite)
             // In future, could merge or version control
-            await updateFeedback(studentUserId, entry.week_start, entry.subject, feedbackData);
+            await updateFeedback(existingFeedback.id, feedbackData);
             return {
               success: true,
               entry,
@@ -252,7 +253,7 @@ export async function processFeedbackJSON(
               studentId: res.entry.student_id,
               week: res.entry.week_start,
               subject: res.entry.subject,
-              error: res.error
+              error: res.error || 'Unknown error'
             });
             result.summary.failed++;
           }
