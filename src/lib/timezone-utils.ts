@@ -83,11 +83,13 @@ export function formatArgentinaWeekRange(weekStart: string | Date, weekEnd: stri
 /**
  * Get current Argentina date as Date object
  * Useful for week calculations and comparisons
+ * FIXED: Now returns the actual current time (UTC) which works correctly with week boundaries
  */
 export function getCurrentArgentinaDate(): Date {
-  const now = new Date();
-  const argentinaTime = new Date(now.toLocaleString("en-US", {timeZone: "America/Argentina/Buenos_Aires"}));
-  return argentinaTime;
+  // Simply return the current UTC time
+  // The week boundaries are already properly calculated in UTC for Argentina timezone
+  // This ensures correct comparisons for Sunday night submissions
+  return new Date();
 }
 
 /**

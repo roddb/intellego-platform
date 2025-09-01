@@ -118,7 +118,10 @@
       "mcp__vercel__get_deployment",
       "mcp__vercel__get_deployment_build_logs",
       "Bash(./fix-runtime-all-routes.sh:*)",
-      "Bash(for:*)"
+      "Bash(for:*)",
+      "Bash(npx vercel:*)",
+      "mcp__github__list_pull_requests",
+      "mcp__github__list_commits"
     ],
     "deny": []
   }
