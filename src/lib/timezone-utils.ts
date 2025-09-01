@@ -126,19 +126,23 @@ export function isFutureWeekInArgentina(weekStart: string | Date): boolean {
 /**
  * Get the start of the current week (Monday) in Argentina timezone
  * Returns a UTC Date object representing Monday 00:00:00 in Argentina time
- * FIXED: Correctly handles UTC-3 offset for Argentina
+ * FIXED: Now correctly handles Sunday nights in Argentina
  */
 export function getWeekStartInArgentina(date?: Date): Date {
   const baseDate = date || new Date();
   
-  // Get the day of the week in UTC (0 = Sunday, 1 = Monday, etc.)
-  const currentDay = baseDate.getUTCDay();
+  // Convert to Argentina time to get the correct day
+  // Subtract 3 hours from UTC to get Argentina time (UTC-3)
+  const argentinaDate = new Date(baseDate.getTime() - 3 * 60 * 60 * 1000);
+  
+  // Get the day of the week in Argentina time (0 = Sunday, 1 = Monday, etc.)
+  const currentDay = argentinaDate.getUTCDay();
   
   // Calculate how many days to go back to reach Monday
   const daysToMonday = currentDay === 0 ? -6 : 1 - currentDay;
   
   // Create new date for Monday
-  const monday = new Date(baseDate);
+  const monday = new Date(argentinaDate);
   monday.setUTCDate(monday.getUTCDate() + daysToMonday);
   
   // Set to 00:00 Argentina time = 03:00 UTC (Argentina is UTC-3)
