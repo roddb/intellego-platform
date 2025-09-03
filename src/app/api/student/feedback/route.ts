@@ -73,6 +73,7 @@ export async function GET(request: NextRequest) {
           strengths: feedback.strengths,
           improvements: feedback.improvements,
           aiAnalysis: feedback.aiAnalysis,
+          skillsMetrics: feedback.skillsMetrics,
           createdAt: feedback.createdAt,
           instructor: {
             name: feedback.instructorName,
@@ -95,6 +96,7 @@ export async function GET(request: NextRequest) {
       strengths: fb.strengths,
       improvements: fb.improvements,
       aiAnalysis: fb.aiAnalysis,
+      skillsMetrics: fb.skillsMetrics,
       createdAt: fb.createdAt,
       instructor: {
         name: fb.instructorName,

@@ -18,6 +18,13 @@ interface Feedback {
   strengths?: string[];
   improvements?: string[];
   aiAnalysis?: string;
+  skillsMetrics?: {
+    comprehension: number;
+    criticalThinking: number;
+    selfRegulation: number;
+    practicalApplication: number;
+    metacognition: number;
+  };
   createdAt: string;
   instructor: {
     name: string;
@@ -200,6 +207,92 @@ export default function FeedbackViewer({ isOpen, onClose, weekStart, subject }: 
                   </div>
                 )}
               </div>
+
+              {/* Skills Metrics */}
+              {feedback.skillsMetrics && (
+                <div className="mb-6">
+                  <h3 className="font-semibold text-slate-800 mb-3 flex items-center">
+                    <svg className="w-5 h-5 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    Métricas de Habilidades
+                  </h3>
+                  <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-4">
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-slate-700">Comprensión Conceptual</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${feedback.skillsMetrics.comprehension}%` }}
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-slate-800 w-10 text-right">
+                            {feedback.skillsMetrics.comprehension}%
+                          </span>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-slate-700">Pensamiento Crítico</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${feedback.skillsMetrics.criticalThinking}%` }}
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-slate-800 w-10 text-right">
+                            {feedback.skillsMetrics.criticalThinking}%
+                          </span>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-slate-700">Autorregulación</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${feedback.skillsMetrics.selfRegulation}%` }}
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-slate-800 w-10 text-right">
+                            {feedback.skillsMetrics.selfRegulation}%
+                          </span>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-slate-700">Aplicación Práctica</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${feedback.skillsMetrics.practicalApplication}%` }}
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-slate-800 w-10 text-right">
+                            {feedback.skillsMetrics.practicalApplication}%
+                          </span>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-slate-700">Reflexión Metacognitiva</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${feedback.skillsMetrics.metacognition}%` }}
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-slate-800 w-10 text-right">
+                            {feedback.skillsMetrics.metacognition}%
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {/* AI Analysis */}
               {feedback.aiAnalysis && (
