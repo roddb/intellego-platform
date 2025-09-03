@@ -121,7 +121,10 @@
       "Bash(for:*)",
       "Bash(npx vercel:*)",
       "mcp__github__list_pull_requests",
-      "mcp__github__list_commits"
+      "mcp__github__list_commits",
+      "Bash(NODE_ENV=production TURSO_DATABASE_URL=\"libsql://intellego-production-roddb.aws-us-east-1.turso.io\" TURSO_AUTH_TOKEN=\"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTQyNDUyNjUsImlkIjoiMzZlNDhmZTQtMGE3ZC00Yjk5LWIyZmEtMWFiOTBiZTVkMzUzIiwicmlkIjoiNmY2ODFjNWUtNDdiOS00ZjYwLWFkYjctNjA3NWNhMmZjMzUyIn0.X6NQ5rLuainoba0mZlOKx3O7LGB1AdUR3X3aQlqqiLHLUh9lJ2JIx1JdYEeSorAIciUL4PhVwK3cVi8pf7fUAw\" npx tsx add-skills-metrics-column.ts)",
+      "Bash(NODE_ENV=production TURSO_DATABASE_URL=\"libsql://intellego-production-roddb.aws-us-east-1.turso.io\" TURSO_AUTH_TOKEN=\"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTQyNDUyNjUsImlkIjoiMzZlNDhmZTQtMGE3ZC00Yjk5LWIyZmEtMWFiOTBiZTVkMzUzIiwicmlkIjoiNmY2ODFjNWUtNDdiOS00ZjYwLWFkYjctNjA3NWNhMmZjMzUyIn0.X6NQ5rLuainoba0mZlOKx3O7LGB1AdUR3X3aQlqqiLHLUh9lJ2JIx1JdYEeSorAIciUL4PhVwK3cVi8pf7fUAw\" npx tsx add-sample-feedback.ts)",
+      "Bash(TURSO_DATABASE_URL=\"libsql://intellego-production-roddb.aws-us-east-1.turso.io\" TURSO_AUTH_TOKEN=\"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTQyNDUyNjUsImlkIjoiMzZlNDhmZTQtMGE3ZC00Yjk5LWIyZmEtMWFiOTBiZTVkMzUzIiwicmlkIjoiNmY2ODFjNWUtNDdiOS00ZjYwLWFkYjctNjA3NWNhMmZjMzUyIn0.X6NQ5rLuainoba0mZlOKx3O7LGB1AdUR3X3aQlqqiLHLUh9lJ2JIx1JdYEeSorAIciUL4PhVwK3cVi8pf7fUAw\" node -e \"\nconst { createClient } = require(''@libsql/client'');\n\nconst client = createClient({\n  url: process.env.TURSO_DATABASE_URL,\n  authToken: process.env.TURSO_AUTH_TOKEN,\n});\n\n(async () => {\n  try {\n    // Check if createdBy needs to reference a valid User\n    const result = await client.execute({\n      sql: ''SELECT id FROM User WHERE role = ? LIMIT 1'',\n      args: [''INSTRUCTOR'']\n    });\n    \n    if (result.rows.length > 0) {\n      console.log(''Found instructor:'', result.rows[0]);\n    } else {\n      console.log(''No instructor found'');\n      \n      // Check all users\n      const allUsers = await client.execute(''SELECT id, email, role FROM User LIMIT 5'');\n      console.log(''Available users:'', allUsers.rows);\n    }\n  } catch (error) {\n    console.error(''Error:'', error);\n  }\n})();\n\")"
     ],
     "deny": []
   }

@@ -100,13 +100,14 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     const diff = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
     currentWeek.setDate(currentWeek.getDate() + diff);
     
-    while (currentWeek <= lastDay || currentWeek.getMonth() === month) {
+    while (currentWeek <= lastDay) {
       const weekStart = new Date(currentWeek);
       const weekEnd = new Date(currentWeek);
       weekEnd.setDate(weekEnd.getDate() + 6);
       
-      // Only include weeks that overlap with the current month
-      if (weekEnd >= firstDay || weekStart <= lastDay) {
+      // Include weeks that have ANY overlap with the current month
+      // A week overlaps if it starts before or during the month AND ends during or after the month
+      if (weekStart <= lastDay && weekEnd >= firstDay) {
         weeks.push({
           start: weekStart.toISOString().split('T')[0],
           end: weekEnd.toISOString().split('T')[0],
@@ -115,7 +116,6 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       }
       
       currentWeek.setDate(currentWeek.getDate() + 7);
-      if (currentWeek.getMonth() > month && currentWeek.getDate() > 7) break;
     }
     
     return weeks;
