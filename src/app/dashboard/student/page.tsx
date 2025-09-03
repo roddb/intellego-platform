@@ -6,7 +6,9 @@ import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
 import FeedbackViewer from "@/components/student/FeedbackViewer"
+import MonthlyReportsHistory from "@/components/student/MonthlyReportsHistory"
 import { useChunkErrorHandler } from "@/components/ErrorBoundary"
+import { TrendingUp } from 'lucide-react'
 // Import timezone utilities with dynamic import to prevent chunk loading issues
 import * as TimezoneUtils from "@/lib/timezone-utils"
 const { toArgentinaDate, getCurrentArgentinaDate, isCurrentWeekInArgentina, isPastWeekInArgentina, isFutureWeekInArgentina } = TimezoneUtils
@@ -61,7 +63,7 @@ export default function StudentDashboard() {
   const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const [activeTab, setActiveTab] = useState<'reports' | 'profile'>('reports')
+  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress'>('reports')
   const [feedbackModalOpen, setFeedbackModalOpen] = useState(false)
   const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
 
@@ -276,26 +278,43 @@ export default function StudentDashboard() {
 
         {/* Navigation Tabs */}
         <div className="mb-8">
-          <div className="flex space-x-1 bg-slate-100 p-1 rounded-lg max-w-lg">
+          <div className="flex space-x-1 bg-slate-100 p-1 rounded-lg">
             <button
               onClick={() => setActiveTab('reports')}
-              className={`flex-1 px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
                 activeTab === 'reports'
                   ? 'bg-white text-slate-800 shadow-sm'
                   : 'text-slate-600 hover:text-slate-800'
               }`}
             >
-              📝 Reportes Semanales
+              📝 Reportes
+            </button>
+            <button
+              onClick={() => setActiveTab('history')}
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                activeTab === 'history'
+                  ? 'bg-white text-slate-800 shadow-sm'
+                  : 'text-slate-600 hover:text-slate-800'
+              }`}
+            >
+              📅 Historial
+            </button>
+            <button
+              onClick={() => router.push('/dashboard/student/progress')}
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors flex items-center justify-center gap-1 text-slate-600 hover:text-slate-800`}
+            >
+              <TrendingUp className="w-4 h-4" />
+              <span>Progreso</span>
             </button>
             <button
               onClick={() => setActiveTab('profile')}
-              className={`flex-1 px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
                 activeTab === 'profile'
                   ? 'bg-white text-slate-800 shadow-sm'
                   : 'text-slate-600 hover:text-slate-800'
               }`}
             >
-              ⚙️ Mi Perfil
+              ⚙️ Perfil
             </button>
           </div>
         </div>
@@ -459,6 +478,49 @@ export default function StudentDashboard() {
               ))}
             </div>
           )
+        )}
+
+        {/* History Tab Content */}
+        {activeTab === 'history' && session?.user?.id && (
+          <div className="space-y-8">
+            <MonthlyReportsHistory 
+              userId={session.user.id}
+              className="w-full"
+            />
+            
+            {/* Quick Stats */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <h3 className="text-lg font-semibold text-slate-800 mb-4">
+                📊 Resumen de Entregas
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-600">
+                    {Object.values(reportsBySubject).flat().length}
+                  </div>
+                  <div className="text-sm text-slate-600">Reportes Enviados</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-blue-600">
+                    {userSubjects.length}
+                  </div>
+                  <div className="text-sm text-slate-600">Materias Activas</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-purple-600">
+                    {Math.round((Object.values(reportsBySubject).flat().length / (userSubjects.length * 4)) * 100) || 0}%
+                  </div>
+                  <div className="text-sm text-slate-600">Tasa de Entrega</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-orange-600">
+                    {Object.values(reportsBySubject).flat().filter((r: any) => r.hasFeedback).length || 0}
+                  </div>
+                  <div className="text-sm text-slate-600">Con Devolución</div>
+                </div>
+              </div>
+            </div>
+          </div>
         )}
 
         {/* Profile Tab Content */}

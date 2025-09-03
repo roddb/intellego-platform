@@ -4,7 +4,8 @@ import {
   updateFeedback,
   feedbackExists,
   getFeedbackByStudentWeekSubject,
-  findUserByEmail
+  findUserByEmail,
+  createFeedbackWithMetrics
 } from './db-operations';
 
 // Type definitions for the feedback JSON structure
@@ -29,6 +30,13 @@ export interface FeedbackEntry {
     strengths?: string[];
     improvements?: string[];
     ai_analysis?: string;
+    skills_metrics?: {
+      comprehension: number;        // Comprensión Conceptual (0-100)
+      critical_thinking: number;     // Pensamiento Crítico (0-100)
+      self_regulation: number;       // Autorregulación (0-100)
+      practical_application: number; // Aplicación Práctica (0-100)
+      metacognition: number;         // Reflexión Metacognitiva (0-100)
+    };
   };
 }
 
@@ -205,6 +213,15 @@ export async function processFeedbackJSON(
             createdBy: instructorId
           };
           
+          // Prepare skills metrics if provided
+          const skillsMetrics = entry.feedback.skills_metrics ? {
+            comprehension: entry.feedback.skills_metrics.comprehension,
+            criticalThinking: entry.feedback.skills_metrics.critical_thinking,
+            selfRegulation: entry.feedback.skills_metrics.self_regulation,
+            practicalApplication: entry.feedback.skills_metrics.practical_application,
+            metacognition: entry.feedback.skills_metrics.metacognition
+          } : undefined;
+          
           if (existingFeedback) {
             // For now, update with new data (overwrite)
             // In future, could merge or version control
@@ -215,8 +232,15 @@ export async function processFeedbackJSON(
               action: 'updated'
             };
           } else {
-            // Create new feedback
-            await createFeedback(feedbackData);
+            // Create new feedback with metrics if available
+            if (skillsMetrics) {
+              await createFeedbackWithMetrics({
+                ...feedbackData,
+                skillsMetrics
+              });
+            } else {
+              await createFeedback(feedbackData);
+            }
             return {
               success: true,
               entry,
@@ -309,7 +333,14 @@ export function generateSampleFeedbackJSON(): FeedbackJSON {
             "Mejorar la presentación de resultados",
             "Incluir más diagramas explicativos"
           ],
-          ai_analysis: "El estudiante muestra un progreso consistente en la comprensión de conceptos físicos. Se recomienda reforzar el análisis dimensional y la interpretación gráfica de resultados."
+          ai_analysis: "El estudiante muestra un progreso consistente en la comprensión de conceptos físicos. Se recomienda reforzar el análisis dimensional y la interpretación gráfica de resultados.",
+          skills_metrics: {
+            comprehension: 85,        // Comprensión Conceptual
+            critical_thinking: 75,     // Pensamiento Crítico  
+            self_regulation: 80,       // Autorregulación
+            practical_application: 70, // Aplicación Práctica
+            metacognition: 82         // Reflexión Metacognitiva
+          }
         }
       },
       {
@@ -329,7 +360,14 @@ export function generateSampleFeedbackJSON(): FeedbackJSON {
             "Profundizar en química orgánica",
             "Practicar más problemas de pH"
           ],
-          ai_analysis: "Rendimiento sobresaliente en química inorgánica. El estudiante está listo para avanzar a temas más complejos."
+          ai_analysis: "Rendimiento sobresaliente en química inorgánica. El estudiante está listo para avanzar a temas más complejos.",
+          skills_metrics: {
+            comprehension: 92,        // Comprensión Conceptual
+            critical_thinking: 88,     // Pensamiento Crítico  
+            self_regulation: 90,       // Autorregulación
+            practical_application: 85, // Aplicación Práctica
+            metacognition: 91         // Reflexión Metacognitiva
+          }
         }
       }
     ]
