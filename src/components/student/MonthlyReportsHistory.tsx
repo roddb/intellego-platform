@@ -149,7 +149,8 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     });
     
     if (!report) return 'pending';
-    return report.hasFeedback ? 'completed-with-feedback' : 'completed';
+    // Three distinct states: pending, completed without feedback, completed with feedback
+    return report.hasFeedback ? 'completed-with-feedback' : 'completed-without-feedback';
   };
   
   // Get unique subjects from reports
@@ -171,7 +172,7 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     switch (status) {
       case 'completed-with-feedback':
         return <Check className="w-4 h-4 text-green-600" />;
-      case 'completed':
+      case 'completed-without-feedback':
         return <Check className="w-4 h-4 text-blue-600" />;
       case 'pending':
         return <Clock className="w-4 h-4 text-gray-400" />;
@@ -184,7 +185,7 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     switch (status) {
       case 'completed-with-feedback':
         return 'bg-green-100 border-green-300';
-      case 'completed':
+      case 'completed-without-feedback':
         return 'bg-blue-100 border-blue-300';
       case 'pending':
         return 'bg-gray-50 border-gray-200';

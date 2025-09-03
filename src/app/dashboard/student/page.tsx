@@ -508,7 +508,16 @@ export default function StudentDashboard() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-purple-600">
-                    {Math.round((Object.values(reportsBySubject).flat().length / (userSubjects.length * 4)) * 100) || 0}%
+                    {(() => {
+                      const totalReports = Object.values(reportsBySubject).flat().length;
+                      const totalSubjects = userSubjects.length;
+                      // Calculate weeks elapsed in current month
+                      const now = new Date();
+                      const firstDayOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+                      const weeksElapsed = Math.ceil((now.getTime() - firstDayOfMonth.getTime()) / (7 * 24 * 60 * 60 * 1000));
+                      const expectedReports = totalSubjects * Math.min(weeksElapsed, 5); // Max 5 weeks per month
+                      return expectedReports > 0 ? Math.round((totalReports / expectedReports) * 100) : 0;
+                    })()}%
                   </div>
                   <div className="text-sm text-slate-600">Tasa de Entrega</div>
                 </div>
