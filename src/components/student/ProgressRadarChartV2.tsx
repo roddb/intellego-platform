@@ -179,7 +179,6 @@ export default function ProgressRadarChartV2({
                 tickCount={6}
                 tick={{ fontSize: 12, fill: '#9ca3af' }}
                 axisLine={false}
-                outerRadius={150}
               />
               
               <Radar
