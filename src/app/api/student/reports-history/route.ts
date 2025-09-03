@@ -36,6 +36,8 @@ export async function GET(request: NextRequest) {
     }
     
     // Get reports for the specified date range
+    // Include reports where the week overlaps with the month at all
+    // (week starts before month ends AND week ends after month starts)
     const reportsResult = await query(`
       SELECT 
         pr.id, 
@@ -54,10 +56,10 @@ export async function GET(request: NextRequest) {
         AND f.subject = pr.subject
       )
       WHERE pr.userId = ?
-        AND pr.weekStart >= ?
         AND pr.weekStart <= ?
+        AND pr.weekEnd >= ?
       ORDER BY pr.weekStart, pr.subject
-    `, [userId, startDate, endDate]);
+    `, [userId, endDate, startDate]);
     
     const reports = reportsResult.rows.map((row: any) => ({
       id: row.id,

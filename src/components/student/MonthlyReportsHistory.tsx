@@ -66,8 +66,26 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     try {
       const year = currentMonth.getFullYear();
       const month = currentMonth.getMonth();
-      const startDate = new Date(year, month, 1).toISOString().split('T')[0];
-      const endDate = new Date(year, month + 1, 0).toISOString().split('T')[0];
+      // Extend the date range to include weeks that overlap with the month
+      // Start from the Monday of the week containing the first day of the month
+      // End at the Sunday of the week containing the last day of the month
+      const firstDayOfMonth = new Date(year, month, 1);
+      const lastDayOfMonth = new Date(year, month + 1, 0);
+      
+      // Find Monday of the week containing the first day
+      const startWeek = new Date(firstDayOfMonth);
+      const startDayOfWeek = startWeek.getDay();
+      const diffToMonday = startDayOfWeek === 0 ? -6 : 1 - startDayOfWeek;
+      startWeek.setDate(startWeek.getDate() + diffToMonday);
+      
+      // Find Sunday of the week containing the last day
+      const endWeek = new Date(lastDayOfMonth);
+      const endDayOfWeek = endWeek.getDay();
+      const diffToSunday = endDayOfWeek === 0 ? 0 : 7 - endDayOfWeek;
+      endWeek.setDate(endWeek.getDate() + diffToSunday);
+      
+      const startDate = startWeek.toISOString().split('T')[0];
+      const endDate = endWeek.toISOString().split('T')[0];
       
       const response = await fetch(
         `/api/student/reports-history?userId=${userId}&startDate=${startDate}&endDate=${endDate}`
