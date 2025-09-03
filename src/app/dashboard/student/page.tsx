@@ -511,12 +511,46 @@ export default function StudentDashboard() {
                     {(() => {
                       const totalReports = Object.values(reportsBySubject).flat().length;
                       const totalSubjects = userSubjects.length;
-                      // Calculate weeks elapsed in current month
+                      
+                      // Calculate actual weeks in the current month that have passed
                       const now = new Date();
-                      const firstDayOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
-                      const weeksElapsed = Math.ceil((now.getTime() - firstDayOfMonth.getTime()) / (7 * 24 * 60 * 60 * 1000));
-                      const expectedReports = totalSubjects * Math.min(weeksElapsed, 5); // Max 5 weeks per month
-                      return expectedReports > 0 ? Math.round((totalReports / expectedReports) * 100) : 0;
+                      const year = now.getFullYear();
+                      const month = now.getMonth();
+                      const firstDayOfMonth = new Date(year, month, 1);
+                      
+                      // Get Monday of the first week of the month
+                      let firstMonday = new Date(firstDayOfMonth);
+                      const dayOfWeek = firstMonday.getDay();
+                      const diff = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
+                      firstMonday.setDate(firstMonday.getDate() + diff);
+                      
+                      // Count complete weeks that have ended
+                      let weeksElapsed = 0;
+                      let currentWeekStart = new Date(firstMonday);
+                      
+                      while (currentWeekStart < now) {
+                        const weekEnd = new Date(currentWeekStart);
+                        weekEnd.setDate(weekEnd.getDate() + 6);
+                        
+                        // Only count if the week has ended (we're past Sunday)
+                        if (weekEnd < now) {
+                          weeksElapsed++;
+                        }
+                        
+                        currentWeekStart.setDate(currentWeekStart.getDate() + 7);
+                        
+                        // Stop if we've reached the next month
+                        if (currentWeekStart.getMonth() !== month && currentWeekStart > now) {
+                          break;
+                        }
+                      }
+                      
+                      // Calculate expected reports (only for completed weeks)
+                      const expectedReports = totalSubjects * weeksElapsed;
+                      
+                      // Calculate percentage
+                      if (expectedReports === 0) return 0;
+                      return Math.round((totalReports / expectedReports) * 100);
                     })()}%
                   </div>
                   <div className="text-sm text-slate-600">Tasa de Entrega</div>
