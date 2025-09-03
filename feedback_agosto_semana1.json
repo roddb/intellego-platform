@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "instructor": "rdb@intellego.com",
+    "generated_at": "2025-09-03T15:00:00.000Z",
+    "version": "1.0",
+    "academic_year": "2025"
+  },
+  "feedbacks": [
+    {
+      "student_email": "RDB@test.com",
+      "student_id": "EST-2025-002",
+      "week_start": "2025-08-04",
+      "subject": "Química",
+      "feedback": {
+        "score": 78,
+        "general_comments": "Buen inicio en el curso de química. El estudiante muestra interés y comprende los conceptos básicos de la materia y sus propiedades.",
+        "strengths": [
+          "Buena comprensión de estados de la materia",
+          "Correcta identificación de propiedades físicas y químicas",
+          "Participación activa en clase"
+        ],
+        "improvements": [
+          "Revisar la tabla periódica y familiarizarse con los elementos",
+          "Practicar más conversiones de unidades",
+          "Mejorar la notación científica"
+        ],
+        "ai_analysis": "El estudiante muestra una base sólida para comenzar el curso. Se recomienda reforzar los conceptos matemáticos que serán necesarios para los cálculos químicos.",
+        "skills_metrics": {
+          "comprehension": 75,
+          "critical_thinking": 72,
+          "self_regulation": 80,
+          "practical_application": 68,
+          "metacognition": 78
+        }
+      }
+    }
+  ]
+}

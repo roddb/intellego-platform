@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "instructor": "rdb@intellego.com",
+    "generated_at": "2025-09-03T15:00:00.000Z",
+    "version": "1.0",
+    "academic_year": "2025"
+  },
+  "feedbacks": [
+    {
+      "student_email": "RDB@test.com",
+      "student_id": "EST-2025-002",
+      "week_start": "2025-08-25",
+      "subject": "Química",
+      "feedback": {
+        "score": 85,
+        "general_comments": "Excelente trabajo en estequiometría y balanceo de ecuaciones químicas. El estudiante muestra una comprensión sólida de las reacciones químicas y los cálculos molares.",
+        "strengths": [
+          "Dominio de nomenclatura química",
+          "Cálculos estequiométricos precisos",
+          "Buena interpretación de reacciones"
+        ],
+        "improvements": [
+          "Profundizar en química orgánica",
+          "Practicar más problemas de pH y pOH",
+          "Mejorar la representación de estructuras moleculares"
+        ],
+        "ai_analysis": "El estudiante demuestra un rendimiento sobresaliente en química inorgánica. Está preparado para avanzar a temas más complejos de equilibrio químico.",
+        "skills_metrics": {
+          "comprehension": 88,
+          "critical_thinking": 82,
+          "self_regulation": 85,
+          "practical_application": 86,
+          "metacognition": 84
+        }
+      }
+    }
+  ]
+}

@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "mcp__github__create_pull_request"
+      "mcp__github__create_pull_request",
+      "mcp__github__get_pull_request",
+      "Bash(curl:*)",
+      "Bash(/dev/null)",
+      "Bash(npm run dev:*)",
+      "Bash(git add:*)",
+      "Bash(git restore:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__vercel__list_deployments",
+      "Bash(node:*)",
+      "Bash(turso auth:*)"
     ],
     "deny": [],
     "ask": []
