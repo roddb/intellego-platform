@@ -317,7 +317,11 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
             </div>
             <div className="p-6">
               <FeedbackViewer 
-                studentId={userId}
+                isOpen={showFeedback}
+                onClose={() => {
+                  setShowFeedback(false);
+                  setSelectedReport(null);
+                }}
                 weekStart={selectedReport.weekStart}
                 subject={selectedReport.subject}
               />
