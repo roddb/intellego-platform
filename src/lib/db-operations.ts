@@ -2909,7 +2909,7 @@ export async function getFeedbackByWeek(
       FROM Feedback f
       JOIN User u ON f.createdBy = u.id
       WHERE f.studentId = ? 
-        AND f.weekStart = ? 
+        AND date(f.weekStart) = date(?) 
         AND f.subject = ?
       LIMIT 1
     `, [studentId, weekStart, subject]);
@@ -2924,7 +2924,8 @@ export async function getFeedbackByWeek(
     return {
       ...feedback,
       strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     };
   } catch (error) {
     console.error('Error getting feedback by week:', error);
@@ -2951,7 +2952,8 @@ export async function getFeedbacksByStudent(studentId: string): Promise<any[]> {
     return result.rows.map((feedback: any) => ({
       ...feedback,
       strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     }));
   } catch (error) {
     console.error('Error getting feedbacks by student:', error);
