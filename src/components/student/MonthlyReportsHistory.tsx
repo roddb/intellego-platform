@@ -141,9 +141,12 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   
   // Get report status for a specific week and subject
   const getReportStatus = (weekStart: string, subject: string) => {
-    const report = reports.find(r => 
-      r.weekStart === weekStart && r.subject === subject
-    );
+    const report = reports.find(r => {
+      // Compare dates without time component
+      // Handle both ISO format (with time) and simple date format
+      const reportWeekStart = r.weekStart.split('T')[0];
+      return reportWeekStart === weekStart && r.subject === subject;
+    });
     
     if (!report) return 'pending';
     return report.hasFeedback ? 'completed-with-feedback' : 'completed';
@@ -266,9 +269,10 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
                     </td>
                     {subjects.map(subject => {
                       const status = getReportStatus(week.start, subject);
-                      const report = reports.find(r => 
-                        r.weekStart === week.start && r.subject === subject
-                      );
+                      const report = reports.find(r => {
+                        const reportWeekStart = r.weekStart.split('T')[0];
+                        return reportWeekStart === week.start && r.subject === subject;
+                      });
                       
                       return (
                         <td key={`${week.start}-${subject}`} className="py-3 px-3">

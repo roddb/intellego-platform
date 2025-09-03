@@ -63,8 +63,8 @@ export async function GET(request: NextRequest) {
     
     const reports = reportsResult.rows.map((row: any) => ({
       id: row.id,
-      weekStart: row.weekStart,
-      weekEnd: row.weekEnd,
+      weekStart: String(row.weekStart).split('T')[0], // Ensure date format is YYYY-MM-DD
+      weekEnd: String(row.weekEnd).split('T')[0],     // Ensure date format is YYYY-MM-DD
       subject: row.subject,
       submittedAt: row.submittedAt,
       hasFeedback: row.hasFeedback === 1
