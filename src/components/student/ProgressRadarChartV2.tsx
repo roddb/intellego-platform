@@ -118,7 +118,7 @@ export default function ProgressRadarChartV2({
   const renderPolarAngleAxisLabel = (props: any) => {
     const { payload, x, y, cx, cy } = props;
     const radius = Math.sqrt(Math.pow(x - cx, 2) + Math.pow(y - cy, 2));
-    const adjustedRadius = radius + 20; // Move labels further out
+    const adjustedRadius = radius + 30; // Move labels further out for larger chart
     const angle = Math.atan2(y - cy, x - cx);
     const adjustedX = cx + adjustedRadius * Math.cos(angle);
     const adjustedY = cy + adjustedRadius * Math.sin(angle);
@@ -133,7 +133,7 @@ export default function ProgressRadarChartV2({
         x={adjustedX}
         y={adjustedY}
         textAnchor={textAnchor}
-        className="fill-gray-700 text-sm font-medium"
+        className="fill-gray-700 text-base font-semibold"
         dominantBaseline="central"
       >
         {payload.value}
@@ -150,9 +150,9 @@ export default function ProgressRadarChartV2({
       )}
       
       <div className="flex flex-col items-center">
-        <div className="w-full" style={{ minHeight: '400px' }}>
-          <ResponsiveContainer width="100%" height={400}>
-            <RadarChart data={data} margin={{ top: 40, right: 80, bottom: 40, left: 80 }}>
+        <div className="w-full" style={{ minHeight: '600px' }}>
+          <ResponsiveContainer width="100%" height={600}>
+            <RadarChart data={data} margin={{ top: 30, right: 60, bottom: 30, left: 60 }}>
               <defs>
                 <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.8}/>
@@ -176,8 +176,8 @@ export default function ProgressRadarChartV2({
               <PolarRadiusAxis
                 angle={90}
                 domain={[0, 100]}
-                tickCount={5}
-                tick={{ fontSize: 10, fill: '#9ca3af' }}
+                tickCount={6}
+                tick={{ fontSize: 12, fill: '#9ca3af' }}
                 axisLine={false}
               />
               
@@ -185,7 +185,7 @@ export default function ProgressRadarChartV2({
                 name="Habilidades"
                 dataKey="value"
                 stroke="#8b5cf6"
-                strokeWidth={2}
+                strokeWidth={3}
                 fill="url(#colorGradient)"
                 fillOpacity={0.6}
                 animationDuration={1000}
