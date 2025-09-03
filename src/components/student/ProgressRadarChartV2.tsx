@@ -118,7 +118,7 @@ export default function ProgressRadarChartV2({
   const renderPolarAngleAxisLabel = (props: any) => {
     const { payload, x, y, cx, cy } = props;
     const radius = Math.sqrt(Math.pow(x - cx, 2) + Math.pow(y - cy, 2));
-    const adjustedRadius = radius + 25; // Move labels outside the chart
+    const adjustedRadius = radius + 35; // Move labels outside the chart
     const angle = Math.atan2(y - cy, x - cx);
     const adjustedX = cx + adjustedRadius * Math.cos(angle);
     const adjustedY = cy + adjustedRadius * Math.sin(angle);
@@ -150,9 +150,9 @@ export default function ProgressRadarChartV2({
       )}
       
       <div className="flex flex-col items-center">
-        <div className="w-full" style={{ minHeight: '450px' }}>
-          <ResponsiveContainer width="100%" height={450}>
-            <RadarChart data={data} margin={{ top: 50, right: 100, bottom: 50, left: 100 }} outerRadius="80%">
+        <div className="w-full" style={{ minHeight: '500px' }}>
+          <ResponsiveContainer width="100%" height={500}>
+            <RadarChart data={data} margin={{ top: 60, right: 80, bottom: 60, left: 80 }}>
               <defs>
                 <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.8}/>
@@ -179,6 +179,7 @@ export default function ProgressRadarChartV2({
                 tickCount={6}
                 tick={{ fontSize: 12, fill: '#9ca3af' }}
                 axisLine={false}
+                outerRadius={150}
               />
               
               <Radar
