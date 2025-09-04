@@ -23,7 +23,14 @@
           "Segunda área de mejora",
           "Tercera área de mejora"
         ],
-        "ai_analysis": "Análisis detallado generado por IA sobre el progreso y recomendaciones"
+        "ai_analysis": "Análisis detallado generado por IA sobre el progreso y recomendaciones",
+        "skills_metrics": {
+          "comprehension": 0,
+          "critical_thinking": 0,
+          "self_regulation": 0,
+          "practical_application": 0,
+          "metacognition": 0
+        }
       }
     }
   ]
