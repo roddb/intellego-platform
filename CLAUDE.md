@@ -948,9 +948,16 @@ SECURITY: Implement additional input validation
 
 ## 📅 DOCUMENT UPDATE HISTORY
 
-**Latest Update: September 3, 2025 (Student Progress Features Implementation)**
+**Latest Update: September 4, 2025 (Skills Progress Fix & Vercel Deployment Resolution)**
 
-### Major Updates in This Session (September 3, 2025):
+### Major Updates in This Session (September 4, 2025):
+- ✅ **Skills Progress Query Fix**: Fixed database queries to pull skills metrics from Feedback table instead of non-existent SkillsProgress table
+- ✅ **JSON_EXTRACT Implementation**: Updated getStudentSkillsProgress and getStudentOverallSkills to use JSON_EXTRACT for skillsMetrics column
+- ✅ **Vercel Deployment Fix**: Resolved TypeScript error handling in catch blocks that was causing deployment failures
+- ✅ **MCP Authentication Fix**: Corrected Vercel MCP team ID authentication issues for deployment monitoring
+- ✅ **Production Validation**: Confirmed skills progress now displays correctly in student dashboard
+
+### Previous Updates (September 3, 2025):
 - ✅ **Student Progress Tracking**: Implemented radar chart visualization with 5 academic skills
 - ✅ **Monthly Reports History**: Added calendar-style monthly history view for past submissions
 - ✅ **Recharts Integration**: Replaced SVG radar with professional Recharts library for better aesthetics
@@ -1002,6 +1009,28 @@ SECURITY: Implement additional input validation
 - `/src/lib/feedback-processor.ts`
 - `/src/lib/db-operations.ts` - Added getFeedbackByStudentWeekSubject
 
+### Critical Fixes Applied (September 4, 2025):
+
+#### 🚨 **Skills Progress Display Bug**
+**Problem**: Skills progress showing 0% despite feedback being successfully uploaded and visible in modal
+**Root Cause**: Database queries attempting to access non-existent `SkillsProgress` table
+**Solution**:
+- Modified `getStudentSkillsProgress()` to query `Feedback` table with JSON_EXTRACT
+- Updated `getStudentOverallSkills()` to calculate averages from Feedback table
+- Used SQL JSON_EXTRACT to pull data from skillsMetrics JSON column
+**Files Modified**:
+- `/src/lib/db-operations.ts` - Fixed both skills progress functions
+
+#### 🚨 **Vercel Deployment Failure**
+**Problem**: Deployment failing with TypeScript error in catch blocks
+**Root Cause**: Accessing `error.message` on unknown type without type checking
+**Solution**:
+- Added type guard: `error instanceof Error ? error.message : 'Unknown error'`
+- Applied fix to both debug and test API routes
+**Files Modified**:
+- `/src/app/api/debug/check-reports/route.ts`
+- `/src/app/api/test-reports/route.ts`
+
 ### Key References for Future Sessions:
 - ⚠️ **Timezone Critical**: getWeekStartInArgentina must use Argentina time for day calculation
 - 🔧 **Runtime Config**: All API routes using auth() need `export const runtime = 'nodejs'`
@@ -1011,6 +1040,9 @@ SECURITY: Implement additional input validation
 - 💾 **Use `claude --continue`** to resume work sessions seamlessly
 - 🆘 **Emergency-responder available** for critical production issues
 - 🔒 **Restricted agent permissions** prevent accidental destructive actions
+- ⚠️ **TypeScript Errors**: Always check error type before accessing properties in catch blocks
+- 📊 **Skills Metrics**: Data stored in Feedback table, not separate SkillsProgress table
+- 🔑 **Vercel MCP**: Use correct team ID from `mcp__vercel__list_teams` for authentication
 
 ---
 
