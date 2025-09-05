@@ -52,7 +52,7 @@ export async function GET(request: NextRequest) {
       FROM ProgressReport pr
       LEFT JOIN Feedback f ON (
         f.studentId = pr.userId 
-        AND f.weekStart = pr.weekStart 
+        AND f.weekStart = substr(pr.weekStart, 1, 10)
         AND f.subject = pr.subject
       )
       WHERE pr.userId = ?

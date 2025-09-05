@@ -345,7 +345,7 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
                   setShowFeedback(false);
                   setSelectedReport(null);
                 }}
-                weekStart={selectedReport.weekStart}
+                weekStart={selectedReport.weekStart.split('T')[0]}
                 subject={selectedReport.subject}
               />
             </div>
