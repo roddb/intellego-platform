@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Check, X, Clock, Eye } from 'lucide-react';
+import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import FeedbackViewer from './FeedbackViewer';
 
 interface Report {
@@ -167,32 +167,6 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   const weeks = getWeeksOfMonth();
   const subjects = getSubjects();
   
-  // Status icons
-  const getStatusIcon = (status: string) => {
-    switch (status) {
-      case 'completed-with-feedback':
-        return <Check className="w-4 h-4 text-green-600" />;
-      case 'completed-without-feedback':
-        return <Check className="w-4 h-4 text-blue-600" />;
-      case 'pending':
-        return <Clock className="w-4 h-4 text-gray-400" />;
-      default:
-        return <X className="w-4 h-4 text-red-500" />;
-    }
-  };
-  
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'completed-with-feedback':
-        return 'bg-green-100 border-green-300';
-      case 'completed-without-feedback':
-        return 'bg-blue-100 border-blue-300';
-      case 'pending':
-        return 'bg-gray-50 border-gray-200';
-      default:
-        return 'bg-red-50 border-red-200';
-    }
-  };
 
   return (
     <div className={`bg-white rounded-xl shadow-lg p-6 ${className}`}>
@@ -278,21 +252,23 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
                       return (
                         <td key={`${week.start}-${subject}`} className="py-3 px-3">
                           <div className="flex justify-center">
-                            <div className={`
-                              inline-flex items-center gap-2 px-3 py-1 rounded-full border
-                              ${getStatusColor(status)}
-                            `}>
-                              {getStatusIcon(status)}
-                              {status === 'completed-with-feedback' && report && (
-                                <button
-                                  onClick={() => handleViewFeedback(report)}
-                                  className="ml-1 hover:bg-white/50 rounded p-0.5 transition-colors"
-                                  title="Ver devolución"
-                                >
-                                  <Eye className="w-3.5 h-3.5 text-purple-600" />
-                                </button>
-                              )}
-                            </div>
+                            {status === 'completed-with-feedback' && report ? (
+                              <button
+                                onClick={() => handleViewFeedback(report)}
+                                className="px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors"
+                                title="Ver devolución"
+                              >
+                                📝 Devolución
+                              </button>
+                            ) : status === 'completed-without-feedback' ? (
+                              <span className="px-2 py-1 text-xs text-green-600 font-medium">
+                                ✅ Entregado
+                              </span>
+                            ) : (
+                              <span className="px-2 py-1 text-xs text-gray-400">
+                                ⏱️ Pendiente
+                              </span>
+                            )}
                           </div>
                         </td>
                       );
@@ -304,17 +280,17 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
           )}
           
           <div className="mt-4 flex items-center justify-center gap-4 text-xs text-gray-600">
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 bg-blue-100 border border-blue-300 rounded-full"></div>
-              <span>Entregado</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 bg-green-100 border border-green-300 rounded-full"></div>
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs">📝 Devolución</span>
               <span>Con devolución</span>
             </div>
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 bg-gray-50 border border-gray-200 rounded-full"></div>
-              <span>Pendiente</span>
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-1 text-green-600 font-medium text-xs">✅ Entregado</span>
+              <span>Sin devolución</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-1 text-gray-400 text-xs">⏱️ Pendiente</span>
+              <span>No entregado</span>
             </div>
           </div>
         </div>
