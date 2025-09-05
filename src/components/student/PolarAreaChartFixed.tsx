@@ -106,10 +106,9 @@ export default function PolarAreaChartFixed({
           
           <PolarGrid 
             gridType="polygon"
-            radialLines={true}
+            radialLines={false}
             stroke="#e5e7eb"
             strokeWidth={1}
-            radialLines={false}
           />
           
           <PolarAngleAxis 

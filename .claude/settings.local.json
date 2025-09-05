@@ -35,7 +35,9 @@
       "mcp__turso-intellego__describe_table",
       "mcp__turso-intellego__query_database",
       "mcp__context7__resolve-library-id",
-      "mcp__context7__get-library-docs"
+      "mcp__context7__get-library-docs",
+      "Bash(npm run lint)",
+      "Bash(npm run type-check:*)"
     ],
     "deny": [],
     "ask": []

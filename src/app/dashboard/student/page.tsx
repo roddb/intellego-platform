@@ -158,10 +158,42 @@ export default function StudentDashboard() {
     // Initialize calendar for ALL user subjects, not just those with reports
     allUserSubjects.forEach(subject => {
       const now = getCurrentArgentinaDate()
-      const weeks = getMonthWeeks(now.getFullYear(), now.getMonth())
+      
+      // Get weeks for current month AND previous months where there are reports
+      let allWeeks = getMonthWeeks(now.getFullYear(), now.getMonth())
+      
+      // Check if there are reports for this subject in previous months
+      const subjectReports = reportsBySubjectData[subject] || []
+      if (subjectReports.length > 0) {
+        const reportDates = subjectReports.map(r => new Date(r.weekStart))
+        const earliestReport = new Date(Math.min(...reportDates.map(d => d.getTime())))
+        
+        // Add weeks from months containing reports
+        let currentMonth = now.getMonth()
+        let currentYear = now.getFullYear()
+        
+        while (currentYear > earliestReport.getFullYear() || 
+               (currentYear === earliestReport.getFullYear() && currentMonth >= earliestReport.getMonth())) {
+          if (currentYear !== now.getFullYear() || currentMonth !== now.getMonth()) {
+            const monthWeeks = getMonthWeeks(currentYear, currentMonth)
+            // Prepend older weeks (they should appear first chronologically)
+            allWeeks = [...monthWeeks, ...allWeeks]
+          }
+          
+          currentMonth--
+          if (currentMonth < 0) {
+            currentMonth = 11
+            currentYear--
+          }
+          
+          // Safety break to avoid infinite loops (max 12 months back)
+          if ((now.getFullYear() - currentYear) > 1) break
+        }
+      }
+      
       const currentWeekStart = getWeekStart(now)
       
-      const weeksWithStatus = weeks.map(week => {
+      const weeksWithStatus = allWeeks.map(week => {
         const isCurrentWeek = isCurrentWeekInArgentina(week.start, week.end)
         const isPastWeek = isPastWeekInArgentina(week.end) && !isCurrentWeek
         const isFutureWeek = isFutureWeekInArgentina(week.start) && !isCurrentWeek
