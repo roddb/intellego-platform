@@ -87,14 +87,6 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       const startDate = startWeek.toISOString().split('T')[0];
       const endDate = endWeek.toISOString().split('T')[0];
       
-      console.log('📅 API Request:', {
-        month: currentMonth.toISOString().split('T')[0],
-        userId,
-        startDate, 
-        endDate,
-        url: `/api/student/reports-history?userId=${userId}&startDate=${startDate}&endDate=${endDate}`
-      });
-      
       const response = await fetch(
         `/api/student/reports-history?userId=${userId}&startDate=${startDate}&endDate=${endDate}`
       );
@@ -102,8 +94,6 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       if (!response.ok) throw new Error('Failed to fetch reports');
       
       const data = await response.json();
-      console.log('🔍 API Response:', data);
-      console.log('📊 Reports received:', data.reports?.length || 0);
       setReports(data.reports || []);
     } catch (error) {
       console.error('Error fetching reports:', error);
@@ -152,26 +142,21 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   // Get report status for a specific week and subject
   const getReportStatus = (weekStart: string, subject: string) => {
     const report = reports.find(r => {
-      const reportWeekStart = r.weekStart.split('T')[0];
-      const calendarWeekStart = new Date(weekStart);
-      const calendarWeekEnd = new Date(weekStart);
-      calendarWeekEnd.setDate(calendarWeekEnd.getDate() + 6); // Add 6 days to get Sunday
+      // Convert both dates to YYYY-MM-DD format for simple comparison
+      const reportDate = r.weekStart.split('T')[0];
+      const weekStartDate = new Date(weekStart + 'T00:00:00.000Z');
+      const weekEndDate = new Date(weekStart + 'T00:00:00.000Z');
+      weekEndDate.setUTCDate(weekEndDate.getUTCDate() + 6);
       
-      const reportDate = new Date(reportWeekStart);
+      const reportDateObj = new Date(reportDate + 'T00:00:00.000Z');
       
-      // Check if report date falls within this calendar week
-      const isInWeek = reportDate >= calendarWeekStart && reportDate <= calendarWeekEnd && r.subject === subject;
-      
-      console.log(`🔍 Week range: ${weekStart} to ${calendarWeekEnd.toISOString().split('T')[0]} | Report: ${reportWeekStart} | Match: ${isInWeek}`);
-      
-      return isInWeek;
+      return reportDateObj >= weekStartDate && 
+             reportDateObj <= weekEndDate && 
+             r.subject === subject;
     });
     
-    console.log(`🔍 Status result: ${weekStart} + ${subject} → Report:`, report, 'HasFeedback:', report?.hasFeedback);
-    
     if (!report) return 'pending';
-    // Three distinct states: pending, completed without feedback, completed with feedback
-    return report.hasFeedback ? 'completed-with-feedback' : 'completed-without-feedback';
+    return report.hasFeedback === true ? 'completed-with-feedback' : 'completed-without-feedback';
   };
   
   // Get unique subjects from reports
