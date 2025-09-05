@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
     // Include reports where the week overlaps with the month at all
     // (week starts before month ends AND week ends after month starts)
     const reportsResult = await query(`
-      SELECT 
+      SELECT DISTINCT
         pr.id, 
         pr.weekStart, 
         pr.weekEnd, 
