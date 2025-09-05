@@ -79,7 +79,7 @@ export default function SkillsProgressRings({
 
   const CircularProgress = ({ skill }: { skill: typeof skills[0] }) => {
     const radius = 70;
-    const strokeWidth = 12;
+    const strokeWidth = 8;
     const normalizedRadius = radius - strokeWidth * 2;
     const circumference = normalizedRadius * 2 * Math.PI;
     const strokeDashoffset = circumference - (skill.value / 100) * circumference;
@@ -107,13 +107,35 @@ export default function SkillsProgressRings({
               {/* Background Circle */}
               <circle
                 stroke="#e5e7eb"
-                fill="transparent"
-                strokeWidth={strokeWidth}
-                r={normalizedRadius}
+                fill="#f9fafb"
+                strokeWidth={2}
+                r={normalizedRadius + 2}
                 cx={radius}
                 cy={radius}
+                opacity="0.3"
               />
-              {/* Progress Circle */}
+              {/* Progress Fill Background */}
+              <circle
+                fill="url(#fill-gradient-${skill.name})"
+                r={normalizedRadius - 2}
+                cx={radius}
+                cy={radius}
+                opacity="0.15"
+              />
+              {/* Progress Fill - using another circle with strokeDasharray for fill effect */}
+              <circle
+                className="transition-all duration-1000 ease-out"
+                stroke="url(#fill-gradient-${skill.name})"
+                fill="transparent"
+                strokeWidth={normalizedRadius * 2}
+                strokeDasharray={circumference + ' ' + circumference}
+                style={{ strokeDashoffset }}
+                r={normalizedRadius / 2}
+                cx={radius}
+                cy={radius}
+                opacity="0.1"
+              />
+              {/* Progress Circle Border */}
               <circle
                 className="transition-all duration-1000 ease-out"
                 stroke="url(#gradient-${skill.name})"
@@ -126,19 +148,23 @@ export default function SkillsProgressRings({
                 cx={radius}
                 cy={radius}
               />
-              {/* Gradient Definition */}
+              {/* Gradient Definitions */}
               <defs>
                 <linearGradient id={`gradient-${skill.name}`} x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" className={`${skill.color.split(' ')[0].replace('from-', 'text-')}`} stopColor="currentColor" />
                   <stop offset="100%" className={`${skill.color.split(' ')[1].replace('to-', 'text-')}`} stopColor="currentColor" />
                 </linearGradient>
+                <radialGradient id={`fill-gradient-${skill.name}`} cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" className={`${skill.color.split(' ')[0].replace('from-', 'text-')}`} stopColor="currentColor" stopOpacity="0.6" />
+                  <stop offset="100%" className={`${skill.color.split(' ')[1].replace('to-', 'text-')}`} stopColor="currentColor" stopOpacity="0.8" />
+                </radialGradient>
               </defs>
             </svg>
             
-            {/* Center Content */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <Icon className="w-8 h-8 text-gray-700 mb-1" />
-              <div className="text-2xl font-bold text-gray-800">{skill.value}%</div>
+            {/* Center Content with better spacing */}
+            <div className="absolute inset-4 flex flex-col items-center justify-center">
+              <Icon className="w-6 h-6 text-gray-700 mb-2" />
+              <div className="text-xl font-bold text-gray-800">{skill.value}%</div>
             </div>
           </div>
           

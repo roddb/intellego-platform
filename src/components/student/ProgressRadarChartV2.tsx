@@ -117,23 +117,13 @@ export default function ProgressRadarChartV2({
   // Custom label for PolarAngleAxis
   const renderPolarAngleAxisLabel = (props: any) => {
     const { payload, x, y, cx, cy } = props;
-    const radius = Math.sqrt(Math.pow(x - cx, 2) + Math.pow(y - cy, 2));
-    const adjustedRadius = radius + 20; // Move labels outside the chart
-    const angle = Math.atan2(y - cy, x - cx);
-    const adjustedX = cx + adjustedRadius * Math.cos(angle);
-    const adjustedY = cy + adjustedRadius * Math.sin(angle);
-    
-    // Determine text anchor based on position
-    let textAnchor = 'middle';
-    if (adjustedX > cx + 10) textAnchor = 'start';
-    if (adjustedX < cx - 10) textAnchor = 'end';
     
     return (
       <text
-        x={adjustedX}
-        y={adjustedY}
-        textAnchor={textAnchor}
-        className="fill-gray-700 text-base font-semibold"
+        x={x}
+        y={y}
+        textAnchor="middle"
+        className="fill-gray-700 text-sm font-semibold"
         dominantBaseline="central"
       >
         {payload.value}
@@ -142,20 +132,19 @@ export default function ProgressRadarChartV2({
   };
 
   return (
-    <div className={`bg-white rounded-xl shadow-lg p-6 ${className}`}>
+    <div className={`w-full flex flex-col items-center justify-center p-4 ${className}`}>
+      {/* Radar Chart Section */}
       {subject && (
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+        <h3 className="text-xl font-bold mb-4">
           Progreso en {subject}
         </h3>
       )}
-      
-      <div className="flex flex-col items-center">
-        <div className="w-full" style={{ width: '100%', height: '500px' }}>
-          <ResponsiveContainer width="100%" height="100%">
+      <div className="w-full h-[600px]">
+        <ResponsiveContainer width="100%" height={500}>
             <RadarChart 
               data={data} 
-              outerRadius={150}
-              margin={{ top: 40, right: 40, bottom: 40, left: 40 }}>
+              outerRadius="65%"
+              margin={{ top: 40, right: 80, bottom: 40, left: 80 }}>
               <defs>
                 <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.8}/>
@@ -187,12 +176,12 @@ export default function ProgressRadarChartV2({
               <Radar
                 name="Habilidades"
                 dataKey="value"
-                stroke="#8b5cf6"
-                strokeWidth={3}
-                fill="url(#colorGradient)"
-                fillOpacity={0.6}
-                animationDuration={1000}
-                animationEasing="ease-out"
+                stroke="#667eea"
+                strokeWidth={2}
+                fill="#667eea"
+                fillOpacity={0.5}
+                animationDuration={800}
+                animationEasing="ease-in-out"
               />
               
               <Tooltip 
@@ -201,12 +190,15 @@ export default function ProgressRadarChartV2({
               />
             </RadarChart>
           </ResponsiveContainer>
-        </div>
-        
-        <div className="mt-6 w-full max-w-md">
-          <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg p-4 text-center">
-            <div className="text-3xl font-bold mb-2">{avgScore}%</div>
-            <div className="text-sm opacity-90">Puntuación Promedio</div>
+      </div>
+      
+      {/* Stats and Details Section */}
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6">
+        {/* Average Score Card */}
+        <div className="lg:col-span-1">
+          <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-xl shadow-sm p-4">
+            <div className="text-3xl font-bold mb-2 text-center">{avgScore}%</div>
+            <div className="text-sm opacity-90 text-center">Puntuación Promedio</div>
             <div className="mt-3 text-xs">
               <div className="flex justify-between px-4">
                 <span>
@@ -220,7 +212,8 @@ export default function ProgressRadarChartV2({
           </div>
         </div>
         
-        <div className="mt-6 w-full bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg p-4 border border-purple-200">
+        {/* Skills Details Card */}
+        <div className="lg:col-span-2 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg p-4 border border-purple-200">
           <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
             <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />

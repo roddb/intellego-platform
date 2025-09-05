@@ -63,11 +63,11 @@ export default function ProgressRadarChart({
     const svg = svgRef.current;
     if (!svg) return;
 
-    const width = 400;
-    const height = 400;
+    const width = 1200;
+    const height = 1200;
     const centerX = width / 2;
     const centerY = height / 2;
-    const maxRadius = 160;
+    const maxRadius = 480;
     const numAxes = 5;
     const angleStep = 360 / numAxes;
 
@@ -145,16 +145,16 @@ export default function ProgressRadarChart({
     const labelsGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
     labelsGroup.setAttribute('id', 'labels');
     labelsGroup.setAttribute('font-family', 'system-ui, -apple-system, sans-serif');
-    labelsGroup.setAttribute('font-size', '12');
+    labelsGroup.setAttribute('font-size', '16');
     labelsGroup.setAttribute('font-weight', 'bold');
     labelsGroup.setAttribute('fill', '#2c3e50');
     
     const labelPositions = [
-      { x: centerX, y: 30, anchor: 'middle' },           // Top
-      { x: 375, y: centerY + 5, anchor: 'start' },       // Right
-      { x: 340, y: 340, anchor: 'start' },               // Bottom-right
-      { x: 60, y: 340, anchor: 'end' },                  // Bottom-left
-      { x: 60, y: 85, anchor: 'end' }                    // Top-left
+      { x: centerX, y: 90, anchor: 'middle' },           // Top
+      { x: 1100, y: centerY + 10, anchor: 'start' },       // Right
+      { x: 1020, y: 1020, anchor: 'start' },               // Bottom-right
+      { x: 180, y: 1020, anchor: 'end' },                  // Bottom-left
+      { x: 180, y: 250, anchor: 'end' }                    // Top-left
     ];
     
     for (let i = 0; i < numAxes; i++) {
@@ -171,11 +171,11 @@ export default function ProgressRadarChart({
     const scaleLabels = document.createElementNS('http://www.w3.org/2000/svg', 'g');
     scaleLabels.setAttribute('id', 'scaleLabels');
     scaleLabels.setAttribute('font-family', 'system-ui, -apple-system, sans-serif');
-    scaleLabels.setAttribute('font-size', '10');
+    scaleLabels.setAttribute('font-size', '14');
     scaleLabels.setAttribute('fill', '#666');
     
     const scaleValues = [100, 75, 50, 25];
-    const scalePositions = [40, 80, 120, 160];
+    const scalePositions = [120, 240, 360, 480];
     
     for (let i = 0; i < scaleValues.length; i++) {
       const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
@@ -200,60 +200,22 @@ export default function ProgressRadarChart({
   const weakness = skillLabels[minSkillIndex];
 
   return (
-    <div className={`bg-white rounded-xl shadow-lg p-6 ${className}`}>
+    <div className={`bg-white rounded-xl shadow-lg p-8 ${className}`}>
       {subject && (
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+        <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">
           Progreso en {subject}
         </h3>
       )}
       
-      <div className="flex flex-col items-center">
+      <div style={{ width: '100%', height: '800px' }}>
         <svg 
           ref={svgRef}
-          width="400" 
-          height="400" 
-          viewBox="0 0 400 400"
-          className="max-w-full h-auto"
+          width="100%" 
+          height="100%" 
+          viewBox="0 0 1200 1200"
+          className="w-full h-full"
+          preserveAspectRatio="xMidYMid meet"
         />
-        
-        <div className="mt-6 w-full max-w-md">
-          <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg p-4 text-center">
-            <div className="text-3xl font-bold mb-2">{avgScore}%</div>
-            <div className="text-sm opacity-90">Puntuación Promedio</div>
-            <div className="mt-3 text-xs">
-              <div className="flex justify-between">
-                <span>
-                  <strong>Fortaleza:</strong> {strength}
-                </span>
-                <span>
-                  <strong>A mejorar:</strong> {weakness}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-6 w-full bg-blue-50 rounded-lg p-4">
-          <h4 className="font-semibold text-gray-800 mb-3">📊 Detalle de Habilidades:</h4>
-          <div className="space-y-2">
-            {skillLabels.map((label, index) => (
-              <div key={label} className="flex justify-between items-center">
-                <span className="text-sm text-gray-700">{label}:</span>
-                <div className="flex items-center gap-2">
-                  <div className="w-32 bg-gray-200 rounded-full h-2">
-                    <div 
-                      className="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full transition-all duration-500"
-                      style={{ width: `${skills[index]}%` }}
-                    />
-                  </div>
-                  <span className="text-sm font-semibold text-gray-800 w-10 text-right">
-                    {skills[index]}%
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
