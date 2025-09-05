@@ -2902,6 +2902,7 @@ export async function getFeedbackByWeek(
 ): Promise<any | null> {
   try {
     // First try with the provided studentId
+    // Match feedback within the same week (Monday to Sunday)
     let result = await query(`
       SELECT 
         f.*,
@@ -2910,10 +2911,11 @@ export async function getFeedbackByWeek(
       FROM Feedback f
       JOIN User u ON f.createdBy = u.id
       WHERE f.studentId = ? 
-        AND date(f.weekStart) = date(?) 
+        AND date(f.weekStart) >= date(?) 
+        AND date(f.weekStart) < date(?, '+7 days')
         AND f.subject = ?
       LIMIT 1
-    `, [studentId, weekStart, subject]);
+    `, [studentId, weekStart, weekStart, subject]);
     
     // If no feedback found and this looks like a studentId, try with userId
     if (result.rows.length === 0 && studentId.startsWith('EST-')) {
@@ -2932,10 +2934,11 @@ export async function getFeedbackByWeek(
           FROM Feedback f
           JOIN User u ON f.createdBy = u.id
           WHERE f.studentId = ? 
-            AND date(f.weekStart) = date(?) 
+            AND date(f.weekStart) >= date(?) 
+            AND date(f.weekStart) < date(?, '+7 days')
             AND f.subject = ?
           LIMIT 1
-        `, [userId, weekStart, subject]);
+        `, [userId, weekStart, weekStart, subject]);
       }
     }
     
