@@ -2901,7 +2901,8 @@ export async function getFeedbackByWeek(
   subject: string
 ): Promise<any | null> {
   try {
-    const result = await query(`
+    // First try with the provided studentId
+    let result = await query(`
       SELECT 
         f.*,
         u.name as instructorName,
@@ -2913,6 +2914,30 @@ export async function getFeedbackByWeek(
         AND f.subject = ?
       LIMIT 1
     `, [studentId, weekStart, subject]);
+    
+    // If no feedback found and this looks like a studentId, try with userId
+    if (result.rows.length === 0 && studentId.startsWith('EST-')) {
+      // Try to find the user ID for this student
+      const userResult = await query(`
+        SELECT id FROM User WHERE studentId = ?
+      `, [studentId]);
+      
+      if (userResult.rows.length > 0) {
+        const userId = userResult.rows[0].id;
+        result = await query(`
+          SELECT 
+            f.*,
+            u.name as instructorName,
+            u.email as instructorEmail
+          FROM Feedback f
+          JOIN User u ON f.createdBy = u.id
+          WHERE f.studentId = ? 
+            AND date(f.weekStart) = date(?) 
+            AND f.subject = ?
+          LIMIT 1
+        `, [userId, weekStart, subject]);
+      }
+    }
     
     if (result.rows.length === 0) {
       return null;

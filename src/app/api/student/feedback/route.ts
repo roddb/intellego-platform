@@ -47,7 +47,7 @@ export async function GET(request: NextRequest) {
     // If specific week and subject provided, get that feedback
     if (weekStart && subject) {
       const feedback = await getFeedbackByWeek(
-        session.user.id,
+        session.user.studentId || session.user.id,
         weekStart,
         subject
       );
@@ -84,7 +84,7 @@ export async function GET(request: NextRequest) {
     }
     
     // Otherwise, get all feedbacks for the student
-    const feedbacks = await getFeedbacksByStudent(session.user.id);
+    const feedbacks = await getFeedbacksByStudent(session.user.studentId || session.user.id);
     
     // Transform feedbacks for response
     const transformedFeedbacks = feedbacks.map(fb => ({
