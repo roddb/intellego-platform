@@ -152,13 +152,22 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   // Get report status for a specific week and subject
   const getReportStatus = (weekStart: string, subject: string) => {
     const report = reports.find(r => {
-      // Compare dates without time component
-      // Handle both ISO format (with time) and simple date format
       const reportWeekStart = r.weekStart.split('T')[0];
-      return reportWeekStart === weekStart && r.subject === subject;
+      const calendarWeekStart = new Date(weekStart);
+      const calendarWeekEnd = new Date(weekStart);
+      calendarWeekEnd.setDate(calendarWeekEnd.getDate() + 6); // Add 6 days to get Sunday
+      
+      const reportDate = new Date(reportWeekStart);
+      
+      // Check if report date falls within this calendar week
+      const isInWeek = reportDate >= calendarWeekStart && reportDate <= calendarWeekEnd && r.subject === subject;
+      
+      console.log(`🔍 Week range: ${weekStart} to ${calendarWeekEnd.toISOString().split('T')[0]} | Report: ${reportWeekStart} | Match: ${isInWeek}`);
+      
+      return isInWeek;
     });
     
-    console.log(`🔍 Status check: ${weekStart} + ${subject} → Report:`, report, 'HasFeedback:', report?.hasFeedback);
+    console.log(`🔍 Status result: ${weekStart} + ${subject} → Report:`, report, 'HasFeedback:', report?.hasFeedback);
     
     if (!report) return 'pending';
     // Three distinct states: pending, completed without feedback, completed with feedback
