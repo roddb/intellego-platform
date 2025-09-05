@@ -94,6 +94,8 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       if (!response.ok) throw new Error('Failed to fetch reports');
       
       const data = await response.json();
+      console.log('🔍 API Response:', data);
+      console.log('📊 Reports received:', data.reports?.length || 0);
       setReports(data.reports || []);
     } catch (error) {
       console.error('Error fetching reports:', error);
@@ -147,6 +149,8 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       const reportWeekStart = r.weekStart.split('T')[0];
       return reportWeekStart === weekStart && r.subject === subject;
     });
+    
+    console.log(`🔍 Status check: ${weekStart} + ${subject} → Report:`, report, 'HasFeedback:', report?.hasFeedback);
     
     if (!report) return 'pending';
     // Three distinct states: pending, completed without feedback, completed with feedback
