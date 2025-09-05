@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import ProgressRadarChartV2 from '@/components/student/ProgressRadarChartV2';
+import SkillsProgressRings from '@/components/student/SkillsProgressRings';
 import { ArrowLeft, TrendingUp, Award, Target, BookOpen } from 'lucide-react';
 
 interface SkillsData {
@@ -182,103 +182,16 @@ export default function StudentProgressPage() {
           </div>
         </div>
 
-        {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Radar Chart */}
-          <div>
-            <ProgressRadarChartV2 
-              skillsData={displaySkills}
-              subject={selectedSubject !== 'overall' ? selectedSubject : undefined}
-            />
-          </div>
-
-          {/* Progress Info */}
-          <div className="space-y-6">
-            {/* Overall Score Card */}
-            <div className="bg-white rounded-xl shadow-sm p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <Award className="w-8 h-8 text-yellow-500" />
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    Puntuación General
-                  </h3>
-                  <p className="text-3xl font-bold text-purple-600 mt-1">
-                    {avgScore}%
-                  </p>
-                </div>
-              </div>
-              <p className="text-gray-600">
-                {getProgressMessage(avgScore)}
-              </p>
-            </div>
-
-            {/* Skills Explanation */}
-            <div className="bg-white rounded-xl shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-purple-600" />
-                Descripción de Habilidades
-              </h3>
-              <div className="space-y-3 text-sm">
-                <div>
-                  <strong className="text-gray-700">Comprensión Conceptual:</strong>
-                  <p className="text-gray-600">
-                    Tu capacidad para entender y dominar los conceptos fundamentales de la materia.
-                  </p>
-                </div>
-                <div>
-                  <strong className="text-gray-700">Pensamiento Crítico:</strong>
-                  <p className="text-gray-600">
-                    Habilidad para analizar, evaluar y sintetizar información de manera reflexiva.
-                  </p>
-                </div>
-                <div>
-                  <strong className="text-gray-700">Autorregulación:</strong>
-                  <p className="text-gray-600">
-                    Capacidad de gestionar tu propio aprendizaje y estrategias de estudio.
-                  </p>
-                </div>
-                <div>
-                  <strong className="text-gray-700">Aplicación Práctica:</strong>
-                  <p className="text-gray-600">
-                    Destreza para transferir el conocimiento a situaciones reales y resolver problemas.
-                  </p>
-                </div>
-                <div>
-                  <strong className="text-gray-700">Reflexión Metacognitiva:</strong>
-                  <p className="text-gray-600">
-                    Conciencia y comprensión sobre tu propio proceso de aprendizaje.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Goals and Tips */}
-            <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border border-purple-200">
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                <Target className="w-5 h-5 text-purple-600" />
-                Objetivos y Recomendaciones
-              </h3>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-0.5">•</span>
-                  <span>Enfócate en mejorar tu habilidad más baja para un desarrollo equilibrado.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-0.5">•</span>
-                  <span>Mantén consistencia en tus entregas semanales para un mejor seguimiento.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-0.5">•</span>
-                  <span>Revisa las devoluciones de tus instructores para identificar áreas de mejora.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-purple-600 mt-0.5">•</span>
-                  <span>Establece metas específicas para cada habilidad y monitorea tu progreso.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+        {/* Main Content - Progress Rings */}
+        <div className="w-full bg-white rounded-xl shadow-lg p-6">
+          <SkillsProgressRings 
+            skillsData={displaySkills}
+            subject={selectedSubject !== 'overall' ? selectedSubject : undefined}
+            className="w-full"
+          />
         </div>
+
+
       </div>
     </div>
   );
