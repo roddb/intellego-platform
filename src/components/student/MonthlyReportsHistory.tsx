@@ -87,6 +87,14 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
       const startDate = startWeek.toISOString().split('T')[0];
       const endDate = endWeek.toISOString().split('T')[0];
       
+      console.log('📅 API Request:', {
+        month: currentMonth.toISOString().split('T')[0],
+        userId,
+        startDate, 
+        endDate,
+        url: `/api/student/reports-history?userId=${userId}&startDate=${startDate}&endDate=${endDate}`
+      });
+      
       const response = await fetch(
         `/api/student/reports-history?userId=${userId}&startDate=${startDate}&endDate=${endDate}`
       );
