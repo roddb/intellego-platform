@@ -67,7 +67,7 @@ export async function GET(request: NextRequest) {
       weekEnd: String(row.weekEnd).split('T')[0],     // Ensure date format is YYYY-MM-DD
       subject: row.subject,
       submittedAt: row.submittedAt,
-      hasFeedback: row.hasFeedback === 1
+      hasFeedback: Boolean(row.hasFeedback) // Convert 1/0 to true/false
     }));
     
     return NextResponse.json({ reports });
