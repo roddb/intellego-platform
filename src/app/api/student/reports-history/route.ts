@@ -38,6 +38,7 @@ export async function GET(request: NextRequest) {
     // Get reports for the specified date range
     // Include reports where the week overlaps with the month at all
     // (week starts before month ends AND week ends after month starts)
+    // NOTE: Feedback.studentId contains userId (not studentId) due to DB design
     const reportsResult = await query(`
       SELECT DISTINCT
         pr.id, 
@@ -50,9 +51,8 @@ export async function GET(request: NextRequest) {
           ELSE 0
         END as hasFeedback
       FROM ProgressReport pr
-      LEFT JOIN User u ON u.id = pr.userId
       LEFT JOIN Feedback f ON (
-        f.studentId = u.studentId 
+        f.studentId = pr.userId 
         AND f.weekStart = substr(pr.weekStart, 1, 10)
         AND f.subject = pr.subject
       )

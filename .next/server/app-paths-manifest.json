@@ -1,3 +1,3 @@
 {
-  "/api/student/reports-history/route": "app/api/student/reports-history/route.js"
+  "/api/fix-feedbacks/route": "app/api/fix-feedbacks/route.js"
 }

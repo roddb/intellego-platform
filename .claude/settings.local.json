@@ -38,7 +38,8 @@
       "mcp__context7__get-library-docs",
       "Bash(npm run lint)",
       "Bash(npm run type-check:*)",
-      "mcp__vercel__web_fetch_vercel_url"
+      "mcp__vercel__web_fetch_vercel_url",
+      "Bash(npm exec tsx:*)"
     ],
     "deny": [],
     "ask": []
