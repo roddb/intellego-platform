@@ -4,11 +4,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/student/reports-history/route.js"
-    ],
-    "/api/fix-feedbacks/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/fix-feedbacks/route.js"
     ]
   }
 }
