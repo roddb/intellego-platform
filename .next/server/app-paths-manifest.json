@@ -1,10 +1,3 @@
 {
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/student/skills-progress/route": "app/api/student/skills-progress/route.js",
-  "/api/weekly-reports/route": "app/api/weekly-reports/route.js",
-  "/api/student/reports-history/route": "app/api/student/reports-history/route.js",
-  "/auth/signin/page": "app/auth/signin/page.js",
-  "/dashboard/student/page": "app/dashboard/student/page.js",
-  "/dashboard/student/progress/page": "app/dashboard/student/progress/page.js",
-  "/page": "app/page.js"
+  "/api/student/reports-history/route": "app/api/student/reports-history/route.js"
 }
