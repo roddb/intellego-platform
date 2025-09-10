@@ -1,0 +1,249 @@
+'use client';
+
+import React from 'react';
+import {
+  RadarChart,
+  Radar,
+  PolarGrid,
+  PolarAngleAxis,
+  PolarRadiusAxis,
+  ResponsiveContainer,
+  Tooltip,
+  Legend
+} from 'recharts';
+
+interface SkillsData {
+  comprehension: number;
+  criticalThinking: number;
+  selfRegulation: number;
+  practicalApplication: number;
+  metacognition: number;
+}
+
+interface ProgressRadarChartProps {
+  skillsData: SkillsData;
+  subject?: string;
+  className?: string;
+}
+
+export default function ProgressRadarChartV2({ 
+  skillsData, 
+  subject,
+  className = "" 
+}: ProgressRadarChartProps) {
+  
+  // Transform data for Recharts format
+  const data = [
+    {
+      skill: 'Comprensión',
+      fullName: 'Comprensión Conceptual',
+      value: skillsData.comprehension,
+      fullMark: 100
+    },
+    {
+      skill: 'Pensamiento',
+      fullName: 'Pensamiento Crítico',
+      value: skillsData.criticalThinking,
+      fullMark: 100
+    },
+    {
+      skill: 'Autorregulación',
+      fullName: 'Autorregulación',
+      value: skillsData.selfRegulation,
+      fullMark: 100
+    },
+    {
+      skill: 'Aplicación',
+      fullName: 'Aplicación Práctica',
+      value: skillsData.practicalApplication,
+      fullMark: 100
+    },
+    {
+      skill: 'Reflexión',
+      fullName: 'Reflexión Metacognitiva',
+      value: skillsData.metacognition,
+      fullMark: 100
+    }
+  ];
+
+  // Calculate average score
+  const avgScore = Math.round(
+    (skillsData.comprehension + 
+     skillsData.criticalThinking + 
+     skillsData.selfRegulation + 
+     skillsData.practicalApplication + 
+     skillsData.metacognition) / 5
+  );
+  
+  // Find strength and weakness
+  const skills = [
+    skillsData.comprehension,
+    skillsData.criticalThinking,
+    skillsData.selfRegulation,
+    skillsData.practicalApplication,
+    skillsData.metacognition
+  ];
+  
+  const skillNames = [
+    'Comprensión Conceptual',
+    'Pensamiento Crítico',
+    'Autorregulación',
+    'Aplicación Práctica',
+    'Reflexión Metacognitiva'
+  ];
+  
+  const maxSkillIndex = skills.indexOf(Math.max(...skills));
+  const minSkillIndex = skills.indexOf(Math.min(...skills));
+  const strength = skillNames[maxSkillIndex];
+  const weakness = skillNames[minSkillIndex];
+
+  // Custom tooltip
+  const CustomTooltip = ({ active, payload }: any) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="bg-white px-4 py-2 shadow-lg rounded-lg border border-gray-200">
+          <p className="text-sm font-semibold text-gray-800">
+            {payload[0].payload.fullName}
+          </p>
+          <p className="text-lg font-bold text-purple-600">
+            {payload[0].value}%
+          </p>
+        </div>
+      );
+    }
+    return null;
+  };
+
+  // Custom label for PolarAngleAxis
+  const renderPolarAngleAxisLabel = (props: any) => {
+    const { payload, x, y, cx, cy } = props;
+    
+    return (
+      <text
+        x={x}
+        y={y}
+        textAnchor="middle"
+        className="fill-gray-700 text-sm font-semibold"
+        dominantBaseline="central"
+      >
+        {payload.value}
+      </text>
+    );
+  };
+
+  return (
+    <div className={`w-full flex flex-col items-center justify-center p-4 ${className}`}>
+      {/* Radar Chart Section */}
+      {subject && (
+        <h3 className="text-xl font-bold mb-4">
+          Progreso en {subject}
+        </h3>
+      )}
+      <div className="w-full h-[600px]">
+        <ResponsiveContainer width="100%" height={500}>
+            <RadarChart 
+              data={data} 
+              outerRadius="65%"
+              margin={{ top: 40, right: 80, bottom: 40, left: 80 }}>
+              <defs>
+                <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="#6366f1" stopOpacity={0.8}/>
+                </linearGradient>
+              </defs>
+              
+              <PolarGrid 
+                gridType="polygon"
+                radialLines={true}
+                stroke="#e5e7eb"
+                strokeWidth={1}
+              />
+              
+              <PolarAngleAxis
+                dataKey="skill"
+                tick={renderPolarAngleAxisLabel}
+                className="text-sm"
+              />
+              
+              <PolarRadiusAxis
+                angle={90}
+                domain={[0, 100]}
+                tickCount={6}
+                tick={{ fontSize: 12, fill: '#9ca3af' }}
+                axisLine={false}
+              />
+              
+              <Radar
+                name="Habilidades"
+                dataKey="value"
+                stroke="#667eea"
+                strokeWidth={2}
+                fill="#667eea"
+                fillOpacity={0.5}
+                animationDuration={800}
+                animationEasing="ease-in-out"
+              />
+              
+              <Tooltip 
+                content={<CustomTooltip />}
+                cursor={{ stroke: '#8b5cf6', strokeWidth: 1, strokeDasharray: '5 5' }}
+              />
+            </RadarChart>
+          </ResponsiveContainer>
+      </div>
+      
+      {/* Stats and Details Section */}
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6">
+        {/* Average Score Card */}
+        <div className="lg:col-span-1">
+          <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-xl shadow-sm p-4">
+            <div className="text-3xl font-bold mb-2 text-center">{avgScore}%</div>
+            <div className="text-sm opacity-90 text-center">Puntuación Promedio</div>
+            <div className="mt-3 text-xs">
+              <div className="flex justify-between px-4">
+                <span>
+                  <strong>Fortaleza:</strong> {strength}
+                </span>
+                <span>
+                  <strong>A mejorar:</strong> {weakness}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Skills Details Card */}
+        <div className="lg:col-span-2 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg p-4 border border-purple-200">
+          <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+            <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+            Detalle de Habilidades
+          </h4>
+          <div className="space-y-3">
+            {data.map((item) => (
+              <div key={item.skill} className="flex justify-between items-center">
+                <span className="text-sm text-gray-700 font-medium">{item.fullName}:</span>
+                <div className="flex items-center gap-2">
+                  <div className="w-32 bg-white rounded-full h-2.5 shadow-inner">
+                    <div 
+                      className="bg-gradient-to-r from-purple-500 to-indigo-600 h-2.5 rounded-full transition-all duration-500"
+                      style={{ width: `${item.value}%` }}
+                    />
+                  </div>
+                  <span className={`text-sm font-bold w-12 text-right ${
+                    item.value >= 80 ? 'text-green-600' : 
+                    item.value >= 60 ? 'text-yellow-600' : 
+                    'text-red-600'
+                  }`}>
+                    {item.value}%
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

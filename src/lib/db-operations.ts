@@ -2901,7 +2901,9 @@ export async function getFeedbackByWeek(
   subject: string
 ): Promise<any | null> {
   try {
-    const result = await query(`
+    // First try with the provided studentId
+    // Match feedback within the same week (Monday to Sunday)
+    let result = await query(`
       SELECT 
         f.*,
         u.name as instructorName,
@@ -2909,10 +2911,36 @@ export async function getFeedbackByWeek(
       FROM Feedback f
       JOIN User u ON f.createdBy = u.id
       WHERE f.studentId = ? 
-        AND f.weekStart = ? 
+        AND date(f.weekStart) >= date(?) 
+        AND date(f.weekStart) < date(?, '+7 days')
         AND f.subject = ?
       LIMIT 1
-    `, [studentId, weekStart, subject]);
+    `, [studentId, weekStart, weekStart, subject]);
+    
+    // If no feedback found and this looks like a studentId, try with userId
+    if (result.rows.length === 0 && studentId.startsWith('EST-')) {
+      // Try to find the user ID for this student
+      const userResult = await query(`
+        SELECT id FROM User WHERE studentId = ?
+      `, [studentId]);
+      
+      if (userResult.rows.length > 0) {
+        const userId = userResult.rows[0].id;
+        result = await query(`
+          SELECT 
+            f.*,
+            u.name as instructorName,
+            u.email as instructorEmail
+          FROM Feedback f
+          JOIN User u ON f.createdBy = u.id
+          WHERE f.studentId = ? 
+            AND date(f.weekStart) >= date(?) 
+            AND date(f.weekStart) < date(?, '+7 days')
+            AND f.subject = ?
+          LIMIT 1
+        `, [userId, weekStart, weekStart, subject]);
+      }
+    }
     
     if (result.rows.length === 0) {
       return null;
@@ -2924,7 +2952,8 @@ export async function getFeedbackByWeek(
     return {
       ...feedback,
       strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     };
   } catch (error) {
     console.error('Error getting feedback by week:', error);
@@ -2951,7 +2980,8 @@ export async function getFeedbacksByStudent(studentId: string): Promise<any[]> {
     return result.rows.map((feedback: any) => ({
       ...feedback,
       strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : []
+      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     }));
   } catch (error) {
     console.error('Error getting feedbacks by student:', error);
@@ -3137,5 +3167,241 @@ export async function validateFeedbackData(
       valid: false, 
       error: 'Database error during validation' 
     };
+  }
+}
+
+// =====================================================================================
+// SKILLS METRICS FUNCTIONS - For Progress Radar Chart
+// =====================================================================================
+
+/**
+ * Updates or creates skills progress for a student based on new feedback
+ */
+export async function updateSkillsProgress(
+  studentId: string, 
+  subject: string, 
+  skillsMetrics: {
+    comprehension: number;
+    criticalThinking: number;
+    selfRegulation: number;
+    practicalApplication: number;
+    metacognition: number;
+  }
+) {
+  try {
+    // Check if progress record exists
+    const existingResult = await query(`
+      SELECT * FROM SkillsProgress
+      WHERE studentId = ? AND subject = ?
+      LIMIT 1
+    `, [studentId, subject]);
+    
+    const now = new Date().toISOString();
+    
+    if (existingResult.rows.length > 0) {
+      // Update existing record with new average
+      const existing = existingResult.rows[0] as any;
+      const totalFeedbacks = existing.totalFeedbacks + 1;
+      
+      // Calculate new running averages
+      const newComprehension = ((existing.comprehension * existing.totalFeedbacks) + skillsMetrics.comprehension) / totalFeedbacks;
+      const newCriticalThinking = ((existing.criticalThinking * existing.totalFeedbacks) + skillsMetrics.criticalThinking) / totalFeedbacks;
+      const newSelfRegulation = ((existing.selfRegulation * existing.totalFeedbacks) + skillsMetrics.selfRegulation) / totalFeedbacks;
+      const newPracticalApplication = ((existing.practicalApplication * existing.totalFeedbacks) + skillsMetrics.practicalApplication) / totalFeedbacks;
+      const newMetacognition = ((existing.metacognition * existing.totalFeedbacks) + skillsMetrics.metacognition) / totalFeedbacks;
+      
+      await query(`
+        UPDATE SkillsProgress
+        SET comprehension = ?,
+            criticalThinking = ?,
+            selfRegulation = ?,
+            practicalApplication = ?,
+            metacognition = ?,
+            totalFeedbacks = ?,
+            lastCalculated = ?,
+            updatedAt = ?
+        WHERE studentId = ? AND subject = ?
+      `, [
+        newComprehension,
+        newCriticalThinking,
+        newSelfRegulation,
+        newPracticalApplication,
+        newMetacognition,
+        totalFeedbacks,
+        now,
+        now,
+        studentId,
+        subject
+      ]);
+    } else {
+      // Create new record
+      const id = generateId();
+      await query(`
+        INSERT INTO SkillsProgress (
+          id, studentId, subject, 
+          comprehension, criticalThinking, selfRegulation, 
+          practicalApplication, metacognition,
+          totalFeedbacks, lastCalculated, createdAt, updatedAt
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `, [
+        id,
+        studentId,
+        subject,
+        skillsMetrics.comprehension,
+        skillsMetrics.criticalThinking,
+        skillsMetrics.selfRegulation,
+        skillsMetrics.practicalApplication,
+        skillsMetrics.metacognition,
+        1,
+        now,
+        now,
+        now
+      ]);
+    }
+  } catch (error) {
+    console.error('Error updating skills progress:', error);
+    throw error;
+  }
+}
+
+/**
+ * Gets the skills progress for a student (all subjects or specific subject)
+ */
+export async function getStudentSkillsProgress(studentId: string, subject?: string) {
+  try {
+    let queryStr = `
+      SELECT 
+        subject,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')) as comprehension,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.criticalThinking')) as criticalThinking,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.selfRegulation')) as selfRegulation,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.practicalApplication')) as practicalApplication,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')) as metacognition,
+        COUNT(*) as totalFeedbacks
+      FROM Feedback
+      WHERE studentId = ? 
+        AND skillsMetrics IS NOT NULL
+    `;
+    const params: any[] = [studentId];
+    
+    if (subject) {
+      queryStr += ` AND subject = ?`;
+      params.push(subject);
+    }
+    
+    queryStr += ` GROUP BY subject ORDER BY subject`;
+    
+    const result = await query(queryStr, params);
+    return result.rows;
+  } catch (error) {
+    console.error('Error getting student skills progress:', error);
+    throw error;
+  }
+}
+
+/**
+ * Gets overall skills average across all subjects for a student
+ */
+export async function getStudentOverallSkills(studentId: string) {
+  try {
+    const result = await query(`
+      SELECT 
+        AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')) as avgComprehension,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.criticalThinking')) as avgCriticalThinking,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.selfRegulation')) as avgSelfRegulation,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.practicalApplication')) as avgPracticalApplication,
+        AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')) as avgMetacognition,
+        COUNT(*) as totalFeedbacks
+      FROM Feedback
+      WHERE studentId = ? 
+        AND skillsMetrics IS NOT NULL
+    `, [studentId]);
+    
+    if (result.rows.length === 0) {
+      return null;
+    }
+    
+    const row = result.rows[0] as any;
+    return {
+      comprehension: row.avgComprehension || 0,
+      criticalThinking: row.avgCriticalThinking || 0,
+      selfRegulation: row.avgSelfRegulation || 0,
+      practicalApplication: row.avgPracticalApplication || 0,
+      metacognition: row.avgMetacognition || 0,
+      totalFeedbacks: row.totalFeedbacks || 0
+    };
+  } catch (error) {
+    console.error('Error getting student overall skills:', error);
+    throw error;
+  }
+}
+
+/**
+ * Stores feedback with skills metrics
+ */
+export async function createFeedbackWithMetrics(feedbackData: {
+  studentId: string;
+  progressReportId?: string;
+  weekStart: string;
+  subject: string;
+  score?: number;
+  generalComments?: string;
+  strengths?: string[];
+  improvements?: string[];
+  aiAnalysis?: string;
+  skillsMetrics?: {
+    comprehension: number;
+    criticalThinking: number;
+    selfRegulation: number;
+    practicalApplication: number;
+    metacognition: number;
+  };
+  createdBy: string;
+}) {
+  try {
+    const id = generateId();
+    const now = new Date().toISOString();
+    
+    // Convert arrays to JSON strings
+    const strengthsJson = feedbackData.strengths ? JSON.stringify(feedbackData.strengths) : null;
+    const improvementsJson = feedbackData.improvements ? JSON.stringify(feedbackData.improvements) : null;
+    const skillsMetricsJson = feedbackData.skillsMetrics ? JSON.stringify(feedbackData.skillsMetrics) : null;
+    
+    await query(`
+      INSERT INTO Feedback (
+        id, studentId, progressReportId, weekStart, subject,
+        score, generalComments, strengths, improvements,
+        aiAnalysis, skillsMetrics, createdBy, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [
+      id,
+      feedbackData.studentId,
+      feedbackData.progressReportId || null,
+      feedbackData.weekStart,
+      feedbackData.subject,
+      feedbackData.score || null,
+      feedbackData.generalComments || null,
+      strengthsJson,
+      improvementsJson,
+      feedbackData.aiAnalysis || null,
+      skillsMetricsJson,
+      feedbackData.createdBy,
+      now,
+      now
+    ]);
+    
+    // Update skills progress if metrics are provided
+    if (feedbackData.skillsMetrics) {
+      await updateSkillsProgress(
+        feedbackData.studentId,
+        feedbackData.subject,
+        feedbackData.skillsMetrics
+      );
+    }
+    
+    return { id, createdAt: now };
+  } catch (error) {
+    console.error('Error creating feedback with metrics:', error);
+    throw error;
   }
 }
