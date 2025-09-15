@@ -59,9 +59,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     updateAge: 2 * 60 * 60, // Update session every 2 hours
   },
   callbacks: {
-    async jwt({ token, user }) {
-      console.log('🔍 JWT callback called:', { hasUser: !!user, tokenEmail: token.email });
-      
+    async jwt({ token, user, trigger, session }) {
+      console.log('🔍 JWT callback called:', { hasUser: !!user, tokenEmail: token.email, trigger });
+
       // Set user data on first sign in
       if (user) {
         console.log('✅ JWT callback - Setting user data on token:', user);
@@ -73,24 +73,44 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         token.subjects = user.subjects
         token.lastActivity = Date.now()
       }
-      
+
+      // Handle impersonation updates
+      if (trigger === "update" && session) {
+        if (session.impersonating !== undefined) {
+          token.impersonating = session.impersonating
+          token.isImpersonating = !!session.impersonating
+          console.log('🎭 Impersonation updated:', token.isImpersonating ? 'Started' : 'Ended')
+        }
+      }
+
       // Check token expiration and activity
       const now = Date.now()
       const maxInactivity = 4 * 60 * 60 * 1000 // 4 hours of inactivity
-      
+
       if (token.lastActivity && (now - (token.lastActivity as number)) > maxInactivity) {
         console.log(`🔒 Token expired due to inactivity - User: ${token.email}`)
         // Return a minimal token that will cause re-authentication
         return { expired: true } as any
       }
-      
+
+      // Check impersonation timeout (30 minutes)
+      if (token.isImpersonating && token.impersonating && typeof token.impersonating === 'object' && 'startedAt' in token.impersonating) {
+        const impersonationStart = new Date((token.impersonating as any).startedAt).getTime()
+        const thirtyMinutes = 30 * 60 * 1000
+        if ((now - impersonationStart) > thirtyMinutes) {
+          console.log('⏱️ Impersonation expired after 30 minutes')
+          token.isImpersonating = false
+          token.impersonating = undefined
+        }
+      }
+
       // Update last activity on each token refresh
       token.lastActivity = now
       return token
     },
     async session({ session, token }) {
       console.log('🔍 Session callback called:', { hasToken: !!token, tokenEmail: token?.email });
-      
+
       if (token) {
         session.user.id = token.sub!
         session.user.role = token.role as string
@@ -99,6 +119,12 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         session.user.academicYear = token.academicYear as string
         session.user.division = token.division as string
         session.user.subjects = token.subjects as string
+
+        // Pass impersonation data to session
+        if (token.isImpersonating) {
+          session.user.isImpersonating = true
+          session.user.impersonating = token.impersonating as any
+        }
       }
       return session
     },

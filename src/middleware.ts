@@ -35,6 +35,18 @@ export default auth((req) => {
       console.log('🔒 Redirecting unauthenticated user to signin')
       return NextResponse.redirect(new URL('/auth/signin', req.url))
     }
+
+    // Allow instructors to access student dashboard when impersonating
+    if (pathname.startsWith('/dashboard/student')) {
+      const isInstructor = req.auth?.user?.role === 'INSTRUCTOR'
+      const isImpersonating = req.auth?.user?.isImpersonating === true
+      const isStudent = req.auth?.user?.role === 'STUDENT'
+
+      if (!isStudent && (!isInstructor || !isImpersonating)) {
+        console.log('🔒 Non-student attempted to access student dashboard without impersonation')
+        return NextResponse.redirect(new URL('/dashboard', req.url))
+      }
+    }
   }
   
   // Protect instructor routes

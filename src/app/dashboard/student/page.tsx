@@ -75,7 +75,12 @@ export default function StudentDashboard() {
       return
     }
 
-    if (session.user.role !== "STUDENT") {
+    // Allow instructor viewing as student
+    const isInstructor = session.user.role === "INSTRUCTOR"
+    const isImpersonating = session.user.isImpersonating === true
+    const isStudent = session.user.role === "STUDENT"
+
+    if (!isStudent && (!isInstructor || !isImpersonating)) {
       router.push("/dashboard/instructor")
       return
     }
@@ -106,7 +111,12 @@ export default function StudentDashboard() {
 
   const fetchStudentData = async () => {
     try {
-      const response = await fetch("/api/weekly-reports", {
+      // If impersonating, pass the student ID in the request
+      const url = session?.user?.isImpersonating && session?.user?.impersonating
+        ? `/api/weekly-reports?studentId=${session.user.impersonating.studentId}`
+        : "/api/weekly-reports"
+
+      const response = await fetch(url, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

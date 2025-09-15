@@ -8,6 +8,7 @@ import PasswordResetModal from "@/components/instructor/PasswordResetModal"
 import { WeeklyDownloadModal } from "@/components/instructor"
 import DatabaseManager from "@/components/instructor/DatabaseManager"
 import FeedbackUploadModal from "@/components/instructor/FeedbackUploadModal"
+import StudentImpersonationPanel from "@/components/instructor/StudentImpersonationPanel"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
 // Hierarchical data interfaces - Force deployment for timezone fix
@@ -357,27 +358,37 @@ export default function InstructorDashboard() {
             Bienvenido, {session?.user?.name}
           </p>
           
-          {/* Admin Database and Feedback Buttons */}
-          <div className="mb-6 flex flex-wrap gap-3">
-            <button
-              onClick={() => setIsDatabaseManagerOpen(true)}
-              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-              </svg>
-              Administrar Base de Datos
-            </button>
+          {/* Student Impersonation Panel */}
+          <div className="mb-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="lg:col-span-2">
+              {/* Admin Database and Feedback Buttons */}
+              <div className="flex flex-wrap gap-3">
+                <button
+                  onClick={() => setIsDatabaseManagerOpen(true)}
+                  className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+                  </svg>
+                  Administrar Base de Datos
+                </button>
             
-            <button
-              onClick={() => setIsFeedbackUploadModalOpen(true)}
-              className="px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-lg hover:from-green-700 hover:to-teal-700 transition-colors flex items-center gap-2 shadow-lg"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-              </svg>
-              Cargar Devoluciones
-            </button>
+                <button
+                  onClick={() => setIsFeedbackUploadModalOpen(true)}
+                  className="px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-lg hover:from-green-700 hover:to-teal-700 transition-colors flex items-center gap-2 shadow-lg"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                  </svg>
+                  Cargar Devoluciones
+                </button>
+              </div>
+            </div>
+
+            {/* Student Impersonation Component */}
+            <div className="lg:col-span-1">
+              <StudentImpersonationPanel />
+            </div>
           </div>
           
           {/* Hierarchical Navigation */}
