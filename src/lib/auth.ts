@@ -112,18 +112,36 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       console.log('🔍 Session callback called:', { hasToken: !!token, tokenEmail: token?.email });
 
       if (token) {
-        session.user.id = token.sub!
-        session.user.role = token.role as string
-        session.user.studentId = token.studentId as string
-        session.user.sede = token.sede as string
-        session.user.academicYear = token.academicYear as string
-        session.user.division = token.division as string
-        session.user.subjects = token.subjects as string
+        // Check if we're impersonating
+        if (token.isImpersonating && token.impersonating) {
+          const impersonationData = token.impersonating as any
 
-        // Pass impersonation data to session
-        if (token.isImpersonating) {
+          // Override main user fields with impersonated student data
+          session.user.id = impersonationData.studentId
+          session.user.email = impersonationData.studentEmail
+          session.user.name = impersonationData.studentName
+          session.user.role = 'STUDENT' // Always STUDENT when impersonating
+          session.user.studentId = impersonationData.studentId
+
+          // These fields should come from the impersonated student's data
+          // We'll need to pass these from the impersonation start
+          session.user.sede = impersonationData.sede || token.sede as string
+          session.user.academicYear = impersonationData.academicYear || token.academicYear as string
+          session.user.division = impersonationData.division || token.division as string
+          session.user.subjects = impersonationData.subjects || token.subjects as string
+
+          // Mark as impersonating and include original instructor data
           session.user.isImpersonating = true
-          session.user.impersonating = token.impersonating as any
+          session.user.impersonating = impersonationData
+        } else {
+          // Normal session (no impersonation)
+          session.user.id = token.sub!
+          session.user.role = token.role as string
+          session.user.studentId = token.studentId as string
+          session.user.sede = token.sede as string
+          session.user.academicYear = token.academicYear as string
+          session.user.division = token.division as string
+          session.user.subjects = token.subjects as string
         }
       }
       return session

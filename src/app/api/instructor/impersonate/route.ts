@@ -76,6 +76,10 @@ export async function POST(request: NextRequest) {
         studentId: student.studentId,
         studentName: student.name,
         studentEmail: student.email,
+        sede: student.sede,
+        academicYear: student.academicYear,
+        division: student.division,
+        subjects: student.subjects,
         originalUserId: session.user.id,
         originalRole: session.user.role,
         startedAt: new Date().toISOString()
