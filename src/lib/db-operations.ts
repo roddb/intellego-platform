@@ -3270,16 +3270,22 @@ export async function updateSkillsProgress(
 export async function getStudentSkillsProgress(studentId: string, subject?: string) {
   try {
     let queryStr = `
-      SELECT 
+      SELECT
         subject,
-        AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')) as comprehension,
+        COALESCE(
+          AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')),
+          AVG(JSON_EXTRACT(skillsMetrics, '$.communication'))
+        ) as comprehension,
         AVG(JSON_EXTRACT(skillsMetrics, '$.criticalThinking')) as criticalThinking,
         AVG(JSON_EXTRACT(skillsMetrics, '$.selfRegulation')) as selfRegulation,
         AVG(JSON_EXTRACT(skillsMetrics, '$.practicalApplication')) as practicalApplication,
-        AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')) as metacognition,
+        COALESCE(
+          AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')),
+          AVG(JSON_EXTRACT(skillsMetrics, '$.reflection'))
+        ) as metacognition,
         COUNT(*) as totalFeedbacks
       FROM Feedback
-      WHERE studentId = ? 
+      WHERE studentId = ?
         AND skillsMetrics IS NOT NULL
     `;
     const params: any[] = [studentId];
@@ -3305,15 +3311,21 @@ export async function getStudentSkillsProgress(studentId: string, subject?: stri
 export async function getStudentOverallSkills(studentId: string) {
   try {
     const result = await query(`
-      SELECT 
-        AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')) as avgComprehension,
+      SELECT
+        COALESCE(
+          AVG(JSON_EXTRACT(skillsMetrics, '$.comprehension')),
+          AVG(JSON_EXTRACT(skillsMetrics, '$.communication'))
+        ) as avgComprehension,
         AVG(JSON_EXTRACT(skillsMetrics, '$.criticalThinking')) as avgCriticalThinking,
         AVG(JSON_EXTRACT(skillsMetrics, '$.selfRegulation')) as avgSelfRegulation,
         AVG(JSON_EXTRACT(skillsMetrics, '$.practicalApplication')) as avgPracticalApplication,
-        AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')) as avgMetacognition,
+        COALESCE(
+          AVG(JSON_EXTRACT(skillsMetrics, '$.metacognition')),
+          AVG(JSON_EXTRACT(skillsMetrics, '$.reflection'))
+        ) as avgMetacognition,
         COUNT(*) as totalFeedbacks
       FROM Feedback
-      WHERE studentId = ? 
+      WHERE studentId = ?
         AND skillsMetrics IS NOT NULL
     `, [studentId]);
     
