@@ -73,7 +73,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       success: true,
       impersonationData: {
-        studentId: student.studentId,
+        id: student.id,  // IMPORTANT: Database ID for queries
+        studentId: student.studentId,  // Student code for display
         studentName: student.name,
         studentEmail: student.email,
         sede: student.sede,

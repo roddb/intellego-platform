@@ -117,11 +117,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           const impersonationData = token.impersonating as any
 
           // Override main user fields with impersonated student data
-          session.user.id = impersonationData.studentId
+          session.user.id = impersonationData.id || impersonationData.studentId  // Use database ID for queries
           session.user.email = impersonationData.studentEmail
           session.user.name = impersonationData.studentName
           session.user.role = 'STUDENT' // Always STUDENT when impersonating
-          session.user.studentId = impersonationData.studentId
+          session.user.studentId = impersonationData.studentId  // Student code for display
 
           // These fields should come from the impersonated student's data
           // We'll need to pass these from the impersonation start
