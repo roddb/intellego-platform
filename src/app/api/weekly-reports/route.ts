@@ -18,19 +18,40 @@ export const runtime = 'nodejs';
 export async function GET(request: NextRequest) {
   try {
     const session = await auth()
-    
+
     if (!session?.user?.id) {
       return NextResponse.json({ error: "No autorizado" }, { status: 401 })
     }
 
+    // Check if instructor is impersonating and get the effective user ID
+    const searchParams = request.nextUrl.searchParams
+    const impersonatedStudentId = searchParams.get('studentId')
+
+    let effectiveUserId = session.user.id
+    let effectiveStudentId = session.user.studentId
+
+    // If instructor is impersonating, use the impersonated student's data
+    if (session.user.isImpersonating && impersonatedStudentId) {
+      // Get the user ID from studentId (need to query database)
+      const { query } = require('@/lib/db-operations')
+      const result = await query(
+        'SELECT id FROM User WHERE studentId = ? LIMIT 1',
+        [impersonatedStudentId]
+      )
+      if (result.rows.length > 0) {
+        effectiveUserId = String(result.rows[0].id)
+        effectiveStudentId = impersonatedStudentId
+      }
+    }
+
     // Get user's subjects and reports grouped by subject
-    const userSubjects = await getUserSubjects(session.user.id)
-    const reportsBySubject = await findWeeklyReportsByUserGroupedBySubject(session.user.id)
+    const userSubjects = await getUserSubjects(effectiveUserId)
+    const reportsBySubject = await findWeeklyReportsByUserGroupedBySubject(effectiveUserId)
     
     // Check submission status for each subject
     const subjectStatus: { [subject: string]: boolean } = {}
     for (const subject of userSubjects) {
-      subjectStatus[subject] = await canSubmitForSubject(session.user.id, subject)
+      subjectStatus[subject] = await canSubmitForSubject(effectiveUserId, subject)
     }
     
     return NextResponse.json({

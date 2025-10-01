@@ -10,6 +10,16 @@ declare module "next-auth" {
       academicYear?: string
       division?: string
       subjects?: string
+      // Impersonation fields
+      impersonating?: {
+        studentId: string
+        studentName: string
+        studentEmail: string
+        originalUserId: string
+        originalRole: string
+        startedAt: string
+      }
+      isImpersonating?: boolean
     } & DefaultSession["user"]
   }
 
@@ -31,5 +41,15 @@ declare module "next-auth/jwt" {
     academicYear?: string
     division?: string
     subjects?: string
+    // Impersonation fields
+    impersonating?: {
+      studentId: string
+      studentName: string
+      studentEmail: string
+      originalUserId: string
+      originalRole: string
+      startedAt: string
+    }
+    isImpersonating?: boolean
   }
 }

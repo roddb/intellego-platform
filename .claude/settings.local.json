@@ -39,7 +39,13 @@
       "Bash(npm run lint)",
       "Bash(npm run type-check:*)",
       "mcp__vercel__web_fetch_vercel_url",
-      "Bash(npm exec tsx:*)"
+      "Bash(npm exec tsx:*)",
+      "Bash(git log:*)",
+      "mcp__github__list_pull_requests",
+      "mcp__github__merge_pull_request",
+      "Bash(git checkout:*)",
+      "Bash(npm run build:*)",
+      "mcp__github__get_me"
     ],
     "deny": [],
     "ask": []
