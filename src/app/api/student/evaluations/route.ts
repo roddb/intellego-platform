@@ -46,10 +46,8 @@ export async function GET(request: NextRequest) {
     const evaluationId = searchParams.get('id');
     const subject = searchParams.get('subject');
 
-    // Get student ID (handle impersonation)
-    const studentId = session.user.isImpersonating
-      ? session.user.impersonating?.studentId || session.user.id
-      : session.user.id;
+    // Get student ID (when impersonating, session.user.id is already set to impersonated student's ID)
+    const studentId = session.user.id;
 
     // If specific evaluation ID requested
     if (evaluationId) {
