@@ -45,7 +45,10 @@
       "mcp__github__merge_pull_request",
       "Bash(git checkout:*)",
       "Bash(npm run build:*)",
-      "mcp__github__get_me"
+      "mcp__github__get_me",
+      "mcp__turso-intellego__get_db_schema",
+      "Bash(npx tsx:*)",
+      "Bash(echo $TURSO_DATABASE_URL)"
     ],
     "deny": [],
     "ask": []

@@ -63,7 +63,7 @@ export default function StudentDashboard() {
   const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress'>('reports')
+  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations'>('reports')
   const [feedbackModalOpen, setFeedbackModalOpen] = useState(false)
   const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
 
@@ -315,6 +315,12 @@ export default function StudentDashboard() {
             >
               <TrendingUp className="w-4 h-4" />
               <span>Progreso</span>
+            </button>
+            <button
+              onClick={() => router.push('/dashboard/student/evaluations')}
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors text-slate-600 hover:text-slate-800`}
+            >
+              📊 Evaluaciones
             </button>
             <button
               onClick={() => setActiveTab('profile')}

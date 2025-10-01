@@ -3373,12 +3373,12 @@ export async function createFeedbackWithMetrics(feedbackData: {
   try {
     const id = generateId();
     const now = new Date().toISOString();
-    
+
     // Convert arrays to JSON strings
     const strengthsJson = feedbackData.strengths ? JSON.stringify(feedbackData.strengths) : null;
     const improvementsJson = feedbackData.improvements ? JSON.stringify(feedbackData.improvements) : null;
     const skillsMetricsJson = feedbackData.skillsMetrics ? JSON.stringify(feedbackData.skillsMetrics) : null;
-    
+
     await query(`
       INSERT INTO Feedback (
         id, studentId, progressReportId, weekStart, subject,
@@ -3401,7 +3401,7 @@ export async function createFeedbackWithMetrics(feedbackData: {
       now,
       now
     ]);
-    
+
     // Update skills progress if metrics are provided
     if (feedbackData.skillsMetrics) {
       await updateSkillsProgress(
@@ -3410,10 +3410,142 @@ export async function createFeedbackWithMetrics(feedbackData: {
         feedbackData.skillsMetrics
       );
     }
-    
+
     return { id, createdAt: now };
   } catch (error) {
     console.error('Error creating feedback with metrics:', error);
+    throw error;
+  }
+}
+
+// ============================================================================
+// EVALUATION OPERATIONS
+// ============================================================================
+
+/**
+ * Gets all evaluations for a student, optionally filtered by subject
+ */
+export async function getStudentEvaluations(studentId: string, subject?: string) {
+  try {
+    let queryStr = `
+      SELECT
+        e.id, e.studentId, e.subject, e.examDate, e.examTopic,
+        e.score, e.feedback, e.createdBy, e.createdAt, e.updatedAt,
+        u.name as instructorName, u.email as instructorEmail
+      FROM Evaluation e
+      LEFT JOIN User u ON e.createdBy = u.id
+      WHERE e.studentId = ?
+    `;
+
+    const params: any[] = [studentId];
+
+    if (subject) {
+      queryStr += ' AND e.subject = ?';
+      params.push(subject);
+    }
+
+    queryStr += ' ORDER BY e.examDate DESC, e.createdAt DESC';
+
+    const result = await query(queryStr, params);
+
+    return result.rows.map(row => ({
+      id: String((row as any).id),
+      studentId: String((row as any).studentId),
+      subject: String((row as any).subject),
+      examDate: String((row as any).examDate),
+      examTopic: String((row as any).examTopic),
+      score: Number((row as any).score),
+      feedback: String((row as any).feedback),
+      createdBy: String((row as any).createdBy),
+      createdAt: String((row as any).createdAt),
+      updatedAt: String((row as any).updatedAt),
+      instructorName: (row as any).instructorName ? String((row as any).instructorName) : undefined,
+      instructorEmail: (row as any).instructorEmail ? String((row as any).instructorEmail) : undefined
+    }));
+  } catch (error) {
+    console.error('Error getting student evaluations:', error);
+    throw error;
+  }
+}
+
+/**
+ * Gets a specific evaluation by ID
+ */
+export async function getEvaluationById(evaluationId: string) {
+  try {
+    const result = await query(`
+      SELECT
+        e.id, e.studentId, e.subject, e.examDate, e.examTopic,
+        e.score, e.feedback, e.createdBy, e.createdAt, e.updatedAt,
+        u.name as instructorName, u.email as instructorEmail
+      FROM Evaluation e
+      LEFT JOIN User u ON e.createdBy = u.id
+      WHERE e.id = ?
+      LIMIT 1
+    `, [evaluationId]);
+
+    if (result.rows.length === 0) {
+      return null;
+    }
+
+    const row = result.rows[0] as any;
+    return {
+      id: String(row.id),
+      studentId: String(row.studentId),
+      subject: String(row.subject),
+      examDate: String(row.examDate),
+      examTopic: String(row.examTopic),
+      score: Number(row.score),
+      feedback: String(row.feedback),
+      createdBy: String(row.createdBy),
+      createdAt: String(row.createdAt),
+      updatedAt: String(row.updatedAt),
+      instructorName: row.instructorName ? String(row.instructorName) : undefined,
+      instructorEmail: row.instructorEmail ? String(row.instructorEmail) : undefined
+    };
+  } catch (error) {
+    console.error('Error getting evaluation by ID:', error);
+    throw error;
+  }
+}
+
+/**
+ * Creates a new evaluation
+ */
+export async function createEvaluation(evaluationData: {
+  studentId: string;
+  subject: string;
+  examDate: string;
+  examTopic: string;
+  score: number;
+  feedback: string;
+  createdBy: string;
+}) {
+  try {
+    const id = generateId();
+    const now = new Date().toISOString();
+
+    await query(`
+      INSERT INTO Evaluation (
+        id, studentId, subject, examDate, examTopic,
+        score, feedback, createdBy, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [
+      id,
+      evaluationData.studentId,
+      evaluationData.subject,
+      evaluationData.examDate,
+      evaluationData.examTopic,
+      evaluationData.score,
+      evaluationData.feedback,
+      evaluationData.createdBy,
+      now,
+      now
+    ]);
+
+    return { id, createdAt: now };
+  } catch (error) {
+    console.error('Error creating evaluation:', error);
     throw error;
   }
 }
