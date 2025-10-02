@@ -48,7 +48,16 @@
       "mcp__github__get_me",
       "mcp__turso-intellego__get_db_schema",
       "Bash(npx tsx:*)",
-      "Bash(echo $TURSO_DATABASE_URL)"
+      "Bash(echo $TURSO_DATABASE_URL)",
+      "Bash(grep:*)",
+      "Bash(sqlite3:*)",
+      "Bash(for:*)",
+      "Bash(done)",
+      "Bash(do echo \"=== $file ===\")",
+      "mcp__vercel__get_project",
+      "mcp__github__get_pull_request_status",
+      "mcp__github__get_issue_comments",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []

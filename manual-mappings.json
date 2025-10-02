@@ -1,0 +1,39 @@
+{
+  "Garcia_Canteli_Ulises_retroalimentacion_29092025.md": {
+    "studentId": "u_zbzlsfka9me0bba6t",
+    "studentName": "Ulises García Canteli",
+    "email": "ugarciacanteli@gmail.com",
+    "note": "Name has accent and extra space"
+  },
+  "Isola_Pozzo_Facundo_retroalimentacion_29092025.md": {
+    "studentId": "2256bcc8-efd3-4e01-b627-1e6dfad75a6c",
+    "studentName": "Facundo Isola Pozzo",
+    "email": "agusisola@gmail.com",
+    "note": "Using full compound name version"
+  },
+  "Maioli_Bautista_retroalimentacion_29092025.md": {
+    "studentId": "u_rkrgujb30me0b536p",
+    "studentName": "Maioli, Bautista Lucas",
+    "email": "bautimaioli@gmail.com",
+    "note": "Name format: LastName, FirstName MiddleName"
+  },
+  "Margules_Agustina_retroalimentacion_29092025.md": {
+    "studentId": "u_8msj4nva8me0b5qcj",
+    "studentName": "Margules, Agustina Lara",
+    "email": "agustinamargules@gmail.com",
+    "note": "Name format: LastName, FirstName MiddleName"
+  },
+  "Marrazzo_Lola_retroalimentacion_29092025.md": {
+    "studentId": "u_gjtitt5qlme0b5p2x",
+    "studentName": "Marrazzo, Lola",
+    "email": "lolamarrazzo@gmail.com",
+    "note": "Name format: LastName, FirstName"
+  },
+  "Vertedor_Fiorella_retroalimentacion_30092025.md": {
+    "studentId": "u_madzeow6xme0bap6m",
+    "studentName": "Vertedor Salinas, Fiorella",
+    "email": "fiorevertedor@gmail.com",
+    "note": "Full name includes middle surname"
+  },
+  "_note": "One duplicate file to handle: Gaeta_Isabel has 2 versions - use v2 only"
+}
