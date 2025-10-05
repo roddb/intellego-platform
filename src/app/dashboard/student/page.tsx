@@ -112,29 +112,48 @@ export default function StudentDashboard() {
   }, [lastScrollY])
 
   const fetchAllFeedbacks = useCallback(async () => {
+    console.log('[FEEDBACKS DEBUG] fetchAllFeedbacks called')
+
     setIsFeedbacksLoading(true)
+    console.log('[FEEDBACKS DEBUG] Loading state set to true')
+
     try {
-      console.log('[FEEDBACKS DEBUG] Starting fetch...')
+      console.log('[FEEDBACKS DEBUG] Starting fetch to /api/student/feedback...')
+
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 10000) // 10s timeout
+
       const response = await fetch('/api/student/feedback', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
+        signal: controller.signal
       })
 
-      console.log('[FEEDBACKS DEBUG] Response status:', response.status, response.statusText)
+      clearTimeout(timeoutId)
+      console.log('[FEEDBACKS DEBUG] Response received:', response.status, response.statusText)
 
       if (response.ok) {
         const data = await response.json()
-        console.log('[FEEDBACKS DEBUG] Data received:', data)
+        console.log('[FEEDBACKS DEBUG] Data received:', {
+          hasFeedbacks: !!data.feedbacks,
+          count: data.feedbacks?.length,
+          total: data.total
+        })
         setAllFeedbacks(data.feedbacks || [])
+        console.log('[FEEDBACKS DEBUG] setAllFeedbacks called with', data.feedbacks?.length, 'items')
       } else {
         const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
         console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
       }
     } catch (error) {
       console.error('[FEEDBACKS DEBUG] Fetch error:', error)
+      if (error instanceof Error && error.name === 'AbortError') {
+        console.error('[FEEDBACKS DEBUG] Request timed out after 10 seconds')
+      }
     } finally {
+      console.log('[FEEDBACKS DEBUG] Finally block executing, setting loading to false')
       setIsFeedbacksLoading(false)
       console.log('[FEEDBACKS DEBUG] Fetch complete')
     }

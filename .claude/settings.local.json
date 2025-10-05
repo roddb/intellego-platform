@@ -57,7 +57,9 @@
       "mcp__vercel__get_project",
       "mcp__github__get_pull_request_status",
       "mcp__github__get_issue_comments",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(git pull:*)",
+      "Bash(gh repo view:*)"
     ],
     "deny": [],
     "ask": []
