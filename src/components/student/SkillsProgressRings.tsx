@@ -164,7 +164,7 @@ export default function SkillsProgressRings({
               />
               {/* Progress Fill Background */}
               <circle
-                fill="url(#fill-gradient-${skill.name})"
+                fill={`url(#fill-gradient-${skill.name})`}
                 r={normalizedRadius - 2}
                 cx={radius}
                 cy={radius}
@@ -173,7 +173,7 @@ export default function SkillsProgressRings({
               {/* Progress Fill - using another circle with strokeDasharray for fill effect */}
               <circle
                 className="transition-all duration-1000 ease-out"
-                stroke="url(#fill-gradient-${skill.name})"
+                stroke={`url(#fill-gradient-${skill.name})`}
                 fill="transparent"
                 strokeWidth={normalizedRadius * 2}
                 strokeDasharray={circumference + ' ' + circumference}
@@ -186,7 +186,7 @@ export default function SkillsProgressRings({
               {/* Progress Circle Border */}
               <circle
                 className="transition-all duration-1000 ease-out"
-                stroke="url(#gradient-${skill.name})"
+                stroke={`url(#gradient-${skill.name})`}
                 fill="transparent"
                 strokeWidth={strokeWidth}
                 strokeDasharray={circumference + ' ' + circumference}
