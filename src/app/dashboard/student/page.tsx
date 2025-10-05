@@ -60,7 +60,7 @@ export default function StudentDashboard() {
   const [isLoading, setIsLoading] = useState(true)
   const [successMessage, setSuccessMessage] = useState("")
   const [reportsBySubject, setReportsBySubject] = useState<{[subject: string]: any[]}>({})
-  const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
+  const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, hasFeedback: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
   const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations'>('reports')
@@ -175,22 +175,26 @@ export default function StudentDashboard() {
         const isCurrentWeek = isCurrentWeekInArgentina(week.start, week.end)
         const isPastWeek = isPastWeekInArgentina(week.end) && !isCurrentWeek
         const isFutureWeek = isFutureWeekInArgentina(week.start) && !isCurrentWeek
-        
+
         // Check if this subject has reports and if any match this week
         // Use date range comparison to handle reports submitted within any part of the week
-        const hasReport = reportsBySubjectData[subject]?.some(report => {
+        const matchingReport = reportsBySubjectData[subject]?.find(report => {
           const reportWeekStart = new Date(report.weekStart)
           const reportWeekEnd = new Date(report.weekEnd)
           const weekStart = new Date(week.start)
           const weekEnd = new Date(week.end)
-          
+
           // Check if report's date range overlaps with calendar week's date range
           return (reportWeekStart <= weekEnd && reportWeekEnd >= weekStart)
-        }) || false
-        
+        })
+
+        const hasReport = !!matchingReport
+        const hasFeedback = matchingReport?.hasFeedback === true || matchingReport?.hasFeedback === 1
+
         return {
           ...week,
           hasReport,
+          hasFeedback,
           isCurrentWeek,
           isPastWeek,
           isFutureWeek
@@ -461,12 +465,12 @@ export default function StudentDashboard() {
                                 </span>
                                 <div className="flex items-center gap-2">
                                   <span className="text-xs font-medium">
-                                    {week.hasReport ? '✅ Enviado' : 
-                                     week.isPastWeek ? '🔴 Atrasado' : 
-                                     week.isCurrentWeek ? '🟡 Actual' : 
+                                    {week.hasReport ? '✅ Enviado' :
+                                     week.isPastWeek ? '🔴 Atrasado' :
+                                     week.isCurrentWeek ? '🟡 Actual' :
                                      '⚪ Futuro'}
                                   </span>
-                                  {week.hasReport && (
+                                  {week.hasFeedback && (
                                     <button
                                       onClick={() => {
                                         const weekStartISO = week.start.toISOString().split('T')[0]
