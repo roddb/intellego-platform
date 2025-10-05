@@ -2,7 +2,7 @@
 
 import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
-import { useEffect, useState } from "react"
+import { useEffect, useState, useCallback } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
 import FeedbackViewer from "@/components/student/FeedbackViewer"
@@ -111,7 +111,7 @@ export default function StudentDashboard() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [lastScrollY])
 
-  const fetchAllFeedbacks = async () => {
+  const fetchAllFeedbacks = useCallback(async () => {
     setIsFeedbacksLoading(true)
     try {
       console.log('[FEEDBACKS DEBUG] Starting fetch...')
@@ -138,7 +138,7 @@ export default function StudentDashboard() {
       setIsFeedbacksLoading(false)
       console.log('[FEEDBACKS DEBUG] Fetch complete')
     }
-  }
+  }, []) // Empty deps - function doesn't depend on any external values
 
   // Load feedbacks when switching to feedbacks tab
   useEffect(() => {
