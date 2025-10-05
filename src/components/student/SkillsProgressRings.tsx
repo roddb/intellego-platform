@@ -1,15 +1,13 @@
 'use client';
 
 import React from 'react';
-import {
-  Brain,
-  Lightbulb,
-  Target,
-  Wrench,
-  Eye
+import { 
+  Brain, 
+  Lightbulb, 
+  Target, 
+  Wrench, 
+  Eye 
 } from 'lucide-react';
-import { motion } from 'framer-motion';
-import CountUp from 'react-countup';
 
 interface SkillsData {
   comprehension: number;
@@ -79,7 +77,7 @@ export default function SkillsProgressRings({
     }
   ];
 
-  const CircularProgress = ({ skill, index }: { skill: typeof skills[0], index: number }) => {
+  const CircularProgress = ({ skill }: { skill: typeof skills[0] }) => {
     const radius = 70;
     const strokeWidth = 8;
     const normalizedRadius = radius - strokeWidth * 2;
@@ -87,60 +85,14 @@ export default function SkillsProgressRings({
     const strokeDashoffset = circumference - (skill.value / 100) * circumference;
     const Icon = skill.icon;
 
-    // 5. Gradient fill based on percentage
-    const getGradientByValue = (value: number) => {
-      if (value < 50) return 'from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20';
-      if (value < 75) return 'from-yellow-50 to-green-50 dark:from-yellow-900/20 dark:to-green-900/20';
-      return 'from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20';
-    };
-
-    // 7. Shimmer effect for top performers (>70%)
-    const shouldShimmer = skill.value > 70;
-
     return (
-      <motion.div
-        // 3. Stagger + Bounce Entrance
-        initial={{ opacity: 0, y: 50, scale: 0.8 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{
-          delay: index * 0.15,
-          type: "spring",
-          stiffness: 200,
-          damping: 15,
-          bounce: 0.4
-        }}
-        // 4. Hover 3D Tilt
-        whileHover={{
-          rotateY: 5,
-          rotateX: 5,
-          scale: 1.05,
-          transition: { type: "spring", stiffness: 300, damping: 20 }
-        }}
-        style={{ perspective: 1000 }}
-        className={`bg-gradient-to-br ${getGradientByValue(skill.value)} ${skill.borderColor} border-2 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group relative overflow-hidden`}
-      >
-        {/* 7. Shimmer Effect for top performers */}
-        {shouldShimmer && (
-          <motion.div
-            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent"
-            initial={{ x: '-200%' }}
-            animate={{ x: '200%' }}
-            transition={{
-              repeat: Infinity,
-              duration: 3,
-              ease: "linear",
-              repeatDelay: 5
-            }}
-            style={{ pointerEvents: 'none' }}
-          />
-        )}
-
+      <div className={`${skill.bgColor} ${skill.borderColor} border-2 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group relative`}>
         {/* Tooltip on hover */}
-        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-4 py-3 bg-gray-900 dark:bg-gray-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10 min-w-[250px] max-w-xs whitespace-normal">
+        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-4 py-3 bg-gray-900 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10 min-w-[250px] max-w-xs whitespace-normal">
           <div className="font-bold mb-1">{skill.name}</div>
           <div className="text-xs leading-relaxed">{skill.description}</div>
           <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1">
-            <div className="border-4 border-transparent border-t-gray-900 dark:border-t-gray-800"></div>
+            <div className="border-4 border-transparent border-t-gray-900"></div>
           </div>
         </div>
         
@@ -211,46 +163,17 @@ export default function SkillsProgressRings({
             
             {/* Center Content with better spacing */}
             <div className="absolute inset-4 flex flex-col items-center justify-center">
-              {/* 6. Icon Pulse/Bounce Animation */}
-              <motion.div
-                animate={{
-                  scale: [1, 1.2, 1],
-                }}
-                transition={{
-                  repeat: Infinity,
-                  duration: 2,
-                  repeatDelay: 3,
-                  ease: "easeInOut"
-                }}
-                whileHover={{
-                  rotate: [0, -10, 10, 0],
-                  transition: { duration: 0.5 }
-                }}
-              >
-                <Icon className="w-6 h-6 text-gray-700 dark:text-gray-300 mb-2" />
-              </motion.div>
-
-              {/* 1. CountUp Numbers */}
-              <div className="text-xl font-bold text-gray-800 dark:text-gray-100">
-                <CountUp
-                  end={skill.value}
-                  decimals={2}
-                  duration={2.5}
-                  delay={index * 0.15}
-                  suffix="%"
-                  enableScrollSpy
-                  scrollSpyOnce
-                />
-              </div>
+              <Icon className="w-6 h-6 text-gray-700 mb-2" />
+              <div className="text-xl font-bold text-gray-800">{skill.value}%</div>
             </div>
           </div>
           
           {/* Skill Name */}
-          <h3 className="mt-4 text-sm font-semibold text-gray-700 dark:text-gray-300 text-center">
+          <h3 className="mt-4 text-sm font-semibold text-gray-700 text-center">
             {skill.name}
           </h3>
         </div>
-      </motion.div>
+      </div>
     );
   };
 
@@ -262,43 +185,24 @@ export default function SkillsProgressRings({
   return (
     <div className={`w-full ${className}`}>
       {subject && (
-        <motion.h3
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center"
-        >
+        <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">
           Progreso en {subject}
-        </motion.h3>
+        </h3>
       )}
       
       {/* Main Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
-        {skills.map((skill, index) => (
-          <CircularProgress key={skill.name} skill={skill} index={index} />
+        {skills.map((skill) => (
+          <CircularProgress key={skill.name} skill={skill} />
         ))}
       </div>
 
-      {/* Average Score Banner with Animation */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.8, duration: 0.5 }}
-        className="bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-700 dark:to-indigo-700 rounded-2xl p-6 text-white shadow-lg hover:shadow-xl transition-shadow"
-      >
+      {/* Average Score Banner */}
+      <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl p-6 text-white">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-lg font-medium opacity-90">Promedio General</h3>
-            <p className="text-4xl font-bold mt-2">
-              <CountUp
-                end={avgScore}
-                duration={2.5}
-                delay={0.8}
-                suffix="%"
-                enableScrollSpy
-                scrollSpyOnce
-              />
-            </p>
+            <p className="text-4xl font-bold mt-2">{avgScore}%</p>
           </div>
           <div className="text-right">
             <p className="text-sm opacity-90">Mejor habilidad</p>
@@ -307,7 +211,7 @@ export default function SkillsProgressRings({
             </p>
           </div>
         </div>
-      </motion.div>
+      </div>
 
     </div>
   );
