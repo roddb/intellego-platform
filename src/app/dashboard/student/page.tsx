@@ -127,8 +127,10 @@ export default function StudentDashboard() {
   const fetchAllFeedbacks = useCallback(async () => {
     console.log('[FEEDBACKS DEBUG] fetchAllFeedbacks called')
 
-    setIsFeedbacksLoading(true)
-    console.log('[FEEDBACKS DEBUG] Loading state set to true')
+    setIsFeedbacksLoading(prev => {
+      console.log('[FEEDBACKS DEBUG] Setting loading from', prev, 'to true')
+      return true
+    })
 
     try {
       console.log('[FEEDBACKS DEBUG] Starting fetch to /api/student/feedback...')
@@ -154,8 +156,10 @@ export default function StudentDashboard() {
           count: data.feedbacks?.length,
           total: data.total
         })
-        setAllFeedbacks(data.feedbacks || [])
-        console.log('[FEEDBACKS DEBUG] setAllFeedbacks called with', data.feedbacks?.length, 'items')
+        setAllFeedbacks(prev => {
+          console.log('[FEEDBACKS DEBUG] Setting feedbacks from', prev.length, 'to', data.feedbacks?.length || 0)
+          return data.feedbacks || []
+        })
       } else {
         const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
         console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
@@ -166,11 +170,14 @@ export default function StudentDashboard() {
         console.error('[FEEDBACKS DEBUG] Request timed out after 10 seconds')
       }
     } finally {
-      console.log('[FEEDBACKS DEBUG] Finally block executing, setting loading to false')
-      setIsFeedbacksLoading(false)
+      console.log('[FEEDBACKS DEBUG] Finally block executing')
+      setIsFeedbacksLoading(prev => {
+        console.log('[FEEDBACKS DEBUG] Setting loading from', prev, 'to false')
+        return false
+      })
       console.log('[FEEDBACKS DEBUG] Fetch complete')
     }
-  }, []) // Empty deps - function doesn't depend on any external values
+  }, [])
 
   // Load feedbacks when switching to feedbacks tab
   useEffect(() => {
