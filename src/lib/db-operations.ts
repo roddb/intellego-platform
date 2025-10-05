@@ -323,13 +323,37 @@ export async function getUserSubjects(userId: string): Promise<string[]> {
 export async function findWeeklyReportsByUserGroupedBySubject(userId: string) {
   try {
     const result = await query(`
-      SELECT * FROM ProgressReport 
-      WHERE userId = ? 
-      ORDER BY weekStart DESC
+      SELECT DISTINCT
+        pr.id,
+        pr.userId,
+        pr.subject,
+        pr.weekStart,
+        pr.weekEnd,
+        pr.submittedAt,
+        CASE
+          WHEN f.id IS NOT NULL THEN 1
+          ELSE 0
+        END as hasFeedback
+      FROM ProgressReport pr
+      LEFT JOIN Feedback f ON (
+        f.studentId = pr.userId
+        AND f.weekStart = substr(pr.weekStart, 1, 10)
+        AND f.subject = pr.subject
+      )
+      WHERE pr.userId = ?
+      ORDER BY pr.weekStart DESC
     `, [userId]);
-    
-    const reports = result.rows;
-    
+
+    const reports = result.rows.map((row: any) => ({
+      id: row.id,
+      userId: row.userId,
+      subject: row.subject,
+      weekStart: row.weekStart,
+      weekEnd: row.weekEnd,
+      submittedAt: row.submittedAt,
+      hasFeedback: row.hasFeedback === 1 || row.hasFeedback === true
+    }));
+
     // Group by subject
     const groupedReports: { [subject: string]: any[] } = {};
     reports.forEach(report => {
