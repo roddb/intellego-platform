@@ -52,9 +52,22 @@ function getMonthWeeks(year: number, month: number): Array<{start: Date, end: Da
 export default function StudentDashboard() {
   // Initialize chunk error handler for better error recovery
   useChunkErrorHandler()
-  
+
   const { data: session, status } = useSession()
   const router = useRouter()
+
+  // DEBUG: Log session data
+  useEffect(() => {
+    if (session?.user) {
+      console.log('[SESSION DEBUG] Current session:', {
+        id: session.user.id,
+        email: session.user.email,
+        role: session.user.role,
+        studentId: session.user.studentId,
+        isImpersonating: session.user.isImpersonating
+      })
+    }
+  }, [session])
   const [userSubjects, setUserSubjects] = useState<string[]>([])
   const [canSubmitBySubject, setCanSubmitBySubject] = useState<{[subject: string]: boolean}>({})
   const [isLoading, setIsLoading] = useState(true)
