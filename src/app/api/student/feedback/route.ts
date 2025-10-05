@@ -22,8 +22,12 @@ export async function GET(request: NextRequest) {
       );
     }
     
-    // Students can only access their own feedback
-    if (session.user.role !== 'STUDENT') {
+    // Students can access their own feedback
+    // Instructors in impersonation mode can also access
+    const isStudent = session.user.role === 'STUDENT';
+    const isInstructorImpersonating = session.user.role === 'INSTRUCTOR' && session.user.isImpersonating;
+
+    if (!isStudent && !isInstructorImpersonating) {
       return NextResponse.json(
         { error: 'This endpoint is for students only' },
         { status: 403 }
