@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
-import { 
+import {
   createWeeklyReport,
   findWeeklyReportsByUserGroupedBySubject,
   canSubmitForSubject,
@@ -10,6 +10,7 @@ import {
   getAllQuestions
 } from "@/lib/db-operations"
 import { saveStudentReportAsJSON } from "@/lib/simple-file-storage"
+import { query } from "@/lib/db"
 
 // Configure to use Node.js runtime instead of Edge Runtime
 // This is necessary because auth() uses bcryptjs which requires Node.js APIs
@@ -33,7 +34,6 @@ export async function GET(request: NextRequest) {
     // If instructor is impersonating, use the impersonated student's data
     if (session.user.isImpersonating && impersonatedStudentId) {
       // Get the user ID from studentId (need to query database)
-      const { query } = require('@/lib/db-operations')
       const result = await query(
         'SELECT id FROM User WHERE studentId = ? LIMIT 1',
         [impersonatedStudentId]

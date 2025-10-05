@@ -69,22 +69,20 @@ function createLocalSQLiteClient(): Client {
 // Enhanced lazy initialization with health monitoring
 function getClient(): Client {
   if (!_db) {
-    if (process.env.NODE_ENV === 'production') {
-      // Production: Use optimized Turso client
-      if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
-        _db = createOptimizedTursoClient()
-        console.log('🚀 Production: Optimized Turso libSQL client initialized')
-      } else {
-        console.error('❌ Missing Turso credentials in production')
-        throw new Error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are required in production')
-      }
+    // Check if Turso credentials are available (works for both dev and production)
+    if (process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
+      _db = createOptimizedTursoClient()
+      console.log(`🚀 ${process.env.NODE_ENV === 'production' ? 'Production' : 'Development'}: Turso libSQL client initialized`)
+    } else if (process.env.NODE_ENV === 'production') {
+      console.error('❌ Missing Turso credentials in production')
+      throw new Error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are required in production')
     } else {
-      // Development: Use local SQLite with global caching
+      // Development fallback: Use local SQLite with global caching
       if (!global.__db) {
         global.__db = createLocalSQLiteClient()
       }
       _db = global.__db
-      console.log('🛠️ Development: Local SQLite client initialized')
+      console.log('🛠️ Development: Local SQLite client initialized (Turso not configured)')
     }
   }
   return _db

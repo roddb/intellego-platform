@@ -3003,8 +3003,8 @@ export async function getFeedbacksByStudent(studentId: string): Promise<any[]> {
     
     return result.rows.map((feedback: any) => ({
       ...feedback,
-      strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      strengths: feedback.strengths ? feedback.strengths.split('||').filter((s: string) => s.trim()) : [],
+      improvements: feedback.improvements ? feedback.improvements.split('||').filter((s: string) => s.trim()) : [],
       skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     }));
   } catch (error) {
