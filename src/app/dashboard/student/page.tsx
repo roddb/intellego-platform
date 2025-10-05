@@ -161,9 +161,18 @@ export default function StudentDashboard() {
 
   // Load feedbacks when switching to feedbacks tab
   useEffect(() => {
+    console.log('[FEEDBACKS DEBUG] useEffect triggered:', {
+      activeTab,
+      isFeedbacksLoading,
+      feedbacksLength: allFeedbacks.length,
+      willFetch: activeTab === 'feedbacks' && !isFeedbacksLoading && allFeedbacks.length === 0
+    })
+
     if (activeTab === 'feedbacks' && !isFeedbacksLoading && allFeedbacks.length === 0) {
-      console.log('[FEEDBACKS DEBUG] Tab activated, triggering fetch')
+      console.log('[FEEDBACKS DEBUG] Conditions met, calling fetchAllFeedbacks()')
       fetchAllFeedbacks()
+    } else {
+      console.log('[FEEDBACKS DEBUG] Conditions NOT met, skipping fetch')
     }
   }, [activeTab, isFeedbacksLoading, allFeedbacks.length, fetchAllFeedbacks])
 
