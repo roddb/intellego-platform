@@ -47,11 +47,14 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const weekStart = searchParams.get('weekStart');
     const subject = searchParams.get('subject');
-    
+
+    // Get student ID (when impersonating, session.user.id is already set to impersonated student's ID)
+    const studentId = session.user.id;
+
     // If specific week and subject provided, get that feedback
     if (weekStart && subject) {
       const feedback = await getFeedbackByWeek(
-        session.user.studentId || session.user.id,
+        studentId,
         weekStart,
         subject
       );
@@ -86,9 +89,9 @@ export async function GET(request: NextRequest) {
         }
       });
     }
-    
+
     // Otherwise, get all feedbacks for the student
-    const feedbacks = await getFeedbacksByStudent(session.user.studentId || session.user.id);
+    const feedbacks = await getFeedbacksByStudent(studentId);
     
     // Transform feedbacks for response
     const transformedFeedbacks = feedbacks.map(fb => ({
