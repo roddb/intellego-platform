@@ -124,77 +124,31 @@ export default function StudentDashboard() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [lastScrollY])
 
-  const fetchAllFeedbacks = useCallback(async () => {
-    console.log('[FEEDBACKS DEBUG] fetchAllFeedbacks called')
-
-    setIsFeedbacksLoading(prev => {
-      console.log('[FEEDBACKS DEBUG] Setting loading from', prev, 'to true')
-      return true
-    })
-
-    try {
-      console.log('[FEEDBACKS DEBUG] Starting fetch to /api/student/feedback...')
-
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 10000) // 10s timeout
-
-      const response = await fetch('/api/student/feedback', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        signal: controller.signal
-      })
-
-      clearTimeout(timeoutId)
-      console.log('[FEEDBACKS DEBUG] Response received:', response.status, response.statusText)
-
-      if (response.ok) {
-        const data = await response.json()
-        console.log('[FEEDBACKS DEBUG] Data received:', {
-          hasFeedbacks: !!data.feedbacks,
-          count: data.feedbacks?.length,
-          total: data.total
-        })
-        setAllFeedbacks(prev => {
-          console.log('[FEEDBACKS DEBUG] Setting feedbacks from', prev.length, 'to', data.feedbacks?.length || 0)
-          return data.feedbacks || []
-        })
-      } else {
-        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
-        console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
-      }
-    } catch (error) {
-      console.error('[FEEDBACKS DEBUG] Fetch error:', error)
-      if (error instanceof Error && error.name === 'AbortError') {
-        console.error('[FEEDBACKS DEBUG] Request timed out after 10 seconds')
-      }
-    } finally {
-      console.log('[FEEDBACKS DEBUG] Finally block executing')
-      setIsFeedbacksLoading(prev => {
-        console.log('[FEEDBACKS DEBUG] Setting loading from', prev, 'to false')
-        return false
-      })
-      console.log('[FEEDBACKS DEBUG] Fetch complete')
-    }
-  }, [])
-
-  // Load feedbacks when switching to feedbacks tab
+  // Load feedbacks when tab becomes active
   useEffect(() => {
-    console.log('[FEEDBACKS DEBUG] useEffect triggered:', {
-      activeTab,
-      isFeedbacksLoading,
-      feedbacksLength: allFeedbacks.length,
-      willFetch: activeTab === 'feedbacks' && !isFeedbacksLoading && allFeedbacks.length === 0
-    })
+    if (activeTab !== 'feedbacks') return
+    if (allFeedbacks.length > 0) return // Already loaded
 
-    if (activeTab === 'feedbacks' && !isFeedbacksLoading && allFeedbacks.length === 0) {
-      console.log('[FEEDBACKS DEBUG] Conditions met, calling fetchAllFeedbacks()')
-      fetchAllFeedbacks()
-    } else {
-      console.log('[FEEDBACKS DEBUG] Conditions NOT met, skipping fetch')
-    }
-  }, [activeTab, isFeedbacksLoading, allFeedbacks.length, fetchAllFeedbacks])
+    console.log('[FEEDBACKS] Loading feedbacks...')
+    setIsFeedbacksLoading(true)
+
+    fetch('/api/student/feedback')
+      .then(res => {
+        console.log('[FEEDBACKS] Response:', res.status)
+        return res.json()
+      })
+      .then(data => {
+        console.log('[FEEDBACKS] Data:', data)
+        setAllFeedbacks(data.feedbacks || [])
+      })
+      .catch(err => {
+        console.error('[FEEDBACKS] Error:', err)
+      })
+      .finally(() => {
+        console.log('[FEEDBACKS] Done')
+        setIsFeedbacksLoading(false)
+      })
+  }, [activeTab, allFeedbacks.length])
 
   const fetchStudentData = async () => {
     try {
