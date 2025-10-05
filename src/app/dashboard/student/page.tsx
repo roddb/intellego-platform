@@ -151,6 +151,7 @@ export default function StudentDashboard() {
   const fetchAllFeedbacks = async () => {
     setIsFeedbacksLoading(true)
     try {
+      console.log('[FEEDBACKS DEBUG] Starting fetch...')
       const response = await fetch('/api/student/feedback', {
         method: 'GET',
         headers: {
@@ -158,14 +159,21 @@ export default function StudentDashboard() {
         },
       })
 
+      console.log('[FEEDBACKS DEBUG] Response status:', response.status, response.statusText)
+
       if (response.ok) {
         const data = await response.json()
+        console.log('[FEEDBACKS DEBUG] Data received:', data)
         setAllFeedbacks(data.feedbacks || [])
+      } else {
+        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
+        console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
       }
     } catch (error) {
-      console.error('Error fetching feedbacks:', error)
+      console.error('[FEEDBACKS DEBUG] Fetch error:', error)
     } finally {
       setIsFeedbacksLoading(false)
+      console.log('[FEEDBACKS DEBUG] Fetch complete')
     }
   }
 
