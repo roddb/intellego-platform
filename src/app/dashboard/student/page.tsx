@@ -111,12 +111,42 @@ export default function StudentDashboard() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [lastScrollY])
 
+  const fetchAllFeedbacks = async () => {
+    setIsFeedbacksLoading(true)
+    try {
+      console.log('[FEEDBACKS DEBUG] Starting fetch...')
+      const response = await fetch('/api/student/feedback', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+
+      console.log('[FEEDBACKS DEBUG] Response status:', response.status, response.statusText)
+
+      if (response.ok) {
+        const data = await response.json()
+        console.log('[FEEDBACKS DEBUG] Data received:', data)
+        setAllFeedbacks(data.feedbacks || [])
+      } else {
+        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
+        console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
+      }
+    } catch (error) {
+      console.error('[FEEDBACKS DEBUG] Fetch error:', error)
+    } finally {
+      setIsFeedbacksLoading(false)
+      console.log('[FEEDBACKS DEBUG] Fetch complete')
+    }
+  }
+
   // Load feedbacks when switching to feedbacks tab
   useEffect(() => {
-    if (activeTab === 'feedbacks' && allFeedbacks.length === 0) {
+    if (activeTab === 'feedbacks' && !isFeedbacksLoading && allFeedbacks.length === 0) {
+      console.log('[FEEDBACKS DEBUG] Tab activated, triggering fetch')
       fetchAllFeedbacks()
     }
-  }, [activeTab])
+  }, [activeTab, isFeedbacksLoading, allFeedbacks.length, fetchAllFeedbacks])
 
   const fetchStudentData = async () => {
     try {
@@ -145,35 +175,6 @@ export default function StudentDashboard() {
       console.error("Error fetching student data:", error)
     } finally {
       setIsLoading(false)
-    }
-  }
-
-  const fetchAllFeedbacks = async () => {
-    setIsFeedbacksLoading(true)
-    try {
-      console.log('[FEEDBACKS DEBUG] Starting fetch...')
-      const response = await fetch('/api/student/feedback', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      })
-
-      console.log('[FEEDBACKS DEBUG] Response status:', response.status, response.statusText)
-
-      if (response.ok) {
-        const data = await response.json()
-        console.log('[FEEDBACKS DEBUG] Data received:', data)
-        setAllFeedbacks(data.feedbacks || [])
-      } else {
-        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }))
-        console.error('[FEEDBACKS DEBUG] API Error:', response.status, errorData)
-      }
-    } catch (error) {
-      console.error('[FEEDBACKS DEBUG] Fetch error:', error)
-    } finally {
-      setIsFeedbacksLoading(false)
-      console.log('[FEEDBACKS DEBUG] Fetch complete')
     }
   }
 
