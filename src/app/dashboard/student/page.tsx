@@ -63,9 +63,11 @@ export default function StudentDashboard() {
   const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, hasFeedback: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations'>('reports')
+  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks'>('reports')
   const [feedbackModalOpen, setFeedbackModalOpen] = useState(false)
   const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
+  const [allFeedbacks, setAllFeedbacks] = useState<any[]>([])
+  const [isFeedbacksLoading, setIsFeedbacksLoading] = useState(false)
 
   useEffect(() => {
     if (status === "loading") return
@@ -109,6 +111,13 @@ export default function StudentDashboard() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [lastScrollY])
 
+  // Load feedbacks when switching to feedbacks tab
+  useEffect(() => {
+    if (activeTab === 'feedbacks' && allFeedbacks.length === 0) {
+      fetchAllFeedbacks()
+    }
+  }, [activeTab])
+
   const fetchStudentData = async () => {
     try {
       // If impersonating, pass the student ID in the request
@@ -139,16 +148,37 @@ export default function StudentDashboard() {
     }
   }
 
+  const fetchAllFeedbacks = async () => {
+    setIsFeedbacksLoading(true)
+    try {
+      const response = await fetch('/api/student/feedback', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+
+      if (response.ok) {
+        const data = await response.json()
+        setAllFeedbacks(data.feedbacks || [])
+      }
+    } catch (error) {
+      console.error('Error fetching feedbacks:', error)
+    } finally {
+      setIsFeedbacksLoading(false)
+    }
+  }
+
   const calculateMonthWeeksForAllSubjects = () => {
     const now = new Date()
     const weeks = getMonthWeeks(now.getFullYear(), now.getMonth())
     const currentWeekStart = getWeekStart(now)
-    
+
     const weeksWithStatus = weeks.map(week => {
       const isCurrentWeek = week.start.getTime() === currentWeekStart.getTime()
       const isPastWeek = week.end < now && !isCurrentWeek
       const isFutureWeek = week.start > now && !isCurrentWeek
-      
+
       return {
         ...week,
         hasReport: false,
@@ -312,6 +342,16 @@ export default function StudentDashboard() {
               }`}
             >
               📅 Historial
+            </button>
+            <button
+              onClick={() => setActiveTab('feedbacks')}
+              className={`flex-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                activeTab === 'feedbacks'
+                  ? 'bg-white text-slate-800 shadow-sm'
+                  : 'text-slate-600 hover:text-slate-800'
+              }`}
+            >
+              💬 Retroalimentaciones
             </button>
             <button
               onClick={() => router.push('/dashboard/student/progress')}
@@ -689,6 +729,169 @@ export default function StudentDashboard() {
                 </div>
               </div>
             </div>
+          </div>
+        )}
+
+        {/* Feedbacks Tab Content */}
+        {activeTab === 'feedbacks' && (
+          <div className="space-y-6">
+            {/* Header */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <h2 className="text-xl font-semibold text-slate-800 mb-2">
+                💬 Retroalimentaciones Recibidas
+              </h2>
+              <p className="text-sm text-slate-600">
+                Todas las devoluciones de tus reportes semanales
+              </p>
+            </div>
+
+            {/* Loading State */}
+            {isFeedbacksLoading && (
+              <div className="bg-white rounded-lg shadow-lg p-12 text-center">
+                <div className="animate-pulse">
+                  <div className="text-slate-400 text-lg">Cargando retroalimentaciones...</div>
+                </div>
+              </div>
+            )}
+
+            {/* Empty State */}
+            {!isFeedbacksLoading && allFeedbacks.length === 0 && (
+              <div className="bg-white rounded-lg shadow-lg p-12 text-center">
+                <div className="text-slate-400 text-6xl mb-4">📝</div>
+                <h3 className="text-lg font-semibold text-slate-700 mb-2">
+                  No hay retroalimentaciones disponibles
+                </h3>
+                <p className="text-slate-600">
+                  Tus devoluciones aparecerán aquí cuando tu profesor las suba al sistema.
+                </p>
+              </div>
+            )}
+
+            {/* Feedbacks List */}
+            {!isFeedbacksLoading && allFeedbacks.length > 0 && (
+              <div className="space-y-4">
+                {allFeedbacks.map((feedback) => {
+                  const weekStartDate = new Date(feedback.weekStart);
+                  const formattedDate = weekStartDate.toLocaleDateString('es-AR', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                  });
+
+                  // Score color logic
+                  const getScoreColor = (score: number) => {
+                    if (score >= 80) return 'bg-green-100 text-green-800 border-green-200';
+                    if (score >= 60) return 'bg-yellow-100 text-yellow-800 border-yellow-200';
+                    return 'bg-red-100 text-red-800 border-red-200';
+                  };
+
+                  return (
+                    <div
+                      key={feedback.id}
+                      className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow cursor-pointer border border-slate-200"
+                      onClick={() => {
+                        setSelectedFeedbackWeek({
+                          weekStart: feedback.weekStart,
+                          subject: feedback.subject
+                        });
+                        setFeedbackModalOpen(true);
+                      }}
+                    >
+                      {/* Header with subject and score */}
+                      <div className="flex justify-between items-start mb-4">
+                        <div>
+                          <h3 className="text-lg font-semibold text-slate-900">
+                            {feedback.subject}
+                          </h3>
+                          <p className="text-sm text-slate-600">
+                            Semana del {formattedDate}
+                          </p>
+                        </div>
+                        <div className={`px-4 py-2 rounded-lg border font-bold ${getScoreColor(feedback.score)}`}>
+                          {feedback.score}/100
+                        </div>
+                      </div>
+
+                      {/* Instructor info */}
+                      <div className="flex items-center gap-2 mb-3">
+                        <div className="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center">
+                          <span className="text-sm font-medium text-slate-600">
+                            {feedback.instructor?.name?.charAt(0) || '?'}
+                          </span>
+                        </div>
+                        <div className="text-sm text-slate-600">
+                          {feedback.instructor?.name || 'Instructor'}
+                        </div>
+                      </div>
+
+                      {/* Preview of comments */}
+                      {feedback.generalComments && (
+                        <div className="bg-slate-50 rounded-lg p-3 mb-3">
+                          <p className="text-sm text-slate-700 line-clamp-2">
+                            {feedback.generalComments}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Tags for strengths and improvements */}
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {feedback.strengths && (
+                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700 border border-green-200">
+                            ✓ Fortalezas
+                          </span>
+                        )}
+                        {feedback.improvements && (
+                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                            ↗ Mejoras
+                          </span>
+                        )}
+                        {feedback.aiAnalysis && (
+                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-50 text-purple-700 border border-purple-200">
+                            🤖 Análisis IA
+                          </span>
+                        )}
+                      </div>
+
+                      {/* View button */}
+                      <button className="w-full mt-2 py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium text-sm">
+                        Ver Retroalimentación Completa →
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Summary Stats */}
+            {!isFeedbacksLoading && allFeedbacks.length > 0 && (
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <h3 className="text-lg font-semibold text-slate-800 mb-4">
+                  📊 Resumen de Retroalimentaciones
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-blue-600">
+                      {allFeedbacks.length}
+                    </div>
+                    <div className="text-sm text-slate-600">Total Recibidas</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-green-600">
+                      {allFeedbacks.length > 0
+                        ? Math.round(allFeedbacks.reduce((sum, f) => sum + f.score, 0) / allFeedbacks.length)
+                        : 0}
+                    </div>
+                    <div className="text-sm text-slate-600">Promedio</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-purple-600">
+                      {new Set(allFeedbacks.map(f => f.subject)).size}
+                    </div>
+                    <div className="text-sm text-slate-600">Materias</div>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
