@@ -51,6 +51,14 @@ export async function GET(request: NextRequest) {
     // Get student ID (when impersonating, session.user.id is already set to impersonated student's ID)
     const studentId = session.user.id;
 
+    console.log('[FEEDBACK API] Request received:', {
+      studentId,
+      role: session.user.role,
+      isImpersonating: session.user.isImpersonating,
+      weekStart,
+      subject
+    });
+
     // If specific week and subject provided, get that feedback
     if (weekStart && subject) {
       const feedback = await getFeedbackByWeek(
@@ -92,7 +100,9 @@ export async function GET(request: NextRequest) {
 
     // Otherwise, get all feedbacks for the student
     const feedbacks = await getFeedbacksByStudent(studentId);
-    
+
+    console.log('[FEEDBACK API] Feedbacks retrieved from DB:', feedbacks.length);
+
     // Transform feedbacks for response
     const transformedFeedbacks = feedbacks.map(fb => ({
       id: fb.id,
@@ -111,6 +121,11 @@ export async function GET(request: NextRequest) {
       }
     }));
     
+    console.log('[FEEDBACK API] Returning response:', {
+      count: transformedFeedbacks.length,
+      firstFeedback: transformedFeedbacks[0] || null
+    });
+
     return NextResponse.json({
       feedbacks: transformedFeedbacks,
       total: transformedFeedbacks.length
