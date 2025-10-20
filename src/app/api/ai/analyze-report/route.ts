@@ -61,6 +61,7 @@ export async function POST(request: NextRequest) {
     // 3. Parse request body
     let body: {
       progressReportId: string;
+      fase?: 1 | 2 | 3 | 4;  // Fase metodológica (1-4) - NUEVO
       rubric?: string;
       options?: {
         maxTokens?: number;
@@ -82,6 +83,14 @@ export async function POST(request: NextRequest) {
     if (!body.progressReportId) {
       return NextResponse.json(
         { error: 'Missing required field: progressReportId' },
+        { status: 400 }
+      );
+    }
+
+    // Validate fase if provided
+    if (body.fase && ![1, 2, 3, 4].includes(body.fase)) {
+      return NextResponse.json(
+        { error: 'Invalid fase. Must be 1, 2, 3, or 4' },
         { status: 400 }
       );
     }
@@ -122,18 +131,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // TODO: Implementar detección automática de fase desde DB
+    // Por ahora, se usa fase del request o Fase 2 como default
+    const fase = (body.fase || 2) as 1 | 2 | 3 | 4;
+
     console.log('📚 Retrieved report data', {
       studentId: progressReport.studentId,
       studentName: progressReport.studentName,
       subject: progressReport.subject,
-      answersCount: answers.length
+      answersCount: answers.length,
+      fase: fase
     });
 
-    // 8. Call Claude API for analysis
+    // 8. Call Claude API for analysis (INTEGRACIÓN DE RÚBRICAS)
     const analysisResult = await analyzer.analyzeAnswers(
       answers,
       progressReport.subject,
-      body.rubric,
+      fase,  // ← Ahora usa fase en vez de rubric
       body.options?.format || 'structured'
     );
 
@@ -241,11 +255,11 @@ export async function GET(request: NextRequest) {
     // Return API documentation
     return NextResponse.json({
       name: 'AI Report Analysis API',
-      description: 'Analiza reportes semanales usando Claude Haiku 4.5',
-      version: '1.0',
+      description: 'Analiza reportes semanales usando Claude Haiku 4.5 con Sistema de Rúbricas Oficial',
+      version: '2.0',  // Actualizado con integración de rúbricas
       endpoints: {
         POST: {
-          description: 'Analizar un reporte semanal',
+          description: 'Analizar un reporte semanal con rúbricas metodológicas (4 fases)',
           path: '/api/ai/analyze-report',
           method: 'POST',
           authentication: 'Required (INSTRUCTOR role)',
@@ -255,10 +269,17 @@ export async function GET(request: NextRequest) {
               required: true,
               description: 'ID del reporte a analizar'
             },
+            fase: {
+              type: 'number',
+              enum: [1, 2, 3, 4],
+              required: false,
+              default: 2,
+              description: 'Fase metodológica de pensamiento crítico (1: Identificación, 2: Variables, 3: Herramientas, 4: Ejecución)'
+            },
             rubric: {
               type: 'string',
               required: false,
-              description: 'Rúbrica específica para evaluación (opcional)'
+              description: 'DEPRECATED - Se usa rúbrica oficial según fase'
             },
             options: {
               type: 'object',
@@ -292,11 +313,11 @@ export async function GET(request: NextRequest) {
               strengths: 'string',
               improvements: 'string',
               skillsMetrics: {
-                completeness: 'number (0-100)',
-                clarity: 'number (0-100)',
-                reflection: 'number (0-100)',
-                progress: 'number (0-100)',
-                engagement: 'number (0-100)'
+                comprehension: 'number (0-100) - Capacidad de entender conceptos',
+                criticalThinking: 'number (0-100) - Análisis sistemático',
+                selfRegulation: 'number (0-100) - Gestión del aprendizaje',
+                practicalApplication: 'number (0-100) - Uso efectivo de herramientas',
+                metacognition: 'number (0-100) - Reflexión sobre pensamiento'
               }
             },
             metadata: 'object'
@@ -304,7 +325,7 @@ export async function GET(request: NextRequest) {
           example: {
             request: {
               progressReportId: 'cm4abc123...',
-              rubric: 'Evaluar: 1) Claridad, 2) Reflexión, 3) Progreso',
+              fase: 2,
               options: {
                 format: 'structured'
               }
@@ -313,16 +334,16 @@ export async function GET(request: NextRequest) {
               success: true,
               feedbackId: 'cm4xyz789...',
               analysis: {
-                score: 85,
-                generalComments: 'Excelente progreso esta semana...',
-                strengths: '- Respuestas claras y detalladas\n- Buena reflexión...',
-                improvements: '- Trabajar en la profundidad...',
+                score: 79,
+                generalComments: 'Excelente progreso en identificación de variables...',
+                strengths: '- Identifica mayoría de variables importantes\n- Clasificación correcta\n- Buena integración F1+F2...',
+                improvements: '- Mejorar clasificación de variables controlables\n- Profundizar en relaciones entre variables...',
                 skillsMetrics: {
-                  completeness: 90,
-                  clarity: 85,
-                  reflection: 80,
-                  progress: 85,
-                  engagement: 90
+                  comprehension: 84,
+                  criticalThinking: 77,
+                  selfRegulation: 70,
+                  practicalApplication: 86,
+                  metacognition: 69
                 }
               }
             }

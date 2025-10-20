@@ -63,6 +63,7 @@ class ClaudeClient {
     max_tokens?: number;
     temperature?: number;
     system?: string | Array<{ type: string; text: string; cache_control?: { type: string } }>;
+    stop_sequences?: string[];  // Permite override de stop sequences
   }, retryCount = 0): Promise<{
     success: boolean;
     content?: string;
@@ -88,7 +89,7 @@ class ClaudeClient {
         model: this.defaultConfig.model,
         temperature: config.temperature ?? this.defaultConfig.temperature,
         max_tokens: config.max_tokens ?? this.defaultConfig.max_tokens,
-        stop_sequences: this.defaultConfig.stop_sequences,
+        stop_sequences: config.stop_sequences ?? this.defaultConfig.stop_sequences,
         ...config
       });
 
