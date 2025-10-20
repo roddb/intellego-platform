@@ -3573,3 +3573,146 @@ export async function createEvaluation(evaluationData: {
     throw error;
   }
 }
+
+// ============================================================================
+// AI ANALYSIS FUNCTIONS - Claude Haiku Integration
+// ============================================================================
+
+/**
+ * Get all answers for a progress report with question details
+ * Used by AI analyzer to get context for analysis
+ */
+export async function getProgressReportAnswers(progressReportId: string) {
+  try {
+    const result = await query(`
+      SELECT
+        a.id,
+        a.questionId,
+        a.answer,
+        q.text as questionText,
+        q.type as questionType,
+        q.order as questionOrder
+      FROM Answer a
+      JOIN Question q ON a.questionId = q.id
+      WHERE a.progressReportId = ?
+      ORDER BY q.order ASC
+    `, [progressReportId]);
+
+    return result.rows.map((row: any) => ({
+      id: String(row.id),
+      questionId: String(row.questionId),
+      questionText: String(row.questionText),
+      answer: String(row.answer),
+      type: String(row.questionType)
+    }));
+  } catch (error) {
+    console.error('Error getting progress report answers:', error);
+    throw error;
+  }
+}
+
+/**
+ * Create AI-generated feedback and save to Feedback table
+ * Used after Claude API analysis is complete
+ */
+export async function createAIFeedback(feedbackData: {
+  studentId: string;
+  progressReportId: string;
+  weekStart: string;
+  subject: string;
+  score: number;
+  generalComments: string;
+  strengths: string;
+  improvements: string;
+  aiAnalysis: string;
+  skillsMetrics: {
+    completeness: number;
+    clarity: number;
+    reflection: number;
+    progress: number;
+    engagement: number;
+  };
+  createdBy: string;
+}) {
+  try {
+    const id = generateId();
+    const now = new Date().toISOString();
+
+    await query(`
+      INSERT INTO Feedback (
+        id, studentId, progressReportId, weekStart, subject,
+        score, generalComments, strengths, improvements,
+        aiAnalysis, skillsMetrics, createdBy, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [
+      id,
+      feedbackData.studentId,
+      feedbackData.progressReportId,
+      feedbackData.weekStart,
+      feedbackData.subject,
+      feedbackData.score,
+      feedbackData.generalComments,
+      feedbackData.strengths,
+      feedbackData.improvements,
+      feedbackData.aiAnalysis,
+      JSON.stringify(feedbackData.skillsMetrics),
+      feedbackData.createdBy,
+      now,
+      now
+    ]);
+
+    return { id, createdAt: now };
+  } catch (error) {
+    console.error('Error creating AI feedback:', error);
+    throw error;
+  }
+}
+
+/**
+ * Get progress report details with student info
+ * Used to gather context for AI analysis
+ */
+export async function getProgressReportWithStudent(progressReportId: string) {
+  try {
+    const result = await query(`
+      SELECT
+        pr.id,
+        pr.studentId,
+        pr.weekStart,
+        pr.weekEnd,
+        pr.subject,
+        pr.status,
+        u.name as studentName,
+        u.email as studentEmail,
+        u.academicYear,
+        u.division,
+        u.sede
+      FROM ProgressReport pr
+      JOIN User u ON pr.studentId = u.id
+      WHERE pr.id = ?
+      LIMIT 1
+    `, [progressReportId]);
+
+    if (result.rows.length === 0) {
+      return null;
+    }
+
+    const row = result.rows[0] as any;
+    return {
+      id: String(row.id),
+      studentId: String(row.studentId),
+      weekStart: String(row.weekStart),
+      weekEnd: String(row.weekEnd),
+      subject: String(row.subject),
+      status: String(row.status),
+      studentName: String(row.name),
+      studentEmail: row.email ? String(row.email) : undefined,
+      academicYear: row.academicYear ? String(row.academicYear) : undefined,
+      division: row.division ? String(row.division) : undefined,
+      sede: row.sede ? String(row.sede) : undefined
+    };
+  } catch (error) {
+    console.error('Error getting progress report with student:', error);
+    throw error;
+  }
+}
