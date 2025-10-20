@@ -3591,11 +3591,11 @@ export async function getProgressReportAnswers(progressReportId: string) {
         a.answer,
         q.text as questionText,
         q.type as questionType,
-        q.order as questionOrder
+        q."order" as questionOrder
       FROM Answer a
       JOIN Question q ON a.questionId = q.id
       WHERE a.progressReportId = ?
-      ORDER BY q.order ASC
+      ORDER BY q."order" ASC
     `, [progressReportId]);
 
     return result.rows.map((row: any) => ({
@@ -3677,18 +3677,17 @@ export async function getProgressReportWithStudent(progressReportId: string) {
     const result = await query(`
       SELECT
         pr.id,
-        pr.studentId,
+        pr.userId,
         pr.weekStart,
         pr.weekEnd,
         pr.subject,
-        pr.status,
         u.name as studentName,
         u.email as studentEmail,
         u.academicYear,
         u.division,
         u.sede
       FROM ProgressReport pr
-      JOIN User u ON pr.studentId = u.id
+      JOIN User u ON pr.userId = u.id
       WHERE pr.id = ?
       LIMIT 1
     `, [progressReportId]);
@@ -3700,13 +3699,13 @@ export async function getProgressReportWithStudent(progressReportId: string) {
     const row = result.rows[0] as any;
     return {
       id: String(row.id),
-      studentId: String(row.studentId),
+      studentId: String(row.userId),
       weekStart: String(row.weekStart),
       weekEnd: String(row.weekEnd),
       subject: String(row.subject),
-      status: String(row.status),
-      studentName: String(row.name),
-      studentEmail: row.email ? String(row.email) : undefined,
+      status: 'SUBMITTED',  // ProgressReport no tiene campo status en el schema real
+      studentName: String(row.studentName),
+      studentEmail: row.studentEmail ? String(row.studentEmail) : undefined,
       academicYear: row.academicYear ? String(row.academicYear) : undefined,
       division: row.division ? String(row.division) : undefined,
       sede: row.sede ? String(row.sede) : undefined
