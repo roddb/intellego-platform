@@ -3715,3 +3715,134 @@ export async function getProgressReportWithStudent(progressReportId: string) {
     throw error;
   }
 }
+
+// ============================================================================
+// BATCH FEEDBACK PROCESSING
+// ============================================================================
+
+export type PendingReport = {
+  id: string;
+  userId: string;
+  subject: string;
+  weekStart: string;
+  weekEnd: string;
+  submittedAt: string;
+};
+
+/**
+ * Obtiene reportes semanales que no tienen feedback generado
+ * Usado por el sistema de batch processing automático
+ *
+ * @param filters - Filtros opcionales (subject, weekStart, limit)
+ * @returns Array de reportes pendientes
+ */
+export async function getPendingReportsForFeedback(filters?: {
+  subject?: string;
+  weekStart?: string;
+  limit?: number;
+}): Promise<PendingReport[]> {
+  try {
+    let sql = `
+      SELECT
+        pr.id,
+        pr.userId,
+        pr.subject,
+        pr.weekStart,
+        pr.weekEnd,
+        pr.submittedAt
+      FROM ProgressReport pr
+      WHERE NOT EXISTS (
+        SELECT 1
+        FROM Feedback f
+        WHERE f.progressReportId = pr.id
+      )
+    `;
+
+    const conditions: string[] = [];
+    const params: any[] = [];
+
+    if (filters?.subject) {
+      conditions.push('pr.subject = ?');
+      params.push(filters.subject);
+    }
+
+    if (filters?.weekStart) {
+      conditions.push('pr.weekStart = ?');
+      params.push(filters.weekStart);
+    }
+
+    if (conditions.length > 0) {
+      sql += ' AND ' + conditions.join(' AND ');
+    }
+
+    sql += ' ORDER BY pr.submittedAt ASC';
+
+    if (filters?.limit) {
+      sql += ' LIMIT ?';
+      params.push(filters.limit);
+    }
+
+    const result = await query(sql, params);
+
+    return result.rows.map(row => ({
+      id: String(row.id),
+      userId: String(row.userId),
+      subject: String(row.subject),
+      weekStart: String(row.weekStart),
+      weekEnd: String(row.weekEnd),
+      submittedAt: String(row.submittedAt)
+    }));
+
+  } catch (error) {
+    console.error('Error getting pending reports:', error);
+    throw new Error(`Failed to get pending reports: ${error instanceof Error ? error.message : 'Unknown error'}`);
+  }
+}
+
+/**
+ * Cuenta reportes pendientes por materia
+ * Usado para mostrar estadísticas en el dashboard del instructor
+ *
+ * @returns Objeto con contadores por materia y total
+ */
+export async function countPendingReportsBySubject(): Promise<{
+  Física: number;
+  Química: number;
+  total: number;
+}> {
+  try {
+    const sql = `
+      SELECT
+        pr.subject,
+        COUNT(*) as count
+      FROM ProgressReport pr
+      WHERE NOT EXISTS (
+        SELECT 1
+        FROM Feedback f
+        WHERE f.progressReportId = pr.id
+      )
+      GROUP BY pr.subject
+    `;
+
+    const result = await query(sql, []);
+
+    const counts = {
+      Física: 0,
+      Química: 0,
+      total: 0
+    };
+
+    result.rows.forEach(row => {
+      const subject = String(row.subject) as 'Física' | 'Química';
+      const count = parseInt(String(row.count));
+      counts[subject] = count;
+      counts.total += count;
+    });
+
+    return counts;
+
+  } catch (error) {
+    console.error('Error counting pending reports:', error);
+    throw new Error(`Failed to count pending reports: ${error instanceof Error ? error.message : 'Unknown error'}`);
+  }
+}
