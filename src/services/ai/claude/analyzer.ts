@@ -40,6 +40,10 @@ class EducationalAnalyzer {
   /**
    * Analizar un conjunto de respuestas y generar feedback estructurado
    *
+   * FASE 3: Ahora usa Prompt Caching para optimizar costos
+   * - System prompts se cachean (90% ahorro en tokens)
+   * - Rúbricas se cachean (reutilizables entre análisis)
+   *
    * @param answers - Respuestas del estudiante
    * @param subject - Materia (ej: "Matemáticas", "Ciencias")
    * @param rubric - Rúbrica opcional para evaluación específica
@@ -52,17 +56,21 @@ class EducationalAnalyzer {
     format: 'structured' | 'narrative' = 'structured'
   ): Promise<AnalysisResult> {
     try {
-      // Construir prompt para Claude
-      const prompt = this._buildAnalysisPrompt(answers, subject, rubric, format);
+      // Construir system prompts cacheables
+      const systemMessages = this._buildCacheableSystemPrompts(subject, rubric);
 
-      // Llamar a Claude API
+      // Construir user message con respuestas (NO se cachea)
+      const userMessage = this._buildUserMessage(answers);
+
+      // Llamar a Claude API con Prompt Caching
       const response = await claudeClient.createMessage({
+        system: systemMessages,  // ← System messages con cache_control
         messages: [{
           role: 'user',
-          content: prompt
+          content: userMessage
         }],
         max_tokens: 1500,
-        temperature: 0.1  // Determinístico para evaluación justa
+        temperature: 0.1
       });
 
       if (!response.success) {
@@ -72,13 +80,22 @@ class EducationalAnalyzer {
       // Parsear respuesta
       const analysis = this._parseAnalysisResponse(response.content || '');
 
-      // Log para monitoreo
+      // Log mejorado para monitoreo de cache
+      const cacheHit = (response.usage?.cache_read_input_tokens ?? 0) > 0;
+      const cacheSavings = this._calculateCacheSavings(response.usage);
+
       console.log('✅ Análisis completado', {
         subject,
         score: analysis.score,
         tokensUsed: response.usage,
         latency: response.latency,
-        estimatedCost: this._calculateCost(response.usage)
+        estimatedCost: this._calculateCost(response.usage),
+        cache: {
+          hit: cacheHit,
+          readTokens: response.usage?.cache_read_input_tokens ?? 0,
+          createdTokens: response.usage?.cache_creation_input_tokens ?? 0,
+          savings: cacheSavings
+        }
       });
 
       return analysis;
@@ -286,7 +303,125 @@ Engagement: [número 0-100]
   }
 
   /**
-   * Calcular costo estimado de la llamada
+   * Construir system prompts cacheables (FASE 3)
+   *
+   * System messages se cachean automáticamente por 5 minutos
+   * Ahorro: 90% en tokens repetidos (de $1/MTok a $0.10/MTok)
+   */
+  private _buildCacheableSystemPrompts(
+    subject: string,
+    rubric?: string
+  ): Array<{ type: string; text: string; cache_control?: { type: string } }> {
+    const systemMessages: Array<{ type: string; text: string; cache_control?: { type: string } }> = [];
+
+    // Instrucciones generales (se cachean)
+    systemMessages.push({
+      type: 'text',
+      text: `Eres un profesor experimentado de ${subject} en Intellego Platform.
+
+Tu objetivo es proporcionar feedback constructivo y personalizado que ayude al estudiante a mejorar.
+
+Debes analizar las respuestas del estudiante y proporcionar:
+1. PUNTAJE GENERAL (0-100): Evaluación numérica objetiva
+2. FORTALEZAS (2-3 puntos): Aspectos positivos con ejemplos específicos
+3. ÁREAS DE MEJORA (2-3 puntos): Aspectos a trabajar con sugerencias accionables
+4. PRÓXIMOS PASOS (1-2 recomendaciones): Acciones concretas para mejorar
+
+Criterios de evaluación:
+- Completeness: Qué tan completas son las respuestas (0-100)
+- Clarity: Claridad en la comunicación (0-100)
+- Reflection: Profundidad de reflexión (0-100)
+- Progress: Evidencia de progreso y aprendizaje (0-100)
+- Engagement: Nivel de compromiso con el material (0-100)
+
+Tono: constructivo, alentador pero honesto.
+Límite: 250 palabras totales.`,
+      cache_control: { type: 'ephemeral' }  // ← Cachear este bloque
+    });
+
+    // Rúbrica específica (si existe, se cachea)
+    if (rubric) {
+      systemMessages.push({
+        type: 'text',
+        text: `<rubrica>
+${rubric}
+</rubrica>
+
+Utiliza EXCLUSIVAMENTE esta rúbrica para evaluar las respuestas del estudiante.
+Tu evaluación debe ser objetiva, consistente con la rúbrica, y justificada con ejemplos.`,
+        cache_control: { type: 'ephemeral' }  // ← Cachear la rúbrica
+      });
+    }
+
+    return systemMessages;
+  }
+
+  /**
+   * Construir user message con respuestas del estudiante
+   *
+   * Este contenido NO se cachea porque cambia en cada análisis
+   */
+  private _buildUserMessage(answers: Answer[]): string {
+    const answersFormatted = answers
+      .map((a, idx) => `Pregunta ${idx + 1}: ${a.questionText}\nRespuesta: ${a.answer}`)
+      .join('\n\n');
+
+    return `<respuestas_estudiante>
+${answersFormatted}
+</respuestas_estudiante>
+
+<formato_salida>
+PUNTAJE: [número 0-100]
+
+FORTALEZAS:
+- [Fortaleza 1 con ejemplo específico de las respuestas]
+- [Fortaleza 2 con ejemplo específico de las respuestas]
+
+ÁREAS DE MEJORA:
+- [Mejora 1: problema identificado + sugerencia específica]
+- [Mejora 2: problema identificado + sugerencia específica]
+
+PRÓXIMOS PASOS:
+- [Acción concreta 1]
+- [Acción concreta 2]
+
+MÉTRICAS:
+Completeness: [0-100]
+Clarity: [0-100]
+Reflection: [0-100]
+Progress: [0-100]
+Engagement: [0-100]
+</formato_salida>`;
+  }
+
+  /**
+   * Calcular ahorro por uso de caché
+   */
+  private _calculateCacheSavings(usage?: {
+    input_tokens: number;
+    cache_read_input_tokens?: number;
+    cache_creation_input_tokens?: number;
+  }): string {
+    if (!usage) return '$0.00';
+
+    const cacheReadTokens = usage.cache_read_input_tokens ?? 0;
+    const cacheCreationTokens = usage.cache_creation_input_tokens ?? 0;
+
+    if (cacheReadTokens === 0) {
+      return '$0.00 (sin cache hit)';
+    }
+
+    // Precio normal: $1/MTok
+    // Precio cache read: $0.10/MTok
+    // Ahorro: $0.90/MTok
+    const CACHE_SAVINGS_PER_MTOK = 0.90;
+    const savings = (cacheReadTokens / 1_000_000) * CACHE_SAVINGS_PER_MTOK;
+
+    return `$${savings.toFixed(6)} (${cacheReadTokens} tokens desde caché)`;
+  }
+
+  /**
+   * Calcular costo estimado de la llamada (actualizado para Fase 3)
    */
   private _calculateCost(usage?: {
     input_tokens: number;
@@ -297,13 +432,20 @@ Engagement: [número 0-100]
     if (!usage) return 0;
 
     // Precios de Claude Haiku 4.5 (por millón de tokens)
-    const INPUT_PRICE = 1.00;   // $1.00 / 1M tokens
-    const OUTPUT_PRICE = 5.00;  // $5.00 / 1M tokens
+    const INPUT_PRICE = 1.00;              // $1.00 / 1M tokens
+    const OUTPUT_PRICE = 5.00;             // $5.00 / 1M tokens
+    const CACHE_WRITE_PRICE = 1.25;        // $1.25 / 1M tokens (cache creation)
+    const CACHE_READ_PRICE = 0.10;         // $0.10 / 1M tokens (cache hit)
 
+    // Tokens normales
     const inputCost = (usage.input_tokens / 1_000_000) * INPUT_PRICE;
     const outputCost = (usage.output_tokens / 1_000_000) * OUTPUT_PRICE;
 
-    return inputCost + outputCost;
+    // Tokens de caché
+    const cacheWriteCost = ((usage.cache_creation_input_tokens ?? 0) / 1_000_000) * CACHE_WRITE_PRICE;
+    const cacheReadCost = ((usage.cache_read_input_tokens ?? 0) / 1_000_000) * CACHE_READ_PRICE;
+
+    return inputCost + outputCost + cacheWriteCost + cacheReadCost;
   }
 }
 
