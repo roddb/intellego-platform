@@ -6,11 +6,21 @@
     {
       "path": "/api/cron/weekly-reminders",
       "schedule": "0 9 * * 1"
+    },
+    {
+      "path": "/api/cron/auto-feedback",
+      "schedule": "0 2 * * *"
     }
   ],
   "functions": {
     "src/app/api/cron/weekly-reminders/route.ts": {
       "maxDuration": 300
+    },
+    "src/app/api/cron/auto-feedback/route.ts": {
+      "maxDuration": 600
+    },
+    "src/app/api/instructor/feedback/batch-generate/route.ts": {
+      "maxDuration": 600
     },
     "src/app/api/instructor/feedback/upload/route.ts": {
       "maxDuration": 60
