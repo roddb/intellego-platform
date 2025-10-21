@@ -4,7 +4,7 @@ import { getPendingReportsForFeedback } from '@/lib/db-operations';
 import { sendBatchResultEmail } from '@/lib/email-notifications';
 
 export const runtime = 'nodejs';
-export const maxDuration = 600; // 10 minutes (Vercel limit for cron jobs)
+export const maxDuration = 300; // 5 minutes (Vercel free tier limit)
 
 /**
  * GET /api/cron/auto-feedback

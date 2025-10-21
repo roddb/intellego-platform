@@ -5,7 +5,7 @@ import queueManager from '@/services/ai/feedback-queue-manager';
 import { getPendingReportsForFeedback, countPendingReportsBySubject, getPendingReportsWithDetails } from '@/lib/db-operations';
 
 export const runtime = 'nodejs';
-export const maxDuration = 600; // 10 minutes (for large batches)
+export const maxDuration = 300; // 5 minutes (Vercel free tier limit)
 
 /**
  * POST /api/instructor/feedback/batch-generate
