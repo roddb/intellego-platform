@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import PasswordResetModal from "@/components/instructor/PasswordResetModal"
-import { WeeklyDownloadModal, BatchFeedbackGenerator } from "@/components/instructor"
+import { WeeklyDownloadModal, BatchFeedbackGenerator, APICostDashboard } from "@/components/instructor"
 import DatabaseManager from "@/components/instructor/DatabaseManager"
 import FeedbackUploadModal from "@/components/instructor/FeedbackUploadModal"
 import StudentImpersonationPanel from "@/components/instructor/StudentImpersonationPanel"
@@ -386,6 +386,11 @@ export default function InstructorDashboard() {
           {/* Batch Feedback Generator - AI Automation */}
           <div className="mb-6">
             <BatchFeedbackGenerator />
+          </div>
+
+          {/* API Cost Dashboard - Instructor Only */}
+          <div className="mb-6">
+            <APICostDashboard />
           </div>
 
           {/* Student Impersonation Panel */}

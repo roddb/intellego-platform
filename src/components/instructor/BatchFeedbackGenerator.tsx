@@ -37,6 +37,14 @@ export function BatchFeedbackGenerator() {
   const [isLoadingCounts, setIsLoadingCounts] = useState(true);
   const [progress, setProgress] = useState(0);
 
+  // Async processing states
+  const [asyncJob, setAsyncJob] = useState<{
+    isRunning: boolean;
+    totalReports: number;
+    processedReports: number;
+    subject?: string;
+  } | null>(null);
+
   // New states for details
   const [expandedSubject, setExpandedSubject] = useState<'Física' | 'Química' | null>(null);
   const [subjectDetails, setSubjectDetails] = useState<{[key: string]: ReportDetail[]}>({});
@@ -51,6 +59,54 @@ export function BatchFeedbackGenerator() {
   useEffect(() => {
     fetchPendingCount();
   }, []);
+
+  // Polling effect for async job progress
+  useEffect(() => {
+    if (!asyncJob?.isRunning) return;
+
+    const pollInterval = setInterval(async () => {
+      try {
+        // Get current pending count
+        const url = asyncJob.subject
+          ? `/api/instructor/feedback/batch-generate-async?subject=${encodeURIComponent(asyncJob.subject)}`
+          : '/api/instructor/feedback/batch-generate-async';
+
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Failed to fetch progress');
+
+        const data = await response.json();
+        const pendingNow = data.pendingReports;
+        const processed = asyncJob.totalReports - pendingNow;
+
+        // Update progress
+        setAsyncJob(prev => prev ? { ...prev, processedReports: processed } : null);
+        setProgress(Math.round((processed / asyncJob.totalReports) * 100));
+
+        // Check if complete
+        if (pendingNow === 0) {
+          console.log('✅ Async job completed!');
+          setAsyncJob(null);
+          setIsProcessing(false);
+          setProgress(100);
+
+          // Refresh counts and show success
+          await fetchPendingCount();
+          setResult({
+            total: asyncJob.totalReports,
+            successful: asyncJob.totalReports,
+            failed: 0,
+            failedReports: [],
+            totalCost: asyncJob.totalReports * 0.005,
+            totalTimeMs: 0
+          });
+        }
+      } catch (err) {
+        console.error('Error polling progress:', err);
+      }
+    }, 2000); // Poll every 2 seconds
+
+    return () => clearInterval(pollInterval);
+  }, [asyncJob]);
 
   const fetchPendingCount = async () => {
     setIsLoadingCounts(true);
@@ -116,40 +172,42 @@ export function BatchFeedbackGenerator() {
     setProgress(0);
 
     try {
-      // Start progress simulation (since we don't have real-time updates yet)
-      const progressInterval = setInterval(() => {
-        setProgress(prev => {
-          if (prev >= 95) return prev;
-          return prev + 5;
-        });
-      }, 2000);
-
-      const response = await fetch('/api/instructor/feedback/batch-generate', {
+      // Start async job
+      const response = await fetch('/api/instructor/feedback/batch-generate-async', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({})
       });
 
-      clearInterval(progressInterval);
-      setProgress(100);
-
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.message || 'Failed to generate feedback');
+        throw new Error(errorData.error || 'Failed to start background job');
       }
 
       const data = await response.json();
-      setResult(data.result);
 
-      // Refresh pending count and clear details after processing
-      setSubjectDetails({});
-      setExpandedSubject(null);
-      await fetchPendingCount();
+      if (!data.jobStarted) {
+        setError(data.message || 'No reports to process');
+        setIsProcessing(false);
+        return;
+      }
+
+      console.log(`🚀 Async job started: ${data.totalReports} reports`);
+
+      // Set up async job tracking
+      setAsyncJob({
+        isRunning: true,
+        totalReports: data.totalReports,
+        processedReports: 0,
+        subject: data.subject
+      });
+
+      // Polling will start automatically via useEffect
 
     } catch (err: any) {
       setError(err.message);
-    } finally {
       setIsProcessing(false);
+      setAsyncJob(null);
     }
   };
 
@@ -189,16 +247,35 @@ export function BatchFeedbackGenerator() {
       console.log(`✅ Report ${reportId} processed successfully`);
       setProcessedReports(prev => new Set([...prev, reportId]));
 
-      // Remove from current subject details (will be refreshed)
-      if (expandedSubject && subjectDetails[expandedSubject]) {
-        setSubjectDetails(prev => ({
-          ...prev,
-          [expandedSubject]: prev[expandedSubject].filter(r => r.id !== reportId)
-        }));
-      }
+      // Small delay to ensure DB has finished writing
+      await new Promise(resolve => setTimeout(resolve, 500));
 
-      // Refresh counts
+      // Refresh counts first
       await fetchPendingCount();
+
+      // Force refetch of subject details to ensure fresh data
+      if (expandedSubject) {
+        // Clear cache
+        setSubjectDetails(prev => {
+          const newDetails = {...prev};
+          delete newDetails[expandedSubject];
+          return newDetails;
+        });
+
+        // Refetch fresh data from server
+        try {
+          const response = await fetch(`/api/instructor/feedback/batch-generate?subject=${encodeURIComponent(expandedSubject)}`);
+          if (response.ok) {
+            const data = await response.json();
+            setSubjectDetails(prev => ({
+              ...prev,
+              [expandedSubject]: data.details || []
+            }));
+          }
+        } catch (e) {
+          console.error('Failed to refetch subject details:', e);
+        }
+      }
 
     } catch (err: any) {
       console.error(`❌ Failed to process report ${reportId}:`, err.message);
@@ -431,21 +508,30 @@ export function BatchFeedbackGenerator() {
         </div>
 
         {/* Progress Bar */}
-        {isProcessing && (
+        {isProcessing && asyncJob && (
           <div className="space-y-2">
             <div className="flex items-center justify-between text-sm">
-              <span className="text-slate-600">Procesando reportes...</span>
-              <span className="font-medium text-slate-800">{progress}%</span>
+              <span className="text-slate-600">
+                {asyncJob.isRunning ? 'Procesando en background...' : 'Procesando...'}
+              </span>
+              <span className="font-medium text-slate-800">
+                {asyncJob.processedReports} de {asyncJob.totalReports} completados ({progress}%)
+              </span>
             </div>
-            <div className="w-full bg-slate-200 rounded-full h-2 overflow-hidden">
+            <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
               <div
-                className="bg-teal-600 h-full transition-all duration-300 ease-out"
+                className="bg-teal-600 h-full transition-all duration-500 ease-out"
                 style={{ width: `${progress}%` }}
               />
             </div>
-            <p className="text-xs text-slate-600">
-              Esto puede tardar varios minutos. Por favor no cierres esta ventana.
-            </p>
+            <div className="flex items-center justify-between text-xs text-slate-600">
+              <p>
+                Procesamiento asíncrono activado. Puedes navegar a otras páginas.
+              </p>
+              <p className="font-medium">
+                ~{Math.ceil((asyncJob.totalReports - asyncJob.processedReports) / 5 * 15)}s restantes
+              </p>
+            </div>
           </div>
         )}
 

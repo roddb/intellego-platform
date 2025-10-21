@@ -102,7 +102,7 @@ def main():
     FROM ProgressReport pr
     INNER JOIN User u ON pr.userId = u.id
     LEFT JOIN Feedback f ON pr.userId = f.studentId
-        AND DATE(pr.weekStart) = f.weekStart
+        AND DATE(pr.weekStart) = DATE(f.weekStart)
         AND pr.subject = f.subject
     WHERE u.role = 'STUDENT'
         AND u.status = 'ACTIVE'

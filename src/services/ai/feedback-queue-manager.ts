@@ -160,9 +160,9 @@ export class FeedbackQueueManager {
         'structured'
       );
 
-      console.log(`      🤖 Analysis completed: Score ${analysisResult.score}/100`);
+      console.log(`      🤖 Analysis completed: Score ${analysisResult.score}/100, Cost: $${analysisResult.actualCost.toFixed(6)}`);
 
-      // 5. Save feedback to DB
+      // 5. Save feedback to DB (including actual API cost)
       const feedback = await createAIFeedback({
         studentId: report.studentId,
         progressReportId: reportId,
@@ -174,15 +174,14 @@ export class FeedbackQueueManager {
         improvements: analysisResult.improvements,
         aiAnalysis: analysisResult.rawAnalysis,
         skillsMetrics: analysisResult.skillsMetrics,
-        createdBy: '3d47c07d-3785-493a-b07b-ee34da1113b4' // Rodrigo Di Bernardo - Hardcoded instructor ID
+        createdBy: '3d47c07d-3785-493a-b07b-ee34da1113b4', // Rodrigo Di Bernardo - Hardcoded instructor ID
+        apiCost: analysisResult.actualCost  // ✅ Guardar costo real de la API
       });
 
       console.log(`      💾 Feedback saved: ${feedback.id}`);
 
-      // Estimate cost (assuming ~$0.005 per analysis with caching)
-      const estimatedCost = 0.005;
-
-      return { success: true, cost: estimatedCost };
+      // Return actual cost from API response
+      return { success: true, cost: analysisResult.actualCost };
 
     } catch (error: any) {
       console.error(`      ❌ Error processing report ${reportId}:`, error.message);

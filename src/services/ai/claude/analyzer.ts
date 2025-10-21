@@ -48,6 +48,7 @@ export interface AnalysisResult {
   improvements: string;       // Áreas de mejora
   skillsMetrics: SkillsMetrics; // 5 métricas de habilidades transversales
   rawAnalysis: string;        // Análisis completo de Claude
+  actualCost: number;         // Costo real de la llamada a Claude API (en USD)
 }
 
 /**
@@ -104,6 +105,9 @@ class EducationalAnalyzer {
       // Parsear respuesta según nuevo formato con niveles por pregunta
       const analysis = this._parseAnalysisResponseWithRubricas(response.content || '');
 
+      // Calcular costo real de la llamada
+      const actualCost = this._calculateCost(response.usage);
+
       // Log mejorado para monitoreo de cache
       const cacheHit = (response.usage?.cache_read_input_tokens ?? 0) > 0;
       const cacheSavings = this._calculateCacheSavings(response.usage);
@@ -114,7 +118,7 @@ class EducationalAnalyzer {
         score: analysis.score,
         tokensUsed: response.usage,
         latency: response.latency,
-        estimatedCost: this._calculateCost(response.usage),
+        estimatedCost: actualCost,
         cache: {
           hit: cacheHit,
           readTokens: response.usage?.cache_read_input_tokens ?? 0,
@@ -123,7 +127,11 @@ class EducationalAnalyzer {
         }
       });
 
-      return analysis;
+      // Retornar análisis con costo real incluido
+      return {
+        ...analysis,
+        actualCost
+      };
 
     } catch (error: any) {
       console.error('❌ Error en análisis educativo:', error.message);
@@ -352,16 +360,28 @@ Engagement: [número 0-100]
   private _parseAnalysisResponseWithRubricas(text: string): AnalysisResult {
     // Extraer niveles asignados a cada pregunta (Q1-Q5)
     const extractNivel = (pregunta: string): number => {
-      // Formato esperado de Claude con Markdown bold: **Q1_NIVEL:** 4
-      const regex = new RegExp(`\\*\\*${pregunta}_NIVEL:\\*\\*\\s*([1-4])`, 'i');
-      const match = text.match(regex);
+      // Intentar múltiples formatos para ser más robusto:
+      // 1. Con markdown bold: **Q1_NIVEL:** 4
+      // 2. Sin markdown: Q1_NIVEL: 4
+      // 3. Con espacios variables
 
-      if (!match) {
-        console.warn(`⚠️ No se encontró nivel para ${pregunta}, usando Nivel 2 por defecto`);
-        return 2; // Nivel 2 por defecto si no se encuentra
+      const patterns = [
+        new RegExp(`\\*\\*${pregunta}_NIVEL:\\*\\*\\s*([1-4])`, 'i'),  // Con bold
+        new RegExp(`${pregunta}_NIVEL:\\s*([1-4])`, 'i'),              // Sin bold
+        new RegExp(`\\*\\*${pregunta}\\s*NIVEL:\\*\\*\\s*([1-4])`, 'i'), // Con espacio
+        new RegExp(`${pregunta}\\s*NIVEL:\\s*([1-4])`, 'i')            // Variante con espacio
+      ];
+
+      for (const regex of patterns) {
+        const match = text.match(regex);
+        if (match) {
+          return parseInt(match[1]) as 1 | 2 | 3 | 4;
+        }
       }
 
-      return parseInt(match[1]) as 1 | 2 | 3 | 4;
+      // Si no se encuentra ningún patrón, usar Nivel 2 por defecto
+      console.warn(`⚠️ No se encontró nivel para ${pregunta}, usando Nivel 2 por defecto`);
+      return 2;
     };
 
     const niveles = {

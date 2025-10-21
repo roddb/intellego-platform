@@ -42,8 +42,8 @@ export async function GET(request: NextRequest) {
         END as hasFeedback
       FROM ProgressReport pr
       LEFT JOIN Feedback f ON (
-        f.studentId = pr.userId 
-        AND f.weekStart = pr.weekStart 
+        f.studentId = pr.userId
+        AND DATE(f.weekStart) = DATE(pr.weekStart)
         AND f.subject = pr.subject
       )
       WHERE pr.userId = ?
@@ -64,8 +64,8 @@ export async function GET(request: NextRequest) {
         END as hasFeedback
       FROM ProgressReport pr
       LEFT JOIN Feedback f ON (
-        f.studentId = pr.userId 
-        AND f.weekStart = pr.weekStart 
+        f.studentId = pr.userId
+        AND DATE(f.weekStart) = DATE(pr.weekStart)
         AND f.subject = pr.subject
       )
       WHERE pr.userId = ?

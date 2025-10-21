@@ -3665,6 +3665,7 @@ export async function createAIFeedback(feedbackData: {
     engagement: number;
   };
   createdBy: string;
+  apiCost?: number; // Costo real de la llamada a Claude API (opcional para retrocompatibilidad)
 }) {
   try {
     const id = generateId();
@@ -3674,8 +3675,8 @@ export async function createAIFeedback(feedbackData: {
       INSERT INTO Feedback (
         id, studentId, progressReportId, weekStart, subject,
         score, generalComments, strengths, improvements,
-        aiAnalysis, skillsMetrics, createdBy, createdAt, updatedAt
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        aiAnalysis, skillsMetrics, createdBy, createdAt, updatedAt, apiCost
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `, [
       id,
       feedbackData.studentId,
@@ -3690,7 +3691,8 @@ export async function createAIFeedback(feedbackData: {
       JSON.stringify(feedbackData.skillsMetrics),
       feedbackData.createdBy,
       now,
-      now
+      now,
+      feedbackData.apiCost ?? null
     ]);
 
     return { id, createdAt: now };
@@ -3856,7 +3858,7 @@ export async function countPendingReportsBySubject(): Promise<{
       FROM ProgressReport pr
       LEFT JOIN Feedback f ON (
         f.studentId = pr.userId
-        AND DATE(pr.weekStart) = f.weekStart
+        AND DATE(pr.weekStart) = DATE(f.weekStart)
         AND pr.subject = f.subject
       )
       WHERE f.id IS NULL
@@ -3932,7 +3934,7 @@ export async function getPendingReportsWithDetails(subject?: string): Promise<Pe
       INNER JOIN User u ON pr.userId = u.id
       LEFT JOIN Feedback f ON (
         f.studentId = pr.userId
-        AND DATE(pr.weekStart) = f.weekStart
+        AND DATE(pr.weekStart) = DATE(f.weekStart)
         AND pr.subject = f.subject
       )
       WHERE u.role = 'STUDENT'

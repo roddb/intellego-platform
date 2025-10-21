@@ -151,7 +151,7 @@ export async function POST(request: NextRequest) {
       body.options?.format || 'structured'
     );
 
-    // 9. Save feedback to database
+    // 9. Save feedback to database (including actual API cost)
     const feedbackId = await createAIFeedback({
       studentId: progressReport.studentId,
       progressReportId: body.progressReportId,
@@ -163,7 +163,8 @@ export async function POST(request: NextRequest) {
       improvements: analysisResult.improvements,
       aiAnalysis: analysisResult.rawAnalysis,
       skillsMetrics: analysisResult.skillsMetrics,
-      createdBy: session.user.id
+      createdBy: session.user.id,
+      apiCost: analysisResult.actualCost  // ✅ Guardar costo real de la API
     });
 
     const totalTime = Date.now() - startTime;
