@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "installCommand": "rm -rf node_modules/@libsql node_modules/libsql && npm install --legacy-peer-deps",
+  "installCommand": "npm install --legacy-peer-deps",
   "crons": [
     {
       "path": "/api/cron/weekly-reminders",

@@ -59,5 +59,8 @@
     "better-sqlite3": "^12.2.0",
     "ignore-loader": "^0.1.2",
     "raw-loader": "^4.0.2"
+  },
+  "optionalDependencies": {
+    "@libsql/linux-x64-musl": "^0.5.22"
   }
 }
