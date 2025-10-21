@@ -2927,15 +2927,16 @@ export async function getFeedbackByWeek(
   try {
     // First try with the provided studentId
     // Match feedback within the same week (Monday to Sunday)
+    // LEFT JOIN to handle system-generated feedback (createdBy = 'system')
     let result = await query(`
-      SELECT 
+      SELECT
         f.*,
-        u.name as instructorName,
-        u.email as instructorEmail
+        COALESCE(u.name, 'Sistema Automático') as instructorName,
+        COALESCE(u.email, 'system@intellego.com') as instructorEmail
       FROM Feedback f
-      JOIN User u ON f.createdBy = u.id
-      WHERE f.studentId = ? 
-        AND date(f.weekStart) >= date(?) 
+      LEFT JOIN User u ON f.createdBy = u.id
+      WHERE f.studentId = ?
+        AND date(f.weekStart) >= date(?)
         AND date(f.weekStart) < date(?, '+7 days')
         AND f.subject = ?
       LIMIT 1
@@ -2951,14 +2952,14 @@ export async function getFeedbackByWeek(
       if (userResult.rows.length > 0) {
         const userId = userResult.rows[0].id;
         result = await query(`
-          SELECT 
+          SELECT
             f.*,
-            u.name as instructorName,
-            u.email as instructorEmail
+            COALESCE(u.name, 'Sistema Automático') as instructorName,
+            COALESCE(u.email, 'system@intellego.com') as instructorEmail
           FROM Feedback f
-          JOIN User u ON f.createdBy = u.id
-          WHERE f.studentId = ? 
-            AND date(f.weekStart) >= date(?) 
+          LEFT JOIN User u ON f.createdBy = u.id
+          WHERE f.studentId = ?
+            AND date(f.weekStart) >= date(?)
             AND date(f.weekStart) < date(?, '+7 days')
             AND f.subject = ?
           LIMIT 1
@@ -2971,12 +2972,24 @@ export async function getFeedbackByWeek(
     }
     
     const feedback = result.rows[0] as any;
-    
-    // Parse JSON fields
+
+    // Parse JSON fields safely
+    const parseFieldSafely = (field: string) => {
+      if (!field) return [];
+      try {
+        // Try to parse as JSON first
+        const parsed = JSON.parse(field);
+        return Array.isArray(parsed) ? parsed : [parsed];
+      } catch {
+        // If not JSON, treat as plain text and wrap in array
+        return [field];
+      }
+    };
+
     return {
       ...feedback,
-      strengths: feedback.strengths ? JSON.parse(feedback.strengths) : [],
-      improvements: feedback.improvements ? JSON.parse(feedback.improvements) : [],
+      strengths: parseFieldSafely(feedback.strengths),
+      improvements: parseFieldSafely(feedback.improvements),
       skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
     };
   } catch (error) {
@@ -2991,22 +3004,41 @@ export async function getFeedbackByWeek(
 export async function getFeedbacksByStudent(studentId: string): Promise<any[]> {
   try {
     const result = await query(`
-      SELECT 
+      SELECT
         f.*,
-        u.name as instructorName,
-        u.email as instructorEmail
+        COALESCE(u.name, 'Sistema Automático') as instructorName,
+        COALESCE(u.email, 'system@intellego.com') as instructorEmail
       FROM Feedback f
-      JOIN User u ON f.createdBy = u.id
+      LEFT JOIN User u ON f.createdBy = u.id
       WHERE f.studentId = ?
       ORDER BY f.weekStart DESC, f.subject
     `, [studentId]);
     
-    return result.rows.map((feedback: any) => ({
-      ...feedback,
-      strengths: feedback.strengths ? feedback.strengths.split('||').filter((s: string) => s.trim()) : [],
-      improvements: feedback.improvements ? feedback.improvements.split('||').filter((s: string) => s.trim()) : [],
-      skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
-    }));
+    return result.rows.map((feedback: any) => {
+      // Parse strengths and improvements safely
+      const parseFieldSafely = (field: string) => {
+        if (!field) return [];
+        try {
+          // Try to parse as JSON first
+          const parsed = JSON.parse(field);
+          return Array.isArray(parsed) ? parsed : [parsed];
+        } catch {
+          // If not JSON, check if it's pipe-separated
+          if (field.includes('||')) {
+            return field.split('||').filter((s: string) => s.trim());
+          }
+          // Otherwise return as plain text wrapped in array
+          return [field];
+        }
+      };
+
+      return {
+        ...feedback,
+        strengths: parseFieldSafely(feedback.strengths),
+        improvements: parseFieldSafely(feedback.improvements),
+        skillsMetrics: feedback.skillsMetrics ? JSON.parse(feedback.skillsMetrics) : null
+      };
+    });
   } catch (error) {
     console.error('Error getting feedbacks by student:', error);
     throw error;
@@ -3742,6 +3774,9 @@ export async function getPendingReportsForFeedback(filters?: {
   limit?: number;
 }): Promise<PendingReport[]> {
   try {
+    // FIXED: Use same logic as student dashboard to detect pending reports
+    // Match by studentId + DATE(weekStart) + subject instead of progressReportId
+    // This correctly handles feedbacks that were created without progressReportId
     let sql = `
       SELECT
         pr.id,
@@ -3751,11 +3786,12 @@ export async function getPendingReportsForFeedback(filters?: {
         pr.weekEnd,
         pr.submittedAt
       FROM ProgressReport pr
-      WHERE NOT EXISTS (
-        SELECT 1
-        FROM Feedback f
-        WHERE f.progressReportId = pr.id
+      LEFT JOIN Feedback f ON (
+        f.studentId = pr.userId
+        AND DATE(pr.weekStart) = f.weekStart
+        AND pr.subject = f.subject
       )
+      WHERE f.id IS NULL
     `;
 
     const conditions: string[] = [];
@@ -3767,7 +3803,7 @@ export async function getPendingReportsForFeedback(filters?: {
     }
 
     if (filters?.weekStart) {
-      conditions.push('pr.weekStart = ?');
+      conditions.push('DATE(pr.weekStart) = ?');
       params.push(filters.weekStart);
     }
 
@@ -3811,16 +3847,19 @@ export async function countPendingReportsBySubject(): Promise<{
   total: number;
 }> {
   try {
+    // FIXED: Use same logic as student dashboard to detect pending reports
+    // Match by studentId + DATE(weekStart) + subject instead of progressReportId
     const sql = `
       SELECT
         pr.subject,
         COUNT(*) as count
       FROM ProgressReport pr
-      WHERE NOT EXISTS (
-        SELECT 1
-        FROM Feedback f
-        WHERE f.progressReportId = pr.id
+      LEFT JOIN Feedback f ON (
+        f.studentId = pr.userId
+        AND DATE(pr.weekStart) = f.weekStart
+        AND pr.subject = f.subject
       )
+      WHERE f.id IS NULL
       GROUP BY pr.subject
     `;
 
@@ -3844,5 +3883,90 @@ export async function countPendingReportsBySubject(): Promise<{
   } catch (error) {
     console.error('Error counting pending reports:', error);
     throw new Error(`Failed to count pending reports: ${error instanceof Error ? error.message : 'Unknown error'}`);
+  }
+}
+
+/**
+ * Interface para reportes pendientes con detalles del estudiante
+ */
+export interface PendingReportWithDetails {
+  id: string;
+  userId: string;
+  subject: string;
+  weekStart: string;
+  weekEnd: string;
+  submittedAt: string;
+  studentName: string;
+  studentId: string;
+  academicYear: string;
+  division: string;
+  sede: string;
+}
+
+/**
+ * Obtiene reportes pendientes con detalles del estudiante
+ * Usado para mostrar tablas detalladas en el UI del batch generator
+ *
+ * @param subject - Filtro opcional por materia ("Física" o "Química")
+ * @returns Lista de reportes pendientes con información del estudiante
+ */
+export async function getPendingReportsWithDetails(subject?: string): Promise<PendingReportWithDetails[]> {
+  try {
+    // FIXED: Use same logic as student dashboard to detect pending reports
+    // Match by studentId + DATE(weekStart) + subject instead of progressReportId
+    // This correctly handles feedbacks that were created without progressReportId
+    let sql = `
+      SELECT
+        pr.id,
+        pr.userId,
+        pr.subject,
+        pr.weekStart,
+        pr.weekEnd,
+        pr.submittedAt,
+        u.name as studentName,
+        u.studentId,
+        u.academicYear,
+        u.division,
+        u.sede
+      FROM ProgressReport pr
+      INNER JOIN User u ON pr.userId = u.id
+      LEFT JOIN Feedback f ON (
+        f.studentId = pr.userId
+        AND DATE(pr.weekStart) = f.weekStart
+        AND pr.subject = f.subject
+      )
+      WHERE u.role = 'STUDENT'
+        AND u.status = 'ACTIVE'
+        AND f.id IS NULL
+    `;
+
+    const params: any[] = [];
+
+    if (subject) {
+      sql += ' AND pr.subject = ?';
+      params.push(subject);
+    }
+
+    sql += ' ORDER BY pr.submittedAt ASC';
+
+    const result = await query(sql, params);
+
+    return result.rows.map(row => ({
+      id: String(row.id),
+      userId: String(row.userId),
+      subject: String(row.subject),
+      weekStart: String(row.weekStart),
+      weekEnd: String(row.weekEnd),
+      submittedAt: String(row.submittedAt),
+      studentName: String(row.studentName),
+      studentId: String(row.studentId),
+      academicYear: String(row.academicYear),
+      division: String(row.division),
+      sede: String(row.sede)
+    }));
+
+  } catch (error) {
+    console.error('Error getting pending reports with details:', error);
+    throw new Error(`Failed to get pending reports with details: ${error instanceof Error ? error.message : 'Unknown error'}`);
   }
 }

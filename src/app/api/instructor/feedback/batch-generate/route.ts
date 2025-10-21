@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@/lib/auth';
 import { logDataAccess, logUnauthorizedAccess, logRoleViolation } from '@/lib/security-logger';
 import queueManager from '@/services/ai/feedback-queue-manager';
-import { getPendingReportsForFeedback, countPendingReportsBySubject } from '@/lib/db-operations';
+import { getPendingReportsForFeedback, countPendingReportsBySubject, getPendingReportsWithDetails } from '@/lib/db-operations';
 
 export const runtime = 'nodejs';
 export const maxDuration = 600; // 10 minutes (for large batches)
@@ -139,6 +139,7 @@ export async function POST(request: NextRequest) {
       {
         maxConcurrent: 5,
         retryAttempts: 3,
+        instructorId: session.user.id,
         onProgress: (current, total) => {
           console.log(`⏳ Processing ${current}/${total}...`);
         }
@@ -195,17 +196,37 @@ export async function POST(request: NextRequest) {
  * GET /api/instructor/feedback/batch-generate
  *
  * Obtiene información sobre reportes pendientes sin generar feedback
+ * Si se proporciona el parámetro "subject", devuelve la lista detallada de reportes
  *
- * Response:
+ * Query Parameters:
+ * - subject?: "Física" | "Química" - Obtener detalles de reportes por materia
+ *
+ * Response (sin parámetros):
+ * {
+ *   "pendingReports": {
+ *     "Física": 23,
+ *     "Química": 24,
+ *     "total": 47
+ *   }
+ * }
+ *
+ * Response (con subject=Física):
  * {
  *   "pendingReports": {
  *     "Física": 23,
  *     "Química": 24,
  *     "total": 47
  *   },
- *   "endpoint": "/api/instructor/feedback/batch-generate",
- *   "method": "POST",
- *   "description": "Generate AI feedback for pending reports"
+ *   "details": [
+ *     {
+ *       "id": "...",
+ *       "studentName": "Juan Pérez",
+ *       "division": "5to A",
+ *       "academicYear": "2025",
+ *       "weekStart": "2025-10-14",
+ *       "submittedAt": "2025-10-18T..."
+ *     }
+ *   ]
  * }
  */
 export async function GET(request: NextRequest) {
@@ -221,10 +242,42 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    // 2. Get pending reports count
+    // 2. Parse query parameters
+    const { searchParams } = new URL(request.url);
+    const subject = searchParams.get('subject');
+
+    // 3. Validate subject if provided
+    if (subject && !['Física', 'Química'].includes(subject)) {
+      return NextResponse.json(
+        { error: 'Invalid subject. Must be "Física" or "Química"' },
+        { status: 400 }
+      );
+    }
+
+    // 4. Get pending reports count
     const counts = await countPendingReportsBySubject();
 
-    // 3. Return info
+    // 5. If subject specified, get detailed list
+    if (subject) {
+      const details = await getPendingReportsWithDetails(subject);
+
+      return NextResponse.json({
+        pendingReports: counts,
+        details: details.map(d => ({
+          id: d.id,
+          studentName: d.studentName,
+          studentId: d.studentId,
+          division: d.division,
+          academicYear: d.academicYear,
+          sede: d.sede,
+          weekStart: d.weekStart,
+          weekEnd: d.weekEnd,
+          submittedAt: d.submittedAt
+        }))
+      });
+    }
+
+    // 6. Return info (without details)
     return NextResponse.json({
       pendingReports: counts,
       endpoint: '/api/instructor/feedback/batch-generate',

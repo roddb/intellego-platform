@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import Navigation from "@/components/Navigation"
 import PasswordResetModal from "@/components/instructor/PasswordResetModal"
-import { WeeklyDownloadModal } from "@/components/instructor"
+import { WeeklyDownloadModal, BatchFeedbackGenerator } from "@/components/instructor"
 import DatabaseManager from "@/components/instructor/DatabaseManager"
 import FeedbackUploadModal from "@/components/instructor/FeedbackUploadModal"
 import StudentImpersonationPanel from "@/components/instructor/StudentImpersonationPanel"
@@ -358,349 +358,39 @@ export default function InstructorDashboard() {
             Bienvenido, {session?.user?.name}
           </p>
           
+          {/* Admin Database and Feedback Buttons */}
+          <div className="mb-6">
+            <div className="flex flex-wrap gap-3">
+              <button
+                onClick={() => setIsDatabaseManagerOpen(true)}
+                className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+                </svg>
+                Administrar Base de Datos
+              </button>
+
+              <button
+                onClick={() => setIsFeedbackUploadModalOpen(true)}
+                className="px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-lg hover:from-green-700 hover:to-teal-700 transition-colors flex items-center gap-2 shadow-lg"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg>
+                Cargar Devoluciones
+              </button>
+            </div>
+          </div>
+
+          {/* Batch Feedback Generator - AI Automation */}
+          <div className="mb-6">
+            <BatchFeedbackGenerator />
+          </div>
+
           {/* Student Impersonation Panel */}
-          <div className="mb-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2">
-              {/* Admin Database and Feedback Buttons */}
-              <div className="flex flex-wrap gap-3">
-                <button
-                  onClick={() => setIsDatabaseManagerOpen(true)}
-                  className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-                  </svg>
-                  Administrar Base de Datos
-                </button>
-            
-                <button
-                  onClick={() => setIsFeedbackUploadModalOpen(true)}
-                  className="px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-lg hover:from-green-700 hover:to-teal-700 transition-colors flex items-center gap-2 shadow-lg"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                  </svg>
-                  Cargar Devoluciones
-                </button>
-              </div>
-            </div>
-
-            {/* Student Impersonation Component */}
-            <div className="lg:col-span-1">
-              <StudentImpersonationPanel />
-            </div>
-          </div>
-          
-          {/* Hierarchical Navigation */}
-          <div className="bg-white rounded-lg p-6 border border-slate-200 mb-6">
-            <h2 className="text-lg font-semibold text-slate-800 mb-4">Navegación por Jerarquía</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-              {/* Subject Selection */}
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">Materia</label>
-                <select 
-                  value={selectedSubject} 
-                  onChange={(e) => handleSubjectChange(e.target.value)}
-                  className="w-full p-2 border border-slate-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
-                >
-                  <option value="">Seleccionar materia...</option>
-                  {subjects.map(subject => (
-                    <option key={subject} value={subject}>{subject}</option>
-                  ))}
-                </select>
-              </div>
-              
-              {/* Year Selection */}
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">Año Académico</label>
-                <select 
-                  value={selectedYear} 
-                  onChange={(e) => handleYearChange(e.target.value)}
-                  disabled={!selectedSubject}
-                  className="w-full p-2 border border-slate-300 rounded-md focus:ring-teal-500 focus:border-teal-500 disabled:bg-slate-100 disabled:text-slate-400"
-                >
-                  <option value="">Seleccionar año...</option>
-                  {years.map(year => (
-                    <option key={year} value={year}>{year}</option>
-                  ))}
-                </select>
-              </div>
-              
-              {/* Course Selection */}
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">Curso/División</label>
-                <select 
-                  value={selectedCourse} 
-                  onChange={(e) => handleCourseChange(e.target.value)}
-                  disabled={!selectedSubject || !selectedYear}
-                  className="w-full p-2 border border-slate-300 rounded-md focus:ring-teal-500 focus:border-teal-500 disabled:bg-slate-100 disabled:text-slate-400"
-                >
-                  <option value="">Seleccionar curso...</option>
-                  {courses.map(course => (
-                    <option key={course} value={course}>{course}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
-            
-            {/* Breadcrumb */}
-            {(selectedSubject || selectedYear || selectedCourse) && (
-              <div className="bg-slate-50 rounded-md p-3 text-sm text-slate-600">
-                <span className="font-medium">Ruta actual:</span>
-                <span className="ml-2">
-                  {selectedSubject && <span className="text-teal-600 font-medium">{selectedSubject}</span>}
-                  {selectedYear && <span> → <span className="text-teal-600 font-medium">{selectedYear}</span></span>}
-                  {selectedCourse && <span> → <span className="text-teal-600 font-medium">{selectedCourse}</span></span>}
-                  {selectedStudent && <span> → <span className="text-teal-600 font-medium">{selectedStudent.name}</span></span>}
-                </span>
-              </div>
-            )}
-          </div>
-          
-          {/* Summary Cards */}
-          {selectedSubject && selectedYear && selectedCourse && (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="text-2xl font-bold text-slate-800">{students.length}</div>
-                <div className="text-sm text-slate-600">Estudiantes en {selectedCourse}</div>
-              </div>
-              <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="text-2xl font-bold text-slate-800">{students.reduce((sum, s) => sum + s.reportCount, 0)}</div>
-                <div className="text-sm text-slate-600">Total Reportes</div>
-              </div>
-              <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="text-2xl font-bold text-slate-800">
-                  {students.length > 0 ? (students.reduce((sum, s) => sum + s.reportCount, 0) / students.length).toFixed(1) : '0'}
-                </div>
-                <div className="text-sm text-slate-600">Promedio por Estudiante</div>
-              </div>
-            </div>
-          )}
-        </div>
-
-        <div className="grid gap-8 lg:grid-cols-3">
-          {/* Students List */}
-          <div className="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-              <div>
-                <h2 className="text-xl font-semibold text-slate-800">
-                  {selectedSubject && selectedYear && selectedCourse ? (
-                    `Estudiantes de ${selectedSubject} - ${selectedYear} ${selectedCourse} (${students.length})`
-                  ) : (
-                    'Selecciona materia, año y curso para ver estudiantes'
-                  )}
-                </h2>
-              </div>
-              
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => setIsWeeklyDownloadModalOpen(true)}
-                  className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium flex items-center gap-2"
-                  title="Descargar reportes por semana específica"
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  Descarga Semanal
-                </button>
-                <button
-                  onClick={() => downloadReports('json')}
-                  disabled={!selectedStudent}
-                  className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors text-sm disabled:bg-slate-300 disabled:cursor-not-allowed"
-                >
-                  JSON
-                </button>
-                <button
-                  onClick={() => downloadReports('csv')}
-                  className="px-4 py-2 border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 transition-colors text-sm"
-                >
-                  CSV
-                </button>
-                <button
-                  onClick={() => downloadReports('markdown')}
-                  className="px-4 py-2 border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 transition-colors text-sm"
-                >
-                  MD
-                </button>
-              </div>
-            </div>
-            
-            {!selectedSubject || !selectedYear || !selectedCourse ? (
-              <div className="text-center py-12">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-medium text-slate-800 mb-2">
-                  Estructura Jerárquica
-                </h3>
-                <p className="text-slate-600">
-                  Utiliza los selectores de arriba para navegar por: Materia → Año → Curso → Estudiantes → Reportes Semanales
-                </p>
-              </div>
-            ) : students.length === 0 ? (
-              <div className="text-center py-12">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-medium text-slate-800 mb-2">
-                  Sin estudiantes registrados
-                </h3>
-                <p className="text-slate-600">
-                  No hay estudiantes registrados en {selectedSubject} para {selectedYear} {selectedCourse}.
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-3">
-                {students.map((student) => (
-                  <div 
-                    key={student.id} 
-                    className={`border border-slate-200 rounded-lg p-4 transition-colors cursor-pointer ${
-                      selectedStudent?.id === student.id ? 'bg-teal-50 border-teal-200' : 'hover:bg-slate-50'
-                    }`}
-                    onClick={() => handleStudentSelect(student)}
-                  >
-                    <div className="flex justify-between items-start mb-3">
-                      <div className="flex-1">
-                        <h3 className="font-medium text-slate-800">
-                          {student.name}
-                        </h3>
-                        <p className="text-sm text-slate-600">
-                          {student.studentId} • {student.email}
-                        </p>
-                        <p className="text-sm text-slate-500 mt-1">
-                          {student.sede} • {student.academicYear} {student.division}
-                        </p>
-                      </div>
-                      
-                      <div className="text-right space-y-2">
-                        <div className="bg-teal-100 text-teal-800 px-2 py-1 rounded-full text-xs font-medium">
-                          {student.reportCount} reportes
-                        </div>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            handlePasswordResetClick(student)
-                          }}
-                          className="px-2 py-1 text-xs text-orange-600 hover:text-orange-700 border border-orange-200 hover:border-orange-300 rounded transition-colors"
-                          title="Restablecer contraseña del estudiante"
-                        >
-                          🔐 Reset
-                        </button>
-                      </div>
-                    </div>
-                    
-                    {/* Subjects Tags */}
-                    <div className="flex flex-wrap gap-1 mt-2">
-                      {student.subjects.map((subject, idx) => (
-                        <span key={idx} className="bg-slate-100 text-slate-600 px-2 py-1 rounded text-xs">
-                          {subject}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Student Reports */}
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-semibold text-slate-800">
-                {selectedStudent ? `Reportes de ${selectedStudent.name}` : 'Reportes del Estudiante'}
-              </h2>
-              {selectedStudent && (
-                <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">
-                  {studentReports.length} reportes
-                </span>
-              )}
-            </div>
-            
-            {!selectedStudent ? (
-              <div className="text-center py-8">
-                <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                  </svg>
-                </div>
-                <p className="text-slate-600 text-sm">
-                  Selecciona un estudiante para ver sus reportes semanales
-                </p>
-              </div>
-            ) : studentReports.length === 0 ? (
-              <div className="text-center py-8">
-                <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <p className="text-slate-600 text-sm">
-                  Este estudiante no ha enviado reportes para {selectedSubject}
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-3 max-h-96 overflow-y-auto">
-                {studentReports.map((report) => (
-                  <div 
-                    key={report.id} 
-                    className={`border border-slate-200 rounded-lg p-3 transition-colors cursor-pointer ${
-                      selectedReport?.id === report.id ? 'bg-teal-50 border-teal-200' : 'hover:bg-slate-50'
-                    }`}
-                    onClick={() => handleReportSelect(report)}
-                  >
-                    <div className="flex justify-between items-start mb-2">
-                      <div>
-                        <h4 className="font-medium text-slate-800 text-sm">
-                          Semana del {formatArgentinaWeekRange(report.weekStart, report.weekEnd)}
-                        </h4>
-                        <p className="text-xs text-slate-500">
-                          Enviado: {toArgentinaDate(report.submittedAt)}
-                        </p>
-                      </div>
-                      <div className="flex gap-2">
-                        <span className="bg-slate-100 text-slate-600 px-2 py-1 rounded text-xs">
-                          {Object.keys(report.answers).length} respuestas
-                        </span>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            downloadSingleReport(report.id)
-                          }}
-                          className="text-teal-600 hover:text-teal-700 text-xs underline"
-                        >
-                          JSON
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-            
-            {/* Selected Report Details */}
-            {selectedReport && (
-              <div className="mt-6 pt-6 border-t border-slate-200">
-                <h3 className="font-medium text-slate-800 mb-4">
-                  Detalles - Semana del {formatArgentinaWeekRange(selectedReport.weekStart, selectedReport.weekEnd)}
-                </h3>
-                <div className="space-y-3">
-                  {Object.entries(selectedReport.answers).map(([questionId, answer]) => (
-                    <div key={questionId} className="border-l-4 border-teal-200 pl-3">
-                      <h4 className="font-medium text-slate-700 text-sm mb-1">
-                        Pregunta {questionId}
-                      </h4>
-                      <p className="text-slate-600 text-sm leading-relaxed">
-                        {answer}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+          <div className="mb-6">
+            <StudentImpersonationPanel />
           </div>
         </div>
         

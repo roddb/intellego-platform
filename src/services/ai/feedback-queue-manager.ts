@@ -28,6 +28,7 @@ export type BatchResult = {
 export type ProcessOptions = {
   maxConcurrent?: number;      // Default: 5
   retryAttempts?: number;       // Default: 3
+  instructorId?: string;        // Instructor ID creating the feedback
   onProgress?: (current: number, total: number) => void;
 };
 
@@ -47,7 +48,7 @@ export class FeedbackQueueManager {
     options: ProcessOptions = {}
   ): Promise<BatchResult> {
     const startTime = Date.now();
-    const { maxConcurrent = 5, retryAttempts = 3, onProgress } = options;
+    const { maxConcurrent = 5, retryAttempts = 3, instructorId, onProgress } = options;
 
     this.maxConcurrent = maxConcurrent;
     this.retryAttempts = retryAttempts;
@@ -71,7 +72,7 @@ export class FeedbackQueueManager {
       console.log(`   Reports: ${chunk.join(', ')}`);
 
       const promises = chunk.map(reportId =>
-        this.processReport(reportId, retryAttempts)
+        this.processReport(reportId, retryAttempts, instructorId)
       );
 
       const chunkResults = await Promise.allSettled(promises);
@@ -126,7 +127,8 @@ export class FeedbackQueueManager {
    */
   private async processReport(
     reportId: string,
-    retriesLeft: number
+    retriesLeft: number,
+    instructorId?: string
   ): Promise<{ success: boolean; cost: number; error?: string }> {
     try {
       console.log(`      🔍 Processing report ${reportId}...`);
@@ -172,7 +174,7 @@ export class FeedbackQueueManager {
         improvements: analysisResult.improvements,
         aiAnalysis: analysisResult.rawAnalysis,
         skillsMetrics: analysisResult.skillsMetrics,
-        createdBy: 'system' // Batch processing system
+        createdBy: '3d47c07d-3785-493a-b07b-ee34da1113b4' // Rodrigo Di Bernardo - Hardcoded instructor ID
       });
 
       console.log(`      💾 Feedback saved: ${feedback.id}`);
@@ -190,7 +192,7 @@ export class FeedbackQueueManager {
         const waitTime = 2000 * Math.pow(2, this.retryAttempts - retriesLeft); // 2s, 4s, 8s
         console.log(`      ⏳ Retrying in ${waitTime / 1000}s... (${retriesLeft} attempts left)`);
         await new Promise(resolve => setTimeout(resolve, waitTime));
-        return this.processReport(reportId, retriesLeft - 1);
+        return this.processReport(reportId, retriesLeft - 1, instructorId);
       }
 
       return { success: false, cost: 0, error: error.message };

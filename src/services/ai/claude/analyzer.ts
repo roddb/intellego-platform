@@ -335,6 +335,20 @@ Engagement: [número 0-100]
    * - Score ponderado final usando algoritmo oficial
    * - 5 métricas de habilidades usando fórmulas oficiales
    */
+  /**
+   * Limpiar markdown para hacer el texto más legible para estudiantes
+   * Quita símbolos de formato pero mantiene estructura de párrafos
+   */
+  private _cleanMarkdown(text: string): string {
+    return text
+      .replace(/\*\*/g, '')           // Quita **negritas**
+      .replace(/###?\s*/g, '')        // Quita # y ## encabezados
+      .replace(/---+/g, '')           // Quita ---
+      .replace(/^\s*[-•]\s*/gm, '• ') // Convierte bullets markdown a • simple
+      .replace(/\n{3,}/g, '\n\n')     // Max 2 saltos de línea (preserva párrafos)
+      .trim();
+  }
+
   private _parseAnalysisResponseWithRubricas(text: string): AnalysisResult {
     // Extraer niveles asignados a cada pregunta (Q1-Q5)
     const extractNivel = (pregunta: string): number => {
@@ -376,19 +390,19 @@ Engagement: [número 0-100]
     // Extraer fortalezas
     const strengthsMatch = text.match(/FORTALEZAS:(.*?)(?=MEJORAS:|COMENTARIOS_GENERALES:|$)/is);
     const strengths = strengthsMatch
-      ? strengthsMatch[1].trim()
-      : '- No se identificaron fortalezas específicas.';
+      ? this._cleanMarkdown(strengthsMatch[1])
+      : 'No se identificaron fortalezas específicas.';
 
     // Extraer mejoras
     const improvementsMatch = text.match(/MEJORAS:(.*?)(?=COMENTARIOS_GENERALES:|ANÁLISIS_AI:|$)/is);
     const improvements = improvementsMatch
-      ? improvementsMatch[1].trim()
-      : '- No se identificaron áreas de mejora específicas.';
+      ? this._cleanMarkdown(improvementsMatch[1])
+      : 'No se identificaron áreas de mejora específicas.';
 
     // Extraer comentarios generales
     const generalCommentsMatch = text.match(/COMENTARIOS_GENERALES:(.*?)(?=ANÁLISIS_AI:|$)/is);
     const generalComments = generalCommentsMatch
-      ? generalCommentsMatch[1].trim()
+      ? this._cleanMarkdown(generalCommentsMatch[1])
       : 'Continuar con el trabajo actual y buscar retroalimentación adicional.';
 
     // Log de debugging
@@ -405,7 +419,7 @@ Engagement: [número 0-100]
       strengths,
       improvements,
       skillsMetrics,
-      rawAnalysis: text
+      rawAnalysis: this._cleanMarkdown(text)
     };
   }
 
@@ -439,7 +453,12 @@ Sistema de Niveles:
 - Nivel 2 (55-69 puntos) → 62 puntos: En desarrollo - Requiere refuerzo
 - Nivel 1 (0-54 puntos) → 27 puntos: Inicial - Necesita apoyo significativo
 
-Tono: Constructivo, alentador pero honesto. Específico con ejemplos de las respuestas del estudiante.`,
+ESTILO DE REDACCIÓN (MUY IMPORTANTE):
+- Tono: Formal pero amigable, como hablarías con un estudiante de 16 años
+- Lenguaje: Claro, concreto, fácil de entender - evita jerga técnica excesiva
+- Estructura: Párrafos cortos (máximo 3-4 líneas), separados por punto y aparte
+- Objetivo: Que el estudiante entienda claramente QUÉ hizo bien, QUÉ debe mejorar y CÓMO hacerlo
+- Longitud: Conciso pero completo - cada justificación debe ser de 2-3 líneas máximo`,
       cache_control: { type: 'ephemeral' }
     });
 
@@ -450,19 +469,25 @@ Tono: Constructivo, alentador pero honesto. Específico con ejemplos de las resp
 
 INSTRUCCIONES DE EVALUACIÓN:
 
-Para cada pregunta (Q1, Q2, Q3, Q4, Q5):
-1. Lee la respuesta del estudiante cuidadosamente
-2. Compara con los descriptores de niveles (1-4) de la rúbrica
-3. Asigna el nivel que MEJOR describe la respuesta
-4. Justifica brevemente la asignación con ejemplos específicos
+Para cada pregunta (Q1-Q5):
+1. Lee la respuesta del estudiante
+2. Compara con los descriptores de la rúbrica
+3. Asigna el nivel (1-4) que mejor describe la respuesta
+4. Justifica en 2-3 líneas máximo, con ejemplos concretos de lo que escribió el estudiante
 
 Además proporciona:
-- FORTALEZAS: Mínimo 3 puntos específicos con ejemplos de las respuestas
-- MEJORAS: Mínimo 3 áreas de mejora con sugerencias accionables
-- COMENTARIOS GENERALES: Síntesis del desempeño y progreso
-- ANÁLISIS AI: Recomendaciones específicas para la siguiente fase
+- FORTALEZAS: 2-3 puntos concretos. Cada uno en 1-2 líneas, con ejemplos específicos.
+- MEJORAS: 2-3 áreas de mejora. Cada una con problema identificado + sugerencia práctica (1-2 líneas cada una).
+- COMENTARIOS GENERALES: Síntesis en 3-4 líneas. Reconoce lo positivo y orienta hacia la mejora.
+- ANÁLISIS AI: Recomendaciones para la siguiente fase en 4-5 líneas. Concreto y accionable.
 
-IMPORTANTE: Sé justo, objetivo y consistente. Dos estudiantes con respuestas similares deben recibir niveles similares.`,
+REGLAS DE FORMATO:
+- Usa párrafos cortos (máximo 4 líneas)
+- Separa ideas con punto y aparte
+- Lenguaje directo: "Tu respuesta muestra..." en vez de "El estudiante demostró..."
+- Evita bloques de texto gigantes - debe ser fácil de leer
+
+IMPORTANTE: Sé justo, objetivo y consistente.`,
       cache_control: { type: 'ephemeral' }  // ← Cachear la rúbrica (ahorro 90%)
     });
 
@@ -501,35 +526,39 @@ ${answersFormatted}
 <formato_salida_requerido>
 EVALUACIÓN POR PREGUNTA:
 Q1_NIVEL: [1, 2, 3 o 4]
-Q1_JUSTIFICACIÓN: [Breve explicación del nivel asignado con ejemplo específico]
+Q1_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto de lo que escribió]
 
 Q2_NIVEL: [1, 2, 3 o 4]
-Q2_JUSTIFICACIÓN: [Breve explicación del nivel asignado con ejemplo específico]
+Q2_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto]
 
 Q3_NIVEL: [1, 2, 3 o 4]
-Q3_JUSTIFICACIÓN: [Breve explicación del nivel asignado con ejemplo específico]
+Q3_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto]
 
 Q4_NIVEL: [1, 2, 3 o 4]
-Q4_JUSTIFICACIÓN: [Breve explicación del nivel asignado con ejemplo específico]
+Q4_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto]
 
 Q5_NIVEL: [1, 2, 3 o 4]
-Q5_JUSTIFICACIÓN: [Breve explicación del nivel asignado con ejemplo específico]
+Q5_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto]
 
 FORTALEZAS:
-- [Fortaleza 1 específica con ejemplo de las respuestas]
-- [Fortaleza 2 específica con ejemplo de las respuestas]
-- [Fortaleza 3 específica con ejemplo de las respuestas]
+[Párrafo corto 1: Fortaleza específica con ejemplo. Máximo 2 líneas.]
+
+[Párrafo corto 2: Segunda fortaleza con ejemplo. Máximo 2 líneas.]
 
 MEJORAS:
-- [Mejora 1: problema + sugerencia accionable]
-- [Mejora 2: problema + sugerencia accionable]
-- [Mejora 3: problema + sugerencia accionable]
+[Párrafo 1: Problema identificado + sugerencia práctica. Máximo 3 líneas.]
+
+[Párrafo 2: Segundo problema + sugerencia práctica. Máximo 3 líneas.]
 
 COMENTARIOS_GENERALES:
-[Síntesis del desempeño en esta fase específica, reconocimiento de progreso, aspectos destacados]
+[Párrafo 1: Reconocimiento de aspectos positivos. 2-3 líneas.]
+
+[Párrafo 2: Orientación hacia la mejora y próximos pasos. 2-3 líneas.]
 
 ANÁLISIS_AI:
-[Recomendaciones específicas para la siguiente fase, sugerencias de recursos o estrategias, conexión con el proceso completo de 4 fases]
+[Párrafo 1: Recomendaciones para la siguiente fase. 2-3 líneas.]
+
+[Párrafo 2: Sugerencias concretas y accionables. 2-3 líneas.]
 </formato_salida_requerido>`;
   }
 
