@@ -17,10 +17,13 @@
       "maxDuration": 300
     },
     "src/app/api/cron/auto-feedback/route.ts": {
-      "maxDuration": 600
+      "maxDuration": 300
     },
     "src/app/api/instructor/feedback/batch-generate/route.ts": {
-      "maxDuration": 600
+      "maxDuration": 300
+    },
+    "src/app/api/instructor/feedback/batch-generate-async/route.ts": {
+      "maxDuration": 300
     },
     "src/app/api/instructor/feedback/upload/route.ts": {
       "maxDuration": 60
