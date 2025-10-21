@@ -58,6 +58,9 @@ prisma-studio.log
 *.swp
 *.swo
 
+# Claude Code local settings
+.claude/settings.local.json
+
 # Mac
 .DS_Store
 
