@@ -67,8 +67,7 @@ export async function GET(request: NextRequest) {
       '/api/instructor/costs',
       session.user.id,
       session.user.email || 'unknown',
-      session.user.role || 'unknown',
-      { period, startDate, endDate, subject, groupBy }
+      session.user.role || 'unknown'
     );
 
     // 5. Build WHERE clause

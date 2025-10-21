@@ -97,7 +97,7 @@ async function testCaching() {
       const result = await analyzer.analyzeAnswers(
         modifiedAnswers,
         'Química',
-        sampleRubric,  // ← Misma rúbrica = cacheable
+        1,  // ← Fase 1 para prueba (usa rúbrica oficial interna)
         'structured'
       );
 

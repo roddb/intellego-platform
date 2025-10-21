@@ -59,10 +59,10 @@ class ClaudeClient {
    * Wrapper principal para llamadas a la API con manejo robusto de errores
    */
   async createMessage(config: {
-    messages: Array<{ role: string; content: string }>;
+    messages: Array<{ role: "user" | "assistant"; content: string }>;
     max_tokens?: number;
     temperature?: number;
-    system?: string | Array<{ type: string; text: string; cache_control?: { type: string } }>;
+    system?: string | Array<{ type: "text"; text: string; cache_control?: { type: "ephemeral" } }>;
     stop_sequences?: string[];  // Permite override de stop sequences
   }, retryCount = 0): Promise<{
     success: boolean;
@@ -90,6 +90,7 @@ class ClaudeClient {
         temperature: config.temperature ?? this.defaultConfig.temperature,
         max_tokens: config.max_tokens ?? this.defaultConfig.max_tokens,
         stop_sequences: config.stop_sequences ?? this.defaultConfig.stop_sequences,
+        stream: false,  // Explicitly use non-streaming API
         ...config
       });
 
@@ -108,7 +109,12 @@ class ClaudeClient {
       return {
         success: true,
         content: response.content[0].type === 'text' ? response.content[0].text : '',
-        usage: response.usage,
+        usage: {
+          input_tokens: response.usage.input_tokens,
+          output_tokens: response.usage.output_tokens,
+          cache_creation_input_tokens: response.usage.cache_creation_input_tokens ?? undefined,
+          cache_read_input_tokens: response.usage.cache_read_input_tokens ?? undefined
+        },
         requestId: response.id,
         latency
       };

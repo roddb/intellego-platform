@@ -3658,11 +3658,11 @@ export async function createAIFeedback(feedbackData: {
   improvements: string;
   aiAnalysis: string;
   skillsMetrics: {
-    completeness: number;
-    clarity: number;
-    reflection: number;
-    progress: number;
-    engagement: number;
+    comprehension: number;
+    criticalThinking: number;
+    selfRegulation: number;
+    practicalApplication: number;
+    metacognition: number;
   };
   createdBy: string;
   apiCost?: number; // Costo real de la llamada a Claude API (opcional para retrocompatibilidad)

@@ -103,8 +103,7 @@ export async function POST(request: NextRequest) {
       '/api/instructor/feedback/batch-generate',
       session.user.id,
       session.user.email || 'unknown',
-      session.user.role || 'unknown',
-      { filters: body.filters }
+      session.user.role || 'unknown'
     );
 
     console.log('🤖 Manual batch feedback generation requested', {

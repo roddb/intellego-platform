@@ -74,17 +74,17 @@ async function testEndToEnd() {
     const analysisResult = await analyzer.analyzeAnswers(
       answers,
       progressReport.subject,
-      undefined,  // Sin rúbrica específica por ahora
+      1,  // Fase 1 para prueba
       'structured'
     );
 
     console.log('✅ Análisis completado:');
     console.log('   Score: ' + analysisResult.score + '/100');
-    console.log('   Completeness: ' + analysisResult.skillsMetrics.completeness + '/100');
-    console.log('   Clarity: ' + analysisResult.skillsMetrics.clarity + '/100');
-    console.log('   Reflection: ' + analysisResult.skillsMetrics.reflection + '/100');
-    console.log('   Progress: ' + analysisResult.skillsMetrics.progress + '/100');
-    console.log('   Engagement: ' + analysisResult.skillsMetrics.engagement + '/100');
+    console.log('   Comprehension: ' + analysisResult.skillsMetrics.comprehension + '/100');
+    console.log('   Critical Thinking: ' + analysisResult.skillsMetrics.criticalThinking + '/100');
+    console.log('   Self Regulation: ' + analysisResult.skillsMetrics.selfRegulation + '/100');
+    console.log('   Practical Application: ' + analysisResult.skillsMetrics.practicalApplication + '/100');
+    console.log('   Metacognition: ' + analysisResult.skillsMetrics.metacognition + '/100');
     console.log('');
 
     // ============================================================

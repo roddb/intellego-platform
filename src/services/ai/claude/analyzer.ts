@@ -283,19 +283,19 @@ Engagement: [número 0-100]
     const score = scoreMatch ? parseInt(scoreMatch[1]) : 0;
 
     // Extraer fortalezas
-    const strengthsMatch = text.match(/FORTALEZAS:(.*?)(?=ÁREAS DE MEJORA:|PRÓXIMOS PASOS:|MÉTRICAS:|$)/is);
+    const strengthsMatch = text.match(/FORTALEZAS:([\s\S]*?)(?=ÁREAS DE MEJORA:|PRÓXIMOS PASOS:|MÉTRICAS:|$)/i);
     const strengths = strengthsMatch
       ? strengthsMatch[1].trim()
       : 'No se identificaron fortalezas específicas.';
 
     // Extraer mejoras
-    const improvementsMatch = text.match(/ÁREAS DE MEJORA:(.*?)(?=PRÓXIMOS PASOS:|MÉTRICAS:|$)/is);
+    const improvementsMatch = text.match(/ÁREAS DE MEJORA:([\s\S]*?)(?=PRÓXIMOS PASOS:|MÉTRICAS:|$)/i);
     const improvements = improvementsMatch
       ? improvementsMatch[1].trim()
       : 'No se identificaron áreas de mejora específicas.';
 
     // Extraer próximos pasos
-    const nextStepsMatch = text.match(/PRÓXIMOS PASOS:(.*?)(?=MÉTRICAS:|$)/is);
+    const nextStepsMatch = text.match(/PRÓXIMOS PASOS:([\s\S]*?)(?=MÉTRICAS:|$)/i);
     const nextSteps = nextStepsMatch ? nextStepsMatch[1].trim() : '';
 
     // Combinar comentarios generales
@@ -312,7 +312,8 @@ Engagement: [número 0-100]
       strengths,
       improvements,
       skillsMetrics,
-      rawAnalysis: text
+      rawAnalysis: text,
+      actualCost: 0  // Legacy parsing method - no API call made
     };
   }
 
@@ -408,19 +409,19 @@ Engagement: [número 0-100]
     const skillsMetrics = calcularSkillsMetrics(scores);
 
     // Extraer fortalezas
-    const strengthsMatch = text.match(/FORTALEZAS:(.*?)(?=MEJORAS:|COMENTARIOS_GENERALES:|$)/is);
+    const strengthsMatch = text.match(/FORTALEZAS:([\s\S]*?)(?=MEJORAS:|COMENTARIOS_GENERALES:|$)/i);
     const strengths = strengthsMatch
       ? this._cleanMarkdown(strengthsMatch[1])
       : 'No se identificaron fortalezas específicas.';
 
     // Extraer mejoras
-    const improvementsMatch = text.match(/MEJORAS:(.*?)(?=COMENTARIOS_GENERALES:|ANÁLISIS_AI:|$)/is);
+    const improvementsMatch = text.match(/MEJORAS:([\s\S]*?)(?=COMENTARIOS_GENERALES:|ANÁLISIS_AI:|$)/i);
     const improvements = improvementsMatch
       ? this._cleanMarkdown(improvementsMatch[1])
       : 'No se identificaron áreas de mejora específicas.';
 
     // Extraer comentarios generales
-    const generalCommentsMatch = text.match(/COMENTARIOS_GENERALES:(.*?)(?=ANÁLISIS_AI:|$)/is);
+    const generalCommentsMatch = text.match(/COMENTARIOS_GENERALES:([\s\S]*?)(?=ANÁLISIS_AI:|$)/i);
     const generalComments = generalCommentsMatch
       ? this._cleanMarkdown(generalCommentsMatch[1])
       : 'Continuar con el trabajo actual y buscar retroalimentación adicional.';
@@ -439,7 +440,8 @@ Engagement: [número 0-100]
       strengths,
       improvements,
       skillsMetrics,
-      rawAnalysis: this._cleanMarkdown(text)
+      rawAnalysis: this._cleanMarkdown(text),
+      actualCost: 0  // Legacy parsing method - no API call made
     };
   }
 
@@ -455,8 +457,8 @@ Engagement: [número 0-100]
     subject: string,
     fase: 1 | 2 | 3 | 4,
     rubricaOficial: string
-  ): Array<{ type: string; text: string; cache_control?: { type: string } }> {
-    const systemMessages: Array<{ type: string; text: string; cache_control?: { type: string } }> = [];
+  ): Array<{ type: "text"; text: string; cache_control?: { type: "ephemeral" } }> {
+    const systemMessages: Array<{ type: "text"; text: string; cache_control?: { type: "ephemeral" } }> = [];
 
     // Instrucciones generales del rol (se cachean)
     systemMessages.push({

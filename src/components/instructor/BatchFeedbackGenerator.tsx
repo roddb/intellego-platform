@@ -221,7 +221,7 @@ export function BatchFeedbackGenerator() {
 
   const handleProcessSingle = async (reportId: string, studentName: string) => {
     // Add to processing set
-    setProcessingReports(prev => new Set([...prev, reportId]));
+    setProcessingReports(prev => new Set([...Array.from(prev), reportId]));
     setReportErrors(prev => {
       const newErrors = {...prev};
       delete newErrors[reportId];
@@ -245,7 +245,7 @@ export function BatchFeedbackGenerator() {
 
       // Success! Mark as processed
       console.log(`✅ Report ${reportId} processed successfully`);
-      setProcessedReports(prev => new Set([...prev, reportId]));
+      setProcessedReports(prev => new Set([...Array.from(prev), reportId]));
 
       // Small delay to ensure DB has finished writing
       await new Promise(resolve => setTimeout(resolve, 500));

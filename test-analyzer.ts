@@ -79,7 +79,7 @@ async function testAnalyzer() {
     const result = await analyzer.analyzeAnswers(
       sampleAnswers,
       'Física',
-      undefined,  // Sin rúbrica específica
+      1,  // Fase 1 para prueba
       'structured'
     );
 
@@ -107,11 +107,11 @@ async function testAnalyzer() {
     console.log('━'.repeat(70));
     console.log('📊 MÉTRICAS DE HABILIDADES:');
     console.log('━'.repeat(70));
-    console.log('  Completeness (Completitud):  ' + result.skillsMetrics.completeness + '/100');
-    console.log('  Clarity (Claridad):          ' + result.skillsMetrics.clarity + '/100');
-    console.log('  Reflection (Reflexión):      ' + result.skillsMetrics.reflection + '/100');
-    console.log('  Progress (Progreso):         ' + result.skillsMetrics.progress + '/100');
-    console.log('  Engagement (Compromiso):     ' + result.skillsMetrics.engagement + '/100');
+    console.log('  Comprehension (Comprensión):            ' + result.skillsMetrics.comprehension + '/100');
+    console.log('  Critical Thinking (Pensamiento Crítico): ' + result.skillsMetrics.criticalThinking + '/100');
+    console.log('  Self Regulation (Autorregulación):       ' + result.skillsMetrics.selfRegulation + '/100');
+    console.log('  Practical Application (Aplicación):      ' + result.skillsMetrics.practicalApplication + '/100');
+    console.log('  Metacognition (Metacognición):           ' + result.skillsMetrics.metacognition + '/100');
     console.log('');
 
     console.log('━'.repeat(70));

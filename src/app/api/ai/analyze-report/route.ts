@@ -101,8 +101,7 @@ export async function POST(request: NextRequest) {
       '/api/ai/analyze-report',
       session.user.id,
       session.user.email || 'unknown',
-      session.user.role || 'unknown',
-      { progressReportId: body.progressReportId }
+      session.user.role || 'unknown'
     );
 
     console.log('🤖 AI analysis requested', {

@@ -93,8 +93,7 @@ export async function POST(request: NextRequest) {
       '/api/instructor/feedback/generate-single',
       session.user.id,
       session.user.email || 'unknown',
-      session.user.role || 'unknown',
-      { reportId }
+      session.user.role || 'unknown'
     );
 
     console.log('🤖 Manual single feedback generation requested', {
