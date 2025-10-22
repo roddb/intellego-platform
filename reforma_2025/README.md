@@ -41,10 +41,10 @@ reforma_2025/
 - Difícil encontrar retroalimentaciones de una materia específica
 - Se requiere scroll largo para revisar feedbacks
 
-**Solución propuesta**:
-1. 📋 **Agregar** botones de filtro por materia (Física, Química, etc.)
-2. 📋 **Permitir** filtrar solo retroalimentaciones de una materia
-3. 📋 **Incluir** contadores de retroalimentaciones por materia
+**Solución implementada**:
+1. ✅ **Agregado** botones de filtro por materia (Física, Química, etc.)
+2. ✅ **Permite** filtrar solo retroalimentaciones de una materia
+3. ✅ **Incluye** contadores de retroalimentaciones por materia
 
 **Ver plan completo**: `PLAN_FILTROS_MATERIA.md`
 
@@ -170,9 +170,9 @@ Desglose por fase:
 | Aspecto | Estado |
 |---------|--------|
 | **Planificación** | ✅ Completa |
-| **Implementación** | 📋 Pendiente |
-| **Pruebas** | 📋 Pendiente |
-| **Tiempo estimado** | 45-60 minutos |
+| **Implementación** | ✅ Completada |
+| **Pruebas** | ✅ Verificada (compilación exitosa) |
+| **Tiempo real** | 60 minutos |
 
 ---
 
