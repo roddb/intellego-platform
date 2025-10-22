@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import FeedbackViewer from './FeedbackViewer';
 
 interface Report {
   id: string;
@@ -23,7 +22,8 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   const [reports, setReports] = useState<Report[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedReport, setSelectedReport] = useState<Report | null>(null);
-  const [showFeedback, setShowFeedback] = useState(false);
+  const [showReportModal, setShowReportModal] = useState(false);
+  const [reportDetails, setReportDetails] = useState<any | null>(null);
   
   // Get month name in Spanish
   const getMonthName = (date: Date) => {
@@ -165,9 +165,20 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
     return Array.from(subjectsSet).sort();
   };
   
-  const handleViewFeedback = (report: Report) => {
+  const handleViewReport = async (report: Report) => {
     setSelectedReport(report);
-    setShowFeedback(true);
+    setShowReportModal(true);
+
+    // Fetch the full report details to show student's answers
+    try {
+      const response = await fetch(`/api/student/report-details?reportId=${report.id}`);
+      if (response.ok) {
+        const data = await response.json();
+        setReportDetails(data);
+      }
+    } catch (error) {
+      console.error('Error fetching report details:', error);
+    }
   };
   
   const weeks = getWeeksOfMonth();
@@ -258,18 +269,14 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
                       return (
                         <td key={`${week.start}-${subject}`} className="py-3 px-3">
                           <div className="flex justify-center">
-                            {status === 'completed-with-feedback' && report ? (
+                            {(status === 'completed-with-feedback' || status === 'completed-without-feedback') && report ? (
                               <button
-                                onClick={() => handleViewFeedback(report)}
-                                className="px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors"
-                                title="Ver devolución"
+                                onClick={() => handleViewReport(report)}
+                                className="px-2 py-1 text-xs bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors border border-green-200"
+                                title="Ver mis respuestas"
                               >
-                                📝 Devolución
-                              </button>
-                            ) : status === 'completed-without-feedback' ? (
-                              <span className="px-2 py-1 text-xs text-green-600 font-medium">
                                 ✅ Entregado
-                              </span>
+                              </button>
                             ) : (
                               <span className="px-2 py-1 text-xs text-gray-400">
                                 ⏱️ Pendiente
@@ -287,12 +294,8 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
           
           <div className="mt-4 flex items-center justify-center gap-4 text-xs text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs">📝 Devolución</span>
-              <span>Con devolución</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="px-2 py-1 text-green-600 font-medium text-xs">✅ Entregado</span>
-              <span>Sin devolución</span>
+              <span className="px-2 py-1 bg-green-100 text-green-700 border border-green-200 rounded text-xs">✅ Entregado</span>
+              <span>Reporte entregado (click para ver tus respuestas)</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="px-2 py-1 text-gray-400 text-xs">⏱️ Pendiente</span>
@@ -302,34 +305,81 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
         </div>
       )}
       
-      {/* Feedback Modal */}
-      {showFeedback && selectedReport && (
+      {/* Student Report Modal */}
+      {showReportModal && selectedReport && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-xl max-w-3xl w-full max-h-[80vh] overflow-y-auto">
-            <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
-              <h3 className="text-lg font-semibold text-gray-800">
-                Devolución - {selectedReport.subject}
-              </h3>
+            <div className="sticky top-0 bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-6 py-4 flex items-center justify-between rounded-t-xl">
+              <div>
+                <h3 className="text-xl font-bold">Tu Reporte</h3>
+                <p className="text-sm text-teal-100">
+                  {selectedReport.subject} - Semana del {new Date(selectedReport.weekStart).toLocaleDateString('es-AR')}
+                </p>
+              </div>
               <button
                 onClick={() => {
-                  setShowFeedback(false);
+                  setShowReportModal(false);
                   setSelectedReport(null);
+                  setReportDetails(null);
                 }}
-                className="text-gray-500 hover:text-gray-700 transition-colors"
+                className="text-white hover:text-teal-200 transition-colors"
               >
-                <X className="w-5 h-5" />
+                <X className="w-6 h-6" />
               </button>
             </div>
             <div className="p-6">
-              <FeedbackViewer 
-                isOpen={showFeedback}
-                onClose={() => {
-                  setShowFeedback(false);
-                  setSelectedReport(null);
-                }}
-                weekStart={selectedReport.weekStart.split('T')[0]}
-                subject={selectedReport.subject}
-              />
+              {!reportDetails ? (
+                <div className="flex items-center justify-center py-12">
+                  <div className="text-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-600 mx-auto mb-4"></div>
+                    <p className="text-slate-600">Cargando tus respuestas...</p>
+                  </div>
+                </div>
+              ) : (
+                <div className="space-y-6">
+                  {reportDetails.answers && reportDetails.answers.map((answer: any, index: number) => (
+                    <div key={answer.questionId || index} className="border-l-4 border-teal-500 pl-4 py-2">
+                      <h4 className="font-semibold text-slate-800 mb-2">{answer.questionText}</h4>
+                      <p className="text-slate-700 whitespace-pre-wrap">{answer.answer || 'No respondido'}</p>
+                    </div>
+                  ))}
+
+                  {(!reportDetails.answers || reportDetails.answers.length === 0) && (
+                    <div className="text-center py-8 text-slate-500">
+                      <p>No se encontraron respuestas para este reporte.</p>
+                    </div>
+                  )}
+
+                  <div className="mt-6 pt-4 border-t border-slate-200 text-sm text-slate-600">
+                    <div className="flex items-center justify-between">
+                      <span>Enviado el {new Date(selectedReport.submittedAt).toLocaleDateString('es-AR', {
+                        day: '2-digit',
+                        month: 'long',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                      })}</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 rounded-b-xl">
+              <div className="flex justify-between items-center">
+                <p className="text-sm text-slate-600">
+                  💡 Tip: Para ver la retroalimentación del instructor, ve al tab "Retroalimentaciones"
+                </p>
+                <button
+                  onClick={() => {
+                    setShowReportModal(false);
+                    setSelectedReport(null);
+                    setReportDetails(null);
+                  }}
+                  className="px-6 py-2 bg-slate-600 text-white rounded-lg hover:bg-slate-700 transition-colors"
+                >
+                  Cerrar
+                </button>
+              </div>
             </div>
           </div>
         </div>
