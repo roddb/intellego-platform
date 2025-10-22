@@ -130,7 +130,6 @@ export default function StudentDashboard() {
   // Load feedbacks when tab becomes active
   useEffect(() => {
     if (activeTab !== 'feedbacks') return
-    if (allFeedbacks.length > 0) return // Already loaded
 
     console.log('[FEEDBACKS] Loading feedbacks...')
     setIsFeedbacksLoading(true)
@@ -142,7 +141,11 @@ export default function StudentDashboard() {
       })
       .then(data => {
         console.log('[FEEDBACKS] Data:', data)
-        setAllFeedbacks(data.feedbacks || [])
+        // Sort feedbacks by date (most recent first)
+        const sortedFeedbacks = (data.feedbacks || []).sort((a: any, b: any) =>
+          new Date(b.weekStart).getTime() - new Date(a.weekStart).getTime()
+        )
+        setAllFeedbacks(sortedFeedbacks)
       })
       .catch(err => {
         console.error('[FEEDBACKS] Error:', err)
@@ -151,7 +154,7 @@ export default function StudentDashboard() {
         console.log('[FEEDBACKS] Done')
         setIsFeedbacksLoading(false)
       })
-  }, [activeTab, allFeedbacks.length])
+  }, [activeTab])
 
   const fetchStudentData = async () => {
     try {
