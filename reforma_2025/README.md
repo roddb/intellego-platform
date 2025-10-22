@@ -8,26 +8,45 @@ Esta carpeta contiene toda la planificación y documentación para la reorganiza
 
 ```
 reforma_2025/
-├── README.md           # Este archivo - Introducción y guía
-├── PLAN_REFORMA.md     # Plan detallado de la reforma
-├── CHECKLIST.md        # Checklist interactivo de tareas
-├── CHANGELOG.md        # Registro de cambios (se crea al finalizar)
-└── screenshots/        # Capturas antes/después (se crea al finalizar)
+├── README.md                   # Este archivo - Introducción y guía
+├── PLAN_REFORMA.md             # Plan detallado de la reforma principal ✅ COMPLETADO
+├── PLAN_FILTROS_MATERIA.md     # Plan para filtros por materia 📋 PLANIFICADO
+├── ANALISIS_FASE_1.md          # Análisis técnico del sistema ✅ COMPLETADO
+├── CHECKLIST.md                # Checklist de 51 tareas ✅ 100% COMPLETADO
+├── CHANGELOG.md                # Registro de cambios ✅ COMPLETADO
+├── PROGRESO_SESION.md          # Resumen de la sesión ✅ COMPLETADO
+└── screenshots/                # Capturas antes/después
 ```
 
 ---
 
-## 🎯 Objetivo de la Reforma
+## 🎯 Objetivos de las Reformas
+
+### Reforma Principal (✅ COMPLETADA):
+
+**Problema anterior**:
+- Indicador "Devolución" aparecía inconsistentemente en el dashboard
+- Feedbacks se mostraban en múltiples lugares causando confusión
+- Historial mezclaba entregas del estudiante con devoluciones del instructor
+
+**Solución implementada**:
+1. ✅ **Eliminado** indicador "Devolución" del calendario del dashboard
+2. ✅ **Consolidado** todas las retroalimentaciones en el tab "Retroalimentaciones Recibidas"
+3. ✅ **Limpiado** el historial para mostrar SOLO las entregas del estudiante
+
+### Mejora: Filtros por Materia (📋 PLANIFICADA):
 
 **Problema actual**:
-- Indicador "Devolución" aparece inconsistentemente en el dashboard
-- Feedbacks se muestran en múltiples lugares causando confusión
-- Historial mezcla entregas del estudiante con devoluciones del instructor
+- Cuando hay muchas retroalimentaciones, todas aparecen mezcladas
+- Difícil encontrar retroalimentaciones de una materia específica
+- Se requiere scroll largo para revisar feedbacks
 
 **Solución propuesta**:
-1. **Eliminar** indicador "Devolución" del calendario del dashboard
-2. **Consolidar** todas las retroalimentaciones en el tab "Retroalimentaciones Recibidas"
-3. **Limpiar** el historial para mostrar SOLO las entregas del estudiante
+1. 📋 **Agregar** botones de filtro por materia (Física, Química, etc.)
+2. 📋 **Permitir** filtrar solo retroalimentaciones de una materia
+3. 📋 **Incluir** contadores de retroalimentaciones por materia
+
+**Ver plan completo**: `PLAN_FILTROS_MATERIA.md`
 
 ---
 
@@ -134,15 +153,26 @@ Desglose por fase:
 
 ## 📊 Estado Actual
 
-**Última actualización**: 22 de octubre de 2025
+**Última actualización**: 22 de octubre de 2025 - 18:40 ART
+
+### Reforma Principal (Sistema de Retroalimentaciones):
 
 | Aspecto | Estado |
 |---------|--------|
 | **Planificación** | ✅ Completa |
-| **Implementación** | 🔴 No iniciada |
-| **Pruebas** | 🔴 No iniciadas |
-| **Documentación** | 🟡 En progreso |
-| **Progreso General** | 0% (0/51 tareas) |
+| **Implementación** | ✅ Completada (100%) |
+| **Pruebas** | ✅ Completadas |
+| **Documentación** | ✅ Completa |
+| **Progreso General** | ✅ 100% (51/51 tareas) |
+
+### Mejora: Filtros por Materia:
+
+| Aspecto | Estado |
+|---------|--------|
+| **Planificación** | ✅ Completa |
+| **Implementación** | 📋 Pendiente |
+| **Pruebas** | 📋 Pendiente |
+| **Tiempo estimado** | 45-60 minutos |
 
 ---
 
