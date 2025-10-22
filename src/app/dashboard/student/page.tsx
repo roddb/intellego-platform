@@ -495,18 +495,6 @@ export default function StudentDashboard() {
                                      week.isCurrentWeek ? '🟡 Actual' :
                                      '⚪ Futuro'}
                                   </span>
-                                  {week.hasFeedback && (
-                                    <button
-                                      onClick={() => {
-                                        const weekStartISO = week.start.toISOString().split('T')[0]
-                                        handleViewFeedback(weekStartISO, subject)
-                                      }}
-                                      className="px-2 py-1 text-xs bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 rounded hover:bg-blue-200 dark:hover:bg-blue-900/60 transition-colors border border-blue-200 dark:border-blue-800"
-                                      title="Ver devolución"
-                                    >
-                                      📝 Devolución
-                                    </button>
-                                  )}
                                 </div>
                               </div>
                             </div>
@@ -538,7 +526,7 @@ export default function StudentDashboard() {
               <h3 className="text-lg font-semibold text-slate-800 mb-4">
                 📊 Resumen de Entregas
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-green-600">
                     {Object.values(reportsBySubject).flat().length}
@@ -556,55 +544,49 @@ export default function StudentDashboard() {
                     {(() => {
                       const totalReports = Object.values(reportsBySubject).flat().length;
                       const totalSubjects = userSubjects.length;
-                      
+
                       // Calculate actual weeks in the current month that have passed
                       const now = new Date();
                       const year = now.getFullYear();
                       const month = now.getMonth();
                       const firstDayOfMonth = new Date(year, month, 1);
-                      
+
                       // Get Monday of the first week of the month
                       let firstMonday = new Date(firstDayOfMonth);
                       const dayOfWeek = firstMonday.getDay();
                       const diff = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
                       firstMonday.setDate(firstMonday.getDate() + diff);
-                      
+
                       // Count complete weeks that have ended
                       let weeksElapsed = 0;
                       let currentWeekStart = new Date(firstMonday);
-                      
+
                       while (currentWeekStart < now) {
                         const weekEnd = new Date(currentWeekStart);
                         weekEnd.setDate(weekEnd.getDate() + 6);
-                        
+
                         // Only count if the week has ended (we're past Sunday)
                         if (weekEnd < now) {
                           weeksElapsed++;
                         }
-                        
+
                         currentWeekStart.setDate(currentWeekStart.getDate() + 7);
-                        
+
                         // Stop if we've reached the next month
                         if (currentWeekStart.getMonth() !== month && currentWeekStart > now) {
                           break;
                         }
                       }
-                      
+
                       // Calculate expected reports (only for completed weeks)
                       const expectedReports = totalSubjects * weeksElapsed;
-                      
+
                       // Calculate percentage
                       if (expectedReports === 0) return 0;
                       return Math.round((totalReports / expectedReports) * 100);
                     })()}%
                   </div>
                   <div className="text-sm text-slate-600">Tasa de Entrega</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-600">
-                    {Object.values(reportsBySubject).flat().filter((r: any) => r.hasFeedback).length || 0}
-                  </div>
-                  <div className="text-sm text-slate-600">Con Devolución</div>
                 </div>
               </div>
             </div>
