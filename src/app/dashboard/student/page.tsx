@@ -2,7 +2,7 @@
 
 import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
-import { useEffect, useState, useCallback } from "react"
+import { useEffect, useState, useCallback, useMemo } from "react"
 import Navigation from "@/components/Navigation"
 import WeeklyReportForm from "@/components/WeeklyReportForm"
 import FeedbackViewer from "@/components/student/FeedbackViewer"
@@ -84,6 +84,8 @@ export default function StudentDashboard() {
   const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
   const [allFeedbacks, setAllFeedbacks] = useState<any[]>([])
   const [isFeedbacksLoading, setIsFeedbacksLoading] = useState(false)
+  // Filter state for feedbacks tab
+  const [selectedSubjectFilter, setSelectedSubjectFilter] = useState<string | null>(null)
 
   useEffect(() => {
     if (status === "loading") return
@@ -155,6 +157,29 @@ export default function StudentDashboard() {
         setIsFeedbacksLoading(false)
       })
   }, [activeTab])
+
+  // Get unique subjects from feedbacks
+  const uniqueSubjects = useMemo(() =>
+    Array.from(new Set(allFeedbacks.map(f => f.subject))).sort(),
+    [allFeedbacks]
+  )
+
+  // Count feedbacks per subject
+  const feedbackCountBySubject = useMemo(() => {
+    const counts: Record<string, number> = {}
+    uniqueSubjects.forEach(subject => {
+      counts[subject] = allFeedbacks.filter(f => f.subject === subject).length
+    })
+    return counts
+  }, [allFeedbacks, uniqueSubjects])
+
+  // Filter feedbacks based on selected subject
+  const filteredFeedbacks = useMemo(() =>
+    selectedSubjectFilter
+      ? allFeedbacks.filter(f => f.subject === selectedSubjectFilter)
+      : allFeedbacks,
+    [allFeedbacks, selectedSubjectFilter]
+  )
 
   const fetchStudentData = async () => {
     try {
@@ -715,6 +740,54 @@ export default function StudentDashboard() {
               </p>
             </div>
 
+            {/* Subject Filter Buttons - Only show if there are multiple subjects */}
+            {!isFeedbacksLoading && allFeedbacks.length > 0 && uniqueSubjects.length > 1 && (
+              <div className="bg-white rounded-lg shadow-lg p-4">
+                <div className="flex flex-wrap gap-2">
+                  {/* All subjects button */}
+                  <button
+                    onClick={() => setSelectedSubjectFilter(null)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                      selectedSubjectFilter === null
+                        ? 'bg-blue-600 text-white shadow-md'
+                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                    }`}
+                  >
+                    Todas
+                    <span className={`ml-2 px-2 py-0.5 rounded-full text-xs ${
+                      selectedSubjectFilter === null
+                        ? 'bg-white/20'
+                        : 'bg-blue-100 text-blue-700'
+                    }`}>
+                      {allFeedbacks.length}
+                    </span>
+                  </button>
+
+                  {/* Individual subject buttons */}
+                  {uniqueSubjects.map(subject => (
+                    <button
+                      key={subject}
+                      onClick={() => setSelectedSubjectFilter(subject)}
+                      className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                        selectedSubjectFilter === subject
+                          ? 'bg-blue-600 text-white shadow-md'
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                      }`}
+                    >
+                      {subject}
+                      <span className={`ml-2 px-2 py-0.5 rounded-full text-xs ${
+                        selectedSubjectFilter === subject
+                          ? 'bg-white/20'
+                          : 'bg-blue-100 text-blue-700'
+                      }`}>
+                        {feedbackCountBySubject[subject]}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Loading State */}
             {isFeedbacksLoading && (
               <div className="bg-white rounded-lg shadow-lg p-12 text-center">
@@ -738,9 +811,9 @@ export default function StudentDashboard() {
             )}
 
             {/* Feedbacks List */}
-            {!isFeedbacksLoading && allFeedbacks.length > 0 && (
+            {!isFeedbacksLoading && filteredFeedbacks.length > 0 && (
               <div className="space-y-4">
-                {allFeedbacks.map((feedback) => {
+                {filteredFeedbacks.map((feedback) => {
                   const weekStartDate = new Date(feedback.weekStart);
                   const formattedDate = weekStartDate.toLocaleDateString('es-AR', {
                     day: 'numeric',
@@ -829,6 +902,25 @@ export default function StudentDashboard() {
                     </div>
                   );
                 })}
+              </div>
+            )}
+
+            {/* Empty state for filtered view */}
+            {!isFeedbacksLoading && allFeedbacks.length > 0 && filteredFeedbacks.length === 0 && selectedSubjectFilter && (
+              <div className="bg-white rounded-lg shadow-lg p-12 text-center">
+                <div className="text-slate-400 text-6xl mb-4">🔍</div>
+                <h3 className="text-lg font-semibold text-slate-700 mb-2">
+                  No hay retroalimentaciones de {selectedSubjectFilter}
+                </h3>
+                <p className="text-slate-600 mb-4">
+                  Aún no tienes retroalimentaciones para esta materia.
+                </p>
+                <button
+                  onClick={() => setSelectedSubjectFilter(null)}
+                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  Ver todas las materias
+                </button>
               </div>
             )}
 
