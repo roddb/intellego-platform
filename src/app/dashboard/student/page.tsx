@@ -558,9 +558,27 @@ export default function StudentDashboard() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-green-600">
-                    {Object.values(reportsBySubject).flat().length}
+                    {(() => {
+                      // Count only reports from current month
+                      const now = new Date();
+                      const year = now.getFullYear();
+                      const month = now.getMonth();
+                      const firstDayOfMonth = new Date(year, month, 1);
+                      const lastDayOfMonth = new Date(year, month + 1, 0);
+
+                      const allReports = Object.values(reportsBySubject).flat();
+                      const currentMonthReports = allReports.filter(report => {
+                        const reportDate = new Date(report.weekStart);
+                        return reportDate >= firstDayOfMonth && reportDate <= lastDayOfMonth;
+                      });
+
+                      return currentMonthReports.length;
+                    })()}
                   </div>
-                  <div className="text-sm text-slate-600">Reportes Enviados</div>
+                  <div className="text-sm text-slate-600">
+                    Reportes Enviados
+                    <div className="text-xs text-slate-400">(este mes)</div>
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-600">
@@ -571,14 +589,21 @@ export default function StudentDashboard() {
                 <div className="text-center">
                   <div className="text-2xl font-bold text-purple-600">
                     {(() => {
-                      const totalReports = Object.values(reportsBySubject).flat().length;
-                      const totalSubjects = userSubjects.length;
-
-                      // Calculate actual weeks in the current month that have passed
+                      // Calculate metrics for CURRENT MONTH only
                       const now = new Date();
                       const year = now.getFullYear();
                       const month = now.getMonth();
                       const firstDayOfMonth = new Date(year, month, 1);
+                      const lastDayOfMonth = new Date(year, month + 1, 0);
+                      const totalSubjects = userSubjects.length;
+
+                      // Count reports from current month
+                      const allReports = Object.values(reportsBySubject).flat();
+                      const currentMonthReports = allReports.filter(report => {
+                        const reportDate = new Date(report.weekStart);
+                        return reportDate >= firstDayOfMonth && reportDate <= lastDayOfMonth;
+                      });
+                      const totalReports = currentMonthReports.length;
 
                       // Get Monday of the first week of the month
                       let firstMonday = new Date(firstDayOfMonth);
@@ -610,12 +635,16 @@ export default function StudentDashboard() {
                       // Calculate expected reports (only for completed weeks)
                       const expectedReports = totalSubjects * weeksElapsed;
 
-                      // Calculate percentage
+                      // Calculate percentage (max 100%)
                       if (expectedReports === 0) return 0;
-                      return Math.round((totalReports / expectedReports) * 100);
+                      const percentage = Math.round((totalReports / expectedReports) * 100);
+                      return Math.min(percentage, 100);
                     })()}%
                   </div>
-                  <div className="text-sm text-slate-600">Tasa de Entrega</div>
+                  <div className="text-sm text-slate-600">
+                    Tasa de Entrega
+                    <div className="text-xs text-slate-400">(este mes)</div>
+                  </div>
                 </div>
               </div>
             </div>
