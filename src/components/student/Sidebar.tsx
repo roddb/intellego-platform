@@ -14,7 +14,6 @@ import {
   X
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ThemeToggle } from '@/components/ui/ThemeToggle'
 
 type TabType = 'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks'
 
@@ -167,12 +166,7 @@ export default function Sidebar({ activeTab, onTabChange, userName }: SidebarPro
             )}
           </button>
 
-          <div className="p-3 space-y-3">
-            {/* Theme Toggle */}
-            <div className="flex justify-center">
-              <ThemeToggle />
-            </div>
-
+          <div className="p-3">
             {!isCollapsed ? (
               <div className="text-xs text-gray-500 dark:text-gray-400 text-center">
                 Intellego Platform v1.0
