@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { ChevronDown, BookOpen, Lightbulb, AlertCircle, Network, MessageCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
+import confetti from 'canvas-confetti'
 
 interface WeeklyReportFormProps {
   subject: string
@@ -30,6 +31,8 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
   const [errors, setErrors] = useState<Record<string, string>>({})
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitProgress, setSubmitProgress] = useState(0)
 
   const handleChange = (field: keyof WeeklyReportData, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }))
@@ -59,6 +62,55 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
     return Object.keys(newErrors).length === 0
   }
 
+  // Celebración de confetis cuando se envía el reporte exitosamente
+  const fireConfetti = () => {
+    const duration = 3000
+    const animationEnd = Date.now() + duration
+    const defaults = {
+      startVelocity: 30,
+      spread: 360,
+      ticks: 60,
+      zIndex: 0,
+      colors: ['#14b8a6', '#0d9488', '#0f766e', '#115e59', '#134e4a'] // Teal colors matching the theme
+    }
+
+    const randomInRange = (min: number, max: number) => {
+      return Math.random() * (max - min) + min
+    }
+
+    const interval = window.setInterval(() => {
+      const timeLeft = animationEnd - Date.now()
+
+      if (timeLeft <= 0) {
+        return clearInterval(interval)
+      }
+
+      const particleCount = 50 * (timeLeft / duration)
+
+      // Disparar desde la izquierda
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
+      })
+
+      // Disparar desde la derecha
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
+      })
+    }, 250)
+
+    // Disparo central grande inicial
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: ['#14b8a6', '#0d9488', '#0f766e', '#115e59', '#134e4a']
+    })
+  }
+
   // Calculate progress
   const completedFields = useMemo(() => {
     let count = 0
@@ -72,15 +124,28 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     if (!validateForm()) {
       return
     }
 
     setIsLoading(true)
+    setIsSubmitting(true)
     setError('')
-    
+    setSubmitProgress(0)
+
     try {
+      // Iniciar animación de progreso
+      const progressInterval = setInterval(() => {
+        setSubmitProgress(prev => {
+          if (prev >= 95) {
+            clearInterval(progressInterval)
+            return 95 // Detenerse en 95% hasta que termine la request
+          }
+          return prev + 5
+        })
+      }, 50)
+
       const response = await fetch('/api/weekly-reports', {
         method: 'POST',
         headers: {
@@ -89,7 +154,18 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
         body: JSON.stringify({ ...formData, subject }),
       })
 
+      clearInterval(progressInterval)
+
       if (response.ok) {
+        // Completar la barra al 100%
+        setSubmitProgress(100)
+
+        // Esperar 800ms para la transición amarillo → verde
+        await new Promise(resolve => setTimeout(resolve, 800))
+
+        // 🎉 ¡Celebración! Disparar confetis DESPUÉS de la animación
+        fireConfetti()
+
         // Reset form
         setFormData({
           temasYDominio: '',
@@ -98,18 +174,28 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
           conexionesAplicacion: '',
           comentariosAdicionales: ''
         })
-        
+
+        // Llamar al callback DESPUÉS de los confetis para que el calendario se actualice suavemente
         if (onSubmissionSuccess) {
-          onSubmissionSuccess()
+          // Esperar 500ms más para que los confetis empiecen antes de actualizar el DOM
+          setTimeout(() => {
+            onSubmissionSuccess()
+            setIsSubmitting(false)
+            setSubmitProgress(0)
+          }, 500)
         }
       } else {
         const data = await response.json()
         setError(data.error || 'Error al enviar el reporte')
+        setIsSubmitting(false)
+        setSubmitProgress(0)
       }
-      
+
     } catch (error) {
       console.error('Error submitting form:', error)
       setError('Error al enviar el reporte')
+      setIsSubmitting(false)
+      setSubmitProgress(0)
     } finally {
       setIsLoading(false)
     }
@@ -393,7 +479,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
       </Disclosure>
 
       {/* Submit Button */}
-      <div className="pt-6">
+      <div className="pt-6 space-y-4">
         <motion.button
           type="submit"
           disabled={isLoading}
@@ -407,9 +493,51 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
               Enviando...
             </div>
           ) : (
-`Enviar Registro de ${subject}`
+            `Enviar Registro de ${subject}`
           )}
         </motion.button>
+
+        {/* Barra de progreso animada */}
+        {isSubmitting && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-2"
+          >
+            <div className="flex items-center justify-between text-sm">
+              <span className={`font-medium transition-colors duration-500 ${
+                submitProgress === 100 ? 'text-green-600 dark:text-green-400' : 'text-yellow-600 dark:text-yellow-400'
+              }`}>
+                {submitProgress < 100 ? '🟡 Enviando reporte...' : '✅ ¡Reporte enviado!'}
+              </span>
+              <span className={`font-bold transition-colors duration-500 ${
+                submitProgress === 100 ? 'text-green-600 dark:text-green-400' : 'text-yellow-600 dark:text-yellow-400'
+              }`}>
+                {submitProgress}%
+              </span>
+            </div>
+
+            {/* Barra de progreso con transición suave de amarillo a verde */}
+            <div className="relative w-full h-3 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+              <motion.div
+                className={`absolute top-0 left-0 h-full rounded-full transition-all duration-500 ${
+                  submitProgress === 100
+                    ? 'bg-gradient-to-r from-green-500 to-green-600'
+                    : 'bg-gradient-to-r from-yellow-400 to-yellow-500'
+                }`}
+                initial={{ width: '0%' }}
+                animate={{ width: `${submitProgress}%` }}
+                transition={{
+                  duration: 0.3,
+                  ease: "easeOut"
+                }}
+              >
+                {/* Efecto de brillo */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
+              </motion.div>
+            </div>
+          </motion.div>
+        )}
       </div>
 
       <div className="text-sm text-slate-500 dark:text-slate-400 text-center">

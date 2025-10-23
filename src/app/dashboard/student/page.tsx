@@ -282,19 +282,15 @@ export default function StudentDashboard() {
   const handleSubmissionSuccess = (subject: string) => {
     setSuccessMessage(`¡Reporte de ${subject} enviado exitosamente!`)
     setCanSubmitBySubject(prev => ({ ...prev, [subject]: false }))
-    
-    // Fetch fresh data from server first to get the actual report data
-    refreshDataAfterSubmission().then(() => {
-      // After getting fresh data, update the calendar to reflect the new report
-      // This ensures the calendar uses the actual report data from the database
-      // The reportsBySubject and userSubjects will be updated by the fetch, 
-      // so we need to wait a bit for the state to update
-      setTimeout(() => {
-        // Use current state values for the calendar update
-        updateMonthWeeksWithReportsBySubject(reportsBySubject, userSubjects)
-      }, 100)
+
+    // Fetch fresh data from server and immediately update the calendar
+    refreshDataAfterSubmission().then((data) => {
+      // Update calendar immediately with fresh data from API
+      if (data) {
+        updateMonthWeeksWithReportsBySubject(data.reportsBySubject || {}, data.subjects || [])
+      }
     })
-    
+
     // Clear success message after 3 seconds
     setTimeout(() => {
       setSuccessMessage("")
@@ -321,10 +317,15 @@ export default function StudentDashboard() {
         setUserSubjects(data.subjects || [])
         setCanSubmitBySubject(data.canSubmitBySubject || {})
         setReportsBySubject(data.reportsBySubject || {})
+
+        // Return the data so it can be used immediately
+        return data
       }
     } catch (error) {
       console.error("Error refreshing student data:", error)
     }
+
+    return null
   }
 
 
