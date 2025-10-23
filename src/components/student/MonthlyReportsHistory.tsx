@@ -168,16 +168,24 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
   const handleViewReport = async (report: Report) => {
     setSelectedReport(report);
     setShowReportModal(true);
+    setReportDetails(null); // Reset to show loading state
 
     // Fetch the full report details to show student's answers
     try {
       const response = await fetch(`/api/student/report-details?reportId=${report.id}`);
-      if (response.ok) {
-        const data = await response.json();
-        setReportDetails(data);
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Error fetching report details:', errorData);
+        setReportDetails({ error: errorData.error || 'Error al cargar las respuestas' });
+        return;
       }
+
+      const data = await response.json();
+      setReportDetails(data);
     } catch (error) {
       console.error('Error fetching report details:', error);
+      setReportDetails({ error: 'Error al cargar las respuestas' });
     }
   };
   
@@ -333,6 +341,14 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
                   <div className="text-center">
                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-600 mx-auto mb-4"></div>
                     <p className="text-slate-600">Cargando tus respuestas...</p>
+                  </div>
+                </div>
+              ) : reportDetails.error ? (
+                <div className="flex items-center justify-center py-12">
+                  <div className="text-center">
+                    <div className="text-red-600 text-5xl mb-4">⚠️</div>
+                    <p className="text-red-600 font-semibold mb-2">Error al cargar las respuestas</p>
+                    <p className="text-slate-600 text-sm">{reportDetails.error}</p>
                   </div>
                 </div>
               ) : (

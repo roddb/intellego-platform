@@ -71,17 +71,16 @@ export async function GET(request: NextRequest) {
         pr.weekStart,
         pr.weekEnd,
         pr.submittedAt,
-        pr.createdAt,
         a.id as answerId,
         a.questionId,
         a.answer,
-        q.questionText,
-        q.order as questionOrder
+        q.text as questionText,
+        q."order" as questionOrder
       FROM ProgressReport pr
       LEFT JOIN Answer a ON a.progressReportId = pr.id
       LEFT JOIN Question q ON q.id = a.questionId
       WHERE pr.id = ? AND pr.userId = ?
-      ORDER BY q.order ASC
+      ORDER BY q."order" ASC
     `, [reportId, studentId]);
 
     if (!result.rows || result.rows.length === 0) {
@@ -99,7 +98,6 @@ export async function GET(request: NextRequest) {
       weekStart: result.rows[0].weekStart,
       weekEnd: result.rows[0].weekEnd,
       submittedAt: result.rows[0].submittedAt,
-      createdAt: result.rows[0].createdAt,
       answers: result.rows
         .filter((row: any) => row.answerId) // Only include rows with answers
         .map((row: any) => ({
