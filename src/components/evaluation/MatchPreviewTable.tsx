@@ -301,7 +301,7 @@ export default function MatchPreviewTable({
             <ul className="list-disc list-inside space-y-1">
               <li>Revise cada asignación sugerida</li>
               <li>Corrija manualmente usando el dropdown si es necesario</li>
-              <li>Use "Excluir" para omitir archivos del procesamiento</li>
+              <li>Use &quot;Excluir&quot; para omitir archivos del procesamiento</li>
               <li>
                 Solo los archivos asignados serán procesados al confirmar
               </li>

@@ -7,13 +7,15 @@ export default function Home() {
   const vantaRef = useRef<HTMLDivElement>(null)
   const vantaEffect = useRef<any>(null)
   const pulsesRef = useRef<any[]>([])
-  const animationFrameRef = useRef<number>()
+  const animationFrameRef = useRef<number | undefined>(undefined)
 
   useEffect(() => {
     if (!vantaEffect.current && vantaRef.current) {
       // Dynamically import Vanta CELLS and Three.js (client-side only)
+      // @ts-ignore - vanta library doesn't have TypeScript definitions
       import('vanta/dist/vanta.cells.min')
         .then((VANTA) => {
+          // @ts-ignore - three library imported dynamically
           import('three').then((THREE) => {
             vantaEffect.current = (VANTA as any).default({
               el: vantaRef.current,

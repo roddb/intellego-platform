@@ -208,7 +208,7 @@ export async function GET(request: NextRequest) {
 
       // Keep the most recent evaluation for this student+topic
       const existing = latestEvaluationByStudentTopic.get(key);
-      if (!existing || evaluation.createdAt > existing.createdAt) {
+      if (!existing || (evaluation.createdAt && (!existing.createdAt || evaluation.createdAt > existing.createdAt))) {
         latestEvaluationByStudentTopic.set(key, evaluation);
       }
     });

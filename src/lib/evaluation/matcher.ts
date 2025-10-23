@@ -173,7 +173,7 @@ export async function matchStudent(
         const parts = studentName.split(/\s+/);
 
         // Comparar con cada parte individual
-        parts.forEach(part => {
+        parts.forEach((part: string) => {
           similarities.push(calculateSimilarity(apellido, part));
         });
 

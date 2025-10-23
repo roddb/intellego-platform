@@ -367,7 +367,7 @@ export default function MonthlyReportsHistory({ userId, className = "" }: Monthl
             <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 rounded-b-xl">
               <div className="flex justify-between items-center">
                 <p className="text-sm text-slate-600">
-                  💡 Tip: Para ver la retroalimentación del instructor, ve al tab "Retroalimentaciones"
+                  💡 Tip: Para ver la retroalimentación del instructor, ve al tab &quot;Retroalimentaciones&quot;
                 </p>
                 <button
                   onClick={() => {
