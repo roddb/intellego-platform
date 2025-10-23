@@ -604,3 +604,125 @@ export function nivelAPuntaje(nivel: 1 | 2 | 3 | 4): number {
       throw new Error(`Nivel inválido: ${nivel}. Debe ser 1, 2, 3 o 4.`);
   }
 }
+
+/**
+ * RÚBRICA PARA CASOS ESPECIALES
+ *
+ * Se aplica cuando:
+ * - El estudiante estuvo ausente por enfermedad/viaje
+ * - No hubo clases en la semana
+ * - El reporte está incompleto por razones justificadas
+ * - Hay circunstancias excepcionales documentadas
+ */
+export const RUBRICA_CASO_ESPECIAL = `
+# RÚBRICA PARA CASOS ESPECIALES
+
+## Objetivo
+Esta rúbrica se usa cuando el estudiante NO pudo completar el reporte semanal por circunstancias fuera de su control.
+
+**NO penalizar** al estudiante por:
+- Ausencias justificadas (enfermedad, viaje, emergencia)
+- Semanas sin clases (feriados, recesos)
+- Problemas técnicos o institucionales
+
+**SÍ proporcionar** feedback constructivo sobre:
+- Lo que SÍ completó (si aplica)
+- Cómo puede ponerse al día
+- Recursos de apoyo disponibles
+
+---
+
+## Instrucciones de Evaluación para Casos Especiales
+
+### Si el estudiante estuvo AUSENTE:
+- NO asignar niveles numéricos (1-4) a las preguntas
+- En cada Q_NIVEL poner: "N/A" (No Aplica)
+- En cada Q_JUSTIFICACIÓN explicar la circunstancia y ofrecer apoyo
+- En FORTALEZAS: Reconocer si intentó comunicar su situación
+- En MEJORAS: Sugerir cómo recuperar el material perdido
+- En COMENTARIOS_GENERALES: Mensaje empático y orientador
+- En ANÁLISIS_AI: Plan específico para ponerse al día
+
+### Si NO HUBO CLASES:
+- NO asignar niveles numéricos
+- Marcar como "Semana sin contenido nuevo"
+- Sugerir repaso de temas anteriores (si corresponde)
+- Ofrecer material de refuerzo opcional
+
+### Si el reporte está PARCIALMENTE COMPLETO:
+- Evaluar SOLO las secciones que SÍ completó
+- Asignar niveles proporcionalmente
+- Reconocer el esfuerzo en lo presentado
+- Sugerir completar las secciones faltantes (sin penalización excesiva)
+
+---
+
+## Formato de Respuesta para Casos Especiales
+
+EVALUACIÓN POR PREGUNTA:
+
+Q1_NIVEL: N/A
+Q1_JUSTIFICACIÓN: [Explicar la circunstancia: ausencia, sin clases, etc. Tono empático.]
+
+Q2_NIVEL: N/A
+Q2_JUSTIFICACIÓN: [Si completó algo, reconocerlo. Si no, ofrecer apoyo.]
+
+Q3_NIVEL: N/A
+Q3_JUSTIFICACIÓN: [Contexto de la situación y orientación.]
+
+Q4_NIVEL: N/A
+Q4_JUSTIFICACIÓN: [Mensaje de apoyo y próximos pasos.]
+
+Q5_NIVEL: N/A
+Q5_JUSTIFICACIÓN: [Comentario constructivo sobre cómo retomar.]
+
+FORTALEZAS:
+- [Si comunicó su situación: "Informaste proactivamente sobre tu ausencia, lo que demuestra responsabilidad."]
+- [Si completó algo: "A pesar de [situación], intentaste completar [parte del reporte]."]
+
+IMPORTANTE: Máximo 2 fortalezas. Si no hay nada que reconocer, dejar vacío o poner mensaje genérico de apoyo.
+
+MEJORAS:
+- [Sugerencia 1: "Coordina con tus compañeros para obtener apuntes de [temas perdidos]."]
+- [Sugerencia 2: "Revisa el material de clase sobre [tema] disponible en [recurso]."]
+
+IMPORTANTE: Máximo 2 mejoras. Enfocarse en cómo recuperarse, NO en penalizar.
+
+COMENTARIOS_GENERALES:
+[Mensaje de apoyo reconociendo la situación. 3-4 líneas.
+Párrafo 1: "Entiendo que [circunstancia]. Es importante que te pongas al día para no perder continuidad."
+Párrafo 2: "Te sugiero [acción concreta] esta semana para recuperar lo perdido."
+Párrafo 3: "Si necesitas ayuda adicional, consulta con [recurso/persona]."]
+
+ANÁLISIS_AI:
+[Plan específico para ponerse al día. 4-5 líneas.
+Párrafo 1: "Para recuperar lo perdido, enfócate en [tema/concepto principal]."
+Párrafo 2: "Recursos recomendados: [lista de materiales, videos, ejercicios]."
+Párrafo 3: "Próxima semana retomas [siguiente fase], así que asegúrate de [acción preparatoria]."]
+
+---
+
+## Tono y Estilo para Casos Especiales
+
+- **Empático**: Reconocer la situación sin juzgar
+- **Constructivo**: Enfocarse en soluciones, no en problemas
+- **Orientador**: Proveer pasos claros para recuperarse
+- **Realista**: No minimizar la importancia de ponerse al día, pero tampoco alarmar
+
+Ejemplos de tono apropiado:
+✅ "Entiendo que estuviste enfermo esta semana. Es importante que te pongas al día..."
+✅ "Veo que esta semana no hubo clases. Puedes aprovechar para repasar..."
+❌ "No completaste el reporte, necesitas esforzarte más." (muy duro)
+❌ "No te preocupes, puedes saltarte esta semana." (demasiado permisivo)
+
+---
+
+## IMPORTANTE: Casos NO cubiertos por esta rúbrica
+
+Esta rúbrica NO se usa para:
+- Estudiantes que simplemente no hicieron el reporte sin justificación
+- Reportes vagos o de baja calidad por falta de esfuerzo
+- Estudiantes que sistemáticamente no completan tareas
+
+Para esos casos, usar las rúbricas estándar (Fase 1-4) y asignar niveles bajos (1-2).
+`;

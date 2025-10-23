@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import { signIn } from "next-auth/react"
 import Link from "next/link"
@@ -29,8 +29,43 @@ export default function SignUp() {
     division: "",
     subjects: ""
   })
-  
+
   const router = useRouter()
+  const vantaRef = useRef<HTMLDivElement>(null)
+  const vantaEffect = useRef<any>(null)
+
+  // Initialize Vanta CELLS background
+  useEffect(() => {
+    if (!vantaEffect.current && vantaRef.current) {
+      import('vanta/dist/vanta.cells.min')
+        .then((VANTA) => {
+          import('three').then((THREE) => {
+            vantaEffect.current = (VANTA as any).default({
+              el: vantaRef.current,
+              THREE: THREE,
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color1: 0xE5E7EB,
+              color2: 0x9CA3AF,
+              size: 1.80,
+              speed: 2.00,
+            })
+          })
+        })
+        .catch((err) => console.error('Error loading Vanta:', err))
+    }
+
+    return () => {
+      if (vantaEffect.current) {
+        vantaEffect.current.destroy()
+      }
+    }
+  }, [])
 
   // Academic year and division mapping
   const DIVISION_OPTIONS = {
@@ -162,8 +197,13 @@ export default function SignUp() {
   }
 
   return (
-    <main className="login-page min-h-screen flex items-center justify-center p-6">
-      <div className="login-card-enhanced mac-card p-8 max-w-md w-full login-card-transition">
+    <main className="min-h-screen relative overflow-hidden">
+      {/* Background animation container */}
+      <div ref={vantaRef} className="absolute inset-0 z-0" />
+
+      {/* Centered signup card */}
+      <div className="min-h-screen flex items-center justify-center p-6 relative z-10">
+        <div className="mac-card p-8 max-w-md w-full backdrop-blur-sm bg-white/90 shadow-2xl login-card-transition">
         <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-silver-tree to-sea-nymph shadow-xl">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
@@ -380,6 +420,7 @@ export default function SignUp() {
               Inicia sesión aquí
             </Link>
           </p>
+        </div>
         </div>
       </div>
     </main>

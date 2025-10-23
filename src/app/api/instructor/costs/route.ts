@@ -16,12 +16,15 @@ export const runtime = 'nodejs';
  * - endDate?: ISO date string (YYYY-MM-DD)
  * - subject?: 'Física' | 'Química'
  * - groupBy?: 'day' | 'week' | 'subject' (default: none)
+ * - operationType?: 'feedback' | 'evaluation' | 'all' (default: 'all')
  *
  * Response:
  * {
  *   totalCost: number,
- *   totalFeedbacks: number,
+ *   totalOperations: number,
  *   averageCost: number,
+ *   feedbackCosts?: { totalCost: number, count: number, avgCost: number },
+ *   evaluationCosts?: { totalCost: number, count: number, avgCost: number },
  *   breakdown?: Record<string, { cost: number, count: number }>
  * }
  */
@@ -60,6 +63,7 @@ export async function GET(request: NextRequest) {
     const endDate = searchParams.get('endDate');
     const subject = searchParams.get('subject');
     const groupBy = searchParams.get('groupBy');
+    const operationType = searchParams.get('operationType') || 'all'; // 'feedback', 'evaluation', or 'all'
 
     // 4. Log access
     logDataAccess(
@@ -70,116 +74,139 @@ export async function GET(request: NextRequest) {
       session.user.role || 'unknown'
     );
 
-    // 5. Build WHERE clause
-    let whereClause = 'WHERE apiCost IS NOT NULL';
-    const params: any[] = [];
+    // 5. Build WHERE clause helper
+    const buildDateFilter = (baseWhere: string, params: any[]) => {
+      let where = baseWhere;
+      if (startDate && endDate) {
+        where += ' AND DATE(createdAt) BETWEEN ? AND ?';
+        params.push(startDate, endDate);
+      } else if (period === 'today') {
+        where += ' AND DATE(createdAt) = DATE("now")';
+      } else if (period === 'week') {
+        where += ' AND DATE(createdAt) >= DATE("now", "-7 days")';
+      } else if (period === 'month') {
+        where += ' AND DATE(createdAt) >= DATE("now", "-30 days")';
+      }
+      return where;
+    };
 
-    // Date filtering
-    if (startDate && endDate) {
-      whereClause += ' AND DATE(createdAt) BETWEEN ? AND ?';
-      params.push(startDate, endDate);
-    } else if (period === 'today') {
-      whereClause += ' AND DATE(createdAt) = DATE("now")';
-    } else if (period === 'week') {
-      whereClause += ' AND DATE(createdAt) >= DATE("now", "-7 days")';
-    } else if (period === 'month') {
-      whereClause += ' AND DATE(createdAt) >= DATE("now", "-30 days")';
+    // 6. Get aggregate data based on operationType
+    let stats: any = {};
+    let feedbackStats: any = null;
+    let evaluationStats: any = null;
+
+    if (operationType === 'feedback' || operationType === 'all') {
+      const whereClause = 'WHERE apiCost > 0'; // Only count real costs
+      const params: any[] = [];
+      let finalWhere = buildDateFilter(whereClause, params);
+
+      if (subject) {
+        finalWhere += ' AND subject = ?';
+        params.push(subject);
+      }
+
+      const feedbackResult = await query(`
+        SELECT
+          COUNT(*) as count,
+          SUM(apiCost) as totalCost,
+          AVG(apiCost) as averageCost,
+          MIN(apiCost) as minCost,
+          MAX(apiCost) as maxCost
+        FROM Feedback
+        ${finalWhere}
+      `, params);
+
+      feedbackStats = feedbackResult.rows[0] as any;
     }
 
-    // Subject filtering
-    if (subject) {
-      whereClause += ' AND subject = ?';
-      params.push(subject);
+    if (operationType === 'evaluation' || operationType === 'all') {
+      const whereClause = 'WHERE apiCost > 0'; // Only count real costs
+      const params: any[] = [];
+      let finalWhere = buildDateFilter(whereClause, params);
+
+      if (subject) {
+        finalWhere += ' AND subject LIKE ?';
+        params.push(`${subject}%`); // Match "Física 4to C" format
+      }
+
+      const evaluationResult = await query(`
+        SELECT
+          COUNT(*) as count,
+          SUM(apiCost) as totalCost,
+          AVG(apiCost) as averageCost,
+          MIN(apiCost) as minCost,
+          MAX(apiCost) as maxCost
+        FROM Evaluation
+        ${finalWhere}
+      `, params);
+
+      evaluationStats = evaluationResult.rows[0] as any;
     }
 
-    // 6. Get aggregate data
-    const aggregateResult = await query(`
-      SELECT
-        COUNT(*) as totalFeedbacks,
-        SUM(apiCost) as totalCost,
-        AVG(apiCost) as averageCost,
-        MIN(apiCost) as minCost,
-        MAX(apiCost) as maxCost
-      FROM Feedback
-      ${whereClause}
-    `, params);
+    // Combine stats if operationType is 'all'
+    if (operationType === 'all') {
+      const feedbackCount = parseInt(feedbackStats?.count || 0);
+      const evaluationCount = parseInt(evaluationStats?.count || 0);
+      const feedbackCost = parseFloat(feedbackStats?.totalCost || 0);
+      const evaluationCost = parseFloat(evaluationStats?.totalCost || 0);
 
-    const stats = aggregateResult.rows[0] as any;
+      stats = {
+        totalOperations: feedbackCount + evaluationCount,
+        totalCost: feedbackCost + evaluationCost,
+        averageCost: feedbackCount + evaluationCount > 0
+          ? (feedbackCost + evaluationCost) / (feedbackCount + evaluationCount)
+          : 0,
+        minCost: Math.min(
+          parseFloat(feedbackStats?.minCost || Infinity),
+          parseFloat(evaluationStats?.minCost || Infinity)
+        ),
+        maxCost: Math.max(
+          parseFloat(feedbackStats?.maxCost || 0),
+          parseFloat(evaluationStats?.maxCost || 0)
+        )
+      };
+    } else if (operationType === 'feedback') {
+      stats = {
+        totalOperations: parseInt(feedbackStats?.count || 0),
+        totalCost: parseFloat(feedbackStats?.totalCost || 0),
+        averageCost: parseFloat(feedbackStats?.averageCost || 0),
+        minCost: parseFloat(feedbackStats?.minCost || 0),
+        maxCost: parseFloat(feedbackStats?.maxCost || 0)
+      };
+    } else if (operationType === 'evaluation') {
+      stats = {
+        totalOperations: parseInt(evaluationStats?.count || 0),
+        totalCost: parseFloat(evaluationStats?.totalCost || 0),
+        averageCost: parseFloat(evaluationStats?.averageCost || 0),
+        minCost: parseFloat(evaluationStats?.minCost || 0),
+        maxCost: parseFloat(evaluationStats?.maxCost || 0)
+      };
+    }
 
-    // 7. Get breakdown if requested
-    let breakdown: Record<string, { cost: number; count: number }> | undefined;
+    // 7. Prepare detailed breakdown if operationType is 'all'
+    const response: any = {
+      totalCost: stats.totalCost,
+      totalOperations: stats.totalOperations,
+      averageCost: stats.averageCost,
+      minCost: stats.minCost === Infinity ? 0 : stats.minCost,
+      maxCost: stats.maxCost
+    };
 
-    if (groupBy === 'day') {
-      const dayResult = await query(`
-        SELECT
-          DATE(createdAt) as groupKey,
-          COUNT(*) as count,
-          SUM(apiCost) as cost
-        FROM Feedback
-        ${whereClause}
-        GROUP BY DATE(createdAt)
-        ORDER BY DATE(createdAt) DESC
-      `, params);
-
-      breakdown = {};
-      for (const row of dayResult.rows) {
-        const r = row as any;
-        breakdown[r.groupKey] = {
-          cost: parseFloat(r.cost || 0),
-          count: parseInt(r.count || 0)
-        };
-      }
-    } else if (groupBy === 'week') {
-      const weekResult = await query(`
-        SELECT
-          strftime('%Y-W%W', createdAt) as groupKey,
-          COUNT(*) as count,
-          SUM(apiCost) as cost
-        FROM Feedback
-        ${whereClause}
-        GROUP BY strftime('%Y-W%W', createdAt)
-        ORDER BY strftime('%Y-W%W', createdAt) DESC
-      `, params);
-
-      breakdown = {};
-      for (const row of weekResult.rows) {
-        const r = row as any;
-        breakdown[r.groupKey] = {
-          cost: parseFloat(r.cost || 0),
-          count: parseInt(r.count || 0)
-        };
-      }
-    } else if (groupBy === 'subject') {
-      const subjectResult = await query(`
-        SELECT
-          subject as groupKey,
-          COUNT(*) as count,
-          SUM(apiCost) as cost
-        FROM Feedback
-        ${whereClause}
-        GROUP BY subject
-        ORDER BY SUM(apiCost) DESC
-      `, params);
-
-      breakdown = {};
-      for (const row of subjectResult.rows) {
-        const r = row as any;
-        breakdown[r.groupKey] = {
-          cost: parseFloat(r.cost || 0),
-          count: parseInt(r.count || 0)
-        };
-      }
+    if (operationType === 'all' && feedbackStats && evaluationStats) {
+      response.feedbackCosts = {
+        totalCost: parseFloat(feedbackStats.totalCost || 0),
+        count: parseInt(feedbackStats.count || 0),
+        avgCost: parseFloat(feedbackStats.averageCost || 0)
+      };
+      response.evaluationCosts = {
+        totalCost: parseFloat(evaluationStats.totalCost || 0),
+        count: parseInt(evaluationStats.count || 0),
+        avgCost: parseFloat(evaluationStats.averageCost || 0)
+      };
     }
 
     // 8. Return response
-    return NextResponse.json({
-      totalCost: parseFloat(stats.totalCost || 0),
-      totalFeedbacks: parseInt(stats.totalFeedbacks || 0),
-      averageCost: parseFloat(stats.averageCost || 0),
-      minCost: parseFloat(stats.minCost || 0),
-      maxCost: parseFloat(stats.maxCost || 0),
-      breakdown
-    });
+    return NextResponse.json(response);
 
   } catch (error: any) {
     console.error('❌ Error getting cost stats:', error);

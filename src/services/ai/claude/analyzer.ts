@@ -76,10 +76,10 @@ class EducationalAnalyzer {
     format: 'structured' | 'narrative' = 'structured'
   ): Promise<AnalysisResult> {
     try {
-      // Obtener rúbrica oficial según la fase
-      const rubricaOficial = getRubricaByFase(fase);
+      // Obtener rúbrica apropiada (normal o caso especial) - FASE 3
+      const rubricaOficial = this._seleccionarRubrica(fase, answers);
 
-      // Construir system prompts cacheables con rúbrica de la fase
+      // Construir system prompts cacheables con rúbrica seleccionada
       const systemMessages = this._buildCacheableSystemPrompts(subject, fase, rubricaOficial);
 
       // Construir user message con respuestas (NO se cachea)
@@ -358,6 +358,54 @@ Engagement: [número 0-100]
       .trim();
   }
 
+  /**
+   * Extraer lista de items tipo bullet y limitar a máximo N items
+   *
+   * @param text - Texto con bullets (-, •, 1., 2., etc.)
+   * @param maxItems - Máximo número de items a retornar (default: 3)
+   * @returns String con máximo N items en formato bullet
+   */
+  private _extractBulletPoints(text: string, maxItems: number = 3): string {
+    if (!text || text.trim().length === 0) {
+      return '';
+    }
+
+    // Dividir por líneas
+    const lines = text.split('\n').map(line => line.trim());
+
+    // Identificar líneas que son bullets
+    const bulletLines: string[] = [];
+    let currentItem = '';
+
+    for (const line of lines) {
+      // Detectar si la línea empieza con bullet (-, •, 1., 2., etc.)
+      const isBullet = /^[-•\d]+\.?\s/.test(line);
+
+      if (isBullet) {
+        // Si ya teníamos un item acumulado, guardarlo
+        if (currentItem) {
+          bulletLines.push(currentItem.trim());
+        }
+        // Iniciar nuevo item
+        currentItem = line;
+      } else if (line.length > 0 && currentItem) {
+        // Línea de continuación del item actual
+        currentItem += ' ' + line;
+      }
+    }
+
+    // Agregar último item
+    if (currentItem) {
+      bulletLines.push(currentItem.trim());
+    }
+
+    // Limitar a maxItems
+    const limitedItems = bulletLines.slice(0, maxItems);
+
+    // Retornar con saltos de línea
+    return limitedItems.join('\n');
+  }
+
   private _parseAnalysisResponseWithRubricas(text: string): AnalysisResult {
     // Extraer niveles asignados a cada pregunta (Q1-Q5)
     const extractNivel = (pregunta: string): number => {
@@ -408,30 +456,61 @@ Engagement: [número 0-100]
     // Calcular 5 métricas de habilidades usando fórmulas oficiales
     const skillsMetrics = calcularSkillsMetrics(scores);
 
-    // Extraer fortalezas
-    const strengthsMatch = text.match(/FORTALEZAS:([\s\S]*?)(?=MEJORAS:|COMENTARIOS_GENERALES:|$)/i);
-    const strengths = strengthsMatch
-      ? this._cleanMarkdown(strengthsMatch[1])
-      : 'No se identificaron fortalezas específicas.';
+    // Extraer fortalezas (REGEX MEJORADO - Flexible con o sin ":")
+    // Acepta: "FORTALEZAS:" o "FORTALEZAS" con saltos de línea
+    const strengthsMatch = text.match(/FORTALEZAS:?[\s\n]*([\s\S]*?)(?=MEJORAS:?|COMENTARIOS_GENERALES:?|ANÁLISIS_AI:?|$)/i);
+    let strengths = 'No se identificaron fortalezas específicas.';
 
-    // Extraer mejoras
-    const improvementsMatch = text.match(/MEJORAS:([\s\S]*?)(?=COMENTARIOS_GENERALES:|ANÁLISIS_AI:|$)/i);
-    const improvements = improvementsMatch
-      ? this._cleanMarkdown(improvementsMatch[1])
-      : 'No se identificaron áreas de mejora específicas.';
+    if (strengthsMatch && strengthsMatch[1].trim().length > 0) {
+      const rawStrengths = strengthsMatch[1].trim();
+      // Limpiar markdown primero
+      const cleanedStrengths = this._cleanMarkdown(rawStrengths);
+      // Extraer y limitar a 3 items
+      strengths = this._extractBulletPoints(cleanedStrengths, 3);
 
-    // Extraer comentarios generales
-    const generalCommentsMatch = text.match(/COMENTARIOS_GENERALES:([\s\S]*?)(?=ANÁLISIS_AI:|$)/i);
-    const generalComments = generalCommentsMatch
+      // Si no se extrajo nada (no había bullets), usar el texto limpio completo
+      if (!strengths || strengths.length === 0) {
+        strengths = cleanedStrengths;
+      }
+    }
+
+    // Extraer mejoras (REGEX MEJORADO - Flexible con o sin ":")
+    const improvementsMatch = text.match(/MEJORAS:?[\s\n]*([\s\S]*?)(?=COMENTARIOS_GENERALES:?|ANÁLISIS_AI:?|$)/i);
+    let improvements = 'No se identificaron áreas de mejora específicas.';
+
+    if (improvementsMatch && improvementsMatch[1].trim().length > 0) {
+      const rawImprovements = improvementsMatch[1].trim();
+      // Limpiar markdown primero
+      const cleanedImprovements = this._cleanMarkdown(rawImprovements);
+      // Extraer y limitar a 3 items
+      improvements = this._extractBulletPoints(cleanedImprovements, 3);
+
+      // Si no se extrajo nada (no había bullets), usar el texto limpio completo
+      if (!improvements || improvements.length === 0) {
+        improvements = cleanedImprovements;
+      }
+    }
+
+    // Extraer comentarios generales (REGEX MEJORADO - Flexible con o sin ":")
+    const generalCommentsMatch = text.match(/COMENTARIOS_GENERALES:?[\s\n]*([\s\S]*?)(?=ANÁLISIS_AI:?|$)/i);
+    const generalComments = generalCommentsMatch && generalCommentsMatch[1].trim().length > 0
       ? this._cleanMarkdown(generalCommentsMatch[1])
       : 'Continuar con el trabajo actual y buscar retroalimentación adicional.';
 
-    // Log de debugging
+    // Log de debugging mejorado
     console.log('📊 Evaluación parseada:', {
       niveles,
       scores,
       scoreFinal,
-      skillsMetrics
+      skillsMetrics,
+      sectionsParsed: {
+        strengthsFound: !!strengthsMatch && strengthsMatch[1].trim().length > 0,
+        improvementsFound: !!improvementsMatch && improvementsMatch[1].trim().length > 0,
+        generalCommentsFound: !!generalCommentsMatch && generalCommentsMatch[1].trim().length > 0,
+        strengthsLength: strengths.length,
+        improvementsLength: improvements.length,
+        generalCommentsLength: generalComments.length
+      }
     });
 
     return {
@@ -443,6 +522,86 @@ Engagement: [número 0-100]
       rawAnalysis: this._cleanMarkdown(text),
       actualCost: 0  // Legacy parsing method - no API call made
     };
+  }
+
+  /**
+   * Detectar si es un caso especial (ausencia, sin clases, etc.)
+   * FASE 3: Casos especiales
+   *
+   * @param answers - Respuestas del estudiante
+   * @returns true si es un caso especial, false si es normal
+   */
+  private _detectarCasoEspecial(answers: Answer[]): boolean {
+    // Caso 1: Respuestas muy cortas o vacías (4 de 5 preguntas)
+    const respuestasVacias = answers.filter(a =>
+      !a.answer || a.answer.trim().length < 10
+    ).length;
+
+    if (respuestasVacias >= 4) {
+      console.log('🔍 Caso especial detectado: 4+ respuestas vacías');
+      return true;
+    }
+
+    // Caso 2: Palabras clave de ausencia/sin clases
+    const keywordsAusencia = [
+      'ausente', 'viaje', 'enfermo', 'enferma', 'no asistí', 'no asisti',
+      'sin clases', 'feriado', 'no tuve clase', 'no hubo clase',
+      'receso', 'vacaciones', 'emergencia', 'problema personal',
+      'no pude venir', 'no pude asistir'
+    ];
+
+    const totalText = answers.map(a => a.answer.toLowerCase()).join(' ');
+    const contieneKeyword = keywordsAusencia.some(k =>
+      totalText.includes(k.toLowerCase())
+    );
+
+    if (contieneKeyword) {
+      console.log('🔍 Caso especial detectado: keyword encontrada');
+      return true;
+    }
+
+    // Caso 3: Todas las respuestas son muy similares (copy-paste o "no aplica")
+    const respuestasUnicas = new Set(answers.map(a => a.answer.trim().toLowerCase()));
+    if (respuestasUnicas.size === 1 && answers.length > 1) {
+      const textoUnico = Array.from(respuestasUnicas)[0];
+      // Si todas las respuestas son la misma y contienen "no", "nada", "."
+      if (textoUnico.length < 20 && (
+        textoUnico.includes('no') ||
+        textoUnico === '.' ||
+        textoUnico === '-'
+      )) {
+        console.log('🔍 Caso especial detectado: respuestas idénticas muy cortas');
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Seleccionar rúbrica apropiada según el caso
+   * FASE 3: Casos especiales
+   *
+   * @param fase - Fase metodológica (1-4)
+   * @param answers - Respuestas del estudiante
+   * @returns Rúbrica apropiada (normal o caso especial)
+   */
+  private _seleccionarRubrica(
+    fase: 1 | 2 | 3 | 4,
+    answers: Answer[]
+  ): string {
+    const esCasoEspecial = this._detectarCasoEspecial(answers);
+
+    if (esCasoEspecial) {
+      console.log('📋 Usando RUBRICA_CASO_ESPECIAL');
+      // Importar dinámicamente la rúbrica de casos especiales
+      const { RUBRICA_CASO_ESPECIAL } = require('./prompts/rubricas');
+      return RUBRICA_CASO_ESPECIAL;
+    }
+
+    // Caso normal: usar rúbrica de la fase correspondiente
+    console.log(`📋 Usando rúbrica normal de Fase ${fase}`);
+    return getRubricaByFase(fase);
   }
 
   /**
@@ -498,18 +657,26 @@ Para cada pregunta (Q1-Q5):
 4. Justifica en 2-3 líneas máximo, con ejemplos concretos de lo que escribió el estudiante
 
 Además proporciona:
-- FORTALEZAS: 2-3 puntos concretos. Cada uno en 1-2 líneas, con ejemplos específicos.
-- MEJORAS: 2-3 áreas de mejora. Cada una con problema identificado + sugerencia práctica (1-2 líneas cada una).
-- COMENTARIOS GENERALES: Síntesis en 3-4 líneas. Reconoce lo positivo y orienta hacia la mejora.
-- ANÁLISIS AI: Recomendaciones para la siguiente fase en 4-5 líneas. Concreto y accionable.
+- FORTALEZAS (MÁXIMO 3): Aspectos positivos destacables. Cada uno en 1-2 líneas, con ejemplos específicos de lo que el estudiante escribió.
+- MEJORAS (MÁXIMO 3): Áreas de mejora. Cada una con problema identificado + sugerencia práctica (máximo 3 líneas cada una).
+- COMENTARIOS_GENERALES: Devolución general del reporte semanal (4-6 líneas). Incluye:
+  • Reconocimiento del esfuerzo y lo que hizo bien
+  • Observación sobre su desempeño general en la semana
+  • Orientación constructiva para la próxima semana
+- ANÁLISIS_AI: Recomendaciones técnicas y metodológicas para la siguiente fase (4-6 líneas). Debe ser:
+  • Conexión con la próxima fase del pensamiento crítico
+  • Sugerencias concretas y accionables
+  • Recursos o estrategias específicas para mejorar
 
-REGLAS DE FORMATO:
-- Usa párrafos cortos (máximo 4 líneas)
-- Separa ideas con punto y aparte
-- Lenguaje directo: "Tu respuesta muestra..." en vez de "El estudiante demostró..."
-- Evita bloques de texto gigantes - debe ser fácil de leer
+REGLAS DE FORMATO ESTRICTAS:
+- FORTALEZAS: Usar bullets (- o •). NUNCA más de 3 items.
+- MEJORAS: Usar bullets (- o •). NUNCA más de 3 items.
+- Párrafos cortos (máximo 4 líneas cada uno)
+- Lenguaje directo en 2da persona: "Tu respuesta muestra..." NO "El estudiante demostró..."
+- Separar ideas con punto y aparte para facilitar lectura
+- Evitar bloques de texto gigantes
 
-IMPORTANTE: Sé justo, objetivo y consistente.`,
+IMPORTANTE: Sé justo, objetivo y consistente. La calidad del feedback impacta directamente en el aprendizaje del estudiante.`,
       cache_control: { type: 'ephemeral' }  // ← Cachear la rúbrica (ahorro 90%)
     });
 
@@ -563,24 +730,30 @@ Q5_NIVEL: [1, 2, 3 o 4]
 Q5_JUSTIFICACIÓN: [Explicación en 2-3 líneas con ejemplo concreto]
 
 FORTALEZAS:
-[Párrafo corto 1: Fortaleza específica con ejemplo. Máximo 2 líneas.]
+- [Fortaleza 1: Aspecto positivo específico con ejemplo de lo que escribió. Máximo 2 líneas.]
+- [Fortaleza 2: Segundo aspecto positivo con ejemplo concreto. Máximo 2 líneas.]
+- [Fortaleza 3: Tercer aspecto positivo con ejemplo. Máximo 2 líneas.]
 
-[Párrafo corto 2: Segunda fortaleza con ejemplo. Máximo 2 líneas.]
+IMPORTANTE: MÁXIMO 3 fortalezas. Si identificas más, elige las 3 más relevantes.
 
 MEJORAS:
-[Párrafo 1: Problema identificado + sugerencia práctica. Máximo 3 líneas.]
+- [Mejora 1: Problema identificado + sugerencia práctica específica. Máximo 3 líneas.]
+- [Mejora 2: Segundo problema + cómo mejorarlo de forma concreta. Máximo 3 líneas.]
+- [Mejora 3: Tercer problema + acción clara para resolverlo. Máximo 3 líneas.]
 
-[Párrafo 2: Segundo problema + sugerencia práctica. Máximo 3 líneas.]
+IMPORTANTE: MÁXIMO 3 mejoras. Si identificas más, prioriza las 3 más críticas para el aprendizaje.
 
 COMENTARIOS_GENERALES:
-[Párrafo 1: Reconocimiento de aspectos positivos. 2-3 líneas.]
-
-[Párrafo 2: Orientación hacia la mejora y próximos pasos. 2-3 líneas.]
+[Devolución general del reporte semanal en 4-6 líneas. Este es el feedback principal que el estudiante leerá.
+Párrafo 1: Reconoce el esfuerzo y los logros específicos de esta semana.
+Párrafo 2: Observación sobre su desempeño y evolución.
+Párrafo 3: Orientación constructiva para la próxima semana.]
 
 ANÁLISIS_AI:
-[Párrafo 1: Recomendaciones para la siguiente fase. 2-3 líneas.]
-
-[Párrafo 2: Sugerencias concretas y accionables. 2-3 líneas.]
+[Recomendaciones técnicas y metodológicas para la siguiente fase en 4-6 líneas.
+Párrafo 1: Conexión explícita con la siguiente fase del pensamiento crítico.
+Párrafo 2: Sugerencias concretas de qué practicar o estudiar.
+Párrafo 3: Estrategias o recursos específicos para mejorar.]
 </formato_salida_requerido>`;
   }
 

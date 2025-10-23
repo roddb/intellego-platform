@@ -1,15 +1,16 @@
 # RÚBRICA GENÉRICA PARA CORRECCIÓN DE EXÁMENES
 
 **Sistema**: Intellego Platform - Evaluación Automática
-**Versión**: 1.0
+**Versión**: 1.1
 **Fecha**: Octubre 2025
 **Modelo**: Claude Haiku 4.5
+**Última modificación**: 23 de Octubre 2025 - Eliminada D5 (Verificación), redistribuido 10% equitativamente
 
 ---
 
 ## 🎯 Objetivo de la Rúbrica
 
-Evaluar exámenes de **cualquier materia** (Física, Química, Matemática, etc.) de forma consistente y objetiva usando 5 dimensiones universales de resolución de problemas.
+Evaluar exámenes de **cualquier materia** (Física, Química, Matemática, etc.) de forma consistente y objetiva usando 4 dimensiones universales de resolución de problemas.
 
 Esta rúbrica es **agnóstica del contenido**: evalúa el proceso de pensamiento y resolución, no el conocimiento específico de la materia.
 
@@ -17,15 +18,14 @@ Esta rúbrica es **agnóstica del contenido**: evalúa el proceso de pensamiento
 
 ## 📊 Sistema de Evaluación
 
-### Dimensiones (5 totales)
+### Dimensiones (4 totales)
 
 | Dimensión | Peso | Descripción |
 |-----------|------|-------------|
-| **D1: Comprensión** | 25% | Entendimiento del problema planteado |
-| **D2: Metodología** | 25% | Selección de estrategia/herramientas |
-| **D3: Ejecución** | 25% | Desarrollo y cálculos |
-| **D4: Justificación** | 15% | Razonamiento y explicaciones |
-| **D5: Verificación** | 10% | Análisis crítico de resultados |
+| **D1: Comprensión** | 27.5% | Entendimiento del problema planteado |
+| **D2: Metodología** | 27.5% | Selección de estrategia/herramientas |
+| **D3: Ejecución** | 27.5% | Desarrollo y cálculos |
+| **D4: Justificación** | 17.5% | Razonamiento y explicaciones |
 
 ### Niveles de Desempeño (4 totales)
 
@@ -39,7 +39,7 @@ Esta rúbrica es **agnóstica del contenido**: evalúa el proceso de pensamiento
 ### Cálculo del Score Final
 
 ```
-Score = (D1 × 0.25) + (D2 × 0.25) + (D3 × 0.25) + (D4 × 0.15) + (D5 × 0.10)
+Score = (D1 × 0.275) + (D2 × 0.275) + (D3 × 0.275) + (D4 × 0.175)
 ```
 
 Donde cada D(n) toma el puntaje del nivel asignado (92.5, 77, 62, o 27).
@@ -50,16 +50,15 @@ D1 = Nivel 3 (77)
 D2 = Nivel 4 (92.5)
 D3 = Nivel 2 (62)
 D4 = Nivel 3 (77)
-D5 = Nivel 2 (62)
 
-Score = (77 × 0.25) + (92.5 × 0.25) + (62 × 0.25) + (77 × 0.15) + (62 × 0.10)
-      = 19.25 + 23.125 + 15.5 + 11.55 + 6.2
-      = 75.625 ≈ 76/100
+Score = (77 × 0.275) + (92.5 × 0.275) + (62 × 0.275) + (77 × 0.175)
+      = 21.175 + 25.4375 + 17.05 + 13.475
+      = 77.1375 ≈ 77/100
 ```
 
 ---
 
-## 📋 DIMENSIÓN 1: COMPRENSIÓN DEL PROBLEMA (25%)
+## 📋 DIMENSIÓN 1: COMPRENSIÓN DEL PROBLEMA (27.5%)
 
 **Evalúa**: ¿El estudiante entiende qué se le está pidiendo?
 
@@ -136,7 +135,7 @@ Score = (77 × 0.25) + (92.5 × 0.25) + (62 × 0.25) + (77 × 0.15) + (62 × 0.1
 
 ---
 
-## 📋 DIMENSIÓN 2: METODOLOGÍA Y ESTRATEGIA (25%)
+## 📋 DIMENSIÓN 2: METODOLOGÍA Y ESTRATEGIA (27.5%)
 
 **Evalúa**: ¿El estudiante selecciona las herramientas/fórmulas/estrategias correctas?
 
@@ -214,7 +213,7 @@ Score = (77 × 0.25) + (92.5 × 0.25) + (62 × 0.25) + (77 × 0.15) + (62 × 0.1
 
 ---
 
-## 📋 DIMENSIÓN 3: EJECUCIÓN Y CÁLCULOS (25%)
+## 📋 DIMENSIÓN 3: EJECUCIÓN Y CÁLCULOS (27.5%)
 
 **Evalúa**: ¿El estudiante ejecuta correctamente los pasos seleccionados?
 
@@ -299,7 +298,7 @@ Score = (77 × 0.25) + (92.5 × 0.25) + (62 × 0.25) + (77 × 0.15) + (62 × 0.1
 
 ---
 
-## 📋 DIMENSIÓN 4: JUSTIFICACIÓN Y RAZONAMIENTO (15%)
+## 📋 DIMENSIÓN 4: JUSTIFICACIÓN Y RAZONAMIENTO (17.5%)
 
 **Evalúa**: ¿El estudiante explica su razonamiento lógico?
 
@@ -372,84 +371,6 @@ Score = (77 × 0.25) + (92.5 × 0.25) + (62 × 0.25) + (77 × 0.15) + (62 × 0.1
 
 ---
 
-## 📋 DIMENSIÓN 5: VERIFICACIÓN Y ANÁLISIS CRÍTICO (10%)
-
-**Evalúa**: ¿El estudiante verifica la razonabilidad de su resultado?
-
-### Nivel 4 - EXCELENTE (85-100 → 92.5)
-
-**Descriptor**:
-- Verifica el resultado por método alternativo
-- Analiza la razonabilidad física/lógica
-- Detecta y corrige errores propios
-- Reflexiona sobre el significado del resultado
-
-**Indicadores clave**:
-- ✅ Verificación con otro método (ej: energía, gráfico, límites)
-- ✅ Análisis de "tiene sentido físico?"
-- ✅ Comparación con casos conocidos
-- ✅ Interpretación del resultado
-
-**Ejemplo**:
-> "Verifico con conservación de energía: h_max = Voy²/2g = 100/20 = 5m ✓ coincide.
-> El resultado de 34.64m tiene sentido porque para θ=30° el alcance es menor que para 45°, y sabemos que el máximo teórico sería V0²/g = 40m."
-
----
-
-### Nivel 3 - BUENO (70-84 → 77)
-
-**Descriptor**:
-- Verifica orden de magnitud
-- Analiza razonabilidad básica
-- Sin método alternativo
-- Interpretación breve del resultado
-
-**Indicadores clave**:
-- ✅ Chequeo de "¿tiene sentido?"
-- ⚠️ Sin verificación matemática alternativa
-- ✅ Comentario sobre el resultado
-- ⚠️ Análisis superficial
-
-**Ejemplo**:
-> "El resultado de 34m parece razonable para una pelota lanzada a 20 m/s."
-
----
-
-### Nivel 2 - EN DESARROLLO (55-69 → 62)
-
-**Descriptor**:
-- Verificación mínima o ausente
-- Poca reflexión sobre el resultado
-- No detecta errores propios obvios
-- Sin interpretación
-
-**Indicadores clave**:
-- ⚠️ Verificación muy básica o nula
-- ❌ No analiza razonabilidad
-- ❌ No detecta que resultado es físicamente imposible
-- ⚠️ Solo presenta número final
-
-**Ejemplo**:
-> "Resultado: X = 10m" [sin analizar que es demasiado poco]
-
----
-
-### Nivel 1 - INICIAL (0-54 → 27)
-
-**Descriptor**:
-- Sin verificación alguna
-- No analiza el resultado
-- No detecta errores graves
-- Solo presenta cálculos sin conclusión
-
-**Indicadores clave**:
-- ❌ Cero verificación
-- ❌ No se cuestiona el resultado
-- ❌ Resultado absurdo sin detectar (ej: negativo cuando debe ser positivo)
-- ❌ Sin conclusión
-
----
-
 ## 🎯 Ejemplos Completos de Evaluación
 
 ### Ejemplo 1: Examen Excelente (Score: 92)
@@ -477,13 +398,12 @@ lo que parece razonable para esta velocidad inicial.
 - D2 (Metodología): Nivel 4 (92.5) - Fórmula correcta, justificada
 - D3 (Ejecución): Nivel 4 (92.5) - Cálculos precisos, unidades correctas
 - D4 (Justificación): Nivel 4 (92.5) - Explica por qué usa cada fórmula
-- D5 (Verificación): Nivel 4 (92.5) - Verifica con altura máxima
 
-**Score Final**: 92.5/100
+**Score Final**: (92.5 × 0.275) + (92.5 × 0.275) + (92.5 × 0.275) + (92.5 × 0.175) = 92.5/100
 
 ---
 
-### Ejemplo 2: Examen Bueno (Score: 77)
+### Ejemplo 2: Examen Bueno (Score: 83)
 
 **Misma pregunta**
 
@@ -499,13 +419,12 @@ t = 2·10.6/10 = 2.12 s
 - D2: Nivel 4 (92.5) - Fórmula correcta
 - D3: Nivel 4 (92.5) - Cálculos correctos
 - D4: Nivel 2 (62) - Sin explicaciones
-- D5: Nivel 1 (27) - Sin verificación
 
-**Score Final**: (77×0.25) + (92.5×0.25) + (92.5×0.25) + (62×0.15) + (27×0.10) = 74.7 ≈ 75/100
+**Score Final**: (77 × 0.275) + (92.5 × 0.275) + (92.5 × 0.275) + (62 × 0.175) = 82.9 ≈ 83/100
 
 ---
 
-### Ejemplo 3: En Desarrollo (Score: 62)
+### Ejemplo 3: En Desarrollo (Score: 56)
 
 **Misma pregunta**
 
@@ -519,9 +438,8 @@ t = 2·15/10 = 3 s
 - D2: Nivel 2 (62) - Fórmula incompleta (falta sen(θ))
 - D3: Nivel 2 (62) - Cálculo incorrecto pero metodología visible
 - D4: Nivel 1 (27) - Sin justificación
-- D5: Nivel 1 (27) - Sin verificación
 
-**Score Final**: 53.6 ≈ 54/100
+**Score Final**: (62 × 0.275) + (62 × 0.275) + (62 × 0.275) + (27 × 0.175) = 55.9 ≈ 56/100
 
 ---
 
@@ -543,14 +461,13 @@ t = 2·15/10 = 3 s
     "D1_COMPRENSION": { "nivel": 3, "puntaje": 77, "evidencia": "..." },
     "D2_METODOLOGIA": { "nivel": 4, "puntaje": 92.5, "evidencia": "..." },
     "D3_EJECUCION": { "nivel": 3, "puntaje": 77, "evidencia": "..." },
-    "D4_JUSTIFICACION": { "nivel": 2, "puntaje": 62, "evidencia": "..." },
-    "D5_VERIFICACION": { "nivel": 2, "puntaje": 62, "evidencia": "..." }
+    "D4_JUSTIFICACION": { "nivel": 2, "puntaje": 62, "evidencia": "..." }
   },
-  "totalScore": 76,
+  "totalScore": 77,
   "exerciseAnalysis": [
     {
       "exerciseNumber": 1,
-      "scores": { "D1": 3, "D2": 4, "D3": 3, "D4": 2, "D5": 2 },
+      "scores": { "D1": 3, "D2": 4, "D3": 3, "D4": 2 },
       "feedback": "..."
     }
   ]
@@ -559,4 +476,4 @@ t = 2·15/10 = 3 s
 
 ---
 
-**Fin de la Rúbrica Genérica v1.0**
+**Fin de la Rúbrica Genérica v1.1**

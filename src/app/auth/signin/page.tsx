@@ -1,7 +1,7 @@
 "use client"
 
 import { signIn, getSession } from "next-auth/react"
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 
@@ -15,6 +15,41 @@ export default function SignIn() {
     password: ""
   })
   const router = useRouter()
+  const vantaRef = useRef<HTMLDivElement>(null)
+  const vantaEffect = useRef<any>(null)
+
+  // Initialize Vanta CELLS background
+  useEffect(() => {
+    if (!vantaEffect.current && vantaRef.current) {
+      import('vanta/dist/vanta.cells.min')
+        .then((VANTA) => {
+          import('three').then((THREE) => {
+            vantaEffect.current = (VANTA as any).default({
+              el: vantaRef.current,
+              THREE: THREE,
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color1: 0xE5E7EB,
+              color2: 0x9CA3AF,
+              size: 1.80,
+              speed: 2.00,
+            })
+          })
+        })
+        .catch((err) => console.error('Error loading Vanta:', err))
+    }
+
+    return () => {
+      if (vantaEffect.current) {
+        vantaEffect.current.destroy()
+      }
+    }
+  }, [])
 
   const validateEmail = (email: string) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -81,8 +116,13 @@ export default function SignIn() {
   }
 
   return (
-    <main className="login-page min-h-screen flex items-center justify-center p-6">
-      <div className="login-card-enhanced mac-card p-8 max-w-md w-full login-card-transition">
+    <main className="min-h-screen relative overflow-hidden">
+      {/* Background animation container */}
+      <div ref={vantaRef} className="absolute inset-0 z-0" />
+
+      {/* Centered login card */}
+      <div className="min-h-screen flex items-center justify-center p-6 relative z-10">
+        <div className="mac-card p-8 max-w-md w-full backdrop-blur-sm bg-white/90 shadow-2xl login-card-transition">
         <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-silver-tree to-sea-nymph shadow-xl">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -158,6 +198,7 @@ export default function SignIn() {
               Regístrate aquí
             </Link>
           </p>
+        </div>
         </div>
       </div>
     </main>
