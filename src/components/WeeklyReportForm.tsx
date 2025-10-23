@@ -186,7 +186,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
                 <textarea
                   value={formData.temasYDominio}
                   onChange={(e) => handleChange('temasYDominio', e.target.value)}
-                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
+                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none text-base focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
                     errors.temasYDominio ? 'border-red-300 bg-red-50 dark:bg-red-900/20 dark:border-red-800' : 'border-slate-300 dark:border-slate-600'
                   }`}
                   placeholder="Ejemplo: JavaScript - Nivel 3: Puedo crear funciones complejas y trabajar con arrays, pero aún me cuesta con async/await..."
@@ -235,7 +235,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
                 <textarea
                   value={formData.evidenciaAprendizaje}
                   onChange={(e) => handleChange('evidenciaAprendizaje', e.target.value)}
-                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
+                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none text-base focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
                     errors.evidenciaAprendizaje ? 'border-red-300 bg-red-50 dark:bg-red-900/20 dark:border-red-800' : 'border-slate-300 dark:border-slate-600'
                   }`}
                   placeholder="Ejemplo: Resolví un ejercicio de ordenamiento de arrays. El problema era ordenar una lista de estudiantes por nota..."
@@ -284,7 +284,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
                 <textarea
                   value={formData.dificultadesEstrategias}
                   onChange={(e) => handleChange('dificultadesEstrategias', e.target.value)}
-                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
+                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none text-base focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
                     errors.dificultadesEstrategias ? 'border-red-300 bg-red-50 dark:bg-red-900/20 dark:border-red-800' : 'border-slate-300 dark:border-slate-600'
                   }`}
                   placeholder="Ejemplo: Me resultó difícil entender los closures en JavaScript. Para superarlo, practiqué con ejemplos simples..."
@@ -333,7 +333,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
                 <textarea
                   value={formData.conexionesAplicacion}
                   onChange={(e) => handleChange('conexionesAplicacion', e.target.value)}
-                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
+                  className={`w-full px-3 py-2 border rounded-lg h-32 resize-none text-base focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-900 dark:text-slate-100 ${
                     errors.conexionesAplicacion ? 'border-red-300 bg-red-50 dark:bg-red-900/20 dark:border-red-800' : 'border-slate-300 dark:border-slate-600'
                   }`}
                   placeholder="Ejemplo: Los arrays se conectan con lo que vimos de bases de datos porque son como tablas..."
@@ -382,7 +382,7 @@ export default function WeeklyReportForm({ subject, onSubmissionSuccess, classNa
                 <textarea
                   value={formData.comentariosAdicionales}
                   onChange={(e) => handleChange('comentariosAdicionales', e.target.value)}
-                  className="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 rounded-lg h-24 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  className="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 rounded-lg h-24 resize-none text-base focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   placeholder="Comentarios adicionales, sugerencias, dudas..."
                   disabled={isLoading}
                 />

@@ -8,6 +8,12 @@ import { Providers } from '@/components/Providers'
 export const metadata: Metadata = {
   title: 'Intellego Platform',
   description: 'Student progress management platform',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 }
 
 export default async function RootLayout({

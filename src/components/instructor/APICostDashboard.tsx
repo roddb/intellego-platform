@@ -317,7 +317,7 @@ export default function APICostDashboard() {
                   <h4 className="text-sm font-semibold text-slate-700 mb-3">
                     Desglose detallado
                   </h4>
-                  <div className="bg-slate-50 rounded-lg overflow-hidden">
+                  <div className="bg-slate-50 rounded-lg overflow-x-auto">
                     <table className="w-full">
                       <thead className="bg-slate-100">
                         <tr>

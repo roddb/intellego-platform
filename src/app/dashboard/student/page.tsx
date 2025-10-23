@@ -512,12 +512,12 @@ export default function StudentDashboard() {
                                   : 'bg-slate-50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
                               }`}
                             >
-                              <div className="flex items-center justify-between">
-                                <span className="font-medium">
+                              <div className="flex items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
+                                <span className="font-medium text-xs sm:text-sm">
                                   Semana {index + 1} ({weekStartStr} - {weekEndStr}) ART
                                 </span>
-                                <div className="flex items-center gap-2">
-                                  <span className="text-xs font-medium">
+                                <div className="flex items-center gap-2 flex-shrink-0">
+                                  <span className="text-xs font-medium whitespace-nowrap">
                                     {week.hasReport ? '✅ Enviado' :
                                      week.isPastWeek ? '🔴 Atrasado' :
                                      week.isCurrentWeek ? '🟡 Actual' :
