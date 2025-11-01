@@ -68,6 +68,29 @@ function parseDateFromFilename(dateStr: string): string {
   return `${year}-${month}-${day}`;
 }
 
+// Parse subject to extract academic year and division
+// Examples: "Física 5to A" -> { academicYear: "5to Año", division: "A" }
+//           "Química 4to C" -> { academicYear: "4to Año", division: "C" }
+//           "Matemática" -> null
+function parseSubjectCourse(subject: string): { academicYear: string; division: string } | null {
+  // Pattern: Subject Name + Year + Division
+  // Examples: "Física 5to A", "Química 4to C", "Biología 3ro B"
+  const match = subject.match(/(\d)(?:to|ro)\s*([A-Z])/);
+
+  if (!match) {
+    return null;
+  }
+
+  const yearNum = match[1];
+  const division = match[2];
+
+  // Convert to academic year format
+  // 3ro -> 3er Año, 4to -> 4to Año, 5to -> 5to Año
+  const academicYear = yearNum === '3' ? '3er Año' : `${yearNum}to Año`;
+
+  return { academicYear, division };
+}
+
 // Extract score from markdown content
 function extractScore(markdown: string): number {
   // Look for patterns like "Nota: 58/100" or "### Nota: 68.0/100"
@@ -81,21 +104,40 @@ function extractScore(markdown: string): number {
   return 0;
 }
 
-// Find student by name in database
-async function findStudent(firstName: string, lastName: string): Promise<Student | null> {
+// Find student by name in database with optional course filters
+async function findStudent(
+  firstName: string,
+  lastName: string,
+  academicYear?: string,
+  division?: string
+): Promise<Student | null> {
   try {
-    // Try exact match first
-    const result = await db.execute({
-      sql: `SELECT id, name, email FROM User
-            WHERE role = 'STUDENT'
-            AND (name LIKE ? OR name LIKE ? OR name LIKE ?)
-            LIMIT 1`,
-      args: [
-        `%${firstName}%${lastName}%`,
-        `%${lastName}%${firstName}%`,
-        `%${firstName.toUpperCase()}%${lastName.toUpperCase()}%`
-      ]
-    });
+    // Build query with optional filters
+    let sql = `SELECT id, name, email, academicYear, division FROM User
+               WHERE role = 'STUDENT'
+               AND (name LIKE ? OR name LIKE ? OR name LIKE ?)`;
+
+    const args: (string | number)[] = [
+      `%${firstName}%${lastName}%`,
+      `%${lastName}%${firstName}%`,
+      `%${firstName.toUpperCase()}%${lastName.toUpperCase()}%`
+    ];
+
+    // Add academic year filter if provided
+    if (academicYear) {
+      sql += ` AND academicYear = ?`;
+      args.push(academicYear);
+    }
+
+    // Add division filter if provided
+    if (division) {
+      sql += ` AND division = ?`;
+      args.push(division);
+    }
+
+    sql += ` LIMIT 1`;
+
+    const result = await db.execute({ sql, args });
 
     if (result.rows.length > 0) {
       const row = result.rows[0];
@@ -168,6 +210,15 @@ async function importEvaluations(
 
   console.log(`📄 Found ${mdFiles.length} markdown files\n`);
 
+  // Parse subject to get academic year and division
+  const courseInfo = parseSubjectCourse(subject);
+  if (courseInfo) {
+    console.log(`📚 Extracted course info: ${courseInfo.academicYear} ${courseInfo.division}\n`);
+  } else {
+    console.log(`⚠️  Could not extract course info from subject: ${subject}`);
+    console.log(`   Script will search students without year/division filters\n`);
+  }
+
   let successCount = 0;
   let skipCount = 0;
   let errorCount = 0;
@@ -184,10 +235,19 @@ async function importEvaluations(
       continue;
     }
 
-    // Find student
-    const student = await findStudent(parsedFile.firstName, parsedFile.lastName);
+    // Find student with course filters if available
+    const student = await findStudent(
+      parsedFile.firstName,
+      parsedFile.lastName,
+      courseInfo?.academicYear,
+      courseInfo?.division
+    );
+
     if (!student) {
-      console.log(`   ❌ Student not found: ${parsedFile.firstName} ${parsedFile.lastName}`);
+      const courseFilter = courseInfo
+        ? ` (${courseInfo.academicYear} ${courseInfo.division})`
+        : '';
+      console.log(`   ❌ Student not found: ${parsedFile.firstName} ${parsedFile.lastName}${courseFilter}`);
       errorCount++;
       continue;
     }
