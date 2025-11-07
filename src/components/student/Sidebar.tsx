@@ -8,6 +8,7 @@ import {
   TrendingUp,
   ClipboardCheck,
   MessageSquare,
+  BookOpen,
   ChevronLeft,
   ChevronRight,
   Menu,
@@ -15,19 +16,29 @@ import {
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
-type TabType = 'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks'
+type TabType = 'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks' | 'projects' | 'resources'
 
 interface SidebarProps {
   activeTab: TabType
   onTabChange: (tab: TabType) => void
   userName?: string
+  variant?: 'secondary' | 'consudec'
 }
 
-export default function Sidebar({ activeTab, onTabChange, userName }: SidebarProps) {
+export default function Sidebar({ activeTab, onTabChange, userName, variant = 'secondary' }: SidebarProps) {
   const [isCollapsed, setIsCollapsed] = useState(true)
   const [isMobileOpen, setIsMobileOpen] = useState(false)
 
-  const menuItems = [
+  // Menu items differ based on variant
+  const menuItems = variant === 'consudec' ? [
+    { id: 'projects' as TabType, label: 'Proyectos', icon: FileText, color: 'text-blue-600', bgColor: 'bg-blue-50', hoverColor: 'hover:bg-blue-100' },
+    { id: 'resources' as TabType, label: 'Recursos', icon: BookOpen, color: 'text-cyan-600', bgColor: 'bg-cyan-50', hoverColor: 'hover:bg-cyan-100' },
+    { id: 'feedbacks' as TabType, label: 'Devoluciones', icon: MessageSquare, color: 'text-purple-600', bgColor: 'bg-purple-50', hoverColor: 'hover:bg-purple-100' },
+    { id: 'progress' as TabType, label: 'Progreso', icon: TrendingUp, color: 'text-green-600', bgColor: 'bg-green-50', hoverColor: 'hover:bg-green-100' },
+    { id: 'history' as TabType, label: 'Historial', icon: History, color: 'text-orange-600', bgColor: 'bg-orange-50', hoverColor: 'hover:bg-orange-100' },
+    { id: 'evaluations' as TabType, label: 'Evaluaciones', icon: ClipboardCheck, color: 'text-indigo-600', bgColor: 'bg-indigo-50', hoverColor: 'hover:bg-indigo-100' },
+    { id: 'profile' as TabType, label: 'Perfil', icon: User, color: 'text-gray-600', bgColor: 'bg-gray-50', hoverColor: 'hover:bg-gray-100' },
+  ] : [
     { id: 'reports' as TabType, label: 'Reportes', icon: FileText, color: 'text-blue-600', bgColor: 'bg-blue-50', hoverColor: 'hover:bg-blue-100' },
     { id: 'feedbacks' as TabType, label: 'Retroalimentaciones', icon: MessageSquare, color: 'text-purple-600', bgColor: 'bg-purple-50', hoverColor: 'hover:bg-purple-100' },
     { id: 'progress' as TabType, label: 'Progreso', icon: TrendingUp, color: 'text-green-600', bgColor: 'bg-green-50', hoverColor: 'hover:bg-green-100' },
