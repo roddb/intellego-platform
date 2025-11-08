@@ -4,6 +4,162 @@ Complete development history and updates for the Intellego Platform.
 
 ## 📅 Development Timeline
 
+### November 8, 2025 - Sección Recursos con Material Educativo Interactivo
+
+#### Sistema de Recursos Educativos para CONSUDEC
+- ✅ **Componente RepasoExamen**: Material interactivo de repaso de Bioelectricidad con 18 slides
+- ✅ **ResourcesPanel**: Panel expandible para recursos educativos con soporte iframe y componentes
+- ✅ **Tab Recursos en Sidebar**: Nueva opción en menú CONSUDEC con icono BookOpen
+- ✅ **Presentación Interactiva**: Navegación completa con animaciones y gráficos profesionales
+- ✅ **3 Casos Clínicos Completos**: Hipermagnesemia, Neuropatía Diabética, Botulismo
+
+**Contenido del Material:**
+- Portada y vista general de casos
+- Caso 1: El Paciente en Diálisis (Ecuación de Nernst, potencial de equilibrio, excitabilidad celular)
+- Caso 2: Neuropatía Diabética (Velocidad de conducción nerviosa, desmielinización, fisiopatología)
+- Caso 3: Intoxicación Alimentaria (Toxina botulínica, proteínas SNARE, transmisión sináptica)
+- Cierre con resumen de conceptos clave
+
+**Características Técnicas:**
+- 18 slides interactivas con navegación (anterior/siguiente/inicio)
+- Barra de progreso visual
+- Animaciones fluidas con Framer Motion
+- Gráficos de datos con Recharts (velocidad de conducción)
+- Client-side rendering con dynamic imports (SSR disabled)
+- Responsive design con Tailwind CSS
+- Dark mode support
+
+**Technical Implementation:**
+- RepasoExamen.tsx como client component standalone (1198 líneas)
+- ResourcesPanel con Headless UI Disclosure para expandir/colapsar
+- Dynamic import: `const RepasoExamen = dynamic(() => import('./RepasoExamen'), { ssr: false })`
+- Interface extendida para soportar tanto iframe como componentes React
+- Manejo de errores de carga con UI de fallback
+
+**Files Created:**
+- `/src/components/student-consudec/RepasoExamen.tsx` (1198 líneas) - Componente de presentación interactiva
+- `/src/components/student-consudec/ResourcesPanel.tsx` (131 líneas) - Panel de recursos
+- `/src/app/dashboard/student-consudec/page.tsx` (422 líneas) - Dashboard CONSUDEC completo
+
+**Files Modified:**
+- `/src/components/student/Sidebar.tsx` - Agregado tab "Recursos" (cyan-600) en posición 2 para variante CONSUDEC
+
+**Librerías Utilizadas:**
+- Framer Motion: Animaciones y transiciones
+- Recharts: Gráficos de barras y líneas
+- Lucide React: Iconografía (Calculator, Activity, Zap, BookOpen, etc.)
+- Headless UI: Componente Disclosure para expandir/colapsar
+
+**Datos Visualizados:**
+- Potencial de acción (normal vs alterado)
+- Velocidad de conducción (Aα: 90 m/s, Aβ: 50 m/s, C normal: 1.5 m/s, C diabética: 0.5 m/s)
+- Comparaciones clínicas entre condiciones normales y patológicas
+
+**Testing Status:**
+- ✅ Componente compila sin errores TypeScript
+- ✅ Servidor de desarrollo iniciado exitosamente
+- ✅ Navegación entre slides funcional
+- ✅ Animaciones y transiciones fluidas
+- ✅ Gráficos renderizando correctamente
+
+**Migration Notes:**
+- Solución inicial intentó iframe de claude.site pero fue bloqueada por X-Frame-Options
+- Pivotado a componente React nativo con todo el código embebido
+- Evita problemas de CORS y restricciones de seguridad de iframes externos
+
+---
+
+### November 7, 2025 - Dashboard CONSUDEC para Formación Docente
+
+#### Sistema de Dashboard Diferenciado para CONSUDEC
+- ✅ **Dashboard Profesional**: Creado dashboard específico para estudiantes del profesorado CONSUDEC
+- ✅ **Sistema de Proyectos**: Reemplaza reportes semanales por trabajos prácticos de mayor duración
+- ✅ **Formulario Adaptado**: 5 preguntas reflexivas específicas para formación docente
+- ✅ **Rúbricas de Evaluación IA**: Sistema de evaluación con 5 criterios ponderados para proyectos docentes
+- ✅ **Ruteo Automático**: Redirección automática según sede del estudiante (CONSUDEC vs secundaria)
+- ✅ **Sidebar Diferenciado**: Menús adaptados ("Proyectos" vs "Reportes", "Devoluciones" vs "Retroalimentaciones")
+- ✅ **Fix Impersonación**: Corregido bug crítico que impedía visualización correcta durante impersonación
+
+**Preguntas del Formulario CONSUDEC:**
+1. Descripción del trabajo/proyecto realizado (objetivos, metodología, resultados)
+2. Estrategias didácticas implementadas (fundamentación pedagógica)
+3. Dificultades encontradas y cómo las abordaste (reflexión crítica)
+4. Aprendizajes clave de esta experiencia (metacognición docente)
+5. Aplicación en tu futura práctica docente (proyección y transferencia)
+
+**Sistema de Rúbricas con IA:**
+- Claridad y completitud de la descripción (20%)
+- Estrategias didácticas (25%)
+- Reflexión sobre la práctica (25%)
+- Aprendizajes construidos (15%)
+- Proyección y transferencia (15%)
+
+**Technical Implementation:**
+- Arquitectura de rutas separadas: `/dashboard/student` (secundaria) vs `/dashboard/student-consudec` (profesorado)
+- Componente `Sidebar` con prop `variant: 'secondary' | 'consudec'` para adaptar menús
+- Tipos TypeScript extendidos en `next-auth.d.ts` con campos `sede`, `academicYear`, `division`, `subjects` en objeto `impersonating`
+- Sistema de prompts para Claude AI con rúbricas estructuradas en `/src/lib/consudec-rubric-prompts.ts`
+- Protecciones simétricas de redirección en ambos dashboards con soporte para impersonación
+
+**Files Created:**
+- `/src/app/dashboard/student-consudec/page.tsx` (309 líneas) - Dashboard principal CONSUDEC
+- `/src/components/student-consudec/ProjectSubmissionForm.tsx` (485 líneas) - Formulario de trabajos prácticos
+- `/src/lib/consudec-rubric-prompts.ts` (254 líneas) - Sistema de rúbricas y prompts IA
+
+**Files Modified:**
+- `/src/app/dashboard/student/page.tsx` - Redirección a CONSUDEC si `sede === "CONSUDEC"`
+- `/src/app/auth/signin/page.tsx` - Ruteo post-login según sede
+- `/src/components/student/Sidebar.tsx` - Añadido variant prop con menús diferenciados
+- `/src/components/instructor/StudentImpersonationPanel.tsx` - Ruteo correcto durante impersonación
+- `/src/types/next-auth.d.ts` - Campos completos en objeto `impersonating` (sede, academicYear, division, subjects)
+
+**Bug Fixes (Impersonación):**
+1. **Fix #1**: Condición `!isImpersonating` bloqueaba redirección → Cambiado a `(isStudent || isImpersonating)`
+2. **Fix #2**: Protección asimétrica en student-consudec → Ahora solo redirige estudiantes reales no-CONSUDEC
+3. **Fix #3**: Tipos incompletos en NextAuth → Añadidos campos faltantes en objeto `impersonating`
+
+**Testing Status:**
+- ✅ Impersonación de Paula Sidabra (EST-2025-1755, CONSUDEC) redirige correctamente a `/dashboard/student-consudec`
+- ✅ Dashboard muestra interfaz profesional sin emojis
+- ✅ Sidebar muestra tabs correctos: Proyectos, Devoluciones, Progreso, Historial, Evaluaciones, Perfil
+- ✅ TypeScript y ESLint checks pasando sin errores
+
+**Pending:**
+- ⚠️ **Endpoint API**: `/api/consudec/projects` para guardar entregas de trabajos prácticos
+- ⚠️ **Integración IA**: Conectar evaluación automática con Claude AI usando rúbricas
+- ⚠️ **Páginas secundarias**: Adaptar Progress y Evaluations específicamente para CONSUDEC
+
+---
+
+### November 7, 2025 - User Management System for Instructors
+
+#### Instructor User Management Feature
+- ✅ **Add User Functionality**: Instructors can now create new users (students, instructors, admins) directly from dashboard
+- ✅ **Delete User Functionality**: Instructors can delete users with safety confirmations and audit logging
+- ✅ **Auto-Generated Student IDs**: Student IDs now auto-generate following pattern `EST-{YEAR}-{NUMBER}` (e.g., EST-2025-042)
+- ✅ **Role-Based Restrictions**: Instructors cannot create/delete admin users; cannot delete their own account
+- ✅ **Security Implementation**: Full authentication, authorization checks, and audit trail logging
+- ✅ **UI/UX Design**: Tabbed modal interface with search, filters, and confirmation dialogs
+
+**Technical Implementation:**
+- Zod validation schema for input validation
+- `generateStudentId()` function finds highest existing ID and increments
+- Cascading deletes for related data (reports, evaluations)
+- Real-time user list refresh after operations
+- Confirmation workflow requiring email typing for deletions
+
+**Files Created:**
+- `/src/app/api/instructor/users/create/route.ts` - POST endpoint for creating users
+- `/src/app/api/instructor/users/delete/route.ts` - DELETE endpoint for removing users
+- `/src/components/instructor/UserManagementModal.tsx` - Complete UI component with tabs
+
+**Files Modified:**
+- `/src/app/dashboard/instructor/page.tsx` - Added "Gestión de Usuarios" button and modal integration
+- `/package.json` - Added zod dependency for validation
+
+**Dependencies Added:**
+- `zod@^3.23.8` - Schema validation library
+
 ### September 5, 2025 - Student Progress Visualization Overhaul
 
 #### Radar Chart to Progress Rings Migration
