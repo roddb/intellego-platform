@@ -19,6 +19,11 @@ import {
   nivelAPuntaje,
   PONDERACIONES
 } from './prompts/rubricas';
+import {
+  applyContextualAdjustmentToReport,
+  type ReportContextualAdjustment
+} from '../contextual-adjuster-reports';
+import Anthropic from '@anthropic-ai/sdk';
 
 // Tipos de datos
 export interface Answer {
@@ -49,6 +54,7 @@ export interface AnalysisResult {
   skillsMetrics: SkillsMetrics; // 5 métricas de habilidades transversales
   rawAnalysis: string;        // Análisis completo de Claude
   actualCost: number;         // Costo real de la llamada a Claude API (en USD)
+  contextualAdjustment?: ReportContextualAdjustment; // Ajuste contextual opcional
 }
 
 /**
@@ -64,16 +70,26 @@ class EducationalAnalyzer {
    * - Evaluación por pregunta con niveles 1-4 según descriptores
    * - Cálculo automático de score ponderado y métricas
    *
+   * FASE 5: Ajuste Contextual (NUEVO)
+   * - Aplica "sentido común pedagógico" a evaluaciones estrictas
+   * - Ajusta score y métricas considerando reflexión genuina
+   * - Diferencia errores de forma vs falta de comprensión
+   *
    * @param answers - Respuestas del estudiante (Q1-Q5)
    * @param subject - Materia (ej: "Física", "Química")
    * @param fase - Fase metodológica del reporte (1-4)
    * @param format - Formato de respuesta ('structured' | 'narrative')
+   * @param options - Opciones adicionales (applyContextualAdjustment, weekStart)
    */
   async analyzeAnswers(
     answers: Answer[],
     subject: string,
     fase: 1 | 2 | 3 | 4,
-    format: 'structured' | 'narrative' = 'structured'
+    format: 'structured' | 'narrative' = 'structured',
+    options?: {
+      applyContextualAdjustment?: boolean;
+      weekStart?: string;
+    }
   ): Promise<AnalysisResult> {
     try {
       // Obtener rúbrica apropiada (normal o caso especial) - FASE 3
@@ -127,11 +143,61 @@ class EducationalAnalyzer {
         }
       });
 
-      // Retornar análisis con costo real incluido
-      return {
-        ...analysis,
-        actualCost
-      };
+      // FASE 5: Aplicar ajuste contextual si está habilitado
+      let contextualAdjustment: ReportContextualAdjustment | undefined;
+      let finalAnalysis = { ...analysis, actualCost };
+
+      if (options?.applyContextualAdjustment) {
+        console.log('🔄 Aplicando ajuste contextual...');
+
+        // Inicializar cliente de Anthropic
+        const anthropic = new Anthropic({
+          apiKey: process.env.ANTHROPIC_API_KEY || '',
+        });
+
+        // Extraer solo las respuestas de texto
+        const studentAnswers = answers.map(a => a.answer);
+
+        try {
+          contextualAdjustment = await applyContextualAdjustmentToReport(
+            {
+              score: analysis.score,
+              generalComments: analysis.generalComments,
+              strengths: analysis.strengths,
+              improvements: analysis.improvements,
+              skillsMetrics: analysis.skillsMetrics,
+              rawAnalysis: analysis.rawAnalysis,
+            },
+            studentAnswers,
+            subject,
+            options.weekStart || new Date().toISOString().split('T')[0],
+            anthropic
+          );
+
+          // Actualizar score y métricas con valores ajustados
+          finalAnalysis = {
+            ...analysis,
+            score: contextualAdjustment.adjustedScore,
+            skillsMetrics: contextualAdjustment.adjustedMetrics,
+            actualCost: actualCost + contextualAdjustment.costInfo.cost,
+            contextualAdjustment,
+          };
+
+          console.log('✅ Ajuste contextual aplicado:', {
+            scoreAdjustment: contextualAdjustment.adjustment,
+            metricsAdjusted: contextualAdjustment.metricsAdjusted,
+            additionalCost: contextualAdjustment.costInfo.cost,
+          });
+        } catch (adjustmentError: unknown) {
+          if (adjustmentError instanceof Error) {
+            console.error('⚠️ Error en ajuste contextual:', adjustmentError.message);
+          }
+          console.log('ℹ️ Continuando con análisis estricto (sin ajuste)');
+        }
+      }
+
+      // Retornar análisis (con o sin ajuste)
+      return finalAnalysis;
 
     } catch (error: any) {
       console.error('❌ Error en análisis educativo:', error.message);

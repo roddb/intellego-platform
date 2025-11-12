@@ -36,6 +36,7 @@
     "google-auth-library": "^10.2.1",
     "googleapis": "^155.0.1",
     "jszip": "^3.10.1",
+    "katex": "^0.16.25",
     "lucide-react": "^0.523.0",
     "next": "^15.3.4",
     "next-auth": "^5.0.0-beta.29",
@@ -46,9 +47,10 @@
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.6.0",
+    "react-katex": "^3.1.0",
     "react-loading-skeleton": "^3.5.0",
     "react-markdown": "^10.1.0",
-    "recharts": "^3.2.1",
+    "recharts": "^3.3.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
     "sqlite3": "^5.1.7",
@@ -56,9 +58,11 @@
     "three": "^0.180.0",
     "typescript": "^5.8.3",
     "vanta": "^0.5.24",
-    "winston": "^3.18.3"
+    "winston": "^3.18.3",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
+    "@types/katex": "^0.16.7",
     "@types/nodemailer": "^6.4.17",
     "better-sqlite3": "^12.2.0",
     "ignore-loader": "^0.1.2",

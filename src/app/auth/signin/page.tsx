@@ -106,6 +106,13 @@ export default function SignIn() {
         const session = await getSession()
         if (session?.user?.role === "INSTRUCTOR") {
           router.push("/dashboard/instructor")
+        } else if (session?.user?.role === "STUDENT") {
+          // Redirigir según sede
+          if (session.user.sede === "CONSUDEC") {
+            router.push("/dashboard/student-consudec")
+          } else {
+            router.push("/dashboard/student")
+          }
         } else {
           router.push("/dashboard/student")
         }

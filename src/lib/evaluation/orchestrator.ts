@@ -11,6 +11,7 @@ import { analyzeExam } from "./analyzer";
 import { calculateScore } from "./calculator";
 import { generateFeedback } from "./generator";
 import { uploadEvaluation } from "./uploader";
+import { applyContextualAdjustment } from "./contextual-adjuster";
 import type { ExamMetadata, ProcessingResult, EvaluationRecord } from "./types";
 import { EvaluationError } from "./types";
 import { query } from "@/lib/db";
@@ -20,6 +21,12 @@ import {
   markFileProcessed,
   markBatchFailed,
 } from "./progress-tracker";
+import Anthropic from '@anthropic-ai/sdk';
+
+// Inicializar cliente de Anthropic (singleton)
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY || '',
+});
 
 /**
  * Procesa un examen completo de principio a fin
@@ -28,7 +35,8 @@ import {
  * 1. Parser: Archivo .md → ParsedExam
  * 2. Matcher: Apellido → Student
  * 3. Analyzer: Claude Haiku evalúa con rúbrica 5-FASE
- * 4. Calculator: Calcula nota ponderada
+ * 4. Calculator: Calcula nota ponderada (score estricto)
+ * 4.5. Contextual Adjuster: Aplica ajuste contextual con "sentido común pedagógico" (NUEVO)
  * 5. Generator: Genera feedback en Markdown
  * 6. Uploader: Guarda en tabla Evaluation
  *
@@ -69,20 +77,43 @@ export async function processExam(
     const analysis = await analyzeExam(parsedExam, student, metadata);
 
     // 4. Calculator
-    console.log("  [4/6] Calculando nota ponderada...");
+    console.log("  [4/7] Calculando nota ponderada (score estricto)...");
     if (batchId) updateCurrentFile(batchId, file.name, "Calculando nota");
     const grading = calculateScore(analysis.scores);
 
-    console.log(`  ✓ Nota calculada: ${grading.score}/100`);
+    console.log(`  ✓ Nota estricta calculada: ${grading.score}/100`);
+
+    // 4.5. Contextual Adjuster (NUEVO)
+    console.log("  [5/7] Aplicando ajuste contextual...");
+    if (batchId) updateCurrentFile(batchId, file.name, "Aplicando ajuste contextual");
+    const contextualAdjustment = await applyContextualAdjustment(
+      grading.score,
+      analysis.scores,
+      analysis.exerciseAnalysis,
+      parsedExam.rawContent,
+      anthropic
+    );
+
+    // Agregar ajuste al análisis
+    analysis.contextualAdjustment = contextualAdjustment;
+
+    console.log(
+      `  ✓ Ajuste aplicado: ${grading.score.toFixed(1)} → ${contextualAdjustment.adjustedScore.toFixed(1)} (${contextualAdjustment.adjustment >= 0 ? '+' : ''}${contextualAdjustment.adjustment.toFixed(1)})`
+    );
+
+    // Actualizar grading con el score ajustado
+    const finalGrading = {
+      score: contextualAdjustment.adjustedScore,
+    };
 
     // 5. Generator
-    console.log("  [5/6] Generando feedback en Markdown...");
+    console.log("  [6/7] Generando feedback en Markdown...");
     if (batchId) updateCurrentFile(batchId, file.name, "Generando feedback");
     const feedbackMarkdown = generateFeedback(
       student,
       metadata,
       analysis,
-      grading,
+      finalGrading,
       instructorName
     );
 
@@ -91,14 +122,23 @@ export async function processExam(
     );
 
     // 6. Uploader
-    console.log("  [6/6] Guardando en base de datos...");
+    console.log("  [7/7] Guardando en base de datos...");
     if (batchId) updateCurrentFile(batchId, file.name, "Guardando en DB");
+
+    // Combinar costos de análisis + ajuste contextual
+    const totalCostInfo = {
+      ...analysis.costInfo,
+      cost: analysis.costInfo.cost + contextualAdjustment.costInfo.cost,
+      tokensInput: analysis.costInfo.tokensInput + contextualAdjustment.costInfo.tokensInput,
+      tokensOutput: analysis.costInfo.tokensOutput + contextualAdjustment.costInfo.tokensOutput,
+    };
+
     const evaluationRecord = await uploadEvaluation(
       student,
       metadata,
-      grading,
+      finalGrading,
       feedbackMarkdown,
-      analysis.costInfo
+      totalCostInfo
     );
 
     const duration = Date.now() - startTime;
@@ -112,7 +152,7 @@ export async function processExam(
       markFileProcessed(batchId, file.name, {
         status: "success",
         studentName: student.name,
-        score: grading.score,
+        score: contextualAdjustment.adjustedScore,
       });
     }
 
@@ -120,7 +160,7 @@ export async function processExam(
       fileName: file.name,
       studentName: student.name,
       evaluationId: evaluationRecord.id,
-      score: grading.score,
+      score: contextualAdjustment.adjustedScore,
       status: "success",
       duration,
     };

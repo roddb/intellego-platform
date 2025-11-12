@@ -103,6 +103,19 @@ export interface APICostInfo {
 }
 
 /**
+ * Ajuste contextual (sistema de "sentido común pedagógico")
+ */
+export interface ContextualAdjustment {
+  originalScore: number; // Score estricto de la rúbrica
+  adjustedScore: number; // Score final ajustado
+  adjustment: number; // Diferencia (-10 a +10)
+  justification: string; // Explicación del ajuste
+  evidenceForAdjustment: string; // Cita específica de la respuesta
+  appliedAt: Date; // Timestamp del ajuste
+  costInfo: APICostInfo; // Costo de la llamada de ajuste
+}
+
+/**
  * Resultado del AI Analyzer
  */
 export interface AIAnalysis {
@@ -110,6 +123,7 @@ export interface AIAnalysis {
   exerciseAnalysis: ExerciseAnalysis[];
   recommendations: Recommendation[];
   costInfo: APICostInfo; // Información de costo de la llamada a Claude
+  contextualAdjustment?: ContextualAdjustment; // Ajuste contextual opcional
 }
 
 /**
@@ -129,6 +143,14 @@ export interface FeedbackVariables {
   EXAM_TOPIC: string;
   EXAM_DATE: string;
   SCORE: number;
+
+  // Ajuste contextual (opcional)
+  HAS_ADJUSTMENT: boolean;
+  STRICT_SCORE?: number;
+  ADJUSTED_SCORE?: number;
+  ADJUSTMENT_VALUE?: number;
+  ADJUSTMENT_JUSTIFICATION?: string;
+  ADJUSTMENT_EVIDENCE?: string;
 
   // Scores por fase
   F1_LEVEL: 1 | 2 | 3 | 4;

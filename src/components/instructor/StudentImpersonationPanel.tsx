@@ -79,8 +79,12 @@ export default function StudentImpersonationPanel() {
 
         setIsImpersonating(true)
 
-        // Redirect to student dashboard
-        router.push('/dashboard/student')
+        // Redirect to appropriate student dashboard based on sede
+        if (data.studentData?.sede === 'CONSUDEC') {
+          router.push('/dashboard/student-consudec')
+        } else {
+          router.push('/dashboard/student')
+        }
       } else {
         alert(data.error || 'Failed to start impersonation')
       }

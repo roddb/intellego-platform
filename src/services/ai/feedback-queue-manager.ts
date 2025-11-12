@@ -29,6 +29,7 @@ export type ProcessOptions = {
   maxConcurrent?: number;      // Default: 5
   retryAttempts?: number;       // Default: 3
   instructorId?: string;        // Instructor ID creating the feedback
+  applyContextualAdjustment?: boolean; // Enable contextual adjustment (default: true)
   onProgress?: (current: number, total: number) => void;
 };
 
@@ -48,7 +49,7 @@ export class FeedbackQueueManager {
     options: ProcessOptions = {}
   ): Promise<BatchResult> {
     const startTime = Date.now();
-    const { maxConcurrent = 5, retryAttempts = 3, instructorId, onProgress } = options;
+    const { maxConcurrent = 5, retryAttempts = 3, instructorId, applyContextualAdjustment = true, onProgress } = options;
 
     this.maxConcurrent = maxConcurrent;
     this.retryAttempts = retryAttempts;
@@ -72,7 +73,7 @@ export class FeedbackQueueManager {
       console.log(`   Reports: ${chunk.join(', ')}`);
 
       const promises = chunk.map(reportId =>
-        this.processReport(reportId, retryAttempts, instructorId)
+        this.processReport(reportId, retryAttempts, instructorId, applyContextualAdjustment)
       );
 
       const chunkResults = await Promise.allSettled(promises);
@@ -123,12 +124,15 @@ export class FeedbackQueueManager {
    *
    * @param reportId - ID del ProgressReport
    * @param retriesLeft - Número de reintentos restantes
+   * @param instructorId - ID del instructor (opcional)
+   * @param applyContextualAdjustment - Aplicar ajuste contextual (default: true)
    * @returns Resultado del procesamiento individual
    */
   private async processReport(
     reportId: string,
     retriesLeft: number,
-    instructorId?: string
+    instructorId?: string,
+    applyContextualAdjustment: boolean = true
   ): Promise<{ success: boolean; cost: number; error?: string }> {
     try {
       console.log(`      🔍 Processing report ${reportId}...`);
@@ -152,12 +156,16 @@ export class FeedbackQueueManager {
 
       console.log(`      📊 Report details: ${report.studentName} - ${report.subject} - ${answers.length} answers`);
 
-      // 4. Analyze with Claude
+      // 4. Analyze with Claude (with optional contextual adjustment)
       const analysisResult = await analyzer.analyzeAnswers(
         answers,
         report.subject,
         fase,
-        'structured'
+        'structured',
+        {
+          applyContextualAdjustment,
+          weekStart: report.weekStart
+        }
       );
 
       console.log(`      🤖 Analysis completed: Score ${analysisResult.score}/100, Cost: $${analysisResult.actualCost.toFixed(6)}`);
@@ -191,7 +199,7 @@ export class FeedbackQueueManager {
         const waitTime = 2000 * Math.pow(2, this.retryAttempts - retriesLeft); // 2s, 4s, 8s
         console.log(`      ⏳ Retrying in ${waitTime / 1000}s... (${retriesLeft} attempts left)`);
         await new Promise(resolve => setTimeout(resolve, waitTime));
-        return this.processReport(reportId, retriesLeft - 1, instructorId);
+        return this.processReport(reportId, retriesLeft - 1, instructorId, applyContextualAdjustment);
       }
 
       return { success: false, cost: 0, error: error.message };

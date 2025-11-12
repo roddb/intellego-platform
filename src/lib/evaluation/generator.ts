@@ -65,6 +65,24 @@ function buildVariables(
   const EXAM_DATE = formatDate(metadata.examDate);
   const SCORE = grading.score;
 
+  // Ajuste contextual (si existe)
+  const HAS_ADJUSTMENT = analysis.contextualAdjustment !== undefined;
+  const STRICT_SCORE = HAS_ADJUSTMENT
+    ? analysis.contextualAdjustment!.originalScore
+    : undefined;
+  const ADJUSTED_SCORE = HAS_ADJUSTMENT
+    ? analysis.contextualAdjustment!.adjustedScore
+    : undefined;
+  const ADJUSTMENT_VALUE = HAS_ADJUSTMENT
+    ? analysis.contextualAdjustment!.adjustment
+    : undefined;
+  const ADJUSTMENT_JUSTIFICATION = HAS_ADJUSTMENT
+    ? analysis.contextualAdjustment!.justification
+    : undefined;
+  const ADJUSTMENT_EVIDENCE = HAS_ADJUSTMENT
+    ? analysis.contextualAdjustment!.evidenceForAdjustment
+    : undefined;
+
   // Scores por fase
   const F1_LEVEL = analysis.scores.F1.nivel;
   const F1_SCORE = analysis.scores.F1.puntaje;
@@ -118,6 +136,12 @@ function buildVariables(
     EXAM_TOPIC,
     EXAM_DATE,
     SCORE,
+    HAS_ADJUSTMENT,
+    STRICT_SCORE,
+    ADJUSTED_SCORE,
+    ADJUSTMENT_VALUE,
+    ADJUSTMENT_JUSTIFICATION,
+    ADJUSTMENT_EVIDENCE,
     F1_LEVEL,
     F1_SCORE,
     F2_LEVEL,
@@ -163,18 +187,52 @@ function renderTemplate(variables: FeedbackVariables): string {
     CORRECTION_DATE,
   } = variables;
 
+  const {
+    HAS_ADJUSTMENT,
+    STRICT_SCORE,
+    ADJUSTED_SCORE,
+    ADJUSTMENT_VALUE,
+    ADJUSTMENT_JUSTIFICATION,
+    ADJUSTMENT_EVIDENCE,
+  } = variables;
+
   // Template principal
   let markdown = `# RETROALIMENTACIÓN - ${STUDENT_NAME}
 
 ## Examen: ${SUBJECT} - ${EXAM_TOPIC}
 ### Fecha: ${EXAM_DATE}
-### Nota: ${SCORE}/100
+### Nota Final: ${SCORE}/100
 
 ---
 
 ## 📊 Resumen de tu Desempeño
 
 Has obtenido **${SCORE}/100** en este examen.
+${
+  HAS_ADJUSTMENT
+    ? `
+### ⚖️ Ajuste Contextual Aplicado
+
+Tu evaluación ha sido revisada con criterio pedagógico:
+
+| Concepto | Puntaje |
+|----------|---------|
+| **Evaluación Estricta (Rúbrica)** | ${STRICT_SCORE?.toFixed(1)}/100 |
+| **Ajuste Contextual** | ${ADJUSTMENT_VALUE! >= 0 ? '+' : ''}${ADJUSTMENT_VALUE?.toFixed(1)} puntos |
+| **Nota Final** | **${ADJUSTED_SCORE?.toFixed(1)}/100** |
+
+#### ¿Por qué recibiste ${ADJUSTMENT_VALUE! >= 0 ? 'puntos adicionales' : 'un ajuste'}?
+
+${ADJUSTMENT_JUSTIFICATION}
+
+${ADJUSTMENT_EVIDENCE ? `**Evidencia en tu respuesta:** "${ADJUSTMENT_EVIDENCE}"` : ''}
+
+> 💡 **Nota:** El sistema aplica "sentido común pedagógico" para reconocer comprensión conceptual, métodos alternativos válidos, y diferenciar errores menores de fundamentales. Esto asegura que tu evaluación sea justa y constructiva.
+
+---
+`
+    : ''
+}
 
 ### Distribución por Fases
 
