@@ -79,7 +79,7 @@ export default function StudentDashboard() {
   const [monthWeeksBySubject, setMonthWeeksBySubject] = useState<{[subject: string]: Array<{start: Date, end: Date, hasReport: boolean, hasFeedback: boolean, isCurrentWeek: boolean, isPastWeek: boolean, isFutureWeek: boolean}>}>({})
   const [headerVisible, setHeaderVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks'>('reports')
+  const [activeTab, setActiveTab] = useState<'reports' | 'profile' | 'history' | 'progress' | 'evaluations' | 'feedbacks' | 'projects' | 'resources'>('reports')
   const [feedbackModalOpen, setFeedbackModalOpen] = useState(false)
   const [selectedFeedbackWeek, setSelectedFeedbackWeek] = useState<{weekStart: string, subject: string} | null>(null)
   const [allFeedbacks, setAllFeedbacks] = useState<any[]>([])
@@ -102,6 +102,13 @@ export default function StudentDashboard() {
 
     if (!isStudent && (!isInstructor || !isImpersonating)) {
       router.push("/dashboard/instructor")
+      return
+    }
+
+    // Redirect CONSUDEC students to their own dashboard
+    // Allow redirection during impersonation if viewing CONSUDEC student
+    if (session.user.sede === "CONSUDEC" && (isStudent || isImpersonating)) {
+      router.push("/dashboard/student-consudec")
       return
     }
 
