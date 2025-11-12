@@ -9,6 +9,7 @@ import { WeeklyDownloadModal, BatchFeedbackGenerator, APICostDashboard } from "@
 import DatabaseManager from "@/components/instructor/DatabaseManager"
 import FeedbackUploadModal from "@/components/instructor/FeedbackUploadModal"
 import StudentImpersonationPanel from "@/components/instructor/StudentImpersonationPanel"
+import UserManagementModal from "@/components/instructor/UserManagementModal"
 import EvaluationStatusGrid from "@/components/evaluation/EvaluationStatusGrid"
 import { formatArgentinaWeekRange, toArgentinaDate } from "@/lib/timezone-utils"
 
@@ -97,6 +98,7 @@ export default function InstructorDashboard() {
   const [isWeeklyDownloadModalOpen, setIsWeeklyDownloadModalOpen] = useState(false)
   const [isDatabaseManagerOpen, setIsDatabaseManagerOpen] = useState(false)
   const [isFeedbackUploadModalOpen, setIsFeedbackUploadModalOpen] = useState(false)
+  const [isUserManagementModalOpen, setIsUserManagementModalOpen] = useState(false)
 
   useEffect(() => {
     if (status === "loading") return
@@ -373,6 +375,16 @@ export default function InstructorDashboard() {
               </button>
 
               <button
+                onClick={() => router.push('/dashboard/instructor/consudec')}
+                className="px-6 py-3 bg-gradient-to-r from-teal-600 to-green-600 text-white rounded-lg hover:from-teal-700 hover:to-green-700 transition-colors flex items-center gap-2 shadow-lg"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                Actividades CONSUDEC
+              </button>
+
+              <button
                 onClick={() => setIsDatabaseManagerOpen(true)}
                 className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-colors flex items-center gap-2 shadow-lg"
               >
@@ -390,6 +402,16 @@ export default function InstructorDashboard() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                 </svg>
                 Cargar Devoluciones
+              </button>
+
+              <button
+                onClick={() => setIsUserManagementModalOpen(true)}
+                className="px-6 py-3 bg-gradient-to-r from-amber-600 to-yellow-600 text-white rounded-lg hover:from-amber-700 hover:to-yellow-700 transition-colors flex items-center gap-2 shadow-lg"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                Gestión de Usuarios
               </button>
             </div>
           </div>
@@ -454,6 +476,16 @@ export default function InstructorDashboard() {
         <FeedbackUploadModal
           isOpen={isFeedbackUploadModalOpen}
           onClose={() => setIsFeedbackUploadModalOpen(false)}
+        />
+
+        {/* User Management Modal */}
+        <UserManagementModal
+          isOpen={isUserManagementModalOpen}
+          onClose={() => setIsUserManagementModalOpen(false)}
+          onSuccess={() => {
+            // Refresh hierarchical data after user creation/deletion
+            fetchNavigationData();
+          }}
         />
       </main>
     </div>
