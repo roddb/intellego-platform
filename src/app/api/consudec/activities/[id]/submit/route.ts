@@ -30,7 +30,7 @@ export const maxDuration = 60; // 60 segundos para evaluación IA
  */
 export async function POST(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -57,7 +57,7 @@ export async function POST(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const body: SubmitActivityData = await request.json();
 
     if (!body.answers || typeof body.answers !== 'object') {

@@ -20,7 +20,7 @@ export const runtime = 'nodejs';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -32,7 +32,7 @@ export async function GET(
       );
     }
 
-    const submissionId = params.id;
+    const { id: submissionId } = await params;
     const client = db();
 
     // Obtener submission con datos del estudiante y actividad
@@ -152,7 +152,7 @@ export async function GET(
  */
 export async function PATCH(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -171,7 +171,7 @@ export async function PATCH(
       );
     }
 
-    const submissionId = params.id;
+    const { id: submissionId } = await params;
     const body: ManualEvaluationData = await request.json();
 
     // Validaciones

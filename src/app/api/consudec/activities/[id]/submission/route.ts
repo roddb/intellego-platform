@@ -19,7 +19,7 @@ export const runtime = 'nodejs';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -38,7 +38,7 @@ export async function GET(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const studentId = session.user.id;
 
     const client = db();

@@ -21,7 +21,7 @@ export const runtime = 'nodejs';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -33,7 +33,7 @@ export async function GET(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const client = db();
 
     const result = await client.execute({
@@ -96,7 +96,7 @@ export async function GET(
  */
 export async function PATCH(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -115,7 +115,7 @@ export async function PATCH(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const client = db();
 
     // Verificar que la actividad existe y pertenece al instructor
@@ -236,7 +236,7 @@ export async function PATCH(
  */
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -255,7 +255,7 @@ export async function DELETE(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const client = db();
 
     // Verificar ownership

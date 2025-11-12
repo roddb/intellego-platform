@@ -20,7 +20,7 @@ export const runtime = 'nodejs';
  */
 export async function POST(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const session = await auth();
@@ -46,7 +46,7 @@ export async function POST(
       );
     }
 
-    const activityId = params.id;
+    const { id: activityId } = await params;
     const body: SubmitActivityData = await request.json();
 
     if (!body.answers || typeof body.answers !== 'object') {
