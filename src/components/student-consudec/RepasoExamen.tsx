@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft, Home, FlaskConical, Activity, Zap, BookOpen, Calculator, Lightbulb, CheckCircle2 } from 'lucide-react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine, BarChart, Bar } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine, BarChart, Bar, Cell } from 'recharts';
 
 const RepasoExamen = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -534,7 +534,7 @@ const RepasoExamen = () => {
                 />
                 <Bar dataKey="velocidad" fill="#8b5cf6">
                   {velocidadData.map((entry, index) => (
-                    <cell key={`cell-${index}`} fill={entry.fibra.includes('diabética') ? '#ef4444' : '#8b5cf6'} />
+                    <Cell key={`cell-${index}`} fill={entry.fibra.includes('diabética') ? '#ef4444' : '#8b5cf6'} />
                   ))}
                 </Bar>
               </BarChart>
