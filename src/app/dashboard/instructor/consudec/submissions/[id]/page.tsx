@@ -5,7 +5,7 @@
 
 'use client';
 
-import { useEffect, useState } from 'react';
+import { use, useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -15,12 +15,13 @@ import SubmissionResultViewer from '@/components/consudec/SubmissionResultViewer
 import type { SubmissionResult } from '@/types/consudec-activity';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 export default function SubmissionViewPage({ params }: PageProps) {
+  const { id } = use(params);
   const { data: session, status } = useSession();
   const router = useRouter();
 
@@ -49,7 +50,7 @@ export default function SubmissionViewPage({ params }: PageProps) {
     setError('');
 
     try {
-      const response = await fetch(`/api/consudec/submissions/${params.id}`);
+      const response = await fetch(`/api/consudec/submissions/${id}`);
 
       if (!response.ok) {
         const data = await response.json();
