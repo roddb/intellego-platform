@@ -1,0 +1,176 @@
+id,name,email,role,studentId,sede,academicYear,division,subjects,status,createdAt,updatedAt
+1c4a7804-c22a-498f-8750-9a1482f6e920,Santiago Diego Rodriguez,santidrodriguezc@gmail.com,STUDENT,EST-2025-1752,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-10-10 18:27:53,2025-10-10 18:27:53
+fc83bcc5-a971-4f25-a493-fee973aedbbe,Constantino Chitarino,chitarinoconstantino@gmail.com,STUDENT,EST-2025-1751,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-10-10 18:27:42,2025-10-10 18:27:42
+abf271f9-f2c9-40bb-9d90-585dfcae4aef,Pedro merediz puente ,pedromeredizpuente@gmail.com,STUDENT,EST-2025-1750,Colegiales,4to Año,D,"Química,Física",ACTIVE,2025-10-06T11:00:06.990Z,2025-10-06T11:00:06.990Z
+081cc56b-878d-4f2c-8fb1-18a35171589b,maria barria ,mariabarriaa1@gmail.com,STUDENT,EST-2025-1749,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-09-22T02:56:49.938Z,2025-09-22T02:56:49.938Z
+81aa2e40-c8e4-4c55-838c-5afe808c5bd8,Fiamma De Bellis,fiammadebellis@gmail.com,STUDENT,EST-2025-1748,Congreso,5to Año,B,Química,ACTIVE,2025-09-22T02:23:03.221Z,2025-09-22T02:23:03.221Z
+7cfecfff-7374-43c3-94b0-3bd182f7345e,catalina cresci,catalinacresci@uca.edu.ar,STUDENT,EST-2025-1747,Congreso,5to Año,B,Química,ACTIVE,2025-09-21T18:24:08.077Z,2025-09-21T18:24:08.077Z
+80ab8015-e261-43e0-9691-d88d361f344f,Paulina Caviglia,policaviglia@gmail.com,STUDENT,EST-2025-1746,Congreso,5to Año,B,Química,ACTIVE,2025-08-31T21:26:14.501Z,2025-08-31T21:26:14.501Z
+f94d0184-fb61-4204-8c99-b06aa5e4a95b,Bautista Venturiello,bventuriello@gmail.com,STUDENT,EST-2025-1745,Colegiales,5to Año,D,Química,ACTIVE,2025-08-28T13:54:17.934Z,2025-08-28T13:54:17.934Z
+75188ebe-9c16-467d-8353-7313d6d65b7a,Isabel Ortiz Güemes,isaortizguemes@gmail.com,STUDENT,EST-2025-1744,Congreso,5to Año,B,Química,ACTIVE,2025-08-25T01:47:22.443Z,2025-08-25T01:47:22.443Z
+bf75d4ac-5f88-4043-a227-4a512846cafe,catalina cresci,catalina.cnervi@outlook.com,STUDENT,EST-2025-1743,Congreso,5to Año,B,Química,ACTIVE,2025-08-25T00:31:55.003Z,2025-08-25T00:31:55.003Z
+eed629ef-850b-4038-be81-a18fb3d06600,Maria Sofia Opacak,sofiaopacak@gmail.com,STUDENT,EST-2025-1742,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-21T10:30:33.829Z,2025-08-21T10:30:33.829Z
+6f254450-c5be-4881-93fb-b0569bb2b0bc,Victoria lavarello,victoria.lavarello@gmail.com,STUDENT,EST-2025-1741,Congreso,5to Año,B,Química,ACTIVE,2025-08-19T17:05:57.156Z,2025-08-19T17:05:57.156Z
+dd1eabdb-0134-4a75-8960-a73a389388bd,Josefina Verdier,joseverdier07@gmail.com,STUDENT,EST-2025-1740,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-18T02:26:41.371Z,2025-08-18T02:26:41.371Z
+1ecd7666-623f-4d63-b35a-8d12bfdccd6c,Sol María Forlano,solciforlano@yahoo.com,STUDENT,EST-2025-1739,Congreso,5to Año,B,Química,ACTIVE,2025-08-18T02:00:19.923Z,2025-08-18T02:00:19.923Z
+18fe6e7f-cf61-40fe-b7c4-4fedbb672b19,Marco Augusto Genero Quintana,margenero1@gmail.com,STUDENT,EST-2025-1738,Colegiales,5to Año,D,Química,ACTIVE,2025-08-18T01:35:30.202Z,2025-08-18T01:35:30.202Z
+126e9cd8-f05a-4213-be02-673101d573da,maria sanz,mariaasanzzzz@gmail.com,STUDENT,EST-2025-1737,Congreso,5to Año,B,Química,ACTIVE,2025-08-18T01:20:23.948Z,2025-08-18T01:20:23.948Z
+0dc9641c-192c-4b0f-9d9c-a900dc161495,Charo Reig,charooreiggg@gmail.com,STUDENT,EST-2025-1023,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-18T00:27:08.459Z,2025-08-18T00:27:08.459Z
+82ab3f2e-88ea-41de-8e7d-281d4e201c66,Santiago Ricardi,santiagoricardicastro2@gmai.com,STUDENT,EST-2025-1022,Colegiales,5to Año,D,Química,ACTIVE,2025-08-18T00:25:41.360Z,2025-08-18T00:25:41.360Z
+db79e911-5a6b-426e-b2f3-6c3e27ce623b,María Josefina Suarez,josefinasuarez280@gmail.com,STUDENT,EST-2025-1021,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-18T00:20:10.743Z,2025-08-18T00:20:10.743Z
+7c833c54-face-42df-8ba9-758c9e0a838e,Charo Reig,charoreigg@gmail.com,STUDENT,EST-2025-1020,Colegiales,4to Año,E,Química,ACTIVE,2025-08-18T00:14:30.829Z,2025-08-18T00:14:30.829Z
+271939b0-23ab-4ee4-9b2a-1ac4fc117d94,catalina cresci ,catalinacrescu@uca.edu.ar,STUDENT,EST-2025-1019,Congreso,5to Año,B,Química,ACTIVE,2025-08-18T00:04:53.278Z,2025-08-18T00:04:53.278Z
+b012946d-9236-4c41-99c6-1f6aff8a88d0,Mariana Donzelli,marufdonzelli@gmail.com,STUDENT,EST-2025-1018,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T23:07:30.778Z,2025-08-17T23:07:30.778Z
+2256bcc8-efd3-4e01-b627-1e6dfad75a6c,Facundo Isola Pozzo ,agusisola@gmail.com,STUDENT,EST-2025-1017,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-17T22:51:32.136Z,2025-08-17T22:51:32.136Z
+842ba26c-113b-4828-8074-6254fa8973a7,Isabella Stilman,stilmanisabella@gmail.com,STUDENT,EST-2025-1016,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-17T22:45:21.789Z,2025-08-17T22:45:21.789Z
+16782162-cdac-4b77-ae7e-b1b71ead8f5e,Facundo Isola,facundoisola2007@gmail.com,STUDENT,EST-2025-1015,Colegiales,4to Año,C,Física,ACTIVE,2025-08-17T22:41:48.551Z,2025-08-17T22:41:48.551Z
+80edef75-bd51-499a-90c9-3a3c7caa68a6,Matias,matiasmiednik@gmail.com,STUDENT,EST-2025-1014,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T22:36:57.566Z,2025-08-17T22:36:57.566Z
+83cbd70b-ce50-4fd8-8b21-98885364e4d5,Ignacio Falcon,nacofalcon@gmail.com,STUDENT,EST-2025-1013,Congreso,5to Año,B,Química,ACTIVE,2025-08-17T22:34:50.119Z,2025-08-17T22:34:50.119Z
+9decba43-03f1-4391-84b8-a6cba1ffc75b,Agustina Sansalone,agussansalone@gmail.com,STUDENT,EST-2025-1012,Congreso,5to Año,B,Química,ACTIVE,2025-08-17T22:21:14.298Z,2025-08-17T22:21:14.298Z
+0641803a-5e37-4cf2-bda0-c5d0896413bd,Agustin Gonzalez Castro,delfinfeijoo@gmail.com,STUDENT,EST-2025-1011,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T21:59:27.218Z,2025-08-17T21:59:27.218Z
+f5c6ca4e-cd98-4729-bbc6-51c26cd7c505,Agustin Gonzalez Castro Feijoo ,realizar79@gmail.com,STUDENT,EST-2025-1010,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T21:57:47.538Z,2025-08-17T21:57:47.538Z
+eb968629-8899-4b2a-9a43-b36186960fd6,Tadeo Ancarola,tadeoanc@gmail.com,STUDENT,EST-2025-1009,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T21:06:34.518Z,2025-08-17T21:06:34.518Z
+d5aec9ad-a91c-4304-87e1-01fa6f8d399b,Agustin Gonzalez Castro Feijoo ,agustingcf@gmail.com,STUDENT,EST-2025-1008,Colegiales,5to Año,D,Química,ACTIVE,2025-08-17T20:15:19.253Z,2025-08-17T20:15:19.253Z
+12a88f9e-5373-438d-a643-380f1bef59eb,Tomas Garay,tomasgaray.0911@gmail.com,STUDENT,EST-2025-1007,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-17T20:04:41.988Z,2025-08-17T20:04:41.988Z
+bd275edd-f22b-49b2-9d4b-8339d485515f,martin bautista abella,martinabella120@gmail.com,STUDENT,EST-2025-1006,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-17T17:48:46.290Z,2025-08-17T17:48:46.290Z
+c28a60a9-fc8e-4df3-99ae-f8a4745db917,juana cifone,cifonejuana@gmail.com,STUDENT,EST-2025-1005,Colegiales,4to Año,D,Física,ACTIVE,2025-08-16T18:39:45.519Z,2025-08-16T18:39:45.519Z
+9c53ec4d-be2a-4d1f-8ff6-34a583ab2ddb,Catalina Parker,catuparker@gmail.com,STUDENT,EST-2025-1003,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-16T17:23:17.034Z,2025-08-16T17:23:17.034Z
+8bf80919-3a9f-4ac9-94c3-eccfa7f81c05,Victoria Fernández Pazos ,victoriafernandezpazos@gmail.com,STUDENT,EST-2025-1000,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-15T16:37:48.353Z,2025-08-15T16:37:48.353Z
+2c621d80-baac-4e07-86e8-8dd8b92d5553,Sofia Veliz,velizsofia595@gmail.com,STUDENT,EST-2025-141,Congreso,5to Año,B,Química,ACTIVE,2025-08-14T18:27:15.077Z,2025-08-14T18:27:15.077Z
+1f8c28c1-98fc-464b-a822-d8adfba4725f,olivia focke,oliviafocke@gmail.com,STUDENT,EST-2025-140,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-14T13:41:46.420Z,2025-08-14T13:41:46.420Z
+3d47c07d-3785-493a-b07b-ee34da1113b4,Rodrigo Di Bernardo,rdb@intellego.com,INSTRUCTOR,INST-2025-001,Central,2025,INSTRUCTOR,Matemática,ACTIVE,2025-08-12T22:11:44.515Z,2025-08-12T22:11:44.515Z
+u_snjygtgt6me7wwtla,Ana Rosiello,ana.rosielloyornet@gmail.com,STUDENT,EST-2025-139,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-12T02:18:25.102Z,2025-08-13 19:36:48
+u_67vrli8j0me7hnxu1,Santino Jurado,santinojurado@gmail.com,STUDENT,EST-2025-138,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T19:11:36.457Z,2025-08-13 19:36:48
+u_gnwsffmrume7hmq9m,Ema Trejo,trejoemit07@gmail.com,STUDENT,EST-2025-137,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T19:10:39.994Z,2025-08-13 19:36:48
+u_p20qzlyqjme7h8p8q,Maria Josefina Baez,majosefinabaez00@gmail.com,STUDENT,EST-2025-136,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T18:59:45.482Z,2025-08-13 19:36:48
+u_7mj6dqo3jme73vuwb,tobías barisch,toto.barisch@gmail.com,STUDENT,EST-2025-135,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-11T12:45:51.275Z,2025-08-13 19:36:48
+u_bap6b4k2rme73bmwt,Isabel Ortiz Güemes,ortizguemesisabel@gmail.com,STUDENT,EST-2025-134,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T12:30:07.805Z,2025-08-13 19:36:48
+u_oho1zrk6pme6j1e97,Julieta Napoli,julietamanapoli@gmail.com,STUDENT,EST-2025-133,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T03:02:17.707Z,2025-08-13 19:36:48
+u_gw49maclcme6i3g64,mercedes rizzo lynch,mechirizzolynch@gmail.com,STUDENT,EST-2025-132,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-11T02:35:53.884Z,2025-08-13T15:07:22.923Z
+u_tid7bop2gme6i2g6e,Matilde Pasarin de la Torre,matildepasarinsc@uca.edu.ar,STUDENT,EST-2025-131,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-11T02:35:07.238Z,2025-08-17T23:15:15.153Z
+u_zh9pgmfs9me6i15hg,juana giurovich,giurovichjuana@gmail.com,STUDENT,EST-2025-130,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T02:34:06.724Z,2025-08-13 19:36:48
+u_e14kez4ghme6hx5nr,Lucas Mingotti Tziavaras,mtlucas247@gmail.com,STUDENT,EST-2025-129,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-11T02:31:00.327Z,2025-08-13T15:07:22.107Z
+u_4goz47h3xme6htid0,camilo giles ,camigiles2020@gmail.com,STUDENT,EST-2025-128,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-11T02:28:10.164Z,2025-08-13T15:07:21.678Z
+u_qobf27jv7me6hi0ai,Lourdes María Converset,luluconverset@gmail.com,STUDENT,EST-2025-127,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T02:19:13.530Z,2025-08-13 19:36:48
+u_bu3vsghhsme6h3la1,agustina trillo,agustrillo2007@gmail.com,STUDENT,EST-2025-126,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T02:08:00.889Z,2025-08-13 19:36:48
+u_itbn7il5cme6h0gl3,manuela ,manu.j.uria@gmail.com,STUDENT,EST-2025-125,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T02:05:34.839Z,2025-08-13 19:36:48
+u_3620qcgjwme6g2xx5,Pedro Salgado Canepa,pedronicosalgado@gmail.com,STUDENT,EST-2025-124,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T01:39:31.001Z,2025-08-13 19:36:48
+u_udp8usbw0me6fmwgn,Juan Pablo Oviedo Goite,juanpabloog2007@gmail.com,STUDENT,EST-2025-123,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-11T01:27:02.615Z,2025-08-13 19:36:48
+u_r0mxgr11pme6eytm2,Victoria Patiño ,patinoalexandravicky@gmail.com,STUDENT,EST-2025-122,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-11T01:08:19.178Z,2025-08-13 19:36:48
+u_bx5yrhd48me6eys07,Candelaria María Nasjleti Paz,candelariamnp2008@gmail.com,STUDENT,EST-2025-121,Congreso,5to Año,B,Química,ACTIVE,2025-08-11T01:08:17.095Z,2025-08-13 19:36:48
+u_igtqfpy9ime6ecgcw,Morena Danio,morenadanio@gmail.com,STUDENT,EST-2025-120,Colegiales,5to Año,D,Química,ACTIVE,2025-08-11T00:50:55.568Z,2025-08-13 19:36:48
+u_ws61mg4b5me6e599g,Brenda Behmer,behmercavallobrenda@gmail.com,STUDENT,EST-2025-119,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-11T00:45:19.780Z,2025-08-13T15:07:21.266Z
+u_67kfbewk9me6cn6qp,Sol Fontán,solaluminefontan@gmail.com,STUDENT,EST-2025-118,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-11T00:03:17.089Z,2025-08-13 19:36:48
+u_yjrnyfsg2me6bmfeg,catalina cresci,catalina.cresci@gmail.com,STUDENT,EST-2025-117,Congreso,5to Año,B,Química,ACTIVE,2025-08-10T23:34:42.040Z,2025-08-13 19:36:48
+u_d84azjl1cme6a7v75,Rocco Ruiz,roccoruiz2000@gmail.com,STUDENT,EST-2025-116,Colegiales,5to Año,D,Química,ACTIVE,2025-08-10T22:55:23.057Z,2025-08-13 19:36:48
+u_5hi83id4ime69nm4d,Fabrizio Sabino,fabriziosabino8@gmail.com,STUDENT,EST-2025-115,Congreso,5to Año,B,Química,ACTIVE,2025-08-10T22:39:38.173Z,2025-08-13 19:36:48
+u_1wt2lfnz3me69ak8c,Catalina Dobniewski,catalina.dobniewski@gmail.com,STUDENT,EST-2025-114,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-10T22:29:29.196Z,2025-08-13 19:36:48
+u_tq3ado57dme68sdj1,Sofía Arévalo,soarev280208@gmail.com,STUDENT,EST-2025-113,Congreso,5to Año,B,Química,ACTIVE,2025-08-10T22:15:20.701Z,2025-08-13 19:36:48
+u_xn3pcc41gme67v3cx,Santino Colonnese Cuttica,santinocolonnesecuttica@gmail.com,STUDENT,EST-2025-112,Colegiales,5to Año,D,Química,ACTIVE,2025-08-10T21:49:27.873Z,2025-08-13 19:36:48
+u_yf5munab0me67oai8,Matías Ernesto Alippi,matias.e.19a@gmail.com,STUDENT,EST-2025-111,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-10T21:44:10.544Z,2025-08-13 19:36:48
+u_euk2lhb2sme67brrn,victoria cerredo,cerredokiki@gmail.com,STUDENT,EST-2025-110,Congreso,5to Año,B,Química,ACTIVE,2025-08-10T21:34:26.387Z,2025-08-13 19:36:48
+u_alllafm0rme678p88,Milagros Zacharec ,milizacharec@gmail.com,STUDENT,EST-2025-109,Congreso,5to Año,B,Química,ACTIVE,2025-08-10T21:32:03.129Z,2025-08-13 19:36:48
+u_7gbd795wame671byn,Ignacio Benson,nachibenson@gmail.com,STUDENT,EST-2025-108,Colegiales,5to Año,D,Química,ACTIVE,2025-08-10T21:26:19.346Z,2025-08-13 19:36:48
+u_062kts0erme64nx90,Belen Smiriglio,belensmiriglio@gmail.com,STUDENT,EST-2025-107,Colegiales,5to Año,D,Química,ACTIVE,2025-08-10T20:19:54.516Z,2025-08-13 19:36:48
+u_pv1olo186me64il60,Juana Cestari,cestarijuana3@gmail.com,STUDENT,EST-2025-106,Colegiales,5to Año,D,Química,ACTIVE,2025-08-10T20:15:45.576Z,2025-08-13 19:36:48
+u_fcr9p35cgme607v47,Delfina Grasso,delfinagrassoler@gmail.com,STUDENT,EST-2025-105,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-10T18:15:26.791Z,2025-08-13 17:57:15
+u_mpa1z25bmme5yempy,francesca paccie ,francesca.paccie@gmail.com,STUDENT,EST-2025-104,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-10T17:24:43.270Z,2025-08-13T15:07:20.859Z
+u_7fuijay0kme5utxod,Tiziana Zapozko,lucyzapozko@gmail.com,STUDENT,EST-2025-103,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-10T15:44:38.845Z,2025-08-13 19:36:48
+u_qjugmxdtzme5ry9mk,Lucio Fernández Rico,fernandezlucio4@gmail.com,STUDENT,EST-2025-102,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-10T14:24:02.108Z,2025-08-13 19:36:48
+u_m51eualryme5r2p4u,Ignacio Medrano ,igmedrano14@gmail.com,STUDENT,EST-2025-101,Colegiales,5to Año,C,Química,ACTIVE,2025-08-10T13:59:29.214Z,2025-08-10T13:59:29.214Z
+u_9vp2o3qntme4y2kyh,Candela Greco,candelarociogreco@gmail.com,STUDENT,EST-2025-100,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-10T00:27:34.937Z,2025-08-13 19:36:48
+u_6iq1odbgqme4vdatd,Lola Gomez,lolitagomez0104@gmail.com,STUDENT,EST-2025-099,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T23:11:56.161Z,2025-08-13 19:36:48
+u_wnrgoh2t1me4pjpou,Bautista Pergolesi,bautista.pergolesi@gmail.com,STUDENT,EST-2025-098,Congreso,5to Año,B,Química,ACTIVE,2025-08-09T20:28:57.678Z,2025-08-13 19:36:48
+u_ptsyo9w0pme4ihnen,Agustin Lo Valvo,aguspro0903@gmail.com,STUDENT,EST-2025-097,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-09T17:11:24.095Z,2025-08-13T15:07:20.463Z
+u_fdz0c0x1lme4fe22c,Ian Svendsen,iansvendsen862@gmail.com,STUDENT,EST-2025-096,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T15:44:37.620Z,2025-08-13 19:36:48
+u_0ppntptacme4bap6o,Franco Nuñez,franco.g.nunezz@gmail.com,STUDENT,EST-2025-095,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T13:50:02.496Z,2025-08-13 19:36:48
+u_njqfuieodme3jakrb,Matías Vaccaro,matiasvaccaro08@gmail.com,STUDENT,EST-2025-094,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T00:46:07.511Z,2025-08-13 19:36:48
+u_2dnwoitzgme3j576v,Facundo Gubinelli,facuchogubinelli@gmail.com,STUDENT,EST-2025-093,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T00:41:56.647Z,2025-08-13 19:36:48
+u_e31zk82yime3hz3bu,Stefano Esses,stefanoeduardo2016@gmail.com,STUDENT,EST-2025-092,Colegiales,5to Año,D,Química,ACTIVE,2025-08-09T00:09:12.090Z,2025-08-13 19:36:48
+u_0wl5v4c4qme3gkssk,Juana Del Giudice,delgiudicejuana@gmail.com,STUDENT,EST-2025-091,Congreso,5to Año,B,Química,ACTIVE,2025-08-08T23:30:05.636Z,2025-08-13 19:36:48
+u_mmb5fvk8sme3ac9q1,Victoria Gómez arroyo,gomezarroyovictoria@gmail.com,STUDENT,EST-2025-090,Colegiales,5to Año,D,Química,ACTIVE,2025-08-08T20:35:29.977Z,2025-08-13 19:36:48
+u_ipbwdsmfkme39nnhj,Martin Zournadjian ,martinzournadjian@gmail.com,STUDENT,EST-2025-089,Colegiales,5to Año,D,Química,ACTIVE,2025-08-08T20:16:21.415Z,2025-08-13 19:36:48
+u_5slmhhh0xme36sglh,Tomas Carbajales,carbajalestomas@gmail.com,STUDENT,EST-2025-088,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-08T18:56:06.917Z,2025-08-13 17:57:17
+u_th3a596w3me34llcr,Andrés Francisco Ruffino ,andrefranruff@gmail.com,STUDENT,EST-2025-087,Congreso,5to Año,B,Química,ACTIVE,2025-08-08T17:54:47.259Z,2025-08-13 19:36:48
+u_wqdxobbqpme348kw4,Constanza Mac Donald,conimacdonald0@gmail.com,STUDENT,EST-2025-086,Congreso,5to Año,B,Química,ACTIVE,2025-08-08T17:44:40.132Z,2025-08-13 19:36:48
+u_ppoee7dwpme2xaxbm,Ignacio Ortiz Gagliano,nachoortizg22@gmail.com,STUDENT,EST-2025-085,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-08T14:30:32.242Z,2025-08-13 19:20:28
+u_q0wslezygme2xa6aw,Juan Cruz laugier,juancruzlaugier@gmail.com,STUDENT,EST-2025-084,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-08T14:29:57.224Z,2025-08-13 19:20:28
+u_jb53muhskme2x8253,Gabriel Maximiliano Bollmann,maxibollmann@gmail.com,STUDENT,EST-2025-083,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-08T14:28:18.519Z,2025-08-13 19:20:28
+u_g54zele3lme24zmre,Nicolás Cartasegna,niko.6abril@gmail.com,STUDENT,EST-2025-082,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-08T01:17:56.090Z,2025-08-13 19:36:48
+u_icojg9yv3me1yt3l8,Veronica Hansen,veronicahansen236@gmail.com,STUDENT,EST-2025-081,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-07T22:24:53.612Z,2025-08-13 17:57:18
+u_03h8i0t6nme1rlx0z,Martina Yablonovich,martuyablo@gmail.com,STUDENT,EST-2025-080,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-07T19:03:21.203Z,2025-08-16T15:24:22.864Z
+u_2a8ho1wtpme1opou7,Josefina Sesé Frers ,sesefrersjosefinaa@gmail.com,STUDENT,EST-2025-079,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-07T17:42:18.367Z,2025-08-13 19:36:48
+u_l3ppw0vlzme1nox48,Bianca Nazareth Picone,bncpicone@gmail.com,STUDENT,EST-2025-078,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-07T17:13:42.824Z,2025-08-13 19:36:48
+u_zsmjtajb0me1fut40,Salvador Veltri,veltrisalvador@gmail.com,STUDENT,EST-2025-077,Colegiales,4to Año,D,Química,ACTIVE,2025-08-07T13:34:20.640Z,2025-08-07T13:34:20.640Z
+u_4920yklv9me1fto0f,Lola Valverde,lolivalverde2501@gmail.com,STUDENT,EST-2025-076,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-07T13:33:27.375Z,2025-08-13 17:57:17
+u_0dw79d8pume1fp20s,Juan Ignacio Rios,juanitorios676@gmail.com,STUDENT,EST-2025-075,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-07T13:29:52.252Z,2025-08-13 17:57:15
+u_92u4fm0txme1fny4m,Justina Manzullo,justimanzullo@gmail.com,STUDENT,EST-2025-074,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-07T13:29:00.550Z,2025-08-13 17:57:16
+u_h52avro4ome1fmelf,Franco Lugo,francolugoibanez@gmail.com,STUDENT,EST-2025-073,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-07T13:27:48.579Z,2025-08-13 17:57:15
+u_t7fxqb0y0me1fm6ec,Salvador Veltri,salveltri21@gmail.com,STUDENT,EST-2025-072,Colegiales,4to Año,D,Física,ACTIVE,2025-08-07T13:27:37.956Z,2025-08-07T13:27:37.956Z
+u_ktmv2zgznme1ei0iq,Paloma Castro,castrojalilepaloma@gmail.com,STUDENT,EST-2025-071,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T12:56:24.098Z,2025-08-13 19:20:28
+u_49vfe6x03me1c9en0,Emilia Sarti,emiliasarti191@gmail.com,STUDENT,EST-2025-070,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:53:43.260Z,2025-08-13 19:20:28
+u_tnjcagj37me1c4n0j,Isabella Fantin,isafantin28@gmail.com,STUDENT,EST-2025-069,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:50:00.835Z,2025-08-13 19:20:27
+u_knlu3efo1me1c39r9,Valentín Osepyan,osepyanvalentin@gmail.com,STUDENT,EST-2025-068,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:48:56.997Z,2025-08-13 19:20:27
+u_gcjmjnrnqme1c1o1f,Agustín kemel,agustinkemel@gmail.com,STUDENT,EST-2025-067,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:47:42.195Z,2025-08-13 19:20:27
+u_bfdrl08g5me1c1b1m,Joaquín Hetenyi,joaquinhache18@gmail.com,STUDENT,EST-2025-066,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:47:25.354Z,2025-08-13 19:20:28
+u_eg4pqh49ume1bzrv3,Benjamín López,benjalopezbenve@gmail.com,STUDENT,EST-2025-065,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:46:13.839Z,2025-08-13 19:20:27
+u_g4dq2j6g8me1bxxtu,Julia Mayenfisch Paz,juliamayenfisch@gmail.com,STUDENT,EST-2025-064,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:48.258Z,2025-08-13 19:20:27
+u_6greeuiz1me1bxwwd,Milo Santos,milo.santos2901@gmail.com,STUDENT,EST-2025-063,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:47.053Z,2025-08-13 19:20:27
+u_tmyqpybslme1bxt15,Francisco Amato,fran.amato09@gmail.com,STUDENT,EST-2025-062,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:42.042Z,2025-08-13 19:20:27
+u_3wmjdusbdme1bxp0i,Uma Valle,umavalle09@gmail.com,STUDENT,EST-2025-061,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:36.834Z,2025-08-13 19:20:27
+u_94wnlwgwqme1bxmqu,Juan Bautista Medriano,bautimedriano@gmail.com,STUDENT,EST-2025-060,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:33.894Z,2025-08-13 19:20:27
+u_1wjc7u8gpme1bxkgh,Violeta Legname,violetalegname@gmail.com,STUDENT,EST-2025-059,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:30.929Z,2025-08-13 19:20:27
+u_gz7nt32scme1bxita,Dunia Claro,claro.dunia@gmail.com,STUDENT,EST-2025-058,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:28.798Z,2025-08-13 19:20:27
+u_jjcjumyigme1bxb6d,Sebastián José López Milano,sebastian.lpzmln@gmail.com,STUDENT,EST-2025-057,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:18.901Z,2025-08-13 19:20:27
+u_ps7y0ovuvme1bx96e,Iñaki Zubero,izubero10@gmail.com,STUDENT,EST-2025-056,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:16.310Z,2025-08-13 19:20:27
+u_iyu24v3tpme1bx7zr,Agustina Sarti,agus@sarti.com.ar,STUDENT,EST-2025-055,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:14.775Z,2025-08-13 19:20:27
+u_4prlxg2qvme1bx6m7,Bautista Attanasio,bautista.attanasio@gmail.com,STUDENT,EST-2025-054,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:44:12.991Z,2025-08-13 19:20:27
+u_e06uzoxujme1bwdgt,Mateo Delaygue,mateodelaygue@gmail.com,STUDENT,EST-2025-053,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:43:35.213Z,2025-08-13 19:20:29
+u_9ecakaqjlme1bw973,Enzo Shofs Turoni Lima,shofsenzo08@gmail.com,STUDENT,EST-2025-052,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:43:29.679Z,2025-08-13 19:20:29
+u_4x9psb775me1bw3a3,Angelines Wu,angiiiewu@gmail.com,STUDENT,EST-2025-051,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:43:22.011Z,2025-08-13 19:20:27
+u_dolvu0ftme1bvul5,Catalina Cacopardo,catalinacacopardo@gmail.com,STUDENT,EST-2025-050,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:43:10.745Z,2025-08-13 19:20:27
+u_34ikfk0ctme1bvm6k,Lourdes Chouela,lourdeschoue14@gmail.com,STUDENT,EST-2025-049,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-07T11:42:59.852Z,2025-08-13 19:20:27
+u_wls4ynud9me1bcsn3,zoe poggi ,zoepoggi@gmail.com,STUDENT,EST-2025-048,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-07T11:28:21.759Z,2025-08-07T11:28:21.759Z
+u_qo63sfz3tme13og82,Lourdes Bongiovanni,lulibongio27@gmail.com,STUDENT,EST-2025-047,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-07T07:53:28.610Z,2025-08-13T15:07:20.057Z
+u_3qohn2lp7me0tfs8i,Gonzalo Rosler Buglione,gonzarosbug@gmail.com,STUDENT,EST-2025-046,Colegiales,5to Año,D,Química,ACTIVE,2025-08-07T03:06:48.114Z,2025-08-13 19:36:48
+u_zqpn5388ime0oerp2,pilar salomone,pilisalomone@gmail.com,STUDENT,EST-2025-045,Colegiales,5to Año,D,Química,ACTIVE,2025-08-07T00:46:02.678Z,2025-08-13 19:36:48
+u_lwcsti4hume0k6kf3,María Catalina Prypsztejn Mila,catalina.prypsztejn@gmail.com,STUDENT,EST-2025-044,Colegiales,5to Año,D,Química,ACTIVE,2025-08-06T22:47:41.535Z,2025-08-13 19:36:48
+u_3oh1h3b60me0ht98e,Maria Lucia Gastaldi,luciaagastaldi@gmail.com,STUDENT,EST-2025-043,Colegiales,5to Año,D,Química,ACTIVE,2025-08-06T21:41:21.278Z,2025-08-13 19:36:48
+u_4sfzulloame0eeb4n,Teodora Ces Casalí,teodoracescasali@gmail.com,STUDENT,EST-2025-042,Colegiales,4to Año,E,"Física,Química",ACTIVE,2025-08-06T20:05:45.047Z,2025-08-13 19:20:27
+u_7vuuihvajme0bd1v8,Mateo Barrera,mateo.barrera.2008@gmail.com,STUDENT,EST-2025-041,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:40:47.540Z,2025-08-13T15:07:19.648Z
+u_zbzlsfka9me0bba6t,Ulises García Canteli ,ugarciacanteli@gmail.com,STUDENT,EST-2025-040,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:39:25.013Z,2025-08-13T15:07:19.233Z
+u_madzeow6xme0bap6m,"Vertedor Salinas, Fiorella",fiorevertedor@gmail.com,STUDENT,EST-2025-039,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:38:57.790Z,2025-08-13T15:07:18.825Z
+u_f1hq5788gme0b92xe,Franco Palamenghi ,frpala0309@gmail.com,STUDENT,EST-2025-036,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:37:42.290Z,2025-08-13T15:07:18.418Z
+u_r9e5ufdasme0b8zqx,Juliana Ceriani Cernadas,julicerianic30@gmail.con,STUDENT,EST-2025-035,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:37:38.169Z,2025-08-06T18:37:38.169Z
+u_irosems63me0b6lym,Miranda  Lazaro,mirandaa.lazaroo@gmail.com,STUDENT,EST-2025-034,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:46.990Z,2025-08-06T18:35:46.990Z
+u_h08h8vyowme0b6fc8,Isabel Gaeta,isabelgaetaa@gmail.com,STUDENT,EST-2025-033,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:38.408Z,2025-08-13T15:07:18.016Z
+u_c8qoo6z03me0b5zlp,Valentino Papa,valentino.papa@gmail.com,STUDENT,EST-2025-032,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:18.013Z,2025-08-13T15:07:17.595Z
+u_orrudyvptme0b5ua2,Mia Pleitel,pleitelmia@gmail.com,STUDENT,EST-2025-031,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:11.114Z,2025-08-13T15:07:17.193Z
+u_q8vglr2n7me0b5ree,Magdalena Donadio,donadiomaggie@gmail.com,STUDENT,EST-2025-030,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:07.382Z,2025-08-13T15:07:16.786Z
+u_8msj4nva8me0b5qcj,"Margules, Agustina Lara",agustinamargules@gmail.com,STUDENT,EST-2025-029,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:06.019Z,2025-08-13T15:07:16.382Z
+u_gjtitt5qlme0b5p2x,"Marrazzo, Lola",lolamarrazzo@gmail.com,STUDENT,EST-2025-028,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:35:04.377Z,2025-08-13T15:07:15.964Z
+u_tv7hzrijlme0b5735,Sofia Bargas,sofiabargas000@gmail.com,STUDENT,EST-2025-027,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:34:41.057Z,2025-08-13T15:07:15.548Z
+u_pdb4f4ng5me0b54u2,Tomas Forrester,forrestertomas@gmail.com,STUDENT,EST-2025-026,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:34:38.138Z,2025-08-13T15:07:15.146Z
+u_rkrgujb30me0b536p,"Maioli, Bautista Lucas",bautimaioli@gmail.com,STUDENT,EST-2025-025,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:34:36.001Z,2025-08-13T15:07:14.720Z
+u_pv2qe98lhme0b4xi4,Federica Fontan,federicafontandecortazar@gmail.com,STUDENT,EST-2025-024,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:34:28.636Z,2025-08-13T15:07:14.320Z
+u_1zev16wwsme0b4u1q,Clara Aiello,mclaraaiello@gmail.com,STUDENT,EST-2025-023,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:34:24.158Z,2025-08-13T15:07:13.914Z
+u_of6to0o91me0b47mk,Milagros Monsegur,milagrosmonsegur@gmail.com,STUDENT,EST-2025-022,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:33:55.100Z,2025-08-13T15:07:13.501Z
+u_l0o1myrbrme0b2mhd,lola perri,perrilola.sta@gmail.com,STUDENT,EST-2025-020,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:32:41.042Z,2025-08-06T18:32:41.042Z
+u_1gms3kiw1me0b2i22,Franco Figini,franarg2009@gmail.com,STUDENT,EST-2025-019,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:32:35.306Z,2025-08-13T15:07:13.105Z
+u_ef94s2t87me0b27mi,Guadalupe rueda,ruedaclaraguada@gmail.con,STUDENT,EST-2025-018,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:32:21.786Z,2025-08-13T15:07:12.698Z
+u_qt28g6pmrme0b1swg,Morena Garmendia,more.garmendia.o@gmail.com,STUDENT,EST-2025-017,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:32:02.704Z,2025-08-13T15:07:12.262Z
+u_0mkknqzfwme0b1gv6,joaquín margueirat ,joaquinmargueirat@gmail.com,STUDENT,EST-2025-016,Colegiales,4to Año,C,"Física,Química",ACTIVE,2025-08-06T18:31:47.106Z,2025-08-13T15:07:11.644Z
+u_abe3h0317me06njgs,Catalina Gilardi,catalinagilardi13@gmail.com,STUDENT,EST-2025-015,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:28:58.828Z,2025-08-13 17:57:14
+u_tk1vcmquxme06mhr4,Maria Emilia Delaico,emiliadelaico2009@gmail.com,STUDENT,EST-2025-014,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:28:09.952Z,2025-08-13 17:57:16
+u_e80gtlh44me06maes,Kiara Janson,kiari.janson@gmail.com,STUDENT,EST-2025-013,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:28:00.436Z,2025-08-13 17:57:16
+u_axwjy36zgme06m4sr,Mia Gonzalez Arce,gonzalezarcemia08@gmail.com,STUDENT,EST-2025-012,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:27:53.163Z,2025-08-13 17:57:18
+u_u044khertme06lo0d,Clara Albarello Arena,claraalbarelloarena@gmail.com,STUDENT,EST-2025-011,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:27:31.405Z,2025-08-13 17:57:15
+u_asv9bhh8zme06j7jo,Conrado Diaz,conradiazeloy@gmail.com,STUDENT,EST-2025-010,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:25:36.756Z,2025-08-13 17:57:15
+u_7l7mqqsh4me06hzx8,Uma Cesarini,umacesarini@gmail.com,STUDENT,EST-2025-009,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:24:40.220Z,2025-08-13 17:57:18
+u_13sv4a69ome06gv2t,Emma Bono,emmabono00@gmail.com,STUDENT,EST-2025-008,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T16:23:47.285Z,2025-08-13 17:57:15
+u_yxgl6st6zme03hza8,Oriana pinto,orianapinto0826@gmail.com,STUDENT,EST-2025-007,Colegiales,4to Año,D,"Física,Química",ACTIVE,2025-08-06T15:00:40.544Z,2025-08-13 17:57:16
+u_pccwk930omdyo4q46,Felipe Muttini Pagadizabal,felipe.muttini.pagadizabal@gmail.com,STUDENT,EST-2025-006,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-05T15:02:41.718Z,2025-08-13 19:36:48
+u_4cnmxf77amdynltex,Catalina Varrente,cata.varrente2008@gmail.com,STUDENT,EST-2025-005,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-05T14:47:59.529Z,2025-08-13 19:36:48
+u_bgnqcmox2mdynijxl,Helena Machado,helenmachado2008@gmail.com,STUDENT,EST-2025-004,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-05T14:45:27.273Z,2025-08-13 19:36:48
+u_0ewscw8ksmdyn9paz,Lucio Fernández rico,fernandezlucio4@gnail.com,STUDENT,EST-2025-003,Congreso,5to Año,A,"Física,Química",ACTIVE,2025-08-05T14:38:34.331Z,2025-08-13 19:36:48
+u_5inzfd9ncmdyhzank,RDB,RDB@test.com,STUDENT,EST-2025-002,Colegiales,5to Año,D,Química,ACTIVE,2025-08-05T12:10:30.704Z,2025-08-13 19:36:48

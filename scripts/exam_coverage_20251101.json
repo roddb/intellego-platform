@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2025-11-01T04:36:00.641Z",
+  "reports": [
+    {
+      "course": "4to Año C",
+      "stats": {
+        "totalStudents": 35,
+        "studentsComplete": 31,
+        "studentsMissing": 4,
+        "completionPercentage": 88.6
+      },
+      "incompleteStudents": [
+        {
+          "name": "Facundo Isola",
+          "studentId": "EST-2025-1015",
+          "id": "16782162-cdac-4b77-ae7e-b1b71ead8f5e",
+          "hasExams": [],
+          "missingExams": [
+            "Gases Ideales",
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Matilde Pasarin de la Torre",
+          "studentId": "EST-2025-131",
+          "id": "u_tid7bop2gme6i2g6e",
+          "hasExams": [
+            "Tiro Oblicuo"
+          ],
+          "missingExams": [
+            "Gases Ideales"
+          ]
+        },
+        {
+          "name": "joaquín margueirat ",
+          "studentId": "EST-2025-016",
+          "id": "u_0mkknqzfwme0b1gv6",
+          "hasExams": [
+            "Tiro Oblicuo"
+          ],
+          "missingExams": [
+            "Gases Ideales"
+          ]
+        },
+        {
+          "name": "mercedes rizzo lynch",
+          "studentId": "EST-2025-132",
+          "id": "u_gw49maclcme6i3g64",
+          "hasExams": [
+            "Tiro Oblicuo"
+          ],
+          "missingExams": [
+            "Gases Ideales"
+          ]
+        }
+      ]
+    },
+    {
+      "course": "4to Año D",
+      "stats": {
+        "totalStudents": 27,
+        "studentsComplete": 18,
+        "studentsMissing": 9,
+        "completionPercentage": 66.7
+      },
+      "incompleteStudents": [
+        {
+          "name": "Delfina Grasso",
+          "studentId": "EST-2025-105",
+          "id": "u_fcr9p35cgme607v47",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Franco Lugo",
+          "studentId": "EST-2025-073",
+          "id": "u_h52avro4ome1fmelf",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Justina Manzullo",
+          "studentId": "EST-2025-074",
+          "id": "u_92u4fm0txme1fny4m",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Kiara Janson",
+          "studentId": "EST-2025-013",
+          "id": "u_e80gtlh44me06maes",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Maria Emilia Delaico",
+          "studentId": "EST-2025-014",
+          "id": "u_tk1vcmquxme06mhr4",
+          "hasExams": [
+            "Tiro Oblicuo"
+          ],
+          "missingExams": [
+            "Gases Ideales"
+          ]
+        },
+        {
+          "name": "Maria Sofia Opacak",
+          "studentId": "EST-2025-1742",
+          "id": "eed629ef-850b-4038-be81-a18fb3d06600",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Mia Gonzalez Arce",
+          "studentId": "EST-2025-012",
+          "id": "u_axwjy36zgme06m4sr",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Pedro merediz puente ",
+          "studentId": "EST-2025-1750",
+          "id": "abf271f9-f2c9-40bb-9d90-585dfcae4aef",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Veronica Hansen",
+          "studentId": "EST-2025-081",
+          "id": "u_icojg9yv3me1yt3l8",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        }
+      ]
+    },
+    {
+      "course": "4to Año E",
+      "stats": {
+        "totalStudents": 28,
+        "studentsComplete": 25,
+        "studentsMissing": 3,
+        "completionPercentage": 89.3
+      },
+      "incompleteStudents": [
+        {
+          "name": "Benjamín López",
+          "studentId": "EST-2025-065",
+          "id": "u_eg4pqh49ume1bzrv3",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Emilia Sarti",
+          "studentId": "EST-2025-070",
+          "id": "u_49vfe6x03me1c9en0",
+          "hasExams": [
+            "Gases Ideales"
+          ],
+          "missingExams": [
+            "Tiro Oblicuo"
+          ]
+        },
+        {
+          "name": "Julia Mayenfisch Paz",
+          "studentId": "EST-2025-064",
+          "id": "u_g4dq2j6g8me1bxxtu",
+          "hasExams": [
+            "Tiro Oblicuo"
+          ],
+          "missingExams": [
+            "Gases Ideales"
+          ]
+        }
+      ]
+    },
+    {
+      "course": "5to Año A",
+      "stats": {
+        "totalStudents": 21,
+        "studentsComplete": 18,
+        "studentsMissing": 3,
+        "completionPercentage": 85.7
+      },
+      "incompleteStudents": [
+        {
+          "name": "Emma Blumenfarb ",
+          "studentId": "EST-2025-1753",
+          "id": "3d8f7bf7-abfc-49a2-804a-c36519610f72",
+          "hasExams": [
+            "Termodinámica"
+          ],
+          "missingExams": [
+            "Equilibrio Químico"
+          ]
+        },
+        {
+          "name": "Sol Fontán",
+          "studentId": "EST-2025-118",
+          "id": "u_67kfbewk9me6cn6qp",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico",
+            "Termodinámica"
+          ]
+        },
+        {
+          "name": "tobías barisch",
+          "studentId": "EST-2025-135",
+          "id": "u_7mj6dqo3jme73vuwb",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico",
+            "Termodinámica"
+          ]
+        }
+      ]
+    },
+    {
+      "course": "5to Año B",
+      "stats": {
+        "totalStudents": 24,
+        "studentsComplete": 20,
+        "studentsMissing": 4,
+        "completionPercentage": 83.3
+      },
+      "incompleteStudents": [
+        {
+          "name": "Fiamma De Bellis",
+          "studentId": "EST-2025-1748",
+          "id": "81aa2e40-c8e4-4c55-838c-5afe808c5bd8",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico"
+          ]
+        },
+        {
+          "name": "Isabel Ortiz Güemes",
+          "studentId": "EST-2025-134",
+          "id": "u_bap6b4k2rme73bmwt",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico"
+          ]
+        },
+        {
+          "name": "Kevin",
+          "studentId": "EST-2025-1754",
+          "id": "3009548e-dddc-4982-b07c-beaa0a1c77e5",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico"
+          ]
+        },
+        {
+          "name": "manuela ",
+          "studentId": "EST-2025-125",
+          "id": "u_itbn7il5cme6h0gl3",
+          "hasExams": [],
+          "missingExams": [
+            "Equilibrio Químico"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "student": {
+    "id": "EST-2025-002",
+    "name": "RDB",
+    "email": "RDB@test.com"
+  },
+  "academic": {
+    "sede": "Colegiales",
+    "year": "5to Año",
+    "division": "D",
+    "subject": "Química"
+  },
+  "week": {
+    "start": "2025-10-20",
+    "end": "2025-10-27"
+  },
+  "submittedAt": "2025-10-23T13:17:55.384Z",
+  "answers": {
+    "temasYDominio": "esto",
+    "evidenciaAprendizaje": "es",
+    "dificultadesEstrategias": ".",
+    "conexionesAplicacion": ".",
+    "comentariosAdicionales": "."
+  }
+}

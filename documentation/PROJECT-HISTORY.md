@@ -4,6 +4,244 @@ Complete development history and updates for the Intellego Platform.
 
 ## 📅 Development Timeline
 
+### January 12, 2025 - Radar Charts de Habilidades con Recharts (Completo)
+
+#### Implementación de Gráficos de Radar para Visualización de Habilidades
+
+Se completó exitosamente la implementación de radar charts interactivos para visualizar las 5 habilidades evaluadas por IA, reemplazando los círculos de progreso con visualización tipo radar profesional usando Recharts.
+
+**Problema Inicial:**
+- Usuario solicitó crear radar charts para medir habilidades corregidas por IA con rúbricas
+- El componente SkillsProgressRings mostraba círculos de progreso simples
+- Necesitaba visualización más profesional y educativa tipo radar chart
+
+**Desafío Principal: Tamaño del Radar Chart**
+- **Persistió 8+ iteraciones**: A pesar de ajustes de tamaño (800x600, 1000x700), el chart se veía "diminuto"
+- **Causa Raíz Encontrada**: CSS global en `globals.css` limitaba TODOS los SVGs a `max-width: 200px !important`
+- **Frustración del Usuario**: Múltiples screenshots mostrando "sigue igual" después de cada intento
+- **Solución Final**: Agregar excepción CSS específica para `.recharts-surface`
+
+---
+
+**Solución Implementada:**
+
+✅ **Dos Componentes de Radar Chart:**
+1. **SkillsRadarChart** - Para reportes semanales (5 habilidades)
+2. **ExamRadarChart** - Para exámenes (5 fases de rúbrica)
+
+✅ **Sistema Completo con:**
+- Gráficos de radar interactivos con tooltips descriptivos
+- Identificación automática de fortaleza principal y área de mejora
+- Promedio/final destacado con colores según nivel de rendimiento
+- Soporte completo de dark mode
+- Página de demostración en `/demo/radar-charts`
+
+---
+
+**Technical Implementation:**
+
+**Archivos Creados:**
+
+1. **`src/components/student/SkillsRadarChart.tsx`** (298 líneas)
+   - Visualiza 5 habilidades de reportes semanales
+   - Datos de `Feedback.skillsMetrics` (JSON)
+   - 5 habilidades: comprehension, criticalThinking, selfRegulation, practicalApplication, metacognition
+   - Tooltip personalizado con descripción de cada habilidad
+   - Identificación de fortaleza (mayor score) y área de mejora (menor score)
+   - Promedio general calculado automáticamente
+   - Props: skillsData, subject, height, showInterpretation, className
+
+2. **`src/components/evaluation/ExamRadarChart.tsx`** (350 líneas)
+   - Visualiza 5 fases de rúbrica de exámenes
+   - Datos extraídos de `Evaluation.feedback` (markdown)
+   - 5 fases con pesos diferentes: Fase 1 (15%), Fase 2 (20%), Fase 3 (25%), Fase 4 (30%), Fase 5 (10%)
+   - Cálculo de puntuación ponderada final
+   - Props: phaseScores, examTopic, subject, finalScore, height, showInterpretation
+
+3. **`src/components/README_RADAR_CHARTS.md`** (369 líneas)
+   - Documentación completa de ambos componentes
+   - Ejemplos de uso y código
+   - Guía de integración en producción
+   - Estructura de datos y tipos TypeScript
+   - Solución de problemas comunes
+
+4. **`src/app/demo/radar-charts/page.tsx`** (252 líneas)
+   - Página de demostración interactiva
+   - 4 ejemplos: Rendimiento promedio/bajo (reportes) + Mixto/alto (exámenes)
+   - Comparación lado a lado de ambos sistemas
+   - Información técnica y costos
+
+**Archivos Modificados:**
+
+5. **`src/app/dashboard/student/progress/page.tsx`**
+   - Reemplazado `SkillsProgressRings` con `SkillsRadarChart`
+   - Integrado en página de progreso del estudiante
+   - Props: skillsData, subject, height=600, showInterpretation=true
+
+6. **`src/app/globals.css`** ⭐ **FIX CRÍTICO** ⭐
+   - **Líneas 490-493**: CSS global limitaba SVGs a 200px × 200px
+   - **Líneas 495-499**: Agregada excepción para Recharts:
+   ```css
+   /* EXCEPTION: Allow Recharts SVGs to be full size */
+   .recharts-surface {
+     max-width: none !important;
+     max-height: none !important;
+   }
+   ```
+
+**Proceso de Debugging (Problema del Tamaño):**
+
+**Iteración 1-2**: Cambios a ResponsiveContainer
+- Probado width="99%" (workaround conocido de Recharts)
+- Probado position: relative en contenedor
+- **Resultado**: "sigue viéndose demasiado pequeño"
+
+**Iteración 3-4**: Dimensiones fijas sin ResponsiveContainer
+- 700x500 → 1000x700
+- **Resultado**: "sigue igual"
+
+**Iteración 5-6**: Ajustes CSS directos
+- Intentado .recharts-wrapper con width/height explícitos
+- **Resultado**: "Sigue igual"
+
+**Iteración 7-8**: Búsqueda web + Lectura de globals.css
+- Web search: "recharts radar chart too small not rendering full size"
+- **DESCUBRIMIENTO**: Línea 490-493 en globals.css con `max-width: 200px !important`
+- **CAUSA RAÍZ CONFIRMADA**: Regla global afectaba TODOS los SVGs
+
+**Iteración 9 (SOLUCIÓN FINAL)**: Excepción CSS
+- Agregada clase `.recharts-surface` con `max-width: none !important`
+- **Resultado**: ✅ "al fin por el amor de Dios!"
+
+---
+
+**Características de los Radar Charts:**
+
+**SkillsRadarChart (Reportes Semanales):**
+- 5 ejes radiales (una por habilidad)
+- Escala 0-100 en cada eje
+- Área rellena azul (#3b82f6) con 50% opacidad
+- Tooltip interactivo muestra:
+  * Nombre de la habilidad
+  * Descripción detallada
+  * Puntuación sobre 100
+- Interpretación automática:
+  * Promedio general destacado
+  * Fortaleza principal (fondo verde)
+  * Área de mejora (fondo amarillo)
+  * Guía de interpretación
+
+**ExamRadarChart (Exámenes):**
+- 5 fases de resolución de problemas
+- Pesos diferentes por fase (15%, 20%, 25%, 30%, 10%)
+- Puntuación ponderada calculada automáticamente
+- Comparación fase con mayor/menor rendimiento
+- Mismas características visuales que SkillsRadarChart
+
+**Defensive Programming:**
+- Filtrado de claves válidas con `.filter(([key]) => key in skillLabels)`
+- Prevención de errores "Cannot read properties of undefined"
+- Validación de datos antes de renderizar
+- Manejo de casos sin datos (muestra 0s)
+
+---
+
+**Dependencias:**
+
+```json
+{
+  "recharts": "^3.3.0"
+}
+```
+
+Ya estaba instalado en el proyecto (usado en otros componentes).
+
+---
+
+**Visualización Final:**
+
+**Tamaño actual**: 1000px × 750px (aumentado desde 800x600 por pedido del usuario)
+
+**Ubicación en producción**:
+- http://localhost:3000/dashboard/student/progress (estudiantes)
+- http://localhost:3000/demo/radar-charts (demostración)
+
+**Integración**:
+- Selector de materia (General, Física, Matemática, etc.)
+- Datos obtenidos de API `/api/student/skills-progress`
+- Cálculo de promedios por materia y global
+
+---
+
+**Testing Status:**
+- ✅ TypeScript compilation: PASS (0 errores)
+- ✅ Radar chart tamaño correcto: VERIFICADO (1000x750px)
+- ✅ Tooltips interactivos: Funcionando
+- ✅ Dark mode: Soporte completo
+- ✅ Responsive: Ajustado a contenedor
+- ✅ Defensive filtering: Prevención de crashes
+- ✅ Usuario satisfecho: "al fin por el amor de Dios!"
+
+**Pending:**
+- ⚠️ **ExamRadarChart Integration**: Integrar en dashboard de exámenes (requiere parser de markdown)
+- ⚠️ **Parser Implementation**: Crear `parsePhaseScoresFromMarkdown()` para extraer puntuaciones de Evaluation.feedback
+- ⚠️ **Optimización**: Considerar lazy loading si impacta performance
+
+---
+
+**Lecciones Aprendidas:**
+
+1. **CSS Global puede sobrescribir todo**: Siempre revisar globals.css cuando hay problemas de tamaño inesperados
+2. **!important es difícil de debuggear**: Requiere !important en la excepción para sobrescribirlo
+3. **Recharts usa SVG**: Cualquier regla CSS que afecte SVG afectará Recharts
+4. **Debugging visual requiere paciencia**: 8 iteraciones para encontrar la causa raíz
+5. **User feedback es crítico**: "sigue igual" indicaba que no estábamos atacando la raíz del problema
+
+**Código de la Solución:**
+
+```css
+/* globals.css - Líneas 488-499 */
+
+/* 🎯 TARGETED SVG FIX: Prevent giant icon rendering while preserving Mac styling */
+svg {
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+
+/* EXCEPTION: Allow Recharts SVGs to be full size */
+.recharts-surface {
+  max-width: none !important;
+  max-height: none !important;
+}
+```
+
+```typescript
+// SkillsRadarChart.tsx - Defensive filtering
+const radarData: RadarDataPoint[] = Object.entries(skillsData)
+  .filter(([key]) => key in skillLabels) // ← Previene crashes
+  .map(([key, score]) => {
+    const skillKey = key as keyof typeof skillLabels;
+    return {
+      skill: skillLabels[skillKey].name,
+      score: Math.round(score),
+      fullMark: 100,
+      description: skillLabels[skillKey].description,
+    };
+  });
+```
+
+---
+
+**Líneas de Código Agregadas:**
+- SkillsRadarChart: 298 líneas
+- ExamRadarChart: 350 líneas
+- Documentación: 369 líneas
+- Demo page: 252 líneas
+- CSS fix: 5 líneas
+- **Total: ~1,274 líneas**
+
+---
+
 ### January 12, 2025 - Sistema de Ajuste Contextual con "Sentido Común Pedagógico"
 
 #### Implementación Completa de Ajuste Contextual para Evaluaciones IA

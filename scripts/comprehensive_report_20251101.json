@@ -1,0 +1,752 @@
+{
+  "generatedAt": "2025-11-01T04:53:13.699Z",
+  "summary": {
+    "deletedDuplicates": 8,
+    "examsWithoutExtractableName": 37,
+    "studentsMissingExams": 26,
+    "subjectsWithMissingStudents": 9
+  },
+  "deletedDuplicateUsers": [
+    {
+      "id": "271939b0-23ab-4ee4-9b2a-1ac4fc117d94",
+      "studentId": "EST-2025-1019",
+      "name": "catalina cresci",
+      "email": "catalina.cresci.dup1@gmail.com",
+      "academicYear": "5to Año",
+      "division": "B",
+      "course": "5to Año B",
+      "createdAt": "2025-08-15",
+      "primaryUserId": "u_yjrnyfsg2me6bmfeg",
+      "primaryUserCode": "EST-2025-117",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "bf75d4ac-5f88-4043-a227-4a512846cafe",
+      "studentId": "EST-2025-1743",
+      "name": "catalina cresci",
+      "email": "catalina.cresci.dup2@gmail.com",
+      "academicYear": "5to Año",
+      "division": "B",
+      "course": "5to Año B",
+      "createdAt": "2025-10-20",
+      "primaryUserId": "u_yjrnyfsg2me6bmfeg",
+      "primaryUserCode": "EST-2025-117",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "7cfecfff-7374-43c3-94b0-3bd182f7345e",
+      "studentId": "EST-2025-1747",
+      "name": "catalina cresci",
+      "email": "catalina.cresci.dup3@gmail.com",
+      "academicYear": "5to Año",
+      "division": "B",
+      "course": "5to Año B",
+      "createdAt": "2025-10-22",
+      "primaryUserId": "u_yjrnyfsg2me6bmfeg",
+      "primaryUserCode": "EST-2025-117",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "u_qjugmxdtzme5ry9mk",
+      "studentId": "EST-2025-102",
+      "name": "Lucio Fernández rico",
+      "email": "fernandezlucio4@gmail.com",
+      "academicYear": "5to Año",
+      "division": "A",
+      "course": "5to Año A",
+      "createdAt": "2025-08-09",
+      "primaryUserId": "u_0ewscw8ksmdyn9paz",
+      "primaryUserCode": "EST-2025-003",
+      "reason": "Duplicate account - no data (correct email migrated to primary)"
+    },
+    {
+      "id": "0dc9641c-192c-4b0f-9d9c-a900dc161495",
+      "studentId": "EST-2025-1023",
+      "name": "Charo Reig",
+      "email": "charoreigg.dup@gmail.com",
+      "academicYear": "4to Año",
+      "division": "E",
+      "course": "4to Año E",
+      "createdAt": "2025-08-20",
+      "primaryUserId": "7c833c54-face-42df-8ba9-758c9e0a838e",
+      "primaryUserCode": "EST-2025-1020",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "u_zsmjtajb0me1fut40",
+      "studentId": "EST-2025-077",
+      "name": "Salvador Veltri",
+      "email": "salveltri21.dup@gmail.com",
+      "academicYear": "4to Año",
+      "division": "D",
+      "course": "4to Año D",
+      "createdAt": "2025-08-08",
+      "primaryUserId": "u_t7fxqb0y0me1fm6ec",
+      "primaryUserCode": "EST-2025-072",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "75188ebe-9c16-467d-8353-7313d6d65b7a",
+      "studentId": "EST-2025-1744",
+      "name": "Isabel Ortiz Güemes",
+      "email": "ortizguemesisabel.dup@gmail.com",
+      "academicYear": "5to Año",
+      "division": "B",
+      "course": "5to Año B",
+      "createdAt": "2025-10-20",
+      "primaryUserId": "u_bap6b4k2rme73bmwt",
+      "primaryUserCode": "EST-2025-134",
+      "reason": "Duplicate account - no data"
+    },
+    {
+      "id": "f5c6ca4e-cd98-4729-bbc6-51c26cd7c505",
+      "studentId": "EST-2025-1010",
+      "name": "Agustin Gonzalez Castro Feijoo",
+      "email": "agustingcf.dup@gmail.com",
+      "academicYear": "5to Año",
+      "division": "D",
+      "course": "5to Año D",
+      "createdAt": "2025-08-18",
+      "primaryUserId": "d5aec9ad-a91c-4304-87e1-01fa6f8d399b",
+      "primaryUserCode": "EST-2025-1008",
+      "reason": "Duplicate account - no data"
+    }
+  ],
+  "examsWithoutExtractableName": [
+    {
+      "evaluationId": "eval_b0003e7d00c0dc82",
+      "studentName": "Constantino Chitarino",
+      "studentId": "EST-2025-1751",
+      "course": "4to Año D",
+      "subject": "Física 4to D",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-10-13",
+      "score": 67,
+      "feedbackPreview": "Retroalimentación completa disponible en archivo: Chitarino_Constantino_retroalimentacion_13102025.md. Examen de Física 4to D - Tiro Oblicuo. Nota Final: 67.13/100. Evaluación absoluta sin comparacion..."
+    },
+    {
+      "evaluationId": "eval_cd6b14f1f1bc01a9",
+      "studentName": "Mia Gonzalez Arce",
+      "studentId": "EST-2025-012",
+      "course": "4to Año D",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-11",
+      "score": 63,
+      "feedbackPreview": "# RETROALIMENTACIÓN - Gonzalez Arce, Mia - Nota Final: 57.83/100\n## Examen: Química 4to D - Gases Ideales\n### Fecha: 11/10/2025\n\n## 📊 Desempeño en el Examen: 43.25/100\n## 📊 Score Base (historial): 5..."
+    },
+    {
+      "evaluationId": "32ede0a1aae779d448dfffedffa34973",
+      "studentName": "Iñaki Zubero",
+      "studentId": "EST-2025-056",
+      "course": "4to Año E",
+      "subject": "Química 4to E",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-11",
+      "score": 62,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA\n\n**Alumno:** Zubero Horisberger, Iñaki\n**Curso:** 4to E\n**Tema:** Gases Ideales\n**Fecha de evaluación:** 11 de octubre de 2025\n**Nota del Examen:** 61.60\n\n---\n\n## 1. ..."
+    },
+    {
+      "evaluationId": "aa85cc59dee1e7171d230ead47603284",
+      "studentName": "Dunia Claro",
+      "studentId": "EST-2025-058",
+      "course": "4to Año E",
+      "subject": "Química 4to E",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-11",
+      "score": 67,
+      "feedbackPreview": "# Retroalimentación Personalizada - Dunia Claro\n\n**Examen:** Gases Ideales\n**Curso:** 4to E\n**Fecha:** 11 de octubre de 2025\n**Nota Final:** 66.58/100\n\n---\n\n## 1. Análisis de tu Desempeño por Fase\n\n##..."
+    },
+    {
+      "evaluationId": "eval_b6709ebd2fa5f07c",
+      "studentName": "Conrado Diaz",
+      "studentId": "EST-2025-010",
+      "course": "4to Año D",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-06",
+      "score": 76,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA - EXAMEN DE QUÍMICA\n\n**Estudiante:** Diaz, Conrado\n**Curso:** 4to D\n**Materia:** Química\n**Tema:** Gases Ideales\n**Fecha del examen:** 06/10/2025\n**Nota final:** 76.2..."
+    },
+    {
+      "evaluationId": "eval_4d7a020308ab5f0f",
+      "studentName": "Morena Garmendia",
+      "studentId": "EST-2025-017",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 64,
+      "feedbackPreview": "Ver archivo: Garmendia_Morena_retroalimentacion_07102025.md..."
+    },
+    {
+      "evaluationId": "eval_9b52956d574a42b4",
+      "studentName": "Franco Figini",
+      "studentId": "EST-2025-019",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 66,
+      "feedbackPreview": "Retroalimentación personalizada - Nota Final: 66/100. Buen desempeño con metodología estructurada y cálculos correctos...."
+    },
+    {
+      "evaluationId": "eval_9906260ae306c559",
+      "studentName": "Milagros Monsegur",
+      "studentId": "EST-2025-022",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 73,
+      "feedbackPreview": "{\"student_name\":\"Monsegur, Milagros\",\"exam_topic\":\"Gases Ideales - Tema 1\",\"exam_date\":\"2025-10-01\",\"score\":73,\"score_breakdown\":{\"ejercicio_1\":48,\"ejercicio_2\":48,\"total\":96,\"nota_final_comparativa\":..."
+    },
+    {
+      "evaluationId": "eval_f992b3833e9f992b",
+      "studentName": "Clara Aiello",
+      "studentId": "EST-2025-023",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 58,
+      "feedbackPreview": "Ver archivo de retroalimentación completo: Aiello_Maria_retroalimentacion_06102025.md..."
+    },
+    {
+      "evaluationId": "eval_729d0b7c5b03df59",
+      "studentName": "Marrazzo, Lola",
+      "studentId": "EST-2025-028",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 80,
+      "feedbackPreview": "Retroalimentación personalizada - Nota Final: 80/100. Desempeño excepcional en comprensión, variables y herramientas (90-95%). Cálculos correctos con error menor de transcripción. Debilidad en verific..."
+    },
+    {
+      "evaluationId": "eval_b89d94ab313121d6",
+      "studentName": "Magdalena Donadio",
+      "studentId": "EST-2025-030",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 72,
+      "feedbackPreview": "Nota Examen: 73.50/100. Score Base: 65.83. Ajuste: +0.085. Nota Final: 71.43/100. Fortalezas: Ejercicio completo (incluye parte c - única en batch), comprensión clara, cálculos correctos. Mejoras: Ver..."
+    },
+    {
+      "evaluationId": "eval_a04abe96f4c64832",
+      "studentName": "Mia Pleitel",
+      "studentId": "EST-2025-031",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 100,
+      "feedbackPreview": "{\"exerciseResults\":[{\"exercise\":1,\"score\":50,\"maxScore\":50,\"phases\":{\"phase1\":{\"score\":12.5,\"max\":12.5,\"performance\":\"Perfecto\"},\"phase2\":{\"score\":12.5,\"max\":12.5,\"performance\":\"Perfecto\"},\"phase3\":{\"..."
+    },
+    {
+      "evaluationId": "eval_f5cb4bc0ddb21b16",
+      "studentName": "Valentino Papa",
+      "studentId": "EST-2025-032",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 64,
+      "feedbackPreview": "Retroalimentación personalizada - Nota Final: 64/100. Comprensión y organización excepcionales (90-100% en Fases 1-3). Calculó correctamente 4.12 atm pero tachó la respuesta correcta. Ausencia total d..."
+    },
+    {
+      "evaluationId": "eval_8f3d5a7c2e9b1f4a",
+      "studentName": "Juliana Ceriani Cernadas",
+      "studentId": "EST-2025-035",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 78,
+      "feedbackPreview": "Nota Examen: 75.50/100. Score Base: 75.77. Ajuste: +0.02. Nota Final: 77.28/100. Fortalezas: Organización VC/VD, planificación lógica, comprensión fracciones molares. Mejoras: Verificación ausente (F5..."
+    },
+    {
+      "evaluationId": "eval_89b0d2f73d89ca3c",
+      "studentName": "Vertedor Salinas, Fiorella",
+      "studentId": "EST-2025-039",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 75,
+      "feedbackPreview": "{\"exerciseResults\":[{\"exercise\":1,\"score\":25,\"maxScore\":50,\"error\":\"Conversión incorrecta 250mg, resultado M=0.030 vs 30.29 correcto\"},{\"exercise\":2,\"score\":45,\"maxScore\":50,\"partA\":\"M=50.164 g/mol (d..."
+    },
+    {
+      "evaluationId": "eval_904a9ae419143a85",
+      "studentName": "zoe poggi ",
+      "studentId": "EST-2025-048",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 97,
+      "feedbackPreview": "{\"exerciseResults\":[{\"exercise\":1,\"score\":37,\"maxScore\":50,\"phases\":{\"phase1\":{\"score\":12.5,\"max\":12.5,\"performance\":\"Perfecto\"},\"phase2\":{\"score\":10.0,\"max\":12.5,\"performance\":\"Muy bueno - error en c..."
+    },
+    {
+      "evaluationId": "eval_03929b0a67ff3abb",
+      "studentName": "Veronica Hansen",
+      "studentId": "EST-2025-081",
+      "course": "4to Año D",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 75,
+      "feedbackPreview": "# RETROALIMENTACION PERSONALIZADA - HANSEN, VERONICA IVANA\n\n**Examen:** Gases Ideales\n**Fecha de examen:** 01/10/2025\n**Fecha de retroalimentacion:** 10/10/2025\n**Curso:** 4to D\n**Materia:** Quimica\n\n..."
+    },
+    {
+      "evaluationId": "eval_c3ba3d7be4b3d1cc",
+      "studentName": "Delfina Grasso",
+      "studentId": "EST-2025-105",
+      "course": "4to Año D",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 69,
+      "feedbackPreview": "Retroalimentación completa - ver Grasso_Delfina_retroalimentacion_06102025.md..."
+    },
+    {
+      "evaluationId": "eval_2fb00b38e4a3c198",
+      "studentName": "camilo giles ",
+      "studentId": "EST-2025-128",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 55,
+      "feedbackPreview": "Ver archivo: Giles_Camilo_retroalimentacion_12102025.md..."
+    },
+    {
+      "evaluationId": "eval_e94b262e2b81860b",
+      "studentName": "Victoria Fernández Pazos ",
+      "studentId": "EST-2025-1000",
+      "course": "4to Año D",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 63,
+      "feedbackPreview": "Retroalimentación completa generada - ver archivo Fernandez_Pazos_Victoria_retroalimentacion_06102025.md..."
+    },
+    {
+      "evaluationId": "eval_e497d35ce0265016",
+      "studentName": "martin bautista abella",
+      "studentId": "EST-2025-1006",
+      "course": "4to Año C",
+      "subject": "Química 4to C",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-01",
+      "score": 61,
+      "feedbackPreview": "Retroalimentación personalizada - Nota Final: 61/100. Desempeño consistente con expectativas históricas. Desarrollo metodológico adecuado con errores menores en cálculos...."
+    },
+    {
+      "evaluationId": "eval_af1e2cfbf6b7d8c8d187299eddff0dd5",
+      "studentName": "Tomas Forrester",
+      "studentId": "EST-2025-026",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-29",
+      "score": 78,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA\n\n**Estudiante:** Forrester, Tomás\n**Examen:** Física 4to C - Tiro Oblicuo\n**Fecha evaluación:** 29/09/2025\n**Nota final:** 77.9/100\n\n---\n\n## RESUMEN EJECUTIVO\n\nTomás ..."
+    },
+    {
+      "evaluationId": "eval_02ee9dc9a1f486385012eb7a0810da93",
+      "studentName": "Juliana Ceriani Cernadas",
+      "studentId": "EST-2025-035",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-29",
+      "score": 74,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA\n**Estudiante:** Ceriani Cernadas, Juliana\n**Examen:** Física 4to C - Tiro Oblicuo\n**Fecha de evaluación:** 29/09/2025\n**Nota obtenida:** 74.4/100\n**Estado de confianz..."
+    },
+    {
+      "evaluationId": "eval_a6945ad9bd470b65680274b6a484bc18",
+      "studentName": "Ulises García Canteli ",
+      "studentId": "EST-2025-040",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-29",
+      "score": 40,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA\n\n**Estudiante:** García Canteli, Ulises\n**ID:** u_zbzlsfka9me0bba6t\n**Examen:** Física 4to C - Tiro Oblicuo\n**Fecha evaluación:** 29/09/2025\n**Nota final:** 39.5/100\n..."
+    },
+    {
+      "evaluationId": "eval_b758f70ef055f6fc81e27a94a022f9dd",
+      "studentName": "Mateo Barrera",
+      "studentId": "EST-2025-041",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-29",
+      "score": 43,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA\n**Estudiante:** Barrera, Mateo\n**Examen:** Física 4to C - Tiro Oblicuo\n**Fecha de evaluación:** 29/09/2025\n**Nota obtenida:** 42.7/100\n**Estado de confianza:** ⚠️ DAT..."
+    },
+    {
+      "evaluationId": "eval_9d6973302a0b48ea0ebb3deb3f8c603b",
+      "studentName": "francesca paccie ",
+      "studentId": "EST-2025-104",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-29",
+      "score": 57,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EXAMEN TIRO OBLICUO\n\n**Estudiante:** Paccie, Francesca\n**Curso:** 4° C - Física\n**Tema:** Tiro Oblicuo\n**Fecha examen:** 29/09/2025\n**Calificación final:** 56.8/..."
+    },
+    {
+      "evaluationId": "eval_5439a98dd62e39e38260ea8973d32a21",
+      "studentName": "Miranda  Lazaro",
+      "studentId": "EST-2025-034",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-17",
+      "score": 70,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA - FÍSICA\n## Examen: Tiro Oblicuo\n\n**Estudiante:** Miranda Lazaro\n**Fecha del examen:** 17/09/2025\n**Nota obtenida:** 70.1/100\n\n---\n\n## 🎯 RESUMEN EJECUTIVO\n\nTu desemp..."
+    },
+    {
+      "evaluationId": "eval_8de29ebf2fbaf0dc",
+      "studentName": "Isabella Stilman",
+      "studentId": "EST-2025-1016",
+      "course": "4to Año D",
+      "subject": "Física 4to D",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-10",
+      "score": 67,
+      "feedbackPreview": "Retroalimentación completa disponible en archivo: Stilman_Isabella_retroalimentacion_13102025.md. Examen de Física 4to D - Tiro Oblicuo. Nota Final: 66.80/100. Evaluación absoluta sin comparaciones hi..."
+    },
+    {
+      "evaluationId": "eval_ac49e69d7f880ffb",
+      "studentName": "Catalina Gilardi",
+      "studentId": "EST-2025-015",
+      "course": "4to Año D",
+      "subject": "Física 4to D",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-09",
+      "score": 76,
+      "feedbackPreview": "Retroalimentación completa disponible en archivo: Gilardi_Catalina_retroalimentacion_13102025.md. Examen de Física 4to D - Tiro Oblicuo. Nota Final: 76/100. Evaluación absoluta sin comparaciones histó..."
+    },
+    {
+      "evaluationId": "eval_83d834bb359d23251fceb70897d8a150",
+      "studentName": "Guadalupe rueda",
+      "studentId": "EST-2025-018",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-09",
+      "score": 94,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EVALUACIÓN DE FÍSICA\n\n**Estudiante:** Rueda, Guadalupe\n**Curso:** 4° Año C\n**Tema:** Tiro Oblicuo y Proyectil Horizontal\n**Fecha de evaluación:** 09/09/2025\n**Fe..."
+    },
+    {
+      "evaluationId": "eval_faa9c5507c545285bf027a3c62ea0898",
+      "studentName": "Franco Palamenghi ",
+      "studentId": "EST-2025-036",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-09",
+      "score": 44,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EXAMEN TIRO OBLICUO\n\n**Estudiante:** Palamenghi, Franco\n**Curso:** 4° C - Física\n**Tema:** Tiro Oblicuo\n**Fecha examen:** 09/09/2025\n**Calificación final:** 43.5..."
+    },
+    {
+      "evaluationId": "eval_d9070f62961f4adac97ab90aae72d8ff",
+      "studentName": "Vertedor Salinas, Fiorella",
+      "studentId": "EST-2025-039",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-09",
+      "score": 46,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA - EXAMEN TIRO OBLICUO\n\n**Estudiante:** Vertedor Salinas, Fiorella\n**Curso:** 4to C - Física\n**Tema:** Tiro Oblicuo\n**Fecha del examen:** Sin fecha visible\n**Fecha de ..."
+    },
+    {
+      "evaluationId": "eval_799647298dbd5d79f7c4ed1ca05aabdc",
+      "studentName": "zoe poggi ",
+      "studentId": "EST-2025-048",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-08",
+      "score": 59,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EXAMEN TIRO OBLICUO\n\n**Estudiante:** Poggi, Zoe\n**Examen:** Evaluación de Física - Tiro Oblicuo (4to C)\n**Fecha examen:** 08/09/2025\n**Fecha análisis:** 30/09/20..."
+    },
+    {
+      "evaluationId": "eval_8f2c00ebad37c562480ff4588a0a1834",
+      "studentName": "Lucas Mingotti Tziavaras",
+      "studentId": "EST-2025-129",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-08",
+      "score": 58,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EVALUACIÓN DE FÍSICA\n\n**Estudiante:** Mingotti Tziavaras, Lucas Leonidas\n**ID:** u_e14kez4ghme6hx5nr\n**Curso:** 4° Año C\n**Tema:** Tiro Oblicuo y Proyectil Horiz..."
+    },
+    {
+      "evaluationId": "eval_3864c3253b1fe3f5b661bad3c3af5dbd",
+      "studentName": "mercedes rizzo lynch",
+      "studentId": "EST-2025-132",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-08",
+      "score": 92,
+      "feedbackPreview": "# RETROALIMENTACIÓN PERSONALIZADA - TIRO OBLICUO\n\n**Estudiante:** Rizzo Lynch, Mercedes\n**Examen:** Evaluación de Física - Tiro Oblicuo\n**Fecha de examen:** 08/09/2025\n**Fecha de análisis:** 30/09/202..."
+    },
+    {
+      "evaluationId": "eval_c6c937578d32a658adcfe9c28b20372b",
+      "studentName": "Isabel Gaeta",
+      "studentId": "EST-2025-033",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-02",
+      "score": 76,
+      "feedbackPreview": "# 📋 RETROALIMENTACIÓN PERSONALIZADA - EVALUACIÓN DE FÍSICA (VERSIÓN CORREGIDA)\n\n**Estudiante:** Isabel Gaeta\n**Fecha del examen:** 02/09/2025\n**Tema:** Tiro Oblicuo\n**Nota final:** 76.0/100 ⬆️ (corre..."
+    },
+    {
+      "evaluationId": "eval_9b16f5022479db3051264555cf6c2cd8",
+      "studentName": "Valentino Papa",
+      "studentId": "EST-2025-032",
+      "course": "4to Año C",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-07-03",
+      "score": 69,
+      "feedbackPreview": "# 📊 RETROALIMENTACIÓN PERSONALIZADA - EXAMEN TIRO OBLICUO\n\n**Estudiante:** Papa, Valentino\n**ID:** u_c8qoo6z03me0b5zlp\n**Curso:** 4°C - Física\n**Tema:** Tiro Oblicuo\n**Fecha examen:** 3/07/2025\n**Fec..."
+    }
+  ],
+  "studentsMissingExamsBySubject": {
+    "4to Año C - Gases Ideales": [
+      {
+        "studentName": "Facundo Isola",
+        "studentId": "EST-2025-1015",
+        "course": "4to Año C",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      },
+      {
+        "studentName": "Matilde Pasarin de la Torre",
+        "studentId": "EST-2025-131",
+        "course": "4to Año C",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      },
+      {
+        "studentName": "joaquín margueirat ",
+        "studentId": "EST-2025-016",
+        "course": "4to Año C",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      },
+      {
+        "studentName": "mercedes rizzo lynch",
+        "studentId": "EST-2025-132",
+        "course": "4to Año C",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      }
+    ],
+    "4to Año C - Tiro Oblicuo": [
+      {
+        "studentName": "Facundo Isola",
+        "studentId": "EST-2025-1015",
+        "course": "4to Año C",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      }
+    ],
+    "4to Año D - Tiro Oblicuo": [
+      {
+        "studentName": "Delfina Grasso",
+        "studentId": "EST-2025-105",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Franco Lugo",
+        "studentId": "EST-2025-073",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Justina Manzullo",
+        "studentId": "EST-2025-074",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Kiara Janson",
+        "studentId": "EST-2025-013",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Maria Sofia Opacak",
+        "studentId": "EST-2025-1742",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Mia Gonzalez Arce",
+        "studentId": "EST-2025-012",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Pedro merediz puente ",
+        "studentId": "EST-2025-1750",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Veronica Hansen",
+        "studentId": "EST-2025-081",
+        "course": "4to Año D",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      }
+    ],
+    "4to Año D - Gases Ideales": [
+      {
+        "studentName": "Maria Emilia Delaico",
+        "studentId": "EST-2025-014",
+        "course": "4to Año D",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      }
+    ],
+    "4to Año E - Tiro Oblicuo": [
+      {
+        "studentName": "Benjamín López",
+        "studentId": "EST-2025-065",
+        "course": "4to Año E",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      },
+      {
+        "studentName": "Emilia Sarti",
+        "studentId": "EST-2025-070",
+        "course": "4to Año E",
+        "missingExams": [
+          "Tiro Oblicuo"
+        ]
+      }
+    ],
+    "4to Año E - Gases Ideales": [
+      {
+        "studentName": "Julia Mayenfisch Paz",
+        "studentId": "EST-2025-064",
+        "course": "4to Año E",
+        "missingExams": [
+          "Gases Ideales"
+        ]
+      }
+    ],
+    "5to Año A - Equilibrio Químico": [
+      {
+        "studentName": "Emma Blumenfarb ",
+        "studentId": "EST-2025-1753",
+        "course": "5to Año A",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      },
+      {
+        "studentName": "Sol Fontán",
+        "studentId": "EST-2025-118",
+        "course": "5to Año A",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      },
+      {
+        "studentName": "tobías barisch",
+        "studentId": "EST-2025-135",
+        "course": "5to Año A",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      }
+    ],
+    "5to Año A - Termodinámica": [
+      {
+        "studentName": "Sol Fontán",
+        "studentId": "EST-2025-118",
+        "course": "5to Año A",
+        "missingExams": [
+          "Termodinámica"
+        ]
+      },
+      {
+        "studentName": "tobías barisch",
+        "studentId": "EST-2025-135",
+        "course": "5to Año A",
+        "missingExams": [
+          "Termodinámica"
+        ]
+      }
+    ],
+    "5to Año B - Equilibrio Químico": [
+      {
+        "studentName": "Fiamma De Bellis",
+        "studentId": "EST-2025-1748",
+        "course": "5to Año B",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      },
+      {
+        "studentName": "Isabel Ortiz Güemes",
+        "studentId": "EST-2025-134",
+        "course": "5to Año B",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      },
+      {
+        "studentName": "Kevin",
+        "studentId": "EST-2025-1754",
+        "course": "5to Año B",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      },
+      {
+        "studentName": "manuela ",
+        "studentId": "EST-2025-125",
+        "course": "5to Año B",
+        "missingExams": [
+          "Equilibrio Químico"
+        ]
+      }
+    ]
+  }
+}

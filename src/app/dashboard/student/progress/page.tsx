@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import SkillsProgressRings from '@/components/student/SkillsProgressRings';
+import SkillsRadarChart from '@/components/student/SkillsRadarChart';
 import { ArrowLeft, TrendingUp, Award, Target, BookOpen } from 'lucide-react';
 
 interface SkillsData {
@@ -182,14 +182,13 @@ export default function StudentProgressPage() {
           </div>
         </div>
 
-        {/* Main Content - Progress Rings */}
-        <div className="w-full bg-white rounded-xl shadow-lg p-6">
-          <SkillsProgressRings 
-            skillsData={displaySkills}
-            subject={selectedSubject !== 'overall' ? selectedSubject : undefined}
-            className="w-full"
-          />
-        </div>
+        {/* Main Content - Radar Chart */}
+        <SkillsRadarChart
+          skillsData={displaySkills}
+          subject={selectedSubject !== 'overall' ? selectedSubject : undefined}
+          height={600}
+          showInterpretation={true}
+        />
 
 
       </div>

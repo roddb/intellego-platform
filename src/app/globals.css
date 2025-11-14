@@ -484,10 +484,18 @@
   100% {
     transform: rotate(360deg);
   }
-}/* 🎯 TARGETED SVG FIX: Prevent giant icon rendering while preserving Mac styling */
+}
+
+/* 🎯 TARGETED SVG FIX: Prevent giant icon rendering while preserving Mac styling */
 svg {
   max-width: 200px !important;
   max-height: 200px !important;
+}
+
+/* EXCEPTION: Allow Recharts SVGs to be full size */
+.recharts-surface {
+  max-width: none !important;
+  max-height: none !important;
 }
 
 /* Respect Tailwind size classes for SVGs */

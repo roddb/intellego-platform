@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2025-11-01T04:45:24.897Z",
+  "totalChecked": 239,
+  "issuesFound": 2,
+  "issues": [
+    {
+      "evaluationId": "eval_a1288e91a0cff191",
+      "assignedStudent": "Uma Cesarini",
+      "assignedStudentId": "EST-2025-009",
+      "feedbackStudent": "Gases Ideales",
+      "subject": "Química 4to D",
+      "examTopic": "Gases Ideales",
+      "examDate": "2025-10-06",
+      "similarity": 0
+    },
+    {
+      "evaluationId": "eval_9cd5c372a6d22ebafa1a9cce968b4494",
+      "assignedStudent": "Matilde Pasarin de la Torre",
+      "assignedStudentId": "EST-2025-131",
+      "feedbackStudent": "Pasarin, Matilde",
+      "subject": "Física 4to C",
+      "examTopic": "Tiro Oblicuo",
+      "examDate": "2025-09-30",
+      "similarity": 40
+    }
+  ]
+}
