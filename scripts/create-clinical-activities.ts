@@ -218,7 +218,7 @@ async function main() {
       process.exit(1);
     }
 
-    const instructorId = (instructors.rows[0] as { id: string }).id;
+    const instructorId = (instructors.rows[0] as unknown as { id: string }).id;
     console.log(`👤 Instructor ID: ${instructorId}\n`);
 
     // Insertar Caso 1: Hipocalemia
