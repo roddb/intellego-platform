@@ -4,6 +4,7 @@ import { signIn, getSession } from "next-auth/react"
 import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function SignIn() {
   const [email, setEmail] = useState("")
@@ -36,8 +37,8 @@ export default function SignIn() {
               minWidth: 200.00,
               scale: 1.00,
               scaleMobile: 1.00,
-              color1: 0xE5E7EB,
-              color2: 0x9CA3AF,
+              color1: 0x6ABAAD, // turquoise from Intellego logo (main cells)
+              color2: 0xE09E5C, // orange/amber from Intellego logo (secondary cells)
               size: 1.80,
               speed: 2.00,
             })
@@ -131,20 +132,17 @@ export default function SignIn() {
 
       {/* Centered login card */}
       <div className="min-h-screen flex items-center justify-center p-6 relative z-10">
-        <div className="mac-card p-8 max-w-md w-full backdrop-blur-sm bg-white/90 shadow-2xl login-card-transition">
-        <div className="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-silver-tree to-sea-nymph shadow-xl">
-          <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-          </svg>
+        <div className="mac-card p-4 max-w-md w-full backdrop-blur-sm bg-white/90 shadow-2xl login-card-transition">
+        <div className="w-full mx-auto mb-4 flex items-center justify-center">
+          <Image
+            src="/intellego-logo.png"
+            alt="Intellego Logo"
+            width={500}
+            height={500}
+            priority
+            className="object-contain w-full h-auto"
+          />
         </div>
-        
-        <h1 className="text-3xl font-semibold mb-2 text-center text-heavy-metal font-san-francisco">
-          Iniciar Sesión
-        </h1>
-        
-        <p className="mb-8 text-center text-sm text-granite-green">
-          Accede a tu cuenta de Intellego Platform
-        </p>
 
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-xl mb-6 text-sm">

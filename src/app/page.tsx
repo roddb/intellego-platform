@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 
 export default function Home() {
@@ -27,8 +28,8 @@ export default function Home() {
               minWidth: 200.00,
               scale: 1.00,
               scaleMobile: 1.00,
-              color1: 0xE5E7EB, // light gray/white (main cells)
-              color2: 0x9CA3AF, // medium gray (secondary cells)
+              color1: 0x6ABAAD, // turquoise from Intellego logo (main cells)
+              color2: 0xE09E5C, // orange/amber from Intellego logo (secondary cells)
               size: 1.80, // larger cell size for more visibility
               speed: 2.00, // much faster (was 1.50, now even faster)
             })
@@ -52,20 +53,17 @@ export default function Home() {
       {/* Centered login card */}
       <div className="min-h-screen flex items-center justify-center p-6 relative z-10">
         <div className="w-full max-w-md">
-          <div className="mac-card p-8 text-center login-card-transition backdrop-blur-sm bg-white/90 shadow-2xl">
-            <div className="w-16 h-16 bg-gradient-to-br from-silver-tree to-sea-nymph rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+          <div className="mac-card p-4 text-center login-card-transition backdrop-blur-sm bg-white/90 shadow-2xl">
+            <div className="w-full mx-auto mb-4 flex items-center justify-center">
+              <Image
+                src="/intellego-logo.png"
+                alt="Intellego Logo"
+                width={500}
+                height={500}
+                priority
+                className="object-contain w-full h-auto"
+              />
             </div>
-
-            <h1 className="text-3xl font-semibold text-heavy-metal mb-4 font-san-francisco">
-              Intellego Platform
-            </h1>
-
-            <p className="text-granite-green mb-8 leading-relaxed">
-              Plataforma de gestión de progreso estudiantil diseñada para reemplazar Google Forms
-            </p>
 
             <div className="space-y-3">
               <Link

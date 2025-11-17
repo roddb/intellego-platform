@@ -4,6 +4,133 @@ Complete development history and updates for the Intellego Platform.
 
 ## 📅 Development Timeline
 
+### November 16, 2025 - Script de Resumen Académico Fin de Año 2025 (Actualizado con Exámenes)
+
+#### Herramienta de Exportación de Datos Académicos Completa
+
+Se creó un script completo para generar resúmenes estadísticos de cada alumno por materia (Física y Química) desde agosto-noviembre 2025, excluyendo CONSUDEC. **Actualización:** Se agregó información de exámenes en el mismo CSV.
+
+**Requerimiento del Usuario:**
+- Necesidad de obtener información completa de cada alumno por materia para cierre de fin de año
+- Datos requeridos: nombre, email, sede, año, división, cantidad de reportes, puntuación promedio, habilidades promedio
+- **NUEVO:** Incluir notas de exámenes con el tema rendido en el mismo archivo
+- Output: Por consola (tablas formateadas) y archivos CSV para análisis en Excel
+
+**Solución Implementada:**
+
+✅ **Script TypeScript Completo:**
+- Conexión directa a Turso usando `@libsql/client`
+- Procesamiento de ambas materias (Física y Química)
+- Parser de JSON `skillsMetrics` para calcular promedios de 5 habilidades
+- **NUEVO:** Query a tabla `Evaluation` para obtener exámenes por alumno
+- Generación de tablas formateadas por consola con exámenes
+- Exportación automática a CSV con columnas dinámicas de exámenes
+- Encoding UTF-8 con BOM (Excel compatible)
+
+✅ **Datos Extraídos por Estudiante:**
+1. **Información personal:** nombre, email, sede, año académico, división
+2. **Reportes semanales:**
+   - Cantidad total de reportes entregados
+   - Promedio de puntuación general (score)
+   - Promedio de cada habilidad metacognitiva:
+     - Comprensión
+     - Pensamiento Crítico
+     - Autorregulación
+     - Aplicación Práctica
+     - Metacognición
+3. **Exámenes (NUEVO):**
+   - Tema del examen (ej: "Tiro Oblicuo", "Gases Ideales", "Equilibrio Químico")
+   - Nota del examen (0-100)
+   - Fecha del examen
+   - Columnas dinámicas: se crean automáticamente según el máximo de exámenes
+
+✅ **Estadísticas Generales:**
+- Total estudiantes por materia
+- Total reportes acumulados
+- Promedio reportes/estudiante
+- Promedio nota general de reportes
+- Promedio de cada habilidad
+
+**Technical Implementation:**
+
+**Archivos Creados/Modificados:**
+- `/scripts/academic-year-summary-2025.ts` (465 líneas) - Script principal de exportación
+
+**Características Técnicas:**
+- Queries SQL parametrizadas usando Turso client directo
+- Parser robusto de JSON con manejo de errores
+- **NUEVO:** Función `getStudentExams()` para extraer exámenes por materia
+- **NUEVO:** Columnas dinámicas en CSV según número máximo de exámenes
+- Formateo de tablas con padString helper
+- Cálculo de promedios con redondeo a 2 decimales
+- Exportación CSV con BOM UTF-8 para compatibilidad Excel
+- Filtrado de sedes: solo Colegiales y Congreso (excluyendo CONSUDEC)
+- Período: agosto 2025 - noviembre 2025
+
+**Estructura de Datos de Exámenes:**
+```typescript
+interface ExamRecord {
+  examTopic: string;   // "Tiro Oblicuo", "Gases Ideales", etc.
+  score: number;       // 0-100
+  examDate: string;    // ISO date format
+}
+```
+
+**Formato CSV Actualizado:**
+```
+Nombre, Email, Sede, Año, División, Total Reportes, Promedio Nota,
+[5 columnas de habilidades],
+Examen 1 - Tema, Examen 1 - Nota, Examen 1 - Fecha,
+Examen 2 - Tema, Examen 2 - Nota, Examen 2 - Fecha,
+...
+```
+
+**Resultados Obtenidos:**
+
+**Física:**
+- 105 estudiantes con reportes
+- 816 reportes totales
+- Promedio: 7.77 reportes/estudiante
+- Nota promedio reportes: 52.09/100
+- **Exámenes:** Mayoría rindió "Tiro Oblicuo" (septiembre-octubre 2025)
+
+**Química:**
+- 155 estudiantes con reportes
+- 1,195 reportes totales
+- Promedio: 7.71 reportes/estudiante
+- Nota promedio reportes: 52.68/100
+- **Exámenes:** "Gases Ideales" y "Equilibrio Químico" (octubre 2025)
+
+**Archivos Generados:**
+1. `FISICA_2025_resumen.csv` (105 estudiantes, hasta 2 exámenes)
+2. `QUIMICA_2025_resumen.csv` (155 estudiantes, hasta 3 exámenes)
+
+**Uso del Script:**
+```bash
+npx tsx scripts/academic-year-summary-2025.ts
+```
+
+**Testing Status:**
+- ✅ Conexión a BD Turso verificada
+- ✅ Queries SQL validadas con datos reales
+- ✅ Parser de skillsMetrics funcionando correctamente
+- ✅ **NUEVO:** Query de exámenes funcionando con LIKE para matching de materia
+- ✅ Output por consola formateado con exámenes
+- ✅ Archivos CSV generados con columnas dinámicas de exámenes
+- ✅ Datos validados: estudiantes con múltiples exámenes funcionan correctamente
+- ✅ Encoding UTF-8 con BOM verificado
+
+**Datos de Exámenes:**
+- Total estudiantes con exámenes: 129 (de 260 estudiantes con reportes)
+- Total exámenes registrados: 239
+- Promedio: 1.85 exámenes por estudiante
+- Temas más comunes: Tiro Oblicuo (Física), Gases Ideales y Equilibrio Químico (Química)
+
+**Nota Técnica:**
+Este script accede directamente a la base de datos de producción usando las credenciales de Turso en variables de entorno (`TURSO_DATABASE_URL` y `TURSO_AUTH_TOKEN`). Solo ejecuta queries de lectura (SELECT), sin modificar datos. La query de exámenes usa `LIKE` para matching flexible del campo `subject` en la tabla `Evaluation`.
+
+---
+
 ### January 12, 2025 - Radar Charts de Habilidades con Recharts (Completo)
 
 #### Implementación de Gráficos de Radar para Visualización de Habilidades
