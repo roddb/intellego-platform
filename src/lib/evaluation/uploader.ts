@@ -67,6 +67,7 @@ export async function uploadEvaluation(
     const score = grading.score;
     const feedback = feedbackMarkdown.trim();
     const createdBy = metadata.instructorId;
+    const rubricId = metadata.rubricId;
     const now = new Date().toISOString();
 
     // 3. Construir record
@@ -81,6 +82,7 @@ export async function uploadEvaluation(
       createdBy,
       createdAt: now,
       updatedAt: now,
+      rubricId,
       apiCost: costInfo.cost,
       apiModel: costInfo.model,
       apiTokensInput: costInfo.tokensInput,
@@ -92,8 +94,8 @@ export async function uploadEvaluation(
       `INSERT INTO Evaluation (
         id, studentId, subject, examDate, examTopic,
         score, feedback, createdBy, createdAt, updatedAt,
-        apiCost, apiModel, apiTokensInput, apiTokensOutput
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        rubricId, apiCost, apiModel, apiTokensInput, apiTokensOutput
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         record.id,
         record.studentId,
@@ -105,6 +107,7 @@ export async function uploadEvaluation(
         record.createdBy,
         record.createdAt,
         record.updatedAt,
+        record.rubricId,
         record.apiCost,
         record.apiModel,
         record.apiTokensInput,

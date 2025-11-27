@@ -4,6 +4,164 @@ Complete development history and updates for the Intellego Platform.
 
 ## 📅 Development Timeline
 
+### January 19, 2025 - Sistema de Rúbricas Dinámicas para Evaluación de Exámenes
+
+#### Implementación de Selección de Rúbricas Personalizadas
+
+Se implementó un sistema completo de rúbricas dinámicas que permite a los instructores seleccionar diferentes criterios de evaluación al momento de corregir exámenes, reemplazando el sistema anterior que usaba una rúbrica fija hardcodeada.
+
+**Requerimiento del Usuario:**
+- Necesidad de flexibilizar el sistema de corrección de exámenes
+- Permitir usar diferentes rúbricas según el tipo de examen
+- Almacenar rúbricas en la base de datos
+- Selección obligatoria de rúbrica desde el formulario de corrección
+- Sistema de solo lectura (CRUD manual por ahora)
+
+**Solución Implementada:**
+
+✅ **Base de Datos:**
+- Nueva tabla `Rubric` con campos:
+  - `id` (TEXT PRIMARY KEY): ID único de la rúbrica
+  - `name` (TEXT NOT NULL): Nombre descriptivo
+  - `description` (TEXT): Descripción opcional
+  - `rubricText` (TEXT NOT NULL): Contenido completo de la rúbrica
+  - `subject` (TEXT): Materia opcional (Física, Química, General)
+  - `examType` (TEXT): Tipo de examen (Múltiple choice, Resolución de Problemas)
+  - `isActive` (INTEGER): Flag para soft delete
+  - `createdBy`, `createdAt`, `updatedAt`: Metadata de auditoría
+- Columna `rubricId` (TEXT) agregada a tabla `Evaluation`
+- Índices creados para optimizar queries: `idx_rubric_active`, `idx_evaluation_rubricId`
+- Rúbrica por defecto creada: "Rúbrica 5 Fases (Por Defecto)"
+
+✅ **Backend - Tipos TypeScript:**
+- Nueva interfaz `Rubric` en `/src/lib/evaluation/types.ts`
+- `ExamMetadata.rubricId` ahora es campo obligatorio (string)
+- `EvaluationRecord.rubricId` agregado para rastrear qué rúbrica se usó
+
+✅ **Backend - API Endpoints:**
+- `GET /api/instructor/rubric`: Lista todas las rúbricas activas
+  - Auth requerido: INSTRUCTOR role
+  - Retorna array de rúbricas con metadata completa
+  - Usado por dropdown en UI
+
+✅ **Backend - Lógica de Evaluación:**
+- `analyzer.ts` modificado:
+  - Nuevo parámetro `rubricText?: string`
+  - Usa rúbrica dinámica o fallback a RUBRICA_5_FASES por defecto
+  - Mantiene compatibilidad con código existente
+- `orchestrator.ts` modificado:
+  - Fetch de rúbrica desde BD usando `rubricId` (paso 2.5)
+  - Validación: error si rúbrica no existe o está inactiva
+  - Pasa texto de rúbrica a analyzer
+- `uploader.ts` modificado:
+  - Guarda `rubricId` en tabla Evaluation
+  - INSERT statement actualizado con nuevo campo
+
+✅ **Backend - API Route de Corrección:**
+- `/api/instructor/evaluation/correct/route.ts` modificado:
+  - Extrae `rubricId` del metadata JSON
+  - Validación obligatoria: requiere ["subject", "examTopic", "examDate", "rubricId"]
+  - Error 400 si falta rubricId
+
+✅ **Frontend - Formulario de Contexto:**
+- `ExamContextForm.tsx` completamente actualizado:
+  - Nuevo estado: `rubricId`, `rubrics`, `isLoadingRubrics`
+  - useEffect para fetch de rúbricas al montar componente
+  - Dropdown "Rúbrica" agregado después de "Fecha del Examen"
+    - Muestra todas las rúbricas activas
+    - Descripción de rúbrica seleccionada mostrada dinámicamente
+    - Validación obligatoria antes de continuar
+  - Interfaz `ExamContext` actualizada con `rubricId`
+  - `isFormValid` ahora incluye check de `rubricId`
+
+✅ **Frontend - Página de Corrección:**
+- `/dashboard/instructor/evaluation/correct/page.tsx` modificado:
+  - Interfaz `ExamContext` actualizada con `rubricId: string`
+  - Metadata enviado al API incluye `rubricId`
+
+**Technical Implementation:**
+
+**Arquitectura de Datos:**
+```
+Rubric Table                Evaluation Table
+┌─────────────┐            ┌─────────────┐
+│ id (PK)     │◄───────────┤ rubricId    │
+│ name        │            │ id (PK)     │
+│ description │            │ studentId   │
+│ rubricText  │            │ score       │
+│ subject     │            │ ...         │
+│ examType    │            └─────────────┘
+│ isActive    │
+│ createdBy   │
+│ createdAt   │
+└─────────────┘
+```
+
+**Flujo de Datos:**
+1. UI carga rúbricas disponibles (GET /api/instructor/rubric)
+2. Instructor selecciona rúbrica en dropdown
+3. Al procesar examen, orchestrator fetches rúbrica text por ID
+4. Analyzer usa rúbrica dinámica en system prompt de Claude
+5. Uploader guarda rubricId en Evaluation para auditoría
+
+**Patrón de Caché:**
+- System prompt con rúbrica usa ephemeral cache (5 min)
+- Rúbricas grandes (2000+ chars) se cachean eficientemente
+- Reduce costo de tokens en correcciones masivas
+
+**Files Created:**
+- `/scripts/migrations/001-add-rubric-system.sql` (23 lines) - SQL migration script
+- `/scripts/run-migration-rubric.ts` (96 lines) - Migration runner con verificación
+- `/scripts/seed-default-rubric.ts` (97 lines) - Seed script para rúbrica por defecto
+- `/src/app/api/instructor/rubric/route.ts` (69 lines) - GET endpoint para listar rúbricas
+
+**Files Modified:**
+- `/src/lib/evaluation/types.ts` - Agregados `Rubric` interface y `rubricId` a ExamMetadata/EvaluationRecord
+- `/src/lib/evaluation/analyzer.ts` - Parámetro opcional `rubricText` en analyzeExam()
+- `/src/lib/evaluation/orchestrator.ts` - Fetch de rúbrica por ID y paso a analyzer
+- `/src/lib/evaluation/uploader.ts` - INSERT con rubricId en Evaluation table
+- `/src/app/api/instructor/evaluation/correct/route.ts` - Extracción y validación de rubricId
+- `/src/components/evaluation/ExamContextForm.tsx` - Dropdown de rúbricas y validación
+- `/src/app/dashboard/instructor/evaluation/correct/page.tsx` - Tipo ExamContext con rubricId
+
+**Database Changes:**
+- ✅ Tabla `Rubric` creada con 10 columnas + metadata
+- ✅ Columna `rubricId` agregada a `Evaluation`
+- ✅ Índices creados para performance
+- ✅ Rúbrica por defecto "Rúbrica 5 Fases" insertada en producción
+
+**Testing Status:**
+- ✅ Migración ejecutada exitosamente
+- ✅ Seed ejecutado exitosamente
+- ✅ Type-check passing (0 errores en src/)
+- ✅ API GET /rubric funcional
+- ⚠️ Pending: Test end-to-end de corrección con rúbrica seleccionada
+
+**Seguridad:**
+- ✅ Solo instructores pueden acceder a endpoint de rúbricas (role check)
+- ✅ Validación de rubricId obligatorio en API
+- ✅ Query parametrizada para prevenir SQL injection
+- ✅ Soft delete con `isActive` flag (no se borran rúbricas)
+
+**Performance:**
+- ✅ Índices creados en columnas frecuentemente consultadas
+- ✅ Caché de system prompt reduce costo de tokens
+- ✅ Query optimizada: `WHERE isActive = 1` usa índice
+
+**Backward Compatibility:**
+- ✅ `analyzer.ts`: Si no se pasa rubricText, usa RUBRICA_5_FASES (fallback)
+- ✅ Evaluaciones antiguas: rubricId puede ser NULL (no se rompen queries existentes)
+- ⚠️ Nueva validación: Correcciones nuevas REQUIEREN rubricId
+
+**Pending:**
+- ⚠️ **CRUD completo de rúbricas**: Por ahora solo lectura, crear/editar es manual
+- ⚠️ **UI para gestión de rúbricas**: Pantalla admin para CRUD
+- ⚠️ **Versioning de rúbricas**: Rastrear cambios históricos
+- ⚠️ **Duplicar rúbrica**: Feature para crear variantes rápidamente
+- ⚠️ **Preview de rúbrica**: Mostrar rúbrica completa antes de usar
+
+---
+
 ### November 16, 2025 - Script de Resumen Académico Fin de Año 2025 (Actualizado con Exámenes)
 
 #### Herramienta de Exportación de Datos Académicos Completa

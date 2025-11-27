@@ -26,6 +26,7 @@ interface ExamContext {
   sede: string;
   temaExamen: string;
   fechaExamen: string;
+  rubricId: string;
 }
 
 interface UploadedFile {
@@ -177,13 +178,19 @@ export default function ExamCorrectionPage() {
       const yearPrefix = examContext.anioAcademico.replace(" Año", "").trim();
       const fullSubject = `${examContext.materia} ${yearPrefix} ${examContext.division}`;
 
-      // Add metadata
+      // Add metadata (incluye contexto de curso para filtrado de estudiantes)
       formData.append(
         "metadata",
         JSON.stringify({
           subject: fullSubject,
           examTopic: examContext.temaExamen,
           examDate: examContext.fechaExamen,
+          rubricId: examContext.rubricId,
+          // Contexto de curso para filtrado preciso de estudiantes
+          materia: examContext.materia,
+          division: examContext.division,
+          anioAcademico: examContext.anioAcademico,
+          sede: examContext.sede,
         })
       );
 

@@ -115,6 +115,12 @@ export async function POST(request: NextRequest) {
         examTopic: parsed.examTopic,
         examDate: parsed.examDate,
         instructorId: session.user.id,
+        rubricId: parsed.rubricId,
+        // Contexto de curso para filtrado de estudiantes
+        materia: parsed.materia,
+        division: parsed.division,
+        anioAcademico: parsed.anioAcademico,
+        sede: parsed.sede,
       };
     } catch (error) {
       return NextResponse.json(
@@ -124,11 +130,29 @@ export async function POST(request: NextRequest) {
     }
 
     // 6. Validate metadata
-    if (!metadata.subject || !metadata.examTopic || !metadata.examDate) {
+    if (
+      !metadata.subject ||
+      !metadata.examTopic ||
+      !metadata.examDate ||
+      !metadata.rubricId ||
+      !metadata.materia ||
+      !metadata.division ||
+      !metadata.anioAcademico ||
+      !metadata.sede
+    ) {
       return NextResponse.json(
         {
           error: "Missing required metadata fields",
-          required: ["subject", "examTopic", "examDate"],
+          required: [
+            "subject",
+            "examTopic",
+            "examDate",
+            "rubricId",
+            "materia",
+            "division",
+            "anioAcademico",
+            "sede",
+          ],
         },
         { status: 400 }
       );

@@ -5,6 +5,10 @@ import Anthropic from '@anthropic-ai/sdk';
 import {
   PhaseScores,
   ExerciseAnalysis,
+  CustomExerciseAnalysis,
+  AIAnalysis,
+  AIAnalysis5Phases,
+  AIAnalysisCustom,
   ContextualAdjustment,
   APICostInfo,
 } from './types';
@@ -56,7 +60,10 @@ const CONTEXTUAL_ADJUSTMENT_SYSTEM_PROMPT = `Eres un evaluador pedagógico exper
 
 ## REGLAS ESTRICTAS DE AJUSTE
 
-1. **Rango de ajuste**: El ajuste DEBE estar entre -10 y +10 puntos del score original
+1. **Rango de ajuste variable según score original**:
+   - Si score < 40: El ajuste DEBE estar entre -20 y +20 puntos (evaluaciones muy bajas pueden tener errores mayores de rúbrica)
+   - Si score 40-70: El ajuste DEBE estar entre -15 y +15 puntos
+   - Si score > 70: El ajuste DEBE estar entre -10 y +10 puntos (evaluaciones altas son generalmente precisas)
 2. **Justificación obligatoria**: SIEMPRE explicar el ajuste con evidencia específica de la respuesta
 3. **Consistencia**: No ajustar por lástima o simpatía, solo por evidencia objetiva
 4. **Conservadurismo**: En caso de duda, hacer un ajuste menor o ninguno
@@ -90,14 +97,17 @@ Debes responder ÚNICAMENTE con un objeto JSON válido (sin markdown, sin \`\`\`
 
 {
   "adjustedScore": number,           // Score final (original ± ajuste), DEBE estar entre 0-100
-  "adjustment": number,              // Diferencia aplicada, DEBE estar entre -10 y +10
+  "adjustment": number,              // Diferencia aplicada, DEBE respetar el rango variable según score original
   "justification": string,           // Explicación clara y concisa (50-150 palabras)
   "evidenceForAdjustment": string    // Cita específica o paráfrasis de la respuesta del estudiante
 }
 
 IMPORTANTE:
 - adjustedScore = originalScore + adjustment
-- adjustment DEBE estar en el rango [-10, +10]
+- adjustment DEBE estar en el rango apropiado según score original:
+  * Score < 40: rango [-20, +20]
+  * Score 40-70: rango [-15, +15]
+  * Score > 70: rango [-10, +10]
 - Si adjustment = 0, significa que el score original es justo
 - La justificación debe ser pedagógica y constructiva, no punitiva`;
 
@@ -177,36 +187,81 @@ ${ex.specificFeedback}
 }
 
 /**
+ * Convierte CustomExerciseAnalysis a texto legible para Claude
+ */
+function formatCustomExerciseAnalysisForPrompt(
+  analyses: CustomExerciseAnalysis[]
+): string {
+  return analyses
+    .map((ex) => {
+      let criteriaText = '';
+      if (ex.criteriaEvaluation) {
+        const criteriaEntries = Object.entries(ex.criteriaEvaluation);
+        criteriaText = criteriaEntries
+          .map(([criterio, evaluation]) => {
+            return `  ${criterio}: ${evaluation.level} - ${evaluation.comment}${evaluation.score ? ` (${evaluation.score} pts)` : ''}`;
+          })
+          .join('\n');
+      }
+
+      return `
+Ejercicio ${ex.exerciseNumber}:
+
+Fortalezas detectadas:
+${ex.strengths.map((s) => `- ${s}`).join('\n')}
+
+Debilidades detectadas:
+${ex.weaknesses.map((w) => `- ${w}`).join('\n')}
+
+${criteriaText ? `Evaluación por criterios:\n${criteriaText}\n` : ''}
+Feedback específico:
+${ex.specificFeedback}
+`;
+    })
+    .join('\n---\n');
+}
+
+/**
  * Aplica ajuste contextual a una evaluación de examen
  *
  * @param originalScore - Score calculado por la rúbrica estricta (0-100)
- * @param phaseScores - Scores detallados por fase
- * @param exerciseAnalysis - Análisis detallado de cada ejercicio
+ * @param analysis - Análisis completo (puede ser 5-phases o custom)
  * @param rawExamContent - Contenido original del examen (respuestas del estudiante)
  * @param anthropic - Cliente de Anthropic
  * @returns Ajuste contextual con score ajustado y justificación
  */
 export async function applyContextualAdjustment(
   originalScore: number,
-  phaseScores: PhaseScores,
-  exerciseAnalysis: ExerciseAnalysis[],
+  analysis: AIAnalysis,
   rawExamContent: string,
   anthropic: Anthropic
 ): Promise<ContextualAdjustment> {
   const startTime = Date.now();
+
+  // Construir prompt según tipo de análisis
+  let analysisContext: string;
+
+  if (analysis.type === '5-phases') {
+    analysisContext = `
+Desglose por fases:
+${formatPhaseScoresForPrompt(analysis.scores)}
+
+---
+
+ANÁLISIS DETALLADO DE EJERCICIOS:
+${formatExerciseAnalysisForPrompt(analysis.exerciseAnalysis)}`;
+  } else {
+    analysisContext = `
+ANÁLISIS DETALLADO DE EJERCICIOS (rúbrica personalizada):
+${formatCustomExerciseAnalysisForPrompt(analysis.exerciseAnalysis)}`;
+  }
 
   // Construir prompt con contexto completo
   const userPrompt = `
 EVALUACIÓN ORIGINAL (basada en rúbrica estricta):
 Score Total: ${originalScore.toFixed(1)}/100
 
-Desglose por fases:
-${formatPhaseScoresForPrompt(phaseScores)}
-
----
-
-ANÁLISIS DETALLADO DE EJERCICIOS:
-${formatExerciseAnalysisForPrompt(exerciseAnalysis)}
+${analysisContext}
 
 ---
 
@@ -228,7 +283,7 @@ Responde con el JSON de ajuste.
 
   try {
     const response = await anthropic.messages.create({
-      model: 'claude-haiku-4-20250514',
+      model: 'claude-haiku-4-5',
       max_tokens: 1000,
       temperature: 0.2, // Baja temperatura para consistencia
       messages: [
@@ -255,19 +310,43 @@ Responde con el JSON de ajuste.
       throw new Error('Respuesta inesperada de Claude (no es texto)');
     }
 
-    const adjustmentData = JSON.parse(textContent.text);
+    // Limpiar markdown code blocks si existen
+    let cleanedText = textContent.text.trim();
 
-    // Validar que el ajuste esté en rango [-10, +10]
+    // Remover ```json o ``` si existe
+    if (cleanedText.startsWith('```json')) {
+      cleanedText = cleanedText.replace(/^```json\s*/, '');
+    }
+    if (cleanedText.startsWith('```')) {
+      cleanedText = cleanedText.replace(/^```\s*/, '');
+    }
+    if (cleanedText.endsWith('```')) {
+      cleanedText = cleanedText.replace(/\s*```$/, '');
+    }
+
+    const adjustmentData = JSON.parse(cleanedText);
+
+    // Determinar rango de ajuste permitido según score original
+    let maxAdjustment: number;
+    if (originalScore < 40) {
+      maxAdjustment = 20; // Scores bajos: ±20 puntos
+    } else if (originalScore <= 70) {
+      maxAdjustment = 15; // Scores medios: ±15 puntos
+    } else {
+      maxAdjustment = 10; // Scores altos: ±10 puntos
+    }
+
+    // Validar que el ajuste esté en rango permitido
     if (
-      adjustmentData.adjustment < -10 ||
-      adjustmentData.adjustment > 10
+      adjustmentData.adjustment < -maxAdjustment ||
+      adjustmentData.adjustment > maxAdjustment
     ) {
       console.warn(
-        `Ajuste fuera de rango: ${adjustmentData.adjustment}. Limitando a ±10.`
+        `Ajuste fuera de rango: ${adjustmentData.adjustment}. Limitando a ±${maxAdjustment} (score original: ${originalScore}).`
       );
       adjustmentData.adjustment = Math.max(
-        -10,
-        Math.min(10, adjustmentData.adjustment)
+        -maxAdjustment,
+        Math.min(maxAdjustment, adjustmentData.adjustment)
       );
     }
 
@@ -289,7 +368,7 @@ Responde con el JSON de ajuste.
     const usage = response.usage;
     const costInfo: APICostInfo = {
       cost: calculateCost(usage),
-      model: 'claude-haiku-4-20250514',
+      model: 'claude-haiku-4-5',
       tokensInput: usage.input_tokens,
       tokensOutput: usage.output_tokens,
       cacheHit:
@@ -309,7 +388,7 @@ Responde con el JSON de ajuste.
     };
 
     console.log(
-      `[Contextual Adjustment] Score: ${originalScore.toFixed(1)} → ${result.adjustedScore.toFixed(1)} (${result.adjustment >= 0 ? '+' : ''}${result.adjustment.toFixed(1)})`
+      `[Contextual Adjustment] Score: ${originalScore.toFixed(1)} → ${result.adjustedScore.toFixed(1)} (${result.adjustment >= 0 ? '+' : ''}${result.adjustment.toFixed(1)}) | Max allowed: ±${maxAdjustment}`
     );
     console.log(
       `[Contextual Adjustment] Cost: $${costInfo.cost.toFixed(6)} (cache ${costInfo.cacheHit ? 'HIT' : 'MISS'})`
@@ -335,7 +414,7 @@ Responde con el JSON de ajuste.
       appliedAt: new Date(),
       costInfo: {
         cost: 0,
-        model: 'claude-haiku-4-20250514',
+        model: 'claude-haiku-4-5',
         tokensInput: 0,
         tokensOutput: 0,
         cacheHit: false,

@@ -1,9 +1,12 @@
 import type {
   AIAnalysis,
+  AIAnalysis5Phases,
+  AIAnalysisCustom,
   Student,
   ExamMetadata,
   Grading,
   FeedbackVariables,
+  RubricType,
 } from "./types";
 import { getScoreMessage, getPriorityIcon } from "./calculator";
 
@@ -21,9 +24,10 @@ import { getScoreMessage, getPriorityIcon } from "./calculator";
  *
  * @param student - Información del estudiante
  * @param metadata - Metadata del examen
- * @param analysis - Análisis de Claude Haiku
+ * @param analysis - Análisis de Claude Haiku (5-phases o custom)
  * @param grading - Nota final calculada
  * @param instructorName - Nombre del instructor
+ * @param rubricType - Tipo de rúbrica usada
  * @returns Feedback completo en Markdown
  */
 export function generateFeedback(
@@ -31,30 +35,46 @@ export function generateFeedback(
   metadata: ExamMetadata,
   analysis: AIAnalysis,
   grading: Grading,
-  instructorName: string
+  instructorName: string,
+  rubricType: RubricType
 ): string {
-  // Construir variables para el template
-  const variables = buildVariables(
-    student,
-    metadata,
-    analysis,
-    grading,
-    instructorName
-  );
-
-  // Generar Markdown desde template
-  const markdown = renderTemplate(variables);
-
-  return markdown;
+  // Generar feedback según tipo de rúbrica
+  if (rubricType === '5-phases' && analysis.type === '5-phases') {
+    return generateFeedback5Phases(student, metadata, analysis, grading, instructorName);
+  } else if (rubricType === 'custom' && analysis.type === 'custom') {
+    return generateFeedbackCustom(student, metadata, analysis, grading, instructorName);
+  } else {
+    // Fallback: intentar generar feedback genérico
+    console.warn(`⚠️  Mismatch entre rubricType (${rubricType}) y analysis.type (${analysis.type})`);
+    if (analysis.type === '5-phases') {
+      return generateFeedback5Phases(student, metadata, analysis, grading, instructorName);
+    } else {
+      return generateFeedbackCustom(student, metadata, analysis, grading, instructorName);
+    }
+  }
 }
 
 /**
- * Construye las variables para el template
+ * Genera feedback para rúbricas 5-phases
  */
-function buildVariables(
+function generateFeedback5Phases(
   student: Student,
   metadata: ExamMetadata,
-  analysis: AIAnalysis,
+  analysis: AIAnalysis5Phases,
+  grading: Grading,
+  instructorName: string
+): string {
+  const variables = buildVariables5Phases(student, metadata, analysis, grading, instructorName);
+  return renderTemplate5Phases(variables);
+}
+
+/**
+ * Construye las variables para el template 5-phases
+ */
+function buildVariables5Phases(
+  student: Student,
+  metadata: ExamMetadata,
+  analysis: AIAnalysis5Phases,
   grading: Grading,
   instructorName: string
 ): FeedbackVariables {
@@ -161,9 +181,9 @@ function buildVariables(
 }
 
 /**
- * Renderiza el template con las variables
+ * Renderiza el template 5-phases con las variables
  */
-function renderTemplate(variables: FeedbackVariables): string {
+function renderTemplate5Phases(variables: FeedbackVariables): string {
   const {
     STUDENT_NAME,
     SUBJECT,
@@ -445,4 +465,154 @@ function formatDate(isoDate: string): string {
   } catch {
     return isoDate; // Fallback si el formato es inválido
   }
+}
+
+/**
+ * Genera feedback para rúbricas custom (estructura libre)
+ */
+function generateFeedbackCustom(
+  student: Student,
+  metadata: ExamMetadata,
+  analysis: AIAnalysisCustom,
+  grading: Grading,
+  instructorName: string
+): string {
+  const STUDENT_NAME = student.name;
+  const SUBJECT = metadata.subject;
+  const EXAM_TOPIC = metadata.examTopic;
+  const EXAM_DATE = formatDate(metadata.examDate);
+  const SCORE = grading.score;
+  const INSTRUCTOR_NAME = instructorName;
+  const CORRECTION_DATE = new Date().toISOString().split("T")[0];
+
+  // Ajuste contextual (si existe)
+  const HAS_ADJUSTMENT = analysis.contextualAdjustment !== undefined;
+  const STRICT_SCORE = HAS_ADJUSTMENT ? analysis.contextualAdjustment!.originalScore : undefined;
+  const ADJUSTED_SCORE = HAS_ADJUSTMENT ? analysis.contextualAdjustment!.adjustedScore : undefined;
+  const ADJUSTMENT_VALUE = HAS_ADJUSTMENT ? analysis.contextualAdjustment!.adjustment : undefined;
+  const ADJUSTMENT_JUSTIFICATION = HAS_ADJUSTMENT ? analysis.contextualAdjustment!.justification : undefined;
+  const ADJUSTMENT_EVIDENCE = HAS_ADJUSTMENT ? analysis.contextualAdjustment!.evidenceForAdjustment : undefined;
+
+  const FINAL_MESSAGE = getScoreMessage(SCORE);
+
+  let markdown = `# RETROALIMENTACIÓN - ${STUDENT_NAME}
+
+## Examen: ${SUBJECT} - ${EXAM_TOPIC}
+### Fecha: ${EXAM_DATE}
+### Nota Final: ${SCORE}/100
+
+---
+
+## 📊 Resumen de tu Desempeño
+
+Has obtenido **${SCORE}/100** en este examen.
+${
+  HAS_ADJUSTMENT
+    ? `
+### ⚖️ Ajuste Contextual Aplicado
+
+Tu evaluación ha sido revisada con criterio pedagógico:
+
+| Concepto | Puntaje |
+|----------|---------|
+| **Evaluación Estricta (Rúbrica)** | ${STRICT_SCORE?.toFixed(1)}/100 |
+| **Ajuste Contextual** | ${ADJUSTMENT_VALUE! >= 0 ? '+' : ''}${ADJUSTMENT_VALUE?.toFixed(1)} puntos |
+| **Nota Final** | **${ADJUSTED_SCORE?.toFixed(1)}/100** |
+
+#### ¿Por qué recibiste ${ADJUSTMENT_VALUE! >= 0 ? 'puntos adicionales' : 'un ajuste'}?
+
+${ADJUSTMENT_JUSTIFICATION}
+
+${ADJUSTMENT_EVIDENCE ? `**Evidencia en tu respuesta:** "${ADJUSTMENT_EVIDENCE}"` : ''}
+
+> 💡 **Nota:** El sistema aplica "sentido común pedagógico" para reconocer comprensión conceptual, métodos alternativos válidos, y diferenciar errores menores de fundamentales. Esto asegura que tu evaluación sea justa y constructiva.
+
+---
+`
+    : ''
+}
+
+---
+
+## 🎯 Análisis Ejercicio por Ejercicio
+
+`;
+
+  // Agregar análisis de cada ejercicio
+  for (const exercise of analysis.exerciseAnalysis) {
+    markdown += `### Ejercicio ${exercise.exerciseNumber}
+
+**Fortalezas:**
+${exercise.strengths.map((s) => `- ${s}`).join("\n")}
+
+**Áreas de Mejora:**
+${exercise.weaknesses.map((w) => `- ${w}`).join("\n")}
+
+**Retroalimentación Específica:**
+${exercise.specificFeedback}
+
+`;
+
+    // Agregar criterios de evaluación si existen
+    if (exercise.criteriaEvaluation) {
+      markdown += `**Evaluación por Criterios:**\n\n`;
+      const criteriaEntries = Object.entries(exercise.criteriaEvaluation);
+      for (const [criterio, evaluation] of criteriaEntries) {
+        const criterioFormatted = criterio.replace(/_/g, ' ');
+        markdown += `- **${criterioFormatted}**: ${evaluation.level}${evaluation.score ? ` (${evaluation.score} pts)` : ''}\n`;
+        markdown += `  ${evaluation.comment}\n\n`;
+      }
+    }
+
+    markdown += `---\n\n`;
+  }
+
+  // Agregar recomendaciones
+  markdown += `## 💡 Recomendaciones para Mejorar\n\n`;
+
+  for (const rec of analysis.recommendations) {
+    const priorityIcon = rec.priority === 'alta' ? '🔴' : rec.priority === 'media' ? '🟡' : '🟢';
+    markdown += `### ${priorityIcon} ${rec.title}
+
+**Por qué es importante:**
+${rec.reason}
+
+**Cómo implementarlo:**
+${rec.steps.map((s) => `- ${s}`).join("\n")}
+
+${rec.suggestedResources ? `**Recursos sugeridos:** ${rec.suggestedResources}` : ""}
+
+---
+
+`;
+  }
+
+  // Próximos pasos
+  markdown += `## 📈 Próximos Pasos
+
+### Plan de Acción Inmediato:
+
+Enfócate en las recomendaciones de prioridad alta (🔴) para mejorar rápidamente tu desempeño.
+
+### Seguimiento:
+
+Tu instructor revisará tu progreso en las próximas actividades. Si tienes dudas, no dudes en consultar durante las clases o tutorías.
+
+---
+
+## 📌 Mensaje Final
+
+${FINAL_MESSAGE}
+
+---
+
+**Corrección realizada por:** ${INSTRUCTOR_NAME}
+**Sistema:** Intellego Platform - Corrección Automática v2.1
+**Método:** Evaluación con Rúbrica Personalizada
+**Fecha de corrección:** ${CORRECTION_DATE}
+
+**Nota:** Este feedback fue generado automáticamente usando IA (Claude Haiku 4.5) con supervisión del instructor. Si tienes preguntas sobre la evaluación, consulta con tu profesor.
+`;
+
+  return markdown;
 }

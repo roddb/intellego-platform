@@ -12,7 +12,7 @@ import { calculateScore } from "./calculator";
 import { generateFeedback } from "./generator";
 import { uploadEvaluation } from "./uploader";
 import { applyContextualAdjustment } from "./contextual-adjuster";
-import type { ExamMetadata, ProcessingResult, EvaluationRecord } from "./types";
+import type { ExamMetadata, ProcessingResult, EvaluationRecord, Grading } from "./types";
 import { EvaluationError } from "./types";
 import { query } from "@/lib/db";
 import {
@@ -64,32 +64,78 @@ export async function processExam(
     // 2. Matcher
     console.log(`  [2/6] Buscando estudiante: ${parsedExam.apellido}...`);
     if (batchId) updateCurrentFile(batchId, file.name, "Buscando estudiante");
-    const matchResult = await matchStudent(parsedExam.apellido);
+
+    // Construir contexto de curso para filtrado preciso
+    const matchContext = {
+      materia: metadata.materia,
+      division: metadata.division,
+      anioAcademico: metadata.anioAcademico,
+      sede: metadata.sede,
+    };
+
+    const matchResult = await matchStudent(parsedExam.apellido, 90, matchContext);
     const student = matchResult.student;
 
     console.log(
       `  ✓ Match encontrado: ${student.name} (${matchResult.matchConfidence.toFixed(1)}% confianza)`
     );
+    console.log(
+      `    Contexto: ${matchContext.division} - ${matchContext.materia} (${matchContext.sede})`
+    );
+
+    // 2.5. Fetch complete rubric object from database using rubricId
+    console.log(`  [2.5/7] Obteniendo rúbrica: ${metadata.rubricId}...`);
+    if (batchId) updateCurrentFile(batchId, file.name, "Obteniendo rúbrica");
+
+    if (!metadata.rubricId) {
+      throw new EvaluationError(
+        'RUBRIC_NOT_FOUND',
+        'No se especificó rubricId en los metadatos del examen'
+      );
+    }
+
+    const rubricResult = await query(
+      'SELECT * FROM Rubric WHERE id = ? AND isActive = 1',
+      [metadata.rubricId]
+    );
+
+    if (rubricResult.rows.length === 0) {
+      throw new EvaluationError(
+        'RUBRIC_NOT_FOUND',
+        `Rúbrica con ID ${metadata.rubricId} no encontrada o inactiva`
+      );
+    }
+
+    const rubric = rubricResult.rows[0] as any;
+    console.log(`  ✓ Rúbrica cargada: ${rubric.name} (tipo: ${rubric.rubricType || '5-phases'})`);
 
     // 3. Analyzer
-    console.log("  [3/6] Analizando con Claude Haiku...");
+    console.log("  [3/7] Analizando con Claude Haiku...");
     if (batchId) updateCurrentFile(batchId, file.name, "Analizando con IA");
-    const analysis = await analyzeExam(parsedExam, student, metadata);
+    const analysis = await analyzeExam(parsedExam, student, metadata, rubric);
 
     // 4. Calculator
     console.log("  [4/7] Calculando nota ponderada (score estricto)...");
     if (batchId) updateCurrentFile(batchId, file.name, "Calculando nota");
-    const grading = calculateScore(analysis.scores);
+
+    let grading: Grading;
+    if (analysis.type === '5-phases') {
+      // Calcular score ponderado usando F1-F5
+      grading = calculateScore(analysis.scores);
+    } else {
+      // Para rúbricas custom, el score ya viene calculado por la IA
+      grading = { score: analysis.totalScore };
+    }
 
     console.log(`  ✓ Nota estricta calculada: ${grading.score}/100`);
 
-    // 4.5. Contextual Adjuster (NUEVO)
+    // 4.5. Contextual Adjuster
     console.log("  [5/7] Aplicando ajuste contextual...");
     if (batchId) updateCurrentFile(batchId, file.name, "Aplicando ajuste contextual");
+
     const contextualAdjustment = await applyContextualAdjustment(
       grading.score,
-      analysis.scores,
-      analysis.exerciseAnalysis,
+      analysis,
       parsedExam.rawContent,
       anthropic
     );
@@ -114,7 +160,8 @@ export async function processExam(
       metadata,
       analysis,
       finalGrading,
-      instructorName
+      instructorName,
+      rubric.rubricType || '5-phases' // Pasar tipo de rúbrica
     );
 
     console.log(

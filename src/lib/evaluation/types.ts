@@ -116,14 +116,56 @@ export interface ContextualAdjustment {
 }
 
 /**
- * Resultado del AI Analyzer
+ * Análisis por ejercicio para rúbricas custom (estructura libre)
  */
-export interface AIAnalysis {
+export interface CustomExerciseAnalysis {
+  exerciseNumber: number;
+  strengths: string[];
+  weaknesses: string[];
+  specificFeedback: string;
+  // Criterios específicos de la rúbrica (dinámico)
+  criteriaEvaluation?: Record<string, { level: string; comment: string; score?: number }>;
+}
+
+/**
+ * Resultado del AI Analyzer para rúbricas 5-phases
+ */
+export interface AIAnalysis5Phases {
+  type: '5-phases';
   scores: PhaseScores;
   exerciseAnalysis: ExerciseAnalysis[];
   recommendations: Recommendation[];
-  costInfo: APICostInfo; // Información de costo de la llamada a Claude
-  contextualAdjustment?: ContextualAdjustment; // Ajuste contextual opcional
+  costInfo: APICostInfo;
+  contextualAdjustment?: ContextualAdjustment;
+}
+
+/**
+ * Resultado del AI Analyzer para rúbricas custom
+ */
+export interface AIAnalysisCustom {
+  type: 'custom';
+  totalScore: number; // Puntaje total calculado según la rúbrica
+  exerciseAnalysis: CustomExerciseAnalysis[];
+  recommendations: Recommendation[];
+  costInfo: APICostInfo;
+  contextualAdjustment?: ContextualAdjustment;
+}
+
+/**
+ * Resultado del AI Analyzer (union type para soportar ambos tipos de rúbrica)
+ */
+export type AIAnalysis = AIAnalysis5Phases | AIAnalysisCustom;
+
+/**
+ * Legacy: Mantener para backward compatibility
+ * @deprecated Use AIAnalysis5Phases instead
+ */
+export interface AIAnalysisLegacy {
+  scores: PhaseScores;
+  exerciseAnalysis: ExerciseAnalysis[];
+  recommendations: Recommendation[];
+  costInfo: APICostInfo;
+  contextualAdjustment?: ContextualAdjustment;
 }
 
 /**
@@ -212,11 +254,36 @@ export interface EvaluationRecord {
   createdBy: string; // instructorId
   createdAt: string; // ISO 8601
   updatedAt: string; // ISO 8601
+  rubricId: string; // ID de la rúbrica usada
   // Campos de costo de API
   apiCost: number; // Costo en USD
   apiModel: string; // "claude-haiku-4-5"
   apiTokensInput: number;
   apiTokensOutput: number;
+}
+
+/**
+ * Tipo de rúbrica
+ * - '5-phases': Rúbrica que usa el sistema de 5 fases (F1-F5)
+ * - 'custom': Rúbrica personalizada con estructura libre
+ */
+export type RubricType = '5-phases' | 'custom';
+
+/**
+ * Rúbrica de evaluación
+ */
+export interface Rubric {
+  id: string;
+  name: string;
+  description?: string;
+  rubricText: string;
+  subject?: string;
+  examType?: string;
+  rubricType: RubricType; // Tipo de rúbrica (5-phases o custom)
+  isActive: boolean;
+  createdBy: string;
+  createdAt: string;
+  updatedAt: string;
 }
 
 /**
@@ -227,6 +294,12 @@ export interface ExamMetadata {
   examTopic: string; // "Tiro Oblicuo", "Termodinámica", etc.
   examDate: string; // "2025-10-15"
   instructorId: string;
+  rubricId: string; // ID de la rúbrica a usar (obligatorio)
+  // Contexto de curso para filtrado de estudiantes
+  materia: string; // "Física", "Química"
+  division: string; // "4to E", "5to A"
+  anioAcademico: string; // "4to Año", "5to Año"
+  sede: string; // "San Miguel", "Pacheco"
 }
 
 /**

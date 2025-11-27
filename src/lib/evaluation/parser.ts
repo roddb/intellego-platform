@@ -2,12 +2,16 @@ import type { ParsedExam, Exercise } from "./types";
 import { EvaluationError, ErrorCodes } from "./types";
 
 /**
- * Parser de archivos .md de exámenes
+ * Parser de archivos .md de exámenes e informes
  *
  * Responsabilidades:
  * 1. Extraer apellido del filename
  * 2. Parsear contenido markdown
- * 3. Identificar ejercicios
+ * 3. Identificar ejercicios (o tratar como informe completo si no hay ejercicios numerados)
+ *
+ * Soporta dos tipos de documentos:
+ * - Exámenes tradicionales: Con ejercicios numerados (## Ejercicio 1, ## Ejercicio 2, etc.)
+ * - Informes/ensayos: Sin estructura de ejercicios (se trata como un documento completo)
  */
 
 /**
@@ -84,10 +88,10 @@ export function normalizeApellido(apellido: string): string {
 }
 
 /**
- * Parsea el contenido markdown del examen
+ * Parsea el contenido markdown del examen o informe
  * Identifica ejercicios basándose en headers de nivel 2 (##)
  *
- * Formato esperado:
+ * Formato esperado para exámenes tradicionales:
  * ```markdown
  * # Examen de Física - Tiro Oblicuo
  * **Alumno**: González, Juan
@@ -98,6 +102,9 @@ export function normalizeApellido(apellido: string): string {
  * ## Ejercicio 2: Altura máxima
  * [Desarrollo del alumno...]
  * ```
+ *
+ * Para informes de laboratorio sin ejercicios numerados, retorna un array vacío.
+ * El caller (parseExamFile) se encargará de tratar el documento completo como un único ejercicio.
  */
 export function parseExamContent(content: string): Exercise[] {
   const exercises: Exercise[] = [];
@@ -206,13 +213,19 @@ export async function parseExamFile(
     // Parsear ejercicios del contenido
     const exercises = parseExamContent(rawContent);
 
-    // Validar que se hayan encontrado ejercicios
+    // Si no se encontraron ejercicios numerados, asumir que es un informe de laboratorio
+    // o documento completo sin estructura de ejercicios
     if (exercises.length === 0) {
-      throw new EvaluationError(
-        ErrorCodes.PARSE_ERROR,
-        "No se encontraron ejercicios en el archivo",
-        `Formato esperado: ## Ejercicio 1: ..., ## Ejercicio 2: ...`
-      );
+      console.log(`⚠️  No se encontraron ejercicios numerados en ${fileName}. Tratando como informe completo.`);
+
+      // Crear un único "ejercicio" con todo el contenido del documento
+      // Esto permite que informes de laboratorio, ensayos, etc. puedan ser evaluados
+      exercises.push({
+        number: 1,
+        title: "Informe Completo",
+        content: rawContent.trim(),
+        hasAnswer: true,
+      });
     }
 
     return {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import type { Rubric } from "@/lib/evaluation/types";
 
 interface ExamContext {
   materia: "Física" | "Química";
@@ -9,6 +10,7 @@ interface ExamContext {
   sede: string;
   temaExamen: string;
   fechaExamen: string;
+  rubricId: string;
 }
 
 interface ExamContextFormProps {
@@ -39,15 +41,19 @@ export default function ExamContextForm({
   const [fechaExamen, setFechaExamen] = useState(
     initialContext?.fechaExamen || ""
   );
+  const [rubricId, setRubricId] = useState(initialContext?.rubricId || "");
 
   // Available options from API
   const [navigationData, setNavigationData] = useState<NavigationData>({});
   const [isLoadingData, setIsLoadingData] = useState(true);
   const [availableSedes, setAvailableSedes] = useState<string[]>([]);
+  const [rubrics, setRubrics] = useState<Rubric[]>([]);
+  const [isLoadingRubrics, setIsLoadingRubrics] = useState(true);
 
   // Load navigation data (subjects, years, divisions)
   useEffect(() => {
     fetchNavigationData();
+    fetchRubrics();
   }, []);
 
   const fetchNavigationData = async () => {
@@ -67,6 +73,24 @@ export default function ExamContextForm({
       console.error("Error fetching navigation data:", error);
     } finally {
       setIsLoadingData(false);
+    }
+  };
+
+  const fetchRubrics = async () => {
+    try {
+      setIsLoadingRubrics(true);
+      const response = await fetch("/api/instructor/rubric");
+
+      if (response.ok) {
+        const result = await response.json();
+        setRubrics(result.rubrics || []);
+      } else {
+        console.error("Failed to fetch rubrics");
+      }
+    } catch (error) {
+      console.error("Error fetching rubrics:", error);
+    } finally {
+      setIsLoadingRubrics(false);
     }
   };
 
@@ -125,7 +149,8 @@ export default function ExamContextForm({
     anioAcademico &&
     sede &&
     temaExamen.trim() &&
-    fechaExamen;
+    fechaExamen &&
+    rubricId;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -139,6 +164,7 @@ export default function ExamContextForm({
       sede,
       temaExamen: temaExamen.trim(),
       fechaExamen,
+      rubricId,
     });
   };
 
@@ -279,6 +305,34 @@ export default function ExamContextForm({
           className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
           required
         />
+      </div>
+
+      {/* Rúbrica */}
+      <div>
+        <label className="block text-sm font-medium text-slate-700 mb-2">
+          Rúbrica <span className="text-red-500">*</span>
+        </label>
+        <select
+          value={rubricId}
+          onChange={(e) => setRubricId(e.target.value)}
+          disabled={isLoadingRubrics}
+          className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent disabled:bg-slate-100 disabled:cursor-not-allowed"
+          required
+        >
+          <option value="">
+            {isLoadingRubrics ? "Cargando rúbricas..." : "Seleccione una rúbrica"}
+          </option>
+          {rubrics.map((rubric) => (
+            <option key={rubric.id} value={rubric.id}>
+              {rubric.name}
+            </option>
+          ))}
+        </select>
+        {rubricId && rubrics.find((r) => r.id === rubricId)?.description && (
+          <p className="mt-2 text-sm text-slate-600">
+            {rubrics.find((r) => r.id === rubricId)?.description}
+          </p>
+        )}
       </div>
 
       {/* Submit Button */}
