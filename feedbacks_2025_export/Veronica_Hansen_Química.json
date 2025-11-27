@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "studentId": "u_icojg9yv3me1yt3l8",
+    "studentName": "Veronica Hansen",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.239229",
+    "statistics": {
+      "totalFeedbacks": 19,
+      "feedbacksWithScore": 19,
+      "averageScore": 53.16,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "c6bc0d45bcc0a119144df74937b990af",
+      "weekStart": "2025-08-04",
+      "score": 75,
+      "generalComments": "Veronica demuestra excelente comprensión del pensamiento crítico aplicado a gases. Tu capacidad de reformular problemas desde una perspectiva crítica es destacable, especialmente sin haber visto la teoría formal.",
+      "strengths": [
+        "Aplicación efectiva del pensamiento crítico a problemas de gases",
+        "Capacidad de aprender y aplicar conceptos sin teoría formal previa",
+        "Conexiones concretas con ejemplos cotidianos (bolsas, agua hirviendo, globos)"
+      ],
+      "improvements": [
+        "Buscar recursos teóricos complementarios cuando no se cubren en clase",
+        "Documentar las preguntas críticas que te haces al resolver problemas",
+        "Agregar reflexiones en la sección de comentarios"
+      ],
+      "createdAt": "2025-09-27 17:10:56"
+    },
+    {
+      "feedbackId": "1be163412d110c6d314e04efce3b602b",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Veronica demuestra excelente capacidad de análisis en la clasificación de variables. Tu trabajo con combustión completa/incompleta es muy detallado. La reflexión sobre el proceso de aprendizaje muestra madurez.",
+      "strengths": [
+        "Clasificación exhaustiva y sistemática de variables",
+        "Comprensión profunda de la combustión y sus implicaciones de seguridad",
+        "Reflexión honesta sobre el proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Practicar más con cuadros de doble entrada para ganar confianza",
+        "Revisar principios básicos de química cuando sea necesario",
+        "Dividir problemas complejos en partes más manejables"
+      ],
+      "createdAt": "2025-09-27 17:10:14"
+    },
+    {
+      "feedbackId": "85f33df19ac53233bfa57e7895ec89dc",
+      "weekStart": "2025-08-18",
+      "score": 67,
+      "generalComments": "Veronica identifica correctamente el proceso isobárico y la ley de Charles. Aunque hay algunos errores de conversión, tu comprensión conceptual es sólida. Más práctica te dará la confianza necesaria.",
+      "strengths": [
+        "Identificación correcta de proceso isobárico y ley de Charles",
+        "Análisis sistemático de variables conocidas y desconocidas",
+        "Autocrítica constructiva sobre necesidad de práctica"
+      ],
+      "improvements": [
+        "Verificar conversiones de temperatura (20°C = 293K, no 313K)",
+        "Crear un esquema para decidir qué ley usar según las condiciones",
+        "Practicar más ejercicios variados de cada ley de gases"
+      ],
+      "createdAt": "2025-09-27 17:09:31"
+    },
+    {
+      "feedbackId": "396a63553cf638abae518ef6f637c0d3",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Veronica muestra iniciativa al intentar resolver problemas sin explicación previa. Tu aplicación sistemática de las fases y la búsqueda activa de ayuda demuestran madurez en el aprendizaje.",
+      "strengths": [
+        "Aplicación independiente del método de 5 fases",
+        "Resolución correcta del problema de gases con variaciones",
+        "Búsqueda proactiva de ayuda cuando es necesario"
+      ],
+      "improvements": [
+        "Revisar las unidades en los cálculos intermedios",
+        "Profundizar en la comprensión teórica antes de la práctica",
+        "Expandir las conexiones con aplicaciones específicas"
+      ],
+      "createdAt": "2025-09-27 17:08:50"
+    },
+    {
+      "feedbackId": "56568105bac2f22da7de4d7c77896261",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Veronica demuestra excelente integración de las 4 fases del pensamiento crítico. Tu resolución completa del problema de eteno muestra dominio del proceso completo, aunque aún hay espacio para mejorar la confianza.",
+      "strengths": [
+        "Aplicación sistemática de las 4 fases del pensamiento crítico",
+        "Cálculo correcto y completo con verificación dimensional",
+        "Capacidad de auto-corrección ante errores en fórmulas"
+      ],
+      "improvements": [
+        "Fortalecer la confianza para evitar confusiones en fórmulas básicas",
+        "Incluir unidades en todos los pasos intermedios",
+        "Agregar reflexiones finales sobre el proceso completo"
+      ],
+      "createdAt": "2025-09-27 17:08:09"
+    },
+    {
+      "feedbackId": "a49dc45319a31557e8fd908ebc934181",
+      "weekStart": "2025-09-08",
+      "score": 61,
+      "generalComments": "Veronica, comprendo que no hubo clase de Química por la prueba de Física. Aunque mantienes el dominio de nivel 3 en gases ideales, es importante aprovechar estas semanas para reforzar conceptos.",
+      "strengths": [
+        "Mantiene nivel de dominio en gases ideales a pesar de la interrupción",
+        "Intenta establecer conexiones con temas previos",
+        "Comunicación clara de la situación"
+      ],
+      "improvements": [
+        "Repasar contenidos de forma autónoma cuando no hay clase",
+        "Profundizar las conexiones con ejemplos más específicos",
+        "Aprovechar para adelantar ejercicios de práctica"
+      ],
+      "createdAt": "2025-09-27 17:07:22"
+    },
+    {
+      "feedbackId": "c5fb892f350357bb253ab9552fb2c3d9",
+      "weekStart": "2025-09-15",
+      "score": 80,
+      "generalComments": "Veronica demuestra excelente dominio en la aplicación de las leyes de gases ideales, especialmente en el uso de la ecuación de estado y la ley de Boyle. Tu capacidad de auto-corrección y detección de errores es destacable.",
+      "strengths": [
+        "Aplicación correcta y confiada de múltiples fórmulas de gases ideales",
+        "Excelente capacidad de auto-corrección al detectar errores en cálculos",
+        "Comprensión profunda de procesos isotérmicos y aplicación de la ley de Boyle"
+      ],
+      "improvements": [
+        "Profundizar las conexiones con la vida cotidiana con ejemplos más específicos",
+        "Agregar reflexiones adicionales en la sección de comentarios",
+        "Documentar el proceso de resolución aunque el TP se entregue"
+      ],
+      "createdAt": "2025-09-27 17:06:16"
+    },
+    {
+      "feedbackId": "e7d629e0c502e6f8b8f9d97c5fadc53a",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Veronica, entiendo que estuviste en el viaje educativo a Puerto Madryn durante esta semana. Es importante que te pongas al día con los contenidos que se trabajaron en tu ausencia.",
+      "strengths": [
+        "Comunicación clara de la situación de viaje escolar",
+        "Cumplimiento con la entrega del reporte a pesar de la ausencia",
+        "Honestidad al reportar la falta de contenido académico"
+      ],
+      "improvements": [
+        "Consultar con compañeros sobre los temas tratados durante tu ausencia",
+        "Solicitar material de estudio al profesor para ponerte al día",
+        "Conectar experiencias del viaje con conceptos químicos cuando sea posible"
+      ],
+      "createdAt": "2025-09-27 17:03:12"
+    },
+    {
+      "feedbackId": "fb_002_2_3me1yt3l8_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 32,
+      "generalComments": "Querida Veronica Hansen,\n\nDebido a que esta semana se realizó la evaluación de Química sin desarrollo de contenidos nuevos, no fue posible evaluar tu progreso en las habilidades de pensamiento crítico. Reconozco tu percepción positiva sobre tu desempeño en la evaluación.\n\nEs fundamental desarrollar respuestas diferenciadas para cada pregunta del reporte, ya que cada una evalúa aspectos distintos de tu proceso de aprendizaje. Proporciona evidencias más concretas y específicas sobre tu proceso de estudio y preparación. Reflexiona sobre qué estrategias utilizaste para prepararte y qué aprendizajes consolidaste.\n\nTe sugiero coordinar conmigo para comprender mejor el formato del reporte semanal y aprovechar esta herramienta de reflexión.",
+      "strengths": [
+        "Tienes una percepción positiva de tu desempeño en la evaluación",
+        "Identificas claramente que no hubo tema nuevo durante la semana",
+        "Entregas tu reporte cumpliendo con el plazo establecido",
+        "Reconoces el contexto de evaluación"
+      ],
+      "improvements": [
+        "Desarrolla respuestas específicas para cada pregunta, evitando repetir el mismo texto",
+        "Describe tu proceso de preparación para la evaluación con mayor detalle",
+        "Reflexiona sobre qué conceptos consolidaste al estudiar para el examen",
+        "Identifica qué estrategias de estudio te resultaron efectivas"
+      ],
+      "createdAt": "2025-10-06T15:30:00.000Z"
+    },
+    {
+      "feedbackId": "74c5f3c5-02de-4294-bf77-17650e0825fe",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:47.683Z"
+    },
+    {
+      "feedbackId": "05b93c5e-2896-4f20-93be-e19307a95e53",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:38.709Z"
+    },
+    {
+      "feedbackId": "d4065e13-7648-4243-b6e3-0dc990509411",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:52:24.528Z"
+    },
+    {
+      "feedbackId": "486855ec-bb61-47fc-b2fc-a4e0fd3fc093",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:19:42.794Z"
+    },
+    {
+      "feedbackId": "cbb4b848-bab2-44c4-9518-c08cdb40d205",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:58.074Z"
+    },
+    {
+      "feedbackId": "c3777f86-0353-48d9-a422-848a36d30f57",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:19:57.455Z"
+    },
+    {
+      "feedbackId": "32b6c6fd-8723-400f-9355-942afe1e0616",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no tuviste clase de química, y lo reportas de manera clara. Sin embargo, tu reporte refleja una actitud pasiva frente al aprendizaje: esperar a que el profesor enseñe para poder responder. El pensamiento crítico también significa ser autónomo cuando las circunstancias cambian.\n\nTu desempeño esta semana es inicial (Nivel 1) porque no hay evidencia de que hayas intentado aplicar lo aprendido en la Fase 1 de forma independiente. Esto es una oportunidad, no un fracaso: tienes tiempo para recuperarte.\n\nPara la próxima semana, te propongo esto: aunque no haya clase, dedica 20 minutos a revisar un problema de química que ya hayas resuelto. Identifica todas las variables (conocidas, desconocidas, controlables, no controlables) y clasifícalas. Esto te mantendrá en forma y listo para avanzar cuando regresen las clases.",
+      "strengths": "• Honestidad en la comunicación: Reportas claramente la situación de ausencia de clases, lo que permite al profesor entender el contexto. Esto es importante para mantener la transparencia.\n• Consistencia en las respuestas: Mantienes coherencia al explicar la misma razón en todas las preguntas, evitando contradicciones en tu reporte.",
+      "improvements": "• Proactividad ante la ausencia de clase: En lugar de dejar el formulario sin respuestas, podrías haber revisado ejercicios de semanas anteriores, identificado variables en esos problemas, o propuesto ejemplos propios. Esto mantendría tu aprendizaje activo incluso sin clase presencial.\n• Aprovechamiento del tiempo para autoaprendizaje: Aunque no hay clase, puedes usar este tiempo para consolidar la Fase 1 o explorar cómo se aplican las variables en problemas reales de química (reacciones, concentraciones, temperaturas). Propón al menos 2-3 ejemplos propios en el próximo reporte.\n• Completar todas las secciones del formulario: La pregunta 5 está vacía. Incluso sin clase nueva, podrías reflexionar sobre: ¿Qué dudas tengo de la Fase 1? ¿Cómo puedo mejorar mi identificación de variables? Esto demuestra pensamiento crítico independiente.",
+      "createdAt": "2025-10-27T04:53:07.486Z"
+    },
+    {
+      "feedbackId": "45f094df-392b-4339-896b-b1b3cac15b7e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Veo que comprendiste bien el contenido de enlaces químicos esta semana, y tu ejemplo del NaCl muestra que puedes conectar la teoría con la realidad. Eso es un logro importante. Sin embargo, tu reporte no refleja completamente lo que la Fase 2 requiere: identificar, clasificar y analizar variables de forma sistemática.\n\nTu desempeño es sólido en comprensión conceptual, pero necesitas profundizar en el análisis metodológico. Cuando dices \"no tuve dificultades,\" pierdes la oportunidad de mostrar pensamiento crítico real. La Fase 2 no es solo entender temas, sino aprender a descomponerlos en variables y magnitudes.\n\nPara la próxima semana, te propongo que hagas listas explícitas de variables para cada tema trabajado, las clasifiques claramente, y reflexiones sobre qué te cuesta diferenciar. Completa también todas las secciones del reporte, especialmente Q5. Esto te ayudará a desarrollar el pensamiento crítico que es el objetivo de esta fase.",
+      "strengths": "• Comprensión conceptual clara del enlace covalente: Tu explicación de la regla del octeto para el hidrógeno (2 electrones) y la representación del CH₄ muestran que entendiste bien el contenido. Esto es un buen punto de partida para la Fase 2.\n• Capacidad de aplicar conceptos a ejemplos reales: Tu conexión con el NaCl demuestra que puedes vincular la teoría con fenómenos cotidianos, lo que es esencial para el pensamiento crítico en química.\n• Intento de representación visual: Aunque la plataforma limitó tu diagrama de Lewis, el esfuerzo por mostrar la estructura molecular indica disposición a comunicar ideas complejas de múltiples formas.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En Q1 y Q2, debes nombrar las variables involucradas (ej: número de electrones de valencia, tipo de enlace, electronegatividad) y clasificarlas como conocidas/desconocidas o controlables/no controlables. Esto es el núcleo de la Fase 2. Practica haciendo listas de variables para cada tema.\n• Desarrollar metacognición genuina en Q3: No basta decir \"no tuve dificultades.\" Reflexiona sobre qué aspectos específicos de la identificación de variables te resultan complicados (ej: ¿distinguir entre electrones de valencia y totales? ¿clasificar variables en reacciones complejas?). Propón estrategias concretas para mejorar.\n• Completar todas las secciones del reporte: Q5 está vacía. Usa este espacio para reflexionar sobre la importancia de identificar variables correctamente y cómo esto mejora tu comprensión de la química. Esto evidencia pensamiento crítico profundo.",
+      "createdAt": "2025-11-03T12:17:08.437Z"
+    },
+    {
+      "feedbackId": "75f24d91-74c8-4836-97f1-07bb9080a230",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes: faltaste a clase y eso afectó tu comprensión inicial. Sin embargo, tomaste la iniciativa de pedir ayuda, lo que es positivo. Completaste los ejercicios asignados, y eso muestra responsabilidad.\n\nEl punto crítico es que tu análisis aún es superficial. En la Fase 2 necesitas ir más allá de mencionar conceptos: debes identificar variables específicas, clasificarlas con criterios claros y explicar por qué cada una es importante. Tus respuestas son muy cortas y genéricas para lo que se espera.\n\nPara la próxima semana, te pido que: (1) asistas a todas las clases, (2) cuando resuelvas un problema, haz una lista explícita de variables antes de empezar, y (3) escribe reflexiones más detalladas en cada pregunta. Esto mejorará significativamente tu desempeño.",
+      "strengths": "• Intentas aplicar conceptos de tabla periódica: Reconoces que el azufre y oxígeno están en columnas específicas y relacionas esto con electrones de valencia. Es un buen punto de partida, aunque necesita precisión.\n• Buscas ayuda cuando no entiendes: Preguntar a tu amiga cuando faltaste a clase muestra responsabilidad. Sin embargo, debes también revisar el material por tu cuenta para consolidar el aprendizaje.\n• Completas las tareas asignadas: Resolviste los 5 ejercicios de la semana, lo que demuestra compromiso con el trabajo, aunque la calidad del análisis necesita mejorar.",
+      "improvements": "• Identifica y clasifica variables de forma sistemática: En lugar de solo mencionar \"uniones químicas\", debes listar variables específicas (ej: número de electrones, tipo de enlace, electronegatividad). Crea una tabla con columnas: Variable | Conocida/Desconocida | Controlable/No controlable. Esto te ayudará a ser más preciso.\n• Revisa conceptos de tabla periódica antes de aplicarlos: Verificaste que O está en columna 16, pero cometiste error con S. Antes de resolver ejercicios, consulta la tabla periódica y confirma la posición de cada elemento. Esto evitará errores conceptuales que afecten todo tu análisis.\n• Reflexiona profundamente sobre tus dificultades: No basta decir \"me marearon\". Pregúntate: ¿Qué específicamente no entendí? ¿Fue la clasificación de variables? ¿La representación gráfica? Escribe 2-3 líneas explicando la dificultad real y qué estrategia usarás para superarla.",
+      "createdAt": "2025-11-12T22:51:08.492Z"
+    },
+    {
+      "feedbackId": "941cd304-556f-4216-a08f-7a96c646db0b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que comprendes bien los conceptos de uniones químicas y puedes representar estructuras de Lewis correctamente. Eso es un logro importante y demuestra que estás aprendiendo el contenido. Sin embargo, tu reporte no refleja completamente lo que pide la Fase 2: Identificación de Variables y Datos.\n\nEl desafío ahora es que no solo resuelvas ejercicios, sino que identifiques y clasifiques las variables involucradas en cada problema. Por ejemplo, en tus ejercicios de Lewis, deberías haber señalado: \"Variable conocida: grupo periódico del elemento; Variable desconocida: número final de electrones; Variable controlable: la carga del ion.\"\n\nPara la próxima semana, te pido que seas más reflexivo en tus respuestas. Completa todas las preguntas (incluyendo Q5), sé honesto sobre tus dificultades y profundiza en cómo aplicas lo aprendido. Esto fortalecerá tu pensamiento crítico.",
+      "strengths": "• Dominio de representación de Lewis: Tu explicación del Cl⁻ es clara: \"tiene 7 electrones de Valencia, pero el símbolo - nos indica que se le agrega uno más, por lo tanto cumple con la regla del octeto.\" Esto muestra comprensión conceptual sólida.\n• Aplicación a múltiples casos: Trabajaste correctamente con P, Mg²⁺, Cl⁻, F y Fe³⁺, demostrando que puedes aplicar el modelo de Lewis a diferentes tipos de átomos e iones.\n• Conexión con contexto real: Reconoces que las uniones químicas están presentes en objetos cotidianos como la sal, lo que muestra pensamiento aplicado.",
+      "improvements": "• Identificación explícita de variables: En tu respuesta de Q2, debes nombrar claramente las variables: \"Variable conocida: número de electrones de valencia del P (5); Variable desconocida: configuración final después de unirse.\" Esto es lo que pide Fase 2, no solo resolver ejercicios.\n• Reflexión honesta sobre dificultades: En Q3, sé sincero. ¿Qué te costó? ¿Diferenciar entre iones y átomos neutros? ¿Contar electrones de valencia? Identifica una dificultad real y explica cómo la superaste o qué estrategia usarías.\n• Profundidad en conexiones: En Q4, no basta decir \"está en la sal.\" Explica: \"En la sal (NaCl), el Na pierde 1 electrón (variable controlable: número de electrones) y el Cl gana 1 (variable dependiente). Esto es una unión iónica.\" Conecta variables específicas con fenómenos.",
+      "createdAt": "2025-11-17T13:45:28.855Z"
+    }
+  ]
+}

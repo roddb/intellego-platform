@@ -1,0 +1,209 @@
+{
+    "curso": "4° C - (60) BAC",
+    "alumnos": [
+      {
+        "nro": 1,
+        "nombre": "Abella, Martin Bautista",
+        "id": "bd275edd-f22b-49b2-9d4b-8339d485515f",
+        "email": "martinabella120@gmail.com"
+      },
+      {
+        "nro": 2,
+        "nombre": "Aiello Pirlo, Maria Clara",
+        "id": "u_1zev16wwsme0b4u1q",
+        "email": "mclaraaiello@gmail.com"
+      },
+      {
+        "nro": 3,
+        "nombre": "Bargas, Sofía Candela",
+        "id": "u_tv7hzrijlme0b5735",
+        "email": "sofiabargas000@gmail.com"
+      },
+      {
+        "nro": 4,
+        "nombre": "Barrera, Mateo",
+        "id": "u_7vuuihvajme0bd1v8",
+        "email": "mateo.barrera.2008@gmail.com"
+      },
+      {
+        "nro": 5,
+        "nombre": "Behmer Cavallo, Brenda",
+        "id": "u_ws61mg4b5me6e599g",
+        "email": "behmercavallobrenda@gmail.com"
+      },
+      {
+        "nro": 6,
+        "nombre": "Bongiovanni, Lourdes",
+        "id": "u_qo63sfz3tme13og82",
+        "email": "lulibongio27@gmail.com"
+      },
+      {
+        "nro": 7,
+        "nombre": "Ceriani Cernadas, Juliana",
+        "id": "u_r9e5ufdasme0b8zqx",
+        "email": "julicerianicernadas@gmail.com"
+      },
+      {
+        "nro": 8,
+        "nombre": "Donadio, Magdalena",
+        "id": "u_q8vglr2n7me0b5ree",
+        "email": "donadiomaggie@gmail.com"
+      },
+      {
+        "nro": 9,
+        "nombre": "Figini, Franco",
+        "id": "u_1gms3kiw1me0b2i22",
+        "email": "franarg2009@gmail.com"
+      },
+      {
+        "nro": 10,
+        "nombre": "Fontan de Cortazar, Federica",
+        "id": "u_pv2qe98lhme0b4xi4",
+        "email": "federicafontandecortazar@gmail.com"
+      },
+      {
+        "nro": 11,
+        "nombre": "Forrester, Tomás",
+        "id": "u_pdb4f4ng5me0b54u2",
+        "email": "forrestertomas@gmail.com"
+      },
+      {
+        "nro": 12,
+        "nombre": "Gaeta, Isabel",
+        "id": "u_h08h8vyowme0b6fc8",
+        "email": "isabelgaetaa@gmail.com"
+      },
+      {
+        "nro": 13,
+        "nombre": "Garcia Canteli, Ulises",
+        "id": "u_zbzlsfka9me0bba6t",
+        "email": "ugarciacanteli@gmail.com"
+      },
+      {
+        "nro": 14,
+        "nombre": "Garmendia, Morena",
+        "id": "u_qt28g6pmrme0b1swg",
+        "email": "more.garmendia.o@gmail.com"
+      },
+      {
+        "nro": 15,
+        "nombre": "Giles, Camilo",
+        "id": "u_4goz47h3xme6htid0",
+        "email": "camigiles2020@gmail.com"
+      },
+      {
+        "nro": 16,
+        "nombre": "Isola Pozzo, Facundo",
+        "id": "2256bcc8-efd3-4e01-b627-1e6dfad75a6c",
+        "email": "facundoisola2007@gmail.com"
+      },
+      {
+        "nro": 17,
+        "nombre": "Lazaro, Miranda",
+        "id": "u_irosems63me0b6lym",
+        "email": "mirandaa.lazaroo@gmail.com"
+      },
+      {
+        "nro": 18,
+        "nombre": "Lo Valvo, Agustín",
+        "id": "u_ptsyo9w0pme4ihnen",
+        "email": "agustinlovalvo08@gmail.com"
+      },
+      {
+        "nro": 19,
+        "nombre": "Maioli, Bautista Lucas",
+        "id": "u_rkrgujb30me0b536p",
+        "email": "bautimaioli@gmail.com"
+      },
+      {
+        "nro": 20,
+        "nombre": "Margueirat, Joaquín",
+        "id": "u_0mkknqzfwme0b1gv6",
+        "email": "joaquinmargueirat@gmail.com"
+      },
+      {
+        "nro": 21,
+        "nombre": "Margules, Agustina Lara",
+        "id": "u_8msj4nva8me0b5qcj",
+        "email": "Agustinamargules@gmail.com"
+      },
+      {
+        "nro": 22,
+        "nombre": "Marrazzo, Lola",
+        "id": "u_gjtitt5qlme0b5p2x",
+        "email": "lolamarrazzo@gmail.com"
+      },
+      {
+        "nro": 23,
+        "nombre": "Mingotti Tziavaras, Lucas Leonidas",
+        "id": "u_e14kez4ghme6hx5nr",
+        "email": "mtlucas247@gmail.com"
+      },
+      {
+        "nro": 24,
+        "nombre": "Monsegur, Milagros",
+        "id": "u_of6to0o91me0b47mk",
+        "email": "milagrosmonsegur@gmail.com"
+      },
+      {
+        "nro": 25,
+        "nombre": "Paccie, Francesca",
+        "id": "u_mpa1z25bmme5yempy",
+        "email": "francesca.paccie@gmail.com"
+      },
+      {
+        "nro": 26,
+        "nombre": "Palamenghi, Franco",
+        "id": "u_f1hq5788gme0b92xe",
+        "email": "frpala0309@gmail.com"
+      },
+      {
+        "nro": 27,
+        "nombre": "Papa, Valentino",
+        "id": "u_c8qoo6z03me0b5zlp",
+        "email": "Valentino.Papa@gmail.com"
+      },
+      {
+        "nro": 28,
+        "nombre": "Pasarin de la Torre, Matilde",
+        "id": "u_tid7bop2gme6i2g6e",
+        "email": "matildepasarin@gmail.com"
+      },
+      {
+        "nro": 29,
+        "nombre": "Perri, Lola Sofia",
+        "id": "u_l0o1myrbrme0b2mhd",
+        "email": "perrilola.sta@gmail.com"
+      },
+      {
+        "nro": 30,
+        "nombre": "Pleitel, Mia",
+        "id": "u_orrudyvptme0b5ua2",
+        "email": "pleitelmia@gmail.com"
+      },
+      {
+        "nro": 31,
+        "nombre": "Poggi, Zoe",
+        "id": "u_wls4ynud9me1bcsn3",
+        "email": "zoepoggi@gmail.com"
+      },
+      {
+        "nro": 32,
+        "nombre": "Rizzo Lynch, Mercedes",
+        "id": "u_gw49maclcme6i3g64",
+        "email": "mechirizzolynch@gmail.com"
+      },
+      {
+        "nro": 33,
+        "nombre": "Rueda, Guadalupe",
+        "id": "u_ef94s2t87me0b27mi",
+        "email": "ruedaclaraguada@gmail.com"
+      },
+      {
+        "nro": 34,
+        "nombre": "Vertedor Salinas, Fiarella",
+        "id": "u_madzeow6xme0bap6m",
+        "email": "fiorevertedor@gmail.com"
+      }
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "081cc56b-878d-4f2c-8fb1-18a35171589b",
+    "studentName": "maria barria",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245327",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-09-15",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_71589b_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Hola Maria Barria, debido a la semana de celebración de Santo Tomás de Aquino, no fue posible evaluar tu progreso en Química durante esta semana. Demuestras responsabilidad al comunicar la situación. Para las próximas semanas regulares, proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Hagamos un seguimiento cercano para asegurar tu progreso. Estoy disponible para ayudarte.",
+      "strengths": [
+        "Demuestras responsabilidad al completar el reporte informando sobre la semana especial del colegio.",
+        "Comunicas claramente la razón de la ausencia de actividades académicas.",
+        "Cumples con la entrega del reporte semanal aun en semanas atípicas."
+      ],
+      "improvements": [
+        "En semanas regulares, desarrolla respuestas específicas para cada pregunta del reporte.",
+        "Identifica y describe los temas trabajados con mayor detalle y precisión.",
+        "Incluye evidencias concretas de tu proceso de aprendizaje en cada pregunta."
+      ],
+      "createdAt": "2025-10-08T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_71589b_2025-09-22_002",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Hola Maria Barria, debido al viaje educativo a Puerto Madryn, no fue posible evaluar tu progreso en Química durante esta semana. Demuestras responsabilidad al informar sobre la situación. Para las próximas semanas regulares de clase, proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en cada pregunta. Hagamos un seguimiento cercano para asegurar tu progreso. Estoy disponible para ayudarte.",
+      "strengths": [
+        "Demuestras responsabilidad al completar el reporte informando sobre el viaje educativo.",
+        "Comunicas claramente la razón de la ausencia de clases de Química.",
+        "Cumples con la entrega del reporte semanal aun en semanas atípicas."
+      ],
+      "improvements": [
+        "En semanas regulares, desarrolla respuestas específicas para cada pregunta del reporte.",
+        "Identifica y describe los temas de Química trabajados con mayor detalle.",
+        "Incluye evidencias concretas de tu proceso de aprendizaje diferenciadas por pregunta."
+      ],
+      "createdAt": "2025-10-08T00:00:00Z"
+    }
+  ]
+}

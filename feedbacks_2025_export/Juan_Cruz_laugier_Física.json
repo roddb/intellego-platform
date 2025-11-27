@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "studentId": "u_q0wslezygme2xa6aw",
+    "studentName": "Juan Cruz laugier",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.208970",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 66.5,
+      "minScore": 59,
+      "maxScore": 74,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "0a35e08d-884b-3949-4c81-a2a9b7976a1d",
+      "weekStart": "2025-08-18",
+      "score": 64,
+      "generalComments": "Juan Cruz demuestra dominio progresivo del uso de fórmulas en tiro oblicuo, respaldado por el uso estratégico de la guía de corrección para autocorregirse. Su metacognición es valiosa: reconoce tanto su mejora ('logré comprender el uso de fórmulas') como sus áreas de crecimiento ('aún me falta mejorar'). La autocrítica sobre apurarse al elegir fórmulas revela conciencia de un error común que afecta la precisión. La ausencia de respuesta en Q5 limita la completitud del análisis reflexivo final.",
+      "strengths": [
+        "Uso efectivo de la guía de corrección como herramienta de autocorrección y verificación",
+        "Metacognición clara: identifica mejoras logradas y reconoce áreas pendientes de desarrollo",
+        "Autocrítica específica: reconoce que apurarse afecta la selección de fórmulas y organización",
+        "Establece conexión interdisciplinaria entre Física y Matemáticas mediante fórmulas y procedimientos"
+      ],
+      "improvements": [
+        "Completar Q5 con reflexión sobre estrategias concretas para no apurarse en próximos ejercicios",
+        "En Q1: especificar cuáles fórmulas de tiro oblicuo logró comprender (Vx, Vy, alcance, altura máxima)",
+        "Profundizar en Q4: ejemplos concretos de cómo los procedimientos matemáticos ayudan en física"
+      ],
+      "createdAt": "2025-10-02 01:57:41"
+    },
+    {
+      "feedbackId": "c4f8326d-5492-74bd-858a-029215222a72",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Juan Cruz demuestra excelente capacidad de abstracción al conectar el sistema de 4 fases con la vida cotidiana, lo que evidencia comprensión profunda del proceso. Su metacognición es destacable: reconoce específicamente que la Fase 3 le resulta desafiante y ha identificado la autocorrección como herramienta clave para mejorar. Este nivel de autoconciencia es fundamental para el aprendizaje autónomo. La respuesta vacía en Q5 sugiere necesidad de gestionar mejor el tiempo o profundizar la reflexión final.",
+      "strengths": [
+        "Excelente capacidad de abstracción: conecta el sistema de fases con planificación en la vida cotidiana",
+        "Metacognición destacable: identifica con precisión que la Fase 3 es su mayor desafío",
+        "Reconoce el valor de la autocorrección como estrategia de mejora específica",
+        "Integra aprendizajes entre Física y Química mostrando visión transversal"
+      ],
+      "improvements": [
+        "Completar Q5 con reflexión concreta sobre próximos pasos o metas de aprendizaje",
+        "Profundizar en Q3: especificar QUÉ fórmulas aprendió a seleccionar con la autocorrección",
+        "En Q1 y Q2: agregar ejemplos específicos de problemas donde aplicó el sistema de 4 fases"
+      ],
+      "createdAt": "2025-10-02 01:50:57"
+    },
+    {
+      "feedbackId": "93c43ac3-079c-49aa-8e84-93d42c433470",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Juan Cruz demuestra progreso sostenido en Fase 3, evidenciando autocrítica constructiva y estrategias concretas de mejora. Su método de observar fórmulas y analizar datos disponibles muestra madurez en selección de herramientas. Reconoce errores con honestidad y trabaja activamente en superarlos mediante práctica sistemática con modelos de examen.",
+      "strengths": [
+        "Desarrolla estrategia concreta analizando fórmulas y datos disponibles para resolver problemas de Fase 3",
+        "Autocrítica constructiva reconociendo aplicación correcta en mayoría de casos y errores específicos",
+        "Progreso evidente respecto a semana anterior, consolidando competencias de Fase 3"
+      ],
+      "improvements": [
+        "Crear registro de errores específicos en aplicación de fórmulas para identificar patrones y evitar repetición",
+        "Desarrollar checklist de verificación de datos antes de aplicar cada fórmula",
+        "Incluir reflexiones sobre qué estrategias funcionan mejor para diferentes tipos de problemas"
+      ],
+      "createdAt": "2025-10-02 01:42:43"
+    },
+    {
+      "feedbackId": "10d5a121-0413-a879-e620-220e67cb2052",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Juan Cruz muestra progreso significativo en Fase 3, evidenciando mayor facilidad y rapidez en la resolución de ejercicios. Reconoce explícitamente las dificultades de esta fase y demuestra actitud proactiva al trabajar en su mejora continua. Su capacidad para hacer conexiones interdisciplinarias con matemática indica comprensión profunda del método de fases.",
+      "strengths": [
+        "Mejora notable en velocidad y corrección al resolver ejercicios de la guía de Fase 3",
+        "Identifica específicamente las dificultades de Fase 3 y muestra progreso en superarlas",
+        "Establece conexiones valiosas con matemática, reconociendo la universalidad del sistema de fases"
+      ],
+      "improvements": [
+        "Especificar qué herramientas o fórmulas particulares de Fase 3 le resultan más desafiantes",
+        "Documentar las estrategias concretas que está aplicando para mejorar (no solo mencionar que mejora)",
+        "Incluir reflexiones sobre aplicaciones específicas más allá de matemática"
+      ],
+      "createdAt": "2025-10-02 01:32:06"
+    },
+    {
+      "feedbackId": "62649850-067b-ec5a-4444-bd9587e3bab7",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Juan Cruz está en Fase 3, enfocándose en la selección de fórmulas y herramientas matemáticas. Reconoce la necesidad de elegir \"la mejor fórmula\" y hace conexiones con otras disciplinas como matemática. Sin embargo, enfrenta dificultades significativas en la resolución de ejercicios, logrando solo algunos. Es fundamental que fortalezca la comprensión de cuándo y por qué usar cada herramienta específica.",
+      "strengths": [
+        "Reconoce la importancia de seleccionar la fórmula adecuada para cada problema",
+        "Establece conexiones interdisciplinarias con matemática utilizando el sistema de fases",
+        "Muestra honestidad al expresar sus dificultades y limitaciones actuales"
+      ],
+      "improvements": [
+        "Desarrollar criterios claros para la selección de fórmulas según el tipo de problema y variables involucradas",
+        "Crear estrategias específicas para abordar las dificultades, como revisión de conceptos base y práctica guiada",
+        "Incluir reflexiones más detalladas sobre qué funciona y qué no en cada intento de resolución"
+      ],
+      "createdAt": "2025-10-02 01:23:48"
+    },
+    {
+      "feedbackId": "4cb7529c-6344-895f-89b0-434b7b33f04a",
+      "weekStart": "2025-09-22",
+      "score": 62,
+      "generalComments": "Juan Cruz está trabajando con ejercicios completos tipo examen en Fase 4, lo cual demuestra progreso en el proceso metodológico. Sin embargo, enfrenta dificultades crecientes en la ejecución de las fases, lo que es esperable en problemas de mayor complejidad. Es importante que desarrolle estrategias específicas para superar estos desafíos y complete la integración de las 4 fases.",
+      "strengths": [
+        "Reconoce la conexión del método de fases con situaciones cotidianas, mostrando transferencia del aprendizaje",
+        "Identifica con honestidad las dificultades que enfrenta en el proceso de resolución",
+        "Logra resolver ejercicios tipo examen, evidenciando aplicación del método completo"
+      ],
+      "improvements": [
+        "Desarrollar estrategias concretas para abordar las dificultades en cada fase (planificación previa, verificación de pasos)",
+        "Documentar el proceso de resolución completo, incluyendo verificación de resultados y análisis dimensional",
+        "Incluir reflexiones específicas en los comentarios sobre qué funciona y qué no en cada tipo de problema"
+      ],
+      "createdAt": "2025-10-02 01:16:00"
+    }
+  ]
+}

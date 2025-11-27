@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "studentId": "u_4920yklv9me1fto0f",
+    "studentName": "Lola Valverde",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.212855",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 70.67,
+      "minScore": 66,
+      "maxScore": 77,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Querida Lola Valverde, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Reconoces con precisión los objetivos de aprendizaje en esta fase. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces los objetivos de aprendizaje en pensamiento crítico aplicado a Física",
+        "Identificas la conexión entre Física y matemática en el proceso de resolución",
+        "Demuestras perseverancia ante las dificultades con el tema de movimientos"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Desarrolla estrategias más específicas para superar los desafíos en la resolución de ejercicios"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 66,
+      "generalComments": "Querida Lola Valverde, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Identificas algunas variables importantes en el ejercicio de tiro oblicuo deportivo. Debes trabajar en la identificación precisa de todas las variables involucradas. Es importante mejorar la organización y clasificación de los datos disponibles. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas variables clave en el contexto del saque de voley (altura, velocidad, ángulo)",
+        "Reconoces la importancia de organizar las variables en cuadros",
+        "Realizas conexiones básicas con deportes y matemática"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada",
+        "Desarrolla estrategias para no olvidar variables importantes durante la resolución",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión al describir tu proceso"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Querida Lola Valverde, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente las ecuaciones fundamentales de MRU y MRUV en tiro oblicuo. Muestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas cuando hay múltiples opciones. Mejora la organización de tu trabajo al resolver problemas complejos. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las ecuaciones de MRU para eje x y MRUV para eje y en tiro oblicuo",
+        "Utilizas una estrategia efectiva (paso a paso, revisar conceptos con tranquilidad)",
+        "Realizas conexiones significativas entre conceptos previos (MRU, MRUV) y el nuevo tema",
+        "Demuestras reflexión metacognitiva sobre tu proceso y expectativas de mejora"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas matemáticas",
+        "Trabaja en expresar tus ideas con mayor claridad al describir los pasos de resolución",
+        "Necesitas fortalecer tu criterio para seleccionar rápidamente la fórmula correcta según el contexto"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Querida Lola Valverde, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Comprendes la separación de componentes de velocidad en tiro oblicuo. Utilizas estrategias efectivas como revisar ejemplos del cuadernillo y trabajar paso a paso. Es importante mejorar la ejecución sin errores en los cálculos intermedios. Trabaja en la confianza al aplicar las fórmulas correctas. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Comprendes conceptualmente la separación de movimiento en MRU (eje x) y MRUV (eje y)",
+        "Utilizas estrategia efectiva de revisar ejemplos del cuadernillo antes de resolver",
+        "Demuestras perseverancia al reconocer errores y seguir practicando",
+        "Realizas conexiones significativas con deportes específicos (fútbol, básquet)"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la ejecución de cálculos sin errores mediante práctica adicional",
+        "Es importante mejorar la confianza en la aplicación de fórmulas de tiempo de vuelo y distancia",
+        "Desarrolla un sistema de verificación de resultados paso a paso para detectar errores temprano"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 69,
+      "generalComments": "Querida Lola Valverde, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Integras exitosamente los conocimientos de las fases anteriores al resolver el problema del cañón. Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos. Necesitas ser más sistemática en la ejecución de los pasos de resolución, especialmente en la Fase 3. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas la metodología completa de 4 fases en problemas complejos",
+        "Resuelves problemas contextualizados de tiro oblicuo con múltiples condiciones",
+        "Reconoces específicamente dónde se encuentran tus dificultades (Fase 3)"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, organizando qué calcular primero",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso de resolución",
+        "Consolida la selección de fórmulas (Fase 3) mediante práctica adicional antes de exámenes"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e1fto0f_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 77,
+      "generalComments": "Querida Lola Valverde, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Demuestras autonomía significativa al organizar tu propio repaso del tema de tiro oblicuo. Muestras reflexión sobre tu propio proceso de aprendizaje y la importancia de la verificación. Continúa consolidando la verificación de resultados como parte sistemática de tu proceso. Busca aplicaciones prácticas de tiro oblicuo en situaciones cotidianas más variadas. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Demuestras iniciativa propia al aprovechar la semana sin tema nuevo para repasar",
+        "Reconoces la importancia de verificar que hayas entendido antes de avanzar",
+        "Muestras autorregulación efectiva al organizar tu estudio de forma autónoma",
+        "Identificas claramente las conexiones del tiro oblicuo con deportes variados"
+      ],
+      "improvements": [
+        "Documenta específicamente qué aspectos del tema consolidaste durante el repaso",
+        "Desarrolla un registro sistemático de verificación de ejercicios con criterios claros",
+        "Busca aplicaciones más diversas del tema más allá de los deportes"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    }
+  ]
+}

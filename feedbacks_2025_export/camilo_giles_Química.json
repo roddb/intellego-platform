@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "studentId": "u_4goz47h3xme6htid0",
+    "studentName": "camilo giles",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.242683",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 50.75,
+      "minScore": 35,
+      "maxScore": 68,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5B_camilo_giles_20251005_001",
+      "weekStart": "2025-08-04",
+      "score": 35,
+      "generalComments": "Querido Camilo, debido a tu ausencia por viaje, no fue posible evaluar tu progreso en Química durante esta semana. Reconoces con honestidad tu situación de ausencia. Es fundamental recuperar el contenido trabajado durante tu ausencia para mantener continuidad en el aprendizaje. Te recomiendo coordinar con compañeros para obtener los materiales y ejercicios de la semana. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Responsabilidad al comunicar tu situación de ausencia de manera clara",
+        "Honestidad al explicar el motivo de no participar en las actividades de la semana",
+        "Actitud positiva al mencionar que el último tema te resultó fácil"
+      ],
+      "improvements": [
+        "Buscar los materiales y apuntes de la semana perdida para ponerte al día",
+        "Coordinar con compañeros o con el docente para recuperar contenidos",
+        "Mantener el seguimiento de los temas aunque no hayas estado presente en clase"
+      ],
+      "createdAt": "2025-10-05 22:21:21"
+    },
+    {
+      "feedbackId": "fb_002_5B_camilo_giles_20251005_002",
+      "weekStart": "2025-08-18",
+      "score": 48,
+      "generalComments": "Querido Camilo, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Reconoces con honestidad tus dificultades de comprensión. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Es importante mejorar la identificación de conexiones entre temas trabajados anteriormente. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante!",
+      "strengths": [
+        "Honestidad al reconocer que cuesta entender el tema nuevo",
+        "Capacidad de autoevaluación al identificar tu nivel de dominio",
+        "Conciencia compartida de que la dificultad es colectiva, mostrando observación del contexto"
+      ],
+      "improvements": [
+        "Identificar con mayor precisión qué aspectos específicos del tema te resultan difíciles",
+        "Desarrollar estrategias concretas para abordar las dificultades más allá de esperar explicación",
+        "Buscar conexiones con temas previos de la materia para dar contexto al nuevo contenido",
+        "Proporcionar ejemplos específicos de ejercicios o conceptos trabajados"
+      ],
+      "createdAt": "2025-10-05 22:21:21"
+    },
+    {
+      "feedbackId": "fb_002_5B_camilo_giles_20251005_003",
+      "weekStart": "2025-08-25",
+      "score": 52,
+      "generalComments": "Querido Camilo, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Presentas evidencia concreta al copiar un ejercicio trabajado en clase. Necesitas fortalecer la identificación precisa de todas las variables involucradas en el problema. Es fundamental consolidar tu comprensión de las relaciones entre teoría y aplicaciones prácticas. Busca aplicaciones prácticas de ecuación de gases ideales en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de dominio y las causas de tus dificultades",
+        "Proporcionas evidencia concreta del trabajo realizado al incluir el ejercicio específico",
+        "Identificas con claridad tus dificultades para relacionar el tema con la vida cotidiana",
+        "Propones una solución concreta en tus comentarios adicionales"
+      ],
+      "improvements": [
+        "Analizar las variables presentes en el ejercicio presentado (presión, volumen, temperatura, moles)",
+        "Desarrollar estrategias de estudio más allá de esperar explicación docente",
+        "Buscar conexiones con fenómenos cotidianos que involucren gases (globos, neumáticos, respiración)",
+        "Trabajar en la identificación de relaciones entre variables del ejercicio presentado"
+      ],
+      "createdAt": "2025-10-05 22:21:21"
+    },
+    {
+      "feedbackId": "fb_002_5B_camilo_giles_20251005_004",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Querido Camilo, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de ecuación de gases ideales y avance sostenido. Presentas evidencia de trabajo con un problema complejo que integra múltiples variables. Demuestras perseverancia ante las dificultades utilizando recursos alternativos como IA. Necesitas consolidar tu comprensión de las relaciones entre variables presión, volumen y temperatura. Es importante mejorar la identificación de conexiones entre gases ideales y otros temas de química trabajados anteriormente. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Reconoces progreso significativo desde nivel 1 a nivel 3 en una semana",
+        "Presentas evidencia de trabajo con problema complejo de aplicación real (seguridad farmacéutica)",
+        "Demuestras iniciativa al usar recursos de IA para apoyar tu aprendizaje",
+        "Tu capacidad de autoevaluación es honesta y precisa al reconocer necesidad de más práctica"
+      ],
+      "improvements": [
+        "Analizar las relaciones entre las variables del problema presentado (P, V, T, n)",
+        "Desarrollar autonomía en la resolución más allá del uso de IA, documentando tu propio proceso",
+        "Buscar conexiones con temas previos de química (estequiometría, mol, comportamiento de sustancias)",
+        "Practicar la justificación de por qué seleccionas la ecuación PV=nRT en este contexto"
+      ],
+      "createdAt": "2025-10-05 22:21:22"
+    }
+  ]
+}

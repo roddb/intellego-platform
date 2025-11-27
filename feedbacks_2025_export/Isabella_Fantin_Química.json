@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "studentId": "u_tnjcagj37me1c4n0j",
+    "studentName": "Isabella Fantin",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.205986",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 48.82,
+      "minScore": 41,
+      "maxScore": 62,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me1c4n0j_2025-09-01_001",
+      "weekStart": "2025-09-01",
+      "score": 53,
+      "generalComments": "Querida Isabella Fantin, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Reconoces la dificultad para identificar los distintos datos del enunciado y realizar los cálculos. Debes trabajar en la identificación precisa de todas las variables involucradas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas dificultades específicas con datos y cálculos en problemas de gases ideales.",
+        "Realizas conexiones interesantes entre gases ideales y el intercambio de gases en los pulmones.",
+        "Propones estrategias concretas para mejorar (resolver más ejercicios en clase)."
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en los problemas.",
+        "Es importante mejorar la organización y clasificación de los datos disponibles.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje mostrando los pasos que seguiste."
+      ],
+      "createdAt": "2025-10-07 14:17:20"
+    },
+    {
+      "feedbackId": "fb_002_3_me1c4n0j_2025-09-08_002",
+      "weekStart": "2025-09-08",
+      "score": 41,
+      "generalComments": "Querida Isabella Fantin, te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Química. Identificas dificultades con fórmulas y fases para resolver problemas. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Mantén mayor constancia en la realización de ejercicios. Recuerda que cada desafío es una oportunidad de crecimiento.",
+      "strengths": [
+        "Identificas con claridad tus dificultades específicas con fórmulas y el proceso de fases.",
+        "Reconoces áreas que necesitas trabajar (selección de herramientas).",
+        "Mantienes conexión entre química y otras disciplinas como biología."
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada fase.",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas fórmulas.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje incluyendo los ejercicios trabajados.",
+        "Mantén mayor constancia y regularidad en la realización de ejercicios prácticos."
+      ],
+      "createdAt": "2025-10-07 14:17:21"
+    },
+    {
+      "feedbackId": "fb_002_3_me1c4n0j_2025-09-22_003",
+      "weekStart": "2025-09-22",
+      "score": 59,
+      "generalComments": "Querida Isabella Fantin, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Reconoces tu progreso indicando que te sigue costando pero vas mejor. Identificas con claridad tu dificultad para saber qué va en cada fase. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Proporciona evidencias más concretas de tu proceso. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje reconociendo mejora.",
+        "Identificas con precisión tu dificultad específica (saber qué va en cada fase).",
+        "Mantienes conexión entre química y biología mostrando pensamiento integrador."
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada fase del pensamiento crítico.",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas fórmulas o procedimientos.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje mostrando los pasos de resolución.",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión en las respuestas."
+      ],
+      "createdAt": "2025-10-07 14:17:21"
+    },
+    {
+      "feedbackId": "79af5573-0e45-4736-aaf6-76d635c2ac6a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:38:33.615Z"
+    },
+    {
+      "feedbackId": "00aa760a-79e6-4bda-b3bf-cdd4cdf45118",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:13:47.784Z"
+    },
+    {
+      "feedbackId": "b695e046-87d2-4580-8857-3b5317208549",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:51.026Z"
+    },
+    {
+      "feedbackId": "1f0dffc5-5ed2-47ae-ad1e-4f0531c5245e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:47:07.315Z"
+    },
+    {
+      "feedbackId": "3637a135-2a98-4c59-8382-0571aa125146",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás comenzando en la Fase 2, y eso es normal. Sin embargo, tu reporte es muy breve y no muestra el nivel de detalle que necesitamos para evaluar realmente tu comprensión de variables y datos. Reconozco que participaste en actividades grupales y que identificaste una dificultad concreta, lo cual es un buen inicio.\n\nEl desafío ahora es que profundices en tus respuestas. En lugar de respuestas de una línea, necesito que expliques *cómo* identificaste variables, *qué* estrategias usaste, y *por qué* funcionaron. Esto no es solo para mí, sino para que tú mismo entiendas mejor lo que estás aprendiendo.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas, incluso la 5; (2) des ejemplos concretos de variables que trabajaste; (3) reflexiones sobre tu propio proceso de aprendizaje. Verás que tu comprensión mejorará significativamente.",
+      "strengths": "• Reconoces dificultades reales: Identificas que los enlaces químicos son complicados, lo que muestra autoconciencia sobre dónde necesitas enfocarte. Esto es el primer paso para mejorar.\n• Intentas conectar con otras disciplinas: Tu mención de la conexión con biología demuestra que estás pensando en cómo los temas se relacionan más allá de la clase, lo cual es positivo.\n• Participaste en actividades colaborativas: Mencionas trabajo en grupos, lo que indica que estás comprometido con el proceso de aprendizaje en equipo.",
+      "improvements": "• Amplía tus respuestas con detalles específicos: En lugar de \"Uniones Químicas\", describe qué tipos de enlaces estudiaste (iónicos, covalentes, metálicos) y qué variables identificaste en cada uno (electronegatividad, energía, distancia). Esto demuestra comprensión real.\n• Desarrolla estrategias concretas para superar dificultades: No solo digas \"fue complicado\", sino explica QUÉ hiciste al respecto. Por ejemplo: \"Hice una tabla comparativa de enlaces\" o \"Usé modelos 3D para visualizar diferencias\". Esto muestra pensamiento crítico.\n• Completa todas las secciones del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre tu progreso, qué aprendiste sobre ti como estudiante, y cómo evolucionaste desde la Fase 1. Esta reflexión es fundamental para el pensamiento crítico.",
+      "createdAt": "2025-10-27T05:05:03.190Z"
+    },
+    {
+      "feedbackId": "1b232d9b-0e18-4ad7-b8f6-1f6752040873",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Valoro tu honestidad al reconocer que entiendes el tema pero necesitas mejorar la rapidez. Sin embargo, tu reporte esta semana es muy breve y no muestra el análisis sistemático que espero en la Fase 2. Necesitas ir más allá de mencionar temas: debes demostrar cómo identificas, clasificas y relacionas variables en cada ejercicio que resuelves.\n\nTu desempeño sugiere que estás en un nivel inicial de la Fase 2. Tienes la base (entiendes uniones químicas), pero aún no integras completamente la metodología de identificación de variables. Esto es normal, pero requiere más esfuerzo y documentación de tu proceso.\n\nPara la próxima semana, te pido que: (1) hagas un listado completo de variables para cada ejercicio que resuelvas, (2) clasifiques cada una (conocida/desconocida, controlable/no controlable), y (3) reflexiones en la sección Q5 sobre qué aprendiste. Esto transformará tu reporte en evidencia real de pensamiento crítico.",
+      "strengths": "• Autoevaluación honesta: Reconoces que entiendes el tema pero admites que te falta rapidez. Esta honestidad es el primer paso para mejorar y muestra disposición al aprendizaje.\n• Identificación de obstáculos concretos: Mencionas específicamente que se te dificulta usar la tabla periódica y graficar, lo que permite trabajar en esas áreas puntuales.\n• Conexión temática básica: Intentas vincular uniones químicas con moléculas, mostrando que reconoces que los temas están relacionados.",
+      "improvements": "• Profundiza en la clasificación de variables: En lugar de solo mencionar \"uniones químicas\", identifica variables específicas como: número de electrones (conocida/controlable), tipo de enlace (desconocida/no controlable), electronegatividad (conocida/no controlable). Esto es lo que realmente evalúa la Fase 2.\n• Documenta tu proceso de aprendizaje: Cuando hagas ejercicios como el diagrama de Lewis, lista explícitamente qué variables identificaste, cómo las clasificaste y qué magnitudes físicas usaste (carga, distancia, energía). Esto demuestra integración de F1+F2.\n• Desarrolla estrategias específicas para tus dificultades: En lugar de decir \"se me hace difícil graficar\", propón: \"Practicaré 5 diagramas de Lewis diarios usando la tabla periódica como referencia\" o \"Haré un resumen visual de grupos y períodos.\" Las estrategias concretas funcionan mejor.",
+      "createdAt": "2025-11-03T12:25:26.457Z"
+    },
+    {
+      "feedbackId": "67a88a85-8d29-4674-9531-a79ce30ca717",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes con el tema de Uniones Químicas, y valoro tu honestidad al reconocerlo. Sin embargo, tu reporte está muy incompleto: las respuestas son muy breves y algunas secciones faltan. Esto me impide ver realmente qué variables identificaste, qué ejercicios completaste y cómo estás procesando el aprendizaje.\n\nTu desempeño en esta semana indica que necesitas apoyo más estructurado. Los conceptos de Fase 2 (identificación y clasificación de variables) son fundamentales para el pensamiento crítico, y es normal que al principio cueste trabajo. Lo importante es que no te rindas.\n\nPara la próxima semana, te pido que: (1) Completes todas las preguntas del reporte con respuestas detalladas, (2) Hagas una lista explícita de variables para cada tema trabajado, y (3) Propongas estrategias concretas para superar la dificultad con los modelos de valencia. Podemos trabajar juntos en esto.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que \"no termino de entender por completo el tema,\" lo que muestra autoconciencia sobre tus limitaciones. Esto es el primer paso para mejorar.\n• Identificación de dificultades específicas: Mencionas concretamente que \"los distintos modelos en los pares de valencia\" te resultan difíciles, en lugar de generalizar. Esto permite trabajar de forma más enfocada.\n• Intención de conexión: Intentas relacionar el tema actual con química de principio de año, mostrando que buscas integrar conocimientos previos, aunque la conexión necesita ser más explícita.",
+      "improvements": "• Amplía la identificación de variables en Uniones Químicas: Necesitas listar variables específicas como: número de electrones de valencia (conocida), tipo de enlace (desconocida inicialmente), electronegatividad (controlable en comparación), energía de enlace (no controlable). Haz una lista concreta de al menos 5-6 variables por tema.\n• Desarrolla estrategias concretas para los modelos de valencia: En lugar de solo mencionar la dificultad, propón acciones: \"Voy a comparar lado a lado el modelo de Lewis vs. VSEPR para la misma molécula\" o \"Haré una tabla con las características de cada modelo.\" Esto te ayudará a diferenciarlos sistemáticamente.\n• Completa todas las secciones del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre: ¿Qué aprendiste esta semana? ¿Cómo evolucionó tu comprensión desde la Fase 1? ¿Qué te sorprendió? Estas reflexiones son clave para el pensamiento crítico.",
+      "createdAt": "2025-11-17T13:41:26.064Z"
+    },
+    {
+      "feedbackId": "f6d6602b-f5f5-433c-b7a5-854b247839f0",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que has trabajado en uniones químicas esta semana, y reconozco tu honestidad al mencionar las dificultades que enfrentaste en el examen. Sin embargo, tu reporte es muy breve y no muestra suficientemente cómo estás aplicando lo aprendido en Fase 2 sobre identificación de variables.\n\nTu desempeño esta semana requiere más profundidad. Las respuestas cortas no permiten que demuestres realmente qué variables identificaste, cómo las clasificaste, o cómo las conectas con fenómenos químicos reales. Esto es fundamental para avanzar en pensamiento crítico.\n\nPara la próxima semana, te pido que dediques más tiempo a cada pregunta. Sé específico con ejemplos, describe tus estrategias paso a paso, y completa todas las secciones. Esto no solo mejorará tu reporte, sino que consolidará tu comprensión del tema.",
+      "strengths": "• Reconoces tus dificultades: Mencionas que \"el examen se me dificultó un poco\", lo que muestra honestidad sobre tu desempeño. Esto es el primer paso para mejorar.\n• Identificas un área de trabajo: Señalas que \"graficar\" es tu principal dificultad, lo que demuestra que tienes conciencia de dónde necesitas apoyo específico.\n• Conectas con aprendizajes previos: Tu comentario sobre química de principio de año muestra que intentas relacionar conceptos, aunque necesita más desarrollo.",
+      "improvements": "• Amplía y especifica tus respuestas: Actualmente son muy cortas (1-2 líneas). Para Q1, describe qué variables identificaste en uniones químicas (ej: número de electrones de valencia, tipo de enlace, energía de enlace). Esto demuestra realmente qué aprendiste.\n• Desarrolla estrategias concretas para graficar: No basta decir \"graficar es difícil\". Propón soluciones: \"Practicaré primero contando electrones de valencia antes de dibujar\", o \"Usaré la regla del octeto como guía\". Las estrategias específicas son más útiles que las generales.\n• Completa todas las secciones del reporte: Q5 está vacía. Usa ese espacio para reflexionar: ¿Por qué es importante identificar variables en uniones químicas? ¿Cómo ha mejorado tu comprensión desde la Fase 1? Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:56:03.916Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "studentId": "u_d84azjl1cme6a7v75",
+    "studentName": "Rocco Ruiz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.230801",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 47.5,
+      "minScore": 30,
+      "maxScore": 72,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-08-04_ae1ffe44",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Rocco, esta semana te enfocaste en comprender los fundamentos del pensamiento crítico y su aplicación a sistemas químicos. Es positivo que reconozcas la importancia de esta metodología, aunque mencionas que no la aplicas activamente al resolver ejercicios. La conexión que estableces con matemática y situaciones problemáticas es correcta, pero necesitas dar el paso de implementar conscientemente los 5 pasos en tu trabajo práctico.",
+      "strengths": [
+        "Comprendes conceptualmente los 5 pasos del pensamiento crítico",
+        "Identificas la relación entre esta metodología y la resolución de problemas matemáticos",
+        "Eres honesto sobre tu nivel actual de aplicación práctica"
+      ],
+      "improvements": [
+        "Comenzar a aplicar los 5 pasos de manera explícita al enfrentar ejercicios del cuadernillo práctico",
+        "Practicar con al menos 2-3 ejercicios completos siguiendo la metodología paso a paso",
+        "Documentar tu proceso de pensamiento mientras resuelves para internalizar el método"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-08-18_d2d1e2e6",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Rocco, esta semana trabajaste con conceptos de reversibilidad y comenzaste los ejercicios de Fase 3. Tu resolución del ejercicio de Kc para la reacción de metanol muestra que comprendes cómo escribir la expresión correctamente. Reconoces tu confusión inicial con los exponentes y tu capacidad de autocorregirte es una fortaleza importante. Te ubicas en nivel 3, lo cual es realista dado que hiciste 2 ejercicios y puedes explicar el tema.",
+      "strengths": [
+        "Identifica y corrige errores en los coeficientes estequiométricos de manera autónoma",
+        "Comprende la estructura de la expresión de Kc con productos y reactivos",
+        "Establece conexiones entre Kc y conceptos matemáticos (potencias, fracciones)"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión del equilibrio dinámico más allá de su aspecto matemático",
+        "Practicar con más ejercicios para consolidar la aplicación de fórmulas de Kc",
+        "Desarrollar estrategias para evitar confusiones iniciales con exponentes"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-08-25_4b8bba3d",
+      "weekStart": "2025-08-25",
+      "score": 58,
+      "generalComments": "Rocco, esta semana tuviste poco tiempo efectivo de trabajo (40 minutos) debido a ausencia por enfermedad. Leíste el cuadernillo de Fase 4 pero no pudiste hacer ejercicios prácticos. Tu dificultad para entender las diferencias entre cuadernillos de distintas fases es un punto importante que debes resolver consultando al profesor o revisando las introducciones de cada fase.",
+      "strengths": [
+        "Utilizaste el tiempo disponible para leer material teórico",
+        "Identificas honestamente las áreas de confusión (diferencias entre fases)",
+        "Estableces conexiones con aprendizajes de primer año (estudio dirigido)"
+      ],
+      "improvements": [
+        "Consultar con el profesor las diferencias específicas entre las 4 fases metodológicas",
+        "Recuperar el tiempo perdido haciendo los ejercicios prácticos de Fase 4",
+        "Crear un esquema visual que diferencie claramente qué se trabaja en cada fase"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-09-08_c02fa10b",
+      "weekStart": "2025-09-08",
+      "score": 32,
+      "generalComments": "Rocco, esta semana faltaste a ambas clases por enfermedad. Es importante que cuando regreses te pongas al día con el material trabajado. Consulta con compañeros o con el profesor sobre los temas tratados y los ejercicios asignados para recuperar lo perdido.",
+      "strengths": [
+        "Comunicaste la razón de tu ausencia de manera clara"
+      ],
+      "improvements": [
+        "Recuperar el material trabajado en las clases que perdiste",
+        "Consultar apuntes de compañeros o recursos del profesor",
+        "Solicitar orientación sobre cómo ponerte al día eficientemente"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-09-15_663ab282",
+      "weekStart": "2025-09-15",
+      "score": 30,
+      "generalComments": "Rocco, esta tercera semana consecutiva sin actividad académica (lunes sin trabajo, martes ausente) está generando un rezago acumulativo importante. Es fundamental que tomes acción proactiva para ponerte al día. El equilibrio químico es un tema donde cada concepto se construye sobre el anterior, y tres semanas de atraso pueden hacer que el siguiente tema sea muy difícil de abordar.",
+      "strengths": [
+        "Informaste sobre la situación de las clases"
+      ],
+      "improvements": [
+        "Tomar la iniciativa para recuperar tres semanas de contenido perdido",
+        "Organizar sesiones de estudio con compañeros o solicitar tutoría",
+        "Establecer un plan de recuperación concreto con fechas específicas"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6a7v75_2025-09-22_6d402108",
+      "weekStart": "2025-09-22",
+      "score": 31,
+      "generalComments": "Rocco, cuarta semana consecutiva sin producción académica (profesor ausente). Esta situación prolongada está afectando seriamente tu progreso en equilibrio químico. Es momento de tomar control personal de tu aprendizaje y no depender exclusivamente de la presencia del docente para avanzar.",
+      "strengths": [
+        "Registraste la situación de ausencia del profesor"
+      ],
+      "improvements": [
+        "Desarrollar autonomía de estudio y no depender solo de clases presenciales",
+        "Utilizar las 4 semanas acumuladas como oportunidad para estudio intensivo autoguiado",
+        "Buscar recursos alternativos (videos, tutoriales, ejercicios online) para aprender equilibrio químico"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    }
+  ]
+}

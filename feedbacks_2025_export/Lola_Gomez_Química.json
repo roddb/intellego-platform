@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "studentId": "u_6iq1odbgqme4vdatd",
+    "studentName": "Lola Gomez",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.212683",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 57.29,
+      "minScore": 27,
+      "maxScore": 69,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-29T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me4vdatd_2025-08-04_bae8ed36",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Lola, esta semana has estado ausente por lo que no se puede evaluar tu progreso en la Fase 1 del pensamiento crítico en equilibrio químico. Es importante que al reincorporarte, trabajes en la identificación y comprensión del problema central: entender qué significa el equilibrio químico y por qué es importante distinguir las reacciones reversibles de las irreversibles. Te recomiendo ponerte al día con los apuntes y consultar dudas antes de avanzar a ejercicios prácticos.",
+      "strengths": [
+        "Completaste el reporte semanal informando tu situación de ausencia de manera clara"
+      ],
+      "improvements": [
+        "Necesitas ponerte al día con la teoría de equilibrio químico y los fundamentos del pensamiento crítico aplicados a esta unidad",
+        "Al reincorporarte, enfócate en identificar el problema principal en situaciones de equilibrio químico",
+        "Trabaja en distinguir información relevante de irrelevante en problemas químicos"
+      ],
+      "createdAt": "2025-10-03T19:50:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4vdatd_2025-08-11_f8d57314",
+      "weekStart": "2025-08-11",
+      "score": 61,
+      "generalComments": "Lola, tu trabajo en la Fase 2 muestra un progreso significativo en la identificación de variables químicas, aunque aún necesitas apoyo sistemático. Reconoces variables explícitas en los enunciados (como concentración de vinagre, acetato de sodio y temperatura), lo cual es un buen punto de partida. Tu conexión con el yogur casero demuestra capacidad de transferir conceptos a la vida real, una habilidad valiosa. Sin embargo, las dificultades mencionadas con variables 'desconocidas pero determinables experimentalmente' indican que necesitas profundizar en la clasificación metodológica.",
+      "strengths": [
+        "Identificas variables explícitas mencionadas en enunciados de manera correcta (concentración, temperatura)",
+        "Realizas conexiones significativas con tu vida diaria (yogur casero como ejemplo de equilibrio químico)",
+        "Muestras reflexión honesta sobre tus dificultades y las estrategias que usas (releer ejemplos, consultar compañeros)"
+      ],
+      "improvements": [
+        "Trabaja en reconocer problemas cuando no están expresados de forma literal - practica reformular enunciados con tus propias palabras",
+        "Profundiza en la clasificación de variables: controlables/no controlables, conocidas/desconocidas - usa tablas para organizarlas",
+        "Desarrolla mayor seguridad en la resolución individual de ejercicios, usando los ejemplos de clase como referencia inicial"
+      ],
+      "createdAt": "2025-10-03T19:50:01Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4vdatd_2025-08-25_8b0d3e0c",
+      "weekStart": "2025-08-25",
+      "score": 69,
+      "generalComments": "Lola, tu trabajo en Fase 4 muestra un desarrollo intermedio en la integración del pensamiento crítico completo. Has logrado aplicar las 4 fases de manera organizada (evidenciado en tu resolución del ejercicio de NOBr), aunque todavía enfrentas dificultades para discernir cuándo usar herramientas cuantitativas (Qc) versus análisis cualitativo (Le Chatelier). Tu estrategia de organizar la información 'como una receta' es muy efectiva y demuestra autorregulación. Las conexiones con homeostasis y saturación de sal muestran pensamiento crítico aplicado a contextos diversos.",
+      "strengths": [
+        "Resolviste correctamente el cálculo de Qc y la comparación con Kc, identificando el desplazamiento hacia reactivos",
+        "Implementaste una estrategia metacognitiva efectiva (organizarlo como una receta) que te ayuda a estructurar el proceso",
+        "Realizas conexiones interdisciplinarias ricas (biología-homeostasis, física-gases, ejemplos cotidianos como la sal)"
+      ],
+      "improvements": [
+        "Desarrolla criterios claros para decidir cuándo aplicar Le Chatelier cualitativamente y cuándo requieres cálculos de Qc",
+        "Practica más ejercicios con tablas ICE para ganar fluidez en el planteo - actualmente te enredas al formularlas",
+        "Refuerza el manejo de exponentes en las expresiones de Kc para evitar confusiones en los cálculos"
+      ],
+      "createdAt": "2025-10-03T19:50:02Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4vdatd_2025-09-15_6f427046",
+      "weekStart": "2025-09-15",
+      "score": 64,
+      "generalComments": "Lola, tu trabajo esta semana muestra un esfuerzo significativo por repasar contenidos en condiciones adversas (sin acceso a la presentación en Classroom). Tu nivel de dominio es consistentemente Nivel 2 en los tres temas principales (tipos de reacciones, equilibrio dinámico, constantes de equilibrio), lo que indica progreso parcial pero necesidad de mayor seguridad. La frustración que expresas por no tener el material digital es comprensible, y demuestra que valoras tener múltiples recursos para consolidar el aprendizaje. Tu capacidad para conectar con matemática y física indica comprensión conceptual de las relaciones subyacentes.",
+      "strengths": [
+        "Comprendes el concepto fundamental de equilibrio dinámico (la reacción ocurre en ambos sentidos simultáneamente)",
+        "Identificas correctamente las conexiones interdisciplinarias con Matemática (potencias) y Física (gases, relación Kc-Kp)",
+        "Muestras honestidad al reconocer las áreas donde necesitas refuerzo, especialmente en constantes de equilibrio"
+      ],
+      "improvements": [
+        "Desarrolla mayor seguridad en la identificación del tipo de reacción - practica con ejemplos variados hasta automatizar el reconocimiento",
+        "Refuerza el procedimiento paso a paso para calcular y comparar Qc con Kc - memoriza la secuencia del ejemplo teórico",
+        "Trabaja en la aplicación práctica del concepto de equilibrio dinámico en ejercicios concretos"
+      ],
+      "createdAt": "2025-10-03T19:50:03Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4vdatd_2025-09-22_2b5940e2",
+      "weekStart": "2025-09-22",
+      "score": 62,
+      "generalComments": "Lola, esta semana no pudiste aprovechar plenamente el tiempo de clase debido a la ausencia del profesor y la falta de material disponible en Classroom. Sin embargo, tu reporte muestra que tienes una comprensión general de los conceptos, aunque con inseguridades específicas en las constantes de equilibrio. Tu nivel Nivel 2 es consistente con reportes anteriores, lo que indica que necesitas un apoyo más sistemático para avanzar. La frustración que expresas por no contar con la presentación resalta la importancia de desarrollar autonomía en el estudio, especialmente ante imprevistos.",
+      "strengths": [
+        "Identificas correctamente las conexiones interdisciplinarias (Matemática con cuentas y potencias, Física con Kc-Kp y gases)",
+        "Reconoces con claridad cuál es el tema que más te cuesta (constantes de equilibrio) y qué necesitabas para practicarlo",
+        "Comprendes que el equilibrio dinámico no implica detención de la reacción sino simultaneidad bidireccional"
+      ],
+      "improvements": [
+        "Desarrolla estrategias de estudio independientes para cuando no tengas acceso a material digital - usa tus apuntes para reconstruir ejemplos",
+        "Practica el cálculo paso a paso de Qc y su comparación con Kc usando ejercicios del cuadernillo, sin esperar ejemplos teóricos",
+        "Refuerza la identificación de tipos de reacciones mediante práctica autónoma con ejemplos variados"
+      ],
+      "createdAt": "2025-10-03T19:50:04Z"
+    },
+    {
+      "feedbackId": "891ffe2b-fc18-45cc-ab10-425d1d2a310b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:43.685Z"
+    },
+    {
+      "feedbackId": "9a5fb2e1-c97d-45f5-a0b9-3a91c5789d00",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:13:35.913Z"
+    }
+  ]
+}

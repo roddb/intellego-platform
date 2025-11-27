@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "studentId": "u_tid7bop2gme6i2g6e",
+    "studentName": "Matilde Pasarin de la Torre",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.223552",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 47.71,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_matilde_week1_268CF682B5A2E953",
+      "weekStart": "2025-08-04",
+      "score": 35,
+      "generalComments": "Matilde, comprendo que esta fue una semana introductoria donde se familiarizaron con la plataforma. Aunque no hubo contenido nuevo de física, es importante aprovechar estos momentos para reflexionar sobre tu proceso de aprendizaje.",
+      "strengths": [
+        "Participación activa en la familiarización con la plataforma",
+        "Comunicación clara sobre las actividades realizadas",
+        "Disposición para adaptarse a nuevas herramientas"
+      ],
+      "improvements": [
+        "Profundizar en la reflexión sobre aprendizajes previos",
+        "Aprovechar espacios para repasar conceptos anteriores",
+        "Conectar el uso de la plataforma con objetivos de aprendizaje"
+      ],
+      "createdAt": "2025-01-10 18:55:00"
+    },
+    {
+      "feedbackId": "fb_matilde_week2_6154D7286749D6EA",
+      "weekStart": "2025-08-11",
+      "score": 55,
+      "generalComments": "Matilde, veo un progreso significativo al aplicar el pensamiento crítico al análisis de problemas cotidianos. Tu trabajo con el ejercicio de Ana muestra comprensión de la metodología, aunque hay espacio para mejorar la formalización.",
+      "strengths": [
+        "Aplicación correcta del pensamiento crítico en contextos prácticos",
+        "Identificación clara de variables y objetivos del problema",
+        "Conexión establecida entre física y matemática (funciones)"
+      ],
+      "improvements": [
+        "Mejorar la expresión formal de conceptos científicos",
+        "Profundizar en la comprensión teórica básica",
+        "Desarrollar mayor confianza en el vocabulario técnico"
+      ],
+      "createdAt": "2025-01-10 18:56:00"
+    },
+    {
+      "feedbackId": "fb_matilde_week3_896FCB527B3C05C3",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Matilde, excelente trabajo aplicando la metodología al problema de tiro oblicuo en básquetbol. Tu análisis de variables geométricas es detallado y preciso. La conexión con matemática muestra pensamiento integrador.",
+      "strengths": [
+        "Identificación precisa de variables geométricas en el contexto deportivo",
+        "Aplicación correcta de las fases metodológicas",
+        "Conexión clara entre física y matemática (funciones cuadráticas)"
+      ],
+      "improvements": [
+        "Practicar más el uso de símbolos griegos (α, Δ) en gráficos",
+        "Mejorar la construcción de gráficos con nuevas notaciones",
+        "Consolidar la aplicación práctica de la teoría"
+      ],
+      "createdAt": "2025-01-10 18:57:00"
+    },
+    {
+      "feedbackId": "fb_matilde_week4_E2C992774919CAEB",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Matilde, excelente resolución del problema de tiro oblicuo. Tu desarrollo matemático es correcto y ordenado. El uso del método resolvente muestra dominio algebraico. Continúa practicando las ecuaciones para la prueba.",
+      "strengths": [
+        "Resolución completa y correcta del problema con resolvente",
+        "Identificación precisa de variables y condiciones iniciales",
+        "Comprensión sólida de la teoría (nivel 3 autoevaluado)",
+        "Presentación ordenada del desarrollo matemático"
+      ],
+      "improvements": [
+        "Memorización de ecuaciones clave para mayor fluidez",
+        "Práctica adicional para automatizar la selección de ecuaciones",
+        "Mayor confianza en la aplicación de fórmulas"
+      ],
+      "createdAt": "2025-01-10 18:58:00"
+    },
+    {
+      "feedbackId": "fb_matilde_week5_39915B836106B0FA",
+      "weekStart": "2025-09-01",
+      "score": 80,
+      "generalComments": "Matilde, felicitaciones por tu excelente trabajo en el modelo de examen. Resolviste correctamente el problema del cañón, mostrando dominio del tiro oblicuo. Tu autoevaluación sobre la confusión inicial con seno/coseno y posterior corrección demuestra metacognición.",
+      "strengths": [
+        "Resolución completa y correcta del problema del cañón",
+        "Aplicación exitosa de las fases metodológicas (F1, F2, F3)",
+        "Autocorrección efectiva de errores con seno y coseno",
+        "Cálculo preciso de tiempo y distancia de caída"
+      ],
+      "improvements": [
+        "Integrar mejor los temas anteriores con los nuevos",
+        "Desarrollar estrategias para manejar la complejidad de ecuaciones múltiples",
+        "Buscar más conexiones con aplicaciones prácticas"
+      ],
+      "createdAt": "2025-01-10 18:59:00"
+    },
+    {
+      "feedbackId": "fb_002_1_gme6i2g6e_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Matilde Pasarin de la Torre,\n\nDurante esta semana observo que no tuviste clases regulares por realizar una evaluación. Tu comprensión de la Fase 1: Identificación y comprensión del problema está en etapa inicial, siendo fundamental establecer bases sólidas antes de avanzar en Física.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje específicos de cada clase. Te recomiendo proporcionar evidencias más concretas y específicas de tu proceso de aprendizaje en los reportes semanales, practicando la distinción entre información relevante e irrelevante en los problemas que trabajamos.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos en Física. Estoy aquí para acompañarte en este proceso.",
+      "strengths": [
+        "Completaste el reporte semanal mostrando disposición para participar en las actividades de evaluación",
+        "Reconoces la importancia de las evaluaciones como parte del proceso de aprendizaje",
+        "Tu predisposición a responder es el primer paso para desarrollar reflexión metacognitiva"
+      ],
+      "improvements": [
+        "Es fundamental proporcionar evidencias más concretas de tu proceso de aprendizaje cuando completes los reportes semanales",
+        "Necesitas profundizar en la identificación del problema central y los objetivos específicos de cada clase",
+        "Trabaja en distinguir entre información relevante e irrelevante en los problemas de Física",
+        "Desarrolla el hábito de reflexionar sobre las dificultades concretas que enfrentas y estrategias para superarlas"
+      ],
+      "createdAt": "2025-10-17T03:25:19.400176"
+    },
+    {
+      "feedbackId": "fef1fb6a-fd6e-4763-ba94-7175fcb22f1f",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:43:57.277Z"
+    },
+    {
+      "feedbackId": "dce4f426-e9f3-4cce-92d7-69abc85e0152",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:34.168Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me6i2g6e_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 59,
+      "generalComments": "Querida Matilde Pasarin de la Torre, estás trabajando en la Fase 1: Identificación y comprensión del problema con un desempeño en desarrollo, evidenciando comprensión inicial de las Leyes de Newton aplicadas al pensamiento crítico. Reconoces con precisión tu nivel de dominio en las fórmulas y cuándo aplicarlas. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar dificultades en la comprensión de enunciados. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase, especialmente en conceptos fundamentales como la diferencia entre masa y fuerza. Busca aplicaciones prácticas de las Leyes de Newton en situaciones cotidianas para fortalecer tu comprensión. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces con precisión tu nivel de dominio en las fórmulas y cuándo aplicarlas",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar dificultades en la comprensión de enunciados",
+        "Identificas con honestidad las áreas que requieren mayor trabajo"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase, especialmente en conceptos fundamentales como la diferencia entre masa y fuerza",
+        "Busca aplicaciones prácticas de las Leyes de Newton en situaciones cotidianas para fortalecer tu comprensión",
+        "Trabaja en expresar conexiones entre Física y otras áreas del conocimiento o la vida diaria"
+      ],
+      "createdAt": "2025-10-07 23:24:21"
+    },
+    {
+      "feedbackId": "addf7b51-f904-4704-86cb-42514db53763",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:54.245Z"
+    },
+    {
+      "feedbackId": "f06af278-4149-4e3b-98b9-f282fcb5c975",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:11:21.553Z"
+    },
+    {
+      "feedbackId": "5ac805ba-ad63-43a0-a397-61cb5aa4713f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:54:22.339Z"
+    },
+    {
+      "feedbackId": "be2f00ac-5413-4402-85f1-f526912bf2da",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:42:38.336Z"
+    },
+    {
+      "feedbackId": "374bc686-9b56-4e20-8209-89c5c6e17146",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Hiciste un buen trabajo aplicando el método de DCL esta semana. Tu resolución del problema fue correcta: organizaste bien el sistema de coordenadas, posicionaste las fuerzas adecuadamente y calculaste el peso sin errores. Eso demuestra que comprendiste la técnica práctica.\n\nSin embargo, tu reporte muestra que aún no estás reflexionando profundamente sobre el proceso. Fase 2 no se trata solo de hacer diagramas correctos, sino de identificar y clasificar variables de forma sistemática. Notamos que en Q3, Q4 y Q5 tuviste respuestas muy breves o vacías, lo que sugiere que necesitas dedicar más tiempo a la metacognición (pensar sobre tu propio aprendizaje).\n\nPara la próxima semana, te pedimos que: (1) clasifiques explícitamente las variables en cada problema, (2) reflexiones sobre qué te cuesta y cómo lo resuelves, y (3) busques conexiones con fenómenos reales. Esto te preparará mejor para Fase 3, donde necesitarás analizar relaciones entre variables.",
+      "strengths": "• Aplicación correcta del método de DCL: Organizaste claramente el sistema de coordenadas (X-Y), posicionaste las fuerzas en direcciones correctas y aplicaste la fórmula p=m·g sin errores. Esto muestra que comprendiste el procedimiento práctico.\n• Cálculo preciso del peso: Identificaste correctamente que peso y fuerza normal son iguales en magnitud (200N) y opuestos en dirección, demostrando comprensión de equilibrio vertical.\n• Disposición a aprender nuevas variantes: Mencionas que entendiste las \"nuevas variantes\" de DCL (normal e inclinado), lo que indica apertura al aprendizaje y seguimiento de las explicaciones del profesor.",
+      "improvements": "• Clasificación explícita de variables: En tu resolución del problema, identifica cuáles son variables conocidas (100N, 5N, 20kg), desconocidas (aceleración, si la hay) y controlables (la fuerza aplicada). Esto es el corazón de Fase 2. Crea una tabla simple: \"Conocidas | Desconocidas | Controlables\" para cada problema.\n• Reflexión profunda sobre dificultades: No digas solo \"no me resultó difícil\". Pregúntate: ¿Qué me costó? ¿Cómo lo resolví? ¿Qué estrategia usé? Por ejemplo: \"Me costó entender por qué la fuerza normal es igual al peso, pero lo resolví dibujando el equilibrio de fuerzas en Y.\"\n• Conexión con fenómenos reales: Piensa en situaciones cotidianas donde aplicas DCL: un libro sobre una mesa, un auto acelerando, una caja siendo arrastrada. Para la próxima semana, trae un ejemplo concreto de dónde ves estas fuerzas en tu vida diaria.",
+      "createdAt": "2025-10-27T05:01:51.754Z"
+    },
+    {
+      "feedbackId": "4ce5ad28-1816-49f2-8267-b975227e199e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que tienes dominio en los cálculos matemáticos de Dinámica. Tu resolución del problema del motor es correcta y bien presentada, lo que indica que comprendes cómo aplicar las fórmulas. Eso es un buen punto de partida.\n\nSin embargo, tu reporte muestra falta de profundidad en la reflexión crítica. Las respuestas muy breves (especialmente en Q3, Q4 y Q5) sugieren que no dedicaste tiempo suficiente a analizar qué aprendiste realmente ni a conectar los conceptos con situaciones reales. En Fase 2, lo importante no es solo resolver ejercicios, sino entender qué variables intervienen y por qué.\n\nPara la próxima semana: Dedica tiempo a escribir respuestas más completas. Cuando identifiques una dificultad, describe exactamente qué te costó y propón una solución. Cuando resuelvas un problema, pregúntate: \"¿Dónde más puedo aplicar esto?\" Esto transformará tu aprendizaje de mecánico a crítico.",
+      "strengths": "• Cálculos precisos en cinemática: Realizas correctamente la conversión de unidades (km/h a m/s) y aplicas la fórmula Vf = Vi + a·t sin errores aritméticos, demostrando dominio operativo de las ecuaciones.\n• Aplicación correcta de la Segunda Ley de Newton: Utilizas F = m·a apropiadamente para resolver el problema del motor, obteniendo 1653 N como resultado correcto, lo que muestra comprensión del concepto fundamental.\n• Estructura clara en la resolución: Presentas tu trabajo de forma ordenada, indicando cada paso (conversión → aceleración → fuerza), lo que facilita seguir tu razonamiento.",
+      "improvements": "• Identificación explícita de variables: En Q1 y Q2, debes nombrar claramente qué variables trabajaste. Por ejemplo: \"Variables conocidas: masa (950 kg), velocidades inicial y final. Variables desconocidas: aceleración, fuerza. Variables controlables: tiempo de aceleración.\" Esto es fundamental en Fase 2.\n• Reflexión sobre dificultades específicas: En Q3, en lugar de \"me costó hacer DCL\", analiza: ¿Qué fuerzas olvidaste identificar? ¿Cómo distinguiste entre fuerzas aplicadas y de reacción? Luego propón una estrategia concreta, como \"Usaré una lista de verificación de fuerzas comunes (peso, normal, fricción, aplicada).\"\n• Conexiones con fenómenos reales: En Q4, conecta el problema del motor con situaciones cotidianas: \"Un auto que acelera rápidamente necesita mayor fuerza del motor. Si aumentamos la masa del auto, necesitamos más fuerza para la misma aceleración.\" Esto demuestra transferencia de conocimiento.",
+      "createdAt": "2025-11-03T12:23:22.815Z"
+    },
+    {
+      "feedbackId": "eb83bf4e-188e-44c7-a6bf-23e65d512efb",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana trabajaste en grupo, lo cual es positivo para el aprendizaje colaborativo. Sin embargo, tu reporte semanal está incompleto y no permite evaluar tu comprensión real de la Fase 2.\n\nPara que pueda ayudarte efectivamente, necesito que desarrolles cada respuesta con detalles concretos. El objetivo de estos reportes es que reflexiones sobre lo que aprendiste, no solo que menciones que hiciste una actividad.\n\nLa próxima semana, dedica tiempo a completar este reporte con respuestas claras y específicas. Describe qué variables trabajaste, cómo las clasificaste, qué dificultades tuviste y cómo las superaste. Esto es fundamental para tu progreso en pensamiento crítico.",
+      "strengths": "Lamentablemente, tu reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu pensamiento crítico. Para poder reconocer tus logros, necesito que desarrolles cada pregunta con detalle.",
+      "improvements": "• Responde completamente cada pregunta: Tu reporte está prácticamente vacío. Necesitas escribir respuestas desarrolladas para Q1-Q5. Por ejemplo, en Q1 deberías listar: \"Variables conocidas: masa, velocidad inicial... Variables desconocidas: aceleración... Variables controlables: ángulo de lanzamiento...\"\n• Especifica qué aprendiste en el trabajo grupal: En lugar de solo mencionar que hicieron \"trabajo de grupos\", explica qué problema resolvieron, qué variables identificaron y cómo las clasificaron. Esto es evidencia real de tu aprendizaje.\n• Reflexiona sobre tu proceso: En Q3 y Q5, debes escribir sobre tus dificultades reales (¿confundes variables controlables con no controlables? ¿Te cuesta distinguir magnitudes?) y cómo las enfrentas. Esto muestra madurez en tu pensamiento.",
+      "createdAt": "2025-11-12T23:00:39.647Z"
+    },
+    {
+      "feedbackId": "66d56fa2-6b8d-4018-bc4e-06baf1efaa3d",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana trabajaste en un proyecto grupal, pero tu reporte no refleja el aprendizaje que debería haber ocurrido. El reporte semanal es tu oportunidad para demostrar qué comprendiste sobre identificación de variables, clasificación de magnitudes y relaciones entre ellas—conceptos clave de la Fase 2.\n\nTu desempeño esta semana es insuficiente porque no proporcionas información específica sobre lo que aprendiste. Responder lo mismo a todas las preguntas no permite que ni tú ni yo podamos evaluar tu progreso real en pensamiento crítico.\n\nPara la próxima semana, te pido que: (1) leas cada pregunta con atención, (2) escribas respuestas diferentes y detalladas para cada una, (3) incluyas ejemplos concretos del trabajo práctico (variables específicas, cómo las clasificaste, dificultades reales). Esto hará una gran diferencia en tu evaluación.",
+      "strengths": "• Participación en trabajo grupal: Mencionas que trabajaste en equipo, lo que indica que asististe a clase y participaste en la actividad propuesta. Esto es un buen punto de partida.",
+      "improvements": "• Respuestas incompletas y repetidas: Escribiste la misma frase en las primeras 4 preguntas. Necesitas leer cada pregunta cuidadosamente y responder específicamente qué se pide. Dedica tiempo a entender qué busca cada pregunta antes de escribir.\n• Falta de detalle y análisis: No describes qué variables identificaste en el trabajo práctico (velocidad, masa, tiempo, temperatura, etc.). Para la próxima semana, haz una lista concreta de al menos 5 variables que hayas trabajado y clasifícalas en una tabla: conocidas/desconocidas y controlables/no controlables.\n• Ausencia de reflexión personal: No hay evidencia de que hayas pensado en lo que aprendiste, qué te costó o cómo lo harías mejor. Antes de enviar el reporte, pregúntate: ¿Qué fue lo más difícil? ¿Cómo lo resolví? ¿Qué haría diferente? Escribe al menos 2-3 líneas por pregunta.",
+      "createdAt": "2025-11-17T13:58:21.828Z"
+    }
+  ]
+}

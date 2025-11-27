@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "studentId": "80edef75-bd51-499a-90c9-3a3c7caa68a6",
+    "studentName": "Matias",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.223286",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 60.0,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-08-11_afec4fe9",
+      "weekStart": "2025-08-11",
+      "score": 80,
+      "generalComments": "Excelente trabajo en Fase 2. Demuestra dominio medio-alto en identificación de variables químicas y clasificación en la matriz de controlabilidad. La capacidad de distinguir entre concentraciones iniciales y de equilibrio es destacada. El análisis sistemático mediante pasos A, B y C muestra metodología sólida.",
+      "strengths": [
+        "Identificación precisa de variables químicas en contextos concretos",
+        "Comprensión de la matriz 2×2 (controlables/no controlables, conocidas/desconocidas)",
+        "Aplicación del análisis sistemático completo (pasos A, B, C)",
+        "Uso efectivo de ejemplo del ácido acético para demostrar clasificación de variables"
+      ],
+      "improvements": [
+        "Profundizar la práctica en casos límite de clasificación de variables",
+        "Desarrollar mayor confianza en la aplicación autónoma sin consulta",
+        "Ampliar la integración de variables termodinámicas y de presión/volumen en sistemas complejos"
+      ],
+      "createdAt": "2025-10-05T05:05:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-08-18_e71d58f1",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Buen trabajo en Fase 3. Demuestra comprensión del criterio de comparación QC-KC para predecir dirección de reacciones. El análisis del problema de fermentación muestra aplicación correcta de herramientas conceptuales sin necesidad de cálculos extensos, lo cual es apropiado para esta fase.",
+      "strengths": [
+        "Identificación clara de reactivos y productos en reacciones de fermentación",
+        "Comprensión correcta del criterio QC vs KC para predecir evolución del sistema",
+        "Reconocimiento de que algunos problemas requieren análisis conceptual más que cálculos",
+        "Conexiones efectivas con Matemática y Física (exponentes, proporciones, leyes de gases)"
+      ],
+      "improvements": [
+        "Fortalecer la identificación rápida del tipo de reacción sin necesidad de relecturas",
+        "Practicar la organización de datos numéricos antes de reemplazar en fórmulas",
+        "Desarrollar mayor claridad sobre qué valores corresponden a moles, concentraciones o coeficientes"
+      ],
+      "createdAt": "2025-10-05T05:07:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-08-25_2deeb142",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Trabajo de repaso durante período de exámenes. Demuestra comprensión de tipos de reacciones y simbología, aunque requiere mayor atención al detalle. La dificultad principal identificada (uso de QC y KC) es apropiada para seguir trabajando en Fase 3.",
+      "strengths": [
+        "Claridad en identificación de reactivos y productos mediante simbología",
+        "Comprensión del concepto de equilibrio dinámico",
+        "Reconocimiento de conexiones con Física y Matemática (exponentes, ecuaciones)",
+        "Uso apropiado del tiempo de repaso para consolidar conceptos"
+      ],
+      "improvements": [
+        "Desarrollar mayor precisión en identificar el momento exacto en que se alcanza el equilibrio",
+        "Practicar sistemáticamente qué valores usar en la fórmula de QC (concentraciones en un instante dado)",
+        "Reforzar la distinción entre concentraciones iniciales y concentraciones en equilibrio"
+      ],
+      "createdAt": "2025-10-05T05:09:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-09-08_0eb92092",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Trabajo de preparación con modelo de examen. El estudiante identifica áreas de mejora específicas: rapidez en identificación de reacciones y organización de datos en QC. Las dificultades reconocidas son apropiadas para esta etapa y muestran autocrítica constructiva.",
+      "strengths": [
+        "Comprensión correcta de simbología de reactivos y productos",
+        "Reconocimiento de la necesidad de mejorar velocidad de procesamiento",
+        "Identificación específica de dificultades (numerador vs denominador en QC)",
+        "Conexiones claras con contenidos de Matemática y Física"
+      ],
+      "improvements": [
+        "Practicar ejercicios cronometrados para mejorar rapidez sin perder precisión",
+        "Desarrollar una estrategia sistemática para organizar datos en fórmulas (ej: siempre productos arriba, reactivos abajo)",
+        "Fortalecer confianza mediante repetición de problemas similares"
+      ],
+      "createdAt": "2025-10-05T05:11:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-09-15_10435eb8",
+      "weekStart": "2025-09-15",
+      "score": 70,
+      "generalComments": "Trabajo con presentación de repaso en clase. El estudiante reconoce facilidad para reconocer reacciones pero necesita mejorar rapidez. La falta de acceso a la presentación en Classroom limitó la práctica adicional, lo cual es un obstáculo válido.",
+      "strengths": [
+        "Reconocimiento fácil de reacciones una vez vistas",
+        "Comprensión del concepto mediante ejemplos claros de clase",
+        "Identificación de área de mejora concreta (velocidad)",
+        "Conexión con contenidos de otras materias (Matemática, Física)"
+      ],
+      "improvements": [
+        "Solicitar el material de presentación para práctica en casa",
+        "Desarrollar velocidad mediante ejercicios repetidos en tiempo limitado",
+        "Practicar organización de datos en fórmulas sin la presentación como apoyo",
+        "Fortalecer autonomía en el estudio"
+      ],
+      "createdAt": "2025-10-05T05:13:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_7caa68a6_2025-09-22_0ea40667",
+      "weekStart": "2025-09-22",
+      "score": 68,
+      "generalComments": "Semana sin actividad en clase ni acceso a materiales de apoyo. El estudiante identifica correctamente que la falta de la presentación oficial dificultó su preparación para el examen. A pesar de las limitaciones, reconoce conexiones con Matemática y Física.",
+      "strengths": [
+        "Reconocimiento realista de las limitaciones de estudio",
+        "Identificación de conexiones interdisciplinarias (Matemática, Física)",
+        "Conciencia de las áreas que generan mayor dificultad (QC y KC)",
+        "Uso de la carpeta como recurso alternativo"
+      ],
+      "improvements": [
+        "Desarrollar mayor proactividad para obtener materiales de estudio",
+        "Practicar con recursos alternativos cuando el material oficial no esté disponible",
+        "Fortalecer la preparación para exámenes con anticipación",
+        "Crear resúmenes propios como material de apoyo"
+      ],
+      "createdAt": "2025-10-05T05:15:00.000Z"
+    },
+    {
+      "feedbackId": "e3e47e71-0396-4611-a2ce-3bb2813842e3",
+      "weekStart": "2025-09-29",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:36.458Z"
+    },
+    {
+      "feedbackId": "892513f2-4031-4abe-9853-018540f8f7bd",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:23:54.388Z"
+    },
+    {
+      "feedbackId": "a6047317-0640-43e9-9650-9f409d18ea6c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:45:26.570Z"
+    },
+    {
+      "feedbackId": "c84d52f0-cea4-450b-b8e7-489db73311de",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:27:09.854Z"
+    },
+    {
+      "feedbackId": "2c45bc79-087f-4fd5-b25d-b7682b31b222",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que trabajaste en los temas de ácidos y bases esta semana y que lograste resolver problemas aplicando la constante de equilibrio del agua. Tu disposición a pedir ayuda cuando te trabaste con los logaritmos es una fortaleza importante que debes mantener.\n\nSin embargo, tu reporte muestra respuestas muy generales que no evidencian el nivel de detalle esperado en Fase 2. Necesitas ser más específico: listar variables concretas, clasificarlas claramente y explicar *cómo* las usaste en cada problema. Esto es fundamental para desarrollar el pensamiento crítico que buscamos.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas, especialmente Q5; (2) incluyas ejemplos concretos de variables en cada respuesta; (3) hagas una tabla o lista visual de cómo clasificas las variables en tus problemas. Esto te ayudará a consolidar lo aprendido.",
+      "strengths": "• Reconocimiento de dificultades reales: Identificas específicamente dónde te trabaste (cálculo de [OH⁻]) en lugar de generalizar, lo que muestra honestidad en tu autoevaluación.\n• Resolución colaborativa: Mencionas que \"repasamos juntos,\" demostrando que buscas ayuda cuando la necesitas y que aprendes del trabajo en equipo.\n• Conexión interdisciplinaria: Intentas vincular conceptos de Química con Física (cargas), mostrando que buscas ver el panorama general.",
+      "improvements": "• Falta de clasificación sistemática de variables: Tu respuesta en Q1 no distingue entre variables conocidas/desconocidas ni controlables/no controlables. Para mejorar: haz una tabla simple en tu próximo reporte listando cada variable del problema de ácidos-bases en estas categorías. Ejemplo: \"pH (conocida), [H⁺] (desconocida), temperatura (controlable).\"\n• Respuestas muy breves sin detalles: Tus respuestas son muy cortas y generales. Necesitas ampliar con ejemplos concretos. En Q2, en lugar de solo mencionar \"constante de equilibrio,\" describe qué variables usaste (Kw, [H⁺], [OH⁻]) y cómo las clasificaste.\n• Sección Q5 vacía: Perdiste la oportunidad de reflexionar. Para la próxima semana, dedica tiempo a escribir 3-4 líneas sobre: ¿Qué aprendiste sobre identificar variables? ¿Cómo cambió tu forma de ver los problemas? ¿Qué quieres mejorar?",
+      "createdAt": "2025-10-27T04:54:34.898Z"
+    },
+    {
+      "feedbackId": "e9164833-8377-4399-a05b-36addbcafaa9",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor fue una situación fuera de tu control, pero tu reporte refleja una oportunidad perdida para demostrar iniciativa y responsabilidad con tu aprendizaje. En el Colegio Santo Tomás de Aquino valoramos que los estudiantes continúen desarrollando pensamiento crítico incluso en circunstancias adversas.\n\nEsta semana no hay evidencia de trabajo realizado, lo que impide evaluar tu progreso en la identificación de variables y clasificación de magnitudes físicas. Tu desempeño en la Fase 2 depende de que participes activamente en las actividades propuestas.\n\nPara la próxima semana, te invito a que: (1) retomes los temas de la Fase 1 si aún tienes dudas, (2) prepares preguntas específicas sobre variables para cuando el profesor regrese, y (3) documentes cualquier trabajo autónomo que realices. Esto te posicionará mejor para avanzar en el pensamiento crítico.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La falta de contenido impide identificar aspectos positivos del trabajo realizado.",
+      "improvements": "• Falta de contenido en el reporte: Aunque haya ausencia de clase, debes documentar qué hiciste de forma autónoma. Revisa los materiales de la Fase 1, intenta resolver ejercicios sobre identificación de variables o consulta recursos en línea. Esto demuestra responsabilidad y continuidad en tu aprendizaje.\n• Ausencia de reflexión personal: Incluso sin clase, puedes reflexionar sobre lo aprendido en semanas anteriores. Pregúntate: ¿Qué variables identifiqué en experimentos pasados? ¿Cuáles fueron mis dificultades? Esto mantiene activo tu pensamiento crítico.\n• Falta de comunicación proactiva: Si el profesor no asistió, es importante que lo reportes formalmente a coordinación y busques alternativas (tutorías, materiales de estudio, compañeros). No dejes pasar la semana sin intentar avanzar en tu aprendizaje.",
+      "createdAt": "2025-11-03T12:19:17.458Z"
+    },
+    {
+      "feedbackId": "b1fdcedb-4100-4aae-a42f-27c88d60bef6",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no tuviste la oportunidad de asistir a clase, lo que ha impactado directamente en tu capacidad de completar este reporte. Sin embargo, es importante que entiendas que la Fase 2 es fundamental para desarrollar tu pensamiento crítico en Ciencias, especialmente en la identificación y clasificación de variables.\n\nTu desempeño esta semana no refleja tu potencial real, ya que no has tenido acceso a los contenidos necesarios. Esto es una situación que podemos resolver juntos con tu compromiso y asistencia regular.\n\nPara la próxima semana, te pido que hagas un esfuerzo especial por asistir a todas las clases y que, si hay algún obstáculo, me lo comuniques lo antes posible. Estoy aquí para apoyarte en tu aprendizaje y queremos verte progresando en el dominio del pensamiento crítico científico.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La falta de asistencia a clase ha impedido que puedas demostrar tu comprensión de los temas y tu capacidad de análisis.",
+      "improvements": "• Asistencia a clase: Es fundamental que asistas regularmente a las sesiones de Ciencias. Sin la explicación de conceptos clave sobre variables y magnitudes físicas, no puedes completar el reporte ni avanzar en tu aprendizaje. Coordina con tu familia para resolver cualquier inconveniente que te impida asistir.\n• Comunicación anticipada: Si sabes que no podrás asistir, avisa con anticipación al colegio o a mí directamente. Así podemos buscar alternativas como material de estudio o sesiones de recuperación para que no te quedes atrás.\n• Recuperación de contenidos: Una vez regreses a clase, dedica tiempo extra a revisar los temas de la Fase 2 (identificación de variables, clasificación, magnitudes físicas). Puedo proporcionarte resúmenes o videos explicativos para que te pongas al día rápidamente.",
+      "createdAt": "2025-11-12T22:51:32.659Z"
+    },
+    {
+      "feedbackId": "0b2dde93-8451-4fa7-8c54-3629ff2a690a",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en equilibrio químico y que realmente comprendiste cómo las concentraciones de H₃O⁺ y OH⁻ se relacionan. Tu capacidad para resolver la confusión sobre \"números raros\" y conectar el tema con otras materias muestra pensamiento crítico genuino.\n\nSin embargo, tu reporte no documenta suficientemente el proceso de Fase 2: identificar y clasificar variables. Es como si supieras el concepto pero no lo escribieras de forma sistemática. Esto es importante porque en Fase 3 necesitarás estas bases sólidas para analizar relaciones más complejas.\n\nPara la próxima semana, sé más explícito: lista las variables de cada problema, clasifícalas claramente y reflexiona sobre por qué esa clasificación importa. Esto hará tu aprendizaje más visible y transferible.",
+      "strengths": "• Comprensión del equilibrio químico: Tu observación sobre cómo \"cambiar una concentración mueve todo el sistema hasta llegar a un nuevo punto estable\" muestra que entiendes la relación dinámica entre variables, que es central en Fase 2.\n• Resolución colaborativa de problemas: Identificaste una confusión (números \"raros\") y la resolviste dialogando con compañeros, verificando contra la definición de ácido fuerte. Esto demuestra pensamiento crítico en acción.\n• Conexiones interdisciplinarias: Vinculas correctamente el tema con Matemática (logaritmos), Física (equilibrio) y Biología (pH en procesos), mostrando que ves la Química como un sistema integrado.",
+      "improvements": "• Falta identificación explícita de variables: Tu reporte no lista las variables del problema (ej: concentración inicial, pH, pOH, Kw). En Fase 2 debes clasificarlas como conocidas/desconocidas y controlables/no controlables. Crea una tabla simple en tu próximo reporte: \"Variable | Tipo | Valor\".\n• Evidencia documental incompleta: No muestras ejemplos concretos de cómo aplicaste Fase 1+Fase 2 juntas. Incluye un ejercicio resuelto donde identifiques variables, las clasifiques y luego las uses para encontrar pH/pOH. Esto documenta tu proceso.\n• Ausencia de reflexión metacognitiva (Q5): No reflexionaste sobre la importancia de identificar variables o cómo evolucionaste desde Fase 1. En la próxima semana, dedica 3-4 líneas a responder: \"¿Por qué es importante clasificar variables?\" y \"¿Qué cambió en mi forma de pensar?\"",
+      "createdAt": "2025-11-17T13:51:03.843Z"
+    }
+  ]
+}

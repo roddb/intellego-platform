@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "studentId": "u_8msj4nva8me0b5qcj",
+    "studentName": "Margules, Agustina Lara",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.216427",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 51.75,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_margules_agustina_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 75,
+      "generalComments": "Agustina muestra muy buen dominio del pensamiento crítico nivel 4. Comprende bien los ejercicios y puede analizar problemas complejos. Su única dificultad es expresar por escrito lo que piensa.",
+      "strengths": [
+        "Excelente comprensión del pensamiento crítico",
+        "Análisis correcto del problema del arquero",
+        "Identificación clara de objetivos",
+        "Uso de ChatGPT para autocorrección",
+        "Reflexión crítica (pregunta sobre gestión del tiempo)"
+      ],
+      "improvements": [
+        "Mejorar expresión escrita de ideas",
+        "Desarrollar confianza sin necesitar validación externa",
+        "Practicar redacción más estructurada"
+      ],
+      "createdAt": "2025-01-09 16:30:00"
+    },
+    {
+      "feedbackId": "fb_margules_agustina_2025_08_11",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Agustina trabaja bien con identificación de variables nivel 4. Comprende y clasifica correctamente variables de tiempo, decisión y externas en el ejercicio de Ana. Busca precisión en sus respuestas.",
+      "strengths": [
+        "Identificación correcta de variables de tiempo",
+        "Clasificación adecuada de variables de decisión",
+        "Reconocimiento de factores externos",
+        "Comprensión lectora sólida",
+        "Autocrítica constructiva sobre precisión"
+      ],
+      "improvements": [
+        "Encontrar balance entre detalle y síntesis",
+        "Practicar expresión más concisa",
+        "Mantener confianza en respuestas"
+      ],
+      "createdAt": "2025-01-09 16:31:00"
+    },
+    {
+      "feedbackId": "fb_margules_agustina_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Agustina avanza a Fase 3 de tiro oblicuo nivel 4. Resolvió correctamente ejercicio complejo del cañón en acantilado con análisis detallado. Confusión con variedad de formulaciones pero logra resolver.",
+      "strengths": [
+        "Análisis completo del problema (F1-F3)",
+        "Identificación correcta de MRU y MRUV",
+        "Clasificación precisa de variables",
+        "Plan de herramientas bien estructurado",
+        "Resolución exitosa a pesar de dificultades",
+        "Solicita clarificación proactivamente"
+      ],
+      "improvements": [
+        "Familiarizarse con diferentes formulaciones",
+        "Evitar dependencia de ChatGPT",
+        "Confiar más en material del cuadernillo"
+      ],
+      "createdAt": "2025-01-09 16:32:00"
+    },
+    {
+      "feedbackId": "fb_margules_agustina_2025_08_25",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Agustina baja a nivel 3 en resolución completa. Resolvió correctamente ejercicio del arquero con todas las fases pero muestra confusión con velocidades componentes (v0x, v0y vs v0).",
+      "strengths": [
+        "Resolución completa con 4 fases",
+        "Cálculos correctos (R=138.6m)",
+        "Identificación correcta del problema",
+        "Proceso matemático preciso",
+        "Conexión con MRU/MRUV mantenida"
+      ],
+      "improvements": [
+        "Clarificar diferencias entre v0, v0x, v0y",
+        "Practicar más ejercicios variados",
+        "Ganar confianza en uso de fórmulas",
+        "Distinguir cuándo usar cada velocidad"
+      ],
+      "createdAt": "2025-01-09 16:33:00"
+    },
+    {
+      "feedbackId": "fb_margules_agustina_2025_09_01",
+      "weekStart": "2025-09-01",
+      "score": 58,
+      "generalComments": "Agustina baja a nivel 2 trabajando con modelos de examen. Resolvió ejercicio complejo de construcción pero con mucha ayuda externa. Confusión con múltiples datos y falta fórmula de ángulos.",
+      "strengths": [
+        "Resolución completa del ejercicio complejo",
+        "Aplicación correcta de 4 fases",
+        "Cálculos matemáticos precisos (11.19m)",
+        "Conclusión correcta sobre resultado",
+        "Identificación de dificultades específicas"
+      ],
+      "improvements": [
+        "Practicar organización de datos múltiples",
+        "Aprender fórmula para calcular ángulos",
+        "Reducir dependencia de ayuda externa",
+        "Ganar confianza para el examen"
+      ],
+      "createdAt": "2025-01-09 16:34:00"
+    },
+    {
+      "feedbackId": "d1520396-cba0-47f2-9129-a578dfd8328a",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-20T22:26:24.903Z"
+    },
+    {
+      "feedbackId": "aa9d3b61-7af5-4787-9612-ae13e2d03040",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:17.583Z"
+    },
+    {
+      "feedbackId": "fb_002_3_e0b5qcj_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 75,
+      "generalComments": "Querida Agustina Lara, has alcanzado un buen nivel en la introducción a la Dinámica, cumpliendo con las expectativas de esta etapa inicial en Física. Demuestras buena comprensión del contexto del problema planteado de la caja en el camión. Presentas evidencias adecuadas de tu comprensión del primer principio de Newton. Te recomiendo practicar la conexión de conceptos nuevos como Dinámica con conocimientos previos de cinemática. Busca aplicaciones prácticas del primer principio de Newton en situaciones cotidianas adicionales. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia en este nuevo tema.",
+      "strengths": [
+        "Demuestras buena comprensión del contexto del problema de la caja deslizándose en el camión",
+        "Tu explicación del primer principio de Newton aplicado al problema es clara",
+        "Reconoces la estrategia de releer varias veces para comprender los principios de las leyes"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la conexión de Dinámica con temas previos de cinemática (MRU, MRUV, tiro oblicuo)",
+        "Busca aplicaciones prácticas del primer principio de Newton en situaciones cotidianas para consolidar comprensión",
+        "Desarrolla estrategias adicionales a la relectura, como esquematizar las fuerzas en diagramas"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "3f873c84-f5ba-4a13-a166-6ce431145408",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:06:28.382Z"
+    },
+    {
+      "feedbackId": "be72f2ca-990f-469d-9427-02dfa20b2ca1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:20.907Z"
+    },
+    {
+      "feedbackId": "2d02efa9-11db-4023-85b3-9c404d54d514",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:05.268Z"
+    },
+    {
+      "feedbackId": "37b052b9-b4e9-4653-bbed-1eb7acb118dd",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:19:18.645Z"
+    },
+    {
+      "feedbackId": "4f780e6b-0121-4715-85fd-53a48fd1de69",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Veo que comprendes bien la mecánica del DCL: dibujas correctamente, aplicas fórmulas y obtienes resultados numéricos precisos. Eso es un buen punto de partida. Sin embargo, tu reporte muestra que aún no has internalizado el objetivo de Fase 2: identificar y clasificar variables sistemáticamente.\n\nTu desempeño esta semana es sólido en lo práctico pero superficial en lo analítico. Resuelves problemas, pero no reflexionas sobre las variables que los componen. Esto es importante porque en Fase 3 necesitarás esta clasificación para plantear ecuaciones y resolver problemas más complejos.\n\nPara la próxima semana: Antes de resolver cualquier problema, haz una lista explícita de variables (conocidas/desconocidas, controlables/no controlables). Dedica tiempo a Q3 y Q5 con reflexiones genuinas sobre qué te cuesta y cómo lo superarás. Esto fortalecerá tu pensamiento crítico.",
+      "strengths": "• Aplicación correcta de fórmulas: Utilizas P=m·g adecuadamente y obtienes el resultado correcto (200N). Esto muestra que dominas el cálculo de magnitudes físicas básicas.\n• Representación visual clara del DCL: Tu descripción del gráfico (rectángulo en el centro, fuerzas posicionadas correctamente) indica que comprendes la estructura y disposición de un diagrama de cuerpo libre.\n• Conexión con contenidos previos: Relacionas el DCL con el trabajo práctico anterior y la segunda ley de Newton, mostrando que intentas integrar lo aprendido en diferentes contextos.",
+      "improvements": "• Clasificación sistemática de variables: No identificas qué variables son conocidas (100N, 5N, 20kg) y cuáles son desconocidas (aceleración, fuerza neta). En Fase 2, debes hacer esta clasificación explícita en cada problema. Crea una tabla simple: \"Conocidas: masa=20kg, F aplicada=100N... Desconocidas: aceleración, fuerza neta...\"\n• Análisis de controlabilidad de variables: No mencionas cuáles fuerzas son controlables (la aplicada) y cuáles no (rozamiento, peso). Esto es central en Fase 2. Añade a tu análisis: \"Variables controlables: fuerza aplicada. Variables no controlables: rozamiento, peso.\"\n• Reflexión metacognitiva profunda en Q3 y Q5: Tus respuestas son muy breves y genéricas. Necesitas reflexionar específicamente sobre qué te cuesta: ¿Diferenciar tipos de fuerzas? ¿Posicionar correctamente vectores? ¿Identificar variables ocultas? Dedica 3-4 líneas a cada pregunta explicando tu proceso de pensamiento.",
+      "createdAt": "2025-10-27T04:53:46.796Z"
+    },
+    {
+      "feedbackId": "7a03402a-f12b-4848-9385-450f90e81c5f",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Valoro tu honestidad al reconocer que esta semana ha sido difícil. Es importante que entiendas que sentir confusión con enunciados complejos es normal a este nivel, y es exactamente para eso que estamos trabajando la Fase 2: aprender a desmenuzar los problemas identificando variables.\n\nSin embargo, tu reporte muestra que aún no has aplicado las herramientas de la Fase 2. No veo listas de variables, clasificaciones de magnitudes, ni evidencia de que hayas intentado organizar la información de los ejercicios de forma sistemática. Esto es lo que necesitamos cambiar.\n\nPara la próxima semana, te propongo un cambio concreto: cuando recibas un ejercicio, antes de intentar resolverlo, dedica 5 minutos a hacer una tabla con dos columnas: \"Datos que tengo\" y \"Lo que busco\". Esto es la Fase 2 en acción. Trae esa tabla al reporte y veremos tu progreso.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente que no estás entendiendo el tema (\"no estoy entendiendo casi nada\") y que los ejercicios se volvieron complejos. Esta sinceridad es el primer paso para mejorar.\n• Identificación de una dificultad específica: Señalas que los enunciados te resultan confusos, lo cual es una observación válida que podemos trabajar juntos para resolver.\n• Conexión con conocimientos previos: Mencionas la relación con MRU y MRUV, mostrando que intentas vincular lo nuevo con lo que ya sabes, aunque necesita más profundidad.",
+      "improvements": "• Falta de identificación de variables: No describes qué variables específicas aparecen en los ejercicios (por ejemplo: velocidad, tiempo, distancia, aceleración). En la próxima semana, cuando recibas un ejercicio, haz una lista explícita de \"lo que conozco\" y \"lo que busco\", clasificando cada una.\n• Respuestas muy genéricas sin ejemplos: Tus respuestas son muy cortas y sin detalles. Cuando digas \"no entiendo\", especifica: ¿Qué parte del enunciado? ¿Qué fórmula? ¿Qué operación? Esto me ayudará a orientarte mejor.\n• Sin estrategias propias para resolver dificultades: Solo mencionas el problema pero no propones cómo solucionarlo. Intenta: releer el enunciado palabra por palabra, subrayar datos conocidos, dibujar un esquema del problema. Prueba una estrategia esta semana y cuéntame qué tal.",
+      "createdAt": "2025-11-03T12:19:51.135Z"
+    },
+    {
+      "feedbackId": "889f7018-d782-44cd-85ea-ebae28bc286d",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que participaste en la actividad de esta semana, pero tu reporte no refleja el trabajo de pensamiento crítico que esperamos en Fase 2. El problema principal es que no documentaste qué variables identificaste en la ficha de Leyes de Newton ni cómo las clasificaste, que es exactamente lo que debías practicar esta semana.\n\nTu desempeño sugiere que completaste la tarea mecánicamente sin profundizar en el análisis de variables. Respuestas como \"Nada\" o dejar preguntas en blanco no te permiten reflexionar sobre tu propio aprendizaje, que es fundamental para crecer en pensamiento crítico.\n\nPara la próxima semana, te pido que: (1) Identifiques explícitamente todas las variables en cada problema o proyecto, (2) Las clasifiques de forma sistemática, y (3) Reflexiones en el reporte sobre qué te costó y cómo lo superaste. Esto hará una gran diferencia en tu progreso.",
+      "strengths": "• Participación en trabajo grupal: Completaste la actividad propuesta sobre Leyes de Newton, lo que muestra disposición a trabajar en equipo y cumplir con las tareas asignadas.\n• Honestidad en la autoevaluación: Reconoces que el trabajo no te resultó complejo, lo que muestra cierta capacidad de reflexión sobre tu propio desempeño.",
+      "improvements": "• Profundizar en la identificación de variables: En la ficha técnica sobre Leyes de Newton, debes listar explícitamente las variables trabajadas (fuerza, masa, aceleración, tiempo, etc.) y clasificarlas como conocidas/desconocidas y controlables/no controlables. Esto es el corazón de Fase 2.\n• Completar todas las preguntas del reporte: Respuestas vacías o de una palabra (\"Nada\") no permiten evaluar tu aprendizaje real. Dedica tiempo a reflexionar y escribir al menos 2-3 líneas en cada pregunta, incluso si crees que no hay mucho que decir.\n• Conectar teoría con aplicaciones prácticas: Cuando trabajes Leyes de Newton, pregúntate: ¿Dónde veo estas variables en la vida real? (un auto acelerando, una pelota cayendo, etc.). Esto te ayudará a transferir el aprendizaje a nuevos problemas y profundizar tu comprensión.",
+      "createdAt": "2025-11-12T22:52:15.393Z"
+    },
+    {
+      "feedbackId": "e95938bd-7f32-4632-bc54-3dea5901e9df",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana trabajaron en un proyecto, pero el reporte no refleja el aprendizaje real que lograste. Repetir la misma respuesta en todas las preguntas no permite que ni tú ni yo podamos evaluar tu progreso en identificación de variables y pensamiento crítico.\n\nTu desempeño esta semana no es visible en este documento. Necesito que entiendas que estos reportes son tu oportunidad para demostrar qué aprendiste, qué dificultades enfrentaste y cómo las superaste. Sin esa información, no puedo ayudarte a mejorar.\n\nPara la próxima semana, dedica tiempo real a responder cada pregunta. Piensa en variables específicas que trabajaste, dificultades concretas que tuviste, y reflexiona sobre tu propio aprendizaje. Un reporte completo y honesto es mucho más valioso que respuestas genéricas.",
+      "strengths": "Lamentablemente, el reporte no contiene elementos suficientes para identificar fortalezas en el aprendizaje de la Fase 2. La respuesta repetida en todas las preguntas impide evaluar tu comprensión real de identificación de variables, clasificación de magnitudes o pensamiento crítico.",
+      "improvements": "• Falta de respuestas específicas a cada pregunta: Cada pregunta de la rúbrica busca información diferente (temas trabajados, evidencia, dificultades, conexiones, reflexiones). Debes responder de forma única y detallada a cada una, no repetir la misma frase. Dedica 3-5 minutos a cada pregunta pensando qué aprendiste específicamente.\n• Ausencia de identificación de variables: En Fase 2 debes listar variables del proyecto (ej: \"masa, velocidad, tiempo, temperatura\"). Clasifícalas en conocidas/desconocidas y controlables/no controlables. Si trabajaste en un proyecto, describe qué variables mediste o controlaste, aunque sea brevemente.\n• Falta de reflexión metacognitiva: No mencionas qué te costó entender, qué estrategias usaste para clasificar variables, o cómo evolucionaste desde Fase 1. Reflexiona honestamente: ¿Qué fue difícil? ¿Cómo lo resolviste? ¿Qué aprendiste?",
+      "createdAt": "2025-11-17T13:52:24.914Z"
+    }
+  ]
+}

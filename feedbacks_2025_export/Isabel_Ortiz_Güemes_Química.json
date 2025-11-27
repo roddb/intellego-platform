@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "studentId": "u_bap6b4k2rme73bmwt",
+    "studentName": "Isabel Ortiz Güemes",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.205513",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 64.2,
+      "minScore": 27,
+      "maxScore": 83,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me73bmwt_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Querida Isabel Ortiz Güemes, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en sistemas químicos y organizas adecuadamente los datos disponibles. Reconoces las magnitudes químicas relevantes y sus clasificaciones. Es importante mejorar la organización y clasificación de los datos especialmente en variables de cinética y equilibrio. Debes trabajar en la identificación precisa de todas las variables involucradas para evitar confusiones. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en sistemas químicos de fermentación",
+        "Organizas adecuadamente los datos y la información disponible en matrices",
+        "Reconoces las magnitudes químicas relevantes y sus diferentes tipos (concentración, termodinámica, equilibrio, cinéticas)"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de variables de cinética y equilibrio que aún generan confusión",
+        "Es importante mejorar la clasificación sistemática de variables para evitar errores que se arrastran en el proceso",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada para resolver más rápidamente"
+      ],
+      "createdAt": "2025-10-07T10:32:35.000Z"
+    },
+    {
+      "feedbackId": "e92d4ba5-58c6-4b74-b33a-cd302dffb14d",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Valoro mucho tu honestidad al reconocer dónde estás teniendo dificultades. Es claro que comprendes el método cuando lo aplicas (como en el ejercicio 2), pero la acumulación de dudas previas y la inasistencia del martes han impactado tu confianza. Eso es completamente comprensible.\n\nTu desempeño esta semana muestra un patrón: dominas los primeros pasos (identificar objetivo, clasificar variables básicamente), pero cuando los temas se vuelven más complejos, las dudas previas emergen. Esto no es un fracaso; es una señal clara de qué necesitas reforzar.\n\nPara la próxima semana, te propongo un cambio de enfoque: antes de intentar ejercicios nuevos, dedica tiempo a resolver *completamente* los ejercicios 1-3, documentando cada variable que identifiques. Luego, trabajaremos juntos en la tabla ICE y Le Chatelier con ejemplos paso a paso. Estoy aquí para apoyarte.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente dónde se te complica (\"a partir del 4 dejo de entender\") y identificas las causas reales (inasistencia, acumulación de dudas). Esto es valioso para trabajar juntos en soluciones.\n• Aplicación correcta en ejercicio específico: En el ejercicio 2, demostraste que *sí* puedes clasificar variables útiles vs. no útiles y aplicar fórmulas correctamente. El resultado Kc = 4,46 muestra que el método funciona cuando lo dominas.\n• Conexión interdisciplinaria: Identificas que los temas se conectan con estequiometría, Física y Matemática. Aunque genérica, esta visión muestra que intentas ver el panorama completo.",
+      "improvements": "• Profundiza en la clasificación de variables: No basta con separar \"útiles\" de \"no útiles\". Necesitas clasificar cada variable como: conocida/desconocida, controlable/no controlable, y qué magnitud física representa. Practica esto en los ejercicios 1-3 antes de avanzar al 4.\n• Crea un plan específico para recuperar conceptos previos: La acumulación de dudas (tabla ICE, Le Chatelier) es tu mayor obstáculo. Dedica 15 minutos diarios a revisar *una sola* de estas dudas con ejemplos concretos. Sugiero empezar con la tabla ICE: ¿qué representa cada fila? ¿Por qué usamos \"x\"?\n• Desarrolla estrategias de aprendizaje independiente: No depender solo de explicaciones en clase. Crea un cuaderno de \"variables clave\" donde escribas: nombre de la variable, símbolo, unidad, si es controlable/no controlable, y un ejemplo. Esto te ayudará a estudiar sin necesidad de estar presente en clase.",
+      "createdAt": "2025-11-03T11:55:33.388Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me73bmwt_2025-09-01_002",
+      "weekStart": "2025-09-01",
+      "score": 83,
+      "generalComments": "Querida Isabel Ortiz Güemes, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Planteas una estrategia de resolución coherente y completa detallando los 5 pasos de cálculo. Ejecutas los pasos de resolución de manera ordenada y lógica. Integras exitosamente los conocimientos de las fases anteriores (F1+F2+F3+F4). Es importante mejorar la planificación de tu estrategia para ejercicios más complejos sin guía previa. Te recomiendo incorporar la verificación de resultados como parte de tu proceso independiente. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa con los 5 pasos de cálculo claramente definidos",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica desde el planteo de incógnitas hasta concentraciones molares finales",
+        "Integras exitosamente los conocimientos de las 4 fases identificando objetivo, variables, fórmulas y ejecutando cálculos"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar en ejercicios sin modelo previo",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso para mayor autonomía",
+        "Debes trabajar en mantener coherencia y confianza en todos los pasos cuando enfrentas modelos más complejos"
+      ],
+      "createdAt": "2025-10-07T10:32:35.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me73bmwt_2025-09-15_003",
+      "weekStart": "2025-09-15",
+      "score": 77,
+      "generalComments": "Querida Isabel Ortiz Güemes, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Planteas una estrategia de resolución coherente detallando las 4 fases en síntesis de amoniaco. Ejecutas los pasos de resolución de manera ordenada con cálculos correctos (Kc=0.008). Integras exitosamente los conocimientos de las fases anteriores. Es importante mejorar la planificación de tu estrategia para trabajar con mayor independencia sin necesitar modelos previos. Te recomiendo incorporar la verificación de resultados y desarrollar confianza para arrancar ejercicios sin guía. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en Q1. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente detallando claramente las 4 fases aplicadas al problema de síntesis de amoniaco",
+        "Ejecutas los pasos de resolución de manera ordenada llegando al resultado correcto de Kc=0.008",
+        "Integras exitosamente los conocimientos de las fases anteriores mostrando comprensión del proceso completo"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia para iniciar ejercicios sin depender de ejemplos previos resueltos",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso autónomo",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje especialmente en Q1 donde tu respuesta fue muy breve"
+      ],
+      "createdAt": "2025-10-07T10:32:35.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me73bmwt_2025-09-29_004",
+      "weekStart": "2025-09-29",
+      "score": 83,
+      "generalComments": "Querida Isabel Ortiz Güemes, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de equilibrio químico, mostrando capacidad para integrar múltiples conceptos en una actividad compleja. Planteas una estrategia de resolución coherente y completa en actividad integradora con múltiples puntos (Kc, conversión, Qc, gráfico). Ejecutas los pasos de resolución de manera ordenada y lógica con resultados correctos. Verificas tus resultados comparando Kc y Qc para determinar evolución del sistema. Integras exitosamente los conocimientos de las 4 fases con temas previos de estequiometría y molaridad. Necesitas ser más sistemática en la verificación de cálculos intermedios para evitar errores evitables que reconoces. Debes trabajar en mantener confianza durante evaluaciones para evitar bloqueos por inseguridad. Excelente trabajo. Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa en la actividad integradora abarcando múltiples cálculos (Kc=1.39, conversión=70%, Qc=0.36)",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica desde concentraciones iniciales hasta conclusiones sobre evolución del sistema",
+        "Verificas tus resultados comparando Kc y Qc para concluir correctamente que el sistema evoluciona hacia productos",
+        "Integras exitosamente los conocimientos de las 4 fases con temas previos de estequiometría, molaridad y representación gráfica"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemática en la verificación de cálculos intermedios para detectar y corregir errores evitables antes de que se arrastren",
+        "Debes trabajar en mantener coherencia y confianza en todos los pasos especialmente durante evaluaciones para evitar bloqueos",
+        "Te recomiendo incorporar técnicas de auto-verificación paso a paso para reducir la incertidumbre que describes"
+      ],
+      "createdAt": "2025-10-07T10:32:35.000Z"
+    },
+    {
+      "feedbackId": "19cb5fe9-b250-4bc6-9e72-80c4be9475da",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:45:27.901Z"
+    },
+    {
+      "feedbackId": "b50b4841-4eb3-4e3b-8f04-e2c601b4b80a",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:25:58.067Z"
+    },
+    {
+      "feedbackId": "2698dc2a-609b-479d-a135-98b6b5cd274f",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Has tenido una semana desafiante por tu ausencia, pero tu respuesta en Q2 demuestra que *sí* estás aprendiendo. El hecho de que hayas tomado la iniciativa de trabajar con la guía interactiva y el resumen del classroom muestra responsabilidad y ganas de ponerte al día. Eso es muy positivo.\n\nSin embargo, hay una brecha entre lo que hiciste bien (resolver ejercicios) y lo que necesitas mejorar (reflexionar críticamente sobre los conceptos). Tu reporte es más descriptivo que analítico. Necesitas ir más allá de \"hice esto y me dio esto\" hacia \"¿por qué funciona así?\" y \"¿qué implicaciones tiene?\".\n\nPara la próxima semana, enfócate en: (1) ponerte completamente al día sobre ionización del agua, (2) hacer preguntas más profundas sobre cada concepto, y (3) completar todas las secciones del reporte, incluyendo reflexiones personales.",
+      "strengths": "• Responsabilidad y honestidad: Comunicaste proactivamente tu ausencia y reconociste que no estabas al corriente, en lugar de fingir dominio. Esto demuestra madurez académica.\n• Procedimiento matemático riguroso: En Q2, tu resolución del ejercicio es metódica y correcta. Planteas la fórmula, despejas, reemplazas valores y llegas a la conclusión lógica (pH<7 = ácido). Esto muestra que comprendiste el concepto.\n• Conexiones interdisciplinarias: Identificas cómo el tema se conecta con equilibrio químico, reacciones previas y matemática, lo que demuestra una visión integral del aprendizaje.",
+      "improvements": "• Profundiza en Q1 coordinando con compañeros: No especules sobre lo que se trabajó. Pide a un compañero que te explique ionización del agua o revisa el resumen del classroom. Esto te permitirá tener información concreta y no solo suposiciones.\n• Desarrolla pensamiento crítico en Q3: No te conformes con \"no tengo dudas\". Haz preguntas como: ¿Por qué la constante Kw tiene ese valor específico? ¿Cómo afecta la temperatura? ¿Qué pasa en soluciones no acuosas? Esto enriquecerá tu comprensión.\n• Completa la sección Q5 con reflexión personal: Usa este espacio para escribir algo que te haya sorprendido, una pregunta que surgió, o cómo te sentiste con el tema. Esto ayuda a consolidar tu aprendizaje y muestra pensamiento reflexivo.",
+      "createdAt": "2025-10-27T05:03:29.551Z"
+    },
+    {
+      "feedbackId": "fed2ab8c-47e7-43b0-b628-d5fa66f3626c",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Esta semana has mostrado un progreso sólido en la estructura de tu pensamiento. Tu capacidad para organizar problemas en fases y conectar conceptos previos es muy valiosa. Reconoces honestamente dónde tienes dificultades (ácidos/bases débiles), lo que es el primer paso para superarlas.\n\nSin embargo, necesitas ir más allá de la identificación de problemas. En lugar de solo pedir ayuda, intenta investigar por tu cuenta qué hace diferente un ácido débil de uno fuerte. Tu nivel 2 actual es realista, pero tienes el potencial de llegar a nivel 3 si sistematizas tu clasificación de variables y practicas con ejercicios de ácidos/bases débiles.\n\nPara la próxima semana, te propongo: (1) Crea una tabla de clasificación de variables para cada ejercicio, (2) Resuelve al menos 2 problemas de ácidos/bases débiles usando tu método de 4 fases, y (3) Busca un ejemplo real donde apliques pH/pOH. Esto te preparará mejor para la siguiente fase.",
+      "strengths": "• Autoevaluación honesta y consciente de limitaciones: Reconoces explícitamente que entiendes la teoría pero tienes dificultades en la práctica, y lo sitúas en un nivel 2. Esto muestra madurez metacognitiva y disposición para mejorar.\n• Estructura sistemática en resolución de problemas: Tu división en 4 fases (objetivo, variables, fórmulas, resolución) es clara y reproducible. Demuestra que estás internalizando un método ordenado, como se vio en el ejercicio del HCl.\n• Conexiones conceptuales entre unidades: Vinculas correctamente equilibrio químico con ácidos/bases, mostrando que comprendes cómo los conceptos previos fundamentan los nuevos. Esto es esencial para pensamiento crítico integrado.",
+      "improvements": "• Clasificación explícita de variables en Fase 2: Aunque identificas variables conocidas/desconocidas, no las clasificas como \"controlables\" vs \"no controlables\" ni especificas qué magnitudes físicas representan. Sugerencia: En tu próximo reporte, crea una tabla simple: Variable | Tipo (conocida/desconocida) | Clasificación (controlable/no) | Magnitud (concentración, pH, etc.).\n• Estrategias proactivas para ácidos/bases débiles: Tu respuesta en Q3 es reactiva (\"debería preguntar más\"). Sugerencia práctica: Antes de la próxima clase, busca en tu libro o internet la diferencia entre ionización completa vs parcial, y anota 2-3 ejemplos de cada tipo. Esto te permitirá identificar el tipo de problema antes de resolverlo.\n• Transferencia a fenómenos reales: Tus conexiones son teóricas. Sugerencia: Aplica lo aprendido a contextos reales (pH de jugos, agua de piscina, lluvia ácida). Pregúntate: \"¿Cómo usaría estas fórmulas para resolver un problema del mundo real?\" Esto fortalecerá tu comprensión y motivación.",
+      "createdAt": "2025-11-03T12:22:19.507Z"
+    },
+    {
+      "feedbackId": "9cf34407-f4d7-4348-976b-7f333942331a",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana especial dedicada a parciales, así que es comprensible que no haya actividad regular de clase. Sin embargo, esto significa que no tengo información sobre tu progreso en la identificación de variables y clasificación de magnitudes, que son habilidades clave en Fase 2.\n\nTu honestidad al reportar la situación es valiosa, pero necesitamos retomar el trabajo académico la próxima semana para que puedas consolidar lo aprendido en Fase 1 y avanzar en Fase 2 con confianza.\n\nPara la próxima semana, espero ver un reporte completo con ejemplos de variables identificadas, clasificaciones realizadas y reflexiones sobre tu proceso de aprendizaje. ¡Vamos a recuperar el ritmo!",
+      "strengths": "• Honestidad en la comunicación: Tu respuesta es clara y directa al explicar la situación. Reconoces que no hubo actividad académica esta semana, lo cual es información importante para entender el contexto.",
+      "improvements": "• Falta de contenido académico: Esta semana no hay evidencia de trabajo en Fase 2. Para la próxima semana, asegúrate de documentar los temas trabajados, variables identificadas y clasificaciones realizadas, aunque sea de forma breve.\n• Oportunidad de repaso durante parciales: Aunque fue semana de exámenes, podrías haber aprovechado para revisar conceptos de Fase 1 (preguntas de investigación) o prepararte para aplicar Fase 2 en nuevos problemas. Considera usar tiempos de estudio para conectar conceptos.\n• Necesidad de reporte completo: Incluso en semanas atípicas, es importante intentar responder las preguntas del reporte con algo de contenido. Si no hay clase, puedes reflexionar sobre lo aprendido en semanas anteriores o preparar preguntas para la próxima sesión.",
+      "createdAt": "2025-11-12T22:54:22.054Z"
+    }
+  ]
+}

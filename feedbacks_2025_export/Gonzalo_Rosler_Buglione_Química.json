@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "studentId": "u_3qohn2lp7me0tfs8i",
+    "studentName": "Gonzalo Rosler Buglione",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.202456",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 87.17,
+      "minScore": 83,
+      "maxScore": 91,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-08-04_978b0a25",
+      "weekStart": "2025-08-04",
+      "score": 88,
+      "generalComments": "Gonzalo ha demostrado una comprensión excepcional de la Fase 1 del pensamiento crítico aplicado al equilibrio químico. Su capacidad para identificar problemas, distinguir información relevante y articular conceptos fundamentales es sobresaliente. El reporte muestra un nivel de reflexión metacognitiva muy avanzado para esta etapa inicial del proceso.",
+      "strengths": [
+        "Identificación precisa y detallada de la metodología de 5 pasos, con ejemplos concretos de aplicación en cada fase",
+        "Distinción clara entre reacciones reversibles e irreversibles, equilibrio dinámico y sus características fundamentales",
+        "Reflexión metacognitiva profunda sobre el proceso de aprendizaje, diferenciando espacios teóricos y prácticos",
+        "Conexión explícita con conceptos previos como soluciones químicas, balanceo y conservación de la masa",
+        "Actitud proactiva y curiosidad intelectual evidente en el comentario final sobre el framework metodológico"
+      ],
+      "improvements": [
+        "Aunque mencionas dificultades con la evaluación de enfoques (ej. 4), podrías profundizar más en estrategias específicas para desarrollar esta habilidad",
+        "En Q3 mencionas confusión con Kc y Qc; considera crear un esquema visual que diferencie claramente cuándo usar cada herramienta",
+        "Para mejorar la capacidad de imaginar reacciones en equilibrio, practica dibujando modelos particulados de sistemas reversibles"
+      ],
+      "createdAt": "2025-10-03T14:50:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-08-11_4978ef96",
+      "weekStart": "2025-08-11",
+      "score": 91,
+      "generalComments": "Excelente progresión hacia la Fase 2. Gonzalo demuestra dominio destacado en la identificación y clasificación sistemática de variables químicas. Su aplicación de la metodología de barrido A-B-C y la matriz dual es ejemplar. La integración acumulativa de F1+F2 está completamente internalizada.",
+      "strengths": [
+        "Aplicación impecable del sistema de barrido en tres pasos (A-B-C) en el ejercicio del buffer de Sofía",
+        "Clasificación correcta de variables en las 4 categorías: composición, termodinámicas, equilibrio y cinéticas",
+        "Uso efectivo de la matriz dual de disponibilidad × control para organizar información",
+        "Retroalimentación proactiva con IA, demostrando autonomía en el proceso de aprendizaje",
+        "Reflexión metacognitiva clara sobre cómo F1→F2 evita recopilación de datos al azar",
+        "Identificación de variables adicionales con ayuda externa, mostrando humildad intelectual"
+      ],
+      "improvements": [
+        "Aunque la clasificación por categorías es correcta, podrías crear una tabla de referencia rápida para consultar en futuros ejercicios",
+        "Considera practicar la identificación de variables sin retroalimentación de IA primero, para fortalecer la confianza inicial",
+        "Desarrolla ejemplos adicionales de matrices duales para diferentes tipos de sistemas químicos"
+      ],
+      "createdAt": "2025-10-03T14:50:01Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-08-18_e5229236",
+      "weekStart": "2025-08-18",
+      "score": 89,
+      "generalComments": "Gonzalo demuestra un dominio sólido de la Fase 3, integrando herramientas teóricas (Kc, Kp, Qc, Le Chatelier, ICE) con el framework de pensamiento crítico. Su capacidad para conectar teoría disciplinar con metodología es destacada. Aunque menciona dificultades iniciales con Qc, las resolvió exitosamente mediante consultas dirigidas.",
+      "strengths": [
+        "Comprensión profunda de Kc y Kp, incluyendo la relación Kp = Kc(RT)^Δn con todos sus componentes",
+        "Diferenciación clara entre Kc (equilibrio) y Qc (cualquier momento), con aplicación correcta de comparación",
+        "Explicación completa del Principio de Le Chatelier con ejemplos de perturbaciones por concentración, presión y temperatura",
+        "Identificación precisa de la Tabla ICE como herramienta organizacional sistemática",
+        "Ejecución correcta del Ejercicio 6 (conversión Kc→Kp) con procedimiento ordenado: Δn → T(K) → sustitución",
+        "Reconexión explícita con temas previos: molaridad, coeficientes estequiométricos, balanceo"
+      ],
+      "improvements": [
+        "Aunque resolviste la confusión con Qc, crea un diagrama de flujo que muestre claramente: ¿tengo datos de equilibrio? → Kc; ¿tengo datos iniciales? → Qc",
+        "Practica más ejercicios de Le Chatelier para internalizar completamente las respuestas del sistema a cada tipo de perturbación",
+        "Desarrolla ejemplos propios de tablas ICE para diferentes tipos de reacciones (síntesis, descomposición, etc.)"
+      ],
+      "createdAt": "2025-10-03T14:50:02Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-08-25_7af487df",
+      "weekStart": "2025-08-25",
+      "score": 85,
+      "generalComments": "Gonzalo completa exitosamente las Fases 4 y 5, demostrando capacidad para planificar estrategias de resolución y ejecutar cálculos numéricos completos. Aunque el reporte es más breve que los anteriores, evidencia dominio de la tabla ICE y cálculo de Kc. La integración de las 4 fases está consolidada.",
+      "strengths": [
+        "Identificación correcta de la estrategia de 6 pasos: ecuación balanceada → ICE → expresión Kc → sustitución → resolución → verificación",
+        "Ejecución numérica completa del ejercicio H₂ + I₂ ⇌ 2HI con Kc = 0.674",
+        "Cálculo correcto de moles en equilibrio usando la tabla ICE (H₂: 0.0089 mol, I₂: 0.0240 mol, HI: 0.0120 mol)",
+        "Conversión apropiada de moles a concentraciones molares dividiendo por volumen (15.0 L)",
+        "Reconocimiento de que el desarrollo del pensamiento crítico fue exitoso en el comentario final"
+      ],
+      "improvements": [
+        "El reporte es notablemente más breve que los anteriores; considera incluir más detalles sobre el proceso de resolución",
+        "En Q3 mencionas solo dificultades con cálculo de Kc al principio, pero no explicas cómo las superaste ni qué estrategias usaste",
+        "Falta evidencia de la verificación física mencionada en la estrategia (¿el resultado tiene sentido químicamente?)",
+        "Podrías profundizar en Q5 sobre cómo aplicarás esta metodología en contextos fuera de química"
+      ],
+      "createdAt": "2025-10-03T14:50:03Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-09-08_a1175997",
+      "weekStart": "2025-09-08",
+      "score": 83,
+      "generalComments": "Gonzalo realiza un repaso conceptual sólido del equilibrio químico, demostrando comprensión clara de los fundamentos teóricos. El reporte muestra dominio de definiciones clave, aunque con menor profundidad reflexiva que en ciclos anteriores. La dificultad persistente con la tabla ICE indica necesidad de práctica adicional en este aspecto.",
+      "strengths": [
+        "Síntesis conceptual completa de equilibrio dinámico, reversibilidad, combinación incompleta y movilidad",
+        "Diferenciación clara entre reacciones irreversibles (completas) y reversibles (equilibrio)",
+        "Comprensión de Kc como relación de concentraciones que depende solo de temperatura",
+        "Distinción correcta entre Kc (equilibrio) y Qc (cualquier momento) con interpretación de comparaciones",
+        "Explicación apropiada del Principio de Le Chatelier con efectos de concentración, presión y temperatura",
+        "Ejecución del ejercicio 2NO₂ ⇌ 2NO + O₂ con cálculo correcto de Kc ≈ 5.56 × 10⁻⁴"
+      ],
+      "improvements": [
+        "En Q3 mencionas sigo teniendo dificultades para la comprensión y ejecución de las cuentas de la tabla ICE; considera crear un template paso a paso para aplicar en cada ejercicio",
+        "El ejercicio en Q2 está completo, pero falta verificación de razonabilidad física (¿por qué Kc << 1 favorece reactivos?)",
+        "El reporte es más descriptivo que reflexivo; podrías incluir más análisis metacognitivo sobre tu proceso de aprendizaje",
+        "Practica más ejemplos de ICE con diferentes tipos de reacciones para consolidar el procedimiento"
+      ],
+      "createdAt": "2025-10-03T14:50:04Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0tfs8i_2025-09-15_201c1fff",
+      "weekStart": "2025-09-15",
+      "score": 87,
+      "generalComments": "Excelente consolidación del tema de equilibrio químico. Gonzalo demuestra que ha superado las dificultades previas con la tabla ICE y ahora puede ejecutar cálculos completos con confianza. El ejercicio resuelto muestra dominio técnico y comprensión conceptual integrada. La preparación para la evaluación es evidente.",
+      "strengths": [
+        "Repaso conceptual completo de Kc, Qc y Principio de Le Chatelier con definiciones precisas",
+        "Resolución completa y correcta del ejercicio H₂ + I₂ ⇌ 2HI con Kc = 0.678",
+        "Construcción apropiada de tabla ICE: Inicial → Cambio (-x, -x, +2x) → Equilibrio",
+        "Cálculo correcto de x a partir de HI en equilibrio (2x = 0.0120 mol → x = 0.00600 mol)",
+        "Conversión correcta de moles a molaridad dividiendo por volumen (15.0 L)",
+        "Superación completa de la dificultad con ICE mencionada en Q3: esta semana se terminó",
+        "Preparación y confianza para la evaluación: tengo una comprensión completa del tema"
+      ],
+      "improvements": [
+        "Aunque el cálculo es correcto, podrías incluir la verificación dimensional (¿las unidades finales de Kc son correctas?)",
+        "En Q4 mencionas conexiones genéricas; podrías profundizar con ejemplos específicos de cómo el balanceo afecta el cálculo de Kc",
+        "Considera incluir interpretación química del resultado (Kc = 0.678 < 1 favorece ligeramente a reactivos)"
+      ],
+      "createdAt": "2025-10-03T14:50:05Z"
+    }
+  ]
+}

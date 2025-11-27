@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "u_jjcjumyigme1bxb6d",
+    "studentName": "Sebastián José López Milano",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.232063",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 80.0,
+      "minScore": 80,
+      "maxScore": 80,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-08-18"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_gme1bxb6d_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 80,
+      "generalComments": "Querido Sebastián José López Milano,\n\nTu trabajo en Fase 3: Selección de herramientas y relaciones refleja un dominio destacado de las leyes de gases ideales, mostrando capacidad para seleccionar apropiadamente las herramientas matemáticas según el proceso. Seleccionas apropiadamente las herramientas y fórmulas para gases ideales, aplicando Boyle con precisión en el problema de la jeringa. Tu capacidad para reflexionar sobre criterios de selección es notable, evidenciada por tu estrategia 3A-3B-3C. Realizas conexiones efectivas entre las fases del método, integrando F1 y F2 en tu proceso de selección.\n\nEs importante mejorar la rapidez en la toma de decisiones al comparar ecuación general versus leyes específicas. Te recomiendo practicar más la justificación de por qué seleccionas determinadas herramientas en contextos variados.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia en la selección y aplicación de herramientas.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para el análisis de gases ideales, aplicando la ley de Boyle con precisión y justificando tu elección por eficiencia.",
+        "Identificas correctamente las relaciones entre variables presión, volumen y temperatura en distintos procesos (isotérmico, isobárico).",
+        "Reflexionas sobre tu propio proceso de aprendizaje, identificando con precisión áreas específicas de mejora como la comparación de métodos de cálculo.",
+        "Integras exitosamente los conocimientos de las fases anteriores, conectando explícitamente F1 (problema) y F2 (variables) con F3 (herramientas)."
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para decidir rápidamente entre ecuación general y leyes específicas. Practica con ejercicios donde identifiques primero el tipo de proceso antes de elegir.",
+        "Debes practicar más la aplicación de ecuaciones a situaciones variadas, especialmente en el contexto de mezclas de gases y cálculos de densidad.",
+        "Es importante desarrollar mayor confianza en la comparación de métodos alternativos. Proporciona evidencias más concretas y específicas de tu proceso de decisión en cada problema."
+      ],
+      "createdAt": "2025-10-07T18:30:00Z"
+    }
+  ]
+}

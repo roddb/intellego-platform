@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "studentId": "u_92u4fm0txme1fny4m",
+    "studentName": "Justina Manzullo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.212056",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 49.3,
+      "minScore": 27,
+      "maxScore": 76,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "baf4d58d60b2986f2a7cafbdb034cdd4",
+      "weekStart": "2025-08-04",
+      "score": 49,
+      "generalComments": "María Justina está en etapa inicial de comprensión de gases ideales. Muestra esfuerzo al intentar seguir el proceso sistemático y reconoce sus áreas de mejora. La identificación de datos relevantes es una habilidad clave de Fase 2 que está desarrollando.",
+      "strengths": [
+        "Intento sistemático de seguir pasos para análisis de problemas",
+        "Estrategia de lectura múltiple y anotación de palabras clave",
+        "Capacidad de autoevaluación y solicitud apropiada de apoyo"
+      ],
+      "improvements": [
+        "Practicar con ejercicios guiados paso a paso antes de intentar solos",
+        "Crear lista de verificación: ¿qué datos son siempre importantes en gases?",
+        "Comenzar con problemas de una sola variable antes de combinar múltiples"
+      ],
+      "createdAt": "2025-09-28 19:43:24"
+    },
+    {
+      "feedbackId": "df7a9c1f3a5e807a95ea7369ef5e68ba",
+      "weekStart": "2025-08-11",
+      "score": 53,
+      "generalComments": "María Justina muestra dificultades iniciales con gases ideales, típicas de la Fase 2. Comprende relaciones básicas (temperatura-presión) y valora los ejemplos concretos. El reconocimiento de sus dificultades es el primer paso para superarlas.",
+      "strengths": [
+        "Comprensión básica de la relación temperatura-presión en el ejemplo del neumático",
+        "Estrategia de anotar palabras clave y leer varias veces",
+        "Valoración de ejemplos de vida real como apoyo al aprendizaje"
+      ],
+      "improvements": [
+        "Crear un glosario personal con definición de cada variable (P, V, T, n)",
+        "Practicar identificación de variables en 3-4 ejercicios simples diariamente",
+        "Elaborar un cuadro comparativo de las leyes de gases con sus condiciones de uso"
+      ],
+      "createdAt": "2025-09-28 19:42:20"
+    },
+    {
+      "feedbackId": "0affef3eef521cbb77f4efa0c7056464",
+      "weekStart": "2025-08-18",
+      "score": 54,
+      "generalComments": "María Justina enfrenta dificultades significativas con gases ideales, pero demuestra esfuerzo al aplicar el método F1-F2-F3. La estructura del ejercicio del globo muestra comprensión del proceso aunque falte dominio del contenido.",
+      "strengths": [
+        "Aplicación correcta del método F1-F2-F3 en el ejercicio del globo",
+        "Identificación clara de variables y selección de Ley de Charles",
+        "Honestidad al reconocer dificultades permite apoyo dirigido"
+      ],
+      "improvements": [
+        "Revisar conceptos básicos de gases antes de abordar fórmulas complejas",
+        "Practicar conversión de unidades (°C a K) sistemáticamente",
+        "Crear tarjetas de estudio con condiciones de uso para cada ley"
+      ],
+      "createdAt": "2025-09-28 19:41:04"
+    },
+    {
+      "feedbackId": "a3d972eb-df09-4efc-9530-7486e9a92420",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "María Justina muestra progreso sólido en la comprensión teórica de gases ideales. Su enfoque en fortalecer las bases teóricas es estratégico y está dando resultados. La capacidad de conectar conceptos con situaciones cotidianas demuestra madurez en el aprendizaje.",
+      "strengths": [
+        "Excelente estrategia de priorizar comprensión teórica antes que práctica mecánica",
+        "Capacidad destacada para conectar gases ideales con fenómenos cotidianos (hervir, bañarse)",
+        "Reconocimiento de mejora progresiva y calidad de estudio en aumento"
+      ],
+      "improvements": [
+        "Crear un esquema visual de fórmulas para reducir la sensación de mareo",
+        "Equilibrar gradualmente teoría con ejercicios prácticos simples",
+        "Mantener un registro de conceptos dominados para reforzar confianza"
+      ],
+      "createdAt": "2025-09-28 19:39:32"
+    },
+    {
+      "feedbackId": "8cfe21e0-9a69-432e-9c62-a8ee10070f06",
+      "weekStart": "2025-09-01",
+      "score": 76,
+      "generalComments": "María Justina demuestra buen dominio en la aplicación de las leyes de gases ideales. Su resolución del ejercicio del modelo de examen muestra capacidad para seleccionar y aplicar correctamente las fórmulas de Gay-Lussac y densidad. La estrategia del cuadro de fórmulas es excelente para superar las dificultades identificadas.",
+      "strengths": [
+        "Excelente aplicación práctica de fórmulas específicas con cálculos precisos (P=201,2 atm, ρ=23,947 g/mL)",
+        "Estrategia efectiva de organización mediante cuadro de fórmulas para cada caso",
+        "Capacidad de verificar afirmaciones mediante cálculos y llegar a conclusiones fundamentadas"
+      ],
+      "improvements": [
+        "Trabajar en establecer conexiones entre gases ideales y fenómenos cotidianos o industriales",
+        "Profundizar en la comprensión conceptual de cuándo aplicar cada fórmula, no solo memorización",
+        "Desarrollar reflexiones más elaboradas sobre el proceso de aprendizaje en comentarios adicionales"
+      ],
+      "createdAt": "2025-09-28 19:32:44"
+    },
+    {
+      "feedbackId": "fb_002_1_xme1fny4m_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 38,
+      "generalComments": "Querida Justina Manzullo, tu reporte de esta semana es muy limitado, mencionando solo que se enfocaron en rendir química. Si bien es comprensible que haya sido una semana de evaluación, es importante que puedas reflexionar sobre qué temas repasaste, qué estrategias utilizaste para prepararte, y qué aprendizajes lograste consolidar. Desarrolla estrategias más específicas para documentar tu proceso incluso en semanas de evaluación. Estoy disponible para apoyarte en tu proceso de aprendizaje.",
+      "strengths": [
+        "Reconoces que hubo dedicación al estudio de química",
+        "Identificas claramente el contexto de evaluación",
+        "Presentaste el reporte en tiempo"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de qué temas de química trabajaste",
+        "Identifica con mayor precisión las dificultades que enfrentas en la preparación de evaluaciones",
+        "Desarrolla reflexiones sobre tu proceso de estudio y estrategias utilizadas"
+      ],
+      "createdAt": "2025-10-06T06:11:51.000Z"
+    },
+    {
+      "feedbackId": "bf5123d6-c91e-4b22-a118-a4014f1623bf",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa con la evaluación de química, pero el reporte semanal es tu espacio para reflexionar sobre tu aprendizaje. Llenarlo con la misma frase en todas las preguntas no te permite documentar tu progreso ni ayuda a tu profesor a entender qué comprendiste realmente.\n\nTe animo a que dediques 15-20 minutos la próxima semana para completar el reporte con detalle. Esto no solo mejorará tu calificación, sino que te ayudará a consolidar lo que aprendiste y a identificar qué necesitas reforzar.",
+      "strengths": "Lamentablemente, tu reporte no contiene fortalezas identificables. La respuesta repetida en todas las preguntas no permite evaluar tu comprensión real de los temas de Fase 2.",
+      "improvements": "Problema 1 - Falta de contenido específico: Necesitas responder cada pregunta con información concreta sobre lo que trabajaste en química esta semana. Por ejemplo, en Q1 deberías listar variables como \"temperatura (controlable), presión (controlable), concentración de reactivos (conocida)\" según el experimento que realizaron.\n\nProblema 2 - Ausencia de reflexión personal: El reporte debe mostrar TU pensamiento crítico, no solo una frase genérica. En Q3, por ejemplo, explica: \"Me costó diferenciar entre variables controlables y no controlables porque...\" y luego propón cómo lo resolviste.\n\nProblema 3 - Falta de integración de fases: No evidencias cómo conectas Fase 1 (preguntas de investigación) con Fase 2 (identificación de variables). Deberías mostrar cómo las variables que identificaste responden a las preguntas que planteaste antes.",
+      "createdAt": "2025-10-21T04:45:05.422Z"
+    },
+    {
+      "feedbackId": "f446e9f7-2cfd-4300-8857-c3f8a935f235",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa con la evaluación de química, pero el reporte semanal es una herramienta para que reflexiones sobre tu aprendizaje, no solo para registrar actividades. Tu respuesta actual no permite evaluar tu progreso en pensamiento crítico ni identificar dónde necesitas apoyo.\n\nTe invito a completar este reporte con respuestas genuinas. Dedica 10-15 minutos a reflexionar sobre qué aprendiste sobre variables esta semana y cómo lo aplicarías en nuevos problemas. Esto es mucho más valioso que una respuesta genérica.",
+      "strengths": "Lamentablemente, tu reporte no contiene fortalezas evaluables. La respuesta repetida en todas las preguntas no permite identificar dominio de contenidos, reflexión o progreso en pensamiento crítico.",
+      "improvements": "1. Completar el reporte con respuestas específicas a cada pregunta. Necesitas responder realmente qué temas trabajaste, qué variables identificaste, qué dificultades tuviste y cómo las resolviste. Sin esta información, no podemos evaluar tu aprendizaje.\n\n2. Reflexionar sobre el proceso de identificación de variables. Aunque hayas rendido una evaluación, el reporte busca que analices *cómo* identificas variables en problemas químicos: ¿cuáles son conocidas? ¿cuáles controlables? Esto es diferente a solo rendir una prueba.\n\n3. Documentar ejemplos concretos de tu trabajo. Incluye al menos un problema que hayas resuelto esta semana, las variables que identificaste en él, y cómo las clasificaste según lo aprendido en Fase 1 y Fase 2.",
+      "createdAt": "2025-10-21T04:58:42.818Z"
+    },
+    {
+      "feedbackId": "df3d7bc4-e346-4f58-a49d-fb1a5d93df86",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa con el examen de química, pero el reporte semanal es una herramienta importante para que reflexiones sobre tu aprendizaje y desarrolles pensamiento crítico. Necesitas dedicar tiempo real a completarlo con respuestas genuinas.\n\nTe animo a que en la próxima semana abordes cada pregunta con seriedad. Recuerda que el objetivo no es escribir mucho, sino mostrar que realmente comprendiste cómo identificar y clasificar variables en los problemas que trabajaste.",
+      "strengths": "Lamentablemente, tu reporte no presenta fortalezas evaluables. La respuesta repetida en todas las preguntas no permite identificar dominio de contenidos, aplicación de metodología o reflexión crítica.",
+      "improvements": "Problema 1 - Falta de especificidad en las respuestas:\nNecesitas responder cada pregunta de forma diferenciada y detallada. Por ejemplo, en Q1 deberías listar variables específicas del tema de química que estudiaste (temperatura, presión, concentración, etc.) y clasificarlas según si son conocidas o desconocidas.\n\nProblema 2 - Ausencia de reflexión y análisis:\nEl reporte debe mostrar tu pensamiento crítico. En Q3, por ejemplo, explica qué dificultades tuviste al diferenciar entre variables controlables y no controlables, y qué estrategia usaste para superarlas (hacer esquemas, comparar ejemplos, etc.).\n\nProblema 3 - Falta de conexión con la realidad:\nDebes vincular lo aprendido con situaciones concretas. En Q4, conecta la identificación de variables con un experimento real de química que hayas hecho o visto en clase.",
+      "createdAt": "2025-10-21T05:11:34.958Z"
+    },
+    {
+      "feedbackId": "76889b92-a2d3-4f7e-9fff-e1af16ccc29d",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Tu reporte muestra un buen progreso en la aplicación de TRePEV, especialmente en ejemplos concretos como el BeCl₂ y el agua. Demuestras capacidad para conectar conceptos químicos con otras disciplinas, lo que es excelente para tu pensamiento crítico.\n\nSin embargo, tu análisis aún es descriptivo en lugar de sistemático. Necesitas ser más preciso al clasificar variables y explicar tus estrategias paso a paso. Además, dejaste vacía la pregunta 5, que es una oportunidad importante para reflexionar sobre tu evolución.\n\nPara la próxima semana, te recomiendo: (1) crear listas explícitas de variables conocidas/desconocidas en cada problema, (2) documentar tu proceso de resolución con un checklist ordenado, y (3) completar siempre todas las preguntas, incluyendo reflexiones personales. Esto consolidará tu transición hacia la Fase 3.",
+      "strengths": "• Aplicación práctica de TRePEV: Tu análisis del BeCl₂ es correcto y sistemático. Identificas pares electrónicos, geometría lineal y ángulos de 180° con precisión. Esto muestra que comprendes el método cuando lo aplicas paso a paso.\n• Conexiones interdisciplinarias sólidas: Relacionas la geometría molecular con Matemática (medición de ángulos) y Biología (polaridad del agua y disolución). Tu ejemplo de la \"llave y cerradura\" con proteínas es una analogía clara que demuestra comprensión profunda.\n• Reconocimiento de dificultades reales: Identificas que moléculas complejas requieren precisión en múltiples variables (pares electrónicos, geometría, notación 3D). Esta autoconciencia es valiosa para mejorar tu método de trabajo.",
+      "improvements": "• Clasificación incompleta de variables en Q1: Mencionas temas pero no clasificas variables como \"conocidas/desconocidas\" o \"controlables/no controlables\". Intenta hacer una tabla: en BeCl₂, ¿qué variables conoces (número de átomos)? ¿Cuáles debes calcular (ángulos, geometría)? Esto te ayudará a estructurar mejor tu análisis.\n• Estrategias vagas para moléculas complejas: Dices que \"hay que tomar en cuenta demasiadas cosas\" pero no explicas *cómo* lo haces. Propuesta: crea un checklist ordenado (paso 1: contar electrones de valencia, paso 2: dibujar Lewis, paso 3: identificar pares, paso 4: determinar geometría). Esto convierte una dificultad en un proceso sistemático.\n• Falta de respuesta en Q5: Debes completar esta sección con reflexiones sobre tu progreso desde Fase 1 a Fase 2, o propuestas propias sobre cómo clasificar variables. Dedica 3-4 líneas a reflexionar: ¿Qué has aprendido? ¿Cómo ha mejorado tu forma de identificar variables?",
+      "createdAt": "2025-11-17T13:42:23.043Z"
+    }
+  ]
+}

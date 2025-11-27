@@ -1,0 +1,182 @@
+{
+  "studentId": "u_gcjmjnrnqme1c1o1f",
+  "studentName": "Agustín kemel",
+  "subject": "Física",
+  "academicYear": 2025,
+  "generatedAt": "2025-11-23T23:41:35.567Z",
+  "summary": {
+    "totalWeeks": 4,
+    "averageScore": 45.5,
+    "scoreRange": {
+      "min": 30,
+      "max": 55
+    },
+    "overallTrend": {
+      "type": "stable",
+      "description": "Maintaining consistent performance level",
+      "evidence": [
+        "Stable performance around 46 points",
+        "Score range: 30-55 points"
+      ]
+    }
+  },
+  "performanceAnalysis": {
+    "scoreTrend": [
+      54,
+      30,
+      55,
+      43
+    ],
+    "weekLabels": [
+      "8/3",
+      "8/10",
+      "8/17",
+      "8/31"
+    ],
+    "phaseProgression": "Rango: Fase 1: Inicial → Fase 2: Desarrollo"
+  },
+  "strengthsAnalysis": {
+    "topStrengths": [
+      {
+        "skill": "Habilidad General",
+        "level": "strong",
+        "frequency": 6,
+        "examples": [
+          "El sistema registra tu presencia y seguimiento del curso",
+          "Este feedback puede servirte como recordatorio para mantener la constancia en tus reportes semanales"
+        ]
+      },
+      {
+        "skill": "Reflexión Metacognitiva",
+        "level": "strong",
+        "frequency": 3,
+        "examples": [
+          "Tu autoevaluación ('dominio decente, 6 de 10') muestra honestidad y capacidad de reflexión sobre tu propio proceso",
+          "Tenés la oportunidad de recuperar esta instancia de reflexión en futuros reportes"
+        ]
+      },
+      {
+        "skill": "Comprensión Conceptual",
+        "level": "needs_attention",
+        "frequency": 1,
+        "examples": [
+          "Identificás correctamente los conceptos principales trabajados: MRU, MRUV, caída libre y tiro vertical"
+        ]
+      },
+      {
+        "skill": "Estrategia y Ejecución",
+        "level": "needs_attention",
+        "frequency": 1,
+        "examples": [
+          "Reconocés la importancia del pensamiento crítico en la resolución de problemas de cinemática"
+        ]
+      },
+      {
+        "skill": "Selección de Herramientas",
+        "level": "needs_attention",
+        "frequency": 1,
+        "examples": [
+          "Reconocés que debés aplicar fórmulas y relacionar contenidos previos con actuales"
+        ]
+      }
+    ],
+    "consistentStrengths": [
+      "Habilidad General",
+      "Reflexión Metacognitiva"
+    ]
+  },
+  "areasForGrowth": {
+    "commonChallenges": [
+      {
+        "skill": "Habilidad General",
+        "level": "needs_attention",
+        "frequency": 8,
+        "examples": [
+          "Profundizá tus respuestas: en lugar de decir 'el ejercicio 1 tuve q utilizar pensamiento crítico', explicá QUÉ decisiones tomaste y POR QUÉ",
+          "Completá todas las preguntas del reporte semanal: son fundamentales para tu proceso de aprendizaje"
+        ]
+      },
+      {
+        "skill": "Identificación de Variables",
+        "level": "strong",
+        "frequency": 1,
+        "examples": [
+          "En Q3, especificá qué conceptos o procedimientos te resultaron difíciles: ¿fue identificar variables? ¿aplicar fórmulas? ¿interpretar resultados?"
+        ]
+      },
+      {
+        "skill": "Comprensión Conceptual",
+        "level": "strong",
+        "frequency": 1,
+        "examples": [
+          "Desarrollá las relaciones entre conceptos: ¿cómo se relacionan MRU y MRUV? ¿En qué se diferencia la caída libre del tiro vertical?"
+        ]
+      },
+      {
+        "skill": "Reflexión Metacognitiva",
+        "level": "strong",
+        "frequency": 1,
+        "examples": [
+          "URGENTE: Dedicá más tiempo y esfuerzo a desarrollar tus respuestas. 'Nivel 1' no es una autoevaluación válida"
+        ]
+      },
+      {
+        "skill": "Selección de Herramientas",
+        "level": "strong",
+        "frequency": 1,
+        "examples": [
+          "Especificá SIEMPRE: ¿QUÉ fórmulas aplicaste? ¿CUÁLES fueron las dificultades? ¿CÓMO las resolviste?"
+        ]
+      }
+    ],
+    "recommendedActions": [
+      "Considerar apoyo adicional con tutorías individualizadas"
+    ]
+  },
+  "achievements": [],
+  "recommendations": [
+    "Considerar apoyo adicional con tutorías individualizadas"
+  ],
+  "detailedTimeline": [
+    {
+      "week": "2025-08-04",
+      "score": 54,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": [
+        "Identificás correctamente los conceptos principales trabajados: MRU, MRUV, caída libre y tiro vertical",
+        "Tu autoevaluación ('dominio decente, 6 de 10') muestra honestidad y capacidad de reflexión sobre tu propio proceso",
+        "Profundizá tus respuestas: en lugar de decir 'el ejercicio 1 tuve q utilizar pensamiento crítico', explicá QUÉ decisiones tomaste y POR QUÉ"
+      ]
+    },
+    {
+      "week": "2025-08-11",
+      "score": 30,
+      "phase": "Fase 1: Inicial",
+      "keyInsights": [
+        "El sistema registra tu presencia y seguimiento del curso",
+        "Tenés la oportunidad de recuperar esta instancia de reflexión en futuros reportes",
+        "Completá todas las preguntas del reporte semanal: son fundamentales para tu proceso de aprendizaje"
+      ]
+    },
+    {
+      "week": "2025-08-18",
+      "score": 55,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": [
+        "Identificás correctamente el tema trabajado: tiro oblicuo/parabólico, un contenido complejo de cinemática",
+        "Reconocés que la dificultad estuvo en tomar decisiones, lo cual muestra metacognición sobre tu proceso",
+        "Desarrollá tus respuestas: en lugar de 'hice el ejercicio 3', explicá QUÉ decisiones tomaste y QUÉ aprendiste al hacerlo"
+      ]
+    },
+    {
+      "week": "2025-09-01",
+      "score": 43,
+      "phase": "Fase 1: Inicial",
+      "keyInsights": [
+        "Identificás correctamente el contenido trabajado: tiro oblicuo/parabólico",
+        "Reconocés que debés aplicar fórmulas y relacionar contenidos previos con actuales",
+        "URGENTE: Dedicá más tiempo y esfuerzo a desarrollar tus respuestas. 'Nivel 1' no es una autoevaluación válida"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "studentId": "u_3wmjdusbdme1bxp0i",
+    "studentName": "Uma Valle",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.237868",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 56.73,
+      "minScore": 34,
+      "maxScore": 77,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1bxp0i_2025-08-04_c1d7c8e5",
+      "weekStart": "2025-08-04",
+      "score": 73,
+      "generalComments": "Uma demuestra una comprensión buena (Nivel 3) de la Fase 1 del pensamiento crítico. Entiende el plan de 5 pasos para tomar decisiones y puede aplicarlo en contextos de vida diaria como la elección de carrera. Su autoevaluación como 'nivel 2' es algo conservadora considerando la calidad de sus respuestas, que muestran reflexión genuina sobre el proceso. Destaca su capacidad para identificar tanto fortalezas (pudo listar ventajas y desventajas) como áreas de mejora (dificultad para transferir a física), y propone estrategias concretas de mejora. Sus comentarios adicionales muestran valoración de la utilidad transversal del método.",
+      "strengths": [
+        "Comprende y articula claramente el plan de 5 pasos del pensamiento crítico: ver el problema, juntar info, pensar opciones, ver pros y contras, elegir",
+        "Aplica el método a un ejemplo significativo (elección de carrera), demostrando capacidad de análisis de ventajas y desventajas",
+        "Muestra metacognición al identificar su dificultad específica (pensar varias opciones antes de decidir) y su nivel de desarrollo",
+        "Establece conexiones amplias reconociendo que el método sirve para resolver problemas de física, otras materias y toma de decisiones en general",
+        "Propone estrategia concreta de mejora: practicar con problemas fáciles y usar siempre los 5 pasos para automatizar el proceso"
+      ],
+      "improvements": [
+        "Practicar la transferencia del método de contextos cotidianos a problemas específicos de física, comenzando con ejercicios simples y aumentando gradualmente la complejidad",
+        "Desarrollar el hábito de generar múltiples opciones antes de decidir una solución, incluso cuando la primera parezca obvia (esto fortalece el paso 3 del método)",
+        "Profundizar en Q1 sobre aspectos específicos del pensamiento crítico que aún le resultan desafiantes más allá de pensar varias opciones"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxp0i_2025-08-18_d2e8d9f6",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Uma muestra un progreso excelente en la Fase 3 aplicada al tiro oblicuo. Ha logrado comprender los conceptos fundamentales (independencia de movimientos horizontal y vertical, descomposición de velocidad) y aplicarlos en un problema concreto. Su trabajo en el ejercicio del balcón demuestra dominio de las herramientas: separación de componentes v0x y v0y, resolución de ecuaciones para encontrar el tiempo, y cálculo del alcance. Destaca su uso de estrategias de apoyo (hacer un dibujo, seguir los pasos dados) para superar las dificultades con cuentas largas. Su dominio es bueno (Nivel 3) y las conexiones que establece con matemática y deportes muestran comprensión integrada del fenómeno físico.",
+      "strengths": [
+        "Comprende claramente la independencia entre movimiento horizontal (MRU) y vertical (MRUV) en el tiro oblicuo, identificando que la única fuerza actuante es la gravedad",
+        "Aplica correctamente la descomposición vectorial de velocidad en componentes horizontal y vertical usando trigonometría",
+        "Resuelve exitosamente un problema completo: obtiene tiempo de vuelo mediante ecuación vertical y calcula alcance multiplicando por velocidad horizontal (~40 metros)",
+        "Utiliza estrategias de apoyo efectivas como hacer dibujos y seguir pasos estructurados para manejar ecuaciones complejas",
+        "Establece conexiones interdisciplinarias valiosas con matemática (trigonometría, ecuaciones) y con deportes (movimiento de pelota en el aire)",
+        "Muestra reflexión metacognitiva sobre su evolución: ahora sabe qué pasos seguir en lugar de solo hacer cuentas sin entender"
+      ],
+      "improvements": [
+        "Fortalecer las habilidades algebraicas para resolver ecuaciones cuadráticas y sistemas de ecuaciones de manera más fluida, reduciendo la percepción de cuentas largas",
+        "Profundizar en la comprensión conceptual de por qué se usa cada fórmula en cada componente (eje x vs eje y) para ganar mayor autonomía en la selección de herramientas",
+        "Practicar con problemas de tiro oblicuo con diferentes condiciones iniciales (altura distinta de cero, ángulos variados) para consolidar la flexibilidad metodológica"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxp0i_2025-09-01_e3f9e0a7",
+      "weekStart": "2025-09-01",
+      "score": 63,
+      "generalComments": "Uma está en las etapas de desarrollo de la Fase 4 (Nivel 2-3). Demuestra capacidad para ejecutar cálculos completos de tiro oblicuo (tiempo de vuelo, alcance, altura máxima) y llegar a conclusiones razonables, como en el problema del bunker donde determina que la pelota llega más allá del obstáculo. Sin embargo, enfrenta dificultades con condiciones adicionales complejas y reconoce honestamente que su ausencia a clase afectó su comprensión teórica. Esto es un factor importante: la Fase 4 requiere integración sólida de todas las fases previas, y la falta de base teórica limita la ejecución completa y la verificación de resultados.",
+      "strengths": [
+        "Ejecuta cálculos completos de tiro oblicuo utilizando las ecuaciones apropiadas y obtiene resultados numéricos (alcance máximo)",
+        "Puede interpretar resultados en el contexto del problema planteado (pelota pasa más allá del bunker)",
+        "Reconoce la conexión conceptual entre tiro oblicuo y movimientos previos: MRU en horizontal y MRUV en vertical",
+        "Muestra honestidad sobre sus limitaciones (ausencia a clase, dificultades con teoría) lo cual es importante para recibir el apoyo necesario"
+      ],
+      "improvements": [
+        "Recuperar el contenido teórico perdido por la ausencia: revisar apuntes de compañeros, consultar material de apoyo o solicitar clase de consulta para consolidar fundamentos",
+        "Desarrollar mayor profundidad en la comprensión conceptual de por qué funcionan las ecuaciones del tiro oblicuo, no solo cómo aplicarlas mecánicamente",
+        "Practicar problemas con condiciones adicionales (viento, altura inicial distinta de cero, superficies inclinadas) comenzando con ejercicios guiados y aumentando complejidad gradualmente",
+        "Ampliar las reflexiones en Q5 con preguntas específicas o dudas sobre el tema en lugar de respuestas muy breves como no entendí mucho",
+        "Implementar verificación de resultados: preguntarse si el alcance calculado es razonable dado los datos iniciales, hacer estimaciones previas"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxp0i_2025-09-08_f4a0f1b8",
+      "weekStart": "2025-09-08",
+      "score": 69,
+      "generalComments": "Uma muestra un nivel de desarrollo (Nivel 2-3) en la Fase 2 aplicada al tiro oblicuo. Ha aprendido la teoría sobre descomposición de velocidad en componentes horizontal y vertical, y puede aplicar fórmulas para calcular alcance. Sin embargo, enfrenta dificultades significativas en la organización de variables: no siempre distingue claramente qué datos son relevantes vs irrelevantes, y le cuesta elaborar diagramas de calidad. Su estrategia de anotar datos importantes primero y luego identificar el objetivo es adecuada y muestra pensamiento sistemático. Las conexiones que establece con matemáticas (trigonometría) y educación física (deportes) demuestran comprensión del contexto más amplio del fenómeno.",
+      "strengths": [
+        "Comprende el procedimiento de descomposición de velocidad en componentes horizontal y vertical para problemas de tiro oblicuo",
+        "Logra calcular el alcance usando la fórmula correcta del tiro oblicuo en el problema de la pelota de golf y el lago",
+        "Implementa una estrategia organizada: anotar primero los datos importantes y después identificar qué quiere calcular, evitando confusión",
+        "Establece conexiones interdisciplinarias valiosas con matemáticas (uso de trigonometría para descomponer velocidad) y educación física (movimiento en deportes)"
+      ],
+      "improvements": [
+        "Desarrollar criterios más claros para diferenciar información relevante de irrelevante en los enunciados: practicar subrayando datos esenciales vs contextuales",
+        "Mejorar la habilidad de elaborar diagramas de calidad que representen el problema: practicar con ejercicios donde primero dibuje la situación antes de escribir ecuaciones",
+        "Fortalecer la organización de variables creando tablas sistemáticas (Conocidas | Desconocidas | Buscamos) para cada problema antes de seleccionar fórmulas",
+        "Ampliar las reflexiones en Q5 con observaciones más específicas sobre el proceso de aprendizaje en lugar de respuestas mínimas como nose",
+        "Practicar la aplicación autónoma del proceso: no solo entender más o menos sino poder ejecutar sin ayuda"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxp0i_2025-09-15_a5b1a2c9",
+      "weekStart": "2025-09-15",
+      "score": 75,
+      "generalComments": "Uma muestra un progreso notable en la Fase 4, alcanzando un nivel bueno (Nivel 3). Demuestra comprensión explícita de las 4 fases del método (objetivo y problema, variables, fórmulas, ejecución) y puede aplicarlas paso a paso en problemas concretos. Su trabajo en el ejercicio del jugador de béisbol es exitoso: logra calcular la altura máxima usando la fórmula correcta y reconoce que el apoyo en las fases fue clave para su éxito. Las dificultades que identifica (confundir componentes x e y, elegir la fórmula correcta) son típicas de esta etapa y está implementando estrategias adecuadas (escribir datos y objetivo primero). Las conexiones interdisciplinarias que establece muestran comprensión integrada del fenómeno físico.",
+      "strengths": [
+        "Comprende y articula explícitamente las 4 fases del método: Fase 1 (objetivo y problema), Fase 2 (variables conocidas/desconocidas), Fase 3 (fórmulas), Fase 4 (ejecución)",
+        "Resuelve exitosamente un problema completo de tiro oblicuo: calcula altura máxima usando h_máx = v0y²/(2g) con los datos del jugador de béisbol (30 m/s, 60°)",
+        "Reconoce metacognitivamente que el éxito en el ejercicio se debió al apoyo sistemático en las fases, mostrando comprensión del valor del método",
+        "Implementa estrategia efectiva para evitar confusión: escribir primero datos y objetivo antes de seleccionar fórmulas y ejecutar",
+        "Establece conexiones ricas: con matemáticas (uso de senos y cosenos), con tiro vertical (componente y), y con MRU (componente x), mostrando que comprende el tiro oblicuo como integración de movimientos simples"
+      ],
+      "improvements": [
+        "Fortalecer la diferenciación entre componentes x e y mediante práctica deliberada: crear ejercicios donde identifique explícitamente qué representa cada componente en el contexto del problema",
+        "Desarrollar mayor confianza en la selección de fórmulas mediante creación de fichas de referencia organizadas por tipo de incógnita (altura máxima, alcance, tiempo de vuelo, etc.)",
+        "Ampliar las reflexiones en Q5 más allá de comentarios muy breves como bien, describiendo aspectos específicos que funcionaron o dudas que persisten",
+        "Practicar verificación de resultados: después de calcular, preguntarse si el valor tiene sentido físico (ej: ¿es razonable esa altura dadas las condiciones?)"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "01596896-c92d-44d3-9d97-3d0f93bc59b7",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:09.519Z"
+    },
+    {
+      "feedbackId": "f21fc998-19a8-4ba7-b9ac-1c2683b43205",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:07:29.531Z"
+    },
+    {
+      "feedbackId": "78361046-8c4a-4371-ba9f-32d28bf2c56a",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:52:32.231Z"
+    },
+    {
+      "feedbackId": "6dc99ad2-81a4-492f-8b4f-418071889332",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:39:31.747Z"
+    },
+    {
+      "feedbackId": "f88653b8-3ae9-4c49-8558-6b1636c116f9",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que estás trabajando en las leyes de Newton y que reconoces dónde tienes dificultades, lo cual es muy positivo. Tu cálculo en el ejercicio del auto fue correcto, y es bueno que conectes los conceptos con situaciones reales como ascensores y autos.\n\nSin embargo, tu reporte muestra respuestas muy breves que no evidencian el proceso completo de Fase 2. Necesitas ir más allá de resolver ejercicios: debes *documentar* cómo identificas y clasificas variables en cada problema. Esto es lo que diferencia un cálculo correcto de un pensamiento crítico desarrollado.\n\nPara la próxima semana, te pido que en cada ejercicio hagas una tabla con: variables conocidas, variables desconocidas, variables controlables y no controlables. Esto te ayudará a sistematizar tu análisis y a cumplir realmente con los objetivos de Fase 2.",
+      "strengths": "• Autoconsciencia sobre dificultades: Reconoces honestamente que \"me cuesta identificar bien todas las fuerzas\" y tienes \"nivel medio-bajo\". Esta honestidad es el primer paso para mejorar.\n• Aplicación correcta de fórmulas: En el ejercicio del auto, aplicaste correctamente F = m·a y obtuviste el resultado numérico (2000 N), demostrando que comprendes la relación básica entre magnitudes.\n• Conexiones con fenómenos reales: Identificas que las leyes de Newton se aplican en situaciones cotidianas como el movimiento de autos y ascensores, lo que muestra pensamiento contextualizado.",
+      "improvements": "• Clasificación sistemática de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables. Practica creando tablas de dos columnas para cada problema: en una columna lista qué sabes (datos), en otra qué buscas. Esto es fundamental para Fase 2.\n• Análisis completo del proceso, no solo resultados: Tu respuesta en Q2 es solo un número. Necesitas documentar: (1) qué variables identificas, (2) cómo las clasificas, (3) qué fórmula usas y por qué. Esto integra Fase 1+2 correctamente.\n• Estrategias específicas y medibles: En lugar de \"miro videos\", propón: \"Haré 3 diagramas de fuerzas diarios identificando cada fuerza por tipo (normal, fricción, aplicada)\" o \"Crearé una lista de variables antes de resolver cada ejercicio\". Las estrategias concretas funcionan mejor.",
+      "createdAt": "2025-10-27T05:01:05.793Z"
+    },
+    {
+      "feedbackId": "44fca483-2744-4b6b-8a10-c8859e281ed3",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que participaste activamente en la construcción del vehículo, lo que es excelente para aprender Física de forma práctica. Sin embargo, tu reporte semanal necesita mucho más detalle y profundidad para que podamos evaluar realmente si comprendiste la identificación y clasificación de variables, que es el objetivo central de la Fase 2.\n\nEsta semana tu desempeño muestra que tienes las ganas de aprender, pero te falta organizar y comunicar lo que aprendiste. Reconoces que \"está costando entender todos los temas\", y eso es honesto, pero necesitamos trabajar juntos para aclarar esas dudas específicamente.\n\nPara la próxima semana, te pido que: (1) escribas con más detalle qué variables identificaste en cada actividad, (2) clasifiques cada variable claramente, y (3) completes todas las preguntas del reporte, incluso si es con pocas líneas. Vamos a mejorar esto juntos.",
+      "strengths": "• Participación en actividades prácticas: Realizaste el proyecto del vehículo con materiales concretos (cartón, pajitas, tapitas), lo que muestra disposición a aprender haciendo y no solo en teoría.\n• Reconocimiento de dificultades: Identificas honestamente que \"está costando entender todos los temas\", lo que es el primer paso para buscar ayuda y mejorar.\n• Intención de integración: Mencionas un informe sobre \"todo lo visto\", lo que sugiere que intentaste conectar la práctica con la teoría, aunque no lo desarrolles en detalle.",
+      "improvements": "• Especificar variables del proyecto: En tu próximo reporte, lista exactamente qué variables trabajaste en el vehículo (ej: masa del auto, longitud de la pista, fuerza del aire comprimido). Luego clasifica cada una: ¿es conocida o desconocida? ¿Puedes controlarla o no? Esto es fundamental para la Fase 2.\n• Desarrollar respuestas completas: Tus respuestas son muy cortas y generales. Dedica más tiempo a explicar con ejemplos concretos. Por ejemplo, en Q4 podrías escribir: \"Las variables de velocidad y distancia se conectan con la tecnología de los autos reales porque los ingenieros deben controlar estas magnitudes para diseñar vehículos seguros.\"\n• Completar todas las secciones: La pregunta 5 está vacía. Siempre reflexiona sobre lo que aprendiste, qué te sorprendió o qué te gustaría mejorar. Esto ayuda a tu pensamiento crítico y nos permite entender mejor tu proceso de aprendizaje.",
+      "createdAt": "2025-11-17T13:58:22.005Z"
+    }
+  ]
+}

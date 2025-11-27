@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "studentId": "dd1eabdb-0134-4a75-8960-a73a389388bd",
+    "studentName": "Josefina Verdier",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.208244",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 64.0,
+      "minScore": 60,
+      "maxScore": 67,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_389388bd_2025-08-11_a638db1e",
+      "weekStart": "2025-08-11",
+      "score": 60,
+      "generalComments": "Buen esfuerzo en la identificación de conceptos básicos. El trabajo muestra comprensión inicial pero necesita mayor profundidad en el análisis y aplicación de los conceptos de estructura atómica.",
+      "strengths": [
+        "Identifica algunos elementos clave relacionados con la estructura del átomo",
+        "Intenta organizar la información de manera coherente",
+        "Demuestra esfuerzo en comprender los conceptos básicos"
+      ],
+      "improvements": [
+        "Necesita profundizar en la explicación de las diferencias entre protones, neutrones y electrones",
+        "Debe mejorar la comprensión de cómo se distribuyen los electrones en niveles de energía",
+        "Sería beneficioso incluir más ejemplos concretos y relaciones entre conceptos",
+        "Debe trabajar en la aplicación práctica de los conocimientos sobre configuración electrónica"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "3ee598fb-fe51-422e-9bfe-9162f9b6b65b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 67,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:45.780Z"
+    },
+    {
+      "feedbackId": "674866fd-53f1-455f-9beb-bcf9a9b3db76",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 67,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:52.566Z"
+    },
+    {
+      "feedbackId": "65a94f7b-7fce-41a9-8fd5-af4d24adc288",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana fue de evaluaciones parciales y no hubo clases regulares de Química. Es completamente válido que tu reporte refleje esta situación. Sin embargo, es importante que mantengas el hábito de pensamiento crítico incluso en semanas sin contenido nuevo.\n\nTe sugiero que en futuras semanas sin clases, dediques tiempo a revisar conceptos anteriores, formular preguntas sobre lo que no entendiste bien, o reflexionar sobre cómo aplicarías lo aprendido. Esto mantiene tu mente activa en el análisis y la crítica.\n\nCuando retomemos las clases regulares la próxima semana, estarás listo para continuar con la Fase 2 con mayor claridad. Asegúrate de traer tus dudas sobre los temas que vimos antes de los parciales.",
+      "strengths": "• Comunicación clara de la situación: Informaste proactivamente que esta semana no hubo clases de Química debido a los parciales. Esto demuestra responsabilidad y honestidad en tu reporte.",
+      "improvements": "• Aprovecha las semanas de evaluación para reflexionar: Aunque no hay clases nuevas, podrías usar este tiempo para revisar conceptos de Fases anteriores o preparar preguntas sobre temas que te hayan resultado difíciles. Esto enriquecería tu reporte incluso en semanas sin contenido nuevo.\n• Completa todas las secciones del reporte: Aunque Q5 (Comentarios adicionales) estaba vacía, podrías haber añadido reflexiones sobre cómo te fue en los parciales o qué temas necesitas reforzar. Esto mantiene el hábito de análisis crítico.",
+      "createdAt": "2025-11-17T13:41:49.883Z"
+    }
+  ]
+}

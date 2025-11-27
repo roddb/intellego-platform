@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "studentId": "u_e06uzoxujme1bwdgt",
+    "studentName": "Mateo Delaygue",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.223024",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 48.55,
+      "minScore": 34,
+      "maxScore": 65,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 43,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Muestras cierta comprensión del contexto general del pensamiento crítico. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Muestras cierta comprensión del contexto general del pensamiento crítico",
+        "Reconoces la existencia del pensamiento crítico como herramienta",
+        "Realizas conexiones básicas del pensamiento crítico con el ámbito escolar"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas más allá de respuestas genéricas"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Realizas conexiones interesantes entre el comportamiento de gases y aplicaciones cotidianas como llantas y globos. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas más allá de \"entender qué pide el ejercicio\". Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Realizas conexiones interesantes entre el comportamiento de gases y aplicaciones cotidianas como llantas y globos",
+        "Identificas el tema de trabajo (comportamiento de gases)",
+        "Mencionas la aplicación del pensamiento crítico al ejercicio"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión del contexto del problema antes de avanzar a la siguiente fase",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas, siendo más específico que decir simplemente entender qué pide"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Tu capacidad para seguir un proceso sistemático es apropiada, evidenciando los cuatro pasos del método de pensamiento crítico. Es importante mejorar la planificación de tu estrategia antes de ejecutar, profundizando en qué significa plantear el problema. Desarrolla estrategias más específicas para superar tus desafíos en la identificación de la problemática. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Tu capacidad para seguir un proceso sistemático es apropiada, evidenciando los cuatro pasos del método",
+        "Organizas adecuadamente el proceso de resolución siguiendo la secuencia correcta",
+        "Realizas conexiones básicas con aplicaciones prácticas de gases en la vida cotidiana"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, profundizando en qué significa plantear el problema",
+        "Desarrolla estrategias más específicas para superar tus desafíos en la identificación de la problemática",
+        "Trabaja en explicitar qué significa entender y plantear el problema más allá de seguir pasos mecánicamente"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 62,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Integras exitosamente los conocimientos de las fases anteriores al mencionar objetivo, variables, fórmulas y resolución. Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente en el planteo matemático. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y encontrar las fórmulas correctas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las fases anteriores al mencionar objetivo, variables, fórmulas y resolución",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica",
+        "Identificas dificultades específicas con el planteo matemático y las fórmulas"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente en el planteo matemático",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas para consolidar el proceso de selección de fórmulas"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 64,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al ubicarte en dominio 1 con autocrítica honesta. Integras exitosamente los conocimientos de las fases anteriores siguiendo el método de cuatro pasos. Es importante mejorar la planificación de tu estrategia antes de ejecutar, consolidando la identificación de fórmulas. Debes practicar más la aplicación de ecuaciones a situaciones concretas para superar la dificultad que identificas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al ubicarte en dominio 1 con autocrítica honesta",
+        "Integras exitosamente los conocimientos de las fases anteriores siguiendo el método de cuatro pasos",
+        "Identificas con precisión tus dificultades específicas: identificar fórmulas y cómo resolverlas"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, consolidando la identificación de fórmulas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas para superar la dificultad que identificas",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, ampliando tus respuestas más allá de lo mínimo"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_jme1bwdgt_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 59,
+      "generalComments": "Querido Mateo Delaygue, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Integras exitosamente los conocimientos de las fases anteriores con mayor detalle en tu descripción del proceso. Es importante mejorar la planificación de tu estrategia antes de ejecutar, abordando las tres dificultades que identificas: plantear, problemática y resolver. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y la ejecución sistemática de los cálculos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las fases anteriores con mayor detalle en tu descripción del proceso",
+        "Ejecutas los pasos de resolución de manera ordenada mencionando análisis y deducción del objetivo",
+        "Realizas conexiones básicas del tema con la vida cotidiana al mencionar comportamiento de gases"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, abordando las tres dificultades que identificas",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y encontrar fórmulas útiles",
+        "Debes ser más sistemático en la ejecución de los pasos de resolución, profundizando en cada uno más allá de simplemente resolví"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "5b8c6a0b-d36a-4e4b-a9a6-6a0bff144298",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:28:21.304Z"
+    },
+    {
+      "feedbackId": "774c5705-8912-436a-9c7b-41acd6df2329",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:09.387Z"
+    },
+    {
+      "feedbackId": "90e0b831-7818-47a2-8d16-8878304c12ee",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:56.912Z"
+    },
+    {
+      "feedbackId": "6b721b6e-f2f6-4bb6-b7ad-2ea574aafd5c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:32:27.811Z"
+    },
+    {
+      "feedbackId": "0674fa0e-6340-4034-9ebe-ddd79115c818",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que trabajaste en clase y completaste las actividades sobre uniones químicas, lo cual es un buen inicio. Sin embargo, tu reporte semanal no refleja el análisis profundo que esperamos en Fase 2. Las respuestas son muy cortas y generales, sin ejemplos concretos de las variables que identificaste.\n\nTu desempeño esta semana muestra que necesitas más tiempo para procesar y reflexionar sobre lo aprendido. El nivel 2 que asignaste en dominio es honesto, pero esto significa que debemos trabajar juntos para fortalecer tu capacidad de identificar y clasificar variables químicas.\n\nPara la próxima semana, te pido que dediques más tiempo a cada pregunta del reporte. Escribe ejemplos específicos de moléculas que estudiaste, lista las variables que identificaste y explica cómo las clasificaste. Esto te ayudará a consolidar el aprendizaje y prepararte mejor para Fase 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces tu nivel de dominio como 2, lo que muestra cierta conciencia de que necesitas refuerzo en el tema de uniones químicas.\n• Participación en la actividad: Completaste la tarea de dibujar uniones y clasificar tipos de enlace, lo que demuestra que trabajaste en clase.",
+      "improvements": "• Profundidad en identificación de variables: Necesitas ir más allá de describir la actividad. En Fase 2, debes identificar explícitamente qué variables trabajaste (ej: tipo de enlace, diferencia de electronegatividad, energía de enlace) y clasificarlas como conocidas/desconocidas o controlables/no controlables. Practica haciendo una lista de 5-6 variables por cada problema químico.\n• Análisis de dificultades específicas: En lugar de decir \"principalmente ninguna\", reflexiona genuinamente: ¿Qué te costó? ¿Confundiste enlace iónico con covalente? ¿Te fue difícil identificar qué variables eran controlables? Describe el problema concreto y la estrategia que usaste para resolverlo.\n• Completitud del reporte: Tus respuestas son demasiado breves. Cada pregunta requiere 3-5 oraciones mínimo para demostrar pensamiento crítico. Dedica tiempo a reflexionar sobre cada pregunta antes de escribir, no solo respuestas automáticas.",
+      "createdAt": "2025-11-12T22:57:20.760Z"
+    }
+  ]
+}

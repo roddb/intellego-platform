@@ -1,0 +1,211 @@
+{
+  "studentId": "d5aec9ad-a91c-4304-87e1-01fa6f8d399b",
+  "studentName": "Agustin Gonzalez Castro Feijoo",
+  "subject": "Química",
+  "academicYear": 2025,
+  "generatedAt": "2025-11-23T23:41:35.438Z",
+  "summary": {
+    "totalWeeks": 9,
+    "averageScore": 59.22,
+    "scoreRange": {
+      "min": 36,
+      "max": 72
+    },
+    "overallTrend": {
+      "type": "stable",
+      "description": "Maintaining consistent performance level",
+      "evidence": [
+        "Stable performance around 59 points",
+        "Score range: 36-72 points"
+      ]
+    }
+  },
+  "performanceAnalysis": {
+    "scoreTrend": [
+      72,
+      70,
+      36,
+      72,
+      50,
+      50,
+      62,
+      62,
+      59
+    ],
+    "weekLabels": [
+      "8/10",
+      "8/17",
+      "9/14",
+      "9/21",
+      "9/29",
+      "9/29",
+      "10/6",
+      "10/6",
+      "10/20"
+    ],
+    "phaseProgression": "Rango: Fase 1: Inicial → Fase 3: Competencia"
+  },
+  "strengthsAnalysis": {
+    "topStrengths": [
+      {
+        "skill": "Identificación de Variables",
+        "level": "developing",
+        "frequency": 5,
+        "examples": [
+          "Tu capacidad para clasificar y categorizar información es efectiva",
+          "Identificas correctamente las variables involucradas en sistemas buffer y equilibrio químico"
+        ]
+      },
+      {
+        "skill": "Habilidad General",
+        "level": "developing",
+        "frequency": 5,
+        "examples": [
+          "Reconoces las magnitudes físicas/químicas relevantes y sus unidades",
+          "Comprendes las ecuaciones fundamentales de constante de equilibrio Kc y principio de Le Chatelier"
+        ]
+      },
+      {
+        "skill": "Selección de Herramientas",
+        "level": "needs_attention",
+        "frequency": 1,
+        "examples": [
+          "Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico"
+        ]
+      }
+    ],
+    "consistentStrengths": [
+      "Identificación de Variables",
+      "Habilidad General"
+    ]
+  },
+  "areasForGrowth": {
+    "commonChallenges": [
+      {
+        "skill": "Fundamentación",
+        "level": "developing",
+        "frequency": 3,
+        "examples": [
+          "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en la pregunta Q5",
+          "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en las preguntas reflexivas"
+        ]
+      },
+      {
+        "skill": "Identificación de Variables",
+        "level": "strong",
+        "frequency": 2,
+        "examples": [
+          "Es importante profundizar más en la reflexión sobre la importancia de las variables para alcanzar comprensión completa",
+          "• Respuestas muy breves en Q1, Q3, Q4 y Q5: Tus respuestas a estas preguntas son incompletas (1-2 líneas máximo). Necesitas desarrollar cada respuesta con ejemplos concretos. Por ejemplo, en Q1 deberías listar variables específicas: \"Variables conocidas: concentración inicial, volumen; Variables controlables: temperatura, presión; Variables desconocidas: pH final, concentración de iones.\"\n• Falta de reflexión metacognitiva sobre dificultades: En Q3, no identificas dificultades reales con la identificación de variables. Sugiero que reflexiones: ¿Qué te cuesta más? ¿Distinguir entre variables controlables y no controlables? ¿Identificar todas las especies iónicas? Luego propón estrategias concretas para superarlas.\n• Ausencia de conexiones explícitas con fenómenos reales: En Q4, mencionas \"matemática y física\" pero sin conectar con situaciones concretas. Intenta: \"En la síntesis de SO₃, la presión es una variable controlable que afecta el equilibrio; en laboratorio, controlamos temperatura para desplazar el equilibrio hacia productos.\" Esto muestra transferencia real."
+        ]
+      },
+      {
+        "skill": "Estrategia y Ejecución",
+        "level": "strong",
+        "frequency": 2,
+        "examples": [
+          "Necesitas ser más sistemático/a en la ejecución de los pasos de resolución",
+          "Aunque resolviste los ejercicios conceptuales, falta evidencia de ejecución numérica completa con cálculos de Kc o aplicación de tablas ICE"
+        ]
+      },
+      {
+        "skill": "Ejecución Matemática",
+        "level": "strong",
+        "frequency": 2,
+        "examples": [
+          "Es importante profundizar más en cálculos de equilibrio para alcanzar comprensión completa",
+          "Desarrolla más la respuesta de Q4: ¿cómo se conectan conceptualmente matemática y física con equilibrio químico, más allá de usar cálculos?"
+        ]
+      },
+      {
+        "skill": "Habilidad General",
+        "level": "strong",
+        "frequency": 2,
+        "examples": [
+          "En Q3, realización de la fase teórica es muy genérico; especifica qué aspectos teóricos te resultaron difíciles",
+          "Evita respuestas vacías en Q5; usa ese espacio para reflexionar sobre tu evolución o plantear preguntas que tengas"
+        ]
+      }
+    ],
+    "recommendedActions": [
+      "Practicar justificar cada paso del razonamiento con evidencias específicas"
+    ]
+  },
+  "achievements": [
+    "Completó 9 semanas de reportes, demostrando compromiso sostenido"
+  ],
+  "recommendations": [
+    "Practicar justificar cada paso del razonamiento con evidencias específicas"
+  ],
+  "detailedTimeline": [
+    {
+      "week": "2025-08-11",
+      "score": 72,
+      "phase": "Fase 3: Competencia",
+      "keyInsights": [
+        "Tu capacidad para clasificar y categorizar información es efectiva",
+        "Identificas correctamente las variables involucradas en sistemas buffer y equilibrio químico",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en la pregunta Q5"
+      ]
+    },
+    {
+      "week": "2025-08-18",
+      "score": 70,
+      "phase": "Fase 3: Competencia",
+      "keyInsights": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico",
+        "Comprendes las ecuaciones fundamentales de constante de equilibrio Kc y principio de Le Chatelier",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en Q3 y Q4"
+      ]
+    },
+    {
+      "week": "2025-09-15",
+      "score": 36,
+      "phase": "Fase 1: Inicial",
+      "keyInsights": [
+        "Identificas correctamente las variables involucradas en equilibrio químico",
+        "Necesitas ser más sistemático/a en la ejecución de los pasos de resolución"
+      ]
+    },
+    {
+      "week": "2025-09-22",
+      "score": 72,
+      "phase": "Fase 3: Competencia",
+      "keyInsights": [
+        "Demuestras capacidad de aplicar el pensamiento crítico a situaciones cotidianas (ejercicio de la mayonesa como equilibrio químico)",
+        "Interpretas correctamente gráficos de equilibrio y predices comportamiento del sistema ante cambios (ejercicio 9)",
+        "Aunque resolviste los ejercicios conceptuales, falta evidencia de ejecución numérica completa con cálculos de Kc o aplicación de tablas ICE"
+      ]
+    },
+    {
+      "week": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": []
+    },
+    {
+      "week": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": []
+    },
+    {
+      "week": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": []
+    },
+    {
+      "week": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": []
+    },
+    {
+      "week": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": []
+    }
+  ]
+}

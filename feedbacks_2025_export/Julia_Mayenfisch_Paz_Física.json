@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "studentId": "u_g4dq2j6g8me1bxxtu",
+    "studentName": "Julia Mayenfisch Paz",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.210634",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 77.25,
+      "minScore": 62,
+      "maxScore": 92.5,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1bxxtu_2025-08-04_e9f5e6a2",
+      "weekStart": "2025-08-04",
+      "score": 92.5,
+      "generalComments": "¡Excelente trabajo, Julia! Tu comprensión del pensamiento crítico es excepcional. Demostraste dominio completo de la Fase 1 con tu análisis claro y profundo de las conversaciones. Tu autoevaluación de nivel 4 es totalmente acertada: no solo comprendes el concepto, sino que puedes aplicarlo, explicarlo a otros y relacionarlo con otros temas. Tu capacidad para identificar características específicas del pensamiento crítico y reescribir la conversación A muestra pensamiento de alto nivel.",
+      "strengths": [
+        "Identificación precisa de la conversación B como ejemplo de pensamiento crítico con justificación clara",
+        "Reconocimiento de características clave: 'hacer preguntas antes de actuar, buscar evidencia, considerar varias perspectivas'",
+        "Aplicación práctica: reescritura exitosa de la conversación A transformándola en diálogo con pensamiento crítico",
+        "Autoevaluación madura y precisa (nivel 4) con criterios claros: 'puedo aplicarlo correctamente, explicarlo a otros y relacionarlo'",
+        "Conexión inteligente del tema con todas las materias, reconociendo su aplicabilidad universal",
+        "Respuestas concisas pero completas, sin información innecesaria"
+      ],
+      "improvements": [
+        "Aunque tu trabajo es excelente, podrías profundizar en Q3 mencionando algún desafío menor que te haya ayudado a consolidar el aprendizaje",
+        "En futuras fases, mantener este nivel de precisión y claridad en la justificación de tus respuestas"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "d892baeb-a391-418f-8f11-79951d9f3ee1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que realizaste un buen trabajo práctico en el proyecto de las leyes de Newton y lograste completar las tareas físicas propuestas. Tu conexión con MRUV muestra que estás pensando en cómo los conceptos se aplican en la realidad, lo cual es excelente.\n\nSin embargo, tu reporte no refleja el análisis profundo que requiere la Fase 2. Estás describiendo *qué hiciste*, pero no *cómo identificaste y clasificaste las variables* del problema. Esto es crucial para desarrollar pensamiento crítico en Física.\n\nPara la próxima semana, enfócate en documentar explícitamente cada variable de tu proyecto: cuáles conocías, cuáles desconocías, cuáles podías controlar y cuáles no. Esto transformará tu reporte de descriptivo a analítico, que es el objetivo de esta fase.",
+      "strengths": "• Conexión con conceptos previos: Logras vincular tu proyecto con MRUV, demostrando que reconoces cómo las leyes de Newton se aplican en situaciones reales como la aceleración del vehículo con globo.\n• Identificación de desafíos prácticos: Reconoces claramente el problema técnico central (\"mantener juntos ejes y cartón sin impedir rotación\"), lo que muestra pensamiento sobre restricciones físicas reales.\n• Trabajo colaborativo completado: Mencionas que realizaron el proyecto \"exitosamente\", indicando que lograste llevar a cabo las tareas prácticas propuestas en equipo.",
+      "improvements": "• Falta de identificación explícita de variables: No nombras qué variables trabajaste (masa del vehículo, presión del aire, tiempo, distancia, etc.). En Fase 2 debes listar y clasificar cada variable. Sugerencia: Haz una tabla con columnas \"Variable | Conocida/Desconocida | Controlable/No controlable\" para tu proyecto.\n• Ausencia de análisis sistemático: Tus respuestas describen acciones, no procesos de pensamiento crítico. Necesitas explicar *cómo* identificaste variables y *por qué* las clasificaste así. Intenta responder: \"Identifiqué que la masa es una variable controlable porque...\"\n• Respuesta vacía en Q5: Debes reflexionar sobre lo aprendido. Pregúntate: ¿Qué importancia tuvieron las variables en tu proyecto? ¿Cómo evolucionó tu comprensión desde la Fase 1? Dedica 3-4 líneas a esto en el próximo reporte.",
+      "createdAt": "2025-11-17T13:43:25.861Z"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "studentId": "u_0wl5v4c4qme3gkssk",
+    "studentName": "Juana Del Giudice",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.210408",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 48.64,
+      "minScore": 27,
+      "maxScore": 72,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querida Juana Del Giudice,\n\nDebido a tu ausencia por viaje familiar, no fue posible evaluar tu progreso en Química durante esta semana. Agradezco que hayas comunicado tu situación con anticipación a través de tus padres.\n\nEs fundamental que te pongas al día con el contenido trabajado durante tu ausencia, especialmente los fundamentos del pensamiento crítico y la metodología de trabajo que se presentó.\n\nTe sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Comunicaste tu ausencia de manera responsable a través de tus padres",
+        "Mostraste interés por conocer la organización del cuatrimestre",
+        "Demostraste compromiso al completar el reporte a pesar de tu ausencia"
+      ],
+      "improvements": [
+        "Es fundamental ponerse al día con los contenidos introductorios del pensamiento crítico",
+        "Necesitas recuperar la presentación de la metodología de cinco pasos",
+        "Te recomiendo coordinar una reunión para recibir el material de la primera semana"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Querida Juana Del Giudice,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en problemas de equilibrio químico y organizas adecuadamente los datos utilizando la matriz 2×2.\n\nEs importante mejorar la organización y clasificación de los datos disponibles de manera más autónoma. Te recomiendo desarrollar estrategias más específicas para superar tus desafíos sin depender exclusivamente de herramientas externas.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables en problemas de equilibrio químico",
+        "Organizas adecuadamente los datos usando la matriz 2×2",
+        "Realizas autoevaluación precisa de tu nivel de dominio"
+      ],
+      "improvements": [
+        "Es importante mejorar la clasificación de variables de manera más autónoma",
+        "Desarrolla estrategias propias antes de recurrir a herramientas externas",
+        "Practica la distinción entre variables controlables y no controlables"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 50,
+      "generalComments": "Querida Juana Del Giudice,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes las definiciones teóricas de reacción reversible, equilibrio dinámico y constante de equilibrio.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y aplicar ecuaciones a situaciones concretas. Es fundamental consolidar la conexión entre teoría y práctica mediante ejercicios guiados. Te recomiendo solicitar apoyo personalizado para trabajar ejercicios paso a paso.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes las definiciones teóricas de reacción reversible y equilibrio dinámico",
+        "Identificas correctamente qué es la constante de equilibrio",
+        "Demuestras perseverancia al buscar múltiples fuentes de apoyo"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la aplicación de ecuaciones a situaciones concretas",
+        "Es fundamental consolidar la conexión entre teoría y práctica",
+        "Te recomiendo solicitar apoyo personalizado docente para ejercicios paso a paso"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Querida Juana Del Giudice,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances significativos en Química. Muestras evidencia clara de aplicación de las cuatro fases en la resolución del ejercicio 5, con cálculos organizados y resultado correcto.\n\nEs importante mejorar la confianza en tu proceso y la identificación precisa de tus fortalezas reales. Necesitas fortalecer la reflexión metacognitiva para reconocer cuando resuelves correctamente. Te recomiendo documentar tu proceso de pensamiento en los comentarios adicionales.\n\nTu progreso es notable. Continúa trabajando con esta dedicación.",
+      "strengths": [
+        "Muestras aplicación clara de las cuatro fases en tu resolución",
+        "Ejecutas cálculos de manera organizada y sistemática",
+        "Demuestras capacidad para calcular molaridades y aplicar Kc correctamente"
+      ],
+      "improvements": [
+        "Es importante mejorar la confianza en tu capacidad de resolución",
+        "Necesitas reconocer cuando ejecutas procedimientos correctamente",
+        "Te recomiendo documentar tu proceso de pensamiento para desarrollar metacognición"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 45,
+      "generalComments": "Querida Juana Del Giudice,\n\nTe encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Química. Aunque presentas una resolución completa del problema de equilibrio N2+3H2=2NH3 con cálculo correcto de Kc=4, tu autopercepción no refleja tu capacidad real.\n\nEs fundamental que desarrolles mayor confianza en tu proceso de resolución y participes más activamente durante la clase en lugar de solo copiar del pizarrón. Proporciona evidencias más concretas de tu proceso de aprendizaje en tus propias palabras.\n\nRecuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Presentas resolución completa con cálculo correcto de Kc=4",
+        "Aplicas correctamente estequiometría en el cálculo de moles en equilibrio",
+        "Demuestras capacidad para convertir moles a molaridades"
+      ],
+      "improvements": [
+        "Es fundamental desarrollar mayor confianza en tu capacidad de resolución",
+        "Necesitas participar más activamente en clase en lugar de solo copiar",
+        "Proporciona explicaciones en tus propias palabras del proceso que seguiste"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 72,
+      "generalComments": "Querida Juana Del Giudice,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Tu resolución del ejercicio 1 del modelo de examen muestra organización clara con secciones de datos, procedimiento y resultado, y cálculo correcto de Kc=0.015.\n\nEs importante que incluyas reflexiones en los comentarios adicionales sobre tu proceso de preparación para la prueba. Te recomiendo documentar qué estrategias de estudio te resultaron más efectivas.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Tu resolución muestra organización clara con estructura Datos-Procedimiento-Resultado",
+        "Calculas correctamente Kc=0.015 aplicando la expresión apropiada",
+        "Demuestras iniciativa al buscar apoyo tutorial proactivamente"
+      ],
+      "improvements": [
+        "Es importante documentar reflexiones sobre tu preparación en comentarios adicionales",
+        "Te recomiendo registrar qué estrategias de estudio te resultaron más efectivas",
+        "Continúa desarrollando mayor autonomía en la identificación de tus fortalezas"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e3gkssk_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querida Juana Del Giudice,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Tu resolución de la actividad integradora demuestra capacidad para calcular Kc=1.39, porcentaje de conversión 70%, y cociente Qc=0.36, interpretando correctamente que Qc<Kc.\n\nEs importante que identifiques con mayor precisión cuáles fórmulas específicas te generan dificultad y en qué momentos. Te recomiendo crear una guía personal de decisión que indique cuándo usar cada fórmula según el dato que buscas.\n\nTu progreso es notable. Continúa trabajando con esta dedicación.",
+      "strengths": [
+        "Resuelves problema complejo con múltiples partes (Kc, conversión, Qc)",
+        "Interpretas correctamente la comparación Qc<Kc indicando desplazamiento",
+        "Demuestras capacidad para trabajar colaborativamente con tu grupo"
+      ],
+      "improvements": [
+        "Es importante identificar con precisión qué fórmulas específicas te generan dificultad",
+        "Te recomiendo crear una guía personal indicando cuándo usar cada fórmula",
+        "Trabaja en reconocer qué dato buscas para seleccionar la herramienta apropiada"
+      ],
+      "createdAt": "2025-10-07T18:00:00Z"
+    },
+    {
+      "feedbackId": "9d2838e5-0a56-4109-987b-11dc370dca84",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:53.737Z"
+    },
+    {
+      "feedbackId": "90cf082c-811a-4e3f-873f-e4b24ad53db4",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:10:44.381Z"
+    },
+    {
+      "feedbackId": "bcabf703-26f2-4161-96a4-fc24d0182796",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:43:42.838Z"
+    },
+    {
+      "feedbackId": "2c0c7d15-f89f-45d2-819a-e0f5aa1abc47",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:23:06.900Z"
+    },
+    {
+      "feedbackId": "8b594cf0-913d-4fbb-9db1-33131f23da02",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que trabajaste en ácidos y bases esta semana y que hiciste un esfuerzo por resolver los ejercicios. Los cálculos que presentas están correctos, lo que muestra que entiendes las fórmulas matemáticas. Sin embargo, tu reporte no refleja el trabajo de la Fase 2 como debería.\n\nEl objetivo de esta fase es que aprendas a identificar y clasificar variables, no solo a hacer cálculos. Necesitas ser más específico: ¿cuáles eran tus datos? ¿Cuáles eran incógnitas? ¿Qué magnitudes físicas medías? Esto es lo que diferencia un reporte de Fase 2 de uno de Fase 1.\n\nPara la próxima semana, te pido que completes todas las preguntas y que seas muy concreto al describir variables y dificultades. Si pides ayuda a una amiga, está bien, pero luego debes reflexionar solo sobre qué aprendiste. Así consolidarás el conocimiento.",
+      "strengths": "• Reconocimiento honesto de dificultades: Admites que necesitaste ayuda y que lo práctico fue más difícil que lo teórico. Esta autoconsciencia es el primer paso para mejorar.\n• Cálculos matemáticos precisos: Los valores que presentas (pH = 2,284, pOH = 11,716, OH⁻ = 1,82×10⁻¹² M) están correctamente calculados, mostrando que comprendes las fórmulas matemáticas básicas.\n• Intento de estructura en Fase 2: Aunque incompleto, intentas organizar tu trabajo en fases (Fase 1, 2, 3, 4), lo que muestra que reconoces que hay un proceso metodológico a seguir.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En tu próximo reporte, lista las variables que trabajaste. Por ejemplo: \"Variables conocidas: Kw = 1,0×10⁻¹⁴, [H3O⁺] = 5,20×10⁻³ M. Variables desconocidas: [OH⁻], pH, pOH.\" Esto es lo que espera la Fase 2.\n• Describe dificultades específicas con estrategias concretas: En lugar de \"me costó,\" escribe: \"Me costó diferenciar entre magnitudes intensivas (pH) y extensivas (concentración). Estrategia: hice una tabla comparativa de propiedades.\" Esto demuestra metacognición real.\n• Completa todas las preguntas del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar: \"¿Por qué es importante clasificar variables?\" o \"¿Cómo cambió mi comprensión desde Fase 1?\" Estas reflexiones profundizan tu aprendizaje.",
+      "createdAt": "2025-11-03T12:23:22.744Z"
+    },
+    {
+      "feedbackId": "9b2f6432-150e-4ace-85fb-f227bb7cd01a",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que fue una semana intensa con parciales, pero necesito que dediques tiempo a completar este reporte de pensamiento crítico. El objetivo no es solo pasar exámenes, sino reflexionar sobre cómo identificas y clasificas variables en problemas de Física y Química.\n\nTu reporte actual está incompleto y no permite evaluar tu comprensión de Fase 2. Esto es importante porque estas habilidades son la base para las fases siguientes del pensamiento crítico. Sin esta reflexión documentada, no puedo saber qué conceptos dominaste y cuáles necesitan refuerzo.\n\nPara la próxima semana, te pido que completes un reporte detallado. Tómate 20-30 minutos para responder cada pregunta con ejemplos concretos de lo que trabajaste. Esto te ayudará a consolidar el aprendizaje y a prepararte mejor para las siguientes fases.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Para poder reconocer tus logros, necesito que completes el reporte con respuestas detalladas sobre los temas trabajados en Fase 2.",
+      "improvements": "• Completar el reporte con respuestas desarrolladas: Necesitas escribir respuestas completas para cada pregunta. No es suficiente mencionar que fue \"semana de parciales\". Aunque hayas tenido exámenes, debes reflexionar sobre qué aprendiste de identificación de variables y clasificación de magnitudes.\n• Identificar y clasificar variables específicas: En tu próximo reporte, selecciona al menos 3 problemas o experimentos que trabajaste y lista las variables (conocidas/desconocidas, controlables/no controlables). Por ejemplo: \"En la reacción de combustión: temperatura inicial (conocida), masa de combustible (controlable), presión atmosférica (no controlable)\".\n• Reflexionar sobre dificultades reales: Describe qué te costó entender en Fase 2. ¿Confundes variables controlables con no controlables? ¿Te cuesta distinguir magnitudes físicas? Plantea una estrategia concreta para mejorar, como hacer esquemas o tablas comparativas.",
+      "createdAt": "2025-11-12T23:00:17.496Z"
+    },
+    {
+      "feedbackId": "237df95e-fab5-4e08-8b9c-25848c558656",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Felicidades por resolver correctamente el ejercicio de ácido acético y por reconocer que el trabajo en grupo te ayuda. Eso muestra responsabilidad y disposición para aprender. Sin embargo, tu reporte esta semana se enfoca más en los cálculos que en lo que Fase 2 realmente pide: identificar y clasificar variables.\n\nTu desempeño en procedimientos es sólido, pero necesitas dar un paso más: reflexionar sobre *qué variables usaste*, *por qué son importantes* y *cómo las clasificarías*. Esto es lo que diferencia un estudiante que resuelve ejercicios de uno que entiende el pensamiento científico.\n\nPara la próxima semana, te pido que completes tu reporte con más detalle. Especialmente en Q5, escribe tus propias observaciones sobre cómo identificar variables te ayuda a resolver problemas. Esto es fundamental para avanzar a Fase 3.",
+      "strengths": "• Cálculos correctos y procedimiento ordenado: Tu resolución del ejercicio de ácido acético muestra que comprendes la mecánica de los cálculos. Presentas la ecuación de equilibrio, aplicas Ka correctamente y obtienes resultados precisos (pH = 2,79; ionización = 1,09%).\n• Reconocimiento de la importancia del trabajo colaborativo: Identificas que trabajar en grupo te ayudó a entender mejor el tema. Esto muestra autoconciencia sobre tus estrategias de aprendizaje y disposición para mejorar.\n• Integración de múltiples conceptos: Mencionas ácidos, bases, equilibrio químico e ionización, demostrando que ves las conexiones entre temas. Esto es un buen punto de partida para profundizar en variables.",
+      "improvements": "• Identificación explícita de variables: En tu ejercicio, no señalas cuáles son las variables. Necesitas escribir claramente: \"Variables conocidas: [C₀ = 0,150 M, Ka = 1,8×10⁻⁵]; Variables desconocidas: [x = [H⁺], pH]; Variables controlables: [concentración inicial]\". Esto es el corazón de Fase 2.\n• Clasificación sistemática de variables: Falta que clasifiques cada variable como controlable/no controlable. Por ejemplo: \"La concentración inicial es controlable (la preparo yo), pero Ka es no controlable (propiedad del ácido)\". Crea una tabla simple en tu próximo reporte.\n• Reflexión metacognitiva más profunda: Tu respuesta en Q3 es superficial. En lugar de \"no entendí pero lo hice en grupo\", analiza: \"Confundía x con la concentración inicial. Ahora entiendo que x es lo que se ioniza, no el total\". Esto demuestra pensamiento crítico real.",
+      "createdAt": "2025-11-17T13:58:27.846Z"
+    }
+  ]
+}

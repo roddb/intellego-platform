@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "studentId": "b012946d-9236-4c41-99c6-1f6aff8a88d0",
+    "studentName": "Mariana Donzelli",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.219506",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 49.0,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_ff8a88d0_2025-08-11_1735b094",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Trabajo de Fase 2 mostrando evolución desde nivel inicial. La estudiante reporta progreso de Nivel 1 a Nivel 2-3 en diferentes aspectos de identificación de variables. El uso de maestra particular y IA como apoyos complementarios es una estrategia válida. La conexión con hacer yogur casero es creativa y pertinente.",
+      "strengths": [
+        "Evolución visible en identificación de variables (de Nivel 1 a Nivel 2-3)",
+        "Reconocimiento de variables relevantes cuando están mencionadas claramente (vinagre, acetato de sodio, temperatura)",
+        "Uso estratégico de múltiples recursos de apoyo (maestra particular, IA, cuadernillo)",
+        "Conexión efectiva con proceso cotidiano (fermentación del yogur y sus variables)"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para identificar problemas cuando no están explícitos en el enunciado",
+        "Fortalecer la diferenciación entre variables desconocidas pero determinables experimentalmente",
+        "Reducir gradualmente la dependencia de apoyos externos",
+        "Ampliar la práctica con clasificación completa de variables (conocidas/desconocidas, controlables/no controlables)"
+      ],
+      "createdAt": "2025-10-05T05:35:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_ff8a88d0_2025-08-18_384b4ef2",
+      "weekStart": "2025-08-18",
+      "score": 78,
+      "generalComments": "Excelente trabajo de Fase 3 mostrando comprensión sólida (Nivel 3) de conceptos fundamentales: Kc, Qc, Le Châtelier, equilibrios heterogéneos y Kp. La resolución del ejercicio con comparación Qc vs Kc demuestra aplicación práctica correcta. Las conexiones interdisciplinarias son sofisticadas.",
+      "strengths": [
+        "Comprensión clara de conceptos clave (Kc, Qc, Le Châtelier, equilibrios heterogéneos, Kp)",
+        "Aplicación correcta: cálculo de Qc y determinación de dirección de reacción",
+        "Identificación de dificultades específicas con estrategias concretas para superarlas",
+        "Conexiones múltiples: termodinámica, cinética química, matemática, industria (Haber-Bosch)"
+      ],
+      "improvements": [
+        "Reforzar la regla de exclusión de sólidos y líquidos puros mediante práctica repetida",
+        "Practicar conversión Kc↔Kp hasta dominarla completamente",
+        "Desarrollar capacidad de analizar perturbaciones simultáneas en equilibrios",
+        "Ampliar confianza en problemas que requieren múltiples pasos"
+      ],
+      "createdAt": "2025-10-05T05:37:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_ff8a88d0_2025-09-08_dfc970e4",
+      "weekStart": "2025-09-08",
+      "score": 35,
+      "generalComments": "Semana de ausencia justificada por retiro de 3ro. No se puede evaluar aprendizaje específico de Química en este período. La participación en actividades extracurriculares del colegio es valiosa para el desarrollo integral, aunque implica pérdida de clases académicas.",
+      "strengths": [
+        "Participación en actividad formativa del colegio (retiro de 3ro)",
+        "Comunicación clara de la ausencia y su motivo",
+        "Responsabilidad al reportar la situación"
+      ],
+      "improvements": [
+        "Recuperar los contenidos trabajados durante la semana de ausencia",
+        "Solicitar material y ejercicios a compañeros o al docente",
+        "Organizar sesión de consulta para ponerse al día",
+        "Planificar tiempo de estudio adicional para compensar clases perdidas"
+      ],
+      "createdAt": "2025-10-05T05:39:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_ff8a88d0_2025-09-15_a04f347c",
+      "weekStart": "2025-09-15",
+      "score": 35,
+      "generalComments": "Semana de ausencia por enfermedad. No se puede evaluar aprendizaje de Química durante este período. Es prioritario recuperar la salud antes que las actividades académicas. Se espera recuperación pronta.",
+      "strengths": [
+        "Priorización correcta de la salud",
+        "Comunicación de la situación",
+        "Responsabilidad al reportar la ausencia"
+      ],
+      "improvements": [
+        "Recuperar completamente la salud antes de retomar estudios intensivos",
+        "Obtener material de la semana perdida una vez recuperada",
+        "Coordinar con compañeros o docente para ponerse al día",
+        "Evaluar si necesita extensión de plazos para tareas o evaluaciones"
+      ],
+      "createdAt": "2025-10-05T05:41:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_ff8a88d0_2025-09-22_9cc23ffa",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "Semana sin clase de Química. No se puede evaluar aprendizaje específico durante este período. La ausencia de actividad lectiva puede deberse a feriado, actividad institucional u otra razón administrativa.",
+      "strengths": [
+        "Comunicación clara de la situación (no hubo clase)",
+        "Responsabilidad al completar el reporte semanal",
+        "Aprovechamiento potencial del tiempo para repaso autónomo"
+      ],
+      "improvements": [
+        "Utilizar semanas sin clase para repaso de contenidos previos",
+        "Adelantar lecturas o ejercicios de temas próximos si están disponibles",
+        "Mantener hábito de estudio regular incluso sin clases presenciales",
+        "Consultar con compañeros sobre posibles tareas o lecturas asignadas"
+      ],
+      "createdAt": "2025-10-05T05:43:00.000Z"
+    },
+    {
+      "feedbackId": "b6e4505d-98aa-4705-9822-7c4a408673a4",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Tu reporte actual no cumple con los estándares de la Fase 2. La respuesta repetida en cuatro preguntas sugiere que no dedicaste tiempo suficiente a reflexionar sobre tu aprendizaje de variables y datos. Entiendo que puede haber sido una semana ocupada, pero este tipo de reportes es crucial para tu desarrollo en pensamiento crítico.\n\nTe animo a que completes un reporte genuino esta semana. Tómate 15-20 minutos para responder cada pregunta con ejemplos reales de lo que trabajaste en clase. Esto no solo mejorará tu calificación, sino que te ayudará a consolidar lo aprendido antes de la prueba.",
+      "strengths": "Lamentablemente, tu reporte no presenta fortalezas evaluables en este momento. La respuesta repetida en las primeras cuatro preguntas no permite identificar dominio de contenidos ni habilidades de pensamiento crítico desarrolladas.",
+      "improvements": "1. Responde específicamente cada pregunta:\nTu reporte debe abordar cada pregunta de forma diferenciada. Por ejemplo, en Q1 debes listar variables concretas (temperatura, presión, concentración) y clasificarlas como controlables/no controlables. En Q2 debes mostrar ejemplos de problemas donde aplicaste esta clasificación.\n\n2. Proporciona evidencia concreta de tu aprendizaje:\nEn lugar de respuestas genéricas, incluye ejemplos específicos de variables que identificaste en clase, cómo las clasificaste y qué magnitudes físicas mediste. Esto demuestra que realmente trabajaste los contenidos de Fase 2.\n\n3. Reflexiona sobre tu propio proceso:\nEn Q3 y Q5, necesitas ser honesto sobre qué te costó trabajo (¿diferenciar variables controlables? ¿entender magnitudes?) y qué estrategias usaste para superarlo. Esta reflexión es fundamental para el pensamiento crítico.",
+      "createdAt": "2025-10-21T04:46:24.325Z"
+    },
+    {
+      "feedbackId": "3f30e9c5-1ba2-4f95-bae6-50c86563212a",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa preparándose para la prueba, pero el reporte de pensamiento crítico requiere respuestas reflexivas y detalladas. Tu reporte actual no permite evaluar si realmente comprendiste cómo identificar y clasificar variables, que es el objetivo central de Fase 2.\n\nTe animo a que completes este reporte con seriedad. Tómate 20-30 minutos para responder cada pregunta pensando en ejemplos concretos de lo que trabajaste. Esto no solo mejorará tu calificación, sino que te ayudará a consolidar los conceptos antes de la prueba.",
+      "strengths": "Lamentablemente, tu reporte no presenta fortalezas evaluables en este momento. La respuesta repetida en todas las preguntas no permite identificar dominio de contenidos ni habilidades de pensamiento crítico desarrolladas.",
+      "improvements": "1. Completa el reporte con respuestas específicas y detalladas.\nTu reporte necesita respuestas concretas para cada pregunta. Por ejemplo, en Q1 deberías listar variables como \"temperatura (conocida), presión (desconocida), volumen (controlable)\" con clasificaciones claras. Dedica tiempo a reflexionar sobre cada pregunta antes de responder.\n\n2. Demuestra el proceso de identificación de variables con ejemplos reales.\nEn Q2 y Q4, conecta lo aprendido con problemas específicos que trabajaste en clase. Muestra cómo identificaste variables en un experimento o problema concreto, no solo menciones que \"despejaste dudas\". Esto es fundamental para evidenciar tu aprendizaje.\n\n3. Reflexiona sobre tus dificultades y estrategias personales.\nEn Q3, sé honesto: ¿Qué te cuesta diferenciar entre variables controlables y no controlables? ¿Confundes magnitudes físicas? Propón estrategias tuyas (esquemas, tablas, diagramas) que te ayuden a mejorar. La metacognición es clave en Fase 2.",
+      "createdAt": "2025-10-21T05:12:15.641Z"
+    },
+    {
+      "feedbackId": "bf221713-0d27-4ef4-8acd-ca3c1a14b878",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 82,
+      "generalComments": "- Resuelve 5 ejercicios de pares conjugados sin agua (ácido-base en solventes no acuosos) y comparte tus respuestas para retroalimentación.\n- Elabora un \"mapa mental\" conectando Arrhenius, Brønsted–Lowry y Lewis, identificando cuándo usar cada modelo.",
+      "strengths": "- **Autoevaluación honesta y realista**: Identificas correctamente tu nivel 3 de dominio, reconociendo tanto lo que comprendes (definiciones y pares conjugados) como lo que necesita práctica. Esto demuestra madurez metacognitiva.\n- **Aplicación correcta de conceptos**: Tu análisis de la reacción NH₄⁺ + H₂O es preciso. Identificas correctamente el donador/aceptor de protones y los pares conjugados, demostrando comprensión sólida de Brønsted–Lowry.\n- **Conexiones interdisciplinarias valiosas**: Vinculaste ácido-base con equilibrio químico y procesos biológicos (pH sanguíneo, digestión), mostrando pensamiento integrador.",
+      "improvements": "- **Estrategia incompleta para resolver confusiones**: Aunque propones \"marcar H⁺ y anotar pares conjugados\", falta especificar cómo distinguir ácido/base cuando no hay agua. Sugiero: **crea una tabla comparativa** (Arrhenius vs. Brønsted–Lowry) con ejemplos sin agua (HCl + NH₃).\n- **Falta de ejemplos de errores previos**: No mencionas qué reacciones específicas te confundieron. **Documenta 2-3 ejercicios donde fallaste** para analizar patrones de error.",
+      "createdAt": "2025-10-20T15:29:47.504Z"
+    },
+    {
+      "feedbackId": "d2400712-c927-465c-9ec7-7233c85e61e9",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:55:05.936Z"
+    },
+    {
+      "feedbackId": "b9eb49bd-ff84-46e9-9263-3b9ca8d275e6",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que esta semana no tuviste clase de Ciencias, lo que explica por qué el reporte está incompleto. Entiendo que a veces hay situaciones que impiden la asistencia, pero es importante que no dejes de lado tu proceso de aprendizaje en la Fase 2, donde estamos trabajando conceptos clave sobre variables y magnitudes.\n\nPara la próxima semana, te animo a que: (1) asegures tu asistencia a las clases, (2) revises los materiales disponibles en Intellego sobre identificación de variables, y (3) si tienes dudas, consulta con tu profesor o compañeros. El pensamiento crítico se construye semana a semana, y cada clase cuenta.\n\nEstoy aquí para apoyarte. Nos vemos en la próxima evaluación con un reporte completo.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de contenido impide identificar aspectos positivos del trabajo realizado.",
+      "improvements": "• Asistencia y participación: Es fundamental que asistas a las clases de Ciencias para acceder al contenido de la Fase 2. Si hay un problema de asistencia, comunícalo a tu tutor o coordinador académico para buscar soluciones.\n• Completar el reporte: Aunque no hayas tenido clase, puedes revisar apuntes anteriores, materiales en Intellego o consultar con compañeros sobre qué se trabajó. Esto te permitirá responder las preguntas con información válida.\n• Comunicación proactiva: Si hay dificultades para asistir o acceder a contenido, avisa con anticipación. Así podemos ayudarte a ponerte al día y no perder el ritmo de aprendizaje en la Fase 2.",
+      "createdAt": "2025-11-03T12:29:20.616Z"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "studentId": "u_gcjmjnrnqme1c1o1f",
+  "studentName": "Agustín kemel",
+  "subject": "Química",
+  "academicYear": 2025,
+  "generatedAt": "2025-11-23T23:41:35.669Z",
+  "summary": {
+    "totalWeeks": 3,
+    "averageScore": 50.67,
+    "scoreRange": {
+      "min": 43,
+      "max": 59
+    },
+    "overallTrend": {
+      "type": "improving",
+      "description": "Consistent upward trajectory in performance",
+      "evidence": [
+        "Positive trend: +3.5 points per week",
+        "Score range: 43-59 points"
+      ]
+    }
+  },
+  "performanceAnalysis": {
+    "scoreTrend": [
+      43,
+      59,
+      50
+    ],
+    "weekLabels": [
+      "8/3",
+      "8/17",
+      "8/31"
+    ],
+    "phaseProgression": "Rango: Fase 1: Inicial → Fase 2: Desarrollo"
+  },
+  "strengthsAnalysis": {
+    "topStrengths": [
+      {
+        "skill": "Habilidad General",
+        "level": "strong",
+        "frequency": 4,
+        "examples": [
+          "Realizas conexiones interesantes entre estructura atómica y ley de gases",
+          "Identificas dificultades específicas como la geometría del óxido angular"
+        ]
+      },
+      {
+        "skill": "Comprensión Conceptual",
+        "level": "strong",
+        "frequency": 3,
+        "examples": [
+          "Reconoces que los conceptos se integrarán en futuras unidades",
+          "Realizas conexiones con conceptos vistos previamente en enlaces químicos"
+        ]
+      },
+      {
+        "skill": "Selección de Herramientas",
+        "level": "developing",
+        "frequency": 1,
+        "examples": [
+          "Menciona la ley de gases como herramienta aplicada en ejercicios de gases ideales"
+        ]
+      },
+      {
+        "skill": "Ejecución Matemática",
+        "level": "developing",
+        "frequency": 1,
+        "examples": [
+          "Ejecutas cálculos de masa y cantidad de átomos en problemas de gases"
+        ]
+      }
+    ],
+    "consistentStrengths": [
+      "Habilidad General",
+      "Comprensión Conceptual"
+    ]
+  },
+  "areasForGrowth": {
+    "commonChallenges": [
+      {
+        "skill": "Estrategia y Ejecución",
+        "level": "needs_attention",
+        "frequency": 4,
+        "examples": [
+          "Desarrolla estrategias más específicas para superar desafíos como la identificación de estructuras angulares",
+          "Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos"
+        ]
+      },
+      {
+        "skill": "Selección de Herramientas",
+        "level": "needs_attention",
+        "frequency": 2,
+        "examples": [
+          "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas como la ley de gases",
+          "Identifica con mayor precisión las dificultades que enfrentas al aplicar fórmulas químicas"
+        ]
+      },
+      {
+        "skill": "Fundamentación",
+        "level": "needs_attention",
+        "frequency": 2,
+        "examples": [
+          "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje al resolver problemas",
+          "Proporciona evidencias más concretas del proceso de razonamiento al resolver problemas de enlaces"
+        ]
+      },
+      {
+        "skill": "Identificación de Variables",
+        "level": "developing",
+        "frequency": 1,
+        "examples": [
+          "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas para identificar geometrías moleculares"
+        ]
+      }
+    ],
+    "recommendedActions": [
+      "Practicar justificar cada paso del razonamiento con evidencias específicas"
+    ]
+  },
+  "achievements": [
+    "Mostró mejora constante a lo largo del período académico"
+  ],
+  "recommendations": [
+    "Practicar justificar cada paso del razonamiento con evidencias específicas"
+  ],
+  "detailedTimeline": [
+    {
+      "week": "2025-08-04",
+      "score": 43,
+      "phase": "Fase 1: Inicial",
+      "keyInsights": [
+        "Menciona la ley de gases como herramienta aplicada en ejercicios de gases ideales",
+        "Realizas conexiones interesantes entre estructura atómica y ley de gases",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas como la ley de gases"
+      ]
+    },
+    {
+      "week": "2025-08-18",
+      "score": 59,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": [
+        "Identificas dificultades específicas como la geometría del óxido angular",
+        "Realizas conexiones con conceptos vistos previamente en enlaces químicos",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas para identificar geometrías moleculares"
+      ]
+    },
+    {
+      "week": "2025-09-01",
+      "score": 50,
+      "phase": "Fase 2: Desarrollo",
+      "keyInsights": [
+        "Ejecutas cálculos de masa y cantidad de átomos en problemas de gases",
+        "Realizas conexiones con conceptos trabajados anteriormente",
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos"
+      ]
+    }
+  ]
+}

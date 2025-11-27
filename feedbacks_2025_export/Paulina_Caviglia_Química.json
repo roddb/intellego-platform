@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "80ab8015-e261-43e0-9691-d88d361f344f",
+    "studentName": "Paulina Caviglia",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.230295",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 62.0,
+      "minScore": 62,
+      "maxScore": 62,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_61f344f_2025-09-01_001",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Querida Paulina Caviglia,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes las ecuaciones fundamentales de constante de equilibrio (Kc) y logras aplicarlas en ejercicios concretos. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar tus dificultades.\n\nEs importante mejorar la justificación de por qué seleccionas determinadas herramientas en cada problema. Desarrolla estrategias más específicas para superar tus desafíos en el planteamiento de ejercicios.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de constante de equilibrio (Kc) y su aplicación en problemas de equilibrio químico",
+        "Realizas conexiones interesantes entre el concepto de equilibrio químico y fenómenos cotidianos como el hervimiento de agua",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar con honestidad tus dificultades"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas la fórmula de Kc en lugar de otras herramientas posibles",
+        "Desarrolla estrategias más específicas y propias para plantear ejercicios sin enredarte en el proceso",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluyendo los enunciados completos de los problemas trabajados"
+      ],
+      "createdAt": "2025-10-07T15:30:00Z"
+    }
+  ]
+}

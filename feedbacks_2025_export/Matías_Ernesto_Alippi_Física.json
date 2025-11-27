@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "studentId": "u_yf5munab0me67oai8",
+    "studentName": "Matías Ernesto Alippi",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.224358",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 61.42,
+      "minScore": 43,
+      "maxScore": 75,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-04_e1f7e8a4",
+      "weekStart": "2025-08-04",
+      "score": 64,
+      "generalComments": "Matías, tu reporte de la semana del 4 de agosto muestra una comprensión buena de magnitudes escalares y vectoriales. Tu puntaje es de 64/100, ubicándote en el Nivel 2 (Bueno). Identificaste correctamente los conceptos principales y trabajaste con ejemplos concretos. Sin embargo, algunas respuestas podrían profundizarse más en los razonamientos. ¡Seguí trabajando con dedicación para alcanzar niveles superiores!",
+      "strengths": [
+        "Identificación correcta de magnitudes escalares y vectoriales",
+        "Uso de ejemplos concretos y pertinentes",
+        "Respuestas organizadas y claras",
+        "Entrega puntual del reporte"
+      ],
+      "improvements": [
+        "Profundiza más en las justificaciones de tus respuestas",
+        "Conecta conceptos con situaciones de la vida real",
+        "Practica con ejercicios de mayor complejidad",
+        "Desarrolla análisis más crítico"
+      ],
+      "createdAt": "2025-10-02 15:17:56"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-11_f2a8f9b5",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Matías, tu reporte de la semana del 11 de agosto sobre cinemática demuestra mejora respecto al anterior. Tu puntaje de 68/100 te mantiene en el Nivel 2 (Bueno). Tus respuestas fueron más completas y mostraste mejor comprensión de los conceptos de movimiento. La aplicación de fórmulas fue correcta en la mayoría de los casos. ¡Vas por buen camino, seguí así!",
+      "strengths": [
+        "Mejora notable respecto al reporte anterior",
+        "Comprensión sólida de conceptos de cinemática",
+        "Aplicación correcta de fórmulas",
+        "Respuestas más desarrolladas y fundamentadas"
+      ],
+      "improvements": [
+        "Practica más la interpretación de gráficos",
+        "Profundiza en el análisis de situaciones complejas",
+        "Verifica siempre las unidades en tus cálculos",
+        "Conecta conceptos entre diferentes temas"
+      ],
+      "createdAt": "2025-10-02 15:17:56"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-18_a3b9a0c6",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Matías, tu reporte de la semana del 18 de agosto sobre vectores y fuerzas es muy bueno. Con 72/100 puntos alcanzás el Nivel 3 (Bueno/Muy Bueno). ¡Felicitaciones por la mejora sostenida! Demostraste comprensión profunda de vectores y su aplicación en análisis de fuerzas. Tus respuestas fueron completas, bien fundamentadas y mostraron razonamiento crítico. ¡Excelente progreso!",
+      "strengths": [
+        "Mejora sostenida y consistente",
+        "Comprensión profunda de vectores y fuerzas",
+        "Respuestas bien fundamentadas y organizadas",
+        "Razonamiento lógico y crítico",
+        "Aplicación correcta de conceptos"
+      ],
+      "improvements": [
+        "Continúa profundizando en aplicaciones complejas",
+        "Practica problemas de mayor dificultad",
+        "Explora conexiones con otros temas de física",
+        "Mantén esta dedicación y esfuerzo"
+      ],
+      "createdAt": "2025-10-02 15:17:57"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-09-22_b4c0b1d7",
+      "weekStart": "2025-09-22",
+      "score": 68,
+      "generalComments": "Matías, tu reporte de la semana del 22 de septiembre muestra un puntaje de 68/100, regresando al Nivel 2 (Bueno). Noté una leve disminución respecto a tu reporte anterior. Aunque tus respuestas fueron correctas en general, faltó la profundidad y el rigor que habías mostrado anteriormente. Es importante mantener la constancia en el estudio. ¡Retomá el nivel que habías alcanzado!",
+      "strengths": [
+        "Comprensión básica de los conceptos",
+        "Respuestas organizadas",
+        "Entrega del reporte completo",
+        "Capacidad demostrada anteriormente"
+      ],
+      "improvements": [
+        "Retoma el nivel de profundidad de reportes anteriores",
+        "Dedica más tiempo al estudio y práctica",
+        "Revisa conceptos previos antes de avanzar",
+        "Mantén la constancia y dedicación",
+        "Consulta dudas oportunamente"
+      ],
+      "createdAt": "2025-10-02 15:17:57"
+    },
+    {
+      "feedbackId": "fb_002_3_me67oai8_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 75,
+      "generalComments": "Hola Matías Ernesto, Tu desempeño en Fase 4: Estrategia y ejecución completa es apropiado, mostrando capacidad para resolver problemas complejos de cambios de estado aunque con oportunidades de profundización en Física. Ejecutas los pasos de resolución de manera ordenada y lógica en el problema de conversión de hielo a vapor. Realizas conexiones interesantes entre termodinámica de física del colegio y bioquímica del curso de ingreso a medicina en la UCA. Es importante mejorar la planificación de tu estrategia antes de ejecutar para reducir el tiempo de resolución. Mantén mayor constancia y regularidad en completar todas las preguntas del reporte semanal. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica, siguiendo las cuatro fases del pensamiento crítico de forma sistemática en el problema de conversión de hielo a vapor",
+        "Realizas conexiones significativas entre la termodinámica de física del colegio y los conceptos que estás viendo en bioquímica del curso de ingreso a medicina en la UCA, mostrando transferencia efectiva de conocimientos",
+        "Identificas con precisión tus dificultades específicas (calor latente) y aplicas estrategias concretas y efectivas (consulta de guía + recursos de internet) para superarlas"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos, lo que te permitiría reducir el tiempo de resolución y aumentar tu confianza en la resolución autónoma",
+        "Debes trabajar en mantener coherencia y completitud en todas las secciones del reporte, incluyendo la pregunta 5 que proporciona información valiosa sobre tu reflexión metacognitiva",
+        "Necesitas fortalecer tu autonomía en la resolución, reduciendo gradualmente la dependencia del cuadernillo y recursos externos para alcanzar mayor fluidez en la aplicación de conceptos"
+      ],
+      "createdAt": "2025-10-09T21:29:27Z"
+    },
+    {
+      "feedbackId": "fe20b603-f797-4b7f-871c-c35dba486a22",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:12.371Z"
+    },
+    {
+      "feedbackId": "03791559-905b-4dd3-bfb4-34362bdcb564",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:08:06.071Z"
+    },
+    {
+      "feedbackId": "dddea19c-a5ea-42b4-884b-f55269e820da",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:43:45.608Z"
+    },
+    {
+      "feedbackId": "7a2d9fc5-c3ba-4108-85a2-266bde0ef5da",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:24:03.686Z"
+    },
+    {
+      "feedbackId": "6fe068b3-0b12-430b-8589-7145eb452625",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que estás trabajando con dedicación en electrodinámica y que comprendes cómo resolver ejercicios aplicando las fases. Tu resolución del problema del lavarropas es correcta y muestra que puedes integrar datos y fórmulas. Además, reconoces honestamente dónde tienes dificultades, lo que es muy valioso.\n\nSin embargo, tu reporte esta semana es más descriptivo que analítico. Necesitas profundizar en la clasificación de variables (conocidas/desconocidas, controlables/no controlables) y en la distinción de magnitudes físicas, que son el corazón de la Fase 2. También notó que no incluiste comentarios adicionales, lo que es una oportunidad perdida para reflexionar sobre tu progreso.\n\nPara la próxima semana, te propongo que: (1) en cada ejercicio, hagas una lista explícita de variables clasificadas, (2) practiques con gráficos de electrodinámica identificando qué variable representa cada eje, y (3) completes todas las preguntas del reporte, especialmente la 5, con reflexiones genuinas sobre tu aprendizaje.",
+      "strengths": "• Aplicación metodológica en ejercicios: Tu resolución del ejercicio del lavarropas muestra que comprendes cómo aplicar las fases (identificar datos, seleccionar fórmula, calcular). El resultado 1980W es correcto y el proceso está bien estructurado.\n• Autoconciencia sobre limitaciones: Reconoces honestamente que necesitas más práctica en distintos planteos y que tienes dificultad con gráficos. Esta honestidad es el primer paso para mejorar.\n• Conexión entre temas: Identificas que la electrodinámica se conecta con trabajo y energía, demostrando que ves relaciones entre conceptos de diferentes unidades.",
+      "improvements": "• Clasificación explícita de variables: En tus respuestas, debes identificar y clasificar cada variable como conocida/desconocida y controlable/no controlable. Por ejemplo, en el ejercicio del lavarropas: V=220V (conocida, no controlable), I=9A (conocida, no controlable), P=? (desconocida, a calcular). Esto es central en Fase 2.\n• Estrategias específicas para dificultades: Cuando menciones que tienes problemas con gráficos, propón soluciones concretas: \"Voy a practicar identificando qué variable está en cada eje\" o \"Haré una tabla de valores antes de interpretar el gráfico\". Las estrategias vagas no te ayudan a avanzar.\n• Reflexión en comentarios adicionales: Usa la pregunta 5 para reflexionar genuinamente. Pregúntate: ¿Qué aprendí esta semana sobre identificar variables? ¿Cómo mejoré desde la Fase 1? ¿Qué necesito practicar más? Esto fortalece tu metacognición.",
+      "createdAt": "2025-10-27T04:53:46.801Z"
+    },
+    {
+      "feedbackId": "06b9c2aa-5ae2-4571-92af-ad75feff4b00",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Valoro tu esfuerzo al reintentar los ejercicios 4 y 8 y verificar tus respuestas. Tus cálculos son precisos y demuestras capacidad para aplicar fórmulas de potencia y efecto Joule. Sin embargo, tu reporte de esta semana es muy breve y no profundiza en lo que Fase 2 requiere: identificar y clasificar variables de forma sistemática.\n\nTu desempeño muestra que dominas los procedimientos matemáticos, pero aún necesitas desarrollar el análisis de variables. Esto es crucial porque en Fase 2 no solo se trata de calcular, sino de entender qué datos tienes, cuáles te faltan y cómo se relacionan entre sí.\n\nPara la próxima semana, te pido que: (1) en cada ejercicio, hagas una lista explícita de variables clasificadas (conocidas/desconocidas, controlables/no controlables), (2) propongas estrategias concretas para mejorar tu visualización de problemas, y (3) reflexiones sobre cómo las variables que identificas se conectan con fenómenos físicos reales. Esto consolidará tu aprendizaje en Fase 2.",
+      "strengths": "• Persistencia en la verificación: Realizaste nuevamente los ejercicios 4 y 8 para reforzar contenidos y verificaste tus resultados. Esto muestra responsabilidad y disposición a corregir errores, como cuando \"me dí cuenta que el ejercicio no pedía esto, con ayuda de la pista rehice el ejercicio.\"\n• Cálculos detallados y precisos: Tus operaciones matemáticas son claras y correctas. Por ejemplo, multiplicaste 220 V × 15 A = 3300 W y luego aplicaste la fórmula de efecto Joule para obtener 285,12 kcal, demostrando dominio del procedimiento.\n• Uso de la metodología de fases: Reconoces que aplicas \"la metodología de resolución vista en clase por fases\", lo que indica que integras el proceso enseñado, aunque aún necesites explicitarlo mejor en tus análisis.",
+      "improvements": "• Clasificación explícita de variables: En tus ejercicios, identifica y clasifica cada variable. Por ejemplo, en el ejercicio 8: \"Voltaje (V) = 220 V [conocida, controlable], Corriente (I) = ? [desconocida, calculable]\". Esto es fundamental en Fase 2 y no aparece en tu reporte.\n• Estrategias específicas para visualizar la ruta: No basta decir \"tengo que mejorar la visualización\". Propón acciones concretas: \"Haré un diagrama de flujo antes de resolver cada ejercicio\" o \"Listaré todas las variables antes de comenzar los cálculos\". Esto te ayudará a estructurar mejor tu pensamiento.\n• Reflexión metacognitiva más profunda: Desarrolla comentarios que muestren autoconciencia. En lugar de \"me complicó algo más\", analiza: \"Me costó identificar que la potencia era la variable desconocida porque confundí trabajo con potencia. Ahora sé que debo revisar las unidades primero.\" Esto evidencia aprendizaje real.",
+      "createdAt": "2025-11-03T12:24:38.915Z"
+    },
+    {
+      "feedbackId": "1d854eb4-609a-48a8-a7d2-5475a8c1acc6",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que esta semana trabajaste con dedicación y lograste resolver correctamente el ejercicio 9 aplicando las ecuaciones de forma ordenada. Tu honestidad al reconocer que el ejercicio 4 te superó es valiosa, porque muestra que estás siendo realista sobre tu nivel.\n\nSin embargo, tu desempeño general en el reporte muestra que aún estás en una fase de dependencia: necesitas que el problema esté muy claro para actuar, y cuando no lo está, te bloqueas. Esto es normal en Fase 2, pero es el momento de empezar a desarrollar estrategias propias de análisis.\n\nPara la próxima semana, te propongo que antes de consultar con el profesor sobre un ejercicio difícil, dediques 10 minutos a escribir: qué datos tengo, qué me piden, qué variables conozco y cuáles desconozco. Esto te dará más autonomía y confianza.",
+      "strengths": "• Procedimiento sistemático en ejercicios estructurados: En el ejercicio 9 seguiste un orden lógico: ordenar datos → calcular intensidad → calcular potencia → calcular calor. Esto muestra que cuando el problema está claro, puedes aplicar las ecuaciones correctamente.\n• Honestidad en la autoevaluación: Reconoces tus limitaciones (\"no pude ni plantearlo\") en lugar de pretender que entiendes todo. Esta sinceridad es el primer paso para mejorar.\n• Velocidad de ejecución una vez comprendido: Mencionas que tardaste 5 minutos en deducir qué hacer, pero \"luego pude hacer el ejercicio de corrido\". Esto indica que tu dificultad es inicial, no conceptual profunda.",
+      "improvements": "• Desarrolla estrategias propias para problemas complejos: En lugar de solo \"consultar con el profe\", intenta: (1) Subraya qué se pide, (2) Lista todos los datos disponibles, (3) Identifica qué variable desconocida necesitas. Esto te ayudará a plantear ejercicios como el 4 sin depender completamente de ayuda externa.\n• Amplía tu análisis de conexiones: Tu respuesta en Q4 es vacía. Necesitas pensar: ¿Dónde ves calor de Joule en la vida real? (hornos, resistencias, bombillas). Conecta cada variable con fenómenos concretos. Esto consolida tu comprensión y te prepara para Fase 3.\n• Reflexiona sobre el proceso, no solo el resultado: En Q3 y Q5 das respuestas muy cortas. Pregúntate: ¿Qué tipo de variable me cuesta más identificar? ¿Por qué el ejercicio 4 me confundió? ¿Qué haría diferente la próxima vez? Escribir esto fortalece tu metacognición.",
+      "createdAt": "2025-11-12T22:53:22.054Z"
+    }
+  ]
+}

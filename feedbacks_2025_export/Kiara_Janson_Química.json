@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_e80gtlh44me06maes",
+    "studentName": "Kiara Janson",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.212564",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 60.5,
+      "minScore": 57,
+      "maxScore": 64,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "a23e4eb7-3503-a3f8-aa2d-9a200adac571",
+      "weekStart": "2025-08-18",
+      "score": 57,
+      "generalComments": "Kiara muestra comprensión de la Fase 3 y está trabajando en la selección de herramientas para gases ideales. Aunque enfrenta dificultades con la organización de la información, demuestra esfuerzo en aplicar el método F1-F2-F3. Es importante mejorar la búsqueda de información y establecer conexiones prácticas.",
+      "strengths": [
+        "Identificación correcta de la fase de trabajo y autoevaluación honesta del dominio",
+        "Selección apropiada de la ley de gases para temperatura constante (Boyle)",
+        "Reconocimiento claro de las dificultades específicas con el material de estudio"
+      ],
+      "improvements": [
+        "Crear un índice personal de fórmulas organizadas por tipo de problema",
+        "Buscar aplicaciones cotidianas de gases (inflado de neumáticos, respiración, globos)",
+        "Completar el proceso hasta F4 para consolidar la resolución completa"
+      ],
+      "createdAt": "2025-09-29 10:25:41"
+    },
+    {
+      "feedbackId": "97f6c580-e8bf-b8cc-8cf0-0c37b2a7a98f",
+      "weekStart": "2025-08-25",
+      "score": 64,
+      "generalComments": "Kiara demuestra esfuerzo en aplicar el método completo de 4 fases en gases ideales. Aunque reconoce dificultades, muestra perseverancia al intentar resolver problemas complejos. El proceso F1-F4 está estructurado pero necesita fortalecer la ejecución final y las conversiones de unidades.",
+      "strengths": [
+        "Aplicación sistemática del método de 4 fases (F1, F2, F3, F4)",
+        "Identificación clara de variables conocidas y desconocidas",
+        "Conexión práctica con ejemplos cotidianos como el aire en un globo"
+      ],
+      "improvements": [
+        "Practicar conversiones de unidades (mmHg a atm, °C a K) antes de aplicar fórmulas",
+        "Desarrollar estrategias específicas para superar la confusión con las variables",
+        "Completar los cálculos hasta obtener el resultado final con unidades correctas"
+      ],
+      "createdAt": "2025-09-29 10:22:16"
+    }
+  ]
+}

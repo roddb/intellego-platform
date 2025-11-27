@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "studentId": "u_67kfbewk9me6cn6qp",
+    "studentName": "Sol Fontán",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.233204",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 51.0,
+      "minScore": 0,
+      "maxScore": 74,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-08-04_f2c7h8d6",
+      "weekStart": "2025-08-04",
+      "score": 36,
+      "generalComments": "Sol, este reporte muestra un comienzo muy inicial en el aprendizaje de termodinámica. Las respuestas son extremadamente breves y no evidencian aplicación del pensamiento crítico ni comprensión profunda de la Fase 1. Es importante que en próximos reportes desarrolles tus respuestas con más detalle, explicando qué aspectos del pensamiento crítico estás aplicando y cómo identificas el problema en termodinámica.",
+      "strengths": [
+        "Identificas el tema principal de estudio (termodinámica)",
+        "Reconoces honestamente tu nivel inicial de dominio",
+        "Muestras disposición al mencionar que estás leyendo los apuntes"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas que demuestren reflexión sobre el proceso de aprendizaje",
+        "Explicar cómo aplicas el Paso 1 del pensamiento crítico: identificar el problema y la información relevante",
+        "Proporcionar ejemplos específicos de situaciones o ejercicios trabajados, no solo mencionar la lectura",
+        "Reflexionar sobre qué aspectos de la termodinámica son relevantes o irrelevantes para los problemas planteados",
+        "Expresar con más detalle las conexiones entre el pensamiento crítico y los conceptos físicos"
+      ],
+      "createdAt": "2025-01-10T00:00:06Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-08-11_a3d8i9e7",
+      "weekStart": "2025-08-11",
+      "score": 69,
+      "generalComments": "Sol, este reporte muestra un progreso significativo respecto a la semana anterior. Ahora evidencias comprensión de la Fase 2 al identificar variables en termodinámica y reconocer la importancia de clasificarlas. Tu trabajo con el ejercicio del calentador de agua demuestra que estás aplicando el método, aunque todavía necesitas consolidar la clasificación sistemática de variables usando la matriz.",
+      "strengths": [
+        "Identificas correctamente las variables principales de termodinámica: temperatura, presión, volumen, calor y trabajo",
+        "Reconoces la importancia de seleccionar variables relevantes, no solo anotarlas todas",
+        "Muestras honestidad al expresar tu dificultad con la clasificación, lo cual es parte de la autorregulación",
+        "Haces conexiones interdisciplinarias con química al mencionar las condiciones de equilibrio"
+      ],
+      "improvements": [
+        "Practicar más con la matriz de clasificación para diferenciar variables conocidas/desconocidas y controlables/no controlables",
+        "Desarrollar más la evidencia de aprendizaje: explicar en detalle cómo aplicaste F1+F2 en el ejercicio del calentador",
+        "Proponer estrategias concretas para superar la dificultad con la clasificación (tutorías, ejercicios extra, esquemas visuales)",
+        "Ampliar las conexiones: además de química, ¿dónde más ves el uso de variables en tu vida cotidiana?",
+        "Especificar qué tipo de seguimiento en clase te ayudaría más"
+      ],
+      "createdAt": "2025-01-10T00:00:07Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-01_b4e9j0f8",
+      "weekStart": "2025-09-01",
+      "score": 64,
+      "generalComments": "Sol, este reporte evidencia que estás trabajando con la Fase 3 (selección de herramientas y fórmulas) pero enfrentas dificultades importantes en su aplicación. Tu ejercicio del calorímetro muestra que intentaste usar fórmulas de calorimetría, aunque el análisis sobre el sistema no aislado indica comprensión del resultado. La honestidad sobre tus dificultades con las ecuaciones es valiosa, pero necesitas desarrollar estrategias concretas para superarlas.",
+      "strengths": [
+        "Realizaste un ejercicio completo de calorimetría con cálculos de calor cedido y absorbido",
+        "Identificas que el sistema no está perfectamente aislado cuando los valores no coinciden, mostrando análisis crítico del resultado",
+        "Reconoces abiertamente tu dificultad con el uso de ecuaciones, lo cual es el primer paso para mejorar",
+        "Haces conexión con matemática, reconociendo la interdisciplinariedad"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para usar ecuaciones: ¿qué parte es más difícil? ¿Identificar cuál usar? ¿Despejar variables? ¿Sustituir valores?",
+        "Justificar por qué elegiste las fórmulas de calorimetría para este ejercicio (integración de F1+F2+F3)",
+        "Explicar el proceso paso a paso: cómo identificaste las variables (F2), qué fórmulas consideraste (F3), por qué elegiste esas",
+        "Profundizar en las conexiones con matemática: ¿qué conceptos matemáticos específicos usas en termodinámica?",
+        "Proponer acciones concretas para mejorar en el uso de fórmulas: práctica adicional, consultas, videos tutoriales, etc."
+      ],
+      "createdAt": "2025-01-10T00:00:08Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-15_c5f0k1a9",
+      "weekStart": "2025-09-15",
+      "score": 72,
+      "generalComments": "Sol, este reporte muestra un avance significativo y evidencia clara de que estás integrando las 4 fases del pensamiento crítico. Tu descripción del ejercicio del termotanque demuestra que comprendes el proceso completo: separaste el problema en fases, identificaste variables, elegiste fórmulas y ejecutaste cálculos. Aunque todavía expresas dificultad para aplicar fórmulas, el hecho de que hayas completado el ejercicio muestra progreso real. La autoevaluación en nivel 2 refleja autocrítica saludable.",
+      "strengths": [
+        "Aplicas explícitamente las 4 fases del pensamiento crítico en el ejercicio del termotanque",
+        "Identificas correctamente las variables del problema: P=2kW, m=120kg, T1=15°C, Tf=70°C",
+        "Reconoces la necesidad de calcular Q primero antes de W, mostrando planificación estratégica (Fase 4)",
+        "Haces conexiones interdisciplinarias con matemática (regla de 3, ecuaciones)",
+        "Muestras autorregulación al autoevaluarte en nivel 2 y buscar ayuda cuando no entiendes"
+      ],
+      "improvements": [
+        "Completar la descripción del ejercicio: mencionaste que ya tenemos el ejercicio pero no muestras el cálculo final ni el resultado",
+        "Verificar los resultados: ¿el tiempo calculado es razonable? ¿El costo tiene sentido? (Fase 4 requiere validación)",
+        "Desarrollar mayor autonomía en la selección de fórmulas antes de preguntar: intentar primero, luego consultar",
+        "Profundizar en las conexiones matemáticas: ¿por qué la regla de 3? ¿Qué ecuaciones específicas?",
+        "Proponer cómo podrías mejorar tu comprensión de cuándo aplicar cada fórmula"
+      ],
+      "createdAt": "2025-01-10T00:00:09Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-29_d6a1l2b0",
+      "weekStart": "2025-09-29",
+      "score": 0,
+      "generalComments": "Sol, entiendo que no hubo clase esta semana, por lo que no hay contenido para evaluar. Este reporte no refleja tu desempeño académico, sino una ausencia justificada de actividades. Te sugiero que en semanas sin clase presencial, puedas usar el reporte para reflexionar sobre repaso de temas anteriores, dudas pendientes, o estudio autónomo que hayas realizado. De todas formas, este reporte no afecta negativamente tu evaluación.",
+      "strengths": [
+        "Reportas honestamente la situación de ausencia de clase",
+        "Cumples con la entrega del reporte semanal incluso sin contenido académico",
+        "Mantienes la comunicación con el sistema de seguimiento"
+      ],
+      "improvements": [
+        "En futuras semanas sin clase, considera usar el espacio para reportar estudio autónomo o repaso de temas",
+        "Podrías aprovechar para resolver ejercicios pendientes o profundizar temas que te cuesten",
+        "Reflexionar sobre qué dudas tienes de semanas anteriores que podrías trabajar de forma independiente",
+        "Revisar material de termodinámica para mantener la continuidad del aprendizaje"
+      ],
+      "createdAt": "2025-01-10T00:00:10Z"
+    },
+    {
+      "feedbackId": "40425208-34ed-4ed3-8b3e-ff472538330a",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entendemos que tu ausencia esta semana fue por una razón académica importante (examen CELPE-BRAS), así que no hay preocupación respecto a tu compromiso. Sin embargo, esto significa que no tenemos evidencia de tu desempeño en la Fase 2 de pensamiento crítico.\n\nTu prioridad ahora es recuperar el contenido trabajado en clase sobre identificación y clasificación de variables. Esto es fundamental para avanzar a la Fase 3, donde aplicarás estos conocimientos de forma más compleja.\n\nPara la próxima semana, una vez regreses a clases, te pedimos que completes el reporte con ejemplos específicos de los problemas que trabajes. Esto nos permitirá evaluar tu comprensión y brindarte el apoyo que necesites.",
+      "strengths": "• Justificación clara de la ausencia: Comunicas explícitamente que tu inasistencia está justificada por el examen CELPE-BRAS, lo que demuestra responsabilidad en informar sobre tu situación académica.",
+      "improvements": "• Recuperación de contenidos de Fase 2: Aunque tu ausencia es justificada, es importante que recuperes los temas trabajados (identificación de variables, clasificación de magnitudes). Coordina con tu profesor para acceder a los apuntes o videos de clase y realiza un resumen de lo que se cubrió.\n• Reporte completo en la próxima semana: Una vez regreses a clases, asegúrate de responder todas las preguntas del reporte con ejemplos concretos de los problemas que trabajes. Esto permitirá evaluar tu comprensión real de la Fase 2.\n• Comunicación proactiva: Si necesitas apoyo adicional para ponerte al día con la Fase 2, solicita una sesión de refuerzo con tu profesor. Esto te ayudará a no quedarte atrás en la Fase 3 (análisis de relaciones entre variables).",
+      "createdAt": "2025-11-03T12:16:25.628Z"
+    },
+    {
+      "feedbackId": "9182a9a9-d4c3-4a3f-b82e-dcd1b6519ba5",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 74,
+      "generalComments": "Excelente trabajo esta semana. A pesar de no haber clases, demostraste responsabilidad y autonomía continuando con tu estudio. Tus cálculos son correctos y tu autoevaluación es realista, lo que indica que estás desarrollando pensamiento crítico sobre tu propio aprendizaje.\n\nTu desempeño en Potencia y Trabajo eléctrico es sólido (Nivel 3), pero necesitas consolidar dos áreas: las conversiones de unidades y la interpretación física del Efecto Joule. Esto es normal en esta fase; muchos estudiantes luchan con las unidades al principio.\n\nPara la próxima semana, enfócate en resolver ejercicios de Efecto Joule con diferentes contextos (calefactores, fusibles, pérdidas de energía) y practica conversiones hasta que se vuelvan automáticas. Si tienes dudas específicas, consulta con tus compañeros o solicita una tutoría breve.",
+      "strengths": "• Autonomía y responsabilidad: A pesar de no haber clases, continuaste trabajando por tu cuenta, repasando teoría y resolviendo ejercicios. Esto demuestra compromiso real con tu aprendizaje.\n• Autoconocimiento crítico: Identificas con precisión qué dominas (Potencia, Trabajo eléctrico) y dónde necesitas refuerzo (conversiones, Efecto Joule). Tu autoevaluación por niveles es realista y coherente con tus ejemplos.\n• Estrategias de aprendizaje efectivas: Describes métodos concretos para mejorar: anotar fórmulas con unidades, resolver paso a paso y verificar coherencia. Esto muestra pensamiento metacognitivo.",
+      "improvements": "• Profundizar en conexiones conceptuales (Q4): Tus conexiones son válidas pero muy generales. Intenta explicar *cómo* se relacionan los temas. Por ejemplo: \"Efecto Joule explica por qué los calefactores consumen más energía que las bombillas\" o \"La potencia determina cuánto cuesta usar un aparato, lo que conecta con eficiencia energética.\"\n• Análisis crítico de resultados (Q2): Después de calcular, pregúntate: ¿Es este resultado razonable? ¿Tiene sentido físicamente? En tu segundo ejercicio, verifica si una resistencia de 15 Ω a 220 V es realista o si hay un error en los datos del problema.\n• Especificar dudas sobre Efecto Joule (Q5): En lugar de decir \"me generan dudas\", identifica exactamente qué: ¿La conversión de calorías a julios? ¿Cuándo aplicar la fórmula Q = 0.24·P·t? Esto te ayudará a buscar ayuda más efectivamente.",
+      "createdAt": "2025-11-12T22:57:22.414Z"
+    },
+    {
+      "feedbackId": "681a5aeb-b7c3-496e-8f3e-f8f25b2abdb2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Felicidades por tu desempeño en cálculos esta semana. Tu resolución del Problema 7 demuestra que comprendes bien la aplicación de fórmulas en circuitos mixtos, y eso es un logro importante. Sin embargo, tu reporte muestra que aún no has integrado completamente la Fase 2: identificar y clasificar variables de forma sistemática.\n\nObservo que describes contenidos y resultados, pero no el *proceso* de identificación de variables que es el corazón de esta fase. Esto explica por qué sientes dificultad con el Efecto Joule: probablemente no estés identificando claramente qué variables intervienen antes de intentar resolver.\n\nPara la próxima semana, te propongo un cambio: antes de resolver cualquier problema, haz una lista explícita de variables (conocidas/desconocidas, controlables/no controlables). Esto te ayudará a entender mejor el Efecto Joule y a desarrollar estrategias propias, sin depender solo de ayuda externa.",
+      "strengths": "• Dominio de cálculos en circuitos: Tu resolución del Problema 7 muestra precisión en la aplicación de fórmulas. Los pasos están bien ordenados (simplificación paralelo → serie → corriente total) y los valores son correctos.\n• Identificación de temas clave: Reconoces correctamente los contenidos principales de la semana (Ley de Ohm, circuitos serie/paralelo/mixto, Efecto Joule), lo que indica que seguiste las lecciones con atención.\n• Conciencia de áreas débiles: Admites que necesitas práctica en integración de fórmulas y que el Efecto Joule te presenta dificultades, lo que muestra autoconciencia sobre tu desempeño.",
+      "improvements": "• Falta identificación explícita de variables: En tus respuestas no clasificas qué variables son conocidas/desconocidas o controlables/no controlables. En el Problema 7, por ejemplo, deberías haber listado: V_total (conocida), R₁, R₂, R₃ (conocidas), I_total (desconocida). Hazlo de forma sistemática en cada problema.\n• Estrategias de aprendizaje poco autónomas: Depender de explicaciones de compañeras es útil, pero necesitas desarrollar tus propias estrategias. Intenta: (1) hacer un diagrama de variables antes de resolver, (2) crear una tabla comparativa entre Efecto Joule simple y con eficiencia, (3) resolver ejercicios similares solo primero.\n• Conexiones superficiales con fenómenos reales: Tus conexiones (Joule → calor, circuitos → Kirchhoff) son correctas pero muy breves. Profundiza: ¿Cómo se relacionan las variables en una bombilla? ¿Qué magnitudes cambian en un circuito paralelo vs. serie? Escribe 3-4 líneas explicando cada conexión.",
+      "createdAt": "2025-11-17T13:55:58.107Z"
+    }
+  ]
+}

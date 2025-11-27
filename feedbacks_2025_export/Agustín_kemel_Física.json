@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "studentId": "u_gcjmjnrnqme1c1o1f",
+    "studentName": "Agustín kemel",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.181724",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 45.5,
+      "minScore": 30,
+      "maxScore": 55,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "0df7a98f-964e-1bc0-423c-73808974816c",
+      "weekStart": "2025-08-04",
+      "score": 54,
+      "generalComments": "Tu reporte muestra que estás familiarizado con los conceptos de MRU, MRUV, caída libre y tiro vertical, lo cual es positivo. Sin embargo, tus respuestas carecen de profundidad y especificidad. Para avanzar en esta fase de herramientas y relaciones, necesitas explicar no solo QUÉ conceptos usaste, sino CÓMO los aplicaste y qué relaciones identificaste entre ellos. Tus respuestas a Q2 y Q3 son demasiado vagas y no permiten evaluar tu verdadero nivel de comprensión.",
+      "strengths": [
+        "Identificás correctamente los conceptos principales trabajados: MRU, MRUV, caída libre y tiro vertical",
+        "Tu autoevaluación ('dominio decente, 6 de 10') muestra honestidad y capacidad de reflexión sobre tu propio proceso",
+        "Reconocés la importancia del pensamiento crítico en la resolución de problemas de cinemática"
+      ],
+      "improvements": [
+        "Profundizá tus respuestas: en lugar de decir 'el ejercicio 1 tuve q utilizar pensamiento crítico', explicá QUÉ decisiones tomaste y POR QUÉ",
+        "En Q3, especificá qué conceptos o procedimientos te resultaron difíciles: ¿fue identificar variables? ¿aplicar fórmulas? ¿interpretar resultados?",
+        "Desarrollá las relaciones entre conceptos: ¿cómo se relacionan MRU y MRUV? ¿En qué se diferencia la caída libre del tiro vertical?"
+      ],
+      "createdAt": "2025-09-30 15:28:18"
+    },
+    {
+      "feedbackId": "5ecb14cc-f52f-e871-2dbd-d1bb6f61bd8e",
+      "weekStart": "2025-08-11",
+      "score": 30,
+      "generalComments": "No se registraron respuestas para este reporte semanal. Es fundamental completar todas las preguntas de reflexión, ya que son una herramienta clave para tu proceso de aprendizaje. Estas preguntas te ayudan a consolidar conocimientos, identificar dificultades y desarrollar pensamiento crítico. Te sugiero que, si hubo algún inconveniente técnico, lo comuniques a tu docente. Si simplemente no completaste el reporte, te invito a reflexionar sobre la importancia de mantener una rutina de estudio y registro sistemático de tu proceso de aprendizaje.",
+      "strengths": [
+        "El sistema registra tu presencia y seguimiento del curso",
+        "Tenés la oportunidad de recuperar esta instancia de reflexión en futuros reportes",
+        "Este feedback puede servirte como recordatorio para mantener la constancia en tus reportes semanales"
+      ],
+      "improvements": [
+        "Completá todas las preguntas del reporte semanal: son fundamentales para tu proceso de aprendizaje",
+        "Establecé una rutina semanal para dedicar tiempo a reflexionar sobre tu proceso de aprendizaje en física",
+        "Si tenés dificultades técnicas para completar los reportes, comunicalo inmediatamente al docente"
+      ],
+      "createdAt": "2025-09-30 15:29:45"
+    },
+    {
+      "feedbackId": "e0930ce1-0dfb-f96c-e020-4a6ef9833e3e",
+      "weekStart": "2025-08-18",
+      "score": 55,
+      "generalComments": "Tu reporte muestra que estás trabajando con tiro oblicuo/parabólico y que reconocés la importancia de la toma de decisiones en la resolución de problemas complejos, lo cual es positivo para la Fase 4. Sin embargo, tus respuestas son extremadamente breves y carecen de desarrollo. En esta fase de estrategia y ejecución completa, es fundamental que expliques: (1) QUÉ decisiones tomaste y POR QUÉ, (2) CÓMO integraste contenidos previos, (3) QUÉ estrategia seguiste. La frase 'se integra con contenidos pasados' es correcta pero insuficiente: necesito saber CUÁLES contenidos y CÓMO los aplicaste.",
+      "strengths": [
+        "Identificás correctamente el tema trabajado: tiro oblicuo/parabólico, un contenido complejo de cinemática",
+        "Reconocés que la dificultad estuvo en tomar decisiones, lo cual muestra metacognición sobre tu proceso",
+        "Comprendés que el ejercicio requiere integrar contenidos previos, característica clave de la Fase 4"
+      ],
+      "improvements": [
+        "Desarrollá tus respuestas: en lugar de 'hice el ejercicio 3', explicá QUÉ decisiones tomaste y QUÉ aprendiste al hacerlo",
+        "Especificá la integración: ¿QUÉ contenidos pasados integraste? ¿MRU, MRUV, componentes de velocidad? ¿CÓMO los combinaste?",
+        "Detallá el proceso de toma de decisiones: ¿qué opciones consideraste? ¿qué criterios usaste para elegir? ¿por qué fue difícil?"
+      ],
+      "createdAt": "2025-09-30 15:31:01"
+    },
+    {
+      "feedbackId": "fd8fd9f3-27f0-159f-ed11-8d816d7e702b",
+      "weekStart": "2025-09-01",
+      "score": 43,
+      "generalComments": "Este es tu cuarto reporte y lamentablemente observo un patrón preocupante: respuestas extremadamente breves que no permiten evaluar tu verdadero nivel de comprensión. Responder 'Nivel 1' a la pregunta de autoevaluación, o cortar una frase a la mitad ('ahor'), sugiere falta de dedicación al proceso reflexivo. Estás trabajando con tiro oblicuo/parabólico y aplicando fórmulas, lo cual es correcto para Fase 3, pero necesito que desarrolles tus ideas. La reflexión escrita no es un trámite: es una herramienta fundamental para consolidar tu aprendizaje. Tu promedio de 46.3 puntos refleja principalmente la falta de elaboración en tus respuestas, no necesariamente falta de conocimiento.",
+      "strengths": [
+        "Identificás correctamente el contenido trabajado: tiro oblicuo/parabólico",
+        "Reconocés que debés aplicar fórmulas y relacionar contenidos previos con actuales",
+        "Mantenés cierta constancia en completar los reportes semanales (4 de 4)"
+      ],
+      "improvements": [
+        "URGENTE: Dedicá más tiempo y esfuerzo a desarrollar tus respuestas. 'Nivel 1' no es una autoevaluación válida",
+        "Especificá SIEMPRE: ¿QUÉ fórmulas aplicaste? ¿CUÁLES fueron las dificultades? ¿CÓMO las resolviste?",
+        "Revisá tus respuestas antes de enviar: la Q4 está incompleta ('ahor' en lugar de 'ahora'), lo que sugiere falta de revisión"
+      ],
+      "createdAt": "2025-09-30 15:32:21"
+    }
+  ]
+}

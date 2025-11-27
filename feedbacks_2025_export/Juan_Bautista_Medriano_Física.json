@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "studentId": "u_94wnlwgwqme1bxmqu",
+    "studentName": "Juan Bautista Medriano",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.208511",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 54.08,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "a30ae615-7ae5-8368-23d7-9ae76aeff593",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Juan Bautista demuestra buen dominio en la identificación y clasificación de variables físicas. Su análisis del problema de Ana es excepcionalmente detallado, mostrando comprensión profunda de la distinción entre variables controlables y no controlables. La integración del pensamiento crítico con la identificación de variables es sólida, aunque sería valioso que reflexionara más sobre sus propias dificultades y estrategias de aprendizaje para fortalecer su metacognición.",
+      "strengths": [
+        "Análisis excepcional del problema de Ana, identificando sistemáticamente todas las variables relevantes y su clasificación",
+        "Excelente comprensión de la diferencia entre variables controlables y no controlables en contextos reales",
+        "Buena conexión interdisciplinaria entre física y matemática (ejes cartesianos en tiro oblicuo)",
+        "Claridad en la expresión de conceptos físicos y su aplicación práctica"
+      ],
+      "improvements": [
+        "Profundizar en la reflexión sobre dificultades personales, incluso cuando el contenido parece fácil, para fortalecer la autorregulación",
+        "Incluir reflexiones más elaboradas en los comentarios adicionales, conectando el aprendizaje con tu evolución desde la Fase 1",
+        "Desarrollar más la comprensión de relaciones entre variables físicas, no solo su identificación",
+        "Practicar la metacognición: reflexionar sobre cómo aprendes y qué estrategias te funcionan mejor"
+      ],
+      "createdAt": "2025-10-01 20:06:45"
+    },
+    {
+      "feedbackId": "8db36caf-44ca-2dfe-6b38-76e3d602a7a1",
+      "weekStart": "2025-08-18",
+      "score": 64,
+      "generalComments": "Juan Bautista muestra progreso notable en la estructura metodológica del pensamiento crítico, evidenciando dominio de la integración F1+F2+F3 en su respuesta a Q2. Su capacidad para seleccionar y justificar herramientas matemáticas (GRUPO A, ecuaciones paramétricas) es destacable, así como la verificación de resultados mediante el tiempo de vuelo. Sin embargo, se observa que la reflexión sobre dificultades y el análisis metacognitivo son áreas que requieren fortalecimiento. Su autoevaluación realista (nivel 2 con ejercicios complejos) muestra honestidad, pero necesita estrategias más concretas para superar esas dificultades.",
+      "strengths": [
+        "Excelente estructura metodológica F1+F2+F3 aplicada sistemáticamente en la resolución del problema",
+        "Justificación sólida de la selección de herramientas matemáticas (MRU en x, MRUA en y)",
+        "Verificación efectiva de resultados mediante cálculo del tiempo total de vuelo",
+        "Comprensión conceptual correcta del tiro parabólico y sus fundamentos físicos"
+      ],
+      "improvements": [
+        "Profundizar en la reflexión sobre dificultades específicas: ¿qué hace complejo al ejercicio 3? Identificar el obstáculo concreto",
+        "Desarrollar estrategias explícitas para abordar ejercicios complejos (descomposición, diagramas, pasos intermedios)",
+        "Ampliar las conexiones interdisciplinarias más allá de lo general: explorar diferencias y similitudes específicas entre física y química",
+        "Incluir reflexiones más elaboradas sobre el proceso de aprendizaje y no solo sobre los materiales"
+      ],
+      "createdAt": "2025-10-01 20:20:17"
+    },
+    {
+      "feedbackId": "67acaea0-12ed-0fe0-cdac-d3c98bde5654",
+      "weekStart": "2025-08-25",
+      "score": 60,
+      "generalComments": "Juan Bautista muestra aplicación correcta de la estructura metodológica F1+F2+F3 en su análisis del problema de la flecha, demostrando comprensión del proceso de resolución. Su cálculo de la componente horizontal de velocidad y la conclusión sobre el impacto evidencian razonamiento físico adecuado. Sin embargo, se observa una disminución notable en la reflexión metacognitiva y en las conexiones conceptuales profundas. Las respuestas a Q3, Q4 y Q5 son extremadamente breves y genéricas, sin demostrar el análisis crítico que sí muestra en Q2. Su autoevaluación (nivel 2) es consistente con su desempeño, mostrando honestidad, pero necesita desarrollar mayor profundidad en todas las dimensiones del pensamiento crítico.",
+      "strengths": [
+        "Estructura metodológica F1+F2+F3 aplicada correctamente en la resolución del problema de la flecha",
+        "Cálculo preciso de la componente horizontal de velocidad (Vox = 40×cos30)",
+        "Conclusión lógica fundamentada en el análisis numérico (posición final vs objetivo)",
+        "Autoevaluación realista sobre su nivel de dominio actual"
+      ],
+      "improvements": [
+        "Ampliar significativamente las reflexiones sobre dificultades: Q3 debe explicar QUÉ aspectos cuestan, no solo describir el proceso general",
+        "Profundizar las conexiones interdisciplinarias más allá de lo superficial: explorar cómo las funciones trigonométricas conectan física y matemática conceptualmente",
+        "Incluir reflexiones elaboradas en comentarios adicionales: ¿qué aprendiste? ¿cómo evolucionó tu comprensión?",
+        "Fortalecer la autorregulación mediante análisis explícito de estrategias efectivas e inefectivas"
+      ],
+      "createdAt": "2025-10-01 20:35:26"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxmqu_2025-09-01_a5b1a2c8",
+      "weekStart": "2025-09-01",
+      "score": 73,
+      "generalComments": "Tu trabajo en esta semana muestra aplicación del proceso completo de las 4 fases, aunque con algunas áreas de mejora. Tu autoevaluación (nivel 2) es consistente: reconoces que necesitas más práctica para alcanzar un nivel más alto. El ejercicio resuelto sobre tiro desde altura demuestra que comprendes la metodología, pero la ejecución tiene algunos aspectos incompletos.",
+      "strengths": [
+        "Identificación clara de F1: calcular el tiempo de caída de un objeto desde altura inicial",
+        "Clasificación correcta de variables conocidas (Ho=45m, ángulo=30°, Hf=0m) y desconocidas (tiempo)",
+        "Selección apropiada de fórmulas en F3: ecuación de posición vertical y componente Voy",
+        "Obtención de dos resultados (t1=4.16s, t2=-2.16s) y selección correcta del tiempo físicamente válido",
+        "Reflexión honesta en Q3: 'no tuve dificultad' pero reconoces en Q1 que necesitas practicar más"
+      ],
+      "improvements": [
+        "En Q2 falta mostrar el valor de Vo (velocidad inicial) que es necesario para calcular Voy = vo × sen(30°)",
+        "No se evidencia el proceso completo de resolución de la ecuación cuadrática para obtener t1 y t2",
+        "La conexión con matemática en Q4 es muy genérica (uso números e incógnitas); especificar qué tipo de ecuaciones (cuadráticas, trigonométricas)",
+        "Falta reflexión sobre por qué se obtienen dos soluciones y cuál es el significado físico de cada una"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxmqu_2025-09-08_b6c2b3d9",
+      "weekStart": "2025-09-08",
+      "score": 70,
+      "generalComments": "En esta semana, aunque no hubo clase presencial, trabajaste de forma autónoma en ejercicios de tiro oblicuo. Tu autoevaluación se mantiene en nivel 2, lo cual es coherente con el trabajo presentado. El ejercicio que resolviste muestra aplicación de la metodología de 4 fases, aunque con algunas inconsistencias en los datos y el desarrollo matemático que requieren atención.",
+      "strengths": [
+        "Iniciativa para trabajar de forma autónoma a pesar de no tener clase presencial",
+        "Aplicación de la estructura F1-F2-F3 para organizar el problema",
+        "Identificación de variables conocidas (Ho=45m, ángulo=30°, Hf=0m)",
+        "Intento de resolver la ecuación cuadrática y obtención de resultado (t=4.16s)",
+        "Reflexión honesta sobre tu nivel: 'resuelvo ejercicios simples con facilidad'"
+      ],
+      "improvements": [
+        "Grave inconsistencia en Q2: el desarrollo matemático presentado no coincide con los datos declarados (aparece Voy = 20× Sa 30° sin definir qué es Sa)",
+        "La ecuación Angulo = 45 + 10 × t + 5× t² = 4,16s no tiene sentido dimensionalmente (ángulo ≠ tiempo)",
+        "Falta el valor de la velocidad inicial (Vo) que es fundamental para calcular Voy",
+        "No se muestra el proceso de resolución de la ecuación cuadrática completa",
+        "La conexión con matemática en Q4 sigue siendo muy superficial (trabajan con incógnitas)"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxmqu_2025-09-22_c7d3c4e0",
+      "weekStart": "2025-09-22",
+      "score": 85,
+      "generalComments": "¡Excelente trabajo en esta semana! Mostraste un salto cualitativo significativo en tu desempeño. La resolución completa del ejercicio de la jabalina evidencia dominio de las 4 fases: identificación clara del objetivo, clasificación exhaustiva de variables, selección justificada de herramientas y ejecución matemática detallada con verificación. Este es el nivel de trabajo que te permite avanzar del nivel 2 al nivel 3-4.",
+      "strengths": [
+        "FASE 1 impecable: Objetivo claro (determinar altura máxima y alcance) y análisis del movimiento parabólico con sus componentes",
+        "FASE 2 completa: Todas las variables conocidas identificadas con valores y unidades, y variables desconocidas claramente marcadas",
+        "FASE 3 excepcional: Listado completo de ecuaciones necesarias con justificación física ('velocidad vertical es cero en altura máxima')",
+        "FASE 4 ejemplar: Cálculo paso a paso de componentes (Vox=24.57 m/s, Voy=17.22 m/s), altura máxima (15.13m) y alcance (86.24m)",
+        "Organización profesional del trabajo con secciones claramente separadas",
+        "Reconocimiento en Q3: 'No tuve dificultades' reflejando genuino dominio del tema"
+      ],
+      "improvements": [
+        "Tu autoevaluación en Q1 sigue siendo nivel 2 (resuelvo ejercicios fáciles con facilidad), pero este trabajo demuestra nivel 3-4. Actualizar tu autopercepción",
+        "La conexión con matemática en Q4 podría ser más específica: mencionar trigonometría, ecuaciones cuadráticas, cinemática",
+        "Podrías agregar una verificación adicional (por ejemplo, verificar que las unidades finales sean correctas)"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxmqu_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Hola Juan Bautista, tu reporte de esta semana está incompleto, lo que dificulta evaluar tu avance en esta etapa. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluso en semanas de evaluación donde puedes reflexionar sobre tu preparación para la prueba. Mantén mayor constancia y regularidad en la elaboración de tus reportes semanales. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Comunicaste la situación particular de la semana (período de prueba)",
+        "Completaste el reporte dentro del plazo establecido",
+        "Reconoces explícitamente cuando no hay contenido nuevo que reportar"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluso en semanas de evaluación puedes reflexionar sobre tu preparación",
+        "Identifica con mayor precisión las dificultades que enfrentaste durante la preparación de la prueba de física",
+        "Desarrolla estrategias más específicas para aprovechar las semanas de evaluación como oportunidad de reflexión sobre tu aprendizaje"
+      ],
+      "createdAt": "2025-10-10T14:30:00Z"
+    },
+    {
+      "feedbackId": "80b6b588-b869-418e-8dea-9d18e0e369e6",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:51.710Z"
+    },
+    {
+      "feedbackId": "afda4f8b-fb4e-4a6b-962a-96fd4762e286",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:59.164Z"
+    },
+    {
+      "feedbackId": "4e0276ef-2320-4383-9bca-69ea583db017",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana trabajaste con las leyes de Newton y resolviste un problema de cálculo de fuerza correctamente. Eso es un buen punto de partida. Sin embargo, tu reporte muestra que aún no estás aplicando el enfoque de la Fase 2: identificar y clasificar variables. Resolver una fórmula no es lo mismo que entender qué variables intervienen y cómo se relacionan.\n\nTu desempeño esta semana es inicial (Nivel 1-2 en general). Necesitas ser más reflexivo: en lugar de decir \"no tuve dificultad\", analiza realmente qué hiciste, cómo lo hiciste y por qué funcionó. Esto es pensamiento crítico real.\n\nPara la próxima semana, te pido que: (1) en cada problema, listes explícitamente todas las variables (conocidas/desconocidas, controlables/no controlables), (2) reflexiones genuinamente sobre dificultades y estrategias, y (3) conectes los temas con ejemplos concretos de la vida real. Esto transformará tu aprendizaje.",
+      "strengths": "• Aplicación correcta de fórmulas: Resuelves el problema de F=ma sin errores de cálculo (2000N). Esto muestra que comprendes la operación matemática básica, aunque le falta análisis de variables.\n• Disposición a trabajar con problemas: Presentas un ejercicio completo con datos, operación y respuesta. Esto indica que intentas seguir la estructura de resolución de problemas.",
+      "improvements": "• Identificar y clasificar variables en cada problema: En el ejercicio del coche, debes especificar: masa (1000kg) = variable conocida/controlable; aceleración (2m/s²) = variable conocida/dependiente; fuerza neta = variable desconocida/a calcular. Esto es el corazón de la Fase 2.\n• Desarrollar metacognición real: Cuando dices \"no tuve dificultad\", pierdes la oportunidad de reflexionar. Pregúntate: ¿Qué me costó? ¿Cómo lo resolví? ¿Qué estrategia usé? Esto te ayuda a aprender de verdad, no solo a resolver.\n• Profundizar en conexiones con fenómenos reales: Tu conexión con Matemática es muy superficial. Intenta: \"En Física, la fuerza depende de la masa y aceleración (F=ma). En un auto real, si aumenta la masa, necesito más fuerza para la misma aceleración.\" Así conectas variables con la realidad.",
+      "createdAt": "2025-10-27T04:57:02.587Z"
+    },
+    {
+      "feedbackId": "010d92fa-4a6d-4661-a0cc-5ffd62ee632e",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que resolviste correctamente el ejercicio matemático, lo que indica que comprendes las fórmulas básicas. Sin embargo, tu reporte muestra que aún no has integrado completamente lo que Fase 2 busca: identificar y clasificar variables de forma sistemática, no solo aplicar fórmulas.\n\nEsta semana tu desempeño fue principalmente operativo (hacer cálculos) pero le falta el análisis crítico de variables que es el corazón de esta fase. Necesitas ir más allá de \"aplicar la fórmula\" y preguntarte: ¿cuáles son mis variables? ¿cuáles controlo? ¿cuáles no?\n\nPara la próxima semana, te propongo que en cada ejercicio escribas explícitamente la clasificación de variables antes de resolver. Esto te ayudará a desarrollar el pensamiento crítico que la rúbrica evalúa y que necesitarás en fases posteriores.",
+      "strengths": "• Resolución correcta de cálculos: Tu ejercicio en Q2 muestra que dominas la aplicación de la fórmula F = m·a y el despeje algebraico. El resultado a = 3,5 m/s² es matemáticamente preciso.\n• Reconocimiento de autoevaluación: En Q1 intentas autoevaluarte diciendo que estás en nivel 2, lo que muestra cierta conciencia de tu desempeño, aunque necesita ser más específica.",
+      "improvements": "• Identificación sistemática de variables: Necesitas aprender a clasificar cada variable en tus problemas. Por ejemplo, en el ejercicio de Q2, deberías escribir: \"Variables conocidas: masa (80kg), fuerza (280N). Variables desconocidas: aceleración. Variables controlables: la fuerza aplicada.\" Esto es lo que Fase 2 requiere.\n• Reflexión metacognitiva genuina: En lugar de decir \"no tuve dificultad\", pregúntate: ¿Qué me costó? ¿Cómo diferenciaba entre variables controlables y no controlables? ¿Qué estrategia usé? Esto demuestra pensamiento crítico real y ayuda a tu aprendizaje.\n• Conexiones con fenómenos reales: Amplía tus respuestas conectando con situaciones concretas. Por ejemplo: \"Este tema de cuerpos vinculados se aplica cuando un auto remolca otro, donde la tensión de la cuerda es una variable no controlable que depende de las masas.\" Esto integra teoría con realidad.",
+      "createdAt": "2025-11-12T23:03:18.273Z"
+    },
+    {
+      "feedbackId": "0e56c69e-05e2-40ef-9996-0d55f71f381c",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que estás trabajando activamente en el proyecto de la catapulta y que identificas problemas reales en la construcción. Eso es un buen punto de partida. Sin embargo, tu reporte no refleja el aprendizaje de Fase 2, que es precisamente aprender a identificar y clasificar variables físicas.\n\nEsta semana tu enfoque fue más en la *construcción práctica* que en el *análisis científico*. Necesitas cambiar la perspectiva: en lugar de contar qué hiciste, analiza *qué variables están en juego* en tu catapulta y cómo se relacionan entre sí.\n\nPara la próxima semana, antes de seguir construyendo, dedica tiempo a responder: ¿Qué queremos medir? ¿Qué variables podemos controlar? ¿Cuáles no? Esto te preparará mejor para Fase 3 (análisis de datos) y hará que tu proyecto sea más científico.",
+      "strengths": "• Identificación de dificultades prácticas reales: Reconoces problemas concretos en la construcción (\"cortar sin serrucho\", \"palitos que se mueven\"), lo que muestra observación atenta del proceso.\n• Intento de conexión contextual: Relacionas el proyecto con carpintería y contexto histórico, mostrando que intentas vincular la actividad con el mundo real, aunque necesita profundidad científica.\n• Participación activa en el proyecto: Tu rol llevando materiales y construyendo demuestra compromiso y responsabilidad en el trabajo grupal.",
+      "improvements": "• Identificar variables físicas explícitamente: En lugar de describir la construcción, analiza *qué magnitudes están en juego*: ¿Cuál es el ángulo de lanzamiento? ¿Qué masa tiene el proyectil? ¿Cuál es la distancia de alcance? Haz una lista clara de variables conocidas y desconocidas. Esto es el corazón de Fase 2.\n• Conectar dificultades con conceptos de Fase 2: Cuando menciones problemas (como \"medida exacta\"), reflexiona: ¿Cómo afecta la precisión en las medidas a las variables del sistema? ¿Qué variables se vuelven incontrolables si no cortas bien? Esto demuestra pensamiento crítico real.\n• Responder completamente todas las preguntas: La pregunta 5 requiere reflexión genuina. Dedica 2-3 líneas a comentar qué aprendiste sobre identificar variables esta semana, o qué te sorprendió del proceso. Incluso respuestas breves son mejor que ausencia.",
+      "createdAt": "2025-11-17T13:50:25.023Z"
+    }
+  ]
+}

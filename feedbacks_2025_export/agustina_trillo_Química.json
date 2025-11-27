@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "studentId": "u_bu3vsghhsme6h3la1",
+    "studentName": "agustina trillo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.242358",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 66.55,
+      "minScore": 58.5,
+      "maxScore": 72,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me6h3la1_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 58.5,
+      "generalComments": "Querida agustina trillo, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas algunas variables principales como pH, concentración y temperatura en el ejercicio del buffer casero. Es importante mejorar la organización y clasificación de los datos disponibles. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas algunas variables relevantes en problemas de equilibrio químico",
+        "Reconoces la necesidad de clasificar variables en una matriz",
+        "Intentas aplicar los conceptos a ejemplos concretos como el buffer casero"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en cada problema",
+        "Es importante mejorar la organización y clasificación de los datos disponibles (conocidas/desconocidas, controlables/no controlables)",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, explicando con más detalle tu razonamiento"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me6h3la1_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 65.25,
+      "generalComments": "Querida agustina trillo, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Reconoces correctamente cuándo usar Qc y Kc para determinar la dirección de una reacción en equilibrio. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en diferentes contextos. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas y cómo interpretar sus resultados. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la fórmula de Qc y la comparas con Kc para determinar la dirección de la reacción",
+        "Identificas dificultades específicas (efecto de temperatura en Le Chatelier) y buscas estrategias para resolverlas (volver al cuadro del cuadernillo)",
+        "Reconoces las relaciones entre variables en equilibrio químico (presión, temperatura, concentración)"
+      ],
+      "improvements": [
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas, especialmente el principio de Le Chatelier",
+        "Es importante consolidar tu comprensión de las relaciones entre variables y cómo la temperatura afecta reacciones exotérmicas y endotérmicas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, detallando más tus razonamientos"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me6h3la1_2025-09-29_003",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querida agustina trillo, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas para el proceso Haber-Bosch, aplicando la fórmula de Kc y calculando porcentajes de conversión con tablas de equilibrio. Identificas correctamente las relaciones entre variables y comprendes las ecuaciones fundamentales de equilibrio químico. Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas para fortalecer tu interpretación de resultados. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Aplicas la fórmula de Kc correctamente al proceso Haber-Bosch y calculas el porcentaje de conversión usando tablas de equilibrio",
+        "Identificas dificultades específicas (interpretar Kc y dirección de reacción) y propones estrategias efectivas (repasar ejemplos, videos explicativos)",
+        "Conectas el equilibrio químico con estequiometría y energía en las reacciones, mostrando comprensión de las relaciones entre conceptos"
+      ],
+      "improvements": [
+        "Es importante consolidar tu comprensión de qué representa Kc cualitativamente y cómo predecir la dirección de la reacción",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, detallando los pasos que sigues al resolver problemas",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, especialmente al explicar tus razonamientos químicos"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "d0f89a64-acb7-469d-9ca3-807230432a30",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que esta semana trabajaste con conceptos importantes de ácidos y bases, y lograste aplicar fórmulas en ejercicios concretos. Tu honestidad al reconocer dificultades con logaritmos es un punto a favor, porque muestra que sabes dónde enfocarte.\n\nSin embargo, tu reporte se queda en lo descriptivo. La Fase 2 requiere que *analices sistemáticamente* las variables: cuáles conoces, cuáles buscas, cuáles puedes controlar. Esto es fundamental para resolver problemas complejos en química. Necesitas ir más allá de \"hicimos ejercicios\" y explicar *cómo* identificaste cada variable.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema, (2) profundices en tu dificultad con logaritmos buscando recursos específicos, y (3) completes siempre la sección de comentarios adicionales con reflexiones genuinas. Esto elevará significativamente tu desempeño.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces tu dificultad con logaritmos en lugar de pretender dominio total. Esto muestra madurez y disposición para mejorar.\n• Estrategia práctica identificada: Tu solución de revisar ejemplos y usar la calculadora paso a paso es concreta y aplicable. Demuestra que buscas herramientas reales para resolver problemas.\n• Conexiones con lo cotidiano: Vinculas el pH con ejemplos del día a día (por qué algo es ácido o básico), lo que muestra que intentas darle sentido práctico al aprendizaje.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, necesitas identificar explícitamente qué variables son conocidas (datos del problema), cuáles desconocidas (lo que buscas), y cuáles controlables. Por ejemplo: en el cálculo de pH del KOH, la concentración es *conocida y controlable*, mientras que el pH es *desconocido*. Haz listas claras.\n• Profundizar en la dificultad con logaritmos: No es suficiente decir \"me cuesta\". Analiza: ¿confundes la fórmula pH = -log[H₃O⁺]? ¿No entiendes qué es un logaritmo? ¿Problemas con la calculadora? Identifica el origen real para atacarlo directamente.\n• Completar reflexiones en Q5: Este apartado es tu oportunidad para demostrar pensamiento crítico. Reflexiona sobre: ¿por qué es importante clasificar variables? ¿Cómo te ayuda en futuros problemas? ¿Qué descubriste esta semana? Siempre responde con profundidad.",
+      "createdAt": "2025-11-12T22:50:48.863Z"
+    },
+    {
+      "feedbackId": "a68d0b2c-fd31-4e99-8d31-3258cd5c45f4",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Excelente semana de trabajo. Demuestras dominio sólido de ácidos y bases, con un proceso metódico y consciente de tus limitaciones. Tu honestidad al autoevaluarte como nivel 3 y tu capacidad para identificar dificultades específicas (aproximaciones, factor 2, logaritmos) muestran madurez académica.\n\nTu desempeño general es consistente: aplicas correctamente las herramientas (tablas I/V/E, Ka), conectas con conceptos previos y reconoces cuándo necesitas refuerzo. Sin embargo, hay dos puntos críticos: necesitas ser más explícito en clasificar variables (controlables/no controlables, conocidas/desconocidas) y debes profundizar en reflexión metacognitiva.\n\nPara la próxima semana, enfócate en: (1) crear una tabla de variables para cada problema que resuelvas, (2) completar siempre la sección de comentarios adicionales con reflexión genuina, y (3) practicar transferencia de método a problemas con contextos nuevos (buffers, titulaciones, sistemas más complejos).",
+      "strengths": "• Autoconocimiento realista: Reconoces honestamente tu nivel intermedio (3) y señalas áreas específicas de mejora como logaritmos y verificación de aproximaciones. Esto muestra madurez en tu autoevaluación.\n• Sistematicidad en el proceso: Demuestras seguimiento claro de metodología: usas tablas I/V/E, aplicas Ka, verificas aproximaciones y repites cálculos. Tu respuesta en Q3 evidencia un enfoque ordenado y reflexivo.\n• Conexiones conceptuales válidas: Vinculas ácidos/bases con estequiometría, equilibrio químico y matemática (logaritmos), mostrando que comprendes cómo los temas se integran en la disciplina.",
+      "improvements": "• Clasificación explícita de variables: En Q1, necesitas identificar y clasificar variables de forma sistemática (ej: \"concentración inicial = variable controlable conocida; pH = variable desconocida dependiente\"). Esto es central en Fase 2. Crea una tabla simple en tus próximos ejercicios.\n• Profundidad en Q5 (comentarios adicionales): No dejes esta sección vacía. Reflexiona sobre: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo evolucionaste desde Fase 1? ¿Qué categorías propias descubriste? Dedica 3-4 líneas mínimo.\n• Transferencia a nuevos problemas: En Q4, ve más allá de conexiones descriptivas. Plantea: \"Si tuviera un ácido triprótico, ¿cómo identificaría sus variables?\" o \"¿Cómo aplicaría esto a un buffer?\" Esto demuestra versatilidad real en la aplicación.",
+      "createdAt": "2025-11-17T13:51:34.115Z"
+    }
+  ]
+}

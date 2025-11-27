@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "studentId": "u_7fuijay0kme5utxod",
+    "studentName": "Tiziana Zapozko",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.235219",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 64.0,
+      "minScore": 43,
+      "maxScore": 83,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-08-11_e7b2m3c1",
+      "weekStart": "2025-08-11",
+      "score": 83,
+      "generalComments": "Tiziana presenta un desempeño muy sólido en la Fase 2, demostrando comprensión profunda de la identificación y clasificación de variables termodinámicas. Su aplicación del ejercicio del calentador de agua evidencia dominio de F1+F2 con precisión. La capacidad de justificar sus decisiones y establecer conexiones interdisciplinarias muestra madurez en el pensamiento crítico. Sin embargo, hay espacio para fortalecer la reflexión metacognitiva y la autorregulación.",
+      "strengths": [
+        "Excelente clasificación de variables termodinámicas según conocidas/desconocidas y controlables/no controlables",
+        "Justificación clara y precisa de por qué cada variable es relevante para resolver el problema del calentador",
+        "Integración efectiva de F1+F2 con evidencia concreta de aplicación práctica"
+      ],
+      "improvements": [
+        "Desarrollar mayor profundidad en la reflexión metacognitiva sobre el propio proceso de aprendizaje",
+        "Proponer estrategias específicas cuando identifiques dificultades, incluso si son mínimas",
+        "Ampliar las conexiones a otros contextos más allá de la química, explorando aplicaciones cotidianas o tecnológicas"
+      ],
+      "createdAt": "2025-01-10T00:00:11Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-08-18_f8c3n4d2",
+      "weekStart": "2025-08-18",
+      "score": 76,
+      "generalComments": "Tiziana continúa mostrando buen desempeño en la Fase 3, evidenciando comprensión de cómo seleccionar herramientas y fórmulas apropiadas. Su integración de F1+F2+F3 es coherente y su justificación sobre por qué usa ciertas ecuaciones demuestra pensamiento analítico. Sin embargo, persiste la necesidad de desarrollar más las dimensiones metacognitivas y de conexión con aplicaciones reales.",
+      "strengths": [
+        "Integración efectiva de las tres primeras fases (F1+F2+F3) con coherencia metodológica",
+        "Justificación sólida de la selección de herramientas y fórmulas basándose en el tipo de problema",
+        "Organización sistemática del proceso de resolución"
+      ],
+      "improvements": [
+        "Profundizar en la evaluación de razonabilidad de resultados antes de finalizar los ejercicios",
+        "Desarrollar conexiones más ricas con aplicaciones reales del concepto trabajado",
+        "Incluir reflexiones metacognitivas sobre qué aprendiste del proceso y cómo podrías aplicarlo en otros contextos",
+        "Proponer estrategias concretas cuando identifiques dificultades, aunque sean menores"
+      ],
+      "createdAt": "2025-01-10T00:00:12Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-09-15_a9d4o5e3",
+      "weekStart": "2025-09-15",
+      "score": 76,
+      "generalComments": "Tiziana demuestra dominio sólido de la Fase 4 con una resolución completa del problema del termotanque, incluyendo todos los cálculos y verificaciones dimensionales. Su ejecución sistemática evidencia internalización de la metodología de las 4 fases. Sin embargo, continúa la ausencia de evaluación de razonabilidad de resultados y falta profundidad en las reflexiones metacognitivas, que son cruciales para consolidar el aprendizaje.",
+      "strengths": [
+        "Resolución completa y sistemática del problema con todas las etapas de cálculo explícitas",
+        "Verificación dimensional correcta asegurando coherencia de unidades",
+        "Ejecución organizada siguiendo la estructura metodológica de las 4 fases"
+      ],
+      "improvements": [
+        "Evaluar la razonabilidad de los resultados obtenidos: ¿el tiempo calculado tiene sentido para el contexto del problema?",
+        "Desarrollar reflexiones metacognitivas sobre el proceso completo: qué fue desafiante, qué aprendiste, qué optimizarías",
+        "Establecer conexiones con aplicaciones reales del concepto de calentamiento por resistencia eléctrica",
+        "Proponer en Q5 preguntas nuevas que surgieron durante la resolución o temas que te gustaría profundizar"
+      ],
+      "createdAt": "2025-01-10T00:00:13Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me5utxod_2025-09-29_004",
+      "weekStart": "2025-09-29",
+      "score": 62,
+      "generalComments": "Querida Tiziana Zapozko, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física con la actividad integradora. Reconoces tus dificultades al resolver ejercicios complejos, lo cual es un primer paso importante para mejorar. Utilizas preguntas guía para encaminarte y arrancar el ejercicio. Es importante mejorar la planificación de tu estrategia antes de ejecutar y completar todos los pasos necesarios. Necesitas ser más sistemática en la ejecución de los pasos de resolución, asegurando completar todos los cálculos requeridos (como el Qmate). Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces tus dificultades al resolver ejercicios complejos, lo cual es un primer paso importante para mejorar.",
+        "Utilizas preguntas guía para encaminarte y arrancar el ejercicio, mostrando búsqueda de estrategias de apoyo.",
+        "Planteas correctamente la ecuación de equilibrio térmico (Qagua + Qmate = 0)."
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, identificando todos los pasos necesarios desde el inicio.",
+        "Necesitas ser más sistemática en la ejecución de los pasos de resolución, asegurando completar todos los cálculos requeridos.",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso, revisando que todas las incógnitas estén resueltas."
+      ],
+      "createdAt": "2025-10-09T12:00:00Z"
+    },
+    {
+      "feedbackId": "15bbfa01-c593-4430-aabf-bd05c2b20f33",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:24:50.703Z"
+    },
+    {
+      "feedbackId": "8bc3c601-9a7d-4f32-a1c3-d83cf1a99c50",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:29:11.184Z"
+    },
+    {
+      "feedbackId": "fe911835-2f5d-4580-80fc-40196bfb5362",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que estás avanzando en la resolución de problemas de circuitos y potencia eléctrica. Tu trabajo en el ejercicio de resistencias en serie es ordenado y matemáticamente correcto, lo que demuestra que comprendes las fórmulas y sabes aplicarlas. Además, reconoces tus dificultades con magnitudes físicas y ya implementas estrategias para organizarte mejor.\n\nSin embargo, esta semana te enfocaste más en *resolver cálculos* que en *identificar y clasificar variables*, que es el objetivo central de Fase 2. Necesitas ser más explícito: no solo uses variables, sino que las nombres, clasifiques y analices sistemáticamente. También notó que Q5 está vacía; esa reflexión final es importante para consolidar tu aprendizaje.\n\nPara la próxima semana, te propongo que en cada problema escribas una tabla con: \"Variable | Tipo (conocida/desconocida) | Clasificación (controlable/no controlable) | Magnitud física\". Esto te ayudará a internalizar la metodología de Fase 2 y a reducir confusiones entre magnitudes.",
+      "strengths": "• Procedimiento sistemático en cálculos: En el ejercicio de resistencias en serie, organizas el trabajo de forma clara: primero calculas R equivalente, luego aplicas Ley de Ohm, finalmente encuentras caídas de tensión. Esto muestra que *sí* puedes estructurar problemas complejos.\n• Identificación de dificultades reales: Reconoces específicamente que te cuesta \"mezclar Joules, watts y calorías\" en problemas largos. Esta autoconciencia es valiosa para mejorar.\n• Estrategia de organización práctica: Tu idea de \"escribir qué pide cada inciso antes de hacer cuentas\" es una herramienta concreta que ya está funcionando para reducir confusiones.",
+      "improvements": "• Clasificar variables explícitamente: En Q1 y Q2, debes identificar cada variable como \"conocida\" o \"desconocida\", y \"controlable\" o \"no controlable\". Por ejemplo, en el circuito de resistencias: V = 108 V (conocida, no controlable), R1, R2, R3 (conocidas, no controlables), I (desconocida, calculable). Esto es el corazón de Fase 2.\n• Diferenciar magnitudes físicas conceptualmente: No solo organices fórmulas; entiende *por qué* Joules, watts y calorías son diferentes. Watts = energía/tiempo (potencia), Joules = energía total, calorías = unidad de energía térmica. Crea una tabla comparativa con definiciones y unidades para consultarla.\n• Conectar con fenómenos reales y nuevos problemas: En Q4, tu conexión es demasiado abstracta. Practica aplicando identificación de variables a situaciones nuevas: \"¿Qué variables identifico en un microondas? ¿En una batería de celular?\" Esto desarrolla transferencia.",
+      "createdAt": "2025-11-17T13:56:31.071Z"
+    }
+  ]
+}

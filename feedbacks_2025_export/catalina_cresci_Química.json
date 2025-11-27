@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "studentId": "u_yjrnyfsg2me6bmfeg",
+    "studentName": "catalina cresci",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.242988",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 59.33,
+      "minScore": 27,
+      "maxScore": 79,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me6bmfeg_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querida Catalina Cresci,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Reconoces la necesidad de comenzar con el material de trabajo.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema.\n\nRecuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Reconoces que estás en una etapa inicial del proceso de aprendizaje",
+        "Identificas la necesidad de comenzar con el material de trabajo sistemáticamente",
+        "Muestras honestidad al expresar que aún no has comenzado propiamente con los contenidos"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en Química",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en las próximas entregas",
+        "Desarrolla estrategias para comenzar a trabajar con los contenidos antes de la fecha de entrega del reporte",
+        "Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase"
+      ],
+      "createdAt": "2025-10-07 12:23:20"
+    },
+    {
+      "feedbackId": "aa34e24c-34e0-4a4f-863c-2165b49c6c7f",
+      "weekStart": "2025-08-18",
+      "score": 79,
+      "generalComments": "Excelente trabajo esta semana. Demuestras dominio sólido en identificación y clasificación de variables, especialmente en tu análisis del proceso Haber-Bosch, donde organizas la información de forma sistemática y clara. Tus conexiones con termodinámica, cinética y contextos cotidianos muestran que estás pensando críticamente más allá de memorizar conceptos.\n\nTu evolución es evidente: pasaste de reconocer variables a clasificarlas en matrices y transferir esa habilidad a nuevos problemas. Sin embargo, hay dos áreas donde puedes crecer: primero, profundizar en *cómo* las variables se relacionan entre sí (no solo identificarlas); segundo, diseñar estrategias más específicas para tus confusiones particulares, en lugar de soluciones genéricas.\n\nPara la próxima semana, te propongo: (1) completa siempre la sección de comentarios adicionales—es donde consolidas tu pensamiento; (2) crea un \"mapa de dependencias\" en un problema, mostrando cómo cambios en una variable afectan otras; (3) practica deliberadamente con problemas donde confundas equilibrio y composición, para identificar exactamente dónde falla tu razonamiento.",
+      "strengths": "• Clasificación sistemática en la matriz 2×2: Ubicas correctamente variables como \"T inicial (conocida y controlable)\" y \"Keq (conocida y no controlable)\" en el proceso Haber-Bosch. Esto muestra comprensión sólida de cómo organizar información compleja.\n• Conexiones interdisciplinarias: Vinculas variables químicas con termodinámica, cinética, biología e industria con ejemplos concretos (café, medicamentos, pH sanguíneo). Demuestra que entiendes cómo el pensamiento crítico se aplica más allá de la química.\n• Autoevaluación realista: Reconoces honestamente tus limitaciones (\"a veces me cuesta no olvidarme alguna variable\", \"necesito practicar ejemplos numéricos\"). Esto es fundamental para mejorar de forma dirigida.",
+      "improvements": "• Profundizar en relaciones entre variables: Identificas tipos de variables, pero no explicas cómo se relacionan. Por ejemplo, ¿cómo afecta cambiar T a Keq? ¿Y a las concentraciones de equilibrio? Crea un diagrama de flujo mostrando estas dependencias en un problema específico.\n• Estrategias más específicas para confusiones: Mencionas confundir variables de equilibrio con composición, pero tu estrategia (tabla ICE) es general. Diseña un ejercicio donde deliberadamente cometas ese error, identifiques dónde ocurre, y corrijas. Esto es más efectivo que repasar.\n• Completar la sección Q5: No dejaste comentarios adicionales. Reflexiona sobre: ¿Qué fue lo más importante que aprendiste esta semana? ¿Cómo cambió tu forma de ver los problemas químicos? ¿Qué quieres mejorar para la próxima fase? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-03T11:55:03.406Z"
+    },
+    {
+      "feedbackId": "cc4c368d-2e00-4757-a64c-a38facb2c6ba",
+      "weekStart": "2025-09-15",
+      "score": 72,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando tus fortalezas y debilidades con honestidad. Tu capacidad de autoevaluación es una fortaleza real: sabes dónde necesitas mejorar y tienes estrategias claras para hacerlo. Esto es exactamente lo que se espera en pensamiento crítico.\n\nSin embargo, tu reporte muestra que aún no has integrado completamente la Fase 2. Identificas los temas, pero no clasificas sistemáticamente las variables en cada problema. Es como si supieras qué hacer, pero no lo documentaras de forma estructurada. Esto es importante porque la Fase 2 se trata precisamente de eso: aprender a *ver* y *organizar* las variables.\n\nPara la próxima semana, te propongo que cuando resuelvas un problema, hagas una tabla simple al inicio: \"Variables conocidas | Variables desconocidas | Controlables | No controlables\". Esto te ayudará a plantear mejor las incógnitas y evitar errores en las ecuaciones cuadráticas. Además, completa siempre la sección Q5 con reflexiones genuinas sobre tu proceso.",
+      "strengths": "• Autoevaluación honesta y detallada: Reconoces claramente dónde tienes dificultades (\"me cuesta plantear las tablas\", \"confundo si el equilibrio se desplaza\"). Esta honestidad es fundamental para mejorar y muestra madurez en tu aprendizaje.\n• Estrategias prácticas y concretas: Propones acciones específicas como \"practicar más tablas de variación antes de ir directo a las cuentas\" y \"verificar que las concentraciones no den negativas\". Esto demuestra que sabes *cómo* abordar tus dificultades.\n• Conexiones interdisciplinarias claras: Vinculaste el equilibrio químico con Física, Matemática y Biología de forma coherente, mostrando que entiendes que estos conceptos no existen aislados.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, necesitas identificar explícitamente qué variables son conocidas/desconocidas y cuáles son controlables/no controlables en cada problema. Por ejemplo, en el NO₂: \"moles iniciales (conocida, no controlable), temperatura (conocida, controlable), Kc (desconocida, depende de T)\". Esto es el corazón de la Fase 2.\n• Profundidad en la reflexión sobre dificultades: Tu respuesta en Q3 es buena pero superficial. Necesitas preguntarte *por qué* confundes la dirección del desplazamiento en Le Chatelier. ¿Es porque no identificas cuál es la variable que cambia? ¿O porque no visualizas cómo afecta al equilibrio? Responder esto te ayudará a diseñar estrategias más efectivas.\n• Completar Q5 con reflexión metacognitiva: No dejes esta sección vacía. Reflexiona sobre: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo ha evolucionado tu forma de plantear problemas desde la Fase 1? ¿Qué categorías de variables te resultaron más útiles? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-03T11:56:24.465Z"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "studentId": "u_g4dq2j6g8me1bxxtu",
+    "studentName": "Julia Mayenfisch Paz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.210906",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 51.0,
+      "minScore": 43,
+      "maxScore": 59,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_me1bxxtu_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 59,
+      "generalComments": "Hola Julia Mayenfisch Paz,\n\nEstás trabajando en la Fase 1: Identificación y comprensión del problema con un desempeño en desarrollo, evidenciando comprensión inicial del pensamiento crítico aplicado a gases ideales. Muestras claridad al identificar el pensamiento crítico como herramienta fundamental. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al reconocer tus limitaciones para explicar a otros.\n\nNecesitas profundizar en la comprensión de cada uno de los 5 pasos del método antes de avanzar a la siguiente fase. Identifica con mayor precisión las dificultades que enfrentas en cada paso del pensamiento crítico, ya que mencionas \"nada en específico\" cuando seguramente hay aspectos desafiantes. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en tus respuestas.\n\nEstoy disponible para apoyarte en tu proceso de aprendizaje. ¡No dudes en consultar!",
+      "strengths": [
+        "Reconoces la importancia del pensamiento crítico en química y su aplicación a problemas de gases ideales",
+        "Muestras honestidad académica al autoevaluar tu nivel de dominio como 3 y reconocer tus limitaciones",
+        "Reflexionas sobre cómo aplicar el pensamiento crítico a temas ya vistos en clase, mostrando interés en la transferencia de aprendizajes"
+      ],
+      "improvements": [
+        "Desarrolla respuestas más completas y específicas, especialmente en la pregunta sobre evidencias donde el texto quedó incompleto",
+        "Identifica y explicita las dificultades que enfrentas con cada uno de los 5 pasos del pensamiento crítico, en lugar de responder de forma genérica",
+        "Proporciona ejemplos concretos de tu trabajo en el capítulo 5, detallando cómo aplicaste cada paso del método a problemas específicos"
+      ],
+      "createdAt": "2025-10-07T17:30:00Z"
+    },
+    {
+      "feedbackId": "9648294b-c306-4997-aab0-71886a1308bf",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Esta semana realizaste las actividades propuestas (estructuras de Lewis y evaluación), lo cual es positivo. Sin embargo, tu reporte no refleja el análisis profundo que esperamos en Fase 2. Tus respuestas son muy breves y no muestran el proceso de identificación y clasificación de variables que es el corazón de esta fase.\n\nNotamos que entiendes que hay conexiones entre temas, pero necesitas ser mucho más específico y detallado. Por ejemplo, cuando mencionas \"cantidad de electrones\", deberías explicar qué variables identificaste, cómo las clasificaste y por qué son importantes para entender las uniones químicas.\n\nPara la próxima semana, te pedimos que dediques más tiempo a reflexionar sobre cada pregunta del reporte. Escribe respuestas completas que muestren tu pensamiento: qué variables encontraste, cómo las clasificaste, qué dificultades tuviste y cómo las superaste. Esto nos ayudará a entender mejor tu aprendizaje y a guiarte mejor.",
+      "strengths": "• Reconoces la conexión entre temas: Mencionas que el trabajo se conecta con \"el primer tema del año\", mostrando que intentas vincular conceptos, aunque necesita más profundidad.\n• Trabajaste con estructuras de Lewis: Identificaste correctamente varios elementos y iones (P, Mg²⁺, Cl⁻, F, Fe³⁺) para representar, lo que indica que realizaste la actividad propuesta.\n• Participaste en la evaluación: Completaste la evaluación de uniones químicas, demostrando que estuviste presente en el proceso de aprendizaje de la semana.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de solo listar ejercicios, debes escribir: \"Las variables que identifiqué fueron: número de electrones (conocida), carga del ion (controlable), tipo de enlace (desconocida)\". Esto es lo central de Fase 2.\n• Describe dificultades específicas con ejemplos: No basta decir \"ejercicio 5 fue difícil\". Explica: \"Me costó distinguir entre electrones de valencia (variable controlable) y electrones internos (no controlable) en el Fe³⁺\". Así podemos ayudarte mejor.\n• Reflexiona sobre tu proceso de aprendizaje: Dedica tiempo a responder Q5 con preguntas como: \"¿Qué aprendí sobre clasificar variables?\" o \"¿Cómo mejoré desde Fase 1?\". Esta metacognición es fundamental para el pensamiento crítico.",
+      "createdAt": "2025-11-17T13:43:25.853Z"
+    }
+  ]
+}

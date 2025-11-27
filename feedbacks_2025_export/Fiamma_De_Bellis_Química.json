@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "studentId": "81aa2e40-c8e4-4c55-838c-5afe808c5bd8",
+    "studentName": "Fiamma De Bellis",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.199584",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 77.5,
+      "minScore": 72,
+      "maxScore": 83,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-09-15",
+        "lastWeek": "2025-09-29"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_808c5bd8_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 72,
+      "generalComments": "Hola Fiamma, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Muestras comprensión de las herramientas fundamentales del equilibrio químico, identificando correctamente la expresión de la constante de equilibrio Kc. Reconoces la conexión con estequiometría y coeficientes de ecuación balanceada. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas y desarrollar estrategias más concretas para superar la dificultad con las tablas de variación. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Muestra comprensión de las herramientas fundamentales del equilibrio químico",
+        "Identifica correctamente la expresión de la constante de equilibrio Kc",
+        "Reconoce la conexión con estequiometría y coeficientes de ecuación balanceada"
+      ],
+      "improvements": [
+        "Profundizar en la justificación de por qué se usa cada herramienta específica",
+        "Desarrollar estrategias más concretas para superar la dificultad con las tablas de variación",
+        "Incluir comentarios adicionales que enriquezcan la reflexión sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_808c5bd8_2025-09-29_002",
+      "weekStart": "2025-09-29",
+      "score": 83,
+      "generalComments": "Hola Fiamma, tu trabajo en Fase 3: Selección de herramientas y relaciones refleja un dominio destacado de las herramientas del equilibrio químico, mostrando capacidad para aplicar sistemáticamente el proceso completo de análisis. Describes con precisión el proceso completo de determinación de Kc para la síntesis de NH3, desde la tabla hasta la aplicación de la fórmula. Realizas conexiones excelentes con estequiometría, explicando su aplicación concreta en Kc y porcentaje de conversión. Reflexionas de manera significativa sobre el valor del trabajo colaborativo en tu aprendizaje. Necesitas fortalecer tu criterio para identificar con mayor precisión qué aspectos del equilibrio te generan dificultad. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Describe con precisión el proceso completo de determinación de Kc para la síntesis de NH3",
+        "Realiza conexiones excelentes con estequiometría explicando aplicaciones concretas",
+        "Reflexiona de manera significativa sobre el valor del trabajo colaborativo",
+        "Muestra evolución notable desde el reporte anterior en comprensión del equilibrio"
+      ],
+      "improvements": [
+        "Identificar con mayor precisión y especificidad los aspectos conceptuales que generan dificultad",
+        "Explicitar las estrategias concretas que utilizas para superar obstáculos",
+        "Profundizar en aplicaciones industriales del equilibrio químico"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    }
+  ]
+}

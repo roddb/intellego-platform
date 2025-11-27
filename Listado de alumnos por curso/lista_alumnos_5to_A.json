@@ -1,0 +1,125 @@
+{
+  "curso": "5° A",
+  "alumnos": [
+    {
+      "nro": 1,
+      "nombre": "Alippi, Matías Ernesto",
+      "id": "u_yf5munab0me67oai8",
+      "email": "matias.e.19a@gmail.com"
+    },
+    {
+      "nro": 2,
+      "nombre": "Barisch, Tobías",
+      "id": "u_7mj6dqo3jme73vuwb",
+      "email": "toto.barisch@gmail.com"
+    },
+    {
+      "nro": 3,
+      "nombre": "Cartasegna, Nicolás",
+      "id": "u_g54zele3lme24zmre",
+      "email": "niko.6abril@gmail.com"
+    },
+    {
+      "nro": 4,
+      "nombre": "Dobniewski, Catalina",
+      "id": "u_1wt2lfnz3me69ak8c",
+      "email": "catalina.dobniewski@gmail.com"
+    },
+    {
+      "nro": 5,
+      "nombre": "Fernández Rico, Lucio",
+      "id": "u_qjugmxdtzme5ry9mk",
+      "email": "fernandezlucio4@gmail.com"
+    },
+    {
+      "nro": 6,
+      "nombre": "Fontán, Sol",
+      "id": "u_67kfbewk9me6cn6qp",
+      "email": "solaluminefontan@gmail.com"
+    },
+    {
+      "nro": 7,
+      "nombre": "Garay, Tomás",
+      "id": "12a88f9e-5373-438d-a643-380f1bef59eb",
+      "email": "tomasgaray.0911@gmail.com"
+    },
+    {
+      "nro": 8,
+      "nombre": "Greco, Candela",
+      "id": "u_9vp2o3qntme4y2kyh",
+      "email": "candelarociogreco@gmail.com"
+    },
+    {
+      "nro": 9,
+      "nombre": "Machado, Helena",
+      "id": "u_bgnqcmox2mdynijxl",
+      "email": "helenmachado2008@gmail.com"
+    },
+    {
+      "nro": 10,
+      "nombre": "Muttini Pagadizabal, Felipe",
+      "id": "u_pccwk930omdyo4q46",
+      "email": "felipe.muttini.pagadizabal@gmail.com"
+    },
+    {
+      "nro": 11,
+      "nombre": "Oviedo Goite, Juan Pablo",
+      "id": "u_udp8usbw0me6fmwgn",
+      "email": "juanpabloog2007@gmail.com"
+    },
+    {
+      "nro": 12,
+      "nombre": "Patiño, Victoria",
+      "id": "u_r0mxgr11pme6eytm2",
+      "email": "patinoalexandravicky@gmail.com"
+    },
+    {
+      "nro": 13,
+      "nombre": "Picone, Bianca Nazareth",
+      "id": "u_l3ppw0vlzme1nox48",
+      "email": "bncpicone@gmail.com"
+    },
+    {
+      "nro": 14,
+      "nombre": "Rosiello, Ana",
+      "id": "u_snjygtgt6me7wwtla",
+      "email": "ana.rosielloyornet@gmail.com"
+    },
+    {
+      "nro": 15,
+      "nombre": "Sesé Frers, Josefina",
+      "id": "u_2a8ho1wtpme1opou7",
+      "email": "sesefrersjosefinaa@gmail.com"
+    },
+    {
+      "nro": 16,
+      "nombre": "Suarez, María Josefina",
+      "id": "db79e911-5a6b-426e-b2f3-6c3e27ce623b",
+      "email": "josefinasuarez280@gmail.com"
+    },
+    {
+      "nro": 17,
+      "nombre": "Varrente, Catalina",
+      "id": "u_4cnmxf77amdynltex",
+      "email": "cata.varrente2008@gmail.com"
+    },
+    {
+      "nro": 18,
+      "nombre": "Verdier, Josefina",
+      "id": "dd1eabdb-0134-4a75-8960-a73a389388bd",
+      "email": "joseverdier07@gmail.com"
+    },
+    {
+      "nro": 19,
+      "nombre": "Yablonovich, Martina",
+      "id": "u_03h8i0t6nme1rlx0z",
+      "email": "martuyablo@gmail.com"
+    },
+    {
+      "nro": 20,
+      "nombre": "Zapozko, Tiziana",
+      "id": "u_7fuijay0kme5utxod",
+      "email": "lucyzapozko@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "studentId": "u_udp8usbw0me6fmwgn",
+    "studentName": "Juan Pablo Oviedo Goite",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.209946",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 56.33,
+      "minScore": 27,
+      "maxScore": 83,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-08-04_9b8c2d00",
+      "weekStart": "2025-08-04",
+      "score": 58.5,
+      "generalComments": "Juan Pablo está iniciando su trabajo con el pensamiento crítico aplicado al equilibrio químico. Reconoce los conceptos básicos y la estructura metodológica, aunque necesita desarrollar mayor profundidad en su comprensión. Su reporte muestra comprensión básica del tema pero evidencia dificultades para aplicar el método de forma autónoma. Es fundamental que profundice en la identificación de información relevante y en la comprensión del equilibrio dinámico.",
+      "strengths": [
+        "Reconoce la importancia del pensamiento crítico en química y su estructura de 5 pasos",
+        "Identifica correctamente que tiene una base del tema desde la unidad anterior",
+        "Muestra disposición para mejorar mencionando sus áreas de confusión de forma honesta"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión de reactivos y productos, practicando con ecuaciones balanceadas simples antes de avanzar a equilibrio",
+        "Desarrollar mayor especificidad en las respuestas: el ejercicio del cuadernillo debería describirse con más detalle sobre qué pasos aplicó",
+        "Trabajar en la comprensión del concepto de equilibrio dinámico mediante ejemplos visuales y simulaciones antes de pasar a cálculos"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-08-11_653a1bb9",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Juan Pablo demuestra una buena comprensión del equilibrio químico y su aplicación mediante el método de fases. Su análisis del ejercicio 5 muestra que ha avanzado significativamente desde su reporte anterior, aplicando correctamente la metodología de resolución por pasos. Aunque todavía enfrenta dificultades con el cálculo de la constante Kc, su comprensión conceptual es sólida y su integración de las fases previas es evidente.",
+      "strengths": [
+        "Reconoce explícitamente que el uso de las fases mejora su comprensión del tema (nivel de dominio 3)",
+        "Describe correctamente el proceso de resolución del ejercicio, identificando la problemática del equilibrio químico",
+        "Establece conexiones apropiadas con matemática, reconociendo el uso de fracciones y operaciones necesarias"
+      ],
+      "improvements": [
+        "Practicar el cálculo de la constante Kc con ejercicios graduados, comenzando por reacciones simples con coeficientes estequiométricos unitarios",
+        "Incluir en Q2 el procedimiento completo paso a paso, especificando qué valores usó y cómo llegó a cada resultado",
+        "Desarrollar la sección de comentarios adicionales (Q5) para reflexionar sobre su proceso de aprendizaje y evolución"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-01_a8b874d5",
+      "weekStart": "2025-09-01",
+      "score": 30,
+      "generalComments": "Juan Pablo reporta ausencia por viaje de egresados a Brasil esta semana. No hubo actividad académica en Química, por lo que no hay contenido para evaluar. Este tipo de ausencias justificadas son comprensibles en el último año escolar. Será importante que se ponga al día con el material trabajado por sus compañeros durante su ausencia.",
+      "strengths": [
+        "Comunicación clara y honesta sobre su ausencia",
+        "Justificación apropiada del motivo (viaje de egresados)",
+        "Completó el reporte semanal a pesar de no tener contenido académico"
+      ],
+      "improvements": [
+        "Coordinar con compañeros o el profesor para obtener los apuntes y ejercicios de la semana perdida",
+        "Revisar el material de equilibrio químico que se trabajó durante su ausencia antes de la próxima clase",
+        "Ponerse al día con la guía de ejercicios para no acumular atraso en el tema"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-08_ed10594a",
+      "weekStart": "2025-09-08",
+      "score": 75.5,
+      "generalComments": "Juan Pablo demuestra buena comprensión del equilibrio químico y muestra mejoría en su capacidad de aplicar las herramientas matemáticas necesarias. Su trabajo con el ejercicio 5 de la guía evidencia que está integrando correctamente las fases previas (F1+F2+F3) y que puede seguir un procedimiento sistemático de resolución. Aunque aún tiene dificultades puntuales con el cálculo de Kc, su enfoque metodológico es correcto.",
+      "strengths": [
+        "Incremento notable en su nivel de dominio (de 2 a 3) gracias a la aplicación del método de fases",
+        "Descripción clara del ejercicio trabajado: cálculo de moles en ecuación balanceada y análisis de equilibrio",
+        "Reconoce conexiones apropiadas con matemática (fracciones y operaciones)"
+      ],
+      "improvements": [
+        "Consolidar el procedimiento de cálculo de Kc mediante práctica adicional con la fórmula Kc = [productos]/[reactivos] elevados a sus coeficientes estequiométricos",
+        "Desarrollar mayor detalle en Q2 incluyendo los valores numéricos que usó y los pasos intermedios del cálculo",
+        "Aprovechar Q5 para reflexionar sobre su aprendizaje y cómo superó las dificultades previas con Kc"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-22_85f737dd",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Juan Pablo reporta que no hubo clases esta semana debido al viaje de estudios del profesor a Puerto Madryn. Esta es una ausencia institucional que afecta a todo el curso, no una ausencia individual. No hay contenido académico para evaluar esta semana. La situación es comprensible y no refleja falta de compromiso del estudiante.",
+      "strengths": [
+        "Comunicación clara sobre la situación de ausencia del profesor",
+        "Completó el reporte semanal de manera responsable explicando la circunstancia",
+        "Honestidad al reportar que no hubo actividad académica"
+      ],
+      "improvements": [
+        "Aprovechar la semana sin clases presenciales para repasar los conceptos de Kc, Qc y equilibrio químico",
+        "Revisar ejercicios de la guía que aún no haya resuelto para consolidar conocimientos",
+        "Prepararse para retomar el tema con el profesor cuando regrese del viaje"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "6aea650d-3028-4bb0-88fb-764ea1d4dccd",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:50:51.061Z"
+    },
+    {
+      "feedbackId": "33ac4dc7-3eea-4d03-8b60-10cda8809a96",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:15:43.316Z"
+    },
+    {
+      "feedbackId": "8aac869b-55b6-46aa-b002-4e0b39e961a7",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:40:13.810Z"
+    },
+    {
+      "feedbackId": "fc9d5ba1-484c-4d2b-8147-daf61abab7a2",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:16:31.950Z"
+    },
+    {
+      "feedbackId": "2a33de09-8652-4fb4-99fd-44c32b1691b1",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:55:14.564Z"
+    },
+    {
+      "feedbackId": "36d3928f-1926-4d46-8573-b73ec36d58ef",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:43:15.170Z"
+    },
+    {
+      "feedbackId": "0ec7685b-86fc-4e3a-b444-8d961873d229",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana trabajaste en cálculos de equilibrio ácido-base y resolviste correctamente el ejercicio 11.3. Tu manejo de operaciones matemáticas es sólido, lo que es un buen punto de partida.\n\nSin embargo, tu reporte no refleja el trabajo de Fase 2. Identificar y clasificar variables es diferente a solo hacer cálculos. Necesitas analizar *qué* estás calculando y *por qué* esas magnitudes son importantes. Notó que confundes temas de Fase 1 (balanceo de ecuaciones) con Fase 2 (identificación de variables).\n\nPara la próxima semana, enfócate en: (1) Hacer una lista clara de variables en cada problema, (2) Clasificarlas en conocidas/desconocidas y controlables/no controlables, y (3) Reflexionar sobre cómo esa clasificación te ayuda a resolver el problema. Esto es lo que esperamos en Fase 2.",
+      "strengths": "• Cálculos matemáticos precisos: En el ejercicio 11.3, aplicas correctamente la relación Kw = [H₃O⁺] × [OH⁻] = 1×10⁻¹⁴ y despejas la incógnita sin errores aritméticos.\n• Conciencia de dificultades: Reconoces que \"balancear ecuaciones sigue siendo difícil\", lo que muestra autoconciencia sobre áreas de mejora, aunque necesites enfocarte en Fase 2.\n• Intención de conexión interdisciplinaria: Intentas vincular Química con Matemática, lo que es un buen inicio para ver la integración de saberes.",
+      "improvements": "• Identificación de variables en Fase 2: Tu reporte no clasifica variables. Para mejorar, en cada ejercicio pregúntate: ¿Cuáles son conocidas? ([H₃O⁺] = 1,8×10⁻⁴ M). ¿Cuáles son desconocidas? ([OH⁻]). ¿Cuáles puedo controlar? Haz una tabla simple con estas categorías.\n• Análisis de magnitudes físicas: No distingues entre concentración, pH, constante de equilibrio, etc. Antes de resolver, identifica qué magnitud representa cada número. Por ejemplo: \"1,8×10⁻⁴ M es una concentración molar\" o \"Kw = 1×10⁻¹⁴ es una constante adimensional\".\n• Completitud del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre: ¿Por qué es importante clasificar variables? ¿Cómo te ayuda a resolver problemas? ¿Qué cambió desde Fase 1? Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-10-27T05:04:14.069Z"
+    },
+    {
+      "feedbackId": "ac669b2e-7bcd-4106-a520-ca3419e965ea",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana de devoluciones de pruebas, pero necesito que aproveches el reporte semanal para reflexionar sobre tu aprendizaje en la Fase 2. Un reporte incompleto no me permite evaluar tu progreso ni ayudarte a mejorar.\n\nTu desempeño esta semana no es visible en el documento. Sin respuestas desarrolladas, no puedo identificar qué conceptos dominaste, dónde tienes dificultades o cómo estás aplicando el pensamiento crítico en Ciencias.\n\nPara la próxima semana, te pido que dediques tiempo a completar cada pregunta con honestidad y detalle. Describe los temas trabajados, los problemas que resolviste, las variables que identificaste y cómo las clasificaste. Esto es esencial para tu evaluación y tu aprendizaje.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Para poder reconocer tus logros, necesito que completes cada pregunta con reflexiones genuinas sobre tu aprendizaje en la Fase 2.",
+      "improvements": "• Falta de respuestas desarrolladas: Debes completar cada pregunta con reflexiones específicas sobre lo que aprendiste esta semana. No es suficiente mencionar que hubo devoluciones; necesito que describas qué temas trabajaste, qué variables identificaste y cómo las clasificaste.\n• Ausencia de evidencia de aprendizaje: Proporciona ejemplos concretos de problemas que resolviste, variables que identificaste (conocidas/desconocidas, controlables/no controlables) y magnitudes físicas que distinguiste. Esto es fundamental para evaluar tu progreso en Fase 2.\n• Falta de reflexión metacognitiva: Dedica tiempo a pensar en tus dificultades reales al identificar variables, qué estrategias usaste para superarlas y cómo conectas esto con fenómenos químicos o físicos que observas. Esta reflexión es clave para desarrollar pensamiento crítico.",
+      "createdAt": "2025-11-03T12:29:20.797Z"
+    },
+    {
+      "feedbackId": "a52cd576-de1c-41ba-ab46-5cebbe7b06f0",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la semana de parciales es intensa y requiere enfoque en evaluaciones. Sin embargo, tu reporte no proporciona información que permita evaluar tu progreso en la Fase 2 de pensamiento crítico. Esto es importante porque el objetivo de estos reportes es documentar tu evolución en la identificación y clasificación de variables, habilidades clave para la Química.\n\nPara la próxima semana, cuando regresen las clases regulares, te pido que retomes con energía el trabajo de Fase 2. Incluso si esta semana fue de pausa académica, puedes usar el tiempo para revisar tus apuntes de Fase 1 y prepararte para profundizar en variables controlables y no controlables. Tu compromiso con estos reportes es fundamental para tu desarrollo como pensador crítico.",
+      "strengths": "• Honestidad en la comunicación: Reconoces claramente la situación de la semana de parciales, lo que permite entender el contexto de tu reporte sin ambigüedades.",
+      "improvements": "• Completar el reporte incluso en semanas atípicas: Aunque no haya clases regulares, puedes reflexionar sobre conceptos de Fases anteriores, revisar apuntes o anticipar temas. Esto mantiene tu pensamiento crítico activo y demuestra compromiso con el proceso.\n• Aprovechar semanas de parciales para consolidar: En lugar de dejar el reporte vacío, podrías analizar cómo las variables estudiadas en Fase 1 se relacionan con los contenidos evaluados. Esto refuerza tu comprensión y prepara mejor la Fase 2.\n• Comunicación proactiva: Si una semana es atípica, avisa con anticipación al profesor. Así podemos ajustar expectativas o proponer actividades alternativas que mantengan tu progreso en pensamiento crítico.",
+      "createdAt": "2025-11-17T13:39:13.874Z"
+    },
+    {
+      "feedbackId": "9a165b88-671b-4305-a861-43076b1594e2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 83,
+      "generalComments": "Excelente trabajo esta semana. Tu dominio de ácidos/bases fuertes y cálculos de pH/pOH es evidente, y tu resolución del problema del Ba(OH)2 es precisa y bien estructurada. Demuestras seguridad en procedimientos cuantitativos y, lo más importante, autoconciencia sobre tus dificultades y estrategias para superarlas.\n\nTu desempeño en Fase 2 es sólido: identificas variables, las clasificas correctamente e integras conceptos de Fase 1. Sin embargo, tus conexiones con fenómenos reales podrían ser más profundas y específicas. Además, la sección Q5 está incompleta, lo que limita tu reflexión final.\n\nPara la próxima semana, enfócate en: (1) completar siempre todas las secciones del reporte, (2) buscar aplicaciones reales de los conceptos trabajados, y (3) practicar la clasificación explícita de variables controlables vs. no controlables en nuevos problemas.",
+      "strengths": "• Dominio de procedimientos cuantitativos: Calculas correctamente molaridad, [OH-], pOH y pH en bases dihidróxidas. Tu ejemplo del Ba(OH)2 (0,0200 M → [OH-] = 0,0400 M → pOH = 1,40) muestra precisión y seguridad en los cálculos.\n• Metacognición clara sobre dificultades: Identificas específicamente qué te cuesta (factor de 2 en dihidróxidas, confusión pH/pOH) y describes tu estrategia de verificación. Esto demuestra autoconciencia valiosa para tu aprendizaje.\n• Integración de conceptos: Conectas ionización completa con equilibrio químico y reconoces que la flecha simple (→) indica desplazamiento total del equilibrio. Esto muestra comprensión de relaciones entre variables.",
+      "improvements": "• Profundizar conexiones con fenómenos reales: Tus conexiones en Q4 son correctas pero genéricas. Intenta vincular estos conceptos con aplicaciones concretas: ¿cómo afecta el pH de una solución de Ba(OH)2 a un proceso industrial o biológico? Esto enriquecerá tu pensamiento crítico.\n• Completar la reflexión en Q5: Aunque tu reporte es fuerte, falta la sección de comentarios adicionales. Reflexiona sobre cómo ha evolucionado tu comprensión desde Fase 1 o qué categorías propias podrías crear para clasificar ácidos/bases. Esto cierra el análisis metacognitivo.\n• Explorar variables no controlables: En tu análisis, enfócate en identificar explícitamente qué variables son controlables (concentración inicial, volumen) y cuáles no lo son (Kw a temperatura ambiente). Esto fortalecerá tu clasificación sistemática de variables.",
+      "createdAt": "2025-11-17T13:44:01.847Z"
+    }
+  ]
+}

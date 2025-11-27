@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "studentId": "u_e14kez4ghme6hx5nr",
+    "studentName": "Lucas Mingotti Tziavaras",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.214277",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 48.38,
+      "minScore": 30,
+      "maxScore": 70,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_ghme6hx5nr_20251005_015",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Lucas, entiendo que esta semana estuviste ausente por el viaje a Londres con el colegio y por enfermedad (con certificado médico entregado). Son ausencias completamente justificadas. Sin embargo, es importante que cuando te reintegres a clases, te pongas al día con los contenidos trabajados durante tu ausencia. Te recomiendo consultar con compañeros o el profesor sobre los temas vistos y realizar los ejercicios que se hayan trabajado en clase. El reporte semanal podría incluir reflexiones sobre tu plan de recuperación de contenidos.",
+      "strengths": [
+        "Comunicaste claramente los motivos de tus ausencias",
+        "Seguiste los procedimientos correctos (entrega de certificado médico)",
+        "Mantuviste la responsabilidad de completar el reporte semanal"
+      ],
+      "improvements": [
+        "Desarrolla un plan para ponerte al día con los contenidos perdidos",
+        "Consulta con compañeros o el profesor sobre temas y actividades de la semana",
+        "Realiza los ejercicios trabajados en clase de manera independiente",
+        "En futuras ausencias, menciona en el reporte si pudiste estudiar algo por tu cuenta"
+      ],
+      "createdAt": "2025-10-05 19:56:16"
+    },
+    {
+      "feedbackId": "fb_002_2_ghme6hx5nr_20251005_016",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Lucas, tu reporte de esta semana muestra que estás trabajando en la Fase 2 (identificación de variables) después de tu ausencia previa. Reconozco tu honestidad al expresar que te costó entender los gases ideales por ser un concepto más teórico que los temas anteriores más prácticos. Tu trabajo con el problema de los neumáticos de Ana está bien encaminado: identificaste correctamente 5 variables del estado de gas (presión, volumen, temperatura, densidad, energía interna). Sin embargo, necesitas profundizar en la comprensión de estos conceptos con ayuda del profesor, tus compañeros y tu hermana, lo cual es una estrategia positiva de aprendizaje.",
+      "strengths": [
+        "Identificaste correctamente 5 variables relevantes del estado de gas en el problema",
+        "Reconociste honestamente tus dificultades con conceptos teóricos",
+        "Buscaste ayuda de múltiples fuentes (profesor, compañeros, hermana)",
+        "Estableciste conexión con Biología reconociendo que las composiciones químicas están en la vida misma"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión conceptual de cada variable (no solo listarlas)",
+        "Practica la clasificación de variables (conocidas/desconocidas, controlables/no controlables)",
+        "Trabaja ejercicios guiados para relacionar conceptos teóricos con aplicaciones prácticas",
+        "Dedica tiempo a entender por qué los gases ideales son un modelo teórico importante"
+      ],
+      "createdAt": "2025-10-05 19:57:10"
+    },
+    {
+      "feedbackId": "fb_002_2_ghme6hx5nr_20251005_017",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Lucas, tu reporte de esta semana muestra un progreso muy positivo respecto a la semana anterior. Expresas que los ejercicios te resultaron 'bastante fáciles' y que tienes un dominio 'bastante bueno' del tema, lo cual es un avance significativo considerando tus dificultades previas. El problema del globo con helio está bien resuelto: identificaste las temperaturas inicial y final, realizaste conversiones a Kelvin correctamente (293K y 313K), aplicaste la Ley de Charles apropiadamente y calculaste el nuevo volumen (2.14 L). La ayuda de tu profesora particular y del profesor claramente están dando resultados. Tu única dificultad mencionada (entender por qué R es constante) es una pregunta excelente que muestra curiosidad conceptual.",
+      "strengths": [
+        "Progresaste significativamente en tu comprensión y confianza con gases ideales",
+        "Aplicaste correctamente la Ley de Charles identificando presión constante",
+        "Realizaste conversiones de temperatura de manera precisa (°C a K)",
+        "Calculaste el resultado correcto (2.14 L) con razonamiento apropiado",
+        "Hiciste una pregunta conceptual profunda sobre por qué R es constante",
+        "Estableciste conexiones con Física en el uso de fórmulas y valores a reemplazar"
+      ],
+      "improvements": [
+        "Investiga el significado físico de R (constante universal de los gases)",
+        "Profundiza en cuándo cada constante (R, k, etc.) se mantiene fija",
+        "Practica más ejercicios para consolidar el dominio que estás desarrollando",
+        "Explora las diferencias entre gases ideales y gases reales"
+      ],
+      "createdAt": "2025-10-05 19:57:10"
+    },
+    {
+      "feedbackId": "fb_002_2_ghme6hx5nr_20251005_018",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Lucas, tu reporte de esta semana muestra honestidad valiosa al reconocer que descuidaste Química para enfocarte en Física. Tu autoevaluación de estar en un 'nivel medio que no te deja tranquilo' refleja autocrítica saludable y compromiso con mejorar. El problema del metano en recipiente rígido está bien resuelto: realizaste conversiones apropiadas (mm Hg a atm, °C a K), calculaste moles correctos (0.257 mol) usando PV=nRT, y obtuviste la masa final (4.11 g de CH4) multiplicando por la masa molar. Tu observación de que los ejercicios 'se complicaron de una fase a otra pero siguen teniendo la misma base' demuestra comprensión de la progresión metodológica. Necesitas recuperar el ritmo esta semana como mencionas.",
+      "strengths": [
+        "Reconociste honestamente la necesidad de priorizar mejor entre materias",
+        "Resolviste correctamente un problema de nivel Fase 4 con múltiples conversiones",
+        "Aplicaste PV=nRT apropiadamente para calcular moles (0.257 mol)",
+        "Usaste correctamente la masa molar del metano para obtener la masa final (4.11 g)",
+        "Identificaste que los ejercicios tienen la misma base conceptual a pesar de mayor complejidad",
+        "Hiciste conexiones con ciencias naturales, biología, matemática y física"
+      ],
+      "improvements": [
+        "Desarrolla un plan de estudio equilibrado entre Física y Química",
+        "Dedica sesiones cortas pero consistentes a Química para mantener el ritmo",
+        "Practica más ejercicios de conversiones para ganar velocidad y confianza",
+        "Aprovecha que entiendes la base conceptual para consolidar con más práctica"
+      ],
+      "createdAt": "2025-10-05 19:57:11"
+    },
+    {
+      "feedbackId": "083588e1-7fda-4d6d-a21a-e483c7d77c67",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:49:51.233Z"
+    },
+    {
+      "feedbackId": "3fd38afa-6feb-4d14-9842-7c721a60155d",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:34:59.059Z"
+    },
+    {
+      "feedbackId": "be8e8619-dee7-4626-a288-dab51d9f21c2",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana ha sido difícil para ti en química, y valoro tu honestidad al reconocerlo. Sin embargo, tu reporte muestra que no hubo trabajo práctico ni reflexión profunda sobre lo que aprendiste en la Fase 2. Esto es preocupante porque la identificación de variables es fundamental para todo el pensamiento científico que viene después.\n\nTu desempeño esta semana está muy por debajo de lo esperado. No solo necesitas resolver ejercicios, sino también analizar qué hiciste, qué te costó y cómo lo superarás. El compromiso que mencionas debe traducirse en acciones concretas: trabajar los ejercicios, escribir tus dudas y buscar ayuda.\n\nPara la próxima semana, te propongo un cambio: dedica 30 minutos diarios a resolver al menos un ejercicio sobre variables. Después, escribe qué variables identificaste y cómo las clasificaste. Esto te preparará para un reporte mucho más sólido y te ayudará a recuperarte en la Fase 2.",
+      "strengths": "• Honestidad y autoconciencia inicial: Reconoces que \"tengo que poner más ganas y compromiso\", lo que muestra que identificas que necesitas mejorar tu actitud frente al trabajo académico.\n• Intento de conexión entre temas: Aunque básico, mencionas relaciones entre química, física anterior y biología, lo que indica que intentas ver patrones entre disciplinas.",
+      "improvements": "• Falta de trabajo práctico: No resolviste ejercicios ni identificaste variables en problemas reales. Acción: Esta semana, elige al menos 2 ejercicios de clase y escribe explícitamente qué variables aparecen (temperatura, presión, masa, etc.) y clasifícalas como conocidas/desconocidas y controlables/no controlables.\n• Respuestas superficiales sin análisis: Tus respuestas son muy cortas y generales (\"nivel está bastante mal\", \"no hubieron dificultades\"). Acción: Desarrolla cada respuesta con ejemplos concretos. Por ejemplo, en lugar de \"no resolví nada\", escribe: \"No resolví ejercicios sobre reacciones químicas porque no identifiqué cuáles eran las variables independientes\".\n• Ausencia de reflexión metacognitiva: No analizas qué conceptos específicos de la Fase 2 (clasificación de variables, magnitudes físicas) te resultan difíciles. Acción: Antes de escribir el próximo reporte, haz una lista de 3 cosas que no entendiste sobre variables y 1 estrategia que usarás para aprenderlas.",
+      "createdAt": "2025-10-27T05:09:57.213Z"
+    },
+    {
+      "feedbackId": "92ad4a7e-52be-45f6-93f9-b6db95c39c60",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Entiendo que esta semana fue difícil sin clases presenciales y que las diapositivas no fueron fáciles de seguir solo. Eso es válido, y te reconozco por intentar resolver los ejercicios a pesar de los obstáculos. Sin embargo, tu reporte no muestra evidencia clara de lo que aprendiste en Fase 2 sobre identificación y clasificación de variables.\n\nTu desempeño esta semana está en nivel inicial. No porque no hayas trabajado, sino porque tu reporte no documenta qué variables identificaste, cómo las clasificaste, ni cómo las conectaste con conceptos previos. Esto es información que necesito para entender tu progreso real.\n\nPara la próxima semana, te pido que: (1) hagas una lista específica de variables trabajadas, (2) las clasifiques claramente, y (3) propongas estrategias concretas para entender mejor las diapositivas (ej: verlas en grupo, hacer resúmenes visuales, o pedir aclaraciones). Estoy aquí para apoyarte.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que las diapositivas fueron confusas y que trabajar solo en casa fue un desafío. Esta sinceridad es el primer paso para mejorar.\n• Identificación de un factor externo: Mencionas que la falta de clases presenciales afectó tu aprendizaje, lo que muestra conciencia de cómo el contexto influye en tu desempeño.\n• Intento de conexión interdisciplinaria: Relacionas el tema con biología y ciencias naturales, mostrando que intentas ver la \"imagen completa\" del conocimiento.",
+      "improvements": "• Sé específico en temas trabajados: En Q1, no describiste qué variables identificaste en los ejercicios de enlaces covalentes (ej: número de electrones, tipo de enlace, energía de enlace). Próxima semana, haz una lista concreta de 3-5 variables que trabajaste y clasifícalas como conocidas/desconocidas o controlables/no controlables.\n• Documenta tu proceso de aprendizaje: En Q2, necesitas mostrar evidencia real: escribe qué ejercicios resolviste, qué variables identificaste en cada uno, y cómo aplicaste Fase 1 (preguntas) + Fase 2 (variables). Esto no es opcional; es clave para demostrar aprendizaje.\n• Propón estrategias concretas para dificultades: En Q3, en lugar de solo decir \"se me mezcló\", plantea soluciones: \"Voy a hacer una tabla con columnas para cada tipo de variable\" o \"Voy a resolver un ejercicio a la vez, identificando variables antes de empezar\". Las estrategias deben ser accionables.",
+      "createdAt": "2025-11-17T13:38:50.195Z"
+    }
+  ]
+}

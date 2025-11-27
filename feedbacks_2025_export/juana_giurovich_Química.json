@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "u_zh9pgmfs9me6i15hg",
+    "studentName": "juana giurovich",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.244596",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 61.67,
+      "minScore": 34,
+      "maxScore": 76,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-18"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me6i15hg_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 34,
+      "generalComments": "Querida Juana Giurovich, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Realizas conexiones básicas con fenómenos del año anterior, como cambios físicos y químicos. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Con dedicación y apoyo, superarás estas dificultades. ¡No te rindas!",
+      "strengths": [
+        "Realizas conexiones interesantes entre los ejercicios actuales y cambios físicos y químicos vistos el año pasado.",
+        "Reconoces cuando tienes dificultades con los ejercicios.",
+        "Intentas abordar los problemas de la guía."
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.",
+        "Desarrolla estrategias más específicas para superar tus desafíos con los ejercicios."
+      ],
+      "createdAt": "2025-10-07 12:12:04"
+    },
+    {
+      "feedbackId": "fb_002_2_me6i15hg_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida Juana Giurovich, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en preparación de buffers. Organizas adecuadamente los datos y la información disponible. Realizas conexiones interesantes entre la clasificación de variables y soluciones del año pasado. Es importante mejorar la distinción entre variables difíciles de controlar y no controlables. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en preparación de buffer acetato con pH específico.",
+        "Organizas adecuadamente los datos y la información disponible.",
+        "Realizas conexiones interesantes entre clasificación de variables y soluciones, molaridad y concentraciones del año pasado."
+      ],
+      "improvements": [
+        "Es importante mejorar la diferenciación entre variables difíciles de controlar y variables no controlables.",
+        "Desarrolla estrategias más específicas para clasificar el grado de controlabilidad de las variables.",
+        "Proporciona más detalles sobre tu proceso de análisis en los ejercicios."
+      ],
+      "createdAt": "2025-10-07 12:12:04"
+    },
+    {
+      "feedbackId": "fb_002_2_me6i15hg_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 75,
+      "generalComments": "Querida Juana Giurovich, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de equilibrio químico y avance sostenido. Comprendes las ecuaciones fundamentales de Kc, Kp, Qc y el principio de Le Chatelier. Identificas correctamente las relaciones entre variables termodinámicas y de equilibrio. Conecta herramientas matemáticas con fenómenos interdisciplinarios, relacionando química con termodinámica en física. Debes practicar más el análisis de perturbaciones múltiples para identificar cuál efecto predomina. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de Kc, Kp, Qc y el principio de Le Chatelier.",
+        "Identificas correctamente las relaciones entre variables termodinámicas como entalpía y temperatura con el equilibrio químico.",
+        "Conecta herramientas matemáticas con fenómenos físicos-químicos, realizando conexión interdisciplinaria con termodinámica de física."
+      ],
+      "improvements": [
+        "Debes trabajar en el análisis sistemático de perturbaciones múltiples en sistemas de equilibrio.",
+        "Necesitas fortalecer tu criterio para identificar qué efecto predomina cuando se superponen múltiples cambios.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de resolución en los ejercicios trabajados."
+      ],
+      "createdAt": "2025-10-07 12:12:04"
+    }
+  ]
+}

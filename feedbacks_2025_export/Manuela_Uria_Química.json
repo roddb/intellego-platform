@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "studentId": "u_itbn7il5cme6h0gl3",
+    "studentName": "Manuela Uria",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.215941",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 68.57,
+      "minScore": 62,
+      "maxScore": 79,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me6h0gl3_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 79,
+      "generalComments": "Querida manuela,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas y clasifica todas las variables (conocidas/desconocidas, controlables/no controlables). Muestra aplicación sistemática de F1+F2. Hace conexiones básicas con fenómenos.\n\nPresta mayor atención a la reflexión metacognitiva en tus comentarios adicionales.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en equilibrio químico y buffer casero",
+        "Organizas adecuadamente los datos y la información disponible en matriz 2x2",
+        "Demuestras aplicación sistemática de Fase 1 y Fase 2 en problemas concretos"
+      ],
+      "improvements": [
+        "Es importante profundizar en la reflexión sobre tu propio proceso de aprendizaje en la sección de comentarios adicionales",
+        "Te recomiendo practicar más la distinción entre variables de composición y variables de condiciones para consolidar tu comprensión",
+        "Desarrolla estrategias más específicas para superar tus desafíos conceptuales"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me6h0gl3_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 71,
+      "generalComments": "Querida manuela,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas fórmulas correctas para Kc, Kp y Qc mayormente. Muestras integración de F1+F2+F3. Comentarios pertinentes sobre la progresión de dificultad de los ejercicios.\n\nEs fundamental consolidar tu comprensión de las relaciones entre variables y el Principio de Le Chatelier. Busca aplicaciones prácticas de equilibrio químico en situaciones cotidianas.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para cálculo de Qc y comparación con Kc",
+        "Comprendes las ecuaciones fundamentales de equilibrio químico y constante de equilibrio",
+        "Demuestras capacidad de reflexión sobre el proceso de aprendizaje y las estrategias pedagógicas"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para aplicar el Principio de Le Chatelier con cambios de temperatura",
+        "Debes trabajar en la identificación precisa de conexiones entre equilibrio químico y otras áreas del conocimiento",
+        "Es importante mejorar la especificidad de tus estrategias de resolución de dificultades conceptuales"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me6h0gl3_2025-09-29_003",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querida manuela,\n\nEstás trabajando adecuadamente en la Fase 4: Estrategia y ejecución completa, demostrando comprensión de cálculo de Kc, conversión y Qc y avance sostenido. Muestra problemas resueltos con proceso mayormente completo. Identifica dificultades de ejecución específicas. Hace conexiones básicas con estequiometría y termodinámica.\n\nEs importante mejorar la planificación de tu estrategia antes de ejecutar y consolidar la comprensión del equilibrio dinámico. Proporciona evidencias más concretas de tu proceso reflexivo en comentarios adicionales.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada con cálculos de Kc, porcentaje de conversión y Qc",
+        "Demuestras capacidad para representar gráficamente la evolución de concentraciones hasta el equilibrio",
+        "Reconoces las dificultades y propones estrategias como repasar ejemplos y comparar con compañeros"
+      ],
+      "improvements": [
+        "Es importante mejorar la comprensión conceptual de que el equilibrio es un estado dinámico donde la reacción ocurre en ambos sentidos",
+        "Necesitas ser más sistemático/a en la conversión entre moles y concentraciones molares durante los cálculos",
+        "Debes trabajar en mantener coherencia entre todos los pasos de tu resolución para evitar confusiones"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "c7e9e19f-4818-4523-a625-e5dedd33d8a9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:04.228Z"
+    },
+    {
+      "feedbackId": "df881170-9c0d-40e0-af0f-1b203ff4f015",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:44:56.597Z"
+    },
+    {
+      "feedbackId": "8bfe0927-604d-4f04-bf83-d2f70c516c5b",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Has tenido una semana productiva trabajando con ácidos, bases y equilibrios químicos. Tus cálculos de pH/pOH y la preparación de soluciones muestran que estás comprendiendo los conceptos fundamentales, y es muy positivo que conectes esto con el trabajo de laboratorio.\n\nSin embargo, tu reporte no refleja completamente el trabajo de la Fase 2. Necesitas ser más explícito en la clasificación de variables y en cómo estas te ayudan a resolver problemas. Ahora mismo describes *qué* hiciste, pero no *cómo* identificaste y organizaste las variables para hacerlo.\n\nPara la próxima semana, te pido que dediques tiempo a documentar mejor tu proceso: lista las variables de cada problema, clasifícalas, y explica por qué esa clasificación fue importante para tu solución. Esto consolidará tu aprendizaje y te preparará para la Fase 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que estás en Nivel 3 y que necesitas seguir practicando. Esto muestra madurez y disposición al aprendizaje continuo.\n• Identificación de dificultades específicas: Mencionas problemas concretos como \"soluciones muy diluidas\" y \"organizar conversiones en varios pasos\", lo que facilita el trabajo dirigido en estas áreas.\n• Conexión con aplicaciones prácticas: Vinculas los conceptos teóricos con el laboratorio y la preparación de soluciones reales, demostrando que entiendes la utilidad de lo aprendido.",
+      "improvements": "• Clasificación explícita de variables: En tu próximo reporte, haz una lista clara de variables para cada problema trabajado, indicando cuáles son conocidas/desconocidas y controlables/no controlables. Por ejemplo: \"En el cálculo de pH: [H⁺] es desconocida pero calculable; la temperatura es controlable; Kw es conocida y constante.\"\n• Integración visible de Fase 1 + Fase 2: Muestra cómo usaste el análisis de la Fase 1 (identificación del problema) para luego clasificar variables en la Fase 2. Esto debe ser evidente en tu reporte, no solo en tu trabajo.\n• Completar la sección Q5: Dedica tiempo a reflexionar sobre por qué es importante clasificar variables antes de resolver un problema. ¿Cómo te ayuda esto a no cometer errores? ¿Qué has aprendido sobre ti como estudiante de Química?",
+      "createdAt": "2025-11-03T12:17:05.426Z"
+    },
+    {
+      "feedbackId": "21e48314-5a46-41e9-ad6a-7798cc4ae655",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Hiciste un buen trabajo esta semana consolidando procedimientos de cálculo en ácidos y bases. Tu honestidad al reconocer que necesitas practicar logaritmos y aproximaciones es exactamente la actitud que acelera el aprendizaje. Los ejemplos específicos que mencionas (HCl, HF, ácido acético) demuestran que realmente trabajaste los ejercicios.\n\nTu desempeño general es sólido en aplicación de procedimientos (Nivel 3), pero necesitas dar un paso más hacia el análisis profundo. Tus conexiones con otros temas existen, pero están muy generales. Para la próxima semana, enfócate en explicar *cómo* y *por qué* las variables se relacionan, no solo que se relacionan.\n\nAdemás, completa siempre la sección Q5. Esa reflexión final es donde demuestras pensamiento crítico real y es la diferencia entre un buen estudiante y uno excelente. Dedica unos minutos a escribir qué descubriste sobre ti mismo como aprendiz esta semana.",
+      "strengths": "• Autoevaluación honesta y realista: Reconoces claramente tu nivel de dominio (Nivel 3) e identificas exactamente dónde necesitas practicar más (manejo de logaritmos, verificación de aproximación). Esto muestra madurez metacognitiva.\n• Estrategias de verificación sistemática: Tu enfoque de \"revisar paso a paso, comprobar si la aproximación es válida y recalcular\" es exactamente lo que necesitas para consolidar procedimientos. Esto demuestra disciplina en el aprendizaje.\n• Ejemplos concretos y específicos: Mencionas casos reales (HCl, Ba(OH)₂, HF, ácido acético) con procedimientos claros, lo que evidencia que realmente trabajaste los ejercicios y no solo los leíste.",
+      "improvements": "• Profundizar en Q4 - Conexiones débiles: Tus conexiones son correctas pero superficiales. En lugar de \"se conectan con estequiometría\", explica: \"La molaridad (variable de estequiometría) es la concentración inicial que uso en la tabla I/V/E para calcular pH\". Esto muestra cómo las variables se relacionan causalmente.\n• Completar Q5 - Reflexión ausente: No dejaste comentarios adicionales. Aquí deberías reflexionar sobre: ¿Qué aprendiste sobre la importancia de identificar variables correctamente? ¿Cómo ha evolucionado tu pensamiento desde Fase 1? ¿Qué descubriste que no esperabas? Dedica 3-4 líneas a esto.\n• Mejorar precisión en clasificación de variables: En Q1 y Q2, identifica explícitamente qué variables son *controlables* (concentración inicial, temperatura) y cuáles *no controlables* (Ka, Kw). Esto es central en Fase 2 y te llevará a Nivel 4.",
+      "createdAt": "2025-11-17T13:51:37.027Z"
+    }
+  ]
+}

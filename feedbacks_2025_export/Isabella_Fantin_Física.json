@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "studentId": "u_tnjcagj37me1c4n0j",
+    "studentName": "Isabella Fantin",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.205747",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 47.18,
+      "minScore": 34,
+      "maxScore": 62,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "990eefa6-9924-4266-a7c3-667c94fbf457",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Tu reporte muestra excelente autoconocimiento: reconoces explícitamente que comprendes el tema y las fases pero no podes resolver ejercicios sola, lo que indica consciencia metacognitiva valiosa. Demostraste capacidad de autorregulación efectiva al identificar tu dificultad con las fases y buscar apoyo del profesor exitosamente. Tu conexión con funciones cuadráticas de matemática evidencia pensamiento interdisciplinario. Sin embargo, tu respuesta en Q2 solo transcribe la consigna del ejercicio sin mostrar intento de identificar datos, incógnitas o estrategia de resolución, confirmando la brecha entre comprensión conceptual y ejecución práctica que mencionas.",
+      "strengths": [
+        "Metacognición precisa: Tu autoevaluación en escala de niveles (Nivel 2) y distinción clara entre comprensión conceptual (presente) y capacidad de ejecución autónoma (ausente) demuestra autoconocimiento valioso",
+        "Autorregulación exitosa: Identificaste tu dificultad con las fases, implementaste estrategia de apoyo (preguntar al profesor) y lograste superar el obstáculo, mostrando ciclo completo de aprendizaje autorregulado",
+        "Pensamiento interdisciplinario: La conexión que haces entre tiro oblicuo y funciones cuadráticas evidencia comprensión de estructuras matemáticas subyacentes más allá de la física"
+      ],
+      "improvements": [
+        "Desglosa el ejercicio aunque no lo resuelvas: En Q2, intenta identificar: ¿Qué datos tengo? (v=20m/s, α=45°, g=10m/s²) ¿Qué me piden? (alcance) ¿Qué fases necesito? Esto transforma la comprensión conceptual en análisis aplicado",
+        "Especifica qué aspectos de las fases te costaban: ¿Era entender qué hace cada fase? ¿Cuándo aplicar cada una? ¿El orden secuencial? Detallar te ayudará a consolidar lo que aprendiste del profesor",
+        "Practica con ejercicios resueltos primero: Antes de intentar sola, analiza ejercicios ya resueltos identificando explícitamente qué fase se usa en cada paso. Esto construye el puente entre comprensión y ejecución"
+      ],
+      "createdAt": "2025-10-01 14:50:02"
+    },
+    {
+      "feedbackId": "4add9285-338a-495b-be49-9cf45539f5bf",
+      "weekStart": "2025-09-08",
+      "score": 45,
+      "generalComments": "Tu reporte refleja un momento de estancamiento preocupante: mantenes la misma autoevaluación (Nivel 2, no podes resolver sola) que en el reporte anterior, pero esta vez tu respuesta en Q2 es simplemente Ninguno, indicando ausencia total de evidencia de trabajo con ejercicios. Identificas correctamente que te cuestan las fórmulas y saber cuáles usar, que es precisamente el desafío de Fase 3, pero sin práctica concreta (que Q2 confirma no está ocurriendo) es imposible desarrollar esa habilidad. La conexión con matemática persiste pero se vuelve más vaga. Este reporte señala una alarma pedagógica: sin intentos de ejercicios no hay aprendizaje de selección de herramientas.",
+      "strengths": [
+        "Diagnóstico específico del obstáculo: Identificas claramente que tu dificultad está en las fórmulas y saber cuáles usar, lo que señala exactamente el desafío de Fase 3 (selección de herramientas matemáticas)",
+        "Consistencia en autoevaluación: Mantenes honestidad sobre tu nivel (Nivel 2, no resolver sola), mostrando consciencia de tu situación actual",
+        "Reconocimiento de conexión interdisciplinaria: Persiste tu identificación de la relación entre física y matemática"
+      ],
+      "improvements": [
+        "CRÍTICO - Genera evidencia de trabajo: Responder Ninguno en Q2 impide evaluación y aprendizaje. Aunque no llegues al resultado final, muestra CUALQUIER intento: identificar datos de un ejercicio, escribir qué fórmula creíste que era, mostrar dónde te trabaste. El aprendizaje está en el intento, no en el resultado",
+        "Crea un catálogo personal de fórmulas: Si te cuesta saber cuáles usar, haz una tabla con: nombre de fórmula, cuándo usarla, ejemplo de ejercicio. Ejemplo: Alcance = (v²sen2α)/g → uso cuando me piden distancia horizontal",
+        "Pide ejercicios guiados: Trabaja con el profesor ejercicios donde él indique qué fórmula usar en cada paso. Anota POR QUÉ se elige cada fórmula. Esto construye tu criterio de selección"
+      ],
+      "createdAt": "2025-10-01 14:51:33"
+    },
+    {
+      "feedbackId": "66e9e00d-4935-4944-bd78-4a0f9559d240",
+      "weekStart": "2025-09-22",
+      "score": 61,
+      "generalComments": "Tu último reporte del trimestre muestra una recuperación importante: tu autoevaluación sube de Nivel 2 a Nivel 3, declarando que ahora podes resolver ejercicios con ayuda, lo que contrasta positivamente con reportes anteriores donde afirmabas no poder resolverlos sola. Presentas un ejercicio concreto de jabalina con dos incógnitas identificadas (altura máxima y distancia), que es evidencia superior al reporte anterior donde respondiste Ninguno. Sin embargo, al igual que tu primer reporte, solo transcribes la consigna sin mostrar el proceso de resolución, lo que impide verificar tu comprensión real. Identificas que te cuestan los cálculos, pero sin especificar cuáles ni cómo los estás trabajando.",
+      "strengths": [
+        "Progreso en autoevaluación y capacidad: Subes de Nivel 2 a Nivel 3, declarando que ahora podes resolver ejercicios con ayuda, mostrando avance significativo respecto a reportes anteriores donde afirmabas no poder hacerlo",
+        "Generación de evidencia: Presentas ejercicio concreto de jabalina con dos incógnitas (altura máxima y distancia), recuperándote del reporte anterior donde respondiste Ninguno",
+        "Consciencia de dependencia: Reconoces que necesitas ayuda para resolver, mostrando honestidad sobre tu nivel de autonomía actual"
+      ],
+      "improvements": [
+        "Muestra tu proceso de resolución: No basta transcribir la consigna. Escribe: Datos (v=30m/s, α=35°, g=10m/s²), Incógnitas (h máx, alcance), Fórmulas que usaste, Desarrollo. Esto permite verificar si realmente podes resolver con ayuda",
+        "Especifica qué cálculos te cuestan: ¿Son los despejes? ¿Las operaciones trigonométricas? ¿Trabajar con unidades? ¿Usar calculadora? Identificar exactamente qué paso te traba permite practicar focalizadamente",
+        "Documenta la ayuda que recibis: Ya que declaras resolver con ayuda, explica qué tipo de ayuda necesitas: ¿Que te indiquen la fórmula? ¿Que revisen tu procedimiento? ¿Que te expliquen conceptos? Esto ayuda a diseñar apoyo efectivo"
+      ],
+      "createdAt": "2025-10-01 14:53:34"
+    },
+    {
+      "feedbackId": "6f120c9f-a0f0-4a3c-9897-5a07b28d1a41",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:37:45.130Z"
+    },
+    {
+      "feedbackId": "5e3f51e4-e8f8-4101-bb3d-712076f1b364",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:12:53.512Z"
+    },
+    {
+      "feedbackId": "59cf41cf-af48-4ac1-ba33-4f67f6e5ef62",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:31.690Z"
+    },
+    {
+      "feedbackId": "93a9c7c6-87e3-4496-bf8b-fde2f73d25d9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:50:04.660Z"
+    },
+    {
+      "feedbackId": "e576802d-9599-4b80-a47a-49596273c150",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Entiendo que esta semana fue complicada por tu inasistencia, pero es importante que entiendas que la Fase 2 requiere participación activa en clase para identificar y clasificar variables. Lo positivo es que reconoces dónde tienes dificultad (elegir la ley de Newton correcta), y eso es el primer paso para mejorar.\n\nTu desempeño esta semana es inicial porque el reporte está incompleto y sin evidencia de trabajo sistemático. Sin embargo, esto no significa que no puedas avanzar rápidamente si te comprometes a asistir y a profundizar en tus respuestas.\n\nPara la próxima semana, te pido que: (1) asegures tu asistencia a todas las clases, (2) completes todas las secciones del reporte con respuestas detalladas, y (3) practiques identificando variables en al menos 5 problemas diferentes de Leyes de Newton. Vamos a trabajar juntos en esto.",
+      "strengths": "• Autoconciencia sobre dificultades: Reconoces específicamente que te cuesta identificar cuál ley de Newton aplicar, lo que demuestra que estás reflexionando sobre tu propio aprendizaje.\n• Intención de conectar disciplinas: Intentas relacionar Física con Matemática, lo que muestra que buscas integrar conocimientos de diferentes áreas.",
+      "improvements": "• Profundizar en identificación de variables: En lugar de solo mencionar el tema, describe las variables específicas que trabajas (fuerzas, masa, aceleración). Clasifícalas como conocidas/desconocidas y controlables/no controlables. Por ejemplo: \"En un problema de movimiento, la masa es conocida, la aceleración es desconocida, y la fuerza aplicada es controlable.\"\n• Desarrollar estrategias concretas para elegir la ley correcta: No basta con reconocer la dificultad. Crea un plan: ¿Qué preguntas te haces antes de elegir una ley? ¿Cómo identificas si hay aceleración, equilibrio o cambio de movimiento? Practica con 3-5 problemas diferentes y anota qué ley usaste en cada caso.\n• Recuperar asistencia y completar el reporte: La inasistencia afecta directamente tu aprendizaje. Coordina con compañeros o tu profesor para obtener los apuntes de la clase que perdiste. Completa todas las secciones del reporte, incluyendo comentarios adicionales, para que podamos ver tu progreso real.",
+      "createdAt": "2025-10-27T05:02:40.302Z"
+    },
+    {
+      "feedbackId": "d5e7ab12-dabb-46f9-9331-0b07caefc90e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que estás trabajando en Fase 2 y reconozco tu esfuerzo al intentar resolver ejercicios de diagramas de cuerpo libre. Sin embargo, tu reporte es muy breve y le falta profundidad en la identificación de variables y en la reflexión sobre tu aprendizaje.\n\nEsta semana necesitas ser más específico: en lugar de decir \"entiendo el tema con ayuda\", explica qué variables identificaste, cómo las clasificaste y qué dificultades concretas tuviste. Esto me ayudará a entender mejor dónde necesitas apoyo.\n\nPara la próxima semana, te propongo que hagas un reporte más completo: lista todas las variables de cada ejercicio, clasifícalas (conocidas/desconocidas, controlables/no controlables), y reflexiona sobre tu progreso. Así consolidarás mejor lo que estás aprendiendo.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que necesitaste ayuda para resolver los ejercicios, lo que muestra autoconciencia sobre tu nivel actual. Esto es importante para identificar dónde enfocarte.\n• Identificación del tema central: Elegiste \"diagrama de cuerpo libre\", que es un concepto clave en Fase 2. Esto demuestra que entiendes qué tema es relevante para trabajar variables y fuerzas.\n• Intento de conexión interdisciplinaria: Relacionas Física con Matemática mencionando las ecuaciones, lo que muestra que buscas ver conexiones entre disciplinas.",
+      "improvements": "• Profundiza en la clasificación de variables: En lugar de solo mencionar el ejercicio, identifica explícitamente qué variables son conocidas (masa = 10 kg, ángulo = 30°) y cuáles desconocidas (aceleración, tensión). Haz una lista clara para cada problema que trabajes.\n• Especifica tus dificultades con ejemplos concretos: Cuando dices \"se me dificulta graficar\", explica qué aspecto específico: ¿Dónde colocar las fuerzas? ¿Cómo descomponer el peso? ¿Qué fórmula usar? Luego propón una estrategia: \"Usaré un sistema de coordenadas x-y para cada fuerza\" o \"Practicaré descomposición de vectores\".\n• Completa todas las secciones del reporte: La pregunta 5 quedó vacía. Usa ese espacio para reflexionar: ¿Qué aprendiste esta semana? ¿Cómo evolucionaste desde Fase 1? ¿Qué necesitas practicar? Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-11-03T12:24:38.910Z"
+    },
+    {
+      "feedbackId": "b82156c1-8480-46ce-a658-ffd7ff1ae33e",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que estás trabajando en Fase 2, pero tu reporte muestra respuestas muy breves que no reflejan el análisis profundo que necesitamos en esta etapa. Reconozco tu honestidad al admitir que necesitas ayuda, y eso es valioso para mejorar.\n\nSin embargo, esta semana tu desempeño ha sido incompleto: faltaron detalles en la identificación de variables, no mostraste evidencia clara de tu proceso de aprendizaje, y dejaste sin responder la pregunta 5. Necesitamos más profundidad y sistematicidad en tus análisis.\n\nPara la próxima semana, te pido que: (1) hagas listas completas de variables en cada ejercicio, (2) clasifiques cada variable claramente, (3) reflexiones por escrito sobre qué estrategias usarás para mejorar, y (4) completes todas las preguntas del reporte. Esto te ayudará a consolidar realmente el pensamiento crítico en Fase 2.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que necesitas ayuda (\"entiendo con ayuda\"), lo que muestra autoconciencia sobre tu nivel actual. Esto es un buen punto de partida para mejorar.\n• Identificación del tema central: Enfocas correctamente en diagramas de cuerpo libre, que es un concepto clave en Fase 2. Esto demuestra que al menos reconoces el contenido trabajado.\n• Intención de conectar disciplinas: Mencionas la relación con matemática, lo que muestra que intentas buscar conexiones entre áreas, aunque necesita desarrollarse más.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de solo mencionar \"diagrama de cuerpo libre\", debes listar las variables específicas (fuerzas, masa, aceleración, ángulos, etc.) y clasificarlas como conocidas/desconocidas y controlables/no controlables. Practica esto con 2-3 ejercicios esta semana.\n• Desarrolla estrategias concretas para superar dificultades: No es suficiente decir \"se me dificulta\". Pregúntate: ¿Cuál fuerza específica no identifico? ¿Confundo magnitudes escalares con vectoriales? Propón acciones claras como \"haré un diagrama de referencia con todas las fuerzas posibles\" o \"practicaré descomposición de fuerzas diariamente\".\n• Completa todas las preguntas del reporte: Q5 está vacía. Dedica tiempo a reflexionar sobre tu aprendizaje: ¿Cómo evolucionaste desde Fase 1? ¿Qué descubriste sobre cómo identificar variables? Estas reflexiones son cruciales para consolidar tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:41:25.865Z"
+    },
+    {
+      "feedbackId": "55dde273-1345-4f63-a15c-7079d63414b9",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que estás trabajando en un proyecto interesante con tu grupo, y eso es positivo. Sin embargo, tu reporte semanal es muy breve y no muestra el trabajo metodológico que estás haciendo en Fase 2. Necesitas ser mucho más específico y detallado en tus respuestas.\n\nEsta semana no evidencias que estés identificando y clasificando variables de manera sistemática, que es exactamente lo que Fase 2 requiere. Tus respuestas son generales y no incluyen ejemplos concretos del proyecto de la catapulta ni reflexión sobre tu propio aprendizaje.\n\nPara la próxima semana, quiero que documentes claramente: (1) todas las variables de tu catapulta, (2) cómo las clasificaste, (3) qué dificultades tuviste y cómo las resolviste, y (4) reflexiones propias sobre el proceso. Esto hará que tu reporte sea mucho más valioso para tu aprendizaje.",
+      "strengths": "• Trabajo colaborativo: Mencionas que \"trabajamos bastante bien en grupos\", lo que muestra disposición para el trabajo en equipo y comunicación con compañeros durante el proyecto.\n• Proyecto práctico: Elegir una catapulta como trabajo final es excelente para aplicar conceptos de dinámica en un contexto real y tangible que facilita el aprendizaje.\n• Intención de conexión: Intentas conectar el tema con arquitectura, mostrando que buscas relacionar la física con otras disciplinas, aunque necesita más desarrollo.",
+      "improvements": "• Identificación explícita de variables: En tu proyecto de catapulta, debes listar todas las variables: ¿Cuál es la masa del proyectil? ¿El ángulo de lanzamiento? ¿La fuerza aplicada? Clasifica cada una como conocida/desconocida y controlable/no controlable. Esto es fundamental para Fase 2.\n• Evidencia documentada del proceso: No vemos cómo aplicaste Fase 1 (comprensión del problema) + Fase 2 (identificación de variables). Crea una tabla o lista que muestre: problema → variables identificadas → clasificación → magnitudes físicas involucradas.\n• Reflexión metacognitiva: Responde honestamente: ¿Qué te costó identificar? ¿Confundiste variables controlables con no controlables? ¿Cómo lo resolviste? Esta reflexión es clave para tu aprendizaje y debe estar en cada reporte.",
+      "createdAt": "2025-11-17T13:55:57.909Z"
+    }
+  ]
+}

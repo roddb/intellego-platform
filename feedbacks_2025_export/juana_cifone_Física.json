@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "studentId": "c28a60a9-fc8e-4df3-99ae-f8a4745db917",
+    "studentName": "juana cifone",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.244191",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 41.7,
+      "minScore": 27,
+      "maxScore": 64,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_745db917_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 58,
+      "generalComments": "Querida Juana Cifone, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Organizas adecuadamente los datos y la información disponible al identificar el objetivo y las variables conocidas en el problema de tiro oblicuo. Debes trabajar en la identificación precisa de todas las variables involucradas, diferenciando conocidas de desconocidas. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y aplicar las fórmulas correctas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente el objetivo del problema en el ejercicio de tiro oblicuo",
+        "Reconoces algunas variables conocidas del problema",
+        "Realizas conexiones básicas con temas relacionados como tiro vertical y caída libre"
+      ],
+      "improvements": [
+        "Trabajar en la clasificación completa de variables conocidas y desconocidas",
+        "Desarrollar mayor claridad en la selección de herramientas y fórmulas apropiadas",
+        "Proporcionar evidencias más específicas del proceso de resolución de problemas"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_745db917_2025-08-25_002",
+      "weekStart": "2025-08-25",
+      "score": 63,
+      "generalComments": "Querida Juana Cifone, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Muestras progreso al aplicar la metodología de fases (F1, F2, F3) de manera estructurada y lograr un resultado concreto (tiempo = 6s) en el ejercicio de tiro oblicuo. Debes trabajar en la justificación de por qué seleccionas determinadas herramientas y ecuaciones específicas. Necesitas desarrollar mayor precisión en la clasificación completa de todas las variables del problema e incluir verificación de resultados. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas la metodología de fases (F1, F2, F3) de manera estructurada en el ejercicio",
+        "Identificas correctamente las variables conocidas (Vo=50m/s, ángulo=37°) y desconocidas (H, T)",
+        "Logras resolver y obtener un resultado concreto (tiempo = 6s) aplicando la fórmula"
+      ],
+      "improvements": [
+        "Fortalecer la justificación de por qué seleccionas la fórmula Yf= Yo + VoY.t + 1/2.g.t²",
+        "Desarrollar mayor precisión en la clasificación completa de todas las variables del problema",
+        "Incluir verificación de resultados para evaluar la razonabilidad de la solución obtenida"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_745db917_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 64,
+      "generalComments": "Querida Juana Cifone, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Demuestras aplicación de las cuatro fases del método en el problema de la motocicleta, mostrando evolución en tu proceso de resolución sistemática. Debes trabajar en la planificación completa de tu estrategia antes de ejecutar y documentar todos los pasos de resolución. Necesitas incorporar la verificación de resultados como parte integral de tu proceso e incluir mayor detalle en cada fase aplicada. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas las cuatro fases del método (F1, F2, F3, F4) en el problema de la motocicleta",
+        "Identificas correctamente el objetivo (si la persona logra completar el salto con seguridad)",
+        "Muestras evolución en la organización del proceso de resolución de problemas"
+      ],
+      "improvements": [
+        "Desarrollar mayor detalle en la descripción de cada fase aplicada, especialmente F4",
+        "Incorporar la verificación de resultados y análisis de razonabilidad de la solución",
+        "Documentar completamente el proceso de ejecución con cálculos y justificaciones"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_745db917_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Juana Cifone, debido a que esta semana rindieron el examen, no fue posible evaluar tu progreso en el proceso de pensamiento crítico en Física durante este período. Es importante completar los reportes semanales incluso en semanas de evaluación, reflexionando sobre tu preparación, las estrategias utilizadas para estudiar y el proceso de aplicación del método durante el examen. Proporciona reflexiones sobre tu proceso de preparación y desempeño en evaluaciones. Desarrolla el hábito de documentar tu aprendizaje de manera continua, independientemente de las actividades semanales. Te sugiero coordinar conmigo para aclarar las expectativas sobre los reportes semanales y cómo aprovecharlos para fortalecer tu metacognición.",
+      "strengths": [
+        "Cumples con la entrega del reporte semanal dentro del plazo establecido"
+      ],
+      "improvements": [
+        "Reflexionar sobre el proceso de preparación para evaluaciones en lugar de reportar solo el evento",
+        "Aprovechar el reporte semanal para analizar estrategias de estudio utilizadas",
+        "Documentar aprendizajes y dificultades encontradas durante la preparación del examen"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_745db917_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Juana Cifone, esta semana reportas que no hubo actividades en clase, lo que limita la evaluación de tu proceso de aprendizaje en Física. Sin embargo, reconoces honestamente que estás en nivel 1 porque entiendes lo básico pero necesitas más práctica, mostrando buena autoevaluación. Aun en semanas sin clases presenciales, es valioso reflexionar sobre tu estudio autónomo, repaso de temas anteriores o práctica de ejercicios pendientes. Desarrolla el hábito de aprovechar semanas sin actividad para consolidar aprendizajes previos. Documenta tu trabajo autónomo cuando no hay clases, mostrando iniciativa en tu proceso de aprendizaje. Te sugiero coordinar conmigo para recuperar el material y mantener continuidad en tu aprendizaje.",
+      "strengths": [
+        "Demuestras honestidad en tu autoevaluación reconociendo tu nivel de dominio actual",
+        "Cumples con la entrega del reporte semanal a pesar de no haber actividad en clase"
+      ],
+      "improvements": [
+        "Aprovechar semanas sin actividad presencial para practicar ejercicios de tiro oblicuo de manera autónoma",
+        "Documentar cualquier estudio o repaso realizado por cuenta propia durante la semana",
+        "Solicitar materiales o ejercicios adicionales para trabajar en forma independiente"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_745db917_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 33,
+      "generalComments": "Querida Juana Cifone, el contenido de tu reporte corresponde a Química (gases ideales y ecuación de estado), cuando la evaluación es de Física. Si bien demuestras buena metodología aplicando las 4 fases del pensamiento crítico en el problema de gases (F1: objetivo, F2: variables, F3: ecuación PV/T, F4: cálculos), es fundamental entregar el contenido correcto para cada materia. Muestras capacidad de aplicación del método cuando trabajas con el contenido apropiado. Es importante verificar qué materia corresponde al reporte antes de completarlo y asegurarte de documentar los temas de Física trabajados durante la semana. Mejora la organización de tu estudio diferenciando claramente los contenidos de cada materia. Te sugiero coordinar conmigo para recuperar el material de Física de esta semana y recibir orientación sobre la organización de tu estudio.",
+      "strengths": [
+        "Aplicas correctamente la metodología de 4 fases en problemas de ciencias (aunque en la materia incorrecta)",
+        "Demuestras capacidad de cálculo y manejo de ecuaciones de estado",
+        "Organizas sistemáticamente variables conocidas y desconocidas"
+      ],
+      "improvements": [
+        "Verificar siempre la materia correspondiente antes de completar el reporte semanal",
+        "Diferenciar claramente entre contenidos de Física y Química en tu organización de estudio",
+        "Documentar los temas de Física trabajados durante la semana para el reporte correcto"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "faceba47-a046-4d74-b5ad-981273adc35b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:10.464Z"
+    },
+    {
+      "feedbackId": "73055e3c-513e-4583-abcc-09c084d3e1ed",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:53.864Z"
+    },
+    {
+      "feedbackId": "6ddef7a9-4070-4401-941f-c384d35c35ed",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás trabajando en Dinámica y que tienes las bases matemáticas para resolver problemas (tu cálculo del aerobote es correcto). Sin embargo, tu reporte muestra que aún no has integrado completamente la Fase 2: identificar y clasificar variables sistemáticamente. Es como si supieras usar una herramienta, pero no entendieras por qué funciona.\n\nEsta semana tu desempeño ha sido inicial. Resuelves problemas, pero no analizas *qué variables están en juego* ni *cómo se relacionan*. Eso es exactamente lo que la Fase 2 te pide. Además, tu reporte está incompleto (falta la pregunta 5), lo que sugiere que necesitas dedicar más tiempo a la reflexión.\n\nPara la próxima semana, te propongo esto: antes de resolver cualquier problema de Dinámica, haz una tabla con todas las variables (conocidas/desconocidas, controlables/no controlables). Luego resuelve. Esto te ayudará a ver la estructura del problema, no solo los números. También completa siempre todas las preguntas del reporte: tu reflexión es tan importante como tus cálculos.",
+      "strengths": "• Aplicación correcta de fórmulas: Demuestras que sabes usar F=m·a y realizar cálculos numéricos correctamente. Tu resultado de 2,2 m/s² es preciso, lo que muestra dominio operacional básico.\n• Identificación de dificultades reales: Reconoces que el diagrama de cuerpo libre es un desafío para ti, lo cual es honesto y es el primer paso para mejorar. Muchos estudiantes no admiten sus dificultades.\n• Intento de conexión conceptual: Relacionas Dinámica con otros temas (caída libre, tiro vertical), mostrando que intentas ver la \"película completa\" de la Física, no solo fórmulas aisladas.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de solo resolver el problema del aerobote, debes analizar: ¿Cuáles variables son conocidas? ¿Cuáles desconocidas? ¿Cuáles puedo controlar? Crea una tabla con esta clasificación para cada problema que resuelvas. Esto es el corazón de la Fase 2.\n• Desarrolla estrategias concretas para el diagrama de cuerpo libre: No basta decir que te resulta difícil. Practica dibujando diagramas paso a paso: (1) dibuja el objeto, (2) identifica cada fuerza (peso, normal, fricción, aplicada), (3) dibuja vectores desde el centro del objeto. Hazlo en 5 problemas diferentes esta semana.\n• Amplía tus conexiones con ejemplos específicos: Cuando relacionas Dinámica con caída libre, explica: \"En caída libre, la aceleración es g=9,8 m/s², y la fuerza es el peso (F=m·g). Aquí veo que F, m y a siempre están conectadas por F=m·a\". Sé explícito en cómo se transfieren los conceptos.",
+      "createdAt": "2025-10-27T04:56:15.686Z"
+    },
+    {
+      "feedbackId": "7ac1b338-0e12-4c50-813d-39c3abd6ef3a",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que estás siendo honesto contigo mismo al reconocer que necesitas mejorar en la aplicación práctica de las leyes de Newton. Eso es valioso. Sin embargo, tu reporte es muy breve y no proporciona la evidencia que necesito para evaluar realmente tu progreso en la Fase 2.\n\nEsta semana trabajaste en grupo y realizaron un informe, pero no documentaste qué aprendiste sobre identificar y clasificar variables. Es como si hubieras hecho el trabajo pero no reflexionaste sobre el proceso. Eso es lo que me preocupa: no veo el pensamiento crítico detrás de las acciones.\n\nPara la próxima semana, necesito que seas mucho más detallado. Describe específicamente qué variables encontraste, cómo las clasificaste, qué dificultades tuviste y qué estrategias usarás para mejorar. Esto no solo me ayudará a evaluarte mejor, sino que también te ayudará a consolidar tu aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que tu nivel de dominio es bajo (\"nivel 1\") y que te cuesta la práctica. Esta conciencia es el primer paso para mejorar.\n• Identificación de la brecha teoría-práctica: Señalas claramente que el problema no es entender conceptos, sino aplicarlos. Esto muestra que distingues entre comprensión teórica y aplicación práctica.\n• Conexión básica con contenidos: Relacionas las leyes de Newton con Dinámica, demostrando que hay una estructura mental de cómo se conectan los temas.",
+      "improvements": "• Falta de especificidad en variables: No identificas qué variables están presentes en los problemas de leyes de Newton (masa, fuerza, aceleración, fricción, etc.). Acción: En tu próximo reporte, lista al menos 5 variables de un problema específico y clasifícalas en conocidas/desconocidas y controlables/no controlables.\n• Ausencia de evidencia documentada: Dices que \"realizaron el informe\" pero no muestras qué variables identificaron. Acción: Adjunta o describe el proceso: ¿Qué variables encontraron? ¿Cómo las clasificaron? ¿Qué magnitudes físicas usaron?\n• Estrategias vagas para superar dificultades: Mencionas que te cuesta la práctica, pero no propones cómo solucionarlo. Acción: Propón estrategias concretas como \"resolver 3 problemas paso a paso identificando variables antes de calcular\" o \"crear una tabla de variables para cada tipo de problema.\"",
+      "createdAt": "2025-11-17T13:42:23.035Z"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "studentId": "126e9cd8-f05a-4213-be02-673101d573da",
+    "studentName": "maria sanz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245448",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 60.5,
+      "minScore": 27,
+      "maxScore": 74,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_5a5e73da_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 27,
+      "generalComments": "Querida maria sanz,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Debido a ausencias en clase por ACAP toda la semana, no fue posible evaluar tu progreso de manera completa.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.\n\nTe sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje."
+      ],
+      "createdAt": "2025-10-07T17:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5a5e73da_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 71,
+      "generalComments": "Querida maria sanz,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en equilibrio químico. Organizas adecuadamente los datos y la información disponible del problema de síntesis del metanol.\n\nEs importante mejorar la justificación de cómo se resuelve de forma práctica. Busca aplicaciones prácticas de la constante de equilibrio Kc en situaciones cotidianas o industriales.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en equilibrio químico.",
+        "Organizas adecuadamente los datos y la información disponible del problema de síntesis del metanol."
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de cómo se resuelve de forma práctica.",
+        "Busca aplicaciones prácticas de la constante de equilibrio Kc en situaciones cotidianas o industriales."
+      ],
+      "createdAt": "2025-10-07T17:31:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5a5e73da_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Querida maria sanz,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas los pasos de resolución de manera ordenada y lógica, aplicando correctamente las fórmulas para calcular molaridades y Kc. Integras exitosamente los conocimientos de las fases anteriores en tu resolución completa del problema de equilibrio químico.\n\nTrabajar en mayor profundidad la Fase 1 específicamente en diferenciar problema de objetivo. Busca aplicaciones prácticas de la constante de equilibrio en contextos industriales o ambientales. Desarrolla mayor reflexión metacognitiva sobre tu proceso de aprendizaje en los comentarios adicionales.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica, aplicando correctamente las fórmulas para calcular molaridades y Kc.",
+        "Integras exitosamente los conocimientos de las fases anteriores en tu resolución completa del problema de equilibrio químico.",
+        "Demuestras capacidad sistemática para aplicar las cuatro fases metodológicas."
+      ],
+      "improvements": [
+        "Trabajar en mayor profundidad la Fase 1 específicamente en diferenciar problema de objetivo.",
+        "Busca aplicaciones prácticas de la constante de equilibrio en contextos industriales o ambientales.",
+        "Desarrolla mayor reflexión metacognitiva sobre tu proceso de aprendizaje en los comentarios adicionales."
+      ],
+      "createdAt": "2025-10-07T17:32:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5a5e73da_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Querida maria sanz,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas los pasos de resolución de manera ordenada y lógica, aplicando correctamente el método algebraico para calcular concentraciones en equilibrio. Integras exitosamente los conocimientos de las fases anteriores mediante el uso sistemático de la variable x.\n\nTrabajar en mayor profundidad la Fase 1 específicamente en definir problema y objetivo con claridad. Busca aplicaciones prácticas de estos cálculos de equilibrio en situaciones industriales o cotidianas. Desarrolla mayor reflexión sobre tu proceso de aprendizaje y las conexiones con otros temas.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica, aplicando correctamente el método algebraico para calcular concentraciones en equilibrio.",
+        "Integras exitosamente los conocimientos de las fases anteriores mediante el uso sistemático de la variable x.",
+        "Demuestras capacidad para plantear y resolver sistemas de equilibrio químico."
+      ],
+      "improvements": [
+        "Trabajar en mayor profundidad la Fase 1 específicamente en definir problema y objetivo con claridad.",
+        "Busca aplicaciones prácticas de estos cálculos de equilibrio en situaciones industriales o cotidianas.",
+        "Desarrolla mayor reflexión sobre tu proceso de aprendizaje y las conexiones con otros temas."
+      ],
+      "createdAt": "2025-10-07T17:33:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5a5e73da_2025-09-22_005",
+      "weekStart": "2025-09-22",
+      "score": 74,
+      "generalComments": "Querida maria sanz,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas los pasos de resolución de manera ordenada y lógica en el problema de equilibrio N2+H2⇌NH3. Verificas tus resultados prestando atención a coeficientes estequiométricos y conversiones.\n\nPrestar mayor atención a los detalles para evitar errores evitables en los cálculos. Busca aplicaciones prácticas de estos equilibrios químicos en contextos industriales. Desarrolla mayor reflexión metacognitiva sobre tu proceso de aprendizaje.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica en el problema de equilibrio N2+H2⇌NH3.",
+        "Verificas tus resultados prestando atención a coeficientes estequiométricos y conversiones.",
+        "Demuestras capacidad para manejar equilibrios con múltiples coeficientes estequiométricos."
+      ],
+      "improvements": [
+        "Prestar mayor atención a los detalles para evitar errores evitables en los cálculos.",
+        "Busca aplicaciones prácticas de estos equilibrios químicos en contextos industriales.",
+        "Desarrolla mayor reflexión metacognitiva sobre tu proceso de aprendizaje."
+      ],
+      "createdAt": "2025-10-07T17:34:00Z"
+    },
+    {
+      "feedbackId": "038adb3e-8dfb-48e9-8dd9-cf6174da1471",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que estás en las primeras etapas de la Fase 2 y que tomaste notas en clase, lo cual es positivo. Sin embargo, tu reporte está incompleto y no refleja el trabajo sistemático que esperamos en pensamiento crítico. Las respuestas vacías o muy breves (como \"no 🐋\") no nos permiten entender realmente qué aprendiste ni dónde necesitas ayuda.\n\nEsta semana tu desempeño ha sido inicial. Necesitas pasar de \"entender el tema\" a \"identificar y clasificar variables\" de forma concreta. La Fase 2 no es solo sobre comprensión teórica, sino sobre aplicar esa comprensión a problemas reales.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas con respuestas genuinas de 3-4 líneas mínimo, (2) hagas una lista de variables en ácidos y bases aunque no hayas hecho ejercicios formales, y (3) reflexiones sobre una dificultad real que tengas y cómo la superarías. Estoy aquí para apoyarte en este proceso.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no puedo decir que entendí todo al 100%\" y que no has hecho ejercicios. Esta sinceridad es valiosa para identificar dónde necesitas apoyo.\n• Intento de conexión conceptual: En Q4 buscas relacionar ácidos-bases con equilibrio químico, mostrando que intentas integrar conceptos previos, aunque la explicación necesite refinamiento.\n• Disposición inicial: Tu comentario \"tomé nota de todo\" en Q1 sugiere que estás presente en clase y registrando información, que es un buen punto de partida.",
+      "improvements": "• Falta de aplicación sistemática de Fase 1+2: No identificas ni clasificas variables en el tema de ácidos y bases. Acción: Antes de la próxima semana, haz una lista de al menos 5 variables en una reacción ácido-base (ej: concentración, pH, temperatura) y clasifícalas en conocidas/desconocidas y controlables/no controlables.\n• Respuestas incompletas o ausentes en preguntas clave: Q2, Q3 y Q5 están prácticamente vacías. Acción: Dedica tiempo a responder cada pregunta con al menos 3-4 líneas. Aunque no hayas hecho ejercicios, puedes describir variables del tema trabajado en clase.\n• Falta de reflexión metacognitiva: No analizas qué dificultades tienes ni qué estrategias usas para aprender. Acción: Antes de enviar el próximo reporte, pregúntate: \"¿Qué me costó entender?\" y \"¿Cómo lo resolví o cómo lo resolvería?\" Escribe al menos dos respuestas concretas.",
+      "createdAt": "2025-10-27T05:08:16.666Z"
+    }
+  ]
+}

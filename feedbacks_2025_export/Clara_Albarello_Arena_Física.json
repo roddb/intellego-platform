@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "u_u044khertme06lo0d",
+    "studentName": "Clara Albarello Arena",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.193335",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 58.0,
+      "minScore": 56,
+      "maxScore": 62,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me06lo0d_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Querida Clara Albarello Arena, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Muestras aplicación de F1+F2 al resolver el ejercicio de clasificación de tareas, identificando variables conocidas y desconocidas. Es fundamental fortalecer tu capacidad para identificar y clasificar todas las variables con precisión. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicaste correctamente el proceso de clasificación de variables en el ejercicio de las tareas del niño",
+        "Reconoces con honestidad tus dificultades en la diferenciación de variables",
+        "Realizas conexiones entre conceptos de física y situaciones cotidianas como deportes"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada",
+        "Desarrolla estrategias más específicas para superar tus desafíos al clasificar variables",
+        "Busca aplicaciones prácticas de clasificación de variables en situaciones cotidianas variadas"
+      ],
+      "createdAt": "2025-10-07 15:49:33"
+    },
+    {
+      "feedbackId": "fb_002_1_me06lo0d_2025-08-25_002",
+      "weekStart": "2025-08-25",
+      "score": 56,
+      "generalComments": "Querida Clara Albarello Arena, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Reconoces las conexiones entre el tiro oblicuo y temas anteriores como caída libre y MRU, lo cual muestra comprensión conceptual. Identificas con precisión tu dificultad con la organización de cálculos en altura inicial distinta de cero. Es importante mejorar la planificación de tu estrategia antes de ejecutar. Necesitas ser más sistemática en la ejecución de pasos organizando variables y fórmulas previamente. Trabaja en expresar con mayor claridad tu proceso de resolución. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Reconoces las conexiones entre tiro oblicuo, caída libre y MRU, demostrando comprensión de la integración de temas",
+        "Identificas con precisión tu dificultad específica: organizar cálculos con altura inicial distinta de cero",
+        "Demuestras honestidad al autoevaluar tu nivel de dominio, reconociendo áreas que necesitas fortalecer"
+      ],
+      "improvements": [
+        "Mejora la planificación de tu estrategia antes de ejecutar, listando pasos a seguir en orden lógico",
+        "Organiza sistemáticamente las variables conocidas, desconocidas y fórmulas antes de comenzar cálculos",
+        "Proporciona evidencias más detalladas del proceso completo de resolución en tus reportes"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me06lo0d_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 56,
+      "generalComments": "Querida Clara Albarello Arena, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Identificas una estrategia útil al anotar todas las fórmulas y revisar qué variables tienes antes de elegir. Reconoces tu necesidad de trabajar sistemáticamente para seleccionar la fórmula correcta. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Proporciona evidencias más concretas y detalladas de tu proceso de resolución. Busca aplicaciones prácticas más variadas de las ecuaciones de tiro oblicuo. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas una estrategia concreta y útil: anotar todas las fórmulas y revisar variables antes de decidir",
+        "Demuestras reflexión metacognitiva al reconocer qué proceso necesitas seguir para tomar decisiones",
+        "Reconoces tu nivel de dominio con honestidad, sabiendo que puedes resolver con un poco de ayuda"
+      ],
+      "improvements": [
+        "Mejora la justificación escrita de por qué seleccionas cada fórmula específica en cada problema",
+        "Proporciona evidencias más detalladas y completas de tu proceso de resolución en los ejercicios del simulacro",
+        "Explora aplicaciones más variadas del tiro oblicuo en contextos cotidianos para fortalecer tu comprensión"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    }
+  ]
+}

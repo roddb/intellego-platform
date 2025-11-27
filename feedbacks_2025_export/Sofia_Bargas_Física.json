@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "studentId": "u_tv7hzrijlme0b5735",
+    "studentName": "Sofia Bargas",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.232191",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 44.67,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_bargas_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 82,
+      "generalComments": "Excelente trabajo Sofía. Demuestras comprensión profunda del pensamiento crítico (Nivel 1). Tu reflexión sobre decisiones personales y el proceso de análisis de ventajas/desventajas muestra madurez. Muy positiva tu actitud al disfrutar los ejercicios.",
+      "strengths": [
+        "Comprensión excelente del tema (Nivel 1)",
+        "Aplicación práctica en decisiones personales",
+        "Reflexión madura sobre el proceso",
+        "Actitud positiva hacia el aprendizaje"
+      ],
+      "improvements": [
+        "Memorizar nombres específicos de cada paso",
+        "Continuar aplicando el método sistemáticamente",
+        "Profundizar en ejemplos de Física"
+      ],
+      "createdAt": "2025-01-09T03:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_bargas_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Buen trabajo Sofía. Resolviste el ejercicio de Ana superando la dificultad inicial con las múltiples variables. Tu capacidad de análisis y perseverancia para completar todas las preguntas es destacable.",
+      "strengths": [
+        "Resolución completa del ejercicio",
+        "Superación de dificultades iniciales",
+        "Análisis efectivo de la rutina",
+        "Buenas conexiones con vida cotidiana"
+      ],
+      "improvements": [
+        "Mejorar manejo de múltiples variables",
+        "Profundizar en el nivel 2 de dominio",
+        "Desarrollar estrategias para problemas complejos"
+      ],
+      "createdAt": "2025-01-09T03:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_bargas_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 35,
+      "generalComments": "Sofía, lamento que hayas estado enferma esta semana. Es positivo que intentaste trabajar desde casa aunque no lograste comprender el contenido. Tu compromiso de recuperar los contenidos la próxima semana demuestra responsabilidad.",
+      "strengths": [
+        "Intento de trabajo autónomo durante enfermedad",
+        "Comunicación clara de la situación",
+        "Compromiso de recuperación",
+        "Responsabilidad al informar dificultades"
+      ],
+      "improvements": [
+        "Recuperar contenidos de la semana perdida",
+        "Solicitar apoyo del profesor o compañeros",
+        "Revisar material con calma cuando te recuperes",
+        "Ponerte al día con ejercicios prácticos"
+      ],
+      "createdAt": "2025-01-09T03:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b5735_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 35,
+      "generalComments": "Querida Sofia Bargas, esta semana correspondió a la evaluación de la unidad anterior, por lo que el reporte semanal no refleja trabajo en las fases del pensamiento crítico. La prueba es un momento importante de síntesis y demostración de lo aprendido. Espero que hayas podido aplicar todo lo trabajado durante las semanas previas en la evaluación. La próxima semana retomaremos el trabajo con las fases y será importante que te mantengas al día con las actividades. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte semanal de forma responsable",
+        "Participas de las instancias de evaluación del curso",
+        "Mantienes comunicación sobre las actividades realizadas"
+      ],
+      "improvements": [
+        "Aprovecha las semanas de evaluación para consolidar aprendizajes previos",
+        "Identifica áreas de mejora a partir de la prueba para trabajarlas en las próximas semanas",
+        "Retoma activamente las fases del pensamiento crítico en las próximas actividades"
+      ],
+      "createdAt": "2025-10-09 22:34:46"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b5735_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 35,
+      "generalComments": "Querida Sofia Bargas, esta semana especial de celebración de Santo Tomás de Aquino no incluyó actividades curriculares de Física. Estas semanas institucionales son importantes para la vida escolar y la comunidad educativa. Al retomar las clases regulares será fundamental que te reintegres activamente al trabajo con las fases del pensamiento crítico. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte semanal informando claramente la situación",
+        "Participas de las actividades institucionales del colegio",
+        "Mantienes comunicación responsable sobre las actividades de la semana"
+      ],
+      "improvements": [
+        "Retoma activamente las actividades académicas en la próxima semana",
+        "Repasa los contenidos de las semanas previas para no perder continuidad",
+        "Aprovecha el reinicio de clases para consultar dudas acumuladas"
+      ],
+      "createdAt": "2025-10-09 22:34:46"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b5735_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "Querida Sofia Bargas, esta semana correspondió al viaje educativo a Puerto Madryn, por lo que no hubo actividades curriculares regulares de Física. Los viajes educativos son experiencias valiosas de aprendizaje en otros contextos. Al retomar las clases será importante que te reintegres con energía al trabajo sistemático con las fases del pensamiento crítico. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Participas de las experiencias educativas extracurriculares del colegio",
+        "Completas responsablemente el reporte semanal informando la situación",
+        "Mantienes comunicación clara sobre las actividades realizadas"
+      ],
+      "improvements": [
+        "Retoma con compromiso las actividades académicas tras el viaje",
+        "Identifica conexiones entre experiencias del viaje y contenidos de Física si es posible",
+        "Organiza tu tiempo para ponerte al día con las actividades regulares"
+      ],
+      "createdAt": "2025-10-09 22:34:47"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b5735_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 30,
+      "generalComments": "Querida Sofia Bargas, el contenido de tu reporte corresponde a Química, cuando la evaluación es de Física. Es fundamental que distingas claramente los espacios y contenidos de cada materia para poder aprovechar el tiempo de trabajo específico de cada disciplina. Te recomiendo organizar tu agenda de forma que identifiques qué materia corresponde a cada día y qué actividades debes realizar para cada una. Te sugiero coordinar conmigo para asegurar que comprendas los contenidos de Física de esta semana y recibir orientación sobre la organización de tu estudio.",
+      "strengths": [
+        "Completas el reporte semanal de forma responsable",
+        "Dedicas tiempo a practicar para evaluaciones de tus materias",
+        "Demuestras compromiso con tu preparación académica"
+      ],
+      "improvements": [
+        "Verifica cuidadosamente qué materia corresponde antes de completar cada reporte semanal",
+        "Organiza tu agenda diferenciando claramente Física, Química y otras materias",
+        "Asegúrate de trabajar los contenidos específicos de Física durante las horas de esta materia"
+      ],
+      "createdAt": "2025-10-09 22:34:47"
+    },
+    {
+      "feedbackId": "b7b00169-085e-4c20-8ad6-d798fe3e1fc4",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que estás trabajando en los diagramas de cuerpo libre y que comprendes el procedimiento básico de construcción. Eso es un buen punto de partida. Sin embargo, tu reporte muestra que aún no estás profundizando en lo que la Fase 2 realmente pide: identificar y clasificar variables de forma sistemática.\n\nEsta semana tu desempeño fue parcial. Completaste ejercicios prácticos, pero no reflexionaste lo suficiente sobre las variables involucradas ni sobre tus propias dificultades. Esto es importante porque en Física, antes de resolver cualquier problema, debes saber exactamente qué datos tienes, cuáles te faltan y cuáles puedes controlar.\n\nPara la próxima semana, te propongo que hagas un esfuerzo adicional: en cada diagrama de cuerpo libre que construyas, dedica 2-3 minutos a escribir una tabla clasificando las variables. Esto te ayudará a internalizar el proceso y a prepararte mejor para las fases siguientes.",
+      "strengths": "• Claridad en la descripción del procedimiento: Explicas paso a paso cómo construiste el diagrama (ubicar objeto, ejes, fuerzas), lo que muestra que comprendes el proceso mecánico de representación.\n• Conexión con aprendizajes previos: Relacionas el diagrama de cuerpo libre con la fórmula p = m·g y con el trabajo práctico anterior, evidenciando que intentas integrar conceptos.\n• Autoevaluación inicial: Te asignas una nota (3) y reconoces que estás \"entendiendo este tema\", lo que muestra cierta conciencia de tu progreso.",
+      "improvements": "• Clasificación sistemática de variables: Necesitas identificar explícitamente cuáles son las variables conocidas (100 N, 5 N, 20 kg) y cuáles desconocidas en cada problema. Crea una tabla simple: \"Conocidas | Desconocidas | Controlables | No controlables\" para cada ejercicio.\n• Reflexión profunda sobre dificultades: No puedes decir \"no tuve dificultades\" sin analizar realmente. Pregúntate: ¿Confundí alguna fuerza? ¿Me costó diferenciar peso de normal? ¿Dudé en la dirección del rozamiento? Sé específico y propón estrategias concretas para mejorar.\n• Completar la pregunta 5 con reflexión metacognitiva: Dedica tiempo a pensar por qué es importante identificar variables antes de resolver un problema. ¿Qué pasaría si no las clasificaras? ¿Cómo evolucionaste desde la Fase 1? Escribe al menos 3-4 líneas reflexivas.",
+      "createdAt": "2025-10-27T05:08:19.165Z"
+    },
+    {
+      "feedbackId": "8ef31acd-9458-4aad-bba1-5531100841ad",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa con el trabajo práctico de Dinámica, pero tu reporte no refleja el esfuerzo que probablemente invertiste. Las respuestas repetidas y genéricas no me permiten ver qué variables identificaste, qué dificultades enfrentaste o cómo estás progresando en pensamiento crítico.\n\nTu desempeño esta semana está muy por debajo de lo esperado para Fase 2. Necesitas cambiar tu enfoque: en lugar de respuestas cortas y genéricas, dedica tiempo a escribir con detalle qué aprendiste específicamente sobre clasificación de variables, qué te costó y cómo lo superaste.\n\nPara la próxima semana, te pido que hagas un reporte completo y reflexivo. Tómate 15-20 minutos para responder cada pregunta con ejemplos concretos del trabajo práctico. Esto no solo mejorará tu calificación, sino que consolidará tu comprensión de Dinámica.",
+      "strengths": "• Identificaste el tema trabajado: Al menos mencionas que trabajaron Dinámica, lo que muestra que asististe a clase y tienes conciencia del contenido general de la semana.",
+      "improvements": "• Falta especificidad en tus respuestas: Necesitas ir más allá de mencionar solo el tema. Para cada pregunta, debes escribir qué variables identificaste (por ejemplo: \"masa, aceleración, fuerza\"), cómo las clasificaste y qué aprendiste. Sin detalles concretos, no puedo evaluar tu comprensión real.\n• No reflexionas sobre tu propio aprendizaje: Las preguntas 3 y 5 te piden que pienses críticamente sobre dificultades y estrategias. Dedica tiempo a escribir: ¿Qué te costó? ¿Cómo lo resolviste? ¿Qué descubriste? Esta reflexión es fundamental para desarrollar pensamiento crítico.\n• El reporte está incompleto: Repetir la misma respuesta en Q1-Q3 y dejar Q5 en blanco sugiere que no dedicaste tiempo suficiente. Cada pregunta tiene un propósito diferente. Necesitas responder cada una con la profundidad que merece, incluso si toma más tiempo.",
+      "createdAt": "2025-11-12T23:02:14.977Z"
+    }
+  ]
+}

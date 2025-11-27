@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "studentId": "u_49vfe6x03me1c9en0",
+    "studentName": "Emilia Sarti",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.196383",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 55.33,
+      "minScore": 42.75,
+      "maxScore": 68.75,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_3me1c9en0_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 68.75,
+      "generalComments": "Querida Emilia Sarti, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Demuestras capacidad para identificar problemas específicos como el fenómeno de la bolsa inflada en la montaña y generar posibles explicaciones. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, detallando cómo aplicas el pensamiento crítico. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas un problema específico concreto y trabajas en comprenderlo sistemáticamente",
+        "Demuestras perseverancia ante las dificultades al dedicar tiempo a generar múltiples explicaciones",
+        "Reconoces la aplicabilidad del pensamiento crítico en diversas disciplinas"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje de manera más precisa",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en cada respuesta",
+        "Desarrolla estrategias más específicas para superar tus desafíos en la generación de hipótesis"
+      ],
+      "createdAt": "2025-10-07 14:05:56"
+    },
+    {
+      "feedbackId": "fb_002_2_3me1c9en0_2025-09-01_002",
+      "weekStart": "2025-09-01",
+      "score": 42.75,
+      "generalComments": "Querida Emilia Sarti, te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Química. Identificas ejercicios específicos del cuadernillo y reconoces tu dificultad con la formulación. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y comprender cuándo aplicar cada fórmula. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en problemas químicos. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Reconoces con honestidad tus dificultades en la resolución de problemas",
+        "Identificas ejercicios específicos que requieren atención (6.6 y 6.7)",
+        "Muestras claridad sobre qué aspecto te genera dificultad (selección de fórmulas)"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas mediante práctica sistemática",
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables antes de aplicar fórmulas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas con ejemplos variados",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en cada pregunta"
+      ],
+      "createdAt": "2025-10-07 14:05:56"
+    },
+    {
+      "feedbackId": "fb_002_2_3me1c9en0_2025-09-15_003",
+      "weekStart": "2025-09-15",
+      "score": 54.5,
+      "generalComments": "Querida Emilia Sarti, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Identificas con precisión tus dificultades específicas como las conversiones de unidades y la selección de fórmulas, y reconoces que estás mejorando. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas de manera más sistemática. Es importante practicar las conversiones de unidades (hPa a atm, °C a K) de forma regular para automatizarlas. Busca aplicaciones prácticas de gases ideales en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas con claridad dificultades específicas (conversiones, selección de fórmulas)",
+        "Reconoces tu progreso y mejora en aspectos que antes te costaban",
+        "Buscas apoyo cuando lo necesitas y aprovechas explicaciones para clarificar conceptos"
+      ],
+      "improvements": [
+        "Es importante practicar sistemáticamente las conversiones de unidades hasta automatizarlas",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas según el tipo de problema",
+        "Debes trabajar en mantener coherencia al manejar múltiples variables sin marearte",
+        "Busca aplicaciones prácticas de gases ideales en situaciones cotidianas para consolidar comprensión"
+      ],
+      "createdAt": "2025-10-07 14:05:57"
+    }
+  ]
+}

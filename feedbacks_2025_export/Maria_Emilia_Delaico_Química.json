@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "studentId": "u_tk1vcmquxme06mhr4",
+    "studentName": "Maria Emilia Delaico",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.217344",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 57.5,
+      "minScore": 27,
+      "maxScore": 68,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b9011ab8-6cf0-46c9-81e1-35340678b122",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "María Emilia trabaja la Fase 2 identificando correctamente las variables P, T, V, n en el problema del neumático. Muestra comprensión de cómo las variables cambian e interactúan. Aunque encuentra dificultades con conceptos nuevos, hace conexiones válidas con situaciones cotidianas como inflar globos.",
+      "strengths": [
+        "Identificación correcta de las 4 variables principales de los gases (P, T, V, n)",
+        "Aplicación práctica al caso del neumático con análisis de cambios",
+        "Conexión efectiva con situaciones cotidianas (globos, neumáticos)"
+      ],
+      "improvements": [
+        "Buscar videos introductorios sobre gases antes de leer el cuadernillo",
+        "Dividir la guía de ejercicios en sesiones más cortas y manejables",
+        "Crear un glosario personal de términos nuevos con definiciones simples"
+      ],
+      "createdAt": "2025-09-28 18:51:48"
+    },
+    {
+      "feedbackId": "2ae24cf3-bf52-405f-bbf9-269157b906bd",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "María Emilia demuestra comprensión de la Fase 3 del método, aplicando correctamente F1-F2-F3 para seleccionar la Ley de Charles. Su justificación de la herramienta elegida es clara y fundamentada. Aunque reconoce dificultades con el dominio del tema, muestra progreso metodológico.",
+      "strengths": [
+        "Excelente aplicación estructurada del método F1-F2-F3 en el problema de gases",
+        "Selección y justificación correcta de la Ley de Charles como herramienta",
+        "Identificación clara de variables conocidas e incógnitas"
+      ],
+      "improvements": [
+        "Buscar recursos para verificar respuestas (solucionarios, videos explicativos)",
+        "Conectar las leyes de gases con fenómenos cotidianos (inflado de globos, neumáticos)",
+        "Aumentar la confianza mediante práctica adicional con retroalimentación"
+      ],
+      "createdAt": "2025-09-28 18:50:24"
+    },
+    {
+      "feedbackId": "8d9d1405-5adf-4570-bc4d-9e4a8ddb5c69",
+      "weekStart": "2025-08-25",
+      "score": 67,
+      "generalComments": "María Emilia demuestra comprensión del método de las 4 fases aplicado a gases ideales. Aunque reconoce dificultades por la pérdida de clases, logra ejecutar un problema completo mostrando dominio del proceso de resolución sistemática con conversiones correctas de unidades.",
+      "strengths": [
+        "Excelente aplicación del método completo F1-F2-F3-F4 en el problema de gases",
+        "Cálculos precisos con conversiones correctas de unidades (mmHg a atm, °C a K)",
+        "Identificación clara de variables conocidas y desconocidas en el problema"
+      ],
+      "improvements": [
+        "Dedicar tiempo adicional para reforzar la teoría de gases ideales",
+        "Desarrollar estrategias de estudio independiente cuando se pierden clases",
+        "Conectar los conceptos de gases con aplicaciones cotidianas más concretas"
+      ],
+      "createdAt": "2025-09-28 18:29:40"
+    },
+    {
+      "feedbackId": "d7219bf0-84c6-41ec-a563-9f13e4aac436",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa, pero tu reporte requiere mucho más esfuerzo y dedicación. Completar todas las preguntas con la misma respuesta genérica no refleja el trabajo que probablemente hiciste en clase, y no nos permite evaluar realmente qué aprendiste sobre identificación de variables.\n\nTu desempeño esta semana es insuficiente porque no hay evidencia de aprendizaje específico. Necesitamos ver detalles: qué variables identificaste, cómo las clasificaste, qué dificultades enfrentaste y cómo las resolviste.\n\nPara la próxima semana, te pido que dediques 15-20 minutos a completar el reporte con honestidad y detalle. Describe problemas específicos que trabajaste, lista variables concretas y reflexiona sobre tu propio aprendizaje. Esto es fundamental para tu progreso en pensamiento crítico.",
+      "strengths": "Lamentablemente, tu reporte no presenta fortalezas identificables. Las respuestas son demasiado genéricas y repetidas para reconocer trabajo específico o comprensión real de los contenidos.",
+      "improvements": "• Falta de especificidad en las respuestas: Escribiste la misma frase en 4 preguntas diferentes. Cada pregunta requiere una respuesta única y detallada. Por ejemplo, en Q1 deberías listar: \"Variables conocidas: temperatura, presión. Variables desconocidas: velocidad de reacción. Variables controlables: concentración...\"\n• Ausencia de ejemplos concretos: No mencionas ningún problema, experimento o situación que trabajaste. Necesitas ser específico: \"En el problema de la reacción de combustión, identifiqué que la temperatura es controlable y el tiempo de reacción es la variable dependiente...\"\n• Falta de reflexión personal: No hay evidencia de que hayas pensado en lo que aprendiste, qué te costó o cómo lo superaste. Dedica tiempo a escribir: \"Me resultó difícil diferenciar entre variables controlables y no controlables, pero ahora entiendo que...\"",
+      "createdAt": "2025-11-17T13:47:25.839Z"
+    }
+  ]
+}

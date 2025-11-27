@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "studentId": "u_ppoee7dwpme2xaxbm",
+    "studentName": "Ignacio Ortiz Gagliano",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.204522",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 59.22,
+      "minScore": 34,
+      "maxScore": 75,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "266cc9e5-a3a6-478b-860f-14986a48c356",
+      "weekStart": "2025-08-04",
+      "score": 67,
+      "generalComments": "Tu reporte sobre pensamiento crítico muestra un inicio en la comprensión del tema. Identificaste correctamente el ejercicio de los 2 estudiantes y su objetivo (reconocer quién usa PC), y estableciste una conexión reflexiva con psicología y tutoría relacionada con el futuro. Sin embargo, el reporte necesita mayor desarrollo: no especificaste tu nivel de dominio en Q1, no mostraste tu respuesta al ejercicio en Q2, y Q3 es muy breve sin identificar dificultades específicas. El score de 67 refleja comprensión inicial que requiere profundización.",
+      "strengths": [
+        "Identificación clara del ejercicio en Q2: objetivo de reconocer quién usa pensamiento crítico entre 2 estudiantes",
+        "Conexión reflexiva en Q4: relación con psicología y tutoría enfocada en pensar el futuro",
+        "Comprensión general del tema según Q3 (todos los temas del cuadernillo)",
+        "Respuestas coherentes y bien redactadas en las secciones desarrolladas"
+      ],
+      "improvements": [
+        "Especificar nivel de dominio en Q1: indicar si te considerás nivel 1, 2, 3 o 4 y justificar por qué",
+        "Desarrollar Q2 completamente: explicar cuál estudiante usa PC y POR QUÉ (qué características de PC identificaste en su frase)",
+        "Ampliar Q3: identificar al menos una dificultad específica y la estrategia que usaste para superarla",
+        "En Q4: agregar más ejemplos de aplicación del PC en tu vida cotidiana o estudios",
+        "Aprovechar Q5 para reflexiones, dudas o comentarios sobre el proceso de aprendizaje del PC"
+      ],
+      "createdAt": "2025-10-01 14:22:18"
+    },
+    {
+      "feedbackId": "b6210a04-d657-457a-acf7-d4f7aae022a8",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Este reporte muestra una mejora notable (67→75). Desarrollaste mucho más Q1, incluyendo escalas de dificultad (2/5, 3/5) que reflejan autoevaluación precisa. Identificaste correctamente el tema central (variables y situaciones reales) de Fase 2. Tu conexión en Q4 con análisis de textos es excelente: reconocer que los enunciados requieren lectura cuidadosa sin saltarse detalles es una habilidad metacognitiva valiosa. La dificultad que mencionas (memorización de conceptos largos) es válida y muestra consciencia de tu proceso de aprendizaje.",
+      "strengths": [
+        "Mejora significativa: desarrollo extenso en Q1 (590 caracteres vs. 128 en reporte anterior)",
+        "Autoevaluación con escalas específicas (2/5, 3/5) mostrando reflexión precisa sobre dominio",
+        "Conexión excelente en Q4: análisis de textos y lectura cuidadosa de enunciados sin saltarse detalles",
+        "Reconocimiento honesto de dificultad real: memorización de conceptos extensos",
+        "Identificación correcta del ejercicio de Ana y análisis sistemático"
+      ],
+      "improvements": [
+        "Desarrollar Q2 completamente: mostrar cómo ayudaste a Ana con los pasos de la guía (qué variables identificaste, qué categorías usaste)",
+        "En Q3: desarrollar estrategia específica para manejar conceptos largos (resúmenes, esquemas, mapas conceptuales)",
+        "Ampliar Q4: dar ejemplo concreto de un detalle clave del enunciado que no debías saltarte",
+        "Aprovechar Q5 para reflexionar sobre tu mejora (67→75) y qué cambió en tu enfoque",
+        "Mantener el nivel de desarrollo que lograste en Q1 para todas las preguntas"
+      ],
+      "createdAt": "2025-10-01 14:23:38"
+    },
+    {
+      "feedbackId": "5f4caea2-b76a-4c92-9d61-048351aaf0ac",
+      "weekStart": "2025-08-18",
+      "score": 63,
+      "generalComments": "Tu reporte muestra avances importantes en la comprensión estructural de cinemática. La conexión que haces entre MRUV y tiro oblicuo (misma fórmula, distintas letras) demuestra pensamiento analógico valioso. Sin embargo, tu autoevaluación de 5/10 refleja dificultades reales: no pudiste completar el ejercicio de posición y te cuesta familiarizarte con las fórmulas nuevas. El desafío central es pasar de identificar similitudes conceptuales a aplicar las herramientas matemáticas correctamente en ejercicios concretos.",
+      "strengths": [
+        "Conexión estructural explícita: Identificas que tiro oblicuo usa las mismas fórmulas que MRUV pero con distintas letras, mostrando comprensión de la continuidad conceptual en cinemática",
+        "Autoevaluación realista (5/10) que reconoce tanto la familiaridad parcial con los conceptos como las dificultades con fórmulas nuevas",
+        "Especificidad en evidencia: Mencionas el ejercicio 1 de posición, indicando que intentaste trabajar con problemas concretos aunque no los completaste"
+      ],
+      "improvements": [
+        "Completa los ejercicios aunque no te salgan: Mostrar el proceso hasta donde llegaste (datos, incógnitas, fórmulas que intentaste) permite diagnosticar dónde se traba tu razonamiento",
+        "Desglosa qué significa ecuación nueva: ¿Es la fórmula de alcance? ¿La ecuación de trayectoria y=f(x)? Especificar te ayudará a pedir apoyo más efectivo",
+        "Aprovecha tu comprensión estructural: Si ya entiendes que son las mismas fórmulas que MRUV, practica ejercicios de tiro oblicuo identificando explícitamente qué fórmula de MRUV estás usando (ejemplo: y=y₀+v₀t+½at² → altura en tiro oblicuo)"
+      ],
+      "createdAt": "2025-10-01 14:26:59"
+    },
+    {
+      "feedbackId": "65385c11-b580-4b4b-bd5f-716ac8643eb7",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Tu reporte muestra un avance significativo en tu desempeño: resolviste exitosamente un ejercicio de verificación (flecha/blanco) llegando al resultado correcto, y tu autoevaluación sube a 6/10 reconociendo que no fue tan difícil como esperabas. Esto indica que tu percepción de dificultad está comenzando a calibrarse con tu capacidad real. Mantenes la conexión conceptual con MRU/MRUV que viene desde reportes anteriores. El obstáculo que identificas (fórmulas nuevas) es específico y trabajable, aunque aún no describes estrategias concretas para superarlo.",
+      "strengths": [
+        "Ejecución completa con verificación: Resolviste el ejercicio de la flecha y el blanco, determinando correctamente que no da en el blanco, demostrando capacidad de Fase 4 (metodología completa)",
+        "Recalibración de expectativas: Tu autoevaluación de 6/10 junto con la observación de que no fue tan difícil como esperabas muestra ajuste entre autopercepción y desempeño real",
+        "Persistencia en conexiones conceptuales: Identificas relación con MRU y MRUV (fórmulas parecidas), demostrando comprensión de la continuidad en cinemática"
+      ],
+      "improvements": [
+        "Detalla tu proceso de resolución: Cuando dices que la flecha no da en el blanco, explica cómo llegaste a esa conclusión. ¿Calculaste la altura alcanzada? ¿Comparaste con la altura del blanco? Mostrar el razonamiento permite verificar comprensión",
+        "Especifica qué fórmulas nuevas te cuestan: ¿Es la ecuación de trayectoria? ¿La fórmula de alcance? ¿Las componentes de velocidad? Identificar exactamente qué te resulta difícil te ayudará a pedir apoyo específico",
+        "Capitaliza tu reconocimiento de necesidad de refuerzo: Ya identificaste que necesitas consolidar contenidos. Define qué aspectos específicos requieren práctica adicional y crea un plan de ejercitación"
+      ],
+      "createdAt": "2025-10-01 14:39:00"
+    },
+    {
+      "feedbackId": "4e87fdc3-1be9-46fc-b618-facaa88a4ab6",
+      "weekStart": "2025-09-01",
+      "score": 67,
+      "generalComments": "Tu reporte muestra continuidad en la comprensión estructural de cinemática (mantenes la conexión con MRUV) y evidencia de trabajo concreto: completaste un ejercicio calculando el ángulo de lanzamiento. Sin embargo, tus respuestas extremadamente sintéticas (promedio 97 caracteres por pregunta) no reflejan el proceso de razonamiento que usaste. Identificas una dificultad específica (el cuadro del pizarrón) pero no explicas qué aspecto te resultó confuso ni cómo intentaste superarlo. El desafío es transformar tu comprensión implícita en explicaciones explícitas que demuestren tu pensamiento.",
+      "strengths": [
+        "Evidencia concreta de ejecución: Completaste un ejercicio calculando el ángulo de lanzamiento, demostrando que podés resolver problemas de Fase 4 (metodología completa)",
+        "Persistencia en conexiones conceptuales: Por tercer reporte consecutivo, identificas la relación entre MRUV y tiro oblicuo (misma fórmula, diferentes letras)",
+        "Especificidad en dificultades: Identificas exactamente qué recurso didáctico te genera confusión (el cuadro del pizarrón), lo que permite apoyo focalizado"
+      ],
+      "improvements": [
+        "Desarrolla tu proceso en Q2: No basta decir que calculaste el ángulo. Describe: ¿Qué datos tenías? ¿Qué fórmula usaste? ¿Despejaste correctamente? Mostrar el razonamiento permite verificar tu comprensión",
+        "Explica tu dificultad con el cuadro: ¿No entendías qué representaban las columnas? ¿Te costaba trasladar del cuadro a las ecuaciones? ¿No sabías cuándo usar cada fila? Especificar te permitirá recibir apoyo efectivo",
+        "Amplia tus respuestas: Tus respuestas (promedio 97 chars) son insuficientes para evaluar pensamiento crítico. Apunta a 200-300 caracteres por pregunta desarrollando el proceso, no solo el resultado"
+      ],
+      "createdAt": "2025-10-01 14:30:40"
+    },
+    {
+      "feedbackId": "6011d944-3201-4025-baa9-5f9b71b06599",
+      "weekStart": "2025-09-08",
+      "score": 56,
+      "generalComments": "Tu reporte refleja un momento crítico de aprendizaje: enfrentado a modelos de examen, tu autoevaluación de 5/10 y la declaración explícita de no poder resolver ejercicios muestran honestidad sobre tu nivel actual. Identificas correctamente que tu estrategia de aprendizaje depende de ver explicaciones en el pizarrón, pero esto revela una brecha importante: aún no has desarrollado autonomía para resolver problemas por tu cuenta aplicando los procedimientos trabajados en clase. Mantener la conexión con MRUV (cuarto reporte consecutivo) demuestra comprensión conceptual, pero necesitas transformarla en capacidad de ejecución independiente.",
+      "strengths": [
+        "Honestidad metacognitiva: Reconoces explícitamente que no lograste resolver el ejercicio y que dependes de explicaciones en pizarrón, mostrando autoconocimiento sobre tu proceso de aprendizaje",
+        "Identificación del obstáculo inicial: Señalas que la dificultad comienza al obtener la información necesaria para empezar, lo que indica consciencia del primer paso fallido en tu metodología",
+        "Persistencia en conexiones conceptuales: Cuarto reporte consecutivo identificando la relación MRUV - tiro oblicuo, demostrando comprensión de la estructura subyacente"
+      ],
+      "improvements": [
+        "Documenta tus intentos fallidos: Aunque no llegues al resultado, muestra qué pasos intentaste. Ejemplo: Datos que identificaste, fórmula que probaste usar, punto donde te trabaste. Esto permite diagnosticar exactamente dónde necesitas apoyo",
+        "Especifica qué procedimientos no podes seguir: ¿Te cuesta identificar qué fórmula usar? ¿Despejar correctamente? ¿Interpretar el resultado? Desglosar la dificultad te dará acciones concretas para practicar",
+        "Desarrolla autonomía antes del examen: No esperes a la explicación en pizarrón. Intenta resolver con los apuntes, compara con ejercicios ya resueltos, marca exactamente dónde te trabas. La autonomía se construye en el intento, no en la observación"
+      ],
+      "createdAt": "2025-10-01 14:32:52"
+    },
+    {
+      "feedbackId": "b8ce0954-c99f-4395-800b-7a866b9778cc",
+      "weekStart": "2025-09-22",
+      "score": 67,
+      "generalComments": "Tu último reporte del trimestre muestra un avance fundamental: pasaste de declarar que no podías resolver ejercicios (reporte anterior) a resolver el modelo de examen completo y comparar tus resultados con las correcciones. Esto demuestra desarrollo de autonomía y autorregulación. Tu análisis de dificultades es más específico que en reportes previos: identificas exactamente que te cuesta plantear ejercicios y elegir fórmulas, y haces una comparación metacognitiva con química que evidencia pensamiento crítico. Sin embargo, tu autoevaluación persistente de 5/10 sugiere que tu percepción de dificultad no refleja tu capacidad real de ejecución.",
+      "strengths": [
+        "Ejecución autónoma exitosa: Resolviste el modelo de examen completo y comparaste con correcciones, demostrando que superaste la dependencia de explicaciones en pizarrón mencionada en reportes anteriores",
+        "Análisis de errores específico: Identificas dos obstáculos concretos (plantear ejercicios + identificar fórmulas), lo que permite trabajo focalizado en estas habilidades",
+        "Metacognición comparativa: Comparas tu desempeño en física vs química, mostrando capacidad de autoevaluación relativa que ayuda a identificar áreas de mayor necesidad de apoyo"
+      ],
+      "improvements": [
+        "Documenta tu proceso de comparación: Cuando comparas tus resultados con las correcciones, anota qué errores encontraste. ¿Te equivocaste en el planteo? ¿En la fórmula? ¿En el cálculo? Esto convierte la corrección en aprendizaje específico",
+        "Especifica la similitud con química: Decir que tienen cierta similitud es vago. ¿Ambos usan ecuaciones de segundo grado? ¿Tienen estructura de problema similar? ¿Aplican el mismo razonamiento? Detallar la conexión profundiza tu comprensión",
+        "Recalibra tu autoevaluación: Tu score de 67 puntos (Nivel 3) con capacidad de resolver modelos de examen completos contradice tu autoevaluación de 5/10. Reconocer tus logros reales te ayudará a construir confianza y seguir avanzando"
+      ],
+      "createdAt": "2025-10-01 14:34:48"
+    },
+    {
+      "feedbackId": "49fc8f84-7b94-47bb-baea-86f6ee21355a",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que tu grupo está entusiasmado con el proyecto del auto a propulsión, y eso es excelente. Sin embargo, este reporte muestra que aún no has iniciado el trabajo de análisis de variables que caracteriza la Fase 2. Elegir un proyecto desafiante es un buen comienzo, pero necesitas profundizar en la identificación y clasificación de las variables físicas involucradas.\n\nTu desempeño esta semana es inicial. No hay evidencia de que hayas aplicado lo aprendido en Fase 1 (definición del problema) ni iniciado Fase 2 (identificación de variables). Esto es preocupante porque ambas fases son la base para resolver problemas científicos correctamente.\n\nPara la próxima semana, te pido que hagas un análisis detallado de tu proyecto: lista todas las variables que afectan al auto a propulsión, clasifícalas, e identifica cuáles puedes controlar en tu experimento. Esto debe estar documentado en tu reporte con ejemplos concretos.",
+      "strengths": "• Claridad en la decisión del proyecto: Tu grupo eligió un proyecto desafiante (auto a propulsión) y lo justificaste mencionando que \"nos gusta los desafíos\". Esto muestra motivación y pensamiento estratégico en la selección.\n• Conexión con experiencias previas: Reconoces la relación entre el proyecto actual y el paracaídas anterior, demostrando que intentas vincular aprendizajes de diferentes actividades.",
+      "improvements": "• Identificación sistemática de variables en tu proyecto: Necesitas hacer un análisis concreto del auto a propulsión. Pregúntate: ¿Qué variables controlas (ángulo de lanzamiento, peso del auto)? ¿Cuáles no controlas (fricción del aire, irregularidades del terreno)? Haz una lista completa en tu próximo reporte.\n• Evidencia de trabajo en ejercicios: Reportas \"no resolvimos ningún ejercicio\", pero la Fase 2 requiere práctica. Dedica tiempo a resolver al menos 2-3 problemas donde identifiques y clasifiques variables. Esto es fundamental para demostrar aprendizaje.\n• Reflexión profunda sobre dificultades: En lugar de decir \"no me costó nada\", sé honesto sobre qué te desafía. ¿Te cuesta diferenciar variables controlables de no controlables? ¿Identificar magnitudes físicas? Reconocer dificultades es el primer paso para superarlas.",
+      "createdAt": "2025-11-12T22:54:26.209Z"
+    },
+    {
+      "feedbackId": "06baa04c-33fa-43e6-940f-846bd88a0c26",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que estás trabajando activamente en tu proyecto de vehículo propulsado y que tienes avances concretos. Sin embargo, tu reporte no refleja el aprendizaje de Fase 2 sobre identificación y clasificación de variables. Las respuestas son muy breves y generales, sin mostrar el análisis sistemático que caracteriza el pensamiento crítico en ciencias.\n\nEsta semana necesitas cambiar tu enfoque: no se trata solo de terminar el proyecto, sino de documentar qué variables identificaste, cómo las clasificaste y por qué son importantes. Esto es lo que realmente evalúa Fase 2. Tu próximo reporte debe incluir listas específicas de variables, no descripciones generales del trabajo.\n\nTe animo a que en la próxima semana dediques tiempo a escribir respuestas más detalladas. Usa ejemplos concretos de tu proyecto y reflexiona sobre lo que aprendiste. Esto mejorará significativamente tu desempeño.",
+      "strengths": "• Trabajo colaborativo: Mencionas que trabajas en grupo (\"estuve con mi grupo\"), lo que muestra disposición para el aprendizaje colaborativo, fundamental en proyectos de ciencias.\n• Conexión entre proyectos: Identificas que el proyecto actual se relaciona con experiencias previas (paracaídas del huevo), demostrando que intentas vincular aprendizajes.\n• Proyecto en avance: Tienes el vehículo propulsado casi listo, lo que indica que estás cumpliendo con las entregas y avanzando en la construcción práctica.",
+      "improvements": "• Identificación explícita de variables: Necesitas listar las variables específicas de tu proyecto. Por ejemplo: ¿Cuál es la presión del aire? ¿La masa del vehículo? ¿La distancia a recorrer? Crea una tabla simple con columnas: Variable | Valor conocido | Controlable sí/no.\n• Análisis sistemático en tus respuestas: Tus respuestas son muy cortas y generales. Desarrolla cada pregunta con ejemplos concretos. En lugar de \"resolvimos cómo hacer avanzar el vehículo\", escribe: \"Identificamos que la presión del aire (variable controlable) y la masa del vehículo (variable conocida) son clave para la velocidad.\"\n• Reflexión sobre dificultades reales: Decir que \"no hay temas difíciles\" no es realista. Identifica un desafío genuino: ¿Cómo diferenciaste entre variables controlables y no controlables? ¿Qué magnitudes físicas te costó clasificar? Esto muestra pensamiento crítico real.",
+      "createdAt": "2025-11-17T13:48:51.842Z"
+    }
+  ]
+}

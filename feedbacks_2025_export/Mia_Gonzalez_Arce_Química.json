@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "u_axwjy36zgme06m4sr",
+    "studentName": "Mia Gonzalez Arce",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.225391",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 62.33,
+      "minScore": 61,
+      "maxScore": 65,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "402dd050a350740981fefa1f67e14f6e",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Mia muestra progreso al trabajar con mezclas de gases, un tema más complejo. El problema del anestesiólogo demuestra excelente identificación de variables múltiples y comprensión de porcentajes en mezclas. La dificultad con los modelos de examen es comprensible dado el salto de complejidad.",
+      "strengths": [
+        "Excelente manejo de problemas complejos con mezclas de gases y porcentajes",
+        "Identificación precisa de todas las variables en un contexto médico real",
+        "Reconocimiento honesto de la diferencia de dificultad entre clase y examen"
+      ],
+      "improvements": [
+        "Practicar gradualmente problemas de complejidad intermedia antes del examen",
+        "Conectar los problemas de gases con aplicaciones médicas como el ejemplo del anestesiólogo",
+        "Desarrollar estrategias para descomponer problemas complejos en pasos simples"
+      ],
+      "createdAt": "2025-09-29 10:12:17"
+    },
+    {
+      "feedbackId": "fbc4e6e2cddbe15f9806f14d937d50fd",
+      "weekStart": "2025-09-15",
+      "score": 61,
+      "generalComments": "Mia continúa demostrando buen manejo de gases ideales, ahora enfocándose en la identificación de variables (presión, volumen, temperatura). El problema presentado muestra comprensión de las relaciones entre variables, aunque necesita fortalecer la resolución completa.",
+      "strengths": [
+        "Identificación clara de todas las variables del problema (P, V, T)",
+        "Planteamiento correcto de relaciones proporcionales entre variables",
+        "Consistencia en el nivel de dominio del tema"
+      ],
+      "improvements": [
+        "Practicar la resolución completa de modelos de examen con tiempo limitado",
+        "Establecer conexiones con aplicaciones prácticas de gases en la vida diaria",
+        "Desarrollar estrategias para enfrentar problemas complejos"
+      ],
+      "createdAt": "2025-09-29 10:11:11"
+    },
+    {
+      "feedbackId": "f463447a01b9f313e6463befa86e44af",
+      "weekStart": "2025-09-22",
+      "score": 61,
+      "generalComments": "Mia demuestra buen manejo del tema de gases ideales, presentando un problema completo con todas las variables necesarias. Si bien identifica correctamente la dificultad principal (selección de ecuaciones), necesita desarrollar estrategias sistemáticas para elegir las herramientas matemáticas apropiadas.",
+      "strengths": [
+        "Comprensión clara del problema de gases con variables de presión, volumen y temperatura",
+        "Identificación precisa de la dificultad principal en la selección de ecuaciones",
+        "Presentación organizada del problema con datos completos"
+      ],
+      "improvements": [
+        "Desarrollar un método sistemático para identificar qué ecuación usar según las variables",
+        "Establecer conexiones entre los gases ideales y situaciones cotidianas o aplicaciones prácticas",
+        "Incluir reflexiones sobre el proceso de resolución y verificación de resultados"
+      ],
+      "createdAt": "2025-09-29 10:09:55"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "studentId": "u_g54zele3lme24zmre",
+    "studentName": "Nicolás Cartasegna",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.228760",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 52.08,
+      "minScore": 27,
+      "maxScore": 69,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-04_a7f9c2d1",
+      "weekStart": "2025-08-04",
+      "score": 69,
+      "generalComments": "Nicolás demuestra una comprensión inicial del pensamiento crítico aplicado a problemas de física. Identifica correctamente el objetivo de analizar situaciones sistemáticamente y presenta un ejemplo concreto del proceso de identificación de problemas. Su autorreflexión sobre las dificultades es honesta y valiosa, reconociendo que necesita fortalecer su base teórica en termodinámica. Aunque aún no logra establecer conexiones profundas con otros contextos, muestra disposición para el aprendizaje y conciencia de sus áreas de mejora.",
+      "strengths": [
+        "Presenta un ejemplo específico y detallado de aplicación del paso 1 (identificación del objetivo principal en sistemas termodinámicos)",
+        "Reconoce con honestidad sus dificultades y propone estrategias concretas como estudiar más el teórico y practicar ejercicios",
+        "Demuestra comprensión de que el pensamiento crítico requiere análisis sistemático de transferencias de energía entre sistemas"
+      ],
+      "improvements": [
+        "Desarrollar conexiones más profundas entre el pensamiento crítico y situaciones cotidianas o aplicaciones reales de la termodinámica",
+        "Profundizar en la identificación de información relevante versus irrelevante en problemas complejos",
+        "Ampliar los comentarios adicionales para reflejar sobre el proceso de aprendizaje y establecer objetivos específicos para la siguiente fase"
+      ],
+      "createdAt": "2025-01-10T00:00:01Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-11_b8e3d4f2",
+      "weekStart": "2025-08-11",
+      "score": 59,
+      "generalComments": "Nicolás muestra progreso en la comprensión de conceptos fundamentales de termodinámica, específicamente la primera ley. Su autoevaluación como 'Nivel 1' es honesta y demuestra capacidad de reflexión sobre su propio aprendizaje. Presenta correctamente la ecuación ΔU = Q - W y explica el principio de conservación de energía. Sin embargo, aún enfrenta dificultades significativas para identificar y clasificar variables en problemas, y no logra establecer conexiones con otros contextos, lo cual es crítico para la Fase 2. Su plan de trabajo mencionando las fases 1 y 2 indica comprensión del proceso metodológico.",
+      "strengths": [
+        "Explica correctamente la primera ley de la termodinámica y el concepto de conservación de energía con la fórmula ΔU = Q - W",
+        "Demuestra honestidad y capacidad de autoevaluación al reconocer que está en Nivel 1",
+        "Identifica con precisión su dificultad principal: el uso y entendimiento de variables en las ecuaciones"
+      ],
+      "improvements": [
+        "Practicar la clasificación de variables (conocidas/desconocidas, controlables/no controlables) en múltiples ejercicios de termodinámica",
+        "Desarrollar estrategias específicas para relacionar variables con ecuaciones, por ejemplo, crear tablas de correspondencia",
+        "Trabajar en establecer conexiones entre la termodinámica y fenómenos cotidianos o experiencias previas para mejorar la comprensión contextual",
+        "Ampliar la sección de comentarios adicionales para reflexionar sobre el progreso y establecer objetivos concretos semanales"
+      ],
+      "createdAt": "2025-01-10T00:00:02Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-18_c9f4e5a3",
+      "weekStart": "2025-08-18",
+      "score": 63,
+      "generalComments": "Nicolás muestra avances claros en la identificación de variables necesarias para resolver problemas de termodinámica. Su respuesta en Q2 demuestra aplicación correcta de la Fase 1 al identificar con precisión el problema principal (calcular el tiempo de calentamiento). Reconoce con honestidad sus dificultades con el principio de Le Chatelier y la aplicación de fórmulas, lo cual es un paso importante para mejorar. Sin embargo, persiste la dificultad para establecer conexiones con otros contextos o aplicaciones prácticas, lo que limita la profundidad de su comprensión. Se observa progreso respecto a reportes anteriores en la claridad de identificación del problema.",
+      "strengths": [
+        "Identifica correctamente el problema principal en Q2: calcular el tiempo necesario para calentar agua con potencia constante",
+        "Reconoce con precisión las variables necesarias (masa, temperatura, potencia) para resolver ejercicios de calorimetría",
+        "Demuestra honestidad al especificar áreas concretas de mejora: Le Chatelier y aplicación de fórmulas correctas"
+      ],
+      "improvements": [
+        "Desarrollar estrategias sistemáticas para seleccionar las fórmulas correctas según el tipo de problema (crear un diagrama de decisión o tabla de referencia)",
+        "Profundizar en el estudio del principio de Le Chatelier con ejemplos variados y ejercicios de aplicación",
+        "Trabajar en establecer conexiones entre los conceptos de termodinámica y fenómenos cotidianos (cocción de alimentos, climatización, etc.)",
+        "Utilizar la sección de comentarios adicionales para reflexionar sobre el proceso de aprendizaje y registrar insights o preguntas que surjan durante la semana"
+      ],
+      "createdAt": "2025-01-10T00:00:03Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-15_d0a5f6b4",
+      "weekStart": "2025-09-15",
+      "score": 63,
+      "generalComments": "Nicolás presenta un salto cualitativo importante en Q2 al resolver completamente un problema de calorimetría con todos los cálculos numéricos, conversiones de unidades y verificación dimensional. La resolución del problema del termotanque es excelente: identifica la masa (85 kg), usa correctamente el calor específico del agua (4186 J/kg°C), calcula la energía necesaria (16,029,030 J) y obtiene el tiempo final (134 minutos). Este nivel de ejecución indica dominio de Fase 4. Sin embargo, persiste una desconexión entre la capacidad técnica demostrada en cálculos y la capacidad de reflexión/conexión en Q3 y Q4, lo que sugiere que el desarrollo metodológico es irregular. La autoevaluación 'Nivel 2' es modesta considerando la calidad de la resolución presentada.",
+      "strengths": [
+        "Resolución matemática completa y precisa del problema del termotanque eléctrico, con todos los pasos explícitos desde Q = m·c·ΔT hasta el resultado final de 134 minutos",
+        "Manejo correcto de conversiones de unidades (litros a kg, joules a segundos, segundos a minutos) y uso apropiado de calor específico del agua",
+        "Demuestra honestidad en la autoevaluación y reconoce que comprende el análisis aunque necesita más práctica"
+      ],
+      "improvements": [
+        "Desarrollar mayor confianza en las propias capacidades: la resolución presentada es de nivel avanzado, no de Nivel 2",
+        "Practicar el análisis previo a la ejecución: antes de calcular, identificar explícitamente el plan de resolución para fortalecer la planificación estratégica",
+        "Trabajar intensivamente en establecer conexiones con aplicaciones reales (termotanques caseros, calefacción, ahorro energético, etc.)",
+        "Reflexionar más profundamente en comentarios adicionales sobre qué aprendió del ejercicio y cómo puede aplicarlo a otros problemas"
+      ],
+      "createdAt": "2025-01-10T00:00:04Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-22_e1b6g7c5",
+      "weekStart": "2025-09-22",
+      "score": 63,
+      "generalComments": "Nicolás presenta una resolución ejemplar del problema del martillo y la pieza de acero, aplicando explícitamente las cuatro fases del pensamiento crítico de manera integrada. Su respuesta en Q2 es sobresaliente: identifica el objetivo (calcular ΔT y temperatura final), lista todas las variables conocidas y desconocidas con sus unidades, justifica la selección de ecuaciones basándose en conservación de energía y calor sensible, y ejecuta los cálculos sistemáticamente hasta obtener T_f ≈ 26.94°C. La estructura FASE 1→FASE 2→FASE 3→FASE 4 demuestra internalización completa de la metodología. Sin embargo, la dificultad persistente para establecer conexiones (Q4) y la ausencia de comentarios adicionales (Q5) limitan el score final, ya que estas dimensiones reflexivas son cruciales para la metacognición.",
+      "strengths": [
+        "Integración perfecta de las 4 fases del pensamiento crítico con etiquetado explícito (FASE 1, 2, 3, 4) en la resolución del problema",
+        "Ejecución matemática impecable: calcula E_potencial = 196,200 J, E_útil = 137,340 J (70%), convierte a calorías (32,809.36 cal) y obtiene ΔT ≈ 1.94°C con temperatura final de 26.94°C",
+        "Justificación clara de herramientas seleccionadas basándose en principios físicos (conservación de energía y definición de calor sensible)",
+        "Clasificación completa y correcta de variables: conocidas (m_h, h, η, m_p, c, T_i, g, conversión cal-J) y desconocidas (Q, ΔT, T_f)"
+      ],
+      "improvements": [
+        "Desarrollar la capacidad de conexión con aplicaciones reales: este problema se relaciona con forjado industrial, tratamientos térmicos de metales, seguridad laboral en talleres mecánicos, etc.",
+        "Profundizar el análisis metacognitivo en Q3: además de identificar la dificultad, explicar qué estrategia específica usó o usará para superarla",
+        "Utilizar la sección Q5 (comentarios adicionales) para reflexionar sobre el proceso completo: qué fue lo más desafiante, qué aprendió, qué pregunta nueva surgió",
+        "Practicar la evaluación de razonabilidad de resultados: ¿1.94°C de aumento es coherente con la energía de un martillo de 2.5 toneladas cayendo 8 metros? Desarrollar esta verificación cualitativa"
+      ],
+      "createdAt": "2025-01-10T00:00:05Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-29_ad28d89e",
+      "weekStart": "2025-09-29",
+      "score": 63,
+      "generalComments": "Hola Nicolás, estás trabajando en la Fase 4: Estrategia y ejecución completa con un desempeño en desarrollo. Tu reporte de termodinámica muestra una comprensión sólida de los conceptos fundamentales y la aplicación de fórmulas, especialmente en el cálculo del tiempo de calentamiento del termotanque. Sin embargo, hay áreas que requieren atención para consolidar tu aprendizaje.",
+      "strengths": [
+        "Excelente desarrollo del problema del termotanque con cálculos detallados y correctos",
+        "Identificación clara de tu nivel de comprensión en la autoevaluación",
+        "Buena aplicación de la fórmula Q = m·c·ΔT y conversión de unidades",
+        "Presentación ordenada del procedimiento de resolución"
+      ],
+      "improvements": [
+        "Fortalecer la autorregulación: definir estrategias concretas de estudio y práctica",
+        "Mejorar la metacognición: reflexionar más profundamente sobre qué conceptos específicos necesitas reforzar (ej: calor latente)",
+        "Conectar los aprendizajes con aplicaciones prácticas y cotidianas",
+        "Completar todas las preguntas del reporte, especialmente la reflexión final"
+      ],
+      "createdAt": "2025-10-05T03:25:00.000Z"
+    },
+    {
+      "feedbackId": "de0cd4d3-b500-4922-b4d8-aba416338c14",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:52.620Z"
+    },
+    {
+      "feedbackId": "0a4d7e59-5a46-4dfb-b4b6-18fc00506ef1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:11:03.584Z"
+    },
+    {
+      "feedbackId": "a8e0d053-1732-4526-9bbd-41c0b23af0f4",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:03.633Z"
+    },
+    {
+      "feedbackId": "ed0cc1af-ff60-462e-af19-c91b2c278df2",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:45:29.110Z"
+    },
+    {
+      "feedbackId": "3a08c35f-86e7-48b5-9ed6-952d22b07977",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que estás comenzando en Electrodinámica y que resolviste correctamente un ejercicio de Ley de Ohm. Eso es un buen punto de partida. Sin embargo, tu reporte es muy breve y no refleja el trabajo sistemático que espero en Fase 2.\n\nEl desafío ahora es que no solo resuelvas problemas, sino que analices qué variables intervienen en cada uno. Necesito que identifiques, clasifiques y reflexiones sobre ellas. Tus respuestas a Q3, Q4 y Q5 sugieren que aún no estás profundizando en el proceso de pensamiento crítico.\n\nPara la próxima semana, te pido que: (1) en cada ejercicio, listes explícitamente las variables conocidas y desconocidas; (2) reflexiones sobre al menos una dificultad real que enfrentes; (3) conectes lo que aprendes con ejemplos de tu vida cotidiana. Esto transformará tu aprendizaje.",
+      "strengths": "• Cálculo correcto aplicado: Resolviste correctamente el problema de Ley de Ohm, convirtiendo 400 mA a 0,4 A y calculando R = 37,5 Ω. Esto muestra que comprendes la operatoria básica y puedes aplicar fórmulas.\n• Honestidad en el reporte: Reconoces que estás en nivel introductorio (\"Nivel 1\") y que el trabajo es de ejercicios simples. Esta sinceridad es valiosa para identificar dónde necesitas apoyo.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de solo resolver ejercicios, debes listar las variables que usaste. Por ejemplo: \"Variables conocidas: V=15V, I=400mA. Variable desconocida: R. Magnitud física: resistencia eléctrica (Ω).\" Esto es el corazón de Fase 2.\n• Reflexiona sobre dificultades reales: Pregúntate: ¿Confundo variables controlables con no controlables? ¿Me cuesta diferenciar magnitudes? ¿Qué estrategia podría usar? Incluso si no tienes dificultades, analiza qué te resultó fácil y por qué.\n• Conecta con aplicaciones prácticas: Relaciona la identificación de variables con situaciones reales. Por ejemplo: \"En un circuito de mi casa, el voltaje es fijo (110V), pero la corriente varía según el electrodoméstico. La resistencia depende del dispositivo.\" Esto demuestra comprensión profunda.",
+      "createdAt": "2025-10-27T04:53:07.492Z"
+    },
+    {
+      "feedbackId": "9e88e108-a2f5-4eaf-8e68-cb617af0dbfe",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que tienes capacidad para resolver ejercicios de electrodinámica y manejar fórmulas complejas, lo cual es un buen punto de partida. Sin embargo, tu reporte muestra que aún no has integrado completamente la Fase 2: identificar y clasificar variables de forma sistemática. Esto es fundamental porque sin claridad en qué datos tienes y cuáles buscas, los cálculos pueden volverse confusos.\n\nTu desempeño esta semana ha sido inconsistente: fuerte en cálculos, pero débil en reflexión y conexión con la realidad. Necesitas pasar de \"resolver ejercicios\" a \"entender qué variables están en juego y por qué importan\". La Física no es solo números; es explicar cómo funciona el mundo.\n\nPara la próxima semana, te propongo: (1) Antes de resolver cualquier problema, escribe explícitamente qué variables conoces y cuáles buscas. (2) Después de cada ejercicio, pregúntate: \"¿Dónde veo esto en la vida real?\" (3) Completa todas las preguntas reflexivas, aunque sea con respuestas breves. El pensamiento crítico se construye escribiendo, no dejando espacios en blanco.",
+      "strengths": "• Reconocimiento de dificultades: Identificas honestamente que las fórmulas te representan un desafío (\"Adaptarme a las nuevas fórmulas\"), lo que muestra autoconciencia sobre áreas de mejora.\n• Capacidad de cálculo: En Q2, demuestras habilidad para aplicar fórmulas de resistencia (R = ρ·l/s) y realizar operaciones matemáticas correctamente, obteniendo R ≈ 1,49 Ω de forma precisa.\n• Disposición a trabajar con datos complejos: Intentas resolver un problema que incluye múltiples datos (voltaje, resistencia, dimensiones del cable, resistividad), mostrando que no evitas ejercicios complejos.",
+      "improvements": "• Identificación explícita de variables: En cada ejercicio, debes crear una lista clara separando variables conocidas (V=240V, R=480Ω) de desconocidas (I, P). Usa un formato como: \"Datos: ... | Incógnitas: ...\" para que sea visible tu clasificación desde el inicio.\n• Conexión con fenómenos reales: La electrodinámica está en todas partes: desde tu celular hasta las instalaciones eléctricas de tu casa. Intenta responder: ¿Por qué una lámpara se calienta? ¿Qué variables cambian? Esto te ayudará a ver la Física como algo vivo, no solo fórmulas.\n• Completitud en respuestas reflexivas: Las preguntas 3, 4 y 5 requieren reflexión profunda. No dejes espacios en blanco. Aunque sientas que \"no lo conectas con nada\", escribe exactamente eso y luego propón una estrategia: \"Voy a buscar ejemplos en mi entorno\" o \"Practicaré con problemas de la vida real\". La reflexión es parte del aprendizaje.",
+      "createdAt": "2025-11-17T13:44:01.841Z"
+    }
+  ]
+}

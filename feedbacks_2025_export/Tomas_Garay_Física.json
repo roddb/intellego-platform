@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "studentId": "12a88f9e-5373-438d-a643-380f1bef59eb",
+    "studentName": "Tomas Garay",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.236793",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 42.38,
+      "minScore": 27,
+      "maxScore": 72,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_bef59eb_2025-08-11_b0e5p6f4",
+      "weekStart": "2025-08-11",
+      "score": 69,
+      "generalComments": "Tomás muestra un progreso adecuado en la Fase 2 (Identificación de Variables y Datos). Demuestra comprensión del proceso de pensamiento crítico aplicando correctamente los pasos 1 y 2 en el ejercicio de Ana. Identifica variables en termodinámica y comprende la importancia de clasificarlas con sus unidades correspondientes. Sin embargo, aún presenta dificultades para comprender enunciados complejos, lo cual es un área de oportunidad para fortalecer.",
+      "strengths": [
+        "Aplica correctamente F1+F2 en la resolución del ejercicio de Ana, identificando primero información relevante y luego determinando variables con sus unidades",
+        "Establece conexiones interdisciplinarias con Lógica, reconociendo el énfasis en el razonamiento por sobre el cálculo mecánico",
+        "Muestra autocrítica al autoevaluarse en nivel 2 de 4, evidenciando conciencia de sus limitaciones actuales"
+      ],
+      "improvements": [
+        "Profundizar en la clasificación de variables (conocidas/desconocidas, controlables/no controlables) para alcanzar mayor precisión en la identificación",
+        "Desarrollar estrategias específicas para mejorar la comprensión de enunciados complejos, como técnicas de lectura analítica o subrayado de datos clave",
+        "Incluir más ejemplos concretos de problemas trabajados para evidenciar mejor el proceso de aplicación de F1+F2"
+      ],
+      "createdAt": "2025-01-10T00:00:14Z"
+    },
+    {
+      "feedbackId": "fb_backfill_bef59eb_2025-08-18_c1f6q7a5",
+      "weekStart": "2025-08-18",
+      "score": 27,
+      "generalComments": "Tomás, este reporte refleja una semana de muy baja actividad práctica en Física. Aunque mencionas haber visto la teoría de termodinámica y la utilidad de las variables, no hay evidencia concreta de aplicación del pensamiento crítico ni de los pasos metodológicos trabajados. Las respuestas son extremadamente breves y carecen de desarrollo, reflexión y ejemplos específicos. Es fundamental que comiences a trabajar con ejercicios prácticos para consolidar lo aprendido en la Fase 2.",
+      "strengths": [
+        "Reconoces honestamente que aún no has comenzado la práctica, mostrando transparencia en tu autoevaluación",
+        "Indicas que no encontraste dificultades en entender los conceptos teóricos explicados, lo cual es positivo",
+        "Mantienes la responsabilidad de completar el reporte semanal a pesar de la falta de actividad práctica"
+      ],
+      "improvements": [
+        "URGENTE: Iniciar la práctica de ejercicios aplicando F1 y F2. La teoría sin práctica no permite desarrollar las habilidades de pensamiento crítico que son el objetivo central de esta metodología",
+        "Desarrollar respuestas más elaboradas que evidencien reflexión profunda sobre el proceso de aprendizaje, incluso cuando la actividad haya sido principalmente teórica",
+        "Establecer conexiones explícitas entre la teoría vista y cómo podría aplicarse a problemas concretos, incluso antes de resolverlos formalmente",
+        "Buscar activamente relaciones con otras materias. La termodinámica tiene múltiples conexiones con Química, Matemática y otras áreas del conocimiento"
+      ],
+      "createdAt": "2025-01-10T00:00:15Z"
+    },
+    {
+      "feedbackId": "fb_002_3_bef59eb_2025-09-29_003",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querido Tomas Garay,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Tu trabajo con el TP integrador de termodinámica muestra comprensión de las ecuaciones fundamentales y capacidad para resolver problemas concretos.\n\nNecesitas mejorar la justificación de por qué seleccionas determinadas herramientas y ecuaciones. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en los comentarios adicionales.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Resuelves problemas concretos como el del mate de cerámica aplicando ecuaciones apropiadas",
+        "Muestras perseverancia ante las dificultades al leer los cuadernillos para superar obstáculos",
+        "Reconoces la conexión entre Física y Matemática en la resolución de ecuaciones",
+        "Evidencias progreso claro desde nivel 2 a nivel 3 en tu comprensión de termodinámica"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas para cada problema",
+        "Busca aplicaciones prácticas de las ecuaciones de termodinámica en situaciones cotidianas más allá de los ejercicios",
+        "Desarrolla mayor reflexión sobre tu propio proceso de aprendizaje en los comentarios adicionales"
+      ],
+      "createdAt": "2025-10-09T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "f2e4f0d6-ab3f-4343-b7e5-f47deb6a9376",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:33:24.460Z"
+    },
+    {
+      "feedbackId": "356e36f3-b945-4e75-a19f-83708ca7bcd2",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:05:05.013Z"
+    },
+    {
+      "feedbackId": "deee61e6-b27c-4ec8-a578-708383496116",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:55:12.955Z"
+    },
+    {
+      "feedbackId": "d2df05f2-f99b-4002-9b7f-d813b95396fd",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:44:05.853Z"
+    },
+    {
+      "feedbackId": "4511fb25-c649-45f6-9c87-d4845cfb88ba",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que esta semana enfrentaste un tema desafiante como electrodinàmica, y valoro tu honestidad al reconocer dónde tienes dificultades. Sin embargo, tu reporte es muy breve y no muestra el análisis detallado que esperamos en la Fase 2. Necesitas ir más allá de describir qué hiciste; debes explicar *cómo* identificaste y clasificaste las variables en cada problema.\n\nTu desempeño sugiere que entiendes parcialmente los conceptos, pero aún no has desarrollado el hábito de sistematizar la identificación de variables. Esto es crucial: antes de resolver cualquier problema de circuitos, dedica tiempo a listar qué conoces y qué buscas.\n\nPara la próxima semana, te pido que hagas un reporte más completo donde detalles cada variable que encuentres, la clasifiques (conocida/desconocida, controlable/no controlable) y expliques cómo eso te ayudó a elegir la estrategia de solución. Esto transformará tu comprensión de electrodinàmica.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que tienes dificultades con circuitos eléctricos y no pretendas dominar el tema. Esto es importante para identificar dónde necesitas apoyo.\n• Participación en actividades: Mencionas que trabajaste en un TP (trabajo práctico) con ejercicios sobre resistencia, lo que muestra que estás intentando involucrarte en las actividades propuestas.\n• Conciencia del progreso: Expresas que te sientes \"más cómodo\" con el tema, lo que indica que percibes algún avance, aunque sea pequeño.",
+      "improvements": "• Identifica variables específicas en tus problemas: En lugar de decir \"trabajé con circuitos\", especifica: \"Identifiqué variables como voltaje (V), corriente (I), resistencia (R), donde V es conocida y R es desconocida\". Esto te ayudará a aplicar la Fase 2 correctamente.\n• Desarrolla estrategias concretas para elegir fórmulas: Crea una tabla simple: \"Si conozco V e I, busco R con V=I×R\". Practica clasificando qué datos tienes (conocidos) y cuáles buscas (desconocidos) antes de elegir la fórmula. Esto te dará claridad sobre cuándo usar cada una.\n• Conecta con fenómenos reales: Piensa en ejemplos cotidianos: \"Una bombilla tiene resistencia fija, el voltaje viene de la pared, y la corriente depende de ambos\". Escribe al menos 2 conexiones entre variables y situaciones reales que hayas observado.",
+      "createdAt": "2025-11-17T13:48:25.033Z"
+    }
+  ]
+}

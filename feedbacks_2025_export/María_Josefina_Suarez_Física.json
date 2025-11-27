@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "studentId": "db79e911-5a6b-426e-b2f3-6c3e27ce623b",
+    "studentName": "María Josefina Suarez",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.221601",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 55.22,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-08-11_a7b3a4c0",
+      "weekStart": "2025-08-11",
+      "score": 82,
+      "generalComments": "María Josefina, tu reporte de la semana del 11 de agosto demuestra un excelente dominio de conceptos de cinemática. Tu puntaje es de 82/100, ubicándote en el Nivel 4 (Excelente). Tus respuestas fueron completas, bien fundamentadas y mostraron comprensión profunda. El análisis de gráficos y la aplicación de fórmulas fueron muy acertados. ¡Seguí así, tu trabajo es realmente destacado!",
+      "strengths": [
+        "Análisis completo y riguroso de los conceptos",
+        "Uso correcto de fórmulas y unidades",
+        "Respuestas bien estructuradas y fundamentadas",
+        "Excelente interpretación de gráficos"
+      ],
+      "improvements": [
+        "Profundiza aún más en las aplicaciones prácticas",
+        "Desafíate con problemas de mayor complejidad",
+        "Ayuda a compañeros con dificultades (consolidarás tu aprendizaje)"
+      ],
+      "createdAt": "2025-10-02 15:17:54"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-01_b8c4b5d1",
+      "weekStart": "2025-09-01",
+      "score": 80,
+      "generalComments": "María Josefina, tu reporte de la semana del 1 de septiembre sobre dinámica y leyes de Newton es excelente. Obtuviste 80/100 puntos, manteniéndote en el Nivel 4 (Excelente). Tus explicaciones fueron claras, precisas y demostraron comprensión profunda de las leyes fundamentales. La resolución de problemas fue sistemática y bien justificada. ¡Tu dedicación y capacidad analítica son admirables!",
+      "strengths": [
+        "Comprensión profunda de las leyes de Newton",
+        "Resolución sistemática y organizada de problemas",
+        "Justificación clara de cada paso del razonamiento",
+        "Excelente manejo de conceptos físicos complejos"
+      ],
+      "improvements": [
+        "Explora aplicaciones más complejas de las leyes",
+        "Investiga casos especiales o paradojas interesantes",
+        "Conecta estos conceptos con fenómenos cotidianos avanzados"
+      ],
+      "createdAt": "2025-10-02 15:17:54"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-08_c9d5c6e2",
+      "weekStart": "2025-09-08",
+      "score": 78,
+      "generalComments": "María Josefina, tu reporte de la semana del 8 de septiembre sobre trabajo y energía es muy bueno. Tu puntaje de 78/100 te mantiene en el Nivel 3 (Bueno), muy cerca del Nivel 4. Demostraste sólida comprensión de los conceptos de trabajo mecánico y energía. Tus respuestas fueron completas y bien fundamentadas, aunque algunos detalles podrían profundizarse más. ¡Excelente trabajo!",
+      "strengths": [
+        "Comprensión sólida de conceptos de trabajo y energía",
+        "Respuestas bien organizadas y fundamentadas",
+        "Buen manejo de fórmulas y unidades",
+        "Capacidad de análisis de situaciones complejas"
+      ],
+      "improvements": [
+        "Profundiza más en los razonamientos",
+        "Incluye más ejemplos de aplicación práctica",
+        "Conecta conceptos entre diferentes temas de física"
+      ],
+      "createdAt": "2025-10-02 15:17:55"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-15_d0e6d7f3",
+      "weekStart": "2025-09-15",
+      "score": 80,
+      "generalComments": "María Josefina, tu reporte de la semana del 15 de septiembre sobre energía cinética y potencial es excelente. Con 80/100 puntos volvés al Nivel 4 (Excelente). Demostraste dominio conceptual sobresaliente y capacidad para resolver problemas complejos con rigor y precisión. Tus explicaciones fueron claras, completas y bien fundamentadas. ¡Seguí trabajando con esa misma dedicación y excelencia!",
+      "strengths": [
+        "Dominio conceptual excepcional de tipos de energía",
+        "Resolución precisa y rigurosa de problemas",
+        "Explicaciones claras y bien fundamentadas",
+        "Capacidad de análisis y síntesis sobresaliente"
+      ],
+      "improvements": [
+        "Explora aplicaciones avanzadas de conservación de energía",
+        "Investiga temas relacionados con termodinámica",
+        "Ayuda a compañeros con dificultades como tutora par"
+      ],
+      "createdAt": "2025-10-02 15:17:55"
+    },
+    {
+      "feedbackId": "fb_002_2_1bc6e623_2025-09-29_005",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida María Josefina Suarez, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Es fundamental establecer bases sólidas en la presentación completa y precisa de tu proceso de aprendizaje antes de avanzar. Es fundamental fortalecer tu capacidad para documentar y comunicar tu proceso de resolución con claridad y precisión técnica. Necesitas ser más sistemática en la descripción de los pasos de resolución y en la presentación de evidencias concretas. Mejora la organización de tu trabajo y presentación de ideas, prestando especial atención a la corrección conceptual (calor vs color). Recuerda que cada desafío es una oportunidad de crecimiento. Adelante.",
+      "strengths": [
+        "Reconoces la utilidad del trabajo práctico integrador como preparación para evaluaciones",
+        "Identificas conceptos clave del tema (calorimetría, conducción, convección, radiación)",
+        "Demuestras interés en lograr autonomía en la resolución de problemas"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer la precisión conceptual y ortográfica (escribir 'calor' correctamente, no 'color')",
+        "Necesitas ser más sistemática en la descripción de los pasos de resolución proporcionando el proceso completo",
+        "Debes trabajar en proporcionar evidencias concretas y específicas de tu proceso de aprendizaje con ejemplos detallados"
+      ],
+      "createdAt": "2025-10-09 21:13:00"
+    },
+    {
+      "feedbackId": "5072676c-1220-460a-b159-1a5d78aadbd1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:31:44.644Z"
+    },
+    {
+      "feedbackId": "c7e952bd-6206-46f1-9731-07099382a7e8",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:02:26.294Z"
+    },
+    {
+      "feedbackId": "dc7ef99e-ca6f-4143-b254-22c02871775b",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:51:42.170Z"
+    },
+    {
+      "feedbackId": "922de5d3-1e34-49f6-87a6-f3934ebe5667",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:37:02.911Z"
+    }
+  ]
+}

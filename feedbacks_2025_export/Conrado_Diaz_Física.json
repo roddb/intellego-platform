@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "studentId": "u_asv9bhh8zme06j7jo",
+    "studentName": "Conrado Diaz",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.194258",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 69.3,
+      "minScore": 61.5,
+      "maxScore": 77.9,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me06j7jo_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 72.5,
+      "generalComments": "Hola Conrado Diaz,\n\nEstás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de las Leyes de Newton y avance sostenido. Seleccionas apropiadamente las herramientas y fórmulas para dinámica, específicamente la segunda ley de Newton combinada con ecuaciones de MRUV. Tu capacidad de comunicación escrita es clara y organizada.\n\nDebes practicar más la aplicación de ecuaciones a situaciones concretas, especialmente en planos inclinados con rozamiento. Desarrolla estrategias más específicas para superar tus desafíos cuando te abruman múltiples datos.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas (segunda ley de Newton) y las integras con conocimientos previos (MRUV)",
+        "Demuestras capacidad de comunicación clara al explicar tu proceso de resolución paso a paso",
+        "Realizas conexiones interesantes entre las Leyes de Newton y situaciones cotidianas como vehículos"
+      ],
+      "improvements": [
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas, especialmente planos inclinados con fuerza de rozamiento",
+        "Desarrolla estrategias más específicas para manejar problemas con múltiples variables y datos",
+        "Identifica con mayor precisión las dificultades que enfrentas y propone métodos concretos para superarlas"
+      ],
+      "createdAt": "2025-10-07T10:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me06j7jo_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 61.5,
+      "generalComments": "Hola Conrado Diaz,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Realizas conexiones interesantes entre el tiro oblicuo y los deportes como lanzamientos en Educación Física.\n\nNecesitas sistematizar el proceso de análisis de datos de manera más estructurada, especialmente al identificar todas las variables involucradas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, explicando paso a paso cómo identificaste cada variable.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Realizas conexiones interesantes entre el tiro oblicuo y aplicaciones deportivas concretas",
+        "Identificas variables básicas como velocidad, distancia y tiempo en problemas de cinemática",
+        "Reconoces tus dificultades al aplicar teoría en práctica, mostrando honestidad en tu autoevaluación"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos clasificando variables conocidas y desconocidas de forma explícita",
+        "Proporciona evidencias más concretas y específicas de tu proceso, explicando cómo identificaste cada variable",
+        "Desarrolla estrategias más específicas para superar la dificultad de aplicar teoría en práctica, como esquemas o tablas de datos",
+        "Es importante completar la pregunta 5 con reflexiones sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T10:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me06j7jo_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 65.3,
+      "generalComments": "Hola Conrado Diaz,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Conectas herramientas matemáticas con fenómenos físicos del fútbol, identificando múltiples situaciones como el saque del arquero, córners y tiros libres donde se aplica el tiro oblicuo.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, identificando características clave de cada problema que te orienten a la fórmula correcta. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas, no solo aplicarlas sino explicar tu razonamiento.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Conectas herramientas matemáticas con fenómenos del fútbol, identificando múltiples aplicaciones del tiro oblicuo",
+        "Comprendes las fórmulas de tiro oblicuo y puedes aplicarlas para encontrar resultados correctos",
+        "Reconoces con honestidad tus dificultades específicas al asociar fórmulas con ejercicios"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, creando una guía de cuándo usar cada fórmula",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas basándote en los datos del problema",
+        "Desarrolla estrategias más específicas como crear un diagrama de decisión que te ayude a elegir la fórmula correcta según qué dato busques",
+        "Completa la pregunta 5 con reflexiones sobre tu proceso de aprendizaje y estrategias que te ayuden"
+      ],
+      "createdAt": "2025-10-07T10:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me06j7jo_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 77.9,
+      "generalComments": "Hola Conrado Diaz,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Planteas una estrategia de resolución coherente y completa, describiendo explícitamente cómo aplicaste las cuatro fases del pensamiento crítico. Integras exitosamente los conocimientos de las fases anteriores, demostrando visión global del proceso.\n\nTe recomiendo incorporar la verificación de resultados como parte de tu proceso, revisando unidades y razonabilidad de valores antes de considerar terminado un ejercicio. Necesitas ser más sistemático/a en la ejecución de los pasos de resolución, utilizando estrategias como verificación dimensional para detectar errores de fórmula o valores.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa, describiendo explícitamente las cuatro fases del proceso",
+        "Integras exitosamente los conocimientos de las fases anteriores (identificación, variables, herramientas y ejecución)",
+        "Realizas conexiones significativas entre el tiro oblicuo y aplicaciones deportivas como el lanzamiento de bala, mostrando comprensión del concepto de optimización de ángulo"
+      ],
+      "improvements": [
+        "Te recomiendo incorporar la verificación de resultados como parte sistemática de tu proceso, revisando razonabilidad de valores",
+        "Necesitas ser más sistemático/a en la ejecución de cálculos, utilizando verificación dimensional para detectar si elegiste la fórmula correcta",
+        "Desarrolla estrategias específicas para minimizar errores de cálculo, como revisar unidades antes y después de cada operación"
+      ],
+      "createdAt": "2025-10-07T10:00:00.000Z"
+    }
+  ]
+}

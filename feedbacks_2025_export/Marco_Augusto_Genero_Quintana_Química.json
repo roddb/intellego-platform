@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "studentId": "18fe6e7f-cf61-40fe-b7c4-4fedbb672b19",
+    "studentName": "Marco Augusto Genero Quintana",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.216123",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 47.25,
+      "minScore": 27,
+      "maxScore": 68,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-09-29T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_bb672b19_2025-08-18_f51c6896",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Marco, tu trabajo en Fase 3 muestra una comprensión sólida de los conceptos fundamentales de equilibrio químico, aunque aún enfrentas confusiones específicas en la aplicación de las herramientas. Comprendes bien la idea general de Kc, Kp, Qc y el principio de Le Chatelier, pero te confundes al escribir expresiones de Kc (especialmente respecto a qué incluir o excluir) y al calcular Qc. Tu resolución del ejercicio de SO₂ demuestra que puedes aplicar el procedimiento cuando te concentras. Las conexiones que haces con termodinámica y cinética química, así como con procesos industriales, muestran pensamiento crítico avanzado.",
+      "strengths": [
+        "Comprendes correctamente que Qc se calcula con concentraciones iniciales usando la misma fórmula que Kc",
+        "Identificas conexiones interdisciplinarias ricas: termodinámica (energía/temperatura), cinética química (velocidad), procesos industriales (amoniaco)",
+        "Muestras reflexión metacognitiva al reconocer tus confusiones específicas (sólidos/líquidos en Kc, cálculos con Qc)"
+      ],
+      "improvements": [
+        "Memoriza la regla de expresiones de Kc: solo gases y soluciones acuosas, nunca sólidos puros ni líquidos puros",
+        "Practica 5 ejercicios adicionales de cálculo de Qc para automatizar el procedimiento y evitar errores",
+        "Usa la tabla ICE sistemáticamente para organizar mejor los datos y evitar confusiones"
+      ],
+      "createdAt": "2025-10-03T19:50:11Z"
+    },
+    {
+      "feedbackId": "fb_backfill_bb672b19_2025-09-08_8d56a69c",
+      "weekStart": "2025-09-08",
+      "score": 67,
+      "generalComments": "Marco, tu reporte de esta semana muestra un dominio intermedio de equilibrio químico (Kc, Qc, relación Kp-Kc, tabla ICE, Le Chatelier) que evalúas como 'medio' o 'básico/medio'. Tu resolución del ejemplo de PCl₅ demuestra que puedes armar una tabla ICE, calcular concentraciones de equilibrio y verificar con Kc, lo cual es un proceso completo de Fase 4. La dificultad que reconoces con ecuaciones cuadráticas es común y solucionable con el protocolo que mencionas. Las conexiones que haces con equilibrios del año pasado (hidruros y óxidos) muestran memoria conceptual a largo plazo.",
+      "strengths": [
+        "Completaste exitosamente un ejercicio completo usando tabla ICE, calculando concentraciones de equilibrio y verificando el resultado con Kc",
+        "Implementas una estrategia sistemática (protocolo 1-6) para manejar las ecuaciones cuadráticas que te resultan difíciles",
+        "Realizas conexiones con aprendizajes previos (equilibrios de hidruros y óxidos del año pasado), mostrando integración conceptual"
+      ],
+      "improvements": [
+        "Refuerza el manejo algebraico de ecuaciones cuadráticas - practica resolverlas sin calculadora para ganar fluidez",
+        "Profundiza tu comprensión de la relación Kp-Kc más allá del nivel básico - entiende cuándo y por qué usarías una u otra",
+        "Desarrolla mayor confianza en tu nivel: tu trabajo demuestra más que medio - estás en un Nivel 3 emergente"
+      ],
+      "createdAt": "2025-10-03T19:50:12Z"
+    },
+    {
+      "feedbackId": "51ed99e9-8a0e-43de-ad1f-23cc2a992b08",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:48:27.317Z"
+    },
+    {
+      "feedbackId": "b5358107-c12f-48b6-90a9-f1925ad713ea",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:13:36.514Z"
+    }
+  ]
+}

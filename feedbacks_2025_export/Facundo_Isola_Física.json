@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "16782162-cdac-4b77-ae7e-b1b71ead8f5e",
+    "studentName": "Facundo Isola",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.197999",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 41.0,
+      "minScore": 41,
+      "maxScore": 41,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_ead8f5e_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 41,
+      "generalComments": "Querido Facundo Isola, estás comenzando a trabajar en la Fase 3: Selección de herramientas y relaciones, requiriendo apoyo adicional para consolidar el uso de fórmulas y ecuaciones. Reconoces la importancia de asistir a clase para comprender conceptos nuevos y muestras iniciativa al revisar la presentación del tema por tu cuenta. Sin embargo, es fundamental asistir a las clases para recibir las explicaciones directas y poder hacer consultas inmediatas. Te recomiendo coordinar conmigo para recuperar el contenido perdido y recibir apoyo en el uso de fórmulas. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Reconoces la importancia de asistir a clase para comprender conceptos nuevos",
+        "Identificas correctamente que necesitas conocimientos previos para avanzar",
+        "Muestras iniciativa al revisar la presentación del tema por tu cuenta"
+      ],
+      "improvements": [
+        "Es fundamental asistir a las clases para recibir las explicaciones directas y poder hacer consultas inmediatas",
+        "Debes coordinar conmigo para recuperar el contenido perdido y recibir apoyo en el uso de fórmulas",
+        "Mantén mayor constancia en la asistencia a clases para no perder continuidad en tu aprendizaje"
+      ],
+      "createdAt": "2025-10-07 22:43:04"
+    }
+  ]
+}

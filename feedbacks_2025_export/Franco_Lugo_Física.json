@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "studentId": "u_h52avro4ome1fmelf",
+    "studentName": "Franco Lugo",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.200706",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 35.0,
+      "minScore": 27,
+      "maxScore": 59,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me1fmelf_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querido Franco Lugo, Debido a tu ausencia, no fue posible evaluar tu progreso en Física durante esta semana. Mantén mayor constancia y regularidad en la asistencia a clase y entrega de reportes. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Reconoces la importancia de informar sobre tu ausencia",
+        "Muestras honestidad al no completar el reporte sin contenido real",
+        "Tienes oportunidad de recuperar y ponerte al día"
+      ],
+      "improvements": [
+        "Es fundamental mantener constancia en la asistencia a clases de Física",
+        "Debes desarrollar estrategias para ponerte al día cuando faltas",
+        "Es importante comunicarte proactivamente para solicitar material de recuperación"
+      ],
+      "createdAt": "2025-10-07 16:02:13"
+    },
+    {
+      "feedbackId": "396f50c1-d780-4429-946c-8dc1279c72f4",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Este reporte refleja una **situación crítica que requiere intervención inmediata**. El estudiante no ha completado el reporte semanal de pensamiento crítico de Fase 2. Las respuestas están prácticamente ausentes (una menciona \"Falte\" y las demás son puntos vacíos), lo que impide cualquier evaluación significativa del aprendizaje.\n\n**Esto puede indicar:**\n- Ausencia o inasistencia a clases de Fase 2\n- Falta de comprensión de las instrucciones del reporte\n- Dificultades técnicas con la plataforma Intellego\n- Problemas personales o académicos subyacentes\n- Falta de motivación o compromiso con la actividad\n\n**Acción recomendada:** Contacto urgente con el estudiante y/o familia para identificar la causa raíz y establecer un plan de apoyo.\n\n---\n\n##",
+      "strengths": "Lamentablemente, **no hay fortalezas identificables** en este reporte. Las respuestas están prácticamente ausentes, lo que impide evaluar cualquier aspecto positivo del aprendizaje del estudiante.\n\n---\n\n##",
+      "improvements": "- **Problema:** Falta de participación y entrega incompleta del reporte. **Sugerencia:** Comunícate inmediatamente con el estudiante para verificar si hay dificultades de acceso a la plataforma, problemas personales o falta de comprensión de las instrucciones. Establece una reunión de seguimiento para aclarar expectativas.\n\n- **Problema:** Ausencia total de respuestas en 4 de 5 preguntas. **Sugerencia:** Proporciona un formato guiado con ejemplos concretos de cómo responder cada pregunta. Considera sesiones de tutoría individual para modelar el proceso de identificación de variables paso a paso.\n\n- **Problema:** Falta de evidencia de trabajo en Fase 2. **Sugerencia:** Revisa si el estudiante asistió a las clases de Fase 2, accedió a los materiales de aprendizaje y completó las actividades previas. Ofrece recursos de refuerzo (videos, guías, ejercicios prácticos) antes de solicitar el próximo reporte.\n\n---\n\n##",
+      "createdAt": "2025-10-20T19:29:51.658Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fmelf_2025-09-01_002",
+      "weekStart": "2025-09-01",
+      "score": 59,
+      "generalComments": "Querido Franco Lugo, Te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Reconoces tu nivel actual de desempeño, lo cual es un primer paso importante. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas. Desarrolla estrategias más específicas para superar tus desafíos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces tu nivel actual de desempeño de manera honesta",
+        "Muestras conciencia de estar en proceso de desarrollo",
+        "Completaste el reporte dentro del plazo establecido"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Desarrolla respuestas más elaboradas que demuestren tu comprensión real",
+        "Es importante explicitar qué variables identificas en los problemas trabajados",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada"
+      ],
+      "createdAt": "2025-10-07 16:02:14"
+    },
+    {
+      "feedbackId": "8363f8db-6edd-4b0f-bd16-2ccdfe4f551a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que recibiste el reporte semanal, pero las respuestas están incompletas. Entiendo que a veces puede parecer tedioso completar estos formularios, pero son herramientas importantes para que reflexiones sobre tu aprendizaje y yo pueda ayudarte mejor.\n\nEsta semana necesito que hagas un esfuerzo real: lee cada pregunta con atención, piensa en lo que trabajaste en clase, y escribe respuestas completas que muestren tu pensamiento. No se trata de escribir mucho, sino de ser honesto y reflexivo.\n\nTe sugiero que esta próxima semana dediques 15-20 minutos al final de la semana para completar el reporte con calidad. Si tienes dudas sobre qué escribir, consulta conmigo antes de entregar.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu pensamiento crítico. Sin embargo, reconozco que intentaste completar el formulario, lo que muestra que recibiste la tarea.",
+      "improvements": "• Falta de desarrollo en todas las respuestas: Necesitas escribir respuestas completas y reflexivas para cada pregunta. No es suficiente poner solo \"Nivel 2\". Dedica tiempo a pensar qué aprendiste realmente esta semana y explícalo con detalle.\n• Ausencia de ejemplos concretos: Para que tu reporte sea útil, incluye ejemplos específicos de lo que estudiaste, problemas que resolviste, o conceptos que comprendiste. Esto ayuda a demostrar tu aprendizaje real.\n• Falta de reflexión personal: El reporte semanal es un espacio para que reflexiones sobre tu propio proceso. Pregúntate: ¿Qué entendí? ¿Qué me costó? ¿Cómo lo superé? Responde estas preguntas honestamente en cada sección.",
+      "createdAt": "2025-10-27T04:52:13.475Z"
+    }
+  ]
+}

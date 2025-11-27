@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "studentId": "u_4sfzulloame0eeb4n",
+    "studentName": "Teodora Ces Casalí",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.234856",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 45.0,
+      "minScore": 33,
+      "maxScore": 61,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me0eeb4n_2025-08-04_f8a4f5b2",
+      "weekStart": "2025-08-04",
+      "score": 52,
+      "generalComments": "Teodora está en las etapas iniciales de comprensión del pensamiento crítico (Fase 1). Sus respuestas son muy breves y carecen de la profundidad esperada para demostrar dominio del método de 5 pasos. Aunque logra conectar el concepto con una experiencia personal (dejar un deporte) y establece una relación con psicología, necesita desarrollar respuestas más elaboradas y evidenciar mejor la aplicación sistemática de los pasos del pensamiento crítico. La dificultad que menciona con desarrollar respuestas largas es justamente lo que limita la demostración de su comprensión.",
+      "strengths": [
+        "Identifica el tema central (pensamiento crítico) aunque de manera muy resumida",
+        "Conecta el aprendizaje con una experiencia personal concreta (decisión de dejar un deporte)",
+        "Establece una relación interdisciplinaria con psicología, reconociendo que aplica estos procesos en otro contexto"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas en Q1, explicando no solo el tema sino también el nivel de dominio con ejemplos específicos de qué comprende y qué le resulta difícil",
+        "En Q2, detallar la aplicación de cada uno de los 5 pasos del pensamiento crítico en el ejercicio realizado, no solo mencionar que marcó los pasos",
+        "Elaborar estrategias concretas en Q3 para superar la dificultad de desarrollar respuestas largas (por ejemplo: usar esquemas previos, escribir puntos clave antes de redactar)",
+        "Ampliar Q4 con ejemplos específicos de cómo el pensamiento crítico se aplica en física y otras materias más allá de psicología",
+        "Completar Q5 con comentarios adicionales sobre el proceso de aprendizaje, dudas o aplicaciones que le resulten interesantes"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0eeb4n_2025-08-11_a9b5a6c3",
+      "weekStart": "2025-08-11",
+      "score": 61,
+      "generalComments": "Teodora muestra un ligero progreso respecto a la semana anterior, aunque todavía se encuentra en un nivel de desarrollo (Nivel 2) de la Fase 1. Menciona que están trabajando los mismos temas con más profundidad, lo cual es positivo. Ha mejorado en la aplicación práctica (Q4) donde establece conexiones más ricas con situaciones cotidianas e investigaciones policiales. Sin embargo, persisten las respuestas muy breves que limitan la evaluación completa de su comprensión. La dificultad mencionada en Q3 (acordarse los pasos en orden) es importante de abordar, ya que la secuencia de los 5 pasos es fundamental para el método.",
+      "strengths": [
+        "Reconoce que están profundizando en los mismos temas, mostrando conciencia del proceso de aprendizaje progresivo",
+        "Aplica el método a un ejercicio contextualizado (rutina de una chica) respondiendo preguntas usando los pasos vistos",
+        "Establece conexiones creativas y relevantes: uso en situaciones cotidianas e investigaciones policiales (Q4), mostrando transferencia del aprendizaje a múltiples contextos"
+      ],
+      "improvements": [
+        "Crear ayudas de memoria para los 5 pasos del pensamiento crítico (ej: acrónimos, esquemas visuales, tarjetas de estudio) para superar la dificultad de recordar el orden",
+        "Desarrollar respuestas más completas en Q1, explicando qué aspectos específicos está profundizando y en qué consiste ese nivel 3 que menciona",
+        "En Q2, detallar no solo qué ejercicio resolvió sino cómo aplicó cada paso del método en ese caso específico de la rutina",
+        "Completar Q5 con reflexiones sobre el proceso de aprendizaje, utilidad del método o dudas que tenga",
+        "Practicar la aplicación sistemática de los 5 pasos en varios ejercicios diferentes hasta automatizar la secuencia"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0eeb4n_2025-09-01_b0c6b7d4",
+      "weekStart": "2025-09-01",
+      "score": 33,
+      "generalComments": "Teodora está enfrentando dificultades significativas en la Fase 3. Sus respuestas indican que no ha podido trabajar de manera autónoma con el contenido de tiro oblicuo y que depende completamente de las explicaciones del docente en el pizarrón. No hay evidencia de aplicación de las fases previas (F1+F2) ni de selección justificada de herramientas. El nivel de desarrollo es inicial (Nivel 1), con necesidad de apoyo significativo para identificar qué fórmulas usar y cómo aplicarlas. La conexión que hace con MRU y MRUV muestra que tiene conocimientos previos del tema, pero no logra integrarlos en la resolución autónoma.",
+      "strengths": [
+        "Reconoce honestamente su nivel de comprensión y las limitaciones en su aprendizaje autónomo",
+        "Identifica la conexión entre el nuevo tema (tiro oblicuo) y contenidos previos (MRU y MRUV)",
+        "Muestra disposición para aprender cuando se le explica paso a paso en el pizarrón"
+      ],
+      "improvements": [
+        "Desarrollar autonomía en la aplicación de las Fases 1 y 2 antes de intentar seleccionar herramientas: identificar el problema, las variables conocidas/desconocidas y qué se busca calcular",
+        "Crear una ficha de referencia personal con las fórmulas de MRU, MRUV y tiro oblicuo, organizadas por situación (altura inicial cero vs distinta de cero, ángulo dado vs a calcular)",
+        "Practicar ejercicios guiados paso a paso donde se le indique explícitamente: 1) Qué fórmula usar, 2) Por qué se elige esa fórmula, 3) Cómo sustituir los datos. Luego intentar ejercicios similares con menos guía",
+        "Trabajar la diferencia entre entender cuando veo vs poder hacer solo: después de cada explicación en el pizarrón, intentar el mismo ejercicio sin mirar, identificar dónde se traba",
+        "Participar en grupos de estudio donde pueda preguntar dudas específicas y recibir apoyo de compañeros mientras desarrolla mayor confianza"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "61204e3c-a2c0-4a64-bead-0d551301c4e2",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que estás trabajando en los problemas de estática y que intentas aplicar las fórmulas, lo cual es un buen comienzo. Sin embargo, tu reporte muestra respuestas muy breves que no reflejan todo lo que probablemente aprendiste esta semana. \n\nTu desempeño en la Fase 2 está en desarrollo: necesitas ser más sistemático al identificar y clasificar variables. Cuando resuelves un problema, no solo calcules; también organiza qué datos tienes, cuáles te faltan y cómo se relacionan entre sí.\n\nPara la próxima semana, te pido que dediques tiempo a escribir respuestas más completas. Cuando identifiques variables, haz listas explícitas. Cuando encuentres dificultades, describe exactamente qué no entendiste y qué estrategia usarás para mejorar. Esto te ayudará a consolidar mejor tu aprendizaje.",
+      "strengths": "• Intentas aplicar fórmulas: En Q2 demuestras que sabes usar la relación Fr = μ × N para calcular la fuerza de fricción, lo que muestra que estás practicando los cálculos.\n• Reconoces tus dificultades: Al mencionar en Q3 que te costó entender la consigna, muestras autoconciencia sobre dónde necesitas ayuda.\n• Trabajas con problemas reales: El problema del bloque de 80kg es un ejemplo concreto de estática, lo que indica que estás intentando conectar la teoría con situaciones físicas.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de solo resolver el problema, haz una lista clara: \"Variables conocidas: masa (80kg), fuerza aplicada (200N), μ (0,35). Variables desconocidas: fuerza de fricción, fuerza normal.\" Esto te ayudará a organizar mejor tu pensamiento.\n• Desarrolla tus respuestas con más detalle: Tus respuestas son muy cortas. Cuando pregunten sobre temas trabajados, explica qué aprendiste específicamente sobre variables (no solo \"lo entiendo un 3\"). Usa ejemplos concretos del trabajo en clase.\n• Propón estrategias reales para superar dificultades: En lugar de decir \"me costó entender la consigna\", pregúntate: ¿Qué parte no entendí? ¿Necesito releer? ¿Pedir ayuda? ¿Hacer un diagrama? Escribe acciones concretas que puedas hacer.",
+      "createdAt": "2025-10-27T04:59:25.436Z"
+    },
+    {
+      "feedbackId": "1b509b2f-a28f-4ee5-8421-3a898c5e8cd8",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que estás participando en las actividades del proyecto, lo cual es positivo. Sin embargo, tu reporte esta semana es muy breve y no refleja el trabajo profundo que debería estar ocurriendo en la Fase 2. Necesitas pasar de respuestas superficiales a análisis detallados de las variables que identificas.\n\nLa Fase 2 es crucial porque aquí aprendes a \"ver\" los elementos clave de cualquier problema físico. Esto requiere que escribas específicamente qué variables tienes, cómo las clasificas y por qué importan. Responder \"Nada\" a preguntas sobre dificultades y reflexión no te permite avanzar en tu pensamiento crítico.\n\nPara la próxima semana, quiero que dediques tiempo a completar un análisis detallado de variables de tu proyecto. Haz una lista clara, clasifica cada una, y reflexiona sobre qué te cuesta entender. Esto te preparará mucho mejor para las fases siguientes.",
+      "strengths": "• Reconoce conexiones con temas previos: Mencionas aceleración y peso, lo que demuestra que recuerdas conceptos trabajados anteriormente. Esto es un buen punto de partida para profundizar.\n• Participación en actividades del proyecto: Completaste la ficha técnica y dibujaste la idea, mostrando que estás involucrado en el trabajo colaborativo del equipo.",
+      "improvements": "• Identifica y lista variables específicas de tu proyecto: En lugar de respuestas genéricas, necesitas escribir exactamente qué variables están presentes. Por ejemplo: \"En nuestro proyecto de [nombre], las variables son: masa (conocida), velocidad (desconocida), fricción (no controlable)...\". Sé concreto y detallado.\n• Reflexiona sobre dificultades reales: No dejes espacios en blanco con \"Nada\". Pregúntate: ¿Qué me cuesta diferenciar entre variables controlables y no controlables? ¿Cómo puedo mejorar? Escribe al menos 2-3 dificultades y una estrategia para cada una.\n• Profundiza en conexiones entre variables: Cuando mencionas aceleración y peso, explica cómo se relacionan en tu proyecto específico. Por ejemplo: \"La aceleración depende del peso porque...\" Esto demuestra comprensión real, no solo reconocimiento de palabras.",
+      "createdAt": "2025-11-12T22:56:36.806Z"
+    }
+  ]
+}

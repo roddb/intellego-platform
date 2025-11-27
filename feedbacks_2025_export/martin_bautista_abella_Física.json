@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "studentId": "bd275edd-f22b-49b2-9d4b-8339d485515f",
+    "studentName": "martin bautista abella",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245625",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 57.0,
+      "minScore": 48,
+      "maxScore": 68,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_abella_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Buen trabajo Martin. Demuestras comprensión del tiro oblicuo aunque reconoces que necesitas mejorar algunos aspectos. El ejercicio de Ana muestra creatividad al aplicar conceptos físicos a situaciones cotidianas.",
+      "strengths": [
+        "Comprensión del tema de tiro oblicuo",
+        "Aplicación a situación cotidiana",
+        "Reconocimiento de áreas de mejora",
+        "Conexión con temas previos"
+      ],
+      "improvements": [
+        "Profundizar en aspectos específicos del tiro oblicuo",
+        "Desarrollar más la evidencia de aprendizaje",
+        "Explicar mejor las estrategias utilizadas"
+      ],
+      "createdAt": "2025-01-09T03:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_abella_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 55,
+      "generalComments": "Martin, esta semana trabajaste conceptos fundamentales de vectores. Comprendes bien los conceptos básicos pero necesitas realizar ejercicios prácticos para consolidar el aprendizaje. La ausencia de ejercicios limita tu aplicación práctica.",
+      "strengths": [
+        "Comprensión de conceptos de vectores",
+        "Identificación de módulo, dirección y sentido",
+        "Entendimiento del tiempo en dos dimensiones",
+        "Comprensión clara del tema"
+      ],
+      "improvements": [
+        "Realizar ejercicios prácticos",
+        "Establecer conexiones con otras materias",
+        "Aplicar los conceptos teóricos",
+        "Desarrollar ejemplos concretos"
+      ],
+      "createdAt": "2025-01-09T03:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_abella_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 48,
+      "generalComments": "Martin, hay una confusión importante: trabajaste con leyes de gases ideales que corresponden a Química, no a Física. Aunque demuestras comprensión del tema, necesitas revisar la materia correcta para los reportes de Física.",
+      "strengths": [
+        "Comprensión del tema de gases",
+        "Identificación de dificultades",
+        "Uso correcto de fórmulas básicas",
+        "Honestidad sobre dificultades"
+      ],
+      "improvements": [
+        "Identificar correctamente la materia",
+        "Trabajar temas de Física (tiro oblicuo)",
+        "Distinguir entre contenidos de Física y Química",
+        "Mejorar selección de fórmulas"
+      ],
+      "createdAt": "2025-01-09T03:00:00.000Z"
+    }
+  ]
+}

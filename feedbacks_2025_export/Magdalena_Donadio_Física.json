@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "studentId": "u_q8vglr2n7me0b5ree",
+    "studentName": "Magdalena Donadio",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.214936",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 52.76,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_donadio_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 45,
+      "generalComments": "Magdalena, es un buen inicio en pensamiento crítico. Tu conexión con matemática y física es acertada. Con práctica, la aplicación será más clara.",
+      "strengths": [
+        "Reconocimiento de uso del pensamiento crítico en matemática",
+        "Conexión interdisciplinaria con física y matemática",
+        "Identificación de análisis de información como herramienta",
+        "Honestidad sobre nivel inicial"
+      ],
+      "improvements": [
+        "Practicar con ejemplos concretos de aplicación",
+        "Profundizar en comprensión del proceso",
+        "Explorar más situaciones cotidianas donde aplica"
+      ],
+      "createdAt": "2025-01-09 11:25:00"
+    },
+    {
+      "feedbackId": "fb_donadio_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Buen progreso al nivel 2, Magdalena. Tu análisis del problema de Ana es completo y sistemático. Identificas bien las variables aunque la clasificación necesita práctica.",
+      "strengths": [
+        "Progreso del nivel 1 al nivel 2",
+        "Identificación completa de variables de tiempo y decisión",
+        "Reflexión metacognitiva sobre el proceso",
+        "Conexión práctica con vida real y otras materias"
+      ],
+      "improvements": [
+        "Practicar más la clasificación de variables en categorías",
+        "Mejorar distinción entre controlable/no controlable",
+        "Trabajar en organización visual con cuadros"
+      ],
+      "createdAt": "2025-01-09 11:30:00"
+    },
+    {
+      "feedbackId": "fb_donadio_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 60,
+      "generalComments": "Magdalena, mantienes el nivel 2. Tu estrategia de selección de herramientas es correcta: primero tiempo, luego alcance. La metodología sistemática está mejorando.",
+      "strengths": [
+        "Estrategia correcta de dos pasos secuenciales",
+        "Identificación de variables conocidas y desconocidas",
+        "Comprensión de dependencias entre fórmulas",
+        "Aplicación de las 3 fases metodológicas"
+      ],
+      "improvements": [
+        "Clarificar conceptos y terminología nueva",
+        "Practicar más ejercicios de selección de herramientas",
+        "Mejorar velocidad de conexión entre conceptos"
+      ],
+      "createdAt": "2025-01-09 11:35:00"
+    },
+    {
+      "feedbackId": "fb_donadio_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Excelente trabajo Magdalena! Aplicaste las 4 fases completas de manera sistemática. Tu cálculo de altura máxima (33.75m) es correcto y la justificación deportiva muestra comprensión profunda.",
+      "strengths": [
+        "Aplicación completa de las 4 fases metodológicas",
+        "Cálculo correcto de altura máxima (33.75m)",
+        "Identificación exhaustiva de variables (11 variables)",
+        "Contexto práctico relevante (aplicación deportiva)"
+      ],
+      "improvements": [
+        "Profundizar en comprensión de cada fase",
+        "Ganar confianza en resolución independiente",
+        "Practicar más para mejorar velocidad"
+      ],
+      "createdAt": "2025-01-09 11:40:00"
+    },
+    {
+      "feedbackId": "fb_donadio_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 85,
+      "generalComments": "Excelente evolución al nivel 3, Magdalena! Tu resolución del problema del golfista es impecable con cálculos precisos (159.05m). La reflexión metacognitiva muestra madurez notable.",
+      "strengths": [
+        "Evolución exitosa del nivel 2 al nivel 3",
+        "Aplicación sistemática de 4 fases completa",
+        "Cálculos precisos con resolvente cuadrática",
+        "Reflexión metacognitiva profunda sobre el aprendizaje"
+      ],
+      "improvements": [
+        "Consolidar confianza en selección de fórmulas",
+        "Mantener este nivel de excelencia",
+        "Continuar con práctica regular"
+      ],
+      "createdAt": "2025-01-09 11:45:00"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Magdalena Donadio, durante esta semana se realizó la evaluación de los contenidos trabajados, por lo que no hubo desarrollo de nuevos temas en Física. Este es un momento importante de consolidación de lo aprendido en las semanas anteriores.",
+      "strengths": [
+        "Participaste de la evaluación del período",
+        "Momento de consolidación de aprendizajes previos"
+      ],
+      "improvements": [
+        "Continúa repasando los temas evaluados para fortalecer tu comprensión",
+        "Identifica áreas donde necesites apoyo adicional según los resultados de la evaluación"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Magdalena Donadio, durante la Semana de Santo Tomás no se desarrollaron temas nuevos en Física debido a las actividades institucionales especiales, incluyendo la misa conmemorativa. Es comprensible que el reporte refleje esta situación particular del calendario escolar.",
+      "strengths": [
+        "Comprendes el contexto institucional de la Semana de Santo Tomás",
+        "Participaste de las actividades especiales del colegio"
+      ],
+      "improvements": [
+        "Aprovecha este tiempo para consolidar temas previos de manera autónoma",
+        "Repasa conceptos que te hayan resultado desafiantes en semanas anteriores"
+      ],
+      "createdAt": "2025-10-07T14:31:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Magdalena Donadio, durante esta semana no se desarrollaron temas nuevos de Física debido al viaje educativo a Madryn, y las horas de la materia se destinaron a la preparación del examen de Química. Es positivo que aproveches el tiempo disponible para otras prioridades académicas.",
+      "strengths": [
+        "Utilizaste el tiempo de manera estratégica para preparar el examen de Química",
+        "Comprendes la necesidad de priorizar según el contexto académico"
+      ],
+      "improvements": [
+        "Mantén al día los temas de Física para retomar con facilidad después del viaje",
+        "Aprovecha experiencias del viaje educativo que puedan conectarse con conceptos de Física"
+      ],
+      "createdAt": "2025-10-07T14:32:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 70,
+      "generalComments": "Querida Magdalena Donadio, te encuentras en proceso de desarrollo en la Fase 1 del nuevo tema de Dinámica, mostrando avances parciales en Física. Comprendes correctamente las diferencias entre masa y peso, y entre fuerzas de acción y reacción, demostrando buena comprensión inicial de las leyes de Newton. Realizas una conexión muy apropiada entre dinámica y cinemática, reconociendo que la dinámica explica por qué ocurre el movimiento que la cinemática describe. Es importante trabajar en la comprensión de la fuerza de rozamiento, que identificas como tu principal dificultad. Confía en que con el tiempo y la práctica comprenderás mejor este concepto que ahora te resulta confuso. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Distingues correctamente entre masa (cantidad de materia) y peso (fuerza de gravedad)",
+        "Comprendes que las fuerzas de acción y reacción actúan sobre cuerpos diferentes",
+        "Realizas una conexión conceptual profunda entre dinámica y cinemática"
+      ],
+      "improvements": [
+        "Dedica tiempo específico a comprender la fuerza de rozamiento con ejemplos cotidianos",
+        "Practica la aplicación de las tres leyes de Newton a situaciones concretas variadas",
+        "Trabaja en diferenciar claramente los nuevos términos de dinámica para no mezclarlos"
+      ],
+      "createdAt": "2025-10-07T14:33:00Z"
+    },
+    {
+      "feedbackId": "223c091c-23a0-496c-9396-3683d32b4278",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:28:23.309Z"
+    },
+    {
+      "feedbackId": "16b389f1-f5f0-4d39-9c6f-384b33faafb1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:57.980Z"
+    },
+    {
+      "feedbackId": "edd528b3-84f9-4877-a3b5-0c1a61ade21e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:08.670Z"
+    },
+    {
+      "feedbackId": "b6e5934a-ab5b-4439-ba14-a31d5b1c2b28",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:18:24.650Z"
+    },
+    {
+      "feedbackId": "4d60832a-9b21-43e3-b852-a0e6a9123244",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Valoro que hayas asistido a las clases teóricas y que reconozcas que te ayudaron a entender mejor. Eso es un buen punto de partida. Sin embargo, tu reporte esta semana es muy breve y no muestra el trabajo profundo que espero en Fase 2.\n\nEl desafío ahora es pasar de \"entender la teoría\" a \"aplicar la teoría identificando variables específicas.\" Cuando resuelvas ejercicios de dinámica, necesito que me muestres exactamente qué variables identificaste, cómo las clasificaste y por qué. Eso es lo que diferencia un buen reporte de uno excelente.\n\nPara la próxima semana, cuando tengan ejercicios prácticos, tómate tiempo para reflexionar sobre cada variable que encuentres. Pregúntate: ¿Es conocida o desconocida? ¿Puedo controlarla? ¿Qué magnitud física representa? Esto te preparará para Fase 3 donde necesitarás formular hipótesis basadas en estas variables.",
+      "strengths": "• Reconocimiento de progreso en comprensión: Identificas que las clases teóricas te ayudaron a entender mejor los temas. Esto muestra que estás atento a tu propio aprendizaje y valoras la teoría como base.\n• Conexión entre conceptos: Mencionas la relación entre dinámica y cinemática, lo que indica que intentas integrar conocimientos previos, aunque necesites desarrollar esto con más detalle.",
+      "improvements": "• Falta de identificación específica de variables: No mencionas qué variables trabajaste en dinámica (fuerza, masa, aceleración, tiempo, etc.). Para Fase 2, debes listar explícitamente las variables de cada problema y clasificarlas como conocidas/desconocidas o controlables/no controlables. Practica esto en los próximos ejercicios.\n• Ausencia de evidencia concreta de aprendizaje: Dices que entiendes mejor, pero no lo demuestras con ejemplos. Cuando resuelvas ejercicios, adjunta fotos o descripciones de cómo identificaste variables en cada problema. Esto es lo que busca Fase 2: ver tu proceso de clasificación.\n• Falta de reflexión metacognitiva: Respuestas como \"no me costó nada\" o dejar Q5 vacía sugieren que no estás analizando tu propio aprendizaje. Dedica tiempo a preguntarte: ¿Qué fue difícil? ¿Cómo lo resolví? ¿Qué haría diferente? Esto es fundamental para el pensamiento crítico.",
+      "createdAt": "2025-10-27T04:52:39.438Z"
+    },
+    {
+      "feedbackId": "76f0ec67-6623-4d99-a47c-14f695b27e9f",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que tienes las bases matemáticas claras: tus cálculos están correctos y entiendes cómo aplicar F=m·a. Eso es un buen punto de partida. Sin embargo, esta semana en Fase 2 necesitabas ir más allá: no solo resolver problemas, sino analizar *qué variables* están en juego, *cómo se clasifican* y *por qué importa* diferenciarlas.\n\nTu desempeño muestra que dominas el \"cómo calcular\", pero aún necesitas fortalecer el \"qué estoy identificando\". Esto es crucial porque en Fase 3 usarás estas variables para plantear hipótesis y diseñar experimentos.\n\nPara la próxima semana, te propongo que antes de resolver cualquier problema de dinámica, hagas una tabla simple: \"Variables conocidas | Variables desconocidas | Controlables | No controlables\". Esto te ayudará a desarrollar el pensamiento crítico que buscamos en esta fase.",
+      "strengths": "• Aplicación de fórmulas correcta: En ambos casos (a y b) aplicas correctamente la ecuación F=m·a y realizas las operaciones matemáticas de forma adecuada, mostrando que dominas el cálculo básico.\n• Reconocimiento de dificultades personales: En Q1 eres honesto al admitir que confundes \"pequeñas cosas\" en las cuentas, lo que demuestra autoconciencia sobre áreas de mejora.\n• Conexión con aplicaciones reales: Identificas que la dinámica se aplica en máquinas, autos y puentes, mostrando que ves la relevancia del tema más allá del aula.",
+      "improvements": "• Identificación sistemática de variables: En tus cálculos, no señalas cuáles son las variables conocidas (F1=10 kgf, F2=15 kgf, m=40 kg) y cuál es la desconocida (a). Antes de resolver, haz una lista: \"Conocidas: F1, F2, m. Desconocidas: a\". Esto es el corazón de Fase 2.\n• Clasificación de variables según su tipo: No distingues entre variables controlables (las fuerzas que aplicamos) y no controlables (la masa del cuerpo). Añade esta clasificación a tus problemas: \"Controlables: F1, F2 | No controlables: m\". Te ayudará a entender mejor el fenómeno.\n• Reflexión genuina sobre dificultades: Tu respuesta en Q3 contradice lo que dijiste en Q1. Sé específico: ¿Confundes signos de fuerzas? ¿Unidades? ¿Cuándo restar vs. sumar? Identifica la dificultad real para poder trabajar en ella con estrategias concretas.",
+      "createdAt": "2025-11-03T12:17:08.442Z"
+    },
+    {
+      "feedbackId": "378ee694-79b1-4cb1-884e-3595bbf0983e",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Tu reporte muestra que estás en el camino correcto con el proyecto de la catapulta y que comprendes los conceptos básicos de dinámica. Sin embargo, tu respuesta es demasiado superficial para la Fase 2, que exige análisis sistemático de variables y clasificación precisa. Necesitas ser más específico y reflexivo en tus respuestas.\n\nEsta semana hiciste un buen trabajo eligiendo un proyecto práctico, pero ahora viene la parte crítica: desglosar exactamente qué variables intervienen, cuáles controlas y cuáles no. Esto es lo que diferencia un proyecto entretenido de un verdadero aprendizaje científico.\n\nPara la próxima semana, te pido que hagas una lista completa de variables para tu catapulta (al menos 8-10), las clasifiques en una tabla, y reflexiones sobre qué dificultades reales enfrentas al identificarlas. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Conexión teoría-práctica clara: Tu elección del proyecto de la catapulta demuestra que entiendes cómo aplicar las Leyes de Newton en situaciones reales. Esto es excelente para consolidar conceptos abstractos.\n• Identificación de variables relevantes (aunque incompleta): Mencionas \"fuerzas\", \"movimiento\", \"masa\" y \"aceleración\" en tu respuesta sobre la catapulta, lo que muestra que reconoces qué magnitudes físicas importan en el problema.\n• Actitud positiva hacia el aprendizaje: Tu comentario \"capaz que con esto termino de entender mejor el tema\" refleja disposición a aprender y conciencia de que el proyecto te ayudará a profundizar.",
+      "improvements": "• Clasificación sistemática de variables: En la Fase 2 debes ir más allá de solo nombrar variables. Para tu proyecto de catapulta, identifica: ¿cuáles son conocidas (masa del proyectil, ángulo de lanzamiento)? ¿cuáles desconocidas (velocidad inicial)? ¿cuáles controlables en tu experimento? Haz una tabla o lista clara.\n• Reflexión honesta sobre dificultades: Decir que \"no hay nada difícil\" no es realista ni útil. Pregúntate: ¿Cómo diferencio una variable controlable de una no controlable? ¿Qué magnitudes físicas confundo? Identifica al menos una dificultad real y propón una estrategia concreta para superarla (ej: \"Confundo variables independientes con dependientes; usaré un diagrama de causa-efecto\").\n• Profundidad en conexiones: Tus conexiones entre temas son muy generales. Especifica: \"La dinámica se conecta con cinemática porque la aceleración (dinámica) cambia la velocidad (cinemática). En mi catapulta, la fuerza aplicada genera aceleración, que produce el movimiento que medimos.\" Esto demuestra integración real de conceptos.",
+      "createdAt": "2025-11-12T22:51:08.880Z"
+    },
+    {
+      "feedbackId": "86c13ee7-9dd4-4243-8dde-4eaf2a6d3c39",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que estás trabajando en el tema de dinámica y realizando un trabajo práctico, lo cual es un buen inicio. Sin embargo, tu reporte esta semana es muy breve y no muestra la profundidad de análisis que esperamos en Fase 2. Necesitas documentar mejor qué variables identificas, cómo las clasificas y qué dificultades reales encuentras.\n\nTu desempeño esta semana requiere un cambio importante: pasar de respuestas superficiales a reflexiones concretas. Cuando dices \"no hay nada que se me haya complicado\", pierdes la oportunidad de aprender. En Fase 2, es normal encontrar desafíos al diferenciar tipos de variables.\n\nPara la próxima semana, te pido que: (1) hagas una lista completa de variables del trabajo práctico, (2) las clasifiques en una tabla, y (3) escribas al menos 2-3 líneas por pregunta explicando tu pensamiento. Esto te ayudará a consolidar el aprendizaje y a mostrar realmente qué estás comprendiendo.",
+      "strengths": "• Reconoces el tema trabajado: Identificas correctamente que estás estudiando dinámica, lo que muestra que tienes claridad sobre el contenido general de la semana.\n• Intentas conectar conceptos: Tu mención de la relación entre dinámica y cinemática demuestra que buscas vincular temas, aunque necesite más detalle.",
+      "improvements": "• Falta especificidad en identificación de variables: No mencionas qué variables concretas (fuerza, masa, aceleración, velocidad) has identificado en dinámica. Acción: En tu próximo reporte, lista al menos 5 variables del tema y clasifica cada una como conocida/desconocida y controlable/no controlable.\n• Respuestas muy breves sin análisis: Tus respuestas son de una sola línea cuando deberían mostrar reflexión profunda. Acción: Dedica tiempo a escribir 3-4 líneas por pregunta explicando tu pensamiento. Por ejemplo, en Q3 podrías escribir: \"Me cuesta diferenciar si la temperatura es controlable en un experimento de caída libre porque...\"\n• Ausencia de evidencia de aprendizaje documentada: Dices que haces un trabajo práctico pero no muestras qué variables identificaste o cómo las clasificaste. Acción: Adjunta fotos o describe específicamente qué variables encontraste en el trabajo práctico y cómo las organizaste.",
+      "createdAt": "2025-11-17T13:43:56.074Z"
+    }
+  ]
+}

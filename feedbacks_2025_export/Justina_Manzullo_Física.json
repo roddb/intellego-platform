@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "studentId": "u_92u4fm0txme1fny4m",
+    "studentName": "Justina Manzullo",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.211886",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 59.0,
+      "minScore": 27,
+      "maxScore": 76,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-29"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 73,
+      "generalComments": "Querida Justina Manzullo, Has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Física. Demuestras buena comprensión del contexto del problema del arquero. Identificas con precisión las dificultades que enfrentas en distinguir información relevante. Realizas conexiones interesantes entre el pensamiento crítico y su aplicación en la vida cotidiana. Te recomiendo practicar la distinción entre información relevante e irrelevante en más problemas variados. Proporciona evidencias más concretas sobre cómo aplicas cada paso del pensamiento crítico. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Demuestras buena comprensión del contexto del problema planteado",
+        "Identificas dificultades específicas en la comprensión del problema y propones estrategias concretas",
+        "Realizas conexiones básicas entre el pensamiento crítico y aplicaciones cotidianas"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Busca aplicaciones prácticas de identificación de problemas en situaciones variadas"
+      ],
+      "createdAt": "2025-10-07 16:06:42"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Querida Justina Manzullo, Te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Demuestras perseverancia ante las dificultades en la comprensión del tiro oblicuo. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada situación. Debes practicar más la aplicación de ecuaciones a situaciones concretas de tiro oblicuo. Es importante mejorar la justificación de por qué seleccionas determinadas fórmulas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras perseverancia ante las dificultades con el tema de tiro oblicuo",
+        "Reconoces con precisión que necesitas más práctica para sentirte segura",
+        "Utilizas estrategias como mirar ejemplos resueltos para aprender"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas fórmulas"
+      ],
+      "createdAt": "2025-10-07 16:07:26"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 43,
+      "generalComments": "Querida Justina Manzullo, Te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Física. Muestras capacidad para aplicar fórmulas de manera mecánica llegando a resultados numéricos. Es fundamental fortalecer tu capacidad para comprender el significado físico de cada fórmula y cuándo aplicarlas. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada situación. Es importante mejorar la identificación precisa de tus dificultades específicas para poder trabajarlas efectivamente. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Muestras capacidad para aplicar fórmulas mecánicamente y llegar a resultados numéricos",
+        "Reconoces honestamente tu nivel de comprensión actual del tema",
+        "Realizas conexiones básicas entre física y matemática"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para comprender el significado físico de cada fórmula",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Es importante mejorar la identificación precisa de tus dificultades específicas"
+      ],
+      "createdAt": "2025-10-07 16:07:26"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Querida Justina Manzullo, Has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Muestras problemas resueltos con proceso completo utilizando las 4 fases de forma organizada. Identificas con precisión tus dificultades con las fórmulas y reconoces tus fortalezas en el cálculo matemático. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje y confianza en tu mejora. Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos. Necesitas consolidar tu comprensión de cuándo aplicar cada fórmula específica del tiro oblicuo. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Muestras problemas resueltos con proceso completo organizando las 4 fases sistemáticamente",
+        "Identificas con precisión tus dificultades con las fórmulas y tus fortalezas en matemática",
+        "Demuestras reflexión sobre tu propio proceso y confianza en que lograrás prepararte bien"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar",
+        "Necesitas consolidar tu comprensión de cuándo aplicar cada fórmula específica",
+        "Profundiza más en la reflexión sobre qué específicamente te ayuda a aprender mejor"
+      ],
+      "createdAt": "2025-10-07 16:08:43"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 76,
+      "generalComments": "Querida Justina Manzullo, Tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de la resolución sistemática de problemas de tiro oblicuo, mostrando capacidad para integrar las 4 fases metodológicas. Muestras problemas completamente resueltos con proceso detallado incluyendo ecuación cuadrática y análisis del resultado. Demuestras iniciativa al crear un cuadro propio para organizar cuándo usar cada fórmula. Realizas conexiones interesantes entre tiro oblicuo y movimientos previos como MRU y MRUV. Desarrolla estrategias más específicas para identificar rápidamente qué información proporciona el enunciado. Trabaja en expresar reflexiones más profundas sobre tu proceso de aprendizaje en los comentarios adicionales. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Muestras problemas completamente resueltos con ecuación cuadrática aplicada correctamente",
+        "Demuestras iniciativa al crear herramientas propias como un cuadro organizador de fórmulas",
+        "Realizas conexiones significativas entre tiro oblicuo, MRU, MRUV y matemática"
+      ],
+      "improvements": [
+        "Desarrolla estrategias más específicas para analizar ejercicios y extraer información",
+        "Trabaja en expresar reflexiones más profundas sobre tu proceso en los comentarios",
+        "Profundiza en explicitar qué te ayuda específicamente de las herramientas que creas"
+      ],
+      "createdAt": "2025-10-07 16:08:43"
+    },
+    {
+      "feedbackId": "fb_002_2_me1fny4m_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Justina Manzullo, Debido a que te enfocaste en la preparación del examen de Química, no fue posible evaluar tu progreso en Física durante esta semana. Entiendo que las prioridades académicas a veces requieren concentración en evaluaciones específicas. Es importante mantener constancia y regularidad en la reflexión sobre tu aprendizaje en cada materia. Te sugiero que en situaciones similares, aunque no hayas trabajado contenidos nuevos, aproveches el reporte para reflexionar brevemente sobre tu situación actual. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario si lo requieres.",
+      "strengths": [
+        "Reconoces la necesidad de priorizar el examen de química en esta semana específica",
+        "Comunicas claramente la razón de no trabajar contenido de física",
+        "Muestras gestión de prioridades académicas ante múltiples demandas"
+      ],
+      "improvements": [
+        "Es importante mantener constancia y regularidad en la reflexión sobre cada materia",
+        "Aprovecha los reportes para reflexionar brevemente sobre tu situación actual aunque no trabajes contenido nuevo",
+        "Desarrolla estrategias para mantener conexión con todas las materias en semanas de evaluaciones concentradas"
+      ],
+      "createdAt": "2025-10-07 16:08:43"
+    }
+  ]
+}

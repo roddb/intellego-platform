@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "studentId": "u_4920yklv9me1fto0f",
+    "studentName": "Lola Valverde",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.213020",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 65.67,
+      "minScore": 53,
+      "maxScore": 77,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "4dbf9623143b03fad31a4e533358f7c0",
+      "weekStart": "2025-08-04",
+      "score": 69,
+      "generalComments": "Lola muestra buena comprensión inicial del método de pensamiento crítico. Su aplicación al problema de las bolsas de papas demuestra capacidad de análisis sistemático sin depender de fórmulas. La honestidad sobre sus dificultades y tentaciones (IA) refleja madurez metacognitiva.",
+      "strengths": [
+        "Aplica el método paso a paso en problemas concretos",
+        "Excelente autorregulación al resistir búsquedas fáciles",
+        "Conecta bien los conceptos con la vida cotidiana"
+      ],
+      "improvements": [
+        "Profundizar en la identificación de información relevante vs irrelevante",
+        "Desarrollar respuestas más detalladas en Q4",
+        "Trabajar la confianza para reducir dependencia de ayudas externas"
+      ],
+      "createdAt": "2025-09-27 21:00:06"
+    },
+    {
+      "feedbackId": "6042cba15562281d80f4f3d9a8bca14f",
+      "weekStart": "2025-08-11",
+      "score": 53,
+      "generalComments": "Lola, aunque sientes que no comprendes, logras identificar las variables clave (presión, volumen, temperatura) y organizarlas en tablas. La conversión de unidades es una habilidad importante que estás desarrollando.",
+      "strengths": [
+        "Identificación correcta de variables en el ejercicio del globo",
+        "Organización de datos en tabla",
+        "Uso apropiado de fórmula de conversión °C a Kelvin"
+      ],
+      "improvements": [
+        "Practicar más conversiones de temperatura con ejercicios guiados",
+        "Crear tarjetas de referencia con las variables y sus unidades",
+        "Trabajar la confianza reconociendo los logros pequeños"
+      ],
+      "createdAt": "2025-09-27 20:55:25"
+    },
+    {
+      "feedbackId": "32213e6b78cec374456b474103dab565",
+      "weekStart": "2025-08-18",
+      "score": 67,
+      "generalComments": "Lola, demuestras comprensión sólida de la Ley de Boyle y su aplicación práctica con el ejemplo de la jeringa. Aunque sientes que el tema es difícil, tu capacidad de explicar conceptos muestra que entiendes más de lo que crees.",
+      "strengths": [
+        "Comprensión clara de la Ley de Boyle y relación presión-volumen",
+        "Aplicación práctica con ejemplo concreto de jeringa",
+        "Identificación de conexiones interdisciplinarias con física y matemática"
+      ],
+      "improvements": [
+        "Organizar las leyes en fichas con ejemplos visuales",
+        "Practicar conversión de unidades antes de aplicar fórmulas",
+        "Aumentar confianza reconociendo los conceptos que ya dominas"
+      ],
+      "createdAt": "2025-09-27 20:53:16"
+    },
+    {
+      "feedbackId": "37782f22cebaaa8ce98ff14124f8f32d",
+      "weekStart": "2025-08-25",
+      "score": 77,
+      "generalComments": "Lola, tu comprensión de las leyes de gases muestra progreso significativo. Identificas correctamente cuándo usar cada ley y tu investigación activa sobre fracción molar demuestra excelente autorregulación.",
+      "strengths": [
+        "Diferenciación clara entre leyes según variable que cambia",
+        "Investigación independiente para comprender conceptos difíciles",
+        "Conexión efectiva con fenómenos cotidianos (gaseosa)"
+      ],
+      "improvements": [
+        "Crear tabla comparativa de leyes con condiciones de aplicación",
+        "Practicar más ejercicios de mezclas de gases",
+        "Fortalecer comprensión de fracción molar con ejemplos simples"
+      ],
+      "createdAt": "2025-09-27 20:48:25"
+    },
+    {
+      "feedbackId": "2560a1b8033b57e121613be4b2d2aa90",
+      "weekStart": "2025-09-08",
+      "score": 67,
+      "generalComments": "Lola, tu aplicación sistemática de las 4 fases muestra un progreso importante. Aunque aún sientes dificultad, lograste resolver un problema complejo del globo meteorológico, lo cual es un gran avance.",
+      "strengths": [
+        "Aplicación completa del método de 4 fases en problemas complejos",
+        "Perseverancia para resolver a pesar de la dificultad",
+        "Reflexión constructiva sobre el proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Practicar la interpretación inicial de problemas antes de aplicar fórmulas",
+        "Profundizar las conexiones con ejemplos cotidianos más específicos",
+        "Crear fichas de referencia rápida para selección de fórmulas"
+      ],
+      "createdAt": "2025-09-27 20:39:28"
+    },
+    {
+      "feedbackId": "bae4b86240dc4274a7d5e08c7655d00b",
+      "weekStart": "2025-09-15",
+      "score": 61,
+      "generalComments": "Lola, valoro mucho tu aplicación sistemática de las 4 fases del pensamiento crítico en el simulacro. Aunque sientes que el nivel de comprensión es bajo, tu metodología de trabajo es correcta y eso es fundamental para mejorar.",
+      "strengths": [
+        "Aplicación sistemática del método de 4 fases en problemas complejos",
+        "Autoevaluación honesta y actitud positiva hacia la mejora",
+        "Capacidad de resolver problemas siguiendo un proceso estructurado"
+      ],
+      "improvements": [
+        "Crear un cuadro comparativo de fórmulas con sus condiciones de uso",
+        "Practicar más ejercicios simples antes de abordar problemas complejos",
+        "Buscar apoyo adicional para fortalecer la comprensión conceptual"
+      ],
+      "createdAt": "2025-09-27 20:31:18"
+    }
+  ]
+}

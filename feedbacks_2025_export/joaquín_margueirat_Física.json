@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "studentId": "u_0mkknqzfwme0b1gv6",
+    "studentName": "joaquín margueirat",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.243669",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 48.08,
+      "minScore": 27,
+      "maxScore": 78,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_margueirat_joaquin_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Joaquín no asistió a clase esta semana. Es importante recuperar el contenido perdido para no atrasarse en el desarrollo del tema.",
+      "strengths": [
+        "Reportó ausencia de manera responsable",
+        "Completó el reporte semanal a pesar de no asistir"
+      ],
+      "improvements": [
+        "Recuperar contenido de la clase perdida",
+        "Solicitar material y apuntes a compañeros",
+        "Buscar tutoría para ponerse al día"
+      ],
+      "createdAt": "2025-01-09 16:20:00"
+    },
+    {
+      "feedbackId": "fb_margueirat_joaquin_2025_08_11",
+      "weekStart": "2025-08-11",
+      "score": 58,
+      "generalComments": "Joaquín regresa con trabajo en Fase 2 sobre identificación de variables. Aunque no comprende completamente el objetivo, resolvió ejercicios correctamente analizando la rutina de Ana con pensamiento sistemático.",
+      "strengths": [
+        "Resolvió ejercicio completo de análisis de rutina",
+        "Identificó correctamente el problema principal",
+        "Descubrió variables no consideradas inicialmente",
+        "Aplicó proceso sistemático de análisis"
+      ],
+      "improvements": [
+        "Comprender mejor el objetivo de la metodología",
+        "Conectar estos pasos con problemas de Física",
+        "Practicar más ejercicios para consolidar"
+      ],
+      "createdAt": "2025-01-09 16:21:00"
+    },
+    {
+      "feedbackId": "fb_margueirat_joaquin_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 62,
+      "generalComments": "Joaquín avanza a tiro oblicuo nivel 2. Comprende bien la teoría y resolvió correctamente un ejercicio de altura máxima con cálculos precisos (13m). Principal dificultad: enlazar fórmulas entre sí.",
+      "strengths": [
+        "Comprensión teórica sólida nivel 2",
+        "Cálculo correcto de altura máxima",
+        "Aplicó método sistemático (v0y, tiempo, posición)",
+        "Identifica conexión con tiro vertical"
+      ],
+      "improvements": [
+        "Practicar enlace entre diferentes fórmulas",
+        "Trabajar más ejercicios variados",
+        "Consolidar comprensión de relaciones entre ecuaciones"
+      ],
+      "createdAt": "2025-01-09 16:22:00"
+    },
+    {
+      "feedbackId": "fb_margueirat_joaquin_2025_08_25",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Excelente avance: Joaquín alcanza nivel 3 en tiro oblicuo. Resuelve ejercicios con apoyo pero muestra comprensión sólida. Calculó correctamente altura máxima (33.75m) usando fórmula directa.",
+      "strengths": [
+        "Avance a nivel 3 de complejidad",
+        "Cálculo correcto con fórmula directa de hmax",
+        "Identifica conexiones con MRU, MRUV y trigonometría",
+        "Reconoce que necesita apoyo colaborativo",
+        "Proceso mental ágil aunque no lo explicite"
+      ],
+      "improvements": [
+        "Desarrollar explicación escrita del proceso",
+        "Practicar selección autónoma de fórmulas",
+        "Ganar independencia en la resolución"
+      ],
+      "createdAt": "2025-01-09 16:23:00"
+    },
+    {
+      "feedbackId": "fb_margueirat_joaquin_2025_09_01",
+      "weekStart": "2025-09-01",
+      "score": 78,
+      "generalComments": "Joaquín consolida nivel 3 con excelente desempeño. Resolvió problema complejo del golfista con alcance correcto. Muestra madurez en organización de datos y uso de estrategias visuales (dibujos).",
+      "strengths": [
+        "Nivel 3 consolidado en tiro oblicuo",
+        "Resolvió problema complejo del golfista correctamente",
+        "Estrategia efectiva: dibujo para visualizar",
+        "Organización sistemática de variables",
+        "Comprensión clara de MRU + MRUV",
+        "Aplicación correcta de ecuaciones"
+      ],
+      "improvements": [
+        "Practicar con condiciones extras (viento, altura inicial)",
+        "Continuar desarrollando autonomía",
+        "Avanzar hacia problemas más complejos"
+      ],
+      "createdAt": "2025-01-09 16:24:00"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Hola Joaquín,\n\nEsta semana realizaste el examen de la unidad, por lo que no hay reporte de proceso de aprendizaje semanal para evaluar. Espero que hayas demostrado en el examen los conocimientos desarrollados en las semanas previas.\n\nQuedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completaste la evaluación de la unidad en el tiempo establecido"
+      ],
+      "improvements": [
+        "Retomar el proceso de reflexión semanal en las próximas semanas"
+      ],
+      "createdAt": "2025-10-09T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Hola Joaquín,\n\nEsta semana no hubo clases de Física debido a que las horas se utilizaron para repasar Química. No hay contenido de Física para evaluar en este período.\n\nLa próxima semana retomaremos el proceso regular de aprendizaje en Física.",
+      "strengths": [
+        "Aprovechaste el tiempo para preparar evaluación de Química"
+      ],
+      "improvements": [
+        "Retomar el ritmo de Física la próxima semana"
+      ],
+      "createdAt": "2025-10-09T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Hola Joaquín,\n\nEsta semana no hubo clases debido al viaje a Puerto Madryn. Espero que hayas disfrutado de esta experiencia educativa importante para tu formación.\n\nNos reencontramos la próxima semana para continuar con Física.",
+      "strengths": [
+        "Participaste en la experiencia educativa de Puerto Madryn"
+      ],
+      "improvements": [
+        "Aprovechar la próxima semana para retomar con energía"
+      ],
+      "createdAt": "2025-10-09T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 66,
+      "generalComments": "Hola Joaquín,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física con el nuevo tema de Leyes de Newton. Comprendes correctamente la diferencia fundamental entre dinámica (causas del movimiento) y cinemática (descripción del movimiento).\n\nTe recomiendo practicar la distinción entre conceptos relacionados como masa y peso. Busca conexiones entre la dinámica y los temas de cinemática que ya estudiaste (MRU, MRUV, tiro oblicuo).\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes correctamente la diferencia entre dinámica y cinemática",
+        "Reconoces con honestidad tus dificultades y necesidad de familiarización",
+        "Identificas específicamente la confusión entre masa y peso"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre conceptos relacionados como masa y peso",
+        "Busca conexiones entre la dinámica y los temas de cinemática que ya estudiaste",
+        "Es importante desarrollar estrategias más específicas que el simple paso del tiempo"
+      ],
+      "createdAt": "2025-10-09T00:00:00Z"
+    },
+    {
+      "feedbackId": "65105979-7227-4f21-b1e4-e8ae759c9c42",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:16.204Z"
+    },
+    {
+      "feedbackId": "fdf1d562-b4af-42e3-944a-72beff513390",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:05:59.639Z"
+    },
+    {
+      "feedbackId": "2521895b-bfa1-46ac-8c47-417bfe235dfd",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que comprendiste bien la representación gráfica de diagramas de cuerpo libre, y eso es un buen punto de partida. Sin embargo, tu reporte esta semana se enfoca más en lo que dibujaste que en el análisis de variables que es el objetivo central de Fase 2. Necesitas ir más allá del \"cómo se dibuja\" y profundizar en el \"qué variables hay y cómo se relacionan\".\n\nTu desempeño muestra confianza, pero también indica que podrías estar saltando pasos importantes del análisis. La plataforma tuvo problemas técnicos, lo entiendo, pero aprovecha esta semana para completar ese análisis de variables que faltó.\n\nPara la próxima semana, te pido que cuando resuelvas un problema de DCL, primero hagas una lista completa de variables (conocidas/desconocidas, controlables/no controlables) antes de dibujar. Esto te preparará mejor para Fase 3, donde necesitarás manipular esas variables para resolver ecuaciones.",
+      "strengths": "• Confianza en el tema: Expresas seguridad al decir \"no me cuesta mucho\" sobre diagramas de cuerpo libre, lo que sugiere que comprendiste la representación gráfica básica del concepto.\n• Reconocimiento de conexiones interdisciplinarias: Identificas que los temas se conectan con matemática a través de gráficos, mostrando que ves relaciones entre disciplinas.\n• Disposición a trabajar: Tu participación en la plataforma y entrega del reporte demuestra compromiso con el proceso de aprendizaje.",
+      "improvements": "• Profundizar en la clasificación de variables: En tu respuesta sobre el DCL, necesitas identificar explícitamente cuáles son las variables conocidas (100N, 5N, 20kg), desconocidas (aceleración), controlables (fuerza aplicada) y no controlables (gravedad). Esto es el corazón de Fase 2.\n• Completar y detallar ejemplos: Tu respuesta Q2 quedó cortada. Cuando resuelvas un problema, incluye: qué variables identificaste, cómo las clasificaste, y por qué esa clasificación es importante para resolver el ejercicio.\n• Reflexionar sobre dificultades reales: Aunque no hayas tenido problemas, pregúntate: ¿Qué fue lo más desafiante al dibujar el DCL? ¿Cómo decidiste dónde poner cada fuerza? Esta metacognición fortalece tu pensamiento crítico.",
+      "createdAt": "2025-10-27T05:07:28.734Z"
+    },
+    {
+      "feedbackId": "15d43bab-f5db-4c01-919b-d8bf541f7e46",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Valoro tu honestidad al reconocer que esta semana no fue tu mejor desempeño. Eso demuestra madurez. Sin embargo, tu reporte es muy breve y no proporciona suficiente información sobre qué específicamente aprendiste o dónde necesitas ayuda. Mencionas que los ejercicios se volvieron complejos, pero no describes qué variables o conceptos te confundieron.\n\nTu desempeño esta semana está en nivel inicial. Aunque entregaste los ejercicios, el reporte no evidencia que hayas identificado y clasificado variables (el objetivo central de Fase 2), ni que hayas reflexionado sobre tu proceso de aprendizaje. Esto es preocupante porque sin claridad en variables, los temas posteriores serán aún más difíciles.\n\nPara la próxima semana, necesito que hagas un esfuerzo diferente: antes de entregar ejercicios, haz una lista escrita de todas las variables que encuentres (qué datos tienes, qué buscas, cuáles puedes controlar). Luego, en tu reporte, muestra esa lista y explica cómo la usaste. Esto te dará claridad y me permitirá ayudarte mejor.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no estoy entendiendo mucho el tema\" y te das una calificación coherente (tres). Esto muestra autoconciencia sobre tu desempeño, que es el primer paso para mejorar.\n• Identificación de un punto de quiebre: Mencionas que \"al principio entendía pero los ejercicios se empezaron a hacer más complejos\". Esto es valioso porque señala dónde comenzó la dificultad, lo que permite intervenir específicamente.\n• Conexión con temas previos: Relacionas el contenido actual con MRU y MRUV, mostrando que intentas vincular conceptos. Aunque la conexión es breve, demuestra que buscas integrar conocimientos.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de decir \"los ejercicios son complejos\", especifica: ¿Qué variables desconocidas encontraste? ¿Cuáles eran controlables y cuáles no? Haz una lista concreta de magnitudes físicas (velocidad, tiempo, aceleración, etc.) en los problemas que trabajaste. Esto te ayudará a ver el tema con claridad.\n• Documenta tu proceso de aprendizaje: No basta con entregar ejercicios. Describe qué pasos seguiste para resolverlos: ¿Identificaste datos? ¿Escribiste qué buscabas? ¿Elegiste la fórmula correcta? Mostrar tu proceso es evidencia real de aprendizaje y te permite detectar dónde fallas.\n• Propón estrategias concretas para superar confusiones: Cuando dices \"el planteo se me hizo confuso\", pregúntate: ¿Necesito releer el problema más lentamente? ¿Debo hacer un diagrama? ¿Debo separar datos conocidos de desconocidos en una tabla? Elige una estrategia y pruébala esta semana.",
+      "createdAt": "2025-11-03T12:27:23.517Z"
+    }
+  ]
+}

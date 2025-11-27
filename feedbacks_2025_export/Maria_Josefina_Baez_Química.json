@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "studentId": "u_p20qzlyqjme7h8p8q",
+    "studentName": "Maria Josefina Baez",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.217657",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 51.1,
+      "minScore": 27,
+      "maxScore": 65,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-08-11_b061120c",
+      "weekStart": "2025-08-11",
+      "score": 56,
+      "generalComments": "Maria Josefina, tu reporte de esta semana es muy breve y muestra que has trabajado con equilibrio químico y los 5 pasos del pensamiento crítico, evaluándote en Nivel 3. Sin embargo, reportas dificultades significativas con los problemas del cuadernillo que no lograste entender. La conexión que haces con química del año pasado y matemática es apropiada, pero la falta de especificidad en tu reporte impide evaluar con precisión tu nivel real de comprensión. Necesitas desarrollar reportes más detallados que evidencien tu proceso de aprendizaje.",
+      "strengths": [
+        "Reconoces conexiones interdisciplinarias con química previa y matemática (ejercicios matemáticos)",
+        "Te autoevalúas en Nivel 3, mostrando cierta confianza en tu comprensión conceptual",
+        "Identificas honestamente que los problemas del cuadernillo te resultaron difíciles de entender"
+      ],
+      "improvements": [
+        "Desarrolla reportes más detallados: especifica qué problemas intentaste, qué pasos lograste y dónde te trabaste",
+        "En lugar de decir no logré entenderlos, identifica QUÉ específicamente no entendiste (el enunciado, las variables, las fórmulas, los cálculos)",
+        "Proporciona evidencia concreta de tu aprendizaje resolviendo al menos parcialmente un ejercicio en el reporte"
+      ],
+      "createdAt": "2025-10-03T19:50:13Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-08-18_1c0e6850",
+      "weekStart": "2025-08-18",
+      "score": 54,
+      "generalComments": "Maria Josefina, tu reporte de esta semana indica que estuviste ausente por ACAP, lo que te impidió avanzar con equilibrio químico. Tu nivel se mantiene en N3 (según tu autoevaluación) pero no pudiste resolver ejercicios en clase. Reconoces dificultades con la concentración y solicitas una clase de teoría para comprender mejor, lo cual es una buena estrategia de autorregulación. La conexión que haces con 'resolución de problemas aplicable a casi todas las materias' muestra pensamiento transferible, aunque es demasiado general.",
+      "strengths": [
+        "Identificas proactivamente una necesidad pedagógica específica (clase de teoría) para mejorar tu comprensión",
+        "Reconoces que la resolución de problemas es una habilidad transversal aplicable a múltiples contextos",
+        "Manifiestas intención de seguir trabajando en casa a pesar de la ausencia"
+      ],
+      "improvements": [
+        "Al reincorporarte después de ACAP, consulta con compañeros para ponerte al día con lo trabajado en clase",
+        "Desarrolla estrategias para mantener la concentración en clase - identifica qué específicamente te distrae y cómo manejarlo",
+        "Practica la teoría de equilibrio químico de forma autónoma antes de la próxima clase para llegar preparada"
+      ],
+      "createdAt": "2025-10-03T19:50:14Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-09-01_ad1e0874",
+      "weekStart": "2025-09-01",
+      "score": 27,
+      "generalComments": "Maria Josefina, tu reporte indica que estuviste en el viaje de egresados a Bariloche, por lo que no trabajaste ningún contenido de química durante esta semana. Esto es completamente comprensible y esperado. Sin embargo, es importante que al regresar dediques tiempo a recuperar cualquier material o ejercicio que se haya trabajado en tu ausencia. El viaje es una experiencia importante, pero la continuidad en el estudio también lo es.",
+      "strengths": [
+        "Comunicaste claramente tu situación de viaje de egresados en todas las respuestas del reporte"
+      ],
+      "improvements": [
+        "Al regresar del viaje, consulta con compañeros o el profesor sobre contenidos trabajados durante tu ausencia",
+        "Revisa si hubo material nuevo subido a Classroom mientras estabas de viaje y estúdialo antes de la próxima clase",
+        "Retoma el ritmo de estudio lo más pronto posible para evitar rezago acumulado"
+      ],
+      "createdAt": "2025-10-03T19:50:15Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-09-08_95a8fa62",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Maria Josefina, tu reporte de esta semana muestra un buen retorno post-viaje con un enfoque metodológico apropiado. En lugar de saltar directamente a ejercicios, dedicaste la clase a leer el apunte y tomar tus propios apuntes, lo cual es una estrategia efectiva de comprensión. Te autoevalúas en N2 reconociendo que aún tienes cosas para comprender por completo, lo cual es una autoevaluación realista. Tu frustración con las ausencias acumuladas (INECO, Consulmed, día de campo, Bariloche) es comprensible, y tu reflexión sobre la administración escolar muestra pensamiento crítico sobre factores externos que afectan tu aprendizaje.",
+      "strengths": [
+        "Implementaste una estrategia efectiva de estudio: leer el apunte primero y luego tomar apuntes propios con tus palabras",
+        "Realizas una autoevaluación honesta y realista (N2) reconociendo que necesitas seguir consolidando conceptos",
+        "Identificas conexiones con otras materias (biología) en el método de estudio utilizado (leer y tomar notas)"
+      ],
+      "improvements": [
+        "Complementa la lectura de teoría con resolución de al menos 2-3 ejercicios básicos para consolidar la comprensión",
+        "Desarrolla un plan de recuperación específico para compensar las ausencias acumuladas - no solo lamentarlas",
+        "Aprovecha la explicación de Rodri la semana siguiente para aclarar los puntos que no quedaron 100% claros en la lectura"
+      ],
+      "createdAt": "2025-10-03T19:50:16Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-09-15_86c08775",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Maria Josefina, tu reporte de esta semana muestra una experiencia mixta con la clase de teoría y práctica. Valoras mucho la dinámica de leer el apunte primero y luego tener la clase teórica, lo cual te permite prestar más atención y aprovechar mejor el tiempo. Te autoevalúas como N2 en teoría, lo cual es apropiado. Sin embargo, enfrentaste dificultades significativas en la parte práctica (N4 en tu evaluación, aunque esto parece un error - probablemente quisiste decir N1), admitiendo que al despistarte momentáneamente perdiste el hilo completamente. Tu conexión con física (problemas tipo historia) es relevante.",
+      "strengths": [
+        "Identificas y valoras una metodología de clase efectiva para ti (leer antes + clase teórica después)",
+        "Resolviste correctamente preguntas teóricas sobre Qc (qué pasa cuando Qc > 1), demostrando comprensión conceptual",
+        "Realizas una reflexión profunda sobre tu dificultad histórica con química desde 3er año, mostrando metacognición importante"
+      ],
+      "improvements": [
+        "Desarrolla estrategias para recuperar el foco cuando te despistas en clase - toma notas, pregunta inmediatamente, graba la clase",
+        "Aborda tu sentimiento de no entender nada de química desde 3er año - identifica lagunas específicas y trabaja en llenarlas",
+        "Practica más la parte práctica fuera de clase para compensar las dificultades de concentración durante la clase"
+      ],
+      "createdAt": "2025-10-03T19:50:17Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7h8p8q_2025-09-22_9c9c2682",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Maria Josefina, esta semana no hubo trabajos en clase debido a que el profesor fue a Puerto Madryn, resultando en clases reducidas (salida temprana el lunes, entrada tarde el martes). No se resolvieron problemas ni se avanzó con contenido nuevo. Esta situación, aunque excepcional, representa otra interrupción en la continuidad de tu aprendizaje, sumándose a las ausencias previas que ya habías mencionado. Es importante que aproveches estas situaciones para estudio autónomo o repaso.",
+      "strengths": [
+        "Comunicaste claramente la situación de ausencia del profesor y las modificaciones de horario"
+      ],
+      "improvements": [
+        "Cuando haya ausencia del profesor, aprovecha el tiempo libre para repasar conceptos que te cuestan (como la parte práctica que mencionaste la semana pasada)",
+        "Usa estas interrupciones como oportunidades para ponerte al día con ejercicios pendientes o repasar teoría",
+        "Considera formar un grupo de estudio con compañeros para que estas situaciones se conviertan en tiempo productivo"
+      ],
+      "createdAt": "2025-10-03T19:50:18Z"
+    },
+    {
+      "feedbackId": "7cefc898-809c-4456-9c8f-e98cbce5964f",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:50:48.817Z"
+    },
+    {
+      "feedbackId": "5261b4a5-8b9f-4bb4-ba86-2fde35aea152",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:16:20.312Z"
+    },
+    {
+      "feedbackId": "f869c7c4-768b-4f06-84a5-271765dbafce",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:17:12.577Z"
+    },
+    {
+      "feedbackId": "d79c8c51-89af-4699-ab36-aacef56cc727",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Entiendo que esta fue una semana complicada con las ausencias del profesor, pero tu reporte refleja una oportunidad perdida para profundizar en tu aprendizaje. Reconozco que completaste la tarea grupal y que tienes cierta conciencia de tu nivel actual, lo cual es un buen punto de partida.\n\nSin embargo, tu desempeño en este reporte es muy superficial. No analizas las variables que trabajaste, no reflexionas sobre dificultades reales, y dejas preguntas sin responder. Esto no te permite demostrar el pensamiento crítico que la Fase 2 busca desarrollar.\n\nPara la próxima semana, te pido que seas más reflexivo y detallado. Cuando describas un ejercicio, analiza qué variables había, cómo las clasificarías y por qué son importantes. Completa todas las secciones del reporte, incluso si crees que \"no pasó nada importante\". El pensamiento crítico se construye precisamente en esos momentos de reflexión profunda.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces tu nivel como N1 en lugar de sobrevalorar tu desempeño. Esto muestra cierta conciencia de que hay espacio para mejorar.\n• Identificación de un ejemplo concreto: Mencionas el ejercicio de pH y [OH], lo que demuestra que recuerdas qué trabajaste, aunque no lo analices en profundidad.\n• Intento de conexión interdisciplinaria: Vinculas el trabajo con Física, mostrando que intentas ver relaciones entre materias, aunque necesites desarrollar esta idea más.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de decir \"la actividad fue simple\", analiza específicamente: ¿Qué variables había en la tabla? ¿Cuál era conocida (pH) y cuál desconocida ([OH])? ¿Cuál era controlable? Esto es el corazón de la Fase 2.\n• Desarrolla respuestas más completas: Tus respuestas son muy breves. Dedica 3-4 líneas a cada pregunta explicando tu razonamiento. Por ejemplo, en Q2 podrías describir cómo clasificaste pH y [OH] según los criterios de la Fase 2.\n• Completa todas las secciones del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar sobre lo que aprendiste esta semana, qué te sorprendió o cómo evolucionaste desde la Fase 1. Esto es crucial para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-27T04:52:15.727Z"
+    }
+  ]
+}

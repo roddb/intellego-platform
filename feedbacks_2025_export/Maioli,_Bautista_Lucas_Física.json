@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "studentId": "u_rkrgujb30me0b536p",
+    "studentName": "Maioli, Bautista Lucas",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.215447",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 52.69,
+      "minScore": 27,
+      "maxScore": 78,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_maioli_bautista_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 78,
+      "generalComments": "Excelente trabajo con fundamentos del pensamiento crítico aplicado a Física. Bautista muestra comprensión profunda del proceso de 5 pasos y su aplicación práctica, aunque todavía trabajando en la velocidad de aplicación.",
+      "strengths": [
+        "Dominio nivel 4 en pensamiento crítico",
+        "Identifica información relevante vs irrelevante",
+        "Aplicación práctica exitosa del proceso 5 pasos",
+        "Conexión clara con Física y Matemática",
+        "Justificaciones razonadas y claras"
+      ],
+      "improvements": [
+        "Aumentar velocidad de aplicación en contextos físicos",
+        "Practicar más con problemas específicos de tiro oblicuo",
+        "Integrar el proceso con ejercicios numéricos"
+      ],
+      "createdAt": "2025-01-09 16:10:00"
+    },
+    {
+      "feedbackId": "fb_maioli_bautista_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 55,
+      "generalComments": "Bautista trabaja tiro oblicuo nivel 2, comprende bien la teoría pero enfrenta dificultades significativas en la aplicación práctica. Intentó resolver ejercicio básico pero no completó el proceso de resolución.",
+      "strengths": [
+        "Comprensión teórica del tema",
+        "Autoevaluación precisa de su nivel",
+        "Identifica conexión con temas previos",
+        "Reconoce sus dificultades específicas"
+      ],
+      "improvements": [
+        "Completar ejercicios paso a paso",
+        "Practicar manejo de ángulos y trigonometría",
+        "Aplicar metodología de 5 pasos aprendida",
+        "Resolver ejercicios básicos completos"
+      ],
+      "createdAt": "2025-01-09 16:11:00"
+    },
+    {
+      "feedbackId": "fb_maioli_bautista_2025_08_25",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Progreso notable de Bautista: mantiene nivel 2 pero ahora resuelve ejercicios completos. Calculó correctamente altura máxima en tiro oblicuo usando componente vertical. Mejora evidente en aplicación práctica.",
+      "strengths": [
+        "Resolvió ejercicio completo correctamente",
+        "Aplicó fórmula de componente vertical",
+        "Estrategia de repasar ejemplos y resolver paso a paso",
+        "Identifica conexión con MRU y MRUV",
+        "Mejora en aplicación práctica"
+      ],
+      "improvements": [
+        "Consolidar manejo de diferentes tipos de problemas",
+        "Practicar selección de fórmulas según contexto",
+        "Aumentar complejidad gradualmente"
+      ],
+      "createdAt": "2025-01-09 16:12:00"
+    },
+    {
+      "feedbackId": "fb_maioli_bautista_2025_09_01",
+      "weekStart": "2025-09-01",
+      "score": 72,
+      "generalComments": "Excelente avance: Bautista alcanza nivel 3 en tiro oblicuo. Resolvió múltiples ejercicios incluyendo problema complejo del cañón humano. Aunque enfrenta algunos bloqueos, muestra capacidad de resolución avanzada.",
+      "strengths": [
+        "Avance a nivel 3 de complejidad",
+        "Resuelve ejercicios complejos (cañón humano con red)",
+        "Comprensión clara de MRU horizontal + MRUV vertical",
+        "Capacidad de resolver varios ejercicios",
+        "Identificación precisa de dificultades"
+      ],
+      "improvements": [
+        "Fortalecer selección de fórmulas (Fase 3)",
+        "Practicar organización sistemática",
+        "Desarrollar fluidez en casos complejos"
+      ],
+      "createdAt": "2025-01-09 16:13:00"
+    },
+    {
+      "feedbackId": "fb_002_3_0b536p_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querido Bautista Maioli, debido a que esta semana tuviste examen, no fue posible evaluar tu progreso en Física durante este período. No se observan evidencias suficientes para evaluar tu desempeño en el proceso de aprendizaje semanal, lo que limita la retroalimentación específica. Es fundamental establecer bases sólidas en el registro del proceso de aprendizaje continuo. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completaste el reporte semanal a pesar de la semana de examen",
+        "Reconoces que la semana fue atípica por la evaluación",
+        "Mantienes la regularidad en la entrega de reportes"
+      ],
+      "improvements": [
+        "En semanas de examen, reflexiona sobre tu preparación y proceso de estudio",
+        "Proporciona evidencias del proceso de aprendizaje previo al examen",
+        "Identifica qué conceptos te resultaron más desafiantes durante la evaluación"
+      ],
+      "createdAt": "2025-10-07T23:07:47Z"
+    },
+    {
+      "feedbackId": "fb_002_3_0b536p_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querido Bautista Maioli, debido a tu viaje, no fue posible evaluar tu progreso en Física durante esta semana. No se observan evidencias suficientes para evaluar tu desempeño en el proceso de aprendizaje, lo que limita la retroalimentación en Física. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Comunicaste claramente la razón de tu ausencia",
+        "Completaste el reporte semanal informando la situación",
+        "Mantienes constancia en cumplir con las entregas"
+      ],
+      "improvements": [
+        "Coordina la recuperación del material trabajado durante tu ausencia",
+        "Consulta con compañeros sobre los temas desarrollados en clase",
+        "Mantén mayor constancia y regularidad en la asistencia a clases cuando sea posible"
+      ],
+      "createdAt": "2025-10-07T23:07:47Z"
+    },
+    {
+      "feedbackId": "fb_002_3_0b536p_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 65,
+      "generalComments": "Querido Bautista Maioli, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física al trabajar con las leyes de Newton. Demuestras buena comprensión de la diferencia entre dinámica y cinemática, explicando que la primera estudia las causas del movimiento. Muestras curiosidad e interés genuino por comprender por qué puede cambiar el peso y no la masa. Necesitas profundizar en la comprensión del contexto de estos nuevos conceptos de dinámica. Identifica con mayor precisión las dificultades que enfrentas más allá de la novedad del tema. Desarrolla estrategias más específicas para familiarizarte con los conceptos de fuerza y masa. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras buena comprensión de la diferencia entre dinámica y cinemática",
+        "Identificas tu nivel de dominio de forma realista como Nivel 2",
+        "Muestras curiosidad e interés genuino por comprender la diferencia entre peso y masa"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión de por qué el peso varía y la masa no",
+        "Identifica con mayor precisión las dificultades específicas más allá de la novedad del tema",
+        "Desarrolla estrategias más específicas para familiarizarte con los conceptos, no solo tiempo y práctica"
+      ],
+      "createdAt": "2025-10-07T23:07:47Z"
+    },
+    {
+      "feedbackId": "fb_002_4_0me0b536p_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Hola Bautista, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Muestras claridad al distinguir entre dinámica y cinemática, identificando correctamente que la primera estudia las causas del movimiento. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas, especificando con mayor detalle qué conceptos te generan dificultad más allá de mencionar que el tema es nuevo. Es importante profundizar más en la conexión con temas anteriores para alcanzar comprensión completa. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Distingues correctamente entre dinámica (estudio de causas) y cinemática (descripción del movimiento)",
+        "Reconoces con honestidad tu nivel de dominio actual y las dificultades específicas como la diferencia entre peso y masa",
+        "Muestras disposición para mejorar mediante tiempo y práctica, evidenciando reflexión sobre tu proceso"
+      ],
+      "improvements": [
+        "Especifica con mayor precisión qué aspectos concretos de las leyes de Newton te generan dificultad, más allá de mencionar que es un tema nuevo",
+        "Proporciona evidencias más detalladas de tu proceso de aprendizaje, ejemplificando qué ejercicios trabajaste y qué resultados obtuviste",
+        "Desarrolla con mayor profundidad cómo las leyes de Newton se conectan con los temas anteriores de física (cinemática, fuerzas, etc.)"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "0e465d90-eca7-4602-a02c-262c14ec5309",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:21.850Z"
+    },
+    {
+      "feedbackId": "08ec9d98-44e7-48bc-ad6f-770aad7dc3bb",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:50:41.021Z"
+    },
+    {
+      "feedbackId": "f569137f-364c-488d-afb1-d66a6e7553d3",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Tu reporte muestra que tienes las habilidades matemáticas para resolver problemas de Dinámica correctamente, lo cual es un logro importante. Sin embargo, esta semana en Fase 2 necesitas ir más allá del cálculo: el objetivo es que identifiques, clasifiques y analices las variables que intervienen en cada problema, no solo que resuelvas la ecuación.\n\nObservo que tu respuesta es muy breve en varias preguntas y que falta reflexión profunda. Parece que completaste el reporte rápidamente sin detenerte a pensar en qué variables usaste, por qué son importantes, o cómo se relacionan con lo que aprendiste antes. Esto es crítico para desarrollar pensamiento crítico real.\n\nPara la próxima semana, te pido que: (1) en cada problema, hagas una lista explícita de variables conocidas y desconocidas; (2) propongas estrategias específicas para superar tus dificultades con diagramas de cuerpo libre; (3) reflexiones sobre cómo cada tema se conecta con lo anterior. Dedica más tiempo a la reflexión, no solo al cálculo.",
+      "strengths": "• Procedimiento matemático correcto: Tu resolución del problema de dinámica muestra dominio en aplicar fórmulas (Vf = Vi + a·t y F = m·a) y convertir unidades adecuadamente. Esto demuestra que comprendes el cálculo, aunque le falta el análisis de variables.\n• Identificación de dificultades reales: Reconoces que los diagramas de cuerpo libre y planos inclinados te cuestan trabajo. Esta autoconciencia es valiosa porque es el primer paso para mejorar.\n• Esfuerzo en resolver problemas complejos: Abordas un problema de cinemática y dinámica integradas (cambio de velocidad con aceleración), lo que muestra que intentas trabajar con conceptos más avanzados.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En tu respuesta de Q2, después de resolver el problema, añade una tabla o lista clara: \"Variables conocidas: masa (950 kg), Vi (13,89 m/s), Vf (27,78 m/s), tiempo (8 s). Variables desconocidas: aceleración, fuerza.\" Esto es lo que Fase 2 requiere.\n• Propón estrategias concretas para tus dificultades: En lugar de solo mencionar que te cuesta hacer diagramas de cuerpo libre, escribe: \"Estrategia: dibujaré cada fuerza como vector, identificaré si es controlable (aplicada) o no controlable (gravedad, fricción).\" Esto muestra pensamiento crítico real.\n• Conecta con temas anteriores: En Q4, reflexiona: \"Dinámica se conecta con Cinemática porque necesito la aceleración (Fase 1) para calcular la fuerza (Fase 2).\" Busca estas relaciones entre conceptos para fortalecer tu comprensión integrada.",
+      "createdAt": "2025-11-03T12:27:26.448Z"
+    },
+    {
+      "feedbackId": "689540ff-8eef-4b1c-b25d-68ea2997fdbc",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en el problema del ascensor y lograste clasificar variables y aplicar fórmulas de forma sistemática. Tu cálculo para la tensión hacia arriba es correcto, y tu explicación paso a paso muestra que estás entendiendo la estructura de Fase 2. Eso es un buen avance.\n\nSin embargo, tu reporte está incompleto en varias áreas: la respuesta en Q2 se corta a mitad, Q3 y Q4 necesitan más desarrollo, y Q5 está vacía. Además, identificas claramente que tienes dificultad con fuerzas de rozamiento, pero no propones cómo superarla. Esto es importante: reconocer el problema es el primer paso, pero necesitas actuar sobre él.\n\nPara la próxima semana, te pido que: (1) completes todos los casos de problemas que trabajes, (2) propongas estrategias concretas para entender rozamiento (diagramas, ejemplos comparativos), y (3) conectes cada tema con situaciones reales. Esto te ayudará a consolidar Fase 2 antes de avanzar.",
+      "strengths": "• Clasificación sistemática de variables: En el problema del ascensor, organizas claramente los datos en \"conocidas\" (m, g, a) y \"desconocidas\" (T), demostrando que entiendes la estructura básica de Fase 2.\n• Aplicación correcta de fórmulas: Tu cálculo para el ascensor acelerado hacia arriba es preciso: despejas T correctamente de T - mg = ma, obteniendo 13000 N. Esto muestra dominio del álgebra en contexto físico.\n• Paso a paso detallado: Explicas cada etapa de tu resolución (clasificación → fórmula → sustitución → cálculo), lo que facilita seguir tu razonamiento y es una buena práctica metodológica.",
+      "improvements": "• Completar análisis de casos: Tu respuesta en Q2 se corta a mitad del segundo caso (descenso del ascensor). Debes terminar ambos escenarios para demostrar que comprendes cómo cambia la ecuación cuando la aceleración es hacia abajo. Intenta: mg - T = ma y resuelve hasta el final.\n• Desarrollar estrategias para dificultades: En Q3, solo mencionas el problema (rozamiento) pero no propones soluciones. Crea una estrategia concreta: por ejemplo, \"haré un diagrama de fuerzas para cada caso\" o \"estudiaré ejemplos donde aparezca rozamiento vs. tensión\". Esto demuestra metacognición.\n• Conectar con fenómenos reales en Q4: No dejes esta pregunta en blanco. Relaciona el problema del ascensor con situaciones cotidianas: ¿qué sientes en tu cuerpo cuando un ascensor acelera? ¿Cómo cambiaría la tensión en un cable si el ascensor fuera más pesado? Esto integra Fase 1+2 con aplicación real.",
+      "createdAt": "2025-11-12T23:00:23.322Z"
+    },
+    {
+      "feedbackId": "fb7eab46-0142-4bd1-8fb9-904826786581",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que completar reportes puede parecer tedioso, pero este reporte no refleja el trabajo que estás haciendo en clase. Tu respuesta repetida en todas las preguntas no me permite evaluar si realmente comprendiste cómo identificar y clasificar variables en Fase 2.\n\nEsta semana necesitas cambiar tu enfoque: en lugar de respuestas genéricas, documenta específicamente qué variables trabajaste, cómo las clasificaste y qué dificultades encontraste. Esto es lo que realmente importa para tu aprendizaje en pensamiento crítico.\n\nPara la próxima semana, dedica tiempo a completar cada pregunta con ejemplos concretos del trabajo práctico. Si necesitas ayuda para entender qué se espera en cada pregunta, no dudes en preguntarme.",
+      "strengths": "Lamentablemente, tu reporte no contiene elementos suficientes para identificar fortalezas específicas. La respuesta repetida en todas las preguntas impide evaluar tus conocimientos reales sobre identificación de variables, clasificación de magnitudes o pensamiento crítico.",
+      "improvements": "• Responde con detalle cada pregunta: No repitas la misma frase en todas las preguntas. Cada una pide información diferente. Por ejemplo, en Q1 debes listar variables específicas del trabajo práctico (velocidad, masa, tiempo, etc.) y clasificarlas como conocidas/desconocidas.\n• Documenta tu proceso de aprendizaje: Describe qué temas trabajaste esta semana, qué variables identificaste en los problemas y cómo las clasificaste. Esto es evidencia real de tu aprendizaje, no frases genéricas.\n• Reflexiona sobre tus dificultades: Explica qué te cuesta (¿diferenciar variables controlables de no controlables? ¿Identificar magnitudes físicas?). Luego propón estrategias concretas para mejorar (hacer esquemas, crear tablas, practicar con ejemplos específicos).",
+      "createdAt": "2025-11-17T14:50:19.734Z"
+    }
+  ]
+}

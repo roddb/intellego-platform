@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "studentId": "u_bfdrl08g5me1c1b1m",
+    "studentName": "Joaquín Hetenyi",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.207401",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 61.2,
+      "minScore": 53,
+      "maxScore": 73,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_c1b1m_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 62,
+      "generalComments": "Querido Joaquín, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Identificas correctamente las relaciones entre variables presión, volumen y temperatura en gases ideales. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas las ecuaciones fundamentales de gases ideales",
+        "Reconoces la necesidad de utilizar la ecuación de estado PV=nRT",
+        "Estableces conexiones entre Química y Física en el uso de ecuaciones"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada situación",
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables presión, volumen y temperatura",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas con mayor justificación"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_c1b1m_2025-08-25_002",
+      "weekStart": "2025-08-25",
+      "score": 53,
+      "generalComments": "Querido Joaquín, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Química. Reconoces la importancia de trabajar paso a paso. Es importante mejorar la planificación de tu estrategia antes de ejecutar. Necesitas ser más sistemático en la ejecución de los pasos de resolución. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Reconoces la importancia del enfoque paso a paso en la resolución",
+        "Identificas que las fórmulas requieren análisis",
+        "Estableces conexiones entre diferentes asignaturas"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos",
+        "Necesitas ser más sistemático en la ejecución de los pasos de resolución con mayor detalle",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en cada ejercicio"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_c1b1m_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 59,
+      "generalComments": "Querido Joaquín, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Seleccionas apropiadamente la ley de Boyle para problemas específicos. Presentas evidencias concretas con valores numéricos en tus ejercicios. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Necesitas fortalecer tu criterio para seleccionar rápidamente qué ley usar en cada situación. Presta mayor atención a las unidades y conversiones necesarias. Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Seleccionas apropiadamente la ley de Boyle para problemas de compresión de gases",
+        "Presentas evidencias concretas con valores numéricos específicos (850 mL, 300 mL, 1,2 atm, 3,4 atm)",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al autoevaluar tu nivel"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar rápidamente qué ley usar en cada situación específica",
+        "Presta mayor atención a las unidades y conversiones necesarias en los cálculos",
+        "Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas con mayor profundidad"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_c1b1m_2025-09-15_004",
+      "weekStart": "2025-09-15",
+      "score": 73,
+      "generalComments": "Querido Joaquín, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas para problemas de presiones parciales. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Aprovechas efectivamente el trabajo colaborativo para mejorar tu comprensión. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas con mayor profundidad. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas para problemas de presiones parciales de gases",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al reconocer tu mejora",
+        "Aprovechas efectivamente el trabajo colaborativo para mejorar tu comprensión de conceptos complejos"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en cada situación",
+        "Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas con mayor profundidad y creatividad",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión en las conexiones con otros temas"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_c1b1m_2025-09-22_005",
+      "weekStart": "2025-09-22",
+      "score": 59,
+      "generalComments": "Querido Joaquín, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Seleccionas apropiadamente las herramientas para problemas de relación presión-temperatura. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al compararte con otras materias. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas con mayor confianza. Desarrolla estrategias más específicas para superar tus desafíos con múltiples fórmulas. Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas para problemas de relación entre presión y temperatura de gases",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al comparar tu desempeño entre materias",
+        "Presentas evidencias concretas de aplicación en ejercicios específicos"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas con mayor confianza y rapidez",
+        "Desarrolla estrategias más específicas para superar tus desafíos con múltiples fórmulas de manera sistemática",
+        "Busca aplicaciones prácticas de las leyes de gases en situaciones cotidianas con mayor profundidad"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+====================================================================================================
+ANÁLISIS DE ESTRUCTURA DE BASE DE DATOS - INTELLEGO PLATFORM
+====================================================================================================
+
+Generado: 2025-11-19 09:53:22
+Total de tablas: 14
+
+
+====================================================================================================
+ÍNDICE DE TABLAS
+====================================================================================================
+
+1. Answer
+   Propósito: Respuestas individuales a preguntas dentro de reportes de progreso
+   Columnas: 4
+   Relaciones: 2
+
+2. CalendarEvent
+   Propósito: Eventos de calendario para estudiantes e instructores
+   Columnas: 9
+   Relaciones: 1
+
+3. ConsudecActivity
+   Propósito: Actividades de casos clínicos pedagógicos tipo CONSUDEC
+   Columnas: 14
+   Relaciones: 1
+
+4. ConsudecSubmission
+   Propósito: Envíos de estudiantes para actividades CONSUDEC
+   Columnas: 20
+   Relaciones: 3
+
+5. Evaluation
+   Propósito: Evaluaciones de exámenes con puntuaciones y feedback
+   Columnas: 10
+   Relaciones: 2
+
+6. Feedback
+   Propósito: Retroalimentación generada por instructores o IA sobre reportes
+   Columnas: 14
+
+7. ImpersonationLog
+   Propósito: Registro de suplantación de identidad de instructores
+   Columnas: 10
+
+8. PasswordAudit
+   Propósito: Registro de auditoría para cambios de contraseña
+   Columnas: 7
+   Relaciones: 1
+
+9. PasswordPolicy
+   Propósito: Políticas de seguridad para contraseñas
+   Columnas: 12
+
+10. ProgressReport
+   Propósito: Reportes de progreso semanales enviados por estudiantes
+   Columnas: 6
+   Relaciones: 1
+
+11. Question
+   Propósito: Catálogo de preguntas para reportes de progreso semanales
+   Columnas: 9
+
+12. Task
+   Propósito: Tareas y pendientes creados por estudiantes
+   Columnas: 10
+   Relaciones: 1
+
+13. User
+   Propósito: Almacena información de usuarios (estudiantes, instructores, administradores)
+   Columnas: 15
+
+14. test_feedback
+   Propósito: Tabla de prueba para feedback (deprecated)
+   Columnas: 0
+
+
+====================================================================================================
+DOCUMENTACIÓN DETALLADA DE TABLAS
+====================================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: Answer
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Respuestas individuales a preguntas dentro de reportes de progreso
+
+COLUMNAS (4):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY, NOT NULL
+
+  • questionId (TEXT)
+    Propósito: Referencia a question
+    Restricciones: NOT NULL
+
+  • progressReportId (TEXT)
+    Propósito: Referencia a progressReport
+    Restricciones: NOT NULL
+
+  • answer (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+RELACIONES (2):
+
+  • questionId → Question.id
+    Esta columna referencia a la tabla Question
+  • progressReportId → ProgressReport.id
+    Esta columna referencia a la tabla ProgressReport
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: CalendarEvent
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Eventos de calendario para estudiantes e instructores
+
+COLUMNAS (9):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • userId (TEXT)
+    Propósito: Referencia al usuario propietario
+    Restricciones: NOT NULL
+
+  • title (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • description (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • date (TEXT)
+    Propósito: Fecha/hora
+    Restricciones: NOT NULL
+
+  • startTime (TEXT)
+    Propósito: Fecha/hora
+
+  • endTime (TEXT)
+    Propósito: Fecha/hora
+
+  • type (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: DEFAULT 'personal'
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+RELACIONES (1):
+
+  • userId → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: ConsudecActivity
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Actividades de casos clínicos pedagógicos tipo CONSUDEC
+
+COLUMNAS (14):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • title (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • description (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • caseText (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • questions (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • subject (TEXT)
+    Propósito: Materia académica
+
+  • difficulty (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: DEFAULT 'medium'
+
+  • estimatedTime (INTEGER)
+    Propósito: Fecha/hora
+
+  • status (TEXT)
+    Propósito: Estado del registro
+    Restricciones: DEFAULT 'active'
+
+  • availableFrom (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • availableUntil (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • createdBy (TEXT)
+    Propósito: Usuario que creó el registro
+    Restricciones: NOT NULL
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+  • updatedAt (TEXT)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL, DEFAULT 'pedagogical'
+
+RELACIONES (1):
+
+  • createdBy → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: ConsudecSubmission
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Envíos de estudiantes para actividades CONSUDEC
+
+COLUMNAS (20):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • activityId (TEXT)
+    Propósito: Referencia a activity
+    Restricciones: NOT NULL
+
+  • studentId (TEXT)
+    Propósito: Referencia a estudiante
+    Restricciones: NOT NULL
+
+  • answers (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • questionScores (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • overallScore (REAL)
+    Propósito: Campo de tipo REAL
+
+  • percentageAchieved (REAL)
+    Propósito: Campo de tipo REAL
+
+  • generalFeedback (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • apiCost (REAL)
+    Propósito: Costo de llamada a API de IA
+
+  • apiModel (TEXT)
+    Propósito: Modelo de IA utilizado
+    Restricciones: DEFAULT 'claude-haiku-4-5'
+
+  • apiTokensInput (INTEGER)
+    Propósito: Tokens de entrada consumidos
+
+  • apiTokensOutput (INTEGER)
+    Propósito: Tokens de salida generados
+
+  • manualScore (REAL)
+    Propósito: Campo de tipo REAL
+
+  • manualFeedback (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • evaluatedBy (TEXT)
+    Propósito: Usuario que realizó evaluated
+
+  • evaluatedAt (TEXT)
+    Propósito: Timestamp de evaluated
+
+  • status (TEXT)
+    Propósito: Estado del registro
+    Restricciones: DEFAULT 'draft'
+
+  • submittedAt (TEXT)
+    Propósito: Fecha y hora de envío
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+  • updatedAt (TEXT)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL
+
+RELACIONES (3):
+
+  • activityId → ConsudecActivity.id
+    Esta columna referencia a la tabla ConsudecActivity
+  • studentId → User.id
+    Esta columna referencia a la tabla User
+  • evaluatedBy → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: Evaluation
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Evaluaciones de exámenes con puntuaciones y feedback
+
+COLUMNAS (10):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • studentId (TEXT)
+    Propósito: Referencia a estudiante
+    Restricciones: NOT NULL
+
+  • subject (TEXT)
+    Propósito: Materia académica
+    Restricciones: NOT NULL
+
+  • examDate (TEXT)
+    Propósito: Fecha/hora
+    Restricciones: NOT NULL
+
+  • examTopic (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • score (INTEGER)
+    Propósito: Puntuación o calificación
+    Restricciones: NOT NULL
+
+  • feedback (TEXT)
+    Propósito: Comentarios de retroalimentación
+    Restricciones: NOT NULL
+
+  • createdBy (TEXT)
+    Propósito: Usuario que creó el registro
+    Restricciones: NOT NULL
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL, DEFAULT (datetime('now'
+
+  • updatedAt (TEXT)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL, DEFAULT (datetime('now'
+
+RELACIONES (2):
+
+  • studentId → User.id
+    Esta columna referencia a la tabla User
+  • createdBy → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: Feedback
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Retroalimentación generada por instructores o IA sobre reportes
+
+COLUMNAS (14):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY, NOT NULL
+
+  • studentId (TEXT)
+    Propósito: Referencia a estudiante
+    Restricciones: NOT NULL
+
+  • progressReportId (TEXT)
+    Propósito: Referencia a progressReport
+
+  • weekStart (TEXT)
+    Propósito: Inicio de la semana
+    Restricciones: NOT NULL
+
+  • subject (TEXT)
+    Propósito: Materia académica
+    Restricciones: NOT NULL
+
+  • score (INTEGER)
+    Propósito: Puntuación o calificación
+
+  • generalComments (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • strengths (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • improvements (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • aiAnalysis (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • createdBy (TEXT)
+    Propósito: Usuario que creó el registro
+    Restricciones: NOT NULL
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+  • updatedAt (TEXT)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL
+
+  • skillsMetrics (TEXT)
+    Propósito: Campo de tipo TEXT
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: ImpersonationLog
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Registro de suplantación de identidad de instructores
+
+COLUMNAS (10):
+
+  • id (INTEGER)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • instructorId (TEXT)
+    Propósito: Referencia a instructor
+    Restricciones: NOT NULL
+
+  • instructorEmail (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • studentId (TEXT)
+    Propósito: Referencia a estudiante
+    Restricciones: NOT NULL
+
+  • studentEmail (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • action (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • timestamp (TEXT)
+    Propósito: Fecha/hora
+    Restricciones: NOT NULL
+
+  • ipAddress (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • userAgent (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: DEFAULT (datetime('now'
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: PasswordAudit
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Registro de auditoría para cambios de contraseña
+
+COLUMNAS (7):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • userId (TEXT)
+    Propósito: Referencia al usuario propietario
+    Restricciones: NOT NULL
+
+  • action (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • performedBy (TEXT)
+    Propósito: Usuario que realizó performed
+
+  • timestamp (TEXT)
+    Propósito: Fecha/hora
+    Restricciones: NOT NULL
+
+  • ipAddress (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • reason (TEXT)
+    Propósito: Campo de tipo TEXT
+
+RELACIONES (1):
+
+  • userId → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: PasswordPolicy
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Políticas de seguridad para contraseñas
+
+COLUMNAS (12):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • minLength (INTEGER)
+    Propósito: Campo de tipo INTEGER
+    Restricciones: DEFAULT 8
+
+  • requireUppercase (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: DEFAULT 1
+
+  • requireLowercase (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: DEFAULT 1
+
+  • requireNumbers (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: DEFAULT 1
+
+  • requireSpecialChars (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: DEFAULT 1
+
+  • preventReuse (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: DEFAULT 1
+
+  • reuseHistoryCount (INTEGER)
+    Propósito: Contador numérico
+    Restricciones: DEFAULT 5
+
+  • maxAttempts (INTEGER)
+    Propósito: Campo de tipo INTEGER
+    Restricciones: DEFAULT 5
+
+  • lockoutDuration (INTEGER)
+    Propósito: Campo de tipo INTEGER
+    Restricciones: DEFAULT 300
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+  • updatedAt (TEXT)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: ProgressReport
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Reportes de progreso semanales enviados por estudiantes
+
+COLUMNAS (6):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY, NOT NULL
+
+  • userId (TEXT)
+    Propósito: Referencia al usuario propietario
+    Restricciones: NOT NULL
+
+  • subject (TEXT)
+    Propósito: Materia académica
+    Restricciones: NOT NULL
+
+  • weekStart (DATETIME)
+    Propósito: Inicio de la semana
+    Restricciones: NOT NULL
+
+  • weekEnd (DATETIME)
+    Propósito: Fin de la semana
+    Restricciones: NOT NULL
+
+  • submittedAt (DATETIME)
+    Propósito: Fecha y hora de envío
+    Restricciones: NOT NULL, DEFAULT CURRENT_TIMESTAMP
+
+RELACIONES (1):
+
+  • userId → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: Question
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Catálogo de preguntas para reportes de progreso semanales
+
+COLUMNAS (9):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY, NOT NULL
+
+  • text (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • type (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • options (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL, DEFAULT ''
+
+  • required (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: NOT NULL, DEFAULT true
+
+  • order (INTEGER)
+    Propósito: Campo de tipo INTEGER
+    Restricciones: NOT NULL
+
+  • isActive (BOOLEAN)
+    Propósito: Valor booleano (verdadero/falso)
+    Restricciones: NOT NULL, DEFAULT true
+
+  • createdAt (DATETIME)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL, DEFAULT CURRENT_TIMESTAMP
+
+  • updatedAt (DATETIME)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: Task
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Tareas y pendientes creados por estudiantes
+
+COLUMNAS (10):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY
+
+  • userId (TEXT)
+    Propósito: Referencia al usuario propietario
+    Restricciones: NOT NULL
+
+  • title (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: NOT NULL
+
+  • description (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • dueDate (TEXT)
+    Propósito: Fecha/hora
+
+  • priority (TEXT)
+    Propósito: Campo de tipo TEXT
+    Restricciones: DEFAULT 'medium'
+
+  • status (TEXT)
+    Propósito: Estado del registro
+    Restricciones: DEFAULT 'pending'
+
+  • subject (TEXT)
+    Propósito: Materia académica
+
+  • estimatedHours (INTEGER)
+    Propósito: Campo de tipo INTEGER
+
+  • createdAt (TEXT)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL
+
+RELACIONES (1):
+
+  • userId → User.id
+    Esta columna referencia a la tabla User
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: User
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Almacena información de usuarios (estudiantes, instructores, administradores)
+
+COLUMNAS (15):
+
+  • id (TEXT)
+    Propósito: Identificador único (Primary Key)
+    Restricciones: PRIMARY KEY, NOT NULL
+
+  • name (TEXT)
+    Propósito: Nombre del registro
+    Restricciones: NOT NULL
+
+  • email (TEXT)
+    Propósito: Correo electrónico
+    Restricciones: NOT NULL
+
+  • emailVerified (DATETIME)
+    Propósito: Fecha/hora
+
+  • image (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • password (TEXT)
+    Propósito: Contraseña hasheada
+    Restricciones: NOT NULL
+
+  • role (TEXT)
+    Propósito: Rol del usuario (STUDENT, INSTRUCTOR, ADMIN)
+    Restricciones: NOT NULL, DEFAULT 'STUDENT'
+
+  • studentId (TEXT)
+    Propósito: Referencia a estudiante
+
+  • createdAt (DATETIME)
+    Propósito: Fecha y hora de creación
+    Restricciones: NOT NULL, DEFAULT CURRENT_TIMESTAMP
+
+  • updatedAt (DATETIME)
+    Propósito: Fecha y hora de última actualización
+    Restricciones: NOT NULL
+
+  • sede (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • academicYear (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • division (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • subjects (TEXT)
+    Propósito: Campo de tipo TEXT
+
+  • status (TEXT)
+    Propósito: Estado del registro
+    Restricciones: NOT NULL, DEFAULT 'ACTIVE'
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+TABLA: test_feedback
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+PROPÓSITO:
+  Tabla de prueba para feedback (deprecated)
+
+COLUMNAS (0):
+
+
+
+====================================================================================================
+RESUMEN DE RELACIONES ENTRE ENTIDADES
+====================================================================================================
+
+
+Answer:
+  ├─ Depende de: Question
+  ├─ Depende de: ProgressReport
+
+CalendarEvent:
+  ├─ Depende de: User
+
+ConsudecActivity:
+  ├─ Depende de: User
+
+ConsudecSubmission:
+  ├─ Depende de: ConsudecActivity
+  ├─ Depende de: User
+  ├─ Depende de: User
+
+Evaluation:
+  ├─ Depende de: User
+  ├─ Depende de: User
+
+PasswordAudit:
+  ├─ Depende de: User
+
+ProgressReport:
+  ├─ Depende de: User
+
+Task:
+  ├─ Depende de: User
+
+
+====================================================================================================
+ESTADÍSTICAS CLAVE
+====================================================================================================
+
+Total de tablas: 14
+Total de columnas: 140
+Total de relaciones (Foreign Keys): 12
+
+
+TABLAS POR CATEGORÍA:
+
+Core (Usuarios y Autenticación):
+  • User, PasswordAudit, PasswordPolicy
+
+Reportes de Progreso:
+  • ProgressReport, Question, Answer, Feedback
+
+Evaluaciones:
+  • Evaluation
+
+Actividades CONSUDEC:
+  • ConsudecActivity, ConsudecSubmission
+
+Productividad Estudiantil:
+  • CalendarEvent, Task
+
+Auditoría y Seguridad:
+  • ImpersonationLog, PasswordAudit, PasswordPolicy
+
+
+====================================================================================================
+FIN DEL REPORTE
+====================================================================================================

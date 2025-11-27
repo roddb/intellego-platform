@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "studentId": "u_bfdrl08g5me1c1b1m",
+    "studentName": "Joaquín Hetenyi",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.207221",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 48.0,
+      "minScore": 27,
+      "maxScore": 62,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "510d453d-a78e-45da-b9a5-b22c5adba28c",
+      "weekStart": "2025-08-18",
+      "score": 62,
+      "generalComments": "Tu reporte muestra un primer acercamiento al tema de tiro oblicuo, reconociendo las fórmulas en ejes X e Y. Sin embargo, en la Fase 3 donde se requiere seleccionar y justificar herramientas matemáticas, tu trabajo refleja una comprensión superficial. Mencionas que 'resolviste el ejercicio 1' pero no describes el proceso de selección de fórmulas ni justificas por qué elegiste determinadas ecuaciones. Tu honestidad al reconocer que necesitas 'reforzar' y 'estudiar bastante' es valiosa, pero el siguiente paso es desarrollar estrategias específicas para dominar las relaciones entre variables y ecuaciones.",
+      "strengths": [
+        "Reconocimiento honesto de tu nivel actual de dominio, identificando que necesitas reforzar cálculos y estudiar las fórmulas de MRUV",
+        "Comprensión básica de que tiro oblicuo se conecta con temas anteriores, mostrando intento de integración conceptual",
+        "Identificación de que las fórmulas en eje Y (MRUV) son más complejas que las del eje X (MRU), demostrando diferenciación entre tipos de movimiento"
+      ],
+      "improvements": [
+        "Desarrollar descripciones más detalladas de los ejercicios resueltos: qué fórmulas usaste, por qué las elegiste, y cómo las aplicaste paso a paso",
+        "Crear estrategias específicas para manejar las fórmulas de MRUV en eje Y: hacer una tabla de referencia con las ecuaciones, identificar qué variables conoces en cada problema antes de elegir la fórmula",
+        "Profundizar en las conexiones con temas anteriores: explicar exactamente qué 'par de cosas' se suman a las fórmulas previas y cómo esto cambia el análisis del problema"
+      ],
+      "createdAt": "2025-10-01 18:44:06"
+    },
+    {
+      "feedbackId": "94439506-9ec3-459e-bafc-ce6e22d77c2c",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Tu segundo reporte muestra que lograste resolver dos ejercicios de tiro oblicuo (arquero y caída desde altura), lo cual es un avance respecto al reporte anterior. Sin embargo, en la Fase 4 donde se requiere ejecución completa con verificación y reflexión profunda, tus respuestas siguen siendo muy breves y superficiales. Mencionas que 'fue fácil' y que usaste 'las fórmulas dadas', pero no describes cómo seleccionaste esas fórmulas, qué resultados obtuviste, o si verificaste que tus respuestas tuvieran sentido físico. El patrón del primer reporte se repite: respuestas cortas sin profundización.",
+      "strengths": [
+        "Capacidad para resolver dos ejercicios diferentes de tiro oblicuo, demostrando aplicación práctica de las fórmulas trabajadas",
+        "Reconocimiento del proceso metodológico básico (identificar objetivo y problema primero, luego aplicar pasos), mostrando conciencia de estructura",
+        "Identificación específica de que necesitaste usar tres fórmulas para encontrar una incógnita, demostrando seguimiento del proceso de cálculo"
+      ],
+      "improvements": [
+        "Incluir los resultados numéricos de tus ejercicios en los reportes: ¿la flecha llegaba al blanco? ¿cuánto tiempo tardó el objeto en caer? Esto demuestra que completaste realmente la resolución",
+        "Explicar cómo organizaste las 'tres fórmulas' que usaste: crear un diagrama de flujo o secuencia (Fórmula 1→resultado intermedio→Fórmula 2→resultado intermedio→Fórmula 3→resultado final)",
+        "Profundizar en las conexiones: en lugar de decir 'las mismas fórmulas con alguna cosa más', especificar exactamente qué se agregó (¿componente vertical? ¿descomposición de vectores? ¿gravedad?)"
+      ],
+      "createdAt": "2025-10-01 18:47:10"
+    },
+    {
+      "feedbackId": "fb091ebc-2b3f-434b-b3a3-808ede420b47",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Tu tercer reporte replica el patrón de los dos anteriores: mencionas haber trabajado con ejercicios (problema del bombero) pero sin incluir resultados, proceso detallado, o verificación. La frase 'como digo siempre' en Q3 confirma que eres consciente de que las mismas dificultades se repiten, pero aún no has desarrollado estrategias para manejarlas. Con tres reportes consecutivos en 62 puntos sin variación, el patrón de respuestas breves y superficiales se consolida como tu nivel base actual.",
+      "strengths": [
+        "Reconocimiento honesto y consistente de tu nivel de dominio ('no es muy alto, pero me puedo defender'), mostrando autoevaluación realista",
+        "Comprensión de que el problema del bombero requiere determinar múltiples datos intermedios (Vo x, Vo y, T) antes de llegar al ángulo final",
+        "Conciencia explícita de que tus dificultades son recurrentes ('como digo siempre'), lo cual es el primer paso para poder abordarlas sistemáticamente"
+      ],
+      "improvements": [
+        "Incluir el resultado del problema del bombero: ¿qué ángulo obtuviste? ¿verificaste que ese ángulo sea físicamente razonable (entre 0° y 90°)?",
+        "Crear un mapa de resolución para problemas multi-paso: dibujar o escribir la secuencia exacta de fórmulas que usaste (Fórmula A para encontrar X → Fórmula B para encontrar Y → Fórmula C para resultado final)",
+        "Transformar el reconocimiento de dificultades recurrentes en acción: dado que 'siempre' necesitas muchas fórmulas, desarrollar un protocolo personal (checklist) para organizarlas antes de comenzar los cálculos"
+      ],
+      "createdAt": "2025-10-01 18:48:59"
+    },
+    {
+      "feedbackId": "1c5e6b0e-6eaa-4d45-b576-10362ba65db9",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Tu cuarto reporte marca un descenso crítico respecto a los anteriores, bajando de 62 puntos a 27 puntos (Nivel 1). Este es tu reporte más breve hasta ahora (263 caracteres totales vs 571-616 en reportes previos), con respuestas extremadamente genéricas que no permiten evaluar comprensión o reflexión. Mencionas que 'te fue bastante bien' y que 'lo pudiste manejar bien', pero no describes qué temas trabajaste, qué fórmulas usaste, qué resultados obtuviste, ni qué estrategias aplicaste. En la Fase 4 que requiere ejecución completa con verificación, este reporte no proporciona evidencia suficiente de aprendizaje.",
+      "strengths": [
+        "Participación en actividades grupales, lo cual puede facilitar el aprendizaje colaborativo",
+        "Percepción personal positiva sobre tu desempeño ('me fue bastante bien'), mostrando confianza en tus capacidades",
+        "Mención del ejercicio de la flecha, indicando que trabajaste con problemas de tiro oblicuo"
+      ],
+      "improvements": [
+        "Incrementar significativamente el nivel de detalle en tus reportes: especificar qué temas exactos trabajaste (¿tiro oblicuo? ¿caída libre? ¿velocidades?), qué fórmulas usaste, y qué resultados obtuviste",
+        "Transformar afirmaciones vagas ('analizar tantos datos') en identificación específica: ¿qué datos exactamente? ¿velocidad inicial? ¿ángulo? ¿tiempo? ¿qué te confunde de cada uno?",
+        "Detallar las conexiones con otros temas: en lugar de 'se conecta con otros temas de física', especificar exactamente qué conceptos previos aplicaste (MRU, MRUV, vectores, etc.)"
+      ],
+      "createdAt": "2025-10-01 19:29:37"
+    },
+    {
+      "feedbackId": "e65a157c-b815-492b-9c57-d7cb0d638a19",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Tu quinto y último reporte replica el patrón del reporte 4, manteniéndote en 27 puntos (Nivel 1) con respuestas extremadamente breves (283 caracteres totales). La frase 'Estoy flojo' muestra autocrítica honesta, pero como en reportes anteriores, no se traduce en acciones concretas para mejorar. Con dos reportes consecutivos en Nivel 1, se confirma un cambio significativo respecto a tus primeros tres reportes. Tu promedio final de 54 puntos refleja un desempeño dividido: primeros tres reportes en Nivel 2, últimos dos en Nivel 1.",
+      "strengths": [
+        "Honestidad en la autoevaluación reconociendo que 'no te ves muy bien' y estás 'flojo', lo cual es el primer paso para poder mejorar",
+        "Mención del ejercicio del bombero con contexto específico (tercer piso, metro 0), indicando trabajo con problemas aplicados",
+        "Identificación consistente de tu dificultad principal (muchas fórmulas), mostrando conciencia de dónde está el obstáculo"
+      ],
+      "improvements": [
+        "Transformar la autocrítica ('estoy flojo') en plan de acción: ¿qué harás específicamente para mejorar? (estudiar X minutos diarios, hacer ejercicios extra, pedir ayuda en clase)",
+        "Completar la descripción de ejercicios con resultados: ¿lograste calcular el ángulo del bombero? ¿qué valor obtuviste? ¿verificaste que sea razonable?",
+        "Desarrollar estrategia concreta para manejar 'tantas fórmulas': crear tabla de referencia, numerar pasos, hacer diagrama de flujo del proceso de resolución"
+      ],
+      "createdAt": "2025-10-01 19:31:09"
+    }
+  ]
+}

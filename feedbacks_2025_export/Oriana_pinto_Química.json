@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "studentId": "u_yxgl6st6zme03hza8",
+    "studentName": "Oriana pinto",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.229600",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 44.92,
+      "minScore": 27,
+      "maxScore": 66,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "051d3c1c-8c1f-4741-8feb-8e3544ba087e",
+      "weekStart": "2025-08-11",
+      "score": 63,
+      "generalComments": "Oriana demuestra buen progreso en la Fase 2, logrando identificar datos y variables con nivel satisfactorio. Su capacidad para reconocer el pensamiento crítico en situaciones prácticas es destacable, aunque necesita reforzar la teoría y establecer más conexiones interdisciplinarias.",
+      "strengths": [
+        "Buena capacidad de identificación de datos y variables en problemas",
+        "Aplicación práctica del pensamiento crítico en análisis de conversaciones",
+        "Confianza en sus habilidades actuales sin dificultades específicas"
+      ],
+      "improvements": [
+        "Profundizar en la teoría para consolidar el conocimiento práctico",
+        "Buscar activamente conexiones con otras materias y contextos",
+        "Desarrollar mayor capacidad de reflexión sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-09-28 19:20:45"
+    },
+    {
+      "feedbackId": "fd59cb0d-9602-4125-b91f-821d56879d47",
+      "weekStart": "2025-08-18",
+      "score": 51,
+      "generalComments": "Oriana está en una etapa inicial de comprensión del tiro oblicuo. La introducción teórica de esta semana marca el comienzo del aprendizaje, aunque presenta dificultades esperables con conceptos nuevos. Es fundamental consolidar la base teórica antes de avanzar a la práctica.",
+      "strengths": [
+        "Actitud positiva hacia el aprendizaje de temas nuevos",
+        "Reconocimiento de la necesidad de práctica adicional",
+        "Identificación honesta del nivel actual de comprensión"
+      ],
+      "improvements": [
+        "Dedicar tiempo adicional a la comprensión teórica antes de la práctica",
+        "Buscar conexiones entre tiro oblicuo y experiencias cotidianas",
+        "Desarrollar estrategias específicas para abordar dificultades teóricas"
+      ],
+      "createdAt": "2025-09-28 19:19:03"
+    },
+    {
+      "feedbackId": "e9f7b918-a65f-49d8-bf08-c0031867d5cb",
+      "weekStart": "2025-08-25",
+      "score": 50,
+      "generalComments": "Oriana enfrenta desafíos significativos con la Fase 1 del pensamiento crítico, específicamente en la identificación del problema y objetivo. La falta de práctica durante esta semana ha impactado su progreso. Es fundamental trabajar en estrategias básicas de comprensión antes de avanzar.",
+      "strengths": [
+        "Reconocimiento honesto de las dificultades actuales",
+        "Comprensión de que la teoría debe aplicarse en la resolución",
+        "Persistencia a pesar de los desafíos"
+      ],
+      "improvements": [
+        "Desarrollar un método paso a paso para identificar problemas y objetivos",
+        "Practicar con ejercicios simples antes de abordar problemas complejos",
+        "Establecer conexiones explícitas entre teoría y práctica"
+      ],
+      "createdAt": "2025-09-28 19:16:31"
+    },
+    {
+      "feedbackId": "e40d0d53-1ea1-4e37-8d47-736b52377d20",
+      "weekStart": "2025-09-01",
+      "score": 66,
+      "generalComments": "Oriana muestra un patrón consistente: dominio técnico de los procedimientos de gases ideales pero dificultades persistentes con la interpretación de enunciados complejos. La capacidad de resolver ejercicios del modelo de examen demuestra progreso, aunque la comprensión inicial sigue siendo el principal desafío.",
+      "strengths": [
+        "Capacidad para resolver ejercicios prácticos con facilidad cuando el enunciado es claro",
+        "Aplicación correcta de conceptos de moles en problemas de gases",
+        "Identificación precisa de sus áreas de dificultad y autoconocimiento"
+      ],
+      "improvements": [
+        "Desarrollar técnicas sistemáticas de análisis de enunciados complejos",
+        "Practicar la traducción de problemas verbales a esquemas visuales",
+        "Mejorar la identificación de datos relevantes vs información distractora"
+      ],
+      "createdAt": "2025-09-28 19:15:30"
+    },
+    {
+      "feedbackId": "0f21d4e8-4895-4c94-92b6-fb9aa47a6723",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Oriana demuestra un progreso adecuado en el trabajo con gases ideales, aunque reconoce dificultades importantes con la interpretación de problemas, lo cual es fundamental en la Fase 1 del pensamiento crítico. El ejercicio del tanque de oxígeno hospitalario muestra que puede identificar el contexto práctico, pero necesita fortalecer la comprensión inicial del problema.",
+      "strengths": [
+        "Identificación clara del nivel de dificultad personal y autoconciencia del proceso de aprendizaje",
+        "Capacidad para describir problemas aplicados con contexto real (caso hospitalario)",
+        "Reconocimiento de conexiones con temas previos en química"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para mejorar la interpretación de enunciados complejos",
+        "Ampliar las respuestas para mostrar mayor profundidad en el análisis",
+        "Incluir reflexiones más detalladas sobre el proceso de resolución"
+      ],
+      "createdAt": "2025-09-28 19:14:13"
+    },
+    {
+      "feedbackId": "de3a81a38b6c3d1539982c3266d8d16d",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Oriana demuestra una comprensión inicial de las leyes de gases ideales, aunque reconoce necesitar más práctica para resolver ejercicios de forma independiente. El trabajo grupal realizado es positivo, pero requiere mayor profundización en los conceptos.",
+      "strengths": [
+        "Identificación clara del tema central (gases ideales) y reconocimiento honesto del nivel de comprensión",
+        "Participación activa en trabajo práctico grupal",
+        "Capacidad de reconocer conexiones con otros temas del curso"
+      ],
+      "improvements": [
+        "Profundizar en la resolución independiente de ejercicios de gases ideales",
+        "Desarrollar mayor detalle al describir las evidencias de aprendizaje y conexiones específicas",
+        "Reflexionar más profundamente sobre las dificultades, incluso las pequeñas"
+      ],
+      "createdAt": "2025-09-27 21:11:53"
+    },
+    {
+      "feedbackId": "fb_002_1_zme03hza8_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 38,
+      "generalComments": "Querida Oriana, tu reporte de esta semana menciona que rindieron la prueba, pero no proporciona detalles sobre tu proceso de preparación ni reflexión sobre tu aprendizaje. Es importante que puedas documentar qué temas estudiaste, qué estrategias utilizaste, y qué dificultades identificaste durante la preparación. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces que enfrentaste dificultades en la prueba",
+        "Presentaste el reporte en tiempo",
+        "Identificas la necesidad de documentar tu proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas sobre qué temas específicos de química trabajaste",
+        "Identifica con mayor precisión las dificultades que enfrentas y sus causas",
+        "Desarrolla estrategias más específicas para documentar tu proceso de estudio y preparación"
+      ],
+      "createdAt": "2025-10-06T06:11:51.000Z"
+    },
+    {
+      "feedbackId": "c04220c0-9f46-4151-a49d-432c688695e4",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:04.875Z"
+    },
+    {
+      "feedbackId": "5180c7b9-60ec-4418-8234-907c7d63784c",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:17.387Z"
+    },
+    {
+      "feedbackId": "ced94bba-ad52-4065-a3da-6685928c8ddb",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:37:44.959Z"
+    },
+    {
+      "feedbackId": "6b5faff2-d4b2-4cc1-8617-895e3bea1123",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:12:35.192Z"
+    },
+    {
+      "feedbackId": "f65f104b-937a-4380-858e-6e708d09b89f",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 39,
+      "generalComments": "Veo que trabajaste en un proyecto sobre Leyes de Newton esta semana, lo cual es positivo. Sin embargo, tu reporte no refleja el trabajo profundo que debería estar ocurriendo en Fase 2. Las respuestas son muy breves y no muestran el análisis sistemático de variables que es el corazón de esta fase.\n\nTu desempeño esta semana está por debajo de lo esperado. Aunque mencionas entender la teoría, no hay evidencia de que hayas identificado, clasificado y analizado las variables específicas del proyecto. Esto es crítico para avanzar.\n\nPara la próxima semana, te pido que dediques tiempo real a documentar tu proceso: lista todas las variables que encuentres, clasifícalas claramente y reflexiona sobre las dificultades reales que enfrentas. Responde con detalle y ejemplos concretos. Esto hará una gran diferencia en tu aprendizaje.",
+      "strengths": "• Honestidad y autocorrección: Reconoces que cometiste un error al responder el formulario equivocado. Esta capacidad de identificar tus propios errores es el primer paso para mejorar.\n• Confianza en la teoría: Mencionas que entiendes la teoría de Leyes de Newton y sientes que puedes aplicarla en el proyecto, lo que muestra disposición para el trabajo práctico.",
+      "improvements": "• Honestidad y autocorrección: Reconoces que cometiste un error al responder el formulario equivocado. Esta capacidad de identificar tus propios errores es el primer paso para mejorar.\n• Confianza en la teoría: Mencionas que entiendes la teoría de Leyes de Newton y sientes que puedes aplicarla en el proyecto, lo que muestra disposición para el trabajo práctico. MEJORAS\n• Falta de especificidad en respuestas: Tus respuestas son muy cortas y generales. Necesitas desarrollar cada pregunta con ejemplos concretos. Por ejemplo, en Q1 deberías listar: \"Variables conocidas: masa (kg), aceleración (m/s²); Variables controlables: fuerza aplicada; Variables no controlables: fricción del aire.\"",
+      "createdAt": "2025-11-17T13:45:58.866Z"
+    }
+  ]
+}

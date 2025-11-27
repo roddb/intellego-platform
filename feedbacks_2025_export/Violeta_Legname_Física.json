@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "studentId": "u_1wjc7u8gpme1bxkgh",
+    "studentName": "Violeta Legname",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.241833",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 51.0,
+      "minScore": 34,
+      "maxScore": 76,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 71,
+      "generalComments": "Querida Violeta Legname, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Física. Identificas claramente el uso del pensamiento crítico en situaciones cotidianas. Realizas conexiones interesantes entre el pensamiento crítico y la ciencia en general. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema. Desarrolla estrategias más específicas para superar tus desafíos. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas claramente el uso del pensamiento crítico en situaciones cotidianas",
+        "Demuestras buena comprensión del contexto del pensamiento crítico aplicado",
+        "Realizas conexiones interesantes entre el pensamiento crítico y la metodología científica"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas",
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida Violeta Legname, tu desempeño en Fase 2: Identificación de variables y datos es apropiado, mostrando comprensión adecuada aunque con oportunidades de profundización en Física. Identificas correctamente las variables involucradas en planificación y gestión del tiempo. Organizas adecuadamente los datos y la información disponible. Conectas la identificación de problemas con situaciones cotidianas de manera efectiva. Lo más difícil fue acordarte de todas las variables y diferenciarlas, lo que es una dificultad específica y real de esta fase. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en problemas de planificación",
+        "Organizas adecuadamente los datos y la información disponible",
+        "Conectas la identificación de problemas con situaciones cotidianas de manera efectiva",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada",
+        "Proporciona evidencias más concretas en contextos específicos de Física",
+        "Busca aplicaciones prácticas de identificación de variables en situaciones de cinemática y dinámica"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 45,
+      "generalComments": "Querida Violeta Legname, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Reconoces que el tiro oblicuo combina MRU y MRUV, lo cual es un punto de partida importante. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Es fundamental consolidar tu comprensión de las relaciones entre variables. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje mediante la resolución de ejercicios por cuenta propia. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces la conexión entre tiro oblicuo y los movimientos MRU y MRUV estudiados previamente",
+        "Identificas que tu dificultad principal está en la aplicación de fórmulas"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables",
+        "Proporciona evidencias más concretas resolviendo ejercicios por cuenta propia",
+        "Identifica con mayor precisión las dificultades específicas que enfrentas en lugar de generalizar"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Querida Violeta Legname, estás trabajando adecuadamente en la Fase 4: Estrategia y ejecución completa, demostrando comprensión de los procedimientos de resolución y avance sostenido. Muestras problemas resueltos con proceso completo del basketbolista, incluyendo descomposición de velocidad inicial, resolución de ecuación cuadrática y cálculo de alcance. Conectas las herramientas matemáticas con fenómenos físicos mediante trigonometría. Es importante mejorar la planificación de tu estrategia de selección de fórmulas antes de ejecutar. Te recomiendo incorporar la verificación de resultados como parte de tu proceso. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Muestras problemas resueltos completamente con proceso visible de descomposición vectorial",
+        "Ejecutas los pasos de resolución de manera ordenada incluyendo ecuaciones cuadráticas",
+        "Conectas las herramientas matemáticas con fenómenos físicos mediante trigonometría",
+        "Demuestras capacidad analítica al abordar problemas complejos de cinemática"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia para identificar qué fórmula usar antes de ejecutar",
+        "Te recomiendo incorporar la verificación de resultados como parte sistemática de tu proceso",
+        "Desarrolla estrategias más específicas para la selección inicial de herramientas"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 58,
+      "generalComments": "Querida Violeta Legname, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en el tema de gases ideales. Identificas correctamente el problema y las variables involucradas. Reconoces las magnitudes físicas relevantes como presión, volumen y temperatura. Necesitas fortalecer tu criterio para seleccionar y aplicar las herramientas apropiadas, específicamente la ecuación PV=nRT. Es importante consolidar tu comprensión del uso de la constante de los gases ideales (R) y sus unidades. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en el problema de gases ideales",
+        "Reconoces las magnitudes físicas relevantes: presión, volumen y temperatura",
+        "Demuestras comprensión del objetivo del problema: calcular la masa de metano"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Es fundamental consolidar tu comprensión de la constante de los gases ideales (R) y su uso",
+        "Debes practicar más la aplicación de la ecuación PV=nRT a situaciones concretas",
+        "Es importante mejorar la conversión de unidades (mmHg a atm, dm³ a L, °C a K)"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 45,
+      "generalComments": "Querida Violeta Legname, te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Física. Demuestras reflexión honesta sobre tu proceso de aprendizaje al reconocer la falta de práctica y el error de la semana anterior. Es fundamental fortalecer tu comprensión de conceptos geométricos básicos como la parábola. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en tiro oblicuo. Proporciona evidencias más concretas mediante práctica sistemática de ejercicios. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Demuestras reflexión sobre tu propio proceso de aprendizaje al reconocer errores anteriores",
+        "Muestras honestidad al identificar tu falta de práctica y las razones contextuales",
+        "Reconoces la conexión básica entre tiro oblicuo y funciones matemáticas"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu comprensión de conceptos geométricos básicos como la parábola",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Es importante consolidar la comprensión de fórmulas antes de avanzar",
+        "Mantén mayor constancia y regularidad en la práctica de ejercicios de Física"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxkgh_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 45,
+      "generalComments": "Querida Violeta Legname, te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Física. Demuestras valentía y honestidad al pedir ayuda explícitamente y reconocer tus dificultades. Muestras reflexión profunda sobre tu proceso de aprendizaje al identificar el contexto que afectó tu comprensión. Necesitas fortalecer tu comprensión de conceptos matemáticos básicos como seno y coseno antes de aplicarlos a Física. Es fundamental consolidar las bases de descomposición vectorial. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Demuestras valentía al pedir ayuda explícitamente",
+        "Muestras reflexión profunda sobre tu proceso de aprendizaje y el contexto",
+        "Realizas conexiones básicas entre tiro oblicuo y deportes cotidianos",
+        "Reconoces con honestidad tus limitaciones conceptuales"
+      ],
+      "improvements": [
+        "Es prioritario fortalecer tu comprensión de seno y coseno como herramientas trigonométricas básicas",
+        "Necesitas fortalecer tu criterio para seleccionar las fórmulas apropiadas en problemas de movimiento",
+        "Es fundamental consolidar tu comprensión de las variables físicas y su significado",
+        "Busca apoyo docente o de compañeros para explicación paso a paso del tema"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fbefa8bf-1c6f-425a-978f-20e3c7a1fe56",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:55.058Z"
+    },
+    {
+      "feedbackId": "be38074d-6737-48ac-8e97-7d126de48193",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:20.536Z"
+    },
+    {
+      "feedbackId": "14a2328d-a64a-4e64-9ed8-d3ab5004fe35",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:46:20.567Z"
+    },
+    {
+      "feedbackId": "71c2097d-09f0-43a4-b70d-b63813116198",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:28:25.184Z"
+    },
+    {
+      "feedbackId": "5d5808ba-9360-42cb-9eb0-07f7af4cffc3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás trabajando en las Leyes de Newton y que participas en actividades grupales, lo cual es positivo. Sin embargo, tu reporte es muy breve y no muestra el análisis detallado que esperamos en Fase 2. Necesitas ir más allá de describir qué hiciste y mostrar *cómo* identificas y clasificas variables.\n\nTu dificultad principal (\"no sé qué fórmula usar\") es común, pero tiene solución. El problema no es la fórmula en sí, sino que aún no dominas cómo conectar las variables del problema con la ecuación correcta. Esto es exactamente lo que Fase 2 te enseña.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada ejercicio, (2) clasifiques cada variable como conocida/desconocida, y (3) completes todas las preguntas del reporte con reflexiones genuinas. Esto te ayudará a avanzar significativamente.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente dónde tienes dificultad (\"me resulta difícil identificar qué fórmula usar\"). Esto es el primer paso para mejorar.\n• Participación en actividades colaborativas: Mencionas trabajo en grupo, lo que muestra disposición a aprender con compañeros y compartir ideas.\n• Conciencia de la conexión interdisciplinaria: Identificas que Física y Matemática están relacionadas a través de las fórmulas, mostrando pensamiento integrador básico.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de solo decir \"me cuesta resolver ejercicios\", especifica: ¿Cuáles son las variables en un problema de Newton? (masa, fuerza, aceleración). ¿Cuáles conoces? ¿Cuáles debes encontrar? Haz listas explícitas en tus próximos reportes.\n• Desarrolla estrategias concretas para elegir fórmulas: Cuando no sabes qué fórmula usar, pregúntate: ¿Qué variables tengo? ¿Qué necesito encontrar? Crea un \"árbol de decisión\" personal (ej: \"Si tengo F y m, busco a = F/m\"). Practica esto en 3-5 ejercicios esta semana.\n• Completa todas las secciones del reporte: La pregunta 5 es clave para reflexionar sobre tu aprendizaje. Dedica 2-3 minutos a escribir qué aprendiste, qué te sorprendió o cómo evolucionaste desde la Fase 1. Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-10-27T05:06:43.022Z"
+    },
+    {
+      "feedbackId": "4610f973-e90b-40b7-87b0-e294035c787e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que esta semana ha sido desafiante para ti, y lo reconozco. El hecho de que expreses claramente tu frustración (\"no entiendo nada\") me dice que eres consciente de que necesitas apoyo, y eso es importante. Sin embargo, necesitamos cambiar la estrategia: en lugar de solo decir que no entiendes, vamos a trabajar juntos para identificar exactamente dónde se quiebra tu comprensión.\n\nTu desempeño en esta Fase 2 muestra que necesitas refuerzo urgente en la identificación y clasificación de variables. Esto no es un fracaso: es información valiosa que nos permite ajustar el plan. La buena noticia es que con práctica sistemática y estrategias claras, puedes mejorar significativamente.\n\nPara la próxima semana, quiero que hagas tres cosas concretas: (1) Mantén un registro escrito de cada ejercicio que resuelvas, (2) Practica clasificando variables en problemas simples antes de intentar los complejos, (3) Ven a mi oficina en horario de asesoría para trabajar juntos en un problema paso a paso. No estás solo en esto.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces abiertamente tu nivel de dificultad (\"Nivel 1\", \"no entiendo nada\"), lo que es el primer paso para buscar ayuda. Esta sinceridad es valiosa para que podamos trabajar juntos.\n• Identificación de una conexión interdisciplinaria: Mencionas la relación con \"ecuaciones de matemática\", mostrando que intentas conectar conceptos entre materias, aunque necesite desarrollarse más.",
+      "improvements": "• Falta de sistematización del aprendizaje: No documentas qué variables trabajaste, cómo las clasificaste, ni qué ejercicios resolviste. Acción: A partir de esta semana, mantén un cuaderno o archivo donde escribas: (1) El problema, (2) Variables identificadas, (3) Clasificación (conocida/desconocida, controlable/no controlable), (4) Magnitudes físicas involucradas. Esto te ayudará a ver tu progreso.\n• Ausencia de estrategias para superar dificultades: Dices que te resulta difícil \"averiguar variables\" pero no propones cómo resolverlo. Acción: Practica con problemas simples paso a paso. Antes de resolver, subraya en el enunciado: ¿Qué me dan? ¿Qué me piden? ¿Qué puedo cambiar? ¿Qué no puedo cambiar? Esto es clasificar variables.\n• Falta de reflexión metacognitiva: Tus respuestas son muy breves y no muestran pensamiento profundo sobre el proceso. Acción: Dedica 5 minutos al final de cada clase para escribir: \"Hoy aprendí...\", \"Me costó...\", \"Mañana voy a intentar...\". Esto te ayudará a ser más consciente de tu aprendizaje.",
+      "createdAt": "2025-11-03T12:27:56.475Z"
+    },
+    {
+      "feedbackId": "842beccb-8403-484a-9984-52eb17b243a4",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás en el camino correcto reconociendo tus dificultades, pero tu reporte de esta semana necesita ser mucho más específico y detallado. La Fase 2 requiere que documentes cómo identificas y clasificas variables en los problemas que trabajas, y en tu reporte actual no hay evidencia clara de esto.\n\nTu desempeño esta semana es inicial porque las respuestas son genéricas y no muestran el análisis sistemático de variables que es el corazón de esta fase. El Proyecto APP es una excelente oportunidad para practicar esto, pero necesitas ir más allá de solo dividir tareas.\n\nPara la próxima semana, te propongo que: (1) resuelvas al menos 3 ejercicios de Leyes de Newton identificando explícitamente cada variable, (2) clasifiques cada una (conocida/desconocida, controlable/no controlable), y (3) documentes este proceso en tu reporte. Esto te ayudará a superar la confusión con las fórmulas.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que te confundes con las fórmulas en ejercicios complejos. Esta autoconsciencia es el primer paso para mejorar y es valiosa para el aprendizaje.\n• Conexión interdisciplinaria: Tu mención de Newton, Galileo y Einstein muestra que intentas vincular el contenido con contextos más amplios, lo cual es positivo para el pensamiento crítico.\n• Participación en proyecto colaborativo: Aunque aún no hay resultados, tu participación en el Proyecto APP de Dinámica demuestra disposición a trabajar en equipo y aplicar lo aprendido.",
+      "improvements": "• Identificación específica de variables: En lugar de decir \"me confundo con las fórmulas\", analiza qué variables están en juego. Por ejemplo: en F=ma, ¿cuáles son conocidas? ¿Cuáles desconocidas? ¿Cuáles puedo controlar? Haz listas explícitas de variables en cada problema que resuelvas.\n• Documentación del proceso de aprendizaje: Tu reporte carece de evidencia concreta (listas de variables, clasificaciones, ejemplos resueltos). La próxima semana, adjunta fotografías o documentos de ejercicios donde hayas identificado y clasificado variables sistemáticamente.\n• Profundidad en reflexión: Las respuestas son muy breves y superficiales. Dedica más tiempo a explicar no solo QUÉ hiciste, sino CÓMO lo hiciste y POR QUÉ te resultó difícil. Por ejemplo, en Q5 escribe al menos 3-4 líneas reflexionando sobre tu progreso.",
+      "createdAt": "2025-11-12T22:53:41.713Z"
+    },
+    {
+      "feedbackId": "3f0552a8-99bd-46dd-96ee-0f878c21b73b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que has trabajado duro en la construcción de la catapulta y lograste resolver un problema real de ingeniería. Eso es valioso. Sin embargo, tu reporte no refleja el aprendizaje de Fase 2, que es precisamente identificar y clasificar variables en un problema físico.\n\nEsta semana te enfocaste mucho en lo práctico (construir), pero poco en lo teórico (analizar). Ambas partes son necesarias para desarrollar pensamiento crítico en ciencias.\n\nPara la próxima semana, antes de terminar el proyecto, dedica tiempo a documentar: ¿Qué variables mediste? ¿Cuáles controlaste? ¿Cuáles no pudiste controlar? Esto es lo que Fase 2 busca que domines. Luego conecta esas variables con conceptos de física (fuerzas, energía, movimiento).",
+      "strengths": "• Resolución práctica de problemas: Identificaste un obstáculo real en la construcción (pegamento insuficiente) y propusiste una solución estructural efectiva (palos de soporte), mostrando pensamiento práctico.\n• Trabajo colaborativo: Mencionas \"encontramos\" y \"pudimos resolver\", evidenciando que trabajas en equipo y comunicas soluciones con tus compañeros.\n• Avance en el proyecto: Tienes la catapulta casi terminada, lo que demuestra compromiso y dedicación en la parte práctica del trabajo.",
+      "improvements": "• Falta de análisis de variables: Tu reporte no menciona qué variables mediste o controlaste en la catapulta (ángulo de lanzamiento, masa del proyectil, distancia alcanzada, etc.). Para Fase 2, debes identificar y clasificar estas variables explícitamente. Sugiero: antes de terminar el proyecto, haz una lista de \"Variables que mediremos\" y \"Variables que controlaremos\".\n• Desconexión entre práctica y teoría: Dices \"solo queda hacer la parte teórica\" como si fueran separadas. La teoría debe conectar con lo que construiste. Propuesta: para cada variable de tu catapulta, escribe qué concepto físico la explica (ej: \"ángulo de lanzamiento → movimiento parabólico\").\n• Respuestas muy breves sin profundidad: Tus respuestas no desarrollan ideas. Por ejemplo, Q4 tiene una línea cuando debería explicar cómo las variables de tu catapulta se aplican a otros contextos. Intenta escribir mínimo 3-4 oraciones por pregunta, con ejemplos específicos.",
+      "createdAt": "2025-11-17T13:57:01.034Z"
+    }
+  ]
+}

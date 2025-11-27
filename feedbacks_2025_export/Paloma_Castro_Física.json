@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "studentId": "u_ktmv2zgznme1ei0iq",
+    "studentName": "Paloma Castro",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.229824",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 64.83,
+      "minScore": 35,
+      "maxScore": 79,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "5891af41-f0c6-46a5-8bdf-16bbb227a4c2",
+      "weekStart": "2025-08-04",
+      "score": 79,
+      "generalComments": "Tu trabajo en esta primera unidad sobre pensamiento crítico muestra una comprensión sólida de los conceptos fundamentales. Destacás especialmente en la aplicación práctica, como se evidencia en tu análisis detallado de los diálogos y ejercicios. Tu identificación de componentes clave (atención, objetividad, prejuicios) demuestra que internalizaste los fundamentos. La autoevaluación honesta y el reconocimiento de dificultades superadas reflejan madurez académica.",
+      "strengths": [
+        "Excelente trabajo de evidencia en Q2, con análisis concreto y detallado de ejercicios realizados",
+        "Capacidad de identificar conexiones interdisciplinares relevantes (Biología y Matemática)",
+        "Honestidad metacognitiva al reconocer dificultades y explicar estrategias de superación",
+        "Comprensión conceptual clara de los fundamentos del pensamiento crítico (atención, objetividad, prejuicios)"
+      ],
+      "improvements": [
+        "Ampliar la profundidad del análisis en Q3: explicar cómo específicamente la comparación de diálogos te ayudó a identificar características",
+        "Desarrollar más las conexiones disciplinares en Q4: dar ejemplos concretos de situaciones en Biología/Matemática donde aplicaste PC",
+        "Aprovechar el espacio de comentarios adicionales (Q5) para reflexiones sobre el proceso de aprendizaje o dudas que surgieron",
+        "Elevar el nivel de tu autoevaluación: tu trabajo demuestra mayor dominio del que inicialmente indicaste (nivel 3 vs. desempeño cercano a nivel 4)"
+      ],
+      "createdAt": "2025-10-01 13:40:48"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-08-11_d0e6d7f3",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Paloma, tu trabajo en Fase 3 muestra que estás en proceso de consolidación. Tu autoevaluación (nivel 2 - 'entiendo la teoría y puedo aplicar con ayuda, pero a veces me confundo') es honesta y refleja bien tu momento actual. El ejercicio que resolviste demuestra comprensión de la separación del movimiento en componentes y aplicación de fórmulas, aunque hay áreas específicas que requieren mayor práctica.",
+      "strengths": [
+        "Comprensión correcta de la estructura: 'separar el movimiento en horizontal y vertical'",
+        "Aplicación apropiada de MRU en x y MRUV en y para diferentes magnitudes (tiempo, altura, alcance, velocidad)",
+        "Identificación clara de la dificultad principal: resolver ecuaciones cuadráticas y obtener dos resultados",
+        "Estrategia de mejora válida: 'seguir practicando paso a paso y revisar datos antes de calcular'",
+        "Conexión rica con múltiples áreas: funciones cuadráticas (parábola), MRU/MRUV previo, deportes",
+        "Reconocimiento específico de confusión: 'no mezclar fórmulas del eje x con las del eje y'"
+      ],
+      "improvements": [
+        "Q2 describe QUÉ calculaste (tiempo, altura, alcance, velocidad) pero no muestra el desarrollo matemático de ninguno",
+        "La dificultad con ecuaciones cuadráticas es importante: faltó explicar CÓMO determinaste que el resultado positivo era el válido",
+        "No especificas los valores numéricos obtenidos para verificar si son razonables físicamente",
+        "Menciona que te llevó bastante tiempo pero no indicas cuántos intentos o qué errores corregiste",
+        "Podrías detallar más la estrategia: ¿revisar datos CÓMO? (¿esquema? ¿tabla? ¿lista?)"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-08-18_e1f7e8a4",
+      "weekStart": "2025-08-18",
+      "score": 75,
+      "generalComments": "Paloma, esta semana muestras una ligera mejora respecto a la anterior. Tu comprensión teórica del tiro oblicuo está consolidándose ('entiendo aunque todavía me enredo con algunas cuentas'). El ejercicio de la pelota lanzada desde el balcón está mejor desarrollado que la semana pasada, con más información específica sobre el proceso, aunque todavía falta el detalle matemático completo.",
+      "strengths": [
+        "Aplicación correcta del método F1-F2-F3 para organizarte (mencionado en Q3)",
+        "Separación correcta de velocidad en componentes: Vox y Voy con ángulo de 30°",
+        "Secuencia lógica: calcular tiempo con parte vertical → usar tiempo para calcular alcance horizontal",
+        "Resultado específico mencionado: alcance aproximado de 40m",
+        "Estrategia muy efectiva en Q3: 'hice esquemas y seguí método paso a paso (F1-F2-F3)'",
+        "Conexión apropiada con trigonometría, ecuaciones y deportes"
+      ],
+      "improvements": [
+        "Falta el cálculo explícito de las componentes Vox y Voy (mencionas que lo hiciste pero no muestras: 20×cos(30°) = ? y 20×sen(30°) = ?)",
+        "La ecuación larga de Q3 para calcular el tiempo no está mostrada: ¿qué ecuación específica usaste?",
+        "No especificas si la altura inicial de 3m afectó el cálculo del tiempo y cómo",
+        "Falta verificación del resultado: ¿40m es razonable dada la velocidad y el ángulo?",
+        "La dificultad está bien identificada pero podría ser más específica: ¿qué parte de la ecuación te complicó?"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-08-25_f2a8f9b5",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Paloma, esta semana hay una pequeña caída en el desempeño respecto a la anterior. Tu autoevaluación baja a nivel 2 ('entiendo las fórmulas básicas pero me cuesta aplicarlas sin equivocarme'). El ejercicio de altura máxima está planteado correctamente en términos conceptuales, pero la ejecución tiene un error importante en el resultado que requiere atención y revisión.",
+      "strengths": [
+        "Identificación correcta del problema: calcular altura máxima con datos de velocidad inicial (30 m/s) y ángulo (60°)",
+        "Reconocimiento apropiado de que se debe usar la componente vertical de la velocidad",
+        "Aplicación del método paso a paso mencionado en reportes anteriores",
+        "Estrategia de mejora: 'repasé ejemplos del cuadernillo y practiqué paso a paso'",
+        "Conexión correcta con MRU y MRUV como combinación de movimientos"
+      ],
+      "improvements": [
+        "ERROR CRÍTICO: El resultado de 33.75m para altura máxima parece incorrecto. Con Vo=30 m/s y ángulo 60°, la altura debería ser aproximadamente (30×sen60°)²/(2×10) ≈ 33.75m... el cálculo está bien, pero no muestras el desarrollo completo para verificarlo",
+        "No especificas QUÉ fórmula usaste exactamente (¿Hmax = Voy²/2g?)",
+        "La dificultad identificada en Q3 (qué componente usar) es fundamental pero no describes CÓMO decidiste finalmente",
+        "Falta el cálculo explícito de Voy = 30 × sen(60°) = 30 × 0.866 = 25.98 m/s",
+        "No hay verificación del resultado por razonabilidad física"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-09-01_a3b9a0c6",
+      "weekStart": "2025-09-01",
+      "score": 78,
+      "generalComments": "Paloma, esta semana muestras una recuperación positiva respecto a la semana anterior. Tu autoevaluación sube a nivel 3 ('ya puedo aplicar bien las fórmulas para calcular tiempo, altura y alcance') aunque reconoces dificultades con condiciones extras. El ejercicio del golfista está mejor trabajado con organización de datos, aunque todavía falta el desarrollo matemático detallado que permitiría verificar tu comprensión completa.",
+      "strengths": [
+        "Autoevaluación realista: nivel 3 con reconocimiento de limitaciones (condiciones extras como viento, altura inicial ≠ 0)",
+        "Organización previa de datos: identificaste velocidad (40 m/s) y ángulo (42°) como información clave",
+        "Resultado específico: 'llegaba más allá de los obstáculos' (comparación correcta con lago y bunker)",
+        "Estrategia muy efectiva en Q3: 'anoté variables, marqué lo importante, hice dibujo'",
+        "Conexión correcta: 'junta MRU (horizontal) y MRUV (vertical) en mismo ejercicio'"
+      ],
+      "improvements": [
+        "No muestras el cálculo del alcance: ¿qué valor numérico obtuviste?",
+        "Falta desarrollo de componentes: Vox = 40×cos(42°) = ? y Voy = 40×sen(42°) = ?",
+        "No especificas las distancias del lago y bunker para comparar con tu resultado",
+        "La estrategia de Q3 es excelente pero faltó el último paso: ¿y después del dibujo qué hiciste?",
+        "¿Verificaste que tu resultado fuera razonable? (ej: ¿puede una pelota de golf ir tan lejos con esa velocidad?)"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-09-08_b4c0b1d7",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Paloma, esta semana hay una pequeña caída respecto a la anterior. Tu autoevaluación vuelve a nivel 2 ('entiendo el procedimiento pero necesito repasar más' para hacerlo sola). El ejercicio de la pelota de golf está identificado correctamente, pero el desarrollo es mínimo y muy similar al patrón de semanas anteriores: describes QUÉ hiciste sin mostrar CÓMO lo hiciste.",
+      "strengths": [
+        "Identificación del tema: separar velocidad en horizontal y vertical, fórmulas para alcance y altura",
+        "Descripción del ejercicio: pelota de golf para determinar si cae en lago o lo pasa",
+        "Resultado: 'calculé el alcance y lo comparé con la distancia del lago'",
+        "Estrategia de organización en Q3: 'anotar datos importantes y qué tenía que calcular'",
+        "Conexión apropiada con trigonometría y educación física"
+      ],
+      "improvements": [
+        "Q2 es extremadamente breve: solo mencionas QUE hiciste un ejercicio pero no muestras NADA del desarrollo",
+        "No especificas los datos del problema: ¿velocidad inicial? ¿ángulo? ¿distancia al lago?",
+        "No muestras el resultado numérico del alcance calculado",
+        "La dificultad en Q3 (organizar datos, no saber qué sirve) es muy básica para alguien en nivel 2-3 de Fase 3",
+        "Tu autoevaluación vuelve a bajar (nivel 2) después de haber estado en nivel 3 la semana pasada - esto indica inconsistencia",
+        "Los dibujos mencionados en Q3 como difíciles son FUNDAMENTALES para tiro oblicuo - necesitas dominarlos"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1ei0iq_2025-09-22_c5d1c2e8",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "NOTA IMPORTANTE: Este reporte está completamente fuera de contexto. Las respuestas abordan contenido de QUÍMICA (gases ideales, ecuación combinada de gases, ley de Dalton, fracciones molares) cuando el reporte debería ser de FÍSICA. Esto genera una evaluación muy baja (35 puntos) no porque el contenido de química sea malo, sino porque no corresponde a la materia del reporte.",
+      "strengths": [
+        "Honestidad en la autoevaluación sobre dificultades con gases (contenido de química)",
+        "Descripción de estrategia de organización: escribir datos, qué me piden, aplicar fórmula"
+      ],
+      "improvements": [
+        "CRÍTICO: Todo el reporte corresponde a QUÍMICA (gases ideales, ecuación combinada, fracciones molares, presiones parciales, ley de Dalton), NO a FÍSICA",
+        "Este error sugiere confusión entre formularios de diferentes materias o falta de verificación antes de enviar",
+        "Verificar SIEMPRE que el contenido del reporte corresponda a la materia correcta antes de enviarlo"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "c4c85296-b81f-46cb-aac2-331321416e55",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:39:26.060Z"
+    },
+    {
+      "feedbackId": "5ca286a7-8f3b-4a65-8a81-59abc820dc1b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:15:34.315Z"
+    },
+    {
+      "feedbackId": "41fe5e3f-441a-42d4-a464-45298608d53f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:00:12.251Z"
+    },
+    {
+      "feedbackId": "928f8cd9-b340-4529-80ee-c86887ca2a80",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 54,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:53:10.322Z"
+    },
+    {
+      "feedbackId": "7f64ab43-ba2e-4092-9134-6d6ae4e7fcb2",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que tienes buena base en cálculos y resuelves problemas de forma ordenada, lo que es un logro importante. Sin embargo, tu reporte muestra que aún no has internalizado completamente el objetivo de Fase 2: identificar y clasificar variables sistemáticamente. Tus respuestas son más descriptivas que analíticas.\n\nEsta semana trabajaste bien el problema del automóvil, pero necesitas ir más allá: no solo resolver, sino reflexionar sobre *qué variables usaste*, *cómo las clasificas* y *por qué importa cada una*. Esto es lo que diferencia un estudiante que calcula de uno que piensa críticamente.\n\nPara la próxima semana, te propongo: (1) en cada problema, haz una tabla con todas las variables clasificadas, (2) practica diagramas de cuerpo libre con la estrategia que te sugerí, y (3) escribe comentarios reflexivos en Q5 sobre lo que aprendiste. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Cálculos precisos y conversiones correctas: En Q2 conviertes velocidades a m/s (13,89 y 27,78 m/s) y aplicas fórmulas de cinemática sin errores. Esto muestra dominio operativo en la resolución.\n• Proceso metodológico claro en problemas: Presentas los pasos de forma ordenada (conversión → aceleración → fuerza), lo que facilita seguir tu razonamiento y verificar dónde está cada variable.\n• Autoevaluación honesta: Reconoces que necesitas repasar fórmulas y que tienes dificultades con diagramas de cuerpo libre, lo que muestra autoconciencia sobre tus limitaciones.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar y clasificar cada variable. Por ejemplo, en el problema del automóvil: masa (conocida, no controlable), velocidad inicial (conocida, no controlable), tiempo (conocida, controlable). Esto es el corazón de Fase 2.\n• Estrategias concretas para diagramas de cuerpo libre: No basta decir \"me cuesta.\" Propón un método: (1) identifica el objeto, (2) lista todas las fuerzas (peso, normal, fricción, aplicada), (3) dibuja vectores desde el centro. Practica con 3-4 ejercicios usando este sistema.\n• Conexiones explícitas entre temas: En Q4, conecta Dinámica con Cinemática (usaste Vf=Vi+at), con Estática (equilibrio de fuerzas) y con situaciones reales (aceleración de vehículos, caídas). Esto integra Fase 1+2 y prepara Fase 3.",
+      "createdAt": "2025-11-03T12:23:27.520Z"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "studentId": "u_6greeuiz1me1bxwwd",
+    "studentName": "Milo Santos",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.226729",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 71.67,
+      "minScore": 68,
+      "maxScore": 77,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1bxwwd_2025-08-11_a7b3a4c0",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Milo, tu trabajo en la Fase 2 es muy sólido. Demostraste buena comprensión de la clasificación de variables, distinguiendo claramente entre controlables y no controlables en el problema de Mateo y el salto de longitud. Tu autoevaluación (nivel básico con necesidad de práctica) es honesta y constructiva. El reconocimiento de la dificultad en Q3 y la estrategia usada para superarla muestra madurez en el aprendizaje.",
+      "strengths": [
+        "Clasificación correcta de variables: velocidad inicial y ángulo como controlables, gravedad y viento como no controlables",
+        "Comprensión conceptual: reconocimiento de que 'el salto se analiza como un proyectil'",
+        "Identificación clara de la dificultad: diferenciar valores medibles vs. calculables",
+        "Estrategia efectiva de mejora: 'repasando la matriz de clasificación'",
+        "Conexión apropiada con deportes y matemática (trigonometría para componentes de velocidad)",
+        "Honestidad en Q5 (respuesta vacía pero sin inventar contenido innecesario)"
+      ],
+      "improvements": [
+        "Q1 podría profundizar más en QUÉ aspectos del tiro oblicuo comprendes bien y cuáles necesitan práctica específica",
+        "La dificultad en Q3 está bien identificada pero podrías dar un ejemplo concreto de cómo la matriz te ayudó",
+        "En futuras fases, desarrollar más la conexión con matemática especificando QUÉ funciones trigonométricas usas"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxwwd_2025-08-18_b8c4b5d1",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Milo, tu trabajo en Fase 3 muestra que estás avanzando pero todavía enfrentas desafíos significativos. Tu autoevaluación ('es un tema complicado, me cuesta entenderlo bien y resolver los ejercicios') es honesta y refleja las dificultades reales que experimentas. El ejercicio que presentaste tiene elementos positivos, pero también áreas importantes que necesitan desarrollo, especialmente en la claridad de los datos y la completitud del proceso.",
+      "strengths": [
+        "Identificación correcta de las herramientas: MRU para eje x, MRUV para eje y",
+        "Reconocimiento de la necesidad de separar el movimiento en componentes",
+        "Aplicación apropiada de fórmulas diferentes según el eje",
+        "Estrategia útil en Q3: resolver 'paso a paso, primero identificando si era MRU o MRUV'",
+        "Conexión válida con contenido previo (MRU y MRUV por separado) y con vida real (deportes)"
+      ],
+      "improvements": [
+        "CRÍTICO: Los datos en Q2 están completamente vacíos o ilegibles - aparecen solo saltos de línea sin valores numéricos",
+        "No se puede evaluar la correctitud de tu solución porque no muestras los valores de velocidad inicial, ángulo, o tiempo",
+        "La dificultad identificada en Q3 (elegir qué fórmula usar) es muy relevante pero no describes CÓMO decidiste finalmente cuál usar",
+        "Falta verificación del resultado o análisis de razonabilidad de la respuesta",
+        "El ejercicio está incompleto: no muestra cálculo de las componentes Vox y Voy que son fundamentales"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxwwd_2025-08-25_c9d5c6e2",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Milo, tu trabajo esta semana muestra cierta mejora en la organización pero mantiene problemas similares a la semana anterior. Tu autoevaluación (nivel básico-intermedio, 'entendí a nivel teórico pero al resolver cuentas me confundo') es muy precisa y refleja exactamente lo que se observa en el reporte. El problema del cálculo del tiempo de vuelo de la pelota está bien conceptualizado, pero la ejecución sigue siendo el punto débil.",
+      "strengths": [
+        "Autoevaluación muy precisa: 'entendí a nivel teórico pero al resolver cuentas me confundo'",
+        "Descripción clara del ejercicio: calcular tiempo en el aire usando parte vertical y relacionar con distancia horizontal",
+        "Reconocimiento de que 'me llevó varios intentos' muestra persistencia y honestidad",
+        "Estrategia útil identificada en Q3: 'hice esquemas del movimiento y repasé videos explicativos'",
+        "Conexión apropiada con contenido previo (tiro vertical y MRU) y situaciones cotidianas"
+      ],
+      "improvements": [
+        "Q2 describe QUÉ hiciste (usé fórmulas de la parte vertical) pero no muestra CÓMO lo hiciste ni el desarrollo matemático",
+        "No especificas cuáles fueron las fórmulas de la parte vertical que usaste",
+        "Falta información sobre los datos del problema: velocidad inicial, ángulo, altura",
+        "La dificultad en Q3 (elegir la fórmula adecuada y no mezclar datos) es la misma de la semana pasada, sugiriendo que la estrategia aún no es efectiva",
+        "No mencionas el resultado numérico obtenido ni si lo verificaste"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "studentId": "u_h52avro4ome1fmelf",
+    "studentName": "Franco Lugo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.201006",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 31.71,
+      "minScore": 27,
+      "maxScore": 50,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "366384e1-d510-7322-4882-b3725b795ada",
+      "weekStart": "2025-08-04",
+      "score": 50,
+      "generalComments": "Franco, entiendo que faltaste esta semana. Es importante que recuperes los contenidos trabajados sobre gases ideales y las primeras fases del pensamiento crítico. Consulta con tus compañeros los temas vistos y no dudes en pedir ayuda adicional.",
+      "strengths": [
+        "Comunicación de la ausencia de manera honesta",
+        "Cumplimiento con la entrega del reporte pese a la falta",
+        "Mantener el compromiso con el proceso de evaluación"
+      ],
+      "improvements": [
+        "Recuperar los contenidos de la semana perdida antes de continuar",
+        "Solicitar material de apoyo y apuntes de compañeros",
+        "Programar sesión de recuperación con el docente si es necesario"
+      ],
+      "createdAt": "2025-09-29 10:29:14"
+    },
+    {
+      "feedbackId": "0ea4c6b4-8613-149a-7c22-6deb34d38270",
+      "weekStart": "2025-09-01",
+      "score": 29,
+      "generalComments": "Franco, es fundamental que proporciones respuestas más completas para poder ayudarte mejor. El simple 'Nivel 2' no permite evaluar tu comprensión real de los temas. Te animo a describir qué trabajaste, qué entendiste y dónde necesitas apoyo específico.",
+      "strengths": [
+        "Entrega del reporte en tiempo establecido",
+        "Reconocimiento de estar en un nivel inicial de aprendizaje",
+        "Disposición para continuar con el proceso de evaluación"
+      ],
+      "improvements": [
+        "Desarrollar respuestas completas describiendo los temas trabajados en clase",
+        "Incluir ejemplos específicos de lo aprendido durante la semana",
+        "Expresar las dificultades concretas para poder recibir ayuda dirigida"
+      ],
+      "createdAt": "2025-09-29 10:28:29"
+    },
+    {
+      "feedbackId": "fb_002_1_ome1fmelf_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 35,
+      "generalComments": "Querido Franco Lugo, tu reporte de esta semana está incompleto, lo que dificulta evaluar tu avance en el proceso de aprendizaje de Química. Es fundamental proporcionar evidencias más concretas y específicas de tu proceso de aprendizaje. Mejora la organización de tu trabajo y presentación de ideas. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Presentaste el reporte en tiempo y forma",
+        "Reconoces la importancia de la evaluación",
+        "Mantienes constancia en tus entregas semanales"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Desarrolla respuestas más detalladas que muestren tu comprensión de los temas",
+        "Identifica con mayor precisión las dificultades que enfrentas en Química"
+      ],
+      "createdAt": "2025-10-06T06:11:51.000Z"
+    },
+    {
+      "feedbackId": "6b5af4dd-d728-4063-ac55-046b15015b77",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que has iniciado el reporte, pero necesitas completarlo con respuestas desarrolladas. La Fase 2 es fundamental para tu pensamiento crítico en Ciencias, y mereces dedicarle el tiempo necesario para reflexionar profundamente sobre lo que aprendiste.\n\nTe animo a que relleneseste reporte con contenido real. Tómate 20-30 minutos para cada pregunta, usa ejemplos de tus apuntes de clase y sé honesto sobre tus dificultades. Así podremos identificar exactamente dónde necesitas apoyo.",
+      "strengths": "Reconozco que has identificado que estás en un nivel de desarrollo (Nivel 2), lo que sugiere cierta autoconciencia sobre tu desempeño actual. Este es el primer paso para mejorar.\n\nSin embargo, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu comprensión de variables y magnitudes.",
+      "improvements": "Problema 1 - Respuestas incompletas: Todas tus respuestas son solo etiquetas sin contenido. Sugerencia: Desarrolla cada pregunta con párrafos que expliquen qué aprendiste, qué variables identificaste en los problemas trabajados y cómo las clasificaste (conocidas/desconocidas, controlables/no controlables).\n\nProblema 2 - Falta de ejemplos concretos: No hay evidencia de trabajo real con problemas de Química o Física. Sugerencia: Toma un problema específico que hayas trabajado en clase (ej: reacción química, movimiento) e identifica todas sus variables paso a paso.\n\nProblema 3 - Ausencia de reflexión metacognitiva: No hay análisis de dificultades ni estrategias personales. Sugerencia: Pregúntate: ¿Qué me cuesta diferenciar entre variables controlables y no controlables? ¿Cómo puedo mejorar? Escribe tus respuestas honestamente.",
+      "createdAt": "2025-10-21T05:48:01.814Z"
+    },
+    {
+      "feedbackId": "8e6e5da1-6332-45ed-a9a7-4106df6ba592",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Tu reporte actual no refleja el trabajo que esperamos en Fase 2. Aunque completaste la estructura del formulario, las respuestas están vacías de contenido y no demuestran pensamiento crítico sobre la identificación de variables.\n\nTe animo a que dediques tiempo a reflexionar genuinamente sobre lo que aprendiste esta semana. Reescribe el reporte con respuestas completas, ejemplos concretos y tu propia voz. Esto es fundamental para que avances en tu aprendizaje de Química.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Sin embargo, reconozco que iniciaste el proceso de autoevaluación, lo cual es el primer paso para mejorar tu pensamiento crítico.\n\nTu disposición a completar el reporte muestra intención de participar en tu propio aprendizaje, aunque aún necesitas desarrollar las respuestas con más detalle y profundidad.",
+      "improvements": "Problema 1 - Respuestas incompletas: Solo escribiste \"Nivel 2\" en cada pregunta sin explicar por qué. Sugerencia: Desarrolla cada respuesta con párrafos completos. Por ejemplo, en Q1 describe qué variables identificaste (temperatura, presión, concentración) y cómo las clasificaste (controlables/no controlables).\n\nProblema 2 - Falta de reflexión personal: No hay evidencia de que hayas pensado críticamente sobre tu aprendizaje. Sugerencia: Antes de responder, revisa tus apuntes de clase y los problemas que trabajaste. Luego escribe qué te resultó fácil, qué difícil, y cómo lo superaste.\n\nProblema 3 - Ausencia de ejemplos concretos: Sin ejemplos específicos de variables o problemas, no puedo evaluar tu comprensión real. Sugerencia: Menciona un problema específico que trabajaste (ej: \"En la reacción de combustión, identifiqué que la temperatura es variable controlable...\").",
+      "createdAt": "2025-10-21T06:31:14.812Z"
+    },
+    {
+      "feedbackId": "8161a2f5-3fef-4424-ad11-3e8e516b1c5e",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que esta semana no completaste el reporte de pensamiento crítico de manera adecuada. Escribir solo \"Nivel 2\" en cada pregunta no permite que yo entienda realmente qué aprendiste, qué dificultades enfrentaste o cómo estás progresando en Química.\n\nEl objetivo del reporte es que *reflexiones* sobre tu propio aprendizaje y que me muestres evidencia de tu pensamiento crítico. Esto requiere respuestas desarrolladas, ejemplos concretos y análisis personal.\n\nTe pido que completes este reporte correctamente esta semana. Si tienes dudas sobre qué escribir en cada pregunta, consulta conmigo en clase o envíame un mensaje. Estoy aquí para apoyarte, pero necesito que hagas el esfuerzo de reflexionar y comunicar tu progreso.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu pensamiento crítico. Para poder reconocer tus logros, necesito que completes las preguntas con explicaciones concretas.",
+      "improvements": "• Desarrolla respuestas completas: No basta escribir \"Nivel 2\". Debes explicar *qué* temas trabajaste, *cómo* los entiendes y *por qué* crees que estás en ese nivel. Usa 3-5 líneas por pregunta.\n• Proporciona evidencia concreta: En la pregunta 2, incluye ejemplos específicos: ejercicios que resolviste, conceptos que comprendiste, o explicaciones que escribiste. Esto demuestra realmente tu aprendizaje.\n• Reflexiona sobre dificultades: En la pregunta 3, identifica al menos una dificultad real (¿qué concepto no entendiste? ¿qué ejercicio te costó?) y explica qué hiciste para superarla o qué necesitas hacer.",
+      "createdAt": "2025-10-22T23:00:51.597Z"
+    },
+    {
+      "feedbackId": "54b2701d-5358-4867-8362-ee6fb41d2ef7",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que recibiste el reporte semanal, pero las respuestas están incompletas. Escribir solo \"Nivel 2\" en cada pregunta no permite que ni tú ni yo podamos evaluar realmente tu aprendizaje en Química esta semana.\n\nEl objetivo de este reporte es que reflexiones sobre tu propio proceso de aprendizaje. Es una herramienta para que identifiques qué entiendes bien, dónde tienes dificultades y cómo puedes mejorar. Sin esa reflexión, perdemos la oportunidad de ayudarte a crecer.\n\nTe pido que completes este reporte adecuadamente esta semana. Tómate tiempo para pensar en cada pregunta y escribe respuestas detalladas con ejemplos. Si tienes dudas sobre qué escribir, consulta conmigo en clase o por correo.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu pensamiento crítico. Sin embargo, reconozco que intentaste completar todas las preguntas, lo que muestra que recibiste el reporte.",
+      "improvements": "• Falta de desarrollo en las respuestas: Escribir solo \"Nivel 2\" no es suficiente. Cada pregunta requiere párrafos completos con ejemplos, explicaciones y reflexión personal. Dedica al menos 3-4 líneas a cada respuesta.\n• Ausencia de reflexión crítica: El reporte debe mostrar tu pensamiento, no solo etiquetas. Pregúntate: ¿Qué aprendí? ¿Cómo lo sé? ¿Dónde me cuesta? ¿Cómo lo usaré? Responde estas preguntas en cada sección.\n• Falta de ejemplos concretos: Tus respuestas necesitan evidencia real de tu aprendizaje. Menciona temas específicos, ejercicios que resolviste, conceptos que comprendiste o dificultades que enfrentaste. Sin ejemplos, no podemos evaluar tu progreso real.",
+      "createdAt": "2025-11-17T13:42:22.854Z"
+    }
+  ]
+}

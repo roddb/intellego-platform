@@ -1,0 +1,358 @@
+{
+    "curso": "4° D - (60) Bachillerato en Ciencias Sociales y Humanidades",
+    "materia": "Química",
+    "fecha_actualizacion": "2025-10-10",
+    "profesor": {
+      "nombre": "Rodrigo Di Bernardo",
+      "id": "3d47c07d-3785-493a-b07b-ee34da1113b4",
+      "email": "rdb@intellego.com",
+      "role": "INSTRUCTOR"
+    },
+    "estadisticas_curso": {
+      "total_alumnos": 27,
+      "alumnos_activos": 27,
+      "total_reportes": 84,
+      "total_feedbacks": 83,
+      "feedbacks_pendientes": 1
+    },
+    "alumnos": [
+      {
+        "nro": 1,
+        "nombre": "Alborello Arena, Clara",
+        "id": "u_u044khertme06lo0d",
+        "email": "claraalbarelloarena@gmail.com",
+        "quimica": {
+          "reportes": 4,
+          "feedbacks": 5,
+          "pendientes": 0,
+          "estado": "COMPLETO CON EXTRAS",
+          "nota": "Tiene más feedbacks que reportes"
+        }
+      },
+      {
+        "nro": 2,
+        "nombre": "Barria, María",
+        "id": "081cc56b-878d-4f2c-8fb1-18a35171589b",
+        "email": "mariabarriaa1@gmail.com",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      },
+      {
+        "nro": 3,
+        "nombre": "Bono, Emma",
+        "id": "u_13sv4a69ome06gv2t",
+        "email": "emmabono00@gmail.com",
+        "quimica": {
+          "reportes": 6,
+          "feedbacks": 6,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 4,
+        "nombre": "Carbajales, Tomás",
+        "id": "u_5slmhhh0xme36sglh",
+        "email": "carbajalestomas@gmail.com",
+        "quimica": {
+          "reportes": 8,
+          "feedbacks": 7,
+          "pendientes": 1,
+          "estado": "PENDIENTE",
+          "nota": "1 reporte pendiente (semana 22/09/2025)"
+        }
+      },
+      {
+        "nro": 5,
+        "nombre": "Cesarini, Uma Bianca",
+        "id": "u_7l7mqqsh4me06hzx8",
+        "email": "umacesarini@gmail.com",
+        "quimica": {
+          "reportes": 6,
+          "feedbacks": 6,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 6,
+        "nombre": "Chitarino, Constantino",
+        "id": "fc83bcc5-a971-4f25-a493-fee973aedbbe",
+        "email": "chitarinoconstantino@gmail.com",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      },
+      {
+        "nro": 7,
+        "nombre": "Cifone, Juana",
+        "id": "c28a60a9-fc8e-4df3-99ae-f8a4745db917",
+        "email": "cifonejuana@gmail.com",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      },
+      {
+        "nro": 8,
+        "nombre": "Delaico, María Emilia",
+        "id": "u_tk1vcmquxme06mhr4",
+        "email": "emiliadelaico2009@gmail.com",
+        "quimica": {
+          "reportes": 3,
+          "feedbacks": 3,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 9,
+        "nombre": "Diaz, Conrado",
+        "id": "u_asv9bhh8zme06j7jo",
+        "email": "conradiazeloy@gmail.com",
+        "quimica": {
+          "reportes": 4,
+          "feedbacks": 4,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Actualizado 29/09/2025"
+        }
+      },
+      {
+        "nro": 10,
+        "nombre": "Fernandez Pazos, Victoria",
+        "id": "8bf80919-3a9f-4ac9-94c3-eccfa7f81c05",
+        "email": "victoriafernandezpazos@gmail.com",
+        "quimica": {
+          "reportes": 5,
+          "feedbacks": 5,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 11,
+        "nombre": "Focke, Olivia",
+        "id": "1f8c28c1-98fc-464b-a822-d8adfba4725f",
+        "email": "oliviafocke@gmail.com",
+        "quimica": {
+          "reportes": 4,
+          "feedbacks": 4,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 12,
+        "nombre": "Gilardi, Catalina",
+        "id": "u_abe3h0317me06njgs",
+        "email": "catalinagilardi13@gmail.com",
+        "quimica": {
+          "reportes": 2,
+          "feedbacks": 2,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 13,
+        "nombre": "Gonzalez Arce, Mia",
+        "id": "u_axwjy36zgme06m4sr",
+        "email": "gonzalezarcemia08@gmail.com",
+        "quimica": {
+          "reportes": 3,
+          "feedbacks": 3,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 14,
+        "nombre": "Grasso, Delfina",
+        "id": "u_fcr9p35cgme607v47",
+        "email": "delfinagrassoler@gmail.com",
+        "quimica": {
+          "reportes": 5,
+          "feedbacks": 5,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 15,
+        "nombre": "Hansen, Veronica Ivana",
+        "id": "u_icojg9yv3me1yt3l8",
+        "email": "veronicahansen236@gmail.com",
+        "quimica": {
+          "reportes": 8,
+          "feedbacks": 8,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 16,
+        "nombre": "Janson, Kiara",
+        "id": "u_e80gtlh44me06maes",
+        "email": "kiari.janson@gmail.com",
+        "quimica": {
+          "reportes": 2,
+          "feedbacks": 2,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 17,
+        "nombre": "Lugo Ibañez, Franco",
+        "id": "u_h52avro4ome1fmelf",
+        "email": "francolugoibanez@gmail.com",
+        "quimica": {
+          "reportes": 2,
+          "feedbacks": 2,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 18,
+        "nombre": "Manzullo, María Justina",
+        "id": "u_92u4fm0txme1fny4m",
+        "email": "justimanzullo@gmail.com",
+        "quimica": {
+          "reportes": 5,
+          "feedbacks": 5,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo el 29/09/2025"
+        }
+      },
+      {
+        "nro": 19,
+        "nombre": "Merediz Puente, Pedro",
+        "id": "abf271f9-f2c9-40bb-9d90-585dfcae4aef",
+        "email": "pedromeredizpuente@gmail.com",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      },
+      {
+        "nro": 20,
+        "nombre": "Opacak, Maria Sofia",
+        "id": "eed629ef-850b-4038-be81-a18fb3d06600",
+        "email": "sofiaopacak@gmail.com",
+        "quimica": {
+          "reportes": 3,
+          "feedbacks": 3,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 21,
+        "nombre": "Parker Depetro, Catalina",
+        "id": "9c53ec4d-be2a-4d1f-8ff6-34a583ab2ddb",
+        "email": "catuparker@gmail.com",
+        "quimica": {
+          "reportes": 4,
+          "feedbacks": 4,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 22,
+        "nombre": "Pinto, Oriana Victoria",
+        "id": "u_yxgl6st6zme03hza8",
+        "email": "orianapinto0826@gmail.com",
+        "quimica": {
+          "reportes": 6,
+          "feedbacks": 6,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 23,
+        "nombre": "Rios, Juan Ignacio",
+        "id": "u_0dw79d8pume1fp20s",
+        "email": "juanitorios676@gmail.com",
+        "quimica": {
+          "reportes": 1,
+          "feedbacks": 1,
+          "pendientes": 0,
+          "estado": "COMPLETO"
+        }
+      },
+      {
+        "nro": 24,
+        "nombre": "Rodriguez, Santiago Diego",
+        "id": "1c4a7804-c22a-498f-8750-9a1482f6e920",
+        "email": "santidrodriguezc@gmail.com",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      },
+      {
+        "nro": 25,
+        "nombre": "Stilman, Isabella",
+        "id": "842ba26c-113b-4828-8074-6254fa8973a7",
+        "email": "stilmanisabella@gmail.com",
+        "quimica": {
+          "reportes": 2,
+          "feedbacks": 2,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 26,
+        "nombre": "Valverde, Lola",
+        "id": "u_4920yklv9me1fto0f",
+        "email": "lolivalverde2501@gmail.com",
+        "quimica": {
+          "reportes": 6,
+          "feedbacks": 6,
+          "pendientes": 0,
+          "estado": "COMPLETO",
+          "nota": "Procesado completo 29/09/2025"
+        }
+      },
+      {
+        "nro": 27,
+        "nombre": "Veltri, Salvador",
+        "id": "u_t7fxqb0y0me1fm6ec",
+        "email": "salveltri21@gmail.com",
+        "nota": "Posible duplicado con u_zsmjtajb0me1fut40",
+        "quimica": {
+          "reportes": 0,
+          "feedbacks": 0,
+          "pendientes": 0,
+          "estado": "SIN ACTIVIDAD"
+        }
+      }
+    ]
+  }

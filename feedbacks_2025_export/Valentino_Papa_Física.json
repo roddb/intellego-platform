@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "studentId": "u_c8qoo6z03me0b5zlp",
+    "studentName": "Valentino Papa",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.238330",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 59.67,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-08"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_papa_sem1_2025",
+      "weekStart": "2025-08-04",
+      "score": 78,
+      "generalComments": "Valentino, excelente trabajo alcanzando Nivel 3 en tiro oblicuo. Tu resolución del problema de la pelota (40°, 35 m/s) demuestra buen dominio de las ecuaciones. Es normal que plantear el problema sea más difícil que resolverlo; esto mejorará con práctica. Buena conexión con tiro vertical.",
+      "strengths": [
+        "Nivel 3 de dominio en tiro oblicuo",
+        "Resolución exitosa del problema de altura y alcance",
+        "Identificación clara de la conexión con tiro vertical",
+        "Actitud positiva hacia el aprendizaje"
+      ],
+      "improvements": [
+        "Practicar más el planteamiento inicial de problemas",
+        "Desarrollar estrategias para interpretar enunciados complejos",
+        "Continuar fortaleciendo las conexiones entre temas"
+      ],
+      "createdAt": "2025-01-09 17:40:00"
+    },
+    {
+      "feedbackId": "fb_papa_sem2_2025",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Valentino, mantienes un sólido Nivel 3 en pensamiento crítico. Tu reflexión sobre situaciones donde usaste pensamiento crítico sin darte cuenta muestra excelente metacognición. La conexión con tutoría es muy acertada. Es normal que al inicio cueste entender el tipo de ejercicio; superaste bien esa dificultad.",
+      "strengths": [
+        "Nivel 3 sostenido en pensamiento crítico",
+        "Excelente reflexión metacognitiva",
+        "Conexión valiosa con tutoría y vida cotidiana",
+        "Capacidad de superar dificultades iniciales"
+      ],
+      "improvements": [
+        "Documentar estrategias específicas para comenzar ejercicios nuevos",
+        "Profundizar en la aplicación del pensamiento crítico en física",
+        "Mantener la práctica reflexiva"
+      ],
+      "createdAt": "2025-01-09 17:41:00"
+    },
+    {
+      "feedbackId": "fb_papa_sem3_2025",
+      "weekStart": "2025-08-18",
+      "score": 80,
+      "generalComments": "Valentino, excelente progreso manteniendo Nivel 3 en tiro oblicuo. Tu capacidad para resolver la mayoría de ejercicios correctamente es destacable. El problema de la pelota desde la torre es un clásico bien resuelto. Muy buena conexión con tiro vertical identificando las fórmulas compartidas. Sigue así.",
+      "strengths": [
+        "Nivel 3 consistente en tiro oblicuo",
+        "Mayoría de ejercicios resueltos correctamente",
+        "Sin dificultades reportadas esta semana",
+        "Excelente identificación de conexiones con tiro vertical"
+      ],
+      "improvements": [
+        "Desafiarte con ejercicios de mayor complejidad",
+        "Ayudar a compañeros que tienen dificultades",
+        "Profundizar en aplicaciones más avanzadas del tema"
+      ],
+      "createdAt": "2025-01-09 17:42:00"
+    },
+    {
+      "feedbackId": "fb_papa_sem4_2025",
+      "weekStart": "2025-08-25",
+      "score": 42,
+      "generalComments": "Valentino, es muy preocupante tu caída de Nivel 3 a Nivel 1. Entiendo que física se está haciendo muy difícil. Es URGENTE que busques ayuda adicional: profesor, tutorías o grupo de estudio. No te rindas, has demostrado capacidad en semanas anteriores. Este bache es superable con el apoyo adecuado.",
+      "strengths": [
+        "Honestidad al expresar dificultades",
+        "Mantiene conexión básica con tiro vertical",
+        "Comunicación clara de la necesidad de ayuda"
+      ],
+      "improvements": [
+        "URGENTE: Solicitar tutoría o apoyo extra inmediato",
+        "Revisar los conceptos básicos del principio del tema",
+        "Trabajar con compañeros que dominen el tema",
+        "Comunicar al profesor estas dificultades"
+      ],
+      "createdAt": "2025-01-09 17:43:00"
+    },
+    {
+      "feedbackId": "fb_papa_sem5_2025",
+      "weekStart": "2025-09-01",
+      "score": 55,
+      "generalComments": "Valentino, es positivo que hayas mejorado a Nivel 2 desde la crisis de la semana pasada. Puedes plantear problemas, lo cual es un buen inicio. Las dificultades con fórmulas y cálculos son superables con práctica sistemática. El problema del helicóptero y el bote es complejo. No te desanimes, continúa trabajando paso a paso.",
+      "strengths": [
+        "Recuperación parcial de Nivel 1 a Nivel 2",
+        "Capacidad para plantear problemas",
+        "Identificación de conexiones con tiro vertical y caída libre",
+        "Trabajo con problemas complejos (helicóptero-bote)"
+      ],
+      "improvements": [
+        "Practicar fórmulas con ejercicios más simples primero",
+        "Reforzar habilidades de cálculo matemático",
+        "Buscar apoyo para consolidar la resolución completa",
+        "Trabajar problemas paso a paso, no todo de una vez"
+      ],
+      "createdAt": "2025-01-09 17:44:00"
+    },
+    {
+      "feedbackId": "fb_002_5_0b5zlp_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querido Valentino Papa, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Física. Aunque menciones que hubo evaluación, es fundamental que reflexiones sobre tu proceso de aprendizaje y respondas las preguntas de manera diferenciada. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluso cuando hay evaluaciones. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Presentas tu reporte en tiempo y forma",
+        "Reconoces la situación particular de la semana con evaluación",
+        "Mantienes constancia en la entrega de reportes semanales"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje, incluso en semanas de evaluación",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, reflexionando sobre lo aprendido durante la preparación de la evaluación",
+        "Desarrolla estrategias más específicas para responder cada pregunta de manera diferenciada, evitando respuestas idénticas",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, aprovechando cada pregunta para reflexionar sobre aspectos distintos de tu aprendizaje"
+      ],
+      "createdAt": "2025-10-10T15:30:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "studentId": "u_l0o1myrbrme0b2mhd",
+    "studentName": "lola perri",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.244871",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 57.5,
+      "minScore": 31,
+      "maxScore": 70,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_lola_week1_BBE1C99276C9F308",
+      "weekStart": "2025-08-04",
+      "score": 40,
+      "generalComments": "Lola, comprendo tu dificultad con el tiro oblicuo al no tener explicación previa. Tu honestidad al reconocer que no pudiste resolver los ejercicios es valiosa. Es positivo que conectes el tema con tiro vertical y caída libre.",
+      "strengths": [
+        "Reconocimiento honesto de dificultades",
+        "Identificación de la conexión con temas anteriores",
+        "Solicitud proactiva de ayuda al profesor"
+      ],
+      "improvements": [
+        "Buscar recursos adicionales para comprender conceptos básicos",
+        "Intentar ejercicios más simples primero",
+        "Desarrollar estrategias de estudio autónomo"
+      ],
+      "createdAt": "2025-01-10 19:02:00"
+    },
+    {
+      "feedbackId": "fb_lola_week2_ACD1B5C77A3B99DB",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Lola, excelente trabajo con el ejercicio de Carlos. Tu análisis detallado de variables conocidas/desconocidas y controlables/no controlables muestra comprensión profunda de la metodología. La extensión de tu respuesta evidencia dedicación.",
+      "strengths": [
+        "Análisis exhaustivo y detallado del problema de Carlos",
+        "Clasificación correcta de variables en todas las categorías",
+        "Comprensión clara de factores externos y secuenciación",
+        "Reflexión metacognitiva sobre el proceso"
+      ],
+      "improvements": [
+        "Desarrollar síntesis para manejar ejercicios largos",
+        "Crear esquemas propios para no perderse en pasos múltiples",
+        "Practicar resúmenes concisos manteniendo lo esencial"
+      ],
+      "createdAt": "2025-01-10 19:03:00"
+    },
+    {
+      "feedbackId": "fb_lola_week3_460BFBFF60AA7292",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Lola, bien por aplicar la fase 2 al ejercicio de Ana. Tu clasificación de variables muestra comprensión mejorada. La conexión con problemas cotidianos es acertada. Continúa practicando para mayor confianza.",
+      "strengths": [
+        "Aplicación correcta de la fase 2 del pensamiento crítico",
+        "Clasificación adecuada de variables del problema",
+        "Conexión clara con situaciones de la vida real",
+        "Mejora en el nivel de dominio (nivel 3)"
+      ],
+      "improvements": [
+        "Profundizar en el análisis de cada variable",
+        "Desarrollar mayor detalle en las explicaciones",
+        "Expandir las conexiones más allá de lo cotidiano"
+      ],
+      "createdAt": "2025-01-10 19:04:00"
+    },
+    {
+      "feedbackId": "fb_002_5_me0b2mhd_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 31,
+      "generalComments": "Hola Lola Perri, el contenido de tu reporte corresponde a Química, cuando la evaluación es de Física. Reconoces con precisión los objetivos de aprendizaje en química. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje de cada materia. Mejora la organización de tu trabajo y presentación de ideas. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Respondes con honestidad sobre la situación de la clase",
+        "Mantienes una actitud positiva y amable en tus comentarios",
+        "Reconoces claramente qué contenido trabajaron durante la semana"
+      ],
+      "improvements": [
+        "Es fundamental identificar correctamente la materia correspondiente a cada reporte",
+        "Desarrolla respuestas específicas para Física, diferenciándolas del contenido de Química",
+        "Proporciona evidencias concretas de tu proceso de aprendizaje en la materia evaluada"
+      ],
+      "createdAt": "2025-10-10 06:24:04"
+    },
+    {
+      "feedbackId": "918db829-2171-4e77-ab21-0a98ee786602",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:08.316Z"
+    },
+    {
+      "feedbackId": "f5ccd4a5-25ef-4b3b-b573-ce72d262bef9",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:21:59.381Z"
+    },
+    {
+      "feedbackId": "916ef120-c40b-40c1-88cf-2f1fa9cc8a4f",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que dominas bien el procedimiento técnico de los diagramas de cuerpo libre: tus fuerzas están correctamente orientadas y tus cálculos son precisos. Eso es un logro importante que debes mantener.\n\nSin embargo, tu reporte muestra que aún no has integrado completamente el objetivo de Fase 2: identificar y clasificar variables. Tus respuestas son muy breves y generales, sin evidencia del análisis sistemático que esperamos. Parece que resolviste los problemas correctamente, pero no reflexionaste sobre *qué variables estaban en juego* ni *cómo las clasificarías*.\n\nPara la próxima semana, te pido que seas más reflexivo y detallado. Cuando resuelvas un problema, dedica tiempo a listar todas las variables, clasificarlas, y explicar por qué cada clasificación tiene sentido. Esto te preparará mejor para fases posteriores donde necesitarás este análisis.",
+      "strengths": "• Aplicación correcta de procedimientos: Tu DCL en Q2 muestra que sabes colocar fuerzas en direcciones correctas y calcular el peso usando P = m·g. Esto demuestra dominio técnico del procedimiento.\n• Seguridad en el aprendizaje: Expresas confianza al decir \"no me resulta complicado hacerlo\", lo que indica que estás ganando seguridad en diagramas de cuerpo libre. Eso es positivo para tu motivación.\n• Integración de conceptos previos: Reconoces que usaste fórmulas de Fase 1 (P = m·g) en el nuevo contexto, mostrando que conectas aprendizajes anteriores.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, debes identificar explícitamente cuáles variables son conocidas (100 N, 5 N, 20 kg), desconocidas (aceleración, tensión), controlables (fuerza aplicada) y no controlables (gravedad). Haz una lista clara para cada problema que resuelvas.\n• Reflexión metacognitiva genuina: En Q3, evita respuestas genéricas como \"no tuve complicaciones\". Pregúntate: ¿Qué me costó? ¿Confundí alguna fuerza? ¿Dudé en algo? Identifica al menos una dificultad real y explica cómo la superaste o cómo la superarás.\n• Profundidad en conexiones: En Q4 y Q5, no te conformes con mencionar que \"usaste la fórmula\". Explica *por qué* esa variable es importante, *cómo* cambiaría el problema si esa variable fuera diferente, y *dónde más* podrías aplicar este análisis de variables.",
+      "createdAt": "2025-10-27T05:05:03.187Z"
+    },
+    {
+      "feedbackId": "88040411-c5f1-420e-a049-99880d0b9160",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana estuviste ausente, lo que explica por qué tu reporte está incompleto. Es importante que no pierdas continuidad con el proyecto y los temas que el grupo está desarrollando en Física/Química.\n\nTe sugiero que esta semana hagas lo siguiente: contacta a un compañero de confianza para que te pase los apuntes, revisa el material compartido en la plataforma (si está disponible), y consulta con tu profesor sobre qué específicamente necesitas recuperar del proyecto.\n\nSi necesitas ayuda adicional para ponerte al día, no dudes en hablar con tu profesor de Ciencias o con el equipo de tutoría del colegio. Estamos aquí para apoyarte.",
+      "strengths": "• Comunicación proactiva: Informaste explícitamente sobre tu ausencia en dos respuestas (Q2 y Q4), lo que demuestra responsabilidad y honestidad. Esto es importante para que podamos apoyarte mejor.\n• Cortesía y respeto: Tu tono en todas las respuestas es respetuoso, incluso en una situación complicada. Esto facilita la comunicación y muestra madurez.",
+      "improvements": "• Recuperación de contenido: Coordina esta semana con tus compañeros o consulta con tu profesor para obtener los apuntes y materiales de las clases que perdiste. Esto es urgente para no quedarte atrás en el proyecto.\n• Completitud del reporte: Cuando regreses, asegúrate de responder todas las preguntas con detalle, incluso si es para decir \"aún estoy aprendiendo esto\". Esto nos ayuda a entender tu progreso real.\n• Documentación de dificultades: Una vez retomes las clases, identifica específicamente qué conceptos o procedimientos te resultan difíciles. Esto permitirá que recibas apoyo más dirigido.",
+      "createdAt": "2025-11-17T13:40:10.868Z"
+    }
+  ]
+}

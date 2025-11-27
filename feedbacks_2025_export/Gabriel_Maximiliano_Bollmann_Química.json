@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "studentId": "u_jb53muhskme2x8253",
+    "studentName": "Gabriel Maximiliano Bollmann",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.202257",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 46.29,
+      "minScore": 34,
+      "maxScore": 55.25,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me2x8253_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 44.5,
+      "generalComments": "Querido Gabriel Maximiliano Bollmann,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Reconoces el tema trabajado (gases).\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas.\n\nRecuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Reconoce el tema trabajado (gases)",
+        "Identifica un concepto específico (presión parcial de gases)"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas"
+      ],
+      "createdAt": "2025-10-07 14:05:42"
+    },
+    {
+      "feedbackId": "514d6658-a5ee-4ac8-a28d-8547c67df4c6",
+      "weekStart": "2025-08-04",
+      "score": 34,
+      "generalComments": "Este estudiante se encuentra en una **etapa muy inicial de Fase 2**, con un desempeño que requiere apoyo significativo. Las respuestas son extremadamente breves y carecen de la profundidad, sistematicidad y reflexión esperadas. Aunque reconoce el tema (gases) y menciona un concepto relevante (presión parcial), **no demuestra comprensión de la metodología central de Fase 2: identificación y clasificación de variables**.\n\nEl patrón de respuestas sugiere que el estudiante podría estar:\n- Apresurando las respuestas sin reflexión\n- Teniendo dificultad para expresar sus ideas por escrito\n- Necesitando mayor claridad sobre qué se espera en cada pregunta\n\n**Puntuación estimada total:** 27 puntos (Nivel 1 - Inicial)\n\n---\n\n##",
+      "strengths": "- **Identificación del tema principal:** El estudiante reconoce que está trabajando con \"Gases\" como tema central, lo que demuestra al menos conciencia del contenido de la unidad.\n\n- **Honestidad sobre el progreso:** La frase \"estamos recién comenzando\" muestra autoconciencia sobre estar en etapas iniciales del aprendizaje, lo que es un punto de partida válido para el desarrollo.\n\n- **Mención de concepto específico:** En Q2, el estudiante identifica \"presión parcial\" como un concepto relevante, demostrando que ha estado expuesto a contenido de la unidad.\n\n---\n\n##",
+      "improvements": "- **Ampliar respuestas con detalles específicos:** El estudiante debe pasar de respuestas de una línea a respuestas estructuradas. *Sugerencia:* Para Q1, solicitar que liste al menos 5 variables del tema de gases (ej: presión, volumen, temperatura, número de moles, tipo de gas) y las clasifique en una tabla simple.\n\n- **Desarrollar metacognición y reflexión:** Las respuestas carecen de pensamiento reflexivo. *Sugerencia:* Usar preguntas guía como \"¿Qué variables puedo controlar en un experimento con gases?\" o \"¿Cuál fue mi mayor dificultad esta semana?\" para estimular respuestas más profundas.\n\n- **Integrar evidencia de aprendizaje con ejemplos concretos:** Q2 necesita ejemplos prácticos. *Sugerencia:* Pedir que describa un problema específico trabajado en clase donde identifique variables (ej: \"En el experimento de mezcla de gases, identifiqué: presión total (desconocida), presiones parciales (conocidas), volumen (controlable)\").\n\n---\n\n##",
+      "createdAt": "2025-10-20T19:29:55.445Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me2x8253_2025-08-25_002",
+      "weekStart": "2025-08-25",
+      "score": 55,
+      "generalComments": "Querido Gabriel Maximiliano Bollmann,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Identificas herramientas específicas como la constante R en la ecuación de gases ideales. Reconoces la necesidad de mayor práctica.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Busca aplicaciones prácticas de gases ideales en situaciones cotidianas.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas herramientas específicas como la constante R en la ecuación de gases ideales",
+        "Reconoces la necesidad de mayor práctica"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Busca aplicaciones prácticas de gases ideales en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-07 14:05:42"
+    },
+    {
+      "feedbackId": "fb_002_2_me2x8253_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 55.25,
+      "generalComments": "Querido Gabriel Maximiliano Bollmann,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Muestras autoevaluación reflexiva de tu nivel de dominio (8.5/10 en gases ideales). Identificas con precisión tu dificultad con el uso de fórmulas.\n\nDebes practicar más la aplicación de ecuaciones a situaciones concretas. Busca aplicaciones prácticas de gases ideales en situaciones cotidianas. Trabaja en expresar tus ideas con mayor claridad y precisión.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Muestras autoevaluación reflexiva de tu nivel de dominio (8.5/10 en gases ideales)",
+        "Identificas con precisión tu dificultad con el uso de fórmulas"
+      ],
+      "improvements": [
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas",
+        "Busca aplicaciones prácticas de gases ideales en situaciones cotidianas",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión"
+      ],
+      "createdAt": "2025-10-07 14:05:43"
+    },
+    {
+      "feedbackId": "fb_002_2_me2x8253_2025-09-22_004",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Querido Gabriel Maximiliano Bollmann,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Trabajas con ejercicios específicos de gases ideales (modelo 1). Identificas dificultades concretas en el cálculo de presión final. Reflexionas sobre tu necesidad de mayor tiempo para consolidar aprendizajes.\n\nNecesitas ser más sistemático en la ejecución de los pasos de resolución. Conecta soluciones con aplicaciones reales más allá de lo matemático. Trabaja en expresar tus ideas con mayor claridad y precisión.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Trabajas con ejercicios específicos de gases ideales (modelo 1)",
+        "Identificas dificultades concretas en el cálculo de presión final",
+        "Reflexionas sobre tu necesidad de mayor tiempo para consolidar aprendizajes"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemático en la ejecución de los pasos de resolución",
+        "Conecta soluciones con aplicaciones reales más allá de lo matemático",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión"
+      ],
+      "createdAt": "2025-10-07 14:05:43"
+    },
+    {
+      "feedbackId": "73d83773-2e20-4dd1-9a97-645b9a0e3403",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que esta semana has tenido dificultades para completar el reporte de forma adecuada. Entiendo que a veces el tiempo escasea o la motivación baja, pero es importante que entiendas que estos reportes son tu oportunidad para reflexionar sobre tu propio aprendizaje.\n\nTu desempeño esta semana está por debajo de lo esperado. Las respuestas muy breves no permiten que yo vea realmente qué has aprendido sobre identificación de variables, que es el corazón de la Fase 2. Necesitamos cambiar esto urgentemente.\n\nPara la próxima semana, te pido que dediques tiempo real a completar cada pregunta con párrafos completos. No se trata de escribir mucho, sino de escribir con claridad y profundidad. Vamos a lograrlo juntos, pero necesito que hagas tu parte.",
+      "strengths": "• Reconocimiento de conceptos químicos: Mencionas \"Electrones\" y \"Electrones de Valencia\", lo que indica que has estado en contacto con contenidos de la materia, aunque necesitas profundizar en cómo estos se relacionan con variables.\n• Identificación de una dificultad real: Al mencionar \"Hacer los gráficos\", demuestras que tienes conciencia de que algo te cuesta trabajo, lo cual es el primer paso para mejorar.",
+      "improvements": "• Amplía y detalla tus respuestas: Tus respuestas son muy cortas (1-3 palabras). Necesitas escribir párrafos completos que expliquen qué variables identificaste, cómo las clasificas y por qué. Por ejemplo, en Q1 podrías escribir: \"Identifiqué como variables: número de electrones (conocida), energía del orbital (desconocida), carga nuclear (controlable)...\"\n• Propón estrategias concretas para tus dificultades: En Q3 mencionas que te cuesta hacer gráficos, pero no explicas cómo lo vas a resolver. Sugiero que especifiques: ¿Qué tipo de gráficos? ¿Usarás software? ¿Pedirás ayuda? Esto te ayudará a avanzar realmente.\n• Completa todas las preguntas del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre lo que aprendiste esta semana, cómo evolucionaste desde la Fase 1, y qué te pareció importante. Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-11-17T13:39:43.856Z"
+    }
+  ]
+}

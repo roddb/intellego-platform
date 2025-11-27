@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "842ba26c-113b-4828-8074-6254fa8973a7",
+    "studentName": "Isabella Stilman",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.206543",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 50.0,
+      "minScore": 46,
+      "maxScore": 54,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "943fc04d-1143-1a3a-b1e6-bdebb9d66340",
+      "weekStart": "2025-08-11",
+      "score": 54,
+      "generalComments": "Isabella, es positivo que identifiques variables aunque el proceso sea lento. El ejemplo de combustión del propano es excelente para entender química cotidiana. Nuevamente, necesito ver tu desarrollo para poder guiarte mejor con el vocabulario técnico.",
+      "strengths": [
+        "Capacidad para resolver ejercicios aunque tome tiempo adicional",
+        "Excelente conexión del tema con la vida cotidiana y seguridad",
+        "Identificación clara de la dificultad específica con vocabulario"
+      ],
+      "improvements": [
+        "Desarrollar el ejercicio mostrando las variables identificadas",
+        "Crear un glosario personal de términos químicos con definiciones simples",
+        "Practicar más ejercicios para ganar velocidad y confianza"
+      ],
+      "createdAt": "2025-09-29 10:33:38"
+    },
+    {
+      "feedbackId": "32645cf7-9716-9ff6-e73e-6dffa7d354f8",
+      "weekStart": "2025-08-25",
+      "score": 46,
+      "generalComments": "Isabella, valoro tu honestidad al reconocer las dificultades con gases ideales. Es importante que muestres el desarrollo del ejercicio, aunque esté incompleto, para poder ayudarte mejor. La selección de fórmulas mejora con práctica sistemática.",
+      "strengths": [
+        "Reconocimiento honesto del nivel de dominio y las dificultades",
+        "Identificación específica del problema con la selección de fórmulas",
+        "Disposición y esfuerzo para completar los ejercicios con ayuda"
+      ],
+      "improvements": [
+        "Incluir el desarrollo del ejercicio aunque sea parcial o con errores",
+        "Crear una tabla de fórmulas con sus aplicaciones específicas",
+        "Buscar conexiones con situaciones cotidianas (cilindros de gas, globos, etc.)"
+      ],
+      "createdAt": "2025-09-29 10:32:52"
+    }
+  ]
+}

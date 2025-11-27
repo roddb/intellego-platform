@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "u_t7fxqb0y0me1fm6ec",
+    "studentName": "Salvador Veltri",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.231106",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_me1fm6ec_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querido Salvador Veltri, debido a ausencias en clase, no fue posible evaluar tu progreso en Física durante esta semana. Mantén mayor constancia y regularidad en la asistencia a clases. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Reconocimiento de responsabilidad al justificar la ausencia",
+        "Honestidad al comunicar la situación",
+        "Entrega del reporte aunque no pudiste asistir"
+      ],
+      "improvements": [
+        "Asiste regularmente a clases para poder desarrollar las habilidades de Fase 1: Identificación y comprensión del problema",
+        "Coordina con compañeros o el docente para recuperar el material trabajado durante tu ausencia",
+        "Proporciona evidencias de recuperación del contenido perdido en las próximas entregas"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "studentId": "u_njqfuieodme3jakrb",
+    "studentName": "Matías Vaccaro",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.224857",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 66.54,
+      "minScore": 43,
+      "maxScore": 80,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-08-04_89b8107d",
+      "weekStart": "2025-08-04",
+      "score": 78,
+      "generalComments": "Excelente trabajo en la Fase 1 del pensamiento crítico. Demuestra comprensión sólida de los conceptos fundamentales de equilibrio químico, identificando correctamente Kc, Qc y el principio de Le Châtelier. La aplicación sistemática de los 5 pasos evidencia un enfoque metodológico apropiado para esta etapa inicial.",
+      "strengths": [
+        "Identificación precisa de conceptos clave (Kc, Qc, Le Châtelier, reacciones reversibles/irreversibles)",
+        "Aplicación sistemática de los 5 pasos del pensamiento crítico en la resolución de ejercicios",
+        "Buena organización en la presentación del trabajo realizado",
+        "Reconoce conexiones con temas previos (balanceo, coeficientes estequiométricos)"
+      ],
+      "improvements": [
+        "Reforzar la memorización de conceptos teóricos mediante práctica distribuida en el tiempo",
+        "Aumentar la autonomía en la resolución de ejercicios, reduciendo gradualmente el apoyo de IA",
+        "Desarrollar respuestas más elaboradas en la pregunta 3 sobre dificultades y estrategias específicas"
+      ],
+      "createdAt": "2025-10-05T04:45:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-08-11_55a13a28",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Trabajo correspondiente a la Fase 2. El estudiante demuestra progreso en la identificación de datos y aplicación de fórmulas de equilibrio (Kc). Evidencia metodología sistemática identificando datos, objetivos e incógnitas, lo cual es fundamental para esta fase.",
+      "strengths": [
+        "Aplicación correcta de la metodología de identificación de datos y objetivos",
+        "Cálculo exitoso de Kc en diversos contextos (moles iniciales, equilibrio)",
+        "Reconocimiento de datos irrelevantes (temperatura en ejercicio 4)",
+        "Uso efectivo de verificación de resultados mediante guías con soluciones"
+      ],
+      "improvements": [
+        "Profundizar en la resolución de ejercicios de Fase 2 que presentaron dificultades (problemas con buffer)",
+        "Desarrollar mayor autonomía sin dependencia de materiales con respuestas",
+        "Elaborar estrategias específicas para superar las dificultades identificadas"
+      ],
+      "createdAt": "2025-10-05T04:50:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-08-18_9fa8834b",
+      "weekStart": "2025-08-18",
+      "score": 80,
+      "generalComments": "Excelente trabajo en la Fase 3. Demuestra comprensión sólida de cuándo usar Qc, Kc y Kp. La práctica con problemas de YouTube antes de la guía oficial muestra iniciativa y autonomía. El dominio de cálculos y comparaciones es destacado.",
+      "strengths": [
+        "Comprensión clara de las diferencias y aplicaciones de Qc, Kc y Kp",
+        "Iniciativa en buscar recursos adicionales (problemas de YouTube)",
+        "Ejecución exitosa de los 10 ejercicios de la guía práctica",
+        "Reconocimiento de la claridad y utilidad de las guías de Fase 3"
+      ],
+      "improvements": [
+        "Anticipar y profundizar el estudio del Principio de Le Chatelier antes de Fase 4",
+        "Practicar la identificación de direcciones de equilibrio ante perturbaciones",
+        "Desarrollar mayor confianza en problemas que requieren interpretación cualitativa"
+      ],
+      "createdAt": "2025-10-05T04:52:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-08-25_115d09eb",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Trabajo correspondiente a la Fase 4. El estudiante inicia el estudio de ejecución y verificación, trabajando con la teoría y modelos resueltos. Muestra metodología apropiada al realizar ejercicios modelo para comprender el proceso antes de la práctica independiente.",
+      "strengths": [
+        "Estudio sistemático de la teoría de Fase 4 (subrayado y resaltado)",
+        "Realización de ejercicios modelo 1, 2 y 3 con tabla ICE",
+        "Comprensión del proceso de ejecución mediante verificación con ejercicios resueltos",
+        "Reconocimiento de áreas que requieren mayor profundización"
+      ],
+      "improvements": [
+        "Ampliar el tiempo dedicado a la ejercitación práctica de Fase 4",
+        "Resolver las dudas identificadas en el ejercicio 1 de la guía de ejercitación",
+        "Practicar más ejercicios independientes para consolidar la metodología"
+      ],
+      "createdAt": "2025-10-05T04:54:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-09-08_21baf2ec",
+      "weekStart": "2025-09-08",
+      "score": 77,
+      "generalComments": "Excelente dedicación en la semana de recuperación post-Bariloche. El estudiante completó ejercitación de Fase 4 y realizó casi todos los modelos de examen. Demuestra compromiso y capacidad de análisis crítico al identificar inconsistencias en los datos de problemas.",
+      "strengths": [
+        "Alto compromiso con la recuperación del tiempo perdido",
+        "Finalización de ejercitación de Fase 4 con ecuaciones incompletas (desafío adicional)",
+        "Realización casi completa de los 5 modelos de examen",
+        "Identificación crítica de posible error en el ejercicio 9 del modelo (análisis dimensional correcto)"
+      ],
+      "improvements": [
+        "Resolver las dudas identificadas en los modelos antes del examen",
+        "Confirmar con el docente la inconsistencia detectada en el ejercicio 9 (0.2 mol inicial vs 1.8×10³ M en equilibrio)",
+        "Reforzar conocimientos de Fase 3 que requirieron consulta a ChatGPT"
+      ],
+      "createdAt": "2025-10-05T04:56:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-09-15_d9b29cb7",
+      "weekStart": "2025-09-15",
+      "score": 79,
+      "generalComments": "Trabajo integral completando toda la ejercitación disponible: 5 modelos de examen, guía de Fase 3 completa y 9 ejercicios de Fase 4. Demuestra preparación exhaustiva. El análisis de Le Chatelier y la realización de gráficos evidencian comprensión avanzada.",
+      "strengths": [
+        "Finalización completa de los 5 modelos de examen",
+        "Ejercitación completa de Fase 3 y Fase 4 (9 ejercicios)",
+        "Análisis teórico correcto de perturbaciones según Le Chatelier (Modelo 3)",
+        "Realización de gráficos de concentración vs tiempo (Modelo 4)"
+      ],
+      "improvements": [
+        "Solicitar corrección del gráfico del Modelo 4 para confirmar exactitud",
+        "Resolver la incertidumbre sobre ejercicios sin respuestas disponibles",
+        "Reforzar confianza en análisis cualitativos que no requieren cálculos"
+      ],
+      "createdAt": "2025-10-05T04:58:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3jakrb_2025-09-22_7ace89c2",
+      "weekStart": "2025-09-22",
+      "score": 76,
+      "generalComments": "Trabajo de consolidación final pre-examen con ejercicios de modelos de mayor complejidad. Demuestra comprensión del procedimiento general (tabla ICE, despejar x con artificio matemático) y capacidad de síntesis de todos los temas del año. Reconoce la naturaleza integradora del equilibrio químico.",
+      "strengths": [
+        "Resolución de ejercicios complejos con cálculo de x mediante ecuación de Kc",
+        "Comprensión del artificio matemático (raíz cuadrada en numerador y denominador)",
+        "Verificación de resultados sustituyendo valores calculados en la fórmula de Kc",
+        "Reconocimiento del equilibrio químico como síntesis de contenidos del año"
+      ],
+      "improvements": [
+        "Verificar discrepancias numéricas entre resultados propios y respuestas oficiales",
+        "Practicar mayor cantidad de ejercicios con resolución de ecuaciones cuadráticas",
+        "Reforzar seguridad en procedimientos algebraicos complejos"
+      ],
+      "createdAt": "2025-10-05T05:00:00.000Z"
+    },
+    {
+      "feedbackId": "d262ee40-a92e-4ff6-8759-6482d422df28",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:46:27.824Z"
+    },
+    {
+      "feedbackId": "b5c59410-f326-4dd3-8ef7-0ba356c983de",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:59.815Z"
+    },
+    {
+      "feedbackId": "3a6227e4-333b-4120-9399-514d5010b33c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:44:37.113Z"
+    },
+    {
+      "feedbackId": "a52f783e-2cce-4614-aa9c-836c91970ea8",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:25:37.696Z"
+    },
+    {
+      "feedbackId": "d1a2214b-96e9-4224-8acf-e147713dffb3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Felicidades por tu trabajo esta semana. Demuestras comprensión sólida del contenido de ácidos, bases y pH, y tu cálculo del NaOH fue correcto y bien justificado. Completaste 5 de 8 ejercicios propuestos, lo que muestra consistencia.\n\nSin embargo, tu reporte no refleja completamente el enfoque de Fase 2, que es *identificar y clasificar variables*. Tus respuestas se centran en el contenido químico, pero no en el análisis sistemático de variables que es el corazón de esta fase. Esto es importante porque es la base para resolver problemas complejos.\n\nPara la próxima semana, te invito a que antes de resolver cada ejercicio, hagas una lista: \"Variables que conozco\", \"Variables que busco\", \"Variables que puedo controlar\". Esto te preparará mejor para Fase 3 y hará que tu pensamiento crítico sea más estructurado.",
+      "strengths": "• Dominio conceptual de pH y escala ácido-base: Explicas con claridad la escala 0-14, los puntos de referencia (0 = ácido fuerte, 7 = neutro, 14 = base fuerte) y cómo se comportan las sustancias en cada región. Esto muestra comprensión sólida del contenido.\n• Aplicación correcta de fórmulas: Tu cálculo del pH del NaOH es preciso: identificas que es una base, usas POH correctamente, y aplicas la relación PH + POH = 14 para obtener el resultado final (13,7). Demuestras habilidad operativa.\n• Conexión con conocimiento previo: Reconoces que necesitas convertir datos a molaridad, lo que indica que integras conceptos de Fase 1 (aunque podría desarrollarse más).",
+      "improvements": "• Identificación explícita de variables: Tu respuesta en Q1 describe el contenido, pero no identifica las *variables* involucradas (concentración de H⁺, concentración de OH⁻, temperatura, molaridad). En Fase 2 debes listar y clasificar estas variables como conocidas/desconocidas y controlables/no controlables. Intenta reescribir Q1 preguntándote: \"¿Qué datos tengo? ¿Cuáles busco? ¿Cuáles puedo controlar?\"\n• Especificidad en dificultades y estrategias (Q3): En lugar de decir \"tendré dificultad en ejercicios 9 y 10\", sé concreto: \"Me cuesta identificar si una variable es controlable o no\" o \"No distingo entre magnitudes físicas diferentes\". Luego propón una estrategia: \"Haré una tabla con dos columnas: variables controlables vs. no controlables\" o \"Usaré unidades para diferenciar magnitudes.\"\n• Reflexión metacognitiva (Q5): No dejes esta pregunta en blanco. Aunque sea breve, reflexiona: \"Esta semana aprendí que...\" o \"Me doy cuenta de que ahora puedo...\" o \"Aún necesito practicar...\". Esto ayuda a consolidar tu aprendizaje y muestra autoconciencia sobre tu proceso.",
+      "createdAt": "2025-10-27T05:09:09.200Z"
+    },
+    {
+      "feedbackId": "c7122c24-90c2-4b0d-b3ad-22eaa3b0c5e6",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Hiciste un buen trabajo esta semana completando todos los ejercicios y demostrando que tienes un método claro para abordar problemas de ácidos y bases. Tu capacidad para conectar conceptos matemáticos y químicos (Q4) es realmente una fortaleza que debes seguir desarrollando.\n\nSin embargo, noto que tu reporte se enfoca más en *describir qué hiciste* que en *reflexionar críticamente sobre cómo lo hiciste*. Las preguntas 3 y 5 necesitan respuestas más profundas: identifica dificultades específicas, explica estrategias concretas y reflexiona sobre tu progreso. Esto es lo que diferencia un reporte de pensamiento crítico de un simple resumen de actividades.\n\nPara la próxima semana, te invito a que no solo resuelvas los problemas, sino que también documentes tu proceso de pensamiento: ¿por qué clasificaste una variable así? ¿Qué relaciones causales ves entre variables? ¿Cómo evolucionó tu comprensión desde la Fase 1? Esto enriquecerá significativamente tu aprendizaje.",
+      "strengths": "• Sistematicidad en el proceso: Confeccionas tablas organizadas con variables conocidas, buscadas y clasificación de controlables/no controlables antes de resolver. Esto muestra método y disciplina en tu aproximación a los problemas.\n• Integración de conocimientos multidisciplinarios: Reconoces claramente cómo matemática y química se conectan (logaritmos, ecuaciones, notación científica). Tu respuesta en Q4 demuestra pensamiento integrador muy valioso.\n• Completitud en resolución de ejercicios: Finalizaste los 9 problemas de la guía con cálculos precisos (pH, [OH⁻], [H₃O⁺]) y utilizaste correctamente la constante de agua. Esto evidencia dominio operativo de los conceptos.",
+      "improvements": "• Profundizar en relaciones entre variables: Identificas variables, pero no explicas *cómo* se relacionan. Por ejemplo, en un problema de ácido débil, ¿cómo afecta la constante Ka a la concentración de H⁺? Intenta crear diagramas de flujo que muestren estas conexiones causales.\n• Especificar dificultades reales y estrategias concretas: Tu respuesta en Q3 es demasiado vaga. Pregúntate: ¿Qué confundiste? ¿Cómo lo resolviste? Ejemplo: \"Me costaba diferenciar ácidos fuertes de débiles, así que creé una tabla comparativa con sus características clave.\"\n• Reflexión metacognitiva en comentarios adicionales: No dejes Q5 en blanco. Usa este espacio para pensar sobre tu aprendizaje: ¿Qué fue lo más importante que aprendiste sobre variables esta semana? ¿Cómo cambió tu forma de resolver problemas? Esto consolida tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:46:29.010Z"
+    }
+  ]
+}

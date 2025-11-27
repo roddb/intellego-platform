@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "9c53ec4d-be2a-4d1f-8ff6-34a583ab2ddb",
+    "studentName": "Catalina Parker",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.190574",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 77.0,
+      "minScore": 77,
+      "maxScore": 77,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_b2ddb_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Querida Catalina Parker, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente las variables involucradas en clasificación de magnitudes físicas. Organizas adecuadamente los datos y la información disponible. Tu capacidad para clasificar y categorizar información es efectiva. Es importante mejorar la organización y clasificación de los datos disponibles. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en clasificación de magnitudes físicas",
+        "Organizas adecuadamente los datos y la información disponible",
+        "Tu capacidad para clasificar y categorizar información es efectiva"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación de los datos disponibles",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Busca aplicaciones prácticas de identificación de variables en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_b2ddb_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Querida Catalina Parker, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Seleccionas apropiadamente las herramientas y fórmulas para tiro oblicuo. Comprendes las ecuaciones fundamentales de cinemática en dos dimensiones. Tu capacidad analítica al abordar problemas de movimiento es destacable. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Te recomiendo incorporar estrategias específicas para trabajar con funciones trigonométricas en física. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para tiro oblicuo",
+        "Comprendes las ecuaciones fundamentales de cinemática en dos dimensiones",
+        "Tu capacidad analítica al abordar problemas de movimiento es destacable"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas",
+        "Necesitas fortalecer tu comprensión de las funciones trigonométricas (seno y coseno) aplicadas a física",
+        "Proporciona evidencias más concretas y específicas de tu proceso de selección de fórmulas"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_b2ddb_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 77,
+      "generalComments": "Querida Catalina Parker, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Integras exitosamente los conocimientos de las fases anteriores. Ejecutas los pasos de resolución de manera ordenada y lógica. Tu capacidad para problematizar situaciones de física es notable. Es importante mejorar la planificación de tu estrategia antes de ejecutar. Desarrolla mayor autonomía sin necesidad de consultar constantemente la teoría. Te recomiendo incorporar la verificación de resultados como parte de tu proceso. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las fases anteriores",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica",
+        "Tu capacidad para problematizar situaciones de física es notable"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar",
+        "Desarrolla mayor autonomía sin necesidad de consultar constantemente la teoría",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    }
+  ]
+}

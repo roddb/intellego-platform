@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "studentId": "u_qt28g6pmrme0b1swg",
+    "studentName": "Morena Garmendia",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.228271",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 58.73,
+      "minScore": 30,
+      "maxScore": 78,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_garmendia_fisica_20250804",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Semana sin actividades. Entiendo que no hubo avance en contenidos durante esta semana.",
+      "strengths": [
+        "Honestidad al reportar la situación",
+        "Cumplimiento con el reporte semanal"
+      ],
+      "improvements": [
+        "Retomar las actividades próxima semana",
+        "Revisar materiales previos si es posible"
+      ],
+      "createdAt": "2025-01-09 12:00:00"
+    },
+    {
+      "feedbackId": "fb_garmendia_fisica_20250811",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Buen inicio con tiro oblicuo. Demuestras comprensión de la metodología de identificación sistemática aunque el tema específico todavía está en desarrollo.",
+      "strengths": [
+        "Aplicación correcta de F1 y F2",
+        "Identificación clara de variables",
+        "Análisis completo del problema de Ana",
+        "Conexión con situaciones cotidianas"
+      ],
+      "improvements": [
+        "Profundizar en conceptos de tiro oblicuo",
+        "Practicar más ejercicios del tema",
+        "Trabajar en F3 y F4 con cálculos"
+      ],
+      "createdAt": "2025-01-09 12:01:00"
+    },
+    {
+      "feedbackId": "fb_garmendia_fisica_20250818",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Progreso notable en comprensión del tema. Identificación correcta de herramientas aunque el desarrollo del ejercicio está incompleto.",
+      "strengths": [
+        "Identificación correcta de variables",
+        "Selección apropiada de ecuaciones",
+        "Comprensión del movimiento parabólico",
+        "Conexión con conocimientos previos"
+      ],
+      "improvements": [
+        "Completar el desarrollo de F4",
+        "Incluir cálculos completos",
+        "Verificar resultados finales",
+        "Profundizar en justificaciones"
+      ],
+      "createdAt": "2025-01-09 12:02:00"
+    },
+    {
+      "feedbackId": "fb_garmendia_fisica_20250825",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Excelente progreso. Ejercicio completo con las 4 fases desarrolladas. Cálculo correcto de altura máxima con metodología sistemática.",
+      "strengths": [
+        "Aplicación completa de las 4 fases",
+        "Cálculo correcto (33.73m)",
+        "Descomposición vectorial precisa",
+        "Identificación clara del problema",
+        "Conexión con aplicaciones deportivas"
+      ],
+      "improvements": [
+        "Verificar unidades en cálculos intermedios",
+        "Incluir análisis de coherencia más detallado",
+        "Explorar variaciones del problema"
+      ],
+      "createdAt": "2025-01-09 12:03:00"
+    },
+    {
+      "feedbackId": "fb_garmendia_fisica_20250901",
+      "weekStart": "2025-09-01",
+      "score": 78,
+      "generalComments": "Muy buen trabajo con el problema del golfista. Aplicación completa de las 4 fases con cálculo correcto del alcance (162m). Excelente progreso en el dominio del tema.",
+      "strengths": [
+        "Resolución completa con las 4 fases",
+        "Uso correcto de resolvente cuadrática",
+        "Cálculo preciso del alcance (162m)",
+        "Análisis coherente del resultado",
+        "Comprensión sólida del tema"
+      ],
+      "improvements": [
+        "Mejorar notación matemática",
+        "Verificar descomposición vectorial (pequeño error)",
+        "Practicar problemas más complejos"
+      ],
+      "createdAt": "2025-01-09 12:04:00"
+    },
+    {
+      "feedbackId": "fb_002_5_me0b1swg_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 55,
+      "generalComments": "Hola Morena, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Demuestras buena comprensión del contexto del problema planteado al diferenciar dinámica de cinemática. Realizas conexiones interesantes entre conceptos de dinámica y situaciones cotidianas como viajar en colectivo. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas. Desarrolla estrategias más específicas para superar tus desafíos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras buena comprensión del contexto del problema planteado al diferenciar dinámica de cinemática.",
+        "Realizas conexiones interesantes entre conceptos de dinámica y situaciones cotidianas como viajar en colectivo.",
+        "Tu capacidad para ejemplificar conceptos con situaciones de la vida real es valiosa."
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje.",
+        "Identifica con mayor precisión las dificultades que enfrentas.",
+        "Desarrolla estrategias más específicas para superar tus desafíos."
+      ],
+      "createdAt": "2025-10-10T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "94f6d52e-89ff-473c-a448-59633a0c9c51",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:28:21.618Z"
+    },
+    {
+      "feedbackId": "0849ef13-8c33-43e3-9025-8a294945e077",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:01.927Z"
+    },
+    {
+      "feedbackId": "400463b9-f942-401e-8f3e-d8670202d5d7",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Tu reporte muestra que comprendiste el Principio de Inercia a nivel conceptual, especialmente con tu ejemplo del colectivo, que fue muy claro y bien explicado. Sin embargo, tu análisis general es superficial: no identificas variables específicas, no reflexionas sobre dificultades reales y no desarrollas conexiones profundas entre conceptos.\n\nEsta semana necesitas cambiar tu enfoque. La Fase 2 no se trata solo de entender teoría, sino de identificar, clasificar y analizar variables en cada problema. Cuando digas \"entiendo el tema,\" debes poder listar exactamente qué variables trabajaste y cómo las diferencias.\n\nPara la próxima semana, te pido que: (1) hagas una lista explícita de variables en cada ejercicio que resuelvas, (2) identifiques al menos una dificultad real y propongas una estrategia para superarla, y (3) desarrolles tus conexiones con más detalle, explicando qué variables intervienen en cada ejemplo.",
+      "strengths": "• Ejemplo cotidiano bien estructurado: Tu descripción del colectivo frenando muestra que comprendes el Principio de Inercia en contexto real. Identificas correctamente la causa (fuerza externa) y el efecto (cambio de movimiento), lo que demuestra aplicación práctica del concepto.\n• Disposición para seguir la teoría: Mencionas que tomaste notas durante las clases teóricas, lo que indica responsabilidad y atención. Esta es una base sólida para construir análisis más profundos en futuras semanas.\n• Conexión entre conceptos: Reconoces que las leyes de Newton conectan con fenómenos cotidianos como patear una pelota, mostrando que ves relaciones entre la teoría y la realidad física.",
+      "improvements": "• Identifica y clasifica variables específicas: En lugar de decir \"entiendo dinámica\", debes listar las variables que trabajaste (fuerzas, masa, aceleración, velocidad). Clasifícalas como conocidas/desconocidas y controlables/no controlables. Por ejemplo: \"En los ejercicios de dinámica trabajé con: masa (conocida, no controlable), fuerza aplicada (conocida, controlable), aceleración (desconocida, calculable).\"\n• Profundiza en dificultades reales: No es válido decir que \"no hubo dificultades.\" Reflexiona honestamente: ¿Confundes masa con peso? ¿Te cuesta diferenciar fuerzas de acción y reacción? ¿Qué estrategia usarías para mejorar? Esto es esencial para el pensamiento crítico.\n• Desarrolla conexiones con más detalle: Cuando conectes conceptos (como dinámica con patear una pelota), explica qué variables intervienen y cómo se relacionan. Por ejemplo: \"Al patear una pelota, la fuerza que aplico (variable controlable) determina la aceleración (variable calculada) según F=ma, considerando la masa de la pelota (variable conocida).\"",
+      "createdAt": "2025-10-27T05:04:16.659Z"
+    },
+    {
+      "feedbackId": "a905318e-7aaf-4883-a924-ca2a6ceda2ea",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Esta semana hiciste un buen trabajo identificando variables en tu proyecto de catapulta y conectándolas con la segunda ley de Newton. Tu capacidad de ver la Dinámica en ejemplos cotidianos es una fortaleza real que debes seguir desarrollando.\n\nSin embargo, tu reporte muestra que aún no estás aplicando completamente la metodología de Fase 2. Identificas variables, pero no las clasificas según los criterios que hemos trabajado (conocidas/desconocidas, controlables/no controlables). Además, tus respuestas sobre dificultades y reflexión son muy superficiales, lo que sugiere que no estás profundizando en tu propio proceso de aprendizaje.\n\nPara la próxima semana, te pido que: (1) clasifiques cada variable que identifiques, (2) reflexiones genuinamente sobre qué te cuesta trabajo (aunque parezca pequeño), y (3) completes siempre los espacios de reflexión con observaciones propias. Esto hará que tu pensamiento crítico sea más sólido.",
+      "strengths": "• Identificación clara de variables en contexto práctico: En tu proyecto de catapulta, reconoces correctamente las tres variables principales (fuerza, masa, aceleración) y las relacionas explícitamente con F = ma. Esto muestra que puedes aplicar conceptos teóricos a situaciones reales.\n• Conexión con fenómenos cotidianos: Tus ejemplos de carrito, pelota y bicicleta demuestran que entiendes cómo la Dinámica está presente en la vida diaria. Esta capacidad de ver la física \"en acción\" es fundamental para el pensamiento crítico.\n• Comprensión de la relación proporcional fuerza-aceleración: Expresas correctamente que \"si se aplica más fuerza, la aceleración aumenta proporcionalmente\" y que \"si la masa es mayor, la aceleración disminuye\". Esto indica dominio conceptual de la segunda ley de Newton.",
+      "improvements": "• Clasificación sistemática de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables. En tu proyecto, ¿cuál es la fuerza exacta que aplicas (conocida o desconocida)? ¿Puedes controlar la masa del proyectil? Practica esta clasificación en cada problema que resuelvas.\n• Profundidad en reflexión sobre dificultades: Responder \"no hubo dificultades\" limita tu metacognición. Incluso en tareas simples hay desafíos: ¿cómo medirías la fuerza elástica? ¿Cómo distinguirías entre variables dependientes e independientes? Reflexiona siempre sobre qué te cuesta trabajo, aunque sea pequeño.\n• Respuestas más completas en espacios de reflexión: Tu respuesta a Q5 (\"Nada\") pierde puntos valiosos. Usa este espacio para escribir observaciones propias: ¿cómo ha evolucionado tu forma de identificar variables desde Fase 1? ¿Qué categorías nuevas descubriste? Siempre hay algo relevante que aportar.",
+      "createdAt": "2025-11-12T23:00:43.104Z"
+    },
+    {
+      "feedbackId": "708baabc-735d-44d5-83c9-4a105c09a847",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Veo que estás trabajando en el proyecto de la catapulta y que tienes claridad sobre dinámica como tema. Tu conexión entre la catapulta y lanzar una gomita es inteligente y muestra que estás pensando en aplicaciones reales. Eso es excelente.\n\nSin embargo, tu reporte está incompleto. Respondiste \"Nada\" en dos preguntas clave (Q3 y Q5) y no documentaste cómo estás identificando y clasificando variables en tu proyecto. La Fase 2 no es solo entender el tema, sino mostrar *cómo* analizas las variables que intervienen en un problema.\n\nPara la próxima semana, quiero que hagas tres cosas: (1) Lista todas las variables de tu catapulta clasificadas en una tabla, (2) Escribe qué dificultades tuviste al identificarlas y cómo las resolviste, (3) Reflexiona sobre por qué es importante clasificar variables antes de resolver un problema. Esto transformará tu reporte en evidencia real de pensamiento crítico.",
+      "strengths": "• Aplicación práctica del tema: Tu ejemplo de la catapulta y la gomita demuestra que entiendes cómo la dinámica funciona en situaciones reales. Esto muestra que el aprendizaje va más allá de la teoría.\n• Confianza en el dominio: Afirmas que comprendes dinámica y puedes resolver ejercicios, lo que indica seguridad en tus conocimientos de Fase 1. Eso es un buen punto de partida.\n• Conexión entre conceptos: Relacionas correctamente que \"más estirada = más fuerza = más aceleración = mayor alcance\", mostrando comprensión de cómo las variables se influyen mutuamente.",
+      "improvements": "• Falta identificación explícita de variables: En tu proyecto de catapulta, debes listar todas las variables: ¿cuáles son conocidas (masa, ángulo)? ¿Cuáles desconocidas (velocidad final)? ¿Cuáles controlables (tensión del material) y no controlables (gravedad)? Haz una tabla en tu informe.\n• Ausencia de reflexión metacognitiva: No respondiste Q3 ni Q5. Dedica 5 minutos a escribir: ¿Qué dificultades tuviste esta semana? ¿Cómo las superaste? Esto es obligatorio en Fase 2 para desarrollar pensamiento crítico real.\n• Falta de evidencia documentada: Mencionas que trabajas en el proyecto, pero no muestras el proceso de identificación de variables. En tu próximo reporte, adjunta o describe cómo clasificaste las variables del proyecto. Esto es la \"evidencia de aprendizaje\" que pide Q2.",
+      "createdAt": "2025-11-17T13:53:54.908Z"
+    }
+  ]
+}

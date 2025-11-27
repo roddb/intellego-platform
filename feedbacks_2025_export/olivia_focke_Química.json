@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "studentId": "1f8c28c1-98fc-464b-a822-d8adfba4725f",
+    "studentName": "olivia focke",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.246215",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 68.29,
+      "minScore": 65,
+      "maxScore": 73,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "3f7f815dc534a02b5d8ad158398b3a7b",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Olivia muestra esfuerzo en comprender conceptos fundamentales en Fase 2. Identifica variables principales (presión, temperatura, volumen) y busca estrategias activamente como la metodología ABC.",
+      "strengths": [
+        "Identificación clara de las variables principales del tema",
+        "Aplicación de estrategias de estudio como la metodología ABC",
+        "Reconocimiento de conexiones con aplicaciones reales"
+      ],
+      "improvements": [
+        "Dedicar más tiempo a diferenciar variables controlables de no controlables",
+        "Practicar seguimiento paso a paso de los ejercicios",
+        "Completar la comprensión antes de avanzar a nuevos conceptos"
+      ],
+      "createdAt": "2025-09-28 22:20:36"
+    },
+    {
+      "feedbackId": "a4bee765883c867e0275a51403ff9eb6",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Olivia demuestra aplicación sistemática del método de 4 fases en Fase 3. Excelente trabajo estructurando el problema del globo con helio. La selección de la Ley de Charles fue acertada.",
+      "strengths": [
+        "Aplicación estructurada del método F1-F2-F3 en el ejercicio",
+        "Identificación correcta de variables conocidas y desconocidas",
+        "Selección apropiada de la Ley de Charles como herramienta"
+      ],
+      "improvements": [
+        "Practicar criterios para seleccionar fórmulas según el contexto",
+        "Profundizar en la comprensión conceptual de los ejercicios",
+        "Agregar reflexiones sobre el proceso de resolución"
+      ],
+      "createdAt": "2025-09-28 22:19:29"
+    },
+    {
+      "feedbackId": "478f9d561aac37fe13775b9465dec878",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Olivia muestra buen progreso en Fase 2 con gases ideales. Comprende los conceptos teóricos y está desarrollando confianza gradualmente. Excelente capacidad para conectar con situaciones cotidianas.",
+      "strengths": [
+        "Comprensión sólida de conceptos teóricos de gases ideales",
+        "Excelente conexión con aplicaciones cotidianas (hervir agua, baño)",
+        "Actitud perseverante ante las dificultades de comprensión"
+      ],
+      "improvements": [
+        "Incrementar la práctica con ejercicios numéricos para ganar confianza",
+        "Desarrollar estrategias específicas para cuando te sientas mareada",
+        "Registrar reflexiones sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-09-28 22:18:27"
+    },
+    {
+      "feedbackId": "e8c07bc5cc2bf0ec1bd15c40203e8911",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Olivia demuestra esfuerzo en abordar problemas complejos de tiro oblicuo en Fase 4. Presenta el problema con todos los datos necesarios, aunque reconoce dificultades en la comprensión inicial. Es positivo que identifiques tus áreas de mejora.",
+      "strengths": [
+        "Presentación completa y detallada del problema de física con todas las variables",
+        "Identificación honesta de las dificultades de comprensión",
+        "Conexión clara entre física y matemática en el análisis"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para comprender problemas complejos antes de resolverlos",
+        "Proponer métodos concretos para superar las dificultades con las fórmulas",
+        "Incluir reflexiones adicionales sobre el proceso de aprendizaje en Q5"
+      ],
+      "createdAt": "2025-09-28 22:10:52"
+    },
+    {
+      "feedbackId": "6077f380-a2ed-440d-84ac-c34a3753b16f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:00:15.244Z"
+    },
+    {
+      "feedbackId": "6b99d13e-04a9-40e5-8f37-b9022270ff44",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:52:53.126Z"
+    },
+    {
+      "feedbackId": "feac8f49-465b-4eff-8467-f6ec611d5776",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 71,
+      "generalComments": "Tu reporte muestra un desempeño sólido en la aplicación de TRePEV y conexiones interdisciplinarias muy valiosas. Especialmente tu análisis del agua y cómo su geometría explica propiedades biológicas demuestra que estás comprendiendo *por qué* importa identificar variables en Química.\n\nSin embargo, aún necesitas fortalecer la estructura metodológica de la Fase 2. Identificas variables, pero no las clasificas sistemáticamente según el esquema conocidas/desconocidas y controlables/no controlables. Esto es fundamental para desarrollar pensamiento crítico riguroso.\n\nPara la próxima semana, enfócate en: (1) crear tablas o esquemas que organicen variables en categorías claras, (2) completar todas las secciones del reporte con reflexiones propias, y (3) practicar con moléculas más complejas (H₂O₂, NH₃) aplicando la clasificación sistemática. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Conexiones interdisciplinarias sólidas: Tu análisis del agua conecta geometría molecular (Química) con propiedades biológicas y matemática aplicada. Esto demuestra que entiendes cómo las variables químicas impactan fenómenos reales.\n• Aplicación correcta de TRePEV: En el ejemplo del BeCl₂, identificas correctamente los pares electrónicos, la geometría lineal y los ángulos de 180°. Tu razonamiento paso a paso es claro y preciso.\n• Metacognición sobre dificultades: Reconoces específicamente qué te complica (moléculas con muchos átomos) y qué factores afectan tu análisis (pares electrónicos, notación 3D). Esto muestra autoconciencia valiosa.",
+      "improvements": "• Clasificación sistemática de variables: Necesitas organizar explícitamente las variables en categorías: conocidas/desconocidas, controlables/no controlables. Por ejemplo, en BeCl₂: \"número de átomos = conocida y no controlable; ángulos de enlace = desconocida pero predecible\". Esto es central en la Fase 2.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre la importancia de identificar variables correctamente y cómo esto mejora tu comprensión. Esto consolida tu aprendizaje y demuestra compromiso.\n• Distinguir magnitudes físicas con precisión: Menciona ángulos y pares electrónicos, pero no especificas unidades ni diferencias entre magnitudes escalares/vectoriales. Practica identificando: \"ángulo de enlace = 104.5° (magnitud escalar)\" o \"momento dipolar = vector en dirección específica\".",
+      "createdAt": "2025-11-17T13:39:44.072Z"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "studentId": "u_udp8usbw0me6fmwgn",
+    "studentName": "Juan Pablo Oviedo Goite",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.209694",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 46.93,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-08-04_d2a7d8b6",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Juan Pablo está iniciando el estudio de Termodinámica y muestra una actitud reflexiva al reconocer que todavía no ha profundizado en la resolución de ejercicios. En esta Fase 1, el foco está en la identificación y comprensión del problema, y se observa que está aplicando el pensamiento crítico, aunque las evidencias son aún generales. Es positivo que identifique dificultades específicas con las ecuaciones directas y que establezca conexiones con aplicaciones cotidianas del calor.",
+      "strengths": [
+        "Reconoce honestamente su nivel actual de dominio del tema (Nivel 2)",
+        "Identifica una dificultad específica: distinguir cuándo trabaja con ecuaciones directas",
+        "Establece conexiones básicas entre termodinámica y aplicaciones cotidianas del fuego y calor (cocinar, iluminación)"
+      ],
+      "improvements": [
+        "Desarrollar ejemplos concretos del uso del pensamiento crítico en los problemas del cuadernillo",
+        "Profundizar en la identificación del problema central en ejercicios de termodinámica",
+        "Proponer estrategias específicas para superar la dificultad con ecuaciones directas",
+        "Incluir reflexiones o comentarios adicionales sobre el proceso de aprendizaje en Q5"
+      ],
+      "createdAt": "2025-10-02 15:05:44"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-08-11_e3b8e9c7",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Juan Pablo muestra un progreso significativo al trabajar explícitamente con la Fase 2. Su respuesta en Q2 es excelente: demuestra una clasificación sistemática y completa de variables (intensivas/extensivas, de estado/proceso) en un ejercicio de termodinámica. Esto evidencia que ha comprendido la importancia de identificar y categorizar las magnitudes físicas antes de resolver. Aunque reconoce que el tema le resulta difícil, los cuadernillos están siendo una herramienta efectiva de apoyo. El desafío ahora está en relacionar estas variables con las ecuaciones correspondientes.",
+      "strengths": [
+        "Clasificación sistemática y completa de variables termodinámicas (temperatura, presión, volumen, masa, calor, trabajo)",
+        "Distinción clara entre variables intensivas/extensivas y variables de estado/proceso",
+        "Evidencia concreta de aplicación de la Fase 2 con un ejercicio resuelto del cuadernillo",
+        "Reconoce el valor de los materiales didácticos como apoyo para superar dificultades"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para relacionar las variables identificadas con las ecuaciones termodinámicas",
+        "Profundizar en la comprensión de por qué ciertas variables son de estado y otras de proceso",
+        "Ampliar las conexiones con fenómenos cotidianos más allá del calor básico",
+        "Incluir reflexiones metacognitivas sobre el progreso desde la Fase 1"
+      ],
+      "createdAt": "2025-10-02 15:05:45"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-01_f4c9f0d8",
+      "weekStart": "2025-09-01",
+      "score": 27,
+      "generalComments": "Juan Pablo estuvo ausente esta semana por viaje de egresados a Brasil, situación completamente justificada y comprensible. No hubo contenido de Física durante este período. Este reporte se marca como semana sin actividad académica por motivos personales válidos. Se espera la reincorporación en las próximas semanas para continuar con el desarrollo de las fases del pensamiento crítico en termodinámica.",
+      "strengths": [
+        "Comunicación clara y honesta sobre la situación de ausencia",
+        "Cumplimiento con la entrega del reporte a pesar de no tener contenido académico",
+        "Actitud responsable al informar la razón de la no participación"
+      ],
+      "improvements": [
+        "Al regresar del viaje, ponerse al día con el contenido trabajado en clase durante esta semana",
+        "Consultar con compañeros o el profesor sobre los temas desarrollados en su ausencia",
+        "Revisar materiales del cuadernillo correspondientes a esta semana para mantener continuidad"
+      ],
+      "createdAt": "2025-10-02 15:05:46"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-08_a5d0a1e9",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Esta semana no hubo contenido de Física, ya que el único día de clase (martes) se trabajó exclusivamente Química. Esta situación es parte de la dinámica normal del curso bimodal. No hubo oportunidad de desarrollar contenidos o ejercicios relacionados con las fases del pensamiento crítico en Física durante este período. El reporte refleja adecuadamente la realidad de la semana académica.",
+      "strengths": [
+        "Comunicación precisa sobre la distribución de tiempo entre materias",
+        "Entrega responsable del reporte a pesar de no tener contenido específico de Física",
+        "Claridad en la descripción de la situación académica de la semana"
+      ],
+      "improvements": [
+        "Aprovechar el tiempo entre clases de Física para repasar conceptos previos de termodinámica",
+        "Avanzar de forma autónoma con ejercicios del cuadernillo para mantener el ritmo",
+        "Preparar dudas o consultas para la próxima clase de Física basándose en el trabajo previo"
+      ],
+      "createdAt": "2025-10-02 15:05:46"
+    },
+    {
+      "feedbackId": "fb_backfill_me6fmwgn_2025-09-22_b6e1b2f0",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Esta semana no hubo clases de Física debido a que el profesor estuvo en un viaje de estudios a Puerto Madryn. Esta es una ausencia institucional justificada que afectó a todo el grupo. No hubo actividad académica en Física durante este período. El reporte documenta correctamente la situación.",
+      "strengths": [
+        "Comunicación clara sobre la situación de ausencia del docente",
+        "Cumplimiento con la entrega del reporte semanal",
+        "Información precisa sobre el motivo de la interrupción de clases"
+      ],
+      "improvements": [
+        "Aprovechar semanas sin clases presenciales para trabajo autónomo con el cuadernillo",
+        "Revisar y consolidar conceptos de Fases 1 y 2 trabajados previamente",
+        "Prepararse para retomar el ritmo cuando las clases se reanuden, anticipando contenidos de Fase 3"
+      ],
+      "createdAt": "2025-10-02 15:05:47"
+    },
+    {
+      "feedbackId": "fb_002_2_6fmwgn_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 82,
+      "generalComments": "Querido Juan Pablo, tu trabajo en Fase 3: Selección de herramientas y relaciones refleja un dominio destacado de las ecuaciones de calorimetría, mostrando capacidad para seleccionar apropiadamente las fórmulas y justificar su aplicación. Seleccionas correctamente la ecuación Q=m⋅c⋅ΔT y la ecuación de equilibrio térmico, aplicándolas al problema del mate de cerámica. Identificas con precisión las dificultades con los signos del calor y propones estrategias efectivas de repaso teórico y verificación paso a paso. Realizas conexiones múltiples entre calorimetría y aplicaciones cotidianas, otras materias como química y biología, y conceptos previos de energía interna. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para calorimetría, incluyendo Q=m⋅c⋅ΔT y la ecuación de equilibrio térmico",
+        "Identificas correctamente las relaciones entre variables en el problema del mate y el agua caliente",
+        "Comprendes las ecuaciones fundamentales de transferencia de calor y conservación de energía térmica",
+        "Realizas conexiones significativas entre calorimetría y aplicaciones cotidianas, química y biología"
+      ],
+      "improvements": [
+        "Practicar más con ejercicios de equilibrio térmico variados para ganar seguridad en la aplicación sistemática",
+        "Consolidar el manejo de signos en ecuaciones calorimétricas mediante ejercicios adicionales",
+        "Expandir las conexiones interdisciplinarias explorando más ejemplos de transferencia térmica en biología"
+      ],
+      "createdAt": "2025-10-09T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "4dc774de-da05-4c7e-9a9c-e0583425fcfb",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:39:22.896Z"
+    },
+    {
+      "feedbackId": "58537128-f45b-4498-ada8-2b0ec6214654",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:15:51.484Z"
+    },
+    {
+      "feedbackId": "18eddd83-8a70-4af1-b150-f075f48ae0dc",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:54:21.723Z"
+    },
+    {
+      "feedbackId": "4d36d47b-fa02-4b84-8a07-8db30e99c357",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:41:44.138Z"
+    },
+    {
+      "feedbackId": "c5be0883-55d9-4516-86e5-7474ffca1c37",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana aprendiste conceptos nuevos de electrodinàmica, lo cual es un buen inicio. Sin embargo, tu reporte muestra que aún no has aplicado completamente lo que Fase 2 requiere: identificar, clasificar y analizar variables en problemas concretos.\n\nTu desempeño esta semana es inicial. Mencionas los temas, pero no profundizas en las variables que los componen, y la ausencia de ejercicios prácticos es una brecha importante. Necesitas pasar de \"entender conceptos\" a \"analizar variables en problemas reales\".\n\nPara la próxima semana, te propongo: (1) Resuelve al menos 2 ejercicios sobre Ley de Ohm o Circuitos en serie, identificando cada variable; (2) Completa todas las preguntas del reporte, especialmente Q3 y Q5, con reflexión genuina; (3) Reporta dificultades específicas y estrategias que usarás para superarlas.",
+      "strengths": "• Identificación de conceptos clave: Reconoces correctamente los tres temas de la semana (Ley de Ohm, Potencia Eléctrica, Circuitos en serie) y demuestras comprensión básica de qué son, aunque sin profundidad.\n• Intento de conexión con la realidad: Tu ejemplo de los aires acondicionados muestra que intentas vincular la teoría con situaciones cotidianas, lo cual es el camino correcto para aplicar el pensamiento crítico.\n• Honestidad en el reporte: Reconoces claramente que no realizaron ejercicios prácticos, lo que facilita identificar exactamente qué falta para mejorar.",
+      "improvements": "• Identificar y clasificar variables en cada concepto: En tu próximo reporte, para cada tema (Ley de Ohm, Potencia, Circuitos) lista explícitamente: ¿Qué variables intervienen? ¿Cuáles son conocidas/desconocidas? ¿Cuáles puedo controlar? Ejemplo: En Ley de Ohm (V=I·R), V es voltaje (conocido), R es resistencia (controlable), I es intensidad (desconocida a calcular).\n• Resolver ejercicios prácticos: Sin ejercicios, no hay evidencia real de aprendizaje. Pide a tu profesor 2-3 problemas sobre estos temas y resuélvelos identificando variables en cada paso. Esto es esencial para Fase 2 y te permitirá reportar progreso concreto.\n• Profundizar en dificultades reales: Reflexiona honestamente: ¿Qué te cuesta? ¿Diferenciar entre variables? ¿Reconocer magnitudes físicas? ¿Entender relaciones entre ellas? Reporta esto específicamente, junto con estrategias que intentarás (diagramas, tablas, analogías).",
+      "createdAt": "2025-10-27T05:02:40.305Z"
+    },
+    {
+      "feedbackId": "3793441d-7108-46ab-8f85-739ef336765f",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Veo que trabajaste en electrodinamica esta semana, lo cual es positivo. Sin embargo, tu reporte es muy superficial y no refleja el esfuerzo real que probablemente hiciste. Responder \"Idem\" o dejar preguntas en blanco no nos permite entender qué aprendiste ni cómo puedo ayudarte mejor.\n\nEn la Fase 2, lo más importante es que identifiques y clasifiques variables en cada problema. Esto es lo que diferencia un estudiante que solo resuelve ejercicios de uno que realmente entiende la física. Tu desempeño esta semana muestra que necesitas ser más cuidadoso y detallado en tus reportes.\n\nPara la próxima semana, te pido que: (1) escribas al menos 3-4 líneas en cada pregunta, (2) listes específicamente las variables de los problemas que trabajaste, (3) expliques qué estrategias usarás para mejorar en potencia eléctrica. Esto hará una gran diferencia.",
+      "strengths": "• Reconoces la conexión con la realidad: Tu observación sobre los circuitos electrónicos en nuestras casas muestra que intentas vincular la teoría con fenómenos cotidianos, lo cual es el inicio correcto del pensamiento crítico.\n• Identificas un tema específico: Mencionas \"potencia eléctrica\" como foco de trabajo, lo que indica que al menos tienes claridad sobre qué contenido estudiaste esta semana.",
+      "improvements": "• Falta identificación explícita de variables: En electrodinamica, debes listar variables como: voltaje (V), corriente (I), resistencia (R), potencia (P), tiempo (t). Luego clasifica cada una: ¿es conocida o desconocida en tus ejercicios? ¿es controlable o no? Esto es el corazón de la Fase 2.\n• Respuestas muy breves y sin detalle: Escribir \"Idem punto 1\" o una sola línea no permite evaluar tu comprensión real. Dedica tiempo a explicar qué hiciste, cómo lo hiciste y qué aprendiste. Mínimo 3-4 líneas por pregunta.\n• No propones estrategias para superar dificultades: Cuando dices que te cuesta resolver ecuaciones de potencia, sugiere acciones concretas: \"Voy a hacer una tabla con las fórmulas de potencia\", \"Practicaré 5 ejercicios más esta semana\", \"Pediré ayuda en temas específicos\". Esto demuestra metacognición.",
+      "createdAt": "2025-11-03T12:29:25.520Z"
+    },
+    {
+      "feedbackId": "d5e0884c-d165-4d24-b91b-5e277bce6c25",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana atípica por los parciales, y es válido que no haya habido clases regulares de Física y Química. Sin embargo, tu reporte no proporciona la información necesaria para evaluar tu progreso en la Fase 2.\n\nEl objetivo de estos reportes es documentar tu pensamiento crítico incluso en semanas desafiantes. Aunque no haya clases nuevas, siempre hay oportunidad de reflexionar sobre lo aprendido, identificar dudas o conectar conceptos previos.\n\nPara la próxima semana, cuando regresen las clases, te animo a completar el reporte con respuestas específicas para cada pregunta. Esto te ayudará a consolidar mejor tu aprendizaje y a demostrar el progreso que estás haciendo en la identificación de variables.",
+      "strengths": "• Honestidad en la comunicación: Reconoces explícitamente que no hubo clases esta semana debido a los parciales, lo que es información válida para contextualizar tu reporte.",
+      "improvements": "• Completar el reporte incluso en semanas atípicas: Aunque no haya clases regulares, puedes reflexionar sobre cómo los parciales te ayudaron a consolidar conceptos de Fase 1, o qué dudas surgieron al estudiar. Esto mantiene tu proceso de pensamiento crítico activo.\n• Proporcionar respuestas específicas para cada pregunta: Evita usar \"Idem punto 1\" en todas las preguntas. Cada una busca información diferente. Por ejemplo, en Q3 podrías mencionar dificultades que enfrentaste estudiando para los parciales.\n• Aprovechar semanas sin clases para profundizar: Usa este tiempo para revisar tus notas de Fase 1, identificar variables en problemas de años anteriores, o preparar preguntas para la próxima clase. Esto enriquecería tu reporte significativamente.",
+      "createdAt": "2025-11-17T13:39:13.875Z"
+    },
+    {
+      "feedbackId": "d07bd4d3-488e-4b45-9c2e-f474c60ba90b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 76,
+      "generalComments": "Excelente trabajo esta semana. Tu desempeño en Q2 y Q3 demuestra que dominas los procedimientos de electrodinámica y que reflexionas activamente sobre tus estrategias de resolución. El circuito mixto que resolviste es un buen ejemplo de cómo aplicas la Fase 1 (comprensión del problema) con la Fase 2 (identificación de variables).\n\nSin embargo, hay dos áreas donde puedes mejorar significativamente. Primero, necesitas ser más explícito al clasificar variables como conocidas/desconocidas desde el inicio de cada problema. Segundo, tus conexiones con otros temas son aún genéricas; profundiza en cómo las variables se comportan en contextos diferentes.\n\nPara la próxima semana, enfócate en: (1) escribir siempre una tabla de variables al inicio de cada problema, (2) completar todas las secciones del reporte, incluyendo reflexiones en Q5, y (3) intentar resolver un problema de electrodinámica aplicado a un contexto real (ej: instalación eléctrica de una casa).",
+      "strengths": "• Dominio procedural sólido: Tu resolución del circuito mixto (Problema 7) es precisa y bien estructurada. Aplicas correctamente la Ley de Ohm en cada etapa y obtienes resultados numéricos verificables. Esto demuestra que comprendes cómo las variables se relacionan en sistemas complejos.\n• Estrategias metacognitivas claras: Identificas explícitamente tus dificultades (\"dependencia correcta del paso anterior\") y propones soluciones prácticas (\"resolver primero paralelos\"). Esto muestra autoconciencia sobre tu proceso de aprendizaje, que es fundamental en pensamiento crítico.\n• Integración de conceptos: Conectas Ley de Ohm, resistencias equivalentes y potencia en un mismo problema. Demuestras que entiendes cómo las variables de un tema se relacionan con las de otro, lo que es esencial para la Fase 2.",
+      "improvements": "• Clasificación explícita de variables: En Q1, debes identificar qué variables son conocidas (datos del problema) y cuáles desconocidas (lo que buscas). Por ejemplo, en el circuito mixto: \"Conocidas: R1, R2, R3, V. Desconocidas: I total, I3, V paralelo.\" Esto es central en la Fase 2 y te ayudará a estructurar mejor cualquier problema.\n• Profundidad en conexiones (Q4): Tu analogía agua-electricidad es correcta pero superficial. Amplía: ¿cómo se comportan las resistencias en serie vs. paralelo comparadas con tuberías? ¿Qué magnitudes físicas son análogas? Intenta aplicar la identificación de variables a un nuevo problema (ej: circuito con resistencias variables).\n• Completar Q5 con reflexión genuina: No dejes esta sección vacía. Reflexiona sobre: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo ha evolucionado tu forma de resolver problemas desde Fase 1? ¿Qué categorías propias de variables descubriste? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-17T13:44:01.843Z"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+    "curso": "5° D",
+    "alumnos": [
+      {
+        "nro": 1,
+        "nombre": "Ancarola, Tadeo",
+        "id": "eb968629-8899-4b2a-9a43-b36186960fd6"
+      },
+      {
+        "nro": 2,
+        "nombre": "Baez, Maria Josefina",
+        "id": "u_p20qzlyqjme7h8p8q"
+      },
+      {
+        "nro": 3,
+        "nombre": "Benson, Ignacio",
+        "id": "u_7gbd795wame671byn"
+      },
+      {
+        "nro": 4,
+        "nombre": "Cestari, Juana",
+        "id": "u_pv1olo186me64il60"
+      },
+      {
+        "nro": 5,
+        "nombre": "Colonnese Cuttica, Santino",
+        "id": "u_xn3pcc41gme67v3cx"
+      },
+      {
+        "nro": 6,
+        "nombre": "Converset, Lourdes María",
+        "id": "u_qobf27jv7me6hi0ai"
+      },
+      {
+        "nro": 7,
+        "nombre": "Danio, Morena",
+        "id": "u_igtqfpy9ime6ecgcw"
+      },
+      {
+        "nro": 8,
+        "nombre": "Donzelli, Mariana",
+        "id": "b012946d-9236-4c41-99c6-1f6aff8a88d0"
+      },
+      {
+        "nro": 9,
+        "nombre": "Esses, Stefano",
+        "id": "u_e31zk82yime3hz3bu"
+      },
+      {
+        "nro": 10,
+        "nombre": "Gastaldi, Maria Lucia",
+        "id": "u_3oh1h3b60me0ht98e"
+      },
+      {
+        "nro": 11,
+        "nombre": "Genero Quintana, Marco Augusto",
+        "id": "18fe6e7f-cf61-40fe-b7c4-4fedbb672b19"
+      },
+      {
+        "nro": 12,
+        "nombre": "Gomez, Lola",
+        "id": "u_6iq1odbgqme4vdatd"
+      },
+      {
+        "nro": 13,
+        "nombre": "Gómez Arroyo, Victoria",
+        "id": "u_mmb5fvk8sme3ac9q1"
+      },
+      {
+        "nro": 14,
+        "nombre": "Gonzalez Castro Feijoo, Agustin",
+        "id": "d5aec9ad-a91c-4304-87e1-01fa6f8d399b"
+      },
+      {
+        "nro": 15,
+        "nombre": "Gubinelli, Facundo",
+        "id": "u_2dnwoitzgme3j576v"
+      },
+      {
+        "nro": 16,
+        "nombre": "Jurado, Santino",
+        "id": "u_67vrli8j0me7hnxu1"
+      },
+      {
+        "nro": 17,
+        "nombre": "Miednik, Matias",
+        "id": "80edef75-bd51-499a-90c9-3a3c7caa68a6"
+      },
+      {
+        "nro": 18,
+        "nombre": "Nuñez, Franco",
+        "id": "u_0ppntptacme4bap6o"
+      },
+      {
+        "nro": 19,
+        "nombre": "Prypsztejn Mila, María Catalina",
+        "id": "u_lwcsti4hume0k6kf3"
+      },
+      {
+        "nro": 20,
+        "nombre": "Ricardi, Santiago",
+        "id": "82ab3f2e-88ea-41de-8e7d-281d4e201c66"
+      },
+      {
+        "nro": 21,
+        "nombre": "Rosler Buglione, Gonzalo",
+        "id": "u_3qohn2lp7me0tfs8i"
+      },
+      {
+        "nro": 22,
+        "nombre": "Ruiz, Rocco",
+        "id": "u_d84azjl1cme6a7v75"
+      },
+      {
+        "nro": 23,
+        "nombre": "Salgado Canepa, Pedro",
+        "id": "u_3620qcgjwme6g2xx5"
+      },
+      {
+        "nro": 24,
+        "nombre": "Salomone, Pilar",
+        "id": "u_zqpn5388ime0oerp2"
+      },
+      {
+        "nro": 25,
+        "nombre": "Smiriglio, Belen",
+        "id": "u_062kts0erme64nx90"
+      },
+      {
+        "nro": 26,
+        "nombre": "Svendsen, Ian",
+        "id": "u_fdz0c0x1lme4fe22c"
+      },
+      {
+        "nro": 27,
+        "nombre": "Trejo, Ema",
+        "id": "u_gnwsffmrume7hmq9m"
+      },
+      {
+        "nro": 28,
+        "nombre": "Vaccaro, Matías",
+        "id": "u_njqfuieodme3jakrb"
+      },
+      {
+        "nro": 29,
+        "nombre": "Venturiello, Bautista",
+        "id": "f94d0184-fb61-4204-8c99-b06aa5e4a95b"
+      },
+      {
+        "nro": 30,
+        "nombre": "Zournadjian, Martin",
+        "id": "u_ipbwdsmfkme39nnhj"
+      },
+      {
+        "nro": 31,
+        "nombre": "RDB (Test)",
+        "id": "u_5inzfd9ncmdyhzank"
+      }
+    ]
+  }

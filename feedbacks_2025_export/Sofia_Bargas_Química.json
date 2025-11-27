@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "studentId": "u_tv7hzrijlme0b5735",
+    "studentName": "Sofia Bargas",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.232419",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 38.9,
+      "minScore": 27,
+      "maxScore": 60,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fe38af8cc2a34af32e6472d08c65e73e",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "No hubo clases de química durante esta semana. Sofía cumplió con el registro semanal informando la situación.",
+      "strengths": [
+        "Cumplimiento con el registro semanal",
+        "Comunicación clara de la situación",
+        "Mantiene seguimiento del curso"
+      ],
+      "improvements": [
+        "Aprovechar semanas sin clases para repasar",
+        "Revisar material de semanas anteriores",
+        "Preparar preguntas para próxima clase"
+      ],
+      "createdAt": "2025-09-21 22:12:43"
+    },
+    {
+      "feedbackId": "bd003c45a189f2edf073f1f45fdad743",
+      "weekStart": "2025-08-11",
+      "score": 54,
+      "generalComments": "Sofía trabaja en nivel 1 con gases ideales. Muestra esfuerzo al intentar resolver ejercicios y busca apoyo colaborativo cuando lo necesita. Identifica sus dificultades específicas con claridad.",
+      "strengths": [
+        "Búsqueda activa de apoyo colaborativo",
+        "Identificación clara de dificultades conceptuales",
+        "Establece conexiones interdisciplinarias con física"
+      ],
+      "improvements": [
+        "Fortalecer comprensión de magnitudes en gases",
+        "Desarrollar mayor autonomía en resolución inicial",
+        "Practicar identificación de variables en problemas"
+      ],
+      "createdAt": "2025-09-21 22:11:59"
+    },
+    {
+      "feedbackId": "5bce5f70c3465244792b8c86565163b0",
+      "weekStart": "2025-08-25",
+      "score": 35,
+      "generalComments": "Sofía estuvo enferma durante esta semana pero demostró responsabilidad al intentar trabajar desde casa. Aunque no logró comprender los contenidos, muestra compromiso con su aprendizaje.",
+      "strengths": [
+        "Intento de trabajo autónomo durante enfermedad",
+        "Responsabilidad al comunicar su situación",
+        "Compromiso para recuperar contenidos"
+      ],
+      "improvements": [
+        "Solicitar material de apoyo cuando falte a clases",
+        "Coordinar con compañeros para obtener apuntes",
+        "Buscar tutorías para ponerse al día"
+      ],
+      "createdAt": "2025-09-21 22:11:13"
+    },
+    {
+      "feedbackId": "259c36ed14556629da4ecfe76811f46b",
+      "weekStart": "2025-09-08",
+      "score": 60,
+      "generalComments": "Sofía demuestra comprensión de las técnicas de resolución de problemas con gases. Trabaja en nivel 2 con consciencia de sus procesos de aprendizaje y muestra mejora en el arranque de ejercicios.",
+      "strengths": [
+        "Consciencia metacognitiva sobre su proceso de aprendizaje",
+        "Capacidad de superar dificultades iniciales",
+        "Reconocimiento de mejora progresiva"
+      ],
+      "improvements": [
+        "Desarrollar completamente los ejercicios presentados",
+        "Fortalecer la confianza en el arranque de problemas",
+        "Incluir cálculos y desarrollo en las evidencias"
+      ],
+      "createdAt": "2025-09-21 22:10:37"
+    },
+    {
+      "feedbackId": "fb_002_4B_sbargas_20251005_1",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Sofia Bargas,\n\nDebido a la semana de Santo Tomás de Aquino, no fue posible evaluar tu progreso en Química durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [],
+      "improvements": [
+        "Es importante ponerse al día con el contenido trabajado durante la semana especial.",
+        "Te recomiendo revisar los materiales compartidos y consultar sobre actividades perdidas.",
+        "Coordina con compañeros para conocer los temas abordados en tu ausencia."
+      ],
+      "createdAt": "2025-10-05T19:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_4B_sbargas_20251005_2",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Sofia Bargas,\n\nDebido al viaje a Puerto Madryn, no fue posible evaluar tu progreso en Química durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [],
+      "improvements": [
+        "Es importante ponerse al día con el contenido trabajado durante el viaje.",
+        "Te recomiendo revisar los materiales compartidos y consultar sobre actividades perdidas.",
+        "Coordina con compañeros para conocer los temas abordados en tu ausencia."
+      ],
+      "createdAt": "2025-10-05T19:30:00.000Z"
+    },
+    {
+      "feedbackId": "2e1fcd56-8cc7-47b0-b391-a00ad2867f6f",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:53.979Z"
+    },
+    {
+      "feedbackId": "23a92d06-c229-4e8c-9b1f-7c9a7c91531e",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:15:39.250Z"
+    },
+    {
+      "feedbackId": "02ac3922-1631-43f7-9422-b2e58e7680c0",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana trabajaste en un tema nuevo (enlaces químicos) y reconoces honestamente dónde tienes dificultades. Eso es un buen punto de partida. Sin embargo, tu reporte muestra que aún no estás aplicando el método de la Fase 2: identificar y clasificar variables. Los enlaces no son solo conceptos teóricos para memorizar, sino sistemas donde múltiples variables interactúan.\n\nTu desempeño esta semana está en desarrollo. Las respuestas son muy breves y no evidencian el análisis sistemático que esperamos. Necesitas profundizar: en lugar de decir \"me cuesta entender los enlaces\", debes preguntarte \"¿qué variables específicas no entiendo?\" y luego trabajar en eso.\n\nPara la próxima semana, te propongo que hagas ejercicios prácticos donde identifiques variables en cada tipo de enlace. No esperes solo a la clase teórica: busca problemas resueltos, analiza qué variables cambian en cada caso, y escribe tus observaciones. Esto te ayudará a dominar la Fase 2 y a prepararte mejor para la siguiente.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"todavía me cuesta un poco\" en lugar de fingir dominio total. Esto es importante para identificar dónde necesitas apoyo.\n• Identificación del tema principal: Mencionas correctamente los tres tipos de enlaces (iónicos, covalentes y metálicos) que trabajaron en clase, mostrando que al menos captaste el contenido general.",
+      "improvements": "• Falta de identificación de variables en los enlaces: No distingues entre variables como electronegatividad, energía de enlace, número de electrones compartidos o transferidos. En la Fase 2 debes aprender a ver cada concepto químico como un conjunto de variables. Practica: para cada tipo de enlace, lista 5 variables (ej: en enlace iónico → carga del catión, carga del anión, distancia interiónica, energía de ionización, afinidad electrónica).\n• Respuestas muy breves sin análisis: Tus respuestas son demasiado cortas y no muestran el proceso de pensamiento. Necesitas desarrollar más cada idea con ejemplos concretos. Cuando escribas, pregúntate: \"¿Por qué? ¿Qué variables están involucradas? ¿Cómo lo sé?\" y responde esas preguntas en tu reporte.\n• Falta de conexión con la Fase 1: No mencionas cómo los enlaces químicos se relacionan con el método científico o con problemas que resolvieron antes. Revisa tus notas de la Fase 1 y escribe: \"Los enlaces son importantes porque...\" conectando con lo que ya sabes sobre variables y observación.",
+      "createdAt": "2025-10-27T05:09:06.919Z"
+    },
+    {
+      "feedbackId": "3ef55d09-625b-4d4d-ac5a-a281faa10672",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Valoro tu esfuerzo esta semana y tu honestidad al reconocer qué no entiendes. Resolver correctamente los ejercicios de enlaces químicos es un logro importante, y tu perseverancia al releer la teoría muestra madurez académica.\n\nSin embargo, tu reporte no refleja el trabajo específico de Fase 2: identificar y clasificar variables. Tus respuestas se enfocaron más en el contenido de química (enlaces) que en el proceso metodológico de análisis de variables que es el objetivo central de esta fase.\n\nPara la próxima semana, te pido que en cada ejercicio hagas explícita la identificación de variables. Crea una pequeña tabla o lista donde nombres cada variable, la clasifiques (conocida/desconocida, controlable/no controlable) y especifiques su magnitud física. Esto transformará tu aprendizaje y te preparará mejor para Fase 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que no puedes conectar con temas previos (\"La verdad es que no lo puedo conectar...\"), lo que muestra autoconciencia sobre tus limitaciones actuales.\n• Resolución correcta de ejercicios: Tu respuesta sobre la molécula N₂ es químicamente correcta (6 electrones en 3 enlaces), demostrando que comprendes el contenido de enlaces químicos.\n• Disposición al aprendizaje: Mencionas que releíste la teoría varias veces hasta entenderla, lo que evidencia perseverancia y compromiso con tu aprendizaje.",
+      "improvements": "• Identificación explícita de variables: En tus respuestas, debes nombrar específicamente qué variables están presentes en cada problema. Por ejemplo, en N₂ podrías haber escrito: \"Variables: número de electrones (conocida=5 por N), tipo de enlace (desconocida inicialmente), energía de enlace (no controlable)\". Esto es lo central de Fase 2.\n• Clasificación sistemática de variables: Necesitas practicar clasificar cada variable en categorías: ¿Es conocida o desconocida? ¿Es controlable o no controlable? ¿Qué magnitud física representa? Crea una tabla o lista para cada ejercicio donde hagas esta clasificación explícita.\n• Reflexión metacognitiva en Q5: No dejes esta sección vacía. Usa Q5 para escribir: qué aprendiste sobre cómo identificar variables, qué te sorprendió, cómo ha mejorado tu forma de analizar problemas desde Fase 1. Esto es fundamental para el pensamiento crítico.",
+      "createdAt": "2025-11-17T13:42:23.223Z"
+    }
+  ]
+}

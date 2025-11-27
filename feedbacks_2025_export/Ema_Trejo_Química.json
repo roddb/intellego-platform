@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "studentId": "u_gnwsffmrume7hmq9m",
+    "studentName": "Ema Trejo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.196045",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 66.1,
+      "minScore": 58,
+      "maxScore": 74,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me7hmq9m_2025-08-11_b39f3799",
+      "weekStart": "2025-08-11",
+      "score": 67,
+      "generalComments": "Tu desempeño en la Fase 1 (Identificación y comprensión del problema) muestra comprensión conceptual básica del equilibrio químico. Has logrado explicar con claridad la diferencia entre reacciones reversibles e irreversibles y el concepto de equilibrio dinámico. Tu autoevaluación honesta de nivel 2 refleja conciencia metacognitiva sobre tus limitaciones actuales, especialmente en la aplicación práctica con cálculos.",
+      "strengths": [
+        "Explicas con claridad los conceptos fundamentales: diferencia reversible/irreversible y equilibrio dinámico a nivel microscópico",
+        "Reconoces honestamente tus dificultades específicas: aplicar conceptos a ejercicios con cálculos y tablas",
+        "Estableces conexión interdisciplinaria relevante con cinética y termodinámica"
+      ],
+      "improvements": [
+        "En Q2, el ejercicio de H₂ + I₂ ⇌ HI está bien resuelto, pero falta explicar TU proceso de razonamiento: ¿cómo decidiste los pasos a seguir?",
+        "Desarrolla más Q3: además de decir me costó aplicar fórmulas, especifica qué tipo de aplicación (¿identificar qué fórmula usar? ¿manipulación algebraica? ¿interpretación del resultado?)",
+        "Expande Q5: en lugar de dejarlo vacío, reflexiona sobre cómo el método de pensamiento crítico te puede ayudar en las fases siguientes"
+      ],
+      "createdAt": "2025-10-03T10:16:12Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hmq9m_2025-08-18_91a944ef",
+      "weekStart": "2025-08-18",
+      "score": 74,
+      "generalComments": "Tu desempeño en la Fase 3 (Selección de herramientas y relaciones) muestra un salto cualitativo importante desde la semana anterior. Has logrado comprender diferentes enfoques para verificar equilibrio (observación, medición, cálculo de Qc) y reconoces sus ventajas y desventajas. Tu nivel de dominio intermedio es consistente con tu capacidad actual de entender herramientas conceptualmente, aunque todavía te cuesta elegir la más adecuada en cada contexto.",
+      "strengths": [
+        "Comprendes y puedes comparar tres enfoques diferentes para verificar equilibrio, identificando ventajas y desventajas de cada uno",
+        "Resuelves correctamente el análisis del ejercicio de los tres enfoques (A, B, C)",
+        "Estableces conexiones interdisciplinarias relevantes con termodinámica, cinética y aplicaciones industriales/biológicas"
+      ],
+      "improvements": [
+        "En Q1, además de nivel intermedio, especifica: ¿qué herramientas dominas bien y cuáles te generan más duda?",
+        "En Q3, desarrolla más tus estrategias: ¿cómo decidiste qué distingue un sistema que parece estable de uno realmente en equilibrio?",
+        "Profundiza en Q4: explica cómo se relaciona el equilibrio químico con control de procesos industriales (ej: síntesis de amoníaco, producción de ácido sulfúrico)",
+        "En Q5, documenta específicamente qué te costó y cómo lo superaste con más concentración"
+      ],
+      "createdAt": "2025-10-03T10:16:13Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hmq9m_2025-09-08_eafa6d76",
+      "weekStart": "2025-09-08",
+      "score": 70,
+      "generalComments": "Tu desempeño en la Fase 2 (Identificación de variables) es adecuado pero muestra un ligero retroceso respecto a tu desempeño en Fase 3 de la semana anterior. Has logrado identificar variables que controlan un proceso biológico (fermentación del yogur), lo cual demuestra capacidad de aplicación contextual. Sin embargo, las respuestas son notablemente más breves y menos desarrolladas que en semanas previas.",
+      "strengths": [
+        "Identificas correctamente variables clave de un proceso de fermentación (temperatura, pH)",
+        "Reconoces tu dificultad específica: manejar múltiples variables simultáneamente",
+        "Estableces conexiones interdisciplinarias relevantes con ácidos-bases, biología y química industrial"
+      ],
+      "improvements": [
+        "En Q1, lo entendí bien en lo básico pero en lo avanzado me cuesta es muy genérico. Especifica: ¿qué es básico y qué es avanzado para ti?",
+        "En Q2, apenas identificaste variables sugiere inseguridad. Documenta TODAS las variables que identificaste, no solo temperatura y pH",
+        "Desarrolla más Q3: ¿qué estrategia específica usaste para hacer primero una lista y después ordenar? ¿Cómo decidiste el orden?",
+        "Evita dejar Q5 vacía; reflexiona sobre tu evolución o plantea dudas pendientes"
+      ],
+      "createdAt": "2025-10-03T10:16:14Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hmq9m_2025-09-15_1769db75",
+      "weekStart": "2025-09-15",
+      "score": 68,
+      "generalComments": "Tu desempeño en la Fase 4 (Estrategia y ejecución completa) muestra que estás intentando abordar problemas numéricos con tablas ICE y cálculos de Kc, lo cual es un paso importante. Sin embargo, reconoces honestamente que no llegaste a entender al 100% el tema, principalmente por dificultades con cálculos. Tu disposición a intentar el ejercicio 1 completo, aunque solo lo resolviste parcialmente, demuestra iniciativa valiosa.",
+      "strengths": [
+        "Intentaste resolver un ejercicio completo con tabla ICE y cálculo de Kc, obteniendo un resultado numérico concreto",
+        "Reconoces específicamente tu dificultad: manejar ceros y potencias de 10 en los cálculos",
+        "Estableces conexiones interdisciplinarias relevantes (gases, termodinámica, cinética, álgebra)"
+      ],
+      "improvements": [
+        "En Q1, no llegué a entender al 100% es muy general. Especifica: ¿entendiste el concepto de tabla ICE? ¿El problema está solo en los cálculos numéricos?",
+        "En Q2, documenta TODO el proceso: muestra la tabla ICE completa, la expresión de Kc que usaste, y los pasos de cálculo (aunque hayan tenido errores)",
+        "Desarrolla más Q3: ¿qué estrategia específica usaste para resolver paso a paso? ¿Cómo comprobaste cada número?",
+        "En Q5, solo hice este primer ejercicio sugiere que te detuviste. Explica: ¿qué te detuvo? ¿Falta de tiempo? ¿Frustración? ¿Duda?"
+      ],
+      "createdAt": "2025-10-03T10:16:15Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hmq9m_2025-09-22_9df31434",
+      "weekStart": "2025-09-22",
+      "score": 58,
+      "generalComments": "Tu reporte de esta semana refleja un retroceso significativo debido a la ausencia del profesor y la falta de material didáctico disponible. Aunque reconoces honestamente las dificultades del contexto, las respuestas muestran una dependencia excesiva de recursos externos sin evidencia de iniciativas propias de estudio. Tu rendimiento ha caído de 74 puntos (hace un mes) a 58 puntos, una tendencia que requiere intervención urgente.",
+      "strengths": [
+        "Reconoces honestamente cómo la falta de clase y material afecta tu aprendizaje",
+        "Mantienes conciencia de las conexiones interdisciplinarias (Matemática, Física)",
+        "Identificas específicamente tu dificultad persistente: cálculo de QC y comparación con KC"
+      ],
+      "improvements": [
+        "CRÍTICO: No puedes depender exclusivamente de presentaciones del profesor. Necesitas desarrollar autonomía de estudio INMEDIATAMENTE",
+        "En lugar de repetir no tuve la presentación, documenta: ¿qué hiciste con tus apuntes de carpeta? ¿Intentaste algún ejercicio? ¿Buscaste recursos alternativos?",
+        "En Q3, ya identificaste tu dificultad (QC vs KC) hace dos semanas. ¿Qué acciones concretas tomaste para superarla? La falta de presentación no justifica no avanzar en algo que ya sabías que te costaba",
+        "Utiliza Q5 para establecer un plan de acción específico para la próxima semana, no para dejarlo vacío"
+      ],
+      "createdAt": "2025-10-03T10:16:16Z"
+    },
+    {
+      "feedbackId": "dbd6e781-56b0-4abe-85de-2249221ceab2",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:48:32.424Z"
+    },
+    {
+      "feedbackId": "9a6d4c72-d9e0-4fe9-872e-5777ae3e1dab",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:13:32.348Z"
+    },
+    {
+      "feedbackId": "6943624f-017d-4693-80d5-f6637340e579",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:49:51.255Z"
+    },
+    {
+      "feedbackId": "0b5bb1ba-3a5e-4cde-a607-2aca48394641",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:34:02.240Z"
+    },
+    {
+      "feedbackId": "033c1e14-dd81-4a16-a968-376c034f8c51",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana fue atípica por los parciales y el día libre institucional. Es completamente normal que no haya contenido nuevo que reportar en estas circunstancias.\n\nSin embargo, es importante que aproveches este tiempo para consolidar lo que ya has aprendido. Revisa tus apuntes anteriores y asegúrate de tener claros los conceptos fundamentales antes de que retomen las clases.\n\nLa próxima semana retomas el ritmo normal de clases, así que prepárate mentalmente para enfocarte nuevamente en los temas de Física/Química. ¡Estamos listos para continuar!",
+      "strengths": "• Comunicación clara: Informaste proactivamente sobre la situación de la semana (parciales y día libre), lo que demuestra responsabilidad y transparencia con tu proceso académico.",
+      "improvements": "• Aprovecha el tiempo libre: Aunque no hubo clases, puedes usar esta semana para repasar temas de semanas anteriores. Revisa tus apuntes sobre los temas trabajados antes de los parciales para reforzar conceptos clave.\n• Prepárate para la próxima semana: Asegúrate de tener tus materiales organizados y listos para retomar las clases. Esto te ayudará a no perder continuidad cuando regresen las sesiones.",
+      "createdAt": "2025-11-17T13:38:43.178Z"
+    }
+  ]
+}

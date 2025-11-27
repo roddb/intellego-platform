@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "studentId": "u_7vuuihvajme0bd1v8",
+    "studentName": "Mateo Barrera",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.221996",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 34.86,
+      "minScore": 27,
+      "maxScore": 58,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_barrera_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Mateo, entiendo que no hubo actividades en clase esta semana.",
+      "strengths": [
+        "Cumplimiento con el reporte",
+        "Honestidad"
+      ],
+      "improvements": [
+        "Buscar práctica independiente",
+        "Revisar material de apoyo"
+      ],
+      "createdAt": "2025-01-09T03:45:00Z"
+    },
+    {
+      "feedbackId": "fb_barrera_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 58,
+      "generalComments": "Mateo, demuestras comprensión básica del tiro oblicuo. Tu ejemplo de la pelota desde el balcón muestra que entiendes el concepto. Las dificultades con el análisis son normales, mejorarán con práctica.",
+      "strengths": [
+        "Comprensión básica de tiro oblicuo",
+        "Identificación de pasos según datos",
+        "Ejemplo concreto apropiado",
+        "Comunicación del problema técnico"
+      ],
+      "improvements": [
+        "Mejorar análisis de ejercicios",
+        "Practicar selección de fórmulas",
+        "Establecer conexiones con otros temas",
+        "Desarrollar confianza en resolución"
+      ],
+      "createdAt": "2025-01-09T03:45:00Z"
+    },
+    {
+      "feedbackId": "83951755-5896-489d-bf77-ccaeba2b6ede",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:11.836Z"
+    },
+    {
+      "feedbackId": "9768e421-3bcc-4015-8a87-4b4166eca6d1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:07:47.332Z"
+    },
+    {
+      "feedbackId": "ff16371c-035a-4845-a83c-e5f2ad1c4470",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:22.368Z"
+    },
+    {
+      "feedbackId": "c719a462-e6cf-499d-b490-b96b2f01b3bf",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:50:58.146Z"
+    },
+    {
+      "feedbackId": "f664b481-b659-49a3-9180-3a35b2b3a07c",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que estás trabajando en Física y que tienes las bases matemáticas claras: tus cálculos en Q2 son correctos. Sin embargo, esta semana tu reporte muestra que aún no has integrado completamente la Fase 2. El objetivo no es solo resolver problemas, sino *entender qué variables intervienen y cómo se relacionan*.\n\nTu mayor desafío es pasar de \"entiendo la teoría\" a \"identifico y clasifico variables sistemáticamente\". Notamos que en Q3 y Q4 tus respuestas son muy breves y genéricas, lo que sugiere que necesitas profundizar más en tu reflexión. La Fase 2 requiere que seas más específico y detallado.\n\nPara la próxima semana, te propongo: (1) En cada problema que resuelvas, escribe una lista de variables clasificadas antes de calcular. (2) Intenta conectar las Leyes de Newton con situaciones cotidianas (deportes, transporte, etc.). (3) Completa todas las preguntas del reporte, incluso Q5, porque tu reflexión es valiosa para tu aprendizaje.",
+      "strengths": "• Cálculos matemáticos correctos: Tu resolución del problema (F=m·a) es precisa. Despejas correctamente la masa y llegas al resultado 250kg sin errores aritméticos.\n• Honestidad en la autoevaluación: Reconoces que te cuesta relacionar información, lo que muestra autoconciencia. Esto es el primer paso para mejorar.\n• Dominio de conceptos teóricos básicos: Mencionas correctamente las Leyes de Newton como tema trabajado, indicando que has seguido las clases.",
+      "improvements": "• Clasificación de variables en problemas: En Q2, después de resolver, agrega una línea identificando: \"Variables conocidas: F=500N, t=4s. Variables desconocidas: m. Variables controlables: la fuerza aplicada.\" Esto es lo que espera la Fase 2.\n• Estrategias específicas para relacionar información: En lugar de decir \"me cuesta relacionar\", propón: \"Voy a hacer un diagrama de fuerzas antes de resolver\" o \"Voy a listar qué datos tengo y qué busco.\" Estas acciones concretas te ayudarán realmente.\n• Buscar conexiones dentro del tema actual: No esperes a otros temas. Pregúntate: ¿Cómo se aplican las Leyes de Newton en un auto frenando? ¿En un ascensor? Esto entrena tu pensamiento crítico ahora mismo.",
+      "createdAt": "2025-11-03T12:25:26.461Z"
+    }
+  ]
+}

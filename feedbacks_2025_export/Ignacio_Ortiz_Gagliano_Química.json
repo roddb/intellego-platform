@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "studentId": "u_ppoee7dwpme2xaxbm",
+    "studentName": "Ignacio Ortiz Gagliano",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.204746",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 52.0,
+      "minScore": 34,
+      "maxScore": 69,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Presentas evidencias adecuadas del Paso 1 con un ejemplo concreto del ejercicio de los dos estudiantes. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas. Desarrolla estrategias más específicas para superar tus desafíos con el tema de gases. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Presentas evidencias adecuadas del Paso 1 con el ejercicio de identificación de pensamiento crítico",
+        "Reconoces tus dificultades en el tema de gases, mostrando capacidad de reflexión",
+        "Intentas hacer conexiones interdisciplinarias con física"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en química",
+        "Necesitas profundizar en la comprensión del contexto de los gases ideales antes de avanzar a la siguiente fase",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 52,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas algunas variables en los gases aunque con confusión sobre sus significados. Debes trabajar en la identificación precisa de todas las variables involucradas. Es importante mejorar la organización y clasificación de los datos disponibles. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Presentas evidencia del ejercicio de la bicicleta de Ana aplicando pensamiento crítico",
+        "Reconoces honestamente tus dificultades con las variables de los estados",
+        "Intentas hacer conexiones con física respecto al manejo de variables"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en gases",
+        "Es importante mejorar la organización y clasificación de los datos disponibles",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada y no solo memorizar"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Muestras capacidad de resolver el ejercicio del tanque de buceo aplicando ecuaciones. Reconoces la importancia de la constante R en las ecuaciones de gases ideales, mostrando comprensión de elementos clave. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas. Es importante mejorar la familiarización con las ecuaciones para decidir cuándo usar cada una. Trabaja en expresar tus ideas con mayor claridad y precisión sobre el proceso de selección. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Resolviste el ejercicio del tanque de buceo exitosamente, mostrando aplicación práctica",
+        "Reconoces la importancia de la constante R (0,082) en las ecuaciones de gases",
+        "Realizas autoevaluación honesta de tu nivel de dominio en cada tema (5/10, 3/10, 2/10)"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas según el contexto del problema",
+        "Es importante mejorar la familiarización con las ecuaciones mediante práctica sistemática",
+        "Trabaja en gestionar el ritmo de aprendizaje para que los contenidos no te resulten abrumadores"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Lograste resolver el problema del cálculo de masa de metano obteniendo resultado numérico (4,1). Solicitas modelado en el pizarrón, mostrando estrategia de aprendizaje activa. Es importante mejorar la planificación de tu estrategia antes de ejecutar la resolución. Me resultó difícil comprender cuando usar cada fórmula ya que son bastantes. Trabaja en conectar los problemas actuales con conocimientos previos de manera más específica. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Lograste resolver el problema del cálculo de masa de metano con resultado concreto (4,1)",
+        "Reconoces tu progreso gradual en captar cómo resolver los ejercicios",
+        "Propones estrategia concreta de aprendizaje solicitando resoluciones en el pizarrón"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia identificando qué fórmula necesitas antes de comenzar",
+        "Necesitas ser más sistemático en la ejecución distinguiendo entre las múltiples fórmulas disponibles",
+        "Trabaja en conectar los problemas de gases con la regla de 3 de manera más específica y fundamentada"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 53,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Propones estrategia concreta de crear una hoja con todas las fórmulas para consultarlas. Comprendes que la masa varía según las circunstancias del problema. Es importante mejorar la completitud de tus respuestas, como en Q2 que quedó inconclusa. Necesitas ser más sistemático en documentar todo el proceso de resolución, no solo el resultado. Trabaja en conectar conceptos entre temas de química de manera más profunda. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Propones estrategia metacognitiva concreta de crear hoja de fórmulas para organizar tu conocimiento",
+        "Comprendes que la masa del objeto varía según circunstancias del problema",
+        "Reconoces conexión con tema anterior respecto al uso de regla de tres"
+      ],
+      "improvements": [
+        "Es importante mejorar la completitud de tus respuestas proporcionando información completa en cada pregunta",
+        "Necesitas sistematizar el registro del proceso completo de resolución, no solo mencionar qué calculaste",
+        "Profundiza en las conexiones entre temas más allá de mencionar herramientas matemáticas compartidas"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 37,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Química. Dominas la regla de 3 y la tienes bastante consolidada. Es prioritario fortalecer los fundamentos de selección de fórmulas de gases ideales, comenzando con actividades de identificación guiada que proporcionen comprensión sólida. Un plan de recuperación enfocado en retomar los conceptos básicos de ecuaciones de gases es esencial, priorizando comprensión antes de memorización. Fortalecer la motivación mediante reconocimiento de logros como tu dominio de regla de 3 favorecería tu confianza para avanzar. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante.",
+      "strengths": [
+        "Dominas la regla de 3 y la tienes bastante consolidada, mostrando fortaleza en herramientas matemáticas básicas",
+        "Reconoces honestamente tu nivel de comprensión actual (2/10) sin evasiones",
+        "Intentaste realizar los ejercicios del Classroom mostrando iniciativa a pesar de las dificultades"
+      ],
+      "improvements": [
+        "Es prioritario fortalecer los fundamentos de identificación y selección de fórmulas de gases ideales",
+        "Necesitas apoyo sistemático para comprender cuándo usar cada ecuación, no solo memorizarlas",
+        "Solicita acompañamiento personalizado para revisar los conceptos que no quedaron claros por limitaciones de tiempo"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "fb_002_3_me2xaxbm_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 69,
+      "generalComments": "Querido Ignacio Ortiz Gagliano, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Trabajaste con un modelo de examen completo y verificaste tus resultados con las respuestas. Identificas que el planteo del problema es tu principal dificultad, mostrando metacognición precisa. Tu autoevaluación mejoró significativamente a 7/10, evidenciando progreso real. Es importante mejorar el planteo inicial del problema para que el resto del proceso fluya mejor. Trabaja en hacer conexiones más específicas entre física y química más allá de mencionar objetivos generales. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Trabajaste con modelo de examen completo y verificaste tus resultados, mostrando estrategia de preparación efectiva",
+        "Mejoraste significativamente tu autoevaluación de 2/10 a 7/10, evidenciando progreso tangible",
+        "Identificas con precisión que tu dificultad principal es plantear el problema, mostrando metacognición desarrollada"
+      ],
+      "improvements": [
+        "Es importante mejorar el planteo inicial del problema identificando datos, incógnitas y contexto antes de ejecutar",
+        "Trabaja en hacer conexiones más específicas y profundas entre física y química más allá de objetivos generales",
+        "Proporciona más detalles sobre tu proceso de resolución en tus respuestas para reflexión más profunda"
+      ],
+      "createdAt": "2025-10-07 14:19:03"
+    },
+    {
+      "feedbackId": "b4daa3e7-0398-4350-a3a7-18c731769de0",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que esta semana has tenido dificultades importantes con los temas de Fase 2, y lo valoro porque lo reconoces abiertamente. Tu honestidad es un punto de partida excelente para mejorar. Sin embargo, tu reporte es muy breve y genérico: necesitas ser más específico sobre qué ejercicios viste, qué variables identificaste y dónde exactamente te perdiste.\n\nTu desempeño esta semana muestra que necesitas apoyo más directo. La buena noticia es que esto es completamente normal en Fase 2, donde clasificar variables es un salto importante en complejidad. Lo que te falta no es capacidad, sino práctica sistemática y estrategias claras.\n\nPara la próxima semana, te propongo que hagas lo siguiente: antes de cada clase, revisa los ejercicios anteriores e intenta identificar 3 variables en cada uno. Trae esa lista a clase y pregunta si las clasificaste correctamente. Esto te dará confianza y claridad. También, completa todas las preguntas del reporte semanal, incluso si es breve—cada respuesta es una oportunidad para reflexionar sobre tu aprendizaje.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces explícitamente tu dificultad (\"Siento que me falta mejorar\") y das una autoevaluación realista (4/10). Esto es importante porque el primer paso para mejorar es admitir que hay un problema.\n• Identificación de puntos confusos: Mencionas específicamente que el ejercicio del pizarrón te resultó confuso, lo que muestra que estás atento a dónde falla tu comprensión, aunque necesites profundizar más en el análisis.",
+      "improvements": "• Falta de identificación sistemática de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables en los ejercicios trabajados. Acción: En la próxima clase, toma nota de cada ejercicio y crea una tabla con dos columnas: \"Variables que conozco\" y \"Variables que desconozco\". Esto te ayudará a organizar la información.\n• Ausencia de estrategias concretas: Dices que te resulta difícil, pero no propones cómo resolverlo. Acción: Cuando no entiendas un ejercicio, pregunta específicamente: \"¿Cuál es la variable que cambia?\" y \"¿Cuál permanece igual?\". Esto te dará un método claro para clasificar.\n• No conectas con aplicaciones reales: Afirmas que no sabes relacionar el tema con otros. Acción: Piensa en ejemplos cotidianos: en una reacción química, ¿qué variables puedes controlar (temperatura, cantidad de reactivos) y cuáles no (presión atmosférica)? Esto hará el tema más tangible.",
+      "createdAt": "2025-11-12T22:54:26.088Z"
+    },
+    {
+      "feedbackId": "ab663e1b-db4c-4509-a765-8acfcd6f359f",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que trabajaste en la preparación de la prueba de gases ideales y eso es positivo. Sin embargo, tu reporte no muestra el nivel de análisis que esperamos en Fase 2. Las respuestas son muy breves y generales, sin detallar qué variables identificaste, cómo las clasificaste, o cómo las conectas con situaciones reales.\n\nEsta semana necesitas cambiar tu enfoque: en lugar de solo resolver ejercicios, dedica tiempo a *documentar* qué variables aparecen en cada problema y clasificarlas sistemáticamente. Esto es lo que realmente evalúa la Fase 2.\n\nPara la próxima semana, te pido que hagas un reporte más detallado. Incluye listas específicas de variables, ejemplos concretos de dificultades (no solo \"fue difícil\"), y al menos 3 conexiones con fenómenos reales. Esto te ayudará a consolidar el pensamiento crítico que estamos desarrollando.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que tuviste dudas con ebullición y que el último ejercicio fue difícil. Esta sinceridad es el primer paso para mejorar.\n• Participación en el proceso: Mencionas que trabajaste \"múltiples ejercicios\" y que te preparaste para la prueba, mostrando que estás presente en las actividades de clase.",
+      "improvements": "• Falta de especificidad en respuestas: Tus respuestas son muy generales (\"ejercicios\", \"temas\", \"difícil\"). Necesitas ser concreto: ¿Qué variables identificaste? ¿Cuál era conocida y cuál desconocida? Practica escribiendo listas específicas de variables en cada problema.\n• No identificas variables de Fase 2: El objetivo central de esta fase es que clasifiques variables (conocidas/desconocidas, controlables/no controlables). En gases ideales, deberías haber identificado: P, V, T, n como variables, y clasificarlas según el problema. Dedica tiempo a hacer esta clasificación explícita en cada ejercicio.\n• Ausencia de conexiones con la realidad: Dices \"no sabría con qué conectarlos\", pero los gases ideales están en todas partes: neumáticos de autos, botellas de gas, buceo, cocina. Busca 3 ejemplos reales esta semana y escribe qué variables cambian en cada uno.",
+      "createdAt": "2025-11-17T13:48:48.674Z"
+    }
+  ]
+}

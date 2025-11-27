@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "studentId": "u_7gbd795wame671byn",
+    "studentName": "Ignacio Benson",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.203905",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 57.33,
+      "minScore": 35,
+      "maxScore": 73,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me671byn_2025-08-11_90107bb6",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Ignacio demuestra una comprensión en desarrollo de la Fase 2 (identificación de variables). Su autoevaluación (nivel 2-3) es realista y refleja honestidad académica. Logra identificar variables básicas en contextos aplicados, aunque con dificultades en la clasificación más compleja. La conexión con el yogurt muestra capacidad de transferencia a situaciones cotidianas.",
+      "strengths": [
+        "Autoevaluación honesta y calibrada: nivel 2 en identificación de variables, nivel 3 en identificación de problemas",
+        "Identificación correcta de variables básicas en el problema del buffer: concentración de vinagre, cantidad de acetato, temperatura",
+        "Capacidad de reconocer cuándo necesita ayuda y buscarla proactivamente (IA, compañeros)",
+        "Conexión creativa con situación cotidiana (yogurt casero) mostrando transferencia de aprendizaje",
+        "Reconocimiento de temperatura, tiempo y acidez como variables clave en fermentación",
+        "Estrategia de estudio: releer, plantear claramente y consultar con externos"
+      ],
+      "improvements": [
+        "En Q1 mencionas que todavía me falta internalizar un poco más los contenidos; crea flashcards con tipos de variables (composición, condiciones, rendimiento)",
+        "En Q2 reconoces que no llegas a clasificar todo; practica usando la matriz de categorías con ejemplos más simples primero",
+        "La dificultad con variables desconocidas pero determinables experimentalmente sugiere confusión conceptual; revisa la diferencia entre dato dado vs dato calculable",
+        "Q5 está vacía excepto :); usa este espacio para reflexión metacognitiva más profunda",
+        "Desarrolla más ejemplos propios de identificación de variables en diferentes contextos químicos"
+      ],
+      "createdAt": "2025-10-03T14:50:07Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me671byn_2025-08-18_457ab8e9",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Ignacio muestra progresión hacia la Fase 3 (herramientas de equilibrio). Su nivel 3 en Kc/Kp indica comprensión conceptual adecuada, aunque requiere más práctica en aplicación. La resolución del problema 2 demuestra capacidad de seguir procedimientos ordenados. La confusión inicial con Le Chatelier es común y esperable en esta fase.",
+      "strengths": [
+        "Comprensión adecuada de expresiones de Kc y Kp a partir de ecuaciones balanceadas (nivel 3 autoevaluado)",
+        "Conocimiento de la relación Kp = Kc(RT)^Δn entre ambas constantes",
+        "Capacidad de seguir procedimientos ordenados: escribir, reemplazar, comparar (evidenciado en problema 2)",
+        "Conclusión correcta de que la reacción se desplaza hacia productos en el ejercicio trabajado",
+        "Reconocimiento de que el orden y procedimiento paso a paso ayudan a evitar confusión",
+        "Conexión interdisciplinaria con Física: equilibrio químico relacionado con energía cinética y velocidades"
+      ],
+      "improvements": [
+        "En Q1 mencionas que necesitas más práctica en identificar correctamente Δn; crea ejercicios específicos contando moles de gases en productos y reactivos",
+        "La dificultad con Le Chatelier (distinguir endotérmicas de exotérmicas) requiere un esquema visual: calor como reactivo (endo) vs calor como producto (exo)",
+        "En Q2 falta el desarrollo completo del problema 2; incluye los pasos intermedios para evidenciar tu proceso de pensamiento",
+        "Q5 está vacía; usa este espacio para reflexionar sobre tu evolución desde la Fase 1",
+        "Practica más ejemplos de Le Chatelier con diferentes tipos de perturbaciones para consolidar el concepto"
+      ],
+      "createdAt": "2025-10-03T14:50:08Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me671byn_2025-09-22_830d1b48",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "Ignacio presenta un reporte que no refleja actividad de aprendizaje efectiva durante esta semana. Todas las respuestas son idénticas ('Esta semana no tuvimos clase y la dedicamos a estudiar para la prueba'), excepto Q5 que incluye una justificación de ausencias previas. Aunque las razones (retiro, modelo de naciones unidas, ACAP) son válidas, el reporte no demuestra evidencia de estudio o preparación para la evaluación.",
+      "strengths": [
+        "Comunicación proactiva sobre ausencias y sus razones en Q5",
+        "Participación en actividades extracurriculares representando al colegio (modelo de naciones unidas)",
+        "Honestidad al indicar que no hubo clase presencial esta semana"
+      ],
+      "improvements": [
+        "Aunque no hubo clase, se esperaba evidencia de estudio autónomo para la prueba; el reporte no muestra qué temas repasaste ni cómo te preparaste",
+        "Las respuestas Q1-Q4 son copias exactas; podrías haber aprovechado cada pregunta para reflexionar sobre diferentes aspectos de tu preparación",
+        "Falta evidencia de ejercicios practicados, conceptos repasados o dificultades identificadas durante el estudio",
+        "Considera que el formulario semanal es una oportunidad para documentar tu proceso de aprendizaje autónomo, no solo las clases presenciales",
+        "Para futuras semanas sin clase, describe: qué material repasaste, qué ejercicios hiciste, qué dudas surgieron, qué estrategias usaste para estudiar"
+      ],
+      "createdAt": "2025-10-03T14:50:09Z"
+    },
+    {
+      "feedbackId": "e88e9e32-9750-4e04-9984-438de7458ef1",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:54.638Z"
+    },
+    {
+      "feedbackId": "340bd80a-46c1-45bd-b82f-4f225d3b6f95",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:15:00.463Z"
+    },
+    {
+      "feedbackId": "549f96b0-ba43-409e-98f8-9f00ec7bbd00",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando con seriedad esta semana y que reconoces tanto tus avances (Arrhenius Nivel 3) como tus desafíos (notación científica). Eso es excelente. Sin embargo, tu reporte se enfoca más en describir temas que en analizar variables, que es el corazón de Fase 2.\n\nTu desempeño muestra que entiendes los conceptos químicos (pH, ácidos-bases), pero aún no estás clasificando sistemáticamente las variables involucradas en cada problema. Es como si vieras el cuadro completo pero no identificaras cada color por separado.\n\nPara la próxima semana, te pido que en cada ejercicio hagas una pausa y escribas: \"Variables conocidas: ___, Variables desconocidas: ___, Variables que controlo: ___\". Esto te ayudará a internalizar Fase 2 y a responder Q5 con reflexiones más profundas. ¡Vas bien, pero necesitas ser más metódico!",
+      "strengths": "• Autoevaluación honesta: Reconoces claramente tus niveles de dominio en cada tema (Nivel 2 en pH y Lewis, Nivel 3 en Arrhenius) y notas tu progreso (\"mejor que la semana pasada, ya puedo reconocer con más facilidad\"). Esto muestra madurez metacognitiva.\n• Identificación de dificultades concretas: Señalas problemas específicos como la notación científica (1 × 10⁻³) y la confusión entre teorías de ácidos-bases. No son quejas vagas; son obstáculos reales que puedes trabajar.\n• Ejemplo práctico en Q2: Proporcionas un ejercicio concreto (pH = 3 de una solución ácida) que demuestra que sí estás aplicando fórmulas, aunque el análisis de variables sea incompleto.",
+      "improvements": "• Clasificación sistemática de variables en Q1: No basta listar temas; necesitas identificar en cada uno: ¿qué variables conoces? (concentración de H⁺), ¿cuáles desconoces? (pH), ¿cuáles puedes controlar? (temperatura, dilución). Crea una tabla simple: Tema | Variables conocidas | Variables desconocidas | Variables controlables.\n• Estrategias concretas para superar dificultades: En Q3 describes problemas pero no soluciones. Para la notación científica, practica convertir 10⁻³ a decimales (0.001) usando ejercicios online. Para diferenciar teorías, haz un cuadro comparativo: Arrhenius vs. Lewis vs. Brønsted-Lowry (qué libera cada uno, cuándo aplica cada teoría).\n• Profundizar conexiones en Q4: Tu conexión ácidos-bases → reacciones químicas es correcta pero superficial. Pregúntate: ¿Qué variables cambian en una reacción ácido-base? (pH, concentración, temperatura). ¿Cómo identificarías cuál es independiente y cuál dependiente? Esto integra Fase 1+2 realmente.",
+      "createdAt": "2025-10-27T05:05:03.402Z"
+    }
+  ]
+}

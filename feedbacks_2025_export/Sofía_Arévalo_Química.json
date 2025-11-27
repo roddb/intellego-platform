@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "studentId": "u_tq3ado57dme68sdj1",
+    "studentName": "Sofía Arévalo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.232991",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 69.6,
+      "minScore": 59,
+      "maxScore": 83,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-29"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_e68sdj1_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 59,
+      "generalComments": "Querida Sofía Arévalo,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas algunas variables necesarias para analizar equilibrio químico, como velocidad, temperatura y concentración, aunque con comprensión que requiere consolidación. Es importante mencionar que tu ausencia en clase impactó tu proceso de aprendizaje esta semana.\n\nTe recomiendo practicar la distinción y clasificación sistemática de variables conocidas y desconocidas. Es fundamental consolidar la identificación de qué datos son realmente necesarios para cada sistema. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Organizas adecuadamente los datos disponibles para cada sistema",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje",
+        "Muestras perseverancia al buscar ayuda cuando enfrentas dificultades"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en equilibrio químico",
+        "Es importante fortalecer la distinción entre variables necesarias y accesorias",
+        "Busca aplicaciones prácticas del equilibrio químico en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-07 11:50:10"
+    },
+    {
+      "feedbackId": "fb_002_1_e68sdj1_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Querida Sofía Arévalo,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico, específicamente la expresión de la constante Kc. Comprendes las ecuaciones fundamentales de equilibrio químico y su estructura.\n\nBusca aplicaciones prácticas de la constante de equilibrio en situaciones cotidianas más allá del cálculo matemático. Trabaja en expresar tus ideas con mayor claridad y precisión, especialmente en Q5.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico",
+        "Identificas correctamente las relaciones entre productos y reactivos en la expresión de Kc",
+        "Comprendes las ecuaciones fundamentales de la constante de equilibrio"
+      ],
+      "improvements": [
+        "Busca aplicaciones prácticas de la constante de equilibrio en situaciones cotidianas",
+        "Profundiza en las conexiones con otras áreas más allá del aspecto matemático",
+        "Trabaja en expresar reflexiones adicionales sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07 11:51:37"
+    },
+    {
+      "feedbackId": "fb_002_1_e68sdj1_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 83,
+      "generalComments": "Querida Sofía Arévalo,\n\nHas demostrado un excelente desempeño en la Fase 3: Selección de herramientas y relaciones, superando las expectativas para esta etapa del pensamiento crítico en Química. Seleccionas apropiadamente las herramientas matemáticas para calcular Qc, compararlo con Kc y predecir la dirección del equilibrio. Identificas correctamente las relaciones entre el cociente de reacción y la constante de equilibrio. Tu capacidad para modelar situaciones con herramientas matemáticas es apropiada.\n\nProfundiza en las conexiones conceptuales más allá del aspecto procedimental del cálculo. Trabaja en expresar reflexiones sobre tu proceso de aprendizaje en la pregunta 5.\n\n¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas matemáticas para análisis de equilibrio (Qc vs Kc)",
+        "Identificas correctamente cómo predecir la dirección de evolución del sistema",
+        "Tu capacidad para modelar situaciones químicas con herramientas matemáticas es efectiva"
+      ],
+      "improvements": [
+        "Profundiza en el significado conceptual de por qué el sistema evoluciona en determinada dirección",
+        "Explora conexiones más ricas entre las fórmulas y los fenómenos químicos observables",
+        "Proporciona reflexiones adicionales sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07 11:51:37"
+    },
+    {
+      "feedbackId": "fb_002_1_e68sdj1_2025-09-15_004",
+      "weekStart": "2025-09-15",
+      "score": 65,
+      "generalComments": "Querida Sofía Arévalo,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Comprendes el proceso de cálculo de Kc usando estequiometría, aunque aún necesitas consolidar tu capacidad de trabajar de manera independiente. Ejecutas los pasos de resolución de manera ordenada cuando trabajas con tu grupo.\n\nEs importante mejorar tu capacidad de planificar y ejecutar la estrategia de manera autónoma. Practica la aplicación de estequiometría en diversos contextos hasta lograr independencia. Trabaja en expresar tus reflexiones sobre tu proceso de aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes el proceso completo de cálculo de Kc usando estequiometría",
+        "Ejecutas los pasos de resolución de manera ordenada con apoyo del grupo",
+        "Identificas con precisión tu dificultad principal (aplicación de estequiometría)"
+      ],
+      "improvements": [
+        "Es importante mejorar tu planificación y ejecución autónoma de problemas",
+        "Practica intensivamente la aplicación de estequiometría hasta lograr independencia",
+        "Incorpora la verificación de resultados como parte de tu proceso de resolución"
+      ],
+      "createdAt": "2025-10-07 11:51:37"
+    },
+    {
+      "feedbackId": "fb_002_1_e68sdj1_2025-09-29_005",
+      "weekStart": "2025-09-29",
+      "score": 69,
+      "generalComments": "Querida Sofía Arévalo,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Tu descripción del ejercicio es excepcionalmente detallada y completa, demostrando comprensión profunda del proceso de cálculo de Kc con estequiometría y predicción de dirección del equilibrio. Ejecutas los pasos de resolución de manera muy ordenada cuando trabajas colaborativamente.\n\nEs importante que trabajes en desarrollar mayor autonomía para resolver ejercicios de manera independiente. Tu fortaleza en cálculos matemáticos es valiosa, pero necesitas fortalecer tu confianza para aplicarla sin depender del grupo. Proporciona reflexiones sobre tu proceso de aprendizaje en la pregunta 5.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Presentas una descripción excepcionalmente completa y detallada del proceso de resolución",
+        "Tu fortaleza en cálculos matemáticos es evidente y valiosa",
+        "Demuestras comprensión profunda al explicar cada paso del razonamiento"
+      ],
+      "improvements": [
+        "Es fundamental desarrollar mayor independencia en la resolución de problemas",
+        "Fortalece tu confianza para trabajar autónomamente aplicando tus habilidades matemáticas",
+        "Trabaja en expresar reflexiones metacognitivas sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07 11:51:37"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "studentId": "u_of6to0o91me0b47mk",
+    "studentName": "Milagros Monsegur",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.226055",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 54.21,
+      "minScore": 26,
+      "maxScore": 74,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_f79ae2f0cd32436e",
+      "weekStart": "2025-08-04",
+      "score": 72,
+      "generalComments": "Milagros, demuestras una sólida comprensión inicial del pensamiento crítico y sus pasos fundamentales. Tu aplicación práctica en el ejercicio de elección de carrera muestra que puedes implementar el proceso de toma de decisiones. Es muy valioso que reconozcas la aplicación universal del pensamiento crítico en todas las materias.",
+      "strengths": [
+        "Excelente comprensión de los 5 pasos del pensamiento crítico",
+        "Aplicación práctica exitosa en el ejercicio de elección de carrera",
+        "Reconocimiento de la importancia transversal del pensamiento crítico"
+      ],
+      "improvements": [
+        "Profundizar en la evaluación sistemática de consecuencias",
+        "Ampliar la práctica con ejercicios de física aplicada"
+      ],
+      "createdAt": "2025-01-09 17:15:00"
+    },
+    {
+      "feedbackId": "fb_4d295a79d8894c1f",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Milagros, muestras progreso en la identificación de variables y su aplicación a situaciones cotidianas. El análisis de la rutina matutina es un excelente ejemplo de física aplicada. Tu reconocimiento de las dificultades es valioso para mejorar.",
+      "strengths": [
+        "Capacidad para identificar variables básicas en problemas",
+        "Aplicación práctica en situaciones cotidianas",
+        "Conciencia de la importancia de considerar todos los datos"
+      ],
+      "improvements": [
+        "Fortalecer la identificación sistemática de variables",
+        "Practicar la categorización de variables (controlables, no controlables, conocidas, desconocidas)",
+        "Desarrollar estrategias para no omitir detalles importantes"
+      ],
+      "createdAt": "2025-01-09 17:16:00"
+    },
+    {
+      "feedbackId": "fb_7a81df3bbe374ed5",
+      "weekStart": "2025-08-18",
+      "score": 74,
+      "generalComments": "Milagros, demuestras un avance significativo en la identificación de variables y la aplicación práctica en problemas de física. Tu resolución del ejercicio de tiro oblicuo desde la torre muestra que puedes aplicar el proceso metodológico correctamente. Es importante que trabajes en tu autonomía para consolidar estos conocimientos.",
+      "strengths": [
+        "Excelente dominio de identificación de problemas y variables (Nivel 3)",
+        "Aplicación exitosa del proceso de resolución en tiro oblicuo",
+        "Capacidad para clasificar variables y definir herramientas adecuadas"
+      ],
+      "improvements": [
+        "Fortalecer la comprensión conceptual del tiro oblicuo",
+        "Desarrollar mayor autonomía en la resolución de problemas",
+        "Profundizar en la memorización activa de ecuaciones cinemáticas"
+      ],
+      "createdAt": "2025-01-09 17:17:00"
+    },
+    {
+      "feedbackId": "fb_7c32b53a417a45be",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Milagros, tu cálculo de la altura máxima es correcto y muestra que puedes aplicar las fórmulas cuando tienes claridad sobre qué usar. La dificultad con las componentes es común y mejorará con práctica sistemática. Es positivo que busques ayuda cuando la necesitas.",
+      "strengths": [
+        "Cálculo correcto de altura máxima (33,75 m)",
+        "Uso apropiado de la fórmula de componente vertical",
+        "Conexión adecuada con conceptos previos (MRU y MRUV)"
+      ],
+      "improvements": [
+        "Clarificar cuándo usar componentes horizontales vs verticales",
+        "Practicar más problemas de tiro oblicuo de forma independiente",
+        "Desarrollar criterios para seleccionar fórmulas apropiadas"
+      ],
+      "createdAt": "2025-01-09 17:18:00"
+    },
+    {
+      "feedbackId": "fb_de78c8b6df454955",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Milagros, aunque resolviste correctamente el problema del golfista, es preocupante que hayas bajado a Nivel 1 en autonomía. Es fundamental que recuperes la confianza para trabajar de forma independiente. La práctica constante te ayudará a superar estas dificultades.",
+      "strengths": [
+        "Aplicación práctica en problema contextualizado (golf)",
+        "Uso correcto de ecuaciones para calcular alcance",
+        "Mantiene conexión con conocimientos previos"
+      ],
+      "improvements": [
+        "Urgente: recuperar autonomía en la resolución (bajó de Nivel 2 a Nivel 1)",
+        "Reforzar clasificación de variables conocidas/desconocidas",
+        "Practicar identificación de problemáticas de forma sistemática"
+      ],
+      "createdAt": "2025-01-09 17:19:00"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b47mk_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 26,
+      "generalComments": "Querida Milagros,\n\nTu comprensión de Fase 1: Identificación y comprensión del problema está en etapa inicial, siendo fundamental establecer bases sólidas en la identificación del problema central antes de avanzar en Física. Tu reporte de esta semana indica que enfrentaste una evaluación de contenidos.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en cada problema que abordas. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas de Física. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje cuando completes los reportes semanales. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase.\n\nEstoy aquí para acompañarte en este proceso. Vamos paso a paso, y con dedicación lograrás construir las bases necesarias para avanzar en tu aprendizaje de Física.",
+      "strengths": [
+        "Completaste el reporte semanal y demostraste disposición para participar en la evaluación",
+        "Reconoces que tuviste una prueba, mostrando conciencia del contexto de aprendizaje",
+        "Tu predisposición a responder cada pregunta es el primer paso para desarrollar reflexión metacognitiva"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en cada problema de Física",
+        "Necesitas proporcionar respuestas más detalladas y específicas que muestren tu proceso de pensamiento en cada pregunta",
+        "Trabaja en distinguir entre información relevante e irrelevante cuando abordas problemas de Física",
+        "Desarrolla el hábito de reflexionar sobre las dificultades concretas que enfrentas y estrategias específicas para superarlas"
+      ],
+      "createdAt": "2025-10-17T03:25:19.400190"
+    },
+    {
+      "feedbackId": "e311bc02-25ba-40db-be14-bf1cc6df4e50",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:19.540Z"
+    },
+    {
+      "feedbackId": "c4f4f802-57a3-4fda-aa15-b157d62e0ece",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:34.170Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b47mk_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 68,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema del nuevo ciclo de Leyes de Newton, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente la diferencia entre dinámica y cinemática, comprendiendo que la primera estudia las causas del movimiento. Reconoces la presencia de las leyes de Newton en la vida cotidiana. Es importante profundizar en la comprensión del contexto de este nuevo tema desarrollando mayor familiaridad con los conceptos. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente la diferencia conceptual entre dinámica y cinemática",
+        "Reconoces la presencia de las leyes de Newton en situaciones de la vida cotidiana",
+        "Demuestras autoevaluación honesta al reconocer que estás en etapa inicial de comprensión"
+      ],
+      "improvements": [
+        "Es fundamental profundizar en la comprensión del contexto de dinámica acostumbrándote a estos nuevos conceptos",
+        "Proporciona evidencias más específicas de situaciones cotidianas donde identifies leyes de Newton",
+        "Desarrolla conexiones con conocimientos previos de cinemática para facilitar la integración conceptual"
+      ],
+      "createdAt": "2025-10-09T22:48:46.979Z"
+    },
+    {
+      "feedbackId": "1aa8ff1a-1147-458b-ad84-be31cd23cdbc",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:12.864Z"
+    },
+    {
+      "feedbackId": "281c3c94-86c2-484c-b446-80054a606356",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:29:40.607Z"
+    },
+    {
+      "feedbackId": "be2bc34c-bad1-401d-8cf1-403f5322069e",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que esta semana hiciste un esfuerzo por entender los diagramas de cuerpo libre, y tu ejemplo en Q2 muestra que puedes aplicar fórmulas correctamente. Lo positivo es que eres honesto sobre lo que no comprendes completamente, lo que es fundamental para mejorar.\n\nSin embargo, tu reporte está incompleto en varias áreas. Necesitas ser más específico en tus respuestas: en lugar de decir \"me costó entender\", explica *qué* exactamente no entiendes. Además, Q5 está vacía, lo que significa que perdiste la oportunidad de reflexionar más profundamente sobre tu aprendizaje.\n\nPara la próxima semana, te propongo que: (1) hagas una lista detallada de qué aspectos del diagrama de cuerpo libre no comprendes, (2) practiques clasificando variables en cada problema que resuelvas, y (3) completes todas las preguntas del reporte, incluso si es con reflexiones breves. Esto te ayudará a consolidar mejor el aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que \"entiendo pero no termino de entender\" la construcción del diagrama. Esta autoconsciencia es el primer paso para mejorar y muestra madurez en tu proceso de aprendizaje.\n• Aplicación correcta de fórmulas: En tu ejemplo de Q2, utilizas correctamente P=M·G y obtienes el resultado esperado (200N). Esto demuestra que dominas el cálculo de magnitudes físicas básicas.\n• Uso de representaciones visuales: Describes claramente cómo posicionaste las fuerzas en el diagrama (100N a la derecha, 5N a la izquierda), mostrando que intentas organizar la información de forma visual y ordenada.",
+      "improvements": "• Especificar dificultades concretas: En Q3, en lugar de decir \"me costó entender cómo se hace un diagrama\", identifica exactamente qué: ¿cómo determinar la dirección de las fuerzas?, ¿cómo escalar las magnitudes?, ¿cómo dibujar en plano inclinado? Esto te permitirá buscar ayuda más efectiva.\n• Clasificar variables sistemáticamente: En Q2, después de listar los datos (100N, 5N, 20kg), añade una clasificación: \"Variables conocidas: F aplicada, F rozamiento, masa. Variables desconocidas: aceleración. Variables controlables: fuerza aplicada.\" Esto es lo que espera la Fase 2.\n• Profundizar conexiones con aplicaciones reales: En Q4, no solo menciones el trabajo práctico anterior. Explica: \"Los diagramas de cuerpo libre me ayudan a entender cómo las fuerzas actúan en [situación específica del trabajo práctico].\" Esto demuestra transferencia real de conocimiento.",
+      "createdAt": "2025-10-27T04:58:35.175Z"
+    },
+    {
+      "feedbackId": "00e5bf03-2d57-47a6-8707-2960cab44089",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que tienes buena base en cálculos y procedimientos matemáticos, lo que es excelente. Sin embargo, tu reporte esta semana es incompleto y no refleja el verdadero trabajo de Fase 2. El objetivo no es solo resolver ejercicios correctamente, sino identificar y clasificar sistemáticamente las variables que intervienen en cada problema.\n\nTu desempeño en cálculos es sólido, pero necesitas profundizar en el análisis conceptual. Notó que no conectas lo que haces con lo que aprendiste antes, y eso es una oportunidad de mejora importante. Además, dejaste sin responder la pregunta 5, que es donde reflexionas sobre tu aprendizaje.\n\nPara la próxima semana, te pido que: (1) Completes cada pregunta del reporte con respuestas detalladas, (2) Identifiques explícitamente todas las variables en cada problema y las clasifiques, (3) Practiques diagramas de cuerpo libre con una estrategia clara. Estoy seguro de que puedes mejorar significativamente.",
+      "strengths": "• Precisión en cálculos: Realizas correctamente las conversiones de unidades (50 km/h = 13,89 m/s) y aplicas las fórmulas de cinemática y dinámica sin errores aritméticos.\n• Procedimiento ordenado: Presentas tu solución paso a paso, mostrando claramente qué fórmula usas en cada momento y cómo llegas al resultado final (F = 1653 N).\n• Honestidad en autoevaluación: Reconoces que tienes dificultades con diagramas de cuerpo libre, lo que muestra autoconciencia sobre tus limitaciones.",
+      "improvements": "• Identificación explícita de variables: En el problema del automóvil, debes listar todas las variables: masa (950 kg - conocida), velocidad inicial (13,89 m/s - conocida), velocidad final (27,78 m/s - conocida), tiempo (8 s - conocido), aceleración (desconocida), fuerza (desconocida). Esto es el corazón de Fase 2.\n• Estrategias concretas para diagramas de cuerpo libre: No basta decir que te cuesta. Propón acciones: \"Practicaré dibujando 3 diagramas por día identificando cada fuerza con colores diferentes\" o \"Usaré una plantilla con pasos: 1) Aislar objeto, 2) Identificar fuerzas, 3) Dibujar vectores\". Sé específico.\n• Conexiones entre fases: Analiza cómo Fase 1 (cinemática: velocidades, aceleración, tiempo) alimenta Fase 2 (dinámica: fuerzas). En tu problema, la aceleración que calculaste en Fase 1 es la variable clave para Fase 2. Escribe estas conexiones explícitamente.",
+      "createdAt": "2025-11-03T12:21:47.626Z"
+    },
+    {
+      "feedbackId": "6898b4ab-49aa-4f1b-8b6a-2efa1041fa5b",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que esta semana fue principalmente de organización del proyecto grupal, lo cual está bien como punto de partida. Sin embargo, tu reporte no refleja el trabajo profundo que requiere Fase 2. Necesitas ir más allá de completar tareas: debes analizar sistemáticamente qué variables están en juego en cada problema o tema que estudias.\n\nTu desempeño esta semana es inicial porque no hay evidencia de que estés identificando, clasificando y relacionando variables como se espera. Esto no es una crítica, sino una invitación a ser más riguroso con tu análisis. La Fase 2 es fundamental para desarrollar pensamiento crítico real.\n\nPara la próxima semana, cuando comiences con el proyecto, dedica tiempo específico a identificar todas las variables involucradas. Haz una tabla con columnas: \"Variable\", \"Conocida/Desconocida\", \"Controlable/No controlable\". Esto te ayudará a estructurar mejor tu pensamiento y a demostrar tu aprendizaje en el reporte.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que la tarea \"no tenía mucha complejidad\" y te asignas una calificación coherente, mostrando cierta capacidad de autorreflexión inicial.\n• Disposición a trabajar en grupo: Mencionas que trabajaste con tu grupo sin conflictos (\"a mi grupo y a mi no nos costó mucho\"), lo que indica colaboración positiva.",
+      "improvements": "• Profundizar en el análisis de variables: Aunque hicieron una ficha sobre Leyes de Newton, no identificaste qué variables estaban presentes (masa, fuerza, aceleración, etc.). Para la próxima semana, cuando trabajes un tema, haz una lista explícita de variables conocidas y desconocidas. Pregúntate: ¿Qué datos tengo? ¿Qué busco encontrar?\n• Documentar el proceso de aprendizaje: Tu reporte es muy breve y no muestra evidencia del trabajo realizado. Necesitas describir qué ejercicios hiciste, qué variables identificaste y cómo las clasificaste. Esto es esencial para demostrar que estás aplicando Fase 1 + Fase 2 correctamente.\n• Reflexionar sobre dificultades reales: Decir \"no tuve dificultades\" no es realista en Fase 2. Todos enfrentamos desafíos al distinguir variables controlables de no controlables, o magnitudes físicas de otras. Sé honesto: ¿Qué te costó? ¿Cómo lo superaste? Esto muestra pensamiento crítico genuino.",
+      "createdAt": "2025-11-12T22:57:21.366Z"
+    }
+  ]
+}

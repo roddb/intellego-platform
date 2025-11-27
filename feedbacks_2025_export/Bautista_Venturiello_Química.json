@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "studentId": "f94d0184-fb61-4204-8c99-b06aa5e4a95b",
+    "studentName": "Bautista Venturiello",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.185454",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 56.5,
+      "minScore": 27,
+      "maxScore": 70,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-25",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_a5e4a95b_2025-08-25_e5e46752",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Tu reporte muestra una comprensión conceptual sólida del equilibrio químico y conciencia clara de tus áreas de dificultad. Aunque mencionas que no hubo contenidos nuevos, has aprovechado la semana para repasar y reflexionar sobre tus desafíos, lo cual es una estrategia metacognitiva valiosa. Tus respuestas demuestran pensamiento crítico en desarrollo.",
+      "strengths": [
+        "Reconoces claramente las reacciones químicas y la diferencia entre reactivos y productos",
+        "Identificas con precisión tu dificultad principal: saber cuándo la reacción llega a equilibrio en ejercicios prácticos",
+        "Muestras estrategia proactiva de organización de datos antes de calcular, lo cual es fundamental en la Fase 2"
+      ],
+      "improvements": [
+        "Profundiza en la clasificación de variables: además de mencionar que organizas datos, especifica qué tipos de variables identificas (concentraciones, temperatura, presión)",
+        "En Q2, expande tu explicación sobre cómo sabes que el sistema está en equilibrio (estabilidad de concentraciones, velocidades iguales)",
+        "Desarrolla más Q4: explica cómo se conectan específicamente matemática (exponentes en Kc), física (gases) y estequiometría",
+        "Evita dejar Q5 vacía; usa ese espacio para reflexionar sobre tu progreso o plantear dudas"
+      ],
+      "createdAt": "2025-10-03T10:16:03Z"
+    },
+    {
+      "feedbackId": "fb_backfill_a5e4a95b_2025-09-08_2a696024",
+      "weekStart": "2025-09-08",
+      "score": 70,
+      "generalComments": "Tu reporte muestra consistencia en la comprensión conceptual del equilibrio químico y mejora en la identificación de áreas específicas de dificultad. Has avanzado en reconocer no solo qué te cuesta, sino también en proponer estrategias iniciales para mejorar. Tu autoevaluación muestra madurez metacognitiva al reconocer la diferencia entre entender la teoría y aplicarla en ejercicios.",
+      "strengths": [
+        "Comprendes bien el concepto de equilibrio dinámico y puedes explicarlo de manera clara",
+        "Identificas con precisión tu dificultad: transformar enunciados en ecuaciones de Qc (especialmente distinguir entre moles y concentraciones)",
+        "Estableces conexiones interdisciplinarias relevantes (Matemática, Física con delta n y gases)"
+      ],
+      "improvements": [
+        "En Q2, además de mencionar dudas sobre aplicación, proporciona ejemplos específicos de ejercicios del modelo que intentaste resolver",
+        "Desarrolla más tus estrategias en Q3: ¿qué hiciste concretamente para superar la dificultad de distinguir moles vs concentraciones?",
+        "Expande Q4 explicando cómo se relaciona conceptualmente delta n con la ecuación de gases ideales (PV=nRT)",
+        "Utiliza Q5 para reflexionar sobre tu evolución desde la semana anterior o plantear preguntas pendientes"
+      ],
+      "createdAt": "2025-10-03T10:16:04Z"
+    },
+    {
+      "feedbackId": "fb_backfill_a5e4a95b_2025-09-15_e38171a9",
+      "weekStart": "2025-09-15",
+      "score": 65,
+      "generalComments": "Tu reporte de esta semana muestra que sigues comprendiendo bien los conceptos teóricos del equilibrio químico, pero enfrentas un obstáculo importante: la falta de acceso al material de clase. Tu honestidad sobre cómo esto afecta tu aprendizaje demuestra conciencia metacognitiva. Sin embargo, las respuestas se mantienen en un nivel muy similar a semanas anteriores sin evidencia de nuevas estrategias o avances concretos.",
+      "strengths": [
+        "Reconoces claramente cómo la falta de material didáctico afecta tu proceso de estudio",
+        "Mantienes comprensión conceptual del equilibrio y de la comparación QC-KC",
+        "Identificas conexiones interdisciplinarias (Matemática por operaciones, Física por ecuaciones de gases)"
+      ],
+      "improvements": [
+        "Aunque la presentación no esté disponible, intenta resolver al menos un ejercicio con tus apuntes y documenta el proceso completo, incluso si no estás seguro",
+        "En Q3, sé más específico sobre qué parte de la resolución paso a paso necesitabas de la diapositiva (¿cálculo de Qc? ¿interpretación del resultado?)",
+        "Desarrolla estrategias alternativas: busca recursos online (videos, simulaciones de equilibrio químico), consulta libros de texto, o forma grupos de estudio con compañeros",
+        "Evita dejar Q5 vacía; úsala para plantear preguntas específicas que podrías consultar al profesor"
+      ],
+      "createdAt": "2025-10-03T10:16:05Z"
+    },
+    {
+      "feedbackId": "fb_backfill_a5e4a95b_2025-09-22_7cb72086",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Tu reporte de esta semana refleja un retroceso significativo debido a la ausencia de clase y la persistente falta de material didáctico. Aunque reconoces las dificultades del contexto, las respuestas son muy breves y no muestran evidencia de iniciativa propia para avanzar en el aprendizaje. Estás quedando en un nivel inicial de dominio que requiere intervención urgente.",
+      "strengths": [
+        "Reconoces honestamente cómo la falta de clase y material afecta tu aprendizaje",
+        "Mantienes conciencia de las conexiones interdisciplinarias (Matemática, Física)",
+        "Recuerdas conceptos previos (ejemplo de la olla hirviendo para explicar equilibrio)"
+      ],
+      "improvements": [
+        "URGENTE: No puedes depender exclusivamente de las clases presenciales y presentaciones. Necesitas desarrollar estrategias de estudio autónomo inmediatamente",
+        "En lugar de responder no hubo clase o me faltó material, documenta qué hiciste por tu cuenta: ¿repasaste apuntes? ¿resolviste ejercicios previos? ¿consultaste recursos alternativos?",
+        "En Q3, identifica específicamente qué ejemplos resueltos necesitabas y busca similares en tu cuaderno o en recursos online",
+        "Utiliza Q5 para plantear un plan de acción concreto para la semana próxima, no la dejes vacía"
+      ],
+      "createdAt": "2025-10-03T10:16:06Z"
+    },
+    {
+      "feedbackId": "b63d7b7c-ae2f-4218-94e7-5f5b0f241fa1",
+      "weekStart": "2025-09-29",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:37.541Z"
+    },
+    {
+      "feedbackId": "4caf2661-6ae0-4d2d-a42b-1cb7852e82d1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:24:12.086Z"
+    },
+    {
+      "feedbackId": "4008aec8-df6e-463d-b710-e4f0da32e84c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:45:25.247Z"
+    },
+    {
+      "feedbackId": "96d982de-f04d-49e6-8032-6c3501a173b5",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:26:52.244Z"
+    },
+    {
+      "feedbackId": "715a5415-a91a-4a3d-a42c-ba892be20243",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que trabajaste en ejercicios de pH y equilibrio químico esta semana, y lograste resolver problemas con ayuda de tus compañeros. Eso es positivo. Sin embargo, tu reporte no muestra claramente cómo identificaste y clasificaste las variables en cada problema, que es el objetivo central de Fase 2.\n\nTu desempeño es inconsistente: tienes buenas conexiones conceptuales (como vincular pH con digestión) pero te falta sistematización en la identificación de variables. Necesitas ser más detallado y estructurado en tus respuestas.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema, (2) las clasifiques claramente, y (3) reflexiones sobre por qué cada variable es importante. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Resolución colaborativa: Reconoces que trabajar con un compañero te ayudó a superar la confusión con la fórmula exponencial. Esto muestra madurez en pedir ayuda y reflexionar sobre el error.\n• Conexión interdisciplinaria: Vinculas el pH con procesos biológicos reales (digestión), demostrando que entiendes la relevancia práctica del tema más allá de cálculos abstractos.\n• Identificación de conceptos clave: Mencionas correctamente la relación de equilibrio H₃O⁺/OH⁻ y el comportamiento ácido-básico, lo que indica comprensión conceptual del tema trabajado.",
+      "improvements": "• Falta identificación sistemática de variables: En Q1 y Q2 no clasificas las variables en conocidas/desconocidas ni controlables/no controlables. Te sugerimos: crea una tabla con dos columnas (Variable | Clasificación) para cada problema trabajado. Esto te ayudará a ser más ordenado y completo.\n• Respuestas muy breves sin detalles: Tus respuestas son cortas y generales. Para Fase 2 necesitas ser más específico. Intenta escribir al menos 3-4 oraciones por pregunta, incluyendo ejemplos concretos de variables que identificaste en los ejercicios.\n• Ausencia de reflexión en Q5: No respondiste la pregunta de comentarios adicionales. Dedica tiempo a reflexionar: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo ha mejorado tu forma de abordar problemas desde Fase 1? Esto es crucial para el pensamiento crítico.",
+      "createdAt": "2025-10-27T04:54:35.235Z"
+    },
+    {
+      "feedbackId": "747ad705-1140-4155-8265-18f34448e211",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor es una situación que escapa a tu control, pero un reporte de pensamiento crítico debe reflejar tu trabajo académico independientemente de las circunstancias. Esta semana no hay evidencia de que hayas avanzado en la identificación de variables, clasificación de magnitudes o comprensión de relaciones entre variables, que son los pilares de la Fase 2.\n\nTu desempeño esta semana no puede ser evaluado adecuadamente porque no hay contenido que analizar. Esto afecta tu progresión en el desarrollo del pensamiento crítico y tu calificación general.\n\nPara la próxima semana, te animo a que tomes la iniciativa: revisa los materiales de Fase 2 en Intellego, trabaja en problemas de Química de forma independiente, identifica variables en experimentos o reacciones químicas, y documenta tu proceso. Así demostrarás compromiso con tu aprendizaje y podremos evaluar tu verdadero progreso.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en relación con los objetivos de la Fase 2. La falta de contenido académico impide identificar aspectos positivos del aprendizaje.",
+      "improvements": "• Completar el reporte con contenido académico: Aunque no haya habido clase, puedes revisar tus apuntes de semanas anteriores, consultar el material de la plataforma Intellego o trabajar de forma independiente en identificar variables de problemas de Química. Esto demuestra iniciativa y responsabilidad con tu aprendizaje.\n• Documentar el trabajo realizado: Incluso si el profesor faltó, registra qué estudiaste por tu cuenta, qué dificultades encontraste y cómo las abordaste. Esto es fundamental para que podamos evaluar tu progreso real en pensamiento crítico.\n• Comunicar situaciones excepcionales de forma clara: Si realmente no hubo clase, menciona esto brevemente pero luego presenta lo que SÍ hiciste de forma independiente. El reporte debe reflejar tu esfuerzo académico, no solo justificaciones externas.",
+      "createdAt": "2025-11-03T12:18:50.518Z"
+    },
+    {
+      "feedbackId": "45e92021-2108-4ebf-b6f3-6c0045e694ad",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no tuviste clase, lo que ha limitado tu oportunidad de trabajar en los contenidos de la Fase 2. Sin embargo, es importante que mantengas continuidad en tu proceso de aprendizaje, especialmente en una materia como Ciencias donde cada fase se construye sobre la anterior.\n\nTu desempeño esta semana no refleja tu capacidad real, sino más bien una situación circunstancial. Lo importante ahora es que recuperes el ritmo y te pongas al día con los temas de identificación de variables y clasificación de magnitudes físicas.\n\nPara la próxima semana, te recomiendo que: (1) asegures tu asistencia a todas las clases, (2) revises los apuntes o materiales de la Fase 2 con tu profesor o compañeros, y (3) completes un reporte con evidencia real de tu trabajo. Estoy seguro de que puedes recuperarte rápidamente.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de clases ha impedido que puedas demostrar tu aprendizaje y desarrollo en la Fase 2.",
+      "improvements": "• Asistencia y participación: Es fundamental que asistas a las clases de Ciencias para poder trabajar con los contenidos de la Fase 2. Sin la clase, no hay oportunidad de aprender sobre identificación de variables ni clasificación de magnitudes. Coordina con tu profesor si hay algún inconveniente.\n• Completar el reporte con contenido: Aunque no hayas tenido clase, podrías usar recursos disponibles (apuntes de compañeros, libro de texto, videos educativos) para trabajar en los temas de variables y magnitudes físicas. Esto te permitiría avanzar en tu aprendizaje de forma independiente.\n• Comunicación proactiva: Si hay problemas recurrentes con la asistencia, comunícalo a tu profesor o tutor académico. Ellos pueden ayudarte a recuperar el contenido perdido y planificar estrategias para que no se rezague tu progreso en pensamiento crítico.",
+      "createdAt": "2025-11-12T22:51:32.507Z"
+    },
+    {
+      "feedbackId": "ee0efa4d-e061-4e37-a3f8-8720489853db",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Tu reporte muestra que comprendiste los conceptos de ácidos, bases y equilibrio químico, y eso es positivo. Hiciste conexiones interdisciplinarias interesantes y reconociste dificultades reales que superaste. Sin embargo, tu respuesta no refleja completamente lo que se espera en la Fase 2: la clasificación sistemática de variables.\n\nEn esta fase, no se trata solo de entender conceptos, sino de aprender a *organizar* la información identificando qué variables controlas, cuáles mides, cuáles son conocidas y cuáles desconocidas. Tus respuestas son conceptualmente correctas, pero metodológicamente incompletas.\n\nPara la próxima semana, te pido que: (1) crees listas explícitas de variables en cada problema, (2) las clasifiques usando categorías claras, y (3) reflexiones sobre por qué esta clasificación te ayuda a resolver problemas más eficientemente. Esto consolidará tu transición hacia la Fase 3.",
+      "strengths": "• Conexiones interdisciplinarias claras: Relacionas el pH con Matemática (potencias negativas), Física (sistemas estables) y Biología (regulación celular). Esto muestra que ves la Química conectada con otras áreas del conocimiento.\n• Identificación de dificultades reales: Reconoces específicamente que interpretar pH intermedio fue un desafío y que lo resolviste comparando con ejercicios anteriores. Esto demuestra autoconciencia sobre tu proceso de aprendizaje.\n• Comprensión conceptual de equilibrio: Entiendes que el agua mantiene un equilibrio propio y que los solutos lo desplazan. Este es un concepto clave que muchos estudiantes confunden.",
+      "improvements": "• Falta clasificación sistemática de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables. En el próximo reporte, crea una tabla simple: en una columna lista \"Concentración de H⁺\" (controlable, conocida) y en otra \"pH resultante\" (dependiente, medible). Esto es lo que espera la Fase 2.\n• Evidencia incompleta de aprendizaje: Tu respuesta a Q2 es muy breve y no muestra una lista de variables de los ejercicios trabajados. Incluye ejemplos concretos: \"En el ejercicio de HCl, las variables fueron: concentración inicial (conocida), volumen (controlable), pH final (desconocida)\". Esto demuestra aplicación real de la metodología.\n• Ausencia de reflexión en Q5: Dejaste esta sección vacía. Aquí debería haber una reflexión sobre *por qué* es importante clasificar variables o cómo tu comprensión evolucionó desde la Fase 1. Dedica 3-4 líneas a reflexionar: \"Ahora entiendo que identificar variables es importante porque...\"",
+      "createdAt": "2025-11-17T13:51:04.017Z"
+    }
+  ]
+}

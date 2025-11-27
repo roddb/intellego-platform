@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "u_iyu24v3tpme1bx7zr",
+    "studentName": "Agustina Sarti",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.181573",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 67.0,
+      "minScore": 67,
+      "maxScore": 67,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b053eac9-4ad9-15ef-c537-89070bf0b839",
+      "weekStart": "2025-08-04",
+      "score": 67,
+      "generalComments": "Agustina demuestra una comprensión adecuada de los fundamentos del pensamiento crítico, reconociendo su importancia en la vida cotidiana. Sin embargo, se observa que aún está desarrollando la capacidad de identificar múltiples alternativas en situaciones problemáticas. El reporte muestra que comprende el concepto general, pero necesita profundizar en la aplicación práctica de los pasos del método.",
+      "strengths": [
+        "Reconoce la relevancia del pensamiento crítico en situaciones cotidianas y su conexión con otras áreas del conocimiento",
+        "Muestra honestidad al identificar que ciertos ejercicios le resultaron desafiantes",
+        "Comprende el concepto general del pensamiento crítico y su aplicación básica"
+      ],
+      "improvements": [
+        "Practicar la identificación de múltiples alternativas en situaciones problemáticas, especialmente en el paso 1 del método",
+        "Desarrollar estrategias específicas para abordar los ejercicios que generan dificultad, incluso cuando parezcan simples",
+        "Incluir reflexiones más detalladas sobre el proceso de aprendizaje y las dificultades encontradas para fortalecer la metacognición"
+      ],
+      "createdAt": "2025-09-30 15:20:17"
+    }
+  ]
+}

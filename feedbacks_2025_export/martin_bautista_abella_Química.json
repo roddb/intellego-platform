@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "bd275edd-f22b-49b2-9d4b-8339d485515f",
+    "studentName": "martin bautista abella",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245757",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 62.0,
+      "minScore": 52,
+      "maxScore": 72,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-18",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "e7926951b444d7d2972bc69cad55354e",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Martin Bautista está trabajando en la fase de identificación de herramientas matemáticas. Reconoce las ecuaciones fundamentales de gases (PV=nRT) aunque necesita más práctica con ejercicios para consolidar estos conceptos.",
+      "strengths": [
+        "Identifica correctamente las ecuaciones fundamentales de gases ideales",
+        "Establece conexiones con conocimientos previos del año anterior",
+        "Muestra interés por profundizar en el aprendizaje de las ecuaciones"
+      ],
+      "improvements": [
+        "Necesita más práctica con ejercicios de aplicación de las fórmulas",
+        "Desarrollar la capacidad de evidenciar el aprendizaje con ejemplos concretos",
+        "Profundizar en la comprensión de las relaciones entre variables en las ecuaciones"
+      ],
+      "createdAt": "2025-09-21 21:49:30"
+    },
+    {
+      "feedbackId": "120a98765d9f37e61a9014b53d73f6b3",
+      "weekStart": "2025-09-15",
+      "score": 72,
+      "generalComments": "Martin Bautista demuestra buen dominio en la aplicación de las leyes de gases ideales, trabajando efectivamente en la Fase 4 de resolución completa. Su capacidad para aplicar tanto la ley de Boyle como la de Charles en problemas isotérmicos muestra madurez en el manejo de conceptos.",
+      "strengths": [
+        "Aplicación correcta de múltiples leyes de gases (Boyle y Charles) en contextos específicos",
+        "Reconocimiento efectivo del nivel de dominio y uso estratégico de ayudas",
+        "Capacidad para superar dificultades iniciales y alcanzar comprensión"
+      ],
+      "improvements": [
+        "Fortalecer la confianza para iniciar ejercicios de manera autónoma",
+        "Profundizar en conceptos de densidad y relaciones volumétricas",
+        "Incluir reflexiones adicionales en la sección de comentarios"
+      ],
+      "createdAt": "2025-09-21 21:45:07"
+    }
+  ]
+}

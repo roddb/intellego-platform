@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "studentId": "u_pdb4f4ng5me0b54u2",
+    "studentName": "Tomas Forrester",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.236559",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 52.13,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250804_007",
+      "weekStart": "2025-08-04",
+      "score": 58,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre  con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas"
+      ],
+      "createdAt": "2025-10-06 02:55:03"
+    },
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250811_008",
+      "weekStart": "2025-08-11",
+      "score": 80,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel bueno en la Fase 2 del pensamiento crítico. Has trabajado sobre q1, q2, q4 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Demuestra buen dominio de los temas trabajados durante la semana",
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Logra conectar los conceptos con aplicaciones reales"
+      ],
+      "improvements": [
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas",
+        "Ampliar las reflexiones sobre el proceso de aprendizaje",
+        "Continuar desarrollando el pensamiento crítico en las respuestas"
+      ],
+      "createdAt": "2025-10-06 02:55:03"
+    },
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250818_009",
+      "weekStart": "2025-08-18",
+      "score": 66,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 3 del pensamiento crítico. Has trabajado sobre q2 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones"
+      ],
+      "createdAt": "2025-10-06 02:55:24"
+    },
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250825_010",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel bueno en la Fase 1 del pensamiento crítico. Has trabajado sobre q1, q2 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Demuestra buen dominio de los temas trabajados durante la semana",
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Muestra compromiso al completar el reporte semanal"
+      ],
+      "improvements": [
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones",
+        "Ampliar las reflexiones sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-06 02:55:24"
+    },
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250901_011",
+      "weekStart": "2025-09-01",
+      "score": 66,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre q2 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones"
+      ],
+      "createdAt": "2025-10-06 02:55:24"
+    },
+    {
+      "feedbackId": "fb_002_3_pdb4f4ng5me0b54u2_20250908_012",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel bueno en la Fase 1 del pensamiento crítico. Has trabajado sobre q2, q3 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Identifica dificultades y propone estrategias para superarlas",
+        "Muestra compromiso al completar el reporte semanal"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones",
+        "Ampliar las reflexiones sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-06 02:55:24"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b54u2_2025-09-22_001",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querido Tomas,\n\nDebido a tu ausencia justificada por viaje durante la semana del 22 al 29 de septiembre, no fue posible evaluar tu progreso académico en Química. Entiendo que circunstancias fuera de tu control impidieron la participación en clase y el seguimiento del contenido correspondiente a gases ideales.\n\nEs fundamental que coordines conmigo a la brevedad para recuperar el material de esta semana. Te proporcionaré los recursos necesarios y un plan estructurado para que puedas ponerte al día sin que esto afecte significativamente tu proceso de aprendizaje en Fase 1.\n\nRecuerda que la continuidad en el estudio es clave para el dominio de los conceptos fundamentales. Estoy disponible para apoyarte en tu reintegración académica.",
+      "strengths": [
+        "Reconoces la importancia de justificar las ausencias, demostrando conciencia sobre la responsabilidad académica",
+        "Tu comunicación fue clara y directa sobre tu situación, permitiendo entender el contexto de la semana",
+        "Mantienes disposición para continuar en las próximas semanas una vez retomes las clases"
+      ],
+      "improvements": [
+        "Es urgente recuperar el material de esta semana para mantener el ritmo de aprendizaje en Fase 1",
+        "Completa las actividades pendientes una vez regreses del viaje para no acumular retrasos",
+        "Participa activamente en la próxima semana para retomar el flujo de aprendizaje en gases ideales"
+      ],
+      "createdAt": "2025-10-17T14:35:03.242890"
+    },
+    {
+      "feedbackId": "fb_002_1_5me0b54u2_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querido Tomas,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Entiendo que esta semana no tuviste clase debido a la práctica para la prueba de química.\n\nTan pronto como sea posible, es fundamental establecer comprensión sólida de cómo identificar problemas centrales y distinguir información relevante. Te recomiendo proporcionar evidencias concretas y específicas de tu proceso de aprendizaje cuando retomes las actividades regulares.\n\nEstoy aquí para acompañarte en este proceso. Coordina conmigo para recuperar el material y recibir el apoyo necesario para avanzar en Química.",
+      "strengths": [
+        "Reconoces la importancia de la preparación para evaluaciones formales en Química.",
+        "Comunicaste claramente tu situación de ausencia durante esta semana.",
+        "Participaste en actividades de estudio colaborativo (práctica para prueba)."
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar problemas centrales y sus objetivos en Química cuando retomes actividades regulares.",
+        "Cuando regreses a clases, documenta evidencias concretas de tu aprendizaje y procesos de pensamiento en los reportes semanales.",
+        "Proporciona reflexión específica sobre las dificultades identificadas y estrategias que utilizas para superarlas en cada problema."
+      ],
+      "createdAt": "2025-10-17T16:32:46.935859"
+    },
+    {
+      "feedbackId": "87fe43bd-b13c-46ac-bca7-d8f32b8e2120",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:27:28.658Z"
+    },
+    {
+      "feedbackId": "3c0c16b2-ee8f-4ade-850f-16174bd657bd",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:43:43.640Z"
+    },
+    {
+      "feedbackId": "33a8e80d-2407-413f-9ce2-a744e5accc4e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:50:47.300Z"
+    },
+    {
+      "feedbackId": "0006b86f-e8e2-49ac-8f97-99e5b4af8a35",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:36:10.946Z"
+    },
+    {
+      "feedbackId": "b59dca59-1ca6-4068-ab5c-9c939a52e126",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Valoro tu honestidad al reconocer que estás en Nivel 2 con los tipos de enlaces. Eso demuestra autoconciencia, que es fundamental en pensamiento crítico. Sin embargo, tu reporte es muy breve y falta documentación del trabajo realizado. Veo que no has resuelto ejercicios en clase, pero eso significa que necesitas trabajar de forma más independiente en casa.\n\nEsta semana tu desempeño muestra que comprendes el tema superficialmente, pero no lo has profundizado ni sistematizado. La falta de respuesta en Q5 y la ausencia de estrategias claras sugieren que necesitas un plan más estructurado.\n\nPara la próxima semana, te pido que: (1) resuelvas al menos 5 ejercicios sobre tipos de enlaces documentando qué variables identificas en cada uno, (2) crees la tabla comparativa que mencioné, y (3) escribas reflexiones en cada pregunta del reporte, incluso si son breves. Esto transformará tu aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente tu nivel de dominio (\"Nivel 2\") y admites la dificultad en aplicación. Esta sinceridad es el primer paso para mejorar.\n• Identificación de la dificultad principal: Señalas específicamente que \"me cuesta diferenciar los tipos de enlaces\", lo que muestra que al menos reconoces dónde está el problema.",
+      "improvements": "• Falta de evidencia documentada de aprendizaje (Q2): No mencionas ejercicios resueltos ni listas de variables. Solución: Crea un registro semanal donde escribas qué variables identificaste en cada problema (ej: \"En enlace iónico: carga del catión, carga del anión, electronegatividad\"). Esto te ayudará a sistematizar.\n• Ausencia de estrategias concretas (Q3): Dices que te cuesta diferenciar enlaces, pero no propones cómo superarlo. Acción: Diseña una tabla comparativa con columnas para cada tipo de enlace (iónico, covalente, metálico) y filas para: \"Átomos que participan\", \"Transferencia/compartición de electrones\", \"Ejemplos\". Úsala como herramienta de estudio.\n• No conectas con conocimientos previos (Q4): Afirmas que es \"un tema nuevo\" sin relación anterior. Realidad: Los enlaces dependen de la estructura atómica (Fase 1). Tarea: Escribe 3 ejemplos de cómo la configuración electrónica de un átomo determina el tipo de enlace que forma. Esto integrará ambas fases.",
+      "createdAt": "2025-10-27T05:00:12.335Z"
+    },
+    {
+      "feedbackId": "333686be-5c3b-46cf-8ca2-a4913689898e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue complicada por la ausencia del profesor, lo que hizo imposible avanzar en los contenidos de Fase 2. Sin embargo, esto representa una oportunidad para que tomes iniciativa en tu aprendizaje.\n\nTu reporte no refleja trabajo realizado, pero esto no es culpa tuya. Lo importante ahora es que cuando regreses a clases, estés listo para recuperar el tiempo perdido y comprometerte con los temas de identificación de variables y clasificación de magnitudes.\n\nPara la próxima semana, te recomiendo que: (1) revises por tu cuenta los conceptos de Fase 1 que ya dominabas, (2) consultes con el profesor qué temas se cubrirán en Fase 2, y (3) prepares ejemplos propios de variables en experimentos químicos que conozcas. Esto te ayudará a llegar mejor preparado.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de clase ha impedido que puedas generar contenido evaluable en ninguna de las cinco preguntas. Sin embargo, reconozco que la situación está fuera de tu control.",
+      "improvements": "• Comunicación proactiva: Aunque no hubo clase, podrías haber aprovechado para estudiar por tu cuenta los temas de Fase 2 (identificación de variables, clasificación de magnitudes). Consulta el material de la plataforma Intellego o tus apuntes anteriores para avanzar de forma independiente.\n• Recuperación de contenido: Una vez regreses a clases, solicita al profesor un resumen de lo que se trabajó en Fase 2 o pide que te asigne ejercicios de recuperación. Esto te permitirá ponerte al día y completar adecuadamente el siguiente reporte.\n• Aprovechamiento del tiempo: Para la próxima semana, aunque haya ausencias, intenta responder las preguntas con lo que ya sabes de Fase 1 o con ejemplos propios. Esto demuestra esfuerzo y permite que el profesor vea tu progreso, aunque sea parcial.",
+      "createdAt": "2025-11-03T12:21:45.121Z"
+    },
+    {
+      "feedbackId": "2070af4d-8618-427e-b96e-7691118853b1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando en los ejercicios y que entiendes el procedimiento básico para clasificar enlaces, como demuestras en el ejercicio Na-Cl. Eso es un buen punto de partida. Sin embargo, tu reporte es demasiado superficial para evaluar realmente tu comprensión de las variables y su clasificación, que es el objetivo central de esta Fase 2.\n\nEsta semana necesitas profundizar en tus respuestas. No se trata solo de resolver ejercicios, sino de reflexionar sobre *qué variables* estás usando, *cómo las clasificas* y *por qué* son importantes. Por ejemplo, en fuerzas intermoleculares, ¿cuáles son las variables que determinan qué tipo de fuerza aparece? ¿Cómo las controlas o no en un experimento?\n\nPara la próxima semana, te pido que completes todas las preguntas del reporte, que seas específico en tus ejemplos y que propongas estrategias reales para mejorar. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Aplicación correcta del procedimiento en Q2: Demuestras que sabes cómo calcular la diferencia de electronegatividad y clasificar enlaces. Tu estructura \"Variables → Cálculo → Clasificación → Justificación\" es metodológicamente correcta.\n• Identificación honesta de dificultades: Reconoces específicamente que las fuerzas intermoleculares te cuestan, lo que muestra autoconciencia. Esto es el primer paso para mejorar.\n• Intento de conexión entre temas: Buscas relaciones entre la estructura de la materia y los enlaces actuales, lo que indica que intentas integrar conocimientos previos.",
+      "improvements": "• Amplía tus respuestas en Q1 y Q3: Necesitas ser más específico. En lugar de \"me cuesta resolver ejercicios\", describe exactamente qué variables no identificas (¿son las fuerzas intermoleculares variables controlables o no controlables? ¿Cómo las clasificarías?). Esto te ayudará a estructurar mejor tu pensamiento.\n• Propón estrategias concretas para superar dificultades: Cuando identifiques un problema (como las fuerzas intermoleculares), añade una solución: \"Para mejorar, voy a hacer una tabla clasificando cada fuerza con ejemplos de moléculas\" o \"Practicaré 5 ejercicios más esta semana\". Las estrategias deben ser accionables.\n• Revisa la precisión de tus datos: En Q2 escribiste \"Cl:2,1\" cuando la electronegatividad del cloro es 3,0. Verifica siempre tus valores antes de calcular. Un error en los datos invalida todo el análisis posterior, aunque el procedimiento sea correcto.",
+      "createdAt": "2025-11-17T13:53:06.839Z"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "studentId": "u_l0o1myrbrme0b2mhd",
+    "studentName": "lola perri",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245050",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 55.2,
+      "minScore": 27,
+      "maxScore": 81,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4B_lperri_20251005_1",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querida lola perri,\n\nNo se observan evidencias suficientes para evaluar tu desempeño en esta semana, lo que limita la retroalimentación en Química. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Mejora la organización de tu trabajo y presentación de ideas. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [],
+      "improvements": [
+        "Es fundamental registrar las actividades realizadas, incluso si fueron mínimas.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.",
+        "Mejora la organización de tu trabajo y presentación de ideas en los reportes."
+      ],
+      "createdAt": "2025-10-05T19:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_4B_lperri_20251005_2",
+      "weekStart": "2025-08-18",
+      "score": 67,
+      "generalComments": "Querida lola perri,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en gases ideales y la resolución del ejercicio de neumáticos. Organizas adecuadamente los datos y la información disponible.\n\nTe recomiendo identificar con mayor precisión las dificultades que enfrentas en el proceso. Desarrolla estrategias más específicas para superar tus desafíos. Es importante profundizar más en las conexiones con aplicaciones cotidianas para alcanzar comprensión completa.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en gases ideales (presión, energía cinética).",
+        "Organizas adecuadamente los datos del ejercicio de neumáticos.",
+        "Reconoces las magnitudes físico-químicas relevantes en el contexto del problema."
+      ],
+      "improvements": [
+        "Identifica con mayor precisión las dificultades específicas que enfrentas con los conceptos.",
+        "Desarrolla estrategias más concretas para superar tus desafíos en química.",
+        "Profundiza en las conexiones entre gases ideales y situaciones cotidianas específicas."
+      ],
+      "createdAt": "2025-10-05T19:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_lola_perri_2025_09_15",
+      "weekStart": "2025-09-15",
+      "score": 81,
+      "generalComments": "Excelente aplicación de la metodología de 4 fases en la resolución de problemas de gases ideales. Tu proceso de pensamiento es claro y sistemático.",
+      "strengths": [
+        "Aplicación ejemplar de las 4 fases",
+        "Identificación precisa del objetivo y problemática",
+        "Selección apropiada de fórmulas con justificación"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para ejercicios con enfoques diferentes",
+        "Ampliar el análisis de razonabilidad de resultados",
+        "Profundizar en aplicaciones prácticas"
+      ],
+      "createdAt": "2025-09-21T15:52:00Z"
+    },
+    {
+      "feedbackId": "87da9dcd-4ee0-4329-9f77-a434f595b285",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Valoro tu honestidad al reconocer que esta semana fue principalmente teórica sin ejercicios prácticos. Eso es importante porque te permite identificar qué falta. Sin embargo, tu reporte no responde realmente a lo que pide la Fase 2: identificar y clasificar variables en los temas que trabajas.\n\nTu desempeño esta semana es inicial porque no hay evidencia de que hayas aplicado el método de pensamiento crítico (identificar variables, distinguir magnitudes, clasificar). Entender la teoría de enlaces es un buen primer paso, pero necesitas ir más allá: debes ver los enlaces como un sistema de variables que interactúan.\n\nPara la próxima semana, te pido que: (1) Busques o pidas ejercicios sobre enlaces, (2) En cada ejercicio, identifiques todas las variables presentes, (3) Clasifiques cada variable como conocida/desconocida y controlable/no controlable. Esto te permitirá demostrar realmente que dominas la Fase 2.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que solo viste teoría sin ejercicios prácticos, lo que muestra consciencia de que falta aplicación. Esto es importante para identificar qué necesitas trabajar.\n• Conexión inicial con conocimientos previos: Mencionas que puedes vincular los enlaces con \"iones y estructuras\" del inicio de año, mostrando que intentas integrar lo nuevo con lo aprendido antes.\n• Actitud positiva: Tu tono es relajado y amigable, lo que sugiere que no te sientes abrumado por el tema. Esto es una base sólida para avanzar.",
+      "improvements": "• Falta de identificación de variables: No mencionas qué variables están presentes en el tema de enlaces (tipo de enlace, energía de enlace, electronegatividad, polaridad). En Fase 2 debes listar y clasificar estas variables como conocidas/desconocidas y controlables/no controlables. Propuesta: Toma un problema sobre enlaces y escribe una lista de todas las variables que intervienen.\n• Ausencia de ejercicios prácticos: Dices que solo vieron teoría. Esto es un problema porque sin ejercicios no puedes practicar la identificación de variables. Propuesta: Pide a tu profesor ejercicios sobre enlaces o busca problemas en el libro de texto donde debas identificar qué variables cambian (temperatura, tipo de átomo, etc.).\n• Reflexión superficial sobre dificultades: Afirmas que \"no tuviste complicaciones\", pero esto no es realista en Fase 2. Todos tenemos dificultades al aprender a clasificar variables. Propuesta: Reflexiona honestamente: ¿Qué tipo de variable te cuesta más identificar? ¿Confundes controlables con no controlables? Escribe esto en tu próximo reporte.",
+      "createdAt": "2025-10-27T05:05:03.193Z"
+    },
+    {
+      "feedbackId": "42a5d983-928c-4aee-a222-3ccc67b58d82",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Veo que esta semana trabajaste bien en conceptos de enlace químico y que tu respuesta sobre el N₂ demuestra comprensión real de cómo los electrones determinan la estructura molecular. Además, tus conexiones con matemática y aplicaciones ambientales muestran que estás pensando en cómo la química explica el mundo real, lo cual es excelente.\n\nSin embargo, tu reporte está incompleto en reflexión. Las preguntas 3 y 5 son oportunidades para que demuestres metacognición (pensar sobre tu propio aprendizaje), y responder \"nada específico\" o \"no, gracias\" no te permite avanzar en pensamiento crítico. Recuerda que esta fase no solo trata de aprender contenido, sino de aprender a *pensar* sobre lo que aprendes.\n\nPara la próxima semana, te pido que: (1) clasifiques explícitamente variables en cada tema, (2) reflexiones sobre al menos una dificultad real que hayas tenido, y (3) escribas 2-3 líneas en comentarios adicionales. Esto transformará tu reporte de \"bueno\" a \"excelente\".",
+      "strengths": "• Comprensión conceptual sólida en enlace químico: Tu análisis del N₂ muestra que entiendes bien cómo los electrones de valencia determinan el tipo de enlace. La deducción del enlace triple (N≡N) a partir de la regla del octeto es precisa y bien razonada.\n• Capacidad de conexión interdisciplinaria: Relacionas la geometría molecular con matemática (ángulos de 109,5°) y con fenómenos ambientales reales (CO₂). Esto demuestra que ves la química más allá de fórmulas aisladas.\n• Disposición a aprender: Reconoces honestamente que necesitas \"ponerlo en práctica\" (Q1), lo que muestra autoconciencia sobre tu proceso de aprendizaje y disposición a mejorar.",
+      "improvements": "• Profundiza en la clasificación de variables: En Q1, cuando menciones \"clasificación de moléculas\", especifica qué variables estás identificando. Por ejemplo: \"Variables conocidas: número de electrones de valencia; Variables desconocidas: tipo de enlace; Variables controlables: número de átomos.\" Esto hará tu análisis más sistemático.\n• Desarrolla reflexión metacognitiva en Q3: No dejes esta pregunta vacía. Aunque no tengas dificultades grandes, reflexiona: \"¿Qué me costó más? ¿Cómo lo resolví?\" Por ejemplo: \"Al principio confundía enlaces simples con dobles, pero ahora cuento electrones de valencia primero.\" Esto acelera tu aprendizaje.\n• Amplía tus comentarios adicionales: En Q5, aprovecha para reflexionar sobre la importancia de lo aprendido. Pregúntate: \"¿Por qué es importante clasificar variables?\" o \"¿Cómo esto me ayuda en química?\" Una reflexión de 2-3 líneas enriquece mucho tu reporte.",
+      "createdAt": "2025-11-17T13:41:55.850Z"
+    }
+  ]
+}

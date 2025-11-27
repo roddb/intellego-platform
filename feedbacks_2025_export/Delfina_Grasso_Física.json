@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "studentId": "u_fcr9p35cgme607v47",
+    "studentName": "Delfina Grasso",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.195125",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 59.0,
+      "minScore": 43,
+      "maxScore": 72,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_e607v47_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 69,
+      "generalComments": "Querida Delfina Grasso,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Identificas correctamente las variables involucradas en problemas de organización de rutinas. Muestras aplicación de F1+F2, identificando primero el problema y luego las variables controlables y no controlables.\n\nEs importante mejorar la organización de los datos y la completitud de tus respuestas. Desarrolla estrategias más específicas para superar tus desafíos, especialmente cuando una pregunta se repite por distintas razones. Trabaja en expresar tus ideas con mayor claridad y precisión en los comentarios adicionales.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en problemas cotidianos como la organización de rutinas",
+        "Reconoces y clasificas adecuadamente las variables controlables y no controlables",
+        "Demuestras comprensión de la continuidad metodológica conectando con el pensamiento crítico trabajado previamente"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada para lograr respuestas más completas",
+        "Propone estrategias concretas cuando encuentres dificultades, como releer la consigna completa o consultar en clase inmediatamente",
+        "Es importante utilizar los comentarios adicionales para reflexionar sobre tu proceso de aprendizaje en lugar de dejarlos en blanco"
+      ],
+      "createdAt": "2025-10-07 15:56:12"
+    },
+    {
+      "feedbackId": "fb_002_1_e607v47_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 59,
+      "generalComments": "Querida Delfina Grasso,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Reconoces la conexión del tiro oblicuo con los movimientos MRU y MRUV trabajados previamente.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, especialmente en el análisis de representaciones gráficas. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas y ecuaciones en cada problema. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en los comentarios adicionales.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Participas activamente en el análisis colaborativo de problemas de tiro oblicuo",
+        "Reconoces variables relevantes como velocidad inicial y posición en problemas de cinemática",
+        "Identificas la relación entre tiro oblicuo y los movimientos rectilíneos estudiados previamente"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu comprensión de representaciones gráficas, especialmente en la interpretación de vectores y sus direcciones",
+        "Es fundamental consolidar tu comprensión de qué ecuaciones usar en cada fase del tiro oblicuo (ascenso, punto máximo, descenso)",
+        "Te recomiendo incorporar diagramas propios en tus respuestas para visualizar mejor las relaciones entre variables"
+      ],
+      "createdAt": "2025-10-07 15:56:12"
+    },
+    {
+      "feedbackId": "fb_002_1_e607v47_2025-08-25_001",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Querida Delfina Grasso,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Demuestras comprensión del proceso completo de resolución, desde identificación del problema hasta la ejecución. Tu capacidad para descomponer la velocidad inicial en componentes (voy) y seleccionar ecuaciones apropiadas muestra progreso significativo.\n\nEs importante seguir consolidando tu criterio para seleccionar ecuaciones, especialmente para el cálculo de tiempo en tiro oblicuo. Continúa utilizando la estrategia de consultar en clase cuando tengas dudas, y complementa esto practicando la justificación escrita de por qué seleccionas cada ecuación.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Demuestras comprensión sólida del proceso metodológico completo: identificación del problema, variables conocidas/desconocidas y selección de ecuaciones",
+        "Tu estrategia de descomponer la velocidad inicial en componentes (voy) para luego calcular el tiempo muestra razonamiento lógico efectivo",
+        "Utilizas apropiadamente la consulta en clase como estrategia para superar dificultades, mostrando autorregulación y búsqueda activa de apoyo"
+      ],
+      "improvements": [
+        "Practica la identificación de ecuaciones apropiadas para el tiempo en tiro oblicuo, creando una guía personal de cuándo usar cada fórmula",
+        "Es importante mejorar la justificación escrita de por qué seleccionas determinadas herramientas en cada paso del proceso",
+        "Desarrolla el hábito de usar los comentarios adicionales para reflexionar sobre tu progreso y dudas que persisten"
+      ],
+      "createdAt": "2025-10-07 15:56:12"
+    },
+    {
+      "feedbackId": "14cf052d-f31f-4a09-9218-0430edf70781",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Valoro tu honestidad al reconocer que te cuesta trabajo identificar fuerzas y recordar fórmulas. Eso demuestra que estás siendo realista contigo mismo, y eso es importante para mejorar. Esta semana hiciste un esfuerzo por aplicar lo aprendido con el ejemplo del rebote y el DCL, lo que muestra que sí estás intentando conectar teoría con práctica.\n\nSin embargo, tu reporte está incompleto. Necesitas ser más específico: en lugar de decir \"me cuesta\", describe exactamente qué variables confundes o qué pasos del proceso no entiendes. Además, la pregunta 5 quedó sin responder, y eso es una oportunidad perdida para reflexionar sobre tu progreso.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema, (2) propongas estrategias concretas para superar tus dificultades, y (3) completes todas las preguntas con reflexión genuina. Estoy seguro de que con más detalle en tus respuestas, veremos un progreso real.",
+      "strengths": "• Reconocimiento honesto de dificultades: Admites claramente que te cuesta reconocer fuerzas y recordar fórmulas. Esta autoconciencia es el primer paso para mejorar y muestra madurez en tu autoevaluación.\n• Aplicación práctica con representación visual: En el ejemplo del rebote, no solo explicas la tercera ley, sino que además dibujas el DCL. Esto demuestra que intentas integrar conceptos teóricos con herramientas gráficas útiles.\n• Conexión con contenido previo: Relacionas correctamente las Leyes de Newton con vectores trabajados a principio de año, mostrando que sí intentas conectar temas y no los ves como aislados.",
+      "improvements": "• Identificación sistemática de variables: En lugar de solo decir \"me cuesta reconocer fuerzas\", necesitas listar explícitamente qué variables tiene cada problema (ej: en el rebote: velocidad inicial, altura, masa, coeficiente de restitución). Crea una tabla con columnas: \"Variable | Conocida/Desconocida | Controlable/No controlable\" para cada ejercicio.\n• Estrategias concretas para la Segunda Ley: No basta identificar la dificultad. Propón acciones: \"Para saber qué fuerzas usar, primero haré un DCL, luego identificaré si hay fricción, tensión o peso\". Practica 3-4 ejercicios donde clasifiques fuerzas antes de resolver.\n• Completar reflexiones finales: La pregunta 5 requiere pensamiento profundo. Escribe al menos 3-4 líneas reflexionando sobre: ¿Por qué es importante clasificar variables? ¿Cómo ha mejorado tu comprensión desde la Fase 1? ¿Qué necesitas para la próxima fase?",
+      "createdAt": "2025-10-27T04:52:18.011Z"
+    },
+    {
+      "feedbackId": "e5dd707f-0aff-4d7b-b29d-2bf88a5b78ad",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que estás trabajando en el proyecto y que tienes conciencia de dónde necesitas mejorar, lo cual es positivo. Sin embargo, tu reporte es muy superficial: las respuestas son cortas y no muestran el pensamiento profundo que esperamos en esta fase. Necesitas ir más allá de respuestas genéricas.\n\nEsta semana tu desempeño muestra que entiendes los conceptos básicos, pero aún no los dominas lo suficiente para aplicarlos con seguridad. El hecho de que necesites ayuda de tus notas es normal, pero debes trabajar en identificar variables de forma más sistemática y consciente.\n\nPara la próxima semana, te pido que: (1) escribas respuestas más detalladas en tu reporte, (2) identifiques 3 dificultades específicas con variables en tus ejercicios, y (3) proposes una estrategia concreta para cada una. Esto te ayudará a avanzar hacia la Fase 3 con más solidez.",
+      "strengths": "• Honestidad sobre tu nivel: Reconoces que necesitas ayuda de tus notas y que te cuesta aplicar conceptos. Esta autocrítica es el primer paso para mejorar.\n• Identificación de conexiones temáticas: Mencionas relaciones válidas entre Leyes de Newton, vectores y cinemática (MRU/MRUV), mostrando que ves cómo se conectan los temas.\n• Participación en actividades: Completaste la ficha de trabajo del proyecto, lo que indica que estás siguiendo las actividades propuestas en clase.",
+      "improvements": "• Especificidad en dificultades: En lugar de decir \"me cuesta aplicarlo\", identifica exactamente qué: ¿Confundes fuerzas con aceleraciones? ¿No sabes clasificar variables como controlables? Escribe 2-3 dificultades concretas para que podamos trabajarlas juntos.\n• Profundidad en evidencia de aprendizaje: Describe qué variables identificaste en tu proyecto y cómo las clasificaste. Por ejemplo: \"Identifiqué que la masa es conocida y controlable, mientras que la aceleración es desconocida pero calculable\". Esto muestra que realmente aplicaste la Fase 2.\n• Reflexión metacognitiva: Dedica tiempo real a responder Q3 y Q5. Pregúntate: ¿Qué estrategia podría usar para diferenciar mejor entre variables? ¿Cómo he mejorado desde la Fase 1? Estas reflexiones son clave para tu pensamiento crítico.",
+      "createdAt": "2025-11-12T22:56:38.500Z"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "studentId": "u_0ppntptacme4bap6o",
+    "studentName": "Franco Nuñez",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.201227",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 56.88,
+      "minScore": 27,
+      "maxScore": 79,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "160f8d1b-03fb-4389-baf8-a539b05d1759",
+      "weekStart": "2025-08-04",
+      "score": 74,
+      "generalComments": "Querido Franco Nuñez,\n\nHas alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Demuestras buena comprensión del contexto del problema planteado. Presentas evidencias adecuadas del Paso 1 con ejemplos concretos del ejercicio sobre equilibrio químico.\n\nDebes trabajar en conectar la identificación de problemas con situaciones de otras materias para fortalecer tu visión integradora. Busca aplicaciones prácticas de equilibrio químico en situaciones cotidianas.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Demuestras buena comprensión del contexto del problema planteado",
+        "Presentas evidencias adecuadas del Paso 1 con ejemplos concretos del ejercicio sobre equilibrio químico",
+        "Muestras interés genuino por la metodología de estudio integrada (teoría + práctica + IA)"
+      ],
+      "improvements": [
+        "Debes trabajar en conectar la identificación de problemas con situaciones de otras materias para fortalecer tu visión integradora",
+        "Busca aplicaciones prácticas de equilibrio químico en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-04 23:45:04"
+    },
+    {
+      "feedbackId": "2d1065bd-28e4-487a-8cce-ba1f0f3d0c2c",
+      "weekStart": "2025-08-11",
+      "score": 79,
+      "generalComments": "Querido Franco Nuñez,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en equilibrio químico y buffers. Realizas conexiones interesantes entre la clasificación de variables en equilibrio químico y electrodinámica.\n\nEs importante mejorar la organización y clasificación de los datos usando la matriz de forma más fluida. Desarrolla estrategias más específicas para superar tus desafíos con la matriz de clasificación.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en equilibrio químico y buffers",
+        "Realizas conexiones interesantes entre la clasificación de variables en equilibrio químico y electrodinámica",
+        "Identificas dificultades específicas con la matriz y reconoces progreso con la práctica"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación de los datos usando la matriz de forma más fluida",
+        "Desarrolla estrategias más específicas para superar tus desafíos con la matriz de clasificación"
+      ],
+      "createdAt": "2025-10-04 23:46:18"
+    },
+    {
+      "feedbackId": "cc26d83e-f72b-4dd2-9586-1adb3d2fadbf",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Querido Franco Nuñez,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Comprendes las ecuaciones fundamentales de la constante de equilibrio Kc. Haces conexiones básicas entre Kc en equilibrio químico y el rol de la resistencia en circuitos eléctricos.\n\nNecesitas fortalecer tu criterio para usar herramientas de estudio autónomo como la IA de manera más efectiva. Desarrolla estrategias más específicas para abordar los cálculos de equilibrio químico con mayor confianza.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de la constante de equilibrio Kc",
+        "Haces conexiones básicas entre Kc en equilibrio químico y el rol de la resistencia en circuitos eléctricos",
+        "Sigues un proceso sistemático para aplicar la ley de acción de masas"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para usar herramientas de estudio autónomo como la IA de manera más efectiva",
+        "Desarrolla estrategias más específicas para abordar los cálculos de equilibrio químico con mayor confianza"
+      ],
+      "createdAt": "2025-10-04 23:47:37"
+    },
+    {
+      "feedbackId": "fb_backfill_me4bap6o_2025-08-25_408eb4e5",
+      "weekStart": "2025-08-25",
+      "score": 78,
+      "generalComments": "Franco, tu reporte de la Fase 3 demuestra una selección acertada de herramientas conceptuales para analizar la solubilidad de gases. Identificaste correctamente la Ley de Henry como el modelo principal y estableciste relaciones claras entre presión, temperatura y solubilidad. Tu explicación molecular del fenómeno es sólida. Para elevar tu trabajo al siguiente nivel, considera: (1) aplicar la Ley de Henry a un caso concreto con cálculos numéricos, (2) integrar gráficas que visualicen las relaciones, (3) explorar limitaciones del modelo en condiciones extremas.",
+      "strengths": [
+        "Selección apropiada de la Ley de Henry como herramienta principal",
+        "Establecimiento claro de relaciones presión-solubilidad y temperatura-solubilidad",
+        "Explicación fundamentada del mecanismo molecular",
+        "Conexión con aplicaciones prácticas (bebidas carbonatadas, buceo)",
+        "Reconocimiento de múltiples variables interactuantes"
+      ],
+      "improvements": [
+        "Aplicar la Ley de Henry con cálculos específicos (ej: solubilidad de CO₂ a diferentes presiones)",
+        "Incorporar representaciones gráficas de las relaciones identificadas",
+        "Discutir límites de validez de la Ley de Henry (rango de presiones, idealidad)",
+        "Integrar ecuaciones cuantitativas que relacionen todas las variables"
+      ],
+      "createdAt": "2025-10-03T14:40:02Z"
+    },
+    {
+      "feedbackId": "881b46da-edc4-4b09-afad-b6f17cddbbbb",
+      "weekStart": "2025-09-08",
+      "score": 62,
+      "generalComments": "Querido Franco Nuñez,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas los pasos de resolución de manera ordenada usando el cuadro ICE (Inicial-Cambio-Equilibrio) y calculas correctamente la constante Kc.\n\nEs importante mejorar la evaluación de razonabilidad de resultados conectando las soluciones con aplicaciones reales. Te recomiendo incorporar la reflexión sobre las preguntas de fases como parte integral de tu proceso, no solo centrarte en cálculos. Proporciona evidencias más concretas sobre el análisis profundo de los resultados obtenidos.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada usando el cuadro ICE (Inicial-Cambio-Equilibrio)",
+        "Calculas correctamente la constante Kc aplicando la división de productos sobre reactivos",
+        "Reconoces con honestidad que te centraste en cálculos más que en análisis conceptual"
+      ],
+      "improvements": [
+        "Es importante mejorar la evaluación de razonabilidad de resultados conectando las soluciones con aplicaciones reales",
+        "Te recomiendo incorporar la reflexión sobre las preguntas de fases como parte integral de tu proceso, no solo centrarte en cálculos",
+        "Proporciona evidencias más concretas sobre el análisis profundo de los resultados obtenidos"
+      ],
+      "createdAt": "2025-10-04 23:50:18"
+    },
+    {
+      "feedbackId": "b9bd1b11-af8c-4023-9ccf-43beafaab845",
+      "weekStart": "2025-09-15",
+      "score": 73,
+      "generalComments": "Querido Franco Nuñez,\n\nTu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de la metodología completa de equilibrio químico, mostrando capacidad para resolver problemas sistemáticamente. Ejecutas cálculos sistemáticamente usando tabla ICE, hallar X, y calcular Kc y Qc correctamente. Muestras problemas completamente resueltos integrando las respuestas a las preguntas de fases.\n\nDebes trabajar en conectar soluciones con aplicaciones reales para evaluar la razonabilidad de tus resultados. Propone extensiones o aplicaciones creativas de equilibrio químico en contextos cotidianos.\n\n¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Ejecutas cálculos sistemáticamente usando tabla ICE, hallar X, y calcular Kc y Qc correctamente",
+        "Muestras problemas completamente resueltos integrando las respuestas a las preguntas de fases",
+        "Dominas el proceso de resolución sin dificultades metodológicas identificadas"
+      ],
+      "improvements": [
+        "Debes trabajar en conectar soluciones con aplicaciones reales para evaluar la razonabilidad de tus resultados",
+        "Propone extensiones o aplicaciones creativas de equilibrio químico en contextos cotidianos"
+      ],
+      "createdAt": "2025-10-04 23:51:34"
+    },
+    {
+      "feedbackId": "b0d5ae3b-9006-4c1e-9a38-5b50dd1dc6f9",
+      "weekStart": "2025-09-22",
+      "score": 73,
+      "generalComments": "Querido Franco Nuñez,\n\nTu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de equilibrio químico, mostrando capacidad para aplicar, resolver y entender problemas completos. Ejecutas cálculos sistemáticamente convirtiendo moles a concentraciones molares y aplicando correctamente la fórmula de Kc. Integras exitosamente los conocimientos de las 4 fases en la resolución de modelos de examen.\n\nDebes trabajar en conectar las soluciones con aplicaciones de equilibrio químico en contextos reales o interdisciplinarios. Propone reflexiones sobre tu proceso de aprendizaje y evolución a lo largo de las 4 fases.\n\n¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Ejecutas cálculos sistemáticamente convirtiendo moles a concentraciones molares y aplicando correctamente la fórmula de Kc",
+        "Integras exitosamente los conocimientos de las 4 fases en la resolución de modelos de examen",
+        "Logras dominar la mayoría de cálculos y casos presentados sin dificultades"
+      ],
+      "improvements": [
+        "Debes trabajar en conectar las soluciones con aplicaciones de equilibrio químico en contextos reales o interdisciplinarios",
+        "Propone reflexiones sobre tu proceso de aprendizaje y evolución a lo largo de las 4 fases"
+      ],
+      "createdAt": "2025-10-04 23:52:54"
+    },
+    {
+      "feedbackId": "9d740b72-af0d-423e-98ed-d25cba0f96ed",
+      "weekStart": "2025-09-29",
+      "score": 48,
+      "generalComments": "Querido Franco Nuñez,\n\nDebido a la suspensión de la evaluación por ausencia del profesor, no fue posible evaluar completamente tu progreso en Química durante esta semana. Mencionas haber resuelto la gran mayoría de problemas de la guía de modelos de examen, lo cual demuestra preparación.\n\nEs importante proporcionar evidencias más concretas y específicas de tu proceso de preparación, detallando qué ejercicios resolviste y cómo aplicaste la metodología. Te recomiendo reflexionar sobre tu proceso de estudio incluso cuando no hay evaluación formal. Desarrolla el hábito de comentar tu evolución y aprendizajes semanales independientemente de las circunstancias.\n\nEstoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Mencionas haber resuelto la gran mayoría de problemas de la guía de examen",
+        "Demuestras intención de prepararte adecuadamente para la evaluación",
+        "Reconoces el contexto de suspensión de la evaluación"
+      ],
+      "improvements": [
+        "Es importante proporcionar evidencias más concretas y específicas de tu proceso de preparación, detallando qué ejercicios resolviste y cómo aplicaste la metodología",
+        "Te recomiendo reflexionar sobre tu proceso de estudio incluso cuando no hay evaluación formal",
+        "Desarrolla el hábito de comentar tu evolución y aprendizajes semanales independientemente de las circunstancias"
+      ],
+      "createdAt": "2025-10-04 23:54:10"
+    },
+    {
+      "feedbackId": "fc5b5190-2fbc-41da-8032-3de615d6cb1e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que a veces es difícil saber qué escribir en estos reportes, pero este está incompleto. Sin tus respuestas desarrolladas, no puedo ayudarte a mejorar ni reconocer tu progreso en la identificación de variables.\n\nTe animo a que completes el reporte con detalle. Tómate tiempo para reflexionar sobre lo que aprendiste esta semana en Fase 2 y escribe ejemplos concretos de variables que identificaste en los problemas que trabajaste.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Para poder reconocer lo que haces bien, necesito que completes cada pregunta con información concreta sobre tu proceso de aprendizaje.",
+      "improvements": "1. Completar todas las respuestas con contenido específico.\nTu reporte está vacío. Necesitas escribir en cada pregunta qué temas trabajaste, qué variables identificaste, qué dificultades tuviste y cómo las resolviste. Sin esta información, no puedo evaluar tu pensamiento crítico.\n\n2. Desarrollar respuestas con ejemplos concretos.\nEn lugar de frases genéricas, describe casos reales: \"Identifiqué que en la reacción de combustión, la temperatura es una variable controlable y el tiempo de reacción es una variable dependiente\". Esto demuestra que realmente comprendiste.\n\n3. Reflexionar sobre tu propio aprendizaje.\nDedica tiempo a pensar: ¿Qué me costó entender? ¿Cómo lo resolví? ¿Qué estrategia me funcionó? Esta metacognición es esencial para la Fase 2.",
+      "createdAt": "2025-10-21T04:51:38.386Z"
+    },
+    {
+      "feedbackId": "80bca7cd-722f-46e4-8e26-a408e9035f12",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Tu reporte no está completo. Veo que escribiste frases genéricas (\"Se realizó la evaluación en la semana\") pero no desarrollaste las respuestas que el sistema requiere para evaluar tu pensamiento crítico en la Fase 2.\n\nTe animo a que dediques tiempo a completar este reporte con respuestas reales. Necesitamos ver qué variables identificaste, qué dificultades tuviste, cómo las superaste y cómo conectas esto con problemas reales de Química. Esto es fundamental para tu aprendizaje.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Para poder reconocer lo que haces bien, necesitamos que completes las respuestas con contenido concreto.",
+      "improvements": "1. Completar todas las respuestas con contenido específico:\nTu reporte está prácticamente vacío. Necesitas escribir respuestas detalladas en cada pregunta. Por ejemplo, en Q1 deberías listar variables reales de un experimento: \"temperatura (controlable), presión (no controlable), concentración (conocida)\".\n\n2. Desarrollar reflexión sobre tu aprendizaje:\nLas preguntas buscan que reflexiones sobre tu proceso. En Q3, por ejemplo, podrías escribir: \"Me costó diferenciar variables controlables de no controlables. Ahora uso una tabla con dos columnas para clasificarlas claramente\".\n\n3. Conectar teoría con ejemplos prácticos:\nEn Q4 debes mostrar cómo aplicas lo aprendido. Escribe algo como: \"Identifiqué que en la reacción de combustión, la temperatura es variable no controlable pero medible, lo que me ayuda a predecir resultados\".",
+      "createdAt": "2025-10-21T05:18:43.521Z"
+    },
+    {
+      "feedbackId": "7ff89d21-b09e-4f7e-83de-29c82ea6902b",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:04.843Z"
+    },
+    {
+      "feedbackId": "a2c9892c-4539-47e6-bd50-0c1328771fec",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:19:01.256Z"
+    },
+    {
+      "feedbackId": "e0652879-596e-4ebf-831e-edabb654771a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Valoro tu honestidad al reconocer que el tema te parece accesible y que trabajaste bien en equipo durante la ausencia del profesor. Eso muestra responsabilidad y capacidad de adaptación. Sin embargo, tu reporte esta semana es muy general y no proporciona la evidencia específica que necesito para evaluar si realmente dominas la identificación y clasificación de variables, que es el objetivo central de la Fase 2.\n\nTu desempeño muestra que *entiendes* el contenido de Ácidos y Bases, pero aún no demuestras que puedas *analizar sistemáticamente* las variables involucradas. Esto es un paso crucial antes de avanzar a la Fase 3 (análisis de relaciones y patrones).\n\nPara la próxima semana, te pido que seas mucho más específico: trae ejemplos concretos de variables que identificaste, muestra cómo las clasificaste, y explica qué estrategias usaste para diferenciarlas. Esto transformará tu aprendizaje de \"entiendo\" a \"puedo aplicar\".",
+      "strengths": "• Reconocimiento de facilidad inicial: Identificas que el tema \"no parece ser tan complicado\" y que \"la comprensión es fácil\", lo que muestra autoconciencia sobre tu nivel de partida en Ácidos y Bases.\n• Trabajo colaborativo efectivo: Mencionas que \"pudimos hacer muy bien con mi grupo\" y que \"las explicaciones estaban lo suficientemente clara\", demostrando que trabajaste en equipo y aprovechaste los recursos disponibles durante la ausencia del profesor.\n• Disposición a completar tareas: A pesar de las dificultades con ejercicios intermedios, señalas que \"pudimos realizar nuestro trabajo bien completo\", mostrando compromiso con las actividades asignadas.",
+      "improvements": "• Identificación específica de variables: Necesitas ir más allá de decir \"entiendo el tema\". En tu próximo reporte, lista explícitamente las variables que trabajaste en Ácidos y Bases (ej: pH, concentración de H⁺, temperatura, volumen). Clasifica cada una como conocida/desconocida y controlable/no controlable. Esto es el corazón de la Fase 2.\n• Documentación del proceso de aprendizaje: No incluyes ejemplos concretos de problemas resueltos ni evidencia de cómo clasificaste variables. Toma fotos de tus ejercicios, anota el proceso paso a paso, y adjunta en tu próximo reporte. Esto demuestra aplicación real de la metodología.\n• Conexiones con fenómenos reales: Tu respuesta en Q4 está incompleta. Piensa en dónde ves Ácidos y Bases en tu vida: limpieza del hogar, digestión, lluvia ácida, etc. Identifica qué variables cambian en esos fenómenos y cómo podrías medirlas. Esto es crucial para la Fase 3.",
+      "createdAt": "2025-10-27T04:52:39.441Z"
+    },
+    {
+      "feedbackId": "f1465ad5-a9af-4d2f-af3e-cffee3d8a3de",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana no hubo clases de Ciencias debido a la ausencia del profesor. Es una situación que escapa a tu responsabilidad, así que no hay nada que reprochar en tu reporte.\n\nSin embargo, es importante que aproveches este tiempo para no perder continuidad en tu aprendizaje. Te sugiero que revises los conceptos trabajados en semanas anteriores y que estés atento al regreso del profesor para retomar el ritmo de clases.\n\nCuando regresen las clases, estarás listo para continuar con la Fase 2 sin problemas. Si tienes dudas sobre temas anteriores, no dudes en consultarme.",
+      "strengths": "• Comunicación clara: Informaste de manera directa y honesta sobre la ausencia del profesor, lo que demuestra responsabilidad y transparencia académica.",
+      "improvements": "• Aprovecha el tiempo libre: Aunque no hay clases nuevas, puedes revisar los temas de semanas anteriores (reacciones químicas, estados de la materia, etc.) para reforzar conceptos. Esto te preparará mejor para cuando regresen las clases.\n• Coordina con compañeros: Si el profesor regresa con contenido acumulado, conecta con tus compañeros para asegurarte de que todos estén al mismo nivel. Esto evitará que te quedes atrás.",
+      "createdAt": "2025-11-03T12:18:14.540Z"
+    },
+    {
+      "feedbackId": "1d7b2ef1-6f71-432f-a1a1-d5d5b2d1f16d",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana no hubo clases, lo que hace imposible completar el reporte de la forma habitual. Esta es una situación completamente válida y no afecta tu evaluación.\n\nSin embargo, te sugiero que uses este tiempo de forma estratégica. Revisa los temas que trabajaste en semanas anteriores, especialmente aquellos donde sentiste menos seguridad. Esto te preparará mejor para cuando retomen las clases y podrás avanzar con más confianza.\n\nCuando regresen a clases, estarás listo para continuar con la Fase 2 sin perder ritmo. ¡Mantén esa actitud responsable que demostraste al reportar la situación!",
+      "strengths": "• Comunicación clara: Informaste directamente que no hubo clases, lo que demuestra responsabilidad y honestidad en tu reporte.",
+      "improvements": "• Aprovecha el tiempo de pausa: Aunque no hay clases nuevas, puedes revisar los temas de la Fase 1 (estructura atómica, enlaces químicos, etc.) para reforzar conceptos que serán base para lo que viene.\n• Prepárate para retomar: Cuando regresen las clases, asegúrate de tener tus materiales organizados y tus apuntes anteriores a mano para conectar con los nuevos contenidos sin perder continuidad.",
+      "createdAt": "2025-11-12T22:50:39.911Z"
+    },
+    {
+      "feedbackId": "3f123e03-5a0b-48ba-9c5e-557376e186f8",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana trabajaste en el tema de Ácidos y Bases y participaste en actividades prácticas, lo cual es positivo. Sin embargo, tu reporte es muy breve y le falta profundidad en la identificación de variables, que es exactamente lo que estamos trabajando en la Fase 2.\n\nTu desempeño muestra que entiendes el tema a nivel básico, pero necesitas ser más específico y detallado en tus respuestas. Cuando dices \"algunas cositas complicadas\", debes explicar exactamente cuáles son esas dificultades y qué estrategias usaste para resolverlas.\n\nPara la próxima semana, te pido que: (1) hagas una lista completa de variables en cada problema que trabajes, (2) clasifiques cada variable claramente, y (3) busques conexiones con otras áreas del conocimiento. Esto te ayudará a desarrollar mejor tu pensamiento crítico.",
+      "strengths": "• Autoevaluación honesta: Reconoces tu nivel de dominio (3/5) y admites que hay aspectos complicados. Esto muestra autoconciencia sobre lo que sabes y lo que no.\n• Identificación de una dificultad específica: Mencionas la expresión de Ka como punto problemático, lo que demuestra que al menos reconoces dónde tienes dificultad en el tema.\n• Participación en actividades prácticas: Realizaste el trabajo práctico grupal, lo que indica compromiso con el aprendizaje colaborativo.",
+      "improvements": "• Falta de detalle en variables: Necesitas identificar explícitamente qué variables trabajaste en Ácidos y Bases (pH, concentración de H⁺, Ka, Kb, etc.). Haz una lista clara clasificando cada una como conocida/desconocida y controlable/no controlable. Esto es el corazón de la Fase 2.\n• Estrategias vagas para resolver dificultades: Cuando dices que Ka es complicado, no explicas qué intentaste para entenderlo. Propón estrategias concretas: \"Voy a hacer ejercicios paso a paso\", \"Voy a crear una tabla comparativa entre Ka y Kb\", \"Voy a ver videos sobre cálculo de Ka\". Esto te ayudará a avanzar.\n• Ausencia de conexiones interdisciplinarias: Aunque dices que no puedes conectar con otras materias, sí es posible. Busca cómo los ácidos y bases aparecen en Biología (pH sanguíneo), Medicina (antiácidos), o Industria (producción de fertilizantes). Amplía tu perspectiva más allá de lo que ves en clase.",
+      "createdAt": "2025-11-17T13:46:29.058Z"
+    }
+  ]
+}

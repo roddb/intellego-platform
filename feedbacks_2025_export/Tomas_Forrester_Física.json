@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "studentId": "u_pdb4f4ng5me0b54u2",
+    "studentName": "Tomas Forrester",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.236292",
+    "statistics": {
+      "totalFeedbacks": 21,
+      "feedbacksWithScore": 21,
+      "averageScore": 44.14,
+      "minScore": 27,
+      "maxScore": 78,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_forrester_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 70,
+      "generalComments": "Buen trabajo Tomás. Tu análisis de las conversaciones es correcto y tu reescritura de la conversación A muestra comprensión del pensamiento crítico. Es normal la dificultad inicial en aplicación.",
+      "strengths": [
+        "Identificación correcta de pensamiento crítico en conversación B",
+        "Análisis acertado de características (objetivo, análisis de datos)",
+        "Reescritura apropiada aplicando metodología",
+        "Conexión con múltiples materias"
+      ],
+      "improvements": [
+        "Practicar aplicación con ejercicios guiados",
+        "Desarrollar hábito de análisis sistemático",
+        "Superar la barrera del no estar acostumbrado"
+      ],
+      "createdAt": "2025-01-09 11:50:00"
+    },
+    {
+      "feedbackId": "fb_forrester_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Muy buen progreso Tomás. Tu análisis del problema de Ana es completo, identificando correctamente variables de tiempo, decisión y externas. La reflexión sobre el colectivo muestra pensamiento crítico.",
+      "strengths": [
+        "Aplicación correcta de metodología acumulativa Fase 1+2",
+        "Identificación completa de 5 variables de tiempo",
+        "Distinción apropiada entre controlable/no controlable",
+        "Insight valioso sobre tiempo del colectivo"
+      ],
+      "improvements": [
+        "Trabajar en comprensión de matriz de clasificación",
+        "Profundizar en categorización de variables",
+        "Practicar con más ejemplos prácticos"
+      ],
+      "createdAt": "2025-01-09 11:55:00"
+    },
+    {
+      "feedbackId": "fb_forrester_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 55,
+      "generalComments": "Tomás, es normal la dificultad inicial con tiro oblicuo. Tu aplicación de las 3 fases es correcta y la conexión con MRU/MRUV es acertada. Pide explicación sobre los grupos de fórmulas.",
+      "strengths": [
+        "Aplicación correcta de Fase 1-2-3",
+        "Identificación apropiada de variables conocidas",
+        "Conexión correcta con MRU y MRUV",
+        "Selección de herramientas básicas justificada"
+      ],
+      "improvements": [
+        "Solicitar aclaración sobre grupos de fórmulas A, B, C",
+        "Practicar con ejercicios guiados simples",
+        "Reforzar comprensión conceptual del tiro oblicuo"
+      ],
+      "createdAt": "2025-01-09 12:00:00"
+    },
+    {
+      "feedbackId": "fb_forrester_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Excelente progreso al nivel 2, Tomás! Tu aplicación de las 4 fases es correcta y sistemática. El cálculo de altura máxima (33.75m) es preciso. La estrategia de calcular v0y primero es perfecta.",
+      "strengths": [
+        "Progreso claro del nivel 1 al nivel 2",
+        "Aplicación correcta de las 4 fases metodológicas",
+        "Cálculos precisos: v0y=25.98m/s, Hmax=33.75m",
+        "Estrategia secuencial bien ejecutada"
+      ],
+      "improvements": [
+        "Crear guía personal de cuándo usar cada ecuación",
+        "Practicar más problemas variados",
+        "Ganar confianza en selección de fórmulas"
+      ],
+      "createdAt": "2025-01-09 12:05:00"
+    },
+    {
+      "feedbackId": "fb_forrester_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 78,
+      "generalComments": "Muy buen trabajo Tomás! Tu análisis del problema del cañón es completo y correcto. Calculas bien que cae en 31.81m (fuera de la red) y altura máxima 9.51m. Excelente sugerencia de alargar 7m.",
+      "strengths": [
+        "Aplicación sistemática de las 4 fases",
+        "Cálculos correctos: v0x=11.57m/s, v0y=13.79m/s, t=2.75s",
+        "Análisis completo de seguridad con altura y alcance",
+        "Propuesta práctica de solución (alargar red 7m)"
+      ],
+      "improvements": [
+        "Practicar interpretación de enunciados complejos",
+        "Hacer diagramas para visualizar problemas",
+        "Consolidar confianza en el nivel 2"
+      ],
+      "createdAt": "2025-01-09 12:10:00"
+    },
+    {
+      "feedbackId": "fb_002_1_5me0b54u2_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querido Tomás Forrester,\n\nDurante la semana del 8 al 15 de septiembre, no fue posible evaluar tu progreso en Física debido a que no tuviste clases, siendo dedicada a evaluaciones. Esta situación dificulta evaluar tu avance en la Fase 1: Identificación y comprensión del problema. Sin embargo, reconozco que esta ausencia de clase es circunstancial y no refleja tu capacidad real de aprendizaje.\n\nAunque no contamos con evidencias de esta semana, es importante que cuando regreses a las clases, trabajes en fortalecer tu capacidad para identificar el problema central en los ejercicios de Física. Durante las próximas sesiones, te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas que trabajaremos.\n\nEs importante que mantengas tu dedicación durante las próximas semanas. Cada paso que das te acerca más a tus objetivos en Física. Quedo disponible para apoyarte cuando retomemos las actividades de la próxima semana.",
+      "strengths": [
+        "Reconoces la importancia de mantener tu continuidad académica",
+        "Tienes la oportunidad de comenzar nuevamente con entusiasmo en la próxima semana",
+        "Tu participación en las evaluaciones es parte de tu proceso formativo"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central en los ejercicios de Física",
+        "Necesitas practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Es importante proporcionar evidencias más concretas de tu proceso de aprendizaje cuando retomes las clases"
+      ],
+      "createdAt": "2025-10-17T03:25:19.400128"
+    },
+    {
+      "feedbackId": "f1600647-d2fd-45ab-bdda-c9b8ebea9d1f",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:43:55.918Z"
+    },
+    {
+      "feedbackId": "e3832ec2-6496-429d-a83e-3423839a37e0",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:17.375Z"
+    },
+    {
+      "feedbackId": "2498f6f9-f6e6-43e7-a8cb-0f2acdbf3c7b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:46.672Z"
+    },
+    {
+      "feedbackId": "b63aa377-b703-424b-81e8-3e84dd3b7a0b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:48.714Z"
+    },
+    {
+      "feedbackId": "fe809f41-f10e-4d9b-b67c-6bf7492574dd",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:50:48.471Z"
+    },
+    {
+      "feedbackId": "5415208f-49fb-45f4-b49a-6cd44a4f978a",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:55:01.429Z"
+    },
+    {
+      "feedbackId": "a88d2508-841d-474a-aea3-1fe95f11edf5",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:56.782Z"
+    },
+    {
+      "feedbackId": "c17b6b8c-4f2b-4261-a1e6-688be3fc3255",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:27:29.755Z"
+    },
+    {
+      "feedbackId": "cadcbacb-9a5c-40f7-bc64-165295833a80",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:42:51.426Z"
+    },
+    {
+      "feedbackId": "0d090200-ec9a-4c1a-a862-4fadb94efff7",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:50:49.036Z"
+    },
+    {
+      "feedbackId": "c7c5353c-84fc-4282-93ee-91281bb76e25",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:35:18.208Z"
+    },
+    {
+      "feedbackId": "e9cdf104-d3ad-40ce-a278-7e892252b6e4",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que entiendes la estructura básica de los diagramas de cuerpo libre y que puedes dibujarlos correctamente. Eso es un buen inicio. Sin embargo, tu reporte es muy superficial: necesitas profundizar en el análisis de variables y en cómo todo se conecta.\n\nLo que más me preocupa es que digas \"no se conecta con ninguno de los temas anteriores\". Eso no es cierto: los DCL son exactamente donde aplicas todo lo de Fase 1. Parece que aún no ves esa conexión, y eso es lo que debemos trabajar juntos.\n\nPara la próxima semana, quiero que: (1) hagas una lista clara de variables en cada problema, (2) practiques específicamente planos inclinados con 3-4 ejercicios diferentes, y (3) escribas cómo cada variable se relaciona con conceptos de Fase 1. Tu esfuerzo es visible, pero necesitas ser más sistemático y reflexivo.",
+      "strengths": "• Claridad en la descripción del proceso: Tu explicación del DCL (ejes X-Y, rectángulo, direcciones de fuerzas) es ordenada y fácil de seguir. Esto muestra que comprendes la estructura básica del diagrama.\n• Identificación de una dificultad real: Reconoces que los planos inclinados te resultan difíciles, lo que es honesto y es el primer paso para mejorar. Muchos estudiantes no se dan cuenta de sus propias limitaciones.\n• Aplicación práctica del concepto: Lograste hacer un DCL completo con valores específicos (100N, 5N, 20kg) e incluiste peso y fuerza normal, lo que indica que entiendes qué fuerzas deben aparecer.",
+      "improvements": "• Falta de identificación y clasificación de variables: No mencionas cuáles son las variables conocidas (100N, 5N, 20kg), desconocidas (aceleración) o controlables. En Fase 2 esto es fundamental. Próxima vez, haz una lista explícita: \"Variables conocidas: masa=20kg, F aplicada=100N...\" y así con todas.\n• Ausencia de estrategias para superar dificultades: Dices que los planos inclinados te resultan difíciles, pero no propones cómo resolverlo. Sugiero: descompón las fuerzas en componentes paralela y perpendicular al plano, dibuja varios ejemplos y practica con ángulos diferentes (30°, 45°, 60°).\n• No conectas Fase 1 con Fase 2: Tu respuesta en Q4 es preocupante. Los DCL son la aplicación directa de conceptos de Fase 1 (fuerzas, equilibrio). Reflexiona: ¿cómo se relacionan las variables que identificaste en Fase 1 con las fuerzas que dibujaste en el DCL?",
+      "createdAt": "2025-10-27T04:59:25.444Z"
+    },
+    {
+      "feedbackId": "aca4c09e-e92c-4ce1-a001-da076eb90077",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Tu reporte muestra que estás trabajando en Dinámica y que puedes resolver problemas aplicando fórmulas correctamente. El cálculo de la fuerza del motor es preciso y bien presentado, lo que indica que tienes bases sólidas en procedimientos matemáticos.\n\nSin embargo, tu reporte es incompleto en reflexión crítica. Fase 2 no se trata solo de resolver ejercicios, sino de *entender y clasificar las variables* que usas. Notamos que en Q1 no describes qué variables trabajaste, en Q4 no ves conexiones con temas anteriores, y Q5 está vacía. Esto sugiere que necesitas profundizar en el análisis, no solo en los cálculos.\n\nPara la próxima semana, te pido que: (1) en cada ejercicio, hagas una lista explícita de variables conocidas/desconocidas; (2) reflexiones sobre cómo cada problema conecta con lo que ya sabes; (3) completes todas las preguntas del reporte con respuestas reflexivas, no solo técnicas.",
+      "strengths": "• Procedimiento matemático correcto: Tu resolución del problema de dinámica muestra dominio en aplicar fórmulas. Convertiste correctamente las unidades (50 km/h = 13,89 m/s) y calculaste la aceleración y fuerza sin errores aritméticos.\n• Claridad en pasos: Presentas tu trabajo de forma ordenada, indicando qué fórmula usas en cada paso. Esto facilita seguir tu razonamiento y es una buena práctica en Física.\n• Reconocimiento de dificultades: Identificas que los diagramas de cuerpo libre son un área de desafío, lo que muestra autoconciencia sobre tus limitaciones.",
+      "improvements": "• Identificación explícita de variables: En tu problema del automóvil, debes listar claramente: variables conocidas (m=950 kg, Vi=13,89 m/s, Vf=27,78 m/s, t=8 s) y desconocidas (a, F). Esto es el corazón de Fase 2. Practica haciendo una tabla de variables en cada ejercicio.\n• Estrategias concretas para diagramas de cuerpo libre: No basta decir que te cuesta. Propón soluciones: \"Practicaré identificando primero todas las fuerzas actuantes, luego dibujando vectores a escala\" o \"Usaré colores diferentes para cada tipo de fuerza\". Busca recursos visuales o pide ayuda específica.\n• Conexiones entre temas: En Q4, debes reflexionar activamente. El problema del automóvil conecta con cinemática (cambio de velocidad), dinámica (fuerza del motor) y aplicaciones reales. Entrena tu mente a preguntar: \"¿Qué tema anterior usé aquí?\" después de cada ejercicio.",
+      "createdAt": "2025-11-03T12:21:49.964Z"
+    },
+    {
+      "feedbackId": "e59f3d3a-0d98-4b72-86c7-7ab4f04f5550",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue desafiante, pero tu reporte no refleja el trabajo que probablemente realizaste en clase. Aunque mencionas el proyecto de dinámica, necesitas desarrollar mucho más tus respuestas para que podamos ver realmente qué comprendiste sobre identificación de variables.\n\nTu desempeño esta semana está en nivel inicial. Las respuestas repetidas y sin contenido no permiten evaluar tu aprendizaje real en Fase 2. Esto es importante porque la identificación de variables es la base para resolver problemas en física.\n\nPara la próxima semana, te pido que dediques tiempo real a completar el reporte. Describe específicamente qué variables trabajaste, cómo las clasificaste, qué dificultades tuviste y cómo las resolviste. Calidad sobre cantidad: una respuesta bien pensada es mejor que frases genéricas.",
+      "strengths": "• Identificación del proyecto: Mencionas que trabajas con un \"proyecto APP de dinámica\", lo que indica que sí estás participando en actividades de la materia, aunque sin detallar contenidos específicos.",
+      "improvements": "• Respuestas incompletas y repetitivas: Escribiste la misma frase en 4 de 5 preguntas. Cada pregunta requiere una respuesta diferente y específica. Te sugiero leer cuidadosamente qué pide cada pregunta antes de responder, y dedicar tiempo a desarrollar ideas distintas para cada una.\n• Falta de análisis de variables: En Fase 2 debes identificar y clasificar variables del proyecto (ej: masa, velocidad, fuerza como variables conocidas/desconocidas; temperatura como controlable/no controlable). Crea una tabla simple con columnas: Variable | Tipo | Magnitud Física. Esto te ayudará a organizar tu pensamiento.\n• Ausencia de reflexión metacognitiva: No describes qué aprendiste, qué te costó, ni cómo lo superaste. Para mejorar, después de cada clase pregúntate: \"¿Qué fue difícil?\" y \"¿Cómo lo resolví?\" Escribe 2-3 líneas de respuesta honesta en tu reporte.",
+      "createdAt": "2025-11-12T22:55:16.807Z"
+    },
+    {
+      "feedbackId": "aa54da65-e66c-4e23-8a52-5ef0e3c27c32",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana ha sido desafiante, pero necesito ser honesto: el reporte está incompleto y no refleja el trabajo que esperamos en Fase 2. Repetir la misma frase en todas las preguntas no nos permite evaluar tu comprensión de variables, magnitudes físicas ni tu capacidad de análisis.\n\nTu participación en el proyecto de dinámica es un buen inicio, pero el reporte debe documentar qué aprendiste específicamente sobre identificación de variables, qué dificultades enfrentaste y cómo las resolviste. Esto es lo que desarrolla tu pensamiento crítico.\n\nPara la próxima semana, te pido que dediques tiempo a completar cada pregunta con detalle. Escribe al menos 3-4 líneas por pregunta, con ejemplos concretos del proyecto. Si tienes dudas sobre qué escribir, pregúntame antes de enviar el reporte.",
+      "strengths": "• Mencionas el proyecto de dinámica: Al menos hay referencia a un trabajo en curso, lo que indica que estás participando en alguna actividad académica durante la semana.",
+      "improvements": "• Responde específicamente cada pregunta: No repitas la misma frase en todas las preguntas. Cada una solicita información diferente: Q1 pide temas y dominio, Q2 pide evidencia de aprendizaje, Q3 pide dificultades. Lee cuidadosamente qué se pregunta antes de escribir.\n• Identifica y lista variables concretas del proyecto: En lugar de decir \"trabajamos con dinámica\", especifica: ¿Qué variables identificaste? (ej: fuerza, masa, aceleración). ¿Cuáles son conocidas y cuáles desconocidas? ¿Cuáles puedes controlar en el experimento?\n• Reflexiona sobre tu propio aprendizaje: Dedica tiempo a escribir qué te costó entender esta semana, qué estrategias usaste para superarlo, y cómo conectas esto con problemas reales. Esta es la esencia del pensamiento crítico que estamos desarrollando.",
+      "createdAt": "2025-11-17T13:52:24.916Z"
+    }
+  ]
+}

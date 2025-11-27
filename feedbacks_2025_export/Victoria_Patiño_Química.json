@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "studentId": "u_r0mxgr11pme6eytm2",
+    "studentName": "Victoria Patiño",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.241277",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 64.5,
+      "minScore": 27,
+      "maxScore": 89,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-04_3a461bf1",
+      "weekStart": "2025-08-04",
+      "score": 60,
+      "generalComments": "Victoria muestra comprensión básica del equilibrio químico y reconoce la importancia del pensamiento crítico para analizar este tipo de problemas. Su reporte es conciso pero evidencia que comprende la problemática general. Sin embargo, necesita desarrollar mayor especificidad en sus respuestas y proporcionar evidencias más concretas de su aprendizaje. Su enfoque de identificación del problema es correcto, pero requiere mayor profundidad en el análisis.",
+      "strengths": [
+        "Reconoce correctamente que el objetivo del ejercicio es encontrar equilibrio químico en un laboratorio",
+        "Identifica la importancia de analizar si el equilibrio es correcto",
+        "Muestra honestidad al reconocer que solo identificó el problema, evidenciando autocrítica"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas y específicas: en Q2 debería describir el ejercicio con más detalle (qué sustancias, qué datos tenía, qué procedimiento siguió)",
+        "Profundizar en la comprensión del cálculo de equilibrio, no solo en la identificación del problema (avanzar del qué al cómo)",
+        "Establecer conexiones más específicas en Q4: ¿con qué materias o conceptos se relaciona? Evitar aún no sé"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-11_7fed3b18",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Victoria demuestra comprensión adecuada de la Fase 2 del pensamiento crítico aplicada a química, identificando y clasificando variables correctamente. Su comparación con física es valiosa y muestra que está transfiriendo el aprendizaje entre materias. Sin embargo, sus respuestas son algo genéricas y le falta proporcionar ejemplos específicos de los ejercicios trabajados. Su nivel de dominio autoevaluado (2) es consistente con su desempeño, mostrando autocrítica realista.",
+      "strengths": [
+        "Reconoce la similitud metodológica entre física y química, evidenciando transferencia de aprendizaje",
+        "Identifica correctamente que el foco de la semana fue clasificar variables",
+        "Establece conexiones cotidianas apropiadas (hervir agua, calentar en microondas)"
+      ],
+      "improvements": [
+        "Desarrollar mayor especificidad en Q2: ¿qué ejercicios concretos resolvió? ¿Qué variables específicas identificó en química?",
+        "Profundizar en su crítica sobre iniciar con guía: ¿qué alternativa propone? ¿Qué sería un mejor enfoque inicial?",
+        "Proporcionar ejemplos químicos específicos en Q4 en lugar de solo mencionar situaciones generales"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-25_487b945b",
+      "weekStart": "2025-08-25",
+      "score": 79,
+      "generalComments": "Victoria demuestra un dominio excelente del tema (nivel 4 autoevaluado) y muestra progreso significativo desde sus reportes anteriores. Su comprensión de las fórmulas balanceadas, molaridad y la optimización de búsqueda de incógnitas es sólida. Ha integrado correctamente las fases previas (F1+F2+F3) y está aplicando herramientas matemáticas apropiadas. Su única área de mejora es la profundidad en la descripción de su proceso de resolución.",
+      "strengths": [
+        "Nivel de dominio 4 autoevaluado, el más alto alcanzado hasta ahora, mostrando confianza y competencia",
+        "Describe correctamente el proceso de optimización: identificar qué es cada cosa, ubicarla y luego resolver",
+        "Reconoce conexiones apropiadas con aplicaciones reales (mezclas químicas, reacciones)"
+      ],
+      "improvements": [
+        "Detallar en Q2 el ejercicio específico de Kc: ¿qué reacción? ¿qué valores tenía? ¿qué resultado obtuvo?",
+        "Elaborar sobre la nueva optimización de búsqueda de incógnitas: ¿en qué consiste exactamente? ¿Qué la hace diferente del método anterior?",
+        "Desarrollar Q4 con ejemplos más específicos de conexiones con otras áreas (industria, biología, vida cotidiana)"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-09-01_81f80212",
+      "weekStart": "2025-09-01",
+      "score": 77,
+      "generalComments": "Victoria mantiene un buen nivel de comprensión del equilibrio químico, trabajando con ejercicios más complejos y consolidando las herramientas de resolución. Su enfoque de optimización de búsqueda de incógnitas (preguntar 'qué es cada cosa, ubicarla y resolver') demuestra que ha internalizado el método de fases. Continúa aplicando correctamente F1+F2+F3, aunque sus respuestas podrían ser más específicas en cuanto a procedimientos y resultados numéricos.",
+      "strengths": [
+        "Reconoce que trabaja con ejercicios más complejos, evidenciando progresión en dificultad",
+        "Aplica consistentemente el método de optimización desarrollado previamente",
+        "Identifica aplicaciones reales apropiadas (mezclas químicas, reacciones)"
+      ],
+      "improvements": [
+        "Especificar en Q2 el ejercicio concreto: ¿cuál fue la reacción? ¿Qué dato de Kc obtuvo?",
+        "Desarrollar Q4 con conexiones más profundas: ¿qué tipos específicos de mezclas o reacciones? ¿Ejemplos industriales o cotidianos?",
+        "Profundizar su reflexión sobre el uso de guías digitales en Q5: ¿qué alternativa preferiría?"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-09-15_4f6300b2",
+      "weekStart": "2025-09-15",
+      "score": 62,
+      "generalComments": "Victoria trabajó con modelos de examen, lo cual representa un cambio de enfoque hacia la evaluación sumativa. Aunque su descripción del trabajo es correcta (resolver ejercicios por fases, identificar variables, calcular Kc y concentraciones), sus respuestas carecen de la especificidad y profundidad mostradas en reportes anteriores. Su comentario sobre sentirse 'mareada' y su crítica sobre la falta de integración de ejercicios complejos antes de la prueba son observaciones válidas que reflejan ansiedad pre-evaluativa.",
+      "strengths": [
+        "Describe correctamente el objetivo de los simulacros: resolver por fases y encontrar concentraciones/Kc",
+        "Reconoce que el tema me resulta más fácil comparado con temas anteriores",
+        "Establece conexión apropiada con laboratorio y cambios químicos reales"
+      ],
+      "improvements": [
+        "Profundizar en Q2 describiendo un ejercicio específico del simulacro que haya resuelto, con procedimiento y resultado",
+        "Desarrollar estrategias para manejar la sensación de mareo frente a problemas complejos: ¿qué pasos específicos le ayudarían?",
+        "Evitar generalizaciones en Q4: ¿qué experimentos específicos de laboratorio se relacionan con equilibrio químico?"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "20102987-eefa-4cfe-9495-9bb82009453e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que puede haber circunstancias que afecten tu participación (mencionas \"alegatos\" y una charla). Sin embargo, un reporte de pensamiento crítico requiere que documentes tu aprendizaje de forma clara y reflexiva. Actualmente, no hay evidencia de que hayas completado las actividades de la Fase 2.\n\nTe animo a que en la próxima semana entregues un reporte completo donde desarrolles cada pregunta. Esto no solo te ayudará a mejorar tu calificación, sino que también consolidará tu comprensión de cómo identificar y clasificar variables en problemas científicos.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas en tu pensamiento crítico. Para poder reconocer tus logros, necesito que completes las preguntas con respuestas concretas y reflexivas.",
+      "improvements": "1. Completar el reporte con respuestas desarrolladas\nTu reporte está prácticamente vacío. Necesitas escribir respuestas completas en cada pregunta, aunque sea breve. Por ejemplo, en Q1 podrías describir: \"Esta semana trabajamos con variables como temperatura, presión y volumen en reacciones químicas. Identifiqué que la temperatura es controlable y la presión es no controlable en nuestro experimento.\"\n\n2. Reflexionar sobre tu asistencia y participación\nMencionas que solo asististe el martes. Si realmente fue así, deberías documentar qué aprendiste ese día específicamente. Si hay otras sesiones, incluye lo que trabajaste en ellas. La consistencia en la asistencia es fundamental para el aprendizaje.\n\n3. Desarrollar respuestas con estructura clara\nCada pregunta requiere: identificación de temas → clasificación de variables → análisis de dificultades → conexiones con la realidad. Dedica tiempo a escribir párrafos cortos pero completos en lugar de dejar espacios en blanco.",
+      "createdAt": "2025-10-21T04:50:49.036Z"
+    },
+    {
+      "feedbackId": "155c5704-d568-4c77-b846-b7a154b96409",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana tuviste limitaciones de asistencia, pero es importante que entiendas que el reporte de pensamiento crítico es una herramienta para que reflexiones sobre tu aprendizaje. Sin respuestas desarrolladas, no puedo evaluar realmente tu comprensión de variables ni tu progreso en Fase 2.\n\nTe animo a que en la próxima semana asistas regularmente a clase, tomes notas activas sobre los temas trabajados, y dediques tiempo a completar cada pregunta del reporte con reflexión genuina. Esto te ayudará a consolidar tu aprendizaje en identificación de variables.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas en tu pensamiento crítico. La asistencia limitada a una sesión y la falta de contenido en las respuestas impiden evaluar tus capacidades reales en identificación de variables.",
+      "improvements": "Asistencia y participación: Necesitas asistir regularmente a las clases de Química para poder trabajar los temas de Fase 2. Si tienes dificultades para asistir, comunícalo con tu profesor o coordinador académico para buscar soluciones. La continuidad es fundamental para aprender a identificar variables.\n\nCompletar el reporte con respuestas desarrolladas: Cada pregunta requiere respuestas concretas y reflexivas. En Q1 debes listar variables identificadas; en Q2, mostrar evidencia de aprendizaje; en Q3, explicar dificultades reales; en Q4, conectar con fenómenos; en Q5, reflexionar sobre el proceso. No dejes espacios en blanco.\n\nOrganización del tiempo: Dedica tiempo específico para completar este reporte después de cada clase. Toma notas durante la sesión sobre variables trabajadas (conocidas/desconocidas, controlables/no controlables) para que luego puedas desarrollar respuestas completas y reflexivas.",
+      "createdAt": "2025-10-21T05:15:39.228Z"
+    },
+    {
+      "feedbackId": "7a23e83f-3be5-41e9-88bf-40681164703b",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:02.554Z"
+    },
+    {
+      "feedbackId": "4c3f552f-0d95-4168-a02d-ffa4eae343c1",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:31:33.605Z"
+    },
+    {
+      "feedbackId": "797fab06-0f25-4adb-9af7-72c504064960",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 89,
+      "generalComments": "Tu reporte refleja un desempeño excepcional esta semana. Dominas los cálculos de ácidos y bases fuertes con confianza, y lo más importante: reconoces honestamente dónde están tus límites (actividad iónica, soluciones concentradas). Esto es señal de un pensador crítico maduro.\n\nTu evolución es clara: pasaste de resolver ejercicios tipo guía a cuestionar la validez de los modelos ideales y proponer mejoras al curso. Eso demuestra que estás pensando más allá de lo que se te enseña, lo cual es exactamente lo que buscamos en Fase 2.\n\nPara la próxima semana, te animo a que busques 2-3 problemas que mezclen ácidos/bases con sales (buffer) y practiques estimaciones de actividad. Además, si es posible, realiza la práctica que propones (medir pH real vs. calculado) para validar tu comprensión. Esto te preparará perfectamente para Fase 3.",
+      "strengths": "• Dominio técnico sólido: Resuelves cálculos de pH/pOH con precisión y reconoces patrones en ácidos/bases fuertes. Tu ejemplo de Ba(OH)₂ muestra que comprendes la estequiometría correctamente.\n• Metacognición avanzada: Identificas claramente qué controlas (cálculos directos) y qué te cuesta (actividad iónica, soluciones concentradas). Esto demuestra autoconciencia genuina sobre tu aprendizaje.\n• Pensamiento crítico aplicado: No te conformas con la teoría; propones integrar experimentos reales (pH-metro, mediciones) para validar cálculos. Esto muestra madurez intelectual y deseo de cerrar la brecha teoría-práctica.",
+      "improvements": "• Ampliar evidencia en Q2: Tu ejemplo es correcto pero muy breve. Incluye la lista completa de variables identificadas en cada problema (ej: \"Variables conocidas: concentración inicial, Kw; Variables controlables: temperatura, volumen\"). Esto fortalecerá la sistematicidad.\n• Profundizar en efectos de fuerza iónica: Mencionas actividad pero no desarrollas cómo calcularla o estimarla. Practica con el coeficiente de actividad (γ) en soluciones concentradas; busca tablas de Davies o Debye-Hückel para aplicar en ejercicios reales.\n• Conectar Fase 1 explícitamente: En Q2 y Q4, menciona cómo los \"datos iniciales\" (Fase 1) se transforman en \"variables clasificadas\" (Fase 2). Esto hará más visible la integración entre fases y consolidará tu comprensión del método.",
+      "createdAt": "2025-11-17T13:52:28.116Z"
+    }
+  ]
+}

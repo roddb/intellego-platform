@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "081cc56b-878d-4f2c-8fb1-18a35171589b",
+    "studentName": "maria barria",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245207",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-09-15",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_5171589b_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Hola maria barria, Debido a la semana Santo Tomás de Aquino, no fue posible evaluar tu progreso en Física durante esta semana. Mantén mayor constancia y regularidad en la entrega de reportes cuando haya clases. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Reportaste tu situación de manera clara y oportuna.",
+        "Cumpliste con la entrega del reporte semanal a pesar de no tener clases.",
+        "Comunicaste adecuadamente la razón de la ausencia de contenido académico."
+      ],
+      "improvements": [
+        "Cuando se retomen las clases, asegúrate de profundizar en los temas trabajados.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en futuros reportes.",
+        "Aprovecha el tiempo de recuperación para ponerte al día con los conceptos fundamentales."
+      ],
+      "createdAt": "2025-10-07 22:13:23"
+    },
+    {
+      "feedbackId": "fb_002_5_5171589b_2025-09-22_001",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Hola maria barria, Debido al viaje a Madryn, no fue posible evaluar tu progreso en Física durante esta semana. Mantén mayor constancia y regularidad en la entrega de reportes con contenido académico cuando se retomen las clases. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Informaste claramente sobre la situación del viaje a Madryn.",
+        "Mantuviste la responsabilidad de entregar el reporte semanal.",
+        "Comunicaste oportunamente la ausencia de actividad académica."
+      ],
+      "improvements": [
+        "Al retomar las clases, enfócate en recuperar los conceptos trabajados durante tu ausencia.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje cuando haya contenido.",
+        "Aprovecha el material compartido para ponerte al día con los temas que se avanzaron."
+      ],
+      "createdAt": "2025-10-07 22:13:42"
+    }
+  ]
+}

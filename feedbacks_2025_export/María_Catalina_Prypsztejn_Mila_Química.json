@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "studentId": "u_lwcsti4hume0k6kf3",
+    "studentName": "María Catalina Prypsztejn Mila",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.221303",
+    "statistics": {
+      "totalFeedbacks": 18,
+      "feedbacksWithScore": 18,
+      "averageScore": 66.22,
+      "minScore": 47,
+      "maxScore": 80,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "299a2594-4920-484d-86ad-0d97bd9b1d5f",
+      "weekStart": "2025-08-04",
+      "score": 67,
+      "generalComments": "Querida María Catalina Prypsztejn Mila,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Realizas análisis interesante de los enfoques para detectar equilibrio químico.\n\nTe recomiendo practicar la distinción entre información relevante e irrelevante en los problemas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar necesidades de apoyo",
+        "Realizas análisis comparativo efectivo entre los tres enfoques para detectar equilibrio químico",
+        "Muestras honestidad y autoconocimiento al expresar tus dificultades con claridad"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en cada ejercicio",
+        "Te recomiendo solicitar aclaraciones específicas cuando las consignas no sean claras, antes de avanzar",
+        "Necesitas desarrollar estrategias para conectar los datos extraídos con el objetivo del problema"
+      ],
+      "createdAt": "2025-10-05 03:52:45"
+    },
+    {
+      "feedbackId": "2f226be9-c82c-4f0b-87d2-9973d6558616",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida María Catalina Prypsztejn Mila,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en sistemas de equilibrio buffer. Organizas adecuadamente los datos y la información disponible. Muestras progreso notable desde la semana anterior.\n\nNecesitas consolidar tu comprensión de las constantes de equilibrio K y Q antes de avanzar. Trabaja en expresar reflexiones adicionales sobre tu proceso de aprendizaje.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas y clasificas correctamente las variables en concentración, termodinámicas, de equilibrio y cinéticas",
+        "Demuestras mejora significativa en tu capacidad de resolver ejercicios con mayor velocidad y comprensión",
+        "Muestras estrategia apropiada al consultar al profesor cuando tienes dudas sobre K y Q"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas, especialmente las constantes de equilibrio",
+        "Es importante consolidar la comprensión del significado de K, Q y otras constantes antes de avanzar a su aplicación",
+        "Necesitas desarrollar el hábito de reflexionar sobre tu aprendizaje en la sección de comentarios adicionales"
+      ],
+      "createdAt": "2025-10-05 03:54:17"
+    },
+    {
+      "feedbackId": "4b5fc6af-6932-4f5b-b12c-08902a3c9c9f",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las fórmulas para Kc con criterio correcto. Demuestras perseverancia ante las dificultades iniciales con los ejercicios. Es importante mejorar las conexiones con aplicaciones más amplias de estos conceptos. Necesitas desarrollar reflexiones más profundas sobre tu proceso de aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Seleccionas correctamente la estructura de la fórmula Kc (productos sobre reactivos)",
+        "Demuestras perseverancia y mejora progresiva al practicar más ejercicios",
+        "Tu autoevaluación es precisa al reconocer que necesitas más práctica"
+      ],
+      "improvements": [
+        "Necesitas fortalecer las conexiones con aplicaciones prácticas y contextos más variados",
+        "Es importante desarrollar reflexiones sobre qué aprendiste y cómo en los comentarios adicionales",
+        "Debes trabajar en la justificación conceptual de por qué seleccionas determinadas herramientas"
+      ],
+      "createdAt": "2025-10-05 03:56:04"
+    },
+    {
+      "feedbackId": "618d53bd-80d6-4332-9b20-2bcac05a7693",
+      "weekStart": "2025-08-25",
+      "score": 67,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Demuestras capacidad para ejecutar procesos completos como la tabla ICE y cálculo de Kc. Muestras reflexión sobre tus necesidades de aprendizaje al expresar dificultades. Es fundamental mejorar tu comprensión conceptual antes de ejecutar procedimientos. Necesitas estrategias para compensar ausencias y mantener continuidad. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas procedimientos sistemáticos como conversión a moles, tabla ICE y cálculo de Kc=0.667 de manera ordenada",
+        "Demuestras capacidad de interpretar resultados al analizar que la reacción genera cantidades similares de producto y reactivo",
+        "Muestras honestidad al reconocer dificultades debido a ausencia en clase y necesidad de apoyo adicional"
+      ],
+      "improvements": [
+        "Es importante fortalecer la comprensión conceptual del equilibrio químico antes de aplicar procedimientos mecánicos",
+        "Necesitas desarrollar estrategias para recuperar contenido cuando no puedes asistir a clase, consultando materiales o compañeros",
+        "Debes trabajar en la conexión entre lo que calculas (Kc=0.667) y su significado químico más profundo"
+      ],
+      "createdAt": "2025-10-05 03:57:06"
+    },
+    {
+      "feedbackId": "79bbc527-31f6-4200-9a20-58f2bca5c192",
+      "weekStart": "2025-09-01",
+      "score": 80,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Demuestras excelente comprensión del Principio de Le Chatelier aplicado a variables de temperatura, concentración y presión. Ejecutas análisis completo y fundamentado de cambios en Kc bajo diferentes condiciones. Muestras mejora significativa en tu confianza y capacidad de resolución. Es importante consolidar la comprensión de consignas para reducir dependencia de apoyo externo. Necesitas desarrollar reflexiones adicionales sobre tu proceso de aprendizaje. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Analizas correctamente el efecto de temperatura en Kc en reacciones endotérmicas, demostrando comprensión profunda del equilibrio",
+        "Distingues apropiadamente entre variables que afectan Kc (temperatura) y las que solo desplazan equilibrio (concentración, presión)",
+        "Demuestras razonamiento sólido al explicar que presión no afecta cuando ambos lados tienen igual cantidad de moles"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la interpretación autónoma de consignas para iniciar ejercicios sin dependencia de apuntes o fuentes externas",
+        "Es importante desarrollar confianza en tu comprensión conceptual para reducir la necesidad de consultar teoría constantemente",
+        "Debes trabajar en expresar reflexiones metacognitivas sobre tu proceso de aprendizaje en comentarios adicionales"
+      ],
+      "createdAt": "2025-10-05 03:59:32"
+    },
+    {
+      "feedbackId": "a032b771-c58f-4fbd-9534-6f9ad7aab147",
+      "weekStart": "2025-09-08",
+      "score": 77,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas proceso completo de resolución integrando tabla ICE, cálculo de Kc y análisis de temperatura. Demuestras comprensión profunda de la relación entre temperatura, dirección de equilibrio y valor de Kc. Muestras progreso en tu autonomía aunque aún dependes de orientación inicial. Es importante fortalecer la interpretación autónoma de consignas desde el inicio. Necesitas reducir dependencia de herramientas externas para encaminar ejercicios. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas integración completa de las 4 fases analizando endotermicidad, calculando Kc=0.0156, prediciendo dirección y comparando Kc a diferentes temperaturas",
+        "Demuestras razonamiento cuantitativo sólido al predecir que Kc a 500K será mayor que a 400K por desplazamiento hacia productos",
+        "Muestras comprensión conceptual profunda al conectar temperatura con posición de equilibrio y su efecto en la proporción productos/reactivos"
+      ],
+      "improvements": [
+        "Necesitas desarrollar estrategias para interpretar consignas de manera autónoma sin depender de IA para arrancar ejercicios",
+        "Es importante consolidar la confianza en tu comprensión para reducir la dependencia de teoría y apuntes durante la resolución",
+        "Debes trabajar en la planificación inicial del problema identificando qué se pide antes de buscar ayuda externa"
+      ],
+      "createdAt": "2025-10-05 03:59:32"
+    },
+    {
+      "feedbackId": "069ea51f-4922-4935-860a-7df46a0f86d7",
+      "weekStart": "2025-09-15",
+      "score": 80,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas proceso completo de resolución con tabla ICE, despeje algebraico y verificación de resultado. Demuestras mejora notable en tu comprensión del proceso de resolución. Realizas conexiones apropiadas con matemática y otras áreas del conocimiento. Es importante continuar desarrollando autonomía en la interpretación inicial de consignas. Necesitas expresar reflexiones sobre tu evolución en el aprendizaje. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Ejecutas procedimiento completo y ordenado: tabla ICE con incógnita x, ecuación de Kc, despeje obteniendo x=1.54 mol, cálculo de concentraciones y verificación",
+        "Demuestras rigor metodológico al verificar tu resultado recalculando Kc=44.86 y confirmando cercanía con el dato Kc=45.9",
+        "Realizas conexiones interdisciplinarias apropiadas con despeje de ecuaciones de matemática y procesos de variables"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la interpretación autónoma del paso a paso inicial de ejercicios complejos",
+        "Es importante desarrollar confianza en tu planificación para reducir la percepción de necesitar ayuda constante",
+        "Debes trabajar en reflexionar explícitamente sobre tu progreso y estrategias efectivas en comentarios adicionales"
+      ],
+      "createdAt": "2025-10-05 03:59:32"
+    },
+    {
+      "feedbackId": "f0e8d54a-4425-4adb-9f6b-8efbe958a159",
+      "weekStart": "2025-09-22",
+      "score": 80,
+      "generalComments": "Querida María Catalina Prypsztejn Mila, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas proceso completo de cálculo de Kc y concentraciones en equilibrio con tabla ICE y estequiometría. Demuestras colaboración efectiva con el profesor para encontrar metodología que te funciona. Realizas conexiones apropiadas con balanceo y transferencia electrónica de años anteriores. Es importante consolidar la metodología encontrada para aplicarla autónomamente en futuros ejercicios. Necesitas expresar reflexiones sobre qué estrategias específicas te funcionaron mejor. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Ejecutas cálculo completo utilizando estequiometría de ecuación balanceada, tabla ICE y obtención de Kc=6.62 con procedimiento ordenado",
+        "Demuestras iniciativa al consultar al profesor para encontrar metodología personalizada que facilite tu resolución",
+        "Realizas conexiones conceptuales apropiadas entre equilibrio químico actual y balanceo/transferencia electrónica de 4to año"
+      ],
+      "improvements": [
+        "Necesitas consolidar y documentar la metodología personalizada encontrada con el profesor para aplicarla consistentemente",
+        "Es importante desarrollar reflexiones explícitas sobre qué estrategias específicas te resultaron más efectivas y por qué",
+        "Debes trabajar en la confianza para aplicar la metodología encontrada de manera completamente autónoma"
+      ],
+      "createdAt": "2025-10-05 03:59:32"
+    },
+    {
+      "feedbackId": "33919c38-ae04-4a77-8bc3-d397b28ad223",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 47,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:50.958Z"
+    },
+    {
+      "feedbackId": "ddea3324-f73b-4cf9-9fd6-0a4ffaf2178f",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 47,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:36.178Z"
+    },
+    {
+      "feedbackId": "ee73e811-c58b-406a-807a-0512293db1d4",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:15.188Z"
+    },
+    {
+      "feedbackId": "af074c53-95c7-43d4-bbc8-a4524198023f",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:31:47.581Z"
+    },
+    {
+      "feedbackId": "42a05f74-80f8-4772-b923-e36c2ae38e34",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:42:53.036Z"
+    },
+    {
+      "feedbackId": "fb7fa1a9-4353-4aee-98b7-4be48abc6c91",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:22:29.726Z"
+    },
+    {
+      "feedbackId": "1ad5d68d-bbb0-4b8f-9284-d2fd001fcc7c",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Felicidades por tu desempeño esta semana. Tus cálculos de pH y pOH son correctos y precisos, y demuestras autonomía al resolver ejercicios con poca necesidad de revisar teoría. Además, identificaste una dificultad real (reconocer ácidos y bases por fórmula) y buscaste activamente resolverla consultando recursos.\n\nSin embargo, tu reporte muestra que aún no integras completamente la Fase 2. Identificas *qué* hiciste (cálculos, fórmulas), pero no *cómo* identificaste y clasificaste las variables del problema. Esto es el corazón de la Fase 2: antes de calcular, debes mapear sistemáticamente qué datos tienes, cuáles faltan y cómo se relacionan.\n\nPara la próxima semana, te pido que: (1) antes de resolver cualquier ejercicio, hagas una lista explícita de variables clasificadas; (2) reflexiones profundamente sobre tus estrategias, no solo menciones que funcionaron; (3) completes siempre la sección de comentarios adicionales con reflexiones genuinas sobre tu aprendizaje.",
+      "strengths": "• Precisión en cálculos: Aplicas correctamente las fórmulas de pH y pOH (pH = -log[1.5×10⁻²] = 1.8 y pOH = 14 - 1.8 = 12.2). Tus operaciones matemáticas son exactas y bien documentadas.\n• Autonomía en el aprendizaje: Mencionas que comprendes los conceptos \"lo suficiente para hacer los ejercicios sola, muy pocas veces revisando teoría\", lo que indica confianza y responsabilidad en tu proceso de aprendizaje.\n• Identificación de dificultades: Reconoces específicamente que te costó identificar ácidos y bases por fórmula química, y tomaste acción buscando recursos para resolverlo. Esto muestra autoconciencia sobre tus necesidades.",
+      "improvements": "• Clasificación sistemática de variables: En tus ejercicios, debes identificar explícitamente qué es conocido (concentración = 0,015M), qué es desconocido (pH, pOH) y qué tipo de variable es cada una (controlable/no controlable). Crea una tabla simple: \"Conocidas | Desconocidas | Relación entre ellas\" antes de resolver.\n• Profundidad en la reflexión sobre estrategias: Cuando mencionas que consultaste recursos, explica *qué criterios específicos* aprendiste para diferenciar ácidos de bases. Por ejemplo: \"Identifiqué que los ácidos ceden H⁺ y las bases aceptan H⁺, lo que me permitió clasificar...\" Esto demuestra comprensión real, no solo consulta.\n• Completar la sección de comentarios adicionales (Q5): No dejes espacios en blanco. Reflexiona sobre: ¿Por qué es importante identificar variables en química? ¿Cómo ha mejorado tu forma de abordar problemas desde Fase 1? ¿Qué descubriste esta semana que te sorprendió? Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-27T05:01:01.066Z"
+    },
+    {
+      "feedbackId": "67407c8d-7abe-42fc-901b-5a354140041a",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Reconozco tu esfuerzo esta semana: dominas bien los cálculos de pH y pOH, y aplicas las fórmulas con precisión. Eso es un logro importante que demuestra que la práctica está funcionando.\n\nSin embargo, tu reporte es muy breve y no refleja el análisis profundo que esperamos en Fase 2. Identificar variables no es solo hacer ejercicios correctamente, sino *entender qué datos tienes, cuáles buscas, y cómo se relacionan*. Esto es fundamental para el pensamiento crítico.\n\nPara la próxima semana, te pido que: (1) antes de resolver cada problema, hagas una lista explícita de variables clasificadas, (2) reflexiones honestamente sobre qué te cuesta (todos tenemos dificultades), y (3) completes la sección de comentarios adicionales con observaciones propias sobre tu aprendizaje.",
+      "strengths": "• Dominio de cálculos matemáticos: Aplicas correctamente las fórmulas logarítmicas (pH = -log[H⁺]) y la relación pH + pOH = 14, demostrando precisión en operaciones químicas fundamentales.\n• Integración de conceptos previos: Reconoces la conexión entre concentración molar y pH/pOH, evidenciando que relacionas temas de sesiones anteriores de forma coherente.\n• Autonomía en el aprendizaje: Mencionas que \"raramente consultas la teoría\" al resolver ejercicios, lo que sugiere confianza y práctica consistente en los procedimientos.",
+      "improvements": "• Identificación explícita de variables: En Fase 2 debes clasificar cada variable del problema (ej: concentración [H⁺] = 3,2×10⁻⁴ M es variable *conocida y controlable*; pH es variable *desconocida*). Practica haciendo una tabla de variables antes de resolver cada ejercicio.\n• Reflexión sobre dificultades reales: Decir \"nada fue difícil\" no es realista ni útil. Identifica desafíos específicos: ¿Confundes pH con pOH? ¿Te cuesta distinguir ácidos fuertes de débiles? Propón estrategias concretas (ej: crear un diagrama de flujo para clasificar variables).\n• Profundidad en conexiones: Tu conexión con molaridad es correcta pero superficial. Amplía explicando *cómo* la concentración afecta el pH, o cómo identificarías variables en problemas más complejos (ej: soluciones amortiguadoras). Esto prepara mejor la Fase 3.",
+      "createdAt": "2025-11-03T12:19:23.518Z"
+    },
+    {
+      "feedbackId": "822804ef-c134-48ee-ad5c-08f2c9c7ac0d",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Veo que estás progresando en confianza y que comprendes bien los conceptos teóricos de ácidos y bases. Tu conexión entre Brönsted-Lowry y estructuras de Lewis muestra que estás integrando el conocimiento de forma coherente, lo cual es excelente.\n\nSin embargo, tu reporte esta semana no refleja completamente lo que la Fase 2 requiere. La identificación y clasificación sistemática de variables es el corazón de esta fase, y tus respuestas se enfocaron más en conceptos teóricos que en el análisis de variables. Además, reportar que \"nada fue complicado\" puede indicar que no estás desafiándote lo suficiente o reflexionando críticamente sobre tu propio proceso.\n\nPara la próxima semana, te invito a ser más específica: lista las variables en cada problema, clasifícalas, e identifica al menos una dificultad real. Completa también la sección de comentarios adicionales. Esto te ayudará a desarrollar el pensamiento crítico que es el objetivo de esta fase.",
+      "strengths": "• Integración teórica clara: En Q2, conectas correctamente la teoría de Brönsted-Lowry con la resolución del ejercicio, demostrando que comprendes cómo aplicar conceptos previos a nuevas situaciones.\n• Confianza y consistencia: Tu comentario sobre sentirte \"más confiada cada día\" refleja una actitud positiva hacia el aprendizaje y disposición para practicar regularmente, lo que es fundamental para dominar Química.\n• Conexiones entre temas: Identificas la relación entre ácidos-bases y estructuras de Lewis, mostrando que ves cómo los conceptos se conectan más allá de lecciones aisladas.",
+      "improvements": "• Identificar variables explícitamente en Q1: En lugar de solo mencionar el tema, lista las variables clave del tema (ej: \"pH, concentración, fuerza del ácido, capacidad donadora de protones\"). Esto es lo que la Fase 2 requiere. Practica clasificando cada una como conocida/desconocida y controlable/no controlable.\n• Reflexionar sobre dificultades reales en Q3: Aunque te sientas confiada, siempre hay desafíos. Pregúntate: ¿Cómo diferencio un ácido fuerte de uno débil? ¿Qué variables afectan el pH? Identifica al menos una dificultad específica y propón una estrategia concreta para resolverla.\n• Completar la sección Q5 con reflexión metacognitiva: Dedica 3-4 líneas a reflexionar sobre cómo ha evolucionado tu forma de identificar variables desde Fase 1. ¿Qué has aprendido sobre el proceso? ¿Qué te gustaría mejorar? Esto demuestra pensamiento crítico profundo.",
+      "createdAt": "2025-11-12T22:53:22.406Z"
+    },
+    {
+      "feedbackId": "52ab8293-70ce-48b0-88c1-d2df120925f1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Felicidades por tu desempeño en los cálculos esta semana. Tu trabajo con la molaridad de Ba(OH)² muestra que comprendes bien las operaciones matemáticas y que eres responsable con tu aprendizaje al revisar teoría cuando lo necesitas.\n\nSin embargo, tu reporte revela una brecha importante: dominas los *cálculos*, pero aún no estás identificando y clasificando sistemáticamente las *variables* que hay detrás de esos cálculos. La Fase 2 no es solo hacer ejercicios correctamente, sino entender qué variables están en juego, cuáles controlas y cuáles no, y por qué importa.\n\nPara la próxima semana, te pido que en cada problema hagas una lista explícita de variables (conocidas/desconocidas, controlables/no controlables) antes de resolver. Esto te preparará mejor para la Fase 3 y profundizará tu pensamiento crítico.",
+      "strengths": "• Precisión en cálculos: Tu procedimiento para calcular la molaridad de Ba(OH)² es correcto y bien estructurado. Demuestras dominio operativo de las fórmulas químicas.\n• Autonomía en el aprendizaje: Mencionas que cuando dudas, chequeas la teoría y entiendes rápido. Esto muestra iniciativa y responsabilidad en tu propio proceso de aprendizaje.\n• Claridad en la explicación: Tu respuesta en Q2 es ordenada y fácil de seguir paso a paso, lo que facilita entender tu razonamiento.",
+      "improvements": "• Identificación explícita de variables: En tus ejercicios, necesitas listar y clasificar todas las variables involucradas. Por ejemplo, en el cálculo de Ba(OH)²: masa (conocida), masa molar (conocida), volumen (conocida), moles (desconocida inicial), molaridad (desconocida). Hazlo de forma sistemática en cada problema.\n• Profundidad en la reflexión metacognitiva: Cuando dices \"nada fue difícil,\" pierdes la oportunidad de analizar realmente dónde dudas. Sé específico: ¿Confundes variables controlables con no controlables? ¿Tienes dificultad distinguiendo magnitudes intensivas de extensivas? Esto es clave para mejorar.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Aquí debes reflexionar sobre la importancia de las variables en química, cómo ha evolucionado tu comprensión desde la Fase 1, o qué categorías propias descubriste. No dejes espacios sin responder.",
+      "createdAt": "2025-11-17T13:47:25.849Z"
+    }
+  ]
+}

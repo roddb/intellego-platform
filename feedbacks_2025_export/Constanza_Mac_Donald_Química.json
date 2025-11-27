@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "studentId": "u_wqdxobbqpme348kw4",
+    "studentName": "Constanza Mac Donald",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.194874",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 56.23,
+      "minScore": 40,
+      "maxScore": 66,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Hola Constanza Mac Donald, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Muestras claridad al identificar información relevante e irrelevante en problemas de equilibrio químico. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase. Busca aplicaciones prácticas de pensamiento crítico en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente información relevante (concentraciones, temperatura, moles) e irrelevante (equipos, condiciones externas) en problemas de equilibrio químico",
+        "Propones información adicional útil como la constante de equilibrio y el cociente de reacción",
+        "Reconoces con honestidad tus limitaciones y necesidad de apoyo para aplicar conceptos a situaciones nuevas"
+      ],
+      "improvements": [
+        "Practica la aplicación de conceptos de equilibrio químico a situaciones nuevas y variadas sin depender completamente de la IA",
+        "Desarrolla estrategias propias para resolver problemas antes de consultar ayuda externa",
+        "Profundiza en la comprensión conceptual del pensamiento crítico y sus pasos específicos"
+      ],
+      "createdAt": "2025-10-07 09:13:06"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 59,
+      "generalComments": "Hola Constanza Mac Donald, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas adecuadamente las variables en problemas de buffer y sistemas de equilibrio. Necesitas fortalecer tu comprensión del contexto químico antes de clasificar variables. Es importante investigar conceptos nuevos como buffers o equilibrio ácido-base de manera proactiva. Busca conectar los aprendizajes de química con otras materias. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Clasificas correctamente variables conocidas (concentraciones, volumen, pH objetivo) y desconocidas en el problema del buffer de acetato",
+        "Identificas variables controlables (cantidades de sustancias) y no controlables (temperatura ambiente, impurezas)",
+        "Reconoces honestamente cuando no comprendes un concepto y buscas información adicional"
+      ],
+      "improvements": [
+        "Investiga de manera anticipada los conceptos nuevos que aparecen en los problemas antes de comenzar a resolverlos",
+        "Trabaja en identificar el tipo de equilibrio químico (ácido-base, redox, etc.) a partir del contexto del problema",
+        "Establece conexiones entre la Fase 2 de Química y procesos similares en otras materias como Física o Matemática"
+      ],
+      "createdAt": "2025-10-07 09:13:32"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 66,
+      "generalComments": "Hola Constanza Mac Donald, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Seleccionas apropiadamente la fórmula de Qc y la aplicas correctamente al problema de predicción de dirección de reacción. Necesitas fortalecer tu comprensión de conceptos más complejos como equilibrios múltiples. Dedica tiempo adicional a estudiar temas que requieren mayor esfuerzo antes de intentar los ejercicios. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la fórmula del cociente de reacción (Qc) para calcular su valor numérico",
+        "Utilizas adecuadamente el criterio de dirección de reacción comparando Qc con Kc",
+        "Demuestras perseverancia al buscar explicaciones adicionales cuando un ejercicio te resulta difícil"
+      ],
+      "improvements": [
+        "Estudia de manera anticipada los conceptos de equilibrio múltiple y otras herramientas complejas",
+        "Practica la justificación de por qué seleccionas determinadas fórmulas en cada situación",
+        "Refuerza tu comprensión teórica antes de aplicar las herramientas matemáticas"
+      ],
+      "createdAt": "2025-10-07 09:14:13"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 66,
+      "generalComments": "Hola Constanza Mac Donald, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas correctamente el cálculo completo de Kc aplicando la fórmula con las concentraciones molares adecuadas. Es importante prestar mayor atención a la notación química y las transformaciones que ocurren en las reacciones. Cuando el enunciado no sea completamente claro, plantea tus dudas antes de proceder con la resolución. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Calculas correctamente las concentraciones molares dividiendo moles entre volumen",
+        "Aplicas adecuadamente la fórmula de Kc con los exponentes estequiométricos correspondientes",
+        "Integras conocimientos de las fases anteriores para ejecutar la resolución completa"
+      ],
+      "improvements": [
+        "Presta mayor atención a la notación química y las especies que se forman en las reacciones (SO vs SO2)",
+        "Desarrolla el hábito de identificar todas las especies químicas presentes antes de comenzar los cálculos",
+        "Consulta activamente cuando un enunciado no especifica claramente las transformaciones químicas"
+      ],
+      "createdAt": "2025-10-07 09:14:13"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 57,
+      "generalComments": "Hola Constanza Mac Donald, te encuentras en proceso de desarrollo en un modelo de examen integrando las 4 fases, mostrando avances parciales en Química. Demuestras capacidad para ejecutar el proceso completo de resolución identificando problema, variables, herramientas y cálculo final. Necesitas fortalecer tu comprensión de la estequiometría y las relaciones molares en reacciones de equilibrio. Dedica tiempo adicional a estudiar y practicar ejercicios de relaciones estequiométricas. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Documentas el proceso completo de las 4 fases: problema, variables, herramientas y cálculo",
+        "Identificas correctamente el objetivo final (calcular Kc) y las concentraciones en equilibrio",
+        "Aplicas correctamente la fórmula de Kc una vez que comprendes las cantidades de cada especie"
+      ],
+      "improvements": [
+        "Refuerza tu comprensión de estequiometría para determinar cuántos moles de cada producto se forman",
+        "Practica la construcción de tablas de cambio molar (inicial, cambio, equilibrio) antes de calcular",
+        "Consulta activamente cuando tengas dudas sobre relaciones estequiométricas en lugar de continuar con incertidumbre"
+      ],
+      "createdAt": "2025-10-07 09:15:01"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 57,
+      "generalComments": "Hola Constanza Mac Donald, continúas trabajando en modelos de examen integrando las 4 fases, mostrando avances parciales en Química. Resuelves correctamente el problema de síntesis de amoníaco utilizando la variable X para representar los cambios estequiométricos. Necesitas consolidar el manejo de cantidades iniciales y finales para evitar confusiones durante la resolución. Practica ejercicios donde debas construir tablas completas de inicial-cambio-equilibrio. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Utilizas correctamente la variable X para representar los cambios estequiométricos en la reacción",
+        "Calculas adecuadamente las concentraciones molares iniciales con los datos de moles y volumen",
+        "Resuelves el sistema encontrando el valor de X y sustituyéndolo para obtener concentraciones finales"
+      ],
+      "improvements": [
+        "Organiza mejor los datos iniciales y finales para evitar confusiones durante el proceso de resolución",
+        "Practica la construcción sistemática de tablas ICE antes de proceder con cálculos",
+        "Verifica cada paso del proceso para asegurar coherencia entre cantidades iniciales, cambios y valores finales"
+      ],
+      "createdAt": "2025-10-07 09:15:01"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 50,
+      "generalComments": "Hola Constanza Mac Donald, continúas trabajando en modelos de examen donde integras las 4 fases del pensamiento crítico en Química. Calculas correctamente la constante de equilibrio Kc aplicando la fórmula con las concentraciones molares. Necesitas fortalecer significativamente tu comprensión del Principio de Le Chatelier y ejercicios de perturbación. Es prioritario estudiar la teoría de Le Chatelier antes de intentar ejercicios de predicción de desplazamiento. Ten presente que las herramientas digitales pueden tener variaciones en resultados numéricos respecto a los materiales oficiales. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante.",
+      "strengths": [
+        "Calculas correctamente las concentraciones molares dividiendo moles entre volumen",
+        "Aplicas adecuadamente la fórmula de Kc con los valores correspondientes",
+        "Identificas honestamente las áreas donde experimentas mayor dificultad"
+      ],
+      "improvements": [
+        "Estudia en profundidad el Principio de Le Chatelier y sus aplicaciones a distintos tipos de perturbaciones",
+        "Practica ejercicios cualitativos de predicción de desplazamiento antes de calcular valores numéricos",
+        "Consulta siempre los materiales oficiales del curso para verificar resultados en lugar de depender únicamente de la IA"
+      ],
+      "createdAt": "2025-10-07 09:15:52"
+    },
+    {
+      "feedbackId": "fb_002_1_me348kw4_2025-09-29_008",
+      "weekStart": "2025-09-29",
+      "score": 50,
+      "generalComments": "Hola Constanza Mac Donald, finalizas el ciclo de equilibrio químico trabajando en una actividad integradora de las 4 fases. Demuestras capacidad para construir tablas de cantidades iniciales y en equilibrio, y calcular concentraciones molares. Necesitas fortalecer significativamente tu comprensión conceptual de la teoría de equilibrio químico. Es prioritario dedicar tiempo al estudio profundo de los fundamentos teóricos antes de abordar ejercicios complejos. Reconoce que tu mayor fortaleza es la ejecución de cálculos procedimentales, pero necesitas equilibrarla con comprensión conceptual. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante.",
+      "strengths": [
+        "Construyes correctamente tablas con cantidades iniciales e incógnitas para cantidades en equilibrio",
+        "Resuelves las incógnitas algebraicas utilizando las relaciones estequiométricas",
+        "Calculas adecuadamente las concentraciones molares para aplicar en la fórmula de Kc"
+      ],
+      "improvements": [
+        "Dedica tiempo significativo al estudio de la teoría de equilibrio químico antes de practicar ejercicios",
+        "Trabaja en comprender el significado conceptual de cada término y fórmula, no solo en aplicarlos mecánicamente",
+        "En las preguntas teóricas de Fase 1, profundiza en la problemática y el objetivo en lugar de respuestas superficiales"
+      ],
+      "createdAt": "2025-10-07 09:15:52"
+    },
+    {
+      "feedbackId": "191d6f9d-5573-4e8e-abe8-ec347ca61ed3",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:53:24.689Z"
+    },
+    {
+      "feedbackId": "7bb95b5b-e7fa-4972-a870-875a4084f407",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:41:08.188Z"
+    },
+    {
+      "feedbackId": "cb99b2b7-abff-44ac-9ad7-c5843d40684e",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 40,
+      "generalComments": "Veo que estás trabajando en ácidos y bases y que tu cálculo en Q2 es correcto, lo que muestra que tienes base matemática. Sin embargo, tu reporte es muy superficial y no refleja el trabajo profundo que Fase 2 requiere.\n\nEl problema principal es que respondes de forma muy breve sin desarrollar tus ideas. Necesitas ser más específico: en lugar de \"voy bien\", explica qué variables identificaste, cómo las clasificaste y qué dificultades encontraste. Esto es lo que te pide la rúbrica.\n\nPara la próxima semana, dedica tiempo a escribir respuestas completas. Identifica al menos 5 variables en cada problema de ácidos/bases, clasifícalas (conocidas/desconocidas, controlables/no controlables) y reflexiona sobre qué te cuesta. Así tu reporte será mucho más valioso para tu aprendizaje.",
+      "strengths": "• Cálculo matemático correcto: En Q2 aplicas correctamente la constante del agua (Kw = 1,0 × 10⁻¹⁴) y despejas la incógnita sin errores algebraicos. Esto muestra que dominas el procedimiento operativo.\n• Reconocimiento de necesidad de práctica: En Q1 mencionas que \"necesitas práctica\", lo que indica cierta conciencia de que requieres refuerzo. Este es el primer paso para mejorar.\n• Trabajo en tema relevante: Estás ejercitando ácidos y bases, un tema fundamental en química que requiere precisión. Tu enfoque en este contenido es apropiado.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de solo resolver ejercicios, detalla qué variables usas. Por ejemplo: \"[H3O+] es conocida (1,0 × 10⁻⁵ M), [OH-] es desconocida, ambas son no controlables en la solución.\" Esto es lo que Fase 2 te pide.\n• Reflexiona sobre dificultades reales: No digas \"voy bien\" sin más. Pregúntate: ¿Confundo pH con pOH? ¿Me cuesta diferenciar ácidos fuertes de débiles? ¿Identifico mal qué es controlable? Escribe 2-3 dificultades específicas y una estrategia para cada una.\n• Conecta con fenómenos reales: En Q4, explica cómo las variables de ácidos/bases aparecen en situaciones cotidianas (pH del agua de piscina, acidez del jugo de limón, etc.). Esto ayuda a transferir tu aprendizaje a nuevos contextos.",
+      "createdAt": "2025-10-27T05:01:49.208Z"
+    },
+    {
+      "feedbackId": "99ec00ab-6a97-4dad-bf06-8fff14477668",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que estás trabajando en Fase 2, pero tu reporte muestra que aún necesitas profundizar en la identificación y clasificación sistemática de variables, que es el corazón de esta fase. Tu trabajo en Q2 es prometedor: resolviste correctamente un problema ácido/base, lo que indica que tienes las herramientas matemáticas. Sin embargo, no explicitas el *proceso de pensamiento* detrás de esa resolución.\n\nEsta semana hiciste un esfuerzo, pero el reporte es muy breve y genérico. Necesitas ser más específico: en lugar de \"me costó el ejercicio 11.12 B\", explica *qué* te costó y *cómo* lo superarás. Esto es fundamental para desarrollar pensamiento crítico real.\n\nPara la próxima semana, te pido que amplíes significativamente tus respuestas y que en cada problema identifiques explícitamente: variables conocidas, desconocidas, controlables y no controlables. Esto te ayudará a dominar Fase 2 completamente.",
+      "strengths": "• Aplicación práctica de fórmulas: En Q2 demuestras que puedes usar correctamente la constante de autoionización del agua (Kw) y la fórmula de pH en un problema real, lo que muestra comprensión operativa de los conceptos.\n• Autoconciencia inicial: Reconoces tu nivel de dominio (\"nivel 1\") en ácido/base, lo que indica que tienes conciencia de dónde estás y que necesitas seguir practicando.\n• Resolución sistemática: Tu proceso en Q2 (identificar datos → aplicar constante → calcular pH) muestra que intentas seguir pasos ordenados, aunque no los explicites completamente.",
+      "improvements": "• Identificación explícita de variables: En tus respuestas no distingues entre variables conocidas ([H3O+] = dato), desconocidas ([OH-], pH = incógnitas) ni controlables. Practica escribiendo al inicio de cada problema: \"Datos: ...\", \"Incógnitas: ...\", \"Magnitudes físicas: ...\". Esto es central en Fase 2.\n• Profundidad en dificultades: Cuando menciones que algo te costó (como el ejercicio 11.12 B), especifica qué: ¿No entendiste qué variables había?, ¿Cómo clasificarlas?, ¿Qué relaciones entre ellas? Luego propón una estrategia concreta (ej: \"Haré un diagrama de variables\").\n• Conexiones con fenómenos reales: En Q4, en lugar de decir \"se conecta con análisis químico\", ejemplifica: \"Las variables pH y [H+] determinan si una reacción ocurre en nuestro estómago\" o \"En la industria, controlar [OH-] es crítico para...\". Esto demuestra transferencia real.",
+      "createdAt": "2025-11-12T22:50:47.734Z"
+    },
+    {
+      "feedbackId": "53206335-b800-4b88-8b5f-b781dc526339",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que estás trabajando en Fase 2, pero tu reporte muestra que aún no has interiorizado completamente qué significa \"identificar y clasificar variables.\" Tu cálculo de concentración molar está correcto, lo que demuestra que sabes hacer los procedimientos, pero te falta el análisis sistemático de variables que es el corazón de esta fase.\n\nEsta semana tu desempeño ha sido parcial: tienes las habilidades técnicas (cálculos bien hechos), pero necesitas desarrollar el pensamiento crítico que acompaña esos cálculos. Identificar variables no es solo saber qué datos tienes; es entender qué puedes controlar, qué no, y cómo se relacionan entre sí.\n\nPara la próxima semana, te pido que hagas esto: en cada problema que resuelvas, antes de calcular, escribe una tabla con tres columnas: \"Variables conocidas,\" \"Variables desconocidas\" y \"Variables controlables/no controlables.\" Esto te ayudará a entrenar el pensamiento de Fase 2 y verás cómo mejora tu análisis.",
+      "strengths": "• Aplicación correcta de fórmulas: Tu cálculo de concentración molar está bien ejecutado (3,42 g ÷ 171 g/mol ÷ 1 L = 0,02 mol/L). Demuestras que sabes manipular datos numéricos correctamente.\n• Reconocimiento de progreso: Mencionas que \"dominas bien\" la actividad colaborativa, lo que indica confianza en tu trabajo. Es positivo que sientas seguridad en lo que haces.\n• Conexión con contenidos previos: Intentas vincular el tema actual con química del año, mostrando que ves relaciones entre temas, aunque necesites desarrollar esto más.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En tu respuesta Q2, deberías haber escrito algo como: \"Variables conocidas: masa (3,42 g), volumen (1 L), masa molar (171 g/mol). Variable desconocida: concentración molar. Variable controlable: el volumen de la solución.\" Esto es lo que Fase 2 pide que hagas sistemáticamente.\n• Reflexiona sobre dificultades reales: En Q3, necesitas ser honesto sobre qué te cuesta. Por ejemplo: \"Me cuesta diferenciar entre variables controlables y no controlables en reacciones químicas\" o \"Tengo dudas al identificar magnitudes físicas en problemas complejos.\" Luego propón estrategias: \"Haré una tabla de clasificación para cada problema.\"\n• Desarrolla conexiones con ejemplos concretos: En Q4, en lugar de decir \"se conecta con todo,\" especifica: \"Las variables de concentración que identifiqué aquí (masa, volumen, moles) aparecen también en problemas de dilución, reacciones en solución y estequiometría.\" Muestra transferencia real a nuevos contextos.",
+      "createdAt": "2025-11-17T13:53:55.083Z"
+    }
+  ]
+}

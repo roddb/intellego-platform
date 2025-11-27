@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "studentId": "eb968629-8899-4b2a-9a43-b36186960fd6",
+    "studentName": "Tadeo Ancarola",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.234557",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 56.1,
+      "minScore": 27,
+      "maxScore": 88,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_86960fd6_2025-08-11_4f0aaa27",
+      "weekStart": "2025-08-11",
+      "score": 86,
+      "generalComments": "Excelente trabajo en la Fase 2. Demuestras una comprensión profunda de la identificación y clasificación de variables en sistemas buffer. Tu capacidad para distinguir entre variables controlables y no controlables, así como tu aplicación de la ecuación de Henderson-Hasselbalch, evidencian un nivel avanzado de dominio (Nivel 4). Has logrado integrar exitosamente las fases 1 y 2 del proceso de pensamiento crítico.",
+      "strengths": [
+        "Identificación sistemática y completa de todas las variables relevantes en el problema del buffer de acetato",
+        "Clasificación precisa de variables según control y determinabilidad",
+        "Excelente integración de teoría (sistemas buffer) con aplicación práctica concreta",
+        "Uso apropiado de herramientas matemáticas (Henderson-Hasselbalch) para resolver el problema",
+        "Conexión efectiva con conceptos de química y biología, demostrando pensamiento interdisciplinario"
+      ],
+      "improvements": [
+        "Para mejorar aún más, intenta anticipar el impacto relativo de cada variable no controlable (ej: temperatura) en el resultado final",
+        "Profundiza la reflexión metacognitiva sobre qué te resultó más difícil en la clasificación de variables",
+        "Considera desarrollar ejemplos adicionales de aplicación del método a otros sistemas químicos"
+      ],
+      "createdAt": "2025-10-05 05:24:45"
+    },
+    {
+      "feedbackId": "fb_backfill_86960fd6_2025-08-18_18f96ddf",
+      "weekStart": "2025-08-18",
+      "score": 88,
+      "generalComments": "Sobresaliente desempeño en la Fase 2. Tu trabajo con el buffer de bicarbonato demuestra dominio metodológico completo (Nivel 4). Has identificado todas las variables relevantes, las clasificaste sistemáticamente y aplicaste la ecuación de Henderson-Hasselbalch con precisión. Especialmente destacable es tu verificación experimental con papel indicador, lo que muestra comprensión práctica integral del concepto.",
+      "strengths": [
+        "Aplicación impecable de la metodología completa: identificación del problema, determinación de variables, clasificación y verificación experimental",
+        "Cálculo correcto usando Henderson-Hasselbalch con ajuste de proporciones preciso",
+        "Implementación de verificación práctica (papel indicador), demostrando pensamiento científico completo",
+        "Excelente reflexión sobre la importancia del control de variables para resultados confiables",
+        "Conexión clara entre teoría química/biológica y aplicación experimental"
+      ],
+      "improvements": [
+        "Aunque tu desempeño es excelente, podrías profundizar en: por qué el bicarbonato es preferible al acetato para pH 6.4 (análisis del pKa)",
+        "Amplía la reflexión metacognitiva sobre cómo evolucionó tu comprensión entre este ejercicio y el anterior",
+        "Explora métodos alternativos de verificación del pH más allá del papel indicador"
+      ],
+      "createdAt": "2025-10-05 05:24:45"
+    },
+    {
+      "feedbackId": "fb_backfill_86960fd6_2025-09-22_70df812d",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Esta semana no hubo actividad académica debido a la ausencia del profesor. Es importante que aproveches el tiempo de manera autónoma cuando surgen estas situaciones. Podrías revisar material previo, resolver ejercicios adicionales o adelantar lecturas para la próxima clase.",
+      "strengths": [
+        "Comunicación clara de la situación excepcional (ausencia del profesor)"
+      ],
+      "improvements": [
+        "Desarrolla hábitos de estudio autónomo para aprovechar semanas sin clases presenciales",
+        "Considera revisar los temas de Fases 1 y 2 (identificación de problemas y variables) para consolidar lo aprendido",
+        "Busca ejercicios adicionales de práctica en recursos online o el cuadernillo para mantener continuidad"
+      ],
+      "createdAt": "2025-10-05 05:24:45"
+    },
+    {
+      "feedbackId": "4033e8ce-5b65-4df9-bcff-a75beaa840de",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:24:29.198Z"
+    },
+    {
+      "feedbackId": "25cded6d-4598-48d1-948e-b49f9e64130c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:45:27.080Z"
+    },
+    {
+      "feedbackId": "3e1b9529-29b0-4290-b168-deb5b3dba4cf",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:26:33.559Z"
+    },
+    {
+      "feedbackId": "c6578e4d-1639-492d-929c-2241fd50805d",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que entiendes los conceptos básicos de pH y acidez, lo cual es un buen punto de partida. Sin embargo, tu reporte muestra que aún no has internalizado completamente el objetivo de Fase 2: identificar y clasificar sistemáticamente todas las variables de un problema, no solo mencionar algunas.\n\nEsta semana tu desempeño ha sido inicial. Las respuestas son muy breves y les falta profundidad analítica. Notablemente, Q5 está vacía, lo que sugiere que no reflexionaste sobre el proceso completo. Además, no veo evidencia de que hayas hecho listas de variables ni que las hayas clasificado según los criterios que trabajamos.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas, especialmente Q5; (2) hagas listas explícitas de variables en cada problema que trabajes; (3) clasifiques cada variable en una tabla. Esto te ayudará a desarrollar el pensamiento sistemático que necesitas para Fase 3.",
+      "strengths": "• Reconocimiento de conceptos clave: Identificas correctamente que pH < 7 indica acidez y que H₃O⁺ es importante en soluciones ácidas. Esto muestra comprensión básica del tema.\n• Metacognición presente: En Q3 reflexionas sobre tu propia confusión (pH vs pOH) y describes cómo la resolviste. Esto es un buen hábito de pensamiento crítico.\n• Disposición a revisar: Mencionas \"revisando vimos que solo depende del pH\", lo que indica que buscas aclarar dudas activamente.",
+      "improvements": "• Identificación incompleta de variables: Solo mencionas pH y H₃O⁺, pero faltan otras variables cruciales como concentración total, temperatura, pOH, constante de ionización (Ka). En Fase 2 debes hacer listas sistemáticas. Practica: crea una tabla con todas las variables de un problema de pH, clasificándolas en conocidas/desconocidas y controlables/no controlables.\n• Falta de clasificación de variables: No distingues entre variables controlables (concentración inicial) y no controlables (temperatura del ambiente), ni entre conocidas y desconocidas. Esto es central en Fase 2. Sugerencia: para cada problema, haz dos columnas: \"Puedo controlar\" y \"No puedo controlar\", y otra para \"Sé el valor\" vs \"Debo calcular\".\n• Conexiones superficiales con fenómenos reales: Tu conexión con Matemática es vaga. Debes conectar variables con situaciones concretas (ej: \"En un laboratorio, controlamos la concentración de HCl para obtener pH específico\"). Intenta describir un experimento real donde identifiques qué variables cambias y cuáles permanecen fijas.",
+      "createdAt": "2025-10-27T04:54:39.722Z"
+    },
+    {
+      "feedbackId": "898769b9-4933-489b-9c1d-6f0d504d54b2",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor fue una situación fuera de tu control, y lo siento. Sin embargo, un reporte de pensamiento crítico debe mostrar tu esfuerzo personal, incluso en semanas difíciles. Esta semana no hay evidencia de trabajo académico que pueda evaluar.\n\nTu desempeño en esta semana es inicial (Nivel 1) porque no hay contenido que demostrar. Esto no significa que no puedas mejorar rápidamente, pero necesito ver que tomas iniciativa en tu aprendizaje.\n\nPara la próxima semana, te pido que: (1) asistas a clase y participes activamente, (2) si hay otra ausencia, trabaja de forma independiente en identificar variables en problemas de química, y (3) completa el reporte con reflexiones genuinas sobre lo que aprendiste o intentaste aprender. Estoy aquí para apoyarte, pero necesito que también hagas tu parte.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en términos de aprendizaje académico. Sin embargo, reconozco que comunicaste claramente la situación de la semana.",
+      "improvements": "• Falta de contenido académico: Aunque la ausencia del profesor es una circunstancia válida, el reporte debe reflejar qué hiciste de forma independiente para avanzar en tu aprendizaje. Te sugiero: revisa los apuntes de la Fase 1, intenta identificar variables en problemas de tu libro de texto, o consulta recursos en línea sobre clasificación de variables en experimentos químicos.\n• Respuestas repetitivas sin reflexión: Copiar la misma justificación en todas las preguntas no permite que yo entienda tu proceso de pensamiento. Para la próxima semana: aunque no haya clase, dedica tiempo a escribir qué intentaste aprender por tu cuenta, qué dudas tienes, y cómo podrías resolver problemas similares a los de la Fase 2.\n• Reporte incompleto: La pregunta 5 está sin responder. Esto sugiere falta de esfuerzo en completar la tarea. Compromiso: completa todos los campos del reporte, incluso si es para escribir \"No tengo comentarios adicionales en este momento\" de forma reflexiva.",
+      "createdAt": "2025-11-03T12:19:17.468Z"
+    },
+    {
+      "feedbackId": "20ea2bc7-c6d5-4f21-adcf-41ffe6cd1866",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta ha sido una semana sin clases, lo que explica completamente la ausencia de contenido en tu reporte. Aprecio tu honestidad al reportar la situación en lugar de intentar completar respuestas sin fundamento.\n\nSin embargo, esto significa que no hemos podido evaluar tu progreso en la Fase 2 de pensamiento crítico. Es importante que cuando regreses a clases, te enfoques en recuperar el tiempo perdido y consolidar los conceptos de identificación y clasificación de variables.\n\nPara la próxima semana, espero recibir un reporte completo con evidencia de tu trabajo en clase. Si tienes dudas sobre los temas de Fase 2, no dudes en consultar con tu profesor o usar los recursos disponibles en Intellego.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de clases impide evaluar tu desempeño académico real. Sin embargo, reconozco que reportaste honestamente la situación en lugar de entregar respuestas incompletas o falsas.",
+      "improvements": "• Comunicación proactiva: Si no hay clases, es importante que notifiques a tu profesor con anticipación o que consultes el material de estudio disponible en la plataforma Intellego. No esperes a la evaluación semanal para reportar esta situación.\n• Recuperación de contenido: Una vez regreses a clases, dedica tiempo a revisar los temas de Fase 2 (identificación de variables, clasificación, magnitudes físicas). Puedes usar recursos en línea o pedir apoyo a compañeros para ponerte al día rápidamente.\n• Completitud del reporte: Aunque no haya habido clase, intenta responder las preguntas con lo que sí hayas trabajado de forma independiente o con tareas previas. Esto mantiene el hábito de reflexión crítica incluso en semanas atípicas.",
+      "createdAt": "2025-11-12T22:51:04.426Z"
+    },
+    {
+      "feedbackId": "948fd0ea-e632-4615-81b9-c270c32508c2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Tu reporte muestra que comprendiste los conceptos químicos de esta semana (equilibrio iónico, pH, ácidos/bases) y que trabajaste con variables. Sin embargo, tu respuesta se queda en el nivel conceptual sin demostrar la *sistematización* que exige la Fase 2. Reconozco tu esfuerzo en resolver problemas colaborativamente y tus conexiones interdisciplinarias son genuinas.\n\nLo que observo es que entiendes *qué* son las variables, pero aún necesitas practicar *cómo* clasificarlas y documentar ese proceso. Tu desempeño esta semana es sólido en comprensión, pero requiere más rigor en la identificación y organización de datos.\n\nPara la próxima semana, te pido que seas más explícito: cuando identifiques variables, escribe una lista clara, clasifícalas según los criterios aprendidos, y reflexiona sobre por qué cada clasificación tiene sentido. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Reconocimiento del equilibrio como concepto central: Entiendes que \"todo depende del equilibrio iónico\" y que los solutos \"desplazan ese equilibrio\". Esto muestra comprensión de cómo las variables interactúan en sistemas químicos.\n• Conexiones interdisciplinarias: Relacionas el pH con logaritmos (Matemática), equilibrio dinámico (Física) y actividad enzimática (Biología). Esto demuestra pensamiento integrador más allá de la Química pura.\n• Resolución colaborativa de dificultades: Mencionas que \"lo resolvimos juntos paso por paso y salió natural\", lo que indica disposición para aprender y capacidad de trabajo en equipo.",
+      "improvements": "• Falta clasificación sistemática de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables en tus ejemplos. Sugerencia: En la próxima tarea, crea una tabla con dos columnas (Conocidas | Desconocidas) y otra (Controlables | No controlables) para cada problema. Esto te ayudará a ser más preciso.\n• Evidencia incompleta de aplicación de Fase 1+Fase 2: Tu respuesta en Q2 es conceptual pero sin ejemplos concretos. Sugerencia: Adjunta fotos o descripciones de los ejercicios específicos que resolviste, listando explícitamente qué variables identificaste en cada uno. Esto demostrará integración real de las fases.\n• Ausencia de reflexión en Q5: Dejaste en blanco la sección de comentarios adicionales. Sugerencia: Dedica 3-5 minutos a escribir: ¿Qué aprendiste sobre *cómo* identificar variables? ¿Qué estrategia te funcionó mejor? ¿Cómo evolucionaste desde la Fase 1? Esto es crucial para tu metacognición.",
+      "createdAt": "2025-11-17T13:51:34.110Z"
+    }
+  ]
+}

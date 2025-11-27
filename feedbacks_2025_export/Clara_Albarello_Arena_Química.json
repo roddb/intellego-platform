@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "studentId": "u_u044khertme06lo0d",
+    "studentName": "Clara Albarello Arena",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.193813",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 60.75,
+      "minScore": 45,
+      "maxScore": 68,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-08"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "0acc375876508c15de4deb891b965675",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Clara demuestra un esfuerzo inicial importante en la comprensión del pensamiento crítico aplicado a química. Aunque reconoce que su dominio es bajo, muestra una actitud reflexiva al intentar entender los procesos químicos antes de actuar, lo cual es fundamental en esta Fase 1 de identificación y comprensión del problema.",
+      "strengths": [
+        "Reconocimiento honesto de su nivel actual y necesidad de apoyo para la comprensión",
+        "Capacidad para conectar conceptos químicos con situaciones cotidianas como inflar neumáticos y globos",
+        "Intención clara de comprender los procesos químicos antes de realizar acciones prácticas"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para abordar conceptos desconocidos en el cuadernillo",
+        "Distinguir con mayor claridad entre información relevante e irrelevante en los problemas",
+        "Incluir reflexiones adicionales sobre el proceso de aprendizaje en la pregunta 5"
+      ],
+      "createdAt": "2025-09-27 23:20:45"
+    },
+    {
+      "feedbackId": "c73587b3-32fc-4ab9-643f-e304822de60f",
+      "weekStart": "2025-08-25",
+      "score": 45,
+      "generalComments": "Clara muestra dificultades importantes en la comprensión y aplicación de los conceptos de gases ideales en la Fase 4. Aunque logra resolver ejercicios básicos con apoyo, reconoce necesitar ayuda constante. Es importante fortalecer las bases conceptuales antes de avanzar.",
+      "strengths": [
+        "Honestidad al reconocer su nivel actual de dominio",
+        "Capacidad para resolver ejercicios básicos con apoyo",
+        "Intento de conectar conceptos con situaciones cotidianas"
+      ],
+      "improvements": [
+        "Revisar conceptos fundamentales de gases ideales desde Fase 1",
+        "Practicar ejercicios progresivos de menor a mayor complejidad",
+        "Desarrollar estrategias de comprensión lectora para enunciados"
+      ],
+      "createdAt": "2025-09-28 14:15:22"
+    },
+    {
+      "feedbackId": "1ca0de2c-7b44-4155-2586-27384b16a289",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Clara demuestra progreso en la resolución de problemas de gases ideales, aunque reconoce necesitar apoyo para completar los ejercicios. Su capacidad para resolver problemas prácticos como el cálculo del tiempo de fuga muestra comprensión aplicada de los conceptos.",
+      "strengths": [
+        "Capacidad para resolver ejercicios de simulacro con aplicación práctica",
+        "Reconocimiento honesto de su nivel de dominio actual",
+        "Conexión de conceptos de gases con situaciones cotidianas"
+      ],
+      "improvements": [
+        "Trabajar en la comprensión autónoma de enunciados complejos",
+        "Desarrollar estrategias específicas para abordar problemas sin ayuda",
+        "Incluir reflexiones más detalladas sobre el proceso de resolución"
+      ],
+      "createdAt": "2025-09-28 14:11:44"
+    },
+    {
+      "feedbackId": "6ab1d6a524ad61477a8d8e39c4220b73",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Clara demuestra progreso en la resolución de problemas de gases ideales, aunque reconoce que aún necesita apoyo externo para completar los ejercicios. Su capacidad de autoevaluación es positiva al identificar un nivel de dominio intermedio.",
+      "strengths": [
+        "Reconoce su nivel actual de dominio con honestidad y precisión",
+        "Identifica y aplica estrategias efectivas para superar dificultades de comprensión",
+        "Conecta los conceptos de química con aplicaciones médicas reales"
+      ],
+      "improvements": [
+        "Desarrollar mayor independencia en la resolución de ejercicios sin ayuda externa",
+        "Detallar más el proceso de resolución al presentar evidencias de aprendizaje",
+        "Profundizar en las conexiones con medicina, explicando aplicaciones específicas"
+      ],
+      "createdAt": "2025-09-27 23:35:49"
+    }
+  ]
+}

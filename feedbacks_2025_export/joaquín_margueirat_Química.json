@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "studentId": "u_0mkknqzfwme0b1gv6",
+    "studentName": "joaquín margueirat",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.243940",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 57.36,
+      "minScore": 27,
+      "maxScore": 77,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me0b1gv6_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Querido Joaquín,\n\nDebido a que no estuvieron en clase durante esta semana, no fue posible evaluar tu progreso en Química. Reconocemos que situaciones inesperadas pueden impedir la asistencia, lo que afecta la posibilidad de completar el reporte semanal. La ausencia de evidencias concretas dificulta la evaluación de tu desempeño en la Fase 1: Identificación y comprensión del problema.\n\nEs fundamental retomar el contacto y recuperar el material de la semana. Queda a tu disposición coordinar conmigo para acceder a los apuntes de clase y recibir el apoyo necesario para ponerte al día. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Valoras la importancia de mantener registro de tu proceso de aprendizaje",
+        "Has iniciado el proceso de reflexión al justificar la causa de tu ausencia",
+        "Reconoces la relevancia de este reporte como parte de tu evaluación"
+      ],
+      "improvements": [
+        "Es fundamental asegurar tu asistencia regular a clase para poder evaluar tu progreso",
+        "Necesitas recuperar los contenidos de la semana para poder completar futuras evaluaciones",
+        "Proporciona evidencias de tu proceso de aprendizaje en reportes posteriores"
+      ],
+      "createdAt": "2025-10-17T13:46:15.973876"
+    },
+    {
+      "feedbackId": "fb_002_1_0b1gv6_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Querido Joaquín, estás trabajando adecuadamente en la Fase 2: Identificación de variables y datos, demostrando comprensión de gases ideales y avance sostenido en la metodología de pensamiento crítico aplicada a Química. Identificas correctamente las variables involucradas en reacciones químicas. Organizas adecuadamente los datos y la información disponible en problemas prácticos. Debes trabajar en la identificación precisa de todas las variables involucradas en diferentes contextos químicos. Es importante mejorar la justificación de por qué seleccionas determinadas variables como relevantes. Buen trabajo, sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en reacciones químicas",
+        "Organizas adecuadamente los datos y la información disponible en problemas prácticos",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al reconocer dificultades"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en diferentes contextos químicos",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas variables como relevantes",
+        "Proporciona estrategias más específicas para superar la dificultad de analizar procesos químicos complejos"
+      ],
+      "createdAt": "2025-10-17T13:46:15.973940"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-08-18_001",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Querido joaquín margueirat,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas correctamente las variables involucradas en la Ley General de los Gases. Organizas adecuadamente los datos del problema del globo de helio, distinguiendo entre variables conocidas y desconocidas. Tu capacidad analítica al abordar ejercicios con múltiples variables es destacable en tu identificación sistemática de lo que tienes y lo que necesitas calcular.\n\nDebes trabajar en la identificación precisa de todas las variables involucradas, incluyendo las constantes como R en la Ley General de los Gases. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada, especialmente en la conversión y manejo de unidades. Identifica con mayor precisión las dificultades que enfrentas y desarrolla estrategias específicas para superarlas, no solo reconocer que existe la dificultad.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en la Ley General de los Gases, distinguiendo entre variables conocidas y desconocidas.",
+        "Tu enfoque sistemático para organizar datos del problema es efectivo, como se evidencia en el análisis del problema del globo de helio.",
+        "Demuestras capacidad para reconocer qué información tienes y qué necesitas calcular para resolver problemas.",
+        "Haces conexiones significativas entre Química y Fisicoquímica, recordando conceptos previos sobre estados de la materia."
+      ],
+      "improvements": [
+        "Necesitas ampliar tu comprensión de las constantes fundamentales (como R) en la Ley General de los Gases y desarrollar estrategias específicas para manejarlas correctamente.",
+        "Te recomiendo establecer un proceso más sistematizado para la conversión de unidades y verificación de magnitudes en cada problema.",
+        "Es importante pasar de simplemente identificar dificultades a desarrollar y aplicar estrategias concretas para superarlas, con práctica deliberada.",
+        "Profundiza en la aplicación práctica de Charles's Law y otras leyes de los gases mediante ejercicios variados con complejidad gradual."
+      ],
+      "createdAt": "2025-10-17T13:56:29.066311"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-08-25_001",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Querido Joaquín,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Demuestra tu capacidad de aplicar la fórmula PV=nRT a situaciones concretas, como se evidencia en tu cálculo del metano gaseoso, donde realizas conversiones de unidades y determinas correctamente la cantidad de sustancia.\n\nSin embargo, necesitas fortalecer tu comprensión de cómo las unidades se relacionan con la constante de gases R, y también es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Trabaja en expresar tus ideas con mayor claridad y precisión, especialmente al explicar tu proceso de razonamiento. Desarrolla estrategias más específicas para superar los desafíos que enfrentas con las fórmulas y la comprensión de los ejercicios.\n\nTu esfuerzo es valioso. Continúa con perseverancia y verás resultados en tu dominio de estas herramientas fundamentales.",
+      "strengths": [
+        "Aplicas correctamente la ecuación de estado de gases ideales (PV=nRT) a problemas específicos, como demostraste en el cálculo del metano.",
+        "Realizas conversiones de unidades de manera sistemática (presión a atm, volumen a litros, temperatura a Kelvin).",
+        "Demuestras capacidad para usar relaciones estequiométricas en la resolución completa de problemas (mol a gramos)."
+      ],
+      "improvements": [
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables y la constante R. Te recomiendo practicar más problemas donde explícitamente justifiques por qué R = 0.082 L·atm/mol·K y no otro valor.",
+        "Necesitas mejorar tu capacidad de análisis ante ejercicios: lee cuidadosamente qué se pide resolver antes de aplicar fórmulas. Desarrolla una estrategia de identificación de datos y objetivos.",
+        "Es importante expresar con mayor detalle tus dificultades. En lugar de 'me resulta difícil', especifica qué aspecto exacto (¿conversiones?, ¿concepto de R?, ¿aplicación de fórmulas?) te complica."
+      ],
+      "createdAt": "2025-10-17T13:56:29.066369"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b1gv6_2025-09-01_001",
+      "weekStart": "2025-09-01",
+      "score": 77,
+      "generalComments": "Querido/a Joaquín Margueirat, estás trabajando adecuadamente en la Fase 2: Identificación de variables y datos, demostrando comprensión de las leyes de gases ideales (Boyle, Charles y Gay-Lussac) y avance sostenido. Identificas correctamente las variables involucradas en problemas de gases: presión, volumen, temperatura y moles. Organizas adecuadamente los datos y la información disponible, como evidenciaste al ordenar metódicamente los parámetros del tanque de oxígeno. Te recomiendo prestar mayor atención a las unidades y conversiones necesarias, especialmente cuando múltiples variables están presentes en el mismo problema. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada, creando protocolos personales para la filtración de información relevante. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en problemas de gases ideales, incluyendo presión, volumen, temperatura y moles.",
+        "Organizas adecuadamente los datos disponibles en problemas complejos, como se evidenció en tu análisis del caso del tanque de oxígeno.",
+        "Demuestras comprensión de la clasificación de información relevante e irrelevante, aplicando estrategias concretas como la anotación previa de datos útiles."
+      ],
+      "improvements": [
+        "Presta mayor atención a las unidades y conversiones necesarias, especialmente cuando trabajas con múltiples magnitudes en el mismo problema.",
+        "Sistematiza tu proceso de análisis de datos creando un protocolo personal que te permita organizar información de manera más estructurada ante problemas con muchos parámetros.",
+        "Profundiza en la identificación de relaciones entre variables: explora por qué presión y temperatura se relacionan mediante Gay-Lussac en este contexto específico."
+      ],
+      "createdAt": "2025-10-17T14:17:32.240255"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b1gv6_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 55,
+      "generalComments": "Querido Joaquín,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas correctamente las variables involucradas en el cálculo del volumen molar de gases ideales. Organizas adecuadamente los datos y la información disponible, como evidenciaste al convertir la temperatura a Kelvin y aplicar la fórmula PV=nRT de manera sistemática.\n\nDebes trabajar en la identificación precisa de todas las variables involucradas, especialmente cuando hay cambios entre ellas. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada para fortalecer tu comprensión de problemas con transformaciones de variables.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en el cálculo del volumen molar de gases ideales.",
+        "Organizas adecuadamente los datos disponibles y realizas correctamente conversiones de unidades necesarias.",
+        "Demuestras capacidad para aplicar la ecuación fundamental PV=nRT a situaciones específicas con datos concretos."
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas, especialmente cuando hay cambios entre ellas.",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada para fortalecer tu comprensión de problemas con transformaciones de variables.",
+        "Es importante que desarrolles estrategias específicas para comprender enunciados complejos antes de identificar variables y aplicar fórmulas."
+      ],
+      "createdAt": "2025-10-17T14:23:01.831462"
+    },
+    {
+      "feedbackId": "fb_002_2_wme0b1gv6_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 62,
+      "generalComments": "Querido Joaquín,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Seleccionas apropiadamente las herramientas y fórmulas para cálculos de masa molar en gases ideales con apoyo de recursos. Demuestras capacidad de aplicación de la ecuación de gases ideales PV=nRT en contextos específicos.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas de manera independiente, sin depender exclusivamente de hojas de fórmulas. Es fundamental consolidar tu comprensión de las relaciones entre las variables de gases ideales antes de avanzar a la Fase 4.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para cálculos de masa molar en gases ideales con apoyo de recursos",
+        "Demuestras capacidad de aplicación de la ecuación de gases ideales PV=nRT en contextos específicos",
+        "Reconoces las conexiones entre los conceptos de Química de este año y los de Fisicoquímica del año anterior"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas de manera independiente, sin depender exclusivamente de hojas de fórmulas",
+        "Es fundamental consolidar tu comprensión de las relaciones entre las variables de gases ideales antes de avanzar a la Fase 4",
+        "Desarrolla estrategias para analizar problemas antes de aplicar fórmulas, identificando primero qué información se conoce y qué se busca"
+      ],
+      "createdAt": "2025-10-17T14:23:01.831512"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b1gv6_2025-09-22_001",
+      "weekStart": "2025-09-22",
+      "score": 72,
+      "generalComments": "Querido Joaquín, has alcanzado un desempeño bueno en la Fase 4: Estrategia y ejecución completa, demostrando competencia sólida en Química. Tu capacidad para integrar todas las fases del proceso de resolución de problemas es notable, mostrando comprensión profunda de los conceptos de gases ideales. Has logrado ejecutar estrategias efectivas y verificar tus resultados, evidenciando un proceso metodológico estructurado. Continúa fortaleciendo tu reflexión metacognitiva sobre tus procesos de razonamiento. Tu dedicación y trabajo sistemático se reflejan en tu progreso.",
+      "strengths": [
+        "Demuestras integración clara de las cuatro fases del proceso de resolución, desde la identificación del problema hasta la ejecución matemática completa",
+        "Tu capacidad de reflexión sobre tu propio aprendizaje es notable, mostrando consciencia de tus fortalezas y áreas de desarrollo",
+        "Estableces conexiones significativas con conocimientos previos, integrando conceptos de moles y contenido de años anteriores",
+        "Tu expresión matemática es precisa y tus cálculos están bien ejecutados, evidenciando dominio técnico en la aplicación de ecuaciones de gases ideales"
+      ],
+      "improvements": [
+        "Desarrolla mayor especificidad al describir las estrategias que utilizas para superar dificultades en la selección de ecuaciones",
+        "Profundiza en la reflexión metacognitiva sobre los criterios que empleas al elegir entre diferentes herramientas matemáticas",
+        "Expande tus comentarios adicionales para compartir insights más profundos sobre tu proceso de aprendizaje y comprensión conceptual"
+      ],
+      "createdAt": "2025-10-17T14:35:03.242937"
+    },
+    {
+      "feedbackId": "fb_002_5_me0b1gv6_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 66,
+      "generalComments": "Querido Joaquín, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Debes trabajar en la identificación precisa de todas las variables involucradas en los problemas. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada. Recuerda identificar con mayor precisión las dificultades que enfrentas en lugar de afirmar que no las hay. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identifies the key variables involved in ideal gas problems (temperature, volume, pressure) with appropriate recognition",
+        "Demonstrates systematic thinking in applying the general formula to solve for unknown variables",
+        "Shows clear understanding of the relationship between given conditions and required solutions"
+      ],
+      "improvements": [
+        "Develop precise identification of all variables involved: distinguish between known and unknown variables, and between controllable and non-controllable parameters",
+        "Systematize your data analysis process using structured organization methods such as data tables or flowcharts",
+        "Cultivate genuine reflection on real difficulties encountered rather than dismissing challenges, which will strengthen metacognitive awareness"
+      ],
+      "createdAt": "2025-10-17T16:52:51.078437"
+    },
+    {
+      "feedbackId": "194a942c-a3fe-4c6e-8335-abe871bef71a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Valoro tu honestidad al reconocer que el tema de enlaces químicos aún no está completamente claro para ti. Eso demuestra madurez académica. Sin embargo, esta semana tu reporte muestra respuestas muy breves que no evidencian el trabajo profundo que esperamos en la Fase 2: identificar y clasificar variables.\n\nObservo que tienes una base (comprendes el movimiento de electrones), pero necesitas estructurar mejor tu análisis. La Fase 2 no es solo entender conceptos, sino aprender a descomponerlos en variables identificables y clasificables. Esto es fundamental para el pensamiento crítico en Química.\n\nPara la próxima semana, te propongo que dediques tiempo a crear una tabla con variables de cada tipo de enlace (iónico, covalente, metálico). Esto te ayudará a integrar la Fase 1 (preguntas) con la Fase 2 (variables). Además, resuelve al menos 2-3 ejercicios donde identifiques explícitamente qué variables están en juego. Estoy aquí para apoyarte en este proceso.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no lo entendí del todo bien\" en lugar de fingir dominio. Esta autocrítica es el primer paso para mejorar y muestra disposición a aprender.\n• Comprensión parcial de conceptos clave: Mencionas que comprendes \"cómo pasar electrones de valencia\", lo que indica que tienes una base sobre la que construir el entendimiento de enlaces químicos.\n• Comunicación directa de problemas: Reportas el inconveniente técnico con la plataforma de forma clara, lo que facilita que se resuelva y no afecte tu evaluación.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de solo nombrar \"enlaces químicos\", identifica variables específicas como: número de electrones de valencia (conocida/controlable), tipo de elemento (conocida/no controlable), energía de enlace (desconocida/no controlable). Esto te ayudará a estructurar mejor tu comprensión.\n• Proporciona evidencia concreta de aprendizaje: Aunque no hicieron ejercicios, puedes crear ejemplos propios. Por ejemplo: \"En el NaCl, el Na pierde 1 electrón (variable controlable) y el Cl gana 1 (variable dependiente)\". Esto demuestra que aplicas la Fase 2.\n• Desarrolla estrategias metacognitivas específicas: En lugar de decir \"me resultó difícil unir conceptos\", pregúntate: ¿Qué diferencia hay entre un enlace iónico y uno covalente en términos de variables? ¿Cómo puedo clasificar esas diferencias? Esto te ayudará a reflexionar sobre tu propio proceso de aprendizaje.",
+      "createdAt": "2025-10-27T05:08:16.669Z"
+    },
+    {
+      "feedbackId": "3e66cd6f-9e52-4ca5-acf4-1a9b5a08a390",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la semana fue difícil sin tu compañero Rodri y que eso afectó tu comprensión del tema. Eso es válido, pero tu reporte no me permite saber realmente qué entendiste y qué no. Necesito que seas más específico: ¿cuáles variables identificaste? ¿Cuál fue la dificultad exacta? ¿Qué estrategia intentaste?\n\nTu desempeño esta semana está en nivel inicial porque el reporte está incompleto y repetitivo. Esto no refleja tu verdadero esfuerzo ni tu capacidad real. Tienes la oportunidad de mejorar significativamente siendo más detallado y reflexivo en tus respuestas.\n\nPara la próxima semana, te pido que: (1) leas cada pregunta con atención, (2) escribas ejemplos concretos de variables que trabajaste, (3) completes todas las preguntas, incluso Q5. Si necesitas ayuda, pregunta en clase o en tutoría. Estoy aquí para apoyarte.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que no comprendiste el tema completamente y lo expresas directamente, lo que es el primer paso para mejorar.\n• Intención de participación: A pesar de las dificultades, intentaste hacer los ejercicios durante la semana, lo que muestra disposición a aprender.",
+      "improvements": "• Responde específicamente cada pregunta: Estás copiando la misma justificación en Q1, Q2 y Q3. Cada pregunta pide información diferente: Q1 es sobre variables, Q2 sobre evidencia, Q3 sobre dificultades. Lee cuidadosamente qué se te pregunta antes de responder.\n• Identifica variables concretas del tema: En lugar de decir \"no comprendo\", escribe qué variables trabajaste en clase (temperatura, presión, volumen, concentración, etc.). Luego clasifica cada una: ¿es conocida o desconocida? ¿Puedo controlarla o no? Esto te ayudará a organizar tu pensamiento.\n• Completa todas las preguntas: Q5 está vacía. Usa ese espacio para reflexionar: ¿Qué aprendiste esta semana? ¿Cómo te sentiste? ¿Qué necesitas para mejorar? Tus comentarios son valiosos para tu aprendizaje y para que yo entienda cómo ayudarte mejor.",
+      "createdAt": "2025-11-03T12:26:56.454Z"
+    }
+  ]
+}

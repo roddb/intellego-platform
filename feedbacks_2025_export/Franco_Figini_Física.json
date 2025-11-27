@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "studentId": "u_1gms3kiw1me0b2i22",
+    "studentName": "Franco Figini",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.200239",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 47.94,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_figini_2025081101",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Franco muestra comprensión básica del tiro oblicuo. Identifica correctamente el problema contextualizado de Ana y comprende la importancia del análisis sistemático.",
+      "strengths": [
+        "Identifica correctamente objetivos del problema",
+        "Comprende la importancia del análisis sistemático",
+        "Trabaja colaborativamente con compañeros"
+      ],
+      "improvements": [
+        "Profundizar en la resolución independiente",
+        "Mejorar la aplicación de conceptos matemáticos",
+        "Desarrollar mayor confianza en el tema"
+      ],
+      "createdAt": "2025-01-09 08:40:00"
+    },
+    {
+      "feedbackId": "fb_figini_2025081802",
+      "weekStart": "2025-08-18",
+      "score": 50,
+      "generalComments": "Franco experimenta dificultades con el tiro oblicuo pero muestra honestidad en su autoevaluación. Identifica variables básicas aunque reconoce necesitar más práctica.",
+      "strengths": [
+        "Reconoce honestamente sus dificultades",
+        "Identifica variables básicas del problema",
+        "Busca apoyo de compañeros para mejorar"
+      ],
+      "improvements": [
+        "Repasar conceptos fundamentales del tiro oblicuo",
+        "Practicar más ejercicios básicos paso a paso",
+        "Mejorar la justificación de procedimientos"
+      ],
+      "createdAt": "2025-01-09 08:42:00"
+    },
+    {
+      "feedbackId": "fb_figini_2025082503",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Excelente progreso aplicando las 4 fases metodológicas. Resuelve correctamente un problema de tiro horizontal con cálculos precisos y procedimiento organizado.",
+      "strengths": [
+        "Aplica correctamente las 4 fases metodológicas",
+        "Cálculos precisos y bien organizados",
+        "Identifica todas las variables relevantes"
+      ],
+      "improvements": [
+        "Mejorar criterio para selección de fórmulas",
+        "Ganar confianza en el proceso de resolución",
+        "Verificar unidades en los cálculos"
+      ],
+      "createdAt": "2025-01-09 08:43:00"
+    },
+    {
+      "feedbackId": "fb_figini_2025090104",
+      "weekStart": "2025-09-01",
+      "score": 70,
+      "generalComments": "Franco aborda exitosamente un problema complejo de dos jugadores. Aplica las fases metodológicas y calcula correctamente el tiempo, aunque persisten dudas en selección de fórmulas.",
+      "strengths": [
+        "Maneja problemas complejos multi-variable",
+        "Identifica y descarta variables irrelevantes",
+        "Calcula correctamente el tiempo (3.21s)"
+      ],
+      "improvements": [
+        "Consolidar criterio para selección de fórmulas",
+        "Verificar coherencia de unidades",
+        "Practicar más problemas de tiro oblicuo"
+      ],
+      "createdAt": "2025-01-09 08:44:00"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b2i22_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Hola Franco, durante esta semana tuviste evaluaciones, por lo que no fue posible evaluar tu progreso en el desarrollo de habilidades de pensamiento crítico en Física a través del reporte semanal. Las semanas de prueba son momentos importantes para aplicar todo lo aprendido. Es importante que después de las evaluaciones retomes el hábito de documentar tu proceso de aprendizaje semanal con evidencias concretas. Utiliza las próximas semanas para reflexionar sobre tu desempeño en la prueba y las áreas que necesitas reforzar. Quedo a disposición para resolver tus dudas sobre los temas evaluados y orientarte en tu proceso de mejora.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte informando sobre la situación especial de la semana",
+        "Reconoces que la semana estuvo dedicada a evaluaciones"
+      ],
+      "improvements": [
+        "Retomar la documentación sistemática de tu proceso de aprendizaje después de las evaluaciones",
+        "Reflexionar sobre tu desempeño en la prueba e identificar áreas de mejora",
+        "Utilizar el reporte semanal como herramienta de reflexión sobre tu aprendizaje"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b2i22_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Hola Franco, debido a que no hubo clases de Física durante esta semana, no fue posible evaluar tu progreso en el desarrollo de habilidades de pensamiento crítico a través del reporte semanal. Aprovecha estas semanas sin clase para repasar los temas vistos anteriormente, especialmente tiro oblicuo y las cuatro fases del pensamiento crítico. Es importante mantener el hábito de estudio independiente incluso cuando no hay clases presenciales. Utiliza este tiempo para consolidar conceptos que te resultaron difíciles y prepararte para los próximos temas. Quedo a disposición para cualquier consulta o duda que tengas durante este período.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte informando sobre la ausencia de clases",
+        "Mantienes la comunicación sobre tu situación académica"
+      ],
+      "improvements": [
+        "Aprovechar las semanas sin clase para estudio y repaso independiente",
+        "Mantener el hábito de reflexión sobre tu aprendizaje incluso sin clases presenciales",
+        "Prepararte de manera autónoma para los temas que vienen"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b2i22_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 62.25,
+      "generalComments": "Hola Franco, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema del nuevo tema de dinámica, mostrando avances parciales en Física. Muestras buena comprensión del contexto al distinguir claramente entre dinámica y cinemática. Identificas con precisión la dificultad específica que enfrentas con la segunda ley de Newton. Demuestras capacidad de reflexión al reconocer que necesitas ayuda del profesor en ejercicios básicos. Es fundamental fortalecer tu comprensión de los conceptos fundamentales de dinámica, especialmente la segunda ley de Newton. Te recomiendo practicar la distinción entre diferentes tipos de fuerzas y sus efectos en el movimiento. Profundizar en las conexiones entre dinámica y los temas previos de cinemática más allá de la gravedad. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Distingues claramente entre dinámica y cinemática mostrando comprensión conceptual",
+        "Identificas con precisión tus dificultades específicas con la segunda ley de Newton",
+        "Reconoces cuando necesitas apoyo y buscas ayuda del profesor"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión de la segunda ley de Newton y su aplicación",
+        "Ampliar las conexiones entre dinámica y cinemática más allá del concepto de gravedad",
+        "Desarrollar mayor autonomía en la resolución de ejercicios básicos de dinámica"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "9958adae-08bb-4454-81d3-caa3893c42f4",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:29:11.723Z"
+    },
+    {
+      "feedbackId": "849f876e-9c2b-4312-9836-b574eebf9ddd",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:52:31.073Z"
+    },
+    {
+      "feedbackId": "2c061a3a-8894-4bde-9ff3-9487534a04fd",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:53:23.328Z"
+    },
+    {
+      "feedbackId": "39d4b25a-cce7-4c6d-8d82-9aa88080ea06",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:40:49.555Z"
+    },
+    {
+      "feedbackId": "be68ea80-1f61-44d5-80ae-5d46de661a51",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que tienes una buena base en la resolución de diagramas de cuerpo libre y aplicas correctamente las fórmulas. Sin embargo, tu reporte esta semana es muy superficial y no refleja el nivel de reflexión que esperamos en Fase 2. \n\nEl objetivo de esta fase no es solo resolver ejercicios, sino entender y clasificar las variables que intervienen en cada problema. Tus respuestas muy breves (especialmente en Q3, Q4 y Q5) sugieren que no estás dedicando tiempo real a la reflexión crítica.\n\nPara la próxima semana, te pido que profundices: explica qué variables identificas, cómo las clasificas, qué dificultades reales enfrentas y cómo conectas lo aprendido con situaciones del mundo real. La calidad del pensamiento crítico depende de esta reflexión.",
+      "strengths": "• Dominio procedimental del DCL: Aplicas correctamente la fórmula P = m·g (20 kg × 10 m/s² = 200 N) y posicionas las fuerzas adecuadamente en el diagrama. Esto muestra que entiendes la mecánica básica del ejercicio.\n• Identificación de datos clave: Reconoces y utilizas los valores numéricos del problema (100N, 5N, 20kg, peso y fuerza normal). Esto demuestra que extraes información relevante del enunciado.\n• Confianza en la resolución: Mencionas que resolviste ejercicios \"con facilidad\" y \"sin problema\", lo que indica seguridad en tus habilidades procedimentales con diagramas de cuerpo libre.",
+      "improvements": "• Clasificación sistemática de variables: No distingues entre variables conocidas (100N, 5N, 20kg) y desconocidas (aceleración, fuerza neta). Crea una tabla simple: en una columna \"Datos dados\" y en otra \"Lo que busco encontrar\". Esto te ayudará a organizar mejor la información.\n• Reflexión sobre dificultades: Responder \"sin problema\" no es realista ni útil. Identifica qué te cuesta: ¿diferenciar tipos de fuerzas? ¿Entender por qué la normal = peso en este caso? Escribir 2-3 dificultades específicas te permite mejorar conscientemente.\n• Conexiones con fenómenos reales: Los DCL no son solo ejercicios abstractos. Conecta con situaciones cotidianas: un libro sobre una mesa, un auto frenando, una caja siendo arrastrada. Pregúntate: ¿qué variables cambiarían si la masa fuera mayor? ¿Y si el rozamiento fuera cero?",
+      "createdAt": "2025-10-27T05:03:29.554Z"
+    },
+    {
+      "feedbackId": "0c511af8-15fa-419b-8f1a-25f993b67263",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que tienes habilidades sólidas en cálculo y resolución de problemas numéricos, como demuestras en Q2 con el ejercicio del automóvil. Tu precisión en conversiones de unidades y aplicación de fórmulas es un punto fuerte que debes mantener.\n\nSin embargo, tu reporte muestra respuestas muy breves que no reflejan el análisis profundo que espero en Fase 2. Identificar variables no es solo resolver un problema; es entender *qué* estás midiendo, *por qué* es importante y *cómo* se relacionan entre sí. Tus respuestas en Q3, Q4 y Q5 sugieren que aún no has reflexionado completamente sobre este proceso.\n\nPara la próxima semana, te pido que dediques tiempo a desarrollar respuestas más completas. En cada problema, crea una tabla de variables antes de resolver. Reflexiona sobre tus dificultades con ejemplos específicos y propón estrategias concretas. Esto no solo mejorará tu calificación, sino que profundizará tu comprensión de la Física.",
+      "strengths": "• Precisión en cálculos matemáticos: Tu conversión de unidades (km/h a m/s) y aplicación de la fórmula F=ma son correctas. El resultado final (1,65 kN) está bien expresado en notación científica.\n• Resolución sistemática de problemas: Sigues un orden lógico en Q2: conversión → cambio de velocidad → aceleración → fuerza. Esto muestra que comprendes la secuencia de pasos necesaria.\n• Honestidad en la autoevaluación: Reconoces tu dificultad con diagramas de cuerpo libre en Q3, lo que es el primer paso para mejorar.",
+      "improvements": "• Identificación explícita de variables: En Q1 y Q2, debes listar claramente qué variables conoces (masa = 950 kg, velocidades iniciales/finales) y cuáles desconoces (fuerza). Crea una tabla simple: \"Conocidas | Desconocidas | Controlables | No controlables\" para cada problema.\n• Profundidad en reflexión sobre dificultades: En Q3, en lugar de \"me cuesta el diagrama de cuerpo libre\", especifica: \"Me cuesta identificar todas las fuerzas actuantes\" o \"No sé cómo clasificar fuerzas en x e y\". Luego propón: \"Practicaré dibujando 5 diagramas por semana\" o \"Usaré colores para diferenciar tipos de fuerzas\".\n• Conexiones con fenómenos reales: En Q4, relaciona el problema del automóvil con situaciones cotidianas: \"Esta fuerza es similar a la que siento cuando acelera un auto en el que viajo\" o \"Explica por qué los autos deportivos tienen motores más potentes\". Esto integra Fase 1 (observación) con Fase 2 (variables).",
+      "createdAt": "2025-11-03T12:23:25.227Z"
+    }
+  ]
+}

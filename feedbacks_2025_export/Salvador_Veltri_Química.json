@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "studentId": "u_t7fxqb0y0me1fm6ec",
+    "studentName": "Salvador Veltri",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.231212",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 62.0,
+      "minScore": 62,
+      "maxScore": 62,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b4598b99-88e6-4ceb-b013-87dae702d043",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana no pudiste asistir a clase, lo que explica por qué no completaste el reporte. Es importante que no dejes pasar más tiempo sin ponerte al día, ya que Física/Química es una materia donde los conceptos se construyen semana a semana.\n\nTe sugiero que esta semana contactes a tus compañeros para obtener los apuntes y preguntes al profesor qué temas se cubrieron. Luego, dedica tiempo a revisar ese material antes de la próxima clase.\n\nSi necesitas ayuda adicional para entender los temas que perdiste, no dudes en consultar conmigo en clase o en tutoría. Estoy aquí para apoyarte en tu recuperación.",
+      "strengths": "• Comunicación clara de tu situación: Informaste directamente que no asististe, lo que demuestra responsabilidad al explicar por qué no completaste el reporte.",
+      "improvements": "• Coordina con tus compañeros: Solicita los apuntes de clase y los temas que se trabajaron esta semana en Física/Química. Esto te permitirá ponerte al día sin perder continuidad en el aprendizaje.\n• Completa el reporte la próxima semana: Cuando regreses a clase, asegúrate de responder todas las preguntas (Q1-Q5) con detalle. Esto es fundamental para que pueda evaluar tu pensamiento crítico adecuadamente.\n• Comunícate si hay nuevas ausencias: Si tienes que faltar nuevamente, avisa con anticipación si es posible. Así podemos planificar cómo recuperar el material sin que se acumule.",
+      "createdAt": "2025-11-03T11:54:30.413Z"
+    }
+  ]
+}

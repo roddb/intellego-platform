@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "u_1wt2lfnz3me69ak8c",
+    "studentName": "Catalina Dobniewski",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189649",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me69ak8c_2025-08-04_f2c7f8d6",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Catalina, noté que tu reporte de esta semana está incompleto y las respuestas indican que no participaste activamente en las actividades de la Fase 1. Es fundamental que te comprometas con el proceso de aprendizaje del pensamiento crítico en Física. Te invito a reflexionar sobre qué obstáculos te impidieron completar el reporte adecuadamente y a buscar apoyo si lo necesitas.",
+      "strengths": [
+        "Entregaste el reporte dentro del plazo establecido, lo cual muestra responsabilidad con los tiempos",
+        "Reconoces que hay contenido que no comprendiste, lo cual es el primer paso para mejorar",
+        "Tienes la oportunidad de recuperar este aprendizaje en las siguientes semanas"
+      ],
+      "improvements": [
+        "Participa activamente en las clases presenciales para identificar los problemas que se trabajan en Física y comprender los objetivos de cada actividad",
+        "Desarrolla respuestas más completas en tus reportes, explicando con tus propias palabras lo que entendiste sobre el pensamiento crítico aplicado a la resolución de problemas",
+        "Busca ejemplos concretos de situaciones donde hayas aplicado (o puedas aplicar) el Paso 1 del pensamiento crítico: identificar el problema y distinguir información relevante de irrelevante"
+      ],
+      "createdAt": "2025-10-02 14:48:28"
+    }
+  ]
+}

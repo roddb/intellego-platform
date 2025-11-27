@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "studentId": "eed629ef-850b-4038-be81-a18fb3d06600",
+    "studentName": "Maria Sofia Opacak",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.218168",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 58.62,
+      "minScore": 27,
+      "maxScore": 83,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-25",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_6a18fb00_2025-08-25_001",
+      "weekStart": "2025-08-25",
+      "score": 83,
+      "generalComments": "Querida Maria Sofia Opacak, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de la resolución sistemática de problemas, mostrando capacidad para integrar las cuatro fases metodológicas de manera fluida. Planteas una estrategia de resolución coherente y completa. Ejecutas los pasos de resolución de manera ordenada y lógica en el problema del tiro de la flecha. Realizas conexiones interesantes entre física y matemática. Es importante mejorar la planificación de tu estrategia de verificación de resultados y profundizar en la reflexión sobre el proceso completo. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa en el problema del tiro de la flecha",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica, identificando variables y aplicando fórmulas sistemáticamente",
+        "Integras exitosamente los conocimientos de las fases 1, 2, 3 y 4 en tu resolución"
+      ],
+      "improvements": [
+        "Profundiza en la reflexión sobre el proceso metodológico más allá de decir que no tuviste dificultades",
+        "Desarrolla estrategias para identificar puntos críticos en la resolución y verificación dimensional",
+        "Incluye más análisis sobre la razonabilidad de tus resultados y posibles extensiones del problema"
+      ],
+      "createdAt": "2025-10-07T16:23:55Z"
+    },
+    {
+      "feedbackId": "fb_002_3_6a18fb00_2025-09-01_002",
+      "weekStart": "2025-09-01",
+      "score": 82,
+      "generalComments": "Querida Maria Sofia Opacak, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de las ecuaciones de estado de gases, mostrando capacidad para integrar las cuatro fases metodológicas en problemas de termodinámica. Planteas una estrategia de resolución coherente y completa aplicando las leyes de gases ideales. Ejecutas los pasos de resolución de manera ordenada y lógica con N2 en diferentes condiciones. Muestras reflexión sobre tu propio proceso al reconocer el error en mezclar contenidos. Es importante mejorar la identificación específica de dificultades en la resolución más allá de declaraciones generales. Trabaja en expresar tus ideas con mayor profundidad en las conexiones interdisciplinarias. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa aplicando PV=nRT y ecuaciones de procesos",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica, calculando masa y volumen final sistemáticamente",
+        "Integras exitosamente los conocimientos de las fases 1, 2, 3 y 4 en tu análisis del comportamiento del gas"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión las dificultades específicas que enfrentas en la resolución de problemas termodinámicos",
+        "Desarrolla estrategias más concretas para verificar resultados y evaluar su razonabilidad física",
+        "Profundiza en las conexiones entre física y matemática con ejemplos más específicos del proceso de resolución"
+      ],
+      "createdAt": "2025-10-07T16:23:55Z"
+    },
+    {
+      "feedbackId": "fb_002_3_6a18fb00_2025-09-22_003",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Maria Sofia Opacak, debido a que estuviste en el viaje educativo a Puerto Madryn, no fue posible evaluar tu progreso en Física durante esta semana. Reconoces la situación especial que te impidió completar el reporte de esta semana. Es fundamental completar el contenido correspondiente a esta semana cuando regreses para no perder continuidad en tu aprendizaje. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Reconoces la situación especial que te impidió completar el reporte de forma adecuada",
+        "Comunicas la razón de la ausencia de contenido de manera directa",
+        "Mantienes el compromiso de entregar el reporte aunque sea con información limitada"
+      ],
+      "improvements": [
+        "Es prioritario completar el reporte con el contenido real de física una vez que regreses del viaje",
+        "Coordina la recuperación del material trabajado durante tu ausencia para mantener continuidad",
+        "Aprovecha el viaje educativo para identificar conexiones entre los fenómenos naturales observados y los conceptos de física"
+      ],
+      "createdAt": "2025-10-07T16:23:55Z"
+    },
+    {
+      "feedbackId": "fb_002_3_6a18fb00_2025-09-29_004",
+      "weekStart": "2025-09-29",
+      "score": 65,
+      "generalComments": "Querida Maria Sofia Opacak, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física con la introducción a la dinámica. Reconoces con precisión tu nivel de comprensión del nuevo tema. Realizas conexiones interesantes entre física y matemática respecto a funciones con comportamiento predecible. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje más allá de declaraciones generales. Desarrolla estrategias más específicas para identificar las dificultades que enfrentas en la comprensión de dinámica. Incluye ejemplos concretos de los conceptos trabajados en clase. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces con precisión tu nivel de comprensión actual del tema de dinámica",
+        "Realizas conexiones interesantes entre las funciones matemáticas y el comportamiento predecible en física",
+        "Muestras disposición positiva indicando que no tuviste problemas para entender los temas"
+      ],
+      "improvements": [
+        "Proporciona evidencias concretas de tu aprendizaje describiendo ejercicios o conceptos específicos trabajados",
+        "Identifica con mayor precisión qué aspectos de la dinámica te resultan más desafiantes aunque digas que no tuviste problemas",
+        "Desarrolla tus respuestas con mayor profundidad explicando cómo se conectan los conceptos de dinámica con situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-07T16:23:55Z"
+    },
+    {
+      "feedbackId": "0804fcaf-4197-4dc5-80bb-0f63810b23c9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:51:42.418Z"
+    },
+    {
+      "feedbackId": "6a4c6349-7b16-4f8d-ba25-2649f8118443",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:37:57.752Z"
+    },
+    {
+      "feedbackId": "f1d1a7cf-c78a-463b-8071-62f9bca88291",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que trabajaste con dedicación en el problema del patinador y lograste aplicar correctamente las fórmulas de peso y fuerza normal. Tu disposición para pedir ayuda cuando no entendías μe y μd es un punto muy positivo: eso es pensamiento crítico en acción.\n\nSin embargo, tu reporte es demasiado breve y superficial. No profundizas en lo que realmente aprendiste sobre *identificar y clasificar variables*, que es el corazón de la Fase 2. Tus respuestas parecen respuestas rápidas, no reflexiones genuinas sobre tu proceso de aprendizaje.\n\nPara la próxima semana, te pido que dediques más tiempo a cada pregunta. Especialmente en Q1, Q4 y Q5: sé específica, usa ejemplos concretos y explica el \"por qué\" detrás de tus respuestas. Esto no solo mejorará tu calificación, sino que consolidará tu comprensión real de los temas.",
+      "strengths": "• Aplicación correcta de fórmulas y cálculos: En el problema del patinador, realizas correctamente P = m·g y obtienes 650 N, demostrando dominio operacional de conceptos básicos.\n• Disposición para resolver dificultades: Reconoces que no entendías μe y μd, y tomas la iniciativa de pedir explicación, mostrando responsabilidad en tu aprendizaje.\n• Intento de conexión interdisciplinaria: Buscas relacionar Física con Biología (gráficos y sistemas), lo que evidencia pensamiento que va más allá de la materia aislada.",
+      "improvements": "• Profundiza en la clasificación de variables: En Q1 y Q2, debes identificar explícitamente qué variables son conocidas (masa = 65 kg, fuerza = 150 N) y cuáles desconocidas (aceleración). Crea una tabla simple: Conocidas | Desconocidas | Controlables | No controlables.\n• Explica el \"por qué\" en tus análisis: Cuando dices que la fuerza de 150 N \"no tiene contraria\", justifica por qué (porque el patinador empuja la pared, no hay reacción visible en el DCL del patinador). Esto demuestra comprensión profunda, no solo procedimiento.\n• Aprovecha Q5 para reflexionar: No dejes esta pregunta en blanco. Usa 3-4 líneas para escribir: ¿Qué aprendiste sobre identificar variables? ¿Cómo te ayuda esto en problemas futuros? ¿Qué aún necesitas practicar? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-10-27T05:01:03.544Z"
+    },
+    {
+      "feedbackId": "d242ec33-dc1f-4ea5-869b-37625ea8cd3d",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana no has avanzado mucho en la Fase 2. Entiendo que a veces las semanas son complicadas, pero necesitamos que te comprometas más con el proceso de aprendizaje. Lo positivo es que eres honesto al reconocer que no realizaste los ejercicios, en lugar de pretender que sí.\n\nTu desempeño esta semana está muy por debajo de lo esperado para esta fase. Las respuestas muy breves (\"Nada\", \"No\") no permiten que ni tú ni yo podamos evaluar realmente qué estás aprendiendo. Necesitas reflexionar más profundamente sobre cada pregunta.\n\nPara la próxima semana, te pido que: (1) trabajes con al menos 3 problemas donde identifiques y clasifiques variables, (2) escribas respuestas completas a cada pregunta del reporte (mínimo 2-3 oraciones), y (3) reflexiones honestamente sobre qué te cuesta entender. Estoy aquí para ayudarte, pero necesito que hagas tu parte.",
+      "strengths": "• Honestidad en la respuesta: Reconoces que no realizaron ejercicios en lugar de inventar información. Esto muestra integridad, aunque también señala que falta trabajo en la semana.\n• Intento de conexión interdisciplinaria: Buscas relacionar el tema con reportes en inglés, mostrando que intentas ver conexiones entre materias, aunque necesita ser más específica en variables físicas.",
+      "improvements": "• Falta de evidencia de trabajo en Fase 2: Escribes \"No realizamos ningún ejercicio\", pero la Fase 2 requiere que identifiques variables en problemas. Necesitas trabajar con al menos 3-4 problemas de física/química donde clasifiques variables conocidas/desconocidas y controlables/no controlables. Pide a tu profesor ejercicios específicos si no los tienes.\n• Respuestas incompletas y muy breves: Varias preguntas tienen respuestas de una palabra (\"Nada\", \"No\"). Dedica tiempo a reflexionar genuinamente sobre cada pregunta: ¿Qué aprendí? ¿Qué me costó? ¿Cómo lo haré mejor? Escribe al menos 2-3 oraciones por pregunta.\n• No demuestras comprensión de conceptos clave de Fase 2: No mencionas variables, magnitudes físicas, clasificaciones ni relaciones entre variables. Revisa los materiales de la Fase 2 y asegúrate de entender qué es una variable controlable vs. no controlable. Haz un resumen propio con ejemplos de tu vida cotidiana.",
+      "createdAt": "2025-11-17T13:57:00.858Z"
+    }
+  ]
+}

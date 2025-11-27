@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "4f95a613-5bb1-447c-bf2b-2d0756c919ab",
+    "studentName": "Charo Reig",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.192535",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 44.5,
+      "minScore": 34,
+      "maxScore": 55,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-11-03T03:00:00.000Z",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "a86618a2-3fe6-4291-a3ca-c090601712e7",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que esta semana trabajaste contenidos importantes sobre geometría molecular y que tienes conciencia de dónde te cuesta. Eso es muy valioso. Sin embargo, tu reporte muestra que aún no estás aplicando completamente la Fase 2: identificar y clasificar variables de forma sistemática. Necesitas ir más allá de memorizar modelos y empezar a analizar *por qué* cada molécula tiene esa forma.\n\nTu mayor desafío es conectar la teoría con la realidad. Cuando dices \"no siento que conecte con otro tema\", te pierdes la oportunidad de ver que la geometría molecular es la base para entender polaridad, reactividad y propiedades químicas. Esto es fundamental para el pensamiento crítico.\n\nPara la próxima semana, te propongo que: (1) hagas una tabla donde clasifiques variables en cada molécula estudiada, (2) busques una aplicación práctica de cada modelo geométrico, y (3) completes todas las preguntas del reporte con más detalle. Verás que tu comprensión mejora significativamente.",
+      "strengths": "• Autoconciencia sobre dificultades: Identificas claramente que la notación AXn te confunde (\"me marea bastante\"), lo que demuestra honestidad sobre tu proceso de aprendizaje y es el primer paso para mejorar.\n• Reconocimiento de contenidos trabajados: Mencionas correctamente los temas de la semana (VSEPR, modelos lineales, angulares, tetraédricos), mostrando que seguiste las clases y retienes la información general.\n• Intento de autoevaluación: Al decir \"siento que soy un nivel 3\", intentas reflexionar sobre tu desempeño, aunque sin justificación detallada.",
+      "improvements": "• Falta de identificación de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables en los problemas de geometría molecular. Próxima vez, para cada molécula pregúntate: ¿Cuántos pares de electrones hay? ¿Cuántos son enlazantes? ¿Cuál es la geometría resultante? Esto son tus variables clave.\n• Ausencia de conexiones con la realidad: Dices que el tema no conecta con nada, pero la geometría molecular explica por qué el agua es polar (y disuelve sales) o por qué el CO₂ es lineal (y no polar). Busca aplicaciones prácticas: ¿cómo afecta la forma de una molécula a sus propiedades? Esto es pensamiento crítico real.\n• Reporte incompleto: Falta la respuesta a Q5 y tus explicaciones son muy breves. Dedica más tiempo a reflexionar y escribir con detalle. Usa ejemplos concretos: en lugar de \"entiendo lo práctico\", explica qué ejercicio resolviste y cómo lo hiciste.",
+      "createdAt": "2025-11-12T23:01:25.553Z"
+    },
+    {
+      "feedbackId": "dea37f68-046a-488e-96fd-9a546fb4457e",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que asististe a las actividades de la semana y completaste las evaluaciones, lo cual es positivo. Sin embargo, tu reporte muestra muy poco análisis del trabajo realizado. En Fase 2 necesitamos que profundices en cómo identificas y clasificas variables, no solo que menciones los temas.\n\nTu desempeño esta semana ha sido inicial. Las respuestas muy breves no permiten evaluar si realmente comprendiste la identificación de variables en uniones químicas. Además, la dificultad con el trabajo en equipo es importante, pero necesitas conectarla con tu aprendizaje académico.\n\nPara la próxima semana, te pido que: (1) escribas respuestas más completas con ejemplos específicos, (2) clasifiques variables en al menos 3 problemas que resuelvas, y (3) reflexiones sobre qué estrategias te ayudan a diferenciar magnitudes físicas. Estoy aquí para apoyarte en este proceso.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no vengo ni mal ni bien\" y mencionas la dificultad real con el trabajo en equipo. Esta sinceridad es el primer paso para mejorar.\n• Participación en actividades: Completaste el modelo de examen y la prueba, lo que muestra que asististe a las actividades propuestas durante la semana.",
+      "improvements": "• Falta de especificidad en respuestas: Tus respuestas son muy cortas y vagas. Necesitas describir qué variables específicas trabajaste en uniones químicas (ej: tipo de enlace, energía de ionización, diferencia de electronegatividad). Intenta escribir al menos 2-3 ejemplos concretos en cada pregunta.\n• No conectas Fase 1 con Fase 2: Debes identificar variables conocidas (datos del problema), desconocidas (lo que buscas), controlables (lo que puedes cambiar) y no controlables (lo que no puedes modificar). En tu próximo reporte, clasifica las variables de los ejercicios que resolviste usando estas categorías.\n• Ausencia de reflexión metacognitiva: No reflexionas sobre tu propio aprendizaje. Dedica tiempo a responder: ¿Qué estrategias usaste para identificar variables? ¿Qué te costó? ¿Cómo lo superaste? Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-11-17T14:00:58.100Z"
+    }
+  ]
+}

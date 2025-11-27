@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "studentId": "u_qobf27jv7me6hi0ai",
+    "studentName": "Lourdes María Converset",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.213870",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 40.5,
+      "minScore": 27,
+      "maxScore": 66,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-08-04_bef5190c",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Lourdes, tu reporte de esta semana indica ausencia total, lo que impide evaluar tu progreso en la Fase 1 del pensamiento crítico aplicado al equilibrio químico. Es fundamental que, al reincorporarte, dediques tiempo a recuperar los contenidos trabajados: identificación del problema central en situaciones de equilibrio, reconocimiento de información relevante versus irrelevante, y comprensión del contexto general. La Fase 1 es la base para las siguientes etapas metodológicas, por lo que no conviene avanzar sin consolidar estos fundamentos.",
+      "strengths": [
+        "Informaste claramente tu situación de ausencia en el reporte semanal"
+      ],
+      "improvements": [
+        "Al regresar, trabaja en identificar el problema principal en ejercicios de equilibrio químico - qué se te pide encontrar o demostrar",
+        "Practica distinguir información relevante de irrelevante en enunciados químicos",
+        "Refuerza la comprensión del contexto: por qué el equilibrio químico es importante y cuáles son sus características fundamentales"
+      ],
+      "createdAt": "2025-10-03T19:50:05Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-08-18_fdbe4e35",
+      "weekStart": "2025-08-18",
+      "score": 66,
+      "generalComments": "Lourdes, tu reporte de esta semana muestra un progreso mixto en Fase 3. Has trabajado múltiples herramientas de equilibrio químico (expresión de Kc, predicción con Qc, equilibrios heterogéneos y múltiples, efectos de presión/temperatura, relación Kc-Kp), evaluándote como Nivel 2. Tu resolución del ejercicio de predicción con Qc demuestra aplicación correcta de la herramienta, y tus comentarios adicionales (recuperando Fases 1 y 2) muestran una reflexión metacognitiva importante. Sin embargo, la dificultad que experimentas con ejercicios difíciles y la gestión del tiempo entre clases indica que necesitas mejor planificación.",
+      "strengths": [
+        "Resolviste correctamente un ejercicio de predicción calculando Qc y comparándolo con Kc para determinar dirección de reacción",
+        "Realizas reflexiones metacognitivas profundas sobre tu proceso de aprendizaje (comentarios de Fases 1 y 2)",
+        "Identificas conexiones con otras materias (Matemática y ecuaciones), mostrando pensamiento integrado"
+      ],
+      "improvements": [
+        "Optimiza tu gestión de tiempo: intenta resolver ejercicios fáciles antes de las clases para aprovechar mejor el tiempo presencial con los difíciles",
+        "Desarrolla mayor autonomía en la resolución de problemas complejos - actualmente dependes mucho del entorno escolar",
+        "Refuerza la teoría de fórmulas para sentirte más segura en la aplicación práctica (según tu comentario de fase 1-2)"
+      ],
+      "createdAt": "2025-10-03T19:50:06Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-08-25_aa09d8ea",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Lourdes, tu reporte de esta semana muestra una situación compleja: has trabajado en múltiples ejercicios de equilibrio químico (SO2/SO3, predicción con Qc, Haber-Bosch, equilibrio con concentración dada) pero no lograste completar todos debido a exámenes y el viaje de egresados. Tu resolución del cálculo de Kc usando moles en equilibrio y conversión a concentraciones es correcta, lo que demuestra comprensión de la metodología de Fase 3. Sin embargo, reconoces que los ejercicios más avanzados quedaron pendientes. Tu agradecimiento por ayuda en matemática sugiere que buscas apoyo activamente, lo cual es positivo.",
+      "strengths": [
+        "Resolviste correctamente el cálculo de Kc convirtiendo moles a concentraciones y aplicando la fórmula adecuadamente",
+        "Reconoces conexiones con contenidos previos de química (reacciones químicas), mostrando integración conceptual",
+        "Muestras actitud proactiva buscando ayuda y planificando terminar los ejercicios pendientes al regresar del viaje"
+      ],
+      "improvements": [
+        "Gestiona mejor el tiempo durante periodos con múltiples evaluaciones - prioriza ejercicios clave antes de dejar todo para después",
+        "Al retomar, enfócate primero en completar los ejercicios de optimización industrial que quedaron pendientes",
+        "Desarrolla mayor autonomía en ejercicios complejos para no depender exclusivamente de la disponibilidad de tiempo en clase"
+      ],
+      "createdAt": "2025-10-03T19:50:07Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-09-08_979b8137",
+      "weekStart": "2025-09-08",
+      "score": 52,
+      "generalComments": "Lourdes, tu reporte de esta semana muestra una situación preocupante: después del viaje de egresados has desconectado significativamente del contenido de equilibrio químico. No resolviste ningún ejercicio (solo leíste un repaso teórico), y reconoces que los ejercicios pendientes de semanas anteriores no te salieron. Tu nivel de dominio ha retrocedido, y la proximidad del examen genera preocupación justificada. Sin embargo, tu reconocimiento honesto de la situación y la conexión que haces con física y matemática muestra que aún mantienes cierta base conceptual.",
+      "strengths": [
+        "Reconoces con honestidad tu situación actual y la necesidad de practicar intensamente para el examen",
+        "Identificas conexiones interdisciplinarias (física y matemática), lo que indica que no has perdido completamente la comprensión conceptual",
+        "Leíste material de repaso, mostrando intención de retomar el estudio"
+      ],
+      "improvements": [
+        "Necesitas urgentemente pasar de la teoría a la práctica - resuelve al menos 5 ejercicios básicos antes del examen",
+        "Identifica específicamente qué cosas te cuentan (tus palabras) y trabaja ejercicios enfocados en esas áreas",
+        "Busca ayuda inmediata: consulta con el profesor, forma grupo de estudio o usa tutorías antes del examen"
+      ],
+      "createdAt": "2025-10-03T19:50:08Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-09-15_4f8210b3",
+      "weekStart": "2025-09-15",
+      "score": 58,
+      "generalComments": "Lourdes, tu reporte de esta semana muestra un esfuerzo por retomar el estudio realizando modelos de examen, aunque no lograste completarlos todos. Tu trabajo en los modelos 1 (equilibrio básico) y 2 (predicción de evolución) demuestra comprensión del procedimiento metodológico, especialmente en el cálculo de cambios estequiométricos y conversión a concentraciones. Sin embargo, la dependencia de inteligencia artificial para resolver los ejercicios indica que aún no has consolidado la autonomía necesaria. Tu preocupación por el examen es comprensible dada la situación de las semanas previas.",
+      "strengths": [
+        "Comprendes el procedimiento de cálculo estequiométrico (0.080 mol NO₂ → 0.020 mol reaccionan → 0.020 mol NO + 0.010 mol O₂)",
+        "Identificas correctamente que las concentraciones en equilibrio se usan para calcular la constante de equilibrio",
+        "Realizas conexiones interdisciplinarias (biología por contaminación), mostrando pensamiento contextual"
+      ],
+      "improvements": [
+        "Reduce progresivamente la dependencia de IA - úsala solo para verificar resultados, no para resolver desde cero",
+        "Practica más ejercicios de forma autónoma antes del examen para desarrollar seguridad en el procedimiento",
+        "Identifica patrones comunes en los ejercicios: muchos siguen la misma estructura (tabla ICE → cálculos → Kc)"
+      ],
+      "createdAt": "2025-10-03T19:50:09Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6hi0ai_2025-09-22_f1b31469",
+      "weekStart": "2025-09-22",
+      "score": 56,
+      "generalComments": "Lourdes, tu reporte muestra que intentaste terminar la guía del modelo de examen, logrando completar algunos ejercicios con dificultades pero sin poder realizar los de optimización industrial. Tu trabajo en el ejercicio 3 sobre Le Chatelier demuestra comprensión cualitativa de cómo diferentes perturbaciones (presión, temperatura, concentración) afectan el equilibrio. Sin embargo, la dependencia continua de ayuda externa y la preocupación persistente sin acción concreta son señales de que necesitas cambiar tu enfoque de estudio antes del examen.",
+      "strengths": [
+        "Comprendes correctamente el principio de Le Chatelier: identificaste que aumentar presión, bajar temperatura y agregar N₂ favorecen la formación de NH₃",
+        "Reconoces con honestidad tus limitaciones (no pudiste hacer optimización industrial)",
+        "Realizas conexiones con temas previos de química, mostrando que no ves la materia como compartimentos aislados"
+      ],
+      "improvements": [
+        "Identifica específicamente qué es lo que no entiendes de optimización industrial - no dejes conceptos sin explorar antes del examen",
+        "Convierte la preocupación en acción concreta: agenda sesiones específicas de estudio con objetivos medibles",
+        "Desarrolla mayor autonomía resolviendo ejercicios similares a los que te salieron pero con valores diferentes"
+      ],
+      "createdAt": "2025-10-03T19:50:10Z"
+    },
+    {
+      "feedbackId": "160d1940-5e39-450f-9658-0d62209f13a7",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:05.914Z"
+    },
+    {
+      "feedbackId": "ba6c3c22-cbc9-41b3-bc7c-806080aa7313",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:47.901Z"
+    },
+    {
+      "feedbackId": "74c0d5df-528f-44e4-914d-2b82b2cd2baa",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:51.065Z"
+    },
+    {
+      "feedbackId": "511655cd-21fa-4b32-a4ae-c699c5f47f01",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:11.767Z"
+    },
+    {
+      "feedbackId": "325736fd-34c3-4882-a820-b5b97803dae3",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entendemos que la ausencia por enfermedad es una situación que escapa a tu control. Lo importante ahora es que te recuperes completamente y que retomes el ritmo de trabajo en la Fase 2.\n\nTe recomendamos que en los próximos días contactes conmigo para una sesión de recuperación. Así podremos repasar juntos la identificación de variables y asegurarnos de que comprendas bien estos conceptos fundamentales antes de avanzar.",
+      "strengths": "En este momento no hay fortalezas que evaluar, ya que el reporte está incompleto debido a la ausencia por enfermedad. Una vez que regreses y completes el trabajo, podremos identificar tus puntos fuertes en la identificación de variables.",
+      "improvements": "Recuperación del material perdido: Es fundamental que contactes conmigo o revises classroom para obtener los apuntes y actividades de la semana. Esto te permitirá ponerte al día con los temas de identificación de variables (conocidas/desconocidas, controlables/no controlables) que son clave para la Fase 2.\n\nCompletar el reporte semanal: Una vez recuperes el material, dedica tiempo a responder cada pregunta del reporte con detalle. Esto incluye listar las variables que trabajaste, clasificarlas y reflexionar sobre las dificultades que encontraste.",
+      "createdAt": "2025-10-21T05:57:36.839Z"
+    },
+    {
+      "feedbackId": "5e5a29da-bc01-4135-8096-4de40f59ef62",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entendemos que la enfermedad es una situación que escapa a tu control, y es positivo que hayas sido honesto al reportarlo. Sin embargo, esto significa que no podemos evaluar tu progreso en la Fase 2 esta semana, ya que no hay evidencia de trabajo realizado.\n\nTu prioridad ahora es recuperarte completamente y acceder al material de la semana. Una vez lo hagas, podrás completar este reporte y demostrar tu comprensión de cómo identificar y clasificar variables en problemas de Física y Química.",
+      "strengths": "Comunicación clara de la situación: Tu respuesta en Q1 explica de manera directa y honesta el motivo de la ausencia (enfermedad), lo que permite entender el contexto del reporte incompleto.\n\nJustificación documentada: Al mencionar que no hay contenido nuevo en classroom, proporcionas una razón verificable que explica la falta de material para evaluar.",
+      "improvements": "Recuperación del contenido perdido: Es fundamental que coordines con tus compañeros o consultes los materiales de la Fase 2 que se trabajaron durante tu ausencia. Solicita al profesor los apuntes, ejercicios y problemas que se desarrollaron para ponerte al día.\n\nCompletar el reporte una vez recuperado: Una vez tengas acceso al contenido de la semana, completa este reporte con tus respuestas sobre variables identificadas, clasificación, dificultades y conexiones. Esto permitirá una evaluación real de tu aprendizaje.\n\nComunicación proactiva: Para futuras ausencias, avisa al profesor con anticipación si es posible, y establece un plan de recuperación claro. Esto evita que se acumulen vacíos en tu comprensión de conceptos clave como la identificación de variables.",
+      "createdAt": "2025-10-21T06:47:38.958Z"
+    }
+  ]
+}

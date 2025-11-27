@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "studentId": "9decba43-03f1-4391-84b8-a6cba1ffc75b",
+    "studentName": "Agustina Sansalone",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.181393",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 73.65,
+      "minScore": 68.75,
+      "maxScore": 79.5,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-22"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_a1ffc75b_2025-08-11_c5d1c2e8",
+      "weekStart": "2025-08-11",
+      "score": 75.5,
+      "generalComments": "Agustina, tu trabajo en esta Fase 2 muestra un buen manejo de la identificación y clasificación de variables. Reconocés correctamente las variables controlables y no controlables, y aplicás la metodología a-b-c para organizar la información. Tu ejercicio del Proceso de Contact demuestra que estás integrando las fases previas. Es positivo que identifiques dificultades específicas como la confusión entre concentraciones iniciales y de equilibrio, ya que esa auto-conciencia es fundamental para mejorar. El cambio de metodología puede resultar desafiante al principio, pero tu capacidad para clasificar variables sistemáticamente es una fortaleza que te ayudará a seguir avanzando.",
+      "strengths": [
+        "Identificación clara de variables controlables y no controlables en contextos de equilibrio químico",
+        "Aplicación sistemática de la metodología a-b-c para clasificación de variables",
+        "Reconocimiento específico de dificultades (temperatura sobre Keq, mezcla de concentraciones)",
+        "Conexión del método de trabajo con otras disciplinas (Física, Biología)"
+      ],
+      "improvements": [
+        "Profundizar la comprensión del Principio de Le Chatelier para consolidar los conceptos de Fase 2",
+        "Practicar más con matrices de clasificación hasta ganar fluidez en su construcción",
+        "Desarrollar estrategias concretas para adaptarse a la nueva metodología (ej: repasos breves diarios, consultas específicas)",
+        "Incluir en futuros reportes comentarios sobre aspectos positivos de la experiencia, no solo dificultades"
+      ],
+      "createdAt": "2025-10-02 15:24:02"
+    },
+    {
+      "feedbackId": "fb_backfill_a1ffc75b_2025-08-18_d6e2d3f9",
+      "weekStart": "2025-08-18",
+      "score": 68.75,
+      "generalComments": "Agustina, en esta Fase 3 avanzaste hacia la selección de herramientas conceptuales como la Constante de Equilibrio y el Principio de Le Chatelier. Tu auto-evaluación honesta (nivel 2 en Keq, nivel 3 en Le Chatelier) demuestra capacidad de reflexión sobre tu propio aprendizaje. El ejercicio de predicción con Qc muestra que estás comenzando a justificar la elección de herramientas según el tipo de problema, lo cual es el objetivo central de esta fase. Sin embargo, se observa que algunos ejercicios (7 y 10) resultaron confusos sin que pudieras identificar estrategias específicas para abordarlos. Establecer conexiones con contenidos previos del año es muy valioso y muestra que estás construyendo una visión integrada de la materia.",
+      "strengths": [
+        "Identificación de herramientas específicas del equilibrio químico (Keq, Le Chatelier, Qc)",
+        "Capacidad de auto-evaluar nivel de dominio por tema de manera realista",
+        "Aplicación de F1+F2+F3 al seleccionar herramienta adecuada para predicciones (Qc)",
+        "Reconocimiento de conexiones entre temas nuevos y contenidos previos del año"
+      ],
+      "improvements": [
+        "Profundizar el estudio de la Constante de Equilibrio mediante ejercicios resueltos paso a paso",
+        "Desarrollar estrategias concretas para abordar ejercicios complejos (ej: dividir en partes, identificar qué específicamente no se entiende)",
+        "Documentar en los reportes las estrategias intentadas para resolver dificultades, no solo las dificultades mismas",
+        "Incluir comentarios adicionales (Q5) para reflexionar sobre el proceso de aprendizaje semanal"
+      ],
+      "createdAt": "2025-10-02 15:25:41"
+    },
+    {
+      "feedbackId": "fb_backfill_a1ffc75b_2025-09-01_e7f3e4a0",
+      "weekStart": "2025-09-01",
+      "score": 75.5,
+      "generalComments": "Agustina, tu trabajo en esta Fase 4 con el modelo de examen demuestra que has logrado integrar las cuatro fases del pensamiento crítico de manera sistemática. Tu descripción del ejercicio de cálculo de Keq muestra un proceso organizado: anotaste datos, aplicaste la fórmula, realizaste conversiones de unidades (moles a gramos), y obtuviste resultados. Esta secuencia evidencia planificación y ejecución metódica. Tu reflexión sobre las dificultades es particularmente valiosa: identificás que el punto crítico está en la comprensión inicial del problema, no en los cálculos, lo cual demuestra metacognición. La conexión con Física al reconocer procesos comunes (identificar datos, aplicar fórmulas) muestra que estás desarrollando una visión integrada de las ciencias.",
+      "strengths": [
+        "Organización sistemática de datos antes de proceder con cálculos",
+        "Ejecución completa del proceso de resolución incluyendo conversiones de unidades",
+        "Identificación precisa del punto crítico: comprensión del enunciado vs. ejecución de cálculos",
+        "Reconocimiento de estrategias efectivas (primero entender, luego ejecutar)",
+        "Conexión interdisciplinaria entre Química y Física en metodologías de resolución"
+      ],
+      "improvements": [
+        "Practicar la interpretación de enunciados con técnicas de subrayado de datos clave y reformulación del problema con palabras propias",
+        "Desarrollar un checklist personal para la fase de comprensión del problema antes de proceder a cálculos",
+        "Incluir comentarios adicionales (Q5) para reflexionar sobre evolución y logros de la semana",
+        "Expandir las conexiones con aplicaciones reales más allá del aula"
+      ],
+      "createdAt": "2025-10-02 15:25:42"
+    },
+    {
+      "feedbackId": "fb_backfill_a1ffc75b_2025-09-15_f8a4f5b1",
+      "weekStart": "2025-09-15",
+      "score": 79.5,
+      "generalComments": "Agustina, excelente progreso en esta Fase 4. Tu descripción del ejercicio de cálculo de Kc es la más completa y detallada hasta el momento: identificaste datos e incógnitas, aplicaste la fórmula de constante de equilibrio, realizaste la división por volumen del recipiente, y ejecutaste conversiones de unidades (moles a gramos). Este nivel de detalle indica que estás internalizando el proceso completo de resolución. Tu reflexión sobre la dificultad de trabajar de manera autónoma es muy valiosa: reconocés que la comprensión grupal no siempre se traduce en capacidad individual, lo cual es un insight metacognitivo importante. Seguí fortaleciendo esa autonomía practicando ejercicios por tu cuenta antes de las instancias grupales.",
+      "strengths": [
+        "Descripción completa y detallada del proceso de resolución de Kc paso a paso",
+        "Inclusión de verificación dimensional mediante conversiones de unidades (moles a gramos)",
+        "Identificación explícita de datos, incógnitas y fórmula aplicable",
+        "Reflexión metacognitiva sobre diferencia entre comprensión grupal vs. trabajo autónomo",
+        "Reconocimiento de la importancia de las unidades y sus interacciones (conexión con Física)"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para fortalecer el trabajo autónomo: intentar ejercicios solos antes de la clase grupal",
+        "Practicar razonamiento independiente mediante auto-explicaciones en voz alta o por escrito",
+        "Incluir comentarios adicionales (Q5) para documentar logros y evolución semanal",
+        "Identificar qué pasos específicos del razonamiento se pierden al trabajar solo vs. en grupo"
+      ],
+      "createdAt": "2025-10-02 15:25:42"
+    },
+    {
+      "feedbackId": "fb_backfill_a1ffc75b_2025-09-22_a9b5a6c2",
+      "weekStart": "2025-09-22",
+      "score": 69,
+      "generalComments": "Agustina, en este último reporte de Fase 4 se observa un retroceso en el nivel de detalle y reflexión comparado con la semana anterior. Mientras que seguís mencionando correctamente el trabajo con guía de examen y cálculo de Kc, tu descripción del proceso es mucho más escueta ('identifique los datos y los utilice en la formula'). La dificultad reportada ('difícil comprender la metodología') es demasiado genérica y no permite identificar dónde está el obstáculo específico. Es positivo que conectes con temas del primer bimestre, reconociendo la importancia de identificar datos y sus relaciones. Sin embargo, el comentario final ('no tengo comentarios esta semana, saludos') pierde una valiosa oportunidad de reflexión sobre tu proceso de aprendizaje.",
+      "strengths": [
+        "Reconocimiento explícito de estar trabajando en Fase 4",
+        "Identificación del objetivo del ejercicio (averiguar Kc)",
+        "Conexión temporal con contenidos del primer bimestre",
+        "Comprensión de la importancia de las relaciones entre datos y sus unidades"
+      ],
+      "improvements": [
+        "Especificar qué aspecto de la metodología resulta difícil (¿la identificación de datos? ¿la aplicación de fórmulas? ¿la interpretación de resultados?)",
+        "Documentar estrategias intentadas para superar dificultades, aunque no hayan funcionado completamente",
+        "Retomar el nivel de detalle en la descripción de procesos mostrado en reportes anteriores (ver reporte semana 15/09)",
+        "Utilizar Q5 para reflexiones genuinas sobre aprendizaje, progreso o desafíos de la semana"
+      ],
+      "createdAt": "2025-10-02 15:25:43"
+    }
+  ]
+}

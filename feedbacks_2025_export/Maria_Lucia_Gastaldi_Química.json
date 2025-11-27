@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "studentId": "u_3oh1h3b60me0ht98e",
+    "studentName": "Maria Lucia Gastaldi",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.217915",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 51.1,
+      "minScore": 27,
+      "maxScore": 61,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-06T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-08-04_8d546a3a",
+      "weekStart": "2025-08-04",
+      "score": 61,
+      "generalComments": "Maria Lucia, tu trabajo en Fase 2 muestra una comprensión sólida de la teoría (reacciones reversibles/irreversibles, pasos del pensamiento crítico) que evalúas en Nivel 1, pero enfrentas dificultades significativas (Nivel 3) en la aplicación práctica, específicamente identificando información adicional necesaria. Tu resolución del ejercicio 4 demuestra que puedes identificar el objetivo central y reconocer algunas variables adicionales (temperatura, componentes), aunque con esfuerzo. Tu reflexión sobre la dificultad de estructurarte y encontrar pasos a realizar es una observación metacognitiva importante.",
+      "strengths": [
+        "Comprendes muy bien la teoría de reacciones reversibles/irreversibles y los pasos del pensamiento crítico (autoevaluación Nivel 1)",
+        "Identificaste correctamente el objetivo central del ejercicio 4 (mantener el equilibrio químico considerando eventos)",
+        "Realizas conexiones interdisciplinarias ricas: balanceo de 4to año y termodinámica de física (volumen/temperatura)"
+      ],
+      "improvements": [
+        "Desarrolla una plantilla personal para identificar información adicional: pregúntate siempre qué datos faltan para resolver esto",
+        "Practica la estructuración de problemas usando los 5 pasos de forma más sistemática - créate un checklist",
+        "Trabaja en la transferencia de teoría a práctica: después de entender un concepto, resuelve 2 ejercicios inmediatamente"
+      ],
+      "createdAt": "2025-10-03T19:50:19Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-08-11_99caa6b9",
+      "weekStart": "2025-08-11",
+      "score": 60,
+      "generalComments": "Maria Lucia, tu reporte de esta semana muestra un desempeño similar al anterior, manteniendo la dificultad de transferir teoría a práctica. Te autoevalúas en Nivel 1 para el pasaje de paso 1 a paso 2, Nivel 2 para identificar variables, y Nivel 3 para aplicar teoría a ejercicios. Tu trabajo en el ejemplo 3 del cuadernillo demuestra que puedes identificar el problema central, recopilar y clasificar datos en la tabla de variables, aunque luchas significativamente en el paso 4. Tu reconocimiento de esta dificultad recurrente ('me cuesta el paso de lo teórico a lo práctico') requiere atención específica.",
+      "strengths": [
+        "Identificaste correctamente el problema central en el ejemplo 3 (determinar concentración de glucosa con mediciones exactas)",
+        "Recopilaste datos sistemáticamente: temperatura, pH, tiempo de incubación, concentración de glucosa y reactivo",
+        "Clasificaste variables en la tabla: controlables/no controlables, conocidas/desconocidas (aunque con algunas incertidumbres)"
+      ],
+      "improvements": [
+        "Desarrolla estrategias específicas para el paso 4 (aplicación): identifica QUÉ exactamente te traba en ese paso",
+        "Practica ejercicios resueltos comparando tu proceso con la solución - identifica en qué momento divergen",
+        "Busca patrones comunes: muchos ejercicios siguen estructuras similares que puedes aplicar como plantillas"
+      ],
+      "createdAt": "2025-10-03T19:50:20Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-08-18_f7fd3080",
+      "weekStart": "2025-08-18",
+      "score": 58,
+      "generalComments": "Maria Lucia, tu reporte de esta semana muestra avances y retrocesos simultáneos. Te autoevalúas en Nivel 1 para comprensión de fórmulas y cómo procede la reacción, y Nivel 2 para identificar si la reacción es reversible. Tu trabajo en el ejercicio 2 del cuadernillo demuestra comprensión del proceso metodológico (identificar problema, recopilar datos, usar tabla comparativa Q vs K), lo cual es positivo. Sin embargo, reconoces dificultades persistentes con identificar el procedimiento a realizar, y expresas que química te parece 'una disciplina bastante única' donde cuesta hacer conexiones, lo cual limita tu transferencia de aprendizaje.",
+      "strengths": [
+        "Comprendes el proceso metodológico: identificar problema (paso 1), recopilar/clasificar datos (paso 2), usar tabla comparativa Q vs K (paso 3)",
+        "Identificas correctamente que K se calcula con información conocida y Q con información dada para comparar y determinar dirección",
+        "Reconoces que los ejercicios de pensamiento científico de la semana pasada te ayudaron, mostrando que construyes sobre aprendizajes previos"
+      ],
+      "improvements": [
+        "Trabaja en identificar cómo la teoría se traduce a ejercicios - crea un diccionario que vincule conceptos teóricos con aplicaciones prácticas",
+        "Supera la percepción de química como disciplina única - busca activamente conexiones con matemática (ecuaciones), física (termodinámica), biología (procesos)",
+        "Desarrolla mayor autonomía en la identificación de procedimientos - practica con ejercicios variados para reconocer patrones"
+      ],
+      "createdAt": "2025-10-03T19:50:21Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-08-25_2f68a448",
+      "weekStart": "2025-08-25",
+      "score": 60,
+      "generalComments": "Maria Lucia, tu reporte de esta semana muestra un patrón consistente: comprensión teórica débil (Nivel 1 en teoría de balanceo y resolución de ejercicios) pero mejor desempeño en aplicación práctica específica (Nivel 3 en tabla ICE y uso de datos). Tu trabajo en el ejercicio 4 del proceso Haber-Bosch demuestra que puedes identificar la importancia del proceso industrial, comprender las relaciones estequiométricas y aplicar la tabla ICE. Sin embargo, expresas confusión sobre la aplicación de la tabla ICE en ejercicios diferentes, lo cual indica comprensión procedimental sin entendimiento profundo del concepto.",
+      "strengths": [
+        "Comprendes la importancia del proceso Haber-Bosch en producción industrial y su relevancia práctica",
+        "Identificaste correctamente las relaciones estequiométricas (N₂: -1x, H₂: -3x, NH₃: +2x) y aplicaste la tabla ICE",
+        "Reconoces las limitaciones de los moles (reactivo limitante, no pueden ser negativos), mostrando comprensión conceptual importante"
+      ],
+      "improvements": [
+        "Refuerza la teoría de balanceo químico - necesitas entender por qué los coeficientes estequiométricos determinan las relaciones de x",
+        "Practica aplicar la tabla ICE en ejercicios variados para desarrollar flexibilidad en su uso, no solo seguir un procedimiento memorizado",
+        "Busca conexiones más específicas con química de años pasados - no solo vagamente similar, identifica exactamente cómo se conecta el balanceo"
+      ],
+      "createdAt": "2025-10-03T19:50:22Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-09-01_30ca12cb",
+      "weekStart": "2025-09-01",
+      "score": 27,
+      "generalComments": "Maria Lucia, tu reporte indica que estuviste en el viaje de egresados a Bariloche, por lo que no avanzaste con contenido de química durante esta semana. Esta ausencia es esperada y comprensible. Al regresar, será importante que retomes el ritmo de estudio y recuperes cualquier contenido trabajado durante tu ausencia. El descanso y la experiencia del viaje son importantes, pero también lo es mantener continuidad en el aprendizaje.",
+      "strengths": [
+        "Comunicaste claramente y consistentemente tu situación de viaje de egresados en el reporte"
+      ],
+      "improvements": [
+        "Al regresar, dedica tiempo a revisar apuntes de compañeros y material subido a Classroom durante tu ausencia",
+        "Consulta con el profesor o compañeros sobre ejercicios o conceptos trabajados en tu ausencia",
+        "Retoma el estudio sistemático lo más pronto posible para evitar acumulación de rezago"
+      ],
+      "createdAt": "2025-10-03T19:50:23Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-09-08_c1c51311",
+      "weekStart": "2025-09-08",
+      "score": 58,
+      "generalComments": "Maria Lucia, tu reporte post-viaje muestra que repasaste teoría exitosamente (niveles 1-2 en equilibrio químico, Le Chatelier, y Qc/Kc) pero enfrentaste dificultades significativas al retomar la práctica. Tu autoevaluación indica que tenías presente la teoría pero poner en práctica te resultó difícil. Trabajaste en el primer ejercicio del estilo de prueba, completando las fases 1-3 pero sin entender el paso 4. Tu reflexión sobre química como 'disciplina tan única que es difícil compararla' persiste, lo cual sigue siendo un obstáculo para tu aprendizaje integrado.",
+      "strengths": [
+        "Recordabas la teoría de equilibrio químico, Le Chatelier, y Qc/Kc después del viaje, demostrando retención conceptual",
+        "Completaste exitosamente las fases 1-3 del ejercicio de NO₂ (identificar equilibrio, usar tabla ICE, aplicar Kc)",
+        "Reconoces honestamente tus dificultades y su persistencia a lo largo de las semanas"
+      ],
+      "improvements": [
+        "Desarrolla autonomía práctica trabajando ejercicios en casa - no esperes tener todo el tiempo en clase",
+        "Identifica específicamente qué del paso 4 no entendiste y consúltalo antes de avanzar",
+        "Supera la barrera mental de química como disciplina única - busca activamente un mentor o compañero que te ayude a ver conexiones"
+      ],
+      "createdAt": "2025-10-03T19:50:24Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-09-15_3f10c78a",
+      "weekStart": "2025-09-15",
+      "score": 54,
+      "generalComments": "Maria Lucia, tu reporte de esta semana muestra un retroceso preocupante. Te autoevalúas en Nivel 1 tanto en tipos de reacciones como en uso de Kc y Qc, lo cual es inferior a tus reportes anteriores. Esta semana repasaron teoría únicamente sin resolver ejercicios en clase, lo cual parece haberte dejado con más confusión que claridad. Tu descubrimiento tardío de la tabla ICE para resolución numérica indica lagunas en tu comprensión del sistema metodológico que han venido trabajando. La dificultad persistente para conectar química con otros temas sugiere un bloqueo conceptual que necesita intervención específica.",
+      "strengths": [
+        "Reconoces honestamente tu nivel actual de comprensión (Nivel 1) sin sobreestimarte",
+        "Identificaste la utilidad de la tabla ICE para resolución numérica de problemas, lo cual es un avance importante",
+        "Muestras cierta conexión con química de años pasados (balanceo), aunque aún vaga"
+      ],
+      "improvements": [
+        "Solicita urgentemente una sesión de consulta o tutoría - tus dificultades acumuladas requieren atención personalizada",
+        "Practica la tabla ICE intensivamente - resuelve al menos 5 ejercicios básicos esta semana enfocándote solo en armarla correctamente",
+        "Trabaja activamente en encontrar conexiones: escribe 3 analogías específicas entre equilibrio químico y otros conceptos que conozcas"
+      ],
+      "createdAt": "2025-10-03T19:50:25Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me0ht98e_2025-09-22_824714be",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Maria Lucia, tu reporte de esta semana muestra que tu nivel de dominio se mantiene estancado ('igual a el de semanas previas') debido a que no hubo clases ni aprendiste contenido nuevo. Trabajaste en un modelo de examen (modelo 2) donde lograste calcular Kc, armar la tabla ICE y usar Qc para predecir dirección de reacción, lo cual es positivo. Sin embargo, reportas dificultad con la teoría de Le Chatelier, específicamente no entender que diferentes modificaciones tienen diferentes criterios (temperatura, presión). No encuentras conexiones con otras materias, lo cual sigue siendo un patrón limitante.",
+      "strengths": [
+        "Resolviste correctamente el modelo 2: armaste tabla ICE, calculaste concentraciones, obtuviste Kc=2 y Qc=0.016, concluyendo correctamente que se mueve a productos",
+        "Identificas específicamente qué aspecto de Le Chatelier no entiendes (criterios diferentes para temperatura vs presión)",
+        "Trabajaste autónomamente en modelos de examen a pesar de no tener clase presencial"
+      ],
+      "improvements": [
+        "Estudia sistemáticamente Le Chatelier: crea una tabla con tipo de cambio (temperatura, presión, concentración) y efecto en el equilibrio",
+        "Busca activamente conexiones - el principio de Le Chatelier es análogo a respuestas de sistemas en física (acción-reacción, homeostasis en biología)",
+        "Aprovecha las semanas sin clase para consolidar conceptos débiles, no solo para resolver ejercicios mecánicamente"
+      ],
+      "createdAt": "2025-10-03T19:50:26Z"
+    },
+    {
+      "feedbackId": "75d54eca-8a2f-4fde-b77a-e4e266f2ac7a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 39,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:52:25.470Z"
+    },
+    {
+      "feedbackId": "fa9f3518-34a2-43ae-a5e8-91c217377d15",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 39,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:19:24.982Z"
+    }
+  ]
+}

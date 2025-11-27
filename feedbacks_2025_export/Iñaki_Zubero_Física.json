@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "studentId": "u_ps7y0ovuvme1bx96e",
+    "studentName": "Iñaki Zubero",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.206699",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 72.53,
+      "minScore": 59,
+      "maxScore": 87,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "01c10f2b-506a-47d4-aa8a-c9288655cce2",
+      "weekStart": "2025-08-04",
+      "score": 86,
+      "generalComments": "Tu reporte refleja una comprensión excepcional del pensamiento crítico como metodología. No solo identificaste los cuatro pasos fundamentales (identificar qué pide, datos, fórmulas, abordaje) sino que demostraste capacidad de aplicarlos transformando una conversación no crítica en una crítica. Tu autoevaluación de Nivel 3 es conservadora considerando que contestaste preguntas de reflexión con coherencia y memoria. El reconocimiento de que el pensamiento crítico trasciende la materia y se aplica a la vida cotidiana evidencia metacognición de alto nivel. Tus respuestas extensas y estructuradas (promedio 261 caracteres) demuestran profundidad de procesamiento.",
+      "strengths": [
+        "Identificación explícita de metodología: Detallas los cuatro pasos del pensamiento crítico (identificar problema, datos, fórmulas, abordaje), demostrando comprensión estructural de la metodología que es la base de todo el curso",
+        "Aplicación efectiva a ejercicio metacognitivo: Transformaste exitosamente una conversación no crítica en crítica aplicando los pasos identificados, evidenciando transferencia inmediata de conocimiento a práctica",
+        "Reconocimiento de transferibilidad: Identificas que el pensamiento crítico no se limita a física sino que es herramienta para la vida cotidiana, mostrando comprensión del valor transversal de la habilidad"
+      ],
+      "improvements": [
+        "Especifica tu estrategia de superación: Mencionas que al principio te costó identificar los pasos pero luego estuviste bien. ¿Qué hiciste para superar esa dificultad inicial? ¿Releíste material? ¿Pediste aclaración? Documentar estas estrategias te ayudará a replicarlas",
+        "Profundiza en las conexiones: Aunque mencionas aplicación a vida cotidiana, da un ejemplo concreto. ¿En qué situación no académica podrías usar estos 4 pasos? Esto solidifica la comprensión de transferibilidad",
+        "Mantén este nivel de desarrollo: Tus respuestas (promedio 261 chars) son excelentes. Mantén esta profundidad en reportes futuros, especialmente cuando el contenido pase de metodología a física aplicada"
+      ],
+      "createdAt": "2025-10-01 14:56:36"
+    },
+    {
+      "feedbackId": "7a131be4-fba4-4833-afe4-4701c4a8c923",
+      "weekStart": "2025-08-11",
+      "score": 87,
+      "generalComments": "Tu reporte mantiene el excelente nivel del anterior (87 vs 86 pts, Nivel 4 sostenido). La identificación de tres tipos de variables en el ejercicio de Ana (tiempo, decisión, externas) demuestra comprensión profunda de clasificación sistemática. Tu análisis de la dificultad es particularmente valioso: reconoces la complejidad de variables con control parcial (preparar mochila la noche anterior) y documentas tu estrategia efectiva de resolución (repasar consigna y clasificar por grado de control). La conexión que haces entre este ejercicio y las variables/datos/magnitudes de física evidencia pensamiento estructural. Tus respuestas siguen siendo extensas y reflexivas (promedio 242 caracteres), manteniendo la profundidad de análisis del reporte anterior.",
+      "strengths": [
+        "Clasificación sistemática de variables: Identificaste tres categorías distintas (tiempo, decisión, externas) en el ejercicio de Ana, demostrando capacidad de análisis estructurado característico de Fase 2",
+        "Reconocimiento de complejidad y estrategia efectiva: Identificaste que algunas variables tienen control parcial (ejemplo: preparar mochila) y aplicaste estrategia específica (clasificar por grado de control) para resolver la ambigüedad",
+        "Conexión interdisciplinaria profunda: Relacionas explícitamente este ejercicio con variables/datos/magnitudes de física, demostrando comprensión de que la metodología de clasificación es transversal a distintos problemas"
+      ],
+      "improvements": [
+        "Especifica las variables en Q1: Aunque mencionas que puedes analizar situaciones, sería valioso que en Q1 especificaras qué tipo de variables aprendiste a identificar esta semana (como haces en Q2), conectando tu autoevaluación con evidencia concreta",
+        "Profundiza en el ejemplo de control parcial: Mencionas que preparar la mochila la noche anterior depende parcialmente de Ana. Explica tu razonamiento: ¿Por qué es parcial? ¿Qué parte controla y qué no? Esto refinaría tu criterio de clasificación",
+        "Da ejemplo concreto de aplicación interdisciplinaria: En Q4 mencionas que esto se aplica a otras materias. Proporciona un ejemplo específico de otra situación donde hayas identificado y clasificado variables usando este mismo criterio"
+      ],
+      "createdAt": "2025-10-01 15:09:00"
+    },
+    {
+      "feedbackId": "5c7ec91f-e1bf-4326-8369-f3222bff57be",
+      "weekStart": "2025-08-18",
+      "score": 79,
+      "generalComments": "Tu reporte marca una transición natural hacia contenido físico específico (tiro oblicuo) tras dos semanas de metodología. El score de 79 pts (Nivel 3) representa una caída de 8 puntos respecto al reporte anterior (87→79), pero esta variación es coherente con el cambio de Fase 2 (identificación de variables) a Fase 3 (selección de herramientas matemáticas). Tu dificultad explícita (identificar qué herramientas usar en cada ejercicio) es precisamente el desafío central de Fase 3. La estrategia que desarrollaste (clasificar el problema en palabras antes de aplicar fórmulas) es metacognitiva y efectiva. Destaca que lograste seleccionar fórmulas del Grupo A y justificar tu elección, lo que evidencia comprensión de la clasificación de herramientas. La conexión con MRUV (eje vertical del proyectil) muestra que comprendes la transferencia conceptual de herramientas entre contextos.",
+      "strengths": [
+        "Estrategia metacognitiva efectiva: Desarrollaste un método explícito para superar tu dificultad (clasificar problema en palabras antes de aplicar fórmulas), demostrando autorregulación y consciencia del proceso de selección de herramientas",
+        "Selección y justificación de herramientas: En el ejercicio lograste elegir las fórmulas del Grupo A (básicas) y justificar tu elección, lo que evidencia comprensión de que distintos ejercicios requieren herramientas de diferente complejidad",
+        "Identificación de transferencia conceptual: Reconoces que el eje vertical del tiro oblicuo se analiza como MRUV con aceleración gravitatoria, mostrando comprensión de cómo herramientas conocidas se adaptan a nuevos contextos"
+      ],
+      "improvements": [
+        "Especifica las fórmulas del Grupo A que usaste: En Q2 mencionas que elegiste fórmulas básicas, pero no especificas cuáles. Nombra las ecuaciones (ejemplo: y = y₀ + v₀y·t - ½g·t²) para demostrar que conoces las herramientas por nombre",
+        "Documenta tu criterio de clasificación en palabras: Tu estrategia de clasificar antes de aplicar fórmulas es excelente. Da un ejemplo: ¿Qué palabras usaste para clasificar el ejercicio? (ejemplo: problema de posición en instante específico → necesito ecuaciones de posición en función del tiempo)",
+        "Practica la selección rápida: Reconoces que necesitas más práctica para rapidez en cálculos. Crea un diagrama de flujo personal: ¿Me piden posición? → fórmulas de posición. ¿Me piden tiempo? → despejar t. Esto acelerará tu selección de herramientas"
+      ],
+      "createdAt": "2025-10-01 15:16:25"
+    },
+    {
+      "feedbackId": "94c8bdc3-17fc-427e-a580-071a976e091d",
+      "weekStart": "2025-08-25",
+      "score": 76,
+      "generalComments": "Tu trabajo muestra un avance significativo en la ejecución completa de problemas de física, especialmente al resolver el problema del arquero con precisión. Sin embargo, al enfrentar la Fase 4 - que requiere estrategias completas y autocorrección - aparecen desafíos en identificar y superar obstáculos metodológicos. Tu capacidad para describir el proceso es sólida, pero el siguiente nivel implica desarrollar mayor autonomía para detectar errores y ajustar estrategias durante la ejecución.",
+      "strengths": [
+        "Capacidad para ejecutar problemas complejos de forma completa, demostrando dominio metodológico al resolver el ejercicio del arquero con cálculos precisos",
+        "Habilidad para describir el proceso de resolución paso a paso, mostrando comprensión de la estructura metodológica necesaria para abordar problemas de física",
+        "Conexión conceptual con otros temas vistos en clase, demostrando capacidad para relacionar el ejercicio actual con aprendizajes previos"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para identificar y corregir obstáculos durante la resolución, en lugar de solo reconocerlos al final del proceso",
+        "Profundizar en el análisis de los errores cometidos, explicando no solo qué salió mal sino también cómo podrías haber detectado el error durante la ejecución",
+        "Incorporar procesos de verificación durante la resolución (checkpoints intermedios) que te permitan detectar inconsistencias antes de llegar al resultado final"
+      ],
+      "createdAt": "2025-10-01 15:33:18"
+    },
+    {
+      "feedbackId": "bfe83c30-e336-4dd4-a623-51650a1fa500",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Tu trabajo en esta semana muestra un avance importante en la ejecución de problemas completos de tiro oblicuo. Lograste resolver un ejercicio aplicado de bomberos, demostrando capacidad para integrar las ecuaciones de movimiento en dos dimensiones. Sin embargo, en la Fase 4 donde se requiere autonomía completa, aparecen desafíos en el ordenamiento metodológico y manejo de funciones trigonométricas. Tu honestidad al reconocer estas dificultades es valiosa, pero el siguiente paso es desarrollar estrategias específicas para superarlas durante la resolución.",
+      "strengths": [
+        "Capacidad para resolver problemas aplicados completamente, demostrando integración de ecuaciones de movimiento horizontal y vertical en el ejercicio del chorro de agua",
+        "Claridad en la descripción del proceso de resolución, mostrando comprensión del método de reemplazo del tiempo en ecuaciones de tiro parabólico",
+        "Conexión conceptual sólida entre tiro oblicuo y movimientos previos (MRU/MRUV), demostrando construcción integrada de conocimientos"
+      ],
+      "improvements": [
+        "Desarrollar una rutina sistemática para ordenar ecuaciones antes de comenzar los cálculos, quizás numerándolas o creando un diagrama de flujo de reemplazos",
+        "Practicar el manejo de funciones trigonométricas en contextos de física, creando una tabla de referencia rápida con identidades útiles para tiro oblicuo",
+        "Proponer estrategias de autocorrección específicas para los puntos identificados como difíciles (ej: verificar dimensiones al reemplazar tiempo, revisar ángulos en grados/radianes)"
+      ],
+      "createdAt": "2025-10-01 15:36:18"
+    },
+    {
+      "feedbackId": "e52c9a7b-ebb8-44f6-bfea-95e502724e3f",
+      "weekStart": "2025-09-08",
+      "score": 74,
+      "generalComments": "Tu trabajo esta semana muestra consistencia en la ejecución de problemas complejos multi-fase, resolviendo exitosamente el desafío del helicóptero con dos etapas de movimiento (MRUV→MRU). Sin embargo, persiste el mismo patrón observado en reportes anteriores: excelente capacidad ejecutiva pero dificultades recurrentes en la organización metodológica de problemas con múltiples etapas. Tu identificación precisa de las dificultades es valiosa, pero alcanzar el siguiente nivel requiere implementar las estrategias de organización sistemática que se han sugerido.",
+      "strengths": [
+        "Capacidad consolidada para resolver problemas complejos multi-fase, demostrando dominio al integrar caída libre (MRUV) con descenso paracaídas (MRU) en un problema aplicado",
+        "Claridad conceptual al separar movimiento en ejes X e Y, aplicando correctamente las fórmulas de MRU y MRUV en cada fase del problema",
+        "Conexión significativa con aplicaciones reales (rescates, lanzamientos aéreos, deportes), demostrando comprensión del valor práctico de los conceptos"
+      ],
+      "improvements": [
+        "Implementar un sistema de organización visual (diagrama de fases, tabla temporal) para problemas multi-etapa, identificando claramente cuándo cambia el régimen de movimiento (MRUV↔MRU)",
+        "Desarrollar un protocolo de verificación por etapa: antes de pasar a la siguiente fase, confirmar que los valores de transición (posición, velocidad) son consistentes",
+        "Practicar con problemas similares creando un 'mapa de decisión' que te ayude a identificar automáticamente qué tipo de movimiento aplica en cada tramo del problema"
+      ],
+      "createdAt": "2025-10-01 15:38:51"
+    },
+    {
+      "feedbackId": "025dec3f-fab5-42b3-b87e-49abea5e99b3",
+      "weekStart": "2025-09-15",
+      "score": 77,
+      "generalComments": "Tu último reporte muestra una mejoría significativa en la precisión metodológica, especialmente notable en Q3 donde identificaste con exactitud el punto crítico de tu dificultad (sistema de referencia para alturas) en lugar de mencionar dificultades genéricas. El problema del motociclista fue resuelto completamente, incluyendo conversión de unidades, descomposición vectorial, y lo más importante: verificación de resultados en dos dimensiones (alcance Y altura). Este es el primer reporte donde tu score sube después de 4 semanas consecutivas de descenso o estancamiento, alcanzando 77 puntos.",
+      "strengths": [
+        "Resolución completa y verificada del problema del motociclista, demostrando integración de conversión de unidades (km/h→m/s), descomposición vectorial en componentes y cálculo de trayectoria bidimensional",
+        "Implementación exitosa de verificación de resultados en dos dimensiones (alcance horizontal de 20m Y altura final), mostrando progreso en la competencia de autorregulación",
+        "Identificación precisa del punto crítico de dificultad (sistema de referencia para medir alturas entre rampa salida/llegada), demostrando metacognición específica en lugar de descripciones genéricas"
+      ],
+      "improvements": [
+        "Consolidar el progreso logrado en este reporte creando un protocolo permanente de verificación dimensional (¿las unidades son coherentes? ¿la magnitud del resultado es razonable?)",
+        "Desarrollar una rutina sistemática para problemas con múltiples sistemas de referencia: dibujar diagrama con eje Y explícito y marcar h=0 antes de plantear ecuaciones",
+        "Practicar la identificación de puntos críticos antes de comenzar la resolución ('¿qué es lo que podría confundirme en este problema?') para anticipar dificultades en lugar de solo reconocerlas después"
+      ],
+      "createdAt": "2025-10-01 15:41:05"
+    },
+    {
+      "feedbackId": "fceae4a8-c628-4324-bed1-af483a8eafbd",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:02.821Z"
+    },
+    {
+      "feedbackId": "e1280e87-cfb0-467c-bc79-dd5188364395",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:55:16.022Z"
+    },
+    {
+      "feedbackId": "0c406af7-0869-4555-98a5-2fec920ff607",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:05.529Z"
+    },
+    {
+      "feedbackId": "bb43bd8e-e153-4383-b579-009e3f4034e6",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:30:39.680Z"
+    },
+    {
+      "feedbackId": "eec9f1df-f27e-45c3-b363-09f6886c2b42",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Excelente trabajo esta semana. Demuestras comprensión sólida de los Diagramas de Cuerpo Libre y tu honestidad al autoevaluarte en Nivel 3 es muy positiva. Los ejemplos numéricos que incluyes (especialmente el del plano inclinado de 30°) muestran que estás practicando activamente y no solo memorizando conceptos.\n\nTu desempeño general es consistente: identificas bien los temas, resuelves ejercicios con datos reales y conectas con teoría fundamental. Sin embargo, para avanzar en Fase 2, necesitas ser más sistemático al clasificar variables. Cada problema debe tener un análisis claro de qué datos tienes y qué buscas encontrar.\n\nPara la próxima semana, enfócate en dos cosas: primero, practica más descomposición de fuerzas en planos inclinados (es tu punto débil declarado); segundo, antes de resolver cada ejercicio, haz una lista explícita de variables conocidas y desconocidas. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Ejemplos numéricos precisos: Utilizas datos concretos (2 kg, 100 N, plano de 30°) que demuestran que realmente trabajaste ejercicios prácticos y no solo teoría. Esto evidencia aprendizaje real.\n• Conexión con Leyes de Newton: Relacionas correctamente los diagramas de cuerpo libre con la Segunda Ley (ΣF = m·a), mostrando que comprendes por qué esta herramienta es importante en Física.\n• Autoevaluación honesta: Reconoces tu nivel actual (Nivel 3) e identificas áreas donde necesitas práctica (planos inclinados), lo que muestra autoconciencia sobre tu aprendizaje.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, debes identificar explícitamente qué variables son conocidas (datos dados) y cuáles desconocidas (lo que buscas). Por ejemplo, en el ejercicio de 2 kg: conocidas = masa y fuerzas aplicadas; desconocidas = aceleración. Esto es central en Fase 2.\n• Estrategias concretas para dificultades: En Q3, no solo menciones que te cuesta descomponer fuerzas, sino explica cómo lo superaste o cómo lo harás. Ejemplo: \"Ahora dibujo un triángulo rectángulo para visualizar mejor las componentes Px y Py antes de calcular.\"\n• Completar Q5 con reflexión personal: Usa esta sección para pensar en tu evolución desde Fase 1. ¿Cómo ha mejorado tu forma de analizar problemas? ¿Qué categorías de variables te resultan más claras ahora? Esto fortalece tu metacognición.",
+      "createdAt": "2025-10-27T04:57:02.585Z"
+    },
+    {
+      "feedbackId": "a0ab12a7-6b10-4f8d-8055-16dfc10e99e3",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Excelente trabajo esta semana. Demostraste que comprendes bien la aplicación de la segunda ley de Newton en contextos reales, y tus conexiones con fenómenos cotidianos (frenos, ascensores) son particularmente fuertes. Tu honestidad al reconocer dificultades con rozamiento muestra madurez.\n\nSin embargo, tu reporte está incompleto en dos aspectos clave de Fase 2: no clasificas explícitamente las variables en tus problemas (conocidas/desconocidas, controlables/no controlables), y no propones estrategias concretas para superar tus dificultades. Además, dejaste Q5 sin respuesta, perdiendo la oportunidad de reflexionar profundamente.\n\nPara la próxima semana, enfócate en: (1) crear tablas de variables clasificadas para cada problema que resuelvas, (2) proponer estrategias específicas (diagramas, ejercicios adicionales) para dominar rozamiento, y (3) completar siempre todas las preguntas del reporte, especialmente la reflexión final.",
+      "strengths": "• Excelente conexión con fenómenos reales: Tu análisis en Q4 vincula dinámica con situaciones cotidianas (frenos, ascensores, seguridad vial), demostrando que comprendes la relevancia práctica de lo que aprendes, no solo la teoría.\n• Aplicación sistemática de ecuaciones: En Q2 resuelves problemas concretos con datos específicos (1000 kg, 50 m, 2 m/s²), mostrando que sabes usar F = m·a y ecuaciones de MRUV de forma ordenada y con ejemplos verificables.\n• Autoevaluación honesta: Reconoces claramente tus limitaciones con rozamiento y cambios de velocidad, lo que indica madurez metacognitiva y disposición para mejorar de forma realista.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, necesitas identificar qué variables son conocidas (masa = 1000 kg) y cuáles desconocidas (fuerza de frenado), y cuáles son controlables (velocidad inicial) y no controlables (rozamiento del asfalto). Esto es el corazón de Fase 2. Crea una tabla simple: Variable | Tipo | Valor para cada problema.\n• Estrategias concretas para dificultades: En Q3, en lugar de solo mencionar que te cuesta relacionar fuerza con aceleración, propón una estrategia específica: \"Dibujaré diagramas de fuerzas con vectores para cada caso\" o \"Practicaré 5 ejercicios de ascensores variando la dirección de la aceleración.\" Esto transforma la dificultad en un plan de acción.\n• Completar Q5 con reflexión profunda: No dejes esta sección vacía. Reflexiona sobre por qué es importante identificar variables antes de resolver un problema, o cómo tu comprensión de dinámica ha evolucionado desde Fase 1. Esto consolida tu aprendizaje y demuestra pensamiento crítico avanzado.",
+      "createdAt": "2025-11-03T12:25:26.464Z"
+    },
+    {
+      "feedbackId": "91d3474a-19a4-4af6-9033-0f2eb227d3c0",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Felicidades por completar el proyecto del carro con globo y por demostrar que comprendes las Leyes de Newton en contextos prácticos. Tu observación sobre la Tercera Ley es acertada y muestra que estás pensando en cómo la teoría se manifiesta en la realidad.\n\nSin embargo, tu reporte aún no refleja completamente el trabajo de la Fase 2. Necesitas ser más sistemático: en lugar de describir lo que aprendiste de forma general, debes desglosar cada problema identificando y clasificando sus variables. Esto es lo que diferencia un buen análisis de uno excelente.\n\nPara la próxima semana, te recomiendo que cuando trabajes un nuevo problema o experimento, hagas una tabla con todas las variables, las clasifiques, y luego reflexiones sobre cómo esa clasificación te ayudó a resolver el problema. Esto consolidará tu pensamiento crítico.",
+      "strengths": "• Aplicación práctica clara: Tu proyecto del carro con globo es un excelente ejemplo para entender las Leyes de Newton. Conectar la teoría con un experimento tangible (\"el aire que sale hacia atrás genera una fuerza de reacción\") demuestra que comprendes el concepto físico.\n• Reconocimiento de la Tercera Ley: Identificas correctamente que la Tercera Ley se observa en el proyecto, lo que muestra que estás observando fenómenos reales y relacionándolos con la teoría.\n• Disposición para resolver problemas: El hecho de que hayas completado el proyecto práctico y hayas intentado calcular variables muestra compromiso con el aprendizaje activo.",
+      "improvements": "• Falta identificación sistemática de variables: En la Fase 2, debes listar explícitamente todas las variables del problema (masa del carro, volumen del globo, presión del aire, tiempo de vuelo, distancia, etc.) y clasificarlas en: conocidas/desconocidas y controlables/no controlables. Crea una tabla o lista para cada experimento que hagas.\n• Estrategias vagas para resolver dificultades: Cuando dices \"fue difícil calcular cómo la masa y cantidad de aire influían\", no explicas *cómo* lo resolviste o cómo lo harías mejor. Propón estrategias concretas: \"Podría medir la masa del carro con una balanza, variar el volumen del globo manteniendo otros factores constantes, y registrar los cambios en velocidad.\"\n• Respuesta incompleta en Q5: Aprovecha este espacio para reflexionar: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo te ayuda esto para la próxima fase? Esta metacognición es crucial para el pensamiento crítico.",
+      "createdAt": "2025-11-12T22:58:20.356Z"
+    },
+    {
+      "feedbackId": "689e9731-211c-4558-b46b-c1ddf8dfc488",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Reconozco tu esfuerzo en completar el trabajo práctico del auto propulsado y en obtener mediciones reales. El cálculo de velocidad promedio y tus observaciones sobre fricción muestran que estás observando el fenómeno físico con atención.\n\nSin embargo, tu reporte aún no refleja el nivel de análisis esperado para Fase 2. Necesitas ir más allá de describir lo que pasó: debes identificar, clasificar y analizar sistemáticamente las variables involucradas. Esto es lo que diferencia un experimento de un análisis científico riguroso.\n\nPara la próxima semana, antes de entregar el informe final, dedica tiempo a crear una tabla de variables (conocidas/desconocidas, controlables/no controlables) y conecta cada una con las leyes de Newton. Esto elevará significativamente la calidad de tu trabajo y tu comprensión del fenómeno.",
+      "strengths": "• Trabajo práctico bien estructurado: Tu equipo completó mediciones concretas (distancia, tiempo) y realizó cálculos correctos de velocidad promedio (0.47 m/s). Esto muestra que aplicaste matemática básica adecuadamente.\n• Observaciones sobre factores que afectan el movimiento: Identificas que \"la fricción y el rozamiento de las ruedas afectaron los resultados\" y que \"el globo se despegó por exceso de presión\". Esto demuestra que reconoces variables importantes, aunque no las clasificas formalmente.\n• Resolución de problemas prácticos: Lograron solucionar el problema de alineación de ruedas de forma independiente, lo que muestra capacidad para ajustar y mejorar el diseño experimental.",
+      "improvements": "• Falta identificación y clasificación sistemática de variables: Tu reporte no lista explícitamente qué variables son conocidas (distancia = 1.12 m), desconocidas (aceleración) o controlables (cantidad de aire). Crea una tabla simple con tres columnas: Variable | Tipo | Valor/Descripción. Esto es fundamental en Fase 2.\n• Análisis superficial de las leyes de Newton: Mencionas que el trabajo \"trabaja sobre las leyes de Newton\" pero no explicas cuál ley se aplica (acción-reacción del aire, inercia del vehículo, etc.). Conecta cada variable con la ley específica que la explica. Por ejemplo: \"La fuerza del aire (acción) propulsa el auto (reacción)\".\n• Respuesta vacía en Q5: Debes completar la sección de comentarios adicionales. Reflexiona sobre: ¿Qué aprendiste sobre cómo las variables afectan el movimiento? ¿Cómo evolucionó tu comprensión desde Fase 1? Dedica al menos 3-4 líneas a esto.",
+      "createdAt": "2025-11-17T13:48:48.428Z"
+    }
+  ]
+}

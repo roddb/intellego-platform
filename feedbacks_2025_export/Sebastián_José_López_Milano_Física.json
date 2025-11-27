@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "studentId": "u_jjcjumyigme1bxb6d",
+    "studentName": "Sebastián José López Milano",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.231783",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 78.5,
+      "minScore": 76,
+      "maxScore": 81,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-18"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1bxb6d_2025-08-11_d6e2d3f9",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Sebastián demuestra una sólida comprensión de la Fase 2 del pensamiento crítico aplicado a la física. Ha logrado identificar y clasificar variables de manera sistemática utilizando la estrategia de barrido (pasos A, B, C) y la matriz 2×2. Su mayor fortaleza está en reconocer la importancia de diferenciar información relevante de irrelevante, aunque todavía experimenta dificultades ocasionales en no olvidar datos importantes. Su nivel de dominio es bueno (Nivel 3), mostrando aplicación consistente del método F1+F2.",
+      "strengths": [
+        "Comprende y aplica correctamente la estrategia de barrido sistemático (pasos A, B, C) para identificar variables",
+        "Clasifica adecuadamente las variables en la matriz 2×2 según disponibilidad y control (conocidas/desconocidas, controlables/no controlables)",
+        "Establece conexiones entre el método de clasificación de variables y su aplicación en otras materias como historia y química",
+        "Muestra reflexión sobre sus dificultades y propone estrategias concretas como leer el enunciado más de una vez y marcar lo importante"
+      ],
+      "improvements": [
+        "Desarrollar mayor atención al detalle para evitar olvidar datos importantes durante la identificación de variables",
+        "Profundizar en la justificación de por qué ciertas variables son relevantes o irrelevantes en cada contexto específico",
+        "Ampliar los comentarios adicionales (Q5) con reflexiones más específicas sobre el proceso de aprendizaje y aplicaciones futuras del método"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bxb6d_2025-08-18_e7f3e4a1",
+      "weekStart": "2025-08-18",
+      "score": 81,
+      "generalComments": "Sebastián muestra un excelente progreso en la Fase 3, demostrando capacidad para seleccionar herramientas y métodos de resolución de manera justificada. Su trabajo en el problema de tiro oblicuo (Marta lanzando desde un balcón) es destacable: comparó tres métodos diferentes (fórmula directa, componentes y temporal) y eligió el más apropiado según las condiciones del problema (altura inicial distinta de cero). Domina la descomposición vectorial y la aplicación de ecuaciones cinemáticas. Ha integrado exitosamente las Fases 1, 2 y 3, siguiendo los pasos 3A, 3B y 3C para evaluar eficiencia, datos disponibles y complejidad.",
+      "strengths": [
+        "Compara y evalúa múltiples métodos de resolución (fórmula directa, componentes, temporal) antes de seleccionar el más apropiado",
+        "Justifica claramente su elección metodológica basándose en las condiciones del problema (altura inicial distinta de cero)",
+        "Aplica correctamente la descomposición vectorial (v0x = v0 cos θ, v0y = v0 sin θ) y ecuaciones cinemáticas integradas",
+        "Sigue sistemáticamente los pasos 3A, 3B y 3C, evaluando eficiencia, datos disponibles y complejidad antes de seleccionar herramientas",
+        "Reconoce la conexión entre las fases anteriores (F1+F2) y la Fase 3, mostrando comprensión de la progresión metodológica"
+      ],
+      "improvements": [
+        "Continuar practicando con problemas de tiro oblicuo con condiciones complejas (altura inicial distinta de cero, diferentes ángulos) para consolidar la intuición sobre qué método usar",
+        "Desarrollar mayor velocidad en la toma de decisiones sobre qué herramienta aplicar, reduciendo el tiempo de duda que menciona",
+        "Ampliar las reflexiones en Q5 sobre cómo mejorar la eficiencia en la selección de métodos según diferentes tipos de problemas"
+      ],
+      "createdAt": "2025-10-02T03:00:00Z"
+    }
+  ]
+}

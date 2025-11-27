@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "studentId": "u_snjygtgt6me7wwtla",
+    "studentName": "Ana Rosiello",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.182366",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 35.33,
+      "minScore": 27,
+      "maxScore": 55,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me7wwtla_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 55,
+      "generalComments": "Querida Ana Rosiello,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Presentas evidencias adecuadas del Paso 1 al identificar claramente el problema de Ana con el agua para la pasta. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, especialmente al describir las dificultades que enfrentas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas el problema principal en situaciones cotidianas como el caso del agua para pasta",
+        "Reconoces la importancia de las variables y el contexto en la resolución de problemas",
+        "Muestras honestidad al evaluar tu nivel de comprensión y necesidad de práctica"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje con mayor profundidad",
+        "Busca aplicaciones prácticas de la identificación de problemas en situaciones cotidianas más variadas",
+        "Desarrolla estrategias más específicas para superar tus desafíos al entender enunciados, como releer párrafo por párrafo o subrayar información clave"
+      ],
+      "createdAt": "2025-10-09T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me7wwtla_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 40,
+      "generalComments": "Querida Ana Rosiello,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Física. Muestras capacidad para identificar el problema específico en el ejercicio de calorimetría, mencionando correctamente los datos del calentador. Es fundamental fortalecer tu capacidad para describir los temas trabajados y tu nivel de dominio con mayor detalle. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en todas las preguntas, no solo en una. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Identificas el problema principal en el ejercicio de calorimetría con los datos numéricos correctos",
+        "Reconoces y utilizas la nomenclatura F1 de la metodología de pensamiento crítico",
+        "Demuestras honestidad al expresar tus dificultades sin inventar respuestas"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para describir qué temas trabajaste y tu nivel de dominio en cada uno",
+        "Desarrolla estrategias más específicas para identificar dificultades concretas en lugar de dejar respuestas vacías",
+        "Busca aplicaciones prácticas de la calorimetría en situaciones cotidianas, como cocinar, usar termos o aire acondicionado"
+      ],
+      "createdAt": "2025-10-09T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "71716d61-b5a7-41be-a776-6263d9e16e32",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:50.666Z"
+    },
+    {
+      "feedbackId": "7141a336-6978-4560-8388-8266a464ad33",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:22:29.699Z"
+    },
+    {
+      "feedbackId": "2896967d-3d11-4d8a-920d-77dc95508a59",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana atípica por los parciales, y eso explica la ausencia de clases regulares. Sin embargo, un reporte completamente vacío no nos permite evaluar tu progreso en Fase 2 ni identificar dónde necesitas apoyo.\n\nTu desempeño esta semana no refleja tu capacidad real, simplemente porque no hay evidencia de trabajo. Los parciales son una excelente oportunidad para aplicar lo que aprendiste sobre identificación de variables, pero necesitamos que lo documentes en el reporte.\n\nPara la próxima semana, cuando regresen las clases normales, te pido que retomes con energía el trabajo de Fase 2. Trae tus dudas sobre clasificación de variables y prepárate para profundizar en cómo distinguir magnitudes físicas. ¡Vamos a recuperar el ritmo juntos!",
+      "strengths": "• Honestidad en la comunicación: Informas claramente sobre la situación de la semana (ausencia de clases por parciales), lo que permite entender el contexto del reporte incompleto.",
+      "improvements": "• Completar el reporte incluso en semanas atípicas: Aunque no haya clases regulares, puedes usar la semana de parciales para reflexionar sobre lo aprendido en Fase 1, repasar conceptos de variables o preparar un análisis de problemas de exámenes anteriores. Esto mantiene tu pensamiento crítico activo.\n• Aprovechar el tiempo de parciales para consolidar aprendizajes: En lugar de dejar el reporte en blanco, podrías escribir sobre qué variables identificaste en los problemas de los parciales, qué dificultades enfrentaste al clasificarlas, o cómo aplicaste Fase 1+2 en las pruebas.\n• Comunicar proactivamente cambios en la rutina: Si sabes que habrá semana de parciales, avisa con anticipación al profesor para acordar cómo proceder con los reportes. Esto demuestra responsabilidad y permite ajustar expectativas.",
+      "createdAt": "2025-11-12T22:53:38.548Z"
+    },
+    {
+      "feedbackId": "de5fcc2b-9eca-4949-b47c-498c0dcbe6ea",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que hiciste un esfuerzo esta semana trabajando con tu equipo en electrodinamica, y eso es valioso. Sin embargo, tu reporte está muy incompleto: faltan respuestas en dos preguntas y las que sí respondiste son muy breves sin detalles específicos sobre variables, clasificaciones o estrategias.\n\nTu desempeño en esta Fase 2 está en nivel inicial. Necesitas profundizar: en lugar de solo mencionar temas, debes identificar y clasificar variables concretas de cada problema. El trabajo en equipo es excelente, pero también requieres reflexión personal sobre qué aprendiste.\n\nPara la próxima semana, te propongo: (1) Haz una lista completa de variables en cada ejercicio que resuelvas, (2) Clasifica cada una según los criterios de la Fase 2, y (3) Responde todas las preguntas del reporte con al menos 3-4 líneas cada una. Esto te ayudará a consolidar tu aprendizaje.",
+      "strengths": "• Reconocimiento de necesidad de apoyo: Mencionas que \"necesito seguir trabajando\" y que recibiste ayuda del equipo. Esto muestra honestidad sobre tu nivel actual y disposición a colaborar.\n• Identificación del tema principal: Reconoces que trabajaste electrodinamica, lo que indica que al menos ubicaste el contenido de la semana.\n• Trabajo colaborativo: Valoras el trabajo en equipo como estrategia (\"con mi equipo pudimos ayudar entre todos\"), lo que es positivo para el aprendizaje.",
+      "improvements": "• Falta de especificidad en variables: No identificas qué variables trabajaste en electrodinamica (corriente I, voltaje V, resistencia R, potencia P, etc.). Para la próxima semana, haz una lista explícita de cada variable que encuentres en los problemas, indicando si es conocida o desconocida.\n• Ausencia de clasificación sistemática: No clasificas variables como controlables/no controlables o magnitudes físicas. Crea una tabla simple: en una columna escribe la variable, en otra su tipo (conocida/desconocida), y en otra si es controlable. Esto te ayudará a organizar mejor tu pensamiento.\n• Respuestas incompletas en Q4 y Q5: Dejaste vacías las preguntas sobre conexiones y comentarios adicionales. Dedica tiempo a reflexionar: ¿dónde ves electrodinamica en la vida real? ¿Qué aprendiste sobre cómo identificar variables? Escribe al menos 3-4 líneas en cada una.",
+      "createdAt": "2025-11-17T14:00:24.820Z"
+    }
+  ]
+}

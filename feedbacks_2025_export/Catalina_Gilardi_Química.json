@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_abe3h0317me06njgs",
+    "studentName": "Catalina Gilardi",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.190429",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 67.5,
+      "minScore": 60,
+      "maxScore": 75,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "40403eea61b6ebc3d3ee7959cdaec880",
+      "weekStart": "2025-08-04",
+      "score": 75,
+      "generalComments": "Catalina demuestra buena comprensión de los fundamentos del pensamiento crítico. Su análisis de las conversaciones es excelente, identificando correctamente los elementos que distinguen el pensamiento crítico del memorístico. La conexión con Estudio Dirigido muestra capacidad de transferencia interdisciplinaria.",
+      "strengths": [
+        "Análisis excelente de las conversaciones, distinguiendo claramente el pensamiento crítico",
+        "Identificación correcta de los elementos clave: problema, variables y búsqueda de soluciones",
+        "Conexión pertinente con Estudio Dirigido mostrando visión integradora"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para superar las dificultades del ejercicio 4",
+        "Profundizar en la aplicación de los pasos del pensamiento crítico",
+        "Incluir reflexiones adicionales sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-09-29 10:02:12"
+    },
+    {
+      "feedbackId": "372793455c3ee04ee7ccad12388033f1",
+      "weekStart": "2025-08-25",
+      "score": 60,
+      "generalComments": "Catalina demuestra comprensión del método completo de pensamiento crítico en química, logrando integrar las cuatro fases en la resolución del problema de gases. Si bien identifica correctamente el objetivo y las variables, necesita fortalecer la ejecución sistemática y la verificación de resultados.",
+      "strengths": [
+        "Integración clara de las 4 fases del pensamiento crítico en el problema de gases",
+        "Identificación correcta del objetivo (calcular masa) y las variables involucradas",
+        "Reconocimiento de la importancia de seleccionar las fórmulas adecuadas"
+      ],
+      "improvements": [
+        "Desarrollar conexiones más profundas entre química y matemática, explicando cómo se relacionan",
+        "Incluir verificación de resultados y análisis de razonabilidad en los cálculos",
+        "Ampliar las reflexiones sobre el proceso de aprendizaje en los comentarios adicionales"
+      ],
+      "createdAt": "2025-09-28 23:32:04"
+    }
+  ]
+}

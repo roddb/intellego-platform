@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "studentId": "u_q8vglr2n7me0b5ree",
+    "studentName": "Magdalena Donadio",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.215186",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 59.27,
+      "minScore": 35,
+      "maxScore": 85,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_001",
+      "weekStart": "2025-08-04",
+      "score": 35,
+      "generalComments": "Querida Magdalena Donadio, esta semana no hubo clase debido a ausencias masivas en el curso, por lo que no fue posible evaluar tu progreso en Química. Demuestras responsabilidad al completar el reporte explicando la situación. Es importante que en la próxima semana te integres activamente al nuevo contenido. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte con honestidad sobre la situación",
+        "Comunicas claramente la razón de la ausencia de clase",
+        "Demuestras compromiso al no dejar el reporte sin completar"
+      ],
+      "improvements": [
+        "Estar atenta a la introducción de la nueva metodología en la próxima clase",
+        "Consultar con compañeros presentes si hubo alguna comunicación adicional",
+        "Prepararte para comenzar el nuevo tema con predisposición activa"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_002",
+      "weekStart": "2025-08-11",
+      "score": 55,
+      "generalComments": "Querida Magdalena Donadio, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Demuestras esfuerzo genuino al intentar resolver el ejercicio del neumático. Muestras honestidad admitiendo las dificultades con el vocabulario técnico. Es fundamental fortalecer tu comprensión del vocabulario básico de química antes de avanzar. Necesitas apoyo adicional para comprender los conceptos fundamentales del cuadernillo. Te recomiendo que coordinemos una sesión para revisar el material y aclarar los términos técnicos. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Demuestras honestidad sobre tus dificultades con el material",
+        "Intentas resolver el ejercicio a pesar de no entender todos los términos",
+        "Solicitas ayuda explícitamente, mostrando autorregulación"
+      ],
+      "improvements": [
+        "Crear un glosario de términos químicos fundamentales (sistema gaseoso, principio químico, etc.)",
+        "Solicitar explicación personalizada del cuadernillo antes de intentar los ejercicios",
+        "Trabajar con material complementario más accesible para construir vocabulario base"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_003",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Querida Magdalena Donadio, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Demuestras mejora significativa respecto a la semana anterior, evaluándote en nivel 2. Seleccionas correctamente la Ley de Charles y justificas tu elección apropiadamente. Identificas las variables del problema de manera organizada. Es importante profundizar en la comprensión de por qué cada ley se aplica en cada contexto. Continúa practicando para desarrollar mayor confianza. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Seleccionas correctamente la Ley de Charles para el problema",
+        "Justificas tu elección mencionando que presión es constante y V-T varían",
+        "Identificas correctamente las variables conocidas y desconocidas"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión conceptual de cada ley de gases",
+        "Practicar con mayor variedad de ejercicios para consolidar criterios de selección",
+        "Desarrollar mayor seguridad en el proceso de toma de decisiones"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_004",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Querida Magdalena Donadio, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Demuestras progreso sostenido evaluándote en nivel 2. Resuelves completamente el ejercicio de densidad del metano aplicando las 4 fases de manera ordenada. Realizas cálculos correctos llegando a resultados precisos. Tu reflexión sobre la conexión con otras materias es valiosa. Es importante mejorar la profundización en algunas fases, especialmente la explicación del sentido de cada paso. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Aplicas las 4 fases de manera completa y ordenada",
+        "Identificas correctamente problema, objetivo e importancia",
+        "Realizas cálculos precisos con resultados correctos (densidades de 0.06 y 0.71 g/L)"
+      ],
+      "improvements": [
+        "Profundizar en la explicación del significado de cada variable en Fase 2",
+        "Justificar más explícitamente por qué se usa la fórmula de densidad en Fase 3",
+        "Interpretar los resultados en Fase 4 (qué significa que la densidad aumente 11.8 veces)"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_005",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Querida Magdalena Donadio, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa del modelo de examen, cumpliendo con las expectativas de esta etapa en Química. Resuelves el problema completo del tanque de oxígeno aplicando las 4 fases de manera ordenada. Realizas cálculos correctos llegando a la conclusión de que el médico está equivocado. Demuestras honestidad sobre tu dificultad en la fase de cálculos. Es importante fortalecer tu confianza en la ejecución de cuentas mediante más práctica. Desarrollar estrategias para identificar conexiones entre temas. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Aplicas las 4 fases de manera completa y bien estructurada",
+        "Identificas correctamente el problema y objetivo del ejercicio",
+        "Realizas conversión de unidades y cálculos complejos correctamente"
+      ],
+      "improvements": [
+        "Desarrollar mayor confianza en la fase de cálculos para reducir la percepción de dificultad",
+        "Practicar más problemas con múltiples pasos de cálculo para automatizar el proceso",
+        "Trabajar en identificar conexiones temáticas de manera más específica"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_006",
+      "weekStart": "2025-09-08",
+      "score": 78,
+      "generalComments": "Querida Magdalena Donadio, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Te evalúas en nivel 3, mostrando confianza y dominio del tema. Resuelves el problema de masa de metano de manera completa y correcta aplicando las 4 fases. Realizas conversión de unidades, cálculo de moles y masa con precisión. Tu reflexión sobre la interpretación de enunciados complejos es valiosa. Sigue así y continúa desarrollando tu capacidad de análisis. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Aplicas las 4 fases de manera completa, clara y bien organizada",
+        "Realizas correctamente la conversión de unidades (mmHg a atm)",
+        "Ejecutas los cálculos con precisión llegando al resultado correcto (m=4g)"
+      ],
+      "improvements": [
+        "Continuar desarrollando la habilidad de interpretación de enunciados complejos",
+        "Expandir las conexiones temáticas más allá de masa molar y regla de 3",
+        "Explorar problemas con mayor nivel de complejidad conceptual"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_003_magdalena_donadio_2025_09_15",
+      "weekStart": "2025-09-15",
+      "score": 85,
+      "generalComments": "Excelente dominio de la metodología de 4 fases aplicada a problemas complejos de gases ideales. Tu capacidad para manejar múltiples cálculos es destacable.",
+      "strengths": [
+        "Aplicación completa de las 4 fases metodológicas",
+        "Manejo experto de conversiones de unidades",
+        "Ejecución sistemática de múltiples cálculos"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para organizar mejor cálculos múltiples",
+        "Incluir verificación dimensional más explícita",
+        "Ampliar las conexiones conceptuales"
+      ],
+      "createdAt": "2025-09-21T15:54:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_007",
+      "weekStart": "2025-09-22",
+      "score": 80,
+      "generalComments": "Querida Magdalena Donadio, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Te evalúas en nivel 3 mostrando consistencia en tu dominio. Resuelves el problema completo de ecuación general de gases con múltiples cambios de variables. Realizas conversiones de unidades, aplicación de fórmula y cálculos con precisión llegando a 764.4 atm. Tu reflexión sobre la necesidad de mayor fluidez es madura y apropiada. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Aplicas la ecuación general de gases correctamente con cambios en V, P y T",
+        "Realizas conversión de unidades (mmHg→atm, °C→K, cm³→dm³) con precisión",
+        "Presentas las 4 fases de manera completa y organizada"
+      ],
+      "improvements": [
+        "Continuar practicando para lograr la fluidez deseada en el proceso de resolución",
+        "Desarrollar mayor seguridad para reducir la brecha entre capacidad real y confianza percibida",
+        "Expandir las conexiones temáticas con mayor especificidad conceptual"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5ree_20251005_008",
+      "weekStart": "2025-09-29",
+      "score": 50,
+      "generalComments": "Querida Magdalena Donadio, esta semana rindieron el examen de gases ideales, por lo que no hubo contenido nuevo en Química. Demuestras responsabilidad al completar el reporte. Has trabajado de manera sostenida y con progreso notable durante todas las semanas de preparación. Espero que hayas podido aplicar exitosamente todo lo trabajado en el examen. Al recibir la corrección, analiza los resultados para identificar fortalezas consolidadas y áreas de mejora. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte explicando la situación de la semana",
+        "Demuestras compromiso sostenido durante todo el proceso de preparación",
+        "Has mostrado evolución notable desde las dificultades iniciales con vocabulario hasta dominio nivel 3"
+      ],
+      "improvements": [
+        "Al recibir el examen corregido, analizar los resultados con detalle",
+        "Identificar si la fluidez deseada se reflejó en el desempeño del examen",
+        "Reconocer los logros alcanzados durante este proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "7b2523a9-1990-435a-9a83-1fafb60ddccc",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:05.331Z"
+    },
+    {
+      "feedbackId": "d8418ffa-1760-4500-91e6-91653e12dce5",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:18:43.499Z"
+    },
+    {
+      "feedbackId": "db1971aa-1423-4dc9-b937-a1eaa2b2f7f5",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que tienes una buena base conceptual en uniones químicas, especialmente en tu explicación sobre la regla del octeto. Tu comprensión del por qué los átomos buscan estabilidad es correcta y bien expresada, lo que es un logro importante esta semana.\n\nSin embargo, tu reporte muestra que aún no estás aplicando completamente los objetivos de Fase 2. Identificar variables y clasificarlas no es opcional: es el núcleo de esta fase. Tus respuestas son demasiado genéricas y no evidencian el trabajo sistemático que esperamos. Necesitas ser más específico, más reflexivo y más honesto sobre tus dificultades.\n\nPara la próxima semana, te pido que hagas un esfuerzo consciente por nombrar variables en cada problema que resuelvas, que reflexiones genuinamente sobre qué te cuesta, y que conectes tus aprendizajes con ejemplos concretos. Esto transformará tu comprensión de la química.",
+      "strengths": "• Comprensión conceptual sólida de la regla del octeto: Tu explicación en Q2 demuestra que entiendes por qué los átomos buscan configuraciones estables y cómo se forman cationes y aniones. Esto es un buen punto de partida para identificar variables en reacciones químicas.\n• Reconocimiento de la complejidad del tema: Al mencionar que \"uniones químicas es un tema bastante complejo,\" muestras conciencia de que requiere práctica y esfuerzo. Esto es positivo porque indica disposición a aprender.\n• Respuestas organizadas y claras: Tu redacción en Q2 es clara y fácil de seguir, lo que facilita la comunicación de tus ideas. Esto es una base sólida para desarrollar análisis más complejos.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En tus respuestas, necesitas nombrar las variables específicas (ej: \"número de electrones en la capa externa,\" \"energía de ionización,\" \"electronegatividad\") y clasificarlas como conocidas/desconocidas o controlables/no controlables. Esto es el corazón de Fase 2. Intenta hacer una tabla simple: Variable | Tipo | Valor/Rango.\n• Desarrolla reflexión metacognitiva real: Cuando se te pregunta sobre dificultades, no digas \"no hay nada especial.\" En su lugar, sé honesto: ¿Qué te cuesta distinguir entre variables? ¿Confundes magnitudes? ¿Cómo podrías practicar? Esto te ayuda a aprender más rápido y muestra madurez académica.\n• Conecta conceptos con ejemplos concretos: En Q4, en lugar de decir \"se conectan con otros temas,\" especifica: \"La regla del octeto se conecta con la energía de ionización porque ambas explican por qué los átomos pierden o ganan electrones.\" Usa ejemplos reales de problemas que hayas resuelto en clase.",
+      "createdAt": "2025-10-27T04:53:05.011Z"
+    },
+    {
+      "feedbackId": "f24bccb7-e5cd-47e5-9612-382f7f6fdf2c",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Veo que tienes una base sólida en cálculos de electrones y enlaces químicos, lo que es excelente para esta fase. Tu tabla en Q2 es clara y sistemática, y eso demuestra que estás aplicando bien los conceptos de Fase 1.\n\nSin embargo, tu reporte está incompleto en reflexión metacognitiva. Necesitas ir más allá de \"entiendo pero hay cosas complejas\" y especificar exactamente qué variables te cuestan identificar y por qué. Esto es crucial para avanzar en Fase 2.\n\nPara la próxima semana, te propongo: (1) Completa todas las secciones del reporte, incluso Q5; (2) En cada problema, clasifica explícitamente qué es variable conocida/desconocida; (3) Identifica una dificultad real y propón una estrategia concreta para resolverla. Esto te llevará del nivel 2 al nivel 3 rápidamente.",
+      "strengths": "• Precisión en cálculos de electrones de valencia: Tu tabla en Q2 muestra dominio en el conteo sistemático. Ejemplo: \"C(4) + H₂(2×1) + O(6) = 12 e⁻\" demuestra claridad en la aplicación de conceptos de Fase 1.\n• Autoconciencia sobre tu nivel: Reconoces que estás en nivel 2 y que hay temas más complejos por explorar, lo que muestra honestidad en tu autoevaluación y disposición para aprender.\n• Conexiones conceptuales válidas: Identificas correctamente que tabla periódica, electronegatividad y valencia son fundamentales para entender enlaces químicos, mostrando comprensión de relaciones entre conceptos.",
+      "improvements": "• Identificación explícita de variables en Fase 2: En Q1 y Q2, necesitas clasificar variables como \"conocidas\" (electrones de valencia del H, F, O) vs. \"desconocidas\" (tipo de enlace a predecir) y \"controlables\" (qué átomos combinamos) vs. \"no controlables\" (propiedades del elemento). Esto es el corazón de Fase 2.\n• Reflexión sobre dificultades específicas: En Q3, debes identificar dificultades concretas: ¿Te cuesta diferenciar enlaces simples de dobles? ¿Confundes electrones de valencia con electrones totales? Luego propón estrategias claras (ej: \"Haré una tabla comparativa de tipos de enlaces\").\n• Completar todas las secciones del reporte: Q5 está vacía. Dedica tiempo a reflexionar sobre cómo ha evolucionado tu comprensión desde Fase 1, qué categorías de variables te parecen más útiles, o qué preguntas te surgen. Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-03T12:17:02.463Z"
+    },
+    {
+      "feedbackId": "f075eacb-18af-448b-9424-25c38761b116",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Entiendo que esta semana fue complicada por falta de tiempo, pero tu reporte refleja una participación muy limitada en la Fase 2. Reconozco que identificaste el tema (uniones químicas) y que eres honesto sobre tus dificultades, pero necesitamos más que eso para evaluar tu pensamiento crítico.\n\nTu desempeño esta semana está por debajo de lo esperado. Las respuestas son demasiado breves, genéricas y sin evidencia de trabajo práctico. Especialmente preocupante es que no resolviste ejercicios: sin práctica, es imposible aprender a identificar variables reales.\n\nPara la próxima semana, te pido que: (1) resuelvas al menos 3-4 ejercicios sobre uniones químicas, (2) en cada uno, identifiques y clasifiques las variables involucradas, y (3) escribas respuestas más completas con ejemplos concretos. Esto hará una diferencia real en tu aprendizaje.",
+      "strengths": "• Honestidad sobre limitaciones: Reconoces en Q1 que algunos ejercicios te cuestan, lo que muestra autoconsciencia sobre dónde necesitas apoyo.\n• Identificación del tema: Mencionas \"uniones químicas\" como tema trabajado, lo que indica que al menos estás siguiendo el contenido de la semana.",
+      "improvements": "• Falta de evidencia de trabajo: No resolviste ejercicios esta semana (\"no tuve tiempo\"). Necesitas dedicar al menos 30-45 minutos diarios a resolver problemas prácticos. Esto es esencial para identificar variables reales en contextos concretos, no solo teóricos.\n• Respuestas superficiales y genéricas: Tus respuestas son muy cortas y no profundizan. Por ejemplo, en Q4 dices que uniones químicas \"se conectan con otros temas\" pero no explicas cuáles ni cómo. Intenta escribir al menos 3-4 oraciones por pregunta con ejemplos específicos.\n• Falta de clasificación de variables: En Q1 no clasificas variables en conocidas/desconocidas o controlables/no controlables. Cuando estudies uniones químicas, haz una tabla: ¿Qué datos tengo? ¿Cuáles me faltan? ¿Cuáles puedo controlar en un experimento? Esto es el corazón de la Fase 2.",
+      "createdAt": "2025-11-12T22:51:06.280Z"
+    },
+    {
+      "feedbackId": "cc6ef126-8021-499f-bf1c-05e78a068df4",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que esta semana fue desafiante en términos de tiempo y dedicación. Reconozco tu honestidad al admitir que no completaste los ejercicios y que necesitas prepararte mejor para la prueba. Sin embargo, el reporte muestra muy poca evidencia de trabajo en Fase 2, lo que es preocupante porque necesitas practicar la identificación de variables para consolidar tu aprendizaje en química.\n\nTu desempeño esta semana está por debajo de lo esperado. La Fase 2 requiere que no solo entiendas los temas, sino que practiques identificando variables en problemas reales. Hasta ahora, no hay ejercicios documentados ni reflexión profunda sobre tus dificultades.\n\nPara la próxima semana, te pido que: (1) realices al menos 5 ejercicios sobre uniones químicas, (2) identifiques en cada uno qué variables son conocidas/desconocidas y controlables/no controlables, y (3) reflexiones honestamente sobre qué te cuesta entender. Esto te preparará mejor para la prueba y consolidará tu pensamiento crítico.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que necesitas estudiar más para la prueba (\"tengo que estudiar para la prueba\"). Esta conciencia es el primer paso para mejorar.\n• Reconocimiento del tema: Identificas correctamente que trabajaste con \"uniones químicas\", lo que muestra que al menos tienes claridad sobre el contenido general de la semana.",
+      "improvements": "• Falta de evidencia de trabajo: No realizaste ejercicios esta semana. Acción: Dedica al menos 30 minutos diarios a resolver 2-3 problemas sobre uniones químicas. Documenta qué variables identificas en cada uno (ej: tipo de unión, energía, elementos involucrados).\n• Ausencia de reflexión metacognitiva: Dices que \"no hay nada que se te haya dificultado\", pero luego mencionas que necesitas estudiar. Acción: Sé más específico: ¿Qué tipo de uniones te cuesta diferenciar? ¿Confundes variables? Identifica 2-3 dificultades concretas.\n• No hay conexiones con fenómenos reales: Tu respuesta en Q4 muestra pasividad. Acción: Busca 3 ejemplos de uniones químicas en tu entorno (sal de mesa, agua, plástico) e identifica qué variables determinan sus propiedades. Esto te ayudará a transferir el conocimiento.",
+      "createdAt": "2025-11-17T13:43:55.890Z"
+    }
+  ]
+}

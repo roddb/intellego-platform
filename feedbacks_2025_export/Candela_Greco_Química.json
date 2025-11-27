@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "studentId": "u_9vp2o3qntme4y2kyh",
+    "studentName": "Candela Greco",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.188837",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 54.2,
+      "minScore": 27,
+      "maxScore": 76,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-08-04_64b60f70",
+      "weekStart": "2025-08-04",
+      "score": 69,
+      "generalComments": "Candela demuestra una comprensión inicial sólida del equilibrio químico en la Fase 1. Tu honestidad al autoevaluar tu nivel de comprensión (2) es muy valiosa y muestra metacognición. Has identificado correctamente ejemplos de sistemas en equilibrio y sistemas irreversibles, lo cual es fundamental para comprender el concepto. La conexión que haces con el balanceo de ecuaciones es pertinente y muestra que estás integrando conocimientos previos. Para avanzar a la Fase 2, es importante que consolides la identificación de información relevante y practiques más la justificación con criterios químicos.",
+      "strengths": [
+        "Identificación correcta de sistemas en equilibrio (Sistema B - CO2 en refresco) versus sistemas irreversibles (Sistema A - combustión de vela)",
+        "Honestidad al reconocer tu nivel de comprensión y las áreas que necesitas reforzar antes de pasar a la práctica",
+        "Conexión pertinente entre equilibrio químico y balanceo de ecuaciones, demostrando integración de conceptos previos"
+      ],
+      "improvements": [
+        "Desarrollar mayor profundidad en la justificación utilizando criterios químicos específicos (reversibilidad, cinética, termodinámica)",
+        "Practicar la identificación sistemática de información relevante versus irrelevante en problemas de equilibrio",
+        "Incluir ejemplos adicionales o reflexiones en tus respuestas para evidenciar mejor tu proceso de pensamiento"
+      ],
+      "createdAt": "2025-10-02T15:00:06Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-08-11_94c75e3c",
+      "weekStart": "2025-08-11",
+      "score": 67,
+      "generalComments": "Candela avanza correctamente a la Fase 2, identificando variables químicas en el contexto del equilibrio. Tu reconocimiento de que 'te cuesta entender las variables químicas' es el primer paso para superarlo, y tu actitud positiva ('es comprensión que voy a ir adquiriendo con el paso del tiempo') es fundamental para el aprendizaje. La conexión que haces con conceptos del cuatrimestre pasado (molaridad, molalidad, concentración) es excelente y muestra que estás integrando las fases del pensamiento crítico. El caso de Ana en el laboratorio es un buen ejemplo práctico, aunque falta mayor análisis de las variables involucradas (concentración de glucosa, longitud de onda, absorbancia).",
+      "strengths": [
+        "Excelente conexión con conceptos cuantitativos previos (molaridad, molalidad, concentración) que son fundamentales para el equilibrio químico",
+        "Actitud metacognitiva positiva al reconocer tus dificultades y confiar en tu capacidad de superarlas con el tiempo",
+        "Identificación correcta de que estás en Fase 2 y comprensión de que el tema central son las variables químicas"
+      ],
+      "improvements": [
+        "Practicar la clasificación de variables en: conocidas/desconocidas, controlables/no controlables, y magnitudes físicas involucradas",
+        "Desarrollar estrategias específicas para comprender variables químicas (hacer listas, usar tablas de organización, relacionar con fórmulas)",
+        "En el caso de Ana, identificar explícitamente todas las variables: concentración estándar, concentración desconocida, absorbancia, volumen, etc."
+      ],
+      "createdAt": "2025-10-02T15:00:07Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-08-25_8b8fc40b",
+      "weekStart": "2025-08-25",
+      "score": 76,
+      "generalComments": "Excelente progreso hacia la Fase 3, Candela. Tu nivel de comprensión 3 es apropiado y se refleja en tu capacidad para trabajar con el 'cálculo sistemático del equilibrio'. El problema del HI que presentas es completo y demuestra que estás aplicando fórmulas y relaciones (Kc, Le Chatelier con temperatura). Es muy positivo que reconozcas que 'la explicación en clase te sirvió mucho', lo cual muestra que estás utilizando recursos de apoyo efectivamente. Tu comentario adicional sobre el ejercicio de NH3 y el principio de Le Chatelier evidencia comprensión de cómo las variables afectan el equilibrio. La integración que mencionas de 'lo aprendido en las fases anteriores' es exactamente lo que se espera en esta etapa metodológica.",
+      "strengths": [
+        "Comprensión clara del cálculo sistemático del equilibrio químico, trabajando con problemas completos que incluyen datos numéricos y condiciones específicas",
+        "Aplicación efectiva de conceptos de Le Chatelier (efecto de temperatura en equilibrio endotérmico, efecto de presión en síntesis de NH3)",
+        "Reconocimiento explícito de la importancia de integrar las fases anteriores del pensamiento crítico en la resolución de problemas"
+      ],
+      "improvements": [
+        "Buscar más conexiones interdisciplinarias o con situaciones cotidianas para enriquecer la comprensión del equilibrio químico",
+        "Practicar la justificación teórica de por qué se selecciona cada fórmula o herramienta (no solo aplicarlas, sino explicar su elección)",
+        "Desarrollar más profundamente la explicación de cómo se relacionan las variables con las ecuaciones de equilibrio (Kc, Qc, desplazamientos)"
+      ],
+      "createdAt": "2025-10-02T15:00:08Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-09-01_ea801ba4",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Candela, estás trabajando en la Fase 4 con el modelo de examen, lo cual es el desafío final de integración completa. Tu honestidad al reconocer que 'todavía necesitas ejercitar más para comprender al 100% el tema' es valiosa. El problema de descomposición del NO2 que presentas tiene todos los elementos necesarios para una resolución completa (volumen, temperatura, moles iniciales y finales). Sin embargo, la respuesta es más descriptiva que ejecutiva: falta evidencia de que hayas realizado los cálculos completos (tabla de avance, cálculo de Kc, verificación dimensional). En Fase 4 se espera ver el proceso completo de resolución, no solo el enunciado. Es positivo que reconozcas la relación con las fases anteriores, aunque esta respuesta necesita mayor desarrollo específico.",
+      "strengths": [
+        "Comprensión de que estás en la etapa de integración y preparación para evaluación",
+        "Identificación de un problema completo con todos los datos necesarios para su resolución (volumen, temperatura, moles iniciales y en equilibrio)",
+        "Reconocimiento honesto de tu necesidad de más práctica, lo cual es el primer paso para mejorar"
+      ],
+      "improvements": [
+        "En Fase 4, no solo presentar el problema, sino mostrar el proceso completo de resolución: tabla de avance, cálculos paso a paso, verificación de unidades",
+        "Desarrollar estrategias concretas de estudio (ej: voy a resolver 5 problemas similares por día, voy a hacer esquemas de cada tipo de problema)",
+        "Especificar cómo se relacionan las fases anteriores con este problema concreto (Fase 1: identificar qué se pide - Kc, Fase 2: variables conocidas/desconocidas, Fase 3: fórmula de Kc, Fase 4: calcular y verificar)"
+      ],
+      "createdAt": "2025-10-02T15:00:09Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-09-15_1da0ecd4",
+      "weekStart": "2025-09-15",
+      "score": 76,
+      "generalComments": "Excelente recuperación y demostración de aprendizaje en la Fase 4, Candela. Tu respuesta en Q2 es **ejemplar** porque desglosas explícitamente las 4 fases del pensamiento crítico aplicadas al problema: Fase 1 (identificar objetivo: calcular V de Kc), Fase 2 (hacer tabla con datos), Fase 3 (completar tabla, balancear ecuación, obtener fórmula de Kc), Fase 4 (reemplazar y calcular). Esta es exactamente la aplicación sistemática que se espera en esta etapa final. Aunque tu nivel de comprensión sigue siendo 2, tu capacidad de aplicar el método completo muestra que has internalizado el proceso. La dificultad que mencionas (armar la tabla con valores necesarios) es un desafío técnico específico que se supera con práctica. La conexión con matemática es apropiada y muestra visión interdisciplinaria.",
+      "strengths": [
+        "Aplicación ejemplar y explícita de las 4 fases del pensamiento crítico en la resolución del problema de equilibrio",
+        "Identificación clara del proceso sistemático: objetivo → tabla → herramientas → cálculo",
+        "Reconocimiento de la conexión interdisciplinaria con matemática y conocimientos del cuatrimestre previo"
+      ],
+      "improvements": [
+        "Practicar específicamente la construcción de tablas de avance (tabla ICE: Inicial, Cambio, Equilibrio) con diferentes tipos de reacciones",
+        "Aumentar la confianza en tu nivel de comprensión: tu aplicación práctica del método sugiere que comprendes más de lo que autoevalúas",
+        "Desarrollar estrategias para verificar tus resultados (análisis dimensional, razonabilidad del valor de Kc, comparación con ejemplos similares)"
+      ],
+      "createdAt": "2025-10-02T15:00:10Z"
+    },
+    {
+      "feedbackId": "13ea1b2b-5c71-41a0-935c-439e774e55b9",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:47.945Z"
+    },
+    {
+      "feedbackId": "0070f8a5-8c6b-45f1-bd6f-04c889e9a232",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:58.432Z"
+    },
+    {
+      "feedbackId": "987fd3c2-af9d-425e-bc8f-857252382588",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:53.951Z"
+    },
+    {
+      "feedbackId": "346e2412-d774-4405-a051-5a4212c8b69c",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:23:19.736Z"
+    },
+    {
+      "feedbackId": "207ad544-28b9-4675-9526-7a644830a2c5",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que trabajaste en la actividad de ácidos y bases y que reconoces honestamente que estás en desarrollo (nivel 2). Eso es un buen punto de partida. Sin embargo, tu reporte es muy superficial: necesitas profundizar en lo que realmente aprendiste sobre variables, cómo las identificas y cómo las usas para resolver problemas.\n\nEsta semana hiciste el esfuerzo de buscar ayuda y participar, pero ahora necesitas ir más allá: reflexiona sobre el proceso, no solo sobre el resultado. Cuando hagas el próximo reporte, describe específicamente qué variables encontraste, cómo las clasificaste y qué estrategias personales desarrollaste.\n\nPara la próxima semana, te propongo que antes de resolver un problema, hagas una lista de \"lo que sé\" y \"lo que necesito encontrar\". Esto te ayudará a dominar la identificación de variables y a subir tu nivel de comprensión.",
+      "strengths": "• Reconoces tu nivel de comprensión: Admitir que tu nivel es 2 muestra honestidad sobre dónde estás. Esto es importante para saber en qué enfocarte.\n• Presentas un problema completo: El ejercicio que incluyes (ionización del ácido acético con Ka, tabla I/V/E) es un buen ejemplo de la actividad trabajada y muestra que participaste en la clase.\n• Buscas ayuda cuando la necesitas: Mencionas que usaste pistas y asististe a la explicación adicional, lo que demuestra disposición a aprender.",
+      "improvements": "• Identifica y clasifica variables específicas: En lugar de decir \"nivel de comprensión 2\", describe qué variables trabajaste: concentración inicial (0,150 M), Ka (1,78×10⁻⁵), [H3O+], pH. Clasifícalas: ¿cuáles son conocidas? ¿cuáles desconocidas? ¿cuáles controlables?\n• Desarrolla estrategias personales para diferenciar magnitudes: No basta con recibir pistas. Crea tu propio método: por ejemplo, haz una tabla donde separes \"magnitudes que mido directamente\" de \"magnitudes que calculo\". Esto te ayudará en problemas nuevos.\n• Completa todas las secciones del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar: ¿por qué es importante identificar variables? ¿Cómo te ayuda esto a resolver problemas? Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:53:54.903Z"
+    }
+  ]
+}

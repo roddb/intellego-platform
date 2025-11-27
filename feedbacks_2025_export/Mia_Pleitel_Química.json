@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "studentId": "u_orrudyvptme0b5ua2",
+    "studentName": "Mia Pleitel",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.225802",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 55.38,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_009",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Querida Mia, debido a que no hubo clases de Química durante esta semana, no fue posible evaluar tu progreso en la materia durante este período. Esta semana corresponde al inicio del cuatrimestre donde aún no se había iniciado actividad regular. Quedo a disposición para resolver tus dudas y orientarte en tu proceso cuando comiencen las clases.",
+      "strengths": [
+        "Responsabilidad al completar el reporte semanal",
+        "Comunicación clara sobre la ausencia de actividad"
+      ],
+      "improvements": [
+        "Preparar materiales necesarios para cuando comiencen las clases",
+        "Revisar contenidos previos de química si es necesario",
+        "Mantener actitud proactiva para el inicio de actividades"
+      ],
+      "createdAt": "2025-10-05 21:28:09"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_010",
+      "weekStart": "2025-08-11",
+      "score": 69,
+      "generalComments": "Querida Mia, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente múltiples variables en el problema de Ana (temperatura, presión, composición del gas, variables del recipiente, variables ambientales). Clasificas apropiadamente las variables según controlables/incontrolables, conocidas/desconocidas. Demuestras comprensión del sistema gaseoso mixto (N₂ + O₂). Tu análisis es detallado y metodológico. Es importante consolidar la confianza en la identificación de todas las variables posibles. Necesitas practicar la distinción entre variables esenciales y secundarias para el problema específico. Debes desarrollar síntesis: tu análisis es muy completo pero podrías ser más concisa. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Comprensión clara del problema de Ana y los neumáticos (Fase 1 nivel 3 autoevaluado)",
+        "Identificación exhaustiva de variables: temperatura, presión, composición (N₂ y O₂), límites del recipiente, factores ambientales",
+        "Clasificación sistemática de variables en múltiples categorías (controlables, incontrolables, conocidas, desconocidas)",
+        "Reconocimiento del sistema como mezcla gaseosa binaria",
+        "Abordaje metodológico claro y organizado"
+      ],
+      "improvements": [
+        "Priorizar variables esenciales: temperatura y presión son las críticas para este problema",
+        "Practicar síntesis: identificar las 3-4 variables clave sin perder las demás de vista",
+        "Desarrollar criterios para distinguir entre variables que afectan significativamente vs marginalmente el fenómeno",
+        "Consolidar confianza en tu capacidad de identificación (tu autoevaluación de nivel 1 es muy baja considerando tu desempeño real)"
+      ],
+      "createdAt": "2025-10-05 21:28:10"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_011",
+      "weekStart": "2025-08-18",
+      "score": 64,
+      "generalComments": "Querida Mia, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes bien la teoría cinética de partículas (nivel 3 basado en conocimientos previos). Identificas correctamente la Ley de Charles como herramienta apropiada para el problema del globo. Reconoces qué datos tienes y qué necesitas encontrar. Demuestras conocimiento de diferentes leyes de gases (Charles, general, ecuación general). Necesitas consolidar la comprensión del uso de la constante R en la ley general de gases. Es importante practicar la aplicación de las leyes específicas para ganar confianza. Debes trabajar en la justificación de por qué seleccionas determinada herramienta. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprensión sólida de teoría cinética basada en conocimientos previos (fisicoquímica)",
+        "Identificación correcta de la Ley de Charles como la más apropiada (presión constante)",
+        "Reconocimiento claro de variables conocidas (T1, T2, V1, P constante) y desconocida (V2)",
+        "Conciencia de las diferentes herramientas disponibles (leyes específicas, ecuación general)",
+        "Conexión apropiada con contenidos del primer cuatrimestre"
+      ],
+      "improvements": [
+        "Practicar aplicación numérica: completar el problema del globo hasta obtener V2",
+        "Clarificar el uso de R: es la constante universal (0.082 atm·L/mol·K) con unidades específicas",
+        "Desarrollar criterios de selección: ¿cuándo usar ley específica vs ecuación general?",
+        "Practicar problemas variados para consolidar confianza en aplicación"
+      ],
+      "createdAt": "2025-10-05 21:28:10"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_012",
+      "weekStart": "2025-08-25",
+      "score": 53,
+      "generalComments": "Querida Mia, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Química. Identificas correctamente el problema y las variables conocidas/desconocidas. Seleccionas apropiadamente la fórmula general de gases (n constante). Planteas correctamente las expresiones proporcionales (2V1, P1/3). Conviertes apropiadamente la temperatura a Kelvin (303K). Tu dificultad principal es la continuación algebraica después del planteamiento correcto. Es fundamental practicar el despeje de ecuaciones con variables proporcionales. Necesitas desarrollar confianza en la manipulación algebraica paso a paso. Es importante trabajar con ejercicios similares guiados para consolidar el proceso completo. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Identificación clara del problema y objetivo (variación de temperatura)",
+        "Reconocimiento correcto de variables conocidas (T1=30°C) y relaciones proporcionales (V2=2V1, P2=P1/3)",
+        "Selección apropiada de la fórmula general (P1V1/T1 = P2V2/T2)",
+        "Conversión correcta de temperatura a Kelvin (303K)",
+        "Honestidad al reconocer dónde se traba el proceso"
+      ],
+      "improvements": [
+        "Practicar el siguiente paso: sustituir (P1/3)×(2V1)/T2 = P1×V1/303",
+        "Simplificar factores comunes: P1 y V1 se cancelan, quedando (2/3)/T2 = 1/303",
+        "Despejar T2: T2 = 303 × (2/3) = 202K",
+        "Calcular variación: ΔT = 202 - 303 = -101K (baja la temperatura)",
+        "Trabajar con ejercicios guiados paso a paso para ganar confianza algebraica"
+      ],
+      "createdAt": "2025-10-05 21:28:10"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_013",
+      "weekStart": "2025-09-08",
+      "score": 58,
+      "generalComments": "Querida Mia, te encuentras en proceso de desarrollo en las Fases 1-3 integradas, mostrando avances parciales en Química. Identificas correctamente el problema del cobro de helio (Fase 1). Reconoces las variables clave: 500 globos, 2L cada uno, 70% helio (Fase 2). Comprendes que hay que convertir a condiciones CNPT (Fase 3). Demuestras progreso al poder resolver las primeras 3 fases con algunas dificultades. Necesitas aprender qué es CNPT: Condiciones Normales de Presión y Temperatura (0°C, 1 atm). Es fundamental practicar conversiones de volúmenes a CNPT usando la ecuación general. Debes trabajar en la selección de herramientas apropiadas para cada tipo de conversión. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprensión clara del problema: verificar si el cobro de helio es correcto considerando CNPT vs condiciones reales",
+        "Identificación correcta de datos clave: 500 globos × 2L = 1000L total, 70% helio = 700L",
+        "Reconocimiento de la mezcla gaseosa (helio + aire)",
+        "Autoevaluación realista: nivel 2 en resolución, reconociendo poder hacer Fases 1-3 con dificultades",
+        "Identificación clara del punto de bloqueo: no saber qué es CNPT"
+      ],
+      "improvements": [
+        "Aprender concepto CNPT: Condiciones Normales de Presión y Temperatura = 0°C (273K) y 1 atm",
+        "Practicar conversión de volúmenes: usar ecuación general P1V1/T1 = P2V2/T2",
+        "Completar el problema: convertir 700L de helio a CNPT, luego a m³, luego calcular costo",
+        "Desarrollar estrategia de consulta: identificaste bien qué no sabías, ahora búscalo o pregúntalo",
+        "Familiarizarte con conversiones de unidades de volumen (L ↔ m³, dm³ ↔ cm³)"
+      ],
+      "createdAt": "2025-10-05 21:28:10"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_014",
+      "weekStart": "2025-09-15",
+      "score": 73,
+      "generalComments": "Querida Mia, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Desarrollas una estrategia alternativa válida usando la Ley de Avogadro en lugar de la ecuación general. Calculas correctamente los moles iniciales de O₂ usando n=m/M (0.875 mol). Aplicas apropiadamente V1/n1 = V2/n2 con conversión correcta de volumen (850 cm³ = 0.85 dm³). Calculas correctamente n2 (1.80 mol) y lo conviertes a moléculas usando Nₐ (1.08×10²⁴). Demuestras versatilidad metodológica y creatividad en la resolución. Necesitas verificar que tu método alternativo da el mismo resultado que el método estándar. Es importante consolidar la confianza en la selección entre diferentes enfoques válidos. Debes practicar la identificación de cuándo un método es más simple que otro. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Creatividad metodológica: resolviste el problema con un enfoque alternativo válido (Ley de Avogadro)",
+        "Ejecución matemática correcta en todos los pasos (n1=0.875, n2=1.80, N=1.08×10²⁴)",
+        "Conversiones precisas de unidades (cm³→dm³, mol→moléculas usando Nₐ)",
+        "Comprensión profunda de relaciones: n=m/M, V/n=cte, N=n×Nₐ",
+        "Autoevaluación mejorada: nivel 3 en repaso, reconociendo tu propio progreso con la práctica"
+      ],
+      "improvements": [
+        "Comparar tu método con el enfoque estándar (usando ecuación general directamente) para ver cuál es más eficiente",
+        "Desarrollar criterios de selección: ¿cuándo usar Ley de Avogadro vs ecuación general?",
+        "Practicar verificación: ¿llego al mismo resultado por ambos caminos?",
+        "Consolidar confianza: tu método es correcto, confía en tus decisiones metodológicas"
+      ],
+      "createdAt": "2025-10-05 21:28:11"
+    },
+    {
+      "feedbackId": "fb_002_4A_pleitel_mia_20251005_015",
+      "weekStart": "2025-09-29",
+      "score": 82,
+      "generalComments": "Querida Mia, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de la ecuación general de gases, mostrando capacidad para ejecutar problemas complejos con múltiples conversiones. Estructuras claramente tu solución en las 4 fases del pensamiento crítico. Ejecutas correctamente todas las conversiones (°C→K, cm³→dm³). Aplicas apropiadamente la ecuación general P1V1/T1 = P2V2/T2. Calculas correctamente la presión final (5766.65 mm Hg). Demuestras dominio metodológico integrando todas las fases. Tu única área de mejora es recordar las conversiones inicialmente. Es importante crear una lista de verificación mental de conversiones comunes. Debes desarrollar intuición sobre unidades: temperatura siempre en K, verificar que volumen esté en mismas unidades. ¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Organización excelente: estructuras explícitamente tu solución en Fase 1, 2, 3 y 4",
+        "Conversiones precisas y completas (30°C→303.15K, 0°C→273.15K, 200cm³→0.200dm³)",
+        "Aplicación correcta de ecuación general con despeje apropiado",
+        "Resultado final correcto (5766.65 mm Hg) con unidades apropiadas",
+        "Autoevaluación realista y positiva: nivel 4, reconociendo que puedes resolver ejercicios detectando cuándo usar cada fórmula",
+        "Metacognición clara: identificas que solo olvidas conversiones y despejes, no la estrategia general"
+      ],
+      "improvements": [
+        "Crear checklist mental: ¿Temperatura en K? ¿Volúmenes en mismas unidades? ¿Presiones en mismas unidades?",
+        "Practicar automatización de conversiones comunes (°C+273, cm³÷1000=dm³=L, mm Hg÷760=atm)",
+        "Verificar razonabilidad: la presión aumenta mucho (1600→5766 mm Hg) porque volumen baja mucho y temperatura baja poco",
+        "Consolidar despejes algebraicos con práctica adicional si aún sientes que se te dificulta"
+      ],
+      "createdAt": "2025-10-05 21:28:11"
+    },
+    {
+      "feedbackId": "574cf4bf-2129-48ca-ae9a-25bf06a526f6",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:40:15.160Z"
+    },
+    {
+      "feedbackId": "9742da86-6d58-44bf-bac8-823fb2156fcc",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:16:48.221Z"
+    },
+    {
+      "feedbackId": "6e84cbb1-71cb-444d-8e7b-9f583693528f",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes: no completaste ejercicios prácticos y tus respuestas reflejan que aún no has consolidado los conceptos de la Fase 2. Esto es comprensible, pero es el momento de cambiar de estrategia.\n\nTu honestidad al reconocer que no resolviste ejercicios es valiosa, porque te permite identificar exactamente qué necesitas hacer diferente. Sin práctica, es imposible dominar la identificación de variables y la clasificación de magnitudes físicas.\n\nPara la próxima semana, te propongo un plan concreto: resuelve al menos 5 ejercicios sobre enlaces químicos, escribe tus respuestas con más detalle (mínimo 3 oraciones por pregunta), e identifica variables específicas en cada tipo de enlace (electronegatividad, número de electrones, tipo de transferencia). Esto te preparará mucho mejor para la Fase 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que no completaste ejercicios y que tienes dificultades específicas con los tipos de enlace. Esta sinceridad es el primer paso para mejorar.\n• Identificación de una dificultad real: Señalas que \"diferenciar los tipos de enlace en cuanto al análisis\" es tu punto débil, lo que muestra que al menos reconoces dónde necesitas apoyo.",
+      "improvements": "• Falta de práctica con ejercicios: No resolviste ejercicios esta semana, lo que explica por qué no hay evidencia de aprendizaje. Acción: Dedica al menos 30 minutos diarios a resolver 3-5 ejercicios sobre clasificación de enlaces. Puedes usar tu libro de texto o pedir ejercicios al profesor.\n• Respuestas muy breves y sin análisis: Tus respuestas son demasiado cortas y no profundizan en el pensamiento crítico. Acción: Para cada pregunta, desarrolla al menos 2-3 oraciones explicando el \"por qué\" y el \"cómo\". Ejemplo: en lugar de \"me cuesta diferenciar\", escribe \"me cuesta diferenciar porque confundo la electronegatividad en enlaces covalentes con la transferencia de electrones en enlaces iónicos\".\n• Ausencia de conexiones con fenómenos reales: No mencionas ejemplos concretos de dónde ves estos enlaces en la vida cotidiana. Acción: Identifica 3 ejemplos de tu entorno (sal de mesa = iónico, agua = covalente, cobre = metálico) y explica qué variables definen cada uno.",
+      "createdAt": "2025-10-27T05:06:43.024Z"
+    },
+    {
+      "feedbackId": "3364ecc5-93a6-4b23-b3ad-8d6a5c62dc91",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue diferente por la ausencia del profesor, pero es fundamental que completes el reporte de pensamiento crítico aunque las actividades cambien. Tu reporte actual no permite evaluar si comprendiste la Fase 2 (identificación y clasificación de variables), que es esencial para avanzar.\n\nTe animo a que dediques tiempo esta semana a reflexionar sobre los ejercicios de Física que realizaste. Aunque no fueron de Química, también tienen variables que clasificar y magnitudes que distinguir. Este es un buen momento para practicar lo que aprendiste en la Fase 1.\n\nPara la próxima semana, por favor completa cada pregunta con respuestas específicas y detalladas. Incluye ejemplos concretos de variables de los problemas que trabajaste, tus dificultades reales y cómo las superaste. Esto me permitirá darte un feedback más preciso y ayudarte a avanzar en tu pensamiento crítico.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu aprendizaje de la Fase 2. Para poder reconocer tus logros, necesito que completes cada pregunta con reflexiones genuinas sobre lo que trabajaste esta semana.",
+      "improvements": "• Completar todas las preguntas del reporte: Aunque hubo cambios en la clase, es importante que documentes qué aprendiste en los ejercicios de Física. Describe al menos 3 variables que identificaste (conocidas/desconocidas, controlables/no controlables) en los problemas que resolviste.\n• Reflexionar sobre tu proceso de aprendizaje: Para Q3, identifica una dificultad real (por ejemplo: \"Me cuesta diferenciar entre variables controlables y no controlables\") y propón una estrategia concreta para superarla (por ejemplo: \"Haré una tabla comparativa en cada problema\").\n• Conectar con fenómenos reales: En Q4, toma uno de los ejercicios de Física que hiciste y explica cómo las variables que identificaste se relacionan con un fenómeno que observas en tu vida cotidiana (movimiento, temperatura, presión, etc.).",
+      "createdAt": "2025-11-03T12:26:20.538Z"
+    },
+    {
+      "feedbackId": "a0d1a6d3-b00b-4ff9-93b0-fa26c4e37a5e",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Valoro tu honestidad al reconocer que necesitas refuerzo en la teoría de repulsión entre pares de valencias. Es importante que identifiques tus dificultades, y lo hiciste. Sin embargo, esta semana tu reporte muestra poco avance en la Fase 2 porque no hay ejercicios resueltos ni evidencia documentada de tu trabajo con variables.\n\nTu desempeño esta semana ha sido pasivo: escuchaste teoría pero no practicaste la identificación de variables. Esto es comprensible si la explicación no fue clara, pero necesitamos cambiar esto para que avances.\n\nPara la próxima semana, te pido que seas más activo: resuelve ejercicios aunque sea fuera de clase, documenta qué variables identificas en cada uno, y trae ejemplos concretos de lo que te confunde. Así podré ayudarte mejor y veremos progreso real en tu pensamiento crítico.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente que necesitas refuerzo en la teoría de repulsión entre pares de valencias. Esta autocrítica es el primer paso para mejorar.\n• Capacidad de resolver ejercicios: Mencionas que \"pude resolver los ejercicios\" a pesar de las dificultades con la teoría, lo que muestra que tienes potencial práctico.\n• Intención de conectar temas: Intentas relacionar el contenido actual con lo visto en la primera mitad del año, mostrando disposición a integrar conocimientos.",
+      "improvements": "• Falta de evidencia documentada: No resolviste ejercicios durante clase, lo que impide que tengamos registro de tu proceso de identificación de variables. Acción: Dedica 20 minutos después de cada clase para resolver al menos 2 ejercicios y escribir qué variables identificas en cada uno (conocidas, desconocidas, controlables).\n• Respuestas muy genéricas sin ejemplos: Tus respuestas carecen de ejemplos concretos. Cuando dices \"me cuesta recordar conceptos\", no especificas cuáles. Acción: En la próxima semana, lista 3 conceptos específicos que te confundan (ej: \"diferencia entre variable controlable y no controlable en reacciones químicas\") y trabaja solo en esos.\n• Falta de estrategias claras: Dices \"es cuestión de práctica\" pero sin plan. Acción: Crea un cronograma: lunes y miércoles = revisar definiciones con fichas; martes y jueves = resolver ejercicios identificando variables; viernes = autoevaluación. Comparte tu plan conmigo.",
+      "createdAt": "2025-11-17T13:39:43.849Z"
+    },
+    {
+      "feedbackId": "0c9ce211-82f9-4735-a3e3-7e2f04c56240",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Excelente trabajo en la práctica del modelo de examen. Tu respuesta en Q2 demuestra que *realmente* comprendes cómo identificar y clasificar variables en problemas químicos concretos. El detalle con el que describes el ejercicio del fósforo muestra que estás pensando críticamente, no solo memorizando.\n\nSin embargo, tu reporte tiene dos puntos débiles: Q3 es demasiado genérica (necesitas reflexionar específicamente sobre *qué* te costó y *cómo* lo resolviste) y Q5 está vacía. Estas secciones son donde demuestras metacognición, que es el corazón del pensamiento crítico.\n\nPara la próxima semana, enfócate en: (1) escribir explícitamente cómo clasificas variables en tus problemas, (2) profundizar en tus dificultades reales con ejemplos concretos, y (3) siempre completar Q5 con reflexiones sobre tu evolución. Vas bien, pero necesitas documentar mejor tu pensamiento.",
+      "strengths": "• Dominio práctico de estructuras de Lewis: Tu explicación del ejercicio del fósforo muestra comprensión profunda. Describes con precisión cómo distribuir electrones, diferenciar entre átomos e iones, y aplicar convenciones (corchetes, cargas). Esto evidencia que *sí* entiendes las variables involucradas.\n• Persistencia en el aprendizaje: Reconoces que releer la teoría múltiples veces te ayudó a simplificar conceptos complejos. Esta estrategia de profundización es valiosa y muestra madurez en tu proceso de estudio.\n• Integración de conocimientos previos: Conectas estructuras de Lewis con tabla periódica (grupos, electrones de valencia) y con conceptos de cationes/aniones. Esto demuestra que estás construyendo redes conceptuales.",
+      "improvements": "• Clasificación explícita de variables: En Q1, identifica *qué variables son conocidas* (ej: número de grupo en tabla periódica) *y cuáles desconocidas* (ej: geometría exacta antes de calcularla). Esto es fundamental en Fase 2. Crea una tabla simple: Variable | Conocida/Desconocida | Controlable/No controlable.\n• Especificidad en dificultades y estrategias (Q3): En lugar de \"geometría no la entendía\", escribe: \"Me costaba visualizar por qué el ángulo de enlace en H₂O es 104.5° y no 90°. Resolví dibujando modelos 3D y viendo videos de repulsión de pares electrónicos.\" Esto permite reflexión real sobre tu proceso.\n• Profundidad en conexiones (Q4): Desarrolla más tu respuesta. Por ejemplo: \"Los cationes/aniones de Fase 1 ahora los represento con estructuras de Lewis (Fase 2), lo que me permite predecir polaridad y fuerzas intermoleculares en nuevos compuestos como NH₃ o CO₂.\" Muestra transferencia concreta.",
+      "createdAt": "2025-11-17T14:00:25.019Z"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "studentId": "u_ktmv2zgznme1ei0iq",
+    "studentName": "Paloma Castro",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.230058",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 64.09,
+      "minScore": 32,
+      "maxScore": 83,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 83,
+      "generalComments": "Querida Paloma Castro, Has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Tu capacidad para identificar el problema central y los objetivos de aprendizaje es notable. Identificas claramente dificultades específicas en la comprensión del problema y propones estrategias concretas. Conectas la identificación de problemas con situaciones cotidianas como neumáticos, globos aerostáticos y pulmones. Te recomiendo profundizar en la distinción entre información relevante e irrelevante practicando con problemas variados. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas con claridad las dificultades específicas en la comprensión del problema, especialmente al distinguir datos útiles de información secundaria",
+        "Propones estrategias concretas y viables como reforzar el paso 2 de la metodología y practicar con múltiples ejemplos",
+        "Conectas la identificación de problemas con situaciones cotidianas diversas como la presión en neumáticos, el vuelo de globos aerostáticos y el comportamiento del aire en los pulmones"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluyendo detalles de cómo llegaste a identificar el problema",
+        "Profundiza en la aplicación sistemática de los 5 pasos del pensamiento crítico sin necesidad de consultar el cuadernillo constantemente",
+        "Trabaja en expresar con mayor claridad el proceso de pensamiento que seguiste al resolver el problema del globo con helio"
+      ],
+      "createdAt": "2025-10-07T13:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Querida Paloma Castro, Has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en gases ideales y leyes de gases. Organizas adecuadamente los datos usando la matriz 2×2. Desarrolla estrategias más específicas para superar tus desafíos en reacciones químicas y equilibrios. Es importante profundizar más en la clasificación de variables en contextos de reacciones para alcanzar comprensión completa. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en gases ideales usando la matriz 2×2",
+        "Organizas adecuadamente los datos y la información disponible en las leyes de Charles y Gay-Lussac",
+        "Tu capacidad para conectar con matemática mediante proporciones y funciones lineales es efectiva"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada, especialmente en reacciones y equilibrios",
+        "Es importante mejorar la organización y clasificación de los datos disponibles en situaciones complejas",
+        "Desarrolla estrategias más específicas para identificar qué variables controlas en cada situación"
+      ],
+      "createdAt": "2025-10-07T13:01:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 66,
+      "generalComments": "Querida Paloma Castro, Te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes las ecuaciones fundamentales de la ley de Charles en el contexto de gases ideales. Es fundamental fortalecer tu criterio para seleccionar las herramientas apropiadas, especialmente con la constante R y sus unidades. Es importante profundizar más en el manejo de conversiones y unidades para alcanzar comprensión completa. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de la ley de Charles y su aplicación al problema del globo con helio",
+        "Reconoces las magnitudes físicas relevantes como temperatura y volumen en gases ideales",
+        "Relacionas estos temas con leyes y estados de la materia vistos en fisicoquímica, reforzando el aprendizaje"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, especialmente el manejo de la constante R",
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables en la ecuación general de los gases",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas con diferentes unidades"
+      ],
+      "createdAt": "2025-10-07T13:02:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 66,
+      "generalComments": "Querida Paloma Castro, Te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas los pasos de resolución de manera ordenada aplicando la ecuación general de los gases. Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente recordando conversiones críticas. Te recomiendo incorporar la verificación de resultados como parte de tu proceso sistemático. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada al aplicar la ecuación general de los gases",
+        "Muestras perseverancia ante las dificultades al repasar los pasos y resolver más despacio",
+        "Realizas conexiones con Matemática mediante el uso de proporciones y ecuaciones"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente en conversiones de unidades",
+        "Necesitas ser más sistemática en la ejecución de los pasos, recordando siempre convertir temperaturas a Kelvin desde el inicio",
+        "Debes trabajar en mantener coherencia entre todos los pasos de tu resolución al simplificar ecuaciones"
+      ],
+      "createdAt": "2025-10-07T13:03:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 76,
+      "generalComments": "Querida Paloma Castro, Has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas para gases ideales en el problema del tanque con oxígeno. Identificas correctamente las relaciones entre variables presión y temperatura. Tu capacidad para organizar información compleja descartando datos irrelevantes es efectiva. Es fundamental consolidar tu comprensión de las relaciones entre variables en situaciones con múltiples datos. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Seleccionas apropiadamente la ecuación de los gases ideales para el problema del tanque con oxígeno",
+        "Identificas correctamente la relación entre presión y temperatura cuando el volumen permanece constante",
+        "Tu estrategia de convertir temperaturas a Kelvin desde el inicio y descartar información irrelevante es efectiva"
+      ],
+      "improvements": [
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables cuando aparecen muchos datos mezclados",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas con múltiples conversiones de unidades",
+        "Necesitas fortalecer tu criterio para organizar sistemáticamente toda la información antes de iniciar cálculos"
+      ],
+      "createdAt": "2025-10-07T13:04:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 63,
+      "generalComments": "Querida Paloma Castro, Te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes las ecuaciones fundamentales de la ley de Charles aplicadas al problema del globo. Es fundamental fortalecer tu criterio para seleccionar las herramientas apropiadas y recordar conversiones. Es importante mejorar la organización de tu trabajo anotando sistemáticamente qué dato cambia y cuál permanece constante. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes la ecuación fundamental de la ley de Charles y su aplicación al problema del globo",
+        "Tu estrategia de anotar qué dato cambia y cuál queda igual es efectiva para evitar confusión",
+        "Realizas conexiones con física y situaciones de la vida real como globos, jeringas y ruedas de bicicleta"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu criterio para seleccionar la fórmula correcta en diferentes situaciones de gases",
+        "Necesitas consolidar el hábito de convertir temperaturas a Kelvin como primer paso sistemático",
+        "Es importante profundizar más en la justificación de por qué seleccionas determinada ley para alcanzar comprensión completa"
+      ],
+      "createdAt": "2025-10-07T13:05:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_me1ei0iq_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 32,
+      "generalComments": "Querida Paloma Castro, El contenido de tu reporte corresponde a Física (tiro oblicuo, lanzamiento horizontal), cuando la evaluación es de Química. Agradezco tu honestidad al reconocer el error en los comentarios finales. Es fundamental fortalecer tu capacidad para identificar el contenido curricular de cada materia y los objetivos de aprendizaje específicos. Mejora la organización de tu trabajo verificando la materia correspondiente antes de comenzar. Te sugiero coordinar conmigo para entregar el reporte correcto de Química de esta semana y recibir la retroalimentación apropiada.",
+      "strengths": [
+        "Reconoces honestamente el error cometido al intercambiar los reportes de física y química",
+        "Demuestras capacidad de organización sistemática al separar el proceso en pasos claros",
+        "Tu reflexión sobre estrategias para no confundirte con fórmulas muestra conciencia metacognitiva"
+      ],
+      "improvements": [
+        "Es fundamental verificar la materia correspondiente antes de comenzar a trabajar en cada reporte semanal",
+        "Necesitas establecer un sistema de organización que diferencie claramente los contenidos de cada asignatura",
+        "Es prioritario coordinar la entrega del reporte correcto de Química para poder evaluar tu progreso en esta materia"
+      ],
+      "createdAt": "2025-10-07T13:06:00Z"
+    },
+    {
+      "feedbackId": "fc44e90a-504a-4215-99dd-5df6a6480f0b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:39:24.758Z"
+    },
+    {
+      "feedbackId": "c60da2df-0d68-43d7-a7d9-4ace8d5b06f8",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:16:11.270Z"
+    },
+    {
+      "feedbackId": "6ddfe814-4d0c-44c6-930b-fc719d92b6c6",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:01:05.364Z"
+    },
+    {
+      "feedbackId": "6f245a91-3d33-4274-85ea-8c7d52331843",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:53:29.583Z"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "studentId": "u_4sfzulloame0eeb4n",
+    "studentName": "Teodora Ces Casalí",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.235045",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 47.25,
+      "minScore": 27,
+      "maxScore": 73,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_me0eeb4n_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 73,
+      "generalComments": "Querida Teodora Ces Casalí, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Reconoces con precisión los objetivos de aprendizaje en esta fase y demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema y desarrollar estrategias más específicas para superar tus desafíos. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Reconoces con precisión los objetivos de aprendizaje en esta fase del pensamiento crítico",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar dificultades",
+        "Realizas conexiones interesantes entre el pensamiento crítico en Química y Matemática"
+      ],
+      "improvements": [
+        "Es importante mejorar la identificación precisa de qué se busca resolver en cada problema",
+        "Desarrolla estrategias más específicas para superar tus desafíos, especialmente al pensar en experiencias pasadas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me0eeb4n_2025-09-01_002",
+      "weekStart": "2025-09-01",
+      "score": 27,
+      "generalComments": "Querida Teodora Ces Casalí, te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Química. Tu capacidad para problematizar situaciones de Química es notable cuando trabajas con ejemplos guiados. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Identificas claramente tu necesidad de apoyo al reconocer que necesitas ver problemas resueltos primero",
+        "Demuestras honestidad al expresar tus dificultades con la selección de fórmulas",
+        "Muestras disposición para el aprendizaje al reconocer áreas donde necesitas ayuda"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en problemas de Química",
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables antes de aplicar fórmulas",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas y desarrollar autonomía en la resolución"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "5c968337-f47a-4f07-96bb-5d0934d3b362",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que estás trabajando en los ejercicios y que el método de Lewis te está quedando claro cuando lo aplicas paso a paso. Eso es un buen inicio. Sin embargo, tu reporte esta semana es muy breve y superficial: respuestas de una línea no permiten que yo vea realmente qué estás pensando ni cómo estás procesando las variables.\n\nTu desempeño muestra que *puedes* hacer el trabajo (el ejercicio de Na₂S está bien), pero te falta reflexionar sobre *por qué* lo haces y *qué variables* están involucradas. Eso es exactamente lo que Fase 2 busca desarrollar: no solo resolver, sino entender qué cambia y qué permanece constante.\n\nPara la próxima semana, quiero que dediques más tiempo a escribir tus respuestas. Cuando digas \"me cuesta entender los enlaces iónicos\", explica qué parte específicamente. Cuando hagas un ejercicio, nombra las variables que usaste. Esto no es más trabajo; es *mejor* trabajo.",
+      "strengths": "• Aplicación correcta del método de Lewis: En el ejercicio 1a, identificas correctamente los electrones de valencia y representas la transferencia electrónica de forma clara con la notación de puntos. Esto muestra que comprendes el concepto cuando lo aplicas paso a paso.\n• Honestidad sobre dificultades: Reconoces que los enlaces iónicos te cuestan trabajo (3.5/5) en lugar de fingir dominio total. Esta autoconsciencia es el primer paso para mejorar.\n• Estructura en el cálculo: Organizas tu trabajo de forma ordenada: primero identificas electrones de valencia, luego muestras la transferencia. Esto facilita seguir tu razonamiento.",
+      "improvements": "• Profundiza en la identificación de variables: No basta con resolver ejercicios; debes nombrar explícitamente qué variables están en juego. Por ejemplo, en Na₂S: \"Variables conocidas: número de electrones de valencia (S=6, Na=1). Variables controlables: cuántos electrones transfiero.\" Practica esto en cada problema.\n• Especifica tus dificultades con enlaces iónicos: En lugar de decir \"me cuesta\", pregúntate: ¿Confundo transferencia con compartición? ¿No veo por qué Na pierde 1 electrón y S gana 2? Identifica el punto exacto y busca ejemplos comparativos (Na₂S vs. H₂S, por ejemplo).\n• Conecta explícitamente con Fase 1: Cuando resuelvas un problema, escribe cómo usas lo de Fase 1 (planteamiento del problema, identificación de datos). Por ejemplo: \"En Fase 1 identifiqué que necesitaba saber electrones de valencia; en Fase 2 clasifico eso como variable conocida.\"",
+      "createdAt": "2025-10-27T04:59:27.990Z"
+    },
+    {
+      "feedbackId": "4a4f3960-9cf1-4e43-ab3f-3472aca22deb",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana fue breve en actividades, pero tu reporte refleja una falta de profundidad que necesitamos cambiar. Mencionas el enlace iónico, que es excelente, pero no desarrollas qué aprendiste realmente sobre las variables involucradas. Esto es precisamente lo que trabajamos en Fase 2.\n\nTu desempeño esta semana está en nivel inicial. Necesitas comprometerte más con la reflexión y el análisis. No se trata solo de asistir a clase, sino de pensar críticamente sobre lo que ves y cómo se conecta con lo anterior.\n\nPara la próxima semana, quiero que: (1) Escribas al menos 3-4 líneas en cada pregunta, (2) Identifiques específicamente 3 variables del enlace iónico, (3) Reflexiones sobre una dificultad real que tengas. Vamos a mejorar esto juntos.",
+      "strengths": "• Reconocimiento de conexiones previas: Identificas que el tema se conecta con configuración electrónica, mostrando que intentas vincular conceptos. Esto es el inicio correcto para construir pensamiento integrado.\n• Tema relevante mencionado: El enlace iónico es un excelente punto de partida para aprender sobre variables en química (cargas, números de oxidación, energía de ionización). Tienes material valioso para trabajar.",
+      "improvements": "• Falta de detalle en Q1: Necesitas describir específicamente qué variables identificaste en el enlace iónico (ej: \"variables conocidas: número de protones; variables desconocidas: energía de ionización\"). Desarrolla cada respuesta con ejemplos concretos de lo que viste en clase.\n• Ausencia de reflexión metacognitiva (Q3 y Q5): Responder \"Nada\" no te ayuda a crecer. Incluso si no tuviste dificultades, reflexiona sobre qué te resultó fácil o qué te gustaría profundizar. Dedica 3-4 líneas mínimo a cada pregunta de reflexión.\n• Falta de evidencia de trabajo independiente (Q2): Aunque no hayas hecho ejercicios formales, describe cómo repasaste el tema, qué preguntas te hiciste o cómo intentaste aplicar lo aprendido. Esto demuestra compromiso con tu aprendizaje.",
+      "createdAt": "2025-11-12T22:56:37.365Z"
+    }
+  ]
+}

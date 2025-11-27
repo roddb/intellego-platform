@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "studentId": "u_5inzfd9ncmdyhzank",
+    "studentName": "RDB",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.230660",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-10-20T03:00:00.000Z",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "f4c84e79-ef0e-46c2-96c7-04c6f60241ba",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que esta semana no completaste el reporte de manera significativa. Entiendo que a veces puede parecer difícil o aburrido reflexionar sobre lo que aprendes, pero este ejercicio es fundamental para desarrollar tu pensamiento crítico y consolidar tus conocimientos en Química.\n\nTu desempeño esta semana está muy por debajo de lo esperado. Necesitas un cambio importante en tu actitud hacia estas tareas. No se trata solo de entregar algo, sino de demostrar que realmente estás pensando sobre tu aprendizaje.\n\nTe pido que esta próxima semana dediques tiempo real a completar el reporte con respuestas reflexivas y detalladas. Si tienes dudas sobre cómo responder, consulta conmigo antes de la entrega. Estoy aquí para ayudarte a mejorar.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas en tu pensamiento crítico. Sin embargo, reconozco que entregaste el reporte, lo que muestra que intentaste cumplir con la tarea.",
+      "improvements": "• Falta de contenido significativo: Necesitas escribir respuestas completas y reflexivas. Cada pregunta requiere mínimo 3-4 oraciones que demuestren que pensaste sobre tu aprendizaje. No se trata de llenar espacios, sino de comunicar genuinamente qué aprendiste.\n• Ausencia de reflexión crítica: El pensamiento crítico implica analizar, cuestionar y conectar ideas. Tómate tiempo para pensar en profundidad sobre cada pregunta antes de responder. Pregúntate: ¿Qué aprendí? ¿Por qué es importante? ¿Dónde lo usaré?\n• Falta de especificidad: Usa ejemplos concretos de la clase. En lugar de palabras sueltas, menciona temas específicos (ej: \"Aprendí sobre reacciones químicas de oxidación-reducción\"), conceptos clave y cómo los entendiste.",
+      "createdAt": "2025-10-27T04:52:10.982Z"
+    }
+  ]
+}

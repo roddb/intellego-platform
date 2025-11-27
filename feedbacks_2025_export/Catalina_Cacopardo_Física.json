@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "studentId": "u_dolvu0ftme1bvul5",
+    "studentName": "Catalina Cacopardo",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189203",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 66.3,
+      "minScore": 41,
+      "maxScore": 85,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "66815177-899f-e65f-4c56-036582d332c1",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Catalina, excelente trabajo en Fase 2. Identificás y clasificás variables con precisión, armaste la matriz correctamente, y reflexionás sobre tu proceso. Tu conexión con MRU/MRUV es acertada. Seguí así.",
+      "strengths": [
+        "Identificás variables específicas del tiro oblicuo con claridad (velocidad inicial, ángulo, altura, tiempo, alcance)",
+        "Armás correctamente la matriz de clasificación de variables (conocidas/desconocidas, controlables/no controlables)",
+        "Hacés conexiones correctas con contenidos previos (MRU horizontal, MRUV vertical)"
+      ],
+      "improvements": [
+        "Practicá ejercicios con múltiples condiciones simultáneas para ganar autonomía",
+        "Desarrollá criterio para distinguir variables conocidas vs calculables",
+        "Automatizá la clasificación de componentes horizontal/vertical"
+      ],
+      "createdAt": "2025-09-30 16:44:23"
+    },
+    {
+      "feedbackId": "580bb2c9-d90b-e12d-025c-7975181a4a2f",
+      "weekStart": "2025-08-18",
+      "score": 79,
+      "generalComments": "Catalina, subiste a 79 puntos. Tu autoevaluación por subtemas es excelente y muestra madurez. Identificás bien tu dificultad (h0≠0) y elegís fórmulas con criterio. Completá Q5 para reflexionar.",
+      "strengths": [
+        "Hacés autoevaluación granular por subtemas (6 niveles), mostrando reflexión profunda",
+        "Elegís métodos con criterio (fórmula directa por rapidez) y lo justificás",
+        "Conexiones correctas con MRU/MRUV (horizontal uniforme, vertical acelerado)"
+      ],
+      "improvements": [
+        "Practicá sistemáticamente casos con h0≠0 hasta automatizar criterio de selección de fórmulas",
+        "Completá Q5 con reflexión sobre tu proceso de aprendizaje en esta fase",
+        "Desarrollá tabla de decisión: qué fórmula usar según datos disponibles"
+      ],
+      "createdAt": "2025-09-30 16:44:47"
+    },
+    {
+      "feedbackId": "6e8e57e3-ce39-9bb0-acff-5803627525fc",
+      "weekStart": "2025-09-01",
+      "score": 79,
+      "generalComments": "Catalina, mantuviste 79 puntos. Resolviste ejercicio completo (golfista) con datos, cálculos y conclusión. Tu estrategia (separar datos + dibujo) es efectiva. Completá Q5.",
+      "strengths": [
+        "Resolvés ejercicio completo: golfista 40m/s a 42°, calculás alcance y concluís correctamente",
+        "Estrategia de organización efectiva: separás datos necesarios y hacés dibujo",
+        "Integrás correctamente MRU horizontal + MRUV vertical"
+      ],
+      "improvements": [
+        "Practicá casos con condiciones adicionales: altura inicial distinta, presencia de viento",
+        "Completá Q5 con reflexión sobre tu evolución en las 4 fases",
+        "Sistematizá análisis de datos: creá checklist de qué buscar en enunciados"
+      ],
+      "createdAt": "2025-09-30 16:45:08"
+    },
+    {
+      "feedbackId": "e5c0da0b-553d-a372-b7fd-15cbc78b3ca3",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Catalina, bajaste a 72 puntos (-7). Tu autoevaluación honesta (Nivel 2) es valiosa. Resolviste ejercicio correctamente pero necesitás ganar autonomía. Completá Q5.",
+      "strengths": [
+        "Resolvés ejercicio de golf correctamente: calculás alcance y comparás con distancia del lago",
+        "Estrategia de organización presente: anotás datos primero, después qué calcular",
+        "Conexiones interdisciplinarias: trigonometría (descomposición) y educación física (movimientos deportivos)"
+      ],
+      "improvements": [
+        "Practicá ordenamiento de variables sistemáticamente hasta automatizarlo",
+        "Mejorá diagramas: incluí ejes, vectores de velocidad, ángulos claramente marcados",
+        "Completá Q5 reflexionando sobre qué necesitás para pasar de Nivel 2 a Nivel 3"
+      ],
+      "createdAt": "2025-09-30 16:45:31"
+    },
+    {
+      "feedbackId": "64ac991d-e038-2517-0686-d52bbf8ea81e",
+      "weekStart": "2025-09-15",
+      "score": 85,
+      "generalComments": "¡Catalina, excelente recuperación! Subiste a 85 puntos (+13). Resolvés problemas completos, organizás información con estrategia clara, y hacés conexiones múltiples. Nivel 4 en Q2, Q3 y Q4. Solo falta Q5.",
+      "strengths": [
+        "Resolvés ejercicio completo con validación: 'me dio que llegaba más lejos, lo que mostró que entendí'",
+        "Estrategia refinada de organización: subrayás importantes y anotás irrelevantes separadamente",
+        "Conexiones múltiples: vida cotidiana (fútbol, feria), matemática (trigonometría), física (caída libre, MRU)"
+      ],
+      "improvements": [
+        "Completá Q5 con reflexión sobre tu evolución a través de las fases",
+        "Automatizá filtrado de datos irrelevantes: creá lista mental de qué ignorar típicamente",
+        "Practicá casos complejos con múltiples condiciones simultáneas"
+      ],
+      "createdAt": "2025-09-30 16:45:55"
+    },
+    {
+      "feedbackId": "257d477e-6353-8649-f2e7-fcca4b10e9dd",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Catalina, **caída crítica** a 55 puntos (-30). Pasaste de Nivel 4 a Nivel 1 en una semana. Necesitás intervención urgente: repasar descomposición de velocidades y cuándo usar cada fórmula.",
+      "strengths": [
+        "Reconocés honestamente tu confusión y nivel actual (autocrítica funcional)",
+        "Identificás tema específico de dificultad: qué fórmula usar en cada parte",
+        "Intentás resolver ejercicio completo del cañón aunque no te sale"
+      ],
+      "improvements": [
+        "**URGENTE**: Solicitá clase de apoyo sobre descomposición de velocidades (vx=v·cos(θ), vy=v·sen(θ))",
+        "Creá tabla de decisión: horizontal→MRU, vertical→MRUV (con gravedad)",
+        "Practicá ejercicios básicos de descomposición antes de intentar problemas completos"
+      ],
+      "createdAt": "2025-09-30 16:46:18"
+    },
+    {
+      "feedbackId": "8170ec0c-8733-4253-8e92-06572a470dbb",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:52:30.207Z"
+    },
+    {
+      "feedbackId": "06da2809-dd00-456c-9c7f-6bc2af90a6e7",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:38:15.575Z"
+    },
+    {
+      "feedbackId": "294dc36f-c3f8-42c2-9e53-fdd5eafff788",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando conceptos clave sobre fuerzas y leyes de Newton. Tu análisis del ejercicio del bloque muestra que comprendes cómo aplicar estos conceptos en situaciones reales, y tu estrategia de dibujar diagramas de cuerpo libre es muy efectiva para visualizar problemas complejos.\n\nSin embargo, tu reporte muestra que aún necesitas ser más sistemático en la clasificación de variables. Identificas *qué* variables existen, pero no siempre las organizas según sean conocidas/desconocidas o controlables/no controlables. Esto es central en Fase 2 y será fundamental para resolver problemas más complejos.\n\nPara la próxima semana, te propongo: (1) crea una tabla de variables para cada ejercicio antes de resolverlo, (2) conecta explícitamente lo que aprendiste en Fase 1 con lo que estás aprendiendo ahora, y (3) completa siempre la sección de comentarios adicionales—es tu espacio para reflexionar profundamente.",
+      "strengths": "• Identificación de conceptos clave: Reconoces correctamente los temas trabajados (rozamiento, equilibrio, DCL) y los aplicas en un ejemplo concreto como el bloque de 80 kg con fuerza de 200 N. Esto muestra que comprendes los fenómenos físicos básicos.\n• Estrategia de visualización efectiva: Tu decisión de dibujar diagramas de cuerpo libre paso a paso es una estrategia metacognitiva valiosa. Demuestras autoconciencia al identificar qué te ayuda a aprender mejor.\n• Honestidad en autoevaluación: Reconoces tus limitaciones (\"me cuesta con varios cuerpos\", \"me confundo con direcciones\") sin minimizarlas. Esto es fundamental para el crecimiento académico.",
+      "improvements": "• Clasificación sistemática de variables: En Q1, debes identificar explícitamente qué variables son conocidas (masa = 80 kg, fuerza = 200 N) y cuáles desconocidas (aceleración, fuerza de rozamiento). Crea una tabla o lista para cada problema: esto te ayudará a no omitir información crucial.\n• Profundidad en conexiones entre fases: Tu respuesta en Q4 es superficial. Intenta conectar específicamente: \"En Fase 1 aprendí que a = F/m; en Fase 2 identifico que F depende del rozamiento, lo que modifica la aceleración.\" Esto demuestra integración real.\n• Completar reflexión en Q5: No dejes espacios en blanco. Reflexiona sobre: ¿Por qué es importante clasificar variables? ¿Cómo ha mejorado tu comprensión desde Fase 1? ¿Qué categorías de variables te parecen más difíciles? Esto enriquece tu autoaprendizaje.",
+      "createdAt": "2025-10-27T05:09:04.434Z"
+    },
+    {
+      "feedbackId": "ff7f3714-87cf-422c-af8e-592c8af8b1ef",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que tienes buena disposición y entusiasmo por el trabajo en grupo, lo cual es excelente. Sin embargo, tu reporte esta semana es muy breve y no muestra el detalle que necesitamos para evaluar tu comprensión real de la Fase 2.\n\nEl objetivo de esta fase es que aprendas a identificar y clasificar variables de forma sistemática. Tus respuestas sugieren que participaste en la actividad, pero no documentas qué variables encontraste ni cómo las clasificaste. Esto es lo más importante ahora.\n\nPara la próxima semana, te pido que: (1) hagas una lista clara de todas las variables del problema, (2) clasifiques cada una (conocida/desconocida, controlable/no controlable), y (3) expliques qué dificultades tuviste y cómo las resolviste. Así podré ver realmente qué aprendiste.",
+      "strengths": "• Actitud positiva hacia el trabajo: Expresas que \"va a ser muy divertido\" y que \"lo estoy entendiendo\", lo que muestra disposición y motivación para aprender. Esto es fundamental para avanzar en pensamiento crítico.\n• Reconocimiento de conexiones entre temas: Identificas que el trabajo actual se conecta con \"movimiento\" visto durante el año, mostrando que intentas relacionar conceptos nuevos con conocimientos previos.\n• Participación en trabajo colaborativo: Mencionas que es \"un tp en grupo\", lo que indica que estás participando activamente en la construcción colectiva del conocimiento.",
+      "improvements": "• Especificar qué variables identificaste: En lugar de decir \"pusimos datos en una hoja\", describe exactamente cuáles son esas variables. Por ejemplo: \"Identificamos como variables conocidas: masa y ángulo de inclinación; como desconocidas: aceleración y velocidad final.\" Esto es clave en Fase 2.\n• Documentar el proceso de clasificación: Necesitas explicar cómo clasificaste cada variable (controlable/no controlable, magnitud física). Crea una tabla simple: Variable | Tipo | Magnitud Física. Esto evidencia tu aprendizaje metodológico.\n• Profundizar en dificultades y soluciones: Cuando menciones que \"resultó difícil hacer el gráfico\", explica por qué (¿confundiste ejes? ¿no sabías qué variable va en cada eje?). Luego describe la estrategia específica que usaste para entenderlo. Esto desarrolla metacognición.",
+      "createdAt": "2025-11-17T13:39:44.065Z"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "studentId": "2256bcc8-efd3-4e01-b627-1e6dfad75a6c",
+    "studentName": "Facundo Isola Pozzo",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.198118",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 50.92,
+      "minScore": 27,
+      "maxScore": 68,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_isolapozzo_fisica_20250811",
+      "weekStart": "2025-08-11",
+      "score": 38,
+      "generalComments": "Ausencia con intento de recuperación autónoma. Revisó presentación en Classroom pero con dificultades en comprensión de fórmulas.",
+      "strengths": [
+        "Responsabilidad al comunicar problema con cuenta",
+        "Intento de estudio independiente",
+        "Revisión de material en Classroom",
+        "Compromiso para asistir próxima clase"
+      ],
+      "improvements": [
+        "Buscar apoyo cuando falte a clases",
+        "Solicitar explicación adicional de fórmulas",
+        "Practicar con ejercicios básicos",
+        "Comunicar dudas al profesor"
+      ],
+      "createdAt": "2025-01-09 12:25:00"
+    },
+    {
+      "feedbackId": "fb_isolapozzo_fisica_20250818",
+      "weekStart": "2025-08-18",
+      "score": 58,
+      "generalComments": "Inicio con tiro oblicuo, nivel 2. Trabajó ejercicio de pelota básica identificando elementos clave, aunque con dificultad en herramientas.",
+      "strengths": [
+        "Identifica objetivo del ejercicio",
+        "Reconoce variables del problema",
+        "Nivel 2 de dominio",
+        "Conexión con matemáticas y temas previos"
+      ],
+      "improvements": [
+        "Practicar identificación de herramientas/fórmulas",
+        "Crear tabla de fórmulas y sus usos",
+        "Resolver más ejercicios guiados",
+        "Reforzar criterios de selección"
+      ],
+      "createdAt": "2025-01-09 12:26:00"
+    },
+    {
+      "feedbackId": "fb_isolapozzo_fisica_20250825",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Progreso a nivel 2-3 en tiro oblicuo. Trabajó ejercicio de altura máxima del cuadernillo fase 3, identificando objetivo pero con dificultad en selección de fórmulas.",
+      "strengths": [
+        "Mejora en comprensión (nivel 2-3)",
+        "Identifica problema y objetivo correctamente",
+        "Trabaja con ejercicios del cuadernillo",
+        "Reconoce conexiones con física y matemática previas"
+      ],
+      "improvements": [
+        "Crear formulario personal organizado",
+        "Practicar criterios de selección de fórmulas",
+        "Asociar cada tipo de pregunta con su fórmula",
+        "Resolver ejercicios con apoyo inicial"
+      ],
+      "createdAt": "2025-01-09 12:27:00"
+    },
+    {
+      "feedbackId": "fb_002_1_ad75a6c_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querido Facundo Isola Pozzo, esta semana tuvieron la prueba de tiro oblicuo, por lo que no se trabajaron contenidos nuevos en Física durante este período. Es comprensible que no puedas reportar sobre un tema nuevo que no fue visto. Aprovecha este momento para consolidar los aprendizajes de las semanas anteriores. Reflexiona sobre tu desempeño en la prueba para identificar fortalezas y aspectos a mejorar. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Comunicas claramente la situación de la semana",
+        "Manifiestas honestidad sobre la imposibilidad de reportar sobre temas nuevos",
+        "Reconoces que la conexión con matemáticas se da mediante números y ecuaciones"
+      ],
+      "improvements": [
+        "Utiliza las semanas de evaluación para reflexionar sobre tu proceso de aprendizaje",
+        "Identifica qué aspectos de tiro oblicuo te resultaron más desafiantes en la prueba",
+        "Prepárate para retomar contenidos nuevos con estrategias consolidadas"
+      ],
+      "createdAt": "2025-10-07 22:44:49"
+    },
+    {
+      "feedbackId": "fb_002_1_ad75a6c_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querido Facundo Isola Pozzo, debido a que esta semana la hora de Física fue destinada a la misa institucional, no se trabajaron contenidos de la materia. Es comprensible que no puedas reportar sobre temas, ejercicios o dificultades en estas circunstancias. Mantén tu disposición para retomar el trabajo cuando se reanuden las clases regulares. Aprovecha para repasar conceptos previos si dispones de tiempo. Estoy disponible para apoyarte en tu proceso de aprendizaje cuando retomen las actividades.",
+      "strengths": [
+        "Comunicas con claridad la situación institucional de la semana",
+        "Eres consistente en explicar la ausencia de clase en todas las preguntas",
+        "Manifiestas responsabilidad al completar el reporte a pesar de la situación"
+      ],
+      "improvements": [
+        "Aprovecha tiempos libres para revisar material previo de Física",
+        "Consulta el material disponible en Classroom para mantenerte actualizado",
+        "Prepárate para retomar con energía cuando se reanuden las clases"
+      ],
+      "createdAt": "2025-10-07 22:45:27"
+    },
+    {
+      "feedbackId": "fb_002_1_ad75a6c_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querido Facundo Isola Pozzo, debido a la ausencia del profesor esta semana y el uso del tiempo para preparar la prueba de Química, no se trabajaron contenidos de Física. Es comprensible que no puedas reportar sobre avances en esta materia bajo estas circunstancias. Valoro que hayas aprovechado el tiempo de manera productiva para otra asignatura. Comunicas con claridad que el tiempo fue destinado a Química con permiso del docente. Prepárate para retomar Física la próxima semana con disposición. Estoy aquí para acompañarte en este proceso cuando retomemos las actividades.",
+      "strengths": [
+        "Comunicas con claridad y transparencia el uso del tiempo de clase",
+        "Manifiestas que el cambio de actividad fue autorizado por el profesor",
+        "Demuestras responsabilidad al completar el reporte explicando la situación"
+      ],
+      "improvements": [
+        "Aprovecha estos tiempos excepcionales para revisar material previo de Física",
+        "Mantén contacto con los contenidos de la materia incluso en semanas atípicas",
+        "Prepárate para retomar el ritmo de trabajo cuando se reanuden las clases normales"
+      ],
+      "createdAt": "2025-10-07 22:45:28"
+    },
+    {
+      "feedbackId": "8770b32f-e70c-4039-9b9c-0dd93f205deb",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:56.381Z"
+    },
+    {
+      "feedbackId": "0ed32fa9-3db0-4086-99fd-47d00362f9a1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:00:15.222Z"
+    },
+    {
+      "feedbackId": "04827b95-0d48-4e83-b1e5-eaa5843aa0bd",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:31.077Z"
+    },
+    {
+      "feedbackId": "3a631ba6-bf88-4764-b1fa-a8a54aedd5f9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:49:28.219Z"
+    },
+    {
+      "feedbackId": "9fd9941c-5e76-42fb-9c07-67ab7434b5f3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que trabajaste con dedicación esta semana en Dinámica y que comprendes bien la aplicación de la Segunda Ley de Newton. Tus cálculos son correctos y tu estrategia para superar dificultades es práctica y efectiva. Sin embargo, tu reporte no refleja completamente lo que pide Fase 2: la identificación y clasificación sistemática de variables.\n\nTu desempeño muestra que dominas el contenido de Física, pero necesitas ser más explícito en el análisis metodológico. Cuando resuelves un problema, debes documentar primero *qué variables tienes* y *cómo las clasificas*, no solo los resultados finales. Esto es lo que diferencia un cálculo correcto de un pensamiento crítico estructurado.\n\nPara la próxima semana, te recomiendo que antes de resolver cualquier ejercicio, hagas una tabla de variables. Esto te ayudará a identificar patrones, a entender mejor por qué las fuerzas se suman o restan, y a transferir este conocimiento a nuevos problemas con mayor facilidad.",
+      "strengths": "• Autoconciencia sobre dificultades: Reconoces específicamente que te cuesta identificar la dirección de fuerzas y el sentido del movimiento, lo que muestra honestidad en tu autoevaluación y disposición para mejorar.\n• Estrategia de refuerzo activa: Tu enfoque de \"repasar diagramas de cuerpo libre y hacer más ejercicios\" demuestra iniciativa y una estrategia práctica para superar obstáculos, no solo reconocerlos.\n• Conexiones interdisciplinarias: Vinculaste el tema con matemática (vectores, conversiones) e ingeniería (aplicaciones reales), mostrando que entiendes la relevancia del contenido más allá de la clase.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, necesitas identificar explícitamente qué variables son conocidas (F1=10 kgf, F2=15 kgf, m=40 kg) y cuáles desconocidas (a). Esto es el corazón de Fase 2. Crea una tabla simple: Variable | Valor | Tipo (conocida/desconocida) | Controlable/No controlable.\n• Integración de Fase 1 con Fase 2: Tu respuesta en Q2 muestra cálculos, pero no evidencia cómo identificaste las variables antes de resolver. Describe el proceso: \"Primero identifiqué que F1 y F2 son fuerzas (magnitud vectorial), luego las clasifiqué como conocidas...\" Esto demuestra pensamiento crítico integrado.\n• Completar Q5 con reflexión profunda: No dejes espacios en blanco. Reflexiona sobre: ¿Por qué es importante clasificar variables? ¿Cómo cambió tu comprensión desde Fase 1? ¿Qué descubriste nuevo sobre la dinámica? Esto consolida tu aprendizaje y muestra metacognición.",
+      "createdAt": "2025-10-27T05:02:40.307Z"
+    },
+    {
+      "feedbackId": "4f51a67d-ec15-4740-9543-292e95179d2b",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en el problema del ascensor y lograste aplicar correctamente la clasificación de variables y la resolución algebraica. Tu proceso paso a paso en Q2 es muy ordenado y demuestra que entiendes cómo estructurar un problema de fuerzas.\n\nSin embargo, hay un punto crítico que necesitas atender: la dificultad con tipos de fuerzas que mencionas en Q1 y Q3 es una brecha importante en tu comprensión. No es suficiente reconocerla; necesitas atacarla directamente con estrategias específicas y práctica deliberada.\n\nPara la próxima semana, te propongo que antes de resolver nuevos problemas, hagas un \"inventario de fuerzas\" en cada situación. Identifica cada fuerza por su nombre, origen y dirección. Esto te dará la base sólida que necesitas para avanzar con confianza en Fase 3.",
+      "strengths": "• Proceso algebraico claro y ordenado: En Q2, planteas la ecuación (T - mg = ma), sustituyes valores correctamente y despejas la incógnita de forma lógica. Esto muestra que dominas la manipulación matemática de fórmulas.\n• Autoconciencia sobre limitaciones: Reconoces explícitamente en Q1 y Q3 que tienes dificultad con tipos de fuerzas. Esta honestidad es el primer paso para mejorar y buscar ayuda.\n• Clasificación inicial de variables: En Q2, identificas correctamente qué datos son conocidos (m, g, a) y cuál es la incógnita (T), mostrando que entiendes la estructura básica de Fase 2.",
+      "improvements": "• Amplía la identificación de tipos de fuerzas: No basta reconocer que tienes dificultad. Crea una tabla con: Fuerza de Tensión (cables/cuerdas), Peso (siempre hacia abajo), Rozamiento (opuesta al movimiento), Normal (perpendicular a la superficie). Practica clasificando cada fuerza en 3-4 problemas nuevos antes de resolver.\n• Desarrolla estrategias metacognitivas concretas: En lugar de decir \"me cuesta identificar fuerzas\", pregúntate: ¿Qué objeto ejerce esta fuerza? ¿En qué dirección actúa? ¿Se opone al movimiento? Escribe estas preguntas como checklist en cada problema que resuelvas.\n• Completa tus respuestas y profundiza conexiones: En Q2, termina el segundo caso (aceleración hacia abajo). En Q4, no te conformes con \"números y ecuaciones\": explica cómo las variables (masa, aceleración) cambian el resultado físico real (la tensión que soporta el cable).",
+      "createdAt": "2025-11-12T23:02:19.650Z"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_4prlxg2qvme1bx6m7",
+    "studentName": "Bautista Attanasio",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.184171",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 62.0,
+      "minScore": 55,
+      "maxScore": 69,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "8592021b-f061-4fe5-3f8c-27092f74d73d",
+      "weekStart": "2025-08-04",
+      "score": 69,
+      "generalComments": "Bautista, mostrás un inicio sólido en la Fase 1 de Pensamiento Crítico, reconociendo la metodología de los 5 pasos y trabajando con los ejercicios introductorios. Tu comprensión de que este contenido no se vincula con temas anteriores por ser el comienzo del año es acertada. Sin embargo, necesitás profundizar en la especificidad de tus respuestas: en lugar de decir que 'dominaste bien' los ejercicios, describí qué problema concreto identificaste y cómo lo hiciste. En la Fase 1, la claridad en identificar el problema es fundamental.",
+      "strengths": [
+        "Reconocés la metodología de pensamiento crítico y los 5 pasos del proceso sistemático",
+        "Identificás correctamente que los contenidos son introductorios y no requieren conexiones previas",
+        "Mostrás persistencia ante las dificultades para desarrollar respuestas completas"
+      ],
+      "improvements": [
+        "Especificá qué problema concreto identificaste en los ejercicios, no solo que 'los dominaste bien'. En Fase 1, la precisión en identificar el problema es clave",
+        "Detallá las estrategias específicas que usaste para superar la dificultad de desarrollar respuestas, no solo que 'saliste adelante'",
+        "Completá la sección de comentarios adicionales (Q5) para reflexionar sobre tu proceso de aprendizaje y agregar observaciones que consideres importantes"
+      ],
+      "createdAt": "2025-09-30 16:29:44"
+    },
+    {
+      "feedbackId": "c29ed253-674b-bc58-156e-a163dcec82e5",
+      "weekStart": "2025-08-11",
+      "score": 55,
+      "generalComments": "Bautista, tu desempeño en esta Fase 2 muestra una **caída significativa** respecto al reporte anterior (de 69 a 55 puntos). Aunque identificás el tema (variables en tiro oblicuo) y trabajás con las consignas, tus respuestas carecen de la especificidad que esta fase requiere: no listás las variables que identificaste, no explicás estrategias que usaste, y das respuestas monosilábicas en Q5. **Alerta pedagógica**: Q4 y Q5 cayeron a Nivel 1, indicando desenganche o falta de tiempo/esfuerzo. Necesitás recuperar el nivel de desarrollo del reporte anterior.",
+      "strengths": [
+        "Reconocés la consigna de identificar variables en diferentes situaciones (acción y entorno de una persona)",
+        "Completás los tres ejercicios solicitados sobre variables deportivas",
+        "Identificás correctamente tu dificultad principal: identificar todas las variables posibles"
+      ],
+      "improvements": [
+        "**URGENTE**: Listá las variables específicas que identificaste en los ejercicios. En Fase 2, no alcanza con decir que 'dominaste bien', tenés que mostrar QUÉ variables encontraste (ej: velocidad inicial, ángulo de tiro, gravedad, etc.)",
+        "**CRÍTICO**: No repitas 'esto es algo nuevo' en Q4. El tiro oblicuo SÍ se conecta con cinemática de años anteriores (MRU, MRUV). Buscá esas conexiones",
+        "**INACEPTABLE**: Evitá respuestas monosilábicas como 'No' en Q5. Esta es tu oportunidad de reflexión libre y agregar valor. Mínimo 2-3 oraciones sobre tu proceso"
+      ],
+      "createdAt": "2025-09-30 16:31:55"
+    }
+  ]
+}

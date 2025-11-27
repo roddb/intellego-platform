@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "studentId": "u_bgnqcmox2mdynijxl",
+    "studentName": "Helena Machado",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.203200",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 59.0,
+      "minScore": 27,
+      "maxScore": 88,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-04_b4e9b0f8",
+      "weekStart": "2025-08-04",
+      "score": 69,
+      "generalComments": "Helena, tu desempeño en la Fase 1 muestra una base sólida en la identificación de problemas y comprensión conceptual de termodinámica. Destacas en el análisis detallado de los tipos de sistemas termodinámicos y has demostrado capacidad para aplicar el Paso 1 del pensamiento crítico de manera estructurada. Sin embargo, el uso de ChatGPT para comprender vocabulario técnico básico sugiere una dependencia que puede obstaculizar tu autonomía académica. Es fundamental que desarrolles estrategias propias para construir tu comprensión del lenguaje científico.",
+      "strengths": [
+        "Aplicas el Paso 1 con excelente estructura metodológica, distinguiendo claramente información relevante de irrelevante en el análisis de sistemas termodinámicos",
+        "Demuestras comprensión avanzada de la clasificación de sistemas (abierto, cerrado, aislado) con múltiples ejemplos concretos",
+        "Manifiestas consciencia metacognitiva al reconocer tus limitaciones y buscar recursos de apoyo"
+      ],
+      "improvements": [
+        "Construye un glosario personal de términos termodinámicos en lugar de consultar IA cada vez que encuentres vocabulario nuevo",
+        "Desarrolla conexiones más profundas en Q4 más allá de lo descriptivo (se conecta con...), explicando el cómo y el por qué",
+        "Completa Q5 sistemáticamente con reflexiones sobre tu proceso de aprendizaje para fortalecer la autorregulación",
+        "Practica la inferencia contextual antes de recurrir a herramientas externas: usa el contexto del problema para deducir significados"
+      ],
+      "createdAt": "2025-10-02 14:48:29"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-11_c5f0c1a9",
+      "weekStart": "2025-08-11",
+      "score": 85,
+      "generalComments": "Helena, tu desempeño en la Fase 2 es excepcional y representa un salto cualitativo significativo (+15.8 puntos). Has demostrado dominio avanzado en la identificación y clasificación de variables termodinámicas, aplicando la metodología F1+F2 con fluidez y consciencia metacognitiva. Tu capacidad para distinguir variables controlables de no controlables, junto con ejemplos concretos del problema de la máquina térmica, evidencian comprensión profunda. El único desafío persistente es Q5 vacía, que impacta tus métricas de autorregulación y reflexión.",
+      "strengths": [
+        "Identificas y clasificas variables con precisión experta (masa, temperatura, presión, energía) usando la matriz de controlables/no controlables",
+        "Integras F1+F2 de manera fluida, mostrando progresión metodológica clara desde la identificación del problema hasta el análisis de variables",
+        "Evidencias pensamiento crítico de alto nivel al reflexionar sobre la dificultad de distinguir variables controlables del contexto específico del problema"
+      ],
+      "improvements": [
+        "Completa Q5 de manera consistente para documentar tu proceso reflexivo, ya que tu comentario en Q4 demuestra alta consciencia metacognitiva que merece ser capturada",
+        "Profundiza en las conexiones interdisciplinares mencionadas (Química, Biofísica) con ejemplos concretos de cómo las variables se comportan en cada contexto",
+        "Practica la identificación de variables en problemas complejos con múltiples sistemas interactuando para prepararte para Fase 3"
+      ],
+      "createdAt": "2025-10-02 14:48:30"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-18_d6a1d2b0",
+      "weekStart": "2025-08-18",
+      "score": 69,
+      "generalComments": "Helena, tu desempeño en la Fase 3 muestra un retroceso respecto a la Fase 2 (-15.8 puntos), principalmente debido a dificultades con el vocabulario técnico especializado (calor sensible vs latente). Aunque has intentado seleccionar fórmulas apropiadas y reconoces la integración F1+F2+F3, la barrera terminológica te impidió aplicar las herramientas con la precisión necesaria. Es positivo que identifiques claramente esta dificultad y busques apoyo, pero es fundamental que desarrolles estrategias autónomas para comprender conceptos técnicos antes de la ejecución.",
+      "strengths": [
+        "Reconoces explícitamente tus dificultades conceptuales (calor sensible vs latente), evidenciando alta consciencia metacognitiva",
+        "Intentas integrar las tres fases metodológicas (F1+F2+F3) mostrando comprensión del proceso sistemático",
+        "Buscas apoyo proactivamente (ChatGPT, profesora) demostrando autorregulación y responsabilidad por tu aprendizaje"
+      ],
+      "improvements": [
+        "Estudia los conceptos termodinámicos fundamentales (calor sensible, latente, cambios de estado) ANTES de intentar seleccionar fórmulas, usando el cuadernillo como recurso primario",
+        "Crea un mapa conceptual que relacione cada tipo de proceso termodinámico con su fórmula correspondiente y cuándo usar cada una",
+        "Desarrolla un checklist personal para Q3: (1) ¿Entiendo todos los términos técnicos?, (2) ¿Qué tipo de proceso es?, (3) ¿Qué fórmula corresponde?, (4) ¿Por qué esta y no otra?",
+        "Completa Q5 con reflexiones sobre cómo superaste (o no) las dificultades de la semana, documentando tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-02 14:48:30"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-09-01_e7b2e3c1",
+      "weekStart": "2025-09-01",
+      "score": 69,
+      "generalComments": "Helena, tu desempeño en la Fase 4 muestra estabilización en el nivel En Desarrollo (68.7), con logros importantes en la ejecución correcta del problema (resultado numérico adecuado) pero con desafíos persistentes en la autonomía conceptual. Aunque mencionas haber intentado la Primera Ley, necesitaste ayuda significativa en la selección de fórmulas, lo cual indica que la transición de F3 a F4 requiere mayor consolidación de fundamentos. Es positivo que hayas logrado la ejecución final, pero el objetivo es que puedas realizar todo el proceso de manera independiente.",
+      "strengths": [
+        "Obtuviste el resultado numérico correcto en el problema, evidenciando que comprendes la ejecución mecánica de los cálculos",
+        "Reconoces la necesidad de integrar las 4 fases (F1+F2+F3+F4) demostrando visión sistémica de la metodología",
+        "Solicitas ayuda cuando la necesitas, mostrando consciencia de tus limitaciones y responsabilidad académica"
+      ],
+      "improvements": [
+        "Refuerza tu dominio de la Primera Ley de la Termodinámica (ΔU = Q - W) practicando su aplicación en múltiples tipos de procesos (isotérmicos, adiabáticos, isocóricos)",
+        "Desarrolla autonomía en la selección de fórmulas creando un diagrama de flujo personal: ¿Qué tipo de proceso? → ¿Qué variables conozco? → ¿Qué fórmula aplico?",
+        "Practica problemas completos (F1→F2→F3→F4) de principio a fin SIN ayuda externa para fortalecer tu independencia académica",
+        "Completa Q5 sistemáticamente reflexionando sobre qué estrategias funcionaron y cuáles no, documentando tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-02 14:48:31"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-09-22_f8c3f4d2",
+      "weekStart": "2025-09-22",
+      "score": 79,
+      "generalComments": "Helena, tu desempeño en esta Fase 4 avanzada muestra una mejora significativa (+10.4 puntos) que te acerca al Nivel 3 consolidado. Has logrado integrar las 4 fases de manera fluida, aplicando estratégicamente la Primera Ley en el calentador de agua con resultado correcto. Tu reflexión en Q5 es excepcional, demostrando madurez metacognitiva al articular la progresión F1→F2→F3→F4 y las conexiones interdisciplinares. El desafío principal ahora es fortalecer tu autonomía en la diferenciación de variables controlables vs no controlables para alcanzar consistentemente el Nivel 3.",
+      "strengths": [
+        "Integras las 4 fases con consciencia metodológica excepcional, articulando claramente en Q5 cómo cada fase construye sobre la anterior",
+        "Aplicas la Primera Ley correctamente en el problema del calentador de agua, obteniendo resultado numérico preciso con unidades adecuadas",
+        "Reflexionas profundamente sobre tu proceso de aprendizaje, conectando la metodología de Física con Química y destacando la evolución desde conceptos básicos hasta ejecución completa"
+      ],
+      "improvements": [
+        "Profundiza en la distinción de variables controlables vs no controlables mediante ejercicios adicionales con diversos sistemas termodinámicos",
+        "Fortalece tu autonomía practicando la selección de fórmulas sin consultar recursos externos, basándote en tu análisis sistemático del tipo de proceso",
+        "Verifica tus cálculos de manera independiente para ganar confianza en tu capacidad de ejecución completa sin necesitar validación externa",
+        "Continúa desarrollando reflexiones metacognitivas en Q5 como lo hiciste esta semana, ya que es una de tus fortalezas más destacadas"
+      ],
+      "createdAt": "2025-10-02 14:48:32"
+    },
+    {
+      "feedbackId": "fb_002_1_2mdynijxl_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 88,
+      "generalComments": "Querida Helena Machado, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Física. Tu trabajo colaborativo demuestra capacidad para aplicar conceptos de equilibrio térmico de manera efectiva. Ejecutas cálculos sistemáticamente (Q mate y Q agua) llegando a conclusiones correctas sobre temperatura de equilibrio. No identificas dificultades específicas lo que muestra consolidación del aprendizaje. ¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Dominas los conceptos de equilibrio térmico aplicándolos efectivamente en trabajo grupal",
+        "Ejecutas cálculos sistemáticos (Q mate y Q agua) con precisión",
+        "No reportas dificultades específicas evidenciando consolidación del aprendizaje",
+        "Tu nivel de confianza (Nivel 5) refleja dominio genuino del tema"
+      ],
+      "improvements": [
+        "Explicita más el proceso de razonamiento detrás de las decisiones en tus reportes",
+        "Profundiza en la reflexión sobre qué estrategias te llevaron al dominio actual",
+        "Considera aplicaciones más complejas que te desafíen a seguir creciendo"
+      ],
+      "createdAt": "2025-10-09T14:30:00Z"
+    },
+    {
+      "feedbackId": "eadb1cb3-51fa-43bb-9d98-41bb95ebfef9",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:59.167Z"
+    },
+    {
+      "feedbackId": "e2b022a0-e1f9-4dc8-a3fa-b549098d731d",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:08:53.799Z"
+    },
+    {
+      "feedbackId": "813cacbe-3de1-4cd9-b68b-ed4b31c1a443",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:57:38.642Z"
+    },
+    {
+      "feedbackId": "fa6dd985-8748-4de9-b9ef-ecc7dffc1072",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:48:34.862Z"
+    },
+    {
+      "feedbackId": "966428ea-19fa-4b9c-894f-f887e9c14e93",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Buen comienzo en Fase 2. Tu trabajo en el ejercicio 2 muestra que entiendes cómo identificar variables y aplicar fórmulas correctamente, lo cual es fundamental. Sin embargo, tu reporte es muy breve y le falta profundidad en varios aspectos: no clasificas variables de forma sistemática, tus estrategias para resolver dificultades son genéricas, y las conexiones con la realidad necesitan más análisis.\n\nEsta semana has avanzado en aplicar lo de Fase 1, pero ahora necesitas ir más allá: no solo identifiques variables, sino que las clasifiques, entiendas por qué son importantes y cómo se relacionan entre sí. Tu honestidad sobre las dificultades con unidades es valiosa; úsala como punto de partida para crear herramientas que te ayuden.\n\nPara la próxima semana, te propongo: (1) Completa la Pregunta 5 con reflexiones sobre tu progreso, (2) Crea una tabla de conversión de unidades en Electrodinámica, (3) Resuelve un ejercicio adicional clasificando TODAS las variables (conocidas/desconocidas, controlables/no controlables). Esto consolidará tu aprendizaje.",
+      "strengths": "• Identificación clara de variables en ejercicios concretos: En el ejercicio 2, distingues correctamente I=2,5A y P=500W como valores conocidos, y V como desconocido. Esto muestra que comprendes la diferencia entre datos dados y lo que buscas.\n• Aplicación correcta de fórmulas y despeje algebraico: Tu procedimiento V=P/I y el cálculo V=200 son precisos. Demuestras dominio en la manipulación matemática de ecuaciones de Electrodinámica.\n• Autoconciencia sobre dificultades reales: Reconoces honestamente que te cuesta validar respuestas y manejar unidades. Esta autocrítica es el primer paso para mejorar.",
+      "improvements": "• Identificación clara de variables en ejercicios concretos: En el ejercicio 2, distingues correctamente I=2,5A y P=500W como valores conocidos, y V como desconocido. Esto muestra que comprendes la diferencia entre datos dados y lo que buscas.\n• Aplicación correcta de fórmulas y despeje algebraico: Tu procedimiento V=P/I y el cálculo V=200 son precisos. Demuestras dominio en la manipulación matemática de ecuaciones de Electrodinámica.\n• Autoconciencia sobre dificultades reales: Reconoces honestamente que te cuesta validar respuestas y manejar unidades. Esta autocrítica es el primer paso para mejorar. MEJORAS",
+      "createdAt": "2025-11-17T13:41:26.087Z"
+    },
+    {
+      "feedbackId": "d71eacd7-957b-4de3-82a5-38b069c21aee",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Buen trabajo esta semana. Resolviste correctamente el ejercicio práctico y demostraste que puedes aplicar fórmulas y obtener resultados precisos. Además, haces conexiones interesantes con situaciones reales, lo que muestra que estás comprendiendo la utilidad de estos conceptos.\n\nSin embargo, tu reporte está incompleto en reflexión profunda. Necesitas ir más allá de \"lo entiendo\" o \"me cuesta\": debes analizar *por qué* te cuesta y *cómo* lo vas a resolver. La Fase 2 no es solo aplicar fórmulas, sino entender sistemáticamente qué variables intervienen en cada problema y cómo se relacionan.\n\nPara la próxima semana, te pido que: (1) completes siempre todas las preguntas, especialmente la 5; (2) cuando identifiques una dificultad, propón una estrategia concreta; (3) clasifica variables de forma explícita en tus ejercicios. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Aplicación correcta de fórmulas: En el ejercicio 8, resuelves correctamente P=V×I, E=P×t y C=E×c, obteniendo resultados precisos (P=990W, E=2,97kWh, C=$0,15). Esto muestra dominio operacional.\n• Identificación de variables en contexto real: Distingues entre variables conocidas (V=220V, I=1,5A) y desconocidas (P, E, C) en un problema práctico, demostrando que comprendes la estructura básica de la Fase 2.\n• Conexión con la vida cotidiana: Relacionas el concepto de potencia y energía con situaciones reales (auto, heladera), lo que evidencia que ves la relevancia física de lo que estudias.",
+      "improvements": "• Clasificación sistemática de variables: Tu respuesta en Q1 no distingue entre variables controlables/no controlables ni explica por qué cada una se clasifica así. Intenta crear una tabla con dos columnas (Conocidas/Desconocidas) y otra (Controlables/No controlables) para cada problema que resuelvas.\n• Estrategias específicas para dificultades: Dices que \"revoluciones es difícil\" pero no explicas qué confunde (¿conversión de unidades? ¿concepto físico?). Identifica exactamente qué aspecto te cuesta y busca un recurso específico: video, ejercicio adicional o consulta con el profesor sobre ese punto concreto.\n• Profundidad en reflexión y comentarios: La Pregunta 5 está vacía. Dedica tiempo a escribir: ¿Qué aprendiste esta semana sobre identificar variables? ¿Cómo evolucionaste desde la Fase 1? ¿Qué te sorprendió? Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:59:22.011Z"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "studentId": "9c53ec4d-be2a-4d1f-8ff6-34a583ab2ddb",
+    "studentName": "Catalina Parker",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.190864",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 65.5,
+      "minScore": 52,
+      "maxScore": 71,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-08"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "c195af4d5a7088a699ec988df0584443",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Catalina demuestra comprensión sólida de la identificación de variables en Fase 2. El trabajo con el experimento de Ana muestra capacidad de análisis sistemático. La transferencia a otros contextos como matemáticas indica buena comprensión del método.",
+      "strengths": [
+        "Aplicación correcta del proceso de identificación de variables",
+        "Capacidad de clasificar variables en el experimento de Ana",
+        "Excelente transferencia del método a otras disciplinas"
+      ],
+      "improvements": [
+        "Profundizar la conexión con conceptos químicos específicos",
+        "Practicar más la aplicación en contextos variados de química",
+        "Incluir reflexiones sobre el proceso de clasificación"
+      ],
+      "createdAt": "2025-09-28 22:52:35"
+    },
+    {
+      "feedbackId": "a1eafa77c5f4650ab6389e8f7a6a81cf",
+      "weekStart": "2025-08-18",
+      "score": 71,
+      "generalComments": "Catalina muestra buen progreso en la comprensión de gases ideales. El trabajo con el problema del globo demuestra capacidad para identificar variables y la necesidad de seleccionar la herramienta correcta. La transición de teoría a práctica está en desarrollo.",
+      "strengths": [
+        "Estructuración clara del problema del globo con helio",
+        "Identificación correcta de la necesidad de seleccionar entre ecuaciones",
+        "Conexión apropiada con conceptos previos de moles y masa molar"
+      ],
+      "improvements": [
+        "Practicar más la aplicación directa de ecuaciones en ejercicios",
+        "Familiarizarse con las ecuaciones fundamentales antes de problemas complejos",
+        "Agregar reflexiones sobre el proceso de resolución"
+      ],
+      "createdAt": "2025-09-28 22:51:33"
+    },
+    {
+      "feedbackId": "294042aafba5966020c85428236d124e",
+      "weekStart": "2025-08-25",
+      "score": 52,
+      "generalComments": "Catalina, reconozco tu esfuerzo al abordar problemas de gases ideales. Es normal encontrar dificultades al inicio con las fórmulas. El intento con el problema del metano muestra que estás en el camino correcto, necesitas más práctica guiada.",
+      "strengths": [
+        "Intentaste resolver un problema complejo de cálculo de masa con gases",
+        "Identificaste claramente las áreas donde necesitas apoyo (fórmulas)",
+        "Conectaste el tema con conceptos previos de masa molar"
+      ],
+      "improvements": [
+        "Repasar la ecuación de gases ideales PV=nRT paso a paso",
+        "Practicar conversión de unidades antes de aplicar fórmulas",
+        "Completar ejercicios simples antes de abordar problemas complejos"
+      ],
+      "createdAt": "2025-09-28 22:50:39"
+    },
+    {
+      "feedbackId": "521fc8a40cdc99ddae4f1c2622a5e462",
+      "weekStart": "2025-09-08",
+      "score": 71,
+      "generalComments": "Catalina demuestra buen dominio en la aplicación práctica de gases ideales, especialmente en la resolución de problemas complejos con múltiples etapas. La integración de las 4 fases del pensamiento crítico es evidente en tu trabajo con el ejercicio del CO2.",
+      "strengths": [
+        "Excelente aplicación del método completo F1-F4 en problemas complejos de gases",
+        "Capacidad de resolver ejercicios de múltiples etapas con transformaciones isotérmicas e isobáricas",
+        "Reconocimiento efectivo de dificultades y estrategias para superarlas"
+      ],
+      "improvements": [
+        "Profundizar en la identificación rápida de variables desconocidas desde el inicio",
+        "Especificar más las conexiones con temas previos para consolidar el aprendizaje",
+        "Incluir reflexiones adicionales sobre el proceso de resolución en comentarios"
+      ],
+      "createdAt": "2025-09-28 22:47:15"
+    }
+  ]
+}

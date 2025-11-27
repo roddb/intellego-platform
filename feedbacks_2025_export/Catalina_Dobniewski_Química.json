@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "studentId": "u_1wt2lfnz3me69ak8c",
+    "studentName": "Catalina Dobniewski",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189783",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 27.0,
+      "minScore": 27,
+      "maxScore": 27,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me69ak8c_2025-08-04_2098fe2a",
+      "weekStart": "2025-08-04",
+      "score": 27,
+      "generalComments": "Este reporte muestra respuestas muy breves que no permiten evaluar el proceso de aprendizaje de la Fase 1. Es importante recordar que el objetivo de estos reportes es reflexionar sobre el trabajo semanal, identificar qué se aprendió sobre pensamiento crítico y cómo se aplicó a problemas de Química.",
+      "strengths": [
+        "Se entregó el reporte en tiempo y forma",
+        "Se respondió a todas las preguntas requeridas",
+        "Honestidad al expresar la percepción de la clase"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas que evidencien el proceso de aprendizaje de la semana",
+        "Identificar qué contenidos específicos de Química se trabajaron (incluso si fueron repaso)",
+        "Reflexionar sobre la metodología de pensamiento crítico (Fase 1: identificación del problema)",
+        "Mencionar ejemplos concretos de actividades realizadas en clase o en casa",
+        "Compartir dificultades específicas encontradas durante la semana",
+        "Conectar los contenidos de Química con situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-02T15:00:11Z"
+    }
+  ]
+}

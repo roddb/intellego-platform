@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "studentId": "u_67kfbewk9me6cn6qp",
+    "studentName": "Sol Fontán",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.233616",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 52.14,
+      "minScore": 27,
+      "maxScore": 65,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-08-04_961ebc03",
+      "weekStart": "2025-08-04",
+      "score": 40,
+      "generalComments": "Sol, tu reporte de esta semana muestra un acercamiento muy básico al tema de equilibrio químico. Las respuestas son excesivamente breves y carecen de profundidad analítica. No se evidencia aplicación del pensamiento crítico ni reflexión sobre el proceso de aprendizaje correspondiente a la Fase 1.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de comprensión actual (nivel 1)",
+        "Identificas que solo leíste los apuntes, siendo transparente sobre tu nivel de engagement"
+      ],
+      "improvements": [
+        "Desarrollar la Q2 con evidencia concreta de aprendizaje. Aunque no hayas resuelto ejercicios, puedes describir conceptos clave de los apuntes, ideas principales del equilibrio químico, o preguntas que te surgieron",
+        "Identificar dificultades específicas relacionadas con la comprensión del problema del equilibrio químico (Fase 1): ¿Qué aspectos de la lectura no quedaron claros? ¿Qué conceptos te resultan abstractos?",
+        "Establecer al menos conexiones básicas con conocimientos previos de química o situaciones cotidianas donde ocurran procesos reversibles",
+        "Incluir reflexiones más profundas sobre tu proceso inicial de aproximación al tema",
+        "Mostrar mayor proactividad: si no resolviste ejercicios, explica por qué y qué planeas hacer para avanzar"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-08-11_8228f884",
+      "weekStart": "2025-08-11",
+      "score": 58.5,
+      "generalComments": "Sol, este reporte muestra un avance positivo respecto a la semana anterior. Demuestras comprensión básica de la identificación de variables (Fase 2) y proporcionas un ejemplo específico del ejercicio de Sofía y el buffer. Sin embargo, el desarrollo aún es limitado y requiere mayor profundidad analítica y elaboración de estrategias.",
+      "strengths": [
+        "Proporcionas un ejemplo concreto de ejercicio trabajado (Sofía y buffer casero) que demuestra aplicación de F2",
+        "Identificas honestamente dificultades en el proceso inicial de comprensión de ejercicios",
+        "Estableces una conexión relevante con Física respecto al concepto de variables controlables vs. no controlables (constantes)",
+        "Incluyes un comentario adicional constructivo pidiendo mayor seguimiento en clase, mostrando interés por mejorar el proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con mayor detalle: ¿qué variables específicas identificaste en el ejercicio del buffer? ¿cómo las clasificaste (conocidas/desconocidas, controlables/no controlables)?",
+        "Elaborar estrategias concretas para superar la dificultad de arrancar a entender el ejercicio: ¿estás usando algún método sistemático? ¿consultas fuentes adicionales? ¿trabajas en grupo?",
+        "Especificar en Q1 tu nivel de dominio numérico (1-4) para autodiagnóstico más preciso",
+        "Ampliar las conexiones interdisciplinarias: dar ejemplos específicos de variables en Física que se relacionen con las de Química en equilibrio"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-01_2c16caf8",
+      "weekStart": "2025-09-01",
+      "score": 55,
+      "generalComments": "Sol, este reporte muestra engagement mínimo con respuestas extremadamente breves que no demuestran dominio de la Fase 4 (estrategia y ejecución completa). Aunque mencionas que resolviste un ejercicio del modelo de examen, la evidencia proporcionada es fragmentaria y no refleja integración de las 4 fases ni verificación de resultados.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de comprensión (nivel 1)",
+        "Identificas una dificultad específica: el proceso general del tema",
+        "Mencionas una conexión válida con el tema del cuatrimestre pasado"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con evidencia completa de las 4 fases aplicadas al ejercicio 2 del modelo: mostrar F1 (objetivo), F2 (variables completas), F3 (justificación de fórmulas usadas), F4 (ejecución con verificación)",
+        "Explicar en profundidad la dificultad con entender el proceso general: ¿qué específicamente no comprendes? ¿es la secuencia de pasos? ¿las fórmulas? ¿la interpretación de resultados?",
+        "Elaborar estrategias concretas para superar las dificultades identificadas",
+        "Especificar la conexión con el tema del cuatrimestre pasado: ¿cómo se relacionan conceptualmente? ¿qué conocimientos previos estás usando?",
+        "Incluir reflexión sobre tu proceso de resolución completa, no solo fragmentos del ejercicio"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-15_c9ced9e7",
+      "weekStart": "2025-09-15",
+      "score": 57.5,
+      "generalComments": "Sol, tu reporte muestra engagement mínimo con respuestas extremadamente breves. Aunque indicas que trabajaste con un simulacro de examen y aplicaste las 4 fases, la evidencia proporcionada es superficial y no demuestra comprensión profunda ni aplicación rigurosa de la metodología completa.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de comprensión (nivel 2)",
+        "Proporcionas una estructura básica de las 4 fases aplicadas al ejercicio 2 del modelo 2",
+        "Identificas una conexión con contenido previo del cuatrimestre"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con evidencia completa de cada fase, no solo enunciados telegráficos. Por ejemplo, en F1 mostrar el análisis completo del objetivo y la problemática; en F3 justificar la selección de fórmulas, no solo mencionarlas",
+        "Explicar en profundidad qué aspecto específico del proceso general te resulta difícil de entender y qué estrategias estás implementando para superarlo",
+        "Elaborar las conexiones con el tema del cuatrimestre pasado: ¿cómo específicamente se relacionan? ¿qué conceptos previos estás aplicando?",
+        "Incluir reflexión metacognitiva sobre tu progreso: ¿has mejorado desde la semana pasada? ¿qué funcionó en tu estudio? ¿qué necesitas cambiar?",
+        "Proporcionar comentarios adicionales sobre tu experiencia con el simulacro: ¿qué aprendiste? ¿qué desafíos encontraste?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6cn6qp_2025-09-29_91038113",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Sol, este reporte indica ausencia de clase durante la semana, lo cual es comprensible como circunstancia excepcional. Sin embargo, las respuestas con guiones '-' en lugar de comentarios sobre estudio autónomo o consulta de materiales sugieren falta de engagement con el contenido fuera del horario de clase.",
+      "strengths": [
+        "Comunicas claramente la situación de ausencia de clase esta semana"
+      ],
+      "improvements": [
+        "Aprovechar el reporte semanal para documentar qué hiciste para mantenerte al día durante la ausencia: ¿leíste apuntes compartidos? ¿consultaste con compañeros? ¿revisaste recursos online?",
+        "Incluir preguntas específicas sobre lo que te perdiste durante la clase para facilitar la puesta al día",
+        "Identificar qué temas específicos necesitas reforzar antes de la próxima clase",
+        "Establecer un plan de recuperación del contenido perdido",
+        "Proporcionar comentarios sobre cómo planeas compensar la ausencia en lugar de dejar todas las preguntas en blanco"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "ad6cf519-b4f2-4cb1-9f03-b61bd9748e55",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Valoro tu honestidad al reconocer dificultades específicas con logaritmos y notación científica. Tus cálculos de pH y pOH están correctos, lo que demuestra que entiendes la teoría. Sin embargo, esta semana tu reporte se enfoca más en resolver ejercicios que en analizar *cómo* identificas y clasificas las variables involucradas, que es el corazón de la Fase 2.\n\nTu desempeño muestra progreso en cálculos, pero necesitas dar un paso atrás y ser más sistemático: antes de resolver, identifica explícitamente cada variable, clasifícala, y explica su relación con otras. Esto te ayudará a transferir tu aprendizaje a problemas nuevos.\n\nPara la próxima semana, te propongo que en cada ejercicio escribas un \"mapa de variables\" antes de calcular. Esto consolidará tu comprensión y te preparará mejor para la Fase 3.",
+      "strengths": "• Autoevaluación honesta: Reconoces claramente tus limitaciones con logaritmos y notación científica, lo que muestra autoconciencia. Esto es el primer paso para mejorar de verdad.\n• Ejercicios resueltos correctamente: Tus cálculos de pH y pOH en los dos ejemplos (KOH y HCl) son numéricamente correctos, demostrando que comprendes la mecánica básica del cálculo.\n• Conexiones con contexto real: Mencionas aplicaciones prácticas (agua, productos, cuerpo humano), lo que muestra que ves la relevancia de estos temas más allá de la teoría.",
+      "improvements": "• Falta análisis sistemático de variables: No identificas explícitamente qué variables usaste en tus ejercicios (ej: concentración inicial, volumen, temperatura constante). En la próxima semana, antes de resolver un problema, haz una lista: \"Variables conocidas: [lista]\" y \"Variables desconocidas: [lista]\".\n• Estrategias de aprendizaje muy genéricas: Decir \"practico con ejemplos\" no es suficiente. Propón algo concreto: \"Haré 5 problemas de pH/pOH por día, escribiendo cada paso del logaritmo en papel\" o \"Usaré una tabla de referencia para notación científica mientras practico\".\n• Conexiones sin profundidad: Mencionas equilibrio químico e iones, pero no explicas cómo identificarías variables en esos contextos. Intenta: \"En equilibrio químico, las variables serían concentraciones iniciales, constante K, y temperatura. Estas se relacionan porque...\"",
+      "createdAt": "2025-11-12T22:58:17.432Z"
+    },
+    {
+      "feedbackId": "6b5d7103-1d30-4ac3-9856-80591e54fee1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en ácidos y bases, y lograste dominar casos simples como BaOH₂. Tu capacidad para reconocer dificultades específicas (equilibrios en ácidos débiles) es un punto fuerte que te ayudará a mejorar.\n\nSin embargo, tu reporte se enfoca más en *qué temas* trabajaste que en *cómo identificaste variables* en esos temas. La Fase 2 es precisamente eso: aprender a descomponer un problema en sus variables clave antes de resolverlo. Notó que falta sistematicidad en esta clasificación y que Q5 está vacía, lo que reduce la profundidad de tu reflexión.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema, (2) las clasifiques claramente, y (3) reflexiones sobre por qué esta identificación es crucial. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Reconocimiento de dificultades específicas: Identificas claramente que los ácidos débiles y la simplificación de equilibrios son tu punto débil, lo que muestra autoconciencia sobre tu proceso de aprendizaje.\n• Conexión con conceptos previos: Relacionas pH con logaritmos y equilibrio químico, demostrando que intentas integrar conocimientos matemáticos y químicos de forma coherente.\n• Aplicación de reglas prácticas: Comprendes y aplicas correctamente la relación entre subíndices y concentraciones de iones (ejemplo: [OH⁻] = 2×[base] en BaOH₂), lo que indica dominio operativo en casos simples.",
+      "improvements": "• Falta identificación sistemática de variables: Tu reporte no lista explícitamente qué variables trabajaste (concentración inicial, pH, Ka, Kb, etc.) ni las clasifica como conocidas/desconocidas o controlables/no controlables. Acción: En tu próximo reporte, crea una tabla con dos columnas: \"Variables identificadas\" y \"Clasificación (conocida/desconocida, controlable/no controlable)\".\n• Evidencia incompleta de Fase 1+Fase 2: Describes procedimientos, pero no muestras cómo pasaste de \"plantear el problema\" (Fase 1) a \"identificar variables\" (Fase 2). Acción: Incluye un ejemplo completo: problema → variables identificadas → clasificación → cómo usaste esto para resolver.\n• Ausencia de reflexión en Q5: Dejaste vacía la sección de comentarios adicionales. Acción: Reflexiona sobre: ¿Por qué es importante identificar variables antes de resolver? ¿Cómo cambió tu forma de abordar problemas esta semana? ¿Qué categorías de variables te resultan más difíciles?",
+      "createdAt": "2025-11-17T13:56:30.844Z"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "studentId": "u_igtqfpy9ime6ecgcw",
+    "studentName": "Morena Danio",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.228016",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 62.38,
+      "minScore": 27,
+      "maxScore": 77,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-08-04_b81f980f",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Trabajo correspondiente a Fase 1 con apoyo de IA. El estudiante demuestra honestidad al reconocer su nivel de dominio (Nivel 1-2) y utiliza recursos tecnológicos como apoyo. La realización de los 10 ejercicios de la guía muestra compromiso, aunque la dependencia de IA requiere atención.",
+      "strengths": [
+        "Finalización completa de los 10 ejercicios de la guía de Equilibrio Químico",
+        "Uso estratégico de IA como herramienta de apoyo",
+        "Comprensión del razonamiento de cada ejercicio tras trabajarlo",
+        "Capacidad de vincular equilibrio químico con ejemplos cotidianos (gaseosa destapada)"
+      ],
+      "improvements": [
+        "Desarrollar mayor autonomía reduciendo gradualmente la dependencia de IA",
+        "Practicar identificación de reacciones reversibles/irreversibles sin consulta",
+        "Fortalecer la memorización de conceptos básicos mediante repaso distribuido",
+        "Ampliar confianza en resolución independiente de ejercicios"
+      ],
+      "createdAt": "2025-10-05T05:20:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-08-11_009643be",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Trabajo de Fase 2 mostrando progreso desde la semana anterior. El estudiante reporta sentirse 'un poco más orientada' y comienza a distinguir información importante. El logro de listar variables cuando están explícitas es un avance concreto. La conexión con cocinar arroz es excelente.",
+      "strengths": [
+        "Progreso visible desde la semana anterior (de perdida a más orientada)",
+        "Capacidad de listar variables cuando están mencionadas claramente en el texto",
+        "Inicio de formulación de preguntas propias sobre los problemas",
+        "Conexión creativa con ejemplo cotidiano (cocción de arroz y sus variables)"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para identificar el problema cuando no está explícito",
+        "Practicar la diferenciación entre variables determinables experimentalmente y no controlables",
+        "Ampliar el vocabulario técnico de equilibrio químico",
+        "Fortalecer la clasificación completa de todas las variables"
+      ],
+      "createdAt": "2025-10-05T05:22:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-08-18_923e901c",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Trabajo de Fase 3 con apoyo continuo. El estudiante reconoce su nivel (Nivel 2) con claridad y muestra comprensión de conceptos fundamentales (Kc, Qc, Le Châtelier) cuando los analiza paso a paso. La conexión con aplicaciones industriales (amoníaco) y biológicas (fermentación) es valiosa.",
+      "strengths": [
+        "Comprensión de conceptos clave con apoyo (Kc, Qc, Le Châtelier, equilibrios heterogéneos)",
+        "Realización práctica: cálculo de Qc y comparación con Kc",
+        "Identificación de conexiones interdisciplinarias (energía, velocidad, matemática, industria)",
+        "Uso de reglas simples como estrategia para recordar procedimientos"
+      ],
+      "improvements": [
+        "Reducir la dependencia de revisión paso a paso para ganar autonomía",
+        "Practicar conversión entre Kc y Kp hasta dominarla",
+        "Desarrollar capacidad de analizar cambios simultáneos en equilibrios",
+        "Fortalecer la memorización de cuándo excluir sólidos y líquidos puros"
+      ],
+      "createdAt": "2025-10-05T05:24:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-08-25_377966c5",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Trabajo integral de Fase 4 aplicando las cuatro fases del pensamiento crítico. El estudiante demuestra progreso significativo: plantea expresiones de Kc, calcula a partir de datos, usa Qc para predecir, analiza Le Châtelier y trabaja con tablas ICE. El ejercicio 3 evidencia aplicación práctica correcta.",
+      "strengths": [
+        "Integración efectiva de las cuatro fases (F1+F2+F3+F4)",
+        "Cálculo correcto de Qc en ejercicio 3 (NOBr ⇌ NO + Br₂) con resultado Qc=4",
+        "Comprensión del criterio de comparación (Qc>Kc → desplazamiento a reactivos)",
+        "Uso efectivo de la metodología de 4 fases como receta ordenada"
+      ],
+      "improvements": [
+        "Desarrollar mayor confianza para diferenciar cuándo calcular Qc vs aplicar Le Châtelier cualitativamente",
+        "Practicar más tablas ICE para ganar velocidad y precisión",
+        "Fortalecer autonomía en selección de herramientas sin consultar la guía de pasos",
+        "Ampliar práctica en problemas que requieren múltiples pasos integrados"
+      ],
+      "createdAt": "2025-10-05T05:26:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-09-15_06245bcc",
+      "weekStart": "2025-09-15",
+      "score": 71,
+      "generalComments": "Trabajo de preparación para examen con modelos 1 y 2. El estudiante demuestra comprensión de contextos de equilibrio básico y predicción de evolución. La necesidad de ayuda de IA para resolver ejercicios es comprensible en etapa de preparación, aunque la preocupación por el examen es evidente.",
+      "strengths": [
+        "Realización de modelos de examen 1 (Equilibrio Básico) y 2 (Predicción de Evolución)",
+        "Comprensión de cálculo de constante de equilibrio con datos de equilibrio",
+        "Identificación de relación entre contaminación y sustancias químicas (conexión con biología)",
+        "Reconocimiento realista de áreas que generan preocupación"
+      ],
+      "improvements": [
+        "Completar los modelos 3, 4 y 5 antes del examen",
+        "Practicar ejercicios sin ayuda de IA para desarrollar autonomía",
+        "Gestionar la ansiedad pre-examen mediante preparación sistemática",
+        "Revisar conceptos fundamentales que generan dudas"
+      ],
+      "createdAt": "2025-10-05T05:28:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6ecgcw_2025-09-22_9e1e5b0c",
+      "weekStart": "2025-09-22",
+      "score": 76,
+      "generalComments": "Excelente trabajo final consolidando equilibrio químico. El estudiante demuestra dominio de cálculo de Kc (Nivel 3) y comprensión del Principio de Le Châtelier (Nivel 2). El reconocimiento de conexiones con termodinámica y química industrial (Haber-Bosch, método de contacto) muestra madurez conceptual.",
+      "strengths": [
+        "Cálculo exitoso de Kc a partir de concentraciones de equilibrio (Nivel 3)",
+        "Análisis correcto de descomposición endotérmica de HI con variables (T, concentración, presión)",
+        "Resolución de dificultad sobre efecto de presión cuando moles gaseosos son iguales",
+        "Conexiones sofisticadas con termodinámica y procesos industriales"
+      ],
+      "improvements": [
+        "Fortalecer justificaciones escritas en análisis de Le Châtelier (presión y volumen)",
+        "Practicar más casos con reacciones endotérmicas vs exotérmicas",
+        "Desarrollar mayor confianza en razonamientos que ya están correctos",
+        "Ampliar práctica con equilibrios en contextos industriales"
+      ],
+      "createdAt": "2025-10-05T05:30:00.000Z"
+    },
+    {
+      "feedbackId": "7d43e870-cc2c-4bf9-9b5a-23fc361084f9",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:48:30.766Z"
+    },
+    {
+      "feedbackId": "4db06b81-30ec-44ac-bb08-ac6fcd2fe16a",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:15.877Z"
+    },
+    {
+      "feedbackId": "9ca25ed7-1b57-4684-91bb-739bc01a0aeb",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:31:46.818Z"
+    },
+    {
+      "feedbackId": "278153ac-5fba-40f9-b25e-ce80f5801bd1",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:02:43.032Z"
+    },
+    {
+      "feedbackId": "44eed229-889e-4ad9-bef3-3dd9da3cea21",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:01:07.681Z"
+    },
+    {
+      "feedbackId": "365178d6-6ac3-408e-abe1-8ad854d653f9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:54:12.591Z"
+    },
+    {
+      "feedbackId": "1b9c572c-84ef-4c57-93d3-8760e623f6de",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en temas importantes de química ácido-base. Tu honestidad al reconocer dificultades con potencias negativas y la diferenciación de teorías es valiosa, y es positivo que ya notes progreso en Arrhenius. Sin embargo, tu reporte aún no refleja completamente lo que esperamos en Fase 2: necesitas ir más allá de listar temas y comenzar a identificar y clasificar sistemáticamente las variables en cada problema.\n\nTu desempeño esta semana muestra esfuerzo, pero hay una brecha entre lo que estás aprendiendo y cómo lo estás documentando. La Fase 2 requiere que hagas explícito el análisis de variables: ¿qué es conocido? ¿qué es desconocido? ¿qué puedo controlar? Esto es fundamental para desarrollar pensamiento crítico real.\n\nPara la próxima semana, te propongo que antes de resolver cualquier ejercicio, hagas una lista clara de variables. Practica también con las potencias negativas usando ejemplos concretos. Finalmente, completa siempre la sección de comentarios adicionales: es tu espacio para reflexionar sobre tu propio aprendizaje.",
+      "strengths": "• Autoconciencia sobre dificultades específicas: Reconoces claramente que te cuesta interpretar potencias negativas y diferenciar teorías. Esto muestra honestidad y es el primer paso para mejorar. Tu comentario \"me confundía con las potencias negativas (1 × 10⁻³)\" es muy concreto.\n• Progreso visible en Arrhenius: Mencionas que",
+      "improvements": "• Conexión entre conceptos: Intentas relacionar ácidos/bases con reacciones químicas y disoluciones acuosas, mostrando que buscas integrar lo aprendido con conocimientos previos. MEJORAS\n• Identificar y clasificar variables explícitamente: En lugar de solo mencionar temas, debes listar las variables en cada uno. Por ejemplo, en \"pH y cálculo de pH\" identifica: concentración de H⁺ (conocida/controlable), pH (desconocida/calculada), escala logarítmica (magnitud física). Esto es lo central de Fase 2.\n• Profundizar en la evidencia de aprendizaje: Tu ejercicio del pH es correcto, pero no analiza las variables. Pregúntate: ¿Qué datos tenía? ¿Cuál era la incógnita? ¿Qué magnitudes físicas usé? Esto conectaría Fase 1 (datos) con Fase 2 (variables).",
+      "createdAt": "2025-10-27T05:09:09.198Z"
+    }
+  ]
+}

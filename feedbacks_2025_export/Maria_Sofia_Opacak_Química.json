@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "studentId": "eed629ef-850b-4038-be81-a18fb3d06600",
+    "studentName": "Maria Sofia Opacak",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.218440",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 44.91,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-25",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "e61c156a-5fd3-5d64-401a-2c9c1f6b6409",
+      "weekStart": "2025-08-25",
+      "score": 85,
+      "generalComments": "Sofia mantiene su excelente desempeño aplicando el método de 4 fases a gases ideales. Tu dominio de las conversiones de unidades y la aplicación de la ecuación de estado es destacable. La presentación estructurada del proceso muestra madurez académica.",
+      "strengths": [
+        "Conversión correcta de unidades (mmHg a atm, °C a K)",
+        "Aplicación sistemática y precisa del método de 4 fases",
+        "Claridad en la presentación del proceso de resolución"
+      ],
+      "improvements": [
+        "Incluir análisis de incertidumbre en los cálculos",
+        "Explorar casos límite o condiciones extremas en los problemas",
+        "Desarrollar más la metacognición sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-09-29 10:31:44"
+    },
+    {
+      "feedbackId": "ec3a50be-6ec2-60d8-dd2b-2293334656fb",
+      "weekStart": "2025-09-01",
+      "score": 85,
+      "generalComments": "Sofia demuestra excelente dominio del método de 4 fases con aplicación precisa en problemas de cinemática. Tu resolución del problema del golfista es impecable, con cálculos correctos y conclusión bien fundamentada. Mantén este nivel de excelencia.",
+      "strengths": [
+        "Aplicación perfecta del método de 4 fases con todos los pasos claramente ejecutados",
+        "Cálculos precisos y uso correcto de las fórmulas de movimiento parabólico",
+        "Excelente conexión entre física y matemática reconociendo patrones comunes"
+      ],
+      "improvements": [
+        "Incluir reflexión sobre posibles fuentes de error en los cálculos",
+        "Agregar comentarios sobre qué aprendiste específicamente esta semana",
+        "Explorar aplicaciones del método en problemas más complejos"
+      ],
+      "createdAt": "2025-09-29 10:31:00"
+    },
+    {
+      "feedbackId": "838cf7d7-8b77-6243-dc90-efe851127a34",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Sofia, comprendo que estuviste en el viaje a Puerto Madryn. Aunque no hubo contenido formal de química esta semana, espero que hayas podido observar fenómenos naturales relacionados con la materia. Al regresar será importante retomar los temas de gases y equilibrio químico.",
+      "strengths": [
+        "Participación en actividad escolar extracurricular",
+        "Cumplimiento con la entrega del reporte durante el viaje",
+        "Oportunidad de observar química en contextos naturales"
+      ],
+      "improvements": [
+        "Relacionar las observaciones del viaje con conceptos químicos (salinidad del mar, oxidación)",
+        "Ponerse al día con los contenidos al regresar",
+        "Preparar un breve reporte conectando el viaje con la química"
+      ],
+      "createdAt": "2025-09-29 10:30:15"
+    },
+    {
+      "feedbackId": "fb_002_1_8fb3d06600_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 35,
+      "generalComments": "Querida Maria Sofia Opacak, el contenido de tu reporte corresponde a Física, cuando la evaluación es de Química. Es fundamental fortalecer tu capacidad para identificar correctamente la materia correspondiente a cada reporte. Mejora la organización de tu trabajo y asegúrate de completar el reporte correcto para cada asignatura. Te sugiero coordinar conmigo para aclarar dudas sobre los reportes de cada materia.",
+      "strengths": [
+        "Presentaste el reporte en tiempo",
+        "Mantienes constancia en tus entregas",
+        "Reconoces la importancia de identificar correctamente cada materia"
+      ],
+      "improvements": [
+        "Verifica cuidadosamente que estás completando el reporte de la materia correcta",
+        "Proporciona evidencias específicas de tu proceso de aprendizaje en Química",
+        "Mejora la organización para diferenciar claramente entre las distintas materias"
+      ],
+      "createdAt": "2025-10-06T06:11:51.000Z"
+    },
+    {
+      "feedbackId": "ef4b5eb2-9b39-40ab-abd1-2eaba3a6298c",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:48:27.897Z"
+    },
+    {
+      "feedbackId": "94000d23-e869-43e3-99fc-4f62ffb342ec",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:12.841Z"
+    },
+    {
+      "feedbackId": "944b57a4-c083-4de0-96cd-f67548727e5e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:52:31.253Z"
+    },
+    {
+      "feedbackId": "1de4db99-cd2e-4eaf-8750-e41fe71f0524",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 46,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:39:12.915Z"
+    },
+    {
+      "feedbackId": "4aeffb61-1e52-4a5f-814b-6fb603687110",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana ha sido desafiante, pero debo ser honesto: este reporte no refleja el trabajo esperado en Fase 2. Las respuestas repetidas y el punto final sugieren que no dedicaste tiempo a reflexionar sobre tu aprendizaje en identificación de variables y magnitudes físicas.\n\nTu desempeño esta semana no permite evaluar si comprendiste los conceptos clave: cómo clasificar variables, distinguir magnitudes, y entender relaciones entre ellas. Esto es preocupante porque estos fundamentos son esenciales para avanzar en pensamiento crítico.\n\nPara la próxima semana, te pido que hagas un esfuerzo genuino: completa cada pregunta con respuestas reflexivas sobre lo que aprendiste, qué te costó trabajo, y cómo lo aplicarías. Si tienes dudas sobre los temas, acércate a mí en clase. Estoy aquí para ayudarte, pero necesito que muestres compromiso con tu aprendizaje.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas identificables. La falta de respuestas significativas impide reconocer aspectos positivos del aprendizaje en esta fase.",
+      "improvements": "• Completar el reporte con respuestas genuinas: Necesitas escribir respuestas reales a cada pregunta. No se trata solo de llenar espacios, sino de reflexionar sobre lo que aprendiste en Fase 2 sobre variables, magnitudes y clasificación. Dedica tiempo a pensar en cada pregunta antes de responder.\n• Entender el propósito de cada pregunta: Q1 pide que identifiques variables (conocidas/desconocidas, controlables/no controlables). Q2 pide evidencia de cómo aplicaste esto. Q3 pide que reflexiones sobre dificultades. Lee cada pregunta cuidadosamente y responde lo que se solicita específicamente.\n• Demostrar esfuerzo y compromiso: Un reporte vacío o con respuestas genéricas no permite evaluar tu aprendizaje real. Necesitas invertir tiempo genuino en reflexionar sobre los temas trabajados, los problemas que enfrentaste y cómo los resolviste. Esto es fundamental para tu progreso.",
+      "createdAt": "2025-10-27T05:00:12.333Z"
+    },
+    {
+      "feedbackId": "01040371-09b2-4af6-8ee2-99c8179b9c14",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana fue desafiante, pero tu reporte muestra que necesitamos trabajar juntos de forma más estructurada. Afirmas dominar el tema de estructuras moleculares, pero las respuestas no incluyen la evidencia que la Fase 2 requiere: identificación clara de variables, clasificación sistemática y análisis de relaciones entre ellas.\n\nLo positivo es que reconoces conexiones con otras materias, lo que demuestra pensamiento integrador. Sin embargo, las respuestas muy breves (\"ninguna\", \"no\") no permiten que yo vea realmente qué estás aprendiendo ni dónde necesitas apoyo.\n\nPara la próxima semana, te pido que: (1) realices ejercicios prácticos identificando variables en problemas químicos, (2) desarrolles cada respuesta con explicaciones claras, y (3) reflexiones honestamente sobre tus dificultades. Estoy aquí para ayudarte, pero necesito que te comprometas con un análisis más profundo.",
+      "strengths": "• Reconocimiento de conexiones interdisciplinarias: Identificas que el contenido de estructuras moleculares se relaciona con representaciones gráficas de matemática, mostrando capacidad de vincular disciplinas.\n• Confianza en el dominio conceptual: Expresas que \"entiendes los conceptos y puedes aplicarlos\", lo que indica disposición positiva hacia el aprendizaje, aunque requiere respaldarse con evidencia.",
+      "improvements": "• Falta de evidencia concreta de aprendizaje: Dices no haber realizado ejercicios, pero la Fase 2 requiere que trabajes problemas identificando variables. Acción: Esta semana, resuelve al menos 3 ejercicios sobre estructuras moleculares donde identifiques explícitamente qué variables son conocidas, cuáles desconocidas, y cuáles puedes controlar experimentalmente.\n• Respuestas superficiales sin análisis sistemático: Tus respuestas son muy breves (una o dos palabras) sin justificación. Acción: Desarrolla cada respuesta en 3-4 líneas mínimo, explicando el \"por qué\" detrás de tus afirmaciones. Por ejemplo, en Q1 especifica qué variables identificaste en estructuras moleculares.\n• Ausencia de reflexión metacognitiva: No mencionas dificultades ni estrategias de mejora, lo que impide que avances. Acción: Antes de enviar el próximo reporte, pregúntate: ¿Qué me costó entender? ¿Cómo lo resolví? ¿Qué haré diferente la próxima vez? Escribe estas reflexiones en cada pregunta.",
+      "createdAt": "2025-11-12T22:56:18.657Z"
+    },
+    {
+      "feedbackId": "2f150c21-a143-48ce-a185-3b6a7908e873",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no hubo clases de química, pero es importante que completes el reporte de pensamiento crítico incluso en esas circunstancias. Esto te ayuda a reflexionar sobre tu aprendizaje y a mantener el ritmo de trabajo.\n\nTu desempeño esta semana no permite evaluar tu progreso en la identificación de variables, que es el objetivo central de la Fase 2. Necesitamos que participes activamente en el reporte para poder brindarte retroalimentación específica.\n\nPara la próxima semana, te invito a que: (1) asistas a las clases de química, (2) completes el reporte con respuestas concretas sobre lo que trabajaste, y (3) si tienes dudas sobre variables, consulta con tu profesor o compañeros. Estamos aquí para apoyarte.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas que permitan identificar fortalezas en el aprendizaje de esta fase. Para poder reconocer tus logros, necesitamos que completes el reporte con información sobre lo que trabajaste en clase.",
+      "improvements": "• Falta de participación en el reporte: Debes completar cada pregunta con respuestas detalladas sobre lo que trabajaste en clase. Si realmente no hubo clases, comunícalo a tu profesor para aclarar la situación y recibir material de estudio.\n• Ausencia de reflexión sobre variables: En la próxima semana, identifica al menos 3 variables en un problema de química (ejemplo: temperatura, presión, concentración) y clasifícalas como conocidas/desconocidas y controlables/no controlables.\n• Falta de conexión con conceptos previos: Revisa la Fase 1 (planteamiento del problema) y conecta esos conceptos con la identificación de variables de la Fase 2. Esto te ayudará a ver cómo se relacionan ambas fases.",
+      "createdAt": "2025-11-17T13:57:00.859Z"
+    }
+  ]
+}

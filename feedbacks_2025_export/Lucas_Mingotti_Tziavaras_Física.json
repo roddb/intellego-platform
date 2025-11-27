@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "studentId": "u_e14kez4ghme6hx5nr",
+    "studentName": "Lucas Mingotti Tziavaras",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.214109",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 48.0,
+      "minScore": 30,
+      "maxScore": 60,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_mingotti_lucas_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Lucas tuvo doble ausencia justificada: viaje a Londres el lunes y enfermedad el miércoles con certificado médico. No hubo desarrollo de contenido y necesita recuperar material inicial urgentemente.",
+      "strengths": [
+        "Comunicación responsable de ausencias",
+        "Entregó certificado médico",
+        "Completó reporte semanal",
+        "Ausencias justificadas apropiadamente"
+      ],
+      "improvements": [
+        "Recuperar contenido inicial urgentemente",
+        "Solicitar apuntes a compañeros",
+        "Buscar tutoría de apoyo",
+        "Revisar cuadernillo autónomamente"
+      ],
+      "createdAt": "2025-01-09 16:50:00"
+    },
+    {
+      "feedbackId": "fb_mingotti_lucas_2025_08_11",
+      "weekStart": "2025-08-11",
+      "score": 48,
+      "generalComments": "Lucas muestra dificultades con tiro oblicuo por mezclar movimientos horizontal y vertical. Identificó variables básicas del ejercicio de Ana pero le cuesta relacionar datos con cálculos necesarios.",
+      "strengths": [
+        "Identifica concepto de parábola",
+        "Reconoce variables de tiempo básicas",
+        "Establece conexión con temas previos",
+        "Mantiene esfuerzo por comprender"
+      ],
+      "improvements": [
+        "Separar análisis horizontal y vertical",
+        "Practicar relación datos-fórmulas",
+        "Trabajar ejercicios paso a paso",
+        "Buscar apoyo tutorial específico"
+      ],
+      "createdAt": "2025-01-09 16:51:00"
+    },
+    {
+      "feedbackId": "fb_mingotti_lucas_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Lucas muestra dependencia significativa de compañeras para resolver ejercicios. Aunque completó Fase 3 con descomposición vectorial, admite no comprender el tema y trabajar mecánicamente sin profesora particular.",
+      "strengths": [
+        "Honestidad sobre dificultades",
+        "Colaboración con compañeras",
+        "Completó ejercicio de Fase 3",
+        "Deseo de comprender no solo memorizar",
+        "Mantiene conexión con temas previos"
+      ],
+      "improvements": [
+        "Buscar profesora particular urgentemente",
+        "Desarrollar comprensión conceptual",
+        "Reducir dependencia de pares",
+        "Practicar autonomía en resolución"
+      ],
+      "createdAt": "2025-01-09 16:52:00"
+    },
+    {
+      "feedbackId": "fb_mingotti_lucas_2025_08_25",
+      "weekStart": "2025-08-25",
+      "score": 60,
+      "generalComments": "Lucas muestra mejora significativa tras estudiar el tema. Resolvió correctamente ejercicio de altura máxima (33.8m) pero mantiene dificultades con relaciones entre velocidades y trigonometría.",
+      "strengths": [
+        "Mejora notable tras estudio autónomo",
+        "Cálculo correcto de altura máxima",
+        "Comprensión de velocidad vertical inicial",
+        "Proceso metodológico apropiado",
+        "Reconoce áreas de dificultad"
+      ],
+      "improvements": [
+        "Clarificar relaciones entre velocidades",
+        "Practicar trigonometría aplicada",
+        "Consolidar comprensión conceptual",
+        "Mantener estudio constante"
+      ],
+      "createdAt": "2025-01-09 16:53:00"
+    },
+    {
+      "feedbackId": "a9a02596-7f4f-47d2-b286-c2c8795cb328",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:56.909Z"
+    },
+    {
+      "feedbackId": "ce9b5ee9-dbd2-484b-ad80-a46c1041f986",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:33:21.373Z"
+    },
+    {
+      "feedbackId": "9d068f98-6256-4338-aa21-b7ce3eefaec2",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana fue desafiante sin ejercicios nuevos, pero tu reporte muestra que necesitamos trabajar en cómo documentar y comunicar tu aprendizaje. Reconozco que intentas conectar con contenido previo, lo cual es positivo, pero tus respuestas son demasiado vagas para evaluar realmente si comprendes la identificación y clasificación de variables.\n\nTu desempeño esta semana está en nivel inicial. No es por falta de esfuerzo, sino porque el reporte no refleja el trabajo concreto que realizaste. Necesito ver ejemplos específicos: qué variables identificaste, cómo las clasificaste, qué dificultades tuviste exactamente.\n\nPara la próxima semana, te pido que: (1) resuelvas al menos 3 problemas nuevos clasificando variables, (2) escribas respuestas más detalladas con ejemplos concretos, y (3) completes todas las preguntas, incluyendo Q5. Esto me permitirá entender mejor tu progreso y ayudarte de forma más efectiva.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que tu nivel \"no mejoró pero tampoco empeoró\", mostrando cierta autoconciencia sobre tu desempeño, aunque necesites desarrollarla más.\n• Identificación de obstáculos: Mencionas que \"no pudiste seguir practicando lo aprendido\", lo que demuestra que entiendes que la práctica es importante para el aprendizaje.\n• Conexión con contenido previo: Intentas vincular el trabajo actual con \"los de física pasados\", mostrando que reconoces la continuidad entre temas.",
+      "improvements": "• Falta de especificidad en respuestas: Tus respuestas son muy generales y sin ejemplos concretos. En lugar de decir \"no mejoré\", describe qué variables específicas trabajaste (ej: \"identifiqué velocidad como variable controlable en el experimento de caída libre\"). Esto es fundamental para que podamos evaluar tu comprensión real.\n• Ausencia de evidencia de trabajo: Mencionas que \"no hubieron ejercicios nuevos\", pero la Fase 2 requiere que practiques identificando variables en problemas. Dedica tiempo esta semana a resolver al menos 3 problemas donde clasifiques variables en conocidas/desconocidas y controlables/no controlables. Documenta tu proceso.\n• Respuestas incompletas: Dejaste Q5 en blanco y tus otras respuestas son muy cortas. Tómate tiempo para reflexionar: ¿Qué dificultades específicas tuviste con variables? ¿Qué estrategias podrías usar? ¿Cómo evolucionaste desde Fase 1? Escribe al menos 2-3 oraciones por pregunta.",
+      "createdAt": "2025-10-27T05:09:57.210Z"
+    },
+    {
+      "feedbackId": "d3781651-6b1f-48ff-90ed-11dbaff873b6",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que trabajaste en equipo esta semana y eso es valioso, pero tu reporte no refleja el aprendizaje específico que lograste. El trabajo en grupo es excelente para resolver dudas, pero necesitas documentar tu propio proceso de aprendizaje para poder evaluarlo correctamente.\n\nTu desempeño esta semana muestra que participaste, pero falta profundidad en el análisis. No identificas variables específicas, no describes ejercicios concretos, y no reflexionas sobre cómo mejoraste en la identificación de magnitudes físicas, que es el objetivo central de la Fase 2.\n\nPara la próxima semana: mantén un registro personal de cada actividad que resuelvas (aunque sea en grupo), identifica explícitamente las variables involucradas, y dedica tiempo a responder todas las preguntas del reporte con ejemplos concretos. Esto hará que tu aprendizaje sea más visible y medible.",
+      "strengths": "• Trabajo colaborativo: Reconoces que trabajar en grupo te ayudó a resolver dudas (\"pudimos resolver entre nosotros y ayudarnos\"), lo que muestra conciencia del valor del aprendizaje compartido.\n• Autoevaluación honesta: Eres sincero al admitir tu nivel de dominio (\"medio tirando bajo\") en lugar de exagerar, lo que demuestra madurez en la autorreflexión.\n• Conexión entre temas: Identificas que los conceptos de física se relacionan con lo visto en la primera parte del año, mostrando que intentas integrar conocimientos previos.",
+      "improvements": "• Falta de evidencia documentada: No tienes registro personal de las actividades resueltas. Solución: crea tu propio cuaderno o archivo digital donde anotes cada ejercicio que resuelves, incluso en grupo. Esto te permitirá tener evidencia clara para futuros reportes y estudiar mejor.\n• Respuestas muy genéricas sin ejemplos concretos: Tus respuestas no incluyen variables específicas, magnitudes físicas o problemas reales. Solución: en la próxima semana, identifica al menos 3 variables del proyecto de dinámica (ej: masa, aceleración, fuerza) y clasifícalas como conocidas/desconocidas y controlables/no controlables.\n• Falta de reflexión profunda en Q5: Dejaste vacía la pregunta de comentarios adicionales. Solución: dedica tiempo a reflexionar sobre qué aprendiste esta semana, qué te sorprendió del tema, y cómo podrías aplicarlo fuera del aula. Escribe al menos 3-4 líneas genuinas.",
+      "createdAt": "2025-11-17T13:38:50.207Z"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "studentId": "u_zqpn5388ime0oerp2",
+    "studentName": "pilar salomone",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.246518",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 49.55,
+      "minScore": 27,
+      "maxScore": 73,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me0oerp2_2025-08-04_90760fa4",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Buen trabajo inicial en la Fase 3 (selección de herramientas y relaciones). Alcanzaste un nivel de desarrollo (Nivel 2) en equilibrio químico. Tu análisis del ejercicio sobre reacciones en equilibrio demuestra comprensión de los criterios fundamentales: reversibilidad, sistema cerrado y concentración constante. Es positivo que reconozcas áreas de mejora en conceptos teóricos.",
+      "strengths": [
+        "Aplicación correcta de criterios múltiples para determinar equilibrio: reversibilidad, tipo de sistema, concentración constante",
+        "Resolución exitosa del problema de identificación de reacciones en equilibrio",
+        "Reconocimiento honesto de dificultades con conceptos teóricos (ejercicio 5)",
+        "Conexión del tema con experiencia práctica de laboratorio",
+        "Reflexión sobre desarrollo de pensamiento crítico y habilidades de resolución de problemas"
+      ],
+      "improvements": [
+        "Refuerza conceptos teóricos creando un glosario personal con definiciones claras de: equilibrio, reversibilidad, sistema cerrado",
+        "Practica 5 ejercicios adicionales del ejercicio 5 para consolidar el tema problemático",
+        "Solicita retroalimentación específica sobre qué conceptos teóricos necesitas clarificar",
+        "Relaciona cada concepto teórico con un ejemplo concreto del laboratorio"
+      ],
+      "createdAt": "2025-10-05 05:28:19"
+    },
+    {
+      "feedbackId": "fb_backfill_me0oerp2_2025-08-11_c42449a5",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Muy buen progreso en la Fase 2 (identificación y clasificación de variables). Has alcanzado un nivel bueno (Nivel 2-3). Tu trabajo con el Ejercicio 3 sobre Ana en el laboratorio clínico demuestra aplicación avanzada de la metodología. Especialmente destacable es tu uso de la matriz de clasificación de variables y tu reflexión sobre la interdependencia entre ellas. Tu conexión con sociología muestra pensamiento interdisciplinario excepcional.",
+      "strengths": [
+        "Aplicación metodológica avanzada: clasificación sistemática de variables en matriz conocidas/desconocidas vs controlables/no controlables",
+        "Identificación correcta de la variable crítica: concentración de glucosa como resultado del equilibrio de otras variables",
+        "Reflexión metacognitiva sobre diferencias entre niveles de dominio (nivel 2 vs superior)",
+        "Transferencia impresionante del método a otro dominio: análisis de problemas sociales (desempleo)",
+        "Comprensión profunda de que algunas variables son resultado del sistema, no controlables directamente"
+      ],
+      "improvements": [
+        "Aunque encontraste el inicio difícil, profundiza en: por qué ciertas interdependencias de variables son complejas (ej: pH-estabilidad de compuestos)",
+        "Practica con 2 ejercicios adicionales para consolidar la clasificación de variables antes de avanzar",
+        "Reduce la sensación de que el proceso es tedioso buscando patrones: muchos problemas comparten estructura similar"
+      ],
+      "createdAt": "2025-10-05 05:28:19"
+    },
+    {
+      "feedbackId": "fb_backfill_me0oerp2_2025-08-25_5854f5cd",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Excelente trabajo en la Fase 3 (selección de herramientas y relaciones). Has alcanzado un nivel bueno (Nivel 3) en conceptos clave de equilibrio químico. Tu autoevaluación es precisa: Kc y Qc en nivel medio, Le Chatelier nivel básico-medio, tablas ICE nivel medio. El ejercicio de descomposición de NO₂ está muy bien resuelto, mostrando dominio del proceso completo. Tu reflexión sobre la confusión inicial con estequiometría es valiosa.",
+      "strengths": [
+        "Resolución completa y correcta del ejercicio de NO₂: identificación del problema, recopilación de datos, aplicación de estequiometría y cálculo de Kc",
+        "Uso efectivo de la metodología de 4 fases aplicada sistemáticamente",
+        "Autoevaluación precisa de niveles de dominio por concepto",
+        "Identificación específica de áreas problemáticas: estequiometría en equilibrio y coeficientes",
+        "Conexiones interdisciplinarias excelentes: física (presión, volumen, temperatura), biología (pH sanguíneo, oxigenación), matemática (proporciones, ecuaciones)",
+        "Uso estratégico de herramientas organizativas: tablas ICE, cuadros"
+      ],
+      "improvements": [
+        "Para estequiometría en equilibrio: practica cómo los coeficientes determinan la relación de cambio entre especies (si coef. = 2, el cambio es 2x)",
+        "Crea una tabla de referencia rápida para Le Chatelier: cambio → dirección de desplazamiento",
+        "Practica 3 ejercicios más de determinación si sistema está en equilibrio (comparando Qc con Kc)",
+        "Trabaja ejercicios donde identifiques primero los coeficientes estequiométricos antes de armar tabla ICE"
+      ],
+      "createdAt": "2025-10-05 05:28:20"
+    },
+    {
+      "feedbackId": "fb_backfill_me0oerp2_2025-09-15_a0e0b85f",
+      "weekStart": "2025-09-15",
+      "score": 65,
+      "generalComments": "Semana de repaso integral de la Fase 4 preparándote para la prueba. Tu autoevaluación muestra honestidad: nivel normal en Kc y Qc (puedes resolver ejercicios no muy complejos), dificultades con algunas características del equilibrio y Le Chatelier. Tu comentario \"no me veo muy bien pero entiendo un poco el tema\" indica que eres consciente de áreas que necesitan refuerzo. El ejercicio sobre Kc = 250 está correctamente resuelto.",
+      "strengths": [
+        "Resolución correcta del ejercicio Kc = 250: identificaste que favorece productos porque Kc > 1",
+        "Autoevaluación honesta y específica de tu nivel de comprensión por concepto",
+        "Conexión creativa con economía: gráficos de equilibrio y variables económicas",
+        "Integración con conocimientos previos: moles de química de años anteriores y matemática",
+        "Reconocimiento de áreas ambiguas que necesitan clarificación"
+      ],
+      "improvements": [
+        "Urgente: clarifica el concepto de balanceo químico y coeficiente estequiométrico - son fundamentales para todo equilibrio",
+        "Practica 10 ejercicios simples de Kc y Qc antes de la prueba para ganar confianza",
+        "Pide ayuda específica sobre características del equilibrio que no entiendes - no dejes conceptos ambiguos",
+        "Revisa Le Chatelier con ejemplos concretos: si aumento reactivos → equilibrio se desplaza a productos"
+      ],
+      "createdAt": "2025-10-05 05:28:20"
+    },
+    {
+      "feedbackId": "fb_backfill_me0oerp2_2025-09-29_13d23046",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Esta semana tuviste una clase especial para despejar dudas debido a la ausencia del profesor, pero no surgieron dudas en el grupo. Es una oportunidad perdida para aclarar los conceptos que mencionaste en tu reporte anterior (balanceo, coeficientes estequiométricos, características del equilibrio). Te recomiendo que la próxima vez aproveches estos espacios para resolver tus dudas específicas.",
+      "strengths": [
+        "Comunicación clara de la situación (clase de dudas sin dudas planteadas)",
+        "Asistencia a la clase a pesar de no haber contenido nuevo"
+      ],
+      "improvements": [
+        "Prepara tus dudas específicas antes de clases de consulta para aprovechar el tiempo",
+        "Repasa los temas que mencionaste como difíciles: balanceo, coeficientes estequiométricos, Le Chatelier",
+        "Practica ejercicios de forma autónoma durante semanas sin contenido nuevo",
+        "No esperes a que otros pregunten - sé proactiva en plantear tus propias dudas"
+      ],
+      "createdAt": "2025-10-05 05:28:20"
+    },
+    {
+      "feedbackId": "aedab30c-2f21-4249-8e1a-0eb5dead17bb",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:12.585Z"
+    },
+    {
+      "feedbackId": "a1a09d90-5710-4172-b208-178780ea5dff",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:06:55.022Z"
+    },
+    {
+      "feedbackId": "43621074-3d82-4d61-8a17-79d247ba6d5f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:05.478Z"
+    },
+    {
+      "feedbackId": "bf350b97-f9d1-464b-ad00-e96de349a257",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:18:04.104Z"
+    },
+    {
+      "feedbackId": "b9ce6ac9-8aea-4124-bb69-b72a2e0beb2c",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que esta semana trabajaste con ácidos y bases, y lograste resolver los ejercicios iniciales correctamente, especialmente con la teoría de Brønsted-Lowry. Eso demuestra que tienes capacidad para entender estos conceptos cuando los abordas paso a paso.\n\nSin embargo, tu reporte muestra que después del ejercicio 6 las cosas se complicaron, y aquí es donde necesitas cambiar tu estrategia. El problema no es que no entiendas, sino que probablemente no estés identificando claramente qué variables están en juego en cada problema. Cuando no ves las variables, la teoría se vuelve confusa.\n\nPara la próxima semana, te propongo esto: antes de resolver cualquier ejercicio, haz una pausa y escribe en una hoja: \"¿Qué datos me dan?\" y \"¿Qué me piden que encuentre?\". Esto es identificar variables. Luego, clasifica cada una. Verás que todo cobra sentido. También, no dejes que el pH/pOH se quede como un misterio: dedica 15 minutos a buscar un video corto sobre qué es realmente el pH. Pequeños pasos, pero consistentes.",
+      "strengths": "• Reconocimiento honesto de dificultades: Admites claramente que te cuesta aplicar la teoría y que el pH/pOH no te quedan claros. Esta autoconsciencia es el primer paso para mejorar.\n• Comprensión del concepto de Brønsted-Lowry: Tu ejemplo con HNO3 muestra que entiendes cómo identificar ácidos conjugados y bases conjugadas, lo cual es un logro importante en esta fase.\n• Progreso inicial en ejercicios básicos: Mencionas que los primeros ejercicios te resultaron fáciles, lo que indica que tienes capacidad para entender ecuaciones cuando el nivel de complejidad es menor.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de solo decir \"trabajamos ácidos y bases\", especifica: ¿Qué variables había? (concentración, pH, constante de disociación). ¿Cuáles eran conocidas y cuáles desconocidas? Esto es el corazón de la Fase 2. Practica haciendo una tabla con dos columnas: \"Variables conocidas\" y \"Variables desconocidas\" en cada ejercicio.\n• Desarrolla estrategias concretas para pH/pOH: No basta con decir \"no entiendo\". Pregúntate: ¿Qué es lo que específicamente no entiendo? ¿La fórmula? ¿La relación entre pH y pOH? ¿Cómo aplicarla? Luego busca un recurso específico (video, ejercicio resuelto, pregunta al profesor) para esa dificultad concreta.\n• Profundiza en conexiones con la vida real: Tu mención del pH es buena, pero necesitas ejemplos específicos. ¿Dónde ves pH en la vida real? (agua de piscina, jugos, limpiadores). Para cada ejemplo, identifica: ¿Qué variables están presentes? ¿Cuáles puedo controlar? Esto te ayudará a transferir lo aprendido.",
+      "createdAt": "2025-10-27T04:52:44.210Z"
+    },
+    {
+      "feedbackId": "d7438d9c-9b51-4543-9acc-eac70c2997b5",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor durante dos clases consecutivas es una situación difícil que afecta tu aprendizaje. Sin embargo, este reporte no permite evaluar tu comprensión real de Fase 2 (identificación de variables y datos) porque no hay respuestas sustantivas a las preguntas.\n\nTu desempeño esta semana no puede ser medido adecuadamente debido a las circunstancias externas. Lo importante ahora es que cuando el profesor regrese, estés listo para recuperar el tiempo perdido y retomar el trabajo con Fase 2.\n\nPara la próxima semana, te recomiendo: (1) Prepara preguntas específicas sobre qué temas de Fase 2 no comprendiste, (2) Revisa los apuntes de Fase 1 para refrescar conceptos de variables, y (3) Solicita al profesor material de apoyo o ejercicios para practicar identificación de variables antes de la siguiente evaluación.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en términos de aprendizaje de Fase 2. La situación de inasistencia docente es una circunstancia externa que impide la evaluación del desempeño académico real del estudiante.",
+      "improvements": "• Comunicación clara de la situación: Aunque reportaste la ausencia del profesor, es importante que también documentes qué hiciste de forma independiente durante esa semana. ¿Revisaste apuntes anteriores? ¿Consultaste el material de Fase 1? Esto muestra iniciativa y responsabilidad.\n• Completar el reporte con esfuerzo propio: Incluso sin clase, podrías haber intentado responder las preguntas basándote en lo que ya sabes de Fase 1 (identificación de variables en problemas que ya trabajaste). Esto demuestra pensamiento crítico autónomo.\n• Comunicación con el profesor: Una vez que regrese, solicita claramente qué contenido de Fase 2 se cubrirá y si hay material de apoyo disponible. Esto te ayuda a recuperar el tiempo perdido y a mantenerte al día con el grupo.",
+      "createdAt": "2025-11-03T12:16:25.454Z"
+    }
+  ]
+}

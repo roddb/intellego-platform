@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "studentId": "u_g54zele3lme24zmre",
+    "studentName": "Nicolás Cartasegna",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.229064",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 59.0,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-04_9301eaa2",
+      "weekStart": "2025-08-04",
+      "score": 72,
+      "generalComments": "Querido Nicolás, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Identificas claramente el uso del pensamiento crítico en el análisis de equilibrio químico y demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase y proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas claramente el objetivo principal (establecer presencia de equilibrio) en los tres sistemas presentados",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje reconociendo que necesitas más teoría",
+        "Reconoces la importancia de la relación entre sistemas para identificar el objetivo común"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión del contexto del equilibrio químico antes de avanzar a Fase 2",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, detallando cómo identificaste el objetivo",
+        "Busca aplicaciones prácticas de identificación de problemas de equilibrio en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-11_150652bf",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querido Nicolás, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Tu capacidad analítica al abordar la evaluación de tres enfoques metodológicos es destacable y demuestras pensamiento crítico al comparar ventajas y desventajas de cada método. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema más allá de la comparación de métodos. Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Tu capacidad analítica al abordar la evaluación comparativa de tres enfoques metodológicos es destacable",
+        "Demuestras pensamiento crítico estructurado al listar ventajas y desventajas de cada método",
+        "Justificas claramente tu recomendación del Enfoque C basándote en criterios científicos cuantitativos"
+      ],
+      "improvements": [
+        "Es importante mejorar la identificación precisa de qué constituye el problema en ejercicios más allá de comparar métodos",
+        "Proporciona evidencias más concretas de cómo aplicarías el Enfoque C recomendado en una situación real",
+        "Busca aplicaciones prácticas del concepto de equilibrio en situaciones cotidianas para consolidar comprensión"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-08-18_52f0d7d2",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Querido Nicolás, estás trabajando adecuadamente en la Fase 1: Identificación y comprensión del problema, demostrando comprensión de conceptos fundamentales de equilibrio y avance sostenido. Identificas claramente la necesidad de calcular Qc como paso para determinar el equilibrio del sistema. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase, proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, y es importante profundizar en la relación entre Qc y Kc con mayor detalle conceptual. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas claramente el objetivo del problema: determinar hacia dónde procederá la reacción",
+        "Reconoces correctamente que se necesita calcular Qc para compararlo con Kc",
+        "Comprendes la lógica del proceso de comparación Qc/Kc para predecir dirección de reacción"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión de qué significa cada dirección posible (Qc > Kc, Qc < Kc, Qc = Kc)",
+        "Proporciona evidencias más concretas de tu proceso de aprendizaje, ejecutando el cálculo de Qc completo",
+        "Es importante profundizar en la relación entre Qc y Kc con ejemplos numéricos concretos"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-15_bcee44ad",
+      "weekStart": "2025-09-15",
+      "score": 85,
+      "generalComments": "Querido Nicolás, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Planificas estrategia completa explicitando las cuatro fases antes de ejecutar, ejecutas cálculos sistemáticamente con notación científica y precisión, y muestras dominio metodológico integrando las cuatro fases del pensamiento crítico. Es importante mejorar la verificación dimensional de resultados para confirmar coherencia física. Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Planificas estrategia completa explicitando las cuatro fases del pensamiento crítico antes de ejecutar cálculos",
+        "Ejecutas cálculos sistemáticamente con precisión, usando notación científica y manejo correcto de cifras significativas",
+        "Verificas resultados calculando Kc completo y presentando respuesta final clara",
+        "Muestras dominio metodológico integrando F1+F2+F3+F4 fluidamente en un problema complejo"
+      ],
+      "improvements": [
+        "Te recomiendo incorporar verificación dimensional explícita (unidades) antes de presentar resultado final",
+        "Podrías evaluar la razonabilidad del valor de Kc obtenido (¿es alto/bajo? ¿qué implica sobre la posición del equilibrio?)",
+        "Considera agregar un comentario sobre qué significa el valor Kc ≈ 0.675 para este sistema en equilibrio"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-22_186270cc",
+      "weekStart": "2025-09-22",
+      "score": 83,
+      "generalComments": "Querido Nicolás, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado de síntesis de metanol en equilibrio, mostrando capacidad para planificar y ejecutar sistemáticamente las cuatro fases metodológicas. Planificas estrategia completa con explicitación detallada de las cuatro fases, ejecutas cálculos con notación científica y precisión en avance de reacción, y verificas resultados calculando Kc completo con ley de acción de masas. Podrías evaluar la razonabilidad del resultado Kc ≈ 14.65 discutiendo qué implica sobre la posición del equilibrio. Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Planificas estrategia completa con explicitación detallada y estructurada de las cuatro fases metodológicas",
+        "Ejecutas cálculos con notación científica y precisión en determinación de avance de reacción y moles equilibrados",
+        "Verificas resultados calculando Kc completo aplicando correctamente la ley de acción de masas",
+        "Integras exitosamente conocimientos de estequiometría (F2), ecuaciones de equilibrio (F3) y ejecución numérica (F4)"
+      ],
+      "improvements": [
+        "Podrías evaluar la razonabilidad del resultado Kc ≈ 14.65, discutiendo qué implica sobre si el equilibrio favorece productos o reactivos",
+        "Considera agregar verificación dimensional explícita de las unidades en cada paso del cálculo",
+        "Profundiza en conectar el valor de Kc con aplicaciones industriales de la síntesis de metanol"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me24zmre_2025-09-29_ab4d290b",
+      "weekStart": "2025-09-29",
+      "score": 82,
+      "generalComments": "Querido Nicolás, tu desempeño en la Fase 4: Estrategia y ejecución completa es apropiado, mostrando dominio de cálculos de equilibrio con oportunidades de profundización en Química. Ejecutas cálculos sistemáticamente llegando a concentraciones equilibradas y Kc correctos, verificas resultados aplicando ley de acción de masas completa, y demuestras comprensión del uso de tablas de equilibrio como herramienta organizativa. Podrías planificar la estrategia explicitando las cuatro fases completas antes de ejecutar para mayor claridad metodológica. Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Ejecutas cálculos sistemáticamente llegando a concentraciones equilibradas y valor de Kc correctos",
+        "Verificas resultados aplicando la ley de acción de masas completa con productos y reactivos",
+        "Demuestras comprensión del uso de tablas de equilibrio como herramienta organizativa fundamental"
+      ],
+      "improvements": [
+        "Podrías planificar la estrategia explicitando las cuatro fases completas antes de ejecutar para mayor claridad metodológica",
+        "Considera agregar análisis de qué significa el valor Kc obtenido para la posición del equilibrio en este sistema",
+        "Busca aplicaciones prácticas de este tipo de equilibrio (síntesis de HI) en contextos industriales o reales"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "5169523e-5f29-4445-954c-1464f3f3bcae",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:55.128Z"
+    },
+    {
+      "feedbackId": "6d3cdb5a-1b83-4495-aacc-4178e6607faf",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:11:40.982Z"
+    },
+    {
+      "feedbackId": "26dda976-d5ce-4022-828a-f52209c55e5f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:01.274Z"
+    },
+    {
+      "feedbackId": "c4c8d893-49b2-4734-8f35-74ae771fc3f1",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:45:12.633Z"
+    },
+    {
+      "feedbackId": "23fe83cb-1545-4891-b63a-6b7846ad604a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana ha sido desafiante, pero tu reporte muestra que aún no has comenzado a trabajar en serio con la Fase 2. Reconozco tu honestidad al admitir que \"no ejercitaste todavía\", pero esto es precisamente lo que necesitas cambiar esta semana.\n\nTu desempeño actual está en nivel inicial porque no hay evidencia de que hayas identificado variables, las hayas clasificado o hayas reflexionado sobre el proceso. Esto es fundamental para desarrollar pensamiento crítico en Química.\n\nPara la próxima semana, necesito que hagas lo siguiente: (1) resuelve al menos 3 problemas sobre ácidos y bases identificando variables, (2) clasifica cada variable como conocida/desconocida y controlable/no controlable, y (3) reflexiona sobre una dificultad real que encuentres. Estoy aquí para apoyarte, pero tú debes tomar la iniciativa.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no ejercitaste todavía\" en lugar de inventar respuestas. Esto muestra integridad, aunque indica que necesitas comenzar a trabajar en serio.\n• Identificación del tema: Mencionas \"Ácidos y bases\" como tema trabajado, lo que al menos establece un punto de partida para comenzar a identificar variables en la próxima semana.",
+      "improvements": "• Falta de ejercitación práctica: Escribes \"No ejercitamos todavía\" en Q2 y Q3. Necesitas resolver problemas concretos sobre ácidos y bases identificando variables (pH, concentración, temperatura). Comienza con 2-3 ejercicios simples esta semana donde clasifiques qué es variable conocida/desconocida y controlable/no controlable.\n• Ausencia de análisis de variables: No identificas ninguna variable en tu tema (ácidos y bases). Deberías listar al menos 5 variables relevantes: pH, concentración de H⁺, temperatura, volumen, tipo de ácido. Luego clasifica cada una según si es conocida/desconocida y controlable/no controlable.\n• Falta de conexión con fenómenos reales: Dices \"No lo relaciono con nada\". Los ácidos y bases están en tu vida diaria: limpiadores, jugos, medicinas. Propón 3 ejemplos concretos donde identifiques variables. Por ejemplo, en un jugo de limón: ¿cuál es el pH? ¿Cómo cambia con la temperatura?",
+      "createdAt": "2025-10-27T04:53:07.489Z"
+    },
+    {
+      "feedbackId": "123357b2-a2ac-4401-9ae0-19473a43be2b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que tienes capacidad técnica real: tus cálculos en el problema del KOH son precisos y bien estructurados. Eso es un logro importante que demuestra que *sí* puedes dominar estas fórmulas. Sin embargo, esta semana tu reporte muestra que aún no has integrado completamente la Fase 2 de pensamiento crítico, que va más allá de hacer cálculos correctos.\n\nTu desempeño tiene dos caras: por un lado, resuelves problemas matemáticos con exactitud; por otro, no identificas las variables detrás de esos cálculos ni las conectas con situaciones reales. Es como si supieras manejar una calculadora pero no entendieras qué estás calculando.\n\nPara la próxima semana, te pido que hagas un cambio importante: antes de resolver cualquier problema de ácidos y bases, escribe en una tabla: \"¿Qué sé?\" (variables conocidas), \"¿Qué busco?\" (variables desconocidas) y \"¿Qué puedo controlar?\" (variables controlables). Luego resuelve. Esto te ayudará a ver la estructura detrás de los números.",
+      "strengths": "• Precisión en cálculos matemáticos: Tu resolución del problema de KOH muestra dominio técnico. Aplicas correctamente la disociación (KOH → K⁺ + OH⁻), usas logaritmos con exactitud (pOH = 1,824) y relacionas pH + pOH = 14 sin errores.\n• Honestidad metacognitiva: Reconoces explícitamente tus dificultades con fórmulas y comprensión de problemas, lo que es el primer paso para mejorar. Esta autoconciencia es valiosa para diseñar un plan de refuerzo.\n• Estructura en el proceso: Presentas tu trabajo de forma ordenada (disociación → cálculo pOH → cálculo [H₃O⁺] → cálculo pH), lo que facilita seguir tu razonamiento y detectar dónde necesitas apoyo.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En tu cálculo de pH, debes nombrar qué es variable conocida (concentración inicial 0,0150 M), desconocida (pH final) y controlable (la concentración que preparas). Crea una tabla simple: \"Conocidas | Desconocidas | Controlables\" para cada problema.\n• Conectar conceptos con fenómenos reales: No basta resolver el cálculo. Pregúntate: ¿Dónde encuentro KOH en la vida real? ¿Por qué es importante saber su pH? Ejemplo: \"El KOH es una base fuerte usada en limpiadores; su pH alto (12,176) explica por qué quema la piel.\" Practica esto en cada ejercicio.\n• Desarrollar estrategias específicas para fórmulas: En lugar de decir \"tengo dificultad con fórmulas\", crea un mapa visual: escribe cada fórmula (pOH = -log[OH⁻], pH + pOH = 14, Kw = [H⁺][OH⁻]) con un ejemplo resuelto paso a paso. Revísalo antes de cada problema.",
+      "createdAt": "2025-11-17T13:45:28.851Z"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "studentId": "u_1zev16wwsme0b4u1q",
+    "studentName": "Clara Aiello",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.193064",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 53.47,
+      "minScore": 27,
+      "maxScore": 80,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "d8f342128a1688cee7b0a4ae84dbe2d3",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "No hubo clases durante esta semana, por lo que Maria Clara no pudo participar en actividades académicas. Se asigna puntaje mínimo de cumplimiento por completar el reporte.",
+      "strengths": [
+        "Cumplimiento con el reporte semanal a pesar de no haber clases",
+        "Comunicación clara de la situación",
+        "Mantiene registro actualizado"
+      ],
+      "improvements": [
+        "Aprovechar períodos sin clases para repasar material previo",
+        "Considerar práctica autónoma con ejercicios del libro",
+        "Preparar preguntas para la próxima clase"
+      ],
+      "createdAt": "2025-09-21 21:58:22"
+    },
+    {
+      "feedbackId": "3215a7515b0ac1dc88b2705cc24dc6f1",
+      "weekStart": "2025-08-11",
+      "score": 59,
+      "generalComments": "Maria Clara trabaja en Fase 2 identificando variables y datos. Muestra buena comprensión de aplicaciones prácticas de los gases, relacionando temperatura y presión en situaciones cotidianas.",
+      "strengths": [
+        "Aplicación de conceptos a situaciones cotidianas reales",
+        "Comprensión de la relación temperatura-presión",
+        "Identificación clara del problema práctico"
+      ],
+      "improvements": [
+        "Fortalecer las conexiones entre teoría química y aplicaciones",
+        "Desarrollar mayor práctica con identificación de variables",
+        "Incluir reflexiones adicionales sobre el aprendizaje"
+      ],
+      "createdAt": "2025-09-21 21:57:50"
+    },
+    {
+      "feedbackId": "a1d3a4bd84a739d60d9497b8f1381bcc",
+      "weekStart": "2025-08-18",
+      "score": 60,
+      "generalComments": "Maria Clara trabaja en Fase 3 con herramientas de gases ideales. Demuestra capacidad para analizar opciones y seleccionar la ley apropiada (Boyle) según las condiciones del problema.",
+      "strengths": [
+        "Análisis correcto de opciones para seleccionar la ley apropiada",
+        "Identificación clara de variables conocidas y desconocidas",
+        "Reconocimiento de condiciones isotérmicas"
+      ],
+      "improvements": [
+        "Fortalecer la ejecución de cálculos matemáticos",
+        "Completar el desarrollo hasta obtener resultados numéricos",
+        "Profundizar conexiones conceptuales más allá de matemática"
+      ],
+      "createdAt": "2025-09-21 21:57:16"
+    },
+    {
+      "feedbackId": "32021d92eee7b9ad9baa10452f855487",
+      "weekStart": "2025-08-25",
+      "score": 64,
+      "generalComments": "Maria Clara mantiene su trabajo en Fase 4 con gases ideales. Muestra mejora en la ejecución de cálculos más complejos involucrando cambios simultáneos de presión y volumen.",
+      "strengths": [
+        "Aplicación correcta de la ley combinada de gases",
+        "Desarrollo ordenado y completo de las 4 fases",
+        "Manejo adecuado de conversiones de temperatura"
+      ],
+      "improvements": [
+        "Fortalecer la selección autónoma de fórmulas",
+        "Aumentar la confianza en la resolución independiente",
+        "Desarrollar conexiones más profundas con otras materias"
+      ],
+      "createdAt": "2025-09-21 21:56:40"
+    },
+    {
+      "feedbackId": "a89826c76a103fdfb28be7f2911d55ea",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Maria Clara continúa trabajando en Fase 4 con gases ideales. Aunque expresa sentirse perdida, demuestra capacidad para desarrollar las 4 fases metodológicas y ejecutar cálculos correctamente.",
+      "strengths": [
+        "Desarrollo sistemático de las 4 fases metodológicas",
+        "Ejecución correcta de cálculos con PV=nRT",
+        "Honestidad al reconocer áreas de dificultad"
+      ],
+      "improvements": [
+        "Mejorar la identificación de fórmulas apropiadas para cada tipo de problema",
+        "Aumentar la práctica con ejercicios variados",
+        "Fortalecer la confianza en la resolución autónoma"
+      ],
+      "createdAt": "2025-09-21 21:56:11"
+    },
+    {
+      "feedbackId": "6534a3a0fd15877ec7be35c77e06d68d",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Maria Clara demuestra un desempeño en desarrollo trabajando en Fase 4 con gases ideales. Aunque reconoce que necesita práctica adicional, muestra capacidad para completar ejercicios con apoyo de compañeros y desarrolla las cuatro fases metodológicas.",
+      "strengths": [
+        "Aplicación sistemática de las 4 fases en la resolución de problemas",
+        "Capacidad para ejecutar cálculos con gases ideales usando PV=nRT",
+        "Reconocimiento honesto del nivel de dominio y búsqueda de apoyo colaborativo"
+      ],
+      "improvements": [
+        "Fortalecer la autonomía en la selección de fórmulas apropiadas",
+        "Practicar más la conversión de unidades y manejo de datos",
+        "Desarrollar mayor confianza en la ejecución independiente de ejercicios"
+      ],
+      "createdAt": "2025-09-21 21:54:39"
+    },
+    {
+      "feedbackId": "fb_002_1_e0b4u1q_20251005_005",
+      "weekStart": "2025-09-15",
+      "score": 80,
+      "generalComments": "Clara, tu trabajo esta semana demuestra un nivel de desarrollo sólido en la aplicación de las 4 fases. Tu resolución del problema del gas desconocido X es metódica, completa y muestra comprensión profunda de la metodología. La aplicación de F1 (determinar número de moléculas), F2 (identificar variables conocidas/desconocidas), F3 (selección de PV=nRT y regla de tres) y F4 (ejecución con resultado final 1,07×10²⁴) es ejemplar. Tu autoevaluación como Nivel 2 es conservadora - tu desempeño corresponde más a Nivel 3.",
+      "strengths": [
+        "Ejecutas las 4 fases de manera sistemática y completa con resultado final verificable",
+        "Identificas correctamente todas las variables conocidas y desconocidas con notación clara",
+        "Seleccionas múltiples herramientas apropiadas (ecuación de gases ideales, regla de tres, número de Avogadro)",
+        "Muestras proceso de cálculo detallado paso a paso, incluyendo conversiones de unidades",
+        "Presentas resultado final con notación científica correcta y unidades apropiadas"
+      ],
+      "improvements": [
+        "Amplía tu reflexión sobre dificultades: 'elegir la ley correcta' - describe QUÉ leyes consideraste y POR QUÉ descartaste otras opciones",
+        "Profundiza en la interpretación de resultados: además de calcular 1,07×10²⁴, reflexiona sobre qué significa este número en el contexto químico",
+        "Desarrolla más tus conexiones interdisciplinarias: mencionas física y matemática, pero podrías dar ejemplos concretos de cómo se integran"
+      ],
+      "createdAt": "2025-10-05 19:35:50"
+    },
+    {
+      "feedbackId": "fb_002_1_e0b4u1q_20251005_006",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "Clara, tu reporte de esta semana refleja la situación especial del viaje a Madryn, donde no hubo actividades académicas de química. Es completamente comprensible y justificado. Este tipo de situaciones son parte de la vida escolar y no reflejan tu capacidad académica. Tu reporte anterior demostró excelente nivel de desarrollo en gases ideales. Este feedback se genera solo para mantener registro administrativo completo, pero no debe interpretarse como evaluación de tu desempeño real.",
+      "strengths": [
+        "Comunicas claramente la situación especial (viaje a Madryn)",
+        "Completas el reporte semanal a pesar de no tener contenido académico que reportar",
+        "Mantienes consistencia en tu responsabilidad administrativa"
+      ],
+      "improvements": [
+        "Al reintegrarte a clases, retoma tus excelentes hábitos de estudio sistemático",
+        "Aprovecha para repasar conceptos de gases ideales durante el período de transición",
+        "Si es posible, consulta material cubierto durante tu ausencia para mantener continuidad"
+      ],
+      "createdAt": "2025-10-05 19:35:50"
+    },
+    {
+      "feedbackId": "04555909-33bb-4f82-9007-fa49c103e189",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:53.243Z"
+    },
+    {
+      "feedbackId": "564d7faa-6e9b-47c3-a01e-4bdc153ff377",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:15:37.557Z"
+    },
+    {
+      "feedbackId": "2c4d9d07-626b-4ad1-b390-118b003c6ef7",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:32:34.584Z"
+    },
+    {
+      "feedbackId": "c76a9291-6dfc-4578-aae1-ec876a69d294",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:03:01.317Z"
+    },
+    {
+      "feedbackId": "6a35aafd-392e-45d8-8ee1-90308fbec6c3",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:29.320Z"
+    },
+    {
+      "feedbackId": "3f70ecfe-6c16-4136-8577-21315e888c9a",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Tu reporte muestra que comprendes conceptos químicos básicos (como el comportamiento del NaCl), pero aún no dominas el proceso sistemático de identificar y clasificar variables que es el objetivo de Fase 2. Tienes una buena base para mejorar.\n\nTe recomiendo que en la próxima semana dediques tiempo a estructurar tus respuestas usando la clasificación de variables como eje central. Esto te ayudará a pasar de respuestas descriptivas a análisis sistemáticos, que es lo que esperamos en esta fase.",
+      "strengths": "1. Comprensión conceptual del fenómeno químico:\nTu explicación sobre el NaCl muestra que entiendes la relación entre estructura molecular y propiedades (conducción eléctrica). Esto es un buen punto de partida para identificar variables en sistemas químicos.\n\n2. Honestidad sobre dificultades:\nReconoces específicamente que identificar tipos de enlaces es difícil para ti. Esta autoconciencia es valiosa porque te permite trabajar de forma dirigida en esa área.",
+      "improvements": "1. Clasificación explícita de variables:\nEn tus respuestas no clasificas las variables como conocidas/desconocidas o controlables/no controlables. Por ejemplo, en el caso del NaCl, deberías identificar: \"Variable controlable: tipo de disolvente; Variable conocida: carga de los iones; Variable observable: conductividad eléctrica\". Esto es el núcleo de Fase 2.\n\n2. Estrategias concretas para superar dificultades:\nCuando mencionas que te cuesta identificar enlaces, no propones cómo mejorar. Sugiero: crea una tabla comparativa (iónico vs. covalente vs. metálico) con características clave, o practica clasificando 5 compuestos diarios hasta automatizar el proceso.\n\n3. Profundidad en conexiones interdisciplinarias:\nTu conexión con matemática es válida pero superficial. Especifica: \"Uso proporciones para calcular la concentración de iones en solución, que es una variable que afecta la conductividad\". Así integras Fase 1 (problema) + Fase 2 (variables) + aplicación.",
+      "createdAt": "2025-10-21T06:48:52.480Z"
+    },
+    {
+      "feedbackId": "793e23e0-8c81-439c-9354-8ccd60204e22",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando en serio esta semana y que comprendes los conceptos básicos de enlace iónico. Tu respuesta sobre el sodio es correcta y bien justificada, lo que demuestra que tienes las bases. Sin embargo, tu reporte muestra que aún no estás aplicando completamente la metodología de Fase 2: identificar y clasificar variables de forma sistemática.\n\nTu mayor fortaleza es la honestidad al reconocer qué te cuesta. Eso es importante. Pero ahora necesitas ir más allá: no solo identifiques la dificultad, sino que desarrolles estrategias claras y las practiques. Además, notamos que Q5 está vacía, lo que significa que perdiste la oportunidad de reflexionar sobre tu progreso.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema que resuelvas, (2) propongas y apliques estrategias concretas para superar tus dificultades, y (3) completes todas las preguntas del reporte, especialmente Q5, donde reflexionas sobre tu aprendizaje.",
+      "strengths": "• Identificación correcta de conceptos clave: Tu respuesta en Q2 muestra que comprendes bien cómo se forman iones simples. Explicar que \"el sodio pierde un electrón para alcanzar la configuración de un gas noble\" demuestra dominio del concepto fundamental.\n• Honestidad sobre dificultades: Reconoces específicamente qué te cuesta (identificar ganancia/pérdida de electrones), lo que es el primer paso para mejorar. Esto muestra autoconciencia valiosa.\n• Conexión interdisciplinaria: Intentas vincular Química con Física, lo que es excelente. Reconocer que ambas estudian cargas y electrones muestra pensamiento integrador.",
+      "improvements": "• Clasificación sistemática de variables: En Q1, debes identificar explícitamente qué variables están en juego en los ejercicios de enlace iónico. Por ejemplo: \"número de electrones de valencia\" (variable conocida), \"tipo de ion formado\" (variable desconocida), \"posición en tabla periódica\" (variable controlable). Haz listas claras.\n• Estrategias concretas para resolver dificultades: En Q3, no basta decir qué te cuesta. Propón cómo lo resolverás: \"Usaré la regla del octeto y la posición en la tabla periódica para determinar si gana o pierde electrones.\" Luego practica con 3-5 ejemplos aplicando esa estrategia.\n• Profundizar conexiones con ejemplos específicos: En Q4, tu conexión Química-Física es vaga. Mejora así: \"En el enlace iónico, los electrones se transfieren (variable de Química), generando cargas opuestas que crean fuerzas electrostáticas (variable de Física).\" Siempre con ejemplos concretos.",
+      "createdAt": "2025-10-27T05:07:28.739Z"
+    },
+    {
+      "feedbackId": "45a20c99-de38-475d-9d7f-8372371d8933",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Valoro tu honestidad al reportar las limitaciones de la semana (ausencia de alumnos, falta de actividades prácticas). Reconozco que identificaste correctamente el tema de RPECV y que entiendes la relación básica entre electrones y geometría molecular.\n\nSin embargo, tu reporte muestra un nivel de análisis que aún está en desarrollo. Copiar ejemplos y repasar teoría es un buen inicio, pero la Fase 2 requiere que identifiques y clasifiques variables sistemáticamente. Necesitas ir más allá de \"depende de los pares electrónicos\" y preguntarte: ¿cuáles son esos pares? ¿Cómo se cuentan? ¿Qué diferencia un par enlazante de uno no enlazante?\n\nPara la próxima semana, te propongo que practiques activamente identificando variables en al menos 3 moléculas diferentes (no solo CO₂). Crea una tabla donde clasifiques cada variable como conocida/desconocida y controlable/no controlable. Esto transformará tu comprensión de la Fase 2.",
+      "strengths": "• Reconocimiento de la dificultad: Identificas específicamente que te costó entender cómo se determina la forma molecular, lo que muestra autoconciencia sobre tu proceso de aprendizaje.\n• Conexión con conceptos previos: Relacionas correctamente la geometría molecular con enlaces químicos y estructuras de Lewis, demostrando que ves las conexiones entre temas.\n• Honestidad en la autoevaluación: Tu calificación de nivel 3 es realista y refleja que reconoces las limitaciones de la semana (falta de actividades prácticas).",
+      "improvements": "• Profundiza en la clasificación de variables: No solo menciones que existen \"pares de electrones\", sino identifica cuáles son conocidas (número de electrones de valencia), cuáles desconocidas (ángulos exactos) y cuáles controlables. Esto es el corazón de la Fase 2.\n• Desarrolla estrategias específicas para diferenciar geometrías: En lugar de \"repasé el ejemplo\", propón acciones concretas como: \"haré una tabla comparativa de pares enlazantes vs. no enlazantes\" o \"usaré modelos 3D para visualizar cada geometría\". Esto mejorará tu metacognición.\n• Completa la sección Q5 con reflexión genuina: Dedica tiempo a escribir por qué es importante identificar variables en geometría molecular. Por ejemplo: \"Entender las variables me ayuda a predecir propiedades químicas como polaridad\". Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-12T22:57:21.653Z"
+    },
+    {
+      "feedbackId": "31fb6666-32bb-499a-a180-941eaa20c09e",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que esta semana trabajaste en Uniones Químicas y lograste resolver ejercicios con apoyo, lo que es un buen inicio. Tu explicación del ion Ca²⁺ muestra que entiendes conceptos químicos básicos, y eso es importante para construir sobre él.\n\nSin embargo, tu reporte es muy breve y le falta profundidad en lo que Fase 2 te pide: identificar y clasificar variables. Tus respuestas son más descriptivas que analíticas, y eso limita tu progreso en pensamiento crítico.\n\nPara la próxima semana, te propongo que dediques tiempo a hacer listas explícitas de variables en cada problema que resuelvas. No solo entiendas el concepto, sino que documentes qué variables intervienen, cuáles conoces y cuáles no. Esto te preparará mejor para las fases siguientes.",
+      "strengths": "• Identificación correcta de conceptos clave: Tu explicación del ion Ca²⁺ (pierde 2 electrones, queda sin electrones de valencia) muestra que comprendes el concepto químico de base, lo que es un buen punto de partida.\n• Disposición al trabajo colaborativo: Mencionas que resolviste ejercicios \"con ayuda de tu compañero\", lo que indica apertura al aprendizaje en equipo y disposición a buscar apoyo cuando lo necesitas.\n• Reconocimiento de dificultades: Identificas que el \"análisis molecular completo\" fue desafiante, lo que muestra autoconciencia sobre áreas donde necesitas mejorar.",
+      "improvements": "• Clasificación sistemática de variables: En tus respuestas no identificas qué variables son conocidas, desconocidas, controlables o no controlables. Practica haciendo listas explícitas: por ejemplo, en Ca²⁺, la variable conocida es \"número de electrones de valencia = 2\" y la desconocida es \"configuración final del ion\".\n• Profundidad en análisis de dificultades: Cuando dices que te costó el \"análisis molecular completo\", necesitas ser más específico. ¿Fue identificar los átomos? ¿Contar electrones? ¿Determinar el tipo de enlace? Especifica la dificultad exacta y propón una estrategia concreta para resolverla.\n• Conexiones más sólidas con aplicaciones reales: Tu conexión con matemática es válida pero superficial. Intenta conectar las uniones químicas con fenómenos observables: ¿por qué el NaCl es sólido? ¿Qué variables (fuerzas electrostáticas, distancia entre iones) lo explican? Esto es Fase 2 en acción.",
+      "createdAt": "2025-11-17T13:48:48.426Z"
+    }
+  ]
+}

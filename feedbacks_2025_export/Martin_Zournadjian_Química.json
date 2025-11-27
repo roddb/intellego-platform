@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "studentId": "u_ipbwdsmfkme39nnhj",
+    "studentName": "Martin Zournadjian",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.220417",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 68.4,
+      "minScore": 62,
+      "maxScore": 74,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-29T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me39nnhj_2025-08-04_2d3fda63",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Trabajo inicial de Fase 1 con nivel de comprensión básico. El estudiante demuestra capacidad de análisis en el ejemplo de la botella de refresco, identificando correctamente el equilibrio entre CO₂ disuelto y gaseoso. La conexión con conceptos de presión, temperatura y volumen (física) es apropiada.",
+      "strengths": [
+        "Análisis correcto del equilibrio en botella de refresco cerrada (CO₂ disuelto ⇌ CO₂ gaseoso)",
+        "Comprensión de que las velocidades se igualan en equilibrio",
+        "Identificación de conexiones con física (presión, temperatura, volumen)",
+        "Reconocimiento de ejemplos cotidianos de equilibrio (refresco, mayonesa)"
+      ],
+      "improvements": [
+        "Fortalecer la comprensión del Principio de Le Châtelier antes de aplicarlo",
+        "Desarrollar estrategias para analizar perturbaciones múltiples simultáneas",
+        "Practicar identificación de sistemas en equilibrio vs no-equilibrio",
+        "Ampliar el vocabulario técnico de equilibrio químico"
+      ],
+      "createdAt": "2025-10-05T05:48:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me39nnhj_2025-08-18_2def5572",
+      "weekStart": "2025-08-18",
+      "score": 74,
+      "generalComments": "Trabajo de Fase 3 mostrando progreso significativo. El estudiante alcanza Nivel 2 en la mayoría de aspectos: expresión de Kc, cálculo de Qc, equilibrios heterogéneos y selección de herramientas. El ejercicio 2 (SO₂ + O₂ ⇌ SO₃) evidencia aplicación práctica correcta del criterio Qc vs Kc.",
+      "strengths": [
+        "Escritura correcta de expresiones de Kc con coeficientes estequiométricos",
+        "Cálculo y comparación exitosa de Qc vs Kc (ejercicio 2)",
+        "Comprensión de exclusión de sólidos y líquidos puros en equilibrios heterogéneos (CaCO₃)",
+        "Inicio de selección apropiada de herramientas según tipo de problema (F3)"
+      ],
+      "improvements": [
+        "Desarrollar mayor confianza en cálculos numéricos sin ayuda",
+        "Practicar análisis de perturbaciones múltiples (ejercicio 7: T y V simultáneos)",
+        "Fortalecer el uso de Kc↔Kp mediante ejercicios específicos",
+        "Ampliar justificaciones escritas en aplicaciones de Le Châtelier"
+      ],
+      "createdAt": "2025-10-05T05:50:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me39nnhj_2025-09-15_b3cd8c8c",
+      "weekStart": "2025-09-15",
+      "score": 62,
+      "generalComments": "Semana de contenido teórico puro sin ejercitación práctica. El estudiante reporta dominio 'normal' del tema de equilibrio químico y reconoce las conexiones con matemática (ecuaciones y fórmulas). La ausencia de complicaciones durante la semana es positiva.",
+      "strengths": [
+        "Asimilación de contenido teórico sin dificultades",
+        "Reconocimiento de conexiones con matemática (uso de ecuaciones y fórmulas)",
+        "Actitud positiva hacia el aprendizaje (sin complicaciones reportadas)",
+        "Responsabilidad al completar el reporte semanal"
+      ],
+      "improvements": [
+        "Complementar el estudio teórico con ejercitación práctica",
+        "Desarrollar ejemplos propios para aplicar la teoría estudiada",
+        "Verificar comprensión mediante resolución de problemas",
+        "Ampliar las conexiones identificadas (no solo matemática, también física y química previa)"
+      ],
+      "createdAt": "2025-10-05T05:52:00.000Z"
+    },
+    {
+      "feedbackId": "c8cbf90a-53c4-4c4b-8841-2cbd96acc782",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:11.421Z"
+    },
+    {
+      "feedbackId": "ed0715e4-00ff-4ecc-8901-62ff78b02219",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:15.837Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "studentId": "u_snjygtgt6me7wwtla",
+    "studentName": "Ana Rosiello",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.182600",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 37.0,
+      "minScore": 27,
+      "maxScore": 53,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me7wwtla_2025-08-11_aba091c4",
+      "weekStart": "2025-08-11",
+      "score": 53,
+      "generalComments": "Ana, en esta segunda fase del pensamiento crítico enfocada en la identificación de variables y datos, tu desempeño muestra que estás comenzando a comprender los conceptos básicos, pero aún necesitas profundizar significativamente. Tu auto-evaluación (2/5) refleja honestidad y conciencia de tus limitaciones, lo cual es positivo. Sin embargo, tus respuestas demuestran que te falta integrar las fases previas (F1+F2) y desarrollar habilidades para clasificar variables de manera sistemática. Es fundamental que trabajes en comprender los enunciados de los problemas de forma más profunda antes de avanzar.",
+      "strengths": [
+        "Reconoces tu nivel actual de dominio con honestidad (auto-evaluación 2/5)",
+        "Identificas el tema trabajado (variables) correctamente",
+        "Muestras conciencia de que puedes mejorar, lo cual es el primer paso para el progreso"
+      ],
+      "improvements": [
+        "Desarrollar estrategias concretas para comprender los enunciados de los problemas - te recomiendo leer varias veces, subrayar palabras clave y hacer diagramas visuales",
+        "Practicar la clasificación sistemática de variables (conocidas/desconocidas, controlables/no controlables) usando ejemplos del problema de Sofía y otros ejercicios",
+        "Trabajar en la transferencia del aprendizaje conectando lo que aprendes en Química con situaciones cotidianas o con otras materias - por ejemplo, las proporciones se usan en recetas de cocina, mezclas, etc.",
+        "Completar las respuestas con mayor detalle y evidencias concretas de tu proceso de pensamiento - en Q2 podrías haber listado qué variables necesita Sofía para el buffer",
+        "Integrar explícitamente la Fase 1 (identificación del problema) antes de trabajar con variables - esto te ayudará a tener claridad sobre qué información necesitas"
+      ],
+      "createdAt": "2025-10-02T15:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7wwtla_2025-08-18_bb61a2d5",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Ana, en esta tercera fase enfocada en la selección de herramientas y relaciones (fórmulas, ecuaciones), tu desempeño se mantiene en un nivel inicial similar a la semana anterior. Has progresado levemente en tu auto-evaluación (de 2/5 a 3/5), lo cual es positivo. Sin embargo, tus respuestas evidencian que aún no logras integrar las fases previas (F1+F2+F3) ni justificar la selección de las herramientas matemáticas necesarias. El problema del equilibrio químico (Kc) quedó planteado pero no desarrollado, y no demuestras comprensión de cómo seleccionar y aplicar las fórmulas correspondientes. Es fundamental que consolides las fases anteriores antes de avanzar a la Fase 4.",
+      "strengths": [
+        "Muestras un pequeño progreso en tu auto-evaluación (de 2/5 a 3/5), lo cual indica mayor confianza",
+        "Identificas correctamente el tema trabajado (equilibrio químico y constante Kc)",
+        "Planteas el problema de la síntesis de metanol mencionando explícitamente F1 (identificar el problema)",
+        "Reconoces tus dificultades con honestidad (errores por falta de atención)"
+      ],
+      "improvements": [
+        "Completar el desarrollo de los problemas - en Q2 planteaste la pregunta sobre Kc pero no escribiste la expresión ni justificaste por qué esa fórmula es la correcta para el equilibrio",
+        "Integrar las tres fases (F1+F2+F3) de manera fluida - debes mostrar: identificación del problema, variables involucradas, y selección justificada de la fórmula Kc = [productos]/[reactivos]",
+        "Desarrollar estrategias específicas para evitar errores de atención - por ejemplo: revisar cada paso del problema, hacer una lista de verificación, trabajar en un ambiente sin distracciones",
+        "Trabajar activamente en conectar lo aprendido con otros contextos - el equilibrio químico se aplica en procesos industriales, biológicos, ambientales. Busca ejemplos concretos",
+        "Profundizar en la justificación de por qué seleccionas cada herramienta matemática - no basta con identificar que necesitas Kc, debes explicar qué representa y cómo se construye a partir de la ecuación balanceada"
+      ],
+      "createdAt": "2025-10-02T15:00:01Z"
+    },
+    {
+      "feedbackId": "cd8f16ca-d6f4-4c95-9393-1abd30086ec8",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:53.057Z"
+    },
+    {
+      "feedbackId": "ef2f18f7-6f0a-4908-8945-1ff4937ea19d",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:22:46.212Z"
+    },
+    {
+      "feedbackId": "cf3ff4a3-8a79-45e1-8034-9792afd39b33",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana de parciales y que las dinámicas fueron diferentes a lo habitual. Sin embargo, tu reporte no contiene información que permita evaluar tu progreso en Fase 2 ni tu comprensión de identificación de variables y clasificación de magnitudes físicas.\n\nPara la próxima semana, cuando regresen las clases regulares, necesitaremos que documentes claramente los temas trabajados, las variables que identificas en los problemas, cómo las clasificas y qué dificultades encuentras. Esto es fundamental para que pueda acompañarte en tu desarrollo del pensamiento crítico.\n\nTe animo a que, cuando retomemos las actividades, dediques tiempo a revisar tus notas de Fase 1 y prepares ejemplos concretos de variables en fenómenos químicos o físicos que observes. Esto te ayudará a llegar más preparado a la próxima semana.",
+      "strengths": "• Honestidad en la comunicación: Informas claramente sobre la situación de la semana (semana de parciales), lo que permite entender el contexto de tu reporte.\n• Consistencia en la respuesta: Mantienes coherencia al explicar la razón de la falta de contenido en todas las preguntas.",
+      "improvements": "• Completar el reporte incluso en semanas atípicas: Aunque no haya clases regulares, puedes usar este tiempo para revisar conceptos de Fase 1, preparar ejemplos de variables o reflexionar sobre lo aprendido anteriormente. Esto mantiene tu pensamiento crítico activo y genera evidencia de aprendizaje continuo.\n• Aprovechar la semana de parciales para consolidar conocimientos: En lugar de dejar el reporte vacío, podrías documentar qué temas de identificación de variables estudiaste para los exámenes, qué dificultades encontraste al estudiar y cómo las resolviste. Esto enriquece tu reporte y demuestra metacognición.\n• Proporcionar reflexión personal sobre el progreso: Incluso sin clases presenciales, puedes escribir observaciones sobre tu desempeño en Fase 1, dudas que aún tienes sobre clasificación de variables o preguntas que quieres resolver en la próxima semana. Esto muestra compromiso con tu aprendizaje.",
+      "createdAt": "2025-11-12T22:53:39.803Z"
+    },
+    {
+      "feedbackId": "d73b9afd-40d9-4041-b214-b2c2c44840aa",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que estás trabajando en los temas de ácidos y bases, y eso es positivo. Sin embargo, tu reporte esta semana está incompleto y no muestra el nivel de análisis que esperamos en Fase 2. Necesitas ir más allá de resolver ejercicios mecánicamente: debes identificar y clasificar las variables que aparecen en cada problema.\n\nTu desempeño sugiere que entiendes los conceptos básicos, pero te falta sistematizar cómo identificas variables. Esto es fundamental para avanzar en pensamiento crítico. Además, responder todas las preguntas del reporte es obligatorio: nos ayuda a entender tu proceso de aprendizaje.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas, aunque sean respuestas breves; (2) en cada ejercicio que resuelvas, hagas una lista de variables clasificadas; (3) reflexiones sobre cómo lo que aprendes se conecta con problemas reales. Estoy aquí para apoyarte, pero necesito que hagas el esfuerzo de profundizar.",
+      "strengths": "• Reconoces tu nivel de aprendizaje: Mencionas \"voy entendiendo lo que estamos viendo\" y \"debo seguir estudiando\", lo que muestra autoconciencia sobre tu proceso. Esto es un buen punto de partida para mejorar.\n• Intentas resolver ejercicios prácticos: Presentas un problema de ácidos y bases con cálculos, demostrando que estás trabajando con los contenidos de la semana, aunque necesites profundizar en el análisis.\n• Identificas el tema central: Mencionas correctamente que trabajaron \"ácidos y bases\" y \"pH\", lo que indica que seguiste las clases y reconoces los tópicos principales.",
+      "improvements": "• Identifica y clasifica variables en cada problema: En el ejercicio de Ba(OH)₂, debes listar: masa (3,420 g) = variable conocida, volumen (1,00 L) = variable conocida, concentración = variable desconocida. Esto es lo que espera Fase 2. Crea una tabla simple: Conocidas | Desconocidas | Controlables | No controlables.\n• Completa todas las preguntas del reporte: Q4 y Q5 están vacías. Dedica 5-10 minutos a reflexionar: ¿Cómo usarías identificación de variables en un problema nuevo? ¿Qué aprendiste que no sabías antes? Respuestas cortas pero completas son mejor que espacios en blanco.\n• Profundiza en ecuaciones químicas: Tu ecuación de disociación está incompleta. Escribe: Ba(OH)₂ (ac) → Ba²⁺ (ac) + 2OH⁻ (ac). Luego identifica: ¿Cuáles son variables en esta reacción? ¿Qué magnitudes físicas aparecen? Esto conecta Fase 1 (ecuaciones) con Fase 2 (variables).",
+      "createdAt": "2025-11-17T13:43:25.855Z"
+    }
+  ]
+}

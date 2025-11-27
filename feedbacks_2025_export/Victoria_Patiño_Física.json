@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "studentId": "u_r0mxgr11pme6eytm2",
+    "studentName": "Victoria Patiño",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.240809",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 60.22,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-04_d2a7r8b6",
+      "weekStart": "2025-08-04",
+      "score": 34,
+      "generalComments": "Victoria, tu reporte de esta semana muestra que estás iniciando el camino con la metodología de pensamiento crítico en termodinámica. Tus respuestas son muy breves y generales, lo que dificulta evaluar tu comprensión real del tema. Es importante que desarrolles más tus ideas y aportes ejemplos concretos de tu proceso de aprendizaje.",
+      "strengths": [
+        "Identificas honestamente tu dificultad principal: no sabes cómo arrancar los problemas",
+        "Reconoces que te falta instrucción en el tema",
+        "Mencionas un ejercicio específico (calentamiento de agua)"
+      ],
+      "improvements": [
+        "Desarrolla respuestas más completas y específicas, no te limites a una o dos palabras",
+        "Trabaja en identificar claramente el problema central antes de intentar resolverlo (Fase 1)",
+        "Aporta ejemplos concretos de situaciones cotidianas donde veas termodinámica, no solo vida real",
+        "Utiliza la pregunta 5 para compartir dudas, reflexiones o preguntas que tengas sobre el proceso"
+      ],
+      "createdAt": "2025-01-10T00:00:16Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-11_e3b8s9c7",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Victoria, esta semana muestras un progreso notable. Tus respuestas son más desarrolladas y demuestran que estás aplicando la Fase 2 (identificación de variables) adecuadamente. Tu feedback sobre la metodología es valioso y muestra pensamiento crítico sobre tu propio proceso de aprendizaje. Has pasado de nivel inicial a nivel en desarrollo.",
+      "strengths": [
+        "Identificas correctamente el tema central: clasificación de variables termodinámicas",
+        "Auto-evaluación realista y honesta (dominio 2/4)",
+        "Evidencias concretas de aplicación: resolviste ejercicios de clasificación",
+        "Excelente reflexión crítica sobre la metodología (mucha lectura, necesidad de más explicación)",
+        "Propones estrategias de mejora específicas",
+        "Haces conexiones con fenómenos cotidianos (café, motor)"
+      ],
+      "improvements": [
+        "Trabaja en desarrollar más la pregunta sobre dificultades, identificando aspectos específicos de las variables que te cuestan",
+        "Utiliza la pregunta 5 para reflexionar sobre tu evolución desde la semana anterior",
+        "Profundiza en por qué las variables del café o motor son ejemplos: ¿qué variables identificas en cada caso?",
+        "Mantén el nivel de detalle que mostraste esta semana en futuros reportes"
+      ],
+      "createdAt": "2025-01-10T00:00:17Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-08-25_f4c9t0d8",
+      "weekStart": "2025-08-25",
+      "score": 58,
+      "generalComments": "Victoria, esta semana avanzaste a la Fase 3 (selección de herramientas como fórmulas), pero tu reporte muestra menos profundidad que la semana anterior. Tu auto-evaluación de 'nivel 3' es positiva, pero la falta de práctica personal (por falta de tiempo) y las respuestas muy breves en dificultades y comentarios reducen el puntaje. Es importante dedicar tiempo a resolver ejercicios por tu cuenta.",
+      "strengths": [
+        "Identificas las herramientas trabajadas: fórmulas de temperatura y calor",
+        "Auto-evaluación realista: nivel 3, reconociendo que falta integración",
+        "Comprendes teóricamente los cambios de fase (sólido/líquido/gaseoso)",
+        "Haces preguntas reflexivas valiosas: ¿a dónde va el calor de la taza?",
+        "Conexiones con fenómenos cotidianos"
+      ],
+      "improvements": [
+        "Prioriza resolver ejercicios personalmente, no solo ver explicaciones en clase",
+        "En Q3, identifica dificultades específicas aunque sea en teoría (¿cuál fórmula te confunde más?)",
+        "Desarrolla tus preguntas reflexivas (calor de la taza): intenta responderlas usando las fórmulas aprendidas",
+        "Usa Q5 para compartir reflexiones sobre tu proceso de integración que mencionas",
+        "No digas sin quejas: la reflexión sobre dificultades es clave para aprender"
+      ],
+      "createdAt": "2025-01-10T00:00:18Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-09-01_a5d0u1e9",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Victoria, esta semana trabajaste en la Fase 4 (ejecución completa de problemas), mostrando recuperación en tu desempeño. Describes un ejercicio completo de cambios de fase con cálculo de energía y calor, lo cual es muy positivo. Tu sugerencia sobre el formato de guías (cuadernillo imprimible) es práctica y refleja tu búsqueda de estrategias de organización.",
+      "strengths": [
+        "Describes un problema completo de Fase 4: hallar energía, temperatura y calor en cambios de fase",
+        "Evidencias proceso sistemático: primero explicación teórica, luego aplicación",
+        "Identificas dificultad organizativa concreta y propones solución específica (cuadernillo)",
+        "Reflexión sobre el proceso de trabajo (guías semanales vs cuadernillo integrado)",
+        "Mencionas ejercicios complejos con soluciones específicas"
+      ],
+      "improvements": [
+        "Corrige conceptos: equilibrio químico no es lo mismo que termodinámica - sé precisa en la terminología",
+        "En Q4, no repitas los mismos ejemplos siempre (taza, motor, olla) - profundiza: ¿qué cálculos harías en esos casos?",
+        "Describe el proceso de resolución completo, no solo qué hallaste sino cómo lo hallaste",
+        "Utiliza Q5 para reflexionar sobre tu evolución a lo largo de las 4 fases",
+        "Evalúa si tus resultados numéricos son razonables (parte de Fase 4)"
+      ],
+      "createdAt": "2025-01-10T00:00:19Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6eytm2_2025-09-15_b6e1v2f0",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Victoria, tu ausencia justificada por ACAP-UCA esta semana limitó tu participación directa, pero muestras responsabilidad al informarte a través de apuntes de compañeros. El trabajo fue sobre simulacros de examen (Fase 4 integrada). Tu honestidad sobre no haber resuelto por tu cuenta y tu identificación de la dificultad con diferencias entre fases son valiosas para tu proceso.",
+      "strengths": [
+        "Responsabilidad: te informaste de lo trabajado a pesar de la ausencia",
+        "Honestidad sobre tu nivel de práctica: aún no lo resolví por mi cuenta",
+        "Identificas dificultad específica: entender la diferencia entre fases termodinámicas",
+        "Reconoces la estructura del problema: identificar → resolver",
+        "Justificación válida de ausencia"
+      ],
+      "improvements": [
+        "Resuelve por tu cuenta los simulacros de examen lo antes posible para no quedar atrás",
+        "Pide explicación específica sobre diferencias entre fases: ¿qué distingue un cambio sólido-líquido de líquido-gas?",
+        "En Q4, deja de repetir los mismos ejemplos genéricos - analiza uno en profundidad",
+        "Usa Q5 para pedir recursos específicos o aclarar dudas concretas",
+        "Planifica cómo compensar clases perdidas con estudio independiente"
+      ],
+      "createdAt": "2025-01-10T00:00:20Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me6eytm2_2025-10-06_006",
+      "weekStart": "2025-10-06",
+      "score": 27,
+      "generalComments": "Querida Victoria Patiño,\n\nDebido a ausencias en clase (alegatos), no fue posible evaluar tu progreso en Física durante esta semana. Sin contenido de las preguntas Q2 a Q5, la evaluación es limitada.\n\nEs fundamental establecer bases sólidas en los fundamentos de termodinámica antes de avanzar. Te sugiero coordinar conmigo para recuperar el material trabajado en clase.\n\nTe sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Informas con claridad tu situación de ausencia (alegatos en la UCA)",
+        "Reconoces honestamente cuando no pudiste participar de la clase",
+        "Mantienes la responsabilidad de entregar el reporte semanal"
+      ],
+      "improvements": [
+        "Completa las respuestas de todas las preguntas aunque hayas estado ausente (puedes mencionar la ausencia en cada una)",
+        "Busca los apuntes de compañeros y completa el reporte con mayor detalle",
+        "Proporciona al menos una reflexión sobre qué te perdiste de la clase"
+      ],
+      "createdAt": "2025-10-09 21:32:27"
+    },
+    {
+      "feedbackId": "4cc5d7cd-316e-4959-b54e-a11ceb23f2ca",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:46:18.936Z"
+    },
+    {
+      "feedbackId": "d95ad2ef-36e3-4d06-93f6-d4e62c3752be",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:27:48.766Z"
+    },
+    {
+      "feedbackId": "3032f073-2f8d-4dbf-9da8-614f0b66d258",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 85,
+      "generalComments": "Tu reporte demuestra un desempeño sólido en Fase 2 con fortalezas claras en metacognición y pensamiento interdisciplinario. Dominas los procedimientos estándar (circuitos serie/paralelo, cálculo de potencia) y reconoces honestamente dónde necesitas crecer: en problemas con condiciones no ideales y elementos complejos.\n\nLo que más destaca es tu capacidad de conectar Física con Química a través de principios profundos (conservación, balance), y tu iniciativa de proponer actividades prácticas que cierren la brecha entre teoría y realidad. Esto muestra pensamiento crítico genuino, no solo resolución de ejercicios.\n\nPara la próxima semana, enfócate en documentar cómo aplicas tus estrategias de verificación a problemas difíciles, y desarrolla intuición numérica sobre cuándo efectos como la variación térmica de R son relevantes. Esto te preparará para Fase 3, donde necesitarás evaluar la validez de tus modelos en contextos reales.",
+      "strengths": "• Autoevaluación honesta y metacognición avanzada: Reconoces exactamente qué dominas (\"rapidez en reconocer patrones\") y qué te cuesta (\"condiciones no ideales, temperatura variable\"). Esto muestra madurez en tu proceso de aprendizaje y facilita el trabajo colaborativo.\n• Conexiones interdisciplinarias sofisticadas: Vinculas Física y Química a través de principios de conservación, y aplicas esto a electroquímica y electrólisis con ejemplos reales (tratamiento de aguas, síntesis). Esto va más allá de lo esperado en Fase 2.\n• Propuesta de actividades prácticas bien fundamentadas: Pides experimentos específicos (medir pH, medir caída de tensión) que cierren la brecha teoría-práctica. Demuestras entender que la incertidumbre y las \"condiciones no ideales\" se aprenden mejor en el laboratorio.",
+      "improvements": "• Clasificación sistemática de variables en problemas complejos: Mencionas dificultades con \"fuentes internas\" y \"elementos dependientes\", pero no los clasificas como variables controlables/no controlables. En la próxima semana, haz una tabla explícita: para cada tipo de problema difícil, lista qué variables son conocidas/desconocidas y cuáles puedes controlar. Esto te preparará mejor para Fase 3.\n• Evidencia limitada en problemas no estándar: Tu ejemplo en Q2 es correcto pero es un circuito \"tipo guía\". Necesitas documentar cómo aplicas tu estrategia de Q3 (verificación de unidades, balance de corrientes) a un problema con resistencia variable o elemento dependiente. Elige uno de tus ejercicios difíciles y resuélvelo paso a paso en el próximo reporte.\n• Falta de cuantificación en análisis de magnitudes físicas: Cuando mencionas \"efecto Joule\" o \"variación de R con temperatura\", no das rangos o órdenes de magnitud. Por ejemplo: ¿cuánto varía R en un cable de cobre si T sube 50°C? Practica estimaciones numéricas para desarrollar intuición física sobre cuándo estos efectos son relevantes.",
+      "createdAt": "2025-11-17T13:52:30.954Z"
+    }
+  ]
+}

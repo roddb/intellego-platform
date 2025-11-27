@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "studentId": "u_2dnwoitzgme3j576v",
+    "studentName": "Facundo Gubinelli",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.197771",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 68.42,
+      "minScore": 40,
+      "maxScore": 85,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-08-04_3b65be3a",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Tu desempeño en la Fase 1 (Identificación y comprensión del problema) muestra comprensión conceptual emergente del equilibrio químico y del proceso de pensamiento crítico. Aunque reconoces los conceptos básicos (reversibilidad, equilibrio dinámico, uso de Qc y Kc), tu autoevaluación honesta de Nivel 1 refleja correctamente que todavía te cuesta aplicar estos conceptos a ejercicios prácticos, especialmente con cálculos y tablas.",
+      "strengths": [
+        "Comprendes el marco conceptual del pensamiento crítico aplicado a química (5 pasos: identificar, recopilar, analizar, evaluar, reflexionar)",
+        "Reconoces honestamente tus dificultades específicas: aplicar conceptos a ejercicios con cálculos de constantes y uso de tablas",
+        "Estableces conexiones interdisciplinarias relevantes con cinética química, física de gases y matemáticas"
+      ],
+      "improvements": [
+        "En Q1, aunque mencionas todos los temas, tu descripción es muy extensa pero poco focalizada. Prioriza: ¿cuál es EL concepto más importante de la Fase 1?",
+        "En Q2, el ejercicio de N₂ + 3H₂ ⇌ 2NH₃ está bien identificado, pero no documentas tu proceso: ¿cómo decidiste usar Qc? ¿Cómo lo calculaste? ¿Qué resultado obtuviste?",
+        "Desarrolla más Q3: ¿qué estrategias concretas aplicaste con el cuadernillo? ¿Subrayaste información relevante en cuántos ejercicios?",
+        "En Q5, tu reflexión sobre el método es valiosa, pero también reconoce tus limitaciones actuales con honestidad"
+      ],
+      "createdAt": "2025-10-03T10:16:17Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-08-11_2cd94a41",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Tu desempeño en la Fase 2 (Identificación y clasificación de variables) muestra progreso respecto a la semana anterior, aunque todavía te mantienes en Nivel 1. Has logrado comprender la diferencia crucial entre 'variable' y 'valor de variable', y reconoces la importancia de la matriz de clasificación. Sin embargo, persisten dificultades en la aplicación práctica y en la distinción de variables controlables vs no controlables según el contexto.",
+      "strengths": [
+        "Comprendes la diferencia entre variable (concepto) y valor de variable (número específico)",
+        "Reconoces la utilidad de la matriz de clasificación (conocidas/desconocidas vs controlables/no controlables) para organizar información",
+        "Resuelves correctamente el ejercicio del buffer de Sofía, identificando variables importantes (concentración vinagre, acetato, volumen, pH, temperatura)"
+      ],
+      "improvements": [
+        "En Q1, tu descripción es muy extensa. Sintetiza: la Fase 2 trata de ORGANIZAR variables, no solo identificarlas",
+        "En Q2, aunque identificas variables correctamente, no muestras la matriz clasificada completa. ¿Cuáles fueron controlables? ¿Cuáles no?",
+        "Desarrolla más Q3: tu estrategia de usar colores es excelente, pero ¿la aplicaste realmente? ¿En cuántos ejercicios? Documenta evidencia concreta",
+        "En Q5, tu reflexión es valiosa, pero evita frases genéricas como me está ayudando; especifica: ¿EN QUÉ te está ayudando exactamente?"
+      ],
+      "createdAt": "2025-10-03T10:16:18Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-08-18_27ff4ad9",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Tu desempeño en la Fase 3 (Selección de herramientas y relaciones) muestra un salto cualitativo importante desde la Fase 2. Has logrado comprender cómo elegir entre diferentes herramientas (Kc, Kp, Qc, Le Chatelier) según el contexto del problema. Tu resolución del ejercicio del metanol es correcta y evidencia comprensión de la estructura de expresiones de equilibrio. Sin embargo, todavía te ubicas en nivel básico por dificultades en decidir cuál herramienta usar primero en problemas que combinan varios elementos.",
+      "strengths": [
+        "Resuelves correctamente la expresión de Kc para el metanol, demostrando comprensión de la estructura (productos/reactivos con exponentes estequiométricos)",
+        "Comprendes la diferencia entre Qc (para predecir) y Le Chatelier (para analizar perturbaciones cualitativas)",
+        "Estableces conexiones relevantes con Fase 1, Fase 2, matemática (expresiones algebraicas, cuadráticas) y física (gases ideales, Kp)"
+      ],
+      "improvements": [
+        "En Q1, tu descripción es extensa pero podría ser más sintética: la Fase 3 trata de ELEGIR la herramienta adecuada según datos disponibles",
+        "En Q3, mencionas tu esquema de preguntas clave, que es excelente, pero no lo muestras completo. Documéntalo en tu próximo reporte",
+        "Desarrolla más la relación entre Kc y Kp: no solo menciones delta n, explica QUÉ es (diferencia de moles de gases) y POR QUÉ afecta la relación",
+        "En Q5, tu reflexión sobre pensar como químicos es valiosa, pero sé más específico: ¿qué decisión química concreta tomaste esta semana usando este método?"
+      ],
+      "createdAt": "2025-10-03T10:16:19Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-08-25_23492340",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Tu desempeño en la Fase 4 (Estrategia y ejecución completa) muestra que estás intentando integrar todas las fases anteriores, lo cual es el objetivo central de esta etapa. Sin embargo, tu autoevaluación de Nivel 1 y tus dificultades con cálculos largos (especialmente ecuaciones cuadráticas) han limitado tu capacidad de resolver problemas completos de principio a fin. Hay un retroceso respecto a la semana anterior (70→65 puntos) que requiere atención.",
+      "strengths": [
+        "Comprendes el protocolo completo de la Fase 4: ecuación balanceada → tabla ICE → expresión de Kc → sustitución → resolución → verificación",
+        "Resuelves correctamente el ejercicio de síntesis de HI siguiendo el procedimiento paso a paso",
+        "Reconoces honestamente tus dificultades específicas: mantener orden en cálculos y resolver ecuaciones cuadráticas"
+      ],
+      "improvements": [
+        "En Q1, tu descripción es muy detallada pero poco sintética. La Fase 4 trata de EJECUTAR el plan completo de manera ordenada",
+        "En Q2, aunque mencionas que resolviste el HI, no muestras tu trabajo: ¿cuál fue el valor de Kc que obtuviste? ¿Cómo verificaste el resultado?",
+        "Desarrolla más Q3: ¿qué estrategia específica usaste para trabajar más prolijo? ¿Funcionó? ¿En cuántos ejercicios la aplicaste?",
+        "En Q5, tu reflexión sobre integración es valiosa, pero también reconoce: ¿qué harás específicamente para ganar rapidez y confianza?"
+      ],
+      "createdAt": "2025-10-03T10:16:20Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-09-08_b32605f3",
+      "weekStart": "2025-09-08",
+      "score": 78,
+      "generalComments": "Tu desempeño en la Fase 4 (Estrategia y ejecución completa) con la guía de modelos de examen muestra una recuperación excelente y un salto cualitativo importante. Has logrado aplicar las cuatro fases de manera integrada, resolver problemas completos y trabajar con mayor seguridad en el protocolo. Tu autoevaluación de Nivel 3 es precisa y refleja madurez metacognitiva. Este es tu mejor desempeño hasta ahora.",
+      "strengths": [
+        "Resuelves correctamente el ejercicio de descomposición del NO₂, aplicando todas las fases de manera integrada y obteniendo resultados correctos",
+        "Demuestras capacidad de seguir el protocolo sistemáticamente: comprender → identificar variables → seleccionar herramientas → ejecutar",
+        "Reconoces tus dificultades persistentes (ecuaciones largas, administración del tiempo) y propones estrategias concretas (simulacros con reloj)"
+      ],
+      "improvements": [
+        "En Q2, aunque describes bien el proceso del NO₂, no muestras el valor numérico final de Kc que obtuviste. Documenta resultados concretos",
+        "Desarrolla más Q3: tu estrategia de simulacros de examen con reloj es excelente. ¿La estás aplicando realmente? ¿Cuántos ejercicios cronometrados hiciste?",
+        "En Q4, la conexión todas las fases anteriores es correcta pero genérica. Sé más específico: ¿cómo usaste exactamente la Fase 2 en el ejercicio del NO₂?",
+        "En Q5, tu reflexión es valiosa. Agrega: ¿qué ejercicios de la guía ya resolviste? ¿Cuáles te faltan?"
+      ],
+      "createdAt": "2025-10-03T10:16:21Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-09-15_2051ba7a",
+      "weekStart": "2025-09-15",
+      "score": 85,
+      "generalComments": "Tu desempeño en la Fase 4 (Estrategia y ejecución completa) alcanza el nivel de excelencia. Has logrado aplicar las cuatro fases de manera fluida y sistemática, resolver ejercicios completos en tiempo razonable, y verificar resultados con múltiples métodos. Tu autoevaluación de Nivel 4 es precisa y bien fundamentada. Este es tu mejor desempeño del ciclo y demuestra dominio consolidado del equilibrio químico.",
+      "strengths": [
+        "Resuelves correctamente el ejercicio completo de síntesis de NH₃, aplicando todas las fases de manera integrada y obteniendo resultados verificados",
+        "Demuestras excelente manejo del tiempo (puedes resolver problemas completos en <25 minutos) y capacidad de verificación de resultados",
+        "Reconoces que todavía necesitas mejorar velocidad en algunos cálculos, lo cual muestra madurez metacognitiva y ambición de mejora continua"
+      ],
+      "improvements": [
+        "En Q2, aunque describes el proceso del NH₃, no muestras el desarrollo matemático completo. Documenta: tabla ICE, expresión de Kc, sustitución, ecuación resultante, solución",
+        "En Q3, tu estrategia de practicar con reloj en mano es excelente. ¿Cuántos ejercicios cronometrados hiciste? ¿Cuál fue tu tiempo promedio? Datos concretos",
+        "En Q5, tu reflexión es valiosa. Agrega una meta específica: ¿En qué tiempo quiero resolver un ejercicio completo de Fase 4? ¿Qué haré para lograrlo?"
+      ],
+      "createdAt": "2025-10-03T10:16:22Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3j576v_2025-09-22_cff48655",
+      "weekStart": "2025-09-22",
+      "score": 40,
+      "generalComments": "Tu reporte de esta semana refleja ausencia total de actividad académica debido a la falta de clase. Las respuestas 'No tuvimos clase' repetidas en todas las preguntas muestran que no realizaste ningún trabajo autónomo, lo cual contrasta drásticamente con tu excelente desempeño de las semanas anteriores (85 puntos la semana pasada). Este es un retroceso crítico que requiere atención inmediata.",
+      "strengths": [
+        "Reconoces honestamente la situación de ausencia de clase"
+      ],
+      "improvements": [
+        "CRÍTICO: Después de alcanzar 85 puntos (nivel de excelencia), detenerte completamente por falta de clase muestra dependencia inaceptable del profesor",
+        "Deberías haber aprovechado la semana para repasar todo el material de equilibrio químico, resolver ejercicios adicionales de la guía, o profundizar en áreas que todavía te costaban",
+        "En lugar de responder no tuvimos clase en todas las preguntas, deberías haber documentado: ejercicios que resolviste por tu cuenta, conceptos que repasaste, simulacros que hiciste",
+        "Utiliza Q5 para establecer un plan de recuperación urgente para la próxima semana"
+      ],
+      "createdAt": "2025-10-03T10:16:23Z"
+    },
+    {
+      "feedbackId": "75a71f23-913e-41e2-b759-e45f165ea6e5",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:53.424Z"
+    },
+    {
+      "feedbackId": "60407369-b125-4d9f-83e8-0b939cda995e",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:59.590Z"
+    },
+    {
+      "feedbackId": "8238fcb6-e032-4764-bf1a-c054921122cc",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:37:46.151Z"
+    },
+    {
+      "feedbackId": "b7561913-fe3c-42cb-ae2c-cff35dfbfe61",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:12:01.695Z"
+    },
+    {
+      "feedbackId": "7eeb7896-8aa4-4050-a3e8-272095bd06d4",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 85,
+      "generalComments": "Tu reporte demuestra un aprendizaje sólido y reflexivo. Completaste todos los temas de ácidos-bases, resolviste los 10 ejercicios y, lo más importante, desarrollaste estrategias propias para superar dificultades. Tu honestidad al autoevaluarte en Nivel 3 (reconociendo qué falta) y tu propuesta de crear una hoja-resumen muestran madurez.\n\nEsta semana evolucionaste notablemente: aplicas la metodología F1-F4 de forma más natural y conectas conceptos con contextos reales (biología, industria). Eso es pensamiento crítico genuino, no memorización.\n\nPara la próxima semana, enfócate en documentar explícitamente cómo identificas y clasificas variables en cada problema (Fase 2 pura). Además, dedica 5-10 minutos diarios a practicar cálculos rápidos de pH y logaritmos. Estás muy cerca de dominar completamente este bloque.",
+      "strengths": "• Metacognición y autoconocimiento excepcionales: Identificas con precisión qué dominas (cálculos de pH, Ka/Kb) y qué te cuesta (aproximaciones, rapidez con logaritmos). Tu autoevaluación es realista y te permite diseñar estrategias específicas. Esto es madurez intelectual.\n• Estrategias de aprendizaje sistemáticas y verificables: No solo reconoces dificultades, sino que las atacas con acciones concretas: comparar soluciones exactas vs. aproximadas, crear mini-hojas de pasos, practicar ejercicios seguidos. Tu enfoque es científico y reproducible.\n• Conexiones interdisciplinarias profundas: Vinculas ácidos-bases con equilibrio químico, biología, biotecnología, matemática e industria. Demuestras que entiendes la relevancia real del tema, no solo la teoría. Esto eleva significativamente tu comprensión.",
+      "improvements": "• Falta análisis explícito de variables en Fase 2: Tu reporte no distingue entre variables conocidas/desconocidas, controlables/no controlables en los ejercicios que resolviste. Por ejemplo, en el problema de buffer: ¿qué variables controlaste? ¿Cuáles mediste? Sugiero que en próximos reportes dediques un párrafo a clasificar variables de cada ejercicio clave.\n• Documentación incompleta de la integración Fase 1 + Fase 2: Mencionas que \"seguiste la recomendación de la presentación\" pero no muestras cómo identificaste variables antes de resolver. Próxima semana, incluye un ejemplo concreto: \"En el ejercicio de titulación, identifiqué como variables conocidas: volumen inicial, concentración del ácido; como desconocidas: pH en el punto equivalente.\"\n• Rapidez en cálculos aún es limitación: Reconoces que te cuesta \"hacerlo rápido\" con logaritmos. Sugiero practicar 5-10 minutos diarios con calculadora (o sin ella, estimando órdenes de magnitud). Crea una tabla de valores de log comunes (log 2 ≈ 0.3, log 3 ≈ 0.48) para memorizar y acelerar.",
+      "createdAt": "2025-11-03T12:16:41.429Z"
+    }
+  ]
+}

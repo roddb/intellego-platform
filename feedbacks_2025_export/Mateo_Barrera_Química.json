@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "studentId": "u_7vuuihvajme0bd1v8",
+    "studentName": "Mateo Barrera",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.222319",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 37.71,
+      "minScore": 27,
+      "maxScore": 60,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me0bd1v8_20251005_001",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Querido Mateo Barrera, esta semana no hubo clase debido a ausencias en el curso, por lo que no fue posible evaluar tu progreso en Química. Demuestras responsabilidad al completar el reporte. Es importante que en la próxima semana te integres activamente al nuevo contenido de la metodología de 4 fases. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte explicando la situación",
+        "Demuestras compromiso al no dejar el reporte sin completar",
+        "Comunicas claramente la razón de la ausencia de clase"
+      ],
+      "improvements": [
+        "Estar atento a la introducción de la nueva metodología en la próxima clase",
+        "Prepararte para comenzar el nuevo tema con predisposición activa",
+        "Consultar con compañeros si hubo comunicaciones adicionales sobre el nuevo sistema"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me0bd1v8_20251005_002",
+      "weekStart": "2025-08-18",
+      "score": 60,
+      "generalComments": "Querido Mateo Barrera, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Te evalúas en nivel 2 mostrando autocrítica apropiada. Demuestras comprensión parcial del tema de movimiento de partículas y gases. Es importante fortalecer tu comprensión del contexto de los problemas y cómo los datos se relacionan. Necesitas trabajar en la organización y sistematización de la información. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces tu nivel de dominio de manera realista (nivel 2)",
+        "Identificas que el contexto y la relación de datos es un área de dificultad",
+        "Conectas el tema con conocimientos previos del año pasado (estados de la materia)"
+      ],
+      "improvements": [
+        "Proporcionar evidencias más específicas de ejercicios trabajados durante la semana",
+        "Desarrollar estrategias para comprender el contexto de cada situación problema",
+        "Practicar la identificación de cómo se relacionan los diferentes datos del problema"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "8a841ef5-ec66-45e2-8835-5c9c26daeb25",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:11.999Z"
+    },
+    {
+      "feedbackId": "f0e167a0-4cb5-4730-8b13-1efde7dc904e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:08:21.836Z"
+    },
+    {
+      "feedbackId": "323662c1-5bc3-49c6-acec-ac269010d763",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:00:13.985Z"
+    },
+    {
+      "feedbackId": "f96fa039-bddf-43cf-b315-33781e2105e6",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:52:15.340Z"
+    },
+    {
+      "feedbackId": "9fb94df2-c0bc-4740-936e-3dd140609498",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana ha sido complicada por las faltas de clase, pero tu reporte muestra que necesitas tomar más iniciativa en tu aprendizaje. Lo positivo es que eres honesto sobre tus dificultades, lo que significa que estás consciente de dónde necesitas mejorar.\n\nTu desempeño en la Fase 2 está en nivel inicial. La falta de documentación de ejercicios y la ausencia de análisis sistemático de variables son los puntos críticos. Sin embargo, el hecho de que reconozcas que entiendes \"por lógica\" sugiere que tienes potencial: necesitas estructurar ese razonamiento intuitivo en un método claro.\n\nPara la próxima semana, tu prioridad es crear un registro organizado de ejercicios donde identifiques y clasifiques variables en uniones químicas. No necesita ser perfecto, pero debe ser sistemático. Además, busca conectar lo que aprendes con ejemplos reales. Esto transformará tu comprensión de \"lógica vaga\" en \"pensamiento crítico estructurado\".",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que te cuesta entender la teoría y que algunos ejercicios los comprendes \"más que nada por lógica\". Esta sinceridad es el primer paso para mejorar.\n• Identificación de una dificultad real: Mencionas que se te dificulta \"entender la teoría y cuando la tengo que aplicar dependiendo de la situación\", lo que muestra que al menos reconoces el problema teoría-práctica.",
+      "improvements": "• Falta de documentación y registro: No tienes ejercicios registrados en tu carpeta. Acción: A partir de esta semana, guarda TODOS los ejercicios que hagas sobre uniones químicas. Crea una tabla simple con columnas: \"Tipo de enlace | Variables identificadas | Magnitudes físicas | Resultado\". Esto te ayudará a ver patrones.\n• Ausencia de especificidad en variables: No identificas qué variables concretas intervienen en uniones químicas (electronegatividad, diferencia de carga, tipo de orbital, energía de enlace, etc.). Acción: Haz una lista de 5-6 variables clave en uniones químicas y clasifícalas en: conocidas/desconocidas y controlables/no controlables. Luego, aplícalas a 3 ejercicios específicos.\n• Sin conexiones con fenómenos reales: Escribes \"no se une con ningún tema\". Acción: Busca 2 ejemplos de uniones químicas en tu vida cotidiana (sal de mesa, agua, plástico). Para cada uno, identifica qué variables determinan su formación. Esto te ayudará a ver la relevancia del tema.",
+      "createdAt": "2025-11-03T12:26:23.513Z"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "studentId": "u_pv2qe98lhme0b4xi4",
+    "studentName": "Federica Fontan",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.198615",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 60.38,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_fontan_2025080401",
+      "weekStart": "2025-08-04",
+      "score": 75,
+      "generalComments": "Federica demuestra excelente comprensión del pensamiento crítico y su metodología de 5 pasos. Su análisis del ejercicio de trabajo grupal es notablemente detallado y reflexivo.",
+      "strengths": [
+        "Excelente aplicación de los 5 pasos metodológicos",
+        "Análisis profundo y reflexivo en situaciones cotidianas",
+        "Capacidad para identificar criterios de decisión relevantes"
+      ],
+      "improvements": [
+        "Mejorar aplicación en ejercicios específicos de física",
+        "Ganar confianza en problemas de tiro oblicuo",
+        "Practicar más la conexión teoría-práctica"
+      ],
+      "createdAt": "2025-01-09 08:50:00"
+    },
+    {
+      "feedbackId": "fb_fontan_2025081802",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Federica trabaja exitosamente con la Fase 3 del pensamiento crítico. Resuelve correctamente el ejercicio de tiro oblicuo, aunque menciona confusión al trabajar con ambos ejes simultáneamente.",
+      "strengths": [
+        "Correcta identificación de variables y objetivos",
+        "Buena selección de herramientas y fórmulas",
+        "Capacidad de justificar decisiones metodológicas"
+      ],
+      "improvements": [
+        "Practicar la integración de ambos ejes (x,y)",
+        "Clarificar el significado de variables",
+        "Mejorar confianza sin consultar fórmulas constantemente"
+      ],
+      "createdAt": "2025-01-09 08:51:00"
+    },
+    {
+      "feedbackId": "fb_fontan_2025082503",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Federica aplica exitosamente la Fase 4 completa. Resuelve correctamente el problema del béisbol calculando la altura máxima (33.75m) con procedimiento sistemático y reflexivo.",
+      "strengths": [
+        "Aplicación completa de las 4 fases metodológicas",
+        "Cálculo correcto de altura máxima",
+        "Excelente conexión con aplicaciones reales (tenis)"
+      ],
+      "improvements": [
+        "Mejorar la elaboración de diagramas visuales",
+        "Optimizar el tiempo de resolución",
+        "Ganar independencia sin guía teórica"
+      ],
+      "createdAt": "2025-01-09 08:52:00"
+    },
+    {
+      "feedbackId": "fb_fontan_2025090104",
+      "weekStart": "2025-09-01",
+      "score": 60,
+      "generalComments": "Federica enfrenta dificultades con los modelos de examen más complejos. Aunque aplica la metodología, reconoce un salto de dificultad significativo y necesidad de más práctica con fórmulas.",
+      "strengths": [
+        "Mantiene estructura metodológica en problemas complejos",
+        "Identifica variables relevantes vs irrelevantes",
+        "Conecta con aplicaciones cotidianas"
+      ],
+      "improvements": [
+        "Dominar fórmulas avanzadas del tiro oblicuo",
+        "Mejorar elaboración de diagramas",
+        "Practicar más problemas de nivel examen"
+      ],
+      "createdAt": "2025-01-09 08:53:00"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b4xi4_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Federica Fontan, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Muestras disposición para aprender y mejorar en esta fase",
+        "Reconoces las dificultades que enfrentas en el proceso"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los temas trabajados proporcionando mayor detalle en tus respuestas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas y desarrolla estrategias específicas para superarlas"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b4xi4_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Federica Fontan, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Muestras disposición para aprender y mejorar en esta fase",
+        "Reconoces las dificultades que enfrentas en el proceso"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los temas trabajados proporcionando mayor detalle en tus respuestas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas y desarrolla estrategias específicas para superarlas"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b4xi4_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Federica Fontan, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Muestras disposición para aprender y mejorar en esta fase",
+        "Reconoces las dificultades que enfrentas en el proceso"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los temas trabajados proporcionando mayor detalle en tus respuestas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas y desarrolla estrategias específicas para superarlas"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b4xi4_2025-09-29_008",
+      "weekStart": "2025-09-29",
+      "score": 59,
+      "generalComments": "Querida Federica Fontan, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Muestras disposición para aprender y mejorar en esta fase",
+        "Reconoces las dificultades que enfrentas en el proceso"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los temas trabajados proporcionando mayor detalle en tus respuestas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Identifica con mayor precisión las dificultades que enfrentas y desarrolla estrategias específicas para superarlas"
+      ],
+      "createdAt": "2025-10-07T12:00:00.000Z"
+    },
+    {
+      "feedbackId": "28e23f6d-cc91-478d-859f-f0e13a688188",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:04.510Z"
+    },
+    {
+      "feedbackId": "20f1a0a7-16b3-413a-aaf2-4f2f02b9bb3c",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:54:24.452Z"
+    },
+    {
+      "feedbackId": "186ed598-f41d-4e72-ae00-a2f5d0be9c72",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:51:42.323Z"
+    },
+    {
+      "feedbackId": "56d30f9b-c2ce-409e-a4d4-578d4204122a",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:37:21.808Z"
+    },
+    {
+      "feedbackId": "8515d4c2-b830-4602-b298-55c792bfd611",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando y representando fuerzas en diagramas de cuerpo libre. Tu descripción del problema resuelto es clara y sistemática, y demuestras que comprendes cómo funcionan las fuerzas en situaciones básicas. Además, tu honestidad al reconocer que necesitas más práctica muestra madurez.\n\nSin embargo, tu reporte está en un nivel intermedio porque te falta profundidad en la clasificación de variables y en la reflexión metacognitiva. Notamos que en Q3 identificas una dificultad real (planos elevados), pero no propones estrategias para superarla. En Q5, dejaste la respuesta vacía, perdiendo una oportunidad valiosa de reflexión.\n\nPara la próxima semana, enfócate en: (1) clasificar explícitamente cada variable como conocida/desconocida, (2) proponer estrategias concretas cuando encuentres dificultades, y (3) reflexionar profundamente sobre el *por qué* de lo que aprendes, no solo el *qué*.",
+      "strengths": "• Claridad en la descripción del DCL: Tu explicación paso a paso del problema (ejes, rectángulo, flechas, valores) es muy ordenada y fácil de seguir. Esto muestra que comprendes bien la representación visual de fuerzas.\n• Autoconciencia sobre tu nivel de dominio: Reconoces honestamente que necesitas más práctica y teoría guiada. Esta metacognición es fundamental para mejorar y muestra madurez en tu aprendizaje.\n• Conexión con aprendizajes previos: Relacionas el DCL con el trabajo de la semana anterior sobre situaciones cotidianas, demostrando que integras conceptos entre sesiones.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar qué variables son *conocidas* (100 N, 5 N, 20 kg) y cuáles *desconocidas* (peso, aceleración). Crea una tabla simple: \"Conocidas: fuerza aplicada = 100 N... Desconocidas: peso = ?\". Esto es clave en Fase 2.\n• Estrategias concretas para resolver dificultades: En Q3, no solo digas \"me resulta difícil\", sino propón soluciones. Por ejemplo: \"Para entender planos elevados, usaré la estrategia de descomponer vectores en componentes paralelas y perpendiculares al plano\". Esto demuestra pensamiento crítico activo.\n• Reflexión profunda en comentarios adicionales: Q5 no debe quedar vacía. Reflexiona sobre preguntas como: ¿Por qué es importante identificar variables antes de resolver un problema? ¿Cómo cambiaría tu análisis si el plano estuviera inclinado a 45°? Esto enriquece tu pensamiento.",
+      "createdAt": "2025-10-27T05:05:55.074Z"
+    },
+    {
+      "feedbackId": "0d94dbb7-79f9-4041-b8ab-ac256a4d875b",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Reconozco tu esfuerzo esta semana y tu honestidad al evaluar tu propio desempeño. Tu resolución del ejercicio del automóvil demuestra que *tienes capacidad* para aplicar fórmulas correctamente cuando el problema es directo. Eso es un logro real.\n\nSin embargo, noto que tu dificultad principal no es matemática, sino en la *interpretación* de problemas complejos (como los que incluyen tensión o múltiples objetos). Esto es normal en Fase 2, pero necesitas pasar de \"entender cuando me lo explican\" a \"identificar variables por tu cuenta\".\n\nPara la próxima semana, te propongo: (1) Haz una lista de \"tipos de variables\" que aparecen en dinámica (peso, tensión, fricción, normal, aplicada) y dibuja cómo se ven en un DCL. (2) Resuelve 2-3 ejercicios simples de un objeto antes de intentar sistemas con dos objetos. (3) Pide al docente que te muestre cómo clasificaría las variables en un problema *antes* de resolverlo. Esto te dará el modelo mental que necesitas.",
+      "strengths": "• Procedimiento matemático sistemático: En Q2, tu resolución del ejercicio es ordenada y correcta. Conviertes unidades, despejas incógnitas paso a paso y llegas al resultado (1653N). Esto muestra que *sí* puedes aplicar fórmulas cuando el contexto es claro.\n• Autoconciencia sobre limitaciones: Reconoces honestamente en Q1 que tienes \"nivel 2\" y que necesitas explicación para entender. Esta honestidad es valiosa porque te permite identificar dónde pedir ayuda específicamente.\n• Conexión entre conceptos: En Q4, relacionas dinámica con cinemática, lo que muestra que ves que los temas no están aislados. Esto es el inicio de pensamiento integrador que necesitas fortalecer.",
+      "improvements": "• Clasificación explícita de variables: En tus respuestas, no distingues entre variables conocidas (masa=950kg, tiempo=8s) y desconocidas (fuerza). Crea una tabla simple en cada ejercicio: \"Datos\" | \"Incógnitas\" | \"Tipo (controlable/no controlable)\". Esto te ayudará a organizar mentalmente qué tienes y qué buscas.\n• Estrategias concretas para DCL: Tu dificultad con diagramas de cuerpo libre es crítica. Practica este proceso: (1) Identifica el objeto, (2) Lista TODAS las fuerzas (peso, tensión, fricción, normal), (3) Dibuja vectores desde el centro del objeto. Pide al docente que resuelva 3 ejercicios contigo usando este orden exacto.\n• Profundidad en conexiones: Cuando relacionas temas, ve más allá. En lugar de \"ambos estudian movimiento\", escribe: \"En cinemática calculo velocidad y aceleración; en dinámica uso esa aceleración para encontrar fuerzas con F=m.a\". Esto muestra cómo las variables de una fase alimentan la siguiente.",
+      "createdAt": "2025-11-03T12:22:19.511Z"
+    },
+    {
+      "feedbackId": "da1d394e-ce4c-49d8-9d17-5bc77d6b4ace",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Hiciste un buen trabajo identificando cómo las leyes de Newton se aplican a tu proyecto del vehículo con globo. Tu comprensión conceptual es sólida y demuestras capacidad para conectar la teoría con situaciones reales, lo que es muy valioso.\n\nSin embargo, en Fase 2 necesitas ir más allá de los conceptos: debes aprender a identificar y clasificar sistemáticamente las variables de tus experimentos. Tu reporte se enfoca en explicar las leyes, pero no en listar qué variables mediste, cuáles controlaste y cuáles no. Esto es lo que diferencia Fase 2 de Fase 1.\n\nPara la próxima semana, te propongo que hagas una lista explícita de todas las variables de tu proyecto (al menos 8-10) y las clasifiques en una tabla. Esto te preparará mejor para análisis más complejos en fases posteriores.",
+      "strengths": "• Comprensión conceptual de las leyes de Newton: Tu explicación sobre cómo el globo vence la inercia y el vehículo se mueve \"en sentido contrario\" demuestra que entiendes el principio físico subyacente. Esto es un buen punto de partida para identificar variables.\n• Conexión con fenómenos reales: Relacionar el proyecto con \"el movimiento de un auto\" y reconocer que \"vivo cotidianamente pero nunca me detengo a analizar\" muestra disposición a ver la física en contextos auténticos, que es fundamental para Fase 2.\n• Trabajo colaborativo efectivo: Mencionas que con \"una clara representación visual y compañeros\" pudiste definir cómo actúan las fuerzas. Esto indica que aprovechas bien los recursos disponibles para resolver dificultades.",
+      "improvements": "• Identificación explícita de variables: Tu análisis se enfoca en conceptos (inercia, fuerza) pero no lista las variables del proyecto. Para mejorar, crea una tabla con: Variables conocidas (masa del globo, volumen de aire), desconocidas (aceleración final, distancia recorrida) y controlables (presión inicial, peso del vehículo). Esto es esencial en Fase 2.\n• Clasificación sistemática de magnitudes físicas: No distingues entre variables controlables (que puedes cambiar en el experimento) y no controlables (como la gravedad). En tu próximo análisis, identifica explícitamente cuál es cada una. Por ejemplo: \"La presión del globo es controlable, pero la fricción del aire es no controlable.\"\n• Reflexión metacognitiva más profunda en Q3 y Q5: Tus respuestas son muy breves. Necesitas explicar específicamente qué tipo de variables te costó identificar (¿fuerzas? ¿aceleraciones?) y qué estrategia usarías la próxima vez. Dedica 3-4 líneas a reflexionar sobre tu proceso de aprendizaje.",
+      "createdAt": "2025-11-12T22:54:26.407Z"
+    },
+    {
+      "feedbackId": "8eea339f-ead6-4e22-aa78-cabcda1487f2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que estás trabajando activamente en tu proyecto de dinámica y que intentas conectar las leyes de Newton con la construcción del vehículo. Eso es excelente. Sin embargo, tu reporte muestra que aún no estás aplicando completamente la Fase 2: necesitas ser más sistemático al identificar y clasificar las variables que intervienen en tu proyecto.\n\nTu mayor desafío esta semana fue la redacción formal del informe, no tanto la comprensión de conceptos. Esto es importante: la Fase 2 requiere que no solo entiendas las leyes, sino que identifiques con precisión qué variables controlas, cuáles mides y cuáles son desconocidas. Tu proyecto es perfecto para practicar esto.\n\nPara la próxima semana, te propongo que antes de escribir el informe, hagas una tabla con todas las variables de tu vehículo, las clasifiques y expliques cómo cada una afecta el movimiento. Esto te dará claridad para escribir con lenguaje más formal y completo.",
+      "strengths": "• Aplicación práctica del concepto: Relacionas la segunda ley de Newton directamente con tu proyecto (\"a menor peso le corresponde mayor aceleración\"), mostrando que intentas conectar teoría con la construcción del vehículo.\n• Honestidad metacognitiva: Reconoces explícitamente tu dificultad con la teoría y autoevalúas tu nivel como 3, lo que demuestra autoconciencia sobre tus limitaciones.\n• Conexión con fenómenos reales: Vinculas tu proyecto con autos reales, intentando transferir lo aprendido a contextos cotidianos, aunque necesite más profundidad.",
+      "improvements": "• Identificación sistemática de variables: En tu proyecto, debes listar explícitamente qué variables están presentes (masa del vehículo, fuerza aplicada, distancia recorrida, tiempo, fricción). Clasifica cada una como conocida/desconocida y controlable/no controlable. Esto es el corazón de Fase 2.\n• Formalización del lenguaje científico: Practicá escribir explicaciones usando términos precisos. Por ejemplo, en lugar de \"el vehículo pesa menos y recorre más distancia\", escribe: \"Al disminuir la masa (variable controlable), aumenta la aceleración (variable dependiente) para una fuerza constante\". Esto mejorará tu informe.\n• Completar reflexiones en Q5: No dejes espacios en blanco. Usa Q5 para reflexionar sobre qué aprendiste sobre variables esta semana, qué te sorprendió, o cómo cambió tu forma de ver el proyecto. Esto consolida tu aprendizaje y prepara la siguiente fase.",
+      "createdAt": "2025-11-17T13:56:30.842Z"
+    }
+  ]
+}

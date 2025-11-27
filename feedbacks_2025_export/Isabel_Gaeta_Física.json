@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "studentId": "u_h08h8vyowme0b6fc8",
+    "studentName": "Isabel Gaeta",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.204965",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 64.18,
+      "minScore": 40,
+      "maxScore": 91,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_gaeta_2025080401",
+      "weekStart": "2025-08-04",
+      "score": 72,
+      "generalComments": "Isabel demuestra buena comprensión del pensamiento crítico y sus fundamentos. Identifica correctamente los 5 pasos y reconoce áreas de mejora personal en la evaluación de consecuencias.",
+      "strengths": [
+        "Identifica correctamente el pensamiento crítico",
+        "Comprende los 5 pasos metodológicos",
+        "Autoevaluación reflexiva y honesta"
+      ],
+      "improvements": [
+        "Practicar más la evaluación de consecuencias",
+        "Mejorar rapidez en el análisis",
+        "Organizar mejor las ideas iniciales"
+      ],
+      "createdAt": "2025-01-09 08:56:00"
+    },
+    {
+      "feedbackId": "fb_gaeta_2025081102",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Isabel trabaja efectivamente con la recopilación de información y variables. Aplica correctamente el método a problemas cotidianos como el de Ana, aunque reconoce necesitar más práctica.",
+      "strengths": [
+        "Identifica variables correctamente",
+        "Aplica metodología a problemas cotidianos",
+        "Conecta con otras materias (matemática, química)"
+      ],
+      "improvements": [
+        "Mejorar categorización de variables",
+        "Evitar simplificar excesivamente",
+        "Profundizar en el análisis sistemático"
+      ],
+      "createdAt": "2025-01-09 08:57:00"
+    },
+    {
+      "feedbackId": "fb_gaeta_2025081803",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Isabel muestra comprensión variable del tiro oblicuo. Entiende conceptos básicos pero tiene dificultades con la selección de ecuaciones y elaboración de esquemas visuales.",
+      "strengths": [
+        "Identifica variables y objetivos",
+        "Comprende conceptos previos (MRU/MRUV)",
+        "Resuelve con apoyo teórico"
+      ],
+      "improvements": [
+        "Mejorar selección de ecuaciones específicas",
+        "Practicar elaboración de esquemas",
+        "Ganar confianza sin teoría presente"
+      ],
+      "createdAt": "2025-01-09 08:58:00"
+    },
+    {
+      "feedbackId": "fb_gaeta_2025082504",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Isabel aplica exitosamente las 4 fases completas. Resuelve correctamente el problema del béisbol calculando altura máxima de 33.75m con procedimiento detallado y organizado.",
+      "strengths": [
+        "Aplicación completa de las 4 fases",
+        "Cálculo correcto con resultado preciso",
+        "Identifica variables explícitas e implícitas"
+      ],
+      "improvements": [
+        "Mejorar explicación del proceso",
+        "Consolidar selección de fórmulas",
+        "Ganar independencia sin ayuda"
+      ],
+      "createdAt": "2025-01-09 08:59:00"
+    },
+    {
+      "feedbackId": "fb_gaeta_2025090105",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Isabel enfrenta un problema complejo de construcción. Aplica las 4 fases, identifica variables irrelevantes correctamente y llega a conclusión razonada aunque con algunas dificultades.",
+      "strengths": [
+        "Identifica variables irrelevantes (peso, viento)",
+        "Calcula tiempo y posición final",
+        "Llega a conclusión lógica correcta"
+      ],
+      "improvements": [
+        "Mejorar comprensión de enunciados complejos",
+        "Perfeccionar representación gráfica",
+        "Trabajar problemas sin ángulo dado"
+      ],
+      "createdAt": "2025-01-09 09:00:00"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b6fc8_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 43,
+      "generalComments": "Querida Isabel Gaeta,\n\nDebido a que esta semana fue de evaluación con la prueba de Física, no fue posible evaluar completamente tu progreso en el desarrollo del pensamiento crítico durante esta semana. Reconoces que la prueba no te resultó muy complicada, mostrando confianza en tu preparación.\n\nEs fundamental proporcionar evidencias de tu proceso de aprendizaje incluso en semanas de evaluación, reflexionando sobre las estrategias usadas. Te recomiendo explicitar qué conceptos aplicaste durante la prueba y qué dificultades específicas encontraste más allá de la velocidad al impactar el suelo. Desarrolla el hábito de reflexión post-evaluación para fortalecer tu metacognición.\n\nTe sugiero coordinar conmigo para conversar sobre cómo te fue en la prueba y reforzar los conceptos que necesites.",
+      "strengths": [
+        "Muestra confianza al evaluar que la prueba no fue muy complicada",
+        "Identifica dificultad específica (resolver velocidad al impactar el suelo)",
+        "Honestidad en su autoevaluación como nivel 3"
+      ],
+      "improvements": [
+        "Es fundamental proporcionar evidencias de tu proceso de aprendizaje incluso en semanas de evaluación",
+        "Reflexiona sobre qué estrategias de las 4 fases aplicaste durante la prueba",
+        "Desarrolla el hábito de reflexión post-evaluación identificando qué conceptos dominaste y cuáles necesitas reforzar"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b6fc8_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 40,
+      "generalComments": "Querida Isabel Gaeta,\n\nDebido a que esta semana no se trabajó con Física sino que se dedicó a repasar para la prueba de Química, no fue posible evaluar tu progreso específico en Física durante este período. Mantienes tu autoevaluación en nivel 3, mostrando confianza en tu comprensión acumulada.\n\nEs importante aprovechar semanas sin contenido nuevo para reflexionar sobre aprendizajes previos y consolidar conceptos. Te recomiendo incluir reflexiones sobre cómo los conceptos de Física se relacionan con Química. Cuando no haya clases de una materia, usa el espacio para revisar contenidos anteriores que necesites reforzar.\n\nEstoy disponible para apoyarte en tu proceso de aprendizaje cuando retomemos los contenidos de Física.",
+      "strengths": [
+        "Mantiene claridad sobre su nivel de comprensión acumulado (nivel 3)",
+        "Honestidad al reportar que no hubo trabajo de Física esta semana",
+        "Dedicación al estudio de Química como prioridad semanal"
+      ],
+      "improvements": [
+        "Aprovecha semanas sin contenido nuevo de Física para reflexionar sobre aprendizajes previos",
+        "Identifica conexiones entre los conceptos de Física y Química que estás repasando",
+        "Usa el espacio del reporte para revisar mentalmente conceptos anteriores que necesites consolidar"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b6fc8_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 40,
+      "generalComments": "Querida Isabel Gaeta,\n\nDebido a que esta semana continuaste trabajando con Química en preparación para la prueba, no fue posible evaluar tu progreso en Física durante este período. Muestras satisfacción con tu desempeño en la prueba anterior de Física, manteniendo tu autoevaluación en nivel 3.\n\nEs valioso que reflexiones sobre tu desempeño en la prueba de Física y mantengas confianza en tu comprensión. Te sugiero aprovechar estas pausas para consolidar mentalmente los conceptos de tiro oblicuo y leyes de Newton que has trabajado. Cuando retomemos Física, estarás bien posicionada para continuar.\n\nEstoy disponible para retomar contenidos cuando finalice el período de evaluaciones de Química.",
+      "strengths": [
+        "Muestra satisfacción y confianza con su desempeño en la prueba de Física",
+        "Mantiene claridad sobre su nivel de comprensión (nivel 3)",
+        "Gestiona adecuadamente las prioridades académicas según calendarios de evaluación"
+      ],
+      "improvements": [
+        "Aprovecha pausas en el contenido de Física para consolidar mentalmente conceptos trabajados",
+        "Reflexiona sobre qué aprendiste en la prueba de Física que te sirvió",
+        "Mantén presentes los conceptos de tiro oblicuo para cuando se retomen contenidos nuevos"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b6fc8_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 67,
+      "generalComments": "Querida Isabel Gaeta,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema con el nuevo tema de Leyes de Newton, mostrando avances parciales en Física. Tu capacidad para problematizar situaciones cotidianas aplicando el Principio de Inercia es notable, como se ve en tu ejemplo del colectivo. Conectas el Principio de Inercia con fenómenos reales de la vida diaria.\n\nTe recomiendo practicar la distinción entre conceptos fundamentales como peso y masa. Es fundamental fortalecer tu comprensión de los conceptos básicos de las Leyes de Newton antes de avanzar. Proporciona evidencias más concretas en los comentarios adicionales.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Conecta el Principio de Inercia con fenómenos reales de la vida diaria (frenado del colectivo)",
+        "Muestra honestidad y realismo al evaluar su comprensión en un tema nuevo (nivel 2/3)",
+        "Reconoce que necesita más práctica y atención para comprender al cien por ciento"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre conceptos fundamentales como peso y masa",
+        "Es fundamental fortalecer tu comprensión de los conceptos básicos de las Leyes de Newton",
+        "Profundiza en ejemplos que te ayuden a clarificar las diferencias conceptuales"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "356c5aeb-2b49-462a-9c68-a28ebcda640c",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:06:51.418Z"
+    },
+    {
+      "feedbackId": "997e52fa-3046-451e-b8e1-1d6f85effa82",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:26:43.938Z"
+    },
+    {
+      "feedbackId": "79963f71-5530-40a9-accc-b4eddf6464fb",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:49:00.128Z"
+    },
+    {
+      "feedbackId": "5784a2cb-5c38-4955-8cc3-b2a143f99a6d",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:32:46.210Z"
+    },
+    {
+      "feedbackId": "f3758ed6-df39-4acf-8a6a-4967b50efe32",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Hiciste un buen trabajo esta semana dominando la representación visual de diagramas de cuerpo libre. Tu capacidad para identificar y dibujar correctamente todas las fuerzas en un problema muestra que comprendiste el tema práctico. Además, conectaste bien lo aprendido con la Segunda Ley de Newton y situaciones reales, lo que es excelente.\n\nSin embargo, tu reporte semanal no refleja completamente el nivel de análisis que esperamos en Fase 2. Necesitas ir más allá de \"sé dibujar un DCL\" y profundizar en *clasificar y analizar* las variables: cuáles son conocidas, cuáles desconocidas, cuáles puedo controlar. Esto es lo que diferencia un nivel 3 de un nivel 4.\n\nPara la próxima semana, te pido que: (1) en cada problema, hagas una lista explícita clasificando variables, (2) reflexiones honestamente sobre dificultades específicas, y (3) completes todas las preguntas del reporte con respuestas que muestren pensamiento crítico, no solo \"no\" o respuestas genéricas.",
+      "strengths": "• Dominio práctico del DCL: Tu descripción del ejercicio es clara y precisa. Identificas correctamente todas las fuerzas (aplicada, rozamiento, peso, normal) y sus direcciones, demostrando que comprendes cómo representar visualmente un problema de fuerzas.\n• Conexión con conceptos previos: Relacionas el DCL con la Segunda Ley de Newton (F=ma) y mencionas la fórmula p=m·g, mostrando que integras conocimientos de Fase 1 con lo nuevo aprendido esta semana.\n• Autoevaluación realista: Tu estimación de nivel 3/4 es honesta y coherente con tu desempeño. Reconoces que aprendiste a posicionar variables y dibujar flechas correctamente, lo que muestra autoconciencia sobre tu progreso.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar cuáles variables son conocidas (100N, 5N, 20kg) y cuáles desconocidas (aceleración, fuerza neta). Esto es central en Fase 2. Practica haciendo una tabla: \"Conocidas | Desconocidas | Controlables | No controlables\" para cada problema.\n• Reflexión metacognitiva más profunda: Tu respuesta en Q3 es superficial. En lugar de \"no tuve complicaciones,\" analiza específicamente: ¿Qué te costó? ¿Confundir peso con masa? ¿Direcciones de fuerzas en planos inclinados? Sé concreto para identificar qué necesitas reforzar.\n• Respuesta completa en Q5: No dejes preguntas abiertas con \"no.\" Usa este espacio para reflexionar sobre cómo el DCL te ayuda a entender mejor los fenómenos físicos, o qué descubriste esta semana sobre la importancia de identificar todas las fuerzas. Aunque sea una línea, muestra pensamiento crítico.",
+      "createdAt": "2025-10-27T04:58:37.449Z"
+    },
+    {
+      "feedbackId": "42660f4e-be34-4035-bb1b-fd53491b3a99",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Hiciste un buen trabajo resolviendo el ejercicio de dinámica con precisión en cálculos y conversiones. Eso muestra que dominas la parte operativa de la Segunda Ley de Newton. Sin embargo, tu reporte no refleja completamente lo que se espera en Fase 2: identificar y clasificar variables de forma sistemática.\n\nEsta semana avanzaste en aplicar fórmulas, pero necesitas dar un paso más: antes de resolver, analiza *qué variables tienes, cuáles buscas y cómo se relacionan*. Eso es el corazón del pensamiento crítico en Física.\n\nPara la próxima semana, te propongo que en cada problema hagas una tabla de variables (conocidas/desconocidas) antes de calcular. También dedica tiempo específico a los diagramas de cuerpo libre: dibuja 5 ejemplos diferentes identificando cada fuerza. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Precisión en cálculos: Tu resolución del ejercicio muestra dominio técnico. Conviertes correctamente unidades (50 km/h → 13,89 m/s), aplicas la fórmula de aceleración y calculas la fuerza con exactitud (1653 N). Esto demuestra que comprendes la mecánica operativa.\n• Reconocimiento de dificultades: Identificas honestamente que los diagramas de cuerpo libre te cuestan trabajo. Esta autoconciencia es valiosa para mejorar, aunque necesita más detalle.\n• Conexión con temas previos: Relacionas la Segunda Ley de Newton con movimiento rectilíneo acelerado, mostrando que integras conceptos de sesiones anteriores.",
+      "improvements": "• Precisión en cálculos: Tu resolución del ejercicio muestra dominio técnico. Conviertes correctamente unidades (50 km/h → 13,89 m/s), aplicas la fórmula de aceleración y calculas la fuerza con exactitud (1653 N). Esto demuestra que comprendes la mecánica operativa.\n• Reconocimiento de dificultades: Identificas honestamente que los diagramas de cuerpo libre te cuestan trabajo. Esta autoconciencia es valiosa para mejorar, aunque necesita más detalle.\n• Conexión con temas previos: Relacionas la Segunda Ley de Newton con movimiento rectilíneo acelerado, mostrando que integras conceptos de sesiones anteriores. MEJORAS",
+      "createdAt": "2025-11-03T12:24:38.913Z"
+    },
+    {
+      "feedbackId": "7c3772c4-134f-4eb3-8388-17f9f3633b7d",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 78,
+      "generalComments": "Excelente semana, has mostrado progreso real en tu metodología de trabajo. Tu resolución del problema del trineo es clara y correcta, y lo más importante es que *entiendes* por qué la respuesta tiene sentido físico. La integración de Fase 1 (DCL) con Fase 2 (identificación de variables) está funcionando bien en ti.\n\nTu desempeño general es sólido: pasaste de resolver ejercicios mecánicamente a hacerlo con comprensión. Sin embargo, necesitas ser más crítico contigo mismo. Cuando dices \"no tuve dificultades\", pierdes la oportunidad de reflexionar profundamente sobre tu aprendizaje. El pensamiento crítico requiere cuestionarse constantemente.\n\nPara la próxima semana, te propongo: (1) identifica honestamente al menos dos desafíos reales que enfrentaste, (2) profundiza en las relaciones entre variables (no solo las listes), y (3) practica explicar *por qué* cada variable es importante en un problema. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Aplicación sistemática de Fase 2: Tu trabajo en el problema del trineo muestra que ya integras la metodología: listas variables, haces DCL y luego calculas. Esto es exactamente lo que buscamos en esta fase.\n• Comprensión conceptual del rozamiento: Distingues claramente entre rozamiento estático y dinámico, y entiendes que el estático es mayor. Tu reflexión \"se necesita más fuerza para arrancar\" demuestra que no solo calculas, sino que *comprendes* el fenómeno.\n• Mejora en organización: Reconoces que ordenar datos antes de calcular te da más seguridad. Este cambio de hábito es fundamental para resolver problemas más complejos en fases posteriores.",
+      "improvements": "• Reflexión más crítica en Q3: Afirmar que \"no tuviste dificultades\" no es realista. Te sugiero que identifiques al menos 2-3 desafíos específicos: ¿Confundes variables controlables con no controlables? ¿Te cuesta decidir qué es conocido vs. desconocido? Sé honesto contigo mismo; esto te ayuda a crecer.\n• Profundizar en relaciones entre variables: En Q1, mencionas variables pero no explicas cómo se relacionan. Por ejemplo: ¿cómo afecta la masa a la fuerza de rozamiento? ¿Por qué el coeficiente es adimensional? Conecta conceptualmente, no solo listes.\n• Expandir conexiones en Q4: Tus conexiones con MRU/MRUV son válidas pero superficiales. Intenta explicar: ¿cómo cambia la aceleración si aumenta el rozamiento? ¿Qué variables de dinámica controlan el movimiento en esos casos? Esto prepara la Fase 3.",
+      "createdAt": "2025-11-12T22:55:20.865Z"
+    },
+    {
+      "feedbackId": "2a64cdee-4383-4575-8bd5-913012fb8622",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 91,
+      "generalComments": "Excelente semana, has demostrado un avance significativo en tu pensamiento crítico. Tu capacidad para identificar y clasificar variables de forma sistemática, combinada con la aplicación práctica en el proyecto del vehículo a aire, muestra que realmente comprendiste los conceptos de Dinámica más allá de la teoría. Además, respondiste muy bien a la retroalimentación anterior, incorporando reflexión genuina sobre tus dificultades.\n\nTu desempeño general en la semana ha sido sólido: pasaste de listar variables a entender cómo se relacionan entre sí, y eso es un salto importante en pensamiento crítico. El hecho de que ya estés anticipando cómo aplicarías esto en Fase 3 (variando masa y superficie) demuestra que estás listo para el siguiente nivel.\n\nPara la próxima semana, te invito a profundizar en la *reflexión cualitativa* sobre tus descubrimientos. No solo registres qué pasó, sino *por qué* crees que pasó y qué te sorprendió. Esto te preparará mejor para Fase 3, donde necesitarás hacer predicciones y justificarlas con rigor.",
+      "strengths": "• Integración práctica de teoría: Conectas las Leyes de Newton directamente con el proyecto del vehículo a aire, demostrando que no solo repites conceptos sino que los aplicas en contextos reales. Ejemplo: \"la fuerza del aire del globo cambiaba la aceleración (F = m·a)\".\n• Metodología experimental rigurosa: Clasificas variables de forma precisa (independiente, dependiente, controladas) y realizas pruebas sistemáticas variando solo una cosa por vez. Esto muestra pensamiento crítico estructurado y control de variables profesional.\n• Metacognición y respuesta a retroalimentación: Reconoces explícitamente que",
+      "improvements": "• Integración práctica de teoría: Conectas las Leyes de Newton directamente con el proyecto del vehículo a aire, demostrando que no solo repites conceptos sino que los aplicas en contextos reales. Ejemplo: \"la fuerza del aire del globo cambiaba la aceleración (F = m·a)\".\n• Metodología experimental rigurosa: Clasificas variables de forma precisa (independiente, dependiente, controladas) y realizas pruebas sistemáticas variando solo una cosa por vez. Esto muestra pensamiento crítico estructurado y control de variables profesional.\n• Metacognición y respuesta a retroalimentación: Reconoces explícitamente que mejoraste en identificar relaciones entre variables y en reflexionar sobre dificultades, demostrando que incorporaste la retroalimentación anterior de forma genuina y consciente. MEJORAS",
+      "createdAt": "2025-11-17T13:58:54.861Z"
+    }
+  ]
+}

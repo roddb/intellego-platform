@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "u_euk2lhb2sme67brrn",
+    "studentName": "victoria cerredo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.246757",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 77.0,
+      "minScore": 76,
+      "maxScore": 79,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_e67brrn_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida victoria cerredo,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Tu evidencia del ejercicio del buffer acetato es especialmente completa, mostrando identificación sistemática de variables de composición, condiciones y rendimiento. Organizas adecuadamente los datos y la información disponible.\n\nEs importante desarrollar estrategias más específicas para superar tus desafíos con la clasificación de tipos de variables. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en los comentarios adicionales.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en el problema del buffer acetato con pH 4,8",
+        "Organizas adecuadamente los datos clasificándolos en variables de composición, condiciones y rendimiento",
+        "Reconoces las magnitudes químicas relevantes y sus categorías de clasificación"
+      ],
+      "improvements": [
+        "Desarrolla estrategias más específicas para identificar y clasificar los tipos de variables en lugar de 'practicar de todo un poco'",
+        "Identifica con mayor precisión las dificultades concretas que enfrentas en la clasificación de variables",
+        "Proporciona comentarios adicionales que reflejen tu reflexión sobre el proceso de aprendizaje de esta fase"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e67brrn_2025-08-25_002",
+      "weekStart": "2025-08-25",
+      "score": 76,
+      "generalComments": "Querida victoria cerredo,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas como Qc, Kc y el Principio de Le Chatelier para analizar equilibrios químicos. Identificas correctamente las relaciones entre variables en sistemas de equilibrio. Realizas conexiones interesantes entre equilibrio químico en tu materia, física (gases, presión) y biología (procesos bioquímicos).\n\nNecesitas fortalecer tu comprensión de la relación entre Kc y Kp para evitar confusión con fórmulas y unidades. Proporciona comentarios adicionales que reflejen tu reflexión sobre el proceso de selección de herramientas.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas Qc y Kc para determinar dirección de desplazamiento del equilibrio en la reacción de SO2",
+        "Identificas correctamente las relaciones entre constante de equilibrio y cociente de reacción",
+        "Realizas conexiones interdisciplinarias significativas entre equilibrio químico, física (gases, temperatura, presión) y biología (procesos bioquímicos)"
+      ],
+      "improvements": [
+        "Es fundamental consolidar tu comprensión de la relación entre Kc y Kp, prestando especial atención a las fórmulas y conversiones de unidades",
+        "Desarrolla estrategias para evitar confusión entre diferentes expresiones de constantes de equilibrio",
+        "Proporciona comentarios adicionales sobre tu proceso de selección y justificación de herramientas en esta fase"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_2_e67brrn_2025-09-15_003",
+      "weekStart": "2025-09-15",
+      "score": 79,
+      "generalComments": "Querida victoria cerredo,\n\nHas demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Tu trabajo en resolución del ejercicio de síntesis de amoniaco refleja integración exitosa de los conocimientos de las fases anteriores, mostrando capacidad para ejecutar cálculos sistemáticamente. Conectas explícitamente la resolución con \"todas las fases de las semanas anteriores\" que usas \"en conjunto para solucionar los problemas\".\n\nPodrías mejorar la identificación de puntos críticos específicos en tu proceso de resolución para fortalecer tu reflexión metacognitiva. Proporciona comentarios adicionales que muestren tu evolución en el dominio metodológico y disciplinar integrado.\n\n¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica en el problema de síntesis de NH3, calculando equilibrio y Kc correctamente",
+        "Integras exitosamente los conocimientos de las fases anteriores, reconociendo explícitamente que usas 'todas las fases' en conjunto",
+        "Demuestras confianza en tu proceso al mencionar que los ejercicios del modelo de examen 'salieron con bastante facilidad'"
+      ],
+      "improvements": [
+        "Identifica puntos críticos específicos en tu resolución en lugar de afirmar genéricamente que 'no tengo muchas dificultades'",
+        "Reflexiona sobre la eficiencia de tu método de resolución para desarrollar mayor conciencia metacognitiva",
+        "Proporciona comentarios adicionales que reflejen tu comprensión del proceso completo de 4 fases y tu evolución a lo largo del ciclo"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    }
+  ]
+}

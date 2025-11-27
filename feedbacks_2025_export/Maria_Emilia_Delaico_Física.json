@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "studentId": "u_tk1vcmquxme06mhr4",
+    "studentName": "Maria Emilia Delaico",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.217133",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 64.46,
+      "minScore": 50,
+      "maxScore": 81,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me06mhr4_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 64.5,
+      "generalComments": "Querida Maria Emilia Delaico,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Identificas dificultades específicas en la comprensión del problema, mostrando honestidad al reconocer que debe releer el material. Realizas conexiones interesantes entre el pensamiento crítico y situaciones de la vida cotidiana.\n\nTe recomiendo practicar la distinción entre información relevante e irrelevante en los problemas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Es importante mejorar la reflexión en los comentarios adicionales para maximizar tu aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas dificultades específicas relacionadas con recopilar información relevante.",
+        "Realizas conexiones con la vida cotidiana sobre cómo el pensamiento crítico ayuda a tomar decisiones.",
+        "Demuestras honestidad al autoevaluar tu nivel de dominio y reconocer necesidad de releer material."
+      ],
+      "improvements": [
+        "Te recomiendo practicar más ejercicios de distinción entre información relevante e irrelevante.",
+        "Proporciona ejemplos más específicos y concretos de tu proceso de aprendizaje en las evidencias.",
+        "Utiliza el espacio de comentarios adicionales para reflexionar sobre tu proceso y hacer consultas."
+      ],
+      "createdAt": "2025-10-07 16:29:21"
+    },
+    {
+      "feedbackId": "fb_002_3_me06mhr4_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 81,
+      "generalComments": "Querida Maria Emilia Delaico,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente las variables involucradas en el problema de Ana llegando tarde al colegio. Organizas adecuadamente los datos clasificándolos en conocidas, desconocidas, controlables y no controlables. Conectas la identificación de variables con tu situación personal, demostrando transferencia efectiva del aprendizaje.\n\nNecesitas fortalecer tu capacidad para identificar dificultades específicas con tipos de variables. Trabaja en expresar con mayor claridad y precisión las estrategias que utilizas para resolver los ejercicios.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas y clasificas correctamente las variables en el problema de Ana: conocidas, desconocidas, controlables y no controlables.",
+        "Demuestras excelente capacidad para conectar el ejercicio con tu situación personal de llegar tarde al colegio.",
+        "Presentas evidencias detalladas del proceso F1+F2, mostrando aplicación sistemática de las fases.",
+        "Reconoces la utilidad de consultar el material teórico para comparar tu razonamiento con los conceptos correctos."
+      ],
+      "improvements": [
+        "En la pregunta sobre dificultades, identifica con mayor precisión los desafíos que enfrentas al clasificar variables.",
+        "Desarrolla estrategias más específicas para manejar el volumen de ejercicios sin que afecte tu motivación.",
+        "Trabaja en expresar tus reflexiones con mayor profundidad en lugar de respuestas breves como 'ninguno en específico'."
+      ],
+      "createdAt": "2025-10-07 16:29:22"
+    },
+    {
+      "feedbackId": "fb_002_3_me06mhr4_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 65.3,
+      "generalComments": "Querida Maria Emilia Delaico,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Identificas dificultades específicas con la integración de tiro oblicuo y las fases del pensamiento crítico. Seleccionas apropiadamente el Grupo A de fórmulas básicas y proporcionas justificación de tu elección.\n\nNecesitas fortalecer tu criterio para aplicar las herramientas seleccionadas de manera completa. Proporciona evidencias más concretas del proceso de resolución, no solo la clasificación inicial. Es importante mejorar la reflexión en los comentarios adicionales para maximizar tu aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Seleccionas apropiadamente el Grupo A de fórmulas básicas para tiro oblicuo.",
+        "Proporcionas justificación clara de por qué eliges fórmulas básicas para los datos disponibles.",
+        "Identificas con honestidad múltiples dificultades: integración de temas, abreviaciones y verificación de respuestas.",
+        "Aplicas correctamente las fases F1, F2 y F3 de manera secuencial en el ejercicio."
+      ],
+      "improvements": [
+        "Debes completar el proceso de resolución más allá de la selección de herramientas, ejecutando los cálculos.",
+        "Es importante consolidar tu comprensión del tiro oblicuo consultando material de apoyo antes de aplicar fórmulas.",
+        "Trabaja en desarrollar mayor confianza en tus respuestas a través de verificación dimensional y numérica.",
+        "Utiliza el espacio de comentarios adicionales para hacer consultas específicas sobre lo que no entiendes."
+      ],
+      "createdAt": "2025-10-07 16:29:22"
+    },
+    {
+      "feedbackId": "fb_002_3_me06mhr4_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 61.5,
+      "generalComments": "Querida Maria Emilia Delaico,\n\nTe encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física bajo circunstancias desafiantes por pérdida de clases. Identificas claramente las dificultades relacionadas con la falta de tiempo de práctica debido al retiro espiritual. Intentas aplicar las cuatro fases de manera secuencial aunque la ejecución queda incompleta.\n\nEs importante mejorar la planificación de tu estrategia incluso con tiempo limitado, priorizando ejercicios clave. Necesitas ser más sistemática en la ejecución de los pasos de resolución para completar los problemas. Utiliza el espacio de comentarios adicionales para coordinar recuperación del material perdido.\n\nEstoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar para recuperar lo trabajado durante tu ausencia.",
+      "strengths": [
+        "Identificas con claridad las circunstancias que afectaron tu desempeño: pérdida de clases por retiro.",
+        "Aplicas la secuencia completa F1+F2+F3+F4 mostrando comprensión de la metodología.",
+        "Inicias correctamente los cálculos de componentes de velocidad (V0X, V0Y) demostrando conocimiento conceptual.",
+        "Demuestras honestidad al reconocer que no lograste terminar el ejercicio por falta de comprensión."
+      ],
+      "improvements": [
+        "Es prioritario coordinar conmigo para recuperar el material y práctica perdidos durante las ausencias.",
+        "Debes completar la ejecución de los problemas iniciados, trabajando paso a paso hasta obtener el resultado final.",
+        "Necesitas fortalecer tu comprensión del tiro oblicuo mediante estudio del material teórico antes de intentar ejercicios.",
+        "Trabaja en estrategias de gestión del tiempo para poder practicar incluso con menos días disponibles.",
+        "Utiliza comentarios adicionales para hacer consultas específicas en lugar de dejar el espacio vacío."
+      ],
+      "createdAt": "2025-10-07 16:29:22"
+    },
+    {
+      "feedbackId": "aeb45d1f-4bd6-440b-aa1b-e804cd673ad2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que trabajaste activamente en el proyecto del auto con globo y lograste resolver un problema práctico importante. Tu esfuerzo en el laboratorio es evidente, y es positivo que conectes el proyecto con la vida diaria.\n\nSin embargo, tu reporte no refleja el análisis profundo que esperamos en la Fase 2. Necesitas ir más allá de describir lo que hiciste: debes *analizar las variables* involucradas, clasificarlas y reflexionar sobre cómo afectan el sistema. Esto es lo que diferencia un reporte de pensamiento crítico de un simple resumen de actividades.\n\nPara la próxima semana, te pido que dediques tiempo a identificar explícitamente todas las variables de tu proyecto (masa, velocidad, presión, distancia, etc.), las clasifiques según si son conocidas/desconocidas y controlables/no controlables, y reflexiones sobre cómo cada una influye en los resultados. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Resolución práctica de problemas: Identificaste un obstáculo real (ruedas trabadas) y aplicaste una solución directa. Esto muestra capacidad de observación y acción en el laboratorio.\n• Conexión con contexto real: Reconoces que el peso afecta la velocidad del auto, vinculando el proyecto con fenómenos cotidianos. Es un buen punto de partida para entender variables.\n• Trabajo colaborativo: Mencionas \"nosotras elegimos\", lo que indica participación activa en equipo y compromiso con el proyecto.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En tu próximo reporte, haz una lista clara de variables. Por ejemplo: \"Variables conocidas: medidas del auto (10x15), tipo de globo. Variables desconocidas: presión del aire, velocidad máxima. Variables controlables: peso del auto, tamaño del globo.\" Esto es fundamental para la Fase 2.\n• Profundizar en el análisis de dificultades: Cuando menciones un problema como las ruedas trabadas, explica *por qué* ocurrió. Pregúntate: ¿Qué variable física causó esto? (altura del eje, fricción, peso). Esto desarrolla tu pensamiento crítico y metacognición.\n• Completar todas las respuestas con reflexión: La pregunta 5 requiere comentarios adicionales. Dedica tiempo a reflexionar: ¿Qué aprendiste sobre variables esta semana? ¿Cómo evolucionó tu comprensión desde la Fase 1? Esto es clave para demostrar pensamiento crítico.",
+      "createdAt": "2025-11-17T13:46:28.841Z"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "studentId": "u_r9e5ufdasme0b8zqx",
+    "studentName": "Juliana Ceriani Cernadas",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.211419",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 58.33,
+      "minScore": 27,
+      "maxScore": 82,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_20250921225329_jcc1",
+      "weekStart": "2025-08-04",
+      "score": 52,
+      "generalComments": "Juliana, comprendo que estuviste ausente por el viaje estudiantil a Londres. Es importante que te pongas al día con los contenidos de Fase 1 sobre identificación y comprensión del problema en química. Contacta a tus compañeros para obtener los materiales trabajados.",
+      "strengths": [
+        "Cumplimiento con la entrega del reporte pese a la ausencia",
+        "Comunicación clara de la situación especial",
+        "Responsabilidad al informar sobre el viaje estudiantil"
+      ],
+      "improvements": [
+        "Solicitar materiales y ejercicios de la semana perdida",
+        "Identificar los temas de Fase 1 trabajados en clase",
+        "Programar sesión de recuperación con compañeros",
+        "Revisar los fundamentos del pensamiento crítico en química"
+      ],
+      "createdAt": "2025-09-21 22:53:29"
+    },
+    {
+      "feedbackId": "fb_20250921225427_jcc2",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Buen trabajo, Juliana! Has logrado identificar correctamente el problema de Ana con los neumáticos, mostrando comprensión de la Fase 1. Tu análisis sobre la importancia del pensamiento sistemático es acertado. Aunque mencionas dificultades con la teoría, tu respuesta demuestra buena comprensión conceptual.",
+      "strengths": [
+        "Identificación clara del problema y objetivo en el caso de Ana",
+        "Comprensión de la importancia del pensamiento sistemático",
+        "Uso responsable de herramientas de apoyo (IA)",
+        "Conexión con conocimientos previos de fisicoquímica"
+      ],
+      "improvements": [
+        "Profundizar en la teoría de gases ideales",
+        "Practicar más la aplicación del método de 5 pasos",
+        "Mejorar la confianza en el análisis de información",
+        "Solicitar explicación adicional de conceptos teóricos"
+      ],
+      "createdAt": "2025-09-21 22:54:27"
+    },
+    {
+      "feedbackId": "fb_20250921225525_jcc3",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Buen trabajo, Juliana! Has demostrado comprensión de la Fase 3 al seleccionar correctamente el método B (ecuación general) para resolver el problema de gases. Tu análisis de variables es claro y tu estrategia de resolución es apropiada. Es normal tener dificultades con las leyes específicas al principio.",
+      "strengths": [
+        "Selección correcta del método B (ecuación general)",
+        "Identificación clara de variables conocidas y desconocidas",
+        "Estrategia de resolución bien estructurada",
+        "Reconocimiento de propiedades de estados de la materia"
+      ],
+      "improvements": [
+        "Practicar las leyes específicas de gases (Boyle, Charles, Gay-Lussac)",
+        "Memorizar las unidades de cada variable (L=litros, atm=atmósferas)",
+        "Resolver más ejercicios con la ecuación fundamental PV=nRT",
+        "Crear un cuadro resumen con las diferentes leyes y cuándo usarlas"
+      ],
+      "createdAt": "2025-09-21 22:55:25"
+    },
+    {
+      "feedbackId": "fb_20250921225611_jcc4",
+      "weekStart": "2025-08-25",
+      "score": 58,
+      "generalComments": "Juliana, aunque mencionas dificultades, tu resolución del ejercicio muestra que SÍ puedes aplicar las fórmulas correctamente. Calculaste bien T2=202K usando la ley combinada. Tienes más habilidad de la que crees. Es normal que los ejercicios de mezclas sean más complejos al principio.",
+      "strengths": [
+        "Identificación correcta del problema y objetivo",
+        "Cálculo correcto de T2=202K",
+        "Uso apropiado de la ley combinada de gases",
+        "Proceso algebraico bien ejecutado con simplificación de variables"
+      ],
+      "improvements": [
+        "Practicar más para ganar confianza en tus habilidades",
+        "Crear un formulario personal con las leyes y sus usos",
+        "Pedir explicación específica sobre mezclas de gases",
+        "Trabajar la interpretación de enunciados con ejercicios graduales",
+        "Reconocer tus logros: tu resolución fue correcta"
+      ],
+      "createdAt": "2025-09-21 22:56:11"
+    },
+    {
+      "feedbackId": "fb_20250921225714_jcc5",
+      "weekStart": "2025-09-01",
+      "score": 58,
+      "generalComments": "Juliana, excelente resolución del problema del buzo! Aplicaste correctamente las 4 fases y obtuviste V=12.71L con PV=nRT. Identificaste bien qué variables eran relevantes (descartaste correctamente los datos del tanque). Tu capacidad de análisis es mejor de lo que crees.",
+      "strengths": [
+        "Aplicación sistemática de las 4 fases del pensamiento crítico",
+        "Cálculo correcto del volumen de burbujas (12.71L)",
+        "Excelente identificación de variables relevantes vs irrelevantes",
+        "Conversión correcta de temperatura a Kelvin"
+      ],
+      "improvements": [
+        "Practicar más para ganar confianza en tus habilidades",
+        "Crear esquemas para organizar información en problemas complejos",
+        "Reconocer tus éxitos: resolviste correctamente un problema difícil",
+        "Trabajar ejercicios con información múltiple de forma gradual"
+      ],
+      "createdAt": "2025-09-21 22:57:14"
+    },
+    {
+      "feedbackId": "fb_20250921225802_jcc6",
+      "weekStart": "2025-09-08",
+      "score": 76,
+      "generalComments": "Muy bien, Juliana! Se nota tu progreso y mayor confianza. Calculaste correctamente la masa de N2 (578.76g) y el nuevo volumen (500L) usando Boyle. Tu comprensión de las fórmulas principales ha mejorado notablemente. ¡Sigue así!",
+      "strengths": [
+        "Cálculos correctos de masa (578.76g) y volumen (500L)",
+        "Aplicación apropiada de PV=nRT y ley de Boyle",
+        "Conexión efectiva con el tema de magnitudes molares",
+        "Mejora notable en confianza y autonomía",
+        "Proceso de resolución claro y sistemático"
+      ],
+      "improvements": [
+        "Continuar practicando para consolidar la confianza",
+        "Explorar diferentes estrategias de resolución",
+        "Mantener este nivel de análisis sistemático",
+        "Celebrar tu progreso evidente"
+      ],
+      "createdAt": "2025-09-21 22:58:02"
+    },
+    {
+      "feedbackId": "fb_002_2_asme0b8zqx_20251005_010",
+      "weekStart": "2025-09-15",
+      "score": 82,
+      "generalComments": "Juliana, tu reporte muestra un nivel de competencia muy alto en la Fase 4. Tu autoevaluación en Nivel 3 es acertada y refleja humildad saludable. El problema que resolviste (comparación de volúmenes de diferentes gases con misma masa, T y P) requiere pensamiento sistemático y lo ejecutaste de manera impecable. Calculaste la masa molar de cada sustancia (SO3, CH4, O3, NH3), determinaste sus moles, aplicaste PV=nRT para cada una y comparaste resultados, llegando correctamente a que CH4 ocupa mayor volumen (284.2 L). Tu dificultad con interpretación de enunciados es normal en problemas complejos y está mejorando según tu trabajo.",
+      "strengths": [
+        "Resolviste un problema comparativo de alta complejidad con 4 sustancias diferentes",
+        "Calculaste correctamente las masas molares de todas las sustancias (SO3=80, CH4=16, O3=48, NH3=17 g/mol)",
+        "Aplicaste sistemáticamente PV=nRT para cada sustancia",
+        "Realizaste conversiones de unidades apropiadas (32°C a 305K, 850 mmHg a 1.1 atm)",
+        "Comparaste resultados y estableciste una conclusión clara",
+        "Conectaste el tema con magnitudes moleculares (tema anterior)"
+      ],
+      "improvements": [
+        "Practica la lectura analítica de enunciados identificando primero qué se compara",
+        "Desarrolla estrategias para organizar múltiples cálculos paralelos (tablas comparativas)",
+        "Considera verificar si tus resultados tienen coherencia conceptual (más moles → más volumen)",
+        "Explora diferentes estrategias para resolver el mismo problema y evalúa cuál es más eficiente"
+      ],
+      "createdAt": "2025-10-05 19:54:46"
+    },
+    {
+      "feedbackId": "fb_002_2_asme0b8zqx_20251005_011",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Juliana, entiendo que esta semana no tuvieron clases por la ausencia del profesor debido al viaje escolar a Madryn. Es una situación excepcional y justificada. Sin embargo, te invito a usar estas semanas sin clases presenciales como oportunidades para fortalecer tu aprendizaje autónomo. Podrías repasar contenidos previos, resolver ejercicios adicionales o reflexionar sobre temas que necesitas profundizar. El reporte semanal puede ser un espacio valioso para documentar este trabajo independiente.",
+      "strengths": [
+        "Comunicaste claramente el motivo de la ausencia de actividades",
+        "Mantuviste la responsabilidad de completar el reporte semanal",
+        "Fuiste honesta respecto a la situación de la semana"
+      ],
+      "improvements": [
+        "En semanas sin clases, aprovecha para repasar temas que consideres desafiantes",
+        "Podrías resolver ejercicios de práctica adicionales y documentar tu proceso",
+        "Usa el reporte para reflexionar sobre dudas pendientes o temas que te gustaría profundizar",
+        "Establece metas de estudio autónomo para la semana siguiente"
+      ],
+      "createdAt": "2025-10-05 19:56:15"
+    },
+    {
+      "feedbackId": "fb_002_2_asme0b8zqx_20251005_012",
+      "weekStart": "2025-09-29",
+      "score": 30,
+      "generalComments": "Juliana, entiendo que esta semana tuvieron la evaluación de Gases ideales y no trabajaron temas nuevos. Las semanas de evaluación son momentos importantes para consolidar aprendizajes. Aunque no haya contenido nuevo, el reporte semanal podría ser un espacio para reflexionar sobre cómo te sentiste con la evaluación, qué aspectos te resultaron más fáciles o difíciles, y qué estrategias usaste para prepararte. Esta metacognición sobre tu proceso de evaluación es muy valiosa para tu crecimiento académico.",
+      "strengths": [
+        "Comunicaste claramente que fue semana de evaluación",
+        "Completaste el reporte semanal de manera responsable",
+        "Mantuviste el compromiso con la reflexión semanal"
+      ],
+      "improvements": [
+        "En semanas de evaluación, podrías reflexionar sobre tu proceso de preparación",
+        "Sería valioso que compartas cómo te sentiste con el examen y qué temas te resultaron desafiantes",
+        "Podrías mencionar estrategias de estudio que usaste y evaluar su efectividad",
+        "Identifica conceptos que necesitas reforzar para futuros temas relacionados"
+      ],
+      "createdAt": "2025-10-05 19:56:15"
+    },
+    {
+      "feedbackId": "350705a6-4728-4056-93cb-c943a2f83d41",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:51:46.534Z"
+    },
+    {
+      "feedbackId": "ee050628-cbcc-481a-9033-350b90ff9525",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:16:23.125Z"
+    },
+    {
+      "feedbackId": "7986a452-f550-43f9-9554-710ba28f0331",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:17:50.423Z"
+    },
+    {
+      "feedbackId": "8a56c99d-cafb-446d-b692-39e58c89432c",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Has tenido una semana con resultados mixtos. Tu fortaleza principal está en el dominio conceptual de enlaces químicos y en la precisión de cálculos (como vimos en Q2 con los iones), lo que demuestra que tienes bases sólidas. Sin embargo, tu reporte muestra que aún no estás aplicando sistemáticamente la metodología de la Fase 2: identificar, clasificar y relacionar variables.\n\nTu desempeño en Q2 fue excelente, pero las respuestas en Q1, Q3 y Q4 son demasiado superficiales. Parece que comprendes los conceptos, pero no estás siendo riguroso en el análisis de *variables* como se requiere en esta fase. Además, dejaste Q5 en blanco, lo que es una oportunidad perdida para reflexionar sobre tu progreso.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables para cada tema, clasificándolas claramente; (2) profundices en tus dificultades con estrategias concretas; (3) completes todas las preguntas, incluso Q5, con reflexiones genuinas. Estoy seguro de que con este enfoque más sistemático, tu desempeño mejorará significativamente.",
+      "strengths": "• Dominio conceptual de enlaces químicos: Tu respuesta en Q2 sobre iones Na⁺ y Cl⁻ es precisa y demuestra que comprendes bien cómo cambia la configuración electrónica. Esto es la base sólida para identificar variables en sistemas químicos.\n• Capacidad de cálculo y clasificación: Identificas correctamente que Na⁺ tiene 10 electrones (no 11) y lo relacionas con el neón. Esto muestra precisión en el manejo de magnitudes físicas, que es central en la Fase 2.\n• Honestidad en la autoevaluación: Reconoces explícitamente que te cuesta entender la relación entre conducción de electricidad y solubilidad. Esta autoconsciencia es valiosa para mejorar.",
+      "improvements": "• Clasificación sistemática de variables en Q1: Tu respuesta sobre enlaces es correcta, pero no identificas las *variables* que los diferencian (electronegatividad, número de electrones compartidos, movilidad de electrones). Intenta hacer una tabla: para cada tipo de enlace, lista qué variables son \"controlables\" (tipo de átomos) y cuáles son \"resultantes\" (conductividad, solubilidad).\n• Profundizar en dificultades específicas (Q3): En lugar de decir \"me cuesta entender conducción y solubilidad\", pregúntate: ¿Cuál es la variable que no logro relacionar? ¿Es que no distingo entre enlace iónico/covalente y sus propiedades? Propón una estrategia concreta: por ejemplo, \"haré una tabla comparativa de 3 compuestos (NaCl, H₂O, Fe) y sus propiedades para ver el patrón.\"\n• Expandir conexiones en Q4: Tu conexión con cationes/aniones es un buen inicio, pero necesitas ir más allá. Pregúntate: ¿Cómo se *forman* cationes y aniones según el tipo de enlace? ¿Qué variables de la Fase 1 (número de electrones de valencia) determinan qué tipo de enlace se forma? Esto mostraría integración real entre fases.",
+      "createdAt": "2025-10-27T05:00:14.836Z"
+    },
+    {
+      "feedbackId": "5d9bb1f1-6c6d-41b4-9eec-4a58a376a321",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue atípica por la ausencia del profesor el lunes, y reconozco que eso afectó el desarrollo normal de la clase. Sin embargo, tu reporte refleja una oportunidad perdida para demostrar pensamiento crítico y responsabilidad en tu aprendizaje.\n\nUn reporte vacío o repetitivo no solo no aporta información sobre tu progreso, sino que sugiere falta de esfuerzo por aprovechar el tiempo disponible. La Fase 2 requiere que desarrolles capacidad de análisis independiente, y esto incluye trabajar autónomamente cuando las circunstancias lo permiten.\n\nPara la próxima semana, espero ver un reporte completo con reflexiones genuinas sobre lo que trabajaste, incluso si fue de forma autónoma. Demuéstrame que puedes identificar variables, clasificarlas y conectarlas con fenómenos reales. Tienes las herramientas de Fase 1; ahora úsalas para avanzar en Fase 2.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables. La falta de contenido y esfuerzo documentado impide identificar aspectos positivos en tu trabajo de esta semana.",
+      "improvements": "• Responsabilidad ante circunstancias imprevistas: Cuando hay ausencia de clase, es tu oportunidad para trabajar de forma autónoma. Revisa tus apuntes de Fase 1, intenta clasificar variables en problemas que ya conoces, o busca ejemplos en tu vida cotidiana. Esto demuestra iniciativa y compromiso con tu aprendizaje.\n• Completitud en tus reportes: Cada pregunta merece una respuesta reflexiva, incluso si la semana fue atípica. En lugar de repetir \"no trabajamos\", podrías escribir: \"Esta semana no tuve clase, pero revisé mis apuntes sobre variables controlables y trabajé en identificarlas en reacciones químicas del laboratorio anterior.\"\n• Aprovechamiento del tiempo disponible: Usa las semanas con interrupciones para consolidar lo aprendido. Practica con ejercicios de Fase 2 que ya tengas, crea tus propios ejemplos de variables en experimentos, o prepárate para la próxima clase. El aprendizaje no se detiene con la ausencia del profesor.",
+      "createdAt": "2025-11-03T12:19:48.588Z"
+    },
+    {
+      "feedbackId": "74752f24-98d8-4906-8af0-6a5c197406f8",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Tu reporte muestra un desempeño sólido en la identificación y clasificación de variables químicas. La evidencia en Q2 es particularmente fuerte: demuestras que sabes aplicar conceptos de electronegatividad y polaridad de forma sistemática y justificada. Esto es exactamente lo que esperamos en Fase 2.\n\nSin embargo, tu reporte está incompleto. Q5 está vacía, y Q3 y Q4 necesitan mayor profundidad. No es suficiente identificar dificultades; debes proponer estrategias concretas. Tampoco es suficiente mencionar conexiones; debes explicar *cómo* y *por qué* se relacionan los conceptos con fenómenos reales.\n\nPara la próxima semana, te propongo: (1) completa siempre todas las preguntas, incluso si es breve; (2) cuando identifiques una dificultad, propón inmediatamente una estrategia de solución; (3) practica la geometría molecular con modelos 3D para resolver la limitación que reconoces.",
+      "strengths": "• Precisión en cálculos y clasificación: Tu análisis del enlace C-O demuestra que sabes aplicar la fórmula de electronegatividad y clasificar correctamente según rangos (0,4-1,7 para polar). Esto es fundamental en química.\n• Justificación fundamentada: No solo dices \"es covalente polar\", sino que explicas *por qué* (diferencia de electronegatividad, atracción desigual de electrones). Esto muestra pensamiento crítico real, no memorización.\n• Autoconciencia sobre limitaciones: Reconoces que podrías profundizar en geometría molecular. Esta honestidad es valiosa para identificar áreas de crecimiento.",
+      "improvements": "• Desarrolla estrategias específicas para la simetría molecular: En Q3, identificas que te cuesta la simetría, pero no propones cómo resolverlo. Sugiero: practica dibujando estructuras 3D de moléculas comunes (H₂O, CO₂, NH₃), identifica planos de simetría y relaciona esto con polaridad. Usa modelos moleculares físicos o software como Jmol.\n• Profundiza las conexiones con fenómenos reales: Tu respuesta en Q4 es demasiado general. En lugar de solo mencionar la tabla periódica, conecta específicamente: \"Los no metales en el grupo 16 (como O) tienen alta electronegatividad, formando enlaces covalentes polares con C, lo que explica la polaridad del CO₂ y su comportamiento en disoluciones acuosas.\"\n• Completa la reflexión en Q5: No dejes espacios en blanco. Usa esta sección para escribir: ¿Qué aprendiste sobre cómo las variables (electronegatividad, tipo de enlace, polaridad) se conectan? ¿Cómo esto cambia tu comprensión de la química? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-17T13:47:25.847Z"
+    }
+  ]
+}

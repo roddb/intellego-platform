@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "studentId": "u_7l7mqqsh4me06hzx8",
+    "studentName": "Uma Cesarini",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.237413",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 45.91,
+      "minScore": 27,
+      "maxScore": 76,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "feedback_1737737820_u_7l7m_u_zq0f_ij90kl",
+      "weekStart": "2025-08-04",
+      "score": 76,
+      "generalComments": "Uma demuestra una aplicación excepcional del pensamiento crítico en situaciones prácticas, como se evidencia en su análisis para formar grupos de trabajo.",
+      "strengths": [
+        "Aplicación sistemática del pensamiento crítico en decisiones grupales",
+        "Reconoce la utilidad del pensamiento crítico en la vida diaria",
+        "Establece conexiones con aprendizajes previos de estudio dirigido"
+      ],
+      "improvements": [
+        "Profundizar más en la comprensión teórica del pensamiento crítico",
+        "Desarrollar ejemplos más específicos de física",
+        "Completar todas las respuestas del reporte semanal"
+      ],
+      "createdAt": "2025-01-24 15:50:20"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 67,
+      "generalComments": "Querida Uma Cesarini, Te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Demuestras buena comprensión al aplicar la identificación de variables en el ejercicio de la rutina de Ana. Te recomiendo practicar la distinción entre variables controlables y no controlables con mayor precisión. Es importante mejorar la organización y clasificación de los datos disponibles. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente las fases 1 y 2 en el ejercicio de Ana",
+        "Reconoces con claridad cuando tienes dificultades específicas con tipos de variables",
+        "Realizas conexiones con estudio dirigido mostrando transferencia de aprendizaje"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la distinción entre objetivo y lo que se busca resolver en cada problema",
+        "Practica más la clasificación de variables (controlables/no controlables, conocidas/desconocidas)",
+        "Proporciona evidencias más específicas de tu proceso de análisis de variables"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Querida Uma Cesarini, Te encuentras en la etapa inicial de la Fase 3: Selección de herramientas y relaciones, necesitando fortalecer los fundamentos de esta fase en Física. Demuestras honestidad al reconocer que no comprendes los conceptos de fórmulas y herramientas. Es fundamental fortalecer tu capacidad para comprender las fórmulas básicas antes de seleccionar herramientas. Necesitas consolidar la comprensión de ecuaciones fundamentales del movimiento. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Aplicas correctamente F1 y F2 identificando objetivo y variables en el ejercicio de tiro oblicuo",
+        "Reconoces con claridad tus dificultades específicas con fórmulas y conceptos de física",
+        "Muestras perseverancia al intentar resolver ejercicios a pesar de las dificultades"
+      ],
+      "improvements": [
+        "Es prioritario fortalecer los fundamentos de las fórmulas de movimiento antes de avanzar",
+        "Practica la identificación de qué grupo de ecuaciones corresponde a cada tipo de problema",
+        "Dedica tiempo a comprender el significado físico de cada variable en las ecuaciones"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Querida Uma Cesarini, Te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Demuestras buena integración de las cuatro fases en la resolución completa del problema de caída de piedra. Es importante mejorar la identificación del objetivo antes de seleccionar la estrategia de resolución. Necesitas ser más sistemática en la distinción entre problema y objetivo en F1. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras exitosamente F1+F2+F3+F4 en la resolución del problema de tiro oblicuo",
+        "Ejecutas los cálculos de manera ordenada mostrando el proceso completo paso a paso",
+        "Realizas conexiones con matemática, fisicoquímica y estudio dirigido demostrando visión integradora"
+      ],
+      "improvements": [
+        "Practica la diferenciación clara entre problema (contexto general) y objetivo (qué específicamente debes calcular)",
+        "Refuerza la comprensión de qué variables pertenecen al eje X y cuáles al eje Y",
+        "Continúa practicando con problemas variados para consolidar el uso de fórmulas"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Querida Uma Cesarini, Te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Tu trabajo evidencia comprensión de las fórmulas aunque reconoces dificultad para identificar el objetivo inicial. Demuestras capacidad para ejecutar cálculos complejos una vez orientada en la dirección correcta. Es importante mejorar la planificación de tu estrategia identificando primero qué debes calcular. Necesitas fortalecer la identificación del objetivo antes de seleccionar fórmulas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas cálculos complejos de manera detallada en el problema del jugador de fútbol americano",
+        "Aplicas correctamente descomposición de velocidades, ecuaciones de tiro y movimiento rectilíneo uniforme",
+        "Muestras capacidad de reflexión honesta sobre tus dificultades con el reconocimiento del objetivo"
+      ],
+      "improvements": [
+        "Practica la lectura analítica de enunciados para identificar qué te piden calcular antes de empezar",
+        "Desarrolla estrategias para extraer el objetivo explícito de problemas complejos con múltiples datos",
+        "Crea un checklist mental: primero identificar objetivo, luego seleccionar fórmulas apropiadas"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Uma Cesarini, Debido a que tuvieron prueba de física el miércoles y no hubo clase, no fue posible evaluar tu progreso en Física durante esta semana. Te sugiero coordinar conmigo para asegurar que estés al día con los contenidos trabajados.",
+      "strengths": [
+        "Priorizaste correctamente la preparación para la evaluación de física",
+        "Demostraste responsabilidad al justificar la ausencia de reporte",
+        "Mantuviste comunicación sobre la situación de la semana"
+      ],
+      "improvements": [
+        "Mantén la constancia en la entrega de reportes cuando las clases se reanuden",
+        "Aprovecha las semanas regulares para documentar tu proceso completo de aprendizaje",
+        "Consulta si tienes dudas sobre los temas evaluados en la prueba"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_4_06hzx8_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Uma Cesarini, Debido a que el lunes y miércoles no tuvieron clase y el jueves realizaron un trabajo de introducción a dinámica que entregaron el mismo día, no fue posible evaluar tu progreso semanal en Física durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario en los nuevos conceptos de dinámica.",
+      "strengths": [
+        "Participaste en el trabajo de introducción a dinámica realizado el jueves",
+        "Mantuviste comunicación sobre las actividades de la semana",
+        "Te preparaste para iniciar un nuevo tema en física"
+      ],
+      "improvements": [
+        "Retoma la constancia en la documentación de tu proceso de aprendizaje en los nuevos temas",
+        "Aprovecha este inicio de dinámica para aplicar el método de 4 fases desde el principio",
+        "Consulta sobre conceptos nuevos que surjan en esta nueva unidad"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "25ef4774-0e16-4262-8239-30102a31c913",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:37:44.529Z"
+    },
+    {
+      "feedbackId": "70517f62-1d22-4c6d-9ebb-cc28b0670935",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:13:10.200Z"
+    },
+    {
+      "feedbackId": "d4677e3b-68ce-40a5-9592-1bb1ea7b7ef2",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:01:03.592Z"
+    },
+    {
+      "feedbackId": "c1965f2e-c49c-4786-86f0-bbc33f555a22",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:54:28.661Z"
+    }
+  ]
+}

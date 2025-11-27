@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "studentId": "u_7fuijay0kme5utxod",
+    "studentName": "Tiziana Zapozko",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.235553",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 62.88,
+      "minScore": 36,
+      "maxScore": 82,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-08-11_b419096c",
+      "weekStart": "2025-08-11",
+      "score": 74,
+      "generalComments": "Tiziana demuestra muy buena comprensión de la metodología de identificación sistemática de variables y la clasificación dual en el problema de fermentación del yogurt. Su análisis es profundo, reconociendo que el ejercicio requiere pensamiento cualitativo y organizado, no solo cálculos. Aplica correctamente la matriz de clasificación identificando variables conocidas/desconocidas y controlables/no controlables. Su reflexión sobre la dificultad del cambio metodológico es muy valiosa.",
+      "strengths": [
+        "Aplicación correcta de la matriz de clasificación dual en el problema de fermentación",
+        "Identificación precisa de variables en cada cuadrante (temperatura/cultivo como controlables, pH final como no controlable)",
+        "Reflexión metacognitiva profunda sobre el contraste entre ejercicios de cálculo y pensamiento sistemático"
+      ],
+      "improvements": [
+        "Desarrollar mayor fluidez en la metodología sistemática para que sea menos tediosa",
+        "Expandir las conexiones interdisciplinarias más allá de química-biología",
+        "Practicar con más problemas cualitativos para automatizar el proceso de organización"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-08-18_0ef87a34",
+      "weekStart": "2025-08-18",
+      "score": 82,
+      "generalComments": "Excelente desempeño de Tiziana en Fase 3. Demuestra comprensión muy sólida del equilibrio químico, constantes Kc/Kp, cociente de reacción Qc y principio de Le Chatelier. Su resolución del problema de efecto de presión es sistemática, completa y bien fundamentada. Aplica correctamente la integración de los 3 pasos metodológicos y analiza múltiples estrategias. Su reflexión sobre la distinción entre Qc y Kc muestra madurez conceptual. La conexión con economía es creativa.",
+      "strengths": [
+        "Análisis completo del efecto de presión usando Le Chatelier con fundamentación clara",
+        "Aplicación sistemática de los 3 pasos con análisis de múltiples estrategias (conteo de moles, Le Chatelier, Δn)",
+        "Distinción conceptual clara entre Qc (predicción) y Kc (equilibrio alcanzado)"
+      ],
+      "improvements": [
+        "Consolidar práctica con Kc y Kp para alcanzar nivel 4 en ese tema específico",
+        "Desarrollar mayor confianza en aplicación de principio de Le Chatelier con temperatura",
+        "Expandir reflexiones en comentarios adicionales sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me5utxod_2025-09-15_36f4ea5d",
+      "weekStart": "2025-09-15",
+      "score": 80,
+      "generalComments": "Tiziana demuestra dominio sólido de Fase 4 con ejecución completa y sistemática del modelo de examen. Su resolución del problema de descomposición de NO₂ aplica correctamente las 4 fases, con tabla ICE bien construida, cálculo preciso de Kc (5.56×10⁻⁴) y manejo apropiado de notación científica. Reconoce dificultades con Le Chatelier en reacciones endotérmicas/exotérmicas y aplica estrategia efectiva de revisión de teoría. La conexión con termodinámica es muy apropiada.",
+      "strengths": [
+        "Cálculo preciso de Kc con notación científica correcta y conversión de moles a molaridad",
+        "Construcción completa de tabla ICE con cantidades iniciales, cambios y equilibrio",
+        "Aplicación sistemática de las 4 fases con transiciones lógicas entre ellas"
+      ],
+      "improvements": [
+        "Consolidar comprensión del efecto de temperatura en equilibrio mediante ejercicios adicionales",
+        "Practicar diferenciación rápida entre reacciones endotérmicas y exotérmicas",
+        "Expandir comentarios adicionales con reflexiones sobre el proceso completo de 4 fases"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "3d44d9e3-5386-4a24-ba35-283775d11652",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:46:26.389Z"
+    },
+    {
+      "feedbackId": "719dc64d-52a4-47ed-aaf8-48ba0c4be12b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:18.892Z"
+    },
+    {
+      "feedbackId": "6cee8bcb-1e2a-4df8-a47a-98556a9cc060",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:13.742Z"
+    },
+    {
+      "feedbackId": "0027836e-17c7-4e2d-9990-4cb0c45db190",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:29:59.445Z"
+    },
+    {
+      "feedbackId": "e0888d18-b1bd-4cdf-ac1b-8f0278885840",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Valoro tu esfuerzo en resolver el ejercicio de concentración molar paso a paso; eso muestra que estás aplicando procedimientos matemáticos correctamente. Sin embargo, tu reporte se enfoca más en el cálculo que en el análisis de variables, que es el objetivo central de Fase 2. Necesitas ir más allá del \"cómo calcular\" y profundizar en el \"qué variables intervienen y cómo se relacionan.\"\n\nTu trabajo en grupo es positivo, pero aprovecha mejor esas instancias para reflexionar sobre las dificultades específicas que enfrentaron. Esto te ayudará a consolidar el aprendizaje y a prepararte mejor para Fase 3.\n\nPara la próxima semana, te recomiendo que en cada problema identifiques explícitamente: (1) variables conocidas vs. desconocidas, (2) variables controlables vs. no controlables, y (3) cómo se relacionan. Completa también la sección Q5 con reflexiones propias; es tu espacio para demostrar pensamiento crítico.",
+      "strengths": "• Proceso matemático claro: Tu cálculo de concentración molar está bien estructurado (identificas masa, volumen, aplicas fórmula M = n/V). Esto muestra que comprendes el procedimiento operativo, aunque le falta el análisis de variables.\n• Trabajo colaborativo: Mencionas que resolvieron la actividad en grupos y usaron un modelo como referencia. Esto indica disposición para aprender de pares y usar recursos disponibles.\n• Conexión con contexto real: Reconoces que ácidos y bases están presentes en productos cotidianos, lo que muestra pensamiento más allá del ejercicio abstracto.",
+      "improvements": "• Clasificación explícita de variables: En tu ejemplo de Ba(OH)₂, debes identificar: ¿Cuáles son variables conocidas (masa, volumen)? ¿Cuáles desconocidas (concentración)? ¿Cuáles controlables (volumen de solución) y no controlables (masa molar del compuesto)? Esto es el corazón de Fase 2.\n• Especificidad en dificultades: En lugar de \"nos costó ponernos de acuerdo,\" describe: \"¿Fue difícil distinguir entre masa y moles?\" o \"¿Confundimos variables controlables con no controlables?\" Esto te ayuda a identificar exactamente qué necesitas reforzar.\n• Profundidad en conexiones: Cuando menciones ácidos/bases en productos cotidianos, analiza las variables: \"En un refresco, la concentración de CO₂ (variable controlable) afecta el pH (variable dependiente).\" Así demuestras transferencia real de Fase 2.",
+      "createdAt": "2025-11-17T13:53:24.905Z"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "studentId": "u_f1hq5788gme0b92xe",
+    "studentName": "Franco Palamenghi",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.201796",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 29.0,
+      "minScore": 28,
+      "maxScore": 30,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_e0b92xe_20251005_007",
+      "weekStart": "2025-08-11",
+      "score": 30,
+      "generalComments": "Franco, tu reporte refleja dificultades significativas con el material de gases ideales y la metodología de pensamiento crítico. Tus respuestas son extremadamente breves y carecen de contenido sustantivo ('Los ejercicios de la guía', 'La resolución', '.'). Tu autoevaluación como Nivel 1 es honesta y muestra autoconocimiento, pero necesitas transformar ese reconocimiento en acción concreta. El simple hecho de 'apenas entender' no es suficiente - necesitas buscar apoyo activo y desarrollar estrategias específicas de estudio.",
+      "strengths": [
+        "Reconoces honestamente tu nivel actual de comprensión (Nivel 1)",
+        "Completas el reporte semanal a pesar de tus dificultades",
+        "Tu autoevaluación realista es el primer paso para mejorar"
+      ],
+      "improvements": [
+        "URGENTE: Busca apoyo inmediato del profesor - tus respuestas indican que no estás comprendiendo conceptos fundamentales",
+        "Desarrolla respuestas completas: en lugar de 'Los ejercicios de la guía', especifica CUÁLES ejercicios y QUÉ aprendiste de ellos",
+        "Identifica dificultades específicas: 'La resolución' es demasiado vago - describe QUÉ PARTE de la resolución te resulta difícil (comprensión del problema, identificación de variables, fórmulas, cálculos, etc.)",
+        "Propone estrategias concretas para superar tus dificultades en lugar de solo mencionarlas",
+        "Intenta hacer al menos UNA conexión con la vida cotidiana, aunque sea simple"
+      ],
+      "createdAt": "2025-10-05 19:35:50"
+    },
+    {
+      "feedbackId": "fb_002_1_e0b92xe_20251005_008",
+      "weekStart": "2025-08-18",
+      "score": 28,
+      "generalComments": "Franco, tu reporte de esta semana muestra el mismo patrón preocupante de la semana anterior, incluso con leve deterioro. Tus respuestas continúan siendo minimalistas ('Los ejercicios de la guía', 'La mayoría de ejercicios', '.') sin ninguna elaboración o evidencia de aprendizaje. Mantienes tu autoevaluación como Nivel 1, pero no observo cambios en tu enfoque o estrategias. Esta estabilidad en bajo rendimiento sin búsqueda activa de ayuda es alarmante.",
+      "strengths": [
+        "Continúas siendo honesto sobre tu nivel de comprensión",
+        "Mantienes la responsabilidad de completar el reporte semanal"
+      ],
+      "improvements": [
+        "CRÍTICO: Las mejoras sugeridas la semana pasada no se han implementado - necesitas tomar acción AHORA",
+        "Desarrolla respuestas con contenido real: describe al menos UN ejercicio específico que intentaste",
+        "Especifica tus dificultades: 'La mayoría de ejercicios' no ayuda - identifica QUÉ conceptos específicos no entiendes",
+        "BUSCA AYUDA activamente: profesor, compañeros, tutorías - no puedes avanzar solo",
+        "Propone al menos UNA estrategia concreta que intentarás la próxima semana"
+      ],
+      "createdAt": "2025-10-05 19:35:50"
+    },
+    {
+      "feedbackId": "fb_002_1_e0b92xe_20251005_009",
+      "weekStart": "2025-09-01",
+      "score": 29,
+      "generalComments": "Franco, tu reporte de esta semana mantiene el patrón preocupante de las dos semanas anteriores. Aunque modificas ligeramente tu autoevaluación ('entiendo pero me cuesta'), tus respuestas siguen siendo minimalistas y sin contenido sustantivo ('Los ejercicios de la guía', '.'). Tres semanas consecutivas con el mismo nivel de respuestas vacías indica que no estás implementando ninguna estrategia de mejora. Tu modificación en la autoevaluación ('entiendo pero me cuesta') no se refleja en evidencias concretas de comprensión.",
+      "strengths": [
+        "Matizas tu autoevaluación reconociendo que 'entiendes pero te cuesta', mostrando algo de diferenciación",
+        "Mantienes consistencia en completar reportes semanales"
+      ],
+      "improvements": [
+        "URGENTE: Tres semanas sin cambio requiere intervención inmediata - solicita reunión con el profesor esta semana",
+        "Si 'entiendes pero te cuesta', DEMUESTRA ese entendimiento: explica al menos UN concepto básico con tus palabras",
+        "Describe QUÉ PARTE te cuesta específicamente: ¿son los cálculos? ¿las fórmulas? ¿identificar variables? ¿entender el enunciado?",
+        "Compromete al menos 30 minutos extra esta semana para trabajar UN ejercicio completo con apoyo",
+        "Documenta tu proceso: aunque no llegues a la respuesta correcta, muestra TUS INTENTOS"
+      ],
+      "createdAt": "2025-10-05 19:35:50"
+    }
+  ]
+}

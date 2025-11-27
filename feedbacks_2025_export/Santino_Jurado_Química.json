@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "studentId": "u_67vrli8j0me7hnxu1",
+    "studentName": "Santino Jurado",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.231593",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 57.3,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me7hnxu1_2025-08-11_b87f4c59",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Santino Jurado, tu trabajo esta semana con la identificación de variables es sólido. Aunque te autoevalúas en niveles diferentes para cada aspecto (conceptos, metodología, organización, aplicación), logras identificar y analizar problemas sistemáticamente en los primeros ejercicios. Tu honestidad al reconocer dificultades con cuadros y metodología de Chandelier (probablemente Le Chatelier) es valiosa. La sugerencia de más ejemplos es constructiva.",
+      "strengths": [
+        "Identifica y analiza problemas de manera sistemática (F1)",
+        "Aplica la tabla 2x2 para clasificar variables según conocimiento y control",
+        "Reconoce honestamente áreas de confusión específicas",
+        "Propone mejoras concretas (más ejemplos en teoría)"
+      ],
+      "improvements": [
+        "Aclarar la confusión sobre métodos específicos (posiblemente Principio de Le Chatelier)",
+        "Practicar más la organización con cuadros y tablas de clasificación",
+        "Conectar la teoría abstracta con los ejercicios prácticos mediante más ejemplos resueltos"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hnxu1_2025-08-18_395cf212",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Santino Jurado, buen trabajo con los conceptos de equilibrio esta semana. Comprendes las reacciones reversibles e irreversibles, y manejas razonablemente las constantes de equilibrio KC aunque te cuesta traducir la ecuación a las fórmulas. Tu estrategia de enlistar componentes y separarlos es efectiva. El ejercicio 2 sobre QC demuestra que entiendes la lógica del criterio de dirección sin necesidad de cálculos complejos.",
+      "strengths": [
+        "Comprende conceptos fundamentales de reversibilidad y equilibrio dinámico",
+        "Desarrolla estrategia propia para organizar datos (enlistar componentes)",
+        "Aplica correctamente la lógica de comparación QC vs KC",
+        "Conecta con matemática (ecuaciones, potencias) y física (Delta, ecuaciones similares)"
+      ],
+      "improvements": [
+        "Practicar la traducción de ecuaciones químicas a expresiones matemáticas de KC",
+        "Consolidar el manejo de símbolos y notación química en fórmulas",
+        "Trabajar con ejercicios que requieran identificar todos los elementos de la ecuación antes de aplicar fórmulas"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hnxu1_2025-08-25_9e19c081",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Santino Jurado, esta semana consolidaste varios conceptos clave. Comprendes bien las reacciones y el equilibrio, y tu nivel de interpretación de datos es sólido. Tu dificultad principal está en la Tabla ICE, lo cual es normal porque es un método que requiere práctica específica. El uso de IA para consolidar cuadernillos es creativo, aunque debes asegurarte de entender bien el resumen generado.",
+      "strengths": [
+        "Domina conceptos de reacciones químicas y equilibrio (nivel 4)",
+        "Interpreta datos de ejercicios efectivamente (nivel 4)",
+        "Utiliza herramientas tecnológicas (IA) para organizar información",
+        "Conecta con estequiometría, matemática y física",
+        "Valora los ejemplos de resolución como guía"
+      ],
+      "improvements": [
+        "Practicar específicamente con tablas ICE hasta dominar el método",
+        "Verificar que los resúmenes de IA sean precisos y completos",
+        "Profundizar en la comprensión de constantes KC cuando hay muchos datos en la ecuación"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me7hnxu1_2025-09-08_9c0312e6",
+      "weekStart": "2025-09-08",
+      "score": 30,
+      "generalComments": "Santino Jurado, comprendo que esta semana estuviste enfermo y no pudiste asistir a clases. Es importante que cuando te recuperes te pongas al día con el material trabajado. Consulta con compañeros sobre los temas tratados y los ejercicios para recuperar lo perdido.",
+      "strengths": [
+        "Comunicaste la razón de tu ausencia"
+      ],
+      "improvements": [
+        "Recuperar el material de las clases perdidas",
+        "Consultar con compañeros o el profesor sobre ejercicios asignados",
+        "Dedicar tiempo extra para ponerte al día antes de la próxima evaluación"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "223ce7d9-73b8-4e8c-97f5-26c108d9a018",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:56.185Z"
+    },
+    {
+      "feedbackId": "5c3b0d89-309c-423e-90d7-4e8475808802",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:59.460Z"
+    },
+    {
+      "feedbackId": "106d6cfc-6cbd-4e5b-9381-3b4250432710",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:54:21.110Z"
+    },
+    {
+      "feedbackId": "23c5b529-bd81-4729-91d8-f418fac4a333",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:42:19.151Z"
+    },
+    {
+      "feedbackId": "07a1ff6e-3c0d-42fa-9753-bb851a8cd9d6",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que estás trabajando en los temas de Fase 2, pero tu reporte muestra que aún estás en un nivel operativo (sé *cómo* hacer los cálculos) sin llegar al nivel analítico (entiendo *qué variables* están en juego y *por qué* funcionan así). Esto es normal en esta etapa, pero es el momento de dar el salto.\n\nTu mayor fortaleza es la honestidad: reconoces qué te cuesta. Ahora necesitas transformar esa autoconciencia en acciones concretas. En lugar de \"es cosa de práctica\", pregúntate *qué específicamente* practicar y *cómo* hacerlo de forma más inteligente.\n\nPara la próxima semana, te propongo que en cada ejercicio hagas una pequeña tabla con: Variables conocidas | Variables desconocidas | Variables controlables | Variables no controlables. Esto te ayudará a ver la estructura de los problemas y a transferir lo aprendido a nuevas situaciones.",
+      "strengths": "• Autoevaluación honesta: Reconoces claramente dónde tienes dificultades (\"no entiendo mucho el cálculo\") y dónde te sientes cómodo (Brønsted-Lowry con tabla). Esto muestra autoconciencia sobre tu aprendizaje.\n• Identificación de procedimientos: Describes correctamente el flujo de pasos en el Ejercicio 6 (concentración → pOH → pH), lo que indica que comprendes la secuencia operativa, aunque le falta el análisis de variables.\n• Reconocimiento de patrones: Observas que pH-pOH es \"reemplazar y despejar\", lo que muestra que identificas un patrón matemático, aunque necesitas profundizar en *por qué* esas fórmulas funcionan.",
+      "improvements": "• Identificación explícita de variables: En cada tema, debes preguntarte: ¿Qué datos me dan (variables conocidas)? ¿Qué busco (variables desconocidas)? ¿Cuál puedo controlar? Por ejemplo, en pH-pOH: concentración de H⁺ es conocida, pH es desconocida, la temperatura es no controlable. Haz listas claras para cada ejercicio.\n• Estrategias concretas para dificultades: En lugar de \"es cosa de práctica\", especifica: \"Me cuesta entender cuándo usar Ka vs Kb. Voy a hacer una tabla comparativa con 5 ejemplos de cada uno.\" Las estrategias deben ser acciones específicas, no generalizaciones.\n• Conexiones con fenómenos reales: No basta decir \"se relaciona con física\". Conecta: \"El pH del agua de una piscina depende de la concentración de cloro (variable controlable) y la temperatura (no controlable). Identificar estas variables me ayuda a predecir cómo cambiará el pH.\" Busca ejemplos cotidianos.",
+      "createdAt": "2025-10-27T05:04:16.661Z"
+    },
+    {
+      "feedbackId": "cf393114-0652-469f-936d-6f19731ecf32",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no tuviste clase, pero es importante que no dejes de lado tu proceso de aprendizaje en Fase 2. La identificación de variables es fundamental para todo el trabajo científico que viene después, así que es crítico que no pierdas ritmo.\n\nTe animo a que revises el material disponible en Intellego o en tus apuntes anteriores, y que completes este reporte con la información que puedas. Esto te ayudará a mantener el hilo de tu aprendizaje y a prepararte mejor para las próximas clases.\n\nPara la próxima semana, asegúrate de asistir a clase y de documentar tu trabajo en el reporte. Si hay algo que te impide hacerlo, habla con tu profesor cuanto antes. Estamos aquí para apoyarte.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de contenido impide identificar aspectos positivos del trabajo realizado.",
+      "improvements": "• Asistencia y participación en clase: Es fundamental que asistas regularmente a las sesiones de Ciencias para trabajar con los temas de Fase 2. Si hay impedimentos, comunícate con tu profesor o tutor académico para buscar alternativas de apoyo.\n• Completar el reporte con información real: Aunque no hayas tenido clase, puedes revisar el material de Fase 2 (apuntes, guías o recursos en Intellego) y responder basándote en lo que ya conoces. Esto demuestra iniciativa y responsabilidad con tu aprendizaje.\n• Comunicación proactiva: Si hay situaciones que impiden tu asistencia o participación, avisa a tu profesor o tutor. Juntos podemos encontrar estrategias para que no te quedes atrás en el pensamiento crítico y la identificación de variables.",
+      "createdAt": "2025-11-03T12:18:50.516Z"
+    }
+  ]
+}

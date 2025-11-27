@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "studentId": "u_9ecakaqjlme1bw973",
+    "studentName": "Enzo Shofs Turoni Lima",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.197132",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 59.92,
+      "minScore": 34,
+      "maxScore": 74,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "11df14f2-1c52-4ae6-8429-31dcabd76668",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Tu reporte muestra un inicio en el trabajo con pensamiento crítico. Incluiste la estructura completa del Ejercicio 3 (checklist de 5 pasos) y mencionaste tu aplicación a una decisión personal (dejar fútbol), lo cual indica que trabajaste con el material. Sin embargo, el desarrollo está incompleto: transcribiste las preguntas del ejercicio pero no incluiste tus respuestas (Sí/No/Parcialmente para cada punto) ni la reflexión final sobre qué habrías hecho diferente. Para demostrar aprendizaje, es fundamental completar el análisis, no solo mostrar la consigna.",
+      "strengths": [
+        "Especificaste tu nivel de dominio (Nivel 2) con justificación apropiada",
+        "Identificaste el ejercicio trabajado (Ejercicio 3) con estructura completa",
+        "Aplicaste el ejercicio a una decisión personal concreta (dejar fútbol)",
+        "Reconociste dificultad específica (Ejercicio 1) y estrategia usada (pedir ayuda)",
+        "Conexión válida con aplicación práctica en toma de decisiones"
+      ],
+      "improvements": [
+        "CRÍTICO: Completar las respuestas del Ejercicio 3 - marcar Sí/No/Parcialmente para cada una de las 5 preguntas del checklist",
+        "Desarrollar la reflexión final del ejercicio: explicar qué habrías hecho diferente usando los 5 pasos del PC",
+        "En Q3: especificar qué del Ejercicio 1 te resultó difícil y cómo la ayuda te permitió superarlo",
+        "Ampliar Q4: dar ejemplos concretos de situaciones donde aplicarías PC (estudios, relaciones, proyectos)",
+        "Aprovechar Q5 para reflexionar sobre el proceso de dejar fútbol y cómo el PC podría haber cambiado tu análisis"
+      ],
+      "createdAt": "2025-10-01 14:11:25"
+    },
+    {
+      "feedbackId": "757ebb7b-e858-42b1-b0b7-421c0f930b16",
+      "weekStart": "2025-08-11",
+      "score": 74,
+      "generalComments": "Este reporte muestra una mejora significativa (65→74) y refleja comprensión adecuada de la Fase 2. Identificaste correctamente el objetivo del problema del arquero (dónde cae la flecha) y las variables relevantes (velocidad, ángulo, altura, gravedad), que es exactamente lo que se busca en esta fase. Tu reconocimiento de la dificultad para separar información relevante de irrelevante (color de flecha vs. datos físicos) demuestra autoconsciencia metacognitiva valiosa. El nivel 3 que te asignaste parece apropiado para esta etapa de análisis de variables.",
+      "strengths": [
+        "Mejora notable: de 65 a 74 puntos, reflejando mejor comprensión de expectativas del reporte",
+        "Identificación correcta de objetivo y variables relevantes en problema del arquero (apropiado para Fase 2)",
+        "Autoconsciencia metacognitiva: reconocimiento específico de dificultad (separar relevante/irrelevante) con ejemplo concreto",
+        "Conexiones interdisciplinares múltiples: matemática, deportes, química con justificaciones",
+        "Nivel de dominio (3) apropiadamente calibrado para esta fase"
+      ],
+      "improvements": [
+        "Desarrollar Q2 completando la resolución: aunque en Fase 2 el foco es variables, intentar los cálculos reforzaría comprensión",
+        "Ampliar Q4: dar ejemplos específicos de cómo la selección de datos importantes aplica en química",
+        "Aprovechar Q5 para reflexionar sobre tu mejora (65→74) y qué cambió en tu enfoque de los reportes",
+        "Practicar la distinción relevante/irrelevante: crear lista mental de preguntas (¿Este dato afecta el movimiento? ¿Cambia el resultado?)",
+        "Continuar el patrón de autocrítica constructiva que mostraste en Q1 y Q3"
+      ],
+      "createdAt": "2025-10-01 14:12:13"
+    },
+    {
+      "feedbackId": "aa98d2f9-18f2-46d2-ba6d-a788d08095ac",
+      "weekStart": "2025-08-18",
+      "score": 67,
+      "generalComments": "Tu reporte de esta semana menciona el ejercicio de Marta lanzando pelota desde balcón, pero sin incluir el desarrollo de las fases ni los resultados. Transcribir la consigna demuestra que identificaste el ejercicio, pero para evaluar tu aprendizaje necesito ver cómo aplicaste las fórmulas que mencionas. Tu dificultad para entender cada paso del tiro oblicuo es válida, pero explicar qué específicamente te confunde ayudaría a darte mejor feedback.",
+      "strengths": [
+        "Identificaste el ejercicio específico trabajado (Marta y balcón)",
+        "Mencionaste aplicación de fórmulas (consciente de herramientas necesarias)",
+        "Conexión válida con vida real (tirar objetos) y matemática",
+        "Nivel 3 autoasignado refleja autoconsciencia de dificultades"
+      ],
+      "improvements": [
+        "CRÍTICO: Desarrollar las 4 fases del ejercicio - mostrar objetivo, variables, fórmulas aplicadas, cálculos y resultado",
+        "En Q3: especificar qué paso exactamente no comprendes (descomposición vectorial, tiempo de vuelo, alcance)",
+        "Ampliar Q4: dar ejemplos matemáticos concretos (trigonometría, ecuaciones cuadráticas)",
+        "Usar Q5 para reflexionar sobre patrones en tus dificultades con tiro oblicuo",
+        "Retomar el nivel de desarrollo del reporte anterior (74 puntos)"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "bbdc5527-7558-456b-be6b-b39c929f22b2",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Este reporte menciona el ejercicio del arquero con 4 fases, pero nuevamente sin desarrollo de tu resolución. El patrón de transcribir consignas persiste, aunque tu dificultad identificada (identificar problema y objetivo) es más específica que la semana anterior. La conexión con vida real (disparar flecha a objetivo específico) es pertinente y muestra comprensión conceptual del tema.",
+      "strengths": [
+        "Identificaste ejercicio específico con estructura de 4 fases",
+        "Dificultad más específica: identificar problema y objetivo (Fase 1)",
+        "Conexión aplicada válida: precisión en disparos/lanzamientos",
+        "Mantuviste Nivel 3 coherente con dificultades reconocidas"
+      ],
+      "improvements": [
+        "Desarrollar tu resolución del ejercicio del arquero: mostrar variables identificadas, fórmula de alcance, cálculo (impacta a 138.6m vs. blanco a 120m)",
+        "En Q3: explicar qué te confunde al identificar problema/objetivo - ¿la lectura del enunciado? ¿separar datos?",
+        "Ampliar Q4 con ejemplo concreto de tu ejercicio: ángulo 30°, seno/coseno aplicados",
+        "Q5 para reflexionar sobre tu patrón de reportes: 3 semanas consecutivas sin desarrollo completo"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "8881c11b-e167-45b6-8dc8-7b0a1bcadaba",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "MEJORA SIGNIFICATIVA: Este reporte sí desarrolla las 4 fases del ejercicio de la torre, aunque de forma breve. Mostraste: a) objetivo (tiempo al suelo), b) identificación de variables, c) selección de fórmulas, d) reemplazo de datos. Este es el tipo de desarrollo que se espera. Aunque falta el resultado numérico final, el proceso está presente. Tu score de 74 refleja esta mejora sustancial respecto a semanas anteriores.",
+      "strengths": [
+        "EXCELENTE mejora: desarrollo completo de 4 fases (67-68→74)",
+        "Estructura clara: objetivo → variables → fórmulas → ejecución",
+        "Reconocimiento específico de dificultades: objetivo, problema, identificación de datos",
+        "Conexión matemática justificada (fórmulas)",
+        "Mantuviste Nivel 3 apropiado"
+      ],
+      "improvements": [
+        "Completar con resultado numérico: después de reemplazar datos, calcular el tiempo final",
+        "Ampliar fase d: mostrar cálculos intermedios (v0y, ecuación cuadrática resuelta)",
+        "En Q3: desarrollar estrategia para superar dificultad identificada",
+        "Mantener este patrón de desarrollo en próximos reportes - es el estándar esperado",
+        "Q5 para reflexionar sobre qué cambió esta semana que te permitió desarrollar mejor"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "7f97694c-03db-4895-bed4-f31b6e2940f4",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "RETROCESO: Después de la mejora a 74, este reporte regresa al patrón de transcribir consigna sin desarrollo (problema NFL). Tu dificultad identificada (necesitar tiempo para identificar enunciado) es válida, pero sin mostrar tu proceso no puedo evaluar tu progreso real. La inconsistencia (74→65) sugiere dificultad para mantener el estándar de desarrollo completo.",
+      "strengths": [
+        "Identificaste ejercicio específico (NFL) y estructura de 4 fases",
+        "Dificultad metacognitiva valiosa: necesitas tiempo para analizar enunciados",
+        "Reconociste necesidad de práctica",
+        "Nivel 2 autoasignado coherente con inconsistencia en desarrollo"
+      ],
+      "improvements": [
+        "URGENTE: Retomar el patrón del reporte anterior (semana 01/09) que obtuvo 74 puntos",
+        "Desarrollar las 4 fases del problema NFL mostrando tu proceso completo",
+        "En Q3: desarrollar estrategia concreta - ¿subrayar datos clave? ¿hacer diagramas?",
+        "Q4: dar ejemplos matemáticos específicos del problema NFL",
+        "Q5: reflexionar sobre inconsistencia 74→65 - ¿qué dificultó mantener el desarrollo esta semana?"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "2a43ebb3-6400-467b-a610-2bb90e9811d5",
+      "weekStart": "2025-09-15",
+      "score": 65,
+      "generalComments": "Este reporte repite el mismo patrón: transcripción del problema NFL sin desarrollo. Es el mismo ejercicio que la semana anterior, lo que sugiere dificultad persistente con este problema específico o falta de tiempo para completar ambos reportes. Tu dificultad (muchos datos para analizar) es consistente con reportes previos pero sin estrategia de superación desarrollada.",
+      "strengths": [
+        "Reconociste dificultad consistente: problemas con muchos datos",
+        "Mantuviste consciencia de nivel de dominio (Nivel 2)",
+        "Identificaste conexiones con matemática y vida cotidiana"
+      ],
+      "improvements": [
+        "CRÍTICO: Resolver completamente el problema NFL que mencionaste en 2 reportes consecutivos",
+        "Desarrollar estrategia concreta para manejar muchos datos: lista, tabla, diagrama",
+        "Q3: explicar QUÉ específicamente te confunde cuando hay muchos datos",
+        "Comparar con problema de la torre (01/09) que sí desarrollaste - ¿qué lo hizo diferente?",
+        "Q5: abordar inconsistencia en tus reportes - patrón 74→65→65 requiere reflexión"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "19a26767-65be-4427-af76-9b3b7e3750cf",
+      "weekStart": "2025-09-22",
+      "score": 66,
+      "generalComments": "Último reporte del ciclo con patrón persistente: transcripción del problema del motociclista sin desarrollo. Tu trayectoria general (65→74→68→68→74→65→65→66) muestra capacidad intermitente pero inconsistencia marcada. La dificultad identificada (muchos datos en enunciado) es recurrente en últimos 3 reportes sin mejora en estrategias de manejo.",
+      "strengths": [
+        "Identificaste ejercicio con estructura de 4 fases",
+        "Reconociste dificultad recurrente: sobrecarga de datos en enunciados",
+        "Mantuviste conexiones válidas (matemática, vida cotidiana)",
+        "Un reporte (01/09) demostró capacidad de desarrollo completo"
+      ],
+      "improvements": [
+        "PRIORITARIO: Implementar sistema de organización de datos (tabla, lista, código de colores)",
+        "Revisar tu reporte 01/09 (74 puntos) como modelo de lo que debes hacer",
+        "Desarrollar COMPLETAMENTE al menos el problema del motociclista con todas las fases",
+        "Q3: Articular estrategia específica, no solo identificar dificultad",
+        "Q5: Reflexión final sobre tu ciclo completo - promedio 68, pero con rango 65-74"
+      ],
+      "createdAt": "2025-10-01 14:13:50"
+    },
+    {
+      "feedbackId": "563bd4be-8e90-40f8-8c96-a39481c1fb90",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:27:31.354Z"
+    },
+    {
+      "feedbackId": "e983ef0a-671a-4f5c-8cca-d4d424805f58",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:44:36.185Z"
+    },
+    {
+      "feedbackId": "5a637131-fb8d-42bf-9faa-c4fb37f64270",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Entiendo que esta semana fue complicada por tu ausencia a clase, y valoro que seas honesto al respecto. Sin embargo, esto ha impactado directamente en tu aprendizaje de la Fase 2: no pudiste identificar variables ni clasificarlas porque no estuviste en las lecciones donde se enseñó esto.\n\nTu desempeño esta semana está en nivel inicial, pero esto no es definitivo. Tienes una oportunidad clara de mejorar: necesitas asistir a clase, participar activamente y luego dedicar tiempo a practicar los ejercicios con calma. La dificultad que mencionas sobre las Leyes de Newton es común, pero se resuelve con estudio sistemático.\n\nPara la próxima semana, te propongo: (1) Asiste a todas las clases, (2) Haz un resumen visual de las 3 Leyes de Newton, (3) Intenta al menos 3 ejercicios identificando variables en cada uno. Luego, en el reporte, explica qué variables encontraste y cómo las clasificaste. Estoy aquí para ayudarte.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente que faltaste a clase e intentaste resolver los ejercicios sin lograrlo. Esta sinceridad es el primer paso para mejorar y buscar apoyo.\n• Identificación de una dificultad específica: Señalas que distinguir cuál ley de Newton aplicar es tu principal obstáculo. Esto muestra que al menos reconoces dónde está el problema, lo que es fundamental para trabajar en ello.",
+      "improvements": "• Asistencia y participación en clase: La falta a clase es la raíz del problema. Sin estar presente, no puedes identificar variables ni comprender cómo se clasifican. Acción: Asegúrate de asistir a todas las clases de esta semana y, si falta alguna, pide los apuntes a un compañero o consulta con el profesor antes de intentar los ejercicios.\n• Desarrollar estrategias para diferenciar las Leyes de Newton: Dices que no sabes cuál ley usar, pero no propones cómo resolverlo. Acción: Crea un cuadro comparativo con las 3 leyes (qué dice cada una, cuándo usarla, ejemplo). Esto te ayudará a identificar variables en cada contexto.\n• Completar el reporte con reflexión genuina: Tus respuestas son muy cortas y sin análisis. Acción: Para la próxima semana, dedica tiempo a escribir 2-3 oraciones en cada pregunta explicando *por qué* piensas eso. Ejemplo: \"Me resultó difícil porque... y lo resolví intentando...\"",
+      "createdAt": "2025-10-27T05:06:43.026Z"
+    },
+    {
+      "feedbackId": "e0dbac82-3072-409b-a36c-893591b2f039",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que estás participando en las actividades prácticas como el proyecto de la catapulta, y eso es positivo. Sin embargo, tu reporte semanal no refleja el trabajo profundo que requiere la Fase 2. Las respuestas son muy breves y no muestran el análisis de variables que es el corazón de esta etapa.\n\nEsta semana tu desempeño ha sido inicial. Necesitas pasar de respuestas superficiales a análisis detallados donde identifiques y clasifiques variables específicas en cada problema que trabajas. La Fase 2 no es solo \"entender\", es aprender a *ver* las variables ocultas en cada fenómeno físico.\n\nPara la próxima semana, te pido que dediques tiempo real a escribir tu reporte: desarrolla cada respuesta con ejemplos concretos del proyecto de la catapulta, lista las variables que identificaste, clasifícalas, y reflexiona honestamente sobre qué te cuesta. Esto hará una gran diferencia en tu aprendizaje.",
+      "strengths": "• Mencionas un proyecto concreto: Identificas la catapulta como actividad práctica, lo que muestra que sí estás participando en las clases y realizando trabajos.\n• Reconoces conexión interdisciplinaria: Intentas vincular Física con Matemática, lo que demuestra que buscas ver relaciones entre materias.",
+      "improvements": "• Respuestas muy breves sin detalle: Tus respuestas son frases cortas que no desarrollan ideas. Para la próxima semana, escribe mínimo 2-3 oraciones por pregunta explicando *qué* hiciste, *cómo* lo hiciste y *por qué* es importante. Ejemplo: en lugar de \"catapulta\", escribe \"En la catapulta identifiqué variables como ángulo de lanzamiento (controlable), masa del proyectil (conocida) y distancia alcanzada (desconocida).\"\n• No identificas ni clasificas variables: Este es el núcleo de la Fase 2 y no aparece en tu reporte. Necesitas hacer listas explícitas de variables en cada problema, clasificándolas como: conocidas/desconocidas y controlables/no controlables. Practica con el proyecto de la catapulta: ¿qué variables puedes cambiar? ¿Cuáles son fijas? ¿Cuáles mides?\n• Falta reflexión honesta sobre dificultades: Decir que \"entendiste todo\" sin dificultades no es realista. Reflexiona genuinamente: ¿Qué te cuesta diferenciar entre variables controlables y no controlables? ¿Cómo distingues una magnitud física de un simple número? Identificar dificultades reales es el primer paso para mejorar.",
+      "createdAt": "2025-11-12T23:01:24.052Z"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "studentId": "u_abe3h0317me06njgs",
+    "studentName": "Catalina Gilardi",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189890",
+    "statistics": {
+      "totalFeedbacks": 3,
+      "feedbacksWithScore": 3,
+      "averageScore": 71.67,
+      "minScore": 66,
+      "maxScore": 76,
+      "weeksCovered": 3,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me06njgs_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 76,
+      "generalComments": "Querida Catalina Gilardi, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Física. Muestras claridad al identificar el problema principal y distinguir información relevante, como se evidencia en tu análisis de las conversaciones A y B sobre pensamiento crítico. Realizas conexiones interesantes entre el pensamiento crítico y Estudio Dirigido. Te recomiendo profundizar más en la aplicación del pensamiento crítico a situaciones de tu vida cotidiana para fortalecer la transferencia de aprendizaje. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente cuál conversación utiliza pensamiento crítico mediante análisis de evidencias",
+        "Reconoces con precisión las características del pensamiento crítico: hacer preguntas antes de actuar y analizar datos",
+        "Estableces conexiones apropiadas entre el pensamiento crítico y otras áreas como Estudio Dirigido"
+      ],
+      "improvements": [
+        "Es importante desarrollar ejemplos más concretos de cómo aplicar el pensamiento crítico a situaciones de tu vida actual",
+        "Te sugiero profundizar en cómo el pensamiento crítico se relaciona específicamente con problemas de Física",
+        "Completa la sección de comentarios adicionales (Q5) para reflexionar más sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07 15:55:35"
+    },
+    {
+      "feedbackId": "fb_002_1_me06njgs_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 66,
+      "generalComments": "Querida Catalina Gilardi, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Demuestras capacidad para identificar el problema central y los objetivos en el ejercicio de Carlos y sus tareas domésticas. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema y fortalecer las conexiones específicas con contenidos de Física. Te recomiendo trabajar en relacionar sistemáticamente los ejercicios de pensamiento crítico con situaciones y conceptos físicos concretos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente el problema específico que debe resolver Carlos: organizar tareas y decidir orden y tiempo",
+        "Reconoces claramente el objetivo: hacer todas las tareas rápido y tener tiempo para videojuegos",
+        "Comprendes la importancia de la organización para no perder tiempo"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la conexión entre los ejercicios de pensamiento crítico y los contenidos específicos de Física",
+        "Es fundamental desarrollar estrategias más concretas para relacionar el pensamiento crítico con problemas físicos",
+        "Te sugiero profundizar en la reflexión sobre tu proceso de aprendizaje completando los comentarios adicionales (Q5)"
+      ],
+      "createdAt": "2025-10-07 15:55:35"
+    },
+    {
+      "feedbackId": "fb_002_1_me06njgs_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Querida Catalina Gilardi, estás trabajando adecuadamente en la Fase 4: Estrategia y ejecución completa, demostrando comprensión del proceso completo de resolución en Física. Integras exitosamente los conocimientos de las fases anteriores al describir el proceso completo de resolución del problema de tiro oblicuo, desde identificar el objetivo (F1) hasta aplicar fórmulas (F3) y obtener la respuesta. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas y fórmulas en cada situación. Te recomiendo crear un esquema o tabla de decisión que te ayude a sistematizar qué fórmulas corresponden a cada tipo de movimiento. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Integras correctamente las cuatro fases del pensamiento crítico en la resolución del problema de tiro oblicuo",
+        "Describes el proceso completo: desde identificar el objetivo (si la flecha da en el blanco) hasta obtener la respuesta",
+        "Aplicas sistemáticamente las fases F1, F2, F3 y F4 en la resolución del problema de cinemática"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas y fórmulas apropiadas en cada situación de movimiento",
+        "Es importante profundizar en las conexiones del tiro oblicuo con otras áreas más allá de Matemática, como deportes o ingeniería",
+        "Te sugiero incluir reflexiones sobre tu proceso de aprendizaje en la sección de comentarios adicionales (Q5)"
+      ],
+      "createdAt": "2025-10-07 15:55:35"
+    }
+  ]
+}

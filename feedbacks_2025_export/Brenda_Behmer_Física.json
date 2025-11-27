@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "studentId": "u_ws61mg4b5me6e599g",
+    "studentName": "Brenda Behmer",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.187982",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 53.08,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_behmer_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Brenda, no hubo actividades nuevas esta semana. Aprovecha estos momentos para revisar conceptos previos o adelantar lecturas.",
+      "strengths": [
+        "Cumplimiento con el reporte",
+        "Honestidad al comunicar"
+      ],
+      "improvements": [
+        "Buscar material de estudio independiente",
+        "Revisar conceptos previos"
+      ],
+      "createdAt": "2025-01-09T04:30:00Z"
+    },
+    {
+      "feedbackId": "fb_behmer_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 30,
+      "generalComments": "Brenda, segunda semana sin temas nuevos. Es importante mantener continuidad. Busca ejercicios de práctica o consulta material de apoyo.",
+      "strengths": [
+        "Registro consistente de actividades",
+        "Comunicación clara"
+      ],
+      "improvements": [
+        "Practicar ejercicios previos",
+        "Comunicar con profesor sobre material"
+      ],
+      "createdAt": "2025-01-09T04:30:00Z"
+    },
+    {
+      "feedbackId": "fb_behmer_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Brenda, reconoces estar en nivel 2 del tiro oblicuo. Tu actitud es positiva al identificar que necesitas más práctica. La conexión con función cuadrática es excelente.",
+      "strengths": [
+        "Autoevaluación honesta nivel 2",
+        "Conexión con matemática apropiada",
+        "Actitud positiva hacia aprendizaje",
+        "Reconocimiento de necesidades"
+      ],
+      "improvements": [
+        "Realizar ejercicios básicos guiados",
+        "Solicitar explicación adicional",
+        "Practicar con ejemplos simples"
+      ],
+      "createdAt": "2025-01-09T04:30:00Z"
+    },
+    {
+      "feedbackId": "fb_behmer_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Muy bien Brenda, avanzaste al nivel 3. Tu resolución del ejercicio del ángulo es correcta: calculaste bien la velocidad vertical (17.3 m/s) y el ángulo (30°). Excelente progreso.",
+      "strengths": [
+        "Avance de nivel 2 a nivel 3",
+        "Cálculos correctos del ejercicio",
+        "Perseverancia al repetir ejercicios",
+        "Conexión con MRU y MRUV"
+      ],
+      "improvements": [
+        "Consolidar confianza en resolución",
+        "Practicar más ejercicios variados",
+        "Reducir necesidad de repetición"
+      ],
+      "createdAt": "2025-01-09T04:30:00Z"
+    },
+    {
+      "feedbackId": "fb_behmer_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 85,
+      "generalComments": "Excelente trabajo Brenda. Resolviste completamente el problema del motociclista aplicando las 4 fases. Tus cálculos son precisos: tiempo 2.6s, alcance 57m. Tu análisis de seguridad es muy acertado.",
+      "strengths": [
+        "Aplicación completa de 4 fases",
+        "Cálculos precisos y verificados",
+        "Análisis crítico de seguridad",
+        "Conclusión fundamentada correcta"
+      ],
+      "improvements": [
+        "Reducir dependencia de ayudas externas",
+        "Fortalecer autonomía completa",
+        "Practicar ejercicios más complejos"
+      ],
+      "createdAt": "2025-01-09T04:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5me6e599g_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 71,
+      "generalComments": "Querida Brenda, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas los pasos de resolución de manera ordenada logrando completar exitosamente el examen de tiro oblicuo. Realizas conexiones con MRU y MRUV consolidando tu comprensión de movimientos. Necesitas fortalecer el cálculo de ángulos mediante funciones trigonométricas inversas. Profundiza en la reflexión sobre tu proceso de aprendizaje documentando estrategias en Q5. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada logrando resolver todos los ejercicios del examen",
+        "Integras exitosamente los conocimientos aplicando las 4 fases en contexto de evaluación",
+        "Realizas conexiones con movimientos rectilíneos previos mostrando visión integradora"
+      ],
+      "improvements": [
+        "Es importante mejorar el dominio del cálculo de ángulos usando funciones trigonométricas inversas",
+        "Necesitas documentar con mayor detalle las estrategias que usaste para superar dificultades",
+        "Te recomiendo incorporar la reflexión en Q5 para consolidar tu aprendizaje"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_5me6e599g_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Brenda, debido a la ausencia del profesor, no fue posible evaluar tu progreso en Física durante este período. Es importante que aproveches estas semanas para repasar contenidos previos o consolidar temas trabajados. Proporciona evidencias de estudio autónomo o repaso realizado en futuros reportes cuando ocurran situaciones similares. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Comunicaste claramente la situación académica de la semana",
+        "Mantuviste la regularidad en la entrega del reporte",
+        "Cumpliste con el proceso de registro"
+      ],
+      "improvements": [
+        "Aprovecha semanas sin clase para realizar repaso autónomo de temas previos",
+        "Documenta cualquier actividad de estudio o consolidación que realices por tu cuenta",
+        "Proporciona evidencias de uso productivo del tiempo académico"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "54c624e9-32e4-4429-8cf9-9b55e6eb9767",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:40:15.058Z"
+    },
+    {
+      "feedbackId": "e0c993ab-164b-4f68-b7ed-821cda106409",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:17:06.140Z"
+    },
+    {
+      "feedbackId": "ac806d51-7115-4be3-88e5-6ed9d5498c62",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:57:39.959Z"
+    },
+    {
+      "feedbackId": "1b0b91b0-2bc5-45ce-8c54-a31ddfafa347",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:48:00.582Z"
+    },
+    {
+      "feedbackId": "8633c8ec-d6de-4f5d-b605-455870f61197",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Reconozco tu esfuerzo esta semana y tu comprensión sólida de las Leyes de Newton. Entiendes bien los conceptos físicos y participaste activamente en las actividades prácticas, lo que es excelente.\n\nSin embargo, tu reporte no refleja el trabajo específico de Fase 2: Identificación de Variables. Describiste temas y ejercicios, pero no analizaste las variables involucradas en cada problema. Esto es lo que diferencia Fase 2 de Fase 1: necesitas ir más allá de entender conceptos y aprender a identificar, clasificar y relacionar variables sistemáticamente.\n\nPara la próxima semana, enfócate en crear listas explícitas de variables en cada problema, clasificarlas claramente, y reflexionar sobre cómo esa identificación te ayuda a resolver problemas. También completa todas las secciones del reporte, especialmente Q5, donde muestras tu pensamiento más profundo.",
+      "strengths": "• Comprensión conceptual de Leyes de Newton: Identificas correctamente los tipos de fuerzas (contacto y a distancia) y entiendes su rol en el movimiento. Esto es una base sólida para analizar variables en sistemas físicos.\n• Conexiones interdisciplinarias: Relacionas los temas con matemática e ingeniería, mostrando que ves la Física más allá de la clase. Esta visión amplía tu capacidad de aplicar lo aprendido.\n• Participación en actividades prácticas: Realizaste el trabajo práctico con ejemplos concretos (auto frenando, pelota cayendo). Esto demuestra disposición a aprender de forma activa.",
+      "improvements": "• Identificación explícita de variables: En Fase 2, debes listar las variables en cada problema (ej: en \"auto frenando\" → velocidad inicial, fuerza de fricción, masa del auto). Crea tablas o listas que clasifiquen cada variable como conocida/desconocida y controlable/no controlable. Esto es el corazón de esta fase.\n• Reflexión honesta sobre dificultades: Decir \"nada fue difícil\" no ayuda a tu aprendizaje. Identifica desafíos reales: ¿Confundes variables? ¿Te cuesta diferenciar magnitudes? ¿Qué estrategias usarías para mejorar? La metacognición es clave en pensamiento crítico.\n• Análisis sistemático en Q5: Completa la sección de comentarios adicionales. Reflexiona sobre cómo evolucionaste desde Fase 1, qué te sorprendió al identificar variables, o cómo cambió tu forma de ver los problemas. Esto muestra profundidad de pensamiento.",
+      "createdAt": "2025-10-27T05:09:59.740Z"
+    },
+    {
+      "feedbackId": "c1028c47-d32a-4b67-bb1d-0e2781d79fa7",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que has comenzado el proyecto con entusiasmo y que tu equipo está bien organizado. Sin embargo, tu reporte no refleja aún el nivel de análisis que esperamos en Fase 2. Estás describiendo *qué hiciste*, pero no *cómo identificaste y clasificaste las variables* del problema, que es el corazón de esta fase.\n\nTu desempeño esta semana es sólido en organización, pero necesita profundidad en pensamiento crítico. No se trata de que todo sea fácil, sino de que demuestres cómo analizas los problemas de forma sistemática.\n\nPara la próxima semana, te pido que hagas un análisis detallado de las variables de tu dispositivo: escribe una lista completa, clasifícalas, identifica cuáles son desafíos reales y propón estrategias para medirlas o controlarlas. Esto transformará tu reporte en evidencia real de aprendizaje en Fase 2.",
+      "strengths": "• Claridad en la descripción del proceso: Tu explicación de las etapas del proyecto (investigación, boceto, lista de materiales) es ordenada y fácil de seguir, lo que muestra organización en el trabajo en equipo.\n• Reconocimiento del trabajo colaborativo: Identificas que \"trabajando en equipo todo se hace más fácil y organizado\", lo que demuestra conciencia sobre cómo el trabajo grupal facilita el aprendizaje.\n• Conexión inicial con conceptos previos: Intentas vincular el proyecto con temas anteriores de fuerza y movimiento, mostrando que reconoces la continuidad entre contenidos.",
+      "improvements": "• Identificación explícita de variables: En tu próximo reporte, debes listar las variables específicas del proyecto (masa del dispositivo, fuerza aplicada, aceleración resultante, fricción, etc.) y clasificarlas como conocidas/desconocidas y controlables/no controlables. Por ejemplo: \"La masa es conocida y controlable; la aceleración es desconocida pero medible.\"\n• Reflexión honesta sobre dificultades: Aunque el tema te resulte familiar, siempre hay desafíos en la identificación de variables. Pregúntate: ¿Qué variables son difíciles de medir? ¿Cuáles no puedo controlar? Esto demuestra pensamiento crítico real y te ayuda a mejorar.\n• Profundidad en conexiones: No basta decir \"relacionamos fuerza y movimiento\". Explica cómo cada variable del proyecto demuestra una Ley de Newton específica. Por ejemplo: \"La inercia (Primera Ley) se ve cuando el dispositivo mantiene su movimiento sin fricción.\"",
+      "createdAt": "2025-11-17T13:40:16.880Z"
+    }
+  ]
+}

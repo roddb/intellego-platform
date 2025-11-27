@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "studentId": "u_03h8i0t6nme1rlx0z",
+    "studentName": "Martina Yablonovich",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.221043",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 50.12,
+      "minScore": 30,
+      "maxScore": 78,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-08-04_f6ce96f0",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "No hubo clases esta semana, por lo que Martina no pudo trabajar en los contenidos de pensamiento crítico ni en equilibrio químico. Es comprensible que no haya evidencia de aprendizaje en esta circunstancia. Cuando se retomen las clases, será importante comenzar con los fundamentos de Fase 1 para establecer una base sólida.",
+      "strengths": [
+        "Completó el reporte indicando la situación de ausencia de clases",
+        "Comunicación clara sobre la situación semanal",
+        "Oportunidad de comenzar desde cero con fundamentos sólidos cuando se retomen clases"
+      ],
+      "improvements": [
+        "Al retomar clases, enfocarse en los fundamentos de identificación y comprensión del problema",
+        "Participar activamente en las primeras sesiones para establecer bases metodológicas sólidas",
+        "Prepararse revisando materiales introductorios de equilibrio químico si están disponibles"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-08-11_571a7838",
+      "weekStart": "2025-08-11",
+      "score": 60,
+      "generalComments": "Martina demuestra comprensión inicial de la identificación de variables y la clasificación en cuadros A-D (conocidas/desconocidas, controlables/no controlables). En el problema del buffer de Sofía, identifica correctamente el sistema químico (CH₃COOH/CH₃COO⁻) y el objetivo de pH. Sin embargo, enfrenta dificultades significativas para entender las consignas y reconoce esta limitación. Su nivel de dominio autoevaluado (2/4) es realista.",
+      "strengths": [
+        "Identificación correcta del sistema buffer de acetato y su función",
+        "Comprensión del objetivo de mantener pH estable cerca de 4.8",
+        "Reconocimiento de la relación con Fase 1 trabajada previamente"
+      ],
+      "improvements": [
+        "Desarrollar técnicas de comprensión lectora para enunciados científicos complejos",
+        "Completar la clasificación de variables en los cuatro cuadros (A, B, C, D) según el método",
+        "Practicar con problemas más cortos antes de situaciones extensas como la de Sofía"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-08-18_df55a01b",
+      "weekStart": "2025-08-18",
+      "score": 40,
+      "generalComments": "Martina reporta una semana muy difícil donde no se realizaron ejercicios prácticos y tuvo dificultades significativas para seguir la explicación teórica sobre equilibrio químico. Su nivel de dominio autoevaluado (2/4) y sus respuestas muy breves indican que necesita apoyo adicional urgente. La conexión con contenidos de la semana anterior es apropiada pero necesita traducirse en comprensión más profunda.",
+      "strengths": [
+        "Reconoce conexión con contenidos de equilibrio de la semana anterior",
+        "Honestidad al reportar dificultades para seguir explicaciones",
+        "Completa el reporte a pesar de la semana difícil"
+      ],
+      "improvements": [
+        "Solicitar apoyo adicional del profesor para repasar conceptos de equilibrio químico no comprendidos",
+        "Buscar materiales complementarios (videos, tutoriales) que expliquen equilibrio con diferentes enfoques",
+        "Participar activamente en clase haciendo preguntas cuando la explicación no es clara"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-08-25_a623f05a",
+      "weekStart": "2025-08-25",
+      "score": 38,
+      "generalComments": "Martina reporta dificultades generalizadas ('todo') en la semana de trabajo con Tabla ICE. Su respuesta en Q2 muestra un intento de aplicar la fórmula de Kc con algunos datos del problema, pero la presentación es muy desorganizada y el cálculo final (Kc=0.32) no está justificado ni muestra el proceso completo. Su nivel de dominio autoevaluado (2/4) refleja estas dificultades. La conexión con contenidos previos es apropiada pero superficial.",
+      "strengths": [
+        "Intento de aplicar la fórmula de Kc = [productos]/[reactivos]",
+        "Identificación de algunos datos del problema (volumen, moles)",
+        "Reconocimiento honesto de dificultades generalizadas"
+      ],
+      "improvements": [
+        "Aprender a organizar datos en formato de tabla ICE sistemáticamente",
+        "Mostrar el proceso completo de cálculo paso a paso, no solo el resultado final",
+        "Desarrollar estrategias para no sentir que todo es difícil, identificando qué aspectos específicos causan confusión"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-09-01_4b386bae",
+      "weekStart": "2025-09-01",
+      "score": 35,
+      "generalComments": "Martina reporta una semana de simulacro de examen con dificultades extremas ('no entendí nada'). Su respuesta en Q2 solo copia parte del enunciado del ejercicio sin intentar resolverlo ni aplicar las fases metodológicas. Su nivel de dominio autoevaluado (1/4) es el más bajo posible y refleja una situación crítica de comprensión. La conexión con contenidos previos es muy genérica.",
+      "strengths": [
+        "Completa el reporte a pesar de las dificultades extremas",
+        "Honestidad radical al indicar que no entendió nada",
+        "Reconoce conexión con contenidos trabajados previamente"
+      ],
+      "improvements": [
+        "Solicitar urgentemente sesión de apoyo individual con el profesor",
+        "Comenzar desde los conceptos más básicos de equilibrio químico con materiales introductorios",
+        "Trabajar la comprensión del significado de equilibrio antes de intentar cálculos"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1rlx0z_2025-09-15_1690905a",
+      "weekStart": "2025-09-15",
+      "score": 32,
+      "generalComments": "Martina reporta semana de repaso para prueba con dificultades extremas ('no entiendo nada', 'todo' es difícil). Estuvo en programa de apoyo académico (ACAP) pero las dificultades persisten. Sus respuestas son mínimas y no muestran evidencia de comprensión ni aplicación de metodología. Su nivel de dominio autoevaluado (1/4) se mantiene en el nivel más bajo. Esta situación requiere atención inmediata y coordinada.",
+      "strengths": [
+        "Participa en programa de apoyo académico (ACAP)",
+        "Completa el reporte honestamente a pesar de dificultades extremas",
+        "Reconoce que el repaso se relaciona con contenidos de semanas anteriores"
+      ],
+      "improvements": [
+        "Trabajar con equipo de ACAP para desarrollar plan de apoyo personalizado",
+        "Identificar dificultades específicas en lugar de generalizar todo como difícil",
+        "Considerar estrategias de estudio diferenciadas y apoyo pedagógico intensivo"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "e3c18ded-4d4f-4538-bf42-8eaca934913d",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:11.335Z"
+    },
+    {
+      "feedbackId": "a03dc519-44c9-4aeb-a616-e125b8eb3d07",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:01:17.444Z"
+    },
+    {
+      "feedbackId": "e8ef0374-3cba-49e3-b6c1-79316bd83f72",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:41.666Z"
+    },
+    {
+      "feedbackId": "8780f581-98b9-4792-916e-163b8c1f673f",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:24:51.347Z"
+    },
+    {
+      "feedbackId": "16ba4f0d-059f-45bf-a4d7-a2cd3d7e633a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:28:22.575Z"
+    },
+    {
+      "feedbackId": "0810b8e7-f69d-4bc1-8d1d-8cd81a703c5b",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:46:17.377Z"
+    },
+    {
+      "feedbackId": "b85b78dc-45ca-4bff-bd5b-2d05db8662d6",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:28:41.727Z"
+    },
+    {
+      "feedbackId": "da60ff8a-09e6-4736-b383-5e30d2955d53",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que tienes una base sólida en conceptos de ácidos y bases (tus respuestas en Q2 son correctas), pero tu reporte muestra que aún no estás aplicando el método de Fase 2 completamente. El objetivo no es solo entender qué es un ácido fuerte, sino identificar y clasificar las variables que lo definen: concentración, grado de ionización, pH, etc.\n\nTu mayor desafío esta semana no fue el contenido químico, sino la falta de sistematicidad en el análisis y la dificultad para mantener el enfoque. Esto es normal, pero necesitas herramientas concretas para superarlo. No basta reconocer que \"te aburría\"; necesitas un plan de acción específico.\n\nPara la próxima semana, te propongo: (1) Haz una tabla con todas las variables que aparecen en tus ejercicios de ácidos/bases, clasificándolas en conocidas/desconocidas y controlables/no controlables. (2) Elige una estrategia para mejorar tu atención en clase y aplícala consistentemente. (3) Completa la pregunta 5 con reflexiones genuinas sobre lo que aprendiste.",
+      "strengths": "• Precisión conceptual en Q2: Tus respuestas sobre ácidos fuertes/débiles y bases son correctas y bien justificadas. El ejemplo del NaOH muestra que comprendes la disociación total, lo que es un buen punto de partida.\n• Honestidad en la autoevaluación: Reconoces que \"2/4\" y que te costará más adelante. Esta sinceridad es valiosa para identificar dónde necesitas apoyo.\n• Aplicación de teoría de Brönsted-Lowry: Utilizas correctamente la definición de base como \"especie que capta H⁺\", demostrando que has asimilado el marco teórico presentado.",
+      "improvements": "• Identifica variables específicas en ácidos y bases: En lugar de decir \"entiendo lo suficiente\", debes nombrar qué estás estudiando: pH, concentración molar, grado de ionización, constante de disociación (Ka). Esto es lo que significa \"identificar variables\" en Fase 2. Haz una lista concreta de 5-6 variables que aparecen en tus ejercicios.\n• Desarrolla estrategias concretas para mantener la atención: No es suficiente decir \"me aburría\". Propón acciones: tomar notas mientras escuchas, hacer preguntas cada 10 minutos, resolver un ejercicio pequeño durante la clase. Elige una estrategia y pruébala esta semana.\n• Conecta conceptos con aplicaciones reales y medibles: \"Apagar la luz\" no se relaciona con ácidos/bases. Busca ejemplos concretos: pH del jugo de limón (ácido), limpiadores con NaOH (base), cómo el pH afecta reacciones químicas. Escribe 3 ejemplos con variables identificables.",
+      "createdAt": "2025-10-27T04:55:26.551Z"
+    },
+    {
+      "feedbackId": "46b0134a-f8fc-491f-9657-26298bf57f04",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que estuviste ausente esta semana y no pudiste asistir a clase. Es completamente comprensible, pero es importante que te pongas al día lo antes posible para no perder continuidad con los temas de Física/Química que estamos trabajando en Fase 2.\n\nTe sugiero que esta semana hagas lo siguiente: contacta a un compañero de confianza para obtener los apuntes de las clases que perdiste, revisa el material disponible en la plataforma Intellego, y si tienes dudas, consulta con tu profesor durante las horas de tutoría.\n\nCuando regreses a clase, estaremos listos para apoyarte. Recuerda que el pensamiento crítico se construye semana a semana, así que tu participación activa en las próximas sesiones será clave para recuperar el ritmo.",
+      "strengths": "• Comunicación clara de tu situación: Informaste explícitamente que estuviste ausente, lo que demuestra responsabilidad al justificar por qué no completaste el reporte. Esto es importante para que podamos apoyarte adecuadamente.",
+      "improvements": "• Recuperación del contenido perdido: Coordina esta semana con tus compañeros o consulta con tu profesor sobre los temas trabajados en Física/Química. Solicita los apuntes y cualquier material complementario que necesites para ponerte al día sin quedarte atrás.\n• Completar el reporte próxima semana: Asegúrate de asistir a las clases de esta semana y completa todas las secciones del reporte semanal, incluyendo la sección de comentarios adicionales (Q5), que esta vez quedó vacía.",
+      "createdAt": "2025-11-03T12:18:20.424Z"
+    },
+    {
+      "feedbackId": "fb78954a-eda2-4c72-89e9-9619625e9000",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 78,
+      "generalComments": "Excelente trabajo esta semana. Demuestras dominio sólido de los conceptos de ácidos-bases y, lo más importante, autoconciencia clara sobre tus dificultades y cómo resolverlas. Tu estrategia de marcar en rojo el \"factor 2\" es exactamente el tipo de herramienta que necesitas para consolidar aprendizaje.\n\nTu capacidad de conectar el tema con Biología, Matemática y vida cotidiana es destacable. Ves más allá de la fórmula: entiendes que pH importa en sangre, en productos de limpieza, en enzimas. Eso es pensamiento crítico real.\n\nPara la próxima semana, enfócate en clasificar explícitamente variables (conocidas/desconocidas, controlables/no controlables) en cada problema. Esto te preparará para Fase 3 (análisis de relaciones entre variables) y hará tu pensamiento más sistemático. Además, completa siempre la sección Q5 con reflexiones propias.",
+      "strengths": "• Metacognición avanzada en identificación de dificultades: Reconoces con precisión dónde fallas (factor 2 en bases, logaritmos) y propones estrategias concretas y realizables. Esto muestra madurez en tu proceso de aprendizaje.\n• Excelente capacidad de conexión interdisciplinaria: Vinculas ácidos-bases con Biología (pH en sangre), Matemática (logaritmos) y vida cotidiana. Demuestras que comprendes la relevancia real del tema más allá de la teoría.\n• Dominio sólido de conceptos clave: Manejas con seguridad disociación completa, molaridad y la relación pH+pOH=14. Tus ejemplos (HCl y Ba(OH)₂) muestran aplicación correcta de estos conceptos.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar qué es variable conocida/desconocida y controlable/no controlable en cada problema. Por ejemplo, en el ejercicio de Ba(OH)₂): molaridad inicial = conocida, [OH⁻] = desconocida, temperatura = controlable. Esto es central en Fase 2.\n• Completitud en identificación de especies: Cuando disocies Ba(OH)₂, lista todas las especies presentes (Ba²⁺, OH⁻, H₂O, H₃O⁺). Esto te ayudará a no olvidar variables importantes y a prepararte para equilibrios químicos en fases posteriores.\n• Respuesta en Q5 - Reflexión final: Dedica 3-4 líneas a comentar sobre la importancia de identificar variables correctamente o cómo ha evolucionado tu comprensión desde Fase 1. Esto cierra tu análisis y demuestra pensamiento crítico profundo.",
+      "createdAt": "2025-11-17T13:55:57.912Z"
+    }
+  ]
+}

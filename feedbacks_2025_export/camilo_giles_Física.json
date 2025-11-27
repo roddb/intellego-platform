@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "studentId": "u_4goz47h3xme6htid0",
+    "studentName": "camilo giles",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.242534",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 46.25,
+      "minScore": 35,
+      "maxScore": 52,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_giles_fisica_20250804",
+      "weekStart": "2025-08-04",
+      "score": 35,
+      "generalComments": "Ausencia justificada por viaje. Excelente actitud al ponerse al día y aprobar el último tema pese a no asistir.",
+      "strengths": [
+        "Responsabilidad al informar ausencia",
+        "Proactividad para ponerse al día",
+        "Logró aprobar evaluación pese a ausencia",
+        "Compromiso con el aprendizaje"
+      ],
+      "improvements": [
+        "Mantener comunicación durante ausencias",
+        "Solicitar material con anticipación",
+        "Continuar con esta actitud proactiva"
+      ],
+      "createdAt": "2025-01-09 12:15:00"
+    },
+    {
+      "feedbackId": "fb_giles_fisica_20250818",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Participación en clase con ejercicio del avión. Dificultades conceptuales con la combinación de movimientos, pero muestra esfuerzo.",
+      "strengths": [
+        "Participación activa en clase",
+        "Trabajo colaborativo con profesor",
+        "Identificación honesta de dificultades",
+        "Reconoce necesidad de práctica"
+      ],
+      "improvements": [
+        "Reforzar conceptos de MRU y caída libre por separado",
+        "Practicar más ejercicios básicos",
+        "Buscar ayuda cuando surjan dudas",
+        "Dedicar tiempo extra a ejercitación"
+      ],
+      "createdAt": "2025-01-09 12:16:00"
+    },
+    {
+      "feedbackId": "fb_giles_fisica_20250825",
+      "weekStart": "2025-08-25",
+      "score": 48,
+      "generalComments": "Presenta ejercicio completo de rugby pero sin desarrollo. Dificultades con la metodología de las fases. Solicita re-explicación del tema.",
+      "strengths": [
+        "Identifica datos correctamente",
+        "Plantea el problema completo",
+        "Reconoce sus dificultades",
+        "Pide ayuda específica"
+      ],
+      "improvements": [
+        "Desarrollar los cálculos paso a paso",
+        "Practicar cada fase por separado",
+        "Trabajar con ejercicios más simples primero",
+        "Buscar apoyo adicional del profesor"
+      ],
+      "createdAt": "2025-01-09 12:17:00"
+    },
+    {
+      "feedbackId": "fb_giles_fisica_20250901",
+      "weekStart": "2025-09-01",
+      "score": 50,
+      "generalComments": "Presenta problema complejo de fútbol americano sin desarrollo. Muestra esfuerzo por relacionar temas pero persisten las dificultades con las incógnitas.",
+      "strengths": [
+        "Intenta problemas complejos",
+        "Identifica relación con temas anteriores",
+        "Esfuerzo por entender",
+        "Nivel 2 muestra ligero progreso"
+      ],
+      "improvements": [
+        "Trabajar problemas más simples primero",
+        "Hacer lista de todas las variables",
+        "Resolver por partes",
+        "Solicitar tutoría individual"
+      ],
+      "createdAt": "2025-01-09 12:18:00"
+    }
+  ]
+}

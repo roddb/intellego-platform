@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "u_0dw79d8pume1fp20s",
+    "studentName": "Juan Ignacio Rios",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.209551",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 23.0,
+      "minScore": 23,
+      "maxScore": 23,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "f_jir_3d4af1d1c103",
+      "weekStart": "2025-08-04",
+      "score": 23,
+      "generalComments": "Juan Ignacio, entiendo que no pudiste asistir a las clases de Química esta semana. La asistencia es fundamental para tu proceso de aprendizaje y comprensión de los conceptos de la Fase 1 sobre identificación y comprensión de problemas. Te recomiendo que te pongas al día con el material perdido consultando con tus compañeros o durante la hora de consulta.",
+      "strengths": [
+        "Cumpliste con entregar el reporte semanal a pesar de tu ausencia",
+        "Fuiste honesto al comunicar tu situación",
+        "Mostraste responsabilidad al justificar tu falta de actividades"
+      ],
+      "improvements": [
+        "Necesitas recuperar el contenido de la clase sobre pensamiento crítico y los 5 pasos",
+        "Es importante que completes los ejercicios pendientes de identificación de problemas",
+        "Debes establecer un plan de recuperación para no atrasarte con los temas",
+        "Procura mantener comunicación con tus compañeros para obtener el material de clase"
+      ],
+      "createdAt": "2025-09-27 16:51:54"
+    }
+  ]
+}

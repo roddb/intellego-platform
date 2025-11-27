@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "studentId": "u_zbzlsfka9me0bba6t",
+    "studentName": "Ulises García Canteli",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.237285",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 36.0,
+      "minScore": 30,
+      "maxScore": 42,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5B_ulises_garcia_20251005_001",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Querido Ulises, debido a que casi nadie estuvo presente por el viaje, no fue posible evaluar tu progreso en Química durante esta semana. Reconoces con honestidad la situación de ausencia de actividad. Es fundamental recuperar el contenido que podría haberse trabajado durante esta semana para mantener continuidad en el aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en futuras entregas. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Honestidad al comunicar la situación excepcional de la semana",
+        "Responsabilidad al completar el reporte a pesar de no haber actividad",
+        "Claridad al explicar el contexto de ausencia colectiva"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas incluso cuando la actividad sea limitada",
+        "Aprovechar el tiempo libre para revisar temas anteriores o preparar temas futuros",
+        "Comunicar con mayor detalle qué actividades alternativas realizaste durante la semana",
+        "Evitar respuestas mínimas como puntos suspensivos en preguntas importantes"
+      ],
+      "createdAt": "2025-10-05 22:21:22"
+    },
+    {
+      "feedbackId": "fb_002_5B_ulises_garcia_20251005_002",
+      "weekStart": "2025-08-11",
+      "score": 42,
+      "generalComments": "Querido Ulises, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Identificas con honestidad tu percepción de falta de explicación. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje de cada tema trabajado. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Desarrolla estrategias más específicas para superar tus desafíos más allá de esperar explicación adicional. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante!",
+      "strengths": [
+        "Honestidad al reconocer tu percepción de falta de explicación",
+        "Capacidad de identificar necesidades de aprendizaje",
+        "Responsabilidad al completar el reporte semanal"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más elaboradas y específicas en todas las preguntas del reporte",
+        "Identificar con precisión qué temas específicos se trabajaron aunque sean \"poco y nada\"",
+        "Proporcionar ejemplos concretos de qué explicación faltó y sobre qué conceptos",
+        "Buscar recursos alternativos (compañeros, materiales, consultas) cuando sientas que falta explicación",
+        "Evitar respuestas mínimas como puntos suspensivos que no aportan información sobre tu proceso"
+      ],
+      "createdAt": "2025-10-05 22:21:23"
+    }
+  ]
+}

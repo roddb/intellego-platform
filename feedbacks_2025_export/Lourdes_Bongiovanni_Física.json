@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "studentId": "u_qo63sfz3tme13og82",
+    "studentName": "Lourdes Bongiovanni",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.213328",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 65.53,
+      "minScore": 30,
+      "maxScore": 92,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_bongiovanni_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 35,
+      "generalComments": "Lourdes, entiendo que estuviste de vacaciones. Es positivo que te hayas informado sobre la nueva forma de trabajo. Mantente al día con el material.",
+      "strengths": [
+        "Comunicación con compañeros",
+        "Interés por mantenerse informada",
+        "Responsabilidad al reportar"
+      ],
+      "improvements": [
+        "Revisar material de la semana",
+        "Ponerse al día con contenidos",
+        "Consultar dudas al regresar"
+      ],
+      "createdAt": "2025-01-09T04:45:00Z"
+    },
+    {
+      "feedbackId": "fb_bongiovanni_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Excelente trabajo autónomo durante las vacaciones. Demuestras iniciativa y responsabilidad al continuar con los ejercicios por tu cuenta.",
+      "strengths": [
+        "Resolución completa y detallada del ejercicio 9 Fase 1",
+        "Desarrollo sistemático del ejercicio 8 Fase 2 con matriz de variables",
+        "Capacidad de aprendizaje autónomo con recursos digitales",
+        "Identificación clara de variables críticas"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión de matrices de variables",
+        "Buscar apoyo docente cuando regreses para aclarar dudas",
+        "Practicar más ejercicios de Fase 2 con menor dependencia de IA"
+      ],
+      "createdAt": "2025-01-09 10:00:00"
+    },
+    {
+      "feedbackId": "fb_bongiovanni_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 88,
+      "generalComments": "Excelente dominio de Fase 3. Tu nivel 4 demuestra que comprendes perfectamente la selección de herramientas matemáticas para resolver problemas de física.",
+      "strengths": [
+        "Dominio nivel 4 en Fase 3",
+        "Identificación correcta de variables clave",
+        "Comparación efectiva entre métodos A y B",
+        "Comprensión profunda de la conexión entre fases"
+      ],
+      "improvements": [
+        "Mantener este nivel de excelencia",
+        "Ayudar a compañeros con dificultades",
+        "Explorar problemas más complejos"
+      ],
+      "createdAt": "2025-01-09 10:05:00"
+    },
+    {
+      "feedbackId": "fb_bongiovanni_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Buen trabajo con la Fase 4, Lourdes. Tu resolución del problema del bombero es correcta y metodológica. Es normal tener dificultades con combinación de ecuaciones.",
+      "strengths": [
+        "Resolución correcta del ejercicio 7",
+        "Estrategia clara usando Vy=0 en altura máxima",
+        "Cálculos precisos (t=2s, h=19.93m)",
+        "Identificación sistemática de variables"
+      ],
+      "improvements": [
+        "Practicar más combinación de ecuaciones",
+        "Buscar conexiones con situaciones reales",
+        "Reducir dependencia de IA en ejercicios básicos"
+      ],
+      "createdAt": "2025-01-09 10:10:00"
+    },
+    {
+      "feedbackId": "fb_bongiovanni_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 76,
+      "generalComments": "Muy buen trabajo con los modelos de examen, Lourdes. Tu análisis del problema del motociclista es metodológico y llegas a conclusiones correctas sobre la seguridad del salto.",
+      "strengths": [
+        "Resolución correcta del problema complejo del circo",
+        "Conversión adecuada de unidades (90km/h a 25m/s)",
+        "Análisis crítico de seguridad del salto",
+        "Conexión apropiada con conceptos matemáticos"
+      ],
+      "improvements": [
+        "Practicar ejercicios de cálculo de ángulos",
+        "Mejorar interpretación de enunciados complejos",
+        "Desarrollar mayor independencia en resolución"
+      ],
+      "createdAt": "2025-01-09 10:15:00"
+    },
+    {
+      "feedbackId": "fb_002_3_me13og82_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 30,
+      "generalComments": "Querida Lourdes Bongiovanni, esta semana correspondió a la evaluación de la unidad, por lo que no fue posible generar un reporte de aprendizaje semanal. El reporte indica que se rindió la prueba de física. Reconoces la importancia de consolidar el aprendizaje antes de las evaluaciones. Es importante mantener la regularidad en la documentación de tu proceso de aprendizaje. Te sugiero coordinar conmigo para revisar tus resultados en la evaluación.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal durante la semana de examen",
+        "Demuestras responsabilidad al informar sobre la situación académica",
+        "Reconoces la importancia del proceso evaluativo"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas sobre tu preparación para evaluaciones",
+        "Reflexiona sobre las estrategias utilizadas para estudiar antes del examen",
+        "Documenta tu proceso de repaso y consolidación de conocimientos"
+      ],
+      "createdAt": "2025-10-07 23:11:01"
+    },
+    {
+      "feedbackId": "fb_002_3_me13og82_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 30,
+      "generalComments": "Querida Lourdes Bongiovanni, debido a la ausencia del docente y actividad institucional (misa), no fue posible evaluar tu progreso en Física durante esta semana. El reporte indica que no hubo clases de física debido a la ausencia del profesor y a una misa en ambas clases. Cumpliste con la responsabilidad de entregar el reporte semanal informando sobre la situación. Es importante mantener la constancia en la documentación del proceso de aprendizaje. Te sugiero coordinar conmigo para retomar los temas y no perder continuidad.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal a pesar de no haber tenido clases",
+        "Demuestras responsabilidad al informar sobre la situación institucional",
+        "Mantienes comunicación sobre tu proceso académico"
+      ],
+      "improvements": [
+        "Aprovecha estas semanas sin clases para repasar contenidos anteriores",
+        "Proporciona evidencias de estudio autónomo durante períodos sin clases",
+        "Reflexiona sobre tu preparación y consolidación de temas previos"
+      ],
+      "createdAt": "2025-10-07 23:11:01"
+    },
+    {
+      "feedbackId": "fb_002_3_me13og82_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Querida Lourdes Bongiovanni, debido al viaje educativo a Puerto Madryn, no fue posible evaluar tu progreso en Física durante esta semana. El reporte indica que no hubo clases ni temas nuevos debido al viaje escolar. Cumpliste con la responsabilidad de entregar el reporte semanal informando sobre la actividad educativa. Es importante aprovechar las experiencias del viaje para establecer conexiones con los contenidos de física. Te sugiero reflexionar sobre fenómenos físicos observados durante el viaje.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte durante el viaje educativo",
+        "Demuestras responsabilidad en la comunicación sobre actividades escolares",
+        "Participaste en actividades educativas extracurriculares importantes"
+      ],
+      "improvements": [
+        "Conecta las experiencias del viaje con contenidos de física estudiados",
+        "Reflexiona sobre aplicaciones prácticas de la física observadas en Puerto Madryn",
+        "Documenta observaciones científicas realizadas durante actividades educativas"
+      ],
+      "createdAt": "2025-10-07 23:11:02"
+    },
+    {
+      "feedbackId": "fb_002_3_me13og82_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 92,
+      "generalComments": "Querida Lourdes Bongiovanni, has demostrado un excelente desempeño en la Fase 1: Identificación y comprensión del problema aplicada a la introducción de dinámica, superando las expectativas para esta etapa del pensamiento crítico en Física. Identificas claramente las diferencias entre masa y peso, y comprendes las leyes de Newton. Demuestras buena comprensión de los conceptos fundamentales de dinámica. Realizas conexiones interesantes entre dinámica y cinemática, y aplicaciones en la vida cotidiana como la inercia en el transporte. Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Identificas claramente las diferencias conceptuales entre masa, peso e inercia",
+        "Comprendes correctamente las tres leyes de Newton y sus implicaciones",
+        "Realizas conexiones significativas entre dinámica, cinemática y fenómenos cotidianos",
+        "Tu capacidad de comunicación escrita es clara y organizada",
+        "Demuestras curiosidad e interés genuino por aplicaciones prácticas de la física"
+      ],
+      "improvements": [
+        "Profundiza en la aplicación de las leyes de Newton a situaciones problemáticas concretas",
+        "Desarrolla más ejemplos cuantitativos además de los conceptuales",
+        "Explora casos más complejos donde múltiples fuerzas actúan simultáneamente"
+      ],
+      "createdAt": "2025-10-07 23:11:02"
+    },
+    {
+      "feedbackId": "3718c0ba-fddc-457a-8a38-bbd71f990951",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 79,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:51:41.334Z"
+    },
+    {
+      "feedbackId": "d56acde4-c0a1-4fa5-befc-71a835e07744",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 79,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:18:27.693Z"
+    },
+    {
+      "feedbackId": "7cf8efb4-3be8-49f4-bfcf-50e0119465ff",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 75,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:44:36.723Z"
+    },
+    {
+      "feedbackId": "2c6bd6e0-18af-4b83-b90a-09eae458b560",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 75,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:24:43.257Z"
+    },
+    {
+      "feedbackId": "a0a7d57d-ac38-408e-ae0b-4740e623d6bf",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 84,
+      "generalComments": "Excelente trabajo esta semana. Demostraste dominio sólido en diagramas de cuerpo libre y rozamiento, y lo más importante: reconoces claramente cómo superaste tus confusiones iniciales. Tu capacidad para identificar dificultades específicas y aplicar estrategias concretas (como dibujar diagramas) es una fortaleza real que debes mantener.\n\nTu desempeño general es muy bueno, pero hay un aspecto clave a mejorar: necesitas integrar conscientemente las Fases 1 y 2 en cada problema. Notaste que \"no se trabajó con el sistema de las fases\" en Q2, y eso es exactamente lo que debes cambiar. Antes de resolver cualquier problema, dedica un momento a listar variables conocidas/desconocidas y clasificarlas.\n\nPara la próxima semana, te propongo que practiques problemas nuevos aplicando explícitamente ambas fases, y que intentes transferir estos conceptos a situaciones que no hayas visto en clase. Esto consolidará tu pensamiento crítico y te preparará mejor para fases posteriores.",
+      "strengths": "• Metacognición clara sobre tu proceso: Reconoces específicamente dónde tenías confusión (\"me confundía con la dirección del rozamiento estático\") y cómo la superaste con práctica. Esto muestra autoconciencia valiosa para tu aprendizaje.\n• Estrategias de aprendizaje efectivas: Utilizaste múltiples herramientas (releer teoría, ejemplos concretos, diagramas) para superar dificultades, demostrando iniciativa y flexibilidad en tu enfoque.\n• Dominio conceptual sólido en diagramas de cuerpo libre: Tu respuesta en Q1 evidencia que identificas y clasificas todas las fuerzas correctamente, y tu resolución del problema en Q2 aplica estos conceptos de forma precisa.",
+      "improvements": "• Integración explícita de las Fases 1 y 2: En Q2 reconoces que \"no se trabajó con el sistema de las fases\". Debes aplicar conscientemente la metodología: primero identificar variables conocidas/desconocidas (Fase 1), luego clasificarlas (Fase 2), antes de resolver. Esto te dará mayor sistematicidad y claridad en tus análisis.\n• Profundidad en conexiones con fenómenos reales: Tus conexiones en Q4 son correctas pero genéricas. Intenta transferir lo aprendido a problemas nuevos: ¿cómo se aplica el rozamiento en un auto frenando? ¿Qué variables cambiarían? Esto fortalecerá tu pensamiento crítico.\n• Reflexión más profunda en comentarios finales: En Q5, tu reflexión es válida pero superficial. Propón preguntas propias: ¿Qué pasaría si el coeficiente de rozamiento fuera diferente? ¿Cómo afectaría a la fuerza mínima? Esto evidenciará pensamiento más crítico y original.",
+      "createdAt": "2025-10-27T04:53:49.289Z"
+    },
+    {
+      "feedbackId": "5eabf6ad-df24-4562-9548-2b3c5290c702",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Reconozco tu esfuerzo esta semana a pesar de las dificultades con la asistencia. Tu resolución del problema del ascensor demuestra que comprendes bien los conceptos de dinámica y que sabes aplicar la segunda ley de Newton correctamente. Eso es un logro importante.\n\nSin embargo, tu desempeño en Fase 2 está en desarrollo. El punto crítico es que aún no integras sistemáticamente el procedimiento por fases: identificar variables, clasificarlas y conectarlas con magnitudes físicas. Esto es fundamental para desarrollar pensamiento crítico real, no solo resolver ejercicios mecánicamente.\n\nPara la próxima semana, te propongo: (1) Practica DCL con planos inclinados específicamente, (2) Aplica el procedimiento por fases en cada problema que resuelvas, (3) Identifica al menos 5 situaciones cotidianas donde puedas clasificar variables de dinámica. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Resolución correcta de problemas de dinámica: Tu cálculo del ascensor es preciso. Planteas correctamente la ecuación de Newton, identificas las fuerzas relevantes (T y P) y diferencias bien los dos casos (aceleración positiva y negativa). Esto muestra dominio operativo del tema.\n• Uso de estrategias colaborativas efectivas: Reconoces que hacer DCL en grupo y consultar con compañeros te ayudó a superar dificultades. Esta es una estrategia metacognitiva valiosa que demuestra autoconciencia sobre cómo aprendes mejor.\n• Honestidad en la autoevaluación: Admites explícitamente las limitaciones (\"no hicimos ejercicios con planos inclinados,\" \"NO SE APLICÓ EL PROCEDIMIENTO POR FASES\"). Esta transparencia es importante para identificar áreas de mejora reales.",
+      "improvements": "• Integración sistemática de Fase 1 + Fase 2: Reconoces que no aplicaste el procedimiento por fases en Q2. Para la próxima semana, antes de resolver cualquier problema, escribe explícitamente: (1) Identificación de variables (conocidas/desconocidas), (2) Clasificación (controlables/no controlables), (3) Magnitudes físicas involucradas. Esto te ayudará a estructurar mejor tu pensamiento crítico.\n• Identificación completa de variables en planos inclinados: Mencionas que no practicaste DCL con inclinación. Dedica tiempo específico a este tema: identifica cómo cambian las componentes del peso (Px, Py), la normal, y la fricción en un plano inclinado. Haz al menos 3 ejercicios diferentes y clasifica cada variable según su tipo.\n• Conexiones más profundas con fenómenos cotidianos: En Q4 dices \"no se me ocurren más temas.\" Practica identificar variables en situaciones reales: ¿qué fuerzas actúan en un auto que acelera? ¿Cómo cambia la tensión en una cuerda si el objeto gira? Haz una lista de 5 situaciones cotidianas y clasifica sus variables.",
+      "createdAt": "2025-11-03T12:18:53.534Z"
+    },
+    {
+      "feedbackId": "6deb222e-0840-4834-9238-f72668970ee1",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 67,
+      "generalComments": "Esta semana has hecho un buen inicio en el proyecto de la catapulta, y tu comprensión de la 2da Ley de Newton es sólida. Identificaste correctamente las variables principales y las relacionaste con el contexto práctico, lo que muestra que estás pensando en cómo la física se aplica a problemas reales.\n\nSin embargo, tu reporte refleja que aún estás en la fase de organización. Para avanzar en Fase 2, necesitas profundizar en la clasificación sistemática de variables (conocidas/desconocidas, controlables/no controlables) y reflexionar sobre las dificultades específicas que enfrentas al identificarlas. Esto es lo que diferencia un análisis superficial de uno crítico.\n\nPara la próxima semana, te propongo que antes de construir la catapulta, hagas una tabla completa de todas las variables del proyecto, clasificándolas según el sistema de Fase 2. Esto te dará claridad sobre qué necesitas medir, controlar y cómo el proyecto contribuye a tu pensamiento crítico en ciencias.",
+      "strengths": "• Aplicación correcta de la 2da Ley de Newton: Tu explicación del mecanismo de la catapulta (\"la goma elástica ejerce una fuerza que acelera el proyectil\") demuestra comprensión clara de cómo las variables se relacionan en un contexto real y práctico.\n• Identificación de variables relevantes: Logras listar las tres variables principales (fuerza, masa, aceleración) de forma clara y conectada con el proyecto específico, mostrando que entiendes qué es importante medir o controlar.\n• Reflexión sobre necesidades de apoyo: Tu comentario sobre la necesidad de más guía docente muestra madurez y autoconciencia sobre tus propias limitaciones, lo que es valioso para mejorar el aprendizaje colaborativo.",
+      "improvements": "• Clasificación explícita de variables: En Q2, debes especificar cuáles variables son conocidas (masa del proyectil), desconocidas (aceleración exacta), controlables (tensión de la goma) y no controlables (fricción del aire). Esto es central en Fase 2. Crea una tabla simple: Variable | Tipo | Razón.\n• Análisis de dificultades específicas: En Q3, identifica desafíos reales: ¿Cómo diferencias entre \"fuerza aplicada\" y \"aceleración resultante\"? ¿Qué magnitudes son difíciles de medir en tu catapulta? Propón estrategias concretas como \"usaré un cronómetro para medir tiempo\" o \"mediré distancias con una regla.\"\n• Transferencia a nuevos problemas: En Q4, conecta tu proyecto con otros fenómenos: ¿Cómo cambiarían las variables si usaras un resorte en lugar de goma? ¿Qué pasaría con un proyectil más pesado? Esto demuestra que puedes aplicar Fase 2 más allá del contexto inmediato.",
+      "createdAt": "2025-11-12T22:52:18.775Z"
+    },
+    {
+      "feedbackId": "e2c1a7c5-cec8-4b21-a7e6-688e8cc977e0",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Valoro tu esfuerzo esta semana en avanzar con el proyecto de dinámica y tu disposición a trabajar en equipo, que reconoces como un área de crecimiento personal. Sin embargo, tu reporte no refleja el aprendizaje específico de la Fase 2: identificación y clasificación de variables. Aunque mencionas la catapulta y las leyes de Newton, falta el análisis sistemático de qué variables están en juego, cómo se clasifican y por qué son importantes.\n\nPara la próxima semana, cuando entregues el informe del proyecto, asegúrate de incluir una sección clara donde identifiques todas las variables involucradas (masa, ángulo, distancia, tiempo, etc.) y las clasifiques como conocidas/desconocidas y controlables/no controlables. Esto no solo mejorará tu reporte, sino que consolidará tu comprensión de la Fase 2.\n\nTe ayudaré con la redacción del informe y los objetivos. Mientras tanto, practica identificar variables en problemas simples de dinámica para que llegues preparado a la siguiente fase.",
+      "strengths": "• Conexión con fenómenos reales: Relacionas correctamente la catapulta con las leyes de Newton y la segunda ley (F = m·a), mostrando que comprendes que los proyectos tienen base física. Esto es un buen punto de partida para profundizar en variables.\n• Autoconciencia sobre necesidades: Solicitas ayuda específica sobre redacción e objetivos del informe, lo que demuestra que reconoces áreas donde necesitas apoyo. Esta actitud es valiosa para mejorar.\n• Trabajo colaborativo: Mencionas que lograste trabajar en equipo \"correctamente\" a pesar de que \"suele ser algo que me cuesta bastante\". Esto muestra esfuerzo personal y disposición a mejorar en habilidades blandas.",
+      "improvements": "• Identificar variables en el proyecto: En tu próximo reporte, lista explícitamente las variables del proyecto de la catapulta. Por ejemplo: masa del proyectil (conocida), ángulo de lanzamiento (controlable), distancia alcanzada (desconocida). Esto es lo central de la Fase 2 y debe estar presente en tus respuestas.\n• Clasificar variables sistemáticamente: No solo menciones que usas F = m·a, sino que identifiques cuál es conocida, cuál desconocida, cuál controlable. Crea una tabla simple: Variable | Tipo | Clasificación. Esto te ayudará a estructurar mejor tu pensamiento.\n• Conectar Fase 1 con Fase 2: En Q2, debes mostrar cómo aplicaste el análisis de Fase 1 (problema, objetivo) para luego identificar variables en Fase 2. Aunque no hicieron ejercicios, el proyecto también requiere este análisis. Explícitalo en tu próximo reporte.",
+      "createdAt": "2025-11-17T13:45:29.110Z"
+    }
+  ]
+}

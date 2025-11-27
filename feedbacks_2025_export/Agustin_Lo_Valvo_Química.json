@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "studentId": "u_ptsyo9w0pme4ihnen",
+    "studentName": "Agustin Lo Valvo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.181113",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 59.92,
+      "minScore": 34,
+      "maxScore": 76,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_1758499881_8770",
+      "weekStart": "2025-08-04",
+      "score": 48,
+      "generalComments": "Agustín, reconozco tu honestidad al identificar las dificultades que enfrentas con los gases ideales. Es un primer paso importante en el proceso de aprendizaje reconocer qué aspectos necesitan más trabajo. La comprensión de las relaciones entre P, V y T es fundamental para este tema.",
+      "strengths": [
+        "Identificas claramente el tema trabajado (gases ideales)",
+        "Reconoces con precisión tus dificultades específicas",
+        "Muestras conocimiento de la ecuación fundamental PV=nRT"
+      ],
+      "improvements": [
+        "Necesitas comenzar con ejercicios muy básicos, trabajando una variable a la vez",
+        "Te sugiero crear un esquema visual que muestre cómo P, V y T se relacionan inversamente o directamente",
+        "Intenta resolver al menos un problema sencillo cada día, aunque sea con ayuda"
+      ],
+      "createdAt": "2025-09-22 00:11:21"
+    },
+    {
+      "feedbackId": "fb_1758499913_773",
+      "weekStart": "2025-08-11",
+      "score": 34,
+      "generalComments": "Agustín, veo que continúas enfrentando dificultades con los gases ideales. Es importante que busques apoyo adicional para superar estos obstáculos. La práctica constante y el apoyo tutorial pueden marcar la diferencia.",
+      "strengths": [
+        "Persistes en el intento de comprender el tema",
+        "Mantienes honestidad sobre tus dificultades",
+        "Continúas asistiendo y participando"
+      ],
+      "improvements": [
+        "Necesitas urgentemente sesiones de tutoría o apoyo adicional",
+        "Debes comenzar con problemas resueltos paso a paso antes de intentar solos",
+        "Es crucial que identifiques qué parte específica no entiendes: ¿las unidades? ¿el despeje? ¿la teoría?"
+      ],
+      "createdAt": "2025-09-22 00:11:53"
+    },
+    {
+      "feedbackId": "fb_1758499947_5140",
+      "weekStart": "2025-08-18",
+      "score": 50,
+      "generalComments": "Agustín, veo un progreso importante: ahora estás intentando problemas específicos y reconoces estar en nivel 2. Este es un avance significativo. El problema que presentas muestra que estás comenzando a trabajar con las variables.",
+      "strengths": [
+        "Progreso notable al alcanzar el nivel 2",
+        "Presentas un problema concreto como evidencia",
+        "Identificas específicamente dónde te confundes en la ecuación"
+      ],
+      "improvements": [
+        "Practica el despeje de variables una por una antes de problemas complejos",
+        "Crea una tabla con las unidades de cada variable (P, V, n, R, T)",
+        "Intenta conectar los problemas con situaciones cotidianas para dar sentido a los cálculos"
+      ],
+      "createdAt": "2025-09-22 00:12:27"
+    },
+    {
+      "feedbackId": "fb_1758499980_7173",
+      "weekStart": "2025-09-01",
+      "score": 58,
+      "generalComments": "Agustín, ¡excelente progreso! Has logrado resolver un ejercicio completo con todo el proceso detallado. Esto demuestra que ya dominas los conceptos básicos y puedes aplicar PV=nRT correctamente. Ahora es momento de avanzar hacia problemas más complejos.",
+      "strengths": [
+        "Resolviste completamente un ejercicio con proceso detallado",
+        "Manejas correctamente las conversiones de unidades",
+        "Identificas una nueva dificultad específica (cambios de estado)",
+        "Demuestras comprensión sólida de la ecuación de gases ideales"
+      ],
+      "improvements": [
+        "Practica identificar cambios de estado observando si cambia la fase (sólido/líquido/gas)",
+        "Trabaja en conectar los problemas con aplicaciones reales",
+        "Intenta problemas con múltiples pasos o condiciones cambiantes"
+      ],
+      "createdAt": "2025-09-22 00:13:00"
+    },
+    {
+      "feedbackId": "fb_1758500016_777",
+      "weekStart": "2025-09-08",
+      "score": 57,
+      "generalComments": "Agustín, continúas mostrando progreso sólido. Ahora resuelves problemas más complejos con etano y manejas bien los cálculos básicos. Tu capacidad para resolver ejercicios ha mejorado notablemente desde el inicio del mes.",
+      "strengths": [
+        "Resuelves problemas con compuestos específicos (etano)",
+        "Manejas bien los cálculos básicos de gases",
+        "Identificas con precisión tus áreas de dificultad",
+        "Mantienes consistencia en tu progreso"
+      ],
+      "improvements": [
+        "Crea un diagrama de flujo para identificar qué ley usar según los datos",
+        "Trabaja en conectar los conceptos con aplicaciones reales",
+        "Practica la diferenciación entre leyes de gases (Boyle, Charles, Gay-Lussac)"
+      ],
+      "createdAt": "2025-09-22 00:13:36"
+    },
+    {
+      "feedbackId": "fb_002_1_me4ihnen_20251005_010",
+      "weekStart": "2025-09-22",
+      "score": 35,
+      "generalComments": "Agustín, tu reporte de esta semana refleja la situación especial del viaje a Madryn, donde no hubo actividades académicas de química. Es completamente comprensible y justificado que todas tus respuestas indiquen 'estuve en madryn'. Este tipo de situaciones son parte de la vida escolar y no reflejan tu capacidad académica. Este feedback se genera solo para mantener registro administrativo completo, pero no debe interpretarse como evaluación de tu desempeño real en química.",
+      "strengths": [
+        "Comunicas claramente la situación especial del viaje educativo",
+        "Completas el reporte semanal explicando tu ausencia",
+        "Mantienes responsabilidad administrativa"
+      ],
+      "improvements": [
+        "Al reintegrarte a clases, consulta con compañeros o el profesor sobre temas cubiertos durante tu ausencia",
+        "Aprovecha para repasar conceptos previos de gases ideales durante el período de transición",
+        "Si hubo evaluaciones o trabajos asignados, coordina con el profesor para ponerte al día"
+      ],
+      "createdAt": "2025-10-05 19:35:51"
+    },
+    {
+      "feedbackId": "0966f84a-f458-46db-a436-0c18452f47f7",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:27:32.338Z"
+    },
+    {
+      "feedbackId": "a1067606-58a0-46b3-8482-6d6f8647417d",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:57.044Z"
+    },
+    {
+      "feedbackId": "0e9246b3-141b-4cae-b2be-9f7b08b5d47a",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 76,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:55.823Z"
+    },
+    {
+      "feedbackId": "eb1ec9f0-065b-4ef3-9eac-b2061adbd919",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 76,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:20:55.799Z"
+    },
+    {
+      "feedbackId": "a9082cc0-aa18-4f14-83f0-498665a36bac",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Esta semana has demostrado dominio técnico sólido en cálculos y aplicación de conceptos químicos. Tus respuestas en Q2 son precisas y bien estructuradas, lo que indica que comprendes los principios de uniones químicas y geometría molecular. Esto es un logro importante.\n\nSin embargo, tu reporte muestra una brecha entre saber hacer y saber explicar por qué lo haces. Identificas variables correctamente en ejercicios, pero no reflexionas sobre el *proceso* de identificación ni lo conectas con la Fase 1. Además, dejas Q5 sin responder, lo que limita tu puntuación general.\n\nPara la próxima semana: Enfócate en tres cosas: (1) Ser más explícito al clasificar variables (controlables/no controlables), (2) Proponer estrategias concretas para superar dificultades con TRePEV (usa modelos 3D o software), y (3) Completar todas las preguntas con reflexión genuina. Esto elevará significativamente tu desempeño.",
+      "strengths": "• Precisión en cálculos químicos: Tus respuestas en Q2 muestran dominio técnico real. Los valores de electrones de valencia, pares libres y ángulos de enlace son correctos (ej: NH₃ con 8 electrones, 3 enlaces y 1 par libre). Esto demuestra que comprendes los conceptos fundamentales.\n• Autoevaluación honesta: Reconoces tus limitaciones con TRePEV (Nivel 2) y uniones complejas (Nivel 3), lo que muestra autoconciencia. No pretender dominio que no tienes es un primer paso importante para mejorar.\n• Identificación de conexiones interdisciplinarias: Vinculas química con matemática mencionando geometría y cálculo de ángulos. Esto muestra que intentas ver más allá de la materia aislada, aunque necesita profundizarse.",
+      "improvements": "• Sistematizar la identificación de variables: En Q1, debes clasificar explícitamente cada variable como conocida/desconocida y controlable/no controlable. Por ejemplo: \"En uniones químicas, el tipo de enlace es *conocido* (dado en el problema) pero *no controlable* (depende de los átomos)\". Esto te ayudará a estructurar mejor tu pensamiento.\n• Detallar dificultades y proponer estrategias concretas: En Q3, en lugar de \"hay demasiados aspectos\", especifica: \"Me cuesta visualizar la orientación 3D de los pares libres. Estrategia: practicar con modelos moleculares físicos o software de visualización como Jmol.\" Así transformas el problema en un plan de acción.\n• Completar todas las preguntas con reflexión profunda: Q5 está vacía. Dedica tiempo a reflexionar: ¿Por qué es importante identificar variables en química? ¿Cómo ha evolucionado tu comprensión desde la Fase 1? Esto consolida tu aprendizaje y demuestra pensamiento crítico real.",
+      "createdAt": "2025-11-03T12:18:26.446Z"
+    },
+    {
+      "feedbackId": "2ff65aa5-aa7b-4491-8854-1b8b6dc1525f",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 71,
+      "generalComments": "Excelente trabajo esta semana, especialmente en tu capacidad de conectar conceptos entre disciplinas. Tu análisis del agua en Q4 es particularmente fuerte: relacionar la geometría molecular con propiedades biológicas demuestra que realmente comprendes *por qué* importa TRePEV, no solo *cómo* aplicarlo.\n\nSin embargo, hay dos áreas donde necesitas enfocarte: primero, en Q1 y Q2 debes ser más sistemático clasificando variables (conocidas vs. desconocidas, controlables vs. no controlables). Esto es el corazón de Fase 2. Segundo, cuando identificas dificultades, propón soluciones concretas, no solo el problema.\n\nPara la próxima semana, trabaja en estructurar tus respuestas usando tablas o listas de variables. Completa también Q5 con reflexiones genuinas sobre tu progreso. Esto consolidará tu pensamiento crítico.",
+      "strengths": "• Conexiones interdisciplinarias sólidas: Tu análisis del agua conecta Química (TRePEV), Matemática (ángulos de 104,5°) y Biología (polaridad y procesos biológicos). Esto muestra pensamiento integrado muy valioso.\n• Aplicación correcta de TRePEV: En el ejemplo del BeCl₂ demuestras dominio del procedimiento: representación de Lewis → pares electrónicos → geometría → ángulos. El razonamiento es lógico y preciso.\n• Identificación de dificultades reales: Reconoces que moléculas complejas requieren precisión en múltiples elementos (pares, geometría, notación 3D), lo que muestra autoconciencia sobre la complejidad del tema.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, debes organizar explícitamente las magnitudes como variables. Por ejemplo: \"Número de pares electrónicos (variable conocida), ángulo de enlace (variable a calcular), tipo de geometría (variable dependiente)\". Esto es central en Fase 2.\n• Estrategias concretas para dificultades: En Q3 mencionas el problema pero no la solución. Propón acciones específicas: \"Crearé una tabla de verificación con: 1) Contar electrones de valencia, 2) Dibujar Lewis, 3) Contar pares, 4) Determinar geometría\". Esto te ayudará a no olvidar pasos.\n• Completar todas las secciones del reporte: Q5 está vacía. Usa este espacio para reflexionar: ¿Cómo evolucionó tu comprensión desde Fase 1? ¿Qué categorías propias de variables descubriste? Esto demuestra pensamiento crítico profundo.",
+      "createdAt": "2025-11-12T22:52:20.002Z"
+    },
+    {
+      "feedbackId": "0950e290-00d9-44fe-b36a-5733b2524287",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 76,
+      "generalComments": "Esta semana has demostrado un progreso notable en la comprensión de estructuras moleculares y cómo las variables se relacionan entre sí. Tu análisis del H₂O es de excelente calidad: identificas correctamente cómo el número de pares libres afecta la geometría y, a su vez, cómo esto influye en la polaridad. Esto muestra que estás integrando bien Fase 1 con Fase 2.\n\nSin embargo, hay dos áreas donde necesitas enfocarte: primero, debes clasificar explícitamente cada variable como \"conocida/desconocida\" y \"controlable/no controlable\" (esto es el corazón de Fase 2); segundo, tu conexión con Biología en Q4 es interesante pero necesita ser más específica en términos de variables experimentales.\n\nPara la próxima semana, te recomiendo: (1) Revisa tu análisis del H₂O e identifica cada variable con su clasificación; (2) Practica con otro ejemplo (CO₂ o NH₃) aplicando el mismo esquema; (3) Completa siempre Q5 con reflexiones personales. Vas muy bien, solo necesitas ser más sistemático en la clasificación de variables.",
+      "strengths": "• Análisis sistemático del H₂O: Tu explicación paso a paso (cálculo de electrones → estructura → geometría → polaridad → fuerzas) demuestra que entiendes cómo las variables se conectan causalmente. Esto es exactamente lo que busca Fase 2.\n• Autoevaluación honesta y realista: Reconoces claramente dónde tienes dificultades (Polaridad Nivel 2, Fuerzas Intermoleculares Nivel 1) sin minimizar ni exagerar. Esto muestra madurez metacognitiva importante para el aprendizaje.\n• Estrategia metacognitiva concreta: Tu plan de dos pasos para superar la confusión entre enlaces y moléculas polares es práctico y demuestra que reflexionas sobre *cómo* aprendes, no solo *qué* aprendes.",
+      "improvements": "• Clasificación explícita de variables en Fase 2: En Q1 y Q2, debes identificar cada variable como \"conocida/desconocida\" y \"controlable/no controlable\". Por ejemplo, en H₂O: electronegatividad del O (conocida, no controlable), número de pares libres (conocida, no controlable), ángulo H-O-H (desconocida, calculable). Esto es el núcleo de Fase 2.\n• Profundizar en Q4 con variables específicas: Tus conexiones con Biología son buenas, pero necesitas identificar variables concretas. Pregúntate: ¿Qué variables independientes controlo en un experimento? ¿Cuáles son dependientes? Ejemplo: \"En la disolución de proteínas, la polaridad del solvente es variable independiente; la velocidad de disolución es dependiente.\"\n• Completar Q5 con reflexión personal: No dejes esta sección vacía. Reflexiona sobre: ¿Qué aprendiste sobre la importancia de identificar variables? ¿Cómo ha evolucionado tu comprensión desde Fase 1? ¿Qué categorías propias de variables descubriste? Esto suma puntos valiosos y consolida tu aprendizaje.",
+      "createdAt": "2025-11-17T13:51:04.015Z"
+    }
+  ]
+}

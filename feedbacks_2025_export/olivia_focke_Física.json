@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "studentId": "1f8c28c1-98fc-464b-a822-d8adfba4725f",
+    "studentName": "olivia focke",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245998",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 63.75,
+      "minScore": 55,
+      "maxScore": 77,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_ba4725f_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 66,
+      "generalComments": "Querida Olivia Focke,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Identificas algunas variables y clasificas correctamente la mayoría en el ejercicio de Ana. Muestras capacidad para organizar información en categorías controlables y medibles.\n\nTe recomiendo practicar la distinción entre variables externas e internas de manera más sistemática. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Trabaja en expresar tus ideas con mayor claridad y precisión en la clasificación de variables.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Organizas adecuadamente los datos del problema de Ana y la información disponible",
+        "Reconoces las magnitudes relevantes como tiempo, energía matutina y clima",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al reconocer tus dificultades"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada para distinguir mejor variables internas y externas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de clasificación de variables",
+        "Es importante profundizar más en la estimación de tiempos para alcanzar comprensión completa del problema"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_ba4725f_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 62,
+      "generalComments": "Querida Olivia Focke,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Seleccionas fórmulas correctas para tiro oblicuo y ejecutas los cálculos de manera ordenada en el problema del avión. Tu capacidad para aplicar ecuaciones cinemáticas como V0x = V0·cos θ y Yf = Yi + V0y·t + ½·g·t² es visible.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas con mayor confianza. Proporciona evidencias más concretas sobre cómo eliges qué fórmula aplicar en cada situación. Es importante mejorar la justificación de por qué seleccionas determinadas ecuaciones.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para cinemática de tiro oblicuo",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica llegando a un resultado numérico correcto",
+        "Demuestras perseverancia ante las dificultades al reconocer que no entiendes y pedir ayuda"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas V0x = V0·cos θ y no otra ecuación",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas con mayor confianza y autonomía",
+        "Proporciona evidencias más concretas y específicas de tu proceso de pensamiento al elegir fórmulas"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_ba4725f_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 66,
+      "generalComments": "Querida Olivia Focke,\n\nEstás trabajando adecuadamente en la Fase 4: Estrategia y ejecución completa, demostrando comprensión del proceso de 4 fases y avance sostenido. Planteas una estrategia de resolución coherente siguiendo F1 (identificar objetivo), F2 (listar variables), F3 (seleccionar fórmulas) y comienzas F4 (ejecutar). Muestras progreso notable gracias a la explicación recibida, pasando de nivel 1 a nivel 2 en tu autopercepción.\n\nNecesitas ser más sistemática en la ejecución completa de los pasos de resolución hasta obtener el resultado final. Desarrolla estrategias más específicas para manejar el volumen de ejercicios del cuadernillo. Es importante mejorar la planificación de tu tiempo de estudio para completar todas las fases del problema.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las fases anteriores aplicando F1+F2+F3+F4 explícitamente",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje reconociendo tu mejora gracias a la explicación",
+        "Organizas tu trabajo de manera clara presentando cada fase del proceso de manera estructurada"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemática en la ejecución de los pasos de resolución completando F4 hasta obtener el resultado numérico",
+        "Desarrolla estrategias más específicas para gestionar el volumen de trabajo del cuadernillo semanal",
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar asegurando que tengas tiempo de completar todos los cálculos"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_5_ba4725f_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Querida Olivia Focke,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Reconoces con precisión que entiendes la teoría de gases ideales en nivel 3 pero identificas honestamente tu dificultad con la selección de fórmulas apropiadas. Tu autoevaluación metacognitiva es valiosa.\n\nEs importante mejorar la justificación de por qué seleccionas determinadas herramientas en problemas de gases ideales. Proporciona evidencias más concretas del desarrollo de tu razonamiento más allá del enunciado. Necesitas fortalecer tu criterio para identificar qué ecuación (PV=nRT, ley combinada, etc.) aplicar en cada contexto.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar con precisión tu nivel y dificultad específica",
+        "Reconoces que comprendes la teoría de gases ideales mostrando honestidad en tu autoevaluación",
+        "Seleccionas un problema complejo y realista de aplicación farmacéutica demostrando interés en contextos auténticos"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas entre las distintas ecuaciones de gases",
+        "Proporciona evidencias más concretas del desarrollo completo de tu razonamiento incluyendo la resolución del problema planteado",
+        "Es importante mejorar la justificación de por qué seleccionas PV=nRT versus ley combinada en cada situación específica"
+      ],
+      "createdAt": "2025-10-07T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "b4310d3b-e827-4e84-82ed-45678f55e929",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 57,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:21.324Z"
+    },
+    {
+      "feedbackId": "cec1a6f0-8882-448d-97e2-b4aa0446cb0d",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:51:20.863Z"
+    },
+    {
+      "feedbackId": "bbbb0ff1-a864-4047-b9fc-ad6168ad7576",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que esta semana hiciste un buen esfuerzo en aplicar lo aprendido en Fase 1. Tu trabajo con el problema del ascensor demuestra que *sí* puedes clasificar variables y aplicar fórmulas correctamente cuando te enfocas. Eso es un logro importante.\n\nSin embargo, tu reporte está incompleto. Dejaste respuestas a mitad (Q2), muy vagas (Q4) y vacías (Q5). Esto me preocupa porque no puedo ver toda tu comprensión. Además, identificas dificultades con fuerzas de rozamiento, pero no propones cómo resolverlas, lo que sugiere que necesitas ayuda más específica.\n\nPara la próxima semana, te pido que: (1) completes todas las respuestas con detalle, (2) cuando identifiques una dificultad, propón al menos una estrategia para superarla, y (3) reflexiona sobre tu progreso. Vamos a trabajar juntos en diferenciar tipos de fuerzas con diagramas y ejercicios prácticos.",
+      "strengths": "• Clasificación clara de variables en problemas concretos: En el problema del ascensor, identificas correctamente m = 1000 kg, g = 10 m/s², a = 3 m/s² como conocidas y T como desconocida. Esto muestra que entiendes la diferencia entre datos dados y lo que debes encontrar.\n• Aplicación sistemática de fórmulas: Demuestras dominio al despejar T desde ΣF = ma, reemplazando P = mg y llegando a T = 13000 N. Tu proceso paso a paso es ordenado y fácil de seguir.\n• Reconocimiento honesto de dificultades: Identificas que tienes problemas con fuerzas de rozamiento y tipos de fuerzas. Esta autoconciencia es el primer paso para mejorar y buscar ayuda.",
+      "improvements": "• Profundiza en estrategias para diferenciar tipos de fuerzas: No basta decir \"me cuesta identificar fuerzas\". Propón soluciones concretas: crea un diagrama de cuerpo libre para cada problema, haz una tabla con tipos de fuerzas (tensión, peso, rozamiento, normal), o busca patrones en cuándo aparece cada una. Esto transformará tu dificultad en una herramienta de aprendizaje.\n• Completa tus respuestas y evita dejarlas a mitad: En Q2, tu cálculo se corta antes de resolver el caso del ascensor bajando. Siempre termina lo que empiezas para demostrar dominio completo. En Q4, una frase incompleta no es suficiente: explica cómo aplicas lo aprendido a situaciones reales (ej: \"Identifico variables en problemas de movimiento de objetos en planos inclinados\").\n• Desarrolla reflexión metacognitiva en Q3 y Q5: No repitas la misma dificultad en ambas preguntas. En Q3, analiza *por qué* te cuesta (¿confundes conceptos?, ¿no visualizas bien las fuerzas?). En Q5, reflexiona sobre tu progreso: ¿qué aprendiste esta semana?, ¿cómo mejoró tu identificación de variables desde Fase 1?",
+      "createdAt": "2025-11-17T13:38:50.204Z"
+    },
+    {
+      "feedbackId": "dc064559-bc9d-41be-bcff-f1dbae16ec0e",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Tu reporte muestra un trabajo sólido y reflexivo esta semana. Has demostrado capacidad real para observar, registrar datos y conectar conceptos con fenómenos cotidianos, lo que es excelente para esta fase. Tu honestidad al reconocer dificultades y tu iniciativa al buscar estrategias (videos, dibujos, repetición) son fortalezas genuinas que te ayudarán a avanzar.\n\nSin embargo, para consolidar Fase 2 completamente, necesitas dar un paso más: pasar de *observar qué cambia* a *clasificar sistemáticamente cómo cambia*. Esto significa identificar explícitamente cuáles variables controlas, cuáles mides, cuáles son conocidas y cuáles desconocidas en cada experimento.\n\nPara la próxima semana, te propongo que antes de cada experimento escribas una pequeña tabla con las variables que vas a trabajar. Esto te ayudará a estructurar mejor tu pensamiento y a prepararte para Fase 3, donde analizarás relaciones matemáticas entre variables.",
+      "strengths": "• Autoevaluación honesta y realista: Reconoces claramente dónde tienes dominio (observación y registro) y dónde necesitas práctica (energía, choques). Esto muestra madurez en tu proceso de aprendizaje.\n• Estrategias prácticas y efectivas: Tus métodos para superar dificultades son concretos y funcionales: repetir experimentos, usar videos en cámara lenta y hacer dibujos. Esto demuestra iniciativa real en tu aprendizaje.\n• Conexiones con fenómenos reales: Vinculas el péndulo de Newton con objetos cotidianos (billar, columpios) y conceptos previos (energía, péndulo simple), mostrando que estás integrando el conocimiento de forma significativa.",
+      "improvements": "• Clasificación explícita de variables: Tu análisis del péndulo identifica *qué* cambia (número de esferas, altura), pero no clasificas estas variables como conocidas/desconocidas o controlables/no controlables. En la próxima semana, crea una tabla simple: \"Variable | Tipo | Valor\" para cada experimento.\n• Profundidad en la explicación de mecanismos: Mencionas que \"la energía se pasa de una esfera a otra\", pero no explicas *cómo* ocurre esto (conservación de momento, transferencia de energía cinética). Intenta describir el proceso paso a paso: qué sucede en el contacto, qué magnitudes se conservan.\n• Reflexión metacognitiva sobre el proceso: Identificas dificultades, pero no reflexionas sobre *por qué* tuviste esas dificultades o cómo tu comprensión cambió. Añade una frase como: \"Al principio pensaba que..., pero ahora entiendo que...\" para mostrar evolución en tu pensamiento.",
+      "createdAt": "2025-11-17T13:45:58.864Z"
+    }
+  ]
+}

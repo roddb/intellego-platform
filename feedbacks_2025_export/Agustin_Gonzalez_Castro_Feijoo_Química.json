@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "studentId": "d5aec9ad-a91c-4304-87e1-01fa6f8d399b",
+    "studentName": "Agustin Gonzalez Castro Feijoo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.180441",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 59.22,
+      "minScore": 36,
+      "maxScore": 72,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "c8612af4-fa81-4cec-93a1-93508cc3f4c6",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Hola Agustin Gonzalez Castro Feijoo,\n\nTu desempeño en Fase 2: Identificación de variables y datos es apropiado, mostrando capacidad sistemática de clasificación aunque con oportunidades de profundización en Química. Tu capacidad para clasificar y categorizar información es efectiva. Identificas correctamente las variables involucradas en sistemas buffer y equilibrio químico. Reconoces las magnitudes físicas/químicas relevantes y sus unidades.\n\nProporciona evidencias más concretas y específicas de tu proceso de aprendizaje en la pregunta Q5. Es importante profundizar más en la reflexión sobre la importancia de las variables para alcanzar comprensión completa.\n\nTu progreso es notable. Continúa trabajando con esta dedicación.",
+      "strengths": [
+        "Tu capacidad para clasificar y categorizar información es efectiva",
+        "Identificas correctamente las variables involucradas en sistemas buffer y equilibrio químico",
+        "Reconoces las magnitudes físicas/químicas relevantes y sus unidades"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en la pregunta Q5",
+        "Es importante profundizar más en la reflexión sobre la importancia de las variables para alcanzar comprensión completa"
+      ],
+      "createdAt": "2025-10-04 23:37:02"
+    },
+    {
+      "feedbackId": "c297d112-b06d-44ca-a6d0-e734394a2556",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Hola Agustin Gonzalez Castro Feijoo,\n\nHas alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico. Comprendes las ecuaciones fundamentales de constante de equilibrio Kc y principio de Le Chatelier. Tu capacidad para clasificar y categorizar información es efectiva.\n\nEs importante mejorar la justificación de por qué seleccionas determinadas herramientas en Q3 y Q4. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en las preguntas reflexivas.\n\n¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para equilibrio químico",
+        "Comprendes las ecuaciones fundamentales de constante de equilibrio Kc y principio de Le Chatelier",
+        "Tu capacidad para clasificar y categorizar información es efectiva"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en Q3 y Q4",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en las preguntas reflexivas"
+      ],
+      "createdAt": "2025-10-04 23:34:58"
+    },
+    {
+      "feedbackId": "8a8728f6-e01a-4f0c-8571-2d7a17081693",
+      "weekStart": "2025-09-15",
+      "score": 36,
+      "generalComments": "Hola Agustin Gonzalez Castro Feijoo,\n\nEstás comenzando a trabajar en la Fase 4: Estrategia y ejecución completa, requiriendo apoyo adicional para consolidar la integración de todas las fases en Química. Identificas correctamente las variables involucradas en equilibrio químico.\n\nNecesitas ser más sistemático/a en la ejecución de los pasos de resolución. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Es importante profundizar más en cálculos de equilibrio para alcanzar comprensión completa.\n\nRecuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en equilibrio químico"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemático/a en la ejecución de los pasos de resolución",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Es importante profundizar más en cálculos de equilibrio para alcanzar comprensión completa"
+      ],
+      "createdAt": "2025-10-04 23:32:41"
+    },
+    {
+      "feedbackId": "fb_backfill_6f8d399b_2025-09-22_ddd71f3d",
+      "weekStart": "2025-09-22",
+      "score": 72,
+      "generalComments": "Tu desempeño en la Fase 4 (Estrategia y ejecución completa) muestra una recuperación notable respecto a la semana anterior. Has logrado resolver ejercicios de aplicación contextual (mayonesa, gráficos) y de síntesis metodológica con reflexión profunda sobre el proceso completo de las 4 fases. Tu nivel de dominio 2 es consistente con tu capacidad actual, y tu honestidad sobre las dificultades es una fortaleza metacognitiva.",
+      "strengths": [
+        "Demuestras capacidad de aplicar el pensamiento crítico a situaciones cotidianas (ejercicio de la mayonesa como equilibrio químico)",
+        "Interpretas correctamente gráficos de equilibrio y predices comportamiento del sistema ante cambios (ejercicio 9)",
+        "Reflexionas de manera profunda sobre tu proceso de aprendizaje en el ejercicio 10, identificando pasos fáciles y desafiantes con justificaciones"
+      ],
+      "improvements": [
+        "Aunque resolviste los ejercicios conceptuales, falta evidencia de ejecución numérica completa con cálculos de Kc o aplicación de tablas ICE",
+        "En Q3, realización de la fase teórica es muy genérico; especifica qué aspectos teóricos te resultaron difíciles",
+        "Desarrolla más la respuesta de Q4: ¿cómo se conectan conceptualmente matemática y física con equilibrio químico, más allá de usar cálculos?",
+        "Evita respuestas vacías en Q5; usa ese espacio para reflexionar sobre tu evolución o plantear preguntas que tengas"
+      ],
+      "createdAt": "2025-10-03T10:16:02Z"
+    },
+    {
+      "feedbackId": "4bae1736-3f55-48d7-954b-280a73ec6d2b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:50:55.318Z"
+    },
+    {
+      "feedbackId": "f0f7c4b0-4cee-47c5-ac8b-ce9d0920aa87",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:15:45.129Z"
+    },
+    {
+      "feedbackId": "13b450d9-9436-43d8-ae93-0f242dbf5d17",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:05.266Z"
+    },
+    {
+      "feedbackId": "77836587-0aa0-432d-b5df-4fd483a9c561",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:09:34.784Z"
+    },
+    {
+      "feedbackId": "efe3621c-eab5-4c43-a694-983e4cbd022c",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Tu reporte muestra un contraste interesante: mientras que tu trabajo en Q2 es excelente (cálculos precisos, procedimientos claros, dominio de conceptos), las respuestas reflexivas (Q1, Q3, Q4, Q5) son muy breves y superficiales. Esto sugiere que tienes sólidos conocimientos técnicos, pero necesitas desarrollar más la capacidad de comunicar tu pensamiento crítico y reflexionar sobre tu propio aprendizaje.\n\nEsta semana demostraste que comprendes profundamente cómo identificar variables en problemas de equilibrio químico y ácido-base. Sin embargo, para avanzar en pensamiento crítico, es fundamental que articules explícitamente qué variables identificas, por qué son importantes, y cómo las usas para resolver problemas.\n\nPara la próxima semana, te pido que dediques tiempo a responder completamente cada pregunta del reporte. No se trata de escribir mucho, sino de ser específico: da ejemplos concretos, menciona variables por su nombre, y explica tu razonamiento. Esto consolidará tu aprendizaje y te preparará mejor para Fase 3.",
+      "strengths": "• Dominio excepcional en cálculos de equilibrio químico: Resuelves correctamente problemas de pH, pOH, concentraciones iónicas y rendimiento de reacción. Tu trabajo en Q2 (especialmente los ejercicios 11.8-11.13) muestra precisión matemática y comprensión profunda de conceptos.\n• Aplicación correcta de estequiometría y relaciones entre variables: Identificas correctamente el reactivo limitante, calculas cantidades teóricas y reales, y comprendes cómo las variables se relacionan (ej: moles → concentración → pH). Esto evidencia integración real de Fase 1 + Fase 2.\n• Presentación clara de procedimientos: Tus cálculos están bien organizados, paso a paso, con unidades correctas y resultados finales destacados. Esto facilita seguir tu razonamiento y verificar tu trabajo.",
+      "improvements": "• Respuestas muy breves en Q1, Q3, Q4 y Q5: Tus respuestas a estas preguntas son incompletas (1-2 líneas máximo). Necesitas desarrollar cada respuesta con ejemplos concretos. Por ejemplo, en Q1 deberías listar variables específicas: \"Variables conocidas: concentración inicial, volumen; Variables controlables: temperatura, presión; Variables desconocidas: pH final, concentración de iones.\"\n• Falta de reflexión metacognitiva sobre dificultades: En Q3, no identificas dificultades reales con la identificación de variables. Sugiero que reflexiones: ¿Qué te cuesta más? ¿Distinguir entre variables controlables y no controlables? ¿Identificar todas las especies iónicas? Luego propón estrategias concretas para superarlas.\n• Ausencia de conexiones explícitas con fenómenos reales: En Q4, mencionas \"matemática y física\" pero sin conectar con situaciones concretas. Intenta: \"En la síntesis de SO₃, la presión es una variable controlable que afecta el equilibrio; en laboratorio, controlamos temperatura para desplazar el equilibrio hacia productos.\" Esto muestra transferencia real.",
+      "createdAt": "2025-10-27T04:57:47.091Z"
+    }
+  ]
+}

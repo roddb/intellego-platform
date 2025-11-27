@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "studentId": "u_pv1olo186me64il60",
+    "studentName": "Juana Cestari",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.210175",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 63.93,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-08-04_e71bdcc5",
+      "weekStart": "2025-08-04",
+      "score": 75,
+      "generalComments": "Juana demuestra una comprensión básica sólida de la Fase 1 del equilibrio químico. Su nivel de dominio es 'relativamente bueno' según su autoevaluación, lo cual es apropiado. Logra articular las diferencias clave entre reacciones reversibles/irreversibles y las características del equilibrio dinámico. La metodología de 5 pasos está correctamente identificada.",
+      "strengths": [
+        "Identificación correcta de los 5 pasos del pensamiento crítico: identificar problema, recopilar información, analizar opciones, evaluar consecuencias, tomar decisiones",
+        "Diferenciación clara entre reacciones reversibles e irreversibles con comprensión de cómo se representan",
+        "Listado completo de las 4 características del equilibrio químico: dinámico, composición invariable, reversibilidad y movilidad",
+        "Explicación apropiada en Q2 sobre utilidad del pensamiento crítico: analizar de forma lógica y ordenada, no solo aplicar fórmulas de memoria",
+        "Estrategia efectiva para superar dificultades: releer cuadernillo y resaltar ideas clave",
+        "Conexión con otros temas: cambios químicos y física (sistemas, cambios de estado)"
+      ],
+      "improvements": [
+        "En Q1 mencionas que todavía me falta practicar más ejercicios para afianzarme; planifica sesiones de práctica específicas con ejercicios graduados",
+        "La dificultad con equilibrio dinámico podría resolverse dibujando modelos particulados que muestren moléculas reaccionando en ambas direcciones",
+        "En Q2 la evidencia es más bien conceptual que práctica; incluye un ejemplo específico de cómo aplicaste los pasos en un ejercicio",
+        "Las conexiones en Q4 son genéricas; profundiza con ejemplos concretos de cómo los cambios químicos se relacionan con equilibrio",
+        "Desarrolla más reflexión metacognitiva sobre cómo tu comprensión evoluciona durante el estudio"
+      ],
+      "createdAt": "2025-10-03T14:50:10Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-08-18_1b8a49c7",
+      "weekStart": "2025-08-18",
+      "score": 69,
+      "generalComments": "Juana muestra progresión hacia la Fase 3, aunque con dificultades significativas en la aplicación de herramientas cuantitativas. Su nivel autoevaluado como 'medio tirando a bajo' es realista. Logra comprender conceptos básicos de Kc y Le Chatelier, pero requiere más práctica con cálculos. El reconocimiento de necesidad de ayuda de compañeros demuestra conciencia de sus limitaciones.",
+      "strengths": [
+        "Comprensión de cómo se escribe Kc a partir de ecuaciones balanceadas",
+        "Entendimiento del uso de Qc para predecir dirección de reacción",
+        "Reconocimiento del efecto de temperatura y presión sobre equilibrio",
+        "Resolución (con ayuda) del Ejercicio 1 sobre síntesis de metanol CO(g) + 2H₂(g) ⇌ CH₃OH(g)",
+        "Identificación correcta de que exponentes en Kc provienen de coeficientes estequiométricos",
+        "Conexión interdisciplinaria con biología: equilibrio químico relacionado con homeostasis",
+        "Valoración positiva de la metodología de pasos para organizarse"
+      ],
+      "improvements": [
+        "En Q1 indicas nivel medio tirando a bajo y que lo que logré hacer fue con ayuda; necesitas práctica autónoma adicional antes de buscar ayuda",
+        "La confusión entre cuándo usar Kc (cálculo cuantitativo) vs Le Chatelier (predicción cualitativa) requiere un diagrama de decisión claro",
+        "En Q2 mencionas confusión inicial con exponentes; crea ejercicios específicos de escritura de expresiones de Kc para diferentes reacciones",
+        "Falta evidencia de ejercicios resueltos de forma independiente; practica primero sola y luego verifica con compañeros",
+        "Desarrolla un manual personal de cuándo usar cada herramienta (Kc, Qc, Le Chatelier, ICE)"
+      ],
+      "createdAt": "2025-10-03T14:50:11Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-08-25_8b78862f",
+      "weekStart": "2025-08-25",
+      "score": 72,
+      "generalComments": "Juana demuestra progresión en la Fase 4, aplicando las 4 fases completas del pensamiento crítico. Su nivel de dominio varía entre medio-bajo y medio según cada herramienta. El ejercicio resuelto (Ejercicio 3 con NOBr) está correcto y muestra capacidad de cálculo de Qc y comparación con Kc. La estrategia de usar los pasos 'como una receta' es efectiva.",
+      "strengths": [
+        "Listado completo de herramientas trabajadas: expresión de Kc, cálculo de Kc, uso de Qc, Le Chatelier, tablas ICE",
+        "Autoevaluación realista y diferenciada por herramienta (niveles medio, medio-bajo, bajo)",
+        "Cálculo correcto de Qc en Ejercicio 3: Qc = (0.25²)/(0.25² · 0.25) = 4",
+        "Comparación apropiada: Qc > Kc → reacción se desplaza hacia reactivos",
+        "Estrategia efectiva: usar la metodología como una receta para no saltear pasos",
+        "Conexiones interdisciplinarias con biología (homeostasis) y física (gases, presión, temperatura)",
+        "Reconocimiento de que tablas y organización ayudan a no perderse"
+      ],
+      "improvements": [
+        "En Q1 indicas nivel bajo en tablas ICE con incógnita x; esta es una habilidad fundamental que requiere práctica intensiva",
+        "La confusión sobre cuándo usar Qc vs Le Chatelier persiste; crea un flowchart de decisión para consulta rápida",
+        "En Q3 mencionas dificultad con cálculos pero la estrategia (escribir pasos como receta) es buena; aplícala consistentemente a más ejercicios",
+        "Falta evidencia de verificación de resultados (¿tiene sentido que se desplace hacia reactivos?)",
+        "Desarrolla confianza en cálculos matemáticos básicos (potencias, fracciones) para no atascarte en la aritmética"
+      ],
+      "createdAt": "2025-10-03T14:50:12Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-09-08_c526909c",
+      "weekStart": "2025-09-08",
+      "score": 66,
+      "generalComments": "Juana realiza un repaso reflexivo del modelo de examen, identificando con honestidad sus fortalezas y debilidades. Reconoce dominio de símbolos y ecuaciones, pero dificultades significativas con rapidez de identificación de tipos de reacción y aplicación práctica del equilibrio dinámico. La conexión con matemática y física demuestra pensamiento integrador.",
+      "strengths": [
+        "Autoanálisis honesto y específico de fortalezas: comprende símbolos y escritura de reactivos/productos",
+        "Identificación clara de áreas de mejora: rapidez en reconocer tipo de reacción, aplicación de teoría a ejercicios",
+        "Reconocimiento de que entiende la teoría de equilibrio dinámico (velocidades iguales, concentraciones constantes)",
+        "Conciencia de que tengo que practicar más cómo usar la teoría en los problemas concretos",
+        "Conexiones interdisciplinarias apropiadas: matemática (potencias, fracciones, proporciones) y física (gases, Kc-Kp, Δn)",
+        "Capacidad metacognitiva de distinguir entre saber explicar vs saber aplicar"
+      ],
+      "improvements": [
+        "En Q1 mencionas lentitud para identificar tipos de reacción; crea flashcards con ejemplos de cada tipo para práctica de reconocimiento rápido",
+        "La dificultad en Q2 con aplicar equilibrio dinámico a ejercicios sugiere brecha teoría-práctica; necesitas ejercicios guiados paso a paso",
+        "En Q3 la confusión con Qc/Kc persiste (numerador/denominador); dibuja un esquema permanente: productos arriba, reactivos abajo",
+        "Falta evidencia de ejercicios específicos practicados del modelo de examen; documenta al menos 2-3 problemas resueltos",
+        "Q5 está vacía; usa este espacio para reflexionar sobre tu plan de estudio para el examen"
+      ],
+      "createdAt": "2025-10-03T14:50:13Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-09-15_e1781dfb",
+      "weekStart": "2025-09-15",
+      "score": 70,
+      "generalComments": "Juana reporta una semana de repaso mediante exposición oral de compañeros. Aunque identifica que le sirvió como 'repaso general', expresa frustración por no tener acceso a las diapositivas para estudio posterior. Su nivel 3 autoevaluado indica comprensión conceptual adecuada, pero persisten dificultades con aplicación práctica de Qc/Kc.",
+      "strengths": [
+        "Reconocimiento de que la exposición juntó todos los contenidos de reacciones facilitando visión integrada",
+        "Comprensión teórica sólida de equilibrio dinámico: no significa que la reacción se frena, sino que sigue ocurriendo en ambas direcciones a la misma velocidad",
+        "Nivel 3 autoevaluado apropiado: me siento relativamente segura",
+        "Conciencia de necesidad de práctica escrita para afianzar Qc/Kc",
+        "Conexiones interdisciplinarias mantenidas: matemática (fórmulas, exponentes, proporciones) y física (gases, Kc-Kp)",
+        "Honestidad sobre impacto de no tener material de apoyo para estudio posterior"
+      ],
+      "improvements": [
+        "En Q1 mencionas falta de práctica para identificar rápidamente de qué tipo de reacción se trata; usa el cuadernillo para crear tu propia lista de ejemplos",
+        "La frustración en Q2 por no tener las diapositivas es válida, pero no debe ser excusa; tus apuntes de carpeta son suficientes para practicar",
+        "En Q3 la confusión con numerador/denominador en Qc/Kc persiste; dibuja el esquema en tu carpeta y consúltalo cada vez que hagas un ejercicio",
+        "Falta evidencia de estudio activo (ejercicios resueltos); incluso sin diapositivas, podrías haber practicado problemas del cuadernillo",
+        "Q5 está vacía; reflexiona sobre cómo compensar la falta de material digital con recursos disponibles"
+      ],
+      "createdAt": "2025-10-03T14:50:14Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me64il60_2025-09-22_cb2b8843",
+      "weekStart": "2025-09-22",
+      "score": 65,
+      "generalComments": "Juana reporta una semana sin clases por ausencia del profesor. Aunque mantiene nivel 3 autoevaluado, expresa frustración persistente por la falta de diapositivas de la exposición de la semana anterior. El reporte muestra más énfasis en las limitaciones (falta de material) que en las acciones de estudio realizadas. No hay evidencia clara de preparación activa para el examen.",
+      "strengths": [
+        "Mantenimiento del nivel 3 de comprensión autoevaluado",
+        "Reconocimiento de que tiene anotaciones en la carpeta como recurso disponible",
+        "Honestidad sobre el impacto de la falta de material en su estudio",
+        "Conciencia de que sin las diapositivas le costó recordar exactamente cómo se explicaba en los ejemplos",
+        "Mantenimiento de conexiones interdisciplinarias con matemática y física"
+      ],
+      "improvements": [
+        "En Q1 dices que la falta de presentación dificultó repasar pero tienes apuntes en carpeta; aprovecha los recursos que SÍ tienes disponibles",
+        "En Q2 la confusión sobre en qué momento la reacción llega al equilibrio es una pregunta específica que podrías resolver consultando el cuadernillo teórico",
+        "En Q3 la dificultad con Qc/Kc persiste sin evidencia de que hayas creado el esquema de referencia sugerido múltiples veces",
+        "En todas las respuestas enfatizas la falta de material pero no describes QUÉ estudiaste durante la semana sin clases",
+        "Q5 está vacía; este espacio era ideal para documentar tu plan de estudio previo al examen",
+        "Falta completamente evidencia de ejercicios practicados, conceptos repasados o uso del cuadernillo"
+      ],
+      "createdAt": "2025-10-03T14:50:15Z"
+    },
+    {
+      "feedbackId": "2d0b5f80-0e20-4ce0-b604-5ffdf2f0fba8",
+      "weekStart": "2025-09-29",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:08.721Z"
+    },
+    {
+      "feedbackId": "a5586c0d-871b-4cf1-a311-5407a5215fd6",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:50:51.990Z"
+    },
+    {
+      "feedbackId": "f07134bf-7872-4455-818f-18c78b87a6ee",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:16:21.368Z"
+    },
+    {
+      "feedbackId": "ac01d56d-fef4-4a24-a6dd-a7e3582bdd40",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:12.761Z"
+    },
+    {
+      "feedbackId": "a1a55fb3-357d-4db9-9910-5e58a4d5d038",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:30:01.991Z"
+    },
+    {
+      "feedbackId": "df381e3e-440b-49b1-a12d-ac7016537a79",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T12:21:14.651Z"
+    },
+    {
+      "feedbackId": "b2811e0d-bbca-4778-ab37-08d07140b293",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana fue atípica por la ausencia del profesor y los cambios de horario. Es importante que reconozcas que comunicaste esta situación, lo que muestra responsabilidad de tu parte.\n\nSin embargo, es fundamental que te pongas al día con el contenido de Fase 2 para no perder continuidad en tu aprendizaje. Cuando las clases regresen a la normalidad, necesitarás estar preparado para seguir avanzando.\n\nTe sugiero que esta semana revises los temas anteriores y que próxima semana completes el reporte con más detalle, documentando qué aprendiste, qué dificultades enfrentaste y cómo las resolviste. Si necesitas ayuda para recuperar lo perdido, consulta con tus compañeros o conmigo en clase.",
+      "strengths": "• Comunicación proactiva: Informaste claramente sobre la ausencia del profesor y los cambios de horario, demostrando que estás atento a lo que sucede en clase y responsable de documentarlo.",
+      "improvements": "• Aprovecha el tiempo de pausa: Aunque no hubo clases esta semana, puedes revisar los temas de la semana anterior (Fase 2) para llegar mejor preparado cuando retomen. Consulta tus apuntes o pide a un compañero que te resuma lo visto.\n• Prepárate para la próxima semana: Cuando regresen las clases, asegúrate de completar el reporte con más detalle. Anota los temas trabajados, las dificultades que enfrentes y cómo las resuelves.",
+      "createdAt": "2025-11-03T12:16:25.452Z"
+    },
+    {
+      "feedbackId": "e488b5df-9939-4fdf-a651-e66dbaeba578",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta fue una semana atípica con el parcial de Literatura y el asueto, pero es importante que completes el reporte de pensamiento crítico incluso en semanas con pocas clases. Tu reporte actual no proporciona información sobre tu desempeño en Fase 2, lo que dificulta dar seguimiento a tu progreso en identificación de variables y clasificación de magnitudes.\n\nLa próxima semana, cuando retomemos las clases de Ciencias, te recomiendo que llegues preparado con preguntas sobre los temas que no quedaron claros. Mientras tanto, puedes aprovechar para repasar tus apuntes de Fase 1 y practicar identificando variables en problemas simples de tu libro de texto.\n\nPara el próximo reporte, aunque sea una semana con interrupciones, intenta documentar al menos lo que repasaste o estudiaste por tu cuenta. Esto me ayudará a entender dónde estás y cómo puedo apoyarte mejor en tu aprendizaje del pensamiento crítico.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en relación con los objetivos de Fase 2. La ausencia de contenido académico impide identificar aspectos positivos del aprendizaje en identificación de variables y magnitudes físicas.",
+      "improvements": "• Completar el reporte incluso con clases limitadas: Aunque no hayas tenido clases presenciales, puedes revisar apuntes anteriores, trabajos de Fase 1 o ejercicios pendientes. Dedica tiempo a documentar qué variables identificaste en problemas previos y cómo las clasificaste.\n• Responder cada pregunta con contenido específico: Cada pregunta requiere una respuesta sustancial. Si la semana fue atípica, explica brevemente la situación y luego desarrolla lo que SÍ trabajaste o repasaste. Por ejemplo: \"Aunque no tuvimos clase, revisé mis apuntes sobre...\" y continúa con análisis concreto.\n• Incluir reflexión personal en Q5: Aunque sea breve, escribe tus observaciones sobre cómo te sientes con la identificación de variables, qué te cuesta más (¿distinguir controlables de no controlables? ¿reconocer magnitudes físicas?) y qué estrategia intentarás usar la próxima semana.",
+      "createdAt": "2025-11-12T22:53:18.784Z"
+    }
+  ]
+}

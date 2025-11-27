@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "studentId": "u_pccwk930omdyo4q46",
+    "studentName": "Felipe Muttini Pagadizabal",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.199188",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 37.5,
+      "minScore": 27,
+      "maxScore": 48,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-29"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_mdyo4q46_2025-08-11_a3d8a9e7",
+      "weekStart": "2025-08-11",
+      "score": 27,
+      "generalComments": "Felipe, tu reporte de esta semana muestra un desafío importante en el proceso de aprendizaje. Aunque mencionas que están trabajando con termodinámica, tus respuestas indican que no estás aprovechando esta oportunidad para aplicar la metodología de pensamiento crítico que es fundamental en esta Fase 1. Tu comentario sobre la autonomía excesiva es válido, pero es precisamente en estos momentos donde el pensamiento crítico sistemático te puede ayudar a estructurar tu aprendizaje de manera más efectiva.",
+      "strengths": [
+        "Reconoces que están trabajando con termodinámica como tema central de la semana",
+        "Identificas una dificultad real en la metodología de clase (exceso de autonomía)",
+        "Entregas el reporte cumpliendo con el compromiso de seguimiento semanal"
+      ],
+      "improvements": [
+        "Para la próxima semana, intenta identificar un problema específico de termodinámica que estén estudiando. ¿Cuál es el objetivo final que necesitan alcanzar? Usa el Paso 1 de pensamiento crítico: identifica el problema claramente",
+        "Desarrolla tus respuestas en las 5 preguntas del reporte. Aunque sientas que no hiciste casi nada, siempre hay aprendizajes que documentar. Describe qué conceptos nuevos escuchaste, qué dudas surgieron, qué intentaste comprender",
+        "Aprovecha la autonomía que mencionas como un desafío para convertirla en una oportunidad. Define qué evidencias de aprendizaje podrías presentar: ¿qué ejercicios intentaste? ¿Qué lecturas hiciste? ¿Qué conceptos investigaste por tu cuenta?",
+        "Reflexiona sobre tus dificultades específicas con el tema. No basta con decir no hicimos nada, necesitas identificar: ¿qué te está costando entender? ¿Qué estrategias podrías usar para superarlo?",
+        "Conecta la termodinámica con situaciones de tu vida cotidiana. ¿Dónde ves estos fenómenos? ¿Por qué es importante comprenderlos? Esta conexión te ayudará a encontrar motivación y sentido al estudio"
+      ],
+      "createdAt": "2025-10-02 14:48:29"
+    },
+    {
+      "feedbackId": "fb_002_1_mdyo4q46_2025-09-29_002",
+      "weekStart": "2025-09-29",
+      "score": 48,
+      "generalComments": "Hola Felipe, estás comenzando a trabajar en la Fase 4: Estrategia y ejecución completa, requiriendo apoyo adicional para consolidar la integración de todas las fases metodológicas en Física. Muestras capacidad para resolver problemas de termodinámica con razonamiento lógico, como en el ejercicio de mezcla de aguas. Es importante mejorar la planificación de tu estrategia antes de ejecutar y explicitar todos los pasos del proceso. Proporciona evidencias más concretas de tu proceso completo de pensamiento en todas las preguntas del reporte. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Resuelves correctamente el problema de mezcla de aguas llegando al resultado de 50°C",
+        "Demuestras razonamiento lógico al promediar temperaturas de masas iguales",
+        "Reconoces la facilidad del trabajo integrador mostrando confianza en el tema"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar los problemas",
+        "Desarrolla todas las preguntas del reporte incluyendo reflexión sobre dificultades y conexiones prácticas",
+        "Explicita todos los pasos de tu razonamiento incluyendo verificación de resultados"
+      ],
+      "createdAt": "2025-10-09T19:30:00Z"
+    }
+  ]
+}

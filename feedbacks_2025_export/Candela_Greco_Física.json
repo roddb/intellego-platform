@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "studentId": "u_9vp2o3qntme4y2kyh",
+    "studentName": "Candela Greco",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.188616",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 58.89,
+      "minScore": 34,
+      "maxScore": 76,
+      "weeksCovered": 8,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me4y2kyh_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Querida Candela Greco,\n\nTe encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Física. Realizas conexiones interesantes entre los conceptos de termodinámica y los temas vistos anteriormente como masa y trabajo.\n\nTe recomiendo practicar la distinción entre información relevante e irrelevante en los problemas. Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase, especialmente en la diferencia fundamental entre calor y temperatura.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Realizas conexiones interesantes entre los conceptos de termodinámica y los temas vistos anteriormente como masa y trabajo",
+        "Reconoces honestamente tu nivel de comprensión y las áreas donde necesitas mejorar",
+        "Identificas claramente tu dificultad principal con la diferencia entre calor y temperatura"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Necesitas profundizar en la comprensión del contexto antes de avanzar a la siguiente fase, especialmente en la diferencia fundamental entre calor y temperatura",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-09 20:59:48"
+    },
+    {
+      "feedbackId": "fb_002_1_me4y2kyh_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Querida Candela Greco,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Física. Muestras capacidad para conectar la Fase 1 con la Fase 2 y reconoces la utilidad de las guías estructuradas en tu proceso de aprendizaje.\n\nEs importante mejorar la organización y clasificación de los datos disponibles en los problemas, haciendo explícita la lista de variables conocidas y desconocidas. Te recomiendo profundizar en la distinción entre sistema abierto y cerrado, que es fundamental para identificar correctamente las variables del problema.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Reconoces estar trabajando en Fase 2 y autoevalúas tu comprensión como nivel 3",
+        "Identificas estrategias que te ayudan en tu aprendizaje, como las guías estructuradas",
+        "Integras apropiadamente la Fase 1 con la Fase 2, reconociendo la conexión con fórmulas anteriores"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación de los datos disponibles en los problemas, haciendo explícita la lista de variables conocidas y desconocidas",
+        "Te recomiendo profundizar en la distinción entre sistema abierto y cerrado, que es fundamental para identificar correctamente las variables del problema",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada"
+      ],
+      "createdAt": "2025-10-09 20:59:48"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-08-25_a7d2a3e1",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Tu trabajo en Fase 2 muestra reconocimiento de algunas variables. Has identificado datos básicos del problema, aunque aún puedes profundizar en el análisis de las variables involucradas.",
+      "strengths": [
+        "Reconocimiento de variables principales",
+        "Identificación de algunos datos numéricos",
+        "Honestidad sobre el proceso de análisis",
+        "Esfuerzo por organizar la información"
+      ],
+      "improvements": [
+        "Ampliar la identificación completa de todas las variables",
+        "Mejorar la clasificación de tipos de variables",
+        "Desarrollar mayor precisión en el análisis de datos",
+        "Fortalecer la comprensión de unidades y magnitudes"
+      ],
+      "createdAt": "2025-10-01T00:00:13.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-09-01_b8e3b4f2",
+      "weekStart": "2025-09-01",
+      "score": 72,
+      "generalComments": "Tu reporte de Fase 3 muestra progreso en la selección de herramientas. Has identificado fórmulas relevantes y comenzado a establecer relaciones, demostrando avance en tu comprensión.",
+      "strengths": [
+        "Identificación de fórmulas relevantes",
+        "Reconocimiento de relaciones básicas entre variables",
+        "Mejora respecto a reportes anteriores",
+        "Esfuerzo por aplicar principios físicos"
+      ],
+      "improvements": [
+        "Profundizar en la justificación de las herramientas elegidas",
+        "Ampliar el análisis de las relaciones entre variables",
+        "Desarrollar mayor claridad en la aplicación",
+        "Fortalecer la conexión entre teoría y problema específico"
+      ],
+      "createdAt": "2025-10-01T00:00:14.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me4y2kyh_2025-09-15_54ff0e53",
+      "weekStart": "2025-09-15",
+      "score": 55,
+      "generalComments": "Candela muestra progreso en la Fase 4 al presentar un problema completo trabajado con las 4 fases metodológicas. Su evidencia de aprendizaje refleja comprensión del proceso sistemático. Sin embargo, las respuestas tienden a ser muy breves y carecen de la profundidad reflexiva esperada en esta fase final. Se observa autocrítica honesta al reconocer dificultades con la aplicación de fórmulas, lo cual es positivo, pero falta desarrollo de estrategias para superarlas.",
+      "strengths": [
+        "Evidencia clara de aplicación de las 4 fases en el problema del termotanque",
+        "Identificación correcta de variables (potencia, masa, temperaturas) y fórmula apropiada",
+        "Organización del proceso de resolución siguiendo la metodología paso a paso"
+      ],
+      "improvements": [
+        "Desarrollar descripciones más detalladas del proceso de planificación y ejecución de estrategias",
+        "Proponer estrategias concretas para superar las dificultades en la aplicación de fórmulas (ej: práctica adicional, consultas específicas, revisión de unidades)",
+        "Profundizar en la evaluación de la razonabilidad de resultados y conexión con aplicaciones reales del termotanque",
+        "Incluir reflexiones sobre el proceso completo de las 4 fases y propuestas de optimización del método"
+      ],
+      "createdAt": "2025-01-10T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me4y2kyh_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 76,
+      "generalComments": "Querida Candela Greco,\n\nHas alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas cálculos sistemáticamente y verificas tus resultados usando el principio de conservación de energía (calor cedido = calor absorbido). Demuestras capacidad de autorregulación al recurrir a tus apuntes para superar dificultades.\n\nTe recomiendo seguir practicando despejes algebraicos de temperatura final en ecuaciones de calorimetría para ganar mayor fluidez. Busca aplicaciones prácticas de estos conceptos de intercambio térmico en situaciones cotidianas.\n\nBuen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Ejecutas cálculos completos de calorimetría con correcta aplicación de Q=m·c·ΔT",
+        "Verificas tus resultados usando el principio de conservación de energía (calor cedido = calor absorbido)",
+        "Demuestras autorregulación al identificar tu dificultad y usar apuntes para superarla"
+      ],
+      "improvements": [
+        "Te recomiendo seguir practicando despejes algebraicos de temperatura final en ecuaciones de calorimetría para ganar mayor fluidez",
+        "Busca aplicaciones prácticas de estos conceptos de intercambio térmico en situaciones cotidianas",
+        "Proporciona más comentarios adicionales que enriquezcan el seguimiento de tu proceso"
+      ],
+      "createdAt": "2025-10-09 20:59:48"
+    },
+    {
+      "feedbackId": "862e710f-dee4-4920-831e-6e740bc1cb3b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:51.154Z"
+    },
+    {
+      "feedbackId": "9ee12018-3c53-4e6f-9d6b-597f07861b94",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:23:02.147Z"
+    },
+    {
+      "feedbackId": "cd88b438-3001-4aa4-80b3-10029eedbb76",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 54,
+      "generalComments": "Veo que trabajaste en un examen integrador de termodinámica y resolviste correctamente un problema de resistencia eléctrica. Tu cálculo matemático es preciso y eso es un logro importante. Sin embargo, tu reporte semanal es muy superficial para la Fase 2, que se enfoca precisamente en identificar y clasificar variables.\n\nEsta semana necesitas profundizar en el análisis de variables: no es suficiente resolver problemas correctamente, sino entender *qué variables intervienen*, *cómo se relacionan* y *por qué importa clasificarlas*. Notamos que Q5 está vacía, lo que sugiere que no reflexionaste sobre tu progreso.\n\nPara la próxima semana, te pido que: (1) antes de resolver cada problema, hagas una lista explícita de variables conocidas/desconocidas y controlables/no controlables; (2) reflexiones genuinamente sobre dificultades específicas; (3) completes todas las preguntas del reporte, especialmente la reflexión final. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Resolución matemática correcta: Tu cálculo de resistencia (R = 1,49 Ω) y caída de tensión (V = 4,47 V) es preciso. Organizaste bien los datos y aplicaste las fórmulas sin errores operacionales.\n• Organización de datos: Presentas claramente los datos conocidos (ρ, l, s) antes de resolver, lo que facilita seguir tu razonamiento y es una buena práctica en problemas de Física.\n• Disposición a buscar ayuda: Mencionas que usaste las guías para resolver dificultades, lo que muestra iniciativa y responsabilidad en tu aprendizaje.",
+      "improvements": "• Identificación explícita de variables: En el problema del cable, debes clasificar: ¿cuáles son variables conocidas (longitud, sección, resistividad) y cuáles desconocidas (resistencia, tensión)? ¿Cuáles son controlables y cuáles no? Esto es el corazón de la Fase 2. Agrega un párrafo antes de resolver donde hagas esta clasificación.\n• Reflexión sobre dificultades específicas: Cuando menciones que algo te costó, sé concreto: ¿fue difícil distinguir entre resistividad y resistencia? ¿Confundiste magnitudes? ¿No sabías cómo clasificar variables? Luego explica tu estrategia de forma detallada, no solo \"usé las guías\".\n• Conexiones con fenómenos reales: Relaciona el problema del cable con aplicaciones prácticas: ¿por qué importa calcular la caída de tensión en instalaciones eléctricas? ¿Cómo variarían las variables si usaras otro material? Esto demuestra transferencia de aprendizaje y pensamiento crítico más profundo.",
+      "createdAt": "2025-11-17T13:53:24.902Z"
+    }
+  ]
+}

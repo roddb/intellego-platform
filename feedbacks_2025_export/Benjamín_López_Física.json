@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "studentId": "u_eg4pqh49ume1bzrv3",
+    "studentName": "Benjamín López",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.186201",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 54.5,
+      "minScore": 46,
+      "maxScore": 65,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "0991abe2-f649-c743-722a-44d931bb2afe",
+      "weekStart": "2025-09-01",
+      "score": 57,
+      "generalComments": "Benjamín, tu reporte muestra comprensión del problema aplicado (ejercicio de bomberos) pero dificultades serias con las herramientas matemáticas. Decís estar en 'nivel 1' y necesitar practicar fórmulas, lo cual es honesto y refleja autocrítica. En Fase 3 necesitás pasar de identificar que 'necesitás fórmulas' a listar CUÁLES fórmulas usaste (ej: sen, cos, tan para ángulos). Tu conexión con matemáticas es válida pero muy superficial.",
+      "strengths": [
+        "Describís el problema aplicado con contexto real (bomberos apagando incendio)",
+        "Reconocés honestamente tu nivel y áreas que necesitás mejorar (fórmulas)",
+        "Identificás que el trabajo requiere herramientas matemáticas"
+      ],
+      "improvements": [
+        "Listá las fórmulas específicas que usaste o intentaste usar (ej: tan(θ) = altura/distancia)",
+        "En Q3, especificá QUÉ parte fue difícil (¿identificar la fórmula? ¿aplicarla? ¿despejar?), no digas solo 'todos'",
+        "Completá Q5 con reflexión sobre tu proceso y qué estrategia vas a usar para aprenderte las fórmulas"
+      ],
+      "createdAt": "2025-09-30 16:35:17"
+    },
+    {
+      "feedbackId": "60ad7ef3-2e90-2177-efc3-541263ada004",
+      "weekStart": "2025-09-08",
+      "score": 46,
+      "generalComments": "Benjamín, tu desempeño **bajó 11 puntos** (57→46), cayendo a Nivel 1. Repetís las mismas respuestas del reporte anterior casi idénticas: 'nivel 1', 'todo', 'matemática por cálculos', bomberos. En Fase 4 (examen) necesitás mostrar CÓMO resolviste problemas completos, no solo mencionar temas. Tu patrón de respuestas ultra-breves sin ejemplos específicos te está llevando al nivel inicial.",
+      "strengths": [
+        "Reconocés que estás practicando con modelos de examen (preparación)",
+        "Mantenés autocrítica sobre tu nivel actual",
+        "Identificás que necesitás más práctica"
+      ],
+      "improvements": [
+        "**URGENTE**: Mostrá UN ejercicio resuelto completo en Q2 (no solo 'bomberos'). Ejemplo: 'Bomberos a 50m deben alcanzar ventana a 20m altura. Usé tan(θ)=20/50, θ=21.8°'",
+        "**CRÍTICO**: Dejá de responder 'todo' en Q3. Especificá: ¿te cuesta identificar datos? ¿aplicar fórmulas? ¿verificar resultados?",
+        "**INACEPTABLE**: Completá Q5. En Fase 4 deberías reflexionar sobre tu preparación para el examen"
+      ],
+      "createdAt": "2025-09-30 16:36:01"
+    },
+    {
+      "feedbackId": "8fc275dc-b981-7445-5eae-5fb049e3872c",
+      "weekStart": "2025-09-22",
+      "score": 65,
+      "generalComments": "¡Benjamín, RECUPERACIÓN IMPORTANTE! Subiste 19 puntos (46→65), volviendo a Nivel 2. Este reporte muestra que SÍ podés escribir con más detalle cuando te lo proponés: Q2 tiene descripción completa del problema y Q3 identifica tu dificultad específica (qué fórmula usar y cuándo). Esta es la profundidad que necesito en TODOS los reportes. Seguí con respuestas desarrolladas, no vuelvas a las ultra-breves.",
+      "strengths": [
+        "Describís el problema de bomberos con contexto completo (distancia, edificio, objetivo, ángulo de disparo)",
+        "Identificás tu dificultad ESPECÍFICA: saber cuándo y qué fórmula usar (núcleo de Fase 3)",
+        "Justificás tu autoevaluación con razones concretas (falta práctica y trabajo en clase)"
+      ],
+      "improvements": [
+        "Ahora que describiste el problema, agregá en Q2 qué fórmulas INTENTASTE usar (ej: 'probé con sen y cos pero me costó decidir cuál')",
+        "En Q4, especificá QUÉ conceptos de matemática usás (trigonometría: seno, coseno, tangente para ángulos)",
+        "Completá Q5 con reflexión real. Un punto solo es inaceptable después de la mejora que mostraste en Q2 y Q3"
+      ],
+      "createdAt": "2025-09-30 16:36:48"
+    },
+    {
+      "feedbackId": "ab580a44-71fc-4442-9a69-7b04499e5a08",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que trabajaste en el tema de fuerzas esta semana, y es positivo que reconozcas honestamente tu nivel actual. Sin embargo, tu reporte necesita mucho más detalle para que podamos evaluar realmente tu comprensión de la Fase 2.\n\nEn esta fase, lo importante no es solo resolver ejercicios, sino que identifiques y clasifiques las variables que intervienen en cada problema. Tu reporte actual no muestra este análisis sistemático que es el corazón de la Fase 2.\n\nPara la próxima semana, te pido que: (1) Hagas una lista clara de variables en cada ejercicio, (2) Expliques qué te costó específicamente y cómo lo superarás, y (3) Reflexiones sobre por qué es importante identificar variables antes de resolver. Esto transformará tu aprendizaje.",
+      "strengths": "• Reconocimiento honesto de nivel: Identificas que te consideras en \"nivel dos\", lo que muestra autoconciencia sobre tu desempeño actual. Esto es un buen punto de partida para mejorar.\n• Descripción del contexto del ejercicio: Logras describir el problema trabajado (dos objetos, posiciones, cuerda), lo que indica que seguiste la clase y comprendiste el escenario general.\n• Intención de conectar conceptos: Intentas relacionar el tema con matemáticas, mostrando que buscas vincular áreas del conocimiento, aunque necesita profundidad.",
+      "improvements": "• Identifica y clasifica variables específicamente: En tu próximo reporte, lista las variables del ejercicio de fuerzas. Por ejemplo: \"Variables conocidas: masa del objeto 1, ángulo de inclinación. Variables desconocidas: tensión de la cuerda, aceleración.\" Esto es lo que espera la Fase 2.\n• Desarrolla estrategias concretas para dificultades: No digas solo \"me costó plantear el ejercicio\". Explica: ¿Fue difícil identificar las fuerzas? ¿Dibujar el diagrama? ¿Escribir las ecuaciones? Luego propón: \"Para mejorar, haré diagramas de cuerpo libre paso a paso\" o \"Practicaré clasificando variables antes de resolver.\"\n• Expande tus respuestas con ejemplos: Tus respuestas son muy cortas (1-2 líneas). Desarrolla cada pregunta con detalles: qué aprendiste, cómo lo aplicaste, qué dudas tienes. Esto ayuda a tu profesor a entender mejor tu proceso de pensamiento.",
+      "createdAt": "2025-11-12T23:02:18.084Z"
+    }
+  ]
+}

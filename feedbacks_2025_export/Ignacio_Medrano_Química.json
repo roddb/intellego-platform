@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "studentId": "u_m51eualryme5r2p4u",
+    "studentName": "Ignacio Medrano",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.204231",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 59.27,
+      "minScore": 27,
+      "maxScore": 77,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 36,
+      "generalComments": "Querido Ignacio Medrano, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Reconoces la importancia de la reflexión sobre el propio aprendizaje. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Mejora la organización de tu trabajo y presentación de ideas. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje",
+        "Reconoces la actividad reflexiva como herramienta de autoevaluación",
+        "Muestras apertura para identificar tu nivel de conocimiento"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje específicos de cada actividad",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en lugar de respuestas genéricas",
+        "Desarrolla estrategias más específicas para superar tus desafíos en la comprensión de conceptos químicos"
+      ],
+      "createdAt": "2025-10-09 01:58:49"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Querido Ignacio Medrano, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en equilibrio químico. Organizas adecuadamente los datos y la información disponible usando la matriz 2×2. Debes trabajar en la identificación precisa de todas las variables involucradas y sus clasificaciones. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en equilibrio químico y las clasificas usando la matriz 2×2",
+        "Organizas adecuadamente los datos y la información disponible en los ejercicios de buffer, fermentación y procesos industriales",
+        "Reconoces las magnitudes químicas relevantes y demuestras método sistemático al registrar todas las variables",
+        "Identificas dificultades específicas con tipos de variables y desarrollas estrategias como el método A-B-C",
+        "Tu capacidad para hacer conexiones con termodinámica, cinética y biología es efectiva"
+      ],
+      "improvements": [
+        "Necesitas más práctica con los cálculos para consolidar tu comprensión de las relaciones entre variables",
+        "Presta mayor atención a distinguir con mayor precisión entre variables desconocidas controlables y no controlables",
+        "Intensifica la práctica sistemática para fortalecer el dominio completo del procedimiento de clasificación"
+      ],
+      "createdAt": "2025-10-09 01:58:49"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Querido Ignacio Medrano, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de fórmulas de equilibrio químico y avance sostenido. Comprendes las ecuaciones fundamentales de QC y KC y su comparación. Tu capacidad para realizar conexiones entre equilibrio químico y estequiometría de Química es apropiada. Debes practicar más la aplicación de ecuaciones QC y KC a situaciones concretas variadas. Es importante mejorar la identificación de en qué momento exacto se alcanza el equilibrio mirando variables como pH y tiempo. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de QC (cociente de reacción) y KC (constante de equilibrio) y su comparación",
+        "Identificas correctamente las relaciones entre variables presión, concentración y equilibrio en fermentación",
+        "Tu capacidad para modelar situaciones químicas con herramientas matemáticas es apropiada, usando el método A-B-C",
+        "Realizas conexiones interesantes entre equilibrio químico y estequiometría, termodinámica, cinética y biología",
+        "Tu capacidad analítica al abordar la distinción entre variables controlables y no controlables es destacable"
+      ],
+      "improvements": [
+        "Debes practicar más la aplicación de ecuaciones QC y KC a situaciones concretas variadas para consolidar tu dominio",
+        "Es importante mejorar la identificación de en qué momento exacto se alcanza el equilibrio mirando variables como pH y tiempo de fermentación",
+        "Necesitas fortalecer tu criterio para organizar los datos antes de reemplazarlos en las fórmulas de manera más eficiente"
+      ],
+      "createdAt": "2025-10-09 01:58:49"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Querido Ignacio Medrano, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química durante esta semana de repaso para exámenes. Reconoces la importancia de repasar los tipos de reacciones y su clasificación. Realizas conexiones interesantes entre equilibrio químico y matemática (fórmulas y potencias) así como física (concepto de Δn). Es importante mejorar la transformación de la información del problema a la ecuación correspondiente. Necesitas consolidar tu comprensión de cuándo usar concentraciones iniciales en QC versus KC. Presta mayor atención a los indicadores que muestran que se alcanzó el equilibrio (pH, tiempo de fermentación). Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces la importancia de repasar los tipos de reacciones y su clasificación para consolidar conocimientos",
+        "Realizas conexiones interesantes entre equilibrio químico y matemática (fórmulas y potencias) así como física (concepto de Δn)",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar áreas que necesitas mejorar",
+        "Muestras perseverancia ante las dificultades en el repaso del tema de QC y KC"
+      ],
+      "improvements": [
+        "Es importante mejorar la transformación de la información del problema a la ecuación correspondiente (QC, KC)",
+        "Necesitas consolidar tu comprensión de cuándo usar concentraciones iniciales versus concentraciones en equilibrio",
+        "Presta mayor atención a los indicadores que muestran que se alcanzó el equilibrio como pH y tiempo de fermentación",
+        "Es fundamental practicar la distinción entre qué datos usar en cada fórmula cuando te dan cuadros con múltiples concentraciones"
+      ],
+      "createdAt": "2025-10-09 02:00:06"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 70,
+      "generalComments": "Querido Ignacio Medrano, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de tipos de reacciones químicas y avance sostenido al hacer el modelo de examen. Reconoces con precisión los tipos de reacciones (síntesis, descomposición, sustitución). Identificas correctamente las relaciones entre variables en ejercicios de equilibrio. Realizas conexiones interesantes entre equilibrio químico y matemática así como física. Necesitas ser más rápido al reconocer los tipos de reacciones para optimizar tu tiempo. Es importante mejorar la organización de datos para calcular QC y compararlo con KC eficientemente. Debes practicar más la identificación del momento exacto en que se alcanza el equilibrio. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Reconoces con precisión los tipos de reacciones químicas (síntesis, descomposición, sustitución) aunque quieres mejorar tu velocidad",
+        "Identificas correctamente las relaciones entre concentraciones en ejercicios de equilibrio del modelo de examen",
+        "Realizas conexiones interesantes entre equilibrio químico y matemática (potencias, proporciones) así como física (fórmula de KP)",
+        "Demuestras capacidad de reflexión sobre tu propio proceso al identificar que el dato clave está en la comparación de concentraciones",
+        "Tu capacidad analítica al abordar el modelo de examen es destacable, confirmando tu comprensión teórica"
+      ],
+      "improvements": [
+        "Necesitas ser más rápido al reconocer los tipos de reacciones para optimizar tu desempeño en evaluaciones",
+        "Es importante mejorar la organización de datos para calcular QC y compararlo con KC de manera más eficiente",
+        "Debes practicar más la identificación del momento exacto en que se alcanza el equilibrio mirando condiciones del sistema",
+        "Te recomiendo incorporar ejercicios cronometrados para mejorar tu velocidad de reconocimiento de patrones"
+      ],
+      "createdAt": "2025-10-09 02:00:06"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 69,
+      "generalComments": "Querido Ignacio Medrano, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química durante esta semana de repaso. Tu capacidad para hacer conexiones con matemática (cálculos), física (delta n) y estequiometría es efectiva. Demuestras capacidad de reflexión sobre la necesidad de material de apoyo para tu aprendizaje. Es importante que busques recursos adicionales cuando el material de clase no está disponible en plataforma. Necesitas fortalecer tu autonomía para estudiar con tus apuntes cuando no tienes acceso a presentaciones. Te recomiendo crear resúmenes propios que no dependan del material oficial. Estoy disponible para apoyarte en tu proceso de aprendizaje. ¡No dudes en consultar!",
+      "strengths": [
+        "Tu capacidad para hacer conexiones con matemática (cálculos), física (delta n en fórmula de KP) y estequiometría (proporciones) es efectiva",
+        "Reconoces con precisión los tipos de reacciones aunque identificas que te lleva tiempo escribir ecuaciones balanceadas",
+        "Demuestras capacidad de reflexión sobre la necesidad de material de apoyo para consolidar tu aprendizaje",
+        "Comprendes la lógica fundamental de QC y KC y su comparación"
+      ],
+      "improvements": [
+        "Es importante que busques recursos adicionales (videos, libros, tutoriales) cuando el material de clase no está disponible en Classroom",
+        "Necesitas fortalecer tu autonomía para estudiar efectivamente con tus apuntes cuando no tienes acceso a presentaciones oficiales",
+        "Te recomiendo crear resúmenes propios y fichas de estudio que no dependan únicamente del material del profesor",
+        "Debes practicar más el balanceo de ecuaciones químicas para mejorar tu velocidad y confianza",
+        "Es fundamental desarrollar estrategias de estudio que te permitan aprender de manera independiente"
+      ],
+      "createdAt": "2025-10-09 02:00:06"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 62,
+      "generalComments": "Querido Ignacio Medrano, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química en una semana con circunstancias especiales de ausencia de clases. Muestras perseverancia ante las dificultades al intentar repasar sin material de apoyo oficial. Realizas conexiones con matemática y física que te ayudan a mantener el contexto. Es fundamental desarrollar mayor autonomía para estudiar sin depender exclusivamente del material del profesor. Te recomiendo consultar fuentes alternativas (libros, videos educativos) cuando no tienes acceso a presentaciones. Es importante coordinar con el profesor para obtener el material faltante antes del examen. Estoy disponible para apoyarte en tu proceso de aprendizaje. ¡No dudes en consultar!",
+      "strengths": [
+        "Muestras perseverancia ante las dificultades al intentar repasar sin material de apoyo oficial",
+        "Realizas conexiones con matemática (cuentas) y física (fórmulas de gases) que te ayudan a mantener el contexto",
+        "Tienes clara la idea de equilibrio como proceso que continúa en ambos sentidos",
+        "Reconoces qué es reactivo y producto y puedes identificar la mayoría de los casos"
+      ],
+      "improvements": [
+        "Es fundamental desarrollar mayor autonomía para estudiar sin depender exclusivamente del material del profesor",
+        "Te recomiendo consultar fuentes alternativas como libros de texto, videos educativos o tutoriales en línea cuando no tienes acceso a presentaciones",
+        "Es importante que coordines con el profesor para obtener el material faltante antes del examen",
+        "Necesitas fortalecer tu capacidad de estudiar y practicar con solo tus apuntes de clase",
+        "Debes tomar la iniciativa de buscar ejemplos resueltos en otras fuentes para complementar tu estudio"
+      ],
+      "createdAt": "2025-10-09 02:01:31"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-09-29_008",
+      "weekStart": "2025-09-29",
+      "score": 69,
+      "generalComments": "Querido Ignacio Medrano, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de tipos de reacciones y avance sostenido al aprovechar el tiempo limitado de clase para reforzar contenidos. Demuestras iniciativa al aprovechar el tiempo disponible para reforzar tipos de reacciones. Tu capacidad para hacer conexiones con matemática y física te ayuda en los cálculos. Necesitas ser más rápido al reconocer tipos de reacciones químicas en ejercicios. Es importante mejorar la identificación del momento exacto en que la reacción alcanza el equilibrio. Debes trabajar en la organización de datos antes de aplicar fórmulas de QC y KC. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Demuestras iniciativa al aprovechar el tiempo disponible (martes de repaso) para reforzar tipos de reacciones de forma autónoma",
+        "Tu capacidad para hacer conexiones con matemática (fórmulas) y física (ecuaciones parecidas a gases) te ayuda en los cálculos",
+        "Reconoces que entiendes bien los tipos de reacciones aunque identificas áreas de mejora específicas",
+        "Demuestras capacidad de reflexión al reconocer que te sigue costando identificar el momento del equilibrio"
+      ],
+      "improvements": [
+        "Necesitas ser más rápido al reconocer tipos de reacciones químicas cuando los ves en ejercicios",
+        "Es importante mejorar la identificación del momento exacto en que la reacción alcanza el equilibrio",
+        "Debes trabajar en la organización de datos antes de aplicar fórmulas de QC y KC",
+        "Te recomiendo seguir practicando para consolidar lo que entiendes teóricamente en aplicación práctica",
+        "Es importante que busques más oportunidades de práctica fuera del horario limitado de clase"
+      ],
+      "createdAt": "2025-10-09 02:01:31"
+    },
+    {
+      "feedbackId": "fb_002_4_me5r2p4u_2025-10-06_009",
+      "weekStart": "2025-10-06",
+      "score": 69,
+      "generalComments": "Querido Ignacio Medrano, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química durante esta semana de clases limitadas. Demuestras iniciativa al aprovechar el tiempo de repaso para reforzar tipos de reacciones. Tu capacidad para hacer conexiones con matemática y física te ayuda a resolver cálculos más fácilmente. Necesitas ser más rápido al reconocer tipos de reacciones en ejercicios. Es importante mejorar la identificación del momento exacto en que se alcanza el equilibrio. Debes seguir practicando la organización de datos antes de reemplazarlos en fórmulas de QC o KC. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Demuestras iniciativa al aprovechar el tiempo de repaso (martes) para reforzar tipos de reacciones de forma autónoma",
+        "Tu capacidad para hacer conexiones con matemática (fórmulas) y física (ecuaciones de gases) te ayuda a resolver cálculos más fácilmente",
+        "Reconoces que entiendes bien los tipos de reacciones aunque quieres mejorar tu velocidad",
+        "Demuestras capacidad de reflexión al confirmar durante el repaso que entiendes el concepto de equilibrio"
+      ],
+      "improvements": [
+        "Necesitas ser más rápido al reconocer tipos de reacciones cuando los ves en ejercicios",
+        "Es importante mejorar la identificación del momento exacto en que se alcanza el equilibrio",
+        "Debes seguir practicando la organización de datos antes de reemplazarlos en fórmulas de QC o KC",
+        "Te recomiendo buscar oportunidades de práctica adicional fuera del tiempo limitado de clase",
+        "Es importante que solicites ayuda específica para el tema de organización de datos que te cuesta desde hace varias semanas"
+      ],
+      "createdAt": "2025-10-09 02:01:31"
+    },
+    {
+      "feedbackId": "d15acc98-832a-4f70-a05f-03b403d76f8f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:45:25.242Z"
+    },
+    {
+      "feedbackId": "1c84cb84-a2ab-4a2d-a906-1def2bb5b12e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:26:15.645Z"
+    },
+    {
+      "feedbackId": "d3dad15f-940f-4726-b558-7e47f9758efb",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que trabajaste con conceptos químicos sólidos esta semana, especialmente en entender la relación entre pH y pOH. Tu estrategia de resolver paso a paso muestra que estás pensando de forma ordenada, lo cual es excelente.\n\nSin embargo, tu reporte es bastante breve y le falta profundidad en la identificación y clasificación de variables, que es el corazón de la Fase 2. Necesitas ser más explícito: ¿cuáles son las variables en cada problema? ¿Cuáles conoces y cuáles desconoces? ¿Cuáles puedes controlar?\n\nPara la próxima semana, te pido que completes todas las preguntas, especialmente la Q5 con reflexiones genuinas. Además, crea listas claras de variables en cada problema que trabajes. Esto te ayudará a desarrollar el pensamiento crítico que buscamos en esta fase.",
+      "strengths": "• Reconocimiento de dificultades reales: Identificas claramente la confusión sobre qué ecuación usar primero, lo que muestra autoconciencia sobre tu proceso de aprendizaje.\n• Estrategia ordenada: Tu enfoque de resolver paso a paso (primero pH + pOH = 14, luego concentraciones) demuestra pensamiento metódico y capacidad de organizar información.\n• Conceptos químicos correctos: Dominas la teoría de Arrhenius sobre ácidos y bases, y entiendes la relación fundamental entre pH y pOH en el equilibrio del agua.",
+      "improvements": "• Falta identificación explícita de variables: En la Fase 2 debes listar y clasificar variables específicas (ej: pH como variable dependiente, concentración de H⁺ como conocida/desconocida). Crea una tabla simple: Variable | Tipo (conocida/desconocida) | Controlable/No controlable para cada problema que trabajes.\n• Conexiones superficiales con otras disciplinas: Cuando mencionas Matemática y Física, sé más específico. Por ejemplo: \"Uso logaritmos (Matemática) para calcular pH porque pH = -log[H⁺]\" o \"Aplico el concepto de equilibrio (Física) al equilibrio iónico del agua\". Esto demuestra transferencia real de conocimiento.\n• Respuesta incompleta en Q5: Dedica tiempo a reflexionar sobre tu semana. Pregúntate: ¿Qué aprendí sobre identificar variables? ¿Cómo evolucioné desde la Fase 1? ¿Qué me gustaría mejorar? Estas reflexiones son clave para consolidar tu pensamiento crítico.",
+      "createdAt": "2025-10-27T04:55:24.072Z"
+    },
+    {
+      "feedbackId": "744d2b52-6dc9-4b71-a9df-dcef7b019bd1",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor esta semana ha sido un obstáculo importante para tu aprendizaje en Fase 2. Sin embargo, este reporte no me permite evaluar tu comprensión de variables, clasificación de magnitudes o pensamiento crítico, que son los objetivos centrales de esta fase.\n\nTu desempeño esta semana no refleja tu potencial real, ya que no tuviste la oportunidad de trabajar con el docente. Esto es una situación externa que afecta a todo el grupo, pero es importante que no dejes de aprender durante estas interrupciones.\n\nPara la próxima semana, te recomiendo que: (1) Recuperes las clases con tu profesor tan pronto sea posible, (2) Revises los ejercicios de Fase 1 para reforzar conceptos base, y (3) Documentes cualquier trabajo independiente que hagas, aunque sea mínimo. Así podremos evaluar tu progreso real cuando retomemos las actividades.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en términos de contenido académico. La ausencia de clase es una situación externa que impide demostrar tu comprensión de los temas de Fase 2.",
+      "improvements": "• Reporte incompleto: Aunque la ausencia del profesor es una circunstancia válida, deberías haber usado este espacio para documentar qué hiciste de forma independiente (lecturas, ejercicios del libro, repaso de Fase 1). Propuesta: En futuras semanas sin clase, trabaja con el material de la plataforma Intellego o revisa ejercicios anteriores y documenta tu progreso.\n• Falta de iniciativa de aprendizaje autónomo: No hay evidencia de que hayas aprovechado el tiempo para avanzar por tu cuenta. Sugerencia: Consulta con tu profesor qué actividades puedes realizar en casa durante ausencias. Puedes revisar la Fase 1 (identificación de problemas) para reforzar conceptos base antes de Fase 2.\n• Respuestas genéricas repetidas: Copiaste la misma justificación en Q1-Q4, lo que no permite evaluar tu pensamiento crítico. Acción: Incluso en semanas difíciles, intenta responder cada pregunta de forma específica. Si no hay clase, explica qué estudiaste por tu cuenta o qué dudas tienes para resolverlas después.",
+      "createdAt": "2025-11-03T12:19:17.461Z"
+    },
+    {
+      "feedbackId": "9376b82d-c586-4484-8e7d-f0db0e5d9b93",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no tuvieron clase, lo que explica la ausencia de contenido en tu reporte. Sin embargo, es importante que retomes el trabajo en Fase 2 cuanto antes, ya que identificar y clasificar variables es fundamental para todo el pensamiento crítico en Ciencias.\n\nTu desempeño esta semana no puede evaluarse por falta de actividad académica. Lo positivo es que fuiste honesto al reportarlo. Ahora necesitamos que te reintegres al proceso de aprendizaje.\n\nPara la próxima semana, te recomiendo: (1) Confirma con tu profesor cuándo se retoman las clases, (2) Revisa los apuntes de Fase 1 para refrescar conceptos, (3) Prepara preguntas sobre variables y magnitudes para cuando retomes las sesiones.",
+      "strengths": "• Honestidad en la comunicación: Reportaste claramente que no hubo clase, lo que es importante para que el docente entienda la situación.",
+      "improvements": "• Participación en clase: Es fundamental que asistas a las sesiones de Ciencias para trabajar la Fase 2. Si hay impedimentos, comunícalos con anticipación al docente para buscar alternativas (tutorías, material de apoyo, etc.).\n• Reporte completo incluso sin clase: Si no hay clase, puedes usar el reporte para: revisar apuntes previos, hacer preguntas sobre dudas pendientes, o proponer temas de interés. Esto mantiene tu proceso de aprendizaje activo.\n• Seguimiento con el docente: Coordina con tu profesor de Ciencias para recuperar el contenido de Fase 2 (identificación de variables, clasificación, magnitudes físicas) lo antes posible, ya que es base para fases posteriores.",
+      "createdAt": "2025-11-12T22:51:31.986Z"
+    },
+    {
+      "feedbackId": "a240a104-0ce2-4bd8-b351-36103fa66f77",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Valoro tu esfuerzo por trabajar de forma autónoma esta semana, especialmente considerando que faltaste a clase y no tenías grupo. Lograste identificar el tema central (ácidos/bases) y reconocer dónde tuviste dificultades, lo cual es importante.\n\nSin embargo, tu reporte muestra que aún no has alcanzado el nivel de análisis que requiere la Fase 2. Necesitas ir más allá de \"entender el concepto\" hacia \"clasificar sistemáticamente cada variable\". Esto es fundamental para el pensamiento crítico en Química.\n\nPara la próxima semana, te recomiendo: (1) Reúnete con tu grupo o busca un compañero para trabajar colaborativamente, (2) Crea una tabla de variables para cada ejercicio de pH/pOH, y (3) Completa reflexiones profundas en cada pregunta del reporte. Esto hará una gran diferencia en tu desempeño.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente tu situación (falta a clase, sin grupo, trabajo autónomo). Esto muestra madurez para identificar limitaciones y es el primer paso para mejorar.\n• Identificación de dificultades concretas: Mencionas específicamente el problema con logaritmos e inversión de [H₃O⁺]. Esto demuestra que sí trabajaste y reflexionaste sobre dónde tuviste problemas.\n• Conexiones interdisciplinarias: Vinculas correctamente el tema con Matemática (exponentes/logaritmos) y Biología (pH corporal), mostrando que ves la Química en contexto más amplio.",
+      "improvements": "• Clasificación sistemática de variables: Necesitas identificar explícitamente qué variables son conocidas (ej: Ka de ácidos fuertes), desconocidas ([H₃O⁺]), controlables (concentración inicial) y no controlables (temperatura si no la varías). Crea una tabla simple: Variable | Tipo | Magnitud física.\n• Completitud en el reporte: La Pregunta 5 está vacía. Dedica tiempo a reflexionar: ¿Qué aprendiste sobre cómo identificar variables? ¿Cómo cambió tu comprensión desde Fase 1? Esto es crucial para demostrar pensamiento crítico.\n• Profundidad en estrategias de aprendizaje: \"Comparar ejemplos\" es pasivo. Propón estrategias activas: crea tus propios ejercicios, haz un diagrama de flujo para resolver pH, o forma un grupo de estudio. Esto te ayudará a dominar la clasificación de variables.",
+      "createdAt": "2025-11-17T13:51:36.833Z"
+    }
+  ]
+}

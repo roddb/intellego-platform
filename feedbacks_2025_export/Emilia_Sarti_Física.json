@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "studentId": "u_49vfe6x03me1c9en0",
+    "studentName": "Emilia Sarti",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.196240",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 55.5,
+      "minScore": 53,
+      "maxScore": 58,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "880c05f6-8278-4f46-8d9b-7d197e89620a",
+      "weekStart": "2025-08-04",
+      "score": 53,
+      "generalComments": "Este reporte necesita mayor desarrollo en todas las respuestas. Mencionaste que trabajaron con la guía de pensamiento crítico y el ejercicio 7, pero no incluiste ninguna evidencia de aprendizaje, análisis o reflexión. Las respuestas Q3 y Q5 son monosilábicas (No) sin elaboración. Para demostrar comprensión y dominio del contenido, es fundamental desarrollar: qué aprendiste específicamente, cómo resolviste el ejercicio, qué dificultades encontraste y cómo las superaste. El score de 53 refleja la falta de evidencia concreta en el reporte.",
+      "strengths": [
+        "Identificaste el tema general trabajado (pensamiento crítico)",
+        "Mencionaste un ejercicio específico (ejercicio 7 de la guía)",
+        "Reconociste conexiones interdisciplinares válidas (matemática, física, química)"
+      ],
+      "improvements": [
+        "PRIORIDAD: Desarrollar las respuestas con evidencia concreta - explicar CÓMO resolviste el ejercicio 7, no solo mencionarlo",
+        "En Q1: incluir tu nivel de dominio (1-4) y explicar qué conceptos específicos del PC trabajaste",
+        "En Q3: si no tuviste dificultades, explicar por qué el contenido te resultó accesible; si las tuviste, describir cuáles y qué estrategias usaste",
+        "En Q4: dar ejemplos concretos de cómo el PC se aplica en cada materia mencionada",
+        "Aprovechar Q5 para reflexiones, dudas o comentarios sobre tu proceso de aprendizaje - no dejar en blanco o con No"
+      ],
+      "createdAt": "2025-10-01 14:06:20"
+    },
+    {
+      "feedbackId": "df975d61-6bb4-4aee-a5dd-35c9ffb8f5dd",
+      "weekStart": "2025-09-01",
+      "score": 58,
+      "generalComments": "Este reporte muestra una mejora leve respecto al anterior (53→58), pero aún necesita mucho mayor desarrollo. Mencionaste temas de cinemática (tiro vertical, movimiento circular) y el ejercicio del motociclista, pero nuevamente sin incluir evidencia de cómo lo resolviste, qué resultado obtuviste, o cómo aplicaste las fórmulas. La dificultad que identificaste (saber qué fórmulas usar) es valiosa, pero falta explicar qué estrategia estás desarrollando para superarla. El score de 58 refleja que el reporte sigue sin demostrar el proceso de aprendizaje de forma concreta.",
+      "strengths": [
+        "Identificaste temas específicos trabajados (tiro vertical, movimiento circular)",
+        "Reconociste una dificultad concreta: selección de fórmulas apropiadas",
+        "Mencionaste ejercicio específico (motociclista con rampa)",
+        "Leve mejora en desarrollo respecto al reporte anterior (53→58)",
+        "Conexión válida con otros temas de cinemática (MRU/MRUV)"
+      ],
+      "improvements": [
+        "CRÍTICO: Desarrollar Q2 con evidencia completa - explicar paso a paso cómo resolviste el problema del motociclista: datos, fórmulas usadas, cálculos, resultado",
+        "Especificar nivel de dominio en Q1: ¿nivel 1, 2, 3 o 4? Justificar por qué ese nivel",
+        "En Q3: desarrollar estrategias concretas para la dificultad identificada - ¿cómo decides qué fórmula usar? ¿qué criterios aplicas?",
+        "Ampliar Q4: explicar cómo específicamente MRU y MRUV se relacionan con tiro vertical y movimiento circular",
+        "Usar Q5 para reflexionar sobre tu progreso, dudas pendientes, o aspectos del tema que te gustaría profundizar"
+      ],
+      "createdAt": "2025-10-01 14:07:06"
+    }
+  ]
+}

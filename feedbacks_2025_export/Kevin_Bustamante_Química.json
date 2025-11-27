@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "studentId": "fc992877-6171-4b02-bcf1-8564b6298408",
+    "studentName": "Kevin Bustamante",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.212291",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 81.0,
+      "minScore": 81,
+      "maxScore": 81,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-11-10T03:00:00.000Z",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b4127e9b-a700-49f0-9b26-91a23ae58f48",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 81,
+      "generalComments": "Excelente semana de trabajo. Tu ejecución en cálculos de pH es sólida y tu honestidad al reconocer dificultades muestra madurez académica. Progresaste claramente desde el inicio de Fase 2, especialmente en la aplicación de conceptos a ejercicios concretos.\n\nSin embargo, tu reporte se enfoca más en *temas* que en *variables*. Recuerda que Fase 2 es sobre identificar y clasificar variables sistemáticamente. Cuando resuelvas un problema, pregúntate: \"¿Qué datos tengo? ¿Cuáles puedo controlar? ¿Cuáles son derivados?\" Esto es lo que diferencia un cálculo correcto de un pensamiento crítico profundo.\n\nPara la próxima semana, enfócate en documentar explícitamente las variables en cada ejercicio. Crea una tabla simple: Dato/Variable | Tipo | Valor. Esto consolidará tu aprendizaje y te preparará para Fase 3.",
+      "strengths": "• Honestidad y autoevaluación realista: Reconoces claramente dónde tienes fortaleza (pH/pOH) y dónde necesitas refuerzo (dihidróxidas). Esta autoconciencia es fundamental para mejorar de forma dirigida.\n• Ejecución matemática precisa: Tu cálculo del ejercicio Ba(OH)₂ es impecable: identificas correctamente que libera 2 OH⁻, aplicas la fórmula correctamente y obtienes pH = 12,30. Esto muestra dominio operativo real.\n• Conexiones interdisciplinarias: Vinculas el pH con logaritmos (matemática) y equilibrio químico, demostrando que entiendes cómo los conceptos se relacionan más allá de la química pura.",
+      "improvements": "• Identificación explícita de variables en Fase 2: Tu respuesta en Q1 describe temas, pero no clasifica variables (conocidas/desconocidas, controlables/no controlables). En el ejercicio Ba(OH)₂, deberías haber escrito: \"Variable conocida: concentración inicial (0,0100 M). Variable derivada: número de OH⁻ por mol (2).\" Esto es el corazón de Fase 2.\n• Estrategias concretas para dificultades: Mencionas que te cuesta diferenciar mono/dihidróxidas, pero no propones solución. Crea una tabla mental o física: \"Grupo 1 (Li, Na, K) → 1 OH⁻; Grupo 2 (Ca, Ba, Sr) → 2 OH⁻\". Practica 5 ejercicios identificando esto antes de calcular.\n• Transferencia a nuevos problemas: Tus conexiones en Q4 son válidas pero no aplicadas. Propón un nuevo problema: \"¿Cómo identificaría variables en una titulación ácido-base?\" Esto demuestra versatilidad real en la aplicación de Fase 2.",
+      "createdAt": "2025-11-17T13:58:55.072Z"
+    }
+  ]
+}

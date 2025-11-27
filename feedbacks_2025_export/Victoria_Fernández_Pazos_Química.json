@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "studentId": "8bf80919-3a9f-4ac9-94c3-eccfa7f81c05",
+    "studentName": "Victoria Fernández Pazos",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.240278",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 52.2,
+      "minScore": 41,
+      "maxScore": 65,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "15079205-688f-4b5b-9384-992fb330aa56",
+      "weekStart": "2025-08-11",
+      "score": 49,
+      "generalComments": "Victoria, valoro tu esfuerzo por comprender las leyes de gases y tu iniciativa de crear un esquema organizador. Es completamente normal confundirse al inicio. La estrategia del esquema es excelente, solo necesita tiempo para consolidarse en tu memoria.",
+      "strengths": [
+        "Iniciativa positiva al crear un esquema organizador de las leyes",
+        "Perseverancia al intentar resolver problemas aunque sean difíciles",
+        "Identificación clara de las áreas de confusión"
+      ],
+      "improvements": [
+        "Recordar: Boyle (T constante, P y V inversos), Charles (P constante, V y T directos)",
+        "Practicar con un ejercicio simple de cada ley antes de mezclarlas",
+        "Usar colores diferentes en tu esquema para cada ley y sus variables"
+      ],
+      "createdAt": "2025-09-28 18:14:50"
+    },
+    {
+      "feedbackId": "b31f191b-4a94-4128-8cf7-1eca9bff5686",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Victoria, excelente trabajo aplicando las fases 1-3 en el ejercicio. Tu elección de la Ley de Charles fue perfecta y tu justificación es clara. El progreso gradual que mencionas es evidente y positivo. La inseguridad es normal y disminuirá con práctica.",
+      "strengths": [
+        "Aplicación correcta de F1, F2 y F3 en el ejercicio del cuadernillo",
+        "Selección acertada y justificada de la Ley de Charles",
+        "Reconocimiento honesto de tu progreso gradual"
+      ],
+      "improvements": [
+        "Verificar resultados comparando con compañeros o consultando al profesor",
+        "Buscar ejemplos cotidianos de gases: inflar globos, cocinar, respirar",
+        "Completar el cálculo en F4 para consolidar el proceso completo"
+      ],
+      "createdAt": "2025-09-28 18:13:56"
+    },
+    {
+      "feedbackId": "86187540-31b4-46ed-8f4b-161fbf1add11",
+      "weekStart": "2025-08-25",
+      "score": 51,
+      "generalComments": "Victoria, es positivo que comprendas la dinámica de las 4 fases aunque tengas dificultades con la química. Identificaste correctamente el objetivo (calcular masa) y la problemática (estudio del gas). Con práctica y apoyo, mejorarás la comprensión.",
+      "strengths": [
+        "Comprensión de la estructura de las 4 fases del pensamiento crítico",
+        "Identificación correcta de objetivo y problemática en el ejercicio",
+        "Reconocimiento honesto de las áreas que necesita mejorar"
+      ],
+      "improvements": [
+        "Trabajar con ejercicios más simples con enunciados cortos y directos",
+        "Practicar el subrayado de palabras clave en los enunciados",
+        "Solicitar ejemplos resueltos paso a paso para estudiar el proceso"
+      ],
+      "createdAt": "2025-09-28 18:12:59"
+    },
+    {
+      "feedbackId": "e3525f0b-0724-4cd0-ba34-2e2b431a8668",
+      "weekStart": "2025-09-01",
+      "score": 41,
+      "generalComments": "Victoria, reconozco que estás enfrentando dificultades importantes con los ejercicios de química. Es normal sentirse abrumada con problemas complejos. La clave está en comenzar con ejercicios más simples y construir confianza gradualmente.",
+      "strengths": [
+        "Honestidad al reconocer las dificultades que enfrenta",
+        "Intento de practicar para el examen aunque sin éxito",
+        "Identificación clara del problema: distinguir datos relevantes"
+      ],
+      "improvements": [
+        "Comenzar con ejercicios básicos de una sola variable antes de los complejos",
+        "Practicar la identificación de datos relevantes subrayando lo que pide el problema",
+        "Buscar apoyo individual del profesor o compañeras que comprenden el tema"
+      ],
+      "createdAt": "2025-09-28 18:12:07"
+    },
+    {
+      "feedbackId": "0572f87c-dd35-4020-b51c-49b25f7ff14a",
+      "weekStart": "2025-09-15",
+      "score": 55,
+      "generalComments": "Victoria, comprendo que la Semana Santo Tomás y el examen de física requirieron tu atención. Es importante equilibrar las actividades institucionales con el trabajo regular. Asegúrate de revisar los contenidos de química trabajados durante estas semanas.",
+      "strengths": [
+        "Comunicación clara sobre las circunstancias especiales",
+        "Responsabilidad al informar sobre el examen de física",
+        "Compromiso al enviar el reporte aunque no pudo completarlo"
+      ],
+      "improvements": [
+        "Revisar los contenidos de química de las semanas de ausencia",
+        "Planificar tiempo para ambas materias durante semanas con evaluaciones",
+        "Solicitar material de recuperación al profesor"
+      ],
+      "createdAt": "2025-09-28 18:09:56"
+    }
+  ]
+}

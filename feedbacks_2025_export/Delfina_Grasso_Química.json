@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "studentId": "u_fcr9p35cgme607v47",
+    "studentName": "Delfina Grasso",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.195308",
+    "statistics": {
+      "totalFeedbacks": 7,
+      "feedbacksWithScore": 7,
+      "averageScore": 68.29,
+      "minScore": 50,
+      "maxScore": 79,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b561dc23082cf484505d71e5655c761c",
+      "weekStart": "2025-08-04",
+      "score": 71,
+      "generalComments": "Delfina, demuestras buena comprensión inicial del pensamiento crítico. Tu análisis del problema del paquete de papas fritas muestra que entiendes la importancia de identificar objetivos e hipótesis. Es muy valioso que conectes este método con el método científico que ya conoces de fisicoquímica.",
+      "strengths": [
+        "Identificación clara del problema del paquete de papas fritas en altura",
+        "Comprensión de la importancia de establecer objetivos e hipótesis",
+        "Excelente conexión con conocimientos previos de gases y método científico",
+        "Honestidad al reconocer la dificultad del proceso sistemático"
+      ],
+      "improvements": [
+        "Practicar la paciencia con el proceso sistemático antes de resolver directamente",
+        "Detallar más los pasos específicos del pensamiento crítico",
+        "Ampliar la descripción del problema incluyendo variables observadas"
+      ],
+      "createdAt": "2025-09-28 15:58:01"
+    },
+    {
+      "feedbackId": "cfad674c5d0781e64daf8d80bea357e8",
+      "weekStart": "2025-08-11",
+      "score": 74,
+      "generalComments": "Delfina, excelente progreso en la identificación de variables. Tu análisis del problema de los neumáticos demuestra que comprendes la relación entre temperatura y presión en los gases. Es muy bueno que reconozcas las variables climáticas y del sistema gaseoso. Tu autoevaluación de Nivel 3 es precisa.",
+      "strengths": [
+        "Identificación correcta de variables clave: temperatura y presión del aire",
+        "Reconocimiento de la influencia del cambio climático en el sistema",
+        "Buena progresión desde Fase 1 a Fase 2",
+        "Autoevaluación precisa de tu nivel de dominio"
+      ],
+      "improvements": [
+        "Profundizar en las propiedades específicas de los gases (PV=nRT)",
+        "Practicar la clasificación de variables: controlables vs no controlables",
+        "Relacionar las variables identificadas con las leyes de gases"
+      ],
+      "createdAt": "2025-09-28 15:59:04"
+    },
+    {
+      "feedbackId": "d914c7bc871fe4366e4e345aa9a97506",
+      "weekStart": "2025-08-18",
+      "score": 75,
+      "generalComments": "Delfina, excelente trabajo en la Fase 3. Tu aplicación sistemática de los tres pasos (identificar problema, variables y seleccionar ley) es ejemplar. Seleccionaste correctamente la Ley de Charles al reconocer que la presión era constante. Es muy valioso que hayas identificado el patrón que siguen las leyes de gases.",
+      "strengths": [
+        "Aplicación sistemática y correcta de los tres pasos del método",
+        "Selección apropiada de la Ley de Charles para presión constante",
+        "Identificación del patrón común en las leyes de gases",
+        "Comprensión sólida de las características de gases ideales"
+      ],
+      "improvements": [
+        "Memorizar la ecuación fundamental PV=nRT mediante práctica repetida",
+        "Profundizar en las conexiones entre las diferentes leyes",
+        "Crear una tabla comparativa de cuándo usar cada ley"
+      ],
+      "createdAt": "2025-09-28 16:00:07"
+    },
+    {
+      "feedbackId": "09610b98481dd5ed98ce405991141356",
+      "weekStart": "2025-08-25",
+      "score": 64,
+      "generalComments": "Delfina, estás en la transición hacia la Fase 4. Es positivo que mantengas la capacidad de identificar variables correctamente. Tu estrategia de crear una tabla de conversiones de unidades muestra iniciativa y autorregulación. La dificultad con las conversiones es común y tu enfoque para resolverla es excelente.",
+      "strengths": [
+        "Identificación correcta de variables mantenida desde fases anteriores",
+        "Estrategia proactiva: crear tabla de conversiones de unidades",
+        "Honestidad al reconocer dificultades específicas",
+        "Persistencia a pesar de los desafíos con los cálculos"
+      ],
+      "improvements": [
+        "Practicar conversiones de unidades sistemáticamente antes de reemplazar",
+        "Hacer un checklist: 1) convertir unidades, 2) reemplazar, 3) calcular",
+        "Verificar unidades en el resultado final para detectar errores"
+      ],
+      "createdAt": "2025-09-28 16:01:15"
+    },
+    {
+      "feedbackId": "3b217a3544cfad7222e4e8a2e089d32c",
+      "weekStart": "2025-09-08",
+      "score": 79,
+      "generalComments": "Delfina, excelente culminación del ciclo. Tu resolución del problema del buzo demuestra dominio completo del método: identificaste variables diferenciando superficie/profundidad, aplicaste PV=nRT correctamente, y usaste la ecuación combinada para obtener el resultado correcto (12.7L). Has completado exitosamente las 4 fases del pensamiento crítico.",
+      "strengths": [
+        "Resolución completa y correcta del problema complejo del buzo",
+        "Estrategia sofisticada: uso secuencial de dos ecuaciones",
+        "Diferenciación clara entre variables de superficie y profundidad",
+        "Resultado numérico preciso y verificable (12.7L)"
+      ],
+      "improvements": [
+        "Desarrollar criterios para discriminar variables relevantes vs irrelevantes",
+        "Practicar con problemas que contengan información distractora",
+        "Documentar tu proceso de selección de variables para refinarlo"
+      ],
+      "createdAt": "2025-09-28 16:02:19"
+    },
+    {
+      "feedbackId": "f60dff72-92bf-4f20-a606-f284ad1256c3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás en el camino, pero necesitas dar un paso más adelante. Esta semana reconociste que tienes dificultades con la memorización de conceptos, lo cual es honesto y valioso. Sin embargo, el reporte muestra que aún no has consolidado la Fase 2 de forma independiente: falta evidencia clara de cómo identificas y clasificas variables en problemas concretos.\n\nTu desempeño esta semana es inicial (Nivel 1-2 en la mayoría de preguntas). Esto no es malo si lo ves como punto de partida, pero necesitas cambiar tu estrategia: en lugar de depender de apuntes, practica activamente clasificando variables en ejercicios sin consultarlos. Esto fortalecerá tu comprensión real.\n\nPara la próxima semana, te propongo: trae 3 ejercicios resueltos donde muestres claramente la identificación y clasificación de variables. Dedica 10 minutos diarios a crear tus propios esquemas sobre tipos de variables. Esto te preparará mejor para la Fase 3 y te hará más autónomo en tu aprendizaje.",
+      "strengths": "• Autoconciencia sobre limitaciones: Reconoces honestamente que necesitas apuntes para recordar conceptos. Esto es un primer paso importante para identificar dónde necesitas trabajar más.\n• Conexión entre temas: Mencionas la relación entre uniones químicas, alteraciones y gases ideales, mostrando que intentas vincular contenidos de diferentes momentos del año.\n• Disposición a trabajar: Tu participación en clase (trabajaron física esta semana) indica que estás presente y activo en las lecciones.",
+      "improvements": "• Dependencia de apuntes: Necesitas desarrollar estrategias de memorización activa. Intenta crear mapas conceptuales propios sobre tipos de variables o hacer fichas de estudio donde TÚ clasifiques variables de problemas reales sin consultar. Esto te hará más independiente.\n• Falta de evidencia concreta: En Q2 no proporcionas ningún ejemplo de variables identificadas. La próxima semana, trae al menos 2-3 ejercicios resueltos donde muestres claramente qué variables son conocidas/desconocidas y controlables/no controlables. Esto es fundamental para demostrar aprendizaje.\n• Reflexión superficial: Tus respuestas son muy breves y genéricas. Dedica más tiempo a pensar profundamente: ¿Por qué es difícil recordar? ¿Qué estrategia específica podrías usar? ¿Cómo se relacionan realmente las variables entre temas? Escribe con más detalle.",
+      "createdAt": "2025-10-27T05:01:49.195Z"
+    },
+    {
+      "feedbackId": "90af8a7f-3a19-419e-842c-a2d183762991",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que esta semana trabajaste en uniones químicas y que tienes una base conceptual sólida. Tu honestidad al reconocer que entiendes pero tienes dificultad para representar gráficamente es un punto de partida excelente para mejorar.\n\nSin embargo, tu reporte es muy breve y no evidencia el análisis sistemático que requiere la Fase 2. Necesitas documentar mejor tu proceso: qué variables identificaste, cómo las clasificaste, y qué estrategias usaste para resolver los ejercicios. Esto no es solo para mí, sino para que tú mismo veas tu progreso.\n\nPara la próxima semana, te pido que: (1) desarrolles más tus respuestas con ejemplos específicos, (2) propongas estrategias concretas para superar tus dificultades, y (3) completes todas las secciones del reporte, incluyendo reflexiones personales. Estoy aquí para apoyarte en este proceso.",
+      "strengths": "• Autoconciencia sobre dificultades: Reconoces claramente que hay una diferencia entre entender conceptualmente y poder representar gráficamente los enlaces. Esto es importante para mejorar.\n• Conexión con conocimiento previo: Vinculaste las uniones químicas con conceptos de Fase 1 (pérdida de electrones, notación de cargas), mostrando que intentas integrar lo aprendido.\n• Honestidad en la autoevaluación: Al indicar \"Nivel 3\" con ayuda de apuntes, reconoces que aún necesitas apoyo, lo cual es realista y constructivo.",
+      "improvements": "• Amplía tus respuestas con ejemplos concretos: En Q1 y Q2, necesitas listar variables específicas del ejercicio que resolviste (ej: \"tipo de enlace, número de electrones, electronegatividad de átomos\"). Esto demuestra que realmente identificaste y clasificaste variables, no solo que las entendiste.\n• Desarrolla estrategias para tus dificultades: En Q3 mencionas que no sabías dibujar enlaces. Propón soluciones: \"Voy a practicar con plantillas,\" \"Usaré colores para diferenciar tipos de enlaces,\" o \"Pediré ayuda en tutoría.\" Las estrategias concretas son más valiosas que solo describir el problema.\n• Completa todas las secciones del reporte: Q5 no puede ser un punto. Reflexiona sobre lo que aprendiste esta semana, cómo evolucionaste desde Fase 1, o qué te gustaría mejorar. Aunque sea 2-3 líneas, tu pensamiento crítico debe estar presente en cada pregunta.",
+      "createdAt": "2025-11-12T22:56:40.286Z"
+    }
+  ]
+}

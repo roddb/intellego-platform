@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "studentId": "u_4cnmxf77amdynltex",
+    "studentName": "Catalina Varrente",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.191304",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 58.1,
+      "minScore": 27,
+      "maxScore": 81,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_dynltex_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 71,
+      "generalComments": "Querida Catalina Varrente, Has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente las variables involucradas en termodinámica. Tu capacidad para clasificar y categorizar información es efectiva. Es importante mejorar la comprensión profunda de los términos técnicos para fortalecer tu clasificación. Busca aplicaciones prácticas de clasificación de variables en situaciones cotidianas más directas. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en termodinámica (conocidas/desconocidas, controlables/no controlables)",
+        "Tu capacidad para clasificar y categorizar información siguiendo los pasos del cuadernillo es efectiva",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar dificultades"
+      ],
+      "improvements": [
+        "Es importante mejorar la comprensión profunda de los términos técnicos termodinámicos para fortalecer tu clasificación",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada",
+        "Busca aplicaciones prácticas de clasificación de variables en situaciones cotidianas más directas relacionadas con fenómenos físicos"
+      ],
+      "createdAt": "2025-10-09T15:35:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_dynltex_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 81,
+      "generalComments": "Querida Catalina Varrente, Tu trabajo en Fase 3: Selección de herramientas y relaciones refleja un dominio destacado de ecuaciones de calorimetría, mostrando capacidad para integrar las fases metodológicas. Evidencia clara de F1+F2+F3 integradas. Justificas mayoría de selecciones de fórmulas. Realizas conexiones interesantes entre equilibrio térmico y homeostasis. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en contextos con múltiples opciones. Trabaja en expresar tus ideas con mayor claridad y precisión al explicar tu razonamiento. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Evidencia clara de F1+F2+F3 integradas en el problema del equilibrio térmico (aluminio en agua)",
+        "Justificas la mayoría de tus selecciones de fórmulas usando el principio Qperdido=Qganado",
+        "Realizas conexiones interesantes entre equilibrio térmico y homeostasis en biología",
+        "Comprendes que la temperatura final es común a ambos materiales y requiere dos ecuaciones simultáneas"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en contextos con múltiples opciones",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión al explicar tu razonamiento completo",
+        "Desarrolla estrategias más autónomas para superar desafíos sin depender constantemente de IA"
+      ],
+      "createdAt": "2025-10-09T15:35:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-01_b2e7b8f6",
+      "weekStart": "2025-09-01",
+      "score": 71,
+      "generalComments": "Tu reporte de Fase 3 muestra progreso en la selección de herramientas. Has logrado identificar algunas fórmulas relevantes, aunque aún puedes profundizar en la comprensión de las relaciones entre variables.",
+      "strengths": [
+        "Identificación de fórmulas básicas relevantes",
+        "Reconocimiento de algunas relaciones entre variables",
+        "Progreso en la comprensión de principios físicos",
+        "Mejora respecto a reportes anteriores"
+      ],
+      "improvements": [
+        "Profundizar en la justificación de las fórmulas seleccionadas",
+        "Ampliar el análisis de relaciones entre variables",
+        "Desarrollar mayor claridad en la aplicación de principios",
+        "Fortalecer la conexión entre herramientas y contexto del problema"
+      ],
+      "createdAt": "2025-10-01T00:00:08.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-15_d4a9d0b8",
+      "weekStart": "2025-09-15",
+      "score": 76,
+      "generalComments": "Muy buen progreso en Fase 4. Tu reporte muestra desarrollo más completo de la estrategia de resolución y mejor ejecución del proceso, con mejora notable en la organización del trabajo.",
+      "strengths": [
+        "Estrategia de resolución más desarrollada",
+        "Ejecución más completa de los pasos",
+        "Mejora en la verificación de resultados",
+        "Mejor organización y presentación del trabajo",
+        "Progreso constante demostrado"
+      ],
+      "improvements": [
+        "Profundizar en la justificación de la estrategia elegida",
+        "Ampliar la completitud de todos los pasos",
+        "Desarrollar verificación más sistemática",
+        "Incluir mayor reflexión sobre el proceso"
+      ],
+      "createdAt": "2025-10-01T00:00:10.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-22_e5b0e1c9",
+      "weekStart": "2025-09-22",
+      "score": 72,
+      "generalComments": "Tu trabajo en Fase 4 muestra esfuerzo en desarrollar la estrategia de resolución. Has ejecutado los pasos principales, aunque hay oportunidades de mejorar la completitud y verificación del proceso.",
+      "strengths": [
+        "Desarrollo de estrategia básica",
+        "Ejecución de pasos principales",
+        "Organización aceptable del trabajo",
+        "Reconocimiento de fórmulas relevantes"
+      ],
+      "improvements": [
+        "Ampliar la completitud de la estrategia",
+        "Profundizar en la ejecución de todos los pasos necesarios",
+        "Desarrollar verificación más rigurosa de resultados",
+        "Mejorar la conexión entre pasos del proceso",
+        "Incluir reflexión sobre el método usado"
+      ],
+      "createdAt": "2025-10-01T00:00:11.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_dynltex_2025-09-29_006",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Catalina Varrente, Debido a ausencias en clase, no fue posible evaluar tu progreso en Física durante esta semana. Reconoces con honestidad tu situación de ausencia. Es fundamental retomar cuanto antes el contenido trabajado durante tu ausencia para no perder continuidad en tu aprendizaje. Mantén mayor constancia y regularidad en la asistencia a clase y entrega de reportes. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Reconoces con honestidad tu situación de ausencia",
+        "Mantienes la entrega del reporte semanal a pesar de la ausencia",
+        "Tu trayectoria previa muestra evolución positiva desde Fase 2 hasta Fase 4 con mejora en autonomía"
+      ],
+      "improvements": [
+        "Es fundamental retomar cuanto antes el contenido trabajado durante tu ausencia para no perder continuidad",
+        "Mantén mayor constancia y regularidad en la asistencia a clase",
+        "Organiza un plan de recuperación de contenidos para evitar acumulación de vacíos conceptuales"
+      ],
+      "createdAt": "2025-10-09T15:35:00Z"
+    },
+    {
+      "feedbackId": "b767b73a-29a0-4dd2-955f-c7f88bea0a7e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:26:45.199Z"
+    },
+    {
+      "feedbackId": "798ea95f-61c9-4134-99aa-bd94ec672175",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:38:28.972Z"
+    },
+    {
+      "feedbackId": "304fa505-42e8-4f11-9487-c7833b8821f7",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Felicidades por tu trabajo en Q2: tu resolución del problema del lavarropas es excelente y demuestra que comprendes la metodología cuando la aplicas con cuidado. Veo que puedes identificar variables y usar fórmulas correctamente, lo que es un logro importante en Fase 2.\n\nSin embargo, tu reporte muestra inconsistencia. Mientras Q2 es detallado y sistemático, Q1, Q3 y Q5 son muy breves y genéricas. Esto sugiere que entiendes los conceptos pero no reflexionas lo suficiente sobre tu propio aprendizaje. La metacognición (pensar sobre cómo piensas) es clave en pensamiento crítico.\n\nPara la próxima semana, te pido que: (1) en Q1 clasifiques explícitamente cada variable; (2) en Q3 describas estrategias concretas, no solo problemas; (3) en Q5 reflexiones sobre cómo la Fase 2 te ayuda a resolver problemas mejor que antes. Esto elevará significativamente tu desempeño.",
+      "strengths": "• Aplicación sistemática en Q2: Tu resolución del problema del lavarropas es clara y ordenada. Seguiste F1+F2 correctamente, identificaste datos (220V, 9A), la incógnita (P) y aplicaste P=V×I con conversión a kilowatts. Esto demuestra que *sí* puedes dominar la metodología cuando te enfocas.\n• Cálculo preciso y conversión de unidades: Realizaste correctamente la operación (220×9=1980W) y convertiste a kilowatts (1.98kW). Esto muestra atención al detalle y comprensión de magnitudes eléctricas.\n• Justificación de la fórmula: Explicaste *por qué* usaste P=V×I (\"fórmula fundamental que relaciona directamente las tres magnitudes eléctricas básicas\"), lo que evidencia comprensión conceptual, no solo memorización.",
+      "improvements": "• Amplía tu respuesta en Q1 con clasificación de variables: En lugar de solo mencionar \"Potencia: nivel 3\", deberías escribir: \"Potencia: nivel 3. Variables conocidas: V, I. Variables desconocidas: P. Variables controlables: V, I (en el experimento). Variables no controlables: resistencia interna del motor.\" Esto demuestra verdadero dominio de Fase 2.\n• Desarrolla estrategias específicas en Q3: No digas solo \"me costó entender qué fórmulas aplicar\". Explica: \"Dificultad: confundía cuándo usar P=V×I vs P=I²R. Estrategia: ahora hago una tabla con variables conocidas y busco la fórmula que las relacione directamente.\" Esto muestra metacognición real.\n• Profundiza conexiones en Q4 con ejemplos concretos: Tu conexión con matemática es válida pero superficial. Intenta: \"Identificar variables me ayuda a despejar correctamente. En el lavarropas: si conozco P y V, puedo despejar I=P/V para verificar si el motor está funcionando correctamente.\" Conecta con fenómenos reales.",
+      "createdAt": "2025-11-03T12:26:23.552Z"
+    },
+    {
+      "feedbackId": "4102d27c-2ed1-47df-9406-edbe8c440c51",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 63,
+      "generalComments": "Excelente trabajo esta semana. Tu desempeño en Q1 y Q2 demuestra que dominas bien los conceptos de circuitos eléctricos y que puedes resolver problemas complejos de forma sistemática. La verificación de tu respuesta en el circuito mixto muestra madurez metodológica.\n\nSin embargo, hay un contraste importante: mientras que tu resolución de problemas es sólida, tu reflexión sobre el proceso es superficial. Las respuestas en Q3, Q4 y Q5 son demasiado breves y genéricas. El pensamiento crítico no es solo resolver bien; es entender *por qué* lo haces y *cómo* transferir ese conocimiento a nuevas situaciones.\n\nPara la próxima semana, enfócate en profundizar tu reflexión metacognitiva. Cuando identifiques una dificultad, analízala en detalle. Cuando hagas una conexión, hazla específica y transferible. Completa siempre todas las preguntas, incluso Q5, porque esa reflexión final es donde consolidas tu aprendizaje.",
+      "strengths": "• Dominio sólido de conceptos fundamentales: Tu clasificación de temas muestra que comprendes bien corriente, Ley de Ohm y potencia eléctrica (Nivel 4 en la mayoría). Esto es una base excelente para identificar variables en sistemas más complejos.\n• Capacidad de verificación y validación: En el problema del circuito mixto, verificaste tu respuesta (1,2 + 0,8 = 2 A ✓). Esta práctica de comprobar resultados es fundamental en el pensamiento crítico y muestra madurez metodológica.\n• Resolución sistemática de problemas complejos: Tu abordaje del circuito mixto (paralelo → serie → corriente total → corrientes individuales) demuestra que puedes descomponer problemas complejos en pasos lógicos, aunque aún tengas dificultades con circuitos más intrincados.",
+      "improvements": "• Profundizar en Q3: Reflexión metacognitiva sobre dificultades específicas. No basta decir \"me costó entender circuitos\". Debes identificar exactamente qué variable te confunde (¿la resistencia equivalente? ¿el voltaje en paralelo?). Luego propón estrategias concretas: \"Para circuitos mixtos, primero dibujo un diagrama y coloco etiquetas de serie/paralelo en cada rama\". Esto te ayudará a transferir el aprendizaje.\n• Mejorar Q4: Conectar variables con fenómenos reales y nuevos contextos. Tu conexión con matemática es correcta pero insuficiente. Pregúntate: ¿Cómo identificarías variables en un circuito de una casa real? ¿O en un problema de potencia en electrodomésticos? Busca transferir tu método de identificación a contextos nuevos, no solo a ecuaciones.\n• Completar Q5 con reflexión sobre la importancia de clasificar variables. Escribe por qué es crucial distinguir entre variables controlables (resistencia que elijo) y no controlables (voltaje de la fuente). Reflexiona: ¿Cómo cambió tu comprensión desde Fase 1? ¿Qué descubriste sobre las variables que no esperabas? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-17T13:56:36.838Z"
+    }
+  ]
+}

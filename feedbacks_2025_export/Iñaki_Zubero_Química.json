@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "studentId": "u_ps7y0ovuvme1bx96e",
+    "studentName": "Iñaki Zubero",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.206964",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 70.27,
+      "minScore": 41,
+      "maxScore": 82,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 82,
+      "generalComments": "Querido Iñaki, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Muestras claridad al identificar el problema principal y distinguir información relevante, como lo demuestra tu análisis del caso de las bolsas de papas fritas en la montaña. Tu capacidad para problematizar situaciones de Química es notable. Es importante profundizar en la reflexión metacognitiva, especialmente completando todas las secciones del reporte para evidenciar tu proceso completo de pensamiento. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Evidencia concreta con investigación de Ley de Boyle y concepto de presión atmosférica",
+        "Excelente conexión entre pensamiento crítico y situaciones de la vida cotidiana",
+        "Reconoces con claridad los objetivos de aprendizaje y el proceso de análisis crítico"
+      ],
+      "improvements": [
+        "Completa todos los comentarios adicionales para mostrar reflexión profunda sobre tu proceso",
+        "Proporciona evidencias más específicas sobre qué aspectos del pensamiento crítico te resultaron más útiles",
+        "Desarrolla mayor precisión en la identificación de qué elementos del problema son críticos"
+      ],
+      "createdAt": "2025-10-07T15:45:00Z"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 77,
+      "generalComments": "Querido Iñaki Zubero, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en el problema del neumático de Ana. Reconoces las magnitudes físicas/químicas relevantes y sus relaciones. Te recomiendo practicar la distinción entre variables controlables y no controlables con mayor sistematización. Desarrolla estrategias más específicas para clasificar variables en problemas complejos. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identifica correctamente las variables presión, temperatura, volumen y cantidad de gas en el problema del neumático",
+        "Comprende la relación entre temperatura y presión cuando el volumen es constante",
+        "Muestra progreso en la clasificación de variables conocidas y desconocidas"
+      ],
+      "improvements": [
+        "Sistematiza mejor el proceso de clasificación entre variables controlables y no controlables",
+        "Proporciona evidencias más detalladas del proceso de análisis de variables",
+        "Practica la identificación exhaustiva de todas las variables relevantes en problemas de gases"
+      ],
+      "createdAt": "2025-10-07 14:24:36"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 80,
+      "generalComments": "Querido Iñaki Zubero, tu trabajo en la Fase 3: Selección de herramientas y relaciones refleja un dominio destacado de las leyes de gases, mostrando capacidad para seleccionar apropiadamente las herramientas matemáticas. Seleccionas apropiadamente las fórmulas para cada situación (Ley de Boyle, Ley de Charles). Propones estrategias concretas y metódicas para la selección de herramientas (tabla F2, subrayar variables constantes). Justificas tu selección de leyes con claridad. Debes agilizar el pasaje de unidades y la justificación escrita de por qué eliges cada ley. Practica la aplicación de ecuaciones a situaciones más complejas con múltiples variables. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Identifica correctamente qué ley aplicar según las condiciones del problema (Boyle para T constante, Charles para P constante)",
+        "Desarrolla estrategias metódicas efectivas: subrayar variables constantes, usar tabla F2, anotar la ley antes de calcular",
+        "Aplica correctamente la Ley de Boyle en el ejercicio de la jeringa con cálculos precisos"
+      ],
+      "improvements": [
+        "Agiliza el proceso de conversión de unidades, especialmente de °C a K",
+        "Desarrolla justificaciones escritas más explícitas sobre por qué seleccionas cada ley específica",
+        "Practica con problemas que requieran la ecuación combinada de gases con cambios simultáneos"
+      ],
+      "createdAt": "2025-10-07 14:25:45"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Querido Iñaki Zubero, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas los pasos de resolución con la ecuación de estado de gases ideales de manera ordenada. Muestras mejora en el manejo de conversiones de unidades tras repasarlas. Identificas dificultades específicas con las unidades y aplicas estrategias de repaso. Profundiza las conexiones entre el concepto de moles y otras áreas de la química más allá de reacciones químicas. Desarrolla verificación explícita de resultados usando análisis dimensional. Mantén mayor constancia en el registro completo del proceso de resolución. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Aplica correctamente la ecuación PV = nRT para calcular la masa de metano en un recipiente",
+        "Realiza las conversiones de unidades necesarias (mmHg a atm, °C a K) de manera apropiada",
+        "Reconoce sus dificultades con las unidades y toma iniciativa de repasar conversiones para mejorar"
+      ],
+      "improvements": [
+        "Desarrolla conexiones más ricas entre el tema de gases ideales y otros conceptos químicos como estequiometría",
+        "Incorpora verificación sistemática de resultados usando análisis dimensional",
+        "Explica con mayor detalle el procedimiento completo de resolución paso a paso"
+      ],
+      "createdAt": "2025-10-07 14:25:45"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Querido Iñaki Zubero, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Organizas adecuadamente el procedimiento para calcular presión parcial y densidad en mezclas gaseosas. Identificas correctamente los datos necesarios para resolver el problema. Reconoces con claridad las dificultades específicas que enfrentas (selección de fórmulas, manejo de unidades). Profundiza las conexiones del tema de gases ideales con otros conceptos químicos más allá de moles. Sistematiza el proceso de selección de fórmulas creando una guía de referencia rápida. Practica la verificación de resultados mediante métodos alternativos. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Organiza el procedimiento de manera lógica para calcular presión parcial de Cl₂ y N₂ en una mezcla",
+        "Identifica correctamente los datos necesarios (moles, presión total, volumen) para resolver el problema",
+        "Reconoce con claridad y especificidad sus dificultades con fórmulas, unidades y conceptos de presión parcial"
+      ],
+      "improvements": [
+        "Desarrolla una estrategia sistemática para recordar qué fórmula usar en cada tipo de problema de gases",
+        "Crea un sistema de verificación de unidades antes de aplicar fórmulas (atm vs hPa, g vs g/mol)",
+        "Profundiza la conexión entre presión parcial, fracción molar y la ley de Dalton más allá de la aplicación mecánica"
+      ],
+      "createdAt": "2025-10-07 14:25:45"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 77,
+      "generalComments": "Querido Iñaki Zubero, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Aplicas correctamente las leyes de gases (Boyle, Charles, Gay-Lussac) y la ecuación de estado en ejercicios directos. Realizas conversiones de unidades de manera apropiada (Torr a atm, °C a K). Conectas el concepto de volumen molar con estequiometría de manera efectiva. Practica problemas donde cambien simultáneamente presión, volumen y temperatura usando la ley combinada. Desarrolla una guía personal de cuándo usar cada ley según las variables que cambian. Incorpora verificación de la razonabilidad física de tus resultados. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Aplica correctamente la ley combinada de gases en un problema con cambios de volumen y temperatura",
+        "Realiza conversiones de unidades correctamente (Torr a atm, °C a K)",
+        "Conecta el concepto de volumen molar con aplicaciones en estequiometría de gases"
+      ],
+      "improvements": [
+        "Desarrolla mayor confianza en problemas con cambios simultáneos de múltiples variables",
+        "Crea una estrategia sistemática para decidir qué ley usar según qué variables cambian",
+        "Practica la verificación de resultados comparando con el comportamiento esperado de gases"
+      ],
+      "createdAt": "2025-10-07 14:26:28"
+    },
+    {
+      "feedbackId": "fb_002_3_me1bx96e_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 81,
+      "generalComments": "Querido Iñaki Zubero, tu trabajo en la Fase 4: Estrategia y ejecución completa refleja un dominio destacado de mezclas gaseosas y presiones parciales, mostrando capacidad para integrar múltiples conceptos. Resuelves completamente el ejercicio aplicando la ley de Dalton y la ecuación de estado de gases ideales de manera integrada. Identificas las variables conocidas y desconocidas con claridad. Utilizas correctamente la fracción molar para calcular presiones parciales. Practica más la relación directa entre datos del problema y lo que se pide calcular para evitar confusiones. Desarrolla mayor automatización en la aplicación del concepto de fracción molar. Profundiza la conexión entre presiones parciales y estequiometría en reacciones gaseosas. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Resuelve completamente el ejercicio de mezcla H₂S y HCl aplicando ley de Dalton y fracción molar de manera integrada",
+        "Identifica correctamente variables conocidas y desconocidas en problemas de mezclas gaseosas",
+        "Calcula tanto presiones parciales como masas de gases usando la ecuación de estado"
+      ],
+      "improvements": [
+        "Agiliza la identificación de la relación entre datos dados y lo que se pide calcular",
+        "Practica más con el concepto de fracción molar hasta que su aplicación sea automática",
+        "Expande las conexiones entre presiones parciales y aplicaciones en reacciones químicas gaseosas"
+      ],
+      "createdAt": "2025-10-07 14:26:28"
+    },
+    {
+      "feedbackId": "333023dc-8a26-4452-9d59-6a2a370a005e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:01.208Z"
+    },
+    {
+      "feedbackId": "1dc83f03-c17a-4f8f-b049-65d467005b25",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:53:35.288Z"
+    },
+    {
+      "feedbackId": "9f4cb86c-64ca-41bc-b928-3408a638dc07",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:12.087Z"
+    },
+    {
+      "feedbackId": "1b05033e-ccb4-4125-9575-b117e8d502cc",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:29:02.293Z"
+    },
+    {
+      "feedbackId": "9e1555cd-58d3-4a06-832c-e18fc059ba5b",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Excelente trabajo esta semana identificando los temas clave de enlace químico y estructura de Lewis. Tus conexiones entre polaridad y propiedades de la materia demuestran que estás integrando bien los conceptos, y tu honestidad al reconocer dónde necesitas mejorar es una fortaleza importante.\n\nSin embargo, tu reporte aún no refleja completamente el objetivo de la Fase 2: identificar y clasificar variables de forma sistemática. Tus respuestas se enfocaron más en contenidos de química que en el proceso metodológico de distinguir variables conocidas/desconocidas y controlables/no controlables. Esto es crucial para desarrollar pensamiento crítico.\n\nPara la próxima semana, te recomiendo que cuando trabajes con nuevos problemas, hagas una tabla explícita de variables antes de resolver. Además, completa la sección Q5 con reflexiones genuinas sobre tu progreso. Esto te preparará mejor para la Fase 3, donde necesitarás analizar relaciones entre variables.",
+      "strengths": "• Autoevaluación honesta y realista: Reconoces que dominas la representación de Lewis pero necesitas practicar polaridad. Esto muestra autoconciencia sobre tu aprendizaje, fundamental para mejorar.\n• Conexiones conceptuales sólidas: Vinculas correctamente los enlaces químicos con propiedades macroscópicas (solubilidad, puntos de ebullición), demostrando que comprendes cómo los conceptos se relacionan en la química real.\n• Ejemplos concretos en evidencia: Mencionas moléculas específicas (HCl, KCl, CO₂) en tus ejercicios, lo que facilita verificar tu comprensión y muestra que trabajaste con casos reales, no solo teoría.",
+      "improvements": "• Clasificación sistemática de variables: Necesitas identificar explícitamente qué es variable conocida/desconocida y controlable/no controlable en cada problema. Por ejemplo, en HCl: \"electronegatividad\" es conocida y no controlable; \"tipo de enlace\" es conocida y controlable. Crea una tabla para cada molécula estudiada.\n• Estrategias específicas para dificultades: En lugar de \"practicar más polaridad\", propón acciones concretas como: \"Haré una tabla de valores de electronegatividad para comparar rápidamente\" o \"Usaré simuladores online para visualizar la distribución de carga en moléculas polares vs no polares\". Esto acelera tu progreso.\n• Completar la sección Q5 con reflexión profunda: Dedica tiempo a escribir por qué es importante identificar variables en química, qué has aprendido desde la Fase 1 hasta ahora, o cómo estas habilidades te ayudarán en problemas más complejos. Esto consolida tu pensamiento crítico.",
+      "createdAt": "2025-10-27T04:57:44.649Z"
+    },
+    {
+      "feedbackId": "12afff14-d51a-48cc-9fd7-9d65dc068880",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que trabajaste con dedicación esta semana en temas fundamentales de química. Tu honestidad al reconocer que necesitas mejorar la velocidad en estructuras de Lewis es valiosa, y tus conexiones entre CEE y tabla periódica muestran que estás comprendiendo cómo se relacionan los conceptos.\n\nSin embargo, tu reporte aún no refleja completamente lo que esperamos en la Fase 2. Necesitas ir más allá de describir qué hiciste y comenzar a analizar sistemáticamente las variables involucradas en cada problema. Esto significa clasificarlas, identificar cuáles son conocidas/desconocidas, y explicar cómo se relacionan.\n\nPara la próxima semana, te pido que: (1) completes la sección Q5 con reflexiones genuinas, (2) en cada ejercicio, hagas una lista explícita de variables clasificadas, y (3) propongas estrategias concretas para tus dificultades. Esto elevará significativamente la calidad de tu pensamiento crítico.",
+      "strengths": "• Autoevaluación realista: Reconoces honestamente tu nivel (Nivel 3) e identificas qué necesitas mejorar (\"estructuras desarrolladas más rápido y prolijas\"). Esto muestra autoconciencia sobre tu aprendizaje.\n• Ejemplos concretos en evidencia: Mencionas compuestos específicos trabajados (Na₂S, AlF₃, SO₃, HNO₂) en lugar de respuestas genéricas, lo que facilita verificar tu comprensión real.\n• Conexiones conceptuales válidas: Relacionas correctamente CEE con tabla periódica y tipos de enlace, demostrando que entiendes cómo se conectan estos conceptos en química.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar qué es variable conocida (número atómico), desconocida (estructura de Lewis), controlable (tipo de elemento) o no controlable (propiedades del enlace). Esto es el corazón de la Fase 2. Crea una tabla simple: Compuesto | Variable | Tipo | Valor.\n• Estrategias específicas y accionables: En Q3, en lugar de \"necesito practicar\", propón estrategias concretas. Por ejemplo: \"Usaré la regla del octeto como checklist\" o \"Haré un diagrama de pasos: contar electrones → distribuir → verificar octeto\". Esto transforma la dificultad en un plan de acción.\n• Reflexión metacognitiva en Q5: No dejes esta sección vacía. Reflexiona sobre: ¿Por qué es importante identificar variables? ¿Cómo cambió tu forma de ver los problemas químicos? ¿Qué descubriste sobre ti como estudiante? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-03T12:24:36.715Z"
+    },
+    {
+      "feedbackId": "ce2a9ec9-86f3-4db9-9b1e-a5f29bb66750",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Excelente trabajo esta semana. Tu reporte muestra dominio sólido de estructuras de Lewis con un procedimiento claro y bien documentado. Particularmente valioso es que no solo apliques el método a compuestos simples, sino que abordes casos complejos como SO₃ con estructuras resonantes, demostrando que estás profundizando en el tema.\n\nTu desempeño general es consistente: tienes claridad en el procedimiento, honestidad en la autoevaluación y capacidad de aplicación. Sin embargo, hay dos áreas donde puedes crecer: necesitas desarrollar estrategias explícitas para superar tus dificultades con enlaces múltiples, y debes profundizar en cómo estas habilidades se conectan con problemas nuevos.\n\nPara la próxima semana, te recomiendo: (1) practica 3-4 compuestos con estructuras resonantes usando una estrategia sistemática que documentes, (2) completa siempre la sección de comentarios adicionales para reflexionar sobre tu aprendizaje, y (3) intenta predecir estructuras de Lewis de compuestos que no hayas visto antes para verificar si puedes transferir el método.",
+      "strengths": "• Procedimiento sistemático bien documentado: En Q2 describes claramente cada paso del método (contar e⁻ → esqueleto → octetos → cargas formales), lo que demuestra que has internalizado el proceso y puedes comunicarlo con precisión.\n• Autoevaluación honesta y realista: Reconoces tanto tus logros (\"puedo aplicar paso a paso\") como tus limitaciones (\"me cuestan los enlaces múltiples\"), lo que muestra madurez metacognitiva y disposición para mejorar.\n• Aplicación a compuestos reales: Trabajas con HNO₂ y SO₃, compuestos que requieren análisis de resonancia, demostrando que no solo aplicas el método a casos simples sino a situaciones más complejas.",
+      "improvements": "• Amplía tu respuesta en Q3 con estrategias concretas: Identificas bien la dificultad con enlaces múltiples en SO₃, pero no explicas cómo la superaste o cómo la superarás. Sugiero: describe un método específico (ej: \"dibujar todas las estructuras resonantes posibles\" o \"usar una tabla de cargas formales para cada átomo\") y practica con 2-3 compuestos similares esta semana.\n• Desarrolla conexiones más específicas en Q4: Tus conexiones con tabla periódica y enlace químico son correctas pero genéricas. Intenta responder: ¿cómo usarías la identificación de electrones de valencia para predecir la estructura de un compuesto nuevo? Esto te ayudará a transferir el conocimiento a problemas reales.\n• Completa la sección Q5 con reflexión personal: Esta sección está vacía. Dedica 3-4 líneas a reflexionar sobre: ¿por qué es importante saber identificar variables en estructuras químicas? ¿Cómo ha evolucionado tu comprensión desde la Fase 1? Esto fortalecerá tu pensamiento crítico.",
+      "createdAt": "2025-11-12T22:58:20.254Z"
+    },
+    {
+      "feedbackId": "a8eca43e-715f-4700-81b9-61a9a482cb81",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que esta semana enfrentaste una prueba desafiante sobre uniones químicas, y reconozco que intentaste conectar el tema con conocimientos previos. Sin embargo, tu reporte está muy incompleto y superficial para lo que esperamos en Fase 2.\n\nEl objetivo de esta fase es que aprendas a identificar y clasificar variables sistemáticamente, no solo describir que algo fue difícil. Necesitas ser mucho más específico: ¿qué variables encontraste? ¿Cómo las clasificaste? ¿Qué estrategias usaste para diferenciarlas?\n\nPara la próxima semana, te pido que dediques más tiempo a reflexionar sobre tu proceso de aprendizaje. Completa todas las preguntas del reporte con ejemplos concretos de lo que trabajaste. Esto no solo mejorará tu calificación, sino que te ayudará a desarrollar un pensamiento crítico más sólido.",
+      "strengths": "• Reconoces el tema trabajado: Identificas que la semana se enfocó en \"uniones químicas\", lo que muestra que al menos tienes claridad sobre el contenido general de la clase.\n• Intentas conectar con conocimientos previos: Tu mención de la tabla periódica muestra que buscas relacionar el tema actual con lo aprendido durante el año, aunque la conexión sea superficial.",
+      "improvements": "• Profundiza en la identificación de variables: En lugar de solo decir \"fue difícil\", necesitas listar específicamente qué variables estaban en juego (ej: tipo de enlace, electronegatividad, energía de ionización). Pregúntate: ¿cuáles eran conocidas? ¿cuáles desconocidas? ¿cuáles podía controlar?\n• Desarrolla estrategias concretas para clasificar: Cuando encuentres dificultades, propón cómo las resolverías. Por ejemplo: \"Para diferenciar variables controlables de no controlables, haré una tabla de dos columnas\" o \"Usaré colores para marcar magnitudes físicas vs. químicas\".\n• Completa todas las secciones del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre tu proceso: ¿qué aprendiste sobre cómo identificar variables? ¿Cómo ha mejorado tu pensamiento crítico desde Fase 1? Esto es fundamental para tu metacognición.",
+      "createdAt": "2025-11-17T13:48:48.434Z"
+    }
+  ]
+}

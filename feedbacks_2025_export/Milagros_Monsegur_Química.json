@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "studentId": "u_of6to0o91me0b47mk",
+    "studentName": "Milagros Monsegur",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.226296",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 51.27,
+      "minScore": 27,
+      "maxScore": 69,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_017",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Querida Milagros, debido a que no hubo clase esta semana, no fue posible evaluar tu progreso en Química durante este período. Reconozco tu responsabilidad al completar el reporte semanal comunicando la situación. Te recomiendo aprovechar la próxima semana para enfocarte en los fundamentos de la Fase 1 cuando comience el contenido regular. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal",
+        "Comunicaste claramente la situación de la semana",
+        "Mostraste compromiso con el seguimiento del curso"
+      ],
+      "improvements": [
+        "En las próximas semanas, proporciona evidencias concretas de tu proceso de aprendizaje",
+        "Familiarízate con la metodología de pensamiento crítico en 4 fases",
+        "Prepárate para documentar tu razonamiento químico desde la primera clase"
+      ],
+      "createdAt": "2025-10-05 22:26:14"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_018",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Presentas evidencias ricas en detalle del ejercicio de Ana y los neumáticos. Identificas correctamente variables del sistema (temperatura, presión, composición N₂/O₂). Clasificas variables según controlables/incontrolables, conocidas/desconocidas de manera sistemática. Demuestras comprensión profunda del proceso de análisis de sistemas gaseosos. Es importante consolidar la identificación precisa de todas las variables que pueden afectar el sistema. Profundiza en la conexión con temas de química más allá de composición de gases. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Presentas evidencias ricas en detalle y especificidad sobre el proceso de análisis",
+        "Clasificas sistemáticamente variables según múltiples criterios (controlables, incontrolables, conocidas, desconocidas)",
+        "Comprendes profundamente la importancia del abordaje sistemático en química",
+        "Tu capacidad de comunicación escrita es clara y organizada"
+      ],
+      "improvements": [
+        "Continúa trabajando en la identificación de todas las variables relevantes sin omitir ninguna",
+        "Desarrolla conexiones más específicas con contenidos químicos previos más allá de composición de gases",
+        "Practica la distinción entre variables del gas, del recipiente y ambientales en sistemas más complejos"
+      ],
+      "createdAt": "2025-10-05 22:26:14"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_019",
+      "weekStart": "2025-08-18",
+      "score": 69,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Comprendes múltiples temas (teoría cinética, leyes de gases) con autoevaluación diferenciada realista. Seleccionas correctamente la ley de Charles para el ejercicio del globo. Justificas tu elección explicando que es la más simple y que solo falta V₂. Identificas todas las variables necesarias de manera completa. Es importante consolidar el uso de R en la ecuación general de gases ideales. Desarrolla estrategias para abordar la metodología de las 4 fases que te resulta desafiante. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Seleccionas apropiadamente la ley de Charles como herramienta para el problema del globo",
+        "Justificas tu elección con criterio de simplicidad (solo falta V₂)",
+        "Demuestras honestidad y reflexión en tu autoevaluación diferenciada por tema (Niveles 2-3)",
+        "Identificas correctamente todas las variables del ejercicio"
+      ],
+      "improvements": [
+        "Necesitas consolidar la comprensión del uso de R y su aplicación en la ecuación general",
+        "Desarrolla estrategias para adaptarte mejor a la metodología de las 4 fases que te resulta desafiante",
+        "Profundiza en las conexiones específicas con fisicoquímica y química del cuatrimestre anterior"
+      ],
+      "createdAt": "2025-10-05 22:26:15"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_020",
+      "weekStart": "2025-08-25",
+      "score": 66,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas cálculos de manera ordenada en el ejercicio de cambio de condiciones de un gas. Aplicas correctamente la ecuación general de gases con conversiones apropiadas. Obtienes resultado correcto (202 K = -71°C) con verificación dimensional. Tu autoevaluación es realista (Nivel 2: entiendes pero no aplicas con fluidez). Es importante automatizar las conversiones a Kelvin y simplificaciones algebraicas. Desarrolla estrategias de verificación de razonabilidad (¿tiene sentido -71°C?). Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Ejecutas cálculos completos aplicando la ecuación general de gases ideales",
+        "Realizas conversiones correctas de temperatura (Kelvin) y comprendes cambios proporcionales (2V, P/3)",
+        "Obtienes resultado numérico correcto (202 K = -71°C)",
+        "Demuestras honestidad en tu autoevaluación (Nivel 2)"
+      ],
+      "improvements": [
+        "Necesitas automatizar conversiones a Kelvin para trabajar con mayor fluidez",
+        "Desarrolla estrategias para simplificar ecuaciones algebraicas con mayor seguridad",
+        "Practica verificación de razonabilidad de resultados (¿qué implica obtener temperatura negativa?)"
+      ],
+      "createdAt": "2025-10-05 22:26:15"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_021",
+      "weekStart": "2025-09-08",
+      "score": 67,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas cálculos de volumen molar de manera completa y ordenada. Aplicas correctamente PV=nRT con n=1 para volumen molar. Realizas conversiones apropiadas (27°C a 300K). Obtienes resultado correcto (12,3 dm³). Tu autoevaluación es realista reconociendo que logras resolver con compañeros. Es importante consolidar conversión automática a Kelvin para no olvidarla. Desarrolla mayor autonomía para resolver ejercicios sin necesidad de acompañamiento. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Ejecutas cálculos completos de manera organizada (problemática → ecuación → resolución)",
+        "Comprendes el concepto de volumen molar (usar n=1 mol)",
+        "Realizas conversión correcta de temperatura a Kelvin (300K)",
+        "Obtienes resultado correcto (12,3 dm³) demostrando aplicación apropiada de PV=nRT"
+      ],
+      "improvements": [
+        "Automatiza la conversión de temperatura a Kelvin para que no se te olvide",
+        "Desarrolla mayor autonomía para resolver ejercicios sin necesidad de que te expliquen",
+        "Profundiza en conexiones específicas con matemática y fisicoquímica del año pasado"
+      ],
+      "createdAt": "2025-10-05 22:26:15"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_022",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Querida Milagros, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances en Química. Puedes resolver ejercicios cuando estás acompañada según tu autoevaluación honesta. Mencionas haber trabajado en masa molar de un gas con amigos. Es importante desarrollar mayor autonomía para resolver ejercicios sin necesidad de acompañamiento constante. Profundiza en la presentación completa de tu trabajo mostrando las 4 fases. Desarrolla estrategias para entender qué fórmula usar en cada ejercicio de manera independiente. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de autonomía (Nivel 1-2: necesitas acompañamiento)",
+        "Trabajas colaborativamente con compañeros para resolver ejercicios",
+        "Identificas dificultades específicas (entender qué fórmula usar)",
+        "Realizas conexiones con fisicoquímica y matemática"
+      ],
+      "improvements": [
+        "Necesitas desarrollar mayor autonomía en la resolución de problemas sin guía constante",
+        "Proporciona evidencias completas de tu proceso de resolución (no solo mencionar que resolviste)",
+        "Desarrolla estrategias sistemáticas para identificar qué fórmula usar según las características del problema"
+      ],
+      "createdAt": "2025-10-05 22:26:15"
+    },
+    {
+      "feedbackId": "fb_002_5A_milagros_20251005_023",
+      "weekStart": "2025-09-22",
+      "score": 69,
+      "generalComments": "Querida Milagros, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Integras correctamente F1+F2+F3+F4 en el ejercicio isocórico de la lata de aerosol. Ejecutas cálculos sistemáticamente identificando proceso isocórico, seleccionando ecuación apropiada y resolviendo. Presentas tu trabajo de forma organizada con las 4 fases explícitas. Obtienes resultado correcto (2,98 atm). Tu autoevaluación es realista (Nivel 2: puedes resolver pero tienes cosas por mejorar). Es importante consolidar tu confianza en la selección de ecuaciones. Desarrolla conexiones más específicas con matemática más allá de menciones generales. Muy buen desempeño. Te invito a explorar aplicaciones más complejas de estos conceptos.",
+      "strengths": [
+        "Integras exitosamente las 4 fases metodológicas de manera completa y organizada",
+        "Identificas correctamente el proceso isocórico (volumen constante en lata rígida)",
+        "Seleccionas apropiadamente la ecuación P₁/T₁ = P₂/T₂ y la justificas",
+        "Ejecutas cálculos con conversiones correctas a Kelvin y resultado preciso (2,98 atm)"
+      ],
+      "improvements": [
+        "Necesitas consolidar tu confianza en la elección de ecuaciones para reducir inseguridad",
+        "Desarrolla estrategias de verificación de razonabilidad de resultados",
+        "Profundiza en conexiones específicas con matemática (menciona qué herramientas matemáticas usas)"
+      ],
+      "createdAt": "2025-10-05 22:26:16"
+    },
+    {
+      "feedbackId": "fb_002_2_0b47mk_20250929_009",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Milagros, debido a que fue semana de evaluación, tu reporte no proporciona evidencias suficientes para evaluar tu desempeño en el proceso de aprendizaje de Química, lo que limita la retroalimentación pedagógica. Es importante que aun en semanas de prueba reflexiones sobre tu preparación, estrategias de estudio y conexiones realizadas. Mejora la organización de tu trabajo proporcionando información sobre cómo te preparaste para la evaluación. Te sugiero coordinar conmigo para conocer tu experiencia con la prueba y recibir orientación sobre próximos contenidos.",
+      "strengths": [
+        "Completaste el reporte semanal de manera puntual",
+        "Comunicaste claramente que fue semana de evaluación"
+      ],
+      "improvements": [
+        "Proporciona evidencias concretas sobre tu proceso de preparación para la evaluación",
+        "Reflexiona sobre las estrategias de estudio que utilizaste durante la semana",
+        "Identifica con precisión los temas que te resultaron más difíciles en la prueba",
+        "Comenta sobre tu percepción del examen y áreas de mejora detectadas"
+      ],
+      "createdAt": "2025-10-05 21:00:00"
+    },
+    {
+      "feedbackId": "74dc62bd-9f57-4c2d-83b6-36a336cc61b2",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:31:48.720Z"
+    },
+    {
+      "feedbackId": "9579b48b-ba1b-4b5b-bfaf-8facb737702d",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:01:04.226Z"
+    },
+    {
+      "feedbackId": "8ac37ff6-5ecf-4663-88f9-46f540bba5d2",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:53:22.504Z"
+    },
+    {
+      "feedbackId": "cd9660c0-9a54-4654-a7c1-d08a4afe3fda",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:39:49.252Z"
+    },
+    {
+      "feedbackId": "ed04b6c7-ab45-4416-a461-7ac34e5c1197",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes: estuviste ausente en clase y los temas de enlaces químicos no quedaron claros. Lo positivo es que eres honesto al reconocer que necesitas ayuda, y eso es fundamental para mejorar.\n\nSin embargo, tu reporte está muy breve y falta evidencia de que hayas intentado recuperarte después de la ausencia. No es suficiente reconocer que no entendiste; necesitas tomar acciones concretas: buscar material de apoyo, resolver ejercicios y hacer preguntas específicas.\n\nPara la próxima semana, te propongo que: (1) recuperes los apuntes de la clase que perdiste, (2) resuelvas al menos 5 ejercicios sobre enlaces químicos, y (3) escribas ejemplos reales de cada tipo de enlace. Así llegarás mejor preparado a la siguiente fase.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que no entendiste bien el tema (calificación de 2/10), lo que demuestra autoconsciencia. Esto es el primer paso para buscar ayuda y mejorar.\n• Identificación clara de temas: Mencionas específicamente los tres tipos de enlaces trabajados, lo que indica que al menos captaste la estructura general de la clase, aunque no los detalles.",
+      "improvements": "• Recuperación de la ausencia: Estuviste ausente pero no mencionas acciones concretas para ponerte al día. Coordina con compañeros para obtener apuntes, revisa videos sobre enlaces químicos en YouTube o Khan Academy, y consulta con tu profesor sobre lo que perdiste.\n• Falta de evidencia de trabajo: Reportas que \"no resolvieron ningún trabajo\", pero tú puedes buscar ejercicios adicionales. Intenta resolver problemas sobre enlaces químicos en tu libro de texto o en plataformas como Intellego para practicar y consolidar conceptos.\n• Ausencia de conexiones y reflexión: No intentas relacionar los enlaces con aplicaciones reales (sal de mesa, diamante, cobre). En la próxima semana, busca ejemplos cotidianos de cada tipo de enlace y escríbelos en tu reporte.",
+      "createdAt": "2025-10-27T04:58:32.688Z"
+    },
+    {
+      "feedbackId": "83663e7d-c0b2-4057-b49a-96c0b3b1ea70",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor esta semana ha sido un obstáculo para tu aprendizaje en Química. Sin embargo, es importante que no dejes pasar esta oportunidad: cuando retomes las clases, dedica tiempo extra a recuperar los contenidos de la Fase 2 sobre identificación de variables.\n\nTu reporte actual no permite evaluar tu verdadero desempeño, ya que no hay evidencia de trabajo realizado. Esto es comprensible dada la situación, pero significa que necesitarás ponerte al día rápidamente para no quedarte atrás en el pensamiento crítico.\n\nPara la próxima semana, espero recibir un reporte completo con ejemplos concretos de variables identificadas, clasificadas y analizadas en problemas de química. Esto me permitirá ver realmente cómo estás progresando en la Fase 2.",
+      "strengths": "Lamentablemente, este reporte no contiene elementos que permitan identificar fortalezas en tu desempeño académico. La ausencia de clase ha impedido que demuestres tus habilidades en identificación de variables y pensamiento crítico.",
+      "improvements": "• Recopila información de la clase recuperada: Cuando retomes las clases, solicita al profesor los temas de la Fase 2 que se perdieron. Documenta las variables trabajadas (conocidas, desconocidas, controlables) y cómo se clasifican en los problemas de química que estudien.\n• Completa el reporte con contenido recuperado: Una vez tengas acceso a los materiales, vuelve a responder estas preguntas con ejemplos concretos de problemas trabajados. Esto te permitirá demostrar tu comprensión real de la identificación de variables.\n• Mantén comunicación con el profesor: Pregunta específicamente qué temas de la Fase 2 necesitas reforzar (magnitudes físicas, relaciones entre variables, clasificación de datos). Esto te ayudará a ponerte al día de forma más eficiente.",
+      "createdAt": "2025-11-03T12:22:16.451Z"
+    },
+    {
+      "feedbackId": "8bc862b6-3d84-4c9c-bb04-20c5e9dfda99",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana fue principalmente teórica y eso explica por qué tu reporte es breve. Sin embargo, el verdadero aprendizaje en Fase 2 ocurre cuando aplicas lo que aprendiste a problemas concretos. Reconozco que fuiste honesto al admitir que necesitas ver la aplicación práctica, y eso es importante.\n\nTu desempeño esta semana es inicial porque las respuestas carecen de profundidad y análisis. No identificas variables específicas, no hay evidencia de ejercicios resueltos, y falta reflexión sobre tus dificultades. Esto es normal si solo vieron teoría, pero es el momento de pasar a la acción.\n\nPara la próxima semana, te propongo que: (1) Pidas ejercicios prácticos sobre repulsión de pares de Valencia, (2) Cuando resuelvas un problema, hagas una lista explícita de variables (conocidas/desconocidas, controlables/no controlables), y (3) Escribas reflexiones reales sobre qué te cuesta y cómo lo estás superando. Esto transformará tu aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que solo viste teoría y que necesitas aplicación práctica para consolidar el aprendizaje. Esa conciencia es el primer paso para mejorar.\n• Identificación del tema central: Mencionas correctamente \"repulsión de pares de Valencia\", lo que muestra que seguiste la clase y captaste el concepto principal de la semana.\n• Intención de conexión: Intentas vincular el tema con \"enlaces\", mostrando que buscas relacionar conceptos, aunque necesites desarrollar esa conexión con más profundidad.",
+      "improvements": "• Falta de detalle en respuestas: Tus respuestas son muy cortas y superficiales. Por ejemplo, en Q1 deberías listar variables específicas: \"¿Cuáles son las variables conocidas? (número de electrones, geometría molecular). ¿Cuáles son desconocidas? (energía de repulsión exacta)\". Dedica más tiempo a desarrollar cada respuesta.\n• Ausencia de ejercicios prácticos: Mencionas que no resolvieron ejercicios, pero es fundamental que practiques identificando variables en problemas reales. Solicita a tu profesor ejercicios sobre repulsión de pares o busca en el libro problemas donde debas clasificar variables. Sin práctica, la teoría no se consolida.\n• Falta de reflexión metacognitiva: En Q3 y Q5 no reflexionas sobre tu proceso de aprendizaje. Pregúntate: ¿Qué me costó entender? ¿Cómo lo superé? ¿Qué necesito practicar? Escribir estas reflexiones te ayuda a aprender mejor y a identificar dónde necesitas apoyo.",
+      "createdAt": "2025-11-12T22:58:19.725Z"
+    }
+  ]
+}

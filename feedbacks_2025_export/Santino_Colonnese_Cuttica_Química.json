@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "studentId": "u_xn3pcc41gme67v3cx",
+    "studentName": "Santino Colonnese Cuttica",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.231348",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 60.14,
+      "minScore": 27,
+      "maxScore": 88,
+      "weeksCovered": 12,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me67v3cx_2025-08-04_49d1b3a0",
+      "weekStart": "2025-08-04",
+      "score": 88,
+      "generalComments": "Santino Colonnese, tu trabajo esta semana es ejemplar. Demostraste excelente comprensión de cómo usar la nueva plataforma Intellego y te adaptaste sin dificultades. Tu capacidad para navegar y evaluar la interfaz de manera crítica (mencionando que es \"clara y vistosa\") muestra pensamiento analítico. La conexión que estableces con Google Forms es apropiada y demuestra que comprendes la función de las herramientas tecnológicas en el proceso de aprendizaje.",
+      "strengths": [
+        "Comprende perfectamente el funcionamiento de la nueva plataforma",
+        "Se adapta rápidamente a nuevas herramientas tecnológicas",
+        "Evalúa críticamente la calidad de la interfaz de usuario",
+        "Establece conexiones con herramientas previas"
+      ],
+      "improvements": [
+        "Continuar explorando todas las funcionalidades de la plataforma para aprovecharla al máximo",
+        "Mantener este nivel de adaptabilidad ante futuros cambios tecnológicos",
+        "Usar la plataforma para hacer seguimiento sistemático de tu progreso académico"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67v3cx_2025-08-11_70816a06",
+      "weekStart": "2025-08-11",
+      "score": 86,
+      "generalComments": "Santino Colonnese, excelente trabajo esta semana con la Fase 2. Tu aplicación de la metodología de identificación y clasificación de variables en el ejercicio del buffer de Sofía es sistemática y completa. Identificaste todas las variables (sustancias, condiciones físicas, medidas de eficacia) y las clasificaste correctamente según control. Tu reconocimiento de que la guía teórica fue de mucha ayuda muestra que sabes aprovechar los recursos disponibles.",
+      "strengths": [
+        "Identifica y clasifica sistemáticamente todas las variables del problema",
+        "Distingue claramente entre variables controlables y no controlables",
+        "Conecta la metodología con aplicaciones en química, biología e investigación científica",
+        "Agradece y valora el soporte del profesor"
+      ],
+      "improvements": [
+        "Profundizar en el siguiente paso: cómo usar esas variables identificadas para diseñar experimentos",
+        "Practicar con casos donde la clasificación de variables sea menos evidente",
+        "Desarrollar la habilidad de priorizar qué variables son más críticas para el éxito del experimento"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67v3cx_2025-08-18_b4a69c27",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Santino Colonnese, buen trabajo esta semana con la Fase 3. Aplicaste correctamente las herramientas F1, F2 y F3 al ejercicio de la reacción CO + 2H₂ → CH₃OH. Tu proceso sistemático (identificar objetivo, recopilar información, analizar opciones) es exactamente lo que se espera en esta fase. Te ubicas en nivel intermedio, lo cual es honesto y apropiado dado que reconoces necesitar más práctica.",
+      "strengths": [
+        "Aplica la metodología F1-F2-F3 de manera integrada",
+        "Identifica correctamente la expresión de Kc apropiada",
+        "Sigue un proceso ordenado de resolución",
+        "Reconoce honestamente su nivel actual de dominio"
+      ],
+      "improvements": [
+        "Practicar con más ejercicios de identificación de herramientas para ganar fluidez",
+        "Profundizar en la comprensión de por qué cada fórmula se relaciona con variables específicas",
+        "Trabajar con casos más complejos que requieran seleccionar entre múltiples herramientas posibles"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67v3cx_2025-09-15_5653fc4e",
+      "weekStart": "2025-09-15",
+      "score": 70,
+      "generalComments": "Santino Colonnese, la presentación de repaso te sirvió para consolidar conocimientos sobre tipos de reacciones. Tu capacidad para diferenciarlos sin dificultad es positiva. Sin embargo, mencionas una limitación importante: no tener acceso a la presentación en Classroom dificultó el repaso posterior. Tu identificación de esta barrera y cómo afectó tu estudio es una observación metacognitiva valiosa.",
+      "strengths": [
+        "Diferencia claramente entre distintos tipos de reacciones químicas",
+        "Identifica obstáculos en tu proceso de aprendizaje (falta de materiales)",
+        "Reconoce la importancia de poder repasar contenidos después de clase",
+        "Establece conexiones con Matemática y Física"
+      ],
+      "improvements": [
+        "Desarrollar estrategias alternativas cuando los materiales no estén disponibles (notas más detalladas, fotos de diapositivas)",
+        "Solicitar proactivamente al profesor que suba presentaciones al Classroom",
+        "Buscar recursos complementarios online sobre los temas tratados en clase"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67v3cx_2025-09-22_784a16c9",
+      "weekStart": "2025-09-22",
+      "score": 64,
+      "generalComments": "Santino Colonnese, esta semana sin profesor ni materiales disponibles generó una situación difícil para el estudio. Tu identificación de cómo esto afectó específicamente tu capacidad de repasar el ejemplo teórico y consolidar QC vs KC es una observación precisa. Sin embargo, esta situación también requiere que desarrolles mayor autonomía.",
+      "strengths": [
+        "Identifica con precisión cómo la falta de recursos afectó áreas específicas de tu aprendizaje",
+        "Reconoce qué temas necesitan refuerzo (QC vs KC)",
+        "Mantiene las conexiones conceptuales con otras materias",
+        "Comprende el equilibrio dinámico en teoría"
+      ],
+      "improvements": [
+        "Desarrollar autonomía para estudiar equilibrio químico sin depender de materiales del profesor",
+        "Buscar recursos alternativos online (videos, tutoriales, ejercicios interactivos)",
+        "Tomar la iniciativa de consultar libros de texto o plataformas educativas"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "401af66c-6dda-4e5b-bd88-6c0213aef727",
+      "weekStart": "2025-09-29",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:10.106Z"
+    },
+    {
+      "feedbackId": "894841d7-a37c-4cb1-8f09-ed69e1f0efaf",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:19:49.566Z"
+    },
+    {
+      "feedbackId": "8926ac7f-b4a2-4256-b6b4-0d93ea097671",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:23:38.354Z"
+    },
+    {
+      "feedbackId": "5c0ee057-71f9-4981-98cc-8a59374500d4",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:46:18.660Z"
+    },
+    {
+      "feedbackId": "29f9428e-51f2-46d4-b7fc-402831efbdd7",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:27:27.768Z"
+    },
+    {
+      "feedbackId": "8fa02995-7ac6-445f-9e4c-842162c42ddd",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Esta semana has hecho un esfuerzo por trabajar con ácidos y bases, y es positivo que reconozcas dificultades y busques estrategias con tu compañero. Sin embargo, tu reporte muestra que aún no dominas los conceptos clave de Fase 2: identificar y clasificar variables de forma sistemática.\n\nTu desempeño está en desarrollo. Mencionas temas y fórmulas, pero no profundizas en qué variables están en juego ni cómo se relacionan. Además, hay un error conceptual importante sobre pOH que necesitas corregir urgentemente, y la pregunta 5 sin respuesta sugiere que no reflexionaste sobre tu aprendizaje.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables (conocidas/desconocidas/controlables) en cada ejercicio, (2) revises la escala de pH/pOH con ejemplos concretos, y (3) completes siempre todas las preguntas del reporte. Esto te ayudará a avanzar hacia Fase 3 con bases sólidas.",
+      "strengths": "• Reconoces dificultades reales: Identificas que tuviste dudas sobre si una solución era ácida o básica, lo que muestra autoconciencia sobre lo que no entiendes completamente.\n• Intentas razonar sistemáticamente: Buscas una estrategia lógica (relacionar pOH con acidez/basicidad) y trabajas colaborativamente con tu compañero para resolverla.\n• Aplicas fórmulas correctamente: Usas la relación 14 = pH + pOH de forma adecuada en tus cálculos, mostrando que comprendes esta herramienta matemática.",
+      "improvements": "• Clasifica variables explícitamente: En lugar de solo mencionar \"calcular pH\", debes identificar: ¿cuál es la variable conocida? (pOH = 4.20), ¿cuál es la desconocida? (pH), ¿cuál es controlable? Haz listas claras como en los ejercicios de clase.\n• Corrige conceptos sobre ácidos y bases: Recuerda que pOH bajo significa base FUERTE (no débil). Revisa la escala: pOH < 7 = básico, pOH > 7 = ácido. Practica 3-4 ejercicios más para consolidar esta relación antes de la próxima semana.\n• Completa todas las preguntas del reporte: La pregunta 5 está vacía. Dedica 5 minutos a reflexionar: ¿Qué aprendiste sobre variables esta semana? ¿Cómo te ayuda identificarlas en problemas futuros? Esto es crucial para tu metacognición.",
+      "createdAt": "2025-10-27T04:54:37.461Z"
+    },
+    {
+      "feedbackId": "3186b2df-5333-47f7-bc48-ab2688430a04",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la ausencia del profesor fue una circunstancia fuera de tu control, y lo comunicas de forma clara. Sin embargo, este reporte no refleja trabajo académico que pueda ser evaluado según los criterios de la Fase 2.\n\nTu desempeño esta semana no puede medirse porque no hay evidencia de aprendizaje, identificación de variables, clasificación de magnitudes ni reflexión sobre el proceso. Es como si la semana no hubiera existido desde el punto de vista del pensamiento crítico.\n\nPara la próxima semana, te animo a que: (1) retomes las clases presenciales con energía, (2) revises los apuntes de Fase 1 para prepararte mejor, y (3) documentes tu trabajo semanal aunque sea de forma independiente. Recuerda que el pensamiento crítico también se desarrolla cuando estudias por tu cuenta y reflexionas sobre lo que aprendes.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables en términos de aprendizaje académico. Sin embargo, reconozco que comunicaste claramente la situación de ausencia del profesor, lo que es honesto y directo.",
+      "improvements": "• Falta de contenido académico: Aunque la ausencia del profesor es una circunstancia válida, deberías usar este tiempo para revisar apuntes de Fase 1, repasar conceptos de variables o trabajar de forma independiente. Consulta los materiales disponibles en Intellego o pide orientación a compañeros para no perder el ritmo de aprendizaje.\n• Reporte incompleto: Un reporte semanal debe reflejar tu trabajo personal, incluso sin clase presencial. Puedes documentar: lecturas realizadas, ejercicios resueltos por tu cuenta, dudas identificadas o conexiones que hayas hecho con otros temas. Esto demuestra responsabilidad y pensamiento crítico autónomo.\n• Falta de reflexión metacognitiva: Independientemente de las circunstancias, aprovecha para reflexionar: ¿Qué conceptos de Fase 1 recuerdas? ¿Qué te gustaría profundizar sobre variables? ¿Cómo podrías estudiar de forma independiente? Esta autoevaluación es clave para tu desarrollo.",
+      "createdAt": "2025-11-03T12:19:17.464Z"
+    },
+    {
+      "feedbackId": "ff8973d3-1e8e-4f50-8ccc-c7e05876a079",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no hubo clase presencial, lo que explica la ausencia de contenido en tu reporte. Sin embargo, esto es una oportunidad para que demuestres iniciativa y autonomía en tu aprendizaje.\n\nTu desempeño esta semana no refleja tu potencial real, ya que no hay evidencia de trabajo académico. La Fase 2 es crucial para desarrollar habilidades de pensamiento crítico en la identificación de variables, y necesitas avanzar en este contenido.\n\nPara la próxima semana, te animo a que: (1) revises los materiales disponibles en Intellego sobre identificación de variables, (2) practiques clasificando variables en problemas de química que encuentres, y (3) prepares un reporte completo que muestre tu comprensión, incluso si las clases continúan siendo virtuales.",
+      "strengths": "Lamentablemente, no hay fortalezas que destacar en este reporte. La ausencia de contenido impide identificar aspectos positivos del aprendizaje. Sin embargo, reconozco que comunicaste claramente la situación (ausencia de clases).",
+      "improvements": "• Falta de contenido académico: Aunque no hubo clase, el reporte debe reflejar tu trabajo independiente. Revisa los materiales de la Fase 2 en la plataforma Intellego, consulta apuntes anteriores o solicita recursos al profesor para avanzar por tu cuenta.\n• Ausencia de reflexión personal: Incluso sin clases presenciales, puedes reflexionar sobre lo aprendido en semanas anteriores. Dedica tiempo a revisar tus reportes previos y conecta conceptos de Fase 1 con variables que identifiques en problemas de química cotidianos.\n• Falta de iniciativa de comunicación: Si hay dudas sobre por qué no hubo clase o necesitas orientación, contacta al profesor directamente. Esto te permitirá recuperar el tiempo perdido y mantener el ritmo de aprendizaje en la Fase 2.",
+      "createdAt": "2025-11-12T22:51:32.827Z"
+    },
+    {
+      "feedbackId": "285705ec-3f58-4cc7-957e-1e82b3c7c6e1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que comprendes bien los conceptos de ácido-base y que haces conexiones valiosas entre disciplinas. Tu trabajo muestra que entiendes *qué* es el equilibrio químico y *por qué* importa. Sin embargo, en Fase 2 necesitas ir más allá: debes demostrar *cómo* identificas y clasificas variables de forma sistemática.\n\nTu desempeño esta semana es sólido en conceptos, pero débil en metodología. Tienes las herramientas mentales, pero falta documentar el proceso paso a paso. Esto es crucial porque Fase 3 (análisis de datos) dependerá de que hayas identificado correctamente todas las variables.\n\nPara la próxima semana, te pido que hagas una tabla de variables para cada problema que trabajes: nombre de la variable, tipo (conocida/desconocida), clasificación (controlable/no controlable) y magnitud física. Esto te ayudará a estructurar mejor tu pensamiento y a evidenciar tu aprendizaje en el reporte.",
+      "strengths": "• Comprensión conceptual del equilibrio químico: Tu explicación sobre la autoionización del agua y el balance H₃O⁺/OH⁻ muestra que entiendes el fenómeno subyacente. Esto es fundamental para identificar variables correctamente en sistemas en equilibrio.\n• Conexiones interdisciplinarias claras: Relacionas el pH con logaritmos (Matemática), equilibrio de sistemas (Física) y procesos celulares (Biología). Esto demuestra pensamiento integrador que va más allá de la Química aislada.\n• Identificación de dificultades reales: Reconoces específicamente que los logaritmos y la relación pH + pOH fueron desafiantes, lo que muestra autoconciencia sobre tu proceso de aprendizaje.",
+      "improvements": "• Falta identificación sistemática de variables: Tu reporte describe conceptos pero no lista variables específicas (ej: concentración inicial, temperatura, volumen, pH medido). En Fase 2 debes clasificar cada una como conocida/desconocida y controlable/no controlable. Practica haciendo una tabla de variables para cada problema trabajado.\n• Ausencia de evidencia documental del proceso: No muestras listas de variables, clasificaciones o esquemas que demuestren cómo aplicaste Fase 1 + Fase 2. Incluye en tu próximo reporte ejemplos concretos: \"En el problema X, identifiqué: pH (conocida, no controlable), [H⁺] (desconocida, calculable)...\"\n• Respuesta vacía en Q5 (Comentarios adicionales): Pierdes puntos valiosos sin reflexionar sobre tu progreso. Usa esta sección para escribir: qué aprendiste sobre *cómo* identificar variables, cómo evolucionaste desde Fase 1, o qué categorías propias descubriste (ej: \"variables que dependen del tipo de ácido\").",
+      "createdAt": "2025-11-17T13:51:03.838Z"
+    }
+  ]
+}

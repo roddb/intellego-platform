@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "studentId": "u_alllafm0rme678p88",
+    "studentName": "Milagros Zacharec",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.226553",
+    "statistics": {
+      "totalFeedbacks": 8,
+      "feedbacksWithScore": 8,
+      "averageScore": 55.5,
+      "minScore": 34,
+      "maxScore": 83,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me678p88_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 73,
+      "generalComments": "Querida Milagros Zacharec, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Identificas claramente el uso del pensamiento crítico en el contexto del equilibrio químico. Reconoces los pasos del método y su aplicación práctica en sistemas de equilibrio. Trabajar en mayor profundidad la identificación de dificultades específicas y desarrollar estrategias metacognitivas propias. Incluir más reflexión sobre tu proceso de aprendizaje. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas claramente los conceptos fundamentales de Fase 1 aplicados al equilibrio químico",
+        "Presentas evidencias concretas de aplicación con el ejercicio de sistemas A, B y C",
+        "Realizas conexiones interesantes entre equilibrio químico y estequiometría por similitud metodológica"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión las dificultades que enfrentas, incluso si parecen menores",
+        "Desarrolla estrategias más específicas para consolidar tu aprendizaje más allá de la guía teórica",
+        "Proporciona reflexiones más profundas en tus comentarios adicionales sobre el proceso"
+      ],
+      "createdAt": "2025-10-07 11:51:18"
+    },
+    {
+      "feedbackId": "fb_002_1_me678p88_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida Milagros Zacharec, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en el problema del buffer acetato. Organizas adecuadamente los datos y la información disponible usando la metodología de 3 pasos. Tu capacidad para clasificar y categorizar información con la matriz es efectiva. Te recomiendo desarrollar mayor especificidad al identificar dificultades conceptuales y estrategias de superación. Trabajar en expresar con más detalle qué aspectos de la teoría resultaron desafiantes. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente todas las variables del sistema buffer: composición, condiciones y rendimiento",
+        "Organizas adecuadamente los datos clasificándolos en conocidas/desconocidas y controlables/no controlables",
+        "Demuestras aplicación sistemática de F1+F2 con el ejercicio de Sofía desarrollado en detalle completo"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión qué aspectos específicos de aplicar la teoría te resultaron desafiantes",
+        "Desarrolla estrategias concretas para fortalecer la conexión teoría-práctica en clasificación de variables",
+        "Proporciona evidencias más reflexivas sobre tu proceso de aprendizaje más allá de 'todo bien'"
+      ],
+      "createdAt": "2025-10-07 11:51:18"
+    },
+    {
+      "feedbackId": "fb_002_1_me678p88_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 76,
+      "generalComments": "Querida Milagros Zacharec, estás trabajando adecuadamente en la Fase 3: Selección de herramientas y relaciones, demostrando comprensión de las constantes de equilibrio y avance sostenido. Seleccionas apropiadamente las herramientas Kc y Qc para el problema de SO₂/SO₃. Comprendes las ecuaciones fundamentales de equilibrio químico y sus relaciones. Identificas correctamente cómo comparar Qc con Kc para predecir dirección del sistema. Necesitas especificar con mayor detalle qué aspecto del ejercicio 7 te resultó difícil para poder abordarlo mejor. Es importante profundizar en la justificación de por qué seleccionas Qc para analizar evolución del sistema. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Seleccionas apropiadamente la fórmula de Qc para analizar la evolución del sistema SO₂/O₂/SO₃",
+        "Identificas correctamente la relación entre Qc y Kc para determinar dirección del equilibrio",
+        "Comprendes las ecuaciones fundamentales: Kc, Kp, Qc y sus diferencias en sistemas homogéneos y heterogéneos"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión qué aspecto específico del ejercicio 7 te resultó difícil",
+        "Desarrolla estrategias para abordar los ejercicios que presentan mayor desafío",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas matemáticas"
+      ],
+      "createdAt": "2025-10-07 11:51:19"
+    },
+    {
+      "feedbackId": "fb_002_1_me678p88_2025-09-15_004",
+      "weekStart": "2025-09-15",
+      "score": 83,
+      "generalComments": "Querida Milagros Zacharec, tu trabajo en Fase 4: Estrategia y ejecución completa refleja un dominio destacado del cálculo de constantes de equilibrio y resolución sistemática, mostrando capacidad para ejecutar problemas completos con metodología clara. Planteas una estrategia de resolución coherente y completa usando tablas de variación. Ejecutas los pasos de resolución de manera ordenada y lógica en el problema del NO₂. Integras exitosamente los conocimientos de las fases anteriores aplicando F1+F2+F3+F4. Identificas con precisión las dificultades que enfrentas en el planteo de ecuaciones con incógnita x. Debes practicar más la conversión de moles a concentraciones dentro del contexto de Kc. Es importante incorporar verificación explícita de resultados como parte de tu proceso documentado. ¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas como sistemas de equilibrios simultáneos.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente usando tabla de variación para organizar el proceso",
+        "Ejecutas los pasos de resolución de manera ordenada: identificas moles iniciales, calculas variación y determinas concentraciones en equilibrio",
+        "Integras exitosamente conocimientos de F1 (problema), F2 (variables), F3 (fórmula Kc) y F4 (cálculo completo)",
+        "Identificas con precisión la dificultad específica: plantear Kc en función de x y transformar moles en concentraciones"
+      ],
+      "improvements": [
+        "Necesitas fortalecer la conversión sistemática de moles a concentraciones dividiendo por el volumen en cada paso",
+        "Es importante practicar el planteo algebraico de Kc con incógnita x en problemas de complejidad gradual",
+        "Te recomiendo incorporar verificación explícita de resultados en tu documentación del proceso"
+      ],
+      "createdAt": "2025-10-07 11:51:19"
+    },
+    {
+      "feedbackId": "d6024726-e959-4879-a756-ab829eb40d10",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:29:16.533Z"
+    },
+    {
+      "feedbackId": "d5afa69c-a54c-4419-a3db-6c2306b7c152",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:50:02.647Z"
+    },
+    {
+      "feedbackId": "64508d39-fb0b-4cb3-bcb0-936e8650af93",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:52.335Z"
+    },
+    {
+      "feedbackId": "24a343cc-f5e0-44d0-a982-6b56be481e26",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:46:10.176Z"
+    }
+  ]
+}

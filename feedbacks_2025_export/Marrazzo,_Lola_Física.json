@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "studentId": "u_gjtitt5qlme0b5p2x",
+    "studentName": "Marrazzo, Lola",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.219795",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 51.76,
+      "minScore": 27,
+      "maxScore": 72,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_marrazzo_lola_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Lola tuvo ausencia justificada por viaje a Londres. No hubo desarrollo de contenido nuevo en la clase del miércoles (solo explicación de formularios). Necesita recuperar material inicial.",
+      "strengths": [
+        "Comunicación transparente sobre ausencia",
+        "Completó reporte semanal responsablemente",
+        "Ausencia justificada previamente"
+      ],
+      "improvements": [
+        "Recuperar contenido de pensamiento crítico",
+        "Solicitar material a compañeros",
+        "Ponerse al día con ejercicios iniciales"
+      ],
+      "createdAt": "2025-01-09 16:40:00"
+    },
+    {
+      "feedbackId": "fb_marrazzo_lola_2025_08_11",
+      "weekStart": "2025-08-11",
+      "score": 45,
+      "generalComments": "Lola enfrenta dificultades significativas con tiro oblicuo nivel 1. Resolvió ejercicio de Ana pero con errores conceptuales importantes (400m/s en lugar de velocidad de caminata). Necesita bases más sólidas.",
+      "strengths": [
+        "Intentó resolver el ejercicio completo",
+        "Identificó variables principales",
+        "Realizó cálculos matemáticos",
+        "Mostró esfuerzo por comprender"
+      ],
+      "improvements": [
+        "Revisar conceptos básicos de unidades",
+        "Distinguir velocidad de distancia",
+        "Comprender mejor metodología de resolución",
+        "Buscar apoyo tutorial"
+      ],
+      "createdAt": "2025-01-09 16:41:00"
+    },
+    {
+      "feedbackId": "fb_marrazzo_lola_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Excelente progreso: Lola salta a nivel 3 en tiro oblicuo. Comprende bien la teoría y la aplica correctamente. Calculó velocidad de impacto correctamente (-46 m/s). Mejora significativa desde semana anterior.",
+      "strengths": [
+        "Salto notable a nivel 3",
+        "Comprensión teórica sólida",
+        "Cálculo correcto de velocidad vertical",
+        "Aplicación correcta de fórmulas",
+        "Conexión con temas previos establecida"
+      ],
+      "improvements": [
+        "Completar más detalles en resoluciones",
+        "Practicar ejercicios más complejos",
+        "Consolidar el nivel alcanzado"
+      ],
+      "createdAt": "2025-01-09 16:42:00"
+    },
+    {
+      "feedbackId": "fb_marrazzo_lola_2025_08_25",
+      "weekStart": "2025-08-25",
+      "score": 60,
+      "generalComments": "Lola baja a nivel 2 pero mantiene trabajo sólido. Resolvió correctamente ejercicio de tiro oblicuo con descomposición vectorial. Principal dificultad: comprensión de enunciados y organización inicial.",
+      "strengths": [
+        "Descomposición vectorial correcta (14.14 m/s)",
+        "Cálculos precisos (x=28.3m, y=8.3m)",
+        "Aplicación correcta de MRU y MRUV",
+        "Conexión mantenida con tiro vertical",
+        "Proceso completo de resolución"
+      ],
+      "improvements": [
+        "Mejorar comprensión de enunciados",
+        "Practicar organización de datos",
+        "Ganar confianza en interpretación",
+        "Más ejercicios variados"
+      ],
+      "createdAt": "2025-01-09 16:43:00"
+    },
+    {
+      "feedbackId": "fb_marrazzo_lola_2025_09_01",
+      "weekStart": "2025-09-01",
+      "score": 72,
+      "generalComments": "Lola regresa a nivel 3 con excelente desempeño. Resolvió problema complejo del motociclista con cálculos precisos. Aunque tiene dificultades con ángulos, muestra progreso significativo y metodología sólida.",
+      "strengths": [
+        "Vuelta a nivel 3 consolidado",
+        "Resolución completa con resolvente",
+        "Cálculos precisos (t=2.58s, x=55.73m)",
+        "Interpretación correcta del resultado",
+        "Conexión con trigonometría y temas previos",
+        "Reconocimiento de dificultades específicas"
+      ],
+      "improvements": [
+        "Practicar cálculo de ángulos con arctan",
+        "Reforzar uso de tangente inversa",
+        "Consolidar confianza en problemas complejos"
+      ],
+      "createdAt": "2025-01-09 16:44:00"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5p2x_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Lola, debido a la semana de evaluación, no fue posible evaluar tu progreso en Física durante esta semana. Es fundamental fortalecer tu capacidad para mantener el registro semanal incluso en períodos especiales. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Reconoces con claridad el contexto de la semana (evaluación)",
+        "Cumples con la entrega del reporte semanal",
+        "Mantienes comunicación sobre tu proceso"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Mantén mayor constancia y regularidad en el registro de tu aprendizaje",
+        "Desarrolla estrategias más específicas para documentar tu proceso incluso en semanas especiales"
+      ],
+      "createdAt": "2025-10-07 23:11:00"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5p2x_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 30,
+      "generalComments": "Querida Lola, el contenido de tu reporte corresponde a Química, cuando la evaluación es de Física. Reconoces con precisión el trabajo realizado en la semana. Es fundamental fortalecer tu capacidad para diferenciar y documentar cada materia en su reporte correspondiente. Mejora la organización de tu trabajo y diferenciación entre materias. Te sugiero coordinar conmigo para aclarar el sistema de reportes diferenciados.",
+      "strengths": [
+        "Comunicas claramente la situación de la semana",
+        "Cumples con la entrega del reporte",
+        "Reconoces el trabajo realizado en Química"
+      ],
+      "improvements": [
+        "Es importante mejorar la diferenciación entre los reportes de Física y Química",
+        "Desarrolla estrategias para organizar y separar el contenido de cada materia",
+        "Proporciona evidencias específicas de Física cuando corresponda"
+      ],
+      "createdAt": "2025-10-07 23:11:01"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5p2x_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Lola, debido a la ausencia de clase esta semana, no fue posible evaluar tu progreso en Física. Es fundamental aprovechar estos períodos para consolidar aprendizajes previos. Mantén mayor constancia en el estudio autónomo durante períodos sin clase. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Comunicas claramente la situación de la semana",
+        "Cumples con la entrega del reporte",
+        "Mantienes el seguimiento semanal"
+      ],
+      "improvements": [
+        "Aprovecha las semanas sin clase para repasar contenidos previos",
+        "Proporciona evidencias de estudio autónomo o repaso realizado",
+        "Desarrolla estrategias de aprendizaje independiente"
+      ],
+      "createdAt": "2025-10-07 23:11:01"
+    },
+    {
+      "feedbackId": "fb_002_3_me0b5p2x_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 60,
+      "generalComments": "Querida Lola, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema aplicada a Dinámica, mostrando avances parciales en Física. Defines correctamente la diferencia entre dinámica y cinemática demostrando comprensión conceptual. Te recomiendo practicar la identificación de conexiones con conocimientos previos incluso en temas nuevos. Busca aplicaciones prácticas de los conceptos de dinámica en situaciones cotidianas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Defines con claridad la diferencia entre dinámica y cinemática",
+        "Reconoces con honestidad las limitaciones contextuales (ausencia de explicación)",
+        "Demuestras capacidad de comunicación escrita clara y organizada"
+      ],
+      "improvements": [
+        "Busca conexiones con contenidos previos de cinemática que ya conoces",
+        "Desarrolla mayor confianza en tus conocimientos previos para construir nuevos aprendizajes",
+        "Proporciona evidencias más específicas sobre tu proceso de comprensión del material introductorio"
+      ],
+      "createdAt": "2025-10-07 23:11:01"
+    },
+    {
+      "feedbackId": "4a6b27b2-22ae-40ff-b22d-820844268b97",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:36:01.920Z"
+    },
+    {
+      "feedbackId": "96936d6c-fa84-4f3f-89ab-9f4cbd34102b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:10:11.714Z"
+    },
+    {
+      "feedbackId": "730be926-9c62-4a89-af86-9b769f2fe193",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:49:50.663Z"
+    },
+    {
+      "feedbackId": "751a60ae-5a8f-4d2f-a71f-f2a7197ac110",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:33:41.646Z"
+    },
+    {
+      "feedbackId": "ce7567e4-5a55-4001-95da-0d649fe75cf3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que comprendes bien el procedimiento gráfico de los diagramas de cuerpo libre y aplicas correctamente las fórmulas. Eso es un buen punto de partida. Sin embargo, esta semana tu reporte no refleja el enfoque central de la Fase 2: identificar y clasificar variables de forma sistemática.\n\nTu desempeño muestra que sabes *hacer* diagramas, pero aún no demuestras que sabes *analizar qué variables están en juego* en cada problema. Esto es crucial para avanzar en pensamiento crítico: antes de resolver, debes preguntarte: ¿Qué conozco? ¿Qué busco? ¿Qué puedo controlar?\n\nPara la próxima semana, te pido que en cada problema identifiques explícitamente las variables (al menos 5-6 por ejercicio), las clasifiques en una tabla, y reflexiones sobre cómo esa clasificación te ayuda a resolver. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Claridad en la descripción del procedimiento: Tu explicación del diagrama de cuerpo libre es ordenada y fácil de seguir. Describes paso a paso cómo colocaste las fuerzas y cómo calculaste el peso, lo que muestra que entiendes el proceso gráfico.\n• Aplicación correcta de fórmulas: Utilizas correctamente P=m·g para calcular el peso (200 N con m=20 kg), demostrando que dominas el cálculo numérico en problemas de fuerzas.\n• Honestidad en la autoevaluación: Reconoces que el plano inclinado fue más desafiante, lo que muestra autoconciencia sobre tus dificultades reales.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En tu respuesta sobre el DCL, debes nombrar cada variable: \"Fuerzas conocidas: 100 N (aplicada), 5 N (rozamiento), 200 N (peso). Fuerzas desconocidas: aceleración. Variables controlables: la fuerza aplicada.\" Esto es lo central de la Fase 2.\n• Profundizar en las dificultades con estrategias concretas: En lugar de decir \"me costó el plano inclinado\", explica: \"Me cuesta descomponer las fuerzas en componentes x e y cuando hay ángulo. Voy a practicar dibujando triángulos de fuerzas y usando trigonometría.\" Así demuestras metacognición real.\n• Completar la sección de comentarios adicionales (Q5): Reflexiona sobre por qué es importante identificar variables antes de resolver un problema, o cómo tu comprensión ha mejorado desde la Fase 1. Esto enriquece tu pensamiento crítico y muestra evolución.",
+      "createdAt": "2025-10-27T04:59:25.439Z"
+    },
+    {
+      "feedbackId": "2b7f636b-52ce-4bd6-97da-d29021857a94",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que estás trabajando en Dinámica y que reconoces honestamente dónde tienes dificultades, lo cual es muy valioso. Sin embargo, esta semana necesitas ser más cuidadoso con las fórmulas: confundir peso (p) con masa (m) es un error que cambia completamente el resultado. Tu procedimiento tiene la estructura correcta, pero los conceptos necesitan refuerzo.\n\nTu desempeño muestra que entiendes la idea general, pero te falta profundidad en la clasificación de variables y en la reflexión sobre tu propio aprendizaje. Notamos que Q5 está vacía: ese espacio es donde demuestras pensamiento crítico real.\n\nPara la próxima semana, te propongo: (1) Revisa las definiciones de coeficiente estático y dinámico con ejemplos concretos, (2) Haz una lista de variables en cada ejercicio ANTES de resolver, (3) Completa todas las preguntas del reporte, incluyendo reflexiones personales.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente qué no entiendes (\"coeficiente estático y dinámico\"). Esta autoconsciencia es el primer paso para mejorar y muestra madurez académica.\n• Intento de aplicación sistemática: En Q2, intentas seguir un procedimiento ordenado: calcular aceleración, luego aplicar fórmula de fuerza. Esto demuestra que entiendes que hay pasos lógicos a seguir.\n• Conexión con conocimientos previos: Reconoces que Dinámica se relaciona con matemática del cuatrimestre anterior, lo que muestra que intentas integrar aprendizajes.",
+      "improvements": "• Errores conceptuales en fórmulas: Confundes ΣF=p·a con F=m·a, y usas v inicial en lugar de Δv. Acción: Crea una tabla con las 5 fórmulas principales de Dinámica (F=ma, a=Δv/t, etc.) con sus variables claramente etiquetadas. Revísala antes de cada ejercicio.\n• Falta de clasificación de variables: No distingues entre variables conocidas (masa=950kg, Δv=50km/h), desconocidas (F), controlables (aceleración) y no controlables. Acción: En el próximo ejercicio, antes de resolver, haz una lista: \"Datos que tengo\" / \"Datos que busco\" / \"Qué puedo controlar\". Esto es Fase 2 pura.\n• Estrategias vagas para superar dificultades: Dices que no entiendes rozamiento, pero no propones cómo estudiarlo. Acción: Busca 2-3 videos cortos sobre coeficiente estático vs dinámico, o pide que hagamos un ejercicio paso a paso en clase. Luego, escribe en tus propias palabras la diferencia.",
+      "createdAt": "2025-11-03T12:21:25.521Z"
+    },
+    {
+      "feedbackId": "bee83cb0-5f35-48f5-98f7-a83afdd715af",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Tu trabajo esta semana muestra que comprendes bien los conceptos de dinámica y que trabajas bien en equipo. La explicación de la Primera Ley de Newton aplicada al vehículo con globo es correcta y demuestra que entendiste el fenómeno físico. Sin embargo, tu reporte no refleja completamente el trabajo de Fase 2, que es precisamente aprender a identificar y clasificar variables de forma sistemática.\n\nNotamos que te enfocaste más en la aplicación conceptual que en el análisis metodológico de variables. Esto es un paso importante, pero necesitas ir más allá: debes ser capaz de reconocer qué variables están en juego, cuáles puedes controlar, cuáles no, y por qué eso importa para resolver el problema.\n\nPara la próxima semana, te pedimos que hagas un análisis más profundo del proyecto. Crea una lista clara de variables, clasifícalas, e identifica al menos una dificultad real que enfrentaste. Completa también la pregunta 5 con reflexiones propias. Esto te preparará mejor para la Fase 3, donde aplicarás estas variables en análisis más complejos.",
+      "strengths": "• Aplicación correcta de conceptos de dinámica: Tu explicación de la Primera Ley de Newton en el proyecto es clara y precisa. Conectas bien la teoría (inercia, fuerza externa, fricción) con el funcionamiento real del vehículo con globo.\n• Participación activa en trabajo colaborativo: Mencionas que participaste en la redacción y comprensión del proyecto. Esto muestra compromiso y disposición para aprender en equipo, lo cual es valioso.\n• Comprensión del fenómeno físico: Entiendes la secuencia de eventos (reposo → fuerza del aire → movimiento → fricción detiene). Esto demuestra que captaste la lógica del sistema.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En Fase 2, debes listar las variables del proyecto (presión del globo, masa del vehículo, fricción, distancia recorrida, etc.) y clasificarlas como conocidas/desconocidas y controlables/no controlables. Crea una tabla simple para organizarlas. Esto es fundamental para el pensamiento crítico que estamos desarrollando.\n• Reflexionar sobre dificultades reales: No es realista decir que \"no tuviste dificultades\". Pregúntate: ¿Cómo diferenciaste qué variables podías controlar en el experimento? ¿Qué magnitudes fue difícil medir? Identifica al menos una dificultad específica y propón una estrategia para resolverla en la próxima sesión.\n• Completar todas las preguntas del reporte: La pregunta 5 está vacía. Aquí debes reflexionar sobre por qué es importante identificar variables en un proyecto. Escribe 3-4 líneas sobre cómo el análisis de variables te ayudó a entender mejor el fenómeno o qué cambiarías en tu enfoque.",
+      "createdAt": "2025-11-12T22:59:21.620Z"
+    },
+    {
+      "feedbackId": "74281a59-31da-479f-86f6-3967ba5c6fc2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que realizaste el trabajo práctico del vehículo con dedicación y que trabajaste bien en equipo con tus compañeras. Sin embargo, tu reporte no refleja el análisis crítico que esperamos en Fase 2. Describiste *qué hiciste*, pero no *por qué* lo hiciste ni *qué variables* estaban en juego.\n\nEn Fase 2 necesitamos que identifiques y clasifiques variables: ¿cuál es la masa del vehículo? ¿Cómo controlas la fricción? ¿Qué magnitudes físicas afectan la velocidad? Este análisis es lo que diferencia un proyecto de construcción de un proyecto de pensamiento científico.\n\nPara la próxima semana, te pido que reflexiones sobre el vehículo desde la perspectiva de variables. Haz una lista de \"variables controlables\" (que tú decidiste) y \"variables no controlables\" (que dependen del entorno). Esto te preparará mejor para las fases siguientes.",
+      "strengths": "• Claridad en la descripción del proceso constructivo: Describes con orden los pasos realizados (cortar cartón, pegar pajitas, pasar palitos), lo que muestra que seguiste la consigna del proyecto de forma organizada.\n• Confianza en la comprensión general: Expresas seguridad al afirmar que entiendes bien el proyecto y sus consignas, lo que indica disposición positiva hacia el trabajo.\n• Trabajo colaborativo evidente: Mencionas \"nosotras\" y \"logramos hacer eso en la clase\", mostrando que trabajaste en equipo durante la construcción del vehículo.",
+      "improvements": "• Identificar y clasificar variables del proyecto: En lugar de solo describir qué hiciste, analiza QUÉ variables mediste (masa del cartón, longitud de los palitos, fricción de las ruedas). Pregúntate: ¿cuáles puedo controlar? ¿cuáles no? Esto es el corazón de Fase 2.\n• Conectar construcción con física: Tu vehículo es un sistema de fuerzas y movimiento. Reflexiona sobre cómo el peso, la fricción y la propulsión son variables que afectan el desempeño. Escribe: \"La variable controlable fue... porque...\" para mostrar pensamiento crítico.\n• Profundizar en dificultades reales: No digas \"no fue difícil\". Pregúntate honestamente: ¿Qué fue complicado de medir? ¿Cómo diferenciaste entre variables importantes y secundarias? Esto demuestra madurez en el aprendizaje.",
+      "createdAt": "2025-11-17T13:55:51.832Z"
+    }
+  ]
+}

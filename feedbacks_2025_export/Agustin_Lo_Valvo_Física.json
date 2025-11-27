@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "studentId": "u_ptsyo9w0pme4ihnen",
+    "studentName": "Agustin Lo Valvo",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.180808",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 56.92,
+      "minScore": 30,
+      "maxScore": 75,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_lovalvo_agustin_2025_08_04",
+      "weekStart": "2025-08-04",
+      "score": 42,
+      "generalComments": "Agustín muestra un nivel inicial en tiro oblicuo con comprensión conceptual básica pero sin resolución práctica de ejercicios. Necesita trabajar más en la aplicación de fórmulas y la descomposición vectorial.",
+      "strengths": [
+        "Comprende conceptos básicos del tiro oblicuo",
+        "Identifica la acción de la gravedad en el eje vertical",
+        "Muestra interés en conectar con matemáticas (parábolas)"
+      ],
+      "improvements": [
+        "Práctica sistemática de ejercicios básicos",
+        "Trabajo con descomposición vectorial",
+        "Aplicación de ecuaciones de movimiento"
+      ],
+      "createdAt": "2025-01-09 16:00:00"
+    },
+    {
+      "feedbackId": "fb_lovalvo_agustin_2025_08_11",
+      "weekStart": "2025-08-11",
+      "score": 35,
+      "generalComments": "Agustín muestra confusión conceptual significativa entre tiro oblicuo y gases ideales. Aunque intenta trabajar con tiro oblicuo nivel 1, menciona incorrectamente conceptos de termodinámica (PV=nRT). Necesita clarificar el tema de estudio.",
+      "strengths": [
+        "Intenta identificar sus dificultades",
+        "Reconoce que necesita ayuda",
+        "Mantiene intención de aprender"
+      ],
+      "improvements": [
+        "Clarificar el tema de estudio actual",
+        "Separar conceptos de cinemática y termodinámica",
+        "Buscar apoyo tutorial específico",
+        "Comenzar con ejercicios guiados"
+      ],
+      "createdAt": "2025-01-09 16:01:00"
+    },
+    {
+      "feedbackId": "fb_lovalvo_agustin_2025_08_18",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Excelente progreso de Agustín: pasó de nivel 1 a nivel 2 y resolvió un ejercicio completo de tiro horizontal. Muestra comprensión clara de la separación de componentes del movimiento y aplicación correcta de fórmulas.",
+      "strengths": [
+        "Resolvió ejercicio completo con cálculos correctos",
+        "Comprende separación MRU horizontal y MRUV vertical",
+        "Identifica trayectoria parabólica",
+        "Aplica trigonometría para ángulo de impacto",
+        "Análisis reflexivo de sus dificultades"
+      ],
+      "improvements": [
+        "Practicar más con tiro oblicuo (no solo horizontal)",
+        "Trabajar descomposición con seno y coseno",
+        "Ejercitar conversión de unidades"
+      ],
+      "createdAt": "2025-01-09 16:02:00"
+    },
+    {
+      "feedbackId": "fb_lovalvo_agustin_2025_09_01",
+      "weekStart": "2025-09-01",
+      "score": 75,
+      "generalComments": "Agustín continúa en nivel 2 con excelente desempeño. Resolvió correctamente un ejercicio complejo de tiro oblicuo con cálculos precisos. Identifica bien sus áreas de mejora: análisis más allá de la resolución numérica.",
+      "strengths": [
+        "Cálculos precisos con descomposición vectorial",
+        "Aplicación correcta de fórmulas de tiro oblicuo",
+        "Determina tiempo de vuelo y alcance correctamente",
+        "Interpreta resultados (no cae en lago ni bunker)",
+        "Autoconciencia de sus limitaciones"
+      ],
+      "improvements": [
+        "Desarrollar análisis cualitativo de resultados",
+        "Practicar justificación de decisiones",
+        "Trabajar problemas con múltiples incógnitas"
+      ],
+      "createdAt": "2025-01-09 16:03:00"
+    },
+    {
+      "feedbackId": "fb_002_1_me4ihnen_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 30,
+      "generalComments": "Querido Agustin, debido a que esta semana tuvieron la prueba, no fue posible evaluar tu progreso en Física durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal",
+        "Justificaste adecuadamente la situación especial de esta semana"
+      ],
+      "improvements": [
+        "Cuando tengas evaluaciones, intenta incluir una breve reflexión sobre tu preparación o desempeño en la prueba",
+        "Aprovecha los reportes para reflexionar sobre tu proceso de estudio previo a las evaluaciones"
+      ],
+      "createdAt": "2025-10-07T17:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me4ihnen_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Querido Agustin, debido a tu viaje a Madryn, no fue posible evaluar tu progreso en Física durante esta semana. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Comunicaste tu ausencia de manera oportuna mediante el reporte",
+        "Cumpliste con la entrega formal del reporte semanal"
+      ],
+      "improvements": [
+        "Al regresar de ausencias, coordina conmigo para ponerte al día con los temas trabajados",
+        "Aprovecha las instancias de consulta para recuperar el material perdido durante tu viaje"
+      ],
+      "createdAt": "2025-10-07T17:30:00Z"
+    },
+    {
+      "feedbackId": "75abccdd-2c76-408d-83ca-8cba5668ba85",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:25:52.766Z"
+    },
+    {
+      "feedbackId": "32fb5c58-477e-4191-88b5-d02b530cbe6a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:11.668Z"
+    },
+    {
+      "feedbackId": "ed26b51a-2f14-4bb6-85bd-80def413dd5e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:42:02.685Z"
+    },
+    {
+      "feedbackId": "f614053c-9997-4226-8025-848941a65260",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:20:35.790Z"
+    },
+    {
+      "feedbackId": "268413a8-e1a2-4395-b5dd-f3c1cf834d74",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando en serio con los Diagramas de Cuerpo Libre y que entiendes la importancia de organizar las fuerzas. Tu descripción paso a paso del DCL muestra que tienes un método, y eso es excelente. Sin embargo, esta semana necesitas enfocarte en dos cosas: primero, revisar los conceptos de cada tipo de fuerza (Normal, aplicada, rozamiento) porque hay confusión en tu ejemplo; segundo, ser más sistemático al clasificar variables conocidas y desconocidas.\n\nTu desempeño en Q4 me muestra que puedes hacer conexiones entre temas, pero aún necesitas practicar la transferencia a problemas nuevos. La buena noticia es que estás en el camino correcto: reconoces tus dificultades y eso es la base para mejorar.\n\nPara la próxima semana, te propongo que hagas 3 cosas: (1) resuelve 2-3 DCL más, pero esta vez clasifica todas las variables antes de dibujar; (2) practica específicamente con planos inclinados, que es tu punto débil; (3) completa la sección Q5 con reflexiones propias sobre por qué es importante identificar correctamente cada variable.",
+      "strengths": "• Autoconciencia sobre limitaciones: Reconoces claramente dónde tienes dificultades (\"me resulta difícil identificar la diferencia entre fuerzas en x e y\"), lo que es el primer paso para mejorar. Esto muestra honestidad en tu autoevaluación.\n• Descripción detallada del proceso: En Q2, describes paso a paso cómo construiste el DCL (ejes, flechas, etiquetas), lo que evidencia que seguiste un procedimiento sistemático y puedes comunicar tu trabajo.\n• Conexiones interdisciplinarias: Relacionas correctamente los DCL con trigonometría y la sumatoria de fuerzas con matemática, mostrando que ves la Física conectada con otras áreas del conocimiento.",
+      "improvements": "• Corrige el error conceptual en el DCL: Confundiste la Fuerza Normal con la fuerza aplicada. La Normal siempre es perpendicular a la superficie. En tu ejemplo, si hay una fuerza de 200 N horizontal, esa es la fuerza aplicada; la Normal debe calcularse considerando el peso (20 kg × 10 m/s² = 200 N). Revisa la diferencia entre cada tipo de fuerza antes de dibujar.\n• Clasifica variables explícitamente en cada problema: No solo identifiques fuerzas, sino organízalas en una tabla: \"Conocidas: F=200N, fr=5N, m=20kg | Desconocidas: a, N\". Esto te ayudará a ver qué falta para resolver el problema y a aplicar correctamente la Fase 2.\n• Propón estrategias concretas para tus dificultades: En lugar de decir \"me cuesta identificar fuerzas en x e y\", escribe: \"Voy a practicar dibujando 5 DCL con ángulos diferentes y usaré colores para separar fuerzas horizontales (azul) de verticales (rojo)\". Las estrategias específicas son más efectivas que las generales.",
+      "createdAt": "2025-11-03T12:18:26.443Z"
+    },
+    {
+      "feedbackId": "e978c8f5-6112-440c-8f48-0dbe3aea7020",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Felicidades por tu trabajo en Q2: tu resolución del problema del ascensor es excelente y demuestra que *sí* puedes identificar, clasificar y aplicar variables de forma sistemática. Ese es exactamente el nivel que buscamos en Fase 2.\n\nSin embargo, tu reporte muestra inconsistencia. Mientras que en Q2 eres muy riguroso, en Q1, Q3 y Q5 tus respuestas son superficiales o incompletas. Esto sugiere que entiendes los conceptos cuando trabajas con problemas concretos, pero te cuesta reflexionar sobre el proceso y generalizarlo.\n\nPara la próxima semana, te pido que: (1) en Q1 clasifiques variables de forma explícita (conocidas/desconocidas, controlables/no controlables), (2) en Q3 propongas estrategias concretas para superar dificultades, y (3) en Q5 reflexiones sobre lo aprendido. Esto completará tu pensamiento crítico.",
+      "strengths": "• Proceso algebraico riguroso en Q2: Tu resolución del problema del ascensor es clara y ordenada. Muestras cada paso (T - mg = ma, sustitución de valores, despeje), lo que facilita seguir tu razonamiento y verificar la corrección.\n• Clasificación de variables en contexto real: En Q2 identificas correctamente qué es conocido (m, g, a) y qué es desconocido (T) en un problema práctico. Esto demuestra que entiendes la diferencia entre datos dados y lo que hay que encontrar.\n• Aplicación de fórmulas en dos escenarios: Reconoces que la dirección de la aceleración cambia la ecuación (T - P vs P - T), mostrando que comprendes cómo las variables se relacionan de forma diferente según el contexto.",
+      "improvements": "• Amplía la clasificación de variables en Q1: No solo identifiques *qué* fuerzas hay, sino *cómo* se clasifican. Por ejemplo: \"Tensión (conocida/desconocida según el problema, controlable), Peso (conocida, no controlable)\". Esto es lo que espera la Fase 2.\n• Desarrolla estrategias específicas para rozamiento en Q3: En lugar de decir \"me cuesta identificar\", propón: \"Voy a dibujar diagramas de fuerzas para cada tipo de movimiento\" o \"Voy a hacer una tabla comparativa entre rozamiento estático y cinético\". Las estrategias concretas te ayudan a avanzar.\n• Conecta variables con fenómenos reales en Q4: Amplía tu respuesta. Por ejemplo: \"En el ascensor, si aumenta la masa del objeto, la tensión aumenta proporcionalmente. Esto se aplica también a grúas, poleas y sistemas de transporte.\" Muestra transferencia a nuevos contextos.",
+      "createdAt": "2025-11-12T22:52:18.792Z"
+    },
+    {
+      "feedbackId": "e1b393ad-8b21-4b28-8f54-b6241bb9add4",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Has hecho un buen trabajo esta semana identificando tu principal dificultad y demostrando que puedes aplicar sistemáticamente el método de clasificación de variables. Tu conexión entre F = m·a y funciones lineales es particularmente impresionante y muestra que estás pensando críticamente.\n\nSin embargo, necesitas profundizar en dos áreas: primero, completar tus análisis (tu respuesta en Q2 quedó incompleta) y segundo, ir más allá de identificar problemas hacia proponer soluciones concretas. La metacognición no es solo reconocer dificultades, sino también planificar cómo superarlas.\n\nPara la próxima semana, enfócate en dominar la identificación de fuerzas de rozamiento mediante diagramas de cuerpo libre y crea un \"banco de estrategias\" para cada tipo de fuerza. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Proceso sistemático en resolución de problemas: En Q2, clasificas datos ordenadamente en variables conocidas/desconocidas y aplicas la ecuación de sumatoria de fuerzas de forma metódica. Esto muestra que comprendes la estructura del método científico.\n• Conexión interdisciplinaria avanzada: Tu análisis en Q4 sobre la relación entre F = m·a y funciones lineales es sofisticado. Identificar que la masa actúa como pendiente demuestra pensamiento crítico y capacidad de transferencia entre disciplinas.\n• Autoconciencia sobre dificultades: Reconoces explícitamente que tienes problemas para identificar tipos de fuerzas. Esta honestidad es el primer paso para mejorar y muestra madurez en tu proceso de aprendizaje.",
+      "improvements": "• Completar análisis de tipos de fuerzas: Tu dificultad principal es distinguir fuerzas de rozamiento de otras. Crea una tabla comparativa con: nombre de la fuerza, cuándo actúa, dirección y fórmula. Esto te ayudará a identificarlas rápidamente en problemas nuevos.\n• Desarrollar estrategias metacognitivas en Q3: No basta identificar que tienes dificultad; debes proponer soluciones concretas. Por ejemplo: \"Usaré diagramas de cuerpo libre para visualizar cada fuerza\" o \"Haré una lista de verificación de tipos de fuerzas antes de resolver\". Sé específico.\n• Completar respuestas y reflexionar: En Q2, tu respuesta se corta a mitad del segundo caso. Además, falta reflexión: ¿por qué la tensión es mayor cuando sube que cuando baja? Siempre termina tus análisis y explica el *por qué* detrás de los números.",
+      "createdAt": "2025-11-17T13:50:27.835Z"
+    }
+  ]
+}

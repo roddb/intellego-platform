@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "studentId": "u_th3a596w3me34llcr",
+    "studentName": "Andrés Francisco Ruffino",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.182801",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 71.42,
+      "minScore": 50,
+      "maxScore": 87,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me34llcr_2025-08-04_b0c6b7d3",
+      "weekStart": "2025-08-04",
+      "score": 72.4,
+      "generalComments": "Andrés, tu reporte de Fase 3 muestra un desempeño sólido en la selección y aplicación de herramientas del equilibrio químico. Destaca tu capacidad para identificar y utilizar conceptos como Kc, Qc y el Principio de Le Chatelier de manera apropiada. El ejercicio de CaCO3 evidencia comprensión del proceso completo: identificación del problema, análisis de variables, selección de herramientas y aplicación práctica. Tu reflexión metacognitiva sobre la dificultad con Le Chatelier demuestra honestidad y capacidad de autoevaluación. Las conexiones que establecés con contenidos previos del cuatrimestre muestran que estás construyendo una visión integrada de la materia.",
+      "strengths": [
+        "Identificación y aplicación correcta de herramientas conceptuales (Kc, Qc, Le Chatelier)",
+        "Evidencia concreta del ejercicio de CaCO3 con procedimiento completo",
+        "Reconocimiento honesto de dificultades específicas con Le Chatelier",
+        "Conexión efectiva con contenidos previos del cuatrimestre demostrando visión integrada"
+      ],
+      "improvements": [
+        "Profundizar la comprensión conceptual del Principio de Le Chatelier mediante ejemplos adicionales",
+        "Practicar la predicción cualitativa de desplazamientos antes de aplicar cálculos",
+        "Fortalecer la transición entre comprensión conceptual y aplicación matemática",
+        "Ampliar las reflexiones metacognitivas en Q5 sobre el proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-02 15:28:10"
+    },
+    {
+      "feedbackId": "fb_002_1_me34llcr_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 79,
+      "generalComments": "Querido Andrés Francisco, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Tu trabajo con el ejercicio de fermentación de yogur demuestra comprensión de cómo identificar y clasificar variables en sus categorías. Evidencias claramente la aplicación de F1+F2 de manera integrada. Necesitas fortalecer tu comprensión de la matriz de clasificación de variables, específicamente el Paso B del Paso 2. Proporciona ejemplos más variados de tu proceso de pensamiento en diferentes contextos químicos. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en problemas de equilibrio químico",
+        "Organizas adecuadamente los datos y la información disponible del caso del yogur",
+        "Realizas conexiones interesantes entre la identificación del objetivo (F1) y la relevancia de las variables (F2)",
+        "Tu capacidad de comunicación escrita es clara y organizada"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas, específicamente en el Paso B de la matriz",
+        "Es importante mejorar la organización y clasificación de los datos disponibles en categorías más complejas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en contextos variados"
+      ],
+      "createdAt": "2025-10-07 09:12:40"
+    },
+    {
+      "feedbackId": "fb_backfill_me34llcr_2025-08-18_c1d7c8e4",
+      "weekStart": "2025-08-18",
+      "score": 74,
+      "generalComments": "Andrés, tu reporte de Fase 3 muestra progreso en la selección de herramientas para problemas de equilibrio. El ejercicio de síntesis de amoníaco evidencia que podés calcular Kc correctamente y aplicar la fórmula apropiada. La identificación de Kc, Kp y Qc como herramientas principales es acertada. Sin embargo, persiste la dificultad con el Principio de Le Chatelier, que es fundamental para esta fase. Tu conexión con contenidos previos (concentraciones del primer cuatrimestre) es positiva y demuestra visión de largo plazo. El reconocimiento de que te falta práctica con Le Chatelier muestra honestidad metacognitiva.",
+      "strengths": [
+        "Cálculo correcto de Kc en el ejercicio de síntesis de amoníaco",
+        "Identificación apropiada de herramientas principales (Kc, Kp, Qc)",
+        "Integración de F1+F2+F3 en la resolución del problema",
+        "Conexión efectiva con concentraciones molares del primer cuatrimestre"
+      ],
+      "improvements": [
+        "Practicar intensivamente el Principio de Le Chatelier con ejercicios progresivos",
+        "Desarrollar la comprensión cualitativa de desplazamientos antes de aplicar cálculos",
+        "Justificar más profundamente la selección de herramientas según el tipo de problema",
+        "Expandir las reflexiones en Q5 sobre estrategias de aprendizaje"
+      ],
+      "createdAt": "2025-10-02 15:28:11"
+    },
+    {
+      "feedbackId": "fb_backfill_me34llcr_2025-08-25_d2e8d9f5",
+      "weekStart": "2025-08-25",
+      "score": 79.2,
+      "generalComments": "Andrés, excelente progreso en esta Fase 4. Tu reporte muestra integración efectiva de las cuatro fases metodológicas. El ejercicio de síntesis de SO3 está resuelto con proceso completo: identificación del objetivo, organización de datos, selección de fórmula de Kc y ejecución de cálculos llegando a Kc=4.46. La tabla con moles iniciales y finales demuestra organización sistemática. El uso de concentraciones molares ([M]=mol/V) es correcto. La conexión con contenidos previos (concentraciones, estequiometría) muestra visión integrada. Tu comentario sobre la utilidad de las explicaciones en clase evidencia autorregulación efectiva.",
+      "strengths": [
+        "Integración fluida de F1+F2+F3+F4 con estructura clara",
+        "Evidencia completa con tabla organizada de moles y cálculos sistemáticos",
+        "Aplicación correcta de fórmulas ([M]=mol/V, Kc con exponentes estequiométricos)",
+        "Conexión valiosa con contenidos previos (concentraciones, estequiometría)",
+        "Aprovechamiento efectivo de recursos (explicaciones en clase)"
+      ],
+      "improvements": [
+        "Mejorar la comprensión conceptual de por qué Kc=4.46 indica ligero favorecimiento de productos",
+        "Profundizar en Le Chatelier para interpretar cómo cambios afectarían este equilibrio",
+        "Desarrollar verificaciones cualitativas de resultados numéricos",
+        "Expandir reflexiones en Q5 sobre aprendizajes específicos de la semana"
+      ],
+      "createdAt": "2025-10-02 15:28:12"
+    },
+    {
+      "feedbackId": "fb_backfill_me34llcr_2025-09-01_e3f9e0a6",
+      "weekStart": "2025-09-01",
+      "score": 77.4,
+      "generalComments": "Andrés, tu reporte sobre modelos de examen muestra dominio sólido de la metodología integrada. El ejercicio con Qc y comparación con Kc está correctamente resuelto: calculas concentraciones molares, aplicas la fórmula de Qc, comparas con Kc (Qc<Kc) y concluyes correctamente que el sistema evoluciona hacia productos. La organización de datos y la secuencia de pasos son claras. La conexión con metodología de Física del año anterior demuestra reconocimiento de patrones transversales. Tu valoración de las resoluciones en clase evidencia uso efectivo de recursos.",
+      "strengths": [
+        "Integración efectiva de F1+F2+F3+F4 con todas las fases visibles",
+        "Evidencia completa con cálculos de [M], Qc, comparación con Kc y conclusión correcta",
+        "Conexión interdisciplinaria valiosa con Física (metodología común)",
+        "Aprovechamiento de recursos (resoluciones en clase) demostrando autorregulación"
+      ],
+      "improvements": [
+        "Profundizar en la interpretación del significado de Qc<Kc más allá de va hacia productos",
+        "Practicar preguntas de seguimiento: ¿qué pasaría si agregamos más reactivos?",
+        "Desarrollar la comprensión del por qué Le Chatelier predice ese desplazamiento",
+        "Expandir reflexiones sobre estrategias de estudio efectivas"
+      ],
+      "createdAt": "2025-10-02 15:28:12"
+    },
+    {
+      "feedbackId": "fb_backfill_me34llcr_2025-09-15_f4a0f1b7",
+      "weekStart": "2025-09-15",
+      "score": 78.6,
+      "generalComments": "Andrés, tu último reporte antes del examen muestra preparación sólida. El ejercicio del modelo está correctamente resuelto: organizas datos conocidos/desconocidos, aplicas fórmulas de concentración y Kc, obtienes resultado coherente. La integración de las 4 fases es clara y sistemática. Tu comentario sobre la dificultad de 'mostrar claramente las fases en la hoja' es válido pero has encontrado una solución efectiva con tu método actual. La conexión con la metodología de Física refuerza que has internalizado el pensamiento científico estructurado. Tu reconocimiento de la utilidad de explicaciones en clase demuestra madurez en autorregulación.",
+      "strengths": [
+        "Integración sólida de F1+F2+F3+F4 con estructura sistemática",
+        "Evidencia completa con proceso verificado y resultado coherente",
+        "Organización efectiva de datos conocidos/desconocidos",
+        "Conexión interdisciplinaria consolidada con metodología de Física",
+        "Autorregulación efectiva (aprovechamiento de explicaciones en clase)"
+      ],
+      "improvements": [
+        "Desarrollar sistema personal de marcación de fases (F1/F2/F3/F4) para ganar velocidad en examen",
+        "Practicar identificación rápida de tipo de problema (Kc, Qc, desplazamiento) antes de resolver",
+        "Fortalecer interpretación conceptual de resultados numéricos",
+        "Preparar respuestas a preguntas conceptuales sobre Le Chatelier"
+      ],
+      "createdAt": "2025-10-02 15:28:12"
+    },
+    {
+      "feedbackId": "fb_002_1_me34llcr_2025-09-29_002",
+      "weekStart": "2025-09-29",
+      "score": 87,
+      "generalComments": "Querido Andrés Francisco, has demostrado un excelente desempeño en la Fase 4: Estrategia y ejecución completa, superando las expectativas para esta etapa del pensamiento crítico en Química. Tu trabajo en el proceso Haber-Bosch refleja un dominio destacado del método completo de 5 pasos, mostrando capacidad para integrar F1+F2+F3+F4 fluidamente. Planteas una estrategia de resolución coherente y completa, ejecutas los pasos de manera ordenada y lógica, y demuestras capacidad excepcional para transferir el método a contextos no científicos como el análisis de casos judiciales. Es importante consolidar tu comprensión de reacciones con gases, Kp y su relación con presión antes de avanzar a nuevos temas. Profundiza en la fundamentación teórica del principio de Le Chatelier en sistemas gaseosos. ¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las cuatro fases en el problema Haber-Bosch",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica con cálculos correctos",
+        "Planteas una estrategia de resolución coherente identificando variables conocidas y desconocidas",
+        "Muestras creatividad al transferir el método de 5 pasos a análisis de casos judiciales en derecho",
+        "Demuestras perseverancia ante las dificultades con la tabla ICE hasta lograr dominarla"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu comprensión de reacciones con gases, específicamente Kp y su relación con presión",
+        "Es importante profundizar en el principio de Le Chatelier aplicado a sistemas gaseosos",
+        "Continúa practicando problemas que integren múltiples conceptos para consolidar la visión completa"
+      ],
+      "createdAt": "2025-10-07 09:13:30"
+    },
+    {
+      "feedbackId": "d198b983-7389-4893-90a5-3e2676f5eb38",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:42:52.654Z"
+    },
+    {
+      "feedbackId": "3bb23244-6de9-4c2c-b41a-68f8c30a2d2d",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:21:34.437Z"
+    },
+    {
+      "feedbackId": "55d1eaef-76ee-4a7b-bdd0-99f336788836",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Hiciste un buen trabajo esta semana resolviendo correctamente los ejercicios de pH y pOH, y tu capacidad para aplicar fórmulas es sólida. Sin embargo, noto que hay una brecha importante entre tu habilidad operativa (calcular) y tu comprensión conceptual (entender por qué). Esto es común en química, pero es el momento de cerrar esa brecha.\n\nTu evolución es visible: ya integras la resolución de 5 pasos en otras materias como biología, lo que muestra que el método está funcionando. El desafío ahora es no conformarte con \"sé cómo hacerlo\" sino avanzar a \"entiendo por qué funciona\".\n\nPara la próxima semana, te propongo que antes de resolver ejercicios, dediques 10-15 minutos a leer o ver la teoría detrás de cada concepto. Luego resuelve sin IA, identifica dónde fallas, y recién ahí busca ayuda. Completa también todas las secciones del reporte, incluyendo Q5, porque esas reflexiones son donde ocurre el aprendizaje más profundo.",
+      "strengths": "• Cálculos precisos y procedimiento sistemático: En el ejercicio 11.16, aplicas correctamente las fórmulas (pH = -log[H₃O⁺], Kw = [H₃O⁺][OH⁻]) y obtienes resultados exactos (pH = 2,18, pOH = 11,81). Esto demuestra que dominas la mecánica operativa.\n• Autoconciencia sobre tus limitaciones: Reconoces honestamente que \"no entiendo el fundamento teórico\" y que necesitas ayuda de IA. Esta honestidad es valiosa porque te permite identificar dónde enfocarte para mejorar realmente.\n• Transferencia del método a otras disciplinas: Mencionas que usas mentalmente la resolución de 5 pasos en biología para entender análisis médicos. Esto muestra que el método está comenzando a integrarse en tu pensamiento crítico general.",
+      "improvements": "• Profundiza en el \"por qué\" de los cálculos, no solo en el \"cómo\": Entiendes que HCl → H⁺ + Cl⁻, pero ¿por qué sucede esta disociación? ¿Qué hace que sea un ácido fuerte? Dedica tiempo a leer la teoría de Brønsted-Lowry o consulta videos que expliquen el mecanismo. Esto cerrará la brecha entre cálculo y comprensión.\n• Desarrolla estrategias propias sin depender de IA: En lugar de resolver \"con asistencia de IA\", intenta primero plantear el problema tú solo, identifica dónde te atascas, y luego busca ayuda específica. Crea un \"diario de errores\" donde anotes qué no entendiste y por qué. Esto fortalecerá tu autonomía.\n• Completa la sección Q5 con reflexiones genuinas: No dejes espacios en blanco. Pregúntate: ¿Qué aprendí esta semana sobre variables? ¿Cómo evolucioné desde Fase 1? ¿Qué categorías propias de variables podría crear? Estas reflexiones son cruciales para consolidar el aprendizaje.",
+      "createdAt": "2025-11-12T22:53:45.816Z"
+    },
+    {
+      "feedbackId": "8d183609-f267-48a0-90a7-8d05ac3f806c",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Has tenido una semana sólida en Fase 2. Tu trabajo en Q2 es particularmente fuerte: organizaste variables de forma clara y sistemática, lo que demuestra que comprendiste el objetivo central de esta fase. Además, tu honestidad al reconocer dificultades con bases dihidróxidas y tu disposición a buscar ayuda muestran madurez académica.\n\nSin embargo, hay dos áreas donde necesitas crecer. Primero, en Q1 falta la clasificación explícita de variables (controlables/no controlables) que es el corazón de Fase 2. Segundo, tu reflexión en Q3 y Q4 es demasiado genérica: necesitas ejemplos concretos y análisis más profundo de *cómo* identificas variables en diferentes contextos.\n\nPara la próxima semana, enfócate en: (1) clasificar variables explícitamente en cada problema, (2) escribir reflexiones detalladas sobre tus dificultades y cómo las superaste, y (3) demostrar transferencia con casos específicos, no generalizaciones. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Aplicación sistemática del proceso de 5 pasos: En Q2 demuestras dominio claro del método, organizando variables de forma lógica y llegando a resultados correctos. Esto muestra que internalizaste la metodología de Fase 1.\n• Identificación exhaustiva de variables en problemas concretos: Tu lista de variables conocidas y desconocidas en el problema de Ba(OH)₂ es completa y bien categorizada, lo que evidencia comprensión real de qué información necesitas para resolver.\n• Búsqueda activa de ayuda y persistencia: Reconoces dificultades específicas (bases dihidróxidas) y buscas apoyo en IA y compañeros hasta comprenderlo. Esto muestra madurez en tu proceso de aprendizaje.",
+      "improvements": "• Clasificación explícita de variables en Fase 2: En Q1, cuando describes los temas, deberías clasificar las variables como controlables/no controlables y conocidas/desconocidas. Por ejemplo, en pH: \"el volumen es controlable (conocida), pero [H₃O⁺] es desconocida y depende de la disociación\". Esto es central en Fase 2.\n• Profundizar en la reflexión sobre dificultades (Q3): No solo menciones *qué* fue difícil, sino *por qué*. Pregúntate: ¿Confundiste moles de base con moles de OH⁻? ¿No entendías la estequiometría? Luego explica cómo lo resolviste exactamente. Esto desarrolla metacognición real.\n• Demostrar transferencia con ejemplos concretos (Q4): En lugar de decir \"se aplica a biología\", muestra un caso específico: \"En un problema de concentración de glucosa en sangre, identifiqué que el volumen de plasma es conocido, pero la concentración es desconocida\". Esto prueba que realmente transferiste el aprendizaje.",
+      "createdAt": "2025-11-17T14:50:25.726Z"
+    }
+  ]
+}

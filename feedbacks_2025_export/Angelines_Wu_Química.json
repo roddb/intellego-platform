@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "studentId": "u_4x9psb775me1bw3a3",
+    "studentName": "Angelines Wu",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.183792",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 71.0,
+      "minScore": 62,
+      "maxScore": 81,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 70,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "549840ce-de1d-4840-b8fe-8a990439874e",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "- No se identificaron fortalezas específicas.",
+      "improvements": "- No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-20T19:30:20.114Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Presentas evidencias concretas de tu proceso de aprendizaje",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los conceptos fundamentales antes de avanzar",
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Presentas evidencias concretas de tu proceso de aprendizaje",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los conceptos fundamentales antes de avanzar",
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 81,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Presentas evidencias concretas de tu proceso de aprendizaje",
+        "Identificas tus dificultades y propones estrategias de mejora",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Continúa practicando con ejercicios variados",
+        "Profundiza en aplicaciones complejas"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 77,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas tus dificultades y propones estrategias de mejora",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 73,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Presentas evidencias concretas de tu proceso de aprendizaje",
+        "Identificas tus dificultades y propones estrategias de mejora",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los conceptos fundamentales antes de avanzar"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 78,
+      "generalComments": "Querida Angelines Wu, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Presentas evidencias concretas de tu proceso de aprendizaje",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 70,
+      "generalComments": "Querida Angelines Wu, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas tus dificultades y propones estrategias de mejora",
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los conceptos fundamentales antes de avanzar",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 67,
+      "generalComments": "Querida Angelines Wu, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Realizas conexiones significativas entre la teoría y aplicaciones prácticas"
+      ],
+      "improvements": [
+        "Profundiza en la comprensión de los conceptos fundamentales antes de avanzar",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Desarrolla estrategias más específicas para superar tus desafíos"
+      ],
+      "createdAt": "2025-10-07T10:58:31.656838"
+    },
+    {
+      "feedbackId": "84e78604-52b9-43f6-892b-d80aef989e26",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:11.231Z"
+    },
+    {
+      "feedbackId": "d035afba-f794-4b5c-a78f-c15becbd40bc",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:20:38.804Z"
+    },
+    {
+      "feedbackId": "076507ad-d178-46de-b4ca-889a6ea0bd5f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:43:44.417Z"
+    },
+    {
+      "feedbackId": "95cf7535-52da-4414-9be2-33f62ef4ff22",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:23:44.333Z"
+    },
+    {
+      "feedbackId": "393649c0-e85c-4f21-ba78-56bb0319b4ac",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Excelente trabajo esta semana. Tu reporte muestra un estudiante reflexivo que reconoce su progreso y se propone estrategias concretas para mejorar. El ejercicio del Mg²⁺ está bien resuelto, y tu idea de usar la tabla periódica como herramienta visual es muy práctica.\n\nTu desempeño general es sólido en nivel 3: comprendes los conceptos básicos de formación de iones y eres consciente de tus dificultades. Lo que te falta para alcanzar nivel 4 es sistematizar más: clasificar variables explícitamente, profundizar en el análisis de tus dificultades y transferir lo aprendido a problemas nuevos sin ayuda.\n\nPara la próxima semana, te propongo: (1) Crea una tabla de variables para cada ejercicio que resuelvas, (2) Practica con 3-4 elementos nuevos (Na, Cl, O) usando tu estrategia de tabla periódica, y (3) Resuelve un problema que no hayas visto antes para verificar que realmente comprendes, no solo memorizas.",
+      "strengths": "• Autoevaluación realista y honesta: Reconoces correctamente tu nivel 3 y justificas por qué (\"el tema se está volviendo más complejo, pero pude entender mejor\"). Esto muestra madurez metacognitiva y disposición al aprendizaje.\n• Estrategia visual y práctica: Tu idea de marcar metales/no metales en la tabla periódica y anotar comportamientos es concreta y aplicable. Demuestra que estás buscando herramientas reales para resolver tus dificultades.\n• Progreso visible y motivación: Expresas claramente que \"cada semana voy entendiendo un poco más\" y que resolviste el ejercicio del Mg²⁺ de forma independiente. Esto refleja crecimiento real y confianza en tu proceso de aprendizaje.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, identifica explícitamente qué variables son conocidas (número atómico del Mg = 12) y cuáles desconocidas (configuración final del ion). Esto es central en Fase 2 y te acercará a nivel 4. Crea una tabla simple: Variable | Conocida/Desconocida | Controlable/No controlable.\n• Profundidad en la reflexión metacognitiva: En Q3, no solo digas \"me cuesta distinguir metales de no metales\", sino analiza *por qué*: ¿confundes la posición en la tabla? ¿Olvidas excepciones? ¿Te falta práctica? Esto te permitirá diseñar estrategias más precisas y efectivas.\n• Transferencia a problemas nuevos: En Q4, conecta los conceptos con un problema que NO hayas visto en clase. Por ejemplo: \"Si el Cl gana 1 electrón, ¿qué ion forma? ¿Cómo lo sé?\" Esto demuestra verdadera comprensión y aplicación, no solo repetición.",
+      "createdAt": "2025-10-27T04:56:15.682Z"
+    },
+    {
+      "feedbackId": "1f5304ce-0801-48ff-9e04-a5a2552208e0",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Excelente trabajo esta semana. Tu reporte muestra que estás comprendiendo genuinamente la TRPEV y que tu esfuerzo está dando resultados. Me alegra ver cómo conectas lo nuevo con lo anterior y cómo reconoces tu propio progreso—eso es muy importante en Química.\n\nTu desempeño es sólido en comprensión conceptual, pero necesitas ser más riguroso en la *metodología* de Fase 2. Identificar variables no es solo nombrarlas; es clasificarlas, entender sus relaciones y aplicar ese análisis sistemáticamente. Esto te preparará mejor para fases posteriores.\n\nPara la próxima semana, te propongo: toma una molécula que no hayamos visto en clase (por ejemplo, NH₄⁺ o BF₃) y analiza sus variables siguiendo el esquema de clasificación (conocidas/desconocidas, controlables/no controlables). Esto consolidará tu dominio de Fase 2.",
+      "strengths": "• Integración clara de fases previas: Conectas explícitamente lo aprendido sobre enlaces covalentes y electrones de valencia con la geometría molecular actual. Esto muestra que estás construyendo conocimiento de forma coherente, no aislada.\n• Estrategia de aprendizaje efectiva y reflexiva: Tu propuesta de crear esquemas visuales con formas, ángulos y ejemplos es práctica y demuestra metacognición. Además, reconoces que comparar moléculas reales (H₂O, NH₃, CO₂) te ayuda a entender patrones.\n• Actitud positiva y perseverancia: Tu comentario final refleja esfuerzo genuino y reconocimiento de tu progreso. Pasaste de sentirte \"perdida\" a comprender relaciones entre temas, lo que es un logro importante en Química.",
+      "improvements": "• Clasificación explícita de variables: En tus respuestas no distingues entre variables conocidas/desconocidas ni controlables/no controlables. Por ejemplo, en el CO₂: el número de pares enlazantes (2) es *conocido y no controlable*, mientras que el ángulo de enlace (180°) es *deducible*. Practica esta clasificación en cada ejercicio.\n• Análisis sistemático de magnitudes físicas: Mencionas ángulos de enlace pero no los tratas como magnitudes físicas medibles. Intenta identificar explícitamente qué magnitudes intervienen (ángulos, distancias, energía) y cómo se relacionan con las variables de pares electrónicos.\n• Transferencia a problemas nuevos: Tus conexiones son con temas ya vistos. Para Fase 2, necesitas demostrar que *aplicas* la identificación de variables a moléculas o fenómenos que no hemos trabajado en clase. Propón un ejemplo propio y analiza sus variables.",
+      "createdAt": "2025-11-12T22:52:21.741Z"
+    },
+    {
+      "feedbackId": "4f1fecbc-a1a0-4324-9889-d7c25c154a9b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Felicidades por tu desempeño en la prueba y por mantener una actitud reflexiva sobre tu aprendizaje. Veo que comprendiste bien los contenidos de geometría molecular y que el trabajo colaborativo te ayudó a consolidar tus ideas. Tu propuesta de crear un cuadro comparativo es excelente y muestra que estás buscando estrategias para organizar la información.\n\nSin embargo, en esta Fase 2 necesitas ser más sistemático en la *identificación y clasificación de variables*. Tu reporte describe lo que aprendiste, pero no evidencia el proceso metodológico de cómo identificaste qué era variable, cuál era conocida, cuál desconocida, etc. Esto es central en Fase 2.\n\nPara la próxima semana, te invito a que documentes explícitamente cada variable en los problemas que resuelvas, las clasifiques claramente y muestres cómo esa clasificación te ayudó a resolver el problema. Esto fortalecerá tu pensamiento crítico y te preparará mejor para fases posteriores.",
+      "strengths": "• Integración conceptual clara: Expresas con seguridad cómo los temas se conectan (\"desde cuántos electrones tiene un elemento hasta cómo se acomoda la molécula en el espacio\"). Esto demuestra que comprendiste la progresión lógica de los contenidos.\n• Metacognición y autoconciencia: Reconoces tus dificultades específicas (pares libres, deducción de formas) y propones estrategias concretas (cuadro comparativo). Esto muestra que reflexionas sobre tu propio aprendizaje.\n• Motivación y actitud positiva: Tu tono es reflexivo y constructivo. Mencionas que \"saliste con buena sensación\" y que esto te motiva, lo cual es fundamental para mantener el compromiso con el aprendizaje.",
+      "improvements": "• Falta de clasificación sistemática de variables: No identificas explícitamente qué variables eran conocidas/desconocidas o controlables/no controlables en los problemas de la prueba. Sugerencia: En tu próximo reporte, lista las variables de cada problema y clasifícalas. Por ejemplo: \"En la molécula de H₂O: variable conocida = número de electrones de valencia; variable desconocida = ángulo de enlace.\"\n• Evidencia incompleta de Fase 1 + Fase 2: Describes el trabajo colaborativo pero no muestras cómo aplicaron sistemáticamente el planteamiento del problema (Fase 1) antes de identificar variables (Fase 2). Sugerencia: Documenta el proceso paso a paso: primero, ¿cuál era la pregunta exacta? Segundo, ¿qué variables necesitaban identificar? Tercero, ¿cómo las clasificaron?\n• Transferencia limitada a nuevos contextos: Tu análisis se centra en la prueba realizada, pero no muestras cómo aplicarías esta metodología a un problema diferente (por ejemplo, una molécula no vista en clase). Sugerencia: Propón un ejemplo propio de una molécula y demuestra cómo identificarías sus variables siguiendo el método de Fase 1+Fase 2.",
+      "createdAt": "2025-11-17T13:45:59.064Z"
+    }
+  ]
+}

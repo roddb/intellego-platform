@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "studentId": "u_pccwk930omdyo4q46",
+    "studentName": "Felipe Muttini Pagadizabal",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.199463",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 32.5,
+      "minScore": 27,
+      "maxScore": 38,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-29"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_mdyo4q46_2025-08-11_90edda6c",
+      "weekStart": "2025-08-11",
+      "score": 38,
+      "generalComments": "Felipe, tu reporte de esta semana muestra engagement muy limitado con el contenido y el proceso de aprendizaje. Las respuestas son excesivamente breves y genéricas, sin profundidad analítica. El comentario sobre 'autonomía excesiva' sugiere frustración legítima, pero las respuestas 'N/A' en tres preguntas fundamentales indican falta de esfuerzo por documentar tu proceso de aprendizaje real.",
+      "strengths": [
+        "Comunicación honesta sobre la percepción de la dinámica de clase: nos estamos manejando de manera muy autónoma, demasiado autónoma",
+        "Identificación del tema general trabajado: reacciones químicas"
+      ],
+      "improvements": [
+        "CRÍTICO: Completar todas las preguntas del reporte con respuestas sustanciosas. N/A no constituye evidencia de aprendizaje ni permite al instructor ayudarte",
+        "Proporcionar evidencia concreta de qué hiciste durante la semana, aunque sea mínimo: ¿qué apuntes leíste? ¿qué ejercicios intentaste? ¿qué conceptos estudiaste?",
+        "Identificar dificultades específicas que experimentaste en lugar de responder N/A. Si no hiciste nada, explicar por qué y qué necesitas para engagement",
+        "Establecer al menos una conexión básica con conocimientos previos o aplicaciones de las reacciones químicas",
+        "Elaborar tu comentario sobre autonomía: ¿qué específicamente necesitarías del instructor? ¿qué tipo de apoyo sería útil? ¿qué obstáculos enfrentas con el modelo actual?",
+        "Usar el reporte como oportunidad de comunicación constructiva con el instructor, no como formulario a evadir"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "830d8776-2dd6-463a-acd8-41c97a761a5d",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:45:03.787Z"
+    }
+  ]
+}

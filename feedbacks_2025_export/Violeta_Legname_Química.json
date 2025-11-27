@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "studentId": "u_1wjc7u8gpme1bxkgh",
+    "studentName": "Violeta Legname",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.242106",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 58.15,
+      "minScore": 43,
+      "maxScore": 76,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 59,
+      "generalComments": "Querida Violeta Legname, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Reconoces con precisión los objetivos de aprendizaje en esta fase inicial del pensamiento crítico. Identificas dificultades específicas en la comprensión del problema cuando mencionas la falta de conocimiento general de gases ideales. Es importante mejorar la identificación precisa de qué se busca resolver en cada problema. Desarrolla estrategias más específicas para superar tus desafíos más allá de \"leer mucho\". Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente características del pensamiento crítico al distinguir entre actitud pasiva y activa",
+        "Reconoces con precisión los objetivos de aprendizaje en esta fase",
+        "Realizas conexiones interesantes entre pensamiento crítico y filosofía"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje más allá del método general",
+        "Desarrolla estrategias más específicas para superar tus desafíos, identificando qué aspectos concretos de la lectura te resultan difíciles",
+        "Busca aplicaciones prácticas del pensamiento crítico en situaciones cotidianas de química"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Querida Violeta Legname, estás trabajando adecuadamente en la Fase 2: Identificación de variables y datos, demostrando comprensión de recopilar información y avance sostenido. Organizas adecuadamente los datos del problema de los neumáticos de la bicicleta. Identificas dificultades con variables específicas, reconociendo el aspecto químico del problema. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada, especialmente con variables derivadas y matrices. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Mejora la claridad en expresar cómo clasificas las variables (conocidas, desconocidas, controlables). Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Organizas adecuadamente los datos y la información disponible del problema",
+        "Identificas dificultades específicas con tipos de variables como las derivadas",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al pedir más explicación"
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada, especialmente con variables derivadas y la matriz 2x2",
+        "Debes trabajar en la identificación precisa de todas las variables involucradas en el problema",
+        "Es importante profundizar en la comprensión del contexto químico antes de avanzar a herramientas"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 64,
+      "generalComments": "Querida Violeta Legname, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Aplicaste la ecuación PV=nRT correctamente para calcular n. Realizas conexiones interesantes entre gases ideales y situaciones cotidianas como inflar globos y ruedas. Es fundamental consolidar tu comprensión de las relaciones entre variables antes de aplicar ecuaciones. Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Trabaja en la organización de tu tiempo para entender la teoría antes de los formularios. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicaste la ecuación PV=nRT para calcular n, mostrando uso de herramientas básicas",
+        "Realizas conexiones interesantes entre gases ideales y vida cotidiana como globos y neumáticos",
+        "Reconoces con honestidad tu dificultad para aplicar la teoría"
+      ],
+      "improvements": [
+        "Es fundamental consolidar tu comprensión de las relaciones entre variables-ecuaciones antes de ejecutar cálculos",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas, no solo memorizar fórmulas",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas como PV=nRT",
+        "Mejora la organización de tu trabajo y gestión del tiempo para comprender teoría antes de los formularios"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Querida Violeta Legname, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutaste correctamente el problema completo con la fórmula de transformación P₁V₁/T₁=P₂V₂/T₂ obteniendo un resultado preciso. Demuestras capacidad de reflexión sobre tu propio proceso al reconocer que te trabas en fase 1. Es importante mejorar la planificación de tu estrategia identificando primero el problema antes de ejecutar cálculos. Necesitas fortalecer la fase 1 (identificación del problema) antes de poder ejecutar con confianza. Es importante que el método te resulte útil, hablemos sobre cómo adaptarlo a tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutaste correctamente el problema de transformación de gases con la fórmula P₁V₁/T₁=P₂V₂/T₂",
+        "Obtuviste un resultado numérico preciso (T₂=202K, -71°C) mostrando aplicación práctica",
+        "Demuestras capacidad de reflexión sobre tu propio proceso al identificar que te trabas en fase 1"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, asegurándote de entender qué pide el problema (fase 1)",
+        "Necesitas ser más sistemática en identificar el problema antes de aplicar fórmulas",
+        "Es fundamental que el método te resulte útil - conversemos sobre adaptaciones que puedan ayudarte mejor"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 76,
+      "generalComments": "Querida Violeta Legname, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas como PV=nRT y m=n·M. Identificas correctamente las relaciones entre variables para encontrar la masa de nitrógeno. Realizas conexiones interesantes entre ecuación de estado y cambio climático en la atmósfera terrestre. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas, especialmente las del grupo B. Mejora la organización de tu trabajo evitando confusión entre formularios de distintas materias. Sigue así y podrás alcanzar niveles de excelencia. Vas por buen camino.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para gases ideales como PV=nRT y m=n·M",
+        "Identificas correctamente las relaciones entre variables para calcular masa de nitrógeno",
+        "Realizas conexiones interesantes entre ecuación de estado de gases y cambio climático atmosférico",
+        "Reconoces con precisión tu nivel de dominio en las cuatro fases"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas, especialmente fórmulas del grupo B en transformaciones",
+        "Debes trabajar en la identificación precisa de cuándo usar cada grupo de fórmulas",
+        "Mejora la organización de tu trabajo y presentación de ideas, evitando confusión entre formularios de diferentes materias"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxkgh_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 74,
+      "generalComments": "Querida Violeta Legname, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas y fórmulas para transformaciones de gases. Identificas correctamente la fórmula P₁V₁/T₁=P₂V₂/T₂ obteniendo resultado preciso de 4942mmHg. Realizas conexiones interesantes entre gases ideales y múltiples aplicaciones cotidianas como neumáticos, globos y equipo de buceo. Identifica con mayor precisión las dificultades que enfrentas más allá de mencionar \"uso de algunas fórmulas\". Desarrolla estrategias más específicas para superar tus desafíos con fórmulas particulares. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente la fórmula de transformación P₁V₁/T₁=P₂V₂/T₂ para cambios de estado",
+        "Identificas correctamente las relaciones entre presión, volumen y temperatura obteniendo resultado preciso",
+        "Realizas conexiones interesantes entre gases ideales y múltiples contextos: inflado de neumáticos, globos y equipo de buceo",
+        "Manejas bien el uso de las fórmulas según tu autoevaluación de nivel 3"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión las dificultades que enfrentas, especificando qué fórmulas o tipos de problemas te resultan complejos",
+        "Desarrolla estrategias más específicas para superar tus desafíos con fórmulas particulares",
+        "Debes trabajar en resolver problemas más complejos para consolidar tu nivel 3 y avanzar hacia nivel 4"
+      ],
+      "createdAt": "2025-10-07T12:00:00Z"
+    },
+    {
+      "feedbackId": "5b3a77e2-8b57-4c9f-9284-debb7ed19b44",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:54.195Z"
+    },
+    {
+      "feedbackId": "1da84ca7-08f2-42cb-9001-d557ac0b233a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:52.974Z"
+    },
+    {
+      "feedbackId": "dc311286-cb48-4b47-84c4-0017f5c9f268",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:43:43.983Z"
+    },
+    {
+      "feedbackId": "6e90e1c4-3ff6-4073-a4d6-9f0bafdced9c",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:22:46.725Z"
+    },
+    {
+      "feedbackId": "8a3db14e-85c2-46fe-a7e5-42a2e4c3c96f",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando en serio y que comprendes los conceptos básicos de uniones químicas. Tu ejemplo del CO₂ es sólido y muestra que *sí puedes* analizar variables cuando te enfocas. Sin embargo, tu reporte está incompleto: falta sistematización en la clasificación de variables y reflexión profunda en varias preguntas.\n\nEsta semana has avanzado en comprensión conceptual, pero necesitas ser más metódico en la *identificación y clasificación* de variables, que es el corazón de la Fase 2. No es suficiente entender el concepto; debes aprender a descomponerlo en variables específicas.\n\nPara la próxima semana, te propongo: (1) en cada problema, escribe explícitamente qué variables son conocidas/desconocidas y controlables/no controlables; (2) elige una estrategia visual para lo abstracto (modelos 3D o diagramas) y úsala consistentemente; (3) completa todas las preguntas del reporte, especialmente Q5, con reflexión genuina sobre tu proceso.",
+      "strengths": "• Reconocimiento honesto de dificultades: Admites claramente que los conceptos abstractos te cuestan (\"me cuesta visualizar\") y solicitas ayuda práctica. Esto muestra autoconciencia y disposición para mejorar.\n• Aplicación correcta en ejemplo concreto: En el análisis del CO₂, identificas correctamente que aunque los enlaces C-O sean polares, la geometría lineal compensa las cargas. Esto demuestra comprensión de cómo las variables interactúan.\n• Conexión con contexto real: Relacionas las uniones químicas con experimentos de laboratorio, mostrando que intentas vincular teoría con práctica, aunque necesites desarrollar esto más.",
+      "improvements": "• Clasificación explícita de variables: En tus respuestas, debes identificar qué es variable conocida/desconocida y controlable/no controlable. Por ejemplo, en el CO₂: \"electronegatividad = conocida y no controlable; geometría = conocida y no controlable; polaridad = desconocida a resolver\". Practica esto en cada problema.\n• Estrategias concretas para lo abstracto: En lugar de decir \"me cuesta visualizar\", propón soluciones específicas: usa modelos moleculares 3D, dibuja diagramas de Lewis paso a paso, o crea tablas comparativas de tipos de enlace. Elige una estrategia y aplícala esta semana.\n• Completar Q5 con reflexión genuina: Dedica tiempo a escribir qué aprendiste sobre *cómo identificar variables*, cómo evolucionaste desde la Fase 1, y qué preguntas te quedan. Esto es esencial para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-27T05:05:05.791Z"
+    },
+    {
+      "feedbackId": "1e4e7042-6370-403a-9a82-b6122532dc72",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Valoro tu honestidad al reconocer que esta semana no fue productiva en Química. Eso demuestra que eres consciente de tu proceso de aprendizaje, lo cual es fundamental. Sin embargo, necesitamos cambiar de estrategia: en lugar de esperar a \"entender todo\", comienza por identificar las partes pequeñas del tema.\n\nTu desempeño esta semana fue inicial, pero esto es normal cuando un tema es nuevo y abstracto. Lo importante es que ya identificaste el problema y estás dispuesto a actuar. Eso es un buen punto de partida.\n\nPara la próxima semana, te propongo un cambio: en lugar de intentar entender \"uniones químicas\" completo, enfócate en una sola pregunta: \"¿Qué es un electrón de valencia?\" Busca la respuesta, dibuja un ejemplo, y luego identifica qué variables están presentes (número de electrones, energía, distancia). Pequeños pasos generan grandes cambios.",
+      "strengths": "• Autoconciencia y honestidad: Reconoces claramente que no comprendiste el tema esta semana. Esta honestidad es el primer paso para mejorar y muestra madurez en tu autoevaluación.\n• Disposición a buscar ayuda: Propones estrategias constructivas como pedir apoyo al profesor o compañeros. Esto demuestra que entiendes que necesitas intervención y estás dispuesto a actuar.\n• Conexión creativa con contextos reales: Tu analogía entre moléculas y arquitectura muestra que intentas relacionar conceptos abstractos con situaciones concretas, lo cual es una habilidad valiosa.",
+      "improvements": "• Identificación de variables específicas: Aunque no entiendas uniones químicas completamente, intenta listar qué elementos intervienen (átomos, electrones, energía, distancia entre núcleos). Haz una lista simple, aunque sea con dudas. Esto es el primer paso de la Fase 2.\n• Documentación de ejercicios o ejemplos: No esperes a ejercicios formales. Toma un ejemplo del libro o de clase sobre uniones químicas y analiza: ¿qué cambia? ¿qué permanece igual? ¿qué puedo medir? Esto genera evidencia de aprendizaje.\n• Estrategias más específicas y medibles: En lugar de \"pedir ayuda\", planifica: \"Esta semana haré 3 sesiones de 20 minutos con el profesor para que me explique qué son los electrones de valencia y cómo se comparten en un enlace covalente.\" Sé concreto en qué, cuándo y cómo.",
+      "createdAt": "2025-11-12T23:02:21.152Z"
+    },
+    {
+      "feedbackId": "ca9ee1c3-a5ce-4937-b519-42b86e568955",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que has hecho un esfuerzo esta semana y tienes algunos conceptos claros, como la clasificación de enlaces iónicos. Sin embargo, tu reporte es muy breve y superficial para poder evaluar realmente tu comprensión de la Fase 2. Necesitas ser más específico y detallado en tus respuestas.\n\nTu desempeño general muestra que estás en un nivel inicial de dominio. Reconoces dificultades (lo cual es positivo), pero no estás desarrollando estrategias claras para superarlas. Esto es crítico: identificar el problema es solo el primer paso; necesitas actuar para resolverlo.\n\nPara la próxima semana, te pido que: (1) escribas respuestas más completas con ejemplos concretos, (2) desarrolles un plan específico para entender fuerzas intermoleculares, y (3) completes todas las secciones del reporte, especialmente Q5. Esto te ayudará a consolidar tu aprendizaje y a avanzar hacia Fase 3 con bases sólidas.",
+      "strengths": "• Identificación correcta de tipos de enlace: Tu ejemplo K-Br muestra que comprendes la diferencia entre enlaces iónicos y covalentes. La clasificación es precisa y la justificación (metal-no metal) es conceptualmente correcta.\n• Conciencia de dificultades: Reconoces que las fuerzas intermoleculares te resultan difíciles, lo que demuestra autoconciencia sobre tus limitaciones. Este es el primer paso para mejorar.\n• Intento de conexión con otras disciplinas: Vincular variables con geometría molecular muestra que intentas integrar conceptos. Es un buen instinto que debemos desarrollar más.",
+      "improvements": "• Amplía y especifica tus respuestas: Tus respuestas son demasiado cortas y generales. En Q1, en lugar de \"entendí mucho mejor\", lista 3-4 variables específicas que trabajaste (ej: \"diferencia de electronegatividad, tipo de átomo, número de electrones de valencia\"). Esto demuestra dominio real.\n• Desarrolla estrategias concretas para fuerzas intermoleculares: No basta decir que te resulta difícil. Propón cómo lo vas a resolver: \"Voy a hacer una tabla comparativa de fuerzas (dipolo-dipolo, London, puentes H)\" o \"Practicaré con 5 ejemplos diarios\". Las estrategias específicas funcionan mejor.\n• Completa todas las secciones del reporte: Q5 está vacía. Dedica tiempo a reflexionar sobre tu progreso: ¿Qué aprendiste que no sabías en Fase 1? ¿Cómo ha mejorado tu forma de identificar variables? Estos comentarios son valiosos para tu aprendizaje.",
+      "createdAt": "2025-11-17T13:59:22.036Z"
+    }
+  ]
+}

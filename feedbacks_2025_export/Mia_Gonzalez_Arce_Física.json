@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "studentId": "u_axwjy36zgme06m4sr",
+    "studentName": "Mia Gonzalez Arce",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.225258",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 43.0,
+      "minScore": 43,
+      "maxScore": 43,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-25",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_me06m4sr_2025-08-25_001",
+      "weekStart": "2025-08-25",
+      "score": 43,
+      "generalComments": "Hola Mia Gonzalez Arce, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Física. Identificas el problema y objetivo del ejercicio de tiro oblicuo correctamente. Sin embargo, necesitas profundizar en la comprensión del contexto y proporcionar evidencias más concretas y específicas de tu proceso de aprendizaje. Identifica con mayor precisión las dificultades que enfrentas al resolver problemas. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Identificas el problema principal del ejercicio: determinar la altura máxima de la pelota.",
+        "Reconoces el objetivo de aprendizaje al mencionar tiro oblicuo.",
+        "Haces conexiones básicas entre tiro oblicuo, tiro vertical y caída libre."
+      ],
+      "improvements": [
+        "Desarrolla respuestas más completas en Q1, explicando qué aprendiste sobre tiro oblicuo en lugar de solo nombrarlo.",
+        "En Q3, especifica exactamente qué dificultades enfrentaste (¿las ecuaciones? ¿la identificación de datos? ¿la comprensión del problema?) y propón estrategias concretas.",
+        "Utiliza Q5 para reflexionar sobre tu proceso de aprendizaje, comentando qué te resultó interesante o qué más te gustaría aprender."
+      ],
+      "createdAt": "2025-10-07T17:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "83cbd70b-ce50-4fd8-8b21-98885364e4d5",
+    "studentName": "Ignacio Falcon",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.204089",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 34.0,
+      "minScore": 34,
+      "maxScore": 34,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-10-13T03:00:00.000Z",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "d2b0d6ec-fe66-4b1c-bfe2-4c95d9f7efac",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:51.231Z"
+    },
+    {
+      "feedbackId": "832965cb-063d-40b2-9618-6d8101578c89",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:46:49.495Z"
+    }
+  ]
+}

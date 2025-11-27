@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_4prlxg2qvme1bx6m7",
+    "studentName": "Bautista Attanasio",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.184352",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 63.5,
+      "minScore": 62,
+      "maxScore": 65,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me1bx6m7_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Querido Bautista Attanasio,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Reconoces las conexiones con temas previos como moles, tabla periódica y fórmulas.\n\nNecesitas fortalecer tu criterio para seleccionar las herramientas apropiadas y explicar con mayor detalle qué fórmulas usas y por qué. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces las conexiones con temas previos como moles, tabla periódica y fórmulas para gases ideales.",
+        "Identificas que puedes relacionar contenido nuevo con temas ya vistos de la segunda unidad.",
+        "Muestras apertura al trabajar con ejercicios de complejidad creciente en gases ideales."
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, especificando qué fórmulas usas en cada caso.",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas al resolver problemas de gases.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, detallando los pasos que seguiste."
+      ],
+      "createdAt": "2025-10-07T19:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bx6m7_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Querido Bautista Attanasio,\n\nTe encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Reconoces la importancia de identificar el problema y trabajar con variables químicas.\n\nDebes trabajar en la identificación precisa de todas las variables involucradas en cada problema. Es importante mejorar la organización y clasificación de los datos disponibles, detallando qué variables son conocidas y cuáles desconocidas.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces la importancia de identificar el problema y recopilar información antes de resolver.",
+        "Identificas con claridad qué parte del proceso te resulta difícil (las variables químicas).",
+        "Demuestras perseverancia al trabajar con ejercicios que presentan desafíos en la identificación de variables."
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas, especificando cuáles son conocidas y cuáles desconocidas.",
+        "Es importante mejorar la organización y clasificación de los datos disponibles en cada problema.",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, ejemplificando qué variables identificaste en cada ejercicio."
+      ],
+      "createdAt": "2025-10-07T19:30:00Z"
+    }
+  ]
+}

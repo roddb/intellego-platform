@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "studentId": "12a88f9e-5373-438d-a643-380f1bef59eb",
+    "studentName": "Tomas Garay",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.236964",
+    "statistics": {
+      "totalFeedbacks": 9,
+      "feedbacksWithScore": 9,
+      "averageScore": 36.83,
+      "minScore": 27,
+      "maxScore": 57.5,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_1bef59eb_2025-08-11_f3599dc0",
+      "weekStart": "2025-08-11",
+      "score": 57.5,
+      "generalComments": "Tomás, tu reporte muestra comprensión parcial de la Fase 2 (identificación de variables). Proporcionas evidencia concreta de trabajo realizado con el ejercicio 3, aplicando F1 y F2, pero el desarrollo es limitado y falta profundidad en el análisis de dificultades, estrategias y conexiones.",
+      "strengths": [
+        "Reconoces honestamente tu nivel actual (nivel 2) y las razones específicas: tema incompleto y dificultad para visualizar aplicaciones",
+        "Proporcionas evidencia específica de trabajo con el ejercicio 3, describiendo la secuencia de fases aplicadas (F1→F2→matriz de variables)",
+        "Identificas una dificultad concreta: ejercicios con muchos pasos y etapas que generan confusión"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con mayor detalle: ¿qué variables específicas identificaste en el ejercicio 3? ¿cómo las clasificaste? ¿qué muestra la matriz de variables que completaste?",
+        "Elaborar estrategias concretas para manejar ejercicios con múltiples pasos: ¿estás usando diagramas de flujo? ¿listas de verificación? ¿división en subproblemas?",
+        "Establecer al menos una conexión básica con conocimientos previos o aplicaciones potenciales del equilibrio químico, aun cuando el tema esté incompleto",
+        "Incluir comentarios adicionales sobre qué necesitarías para mejorar tu visualización de aplicaciones de los conceptos",
+        "Reflexionar sobre tu proceso de aprendizaje: ¿qué funcionó bien al trabajar el ejercicio 3? ¿qué cambiarías en tu enfoque?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_1bef59eb_2025-08-18_09976309",
+      "weekStart": "2025-08-18",
+      "score": 53,
+      "generalComments": "Tomás, este reporte muestra engagement mínimo con respuestas extremadamente breves que no demuestran aplicación de la Fase 3 (selección de herramientas y relaciones). Aunque mencionas que vieron 'la teoría de equilibrio químico y para qué sirven las variables', no proporcionas evidencia de haber trabajado con ejercicios ni de comprender la selección de herramientas matemáticas.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de dominio (nivel 2) y la razón específica: no haber comenzado con ejercicios prácticos",
+        "Identificas una dificultad concreta con las fórmulas: te resultan confusas porque las variables están interconectadas"
+      ],
+      "improvements": [
+        "CRÍTICO: Iniciar la práctica de ejercicios aplicando F1 y F2. La teoría sin práctica no permite desarrollar las habilidades de pensamiento crítico que son el objetivo central de esta metodología",
+        "Desarrollar respuestas más elaboradas que evidencien reflexión profunda sobre el proceso de aprendizaje, incluso cuando la actividad haya sido principalmente teórica",
+        "Establecer conexiones explícitas entre la teoría vista y cómo podría aplicarse a problemas concretos, incluso antes de resolverlos formalmente",
+        "Buscar activamente relaciones con otras materias. La termodinámica tiene múltiples conexiones con Química, Matemática y otras áreas del conocimiento"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "306f1e6a-8ae7-4129-ab54-dce2462313d3",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:46:23.829Z"
+    },
+    {
+      "feedbackId": "ada7b858-49b4-4b94-9a8f-d49c778d558b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:11:59.651Z"
+    },
+    {
+      "feedbackId": "a33674bf-5269-455f-93ba-68e354af811a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:33:25.561Z"
+    },
+    {
+      "feedbackId": "f8d3352c-1c2b-432f-9f64-64c423512f8d",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:05:22.426Z"
+    },
+    {
+      "feedbackId": "72e88cba-023e-46fb-b4e4-05b48f7ec044",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:00.957Z"
+    },
+    {
+      "feedbackId": "b55093fa-3689-480f-ae88-4f1b2b6d450e",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Tu reporte requiere atención inmediata. Las respuestas están incompletas y no reflejan el trabajo realizado en clase sobre identificación de variables. Entiendo que a veces es difícil expresar lo que aprendiste, pero necesitas hacer un esfuerzo mayor para que podamos evaluar realmente tu comprensión.\n\nTe animo a que dediques tiempo a responder cada pregunta con detalle. Esto no solo te ayudará a obtener una mejor calificación, sino que te permitirá consolidar tu aprendizaje y desarrollar el pensamiento crítico que es el objetivo de estos reportes.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu trabajo. Sin embargo, reconozco que completaste el envío del reporte, lo que muestra intención de participar en el proceso de evaluación.",
+      "improvements": "1. Desarrolla respuestas específicas y detalladas\nTu respuesta repetida \"Vimos teoría del tema nuevo\" no proporciona información sobre qué variables identificaste. Necesitas escribir al menos 3-4 líneas por pregunta, mencionando ejemplos concretos de variables (temperatura, presión, concentración, etc.).\n\n2. Aplica la estructura de Fase 2 sistemáticamente\nPara cada pregunta, clasifica las variables en: conocidas/desconocidas y controlables/no controlables. Por ejemplo: \"La temperatura es una variable controlable y conocida; la velocidad de reacción es desconocida y no controlable.\"\n\n3. Reflexiona sobre tu propio aprendizaje\nEn Q3 y Q5, debes escribir qué te costó entender, qué estrategias usaste para superarlo y cómo evolucionaste desde la Fase 1. Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-21T06:44:21.013Z"
+    },
+    {
+      "feedbackId": "77a5a20e-38c6-46b8-b579-2183d01860fe",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que esta semana has tenido dificultades significativas con el tema de ácidos y bases, y lo reconoces honestamente. Eso es importante, pero necesitamos pasar de la frustración a la acción. Tu reporte está muy incompleto: las respuestas son demasiado cortas y no muestran el trabajo que realmente hiciste.\n\nLo que observo es que probablemente *sí* trabajaste con variables (concentración, pH, ionización), pero no las documentaste ni las analizaste sistemáticamente. Esto es común cuando nos sentimos abrumados, pero es exactamente lo que la Fase 2 te pide: organizar y clasificar lo que sabes.\n\nPara la próxima semana, quiero que hagas esto: toma UN ejercicio de ácidos y bases, identifica todas las variables (conocidas y desconocidas), clasifícalas, y escribe una respuesta completa a cada pregunta del reporte. No necesita ser perfecto, pero sí necesita mostrar tu pensamiento paso a paso.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que te sitúas en nivel 1 y admites las dificultades, lo que es el primer paso para mejorar. Esta sinceridad es valiosa para identificar dónde necesitas apoyo.\n• Identificación del tema específico: Mencionas que trabajas con \"porcentaje de ionización\" en ácidos y bases, lo que muestra que al menos reconoces el contenido que debes dominar.",
+      "improvements": "• Respuestas muy breves sin análisis: Tus respuestas son frases cortas que no desarrollan ideas. Necesitas escribir 2-3 párrafos por pregunta explicando *qué* variables identificas, *cómo* las clasificas y *por qué* son importantes. Por ejemplo, en Q1 deberías listar: \"Variables conocidas: concentración inicial, temperatura. Variables desconocidas: pH final, grado de ionización.\"\n• Falta de ejemplos concretos: No das ejemplos del ejercicio que mencionas. Toma el problema del porcentaje de ionización y escribe: \"En este ejercicio, la variable controlable es la concentración inicial (0.1 M), y la variable a calcular es el porcentaje de ionización.\" Esto demuestra comprensión real.\n• Ausencia de estrategias personales: En lugar de decir \"se me complica\", propón acciones: \"Voy a hacer una tabla con 3 columnas (variable, tipo, magnitud física) para cada problema\" o \"Voy a comparar dos ejercicios similares para identificar patrones.\" Las estrategias concretas te ayudan a avanzar.",
+      "createdAt": "2025-11-17T13:48:24.850Z"
+    }
+  ]
+}

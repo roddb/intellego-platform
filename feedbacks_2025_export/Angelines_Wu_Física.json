@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "studentId": "u_4x9psb775me1bw3a3",
+    "studentName": "Angelines Wu",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.183086",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 74.25,
+      "minScore": 56,
+      "maxScore": 86,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "6ff9ad3c-7310-16da-c5f0-c49e4c7bca1b",
+      "weekStart": "2025-08-04",
+      "score": 82,
+      "generalComments": "¡Excelente reporte, Angelines! Tu reflexión sobre el pensamiento crítico es profunda y sofisticada. Me impresiona especialmente cómo conectaste el contenido de Física con psicología (TCC y sesgos cognitivos), demostrando una comprensión interdisciplinaria excepcional. Tu ejemplo de la elección de casa para mudarte ilustra perfectamente cómo aplicás inconscientemente los pasos del pensamiento crítico. Tu autoevaluación ('nivel 3, a veces uso pensar común') muestra honestidad intelectual y metacognición. La única área de mejora es Q5, que quedó vacía: ¿realmente no tenés dudas o simplemente no dedicaste tiempo a reflexionar sobre ellas?",
+      "strengths": [
+        "Tu conexión interdisciplinaria con psicología (TCC, sesgos cognitivos) es excepcional y muestra pensamiento de alto nivel",
+        "El ejemplo de elegir casa para mudarte es concreto, personal y demuestra aplicación real del pensamiento crítico",
+        "Tu capacidad de diferenciar pensamiento crítico de pensamiento común ('uno está alterado por emociones') muestra comprensión conceptual sólida",
+        "Tu autoevaluación es honesta y realista: reconocés fortalezas pero también limitaciones"
+      ],
+      "improvements": [
+        "Completá Q5: incluso si no tenés dudas conceptuales, podrías reflexionar sobre aspectos que querés profundizar",
+        "Podrías expandir Q3 explicando con un ejemplo cuándo usaste pensamiento común vs. crítico",
+        "Considerá documentar más situaciones cotidianas donde aplicás PC para fortalecer la transferencia de conocimiento"
+      ],
+      "createdAt": "2025-09-30 15:34:21"
+    },
+    {
+      "feedbackId": "960ddff9-ece6-8418-6f9d-a72759b4a993",
+      "weekStart": "2025-08-11",
+      "score": 86,
+      "generalComments": "¡Sobresaliente, Angelines! Tu reporte muestra dominio excepcional de la Fase 2 (identificación de variables). Destacás por conectar Tiro Oblicuo con la metodología de pensamiento crítico (Paso 1-2) de forma explícita, y por aplicar categorías de variables (tiempo, decisión, externas) en el ejercicio de Ana. Tu capacidad para identificar una dificultad sutil (variables intermedias como el clima que afecta la velocidad de caminar) demuestra pensamiento sofisticado. Tu propuesta de mejora ('hacer más listas y verificar dos veces') es concreta y accionable. La autoevaluación ('nivel 3 porque me cuesta aplicarlo rápido cuando estoy nerviosa') muestra metacognición avanzada.",
+      "strengths": [
+        "Vinculás explícitamente el contenido físico (Tiro Oblicuo) con la metodología de pensamiento crítico (Paso 1 y 2)",
+        "Aplicás correctamente las categorías de variables: tiempo, decisión y externas en el ejercicio de Ana",
+        "Identificás una dificultad sutil y sofisticada: las variables intermedias que no son claramente controlables o incontrolables",
+        "Tu estrategia de mejora es concreta y accionable: hacer más listas y verificar dos veces"
+      ],
+      "improvements": [
+        "Expandí Q5: ¿qué aspectos específicos del pensamiento te ayudó a ordenar la metodología? ¿qué harías diferente sin ella?",
+        "Profundizá el análisis de variables intermedias: ¿cómo decidirías clasificar el clima en el problema de Ana?",
+        "Considerá agregar ejemplos de otras situaciones donde aplicaste la identificación de variables fuera del contexto escolar"
+      ],
+      "createdAt": "2025-09-30 15:35:10"
+    },
+    {
+      "feedbackId": "2557c9d2-83f1-0254-d124-1256dc531375",
+      "weekStart": "2025-08-18",
+      "score": 84,
+      "generalComments": "¡Excelente reporte, Angelines! A pesar de no haber tenido clase esta semana, tu trabajo autónomo demuestra madurez académica excepcional. Tu explicación del problema de Marta es ejemplar: identificás variables, analizás múltiples opciones (fórmula directa vs. método de componentes), y justificás la elección con criterio técnico sólido ('se adapta a altura inicial distinta de cero'). Tu honestidad al autoevaluarte 'nivel 2' por falta de clase para despejar dudas es admirable. La conexión con erupciones volcánicas y meteoritos muestra creatividad interdisciplinaria. Nuevamente, Q5 quedó vacía: esta semana era especialmente importante registrar tus dudas específicas dado el contexto de estudio autónomo.",
+      "strengths": [
+        "Tu autonomía académica es sobresaliente: lograste comprender Fase 3 sin clase presencial, demostrando capacidad de aprendizaje independiente",
+        "La explicación del problema de Marta es ejemplar: proceso completo desde identificar variables hasta justificar la elección del método de componentes",
+        "Tu criterio técnico para seleccionar herramientas es sólido: comprendés que la fórmula directa solo funciona con altura inicial cero",
+        "La conexión con fenómenos naturales (erupciones volcánicas, meteoritos) muestra pensamiento interdisciplinario creativo"
+      ],
+      "improvements": [
+        "CRÍTICO: Completá Q5, especialmente en semanas de estudio autónomo donde las dudas son más relevantes. ¿Qué conceptos necesitás reforzar con el profesor?",
+        "Documentá las dudas específicas que mencionás en Q1: ¿son sobre cuándo usar cada herramienta? ¿sobre los cálculos? ¿sobre la justificación?",
+        "Agregá más ejemplos de comparación entre métodos: ¿qué pasaría si aplicaras la fórmula directa incorrectamente en el problema de Marta?"
+      ],
+      "createdAt": "2025-09-30 16:03:36"
+    },
+    {
+      "feedbackId": "754442f6-ccdc-8f8c-be1e-7818037d3d27",
+      "weekStart": "2025-08-25",
+      "score": 82,
+      "generalComments": "Angelines, tu reporte muestra comprensión sólida de la Fase 4 (planificar + ejecutar). El ejemplo del futbolista es claro y justificás bien la elección de fórmula directa. IMPORTANTE: tu comentario 'esta segunda mitad del año me está costando mucho más y no se como hacer para mejorarlo' me preocupa. Tus scores son excelentes (82-86 puntos), pero veo que tu autoevaluación bajó de nivel 3 a nivel 2 y mencionás no sentirte preparada para examen. Esto puede indicar ansiedad académica o sobrecarga. Necesitamos hablar personalmente: tus reportes demuestran alto nivel, pero tu percepción es otra. Completar Q5 sería ideal para identificar dudas específicas.",
+      "strengths": [
+        "Comprendés perfectamente el criterio de selección de métodos según condiciones del problema (altura inicial cero → fórmula directa)",
+        "Tus conexiones con vida real (deportes) son pertinentes y facilitan la comprensión conceptual",
+        "Tu honestidad al expresar dificultades académicas muestra madurez y metacognición",
+        "El ejemplo del futbolista es completo: datos, método elegido y justificación"
+      ],
+      "improvements": [
+        "URGENTE: Completá Q5 para identificar dudas específicas. ¿Qué te genera inseguridad sobre el examen?",
+        "Hablemos personalmente sobre tu comentario de la segunda mitad del año: tus resultados son sobresalientes, pero tu percepción es diferente",
+        "Documentá ejemplos donde sí elegiste correctamente el método para reforzar tu confianza"
+      ],
+      "createdAt": "2025-09-30 16:04:32"
+    },
+    {
+      "feedbackId": "2d7887c8-f272-d855-2447-f587dd901032",
+      "weekStart": "2025-09-01",
+      "score": 71,
+      "generalComments": "Angelines, este reporte muestra una caída significativa en tu confianza y rendimiento: de 82 a 71 puntos. Tu comentario 'cuando intento hacerlo sola no me sale' es una ALERTA ROJA que requiere acción inmediata. Comprendés perfectamente las explicaciones del profesor (describís bien las 4 fases, el ejemplo del fútbol americano, las conexiones con vida real), pero experimentás un bloqueo severo en la ejecución autónoma. Este fenómeno se llama 'dependencia de modelado' y es reversible con estrategia adecuada. Tu plan de 'rehacer ejemplos sin mirar' es excelente punto de partida. URGENTE: necesitamos reunirnos para implementar andamiaje de práctica guiada antes del examen.",
+      "strengths": [
+        "Tu comprensión conceptual de las 4 fases es sólida: describís correctamente comprensión, variables, herramientas y ejecución",
+        "Identificás correctamente qué información es relevante vs. irrelevante (masa del balón no importa en tiro oblicuo)",
+        "Tu estrategia propuesta ('rehacer ejemplos sin mirar y comparar') es pedagógicamente correcta para construir autonomía",
+        "Las conexiones con contextos reales (deportes, construcciones) muestran comprensión aplicada"
+      ],
+      "improvements": [
+        "CRÍTICO: Implementar práctica guiada gradual. No saltar directamente de 'ver al profesor' a 'resolver sola'. Necesitás pasos intermedios",
+        "Crear checklist de pasos para cada tipo de problema de tiro oblicuo (alcance, altura máxima, tiempo de vuelo)",
+        "Trabajar en dupla con compañera de nivel similar para verbalizar razonamiento mientras resolvés",
+        "URGENTE: Agendar tutoría individual antes del examen para practicar con andamiaje decreciente"
+      ],
+      "createdAt": "2025-09-30 16:16:35"
+    },
+    {
+      "feedbackId": "90746049-1b5f-6baf-3e2a-937b5c142663",
+      "weekStart": "2025-09-08",
+      "score": 79,
+      "generalComments": "¡Excelente recuperación, Angelines! Tu score subió de 71 a 79 puntos, y tu reporte muestra un cambio dramático en confianza y autonomía. El problema del golfista está IMPECABLEMENTE resuelto: datos, metodología, cálculos, conclusión y reflexión. Tu comentario 'estoy avanzando y comprendiendo más' contrasta positivamente con el reporte anterior ('no me sale sola'). Lo más valioso: describís EXACTAMENTE cómo superaste la dificultad: 'utilizando ejemplos resueltos en clase como guía'. Esto demuestra que implementaste una estrategia efectiva de aprendizaje autónomo con andamiaje. La única observación: Q5 sigue vacía por 6ta vez consecutiva - completar esta pregunta te ayudaría a consolidar el aprendizaje.",
+      "strengths": [
+        "Tu resolución del problema del golfista es ejemplar: datos completos (40 m/s, 42°, 120m, 150m), metodología clara (variables→componentes→ecuaciones→resultado 162m)",
+        "Identificás EXACTAMENTE la estrategia que te ayudó: 'usar ejemplos resueltos como guía'. Esta metacognición es clave para aprendizaje autónomo",
+        "Tu progreso es evidente: pasaste de 'no me sale sola' (reporte 5) a 'pude aplicar correctamente los pasos' (reporte 6)",
+        "La conexión con MRU/MRUV mostrando elementos comunes (componentes de velocidad, aceleración) demuestra pensamiento relacional"
+      ],
+      "improvements": [
+        "Completá Q5: después de resolver exitosamente, ¿qué conceptos querés consolidar? ¿qué situaciones te generan dudas?",
+        "En Q1, especificá QUÉ conceptos trabajaste (nombraste 'mismo tema' pero no lo explicaste)",
+        "Documentá más ejemplos de problemas que resolviste exitosamente para reforzar tu confianza con evidencia concreta"
+      ],
+      "createdAt": "2025-09-30 16:19:13"
+    },
+    {
+      "feedbackId": "a67c8aad-8192-d0ec-630a-c220d11551f2",
+      "weekStart": "2025-09-15",
+      "score": 73,
+      "generalComments": "Angelines, tu reporte muestra honestidad excepcional y metacognición profunda. Aunque tu score bajó a 73 puntos (vs 79 anterior), tu análisis de dificultades en Q3 es el MÁS VALIOSO de todos tus reportes: identificás la raíz del problema (trigonometría desde Matemática), el factor psicológico ('dudo mucho, siento que está mal'), y proponés una estrategia pedagógicamente perfecta (practicar trigonometría aislada, luego integrar). Tu reflexión 'antes pensaba que Física era imposible, ahora veo que no lo es' muestra crecimiento en autoconcepto académico, aunque reconocés estar 'más atrasada que en Química'. La baja se debe principalmente a menor práctica esta semana (contexto), no a retroceso conceptual.",
+      "strengths": [
+        "Tu análisis metacognitivo es excepcional: identificás la raíz (trigonometría en Matemática) Y el factor psicológico (dudas, inseguridad)",
+        "La estrategia propuesta es pedagógicamente perfecta: aislar la dificultad (sen/cos), dominarla, y luego integrar al contexto de tiro oblicuo",
+        "Tu cambio de autoconcepto académico ('antes imposible, ahora veo que puedo avanzar') es fundamental para el aprendizaje",
+        "Reconocés la importancia de separar movimiento horizontal/vertical, concepto clave de tiro oblicuo"
+      ],
+      "improvements": [
+        "URGENTE: Implementá tu estrategia de practicar trigonometría. Necesitás consolidar sen/cos antes del examen",
+        "Trabajá el factor psicológico: 'sentir que está mal' sin verificar genera parálisis. Usá checklist para validar cada paso",
+        "Aumentá práctica de Física: estás 'más atrasada que en Química' (tus palabras). Dedicá tiempo específico fuera de clase",
+        "Completá Q5 (7mo reporte vacío): ¿qué dudas específicas tenés sobre sen/cos en tiro oblicuo?"
+      ],
+      "createdAt": "2025-09-30 16:20:35"
+    },
+    {
+      "feedbackId": "e46c2c64-da96-4fd7-bb79-f67b34ee7567",
+      "weekStart": "2025-09-22",
+      "score": 82,
+      "generalComments": "¡EXCELENTE CIERRE, Angelines! Tu último reporte muestra una RECUPERACIÓN COMPLETA: score 82 puntos, regresando al nivel de tus primeros reportes (82-86). Los cambios cualitativos son extraordinarios: 'me empieza a salir mejor', 'mucha mejoría', 'me siento mucho más segura', 'puedo abordar problemas por mi propia cuenta'. Este contraste con reportes 5 ('no me sale sola') y 7 ('dudo mucho') demuestra que la práctica autónoma (actividades asincrónicas) fue TRANSFORMADORA. El problema de la jabalina está impecablemente resuelto con metodología completa. Tu trayectoria completa (82→86→84→82→71→79→73→82) muestra que lograste superar la crisis de confianza. ¡Felicitaciones por tu perseverancia!",
+      "strengths": [
+        "Tu recuperación a 82 puntos demuestra que la práctica autónoma funcionó: 'después de practicar bastante ya me empieza a salir mejor'",
+        "El cambio de autoconcepto es notable: de 'Física era imposible' (reporte 7) a 'me siento mucho más segura para la prueba' (reporte 8)",
+        "El problema de la jabalina muestra dominio completo: fórmula directa para H, cálculo secuencial de T→R, aplicación de 4 fases",
+        "Identificás con precisión tus dificultades residuales: altura inicial ≠ 0, decisión rápida de fórmulas - esto es metacognición avanzada"
+      ],
+      "improvements": [
+        "Consolidá tu estrategia: practicar problemas con altura inicial ≠ 0 específicamente (tu dificultad identificada)",
+        "Creá un árbol de decisión de fórmulas: dado un problema, qué condiciones llevan a qué fórmula",
+        "Completá Q5 en futuros reportes: después de esta recuperación exitosa, ¿qué dudas específicas tenés para el examen?"
+      ],
+      "createdAt": "2025-09-30 16:21:37"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bw3a3_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 83,
+      "generalComments": "Hola Angelines Wu, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas los pasos de resolución de manera ordenada y lógica en problemas de tiro oblicuo. Integras exitosamente los conocimientos de las cuatro fases en la resolución sistemática. Realizas conexiones interesantes entre las estrategias de Química y Física. Proporciona evidencias más concretas y específicas de tu proceso de reflexión metacognitiva. Es importante profundizar más en los comentarios adicionales para alcanzar comprensión completa. Tu progreso es notable. Continúa trabajando con esta dedicación.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica en problemas de tiro oblicuo",
+        "Integras exitosamente los conocimientos de las cuatro fases en la resolución sistemática",
+        "Realizas conexiones interesantes entre las estrategias de Química y Física"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de reflexión metacognitiva",
+        "Es importante profundizar más en los comentarios adicionales para alcanzar comprensión completa",
+        "Mantén mayor constancia y regularidad en completar todas las secciones del reporte"
+      ],
+      "createdAt": "2025-10-10T19:30:00Z"
+    },
+    {
+      "feedbackId": "046641b7-a93a-4467-a2d3-1a6a96138c96",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:53:11.385Z"
+    },
+    {
+      "feedbackId": "c4799675-9391-4f66-b62f-fe0535abddf6",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:20:59.922Z"
+    },
+    {
+      "feedbackId": "3fd95fdb-5ade-4ccf-8a54-22f5354f0fd8",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 56,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:10.516Z"
+    },
+    {
+      "feedbackId": "04edf3e3-bae2-415a-9bbd-9ace81bf9494",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 56,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:29:22.362Z"
+    },
+    {
+      "feedbackId": "6a2b0bd0-621e-44ed-afc3-02f47a0c2b6b",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Tu reporte muestra un progreso sólido esta semana. Trabajaste activamente en identificar variables y fuerzas en problemas de Dinámica, y lo más importante es que reconoces honestamente dónde estás: comprendes la teoría pero necesitas ganar fluidez en la aplicación matemática. Eso es exactamente el tipo de autoconciencia que acelera el aprendizaje.\n\nEl trabajo colaborativo fue una fortaleza real: no solo resolviste ejercicios, sino que también enseñaste a otros, lo que refuerza tu comprensión. Tu estrategia de repasar el proceso del DCL paso a paso es inteligente y te llevará a mejorar rápidamente.\n\nPara la próxima semana, enfócate en practicar 3-4 problemas similares al del bloque, pero esta vez *antes* de resolverlos, haz una lista explícita de variables conocidas/desconocidas y controlables/no controlables. Esto te preparará mejor para Fase 3, donde necesitarás analizar relaciones más complejas entre variables.",
+      "strengths": "• Autoevaluación realista y honesta: Reconoces claramente tu nivel actual (\"entiendo la teoría, pero me cuesta aplicar ecuaciones\") sin minimizar ni exagerar. Esto muestra madurez metacognitiva importante para el aprendizaje.\n• Estrategia de mejora concreta y estructurada: Tu plan de repasar pasos del DCL (identificar → elegir eje → aplicar ΣF = m·a) es sistemático y accionable. Demuestras que entiendes qué necesitas practicar específicamente.\n• Conexiones interdisciplinarias significativas: Vinculas Dinámica con Tiro Oblicuo, Educación Física y fenómenos cotidianos. Esto muestra que estás integrando el conocimiento más allá de la clase, lo cual es excelente para el pensamiento crítico.",
+      "improvements": "• Clasificación explícita de variables: En tu respuesta a Q1 y Q2, identifica variables como \"conocidas\" (masa = 80 kg, F = 200 N, μₑ = 0.35) y \"desconocidas\" (aceleración, fuerza de rozamiento). Esto es central en Fase 2 y te ayudará a estructurar mejor los problemas antes de resolverlos.\n• Profundizar en el análisis del DCL: Cuando menciones el problema del bloque, especifica *todas* las fuerzas (peso, normal, aplicada, rozamiento) y explica por qué el bloque no se mueve (porque F aplicada < F rozamiento máxima). Esto demuestra dominio completo de la identificación de variables.\n• Reflexión más analítica en comentarios finales: En lugar de solo decir \"trabajar en grupo me ayudó\", analiza *cómo* te ayudó específicamente. Por ejemplo: \"Al explicar la teoría a mi compañero, reforcé mi comprensión de la 2ª Ley; al escuchar su estrategia para el DCL, aprendí un método más ordenado.\"",
+      "createdAt": "2025-10-27T05:01:05.797Z"
+    },
+    {
+      "feedbackId": "6866efc7-b19c-4a34-9ebb-2f49cf35bdbd",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 70,
+      "generalComments": "Excelente semana de inicio en el proyecto. Tu entusiasmo por conectar la teoría con la práctica es muy valioso, y se nota que comprendiste bien los conceptos de la Tercera Ley de Newton. Además, tu reflexión sobre el progreso desde la semana anterior muestra madurez en el autoaprendizaje.\n\nSin embargo, para avanzar al Nivel 4 en Fase 2, necesitas ser más sistemático en la identificación y clasificación de variables. Tu reporte se enfoca más en las actividades realizadas que en el análisis metodológico de qué variables están en juego y cómo las estudiarás.\n\nPara la próxima semana, antes de construir el coche, dedica tiempo a hacer un análisis detallado de variables: ¿cuáles conoces?, ¿cuáles desconoces?, ¿cuáles puedes controlar? Esto te dará una base sólida para la fase experimental y mejorará significativamente tu pensamiento crítico.",
+      "strengths": "• Conexión teórico-práctica clara: Vinculas directamente la Tercera Ley de Newton con el proyecto del coche a globo, demostrando que comprendes cómo la teoría se aplica en contextos reales. Esto es excelente para motivar el aprendizaje.\n• Autoconciencia sobre el progreso: Reconoces explícitamente tu evolución desde la semana anterior (\"gracias a comprender mejor los diagramas, puedo aplicar todo esto\"), lo que muestra reflexión genuina sobre tu aprendizaje.\n• Trabajo colaborativo efectivo: Mencionas que \"nos dividimos muy bien las tareas\" y planificas estrategias grupales para resolver problemas futuros, demostrando madurez en el trabajo en equipo.",
+      "improvements": "• Identificación explícita de variables: Tu reporte no menciona qué variables están presentes en el experimento (velocidad final, masa del coche, presión del aire, coeficiente de rozamiento, etc.). En la próxima entrega, crea una tabla con dos columnas: \"Variables conocidas\" y \"Variables desconocidas\" para cada fase del proyecto.\n• Clasificación de variables según controlabilidad: No distingues entre variables que puedes controlar (diseño del coche, tipo de globo) y las que no (gravedad, resistencia del aire). Antes de construir, anota: \"Puedo controlar: [lista]\" y \"No puedo controlar: [lista]\" para mejorar tu análisis metodológico.\n• Anticipación de dificultades específicas con magnitudes: Dices \"puede volverse más desafiante\" pero sin concretar. Identifica ahora: ¿Cómo medirás la velocidad? ¿Qué unidades usarás? ¿Cómo distinguirás entre fuerza de propulsión y rozamiento? Esto te preparará mejor para la fase experimental.",
+      "createdAt": "2025-11-12T22:51:33.306Z"
+    },
+    {
+      "feedbackId": "f2ae49e3-5ac5-409f-b51e-db9d7b09d788",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 77,
+      "generalComments": "Felicidades por completar el proyecto del vehículo con globo de forma exitosa. Tu trabajo muestra que realmente entiendes cómo funcionan las Leyes de Newton en la práctica, y eso es muy valioso. El hecho de que hayas identificado el rozamiento como problema y hayas probado varias soluciones demuestra pensamiento crítico genuino.\n\nTu desempeño esta semana ha sido sólido: integras bien los conceptos previos y trabajas de forma organizada en equipo. Sin embargo, para avanzar en Fase 2, necesitas ser más *sistemático* en la clasificación de variables. No es suficiente mencionar que el rozamiento importa; debes identificar explícitamente cuáles variables controlaste, cuáles no, y cómo cada una afectó el resultado.\n\nPara la próxima semana, te propongo que antes de cualquier experimento, hagas una lista clara de variables clasificadas. Esto te preparará mejor para la Fase 3, donde necesitarás formular hipótesis basadas en relaciones entre variables. ¡Vas muy bien, solo necesitas ser más metódico!",
+      "strengths": "• Excelente integración de conceptos previos: Aplicas fluidamente la Tercera Ley de Newton y el análisis de fuerzas mediante DCL. Tu frase \"analizar el DCL y pensar qué fuerzas estaban frenando el movimiento\" muestra conexión clara entre teoría y práctica.\n• Estrategia experimental sistemática: Describes un proceso iterativo bien organizado (cambiar ruedas → ajustar dirección → aligerar). Esto evidencia pensamiento metódico y capacidad de aprender de los errores.\n• Reflexión sobre el aprendizaje: Reconoces explícitamente que \"todo lo que había aprendido en semanas anteriores me sirvió muchísimo\", demostrando metacognición y conciencia de tu progreso.",
+      "improvements": "• Clasificación explícita de variables: Tu análisis menciona conceptos pero no organiza las variables del proyecto de forma sistemática. Te sugiero crear una tabla con: Variables conocidas (masa del globo, coeficiente de rozamiento), desconocidas (velocidad final), controlables (material de ruedas) y no controlables (gravedad). Esto es el corazón de Fase 2.\n• Profundidad en la identificación de magnitudes físicas: Mencionas \"fuerza de reacción\" y \"rozamiento\" pero no especificas sus unidades, símbolos o cómo las mediste. En la próxima actividad, incluye: \"La fuerza de reacción (F, en Newtons) se calculó como...\" para mayor precisión.\n• Transferencia a nuevos problemas: Tu análisis se limita al proyecto del globo. Para fortalecer Fase 2, intenta aplicar la misma clasificación de variables a otro fenómeno (ej: un cohete de agua, un patinador en hielo). Esto demuestra versatilidad en la aplicación del método.",
+      "createdAt": "2025-11-17T13:45:59.071Z"
+    }
+  ]
+}

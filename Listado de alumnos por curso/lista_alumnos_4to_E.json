@@ -1,0 +1,179 @@
+{
+  "curso": "4° E - (60) Bachillerato en Ciencias Sociales y Humanidades",
+  "alumnos": [
+    {
+      "nro": 1,
+      "nombre": "Amato, Francisco",
+      "id": "u_tmyqpybslme1bxt15",
+      "email": "fran.amato09@gmail.com"
+    },
+    {
+      "nro": 2,
+      "nombre": "Attanasio, Bautista",
+      "id": "u_4prlxg2qvme1bx6m7",
+      "email": "bautista.attanasio@gmail.com"
+    },
+    {
+      "nro": 3,
+      "nombre": "Bollmann, Gabriel Maximiliano",
+      "id": "u_jb53muhskme2x8253",
+      "email": "Maxibollmann@gmail.com"
+    },
+    {
+      "nro": 4,
+      "nombre": "Cacopardo, Catalina",
+      "id": "u_dolvu0ftme1bvul5",
+      "email": "catalinacacopardo@gmail.com"
+    },
+    {
+      "nro": 5,
+      "nombre": "Cardelli de All, María Victoria",
+      "id": null,
+      "email": "victoriacardelli16@gmail.com"
+    },
+    {
+      "nro": 6,
+      "nombre": "Castro Jalile, Paloma",
+      "id": "u_ktmv2zgznme1ei0iq",
+      "email": "castrojalilepaloma@gmail.com"
+    },
+    {
+      "nro": 7,
+      "nombre": "Ces Casali, Teodora",
+      "id": "u_4sfzulloame0eeb4n",
+      "email": "teodoracescasali@gmail.com"
+    },
+    {
+      "nro": 8,
+      "nombre": "Chouela, Lourdes Agustina",
+      "id": "u_34ikfk0ctme1bvm6k",
+      "email": "lourdeschoue14@gmail.com"
+    },
+    {
+      "nro": 9,
+      "nombre": "Claro, Dunia",
+      "id": "u_gz7nt32scme1bxita",
+      "email": "claro.dunia@gmail.com"
+    },
+    {
+      "nro": 10,
+      "nombre": "Delaygue, Mateo",
+      "id": "u_e06uzoxujme1bwdgt",
+      "email": "delayguemateo@gmail.com"
+    },
+    {
+      "nro": 11,
+      "nombre": "Fantin, Isabella",
+      "id": "u_tnjcagj37me1c4n0j",
+      "email": "isafantin28@gmail.com"
+    },
+    {
+      "nro": 12,
+      "nombre": "Hetenyi, Joaquin Valentino",
+      "id": "u_bfdrl08g5me1c1b1m",
+      "email": "joaquinhache18@gmail.com"
+    },
+    {
+      "nro": 13,
+      "nombre": "Kemel Basso, Agustin Lucas",
+      "id": "u_gcjmjnrnqme1c1o1f",
+      "email": "agustinkemel@gmail.com"
+    },
+    {
+      "nro": 14,
+      "nombre": "Laugier, Juan Cruz",
+      "id": "u_q0wslezygme2xa6aw",
+      "email": "juancruzlaugier@gmail.com"
+    },
+    {
+      "nro": 15,
+      "nombre": "Legname, Violeta",
+      "id": "u_1wjc7u8gpme1bxkgh",
+      "email": "violetalegname@gmail.com"
+    },
+    {
+      "nro": 16,
+      "nombre": "Lopez, Benjamín",
+      "id": "u_eg4pqh49ume1bzrv3",
+      "email": "benjalopezbenve@gmail.com"
+    },
+    {
+      "nro": 17,
+      "nombre": "Lopez Milano, Sebastián José",
+      "id": "u_jjcjumyigme1bxb6d",
+      "email": "sebastian.lpzmln@gmail.com"
+    },
+    {
+      "nro": 18,
+      "nombre": "Mayenfisch Paz, Julia",
+      "id": "u_g4dq2j6g8me1bxxtu",
+      "email": "juliamayenfisch@gmail.com"
+    },
+    {
+      "nro": 19,
+      "nombre": "Medriano, Juan Bautista",
+      "id": "u_94wnlwgwqme1bxmqu",
+      "email": "medrianojb@gmail.com"
+    },
+    {
+      "nro": 20,
+      "nombre": "Ortiz Gagliano, Ignacio",
+      "id": "u_ppoee7dwpme2xaxbm",
+      "email": "nachoortizg22@gmail.com"
+    },
+    {
+      "nro": 21,
+      "nombre": "Osepyan, Valentin Nicolas",
+      "id": "u_knlu3efo1me1c39r9",
+      "email": "osepyanvalentin@gmail.com"
+    },
+    {
+      "nro": 22,
+      "nombre": "Reig, Charo",
+      "id": "7c833c54-face-42df-8ba9-758c9e0a838e",
+      "email": "charoreigg@gmail.com"
+    },
+    {
+      "nro": 23,
+      "nombre": "Santos, Milo",
+      "id": "u_6greeuiz1me1bxwwd",
+      "email": "milo.santos2901@gmail.com"
+    },
+    {
+      "nro": 24,
+      "nombre": "Sarti, Maria Agustina",
+      "id": "u_iyu24v3tpme1bx7zr",
+      "email": "ma.agustinasarti@gmail.com"
+    },
+    {
+      "nro": 25,
+      "nombre": "Sarti, Maria Emilia",
+      "id": "u_49vfe6x03me1c9en0",
+      "email": "emiliasarti191@gmail.com"
+    },
+    {
+      "nro": 26,
+      "nombre": "Shofs Turoni Lima, Enzo",
+      "id": "u_9ecakaqjlme1bw973",
+      "email": "shofsenzo08@gmail.com"
+    },
+    {
+      "nro": 27,
+      "nombre": "Valle, Uma",
+      "id": "u_3wmjdusbdme1bxp0i",
+      "email": "umavalle09@gmail.com"
+    },
+    {
+      "nro": 28,
+      "nombre": "Wu, Angelines",
+      "id": "u_4x9psb775me1bw3a3",
+      "email": "angiiiewu@gmail.com"
+    },
+    {
+      "nro": 29,
+      "nombre": "Zubero Horisberger, Iñaki",
+      "id": "u_ps7y0ovuvme1bx96e",
+      "email": "izubero10@gmail.com"
+    }
+  ]
+}

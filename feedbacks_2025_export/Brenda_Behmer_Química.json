@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "studentId": "u_ws61mg4b5me6e599g",
+    "studentName": "Brenda Behmer",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.188382",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 52.25,
+      "minScore": 25,
+      "maxScore": 72,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_1758510928_9438",
+      "weekStart": "2025-08-04",
+      "score": 25,
+      "generalComments": "Brenda, comprendo que no trabajaron temas nuevos esta semana. Sin embargo, es importante aprovechar estos momentos para repasar conceptos anteriores o adelantar lecturas.",
+      "strengths": [
+        "Cumples con entregar el reporte semanal",
+        "Mantienes comunicación sobre el estado de las clases",
+        "Eres honesta sobre la situación académica"
+      ],
+      "improvements": [
+        "Aprovecha las semanas sin contenido nuevo para repasar temas anteriores",
+        "Busca ejercicios adicionales para practicar",
+        "Adelanta lecturas del próximo tema"
+      ],
+      "createdAt": "2025-09-22 03:15:28"
+    },
+    {
+      "feedbackId": "fb_1758510939_5048",
+      "weekStart": "2025-08-11",
+      "score": 25,
+      "generalComments": "Brenda, nuevamente reportas que no vieron temas nuevos. Es crucial que uses estas semanas para fortalecer tu base de conocimientos previos.",
+      "strengths": [
+        "Mantienes constancia en la entrega de reportes",
+        "Comunicas la situación de las clases",
+        "Cumples con tus responsabilidades"
+      ],
+      "improvements": [
+        "Realiza un repaso de los temas vistos anteriormente",
+        "Busca recursos en línea para complementar",
+        "Prepara preguntas para cuando retomen las clases"
+      ],
+      "createdAt": "2025-09-22 03:15:39"
+    },
+    {
+      "feedbackId": "fb_1758510954_3924",
+      "weekStart": "2025-08-18",
+      "score": 45,
+      "generalComments": "Brenda, veo que finalmente comenzaron con gases ideales. Es normal sentirse abrumada con las fórmulas al inicio. La clave está en entender cada variable antes de aplicar las ecuaciones.",
+      "strengths": [
+        "Identificas el tema y tu nivel actual",
+        "Reconoces específicamente qué te dificulta (múltiples fórmulas)",
+        "Conectas con conocimientos previos (número de Avogadro)"
+      ],
+      "improvements": [
+        "Empieza por entender qué representa cada variable (P, V, n, R, T)",
+        "Practica con un tipo de problema a la vez",
+        "Busca apoyo tutorial para clarificar las fórmulas"
+      ],
+      "createdAt": "2025-09-22 03:15:54"
+    },
+    {
+      "feedbackId": "fb_1758510969_142",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Brenda, ¡excelente progreso! Has pasado de no poder resolver ejercicios a completar uno con las 4 fases del pensamiento crítico. Buscar ayuda fue una decisión inteligente que te permitió avanzar.",
+      "strengths": [
+        "Resolviste un ejercicio completo con proceso ordenado",
+        "Aplicaste correctamente las conversiones de unidades",
+        "Usaste la metodología de 4 fases",
+        "Reconoces que pedir ayuda es una estrategia válida"
+      ],
+      "improvements": [
+        "Intenta ahora resolver ejercicios similares sin ayuda",
+        "Trabaja en conectar los conceptos con situaciones cotidianas",
+        "Practica más conversiones de unidades para ganar confianza"
+      ],
+      "createdAt": "2025-09-22 03:16:09"
+    },
+    {
+      "feedbackId": "fb_1758510985_8513",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "Brenda, ¡impresionante avance! Resolviste un problema complejo de nivel avanzado con múltiples cálculos y verificaciones. Aunque usaste IA como apoyo, demostraste comprensión profunda del proceso.",
+      "strengths": [
+        "Resolviste un problema complejo con múltiples variables",
+        "Aplicaste las 4 fases de manera completa y ordenada",
+        "Calculaste correctamente moles, presión y densidad",
+        "Verificaste todas las afirmaciones del problema",
+        "Mostraste pensamiento crítico al evaluar conclusiones"
+      ],
+      "improvements": [
+        "Practica la interpretación de problemas con ejercicios más simples primero",
+        "Intenta resolver al menos la mitad del problema sin ayuda antes de consultar",
+        "Conecta estos conceptos con aplicaciones en medicina o industria"
+      ],
+      "createdAt": "2025-09-22 03:16:25"
+    },
+    {
+      "feedbackId": "fb_002_3_me6e599g_20251005_001",
+      "weekStart": "2025-09-29",
+      "score": 45,
+      "generalComments": "Querida Brenda Behmer, esta semana rindieron el examen de química de gases ideales, por lo que no hubo contenido nuevo. Demuestras responsabilidad al completar el reporte. Espero que hayas podido aplicar todo lo trabajado durante las últimas semanas en el examen. Al recibir la corrección, analiza los resultados para identificar fortalezas y áreas de mejora. Quedo a disposición para resolver tus dudas y orientarte en tu proceso.",
+      "strengths": [
+        "Completas el reporte explicando la situación de la semana",
+        "Demuestras compromiso con la materia",
+        "Has participado del proceso de preparación del examen"
+      ],
+      "improvements": [
+        "Al recibir el examen corregido, analizar detalladamente los errores cometidos",
+        "Identificar qué tipos de problemas te resultaron más difíciles",
+        "Solicitar explicación de los conceptos que no quedaron claros"
+      ],
+      "createdAt": "2025-10-05T18:30:00Z"
+    },
+    {
+      "feedbackId": "23e55c35-3fde-405d-b24c-81dc31a10b55",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:40:13.734Z"
+    },
+    {
+      "feedbackId": "33552a41-f475-4745-87b6-3f1a7abad5ca",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:17:24.265Z"
+    },
+    {
+      "feedbackId": "e96e240b-618e-4297-b32b-e65a1ca3d592",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:33.124Z"
+    },
+    {
+      "feedbackId": "2cca5c89-dce4-4b4f-866f-1973f5b089d4",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:49:46.578Z"
+    },
+    {
+      "feedbackId": "006020c0-0bf7-415d-b1a0-c8588b53f533",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Valoro que hayas completado la mayoría del reporte y que muestres claridad en tu comunicación. Sin embargo, tu respuesta se enfoca más en describir lo que hiciste que en analizar cómo identificaste y clasificaste variables, que es el objetivo central de Fase 2.\n\nNoto que evitas reflexionar sobre dificultades reales. En el pensamiento crítico, reconocer desafíos es una fortaleza, no una debilidad. Esto te permite mejorar de forma intencional.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada problema, (2) clasifiques cada variable claramente, (3) reflexiones honestamente sobre qué te cuesta y cómo lo superarás, y (4) completes todas las secciones del reporte. Esto elevará significativamente la calidad de tu análisis.",
+      "strengths": "• Claridad en la comunicación: Tu escritura es ordenada y fácil de entender. Expresas las ideas de forma directa, lo que facilita la lectura de tu reporte.\n• Conexión con conceptos previos: Reconoces que los temas de esta semana se relacionan con lo aprendido sobre átomos y electrones, mostrando que intentas integrar conocimientos.\n• Participación en actividades: Mencionas que realizaste ejercicios y trabajaste con diagramas de Lewis, lo que indica que estuviste presente en las actividades de clase.",
+      "improvements": "• Identificación explícita de variables: En lugar de solo describir temas, necesitas listar las variables específicas en cada problema. Por ejemplo: en la formación de NaCl, ¿cuáles son las variables conocidas (número de electrones), desconocidas (energía de ionización), controlables (temperatura) y no controlables (carga del núcleo)? Practica haciendo listas de variables para cada compuesto estudiado.\n• Reflexión honesta sobre dificultades: Afirmar que \"nada fue difícil\" no es realista ni útil. Todos enfrentamos desafíos. Identifica específicamente qué te costó (¿diferenciar entre iónico y covalente? ¿clasificar variables?) y propón estrategias concretas para superarlo. Esto demuestra madurez intelectual.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar sobre la importancia de identificar variables correctamente, cómo ha evolucionado tu comprensión desde Fase 1, o qué descubriste nuevo. Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-27T05:09:57.218Z"
+    },
+    {
+      "feedbackId": "f80c01ab-fe7b-450c-9307-4d96f2c58bb7",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Felicidades por tu desempeño en el dominio conceptual de los enlaces covalentes. Claramente entiendes bien cómo se forman y puedes representarlos correctamente, lo que es un logro importante. Además, tus conexiones con otros temas muestran que estás pensando en la química de forma integrada.\n\nSin embargo, esta semana en la Fase 2 el enfoque debe estar en identificar y clasificar variables, no solo en comprender conceptos. Tu reporte se centra más en lo que aprendiste sobre enlaces que en cómo identificaste las variables involucradas en los problemas. Esto es una diferencia crucial: la Fase 2 requiere que seas sistemático en listar qué es conocido, qué es desconocido, qué puedes controlar y qué no.\n\nPara la próxima semana, te pido que hagas un esfuerzo consciente por: (1) crear listas explícitas de variables para cada problema, (2) ser honesto sobre tus dificultades reales, y (3) completar todas las secciones del reporte. Esto te preparará mejor para las fases siguientes del pensamiento crítico.",
+      "strengths": "• Dominio conceptual del tema: Demuestras comprensión clara de cómo se forman los enlaces covalentes y puedes representarlos correctamente con estructuras de Lewis. Tus ejemplos (H₂O, CH₄, CO₂) son precisos y bien elegidos.\n• Conexiones interdisciplinarias: Relacionas el tema con configuración electrónica, tabla periódica y fuerzas físicas, mostrando que ves la química como un sistema integrado, no como temas aislados.\n• Aplicación a contextos reales: Vinculas los enlaces covalentes con sustancias cotidianas (agua, dióxido de carbono), lo que demuestra que entiendes la relevancia práctica del aprendizaje.",
+      "improvements": "• Identificación explícita de variables: En la Fase 2, debes ir más allá del concepto. Necesitas listar y clasificar variables específicas en cada problema. Por ejemplo, en H₂O: ¿cuántos electrones comparte cada átomo? ¿Es controlable la polaridad? ¿Cuál es conocida y cuál desconocida? Practica haciendo tablas de variables para cada molécula.\n• Reflexión sobre dificultades reales: Decir que \"nada fue difícil\" no es realista ni útil para tu aprendizaje. Identifica desafíos concretos: ¿Cómo diferencias un enlace covalente polar de uno no polar? ¿Qué estrategia usas para no confundir variables? Sé honesto contigo mismo; esto acelera tu progreso.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar sobre cómo la identificación de variables te ayuda a resolver problemas químicos más complejos. Esto es clave para desarrollar pensamiento crítico profundo.",
+      "createdAt": "2025-11-17T13:41:25.860Z"
+    }
+  ]
+}

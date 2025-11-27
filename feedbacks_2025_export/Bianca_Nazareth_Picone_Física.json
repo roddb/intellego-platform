@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "studentId": "u_l3ppw0vlzme1nox48",
+    "studentName": "Bianca Nazareth Picone",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.187133",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 56.85,
+      "minScore": 27,
+      "maxScore": 85,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-04_4a0b99e8",
+      "weekStart": "2025-08-04",
+      "score": 63,
+      "generalComments": "Bianca muestra comprensión básica de los fundamentos del pensamiento crítico (Fase 1). Destaca su capacidad para diseñar un protocolo experimental coherente en planificación termodinámica, aunque la identificación del problema central y las reflexiones metacognitivas necesitan mayor desarrollo.",
+      "strengths": [
+        "Diseñó un procedimiento experimental lógico para investigar la relación masa-calor, especificando variables controladas (volumen de agua, temperatura inicial, tiempo de medición) y demostrando comprensión de la metodología científica.",
+        "Identificó correctamente su nivel de dominio del tema, mostrando honestidad intelectual al reconocer que la teoría es clara pero la aplicación presenta dificultades variables según el ejercicio.",
+        "Estableció conexiones interdisciplinarias al relacionar los diagramas termodinámicos con gráficos matemáticos, evidenciando pensamiento integrador entre disciplinas."
+      ],
+      "improvements": [
+        "Desarrollar la capacidad de identificar con mayor precisión el problema central en situaciones termodinámicas. Se recomienda practicar el análisis de objetivos finales y la distinción entre información relevante e irrelevante en enunciados complejos.",
+        "Profundizar en la identificación de dificultades específicas: en lugar de mencionar conceptos genéricos (temperatura, calor específico), analizar qué aspectos concretos de cada concepto generan confusión (por ejemplo, la diferencia entre calor y temperatura, o cómo aplicar calores específicos en cálculos).",
+        "Incrementar la reflexión metacognitiva completando la pregunta Q5 con comentarios sobre el proceso de aprendizaje, estrategias utilizadas o conexiones descubiertas durante la semana. Esta práctica fortalece la autorregulación y el pensamiento crítico."
+      ],
+      "createdAt": "2025-10-05 14:45:06"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-11_14832f86",
+      "weekStart": "2025-08-11",
+      "score": 64,
+      "generalComments": "Bianca avanza en la Fase 2 demostrando comprensión de la identificación de variables termodinámicas, aunque con progreso parcial. Identifica correctamente algunos objetivos calculables en problemas de climatización, pero necesita sistematizar la clasificación de variables y profundizar en las estrategias para manejar información incompleta en enunciados.",
+      "strengths": [
+        "Identificó correctamente dos objetivos calculables en el problema de climatización (temperatura interior objetivo y trabajo eléctrico del compresor), demostrando comprensión de la distinción entre variables desconocidas y controlables en contextos termodinámicos aplicados.",
+        "Reconoce con claridad el nivel de su dominio teórico versus la dificultad en la aplicación práctica, evidenciando autorregulación al ser consciente de dónde se encuentra su brecha de aprendizaje.",
+        "Establece una conexión explícita con aprendizajes previos (recopilación de datos en Física del año anterior), mostrando integración de fases metodológicas y progresión en la construcción de conocimiento estructurado."
+      ],
+      "improvements": [
+        "Desarrollar estrategias sistemáticas para completar la clasificación de variables: además de identificar las 'desconocidas + controlables', practicar el reconocimiento de variables conocidas y no controlables en cada problema para tener un panorama completo de F1+F2.",
+        "Construir herramientas para abordar enunciados con información incompleta: cuando un ejercicio no aporta datos específicos, aprender a formular supuestos razonables, identificar rangos típicos o buscar información estándar (por ejemplo, temperaturas de confort térmico, eficiencias típicas de equipos). Se sugiere crear una tabla de referencia con valores comunes en termodinámica.",
+        "Incrementar la reflexión metacognitiva completando Q5 con observaciones sobre el proceso de identificación de variables, dificultades superadas durante la semana o conexiones descubiertas entre Fase 1 y Fase 2. Esta práctica fortalecerá tanto la autorregulación como la consolidación de aprendizajes."
+      ],
+      "createdAt": "2025-10-05 14:45:06"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-18_c7f2w3a1",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Tu reporte de Fase 1 muestra un buen inicio en la identificación del problema. Has logrado reconocer los elementos principales del fenómeno físico estudiado, aunque aún hay espacio para profundizar en la comprensión inicial.",
+      "strengths": [
+        "Identificación clara del problema físico planteado",
+        "Reconocimiento de los elementos principales del sistema",
+        "Comprensión básica del fenómeno a estudiar",
+        "Inicio adecuado del proceso de análisis"
+      ],
+      "improvements": [
+        "Profundizar en la descripción del fenómeno observado",
+        "Ampliar la identificación de variables involucradas",
+        "Desarrollar mayor detalle en la comprensión inicial",
+        "Fortalecer la conexión entre observación y conceptos teóricos"
+      ],
+      "createdAt": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-25_d8a3x4b2",
+      "weekStart": "2025-08-25",
+      "score": 73,
+      "generalComments": "Tu trabajo en Fase 2 demuestra progreso en la identificación de variables. Has comenzado a reconocer los datos relevantes del problema, mostrando avance en tu proceso de análisis sistemático.",
+      "strengths": [
+        "Identificación de variables principales del problema",
+        "Reconocimiento de datos numéricos relevantes",
+        "Progreso en el análisis de información",
+        "Mejora en la organización de datos físicos"
+      ],
+      "improvements": [
+        "Profundizar en la clasificación de variables (dependientes e independientes)",
+        "Ampliar el análisis de unidades y magnitudes",
+        "Desarrollar mayor precisión en la identificación de datos",
+        "Fortalecer la conexión entre variables y conceptos físicos"
+      ],
+      "createdAt": "2025-10-01T00:00:01.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-09-15_e9b4y5c3",
+      "weekStart": "2025-09-15",
+      "score": 83,
+      "generalComments": "Muy buen trabajo en Fase 4. Tu reporte muestra ejecución completa y detallada del proceso de resolución, con estrategia bien desarrollada y resultados verificados apropiadamente.",
+      "strengths": [
+        "Estrategia de resolución completa y bien fundamentada",
+        "Ejecución detallada de todos los pasos",
+        "Verificación sistemática de resultados",
+        "Presentación clara y organizada del trabajo",
+        "Conexión efectiva entre teoría y práctica"
+      ],
+      "improvements": [
+        "Profundizar en la reflexión metacognitiva del proceso",
+        "Ampliar el análisis de la validez de los resultados",
+        "Desarrollar comparaciones con métodos alternativos",
+        "Incluir discusión sobre limitaciones del enfoque usado"
+      ],
+      "createdAt": "2025-10-01T00:00:04.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-09-22_f0c5z6d4",
+      "weekStart": "2025-09-22",
+      "score": 85,
+      "generalComments": "Excelente desempeño en Fase 4. Tu trabajo demuestra dominio completo del proceso de resolución de problemas físicos, con estrategia clara, ejecución precisa y verificación sistemática.",
+      "strengths": [
+        "Estrategia de resolución excepcional y bien justificada",
+        "Ejecución precisa y sistemática",
+        "Verificación completa de resultados",
+        "Presentación profesional del trabajo",
+        "Aplicación efectiva de principios físicos"
+      ],
+      "improvements": [
+        "Incorporar reflexión metacognitiva más profunda",
+        "Desarrollar análisis de sensibilidad de resultados",
+        "Ampliar discusión sobre aplicabilidad práctica",
+        "Incluir consideración de casos límite o situaciones especiales"
+      ],
+      "createdAt": "2025-10-01T00:00:05.000Z"
+    },
+    {
+      "feedbackId": "96b82a11-7d1a-4323-ad35-cac2cd57bd3b",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:38:31.128Z"
+    },
+    {
+      "feedbackId": "f68c34b8-ed4d-414b-930e-1750076c5a96",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:14:20.658Z"
+    },
+    {
+      "feedbackId": "ab1a712a-609d-494c-a8e0-20a4fb1106f6",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:53.396Z"
+    },
+    {
+      "feedbackId": "21164cc2-1c45-43eb-93b5-39b57bfe1122",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:45:48.667Z"
+    },
+    {
+      "feedbackId": "747b80d5-3c22-47cd-bb9e-cfa29476ef9d",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana enfrentaste una situación complicada: un examen importante de portugués que te impidió asistir a clase de Física/Química. Es completamente comprensible, y valoro que hayas comunicado tu ausencia.\n\nSin embargo, es fundamental que te pongas al día lo antes posible. Los temas de Física/Química en Fase 2 son acumulativos, y perder una semana puede afectar tu comprensión de los conceptos siguientes.\n\nTe sugiero que esta semana contactes a un compañero o al profesor para recuperar los apuntes, y luego dediques tiempo a revisar el material y completar las actividades pendientes. Si necesitas ayuda adicional, no dudes en consultar con tu profesor de Física/Química.",
+      "strengths": "• Comunicación proactiva: Informaste sobre tu ausencia y explicaste la razón (examen de portugués), demostrando que eres consciente de tu responsabilidad académica.\n• Intento de localizar material: Buscaste el contenido en Classroom, lo que muestra iniciativa para no quedarte atrás a pesar de las circunstancias.",
+      "improvements": "• Recuperar material de clase: Coordina con tus compañeros o consulta directamente con tu profesor de Física/Química para obtener los apuntes y actividades de esta semana. Esto es urgente para no perder la secuencia de temas.\n• Acceso a recursos digitales: Si el material no está en Classroom, pregunta al profesor dónde encontrarlo (Google Drive, plataforma Intellego, correo, etc.). Asegúrate de tener claro dónde se comparte el contenido.\n• Completar reporte recuperado: Una vez tengas el material, dedica tiempo esta semana a completar el reporte semanal con reflexión sobre los temas trabajados. Esto te ayudará a consolidar el aprendizaje.",
+      "createdAt": "2025-10-27T04:56:57.684Z"
+    },
+    {
+      "feedbackId": "e20c5cfa-e40d-4471-a1bc-23e6b496a8b6",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que fue una semana de parciales y que el ritmo fue diferente al habitual. Sin embargo, el reporte semanal es una herramienta importante para documentar tu pensamiento crítico, incluso en semanas atípicas.\n\nTu respuesta actual no proporciona información que me permita evaluar tu progreso en la Fase 2 (identificación de variables y datos). Necesito que completes el reporte con detalles específicos: qué temas estudiaste para los parciales, qué variables identificaste en los problemas, qué dificultades enfrentaste y cómo las resolviste.\n\nPara la próxima semana, te pido que retomes el reporte con respuestas completas. Aunque sea una semana de recuperación o repaso, siempre hay oportunidad de reflexionar sobre tu aprendizaje y documentarlo adecuadamente.",
+      "strengths": "Lamentablemente, este reporte no contiene respuestas que permitan identificar fortalezas en tu desempeño académico. Para poder reconocer tus logros, necesitamos que completes el reporte con información específica sobre lo que trabajaste durante la semana.",
+      "improvements": "• Completar el reporte incluso en semanas de parciales: Aunque no haya clases regulares, puedes reflexionar sobre qué estudiaste para los exámenes, qué variables identificaste en los problemas de práctica, o qué dificultades enfrentaste. Esto mantiene tu pensamiento crítico activo.\n• Proporcionar respuestas específicas y detalladas: En lugar de una respuesta genérica repetida cinco veces, dedica 5-10 minutos a escribir sobre temas concretos: \"Estudié movimiento rectilíneo uniforme e identifiqué variables como velocidad, tiempo y distancia\" es mucho más útil que \"no tuvimos clase\".\n• Usar el reporte como herramienta de reflexión: Aunque sea semana de parciales, el reporte es tu espacio para documentar tu aprendizaje. Pregúntate: ¿Qué conceptos de Fase 1 usé para resolver los problemas del examen? ¿Qué variables tuve que identificar? Esto fortalece tu metacognición.",
+      "createdAt": "2025-11-12T22:56:16.530Z"
+    },
+    {
+      "feedbackId": "e9ba0253-51b7-4444-b284-9499b37a07a7",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que trabajaste en electrodinámica esta semana y lograste resolver un ejercicio de intensidad y potencia, lo que es un buen punto de partida. Sin embargo, tu reporte muestra que aún no has integrado completamente la Fase 2: identificar y clasificar variables sistemáticamente. Resolviste el problema, pero no documentaste *qué variables tenías, cuáles eran conocidas y cuáles desconocidas*.\n\nTu desempeño esta semana es inicial en términos de pensamiento crítico. Aunque las matemáticas están mayormente correctas (salvo el error en la fórmula de potencia), te falta el análisis profundo que caracteriza a Fase 2. Además, la respuesta vacía en Q5 y tu comentario \"no sé cómo relacionar con anteriores\" sugieren que necesitas más apoyo para conectar conceptos.\n\nPara la próxima semana, te pido que: (1) corrijas la fórmula de potencia y entiendas por qué es P=V×I, (2) en cada ejercicio, lista explícitamente las variables conocidas y desconocidas antes de resolver, y (3) dedica 10 minutos a escribir cómo cada tema se conecta con lo anterior. Esto transformará tu aprendizaje.",
+      "strengths": "• Procedimiento matemático correcto en intensidad: Aplicaste correctamente I=V/R y obtuviste 0,5A. Esto muestra que comprendes cómo usar fórmulas cuando las tienes claras.\n• Reconocimiento honesto de dificultades: Admites que al principio te costó implementar fórmulas, lo que demuestra autoconciencia. Esto es el primer paso para mejorar.\n• Aprovechamiento de recursos disponibles: Mencionas que usaste las pistas de la guía para entender el procedimiento, mostrando iniciativa en buscar ayuda cuando la necesitas.",
+      "improvements": "• Error crítico en fórmula de potencia: Escribiste \"P=I/V\" cuando es \"P=V×I\" (o P=I²×R). Revisa las fórmulas fundamentales de electrodinámica antes de resolver. Te recomiendo hacer una tabla con todas las fórmulas y sus variables claramente identificadas.\n• Falta identificación y clasificación de variables: En el ejercicio de la lámpara, debes explícitamente listar: Variables conocidas (R=480Ω, V=240V), Variables desconocidas (I, P), Variables controlables/no controlables. Esto es el corazón de Fase 2. Practica esto en cada problema.\n• Desconexión entre temas: Dices \"no sé cómo relacionar con anteriores\". Necesitas buscar conexiones activamente: ¿Cómo se relaciona la resistencia con la energía? ¿Qué variables de movimiento o fuerzas previas aparecen aquí? Dedica tiempo a mapear estas conexiones explícitamente.",
+      "createdAt": "2025-11-17T13:48:25.018Z"
+    }
+  ]
+}

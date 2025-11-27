@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "studentId": "u_1zev16wwsme0b4u1q",
+    "studentName": "Clara Aiello",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.192800",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 59.73,
+      "minScore": 40,
+      "maxScore": 78,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_aiello_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 72,
+      "generalComments": "Muy bien María Clara. Demuestras comprensión sólida del pensamiento crítico con un excelente ejemplo práctico de comparación de compras. Identificas correctamente los pasos más desafiantes (1 y 4) y estableces conexiones amplias con otras materias.",
+      "strengths": [
+        "Comprensión clara del pensamiento crítico",
+        "Excelente ejemplo práctico de la vida cotidiana",
+        "Identificación honesta de dificultades",
+        "Conexiones interdisciplinarias amplias"
+      ],
+      "improvements": [
+        "Practicar más los pasos 1 y 4",
+        "Profundizar en aplicaciones específicas de Física",
+        "Desarrollar más ejemplos concretos"
+      ],
+      "createdAt": "2025-01-09T03:15:00.000Z"
+    },
+    {
+      "feedbackId": "fb_aiello_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 75,
+      "generalComments": "Excelente trabajo María Clara. Resuelves completamente el problema de Ana con análisis sistemático y estructurado. Tu desglose del problema en tres componentes (entender tiempos, organizar rutina, planificar) demuestra pensamiento crítico avanzado.",
+      "strengths": [
+        "Análisis sistemático completo del problema",
+        "Identificación clara de objetivos",
+        "Excelente estructuración de la solución",
+        "Conexión efectiva con problemas reales"
+      ],
+      "improvements": [
+        "Mejorar conexión específica con conceptos de Física",
+        "Practicar más para consolidar el nivel 3",
+        "Desarrollar más ejemplos físicos"
+      ],
+      "createdAt": "2025-01-09T03:15:00.000Z"
+    },
+    {
+      "feedbackId": "fb_aiello_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Bien María Clara. Aplicas correctamente las Fases 1-3 del método en el problema de tiro oblicuo. Identificas objetivo, variables y seleccionas herramientas del Grupo A apropiadamente. Tu justificación es precisa.",
+      "strengths": [
+        "Aplicación correcta de Fases 1-3",
+        "Identificación precisa de variables",
+        "Selección apropiada de herramientas",
+        "Buena conexión con matemática"
+      ],
+      "improvements": [
+        "Mejorar comprensión general de los temas",
+        "Practicar más ejercicios variados",
+        "Fortalecer dominio de herramientas",
+        "Completar la Fase 4 de ejecución"
+      ],
+      "createdAt": "2025-01-09T03:15:00.000Z"
+    },
+    {
+      "feedbackId": "fb_aiello_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 70,
+      "generalComments": "Buen trabajo María Clara. Aplicas las 4 fases completas al problema del béisbol. Tu cálculo de altura máxima (33.75m) es correcto. Necesitas más autonomía pero con apoyo logras resolver ejercicios.",
+      "strengths": [
+        "Aplicación completa de las 4 fases",
+        "Cálculo correcto de altura máxima",
+        "Identificación clara del problema",
+        "Conexión con matemática"
+      ],
+      "improvements": [
+        "Mejorar selección autónoma de fórmulas",
+        "Aumentar confianza en resolución",
+        "Practicar sin apoyo del profesor",
+        "Profundizar comprensión de fórmulas"
+      ],
+      "createdAt": "2025-01-09T03:15:00.000Z"
+    },
+    {
+      "feedbackId": "fb_aiello_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 78,
+      "generalComments": "Muy bien María Clara. Resuelves completamente el problema complejo del fútbol americano. Excelente trabajo identificando variables relevantes vs irrelevantes. Los cálculos son correctos: tiempo de vuelo 3.21s, alcance 73.6m, y el receptor debe iniciar 2.24s antes.",
+      "strengths": [
+        "Resolución completa del problema complejo",
+        "Correcta clasificación de variables",
+        "Cálculos precisos y verificados",
+        "Aplicación sistemática de las 4 fases"
+      ],
+      "improvements": [
+        "Mejorar identificación de qué cálculos hacer",
+        "Aumentar autonomía en la resolución",
+        "Practicar con más ejercicios variados"
+      ],
+      "createdAt": "2025-01-09T03:15:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b4u1q_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 40,
+      "generalComments": "Querida Clara Aiello, debido a la semana de examen, no fue posible evaluar tu progreso regular en Física durante este período. Reconoces con claridad la situación excepcional que impidió el trabajo habitual en clase. Es importante mantener la constancia en tu proceso de aprendizaje incluso en semanas atípicas. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Comunicación clara sobre la situación académica de la semana",
+        "Cumplimiento con la entrega del reporte semanal a pesar de la situación especial",
+        "Honestidad al reportar la ausencia de trabajo regular en física"
+      ],
+      "improvements": [
+        "Es fundamental retomar el ritmo de trabajo regular después de períodos de evaluación",
+        "Proporciona evidencias de aprendizaje incluso en semanas de evaluación mediante reflexión sobre lo estudiado",
+        "Mantén constancia en el registro de tu proceso académico"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b4u1q_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 40,
+      "generalComments": "Querida Clara Aiello, debido a la misa del lunes y el uso de las horas del miércoles para química, no fue posible evaluar tu progreso en Física durante esta semana. Reconoces con claridad las circunstancias excepcionales que afectaron el horario regular. Es importante aprovechar al máximo el tiempo disponible en las próximas semanas. Mantén mayor constancia y regularidad en el estudio de física.",
+      "strengths": [
+        "Comunicación precisa sobre las circunstancias académicas de la semana",
+        "Responsabilidad al completar el reporte semanal",
+        "Claridad al explicar el contexto institucional que afectó las clases"
+      ],
+      "improvements": [
+        "Es fundamental organizarte para compensar las horas perdidas en la próxima semana",
+        "Aprovecha el tiempo de estudio independiente para mantener continuidad con los contenidos",
+        "Busca recursos adicionales cuando las clases regulares se interrumpan"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b4u1q_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 40,
+      "generalComments": "Querida Clara Aiello, debido al viaje educativo a Madryn, no fue posible evaluar tu progreso regular en Física durante este período. Reconoces claramente la situación del viaje que impidió las clases regulares. Es importante integrar los aprendizajes del viaje con los contenidos de física al regresar. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Comunicación clara sobre el viaje educativo",
+        "Cumplimiento con el reporte a pesar de estar fuera de la escuela",
+        "Responsabilidad al informar la situación académica"
+      ],
+      "improvements": [
+        "Es fundamental retomar el ritmo de trabajo inmediatamente al regresar del viaje educativo",
+        "Conecta las experiencias del viaje con conceptos de física trabajados en clase",
+        "Organiza un plan de recuperación para los contenidos no trabajados esta semana"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me0b4u1q_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querida Clara Aiello, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Física al trabajar con los conceptos de masa y peso. Demuestras buena comprensión de la diferencia entre masa y peso aplicada al contexto de la Luna. Realizas conexiones interesantes entre física y biología al identificar conceptos transversales. Necesitas fortalecer tu comprensión de los conceptos fundamentales antes de avanzar a aplicaciones más complejas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Comprensión correcta de que la masa no cambia con la gravedad",
+        "Identificación correcta de que el peso depende de la gravedad y sería menor en la Luna",
+        "Conexión apropiada entre física y biología reconociendo conceptos transversales como masa, peso y fuerza gravitatoria"
+      ],
+      "improvements": [
+        "Es importante consolidar la comprensión de conceptos fundamentales como masa y peso mediante ejemplos variados",
+        "Te recomiendo practicar la justificación más detallada de tus respuestas con explicaciones más extensas",
+        "Busca aplicaciones prácticas de estos conceptos en situaciones cotidianas adicionales"
+      ],
+      "createdAt": "2025-10-07T00:00:00Z"
+    },
+    {
+      "feedbackId": "2ec44e13-4761-40f9-8009-a48e03ebec41",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:33:26.976Z"
+    },
+    {
+      "feedbackId": "606a7b90-f08e-4618-9500-7c4efefcc095",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:04:25.800Z"
+    },
+    {
+      "feedbackId": "6732080e-fd17-410f-9b32-02da23ed2728",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:23.772Z"
+    },
+    {
+      "feedbackId": "e0beeed7-ec50-4e47-b251-118521762883",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:51:38.988Z"
+    },
+    {
+      "feedbackId": "689fb673-a406-4ac0-9f01-08679d677797",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Reconozco tu esfuerzo esta semana al trabajar con diagramas de cuerpo libre y ser honesto sobre tus dificultades. Comprendiste el concepto básico y lograste graficar ejemplos, lo que es un buen inicio.\n\nSin embargo, tu reporte muestra que aún no has integrado completamente la metodología de Fase 2. Necesitas ir más allá de describir qué es un DCL: debes clasificar sistemáticamente las variables (conocidas/desconocidas, controlables/no controlables) y explicar cómo se relacionan. Esto es lo que diferencia un análisis superficial de uno crítico.\n\nPara la próxima semana, te propongo que antes de hacer cada DCL, hagas una lista explícita de variables clasificadas. Además, propón estrategias concretas para resolver tu dificultad con direcciones y signos. Finalmente, completa la sección de comentarios adicionales reflexionando sobre por qué es importante clasificar variables en física.",
+      "strengths": "• Autoconciencia sobre dificultades: Identificas claramente que te cuesta trabajo diferenciar direcciones y signos de fuerzas. Esto es el primer paso para mejorar y muestra honestidad en tu autoevaluación.\n• Ejemplo concreto en Fase 2: Proporcionas números específicos (100N, 5N, 20kg) en tu respuesta sobre DCL, lo que demuestra que trabajaste con casos reales durante la semana.\n• Reconocimiento del tema: Entiendes qué es un diagrama de cuerpo libre y lo relacionas con la representación gráfica de fuerzas, mostrando comprensión básica del concepto.",
+      "improvements": "• Clasificación de variables no realizada: En Fase 2 debes identificar explícitamente qué variables son conocidas (100N, 5N, 20kg) y cuáles desconocidas (aceleración, por ejemplo). Crea una tabla simple: \"Conocidas: fuerza aplicada 100N... | Desconocidas: aceleración del objeto\". Esto es fundamental para el pensamiento crítico.\n• Estrategias para superar dificultades: Mencionas que te cuesta diferenciar direcciones y signos, pero no propones cómo resolverlo. Sugiero: usa un sistema de referencia claro (eje X positivo a la derecha, Y positivo hacia arriba) y practica 3-5 DCL diarios asignando signos consistentemente. Esto reforzará el patrón.\n• Conexiones superficiales: Tu conexión con matemática es muy vaga. Intenta ser más específico: \"Las fuerzas en el DCL son vectores que se suman usando componentes X e Y, como en álgebra vectorial\". Luego aplica esto a un problema nuevo para evidenciar transferencia real.",
+      "createdAt": "2025-10-27T05:09:04.432Z"
+    },
+    {
+      "feedbackId": "56a991d7-dfcf-40bd-bf84-8c6a9948dd6d",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás en el camino correcto: tu ejemplo del NH₃ demuestra que comprendes cómo las variables (enlaces y pares libres) determinan la forma molecular. Eso es excelente. Sin embargo, tu reporte es muy breve y le falta profundidad en la clasificación sistemática de variables y en la reflexión sobre tu propio aprendizaje.\n\nEsta semana trabajaste principalmente con definiciones, lo cual es un buen inicio, pero ahora necesitas ir más allá: identifica explícitamente qué variables están en juego en cada problema, clasifícalas, y explica cómo se relacionan. Además, tu estrategia de aprendizaje (dibujos) es válida, pero debes articularla mejor: ¿qué aspecto específico de los dibujos te ayuda?\n\nPara la próxima semana, te propongo que hagas una tabla con todas las formas moleculares que estudiaste, listando para cada una: número de enlaces, pares libres, ángulos de enlace y una característica física observable. Esto te ayudará a sistematizar lo que aprendiste y a prepararte para la Fase 3.",
+      "strengths": "• Aplicación correcta en ejemplo concreto: Tu análisis del NH₃ es preciso: identificas correctamente que el nitrógeno con tres enlaces y un par libre genera forma piramidal. Esto muestra que comprendes la relación entre variables y geometría.\n• Autoevaluación honesta: Reconoces tu nivel como \"medio\" y admites dificultades específicas (piramidal vs. tetraédrica). Esta honestidad es el primer paso para mejorar.\n• Identificación de estrategia de aprendizaje: Reconoces que los dibujos te ayudan a entender mejor. Esto muestra que estás buscando herramientas visuales para aprender, lo cual es positivo.",
+      "improvements": "• Amplía la identificación de variables: No solo menciones formas moleculares. Identifica explícitamente qué variables trabajaste: número de enlaces, pares libres, número de electrones de valencia, geometría resultante. Clasifica cada una como conocida/desconocida y controlable/no controlable en tus ejercicios.\n• Profundiza tu estrategia de diferenciación: \"Mirando dibujos\" es muy vago. Pregúntate: ¿qué diferencia visual específica ves entre piramidal (3 átomos + 1 par libre) y tetraédrica (4 átomos)? Crea una tabla comparativa con características clave de cada forma.\n• Desarrolla conexiones con aplicaciones reales: No solo digas \"se conecta con fuerzas entre electrones\". Explica: ¿cómo afecta la forma molecular (variable identificada) a propiedades como polaridad o reactividad? Busca un ejemplo concreto (ej: por qué el NH₃ es polar pero el CH₄ no).",
+      "createdAt": "2025-11-12T22:58:18.535Z"
+    }
+  ]
+}

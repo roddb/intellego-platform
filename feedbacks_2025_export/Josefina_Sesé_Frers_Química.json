@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_2a8ho1wtpme1opou7",
+    "studentName": "Josefina Sesé Frers",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.207973",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 66.25,
+      "minScore": 63.5,
+      "maxScore": 69,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-18"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1opou7_2025-08-04_2887ffa6",
+      "weekStart": "2025-08-04",
+      "score": 63.5,
+      "generalComments": "Josefina demuestra comprensión inicial sólida del pensamiento crítico aplicado al equilibrio químico. Su descripción del ejercicio de síntesis de amoníaco es detallada y muestra que comprende los conceptos básicos de reacciones reversibles y la importancia de analizar datos relevantes. Sin embargo, aún está en proceso de consolidar la comprensión del equilibrio dinámico y necesita mayor práctica en la aplicación autónoma del método de 5 pasos.",
+      "strengths": [
+        "Describe correctamente su nivel de comprensión en cada subtema (niveles 1-2), mostrando autocrítica realista",
+        "Proporciona un ejemplo específico y bien desarrollado del ejercicio N₂ + 3H₂ ⇌ 2NH₃",
+        "Identifica correctamente que comparó Qc con Kc y determinó la dirección de la reacción"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión del concepto de equilibrio dinámico (nivel 1): trabajar con analogías y simulaciones visuales",
+        "Desarrollar mayor autonomía en la aplicación de los 5 pasos sin necesidad de apoyo constante",
+        "Practicar la distinción entre información relevante e irrelevante con ejercicios variados antes de resolver"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1opou7_2025-08-18_ac9fa188",
+      "weekStart": "2025-08-18",
+      "score": 69,
+      "generalComments": "Josefina demuestra progresión hacia la Fase 3, trabajando con expresiones de equilibrio, cociente de reacción y el Principio de Le Chatelier. Su autoevaluación (niveles 1-2 en los diferentes subtemas) es realista y muestra autocrítica apropiada. Su descripción del ejercicio de SO₂ y O₂ evidencia que está aplicando correctamente Qc vs Kc. Sin embargo, necesita consolidar conceptos fundamentales antes de avanzar a aplicaciones más complejas.",
+      "strengths": [
+        "Autoevaluación detallada de 4 subtemas diferentes, mostrando análisis metacognitivo",
+        "Describe correctamente el procedimiento del ejercicio de SO₂: identificó concentraciones, aplicó fórmula, determinó dirección",
+        "Reconoce sus dificultades específicas (Le Chatelier, conversión Kc-Kp) y trabaja en estrategias de mejora"
+      ],
+      "improvements": [
+        "Consolidar el Principio de Le Chatelier con ejercicios guiados antes de casos complejos: comenzar con cambios simples (agregar/quitar reactivo)",
+        "Practicar la relación Kc-Kp con ejercicios donde Δn sea 0, 1, -1, -2 para ver el patrón claramente",
+        "Desarrollar mayor profundidad en Q4: ¿cómo se conecta con fases anteriores específicamente?"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    }
+  ]
+}

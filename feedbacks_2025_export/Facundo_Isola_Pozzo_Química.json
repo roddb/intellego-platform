@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "studentId": "2256bcc8-efd3-4e01-b627-1e6dfad75a6c",
+    "studentName": "Facundo Isola Pozzo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.198351",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 62.0,
+      "minScore": 35,
+      "maxScore": 71,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_1758511524_5173",
+      "weekStart": "2025-08-11",
+      "score": 35,
+      "generalComments": "Facundo, entiendo que no pudiste asistir a clases. Es positivo que reconozcas tu nivel actual y las dificultades. Te sugiero buscar apoyo de compañeros para ponerte al día con el contenido perdido.",
+      "strengths": [
+        "Eres honesto sobre tu situación académica",
+        "Identificas tu dificultad principal (relacionar teoría con práctica)",
+        "Haces conexiones con otras ciencias (biología)"
+      ],
+      "improvements": [
+        "Busca apuntes de compañeros o recursos en línea sobre gases ideales",
+        "Empieza con los conceptos básicos antes de intentar ejercicios",
+        "Solicita apoyo tutorial para ponerte al día"
+      ],
+      "createdAt": "2025-09-22 03:25:24"
+    },
+    {
+      "feedbackId": "fb_1758511538_8652",
+      "weekStart": "2025-08-18",
+      "score": 42,
+      "generalComments": "Facundo, bien por retomar las clases y comenzar con la teoría. Es normal que las variables sean difíciles al principio. Enfócate en entender qué representa cada una antes de aplicar fórmulas.",
+      "strengths": [
+        "Retomaste las clases activamente",
+        "Identificas tu dificultad específica (variables)",
+        "Mantienes conexiones interdisciplinarias"
+      ],
+      "improvements": [
+        "Crea una tabla con cada variable y su significado físico",
+        "Practica identificar variables en problemas simples",
+        "Dedica tiempo extra a comprender P, V, n, R, T individualmente"
+      ],
+      "createdAt": "2025-09-22 03:25:38"
+    },
+    {
+      "feedbackId": "fb_1758511552_8004",
+      "weekStart": "2025-08-25",
+      "score": 58,
+      "generalComments": "Facundo, ¡excelente progreso! Has avanzado significativamente y ahora trabajas con ejercicios específicos. Tu comprensión mejora notablemente. La dificultad con las fórmulas es común y superabl<D;>e con práctica.",
+      "strengths": [
+        "Progresaste de nivel 1 a nivel 2-3 en pocas semanas",
+        "Presentas ejercicios concretos como evidencia",
+        "Identificas mejora en tu comprensión",
+        "Reconoces específicamente qué fórmulas te dificultan"
+      ],
+      "improvements": [
+        "Crea un diagrama de flujo para elegir qué fórmula usar",
+        "Practica más ejercicios del mismo tipo",
+        "Analiza las condiciones que determinan el uso de cada fórmula"
+      ],
+      "createdAt": "2025-09-22 03:25:52"
+    },
+    {
+      "feedbackId": "fb_1758511567_6844",
+      "weekStart": "2025-09-08",
+      "score": 68,
+      "generalComments": "Facundo, tu progreso es admirable. Has alcanzado el nivel 3 y percibes los ejercicios como más fáciles, lo cual indica consolidación del aprendizaje. Trabajas ahora con densidades, un tema más complejo.",
+      "strengths": [
+        "Alcanzaste nivel 3 de dominio",
+        "Trabajas con ejercicios complejos de densidad",
+        "Percibes mejora en tu facilidad para resolver",
+        "Mantienes constancia en tu progreso"
+      ],
+      "improvements": [
+        "Domina las fórmulas adicionales practicando una por día",
+        "Conecta los conceptos de densidad con aplicaciones reales",
+        "Ayuda a compañeros que tengan dificultades para reforzar tu conocimiento"
+      ],
+      "createdAt": "2025-09-22 03:26:07"
+    },
+    {
+      "feedbackId": "fb_1758511582_1067",
+      "weekStart": "2025-09-15",
+      "score": 70,
+      "generalComments": "Facundo, mantienes un nivel 3 estable. Trabajas con la ley de Avogadro y cálculos moleculares, demostrando comprensión sólida. Las fórmulas secundarias requieren más práctica pero tu base es fuerte.",
+      "strengths": [
+        "Aplicas la ley de Avogadro correctamente",
+        "Manejas conversiones y cálculos complejos",
+        "Conectas con conceptos previos de química",
+        "Mantienes nivel 3 consistentemente"
+      ],
+      "improvements": [
+        "Dedica sesiones específicas a fórmulas secundarias",
+        "Crea fichas de estudio para cada ley de gases",
+        "Intenta problemas que combinen múltiples leyes"
+      ],
+      "createdAt": "2025-09-22 03:26:22"
+    },
+    {
+      "feedbackId": "fb_002_1_fad75a6c_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 66,
+      "generalComments": "Facundo, en tu reporte de esta semana demostraste una sólida comprensión de los conceptos fundamentales de Química, particulamente en la identificación de magnitudes físicas. Tu habilidad para convertir unidades es excelente. Sin embargo, necesitas ampliar tu selección de herramientas más allá de los problemas específicos que hemos trabajado en clase. Considera cómo aplicar lo que sabes a contextos nuevos.",
+      "strengths": "[\\\"Identificas correctamente magnitudes físicas en problemas de gases ideales\\\", \\\"Demuestras habilidades sistemáticas de conversión de unidades\\\", \\\"Proporcionas evidencia concreta mediante ejercicios completamente resueltos\\\"]",
+      "improvements": "[\\\"Amplía la selección de herramientas más allá de contextos específicos de problemas con gases\\\", \\\"Necesitas reflexión explícita sobre por qué cada paso es necesario\\\", \\\"Desarrolla conexiones más profundas entre teoría y aplicaciones prácticas de química\\\"]",
+      "createdAt": "2025-10-17T17:09:13.531846"
+    },
+    {
+      "feedbackId": "5243957a-bd82-4e32-9900-9ce08b0f32cc",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:30:52.932Z"
+    },
+    {
+      "feedbackId": "70cf2c12-adb8-4947-9dbb-b5737e062f61",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:32.220Z"
+    },
+    {
+      "feedbackId": "1c6512b9-187a-4077-9ec0-0b3947f588ba",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando el tema central (ley de gases ideales) y reconociendo tus dificultades con unidades y proporcionalidad. Tus conexiones con contextos reales muestran que estás comprendiendo la química más allá de las fórmulas, lo cual es excelente.\n\nSin embargo, tu reporte se enfoca más en *resolver ejercicios* que en *analizar variables sistemáticamente*, que es el objetivo de Fase 2. Necesitas ser más explícito al clasificar variables (controlables/no controlables, conocidas/desconocidas) y mostrar evidencia clara de cómo aplicaste este análisis en cada problema.\n\nPara la próxima semana, cuando trabajes nuevos ejercicios, dedica tiempo a crear una tabla o lista donde clasifiques cada variable antes de resolver. Esto te ayudará a internalizar el proceso y a completar mejor tus reportes con evidencia documentada.",
+      "strengths": "• Autoevaluación honesta y realista: Reconoces que comprendes la aplicación de la ecuación pero admites dificultades con unidades y constantes. Esto muestra madurez en tu proceso de aprendizaje.\n• Identificación de dificultades específicas: Señalas claramente que te cuesta distinguir proporcionalidad directa/inversa y convertir unidades, lo que es fundamental para trabajar con variables en Fase 2.\n• Conexiones con contextos reales: Tus ejemplos (aerosoles, neumáticos, globos de aire caliente) demuestran que comprendes cómo la ley de gases ideales se aplica más allá del aula, conectando teoría con fenómenos cotidianos.",
+      "improvements": "• Clasificación explícita de variables: En tu respuesta a Q1, debes identificar cuáles variables son *controlables* (las que tú cambias en el experimento) y cuáles *no controlables* (las que observas). Por ejemplo: \"En un problema de presión, la temperatura es controlable si la modifico, pero la presión es la variable que mido (no controlable).\"\n• Evidencia documental del proceso: Para Q2, incluye ejemplos concretos de cómo analizaste un ejercicio específico. Muestra una lista de variables identificadas y cómo las clasificaste. Esto demuestra que aplicaste sistemáticamente Fase 1 + Fase 2, no solo que resolviste ejercicios.\n• Reflexión metacognitiva en Q5: Completa esta sección con reflexiones como: \"¿Por qué es importante clasificar variables?\" o \"¿Cómo mi comprensión de variables ha mejorado desde Fase 1?\" Esto consolida tu aprendizaje y prepara la transición a Fase 3.",
+      "createdAt": "2025-10-27T05:02:40.676Z"
+    },
+    {
+      "feedbackId": "0d288af5-e354-4641-af65-7f516d692c9f",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 71,
+      "generalComments": "Hiciste un buen trabajo esta semana, especialmente en conectar los conceptos de dilución con otras disciplinas. Tu capacidad para ver cómo la lógica de concentración se aplica en Biología, Física y Medioambiente muestra que realmente estás comprendiendo el tema más allá de los números.\n\nSin embargo, tu reporte muestra una debilidad importante: no estás analizando sistemáticamente las *variables* del problema, que es exactamente el foco de Fase 2. Identificas dificultades reales (conversión de unidades, selección de fórmulas), pero no reflexionas sobre cómo clasificar y diferenciar las variables involucradas.\n\nPara la próxima semana, te pido que hagas un esfuerzo consciente por identificar y clasificar variables en cada ejercicio. Crea una tabla simple al inicio de cada problema: ¿Qué sé? ¿Qué busco? ¿Qué puedo controlar? Esto te ayudará a elegir la fórmula correcta y a entender el \"por qué\" de cada paso, no solo el \"cómo\".",
+      "strengths": "• Conexiones interdisciplinarias sólidas: Tu análisis en Q4 muestra que comprendes cómo los conceptos de dilución y concentración se aplican en múltiples contextos (Biología, Física, Medioambiente). Esto demuestra pensamiento integrador muy valioso.\n• Identificación honesta de dificultades: Reconoces específicamente dónde te cuesta (conversión de unidades, comprensión conceptual de la dilución, selección de fórmulas). Esta autoconciencia es el primer paso para mejorar.\n• Dominio procedimental de fórmulas: Aplicas correctamente M₁V₁ = M₂V₂ y n = M×V, y reconoces la importancia de verificar unidades. Esto muestra que entiendes el \"cómo hacer\" los cálculos.",
+      "improvements": "• Falta análisis sistemático de variables en Q1 y Q2: No identificas explícitamente qué variables son conocidas/desconocidas o controlables/no controlables en los ejercicios de dilución. Para mejorar: en tu próximo reporte, haz una tabla simple listando cada variable (V₁, V₂, M₁, M₂, n) y clasifícalas según lo que sabías y lo que debías hallar.\n• Q3 necesita estrategias más concretas: Mencionas dificultades reales, pero tus estrategias son vagas (\"asegurarme de que las unidades estuvieran bien\"). Propuesta: crea un checklist personal para cada tipo de problema (ej: \"Paso 1: Identifico qué es conocido/desconocido; Paso 2: Convierto todas las unidades a L y mol/L; Paso 3: Elijo la fórmula según lo que busco\").\n• Q5 está vacía: Necesitas reflexionar sobre la importancia de identificar variables en química. Pregúntate: ¿Por qué es importante saber cuáles son las variables en un problema? ¿Cómo cambiaría tu estrategia si no las identificaras? Dedica 3-4 líneas a esto en tu próximo reporte.",
+      "createdAt": "2025-11-03T12:27:56.478Z"
+    },
+    {
+      "feedbackId": "a24ffb8f-cfa3-421b-939e-1a102b916a72",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Tu reporte muestra un desempeño desigual pero con momentos de excelencia. La fortaleza principal está en tu capacidad para conectar conceptos químicos con aplicaciones reales y otras disciplinas—tu análisis del agua y las proteínas es genuinamente impresionante y demuestra comprensión profunda.\n\nSin embargo, hay dos áreas que necesitan atención inmediata: primero, tu clasificación de variables en Q1 es imprecisa y no sigue el sistema de Fase 2 (conocidas/desconocidas, controlables/no controlables). Segundo, dejaste Q5 sin responder, lo que impide que demuestres metacognición y reflexión crítica.\n\nPara la próxima semana, enfócate en: (1) crear listas explícitas de variables para cada problema, (2) desarrollar estrategias paso a paso para moléculas complejas, y (3) completar siempre la sección de comentarios adicionales con reflexión genuina sobre tu aprendizaje.",
+      "strengths": "• Conexiones interdisciplinarias sólidas: Tu análisis del agua conecta Química (TRePEV), Matemática (ángulos de 104,5°) y Biología (polaridad y procesos biológicos) de forma coherente y con ejemplos concretos como \"llave y cerradura.\"\n• Aplicación práctica de TRePEV: Demuestras capacidad para resolver problemas específicos como BeCl₂, identificando correctamente geometría lineal, pares electrónicos y ángulos de enlace de 180°.\n• Autorreflexión sobre dificultades: Reconoces que las moléculas complejas requieren precisión en múltiples factores (pares electrónicos, geometría, notación 3D), lo que muestra conciencia del proceso.",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, debes listar explícitamente qué variables son conocidas (ej: número de átomos en BeCl₂), desconocidas (ej: ángulos exactos), controlables (ej: tipo de molécula) y no controlables (ej: repulsión electrónica). Crea una tabla simple para cada problema.\n• Estrategias concretas para moléculas complejas: En Q3 mencionas que es difícil, pero no propones soluciones. Sugiero: practica con moléculas de 3-4 átomos primero, usa modelos 3D físicos o digitales, y verifica cada paso (Lewis → pares → geometría) antes de continuar.\n• Completar Q5 con reflexión metacognitiva: No dejes esta sección vacía. Reflexiona sobre: ¿Cómo ha evolucionado tu comprensión desde Fase 1? ¿Qué categorías propias de variables descubriste? ¿Qué te sorprendió esta semana? Esto es fundamental para demostrar pensamiento crítico.",
+      "createdAt": "2025-11-12T23:01:26.275Z"
+    }
+  ]
+}

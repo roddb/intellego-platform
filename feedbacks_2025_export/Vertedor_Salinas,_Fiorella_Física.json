@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "studentId": "u_madzeow6xme0bap6m",
+    "studentName": "Vertedor Salinas, Fiorella",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.239494",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 51.56,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 14,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_fiarella_week1_534D40815ACC84D7",
+      "weekStart": "2025-08-04",
+      "score": 70,
+      "generalComments": "Fiarella, excelente comprensión del pensamiento crítico y sus 5 pasos. Tu identificación correcta de la Conversación B y la reescritura creativa del diálogo muestran aplicación práctica. La conexión con situaciones cotidianas es muy acertada.",
+      "strengths": [
+        "Comprensión clara de los 5 pasos del pensamiento crítico",
+        "Identificación correcta del pensamiento crítico en Conversación B",
+        "Reescritura creativa y efectiva del diálogo",
+        "Conexión práctica con situaciones cotidianas",
+        "Nivel 3 autoevaluado coherente con desempeño"
+      ],
+      "improvements": [
+        "Profundizar en aplicaciones más complejas",
+        "Desarrollar ejemplos propios adicionales",
+        "Continuar aplicando a diversas situaciones"
+      ],
+      "createdAt": "2025-01-10 19:34:00"
+    },
+    {
+      "feedbackId": "fb_fiarella_week2_521A454E18199B32",
+      "weekStart": "2025-08-11",
+      "score": 65,
+      "generalComments": "Fiarella, bien trabajando con el ejercicio de Ana. Tu análisis de la rutina y la comprensión de variables controlables muestra progreso. La conexión con ciencias a través de observación y medición es correcta.",
+      "strengths": [
+        "Organización efectiva de los pasos de la rutina",
+        "Comprensión de variables controlables vs no controlables",
+        "Conexión con método científico (observar y medir)",
+        "Perseverancia al releer para comprender mejor"
+      ],
+      "improvements": [
+        "Profundizar en clasificación de variables",
+        "Practicar más identificación de control",
+        "Desarrollar mayor confianza en el análisis"
+      ],
+      "createdAt": "2025-01-10 19:35:00"
+    },
+    {
+      "feedbackId": "fb_fiarella_week3_F71FEE18AF4F690F",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Fiarella, bien resolviendo el problema desde la torre. Tu clasificación de variables y definición de herramientas muestra comprensión metodológica. La conexión con el primer cuatrimestre demuestra continuidad en el aprendizaje.",
+      "strengths": [
+        "Resolución correcta del problema de tiro desde torre",
+        "Clasificación apropiada de variables",
+        "Identificación nivel 3 en problemas y variables",
+        "Conexión con conocimientos previos del primer cuatrimestre"
+      ],
+      "improvements": [
+        "Practicar memorización de ecuaciones cinemáticas",
+        "Mejorar selección de herramientas apropiadas",
+        "Continuar práctica para consolidar nivel 3"
+      ],
+      "createdAt": "2025-01-10 19:36:00"
+    },
+    {
+      "feedbackId": "fb_fiarella_week4_FC2C624D24F9786F",
+      "weekStart": "2025-08-25",
+      "score": 75,
+      "generalComments": "Fiarella, excelente resolución del problema de altura máxima. Tu cálculo correcto (33.75m) y aplicación completa de las fases muestran dominio creciente. La identificación de variables implícitas es destacable.",
+      "strengths": [
+        "Aplicación completa y correcta de las 3 fases",
+        "Cálculo preciso de altura máxima (33.75m)",
+        "Identificación de variables explícitas e implícitas",
+        "Comprensión del signo de gravedad",
+        "Conexión con matemática y MRU/MRUV"
+      ],
+      "improvements": [
+        "Practicar identificación de fórmulas apropiadas",
+        "Ganar confianza en selección de ecuaciones",
+        "Consolidar para nivel 3 completo"
+      ],
+      "createdAt": "2025-01-10 19:37:00"
+    },
+    {
+      "feedbackId": "fb_fiarella_week5_6BC65B878E4BF255",
+      "weekStart": "2025-09-01",
+      "score": 73,
+      "generalComments": "Fiarella, bien resolviendo el problema del golfista. Tu determinación de que la pelota va más allá del bunker es correcta. La conexión con MRU y MRUV muestra comprensión conceptual sólida.",
+      "strengths": [
+        "Resolución correcta del problema del golfista",
+        "Aplicación apropiada de ecuaciones de tiro oblicuo",
+        "Determinación correcta del alcance",
+        "Comprensión de la conexión MRU-MRUV",
+        "Nivel 2/3 realista con interpretación"
+      ],
+      "improvements": [
+        "Mejorar organización de variables",
+        "Practicar nomenclatura estándar",
+        "Consolidar interpretación de problemas"
+      ],
+      "createdAt": "2025-01-10 19:38:00"
+    },
+    {
+      "feedbackId": "fb_002_1_me0bap6m_2025-09-08_001",
+      "weekStart": "2025-09-08",
+      "score": 27,
+      "generalComments": "Querida Fiorella, tu comprensión de la Fase 1: Identificación y comprensión del problema está en etapa inicial, siendo fundamental establecer bases sólidas en la identificación del problema central antes de avanzar en Física. Reconoces la importancia de participar en las evaluaciones escolares como \"tuvimos prueba\". Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje específicos de cada clase. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas que trabajamos. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Participaste en la evaluación realizada durante la semana.",
+        "Muestras disposición a reportar sobre el trabajo realizado en clase.",
+        "Reconoces eventos educativos significativos como las pruebas de evaluación."
+      ],
+      "improvements": [
+        "Identifica con mayor precisión qué temas específicos fueron evaluados en la prueba (conceptos, fórmulas, procedimientos).",
+        "Describe el contenido concreto trabajado, más allá de la mención de la evaluación.",
+        "Proporciona evidencias específicas de lo que aprendiste durante la semana, con ejemplos concretos de temas o conceptos.",
+        "Desarrolla estrategias claras para mejorar tu comprensión del material evaluado."
+      ],
+      "createdAt": "2025-10-17T03:25:19.400204"
+    },
+    {
+      "feedbackId": "fb_002_2_me0bap6m_2025-09-15_001",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Fiorella, el contenido de tu reporte corresponde a Química, cuando la evaluación es de Física. Es fundamental fortalecer tu capacidad para identificar el contenido correspondiente a cada materia y verificar antes de enviar. Mejora la organización de tu trabajo y la atención a las consignas específicas de cada asignatura. Te sugiero coordinar conmigo para aclarar el contenido de Física de esta semana y recibir el apoyo necesario.",
+      "strengths": [
+        "Reconoces la importancia de completar los reportes semanales",
+        "Demuestras responsabilidad al entregar en tiempo y forma",
+        "Muestras disposición para el aprendizaje en ambas materias"
+      ],
+      "improvements": [
+        "Es fundamental verificar que el contenido del reporte corresponda a la materia correcta antes de enviar",
+        "Desarrolla un sistema de organización que te permita diferenciar claramente los contenidos de cada materia",
+        "Revisa las consignas y el contenido trabajado en clase antes de completar el reporte"
+      ],
+      "createdAt": "2025-10-09T23:09:03Z"
+    },
+    {
+      "feedbackId": "c0dfed6c-6438-4bf8-979d-2300714e66e8",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:32.455Z"
+    },
+    {
+      "feedbackId": "d88b87ec-e78a-45ab-9afe-a94785f1be51",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:39:22.809Z"
+    },
+    {
+      "feedbackId": "7abecacf-add7-44f6-9b3b-11f3b29ebf06",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:14:55.066Z"
+    },
+    {
+      "feedbackId": "a3df3440-4161-426c-885d-b0508594a8ad",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:03.041Z"
+    },
+    {
+      "feedbackId": "985beb53-88bf-4377-ac9a-d34ce4568b17",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:44:39.055Z"
+    },
+    {
+      "feedbackId": "0ea2cf75-64c3-45de-bbfb-1355f59856be",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que esta semana trabajaste con diagramas de cuerpo libre, que es un tema fundamental en Física. Tu honestidad al reconocer que necesitas más práctica es valiosa, pero noto que tus respuestas son muy breves y, en algunos casos, incompletas. Esto dificulta que pueda evaluar realmente qué entendiste y qué no.\n\nTu desempeño esta semana está en desarrollo. Identificas los temas, pero no profundizas en el análisis de variables ni clasificas magnitudes físicas de forma sistemática. Además, falta integración clara entre lo que aprendiste en Fase 1 y lo que estás haciendo ahora en Fase 2.\n\nPara la próxima semana, te pido que: (1) completes todas tus respuestas sin dejarlas a mitad, (2) cuando menciones dificultades, sé específico con ejemplos, y (3) reflexiona más sobre cómo aplicas lo aprendido. Esto mejorará significativamente tu reporte y tu aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que necesitas más práctica y que los diagramas no te salen \"del todo bien\". Esta autocrítica es el primer paso para mejorar.\n• Identificación de un ejemplo concreto: En Q2 proporcionas datos específicos (100N, 5N, 20kg) que muestran que intentas aplicar lo aprendido a casos reales, aunque la respuesta quede incompleta.\n• Conexión con trabajo práctico: Mencionas que relacionaste el tema con el TP realizado, lo que indica que intentas vincular teoría con actividades prácticas.",
+      "improvements": "• Completa tus respuestas: Varias respuestas quedan a mitad de camino (Q2 termina con \"Y, para sacar...\"). Dedica tiempo a revisar antes de enviar. Asegúrate de que cada idea tenga inicio, desarrollo y conclusión clara.\n• Sé específico en dificultades: En lugar de \"me cuesta pensarlos más de una vez\", identifica exactamente qué: ¿confundes la dirección de fuerzas? ¿No sabes clasificar si una variable es controlable? Esto te ayudará a buscar estrategias precisas para mejorar.\n• Profundiza en reflexiones: Las respuestas son muy breves. Dedica 3-4 líneas mínimo a cada pregunta. Por ejemplo, en Q4 explica qué variables identificaste en el TP y cómo las clasificaste. En Q5, reflexiona sobre por qué es importante dominar esto.",
+      "createdAt": "2025-10-27T05:03:27.360Z"
+    },
+    {
+      "feedbackId": "7169ae39-395a-4724-8716-ba647256f8d9",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Veo que tienes las habilidades matemáticas para resolver problemas de Física, y eso es muy positivo. Tu procedimiento en el ejercicio del automóvil es correcto y ordenado, lo que demuestra que estás aprendiendo.\n\nSin embargo, tu reporte esta semana es muy incompleto. Respuestas como \"con nada\" o \"me cuestan algunos diagramas\" no me permiten entender realmente qué estás aprendiendo ni cómo puedo ayudarte mejor. La Fase 2 no se trata solo de resolver ejercicios, sino de entender y clasificar las variables que usas.\n\nPara la próxima semana, te pido que dediques tiempo a reflexionar sobre cada problema: ¿Qué variables tengo? ¿Cuáles conozco? ¿Cuáles busco? Escribe esto explícitamente. También completa todas las preguntas del reporte, aunque sea brevemente. Tu esfuerzo merece ser documentado.",
+      "strengths": "• Procedimiento matemático correcto: En Q2, aplicas las fórmulas de cinemática y dinámica de forma ordenada, convirtiendo unidades adecuadamente (50 km/h = 13,89 m/s) y llegando al resultado correcto. Esto muestra que dominas el cálculo.\n• Resolución sistemática: Tu enfoque paso a paso (conversión → aceleración → fuerza) es claro y fácil de seguir. Esto demuestra que entiendes la lógica del problema, aunque no lo expreses en términos de variables.\n• Honestidad en la autoevaluación: Reconoces que te falta práctica y que tienes dificultades con diagramas. Esta autoconsciencia es el primer paso para mejorar.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En el problema del automóvil, deberías escribir: \"Variables conocidas: masa (950 kg), velocidades inicial y final, tiempo. Variables desconocidas: aceleración, fuerza.\" Esto es lo que la Fase 2 busca que practiques. Hazlo en cada ejercicio.\n• Profundiza en tus dificultades: En lugar de \"me cuestan algunos diagramas\", especifica: ¿Qué diagramas? ¿Diagramas de fuerzas? ¿Por qué te cuestan? Luego propón una estrategia: \"Voy a practicar dibujando todas las fuerzas que actúan en cada problema.\" Esto es metacognición real.\n• Conecta con la realidad: En Q4, podrías escribir: \"Este problema del motor se aplica a cualquier vehículo acelerando. Identificar variables me ayuda a entender por qué un auto pesado necesita más fuerza para acelerar rápido.\" Busca siempre la conexión física, no solo el cálculo.",
+      "createdAt": "2025-11-03T12:24:36.315Z"
+    },
+    {
+      "feedbackId": "5a5d38b3-2c10-42ac-b842-ecda8da842c3",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Veo que esta semana has tenido dificultades significativas en la Fase 2. Lo positivo es que reconoces dónde están tus problemas: identificar tipos de fuerzas y clasificarlas correctamente. Eso es importante porque significa que sabes qué necesitas trabajar.\n\nSin embargo, tu reporte está incompleto. Respuestas como \"ninguna\" y \"nop\" no te permiten reflexionar sobre tu aprendizaje ni me permiten ayudarte mejor. Necesito que dediques tiempo real a pensar en cada pregunta, aunque sea difícil.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas con respuestas genuinas, (2) practiques diagramas de cuerpo libre en cada problema, y (3) crees una \"guía personal\" donde clasifiques los tipos de fuerzas que has visto. Estoy aquí para apoyarte, pero necesito que hagas el esfuerzo.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que tienes dificultades con la identificación de fuerzas de rozamiento. Esta autocrítica es el primer paso para mejorar.\n• Intento de aplicación de fórmulas: En Q2 muestras que intentas aplicar la segunda ley de Newton (F = ma) en un contexto real, lo que demuestra que estás tratando de conectar teoría con problemas.",
+      "improvements": "• Completa tus respuestas con reflexión real: Las preguntas 4 y 5 requieren análisis genuino. En lugar de \"ninguna\" o \"nop\", dedica tiempo a pensar: ¿Dónde ves fuerzas en tu vida diaria? ¿Cómo clasificarías esas fuerzas? Esto te ayudará a conectar conceptos con la realidad.\n• Identifica y clasifica variables explícitamente: Cuando trabajes un problema de fuerzas, haz una lista clara: \"Variables conocidas: masa = 1000 kg, g = 10 m/s². Variables desconocidas: Tensión (T). Fuerzas presentes: peso, tensión, rozamiento (si aplica)\". Esta estructura te ayudará a no confundir tipos de fuerzas.\n• Desarrolla estrategias concretas para diferenciar fuerzas: Crea un diagrama de cuerpo libre para cada problema. Dibuja cada fuerza con un color diferente y etiquétala (peso, normal, rozamiento, tensión). Esto te permitirá visualizar qué fuerzas actúan realmente en cada situación.",
+      "createdAt": "2025-11-17T13:39:14.099Z"
+    },
+    {
+      "feedbackId": "6ee12a0a-2b37-4868-9dac-881ba049b0a7",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana fue intensa, pero tu reporte necesita mucho más detalle para que pueda evaluar realmente qué aprendiste en Fase 2. Responder \"hicimos el proyecto\" a todas las preguntas no me permite ver si identificaste variables, si las clasificaste correctamente, o si comprendiste las magnitudes físicas involucradas.\n\nTu desempeño esta semana está en nivel inicial. Necesitas dedicar tiempo real a reflexionar sobre lo que trabajaste y documentarlo con ejemplos específicos. Esto no es solo para la calificación: escribir lo que aprendiste te ayuda a consolidar el conocimiento en tu mente.\n\nPara la próxima semana, te pido que completes el reporte con respuestas detalladas. Dedica 10-15 minutos a cada pregunta. Describe variables concretas, explica cómo las clasificaste, menciona qué te costó trabajo y cómo lo superaste. Así podré ayudarte mejor.",
+      "strengths": "Lamentablemente, tu reporte no presenta fortalezas evaluables en este momento. Las respuestas son demasiado genéricas para identificar aspectos positivos específicos de tu aprendizaje.",
+      "improvements": "• Falta de especificidad en las respuestas: Escribes \"hicimos el proyecto\" sin detallar QUÉ variables identificaste, CÓMO las clasificaste o QUÉ magnitudes físicas trabajaste. Necesitas ser concreto: menciona ejemplos reales (ej: \"Identifiqué que la masa es una variable conocida y controlable\").\n• Ausencia de reflexión metacognitiva: No describes qué te costó trabajo ni cómo lo resolviste. Para mejorar, pregúntate: ¿Qué fue difícil? ¿Por qué? ¿Qué estrategia usé? Escribe al menos 2-3 oraciones por pregunta explicando tu proceso de pensamiento.\n• Falta de conexión con fenómenos reales: No relacionas las variables con situaciones concretas de Física o Química. Intenta conectar: \"En el experimento de caída libre, la altura es una variable conocida, la gravedad es constante, y el tiempo es lo que medimos\". Esto demuestra comprensión real.",
+      "createdAt": "2025-11-17T13:59:21.836Z"
+    }
+  ]
+}

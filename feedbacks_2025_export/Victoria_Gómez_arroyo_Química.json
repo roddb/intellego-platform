@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "studentId": "u_mmb5fvk8sme3ac9q1",
+    "studentName": "Victoria Gómez arroyo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.240567",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 56.46,
+      "minScore": 27,
+      "maxScore": 79,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-08-04_4ffaaf23",
+      "weekStart": "2025-08-04",
+      "score": 64,
+      "generalComments": "Has demostrado progreso en tu comprensión del equilibrio químico (Fase 3), alcanzando un nivel de desarrollo (Nivel 2). Es muy positivo que reconozcas tu proceso de aprendizaje con la IA y que notes tu creciente autonomía a medida que avanzas en los ejercicios. Tu honestidad sobre las áreas que requieren apoyo es valiosa para tu crecimiento académico.",
+      "strengths": [
+        "Reconocimiento honesto de tu nivel de dominio actual y áreas de dificultad",
+        "Uso estratégico de herramientas de apoyo (IA, cuadernillo) para resolver ejercicios",
+        "Observación metacognitiva de tu progreso: menor dependencia de recursos conforme avanzas",
+        "Capacidad para conectar conceptos abstractos con ejemplos cotidianos (gaseosa)",
+        "Completaste los 10 ejercicios de la guía demostrando perseverancia"
+      ],
+      "improvements": [
+        "Fortalece la identificación autónoma de reacciones reversibles vs irreversibles mediante práctica con ejemplos variados",
+        "Crea un resumen personal de factores que afectan el equilibrio para consulta rápida sin depender del cuadernillo",
+        "Practica la aplicación de conceptos sin IA en problemas sencillos para ganar confianza progresivamente"
+      ],
+      "createdAt": "2025-10-05 05:26:47"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-08-11_da9add73",
+      "weekStart": "2025-08-11",
+      "score": 52,
+      "generalComments": "Esta semana trabajaste en la Fase 2 (identificación de variables), alcanzando un nivel inicial (Nivel 1). Reconozco que estás enfrentando dificultades significativas, y es muy valioso que las comuniques abiertamente. Tu mención de la ausencia a clase por la actividad ACAP explica parte del desafío. Es importante que no te desanimes; el proceso de aprendizaje tiene ritmos diferentes para cada estudiante.",
+      "strengths": [
+        "Honestidad excepcional sobre tus dificultades y nivel de comprensión actual",
+        "Capacidad inicial de identificar variables cuando están escritas de forma explícita",
+        "Búsqueda activa de apoyo (profesora particular, IA, material teórico)",
+        "Reflexión sobre estrategias de aprendizaje que te funcionan mejor",
+        "Conexión creativa del tema con tu experiencia personal (yogur casero)"
+      ],
+      "improvements": [
+        "Solicita a tu profesora particular que simplifique los conceptos de variables controlables vs no controlables con ejemplos muy básicos",
+        "Crea una matriz visual simple para clasificar variables (2x2: conocida/desconocida vs controlable/no controlable)",
+        "Enfócate primero en problemas con objetivos explícitos antes de avanzar a casos ambiguos",
+        "Asiste a todas las clases posibles para mantener continuidad en el aprendizaje"
+      ],
+      "createdAt": "2025-10-05 05:26:47"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-08-18_2a0880a8",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Excelente mejora esta semana en la Fase 3 (selección de herramientas). Has alcanzado un nivel de desarrollo sólido (Nivel 2-3). El cambio es notable: pasaste de dificultades significativas a sentirte \"más fácil\" con ejercicios concretos. Tu comentario sobre entender mejor cuando los ejercicios tienen estructura clara confirma que estás encontrando tu ritmo de aprendizaje.",
+      "strengths": [
+        "Mejora significativa en comprensión de Kc y aplicación de la fórmula reactivos/productos",
+        "Entendimiento conceptual de Le Chatelier, aunque aún en desarrollo para aplicación",
+        "Capacidad de analizar opciones de cálculo y elegir respuesta correcta (ejercicio 3)",
+        "Reconocimiento honesto de áreas específicas que requieren más trabajo (inclusión en Kc, relación Kc-Kp)",
+        "Conexión efectiva con ejemplo cotidiano (Coca-Cola y equilibrio gaseoso)"
+      ],
+      "improvements": [
+        "Practica identificar qué incluir en Kc: recuerda que solo van concentraciones de especies en solución, no sólidos puros ni líquidos puros",
+        "Para Le Chatelier, crea una tabla de causa-efecto: si aumento X → el equilibrio se desplaza hacia...",
+        "Trabaja ejercicios adicionales sobre efecto de presión analizando cambio de moles totales",
+        "Solicita a tu particular que simplifique la relación Kc-Kp con un solo ejemplo bien explicado"
+      ],
+      "createdAt": "2025-10-05 05:26:47"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-08-25_e7c9c3c1",
+      "weekStart": "2025-08-25",
+      "score": 66,
+      "generalComments": "Buena continuidad en tu aprendizaje de la Fase 3, aunque esta semana tuviste menos tiempo por el viaje de egresados y parciales. Has mejorado en Kc, Qc y Le Chatelier (Nivel 3), lo que es muy positivo. El ICE representa un nuevo desafío (Nivel 1), pero es normal dado que es un concepto más complejo. Tu honestidad sobre las circunstancias externas es apreciada.",
+      "strengths": [
+        "Progreso notable en Kc, Qc y Le Chatelier: de nivel 2 a nivel 3 en una semana",
+        "Resolución correcta del ejercicio 7 usando razonamiento lógico sobre concentraciones iguales en equilibrio",
+        "Capacidad de identificar lo que no comprendes (ICE) en lugar de fingir entender",
+        "Buena gestión de prioridades académicas durante semana compleja (viaje + parciales)",
+        "Mantenimiento de conexión con ejemplo cotidiano (gaseosa)"
+      ],
+      "improvements": [
+        "Dedica tiempo específico a entender tablas ICE: Inicial, Cambio, Equilibrio - practica con 3 ejemplos sencillos",
+        "Para Ley de Le Chatelier, crea flashcards con situaciones y respuestas para practicar rápidamente",
+        "Organiza tu tiempo semanal para que química tenga espacio fijo, incluso en semanas ocupadas"
+      ],
+      "createdAt": "2025-10-05 05:26:48"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-09-08_aba247e1",
+      "weekStart": "2025-09-08",
+      "score": 70,
+      "generalComments": "Muy buen avance hacia la Fase 4 (ejecución completa). Has alcanzado nivel bueno (Nivel 3) en varios conceptos clave. Tu progreso es evidente: Kc ahora está en nivel 3, y tabla de variación/relación estequiométrica en nivel 2. El hecho de que hayas iniciado los modelos de examen con tu profesora particular demuestra proactividad. Estás consolidando conocimientos.",
+      "strengths": [
+        "Kc alcanzó nivel 3: te sientes lista para hacerlo sola, gran logro",
+        "Inicio de práctica con modelos de examen, mostrando preparación sistemática",
+        "Identificación precisa de lo que aún requiere trabajo (tabla de variación, relación estequiométrica)",
+        "Conexión efectiva con conocimientos previos de 3er año (relación moles-masa atómica)",
+        "Uso estratégico de apoyo de profesora particular para consolidar aprendizaje"
+      ],
+      "improvements": [
+        "Para tabla de variación: recuerda que las relaciones molares vienen de los coeficientes estequiométricos de la ecuación balanceada",
+        "Practica 5 ejercicios donde identifiques la relación molar antes de usar la tabla",
+        "Revisa el concepto de mol como paquete de partículas para conectar con masa atómica",
+        "Si no entiendes algo, pregunta inmediatamente en lugar de acumularlo para después"
+      ],
+      "createdAt": "2025-10-05 05:26:48"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-09-15_56832238",
+      "weekStart": "2025-09-15",
+      "score": 79,
+      "generalComments": "Semana de avance excepcional en la Fase 4. Has dado un salto cualitativo importantísimo: lograste nivel 3 trabajando SOLA, sin ayuda externa. Este es el momento que marca la diferencia en tu aprendizaje. Repasaste todos los temas y resolviste modelos de examen 2 y 3 de manera autónoma. Tu comentario \"esta vez, en vez de preguntarle a la IA o a mi particular, volví a los ejercicios que había hecho antes y pude ayudarme\" demuestra madurez académica.",
+      "strengths": [
+        "Logro de nivel 3 de forma completamente autónoma - hito fundamental en tu aprendizaje",
+        "Estrategia metacognitiva excepcional: consultar ejercicios previos en lugar de depender de IA o particular",
+        "Resolución de modelos de examen 2 y 3 demostrando aplicación integral de conocimientos",
+        "Conexión matemática: relación estequiométrica con proporcionalidad",
+        "Desarrollo de autorregulación: decidir cuándo pedir ayuda y cuándo investigar por tu cuenta"
+      ],
+      "improvements": [
+        "Aunque tu avance es excelente, asegúrate de: resolver al menos 2 ejercicios más de cada tipo para consolidar confianza",
+        "Practicar bajo condiciones de examen (tiempo limitado) para prepararte para la prueba",
+        "Revisar conceptos de Le Chatelier una vez más para estar 100% segura"
+      ],
+      "createdAt": "2025-10-05 05:26:48"
+    },
+    {
+      "feedbackId": "fb_backfill_me3ac9q1_2025-09-22_79f53d31",
+      "weekStart": "2025-09-22",
+      "score": 74,
+      "generalComments": "Semana de preparación intensiva para la prueba enfocada en la Fase 4 (ejecución completa). Trabajaste en el modelo de examen 4, enfrentando desafíos como conversión de unidades usando la tabla periódica. Tu nivel se mantiene bueno (Nivel 3). Es positivo que hayas aprovechado la semana sin clases presenciales para estudiar de forma autónoma.",
+      "strengths": [
+        "Continuidad en el estudio autónomo aprovechando semana sin clases",
+        "Resolución del modelo de examen 4, demostrando progreso sistemático",
+        "Identificación específica de dificultad: conversión de gramos a gramos/mol para relación estequiométrica",
+        "Conexión con conocimientos previos de años anteriores (masa atómica de tabla periódica)",
+        "Enfoque en consolidar lo aprendido en lugar de avanzar sin bases sólidas"
+      ],
+      "improvements": [
+        "Repasa la conversión de unidades: masa (g) → moles (usando masa molar de tabla periódica) → relación estequiométrica",
+        "Practica 10 conversiones simples de g a mol antes de hacer ejercicios complejos",
+        "Crea una hoja de fórmulas de conversión para tener siempre a mano durante la práctica",
+        "Resuelve el modelo 4 nuevamente para asegurar que dominas las conversiones"
+      ],
+      "createdAt": "2025-10-05 05:26:48"
+    },
+    {
+      "feedbackId": "75ad1535-677a-4e76-b8e5-be61d094d21f",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:59.179Z"
+    },
+    {
+      "feedbackId": "cce5d227-7291-4734-b28c-3e410c51b6c4",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:09:09.351Z"
+    },
+    {
+      "feedbackId": "8a82ada1-e365-4392-b6fb-f4dc58d034e5",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:55:12.722Z"
+    },
+    {
+      "feedbackId": "645d5e6e-b8d1-4901-a597-b8f50d1ba1ad",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:42:56.241Z"
+    },
+    {
+      "feedbackId": "aec4713a-5750-4641-8df6-86cd657b1ec3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando con seriedad esta semana y que reconoces tus avances, especialmente en Teoría de Arrhenius. Eso es excelente. Sin embargo, tu reporte se enfoca más en listar temas que en analizar las variables que hay dentro de ellos, que es exactamente lo que Fase 2 te pide.\n\nTu desempeño muestra que entiendes los conceptos básicos, pero necesitas ir un paso más allá: no solo saber qué es pH o concentración, sino identificar cuáles son las variables en juego, cómo se relacionan y cómo las controlas en un problema. Esto es lo que diferencia un aprendizaje superficial de uno profundo.\n\nPara la próxima semana, te propongo que antes de resolver cualquier ejercicio, hagas una lista de variables: ¿Qué sé? ¿Qué busco? ¿Qué puedo cambiar? ¿Qué no puedo cambiar? Esto te ayudará a estructurar mejor tu pensamiento y a superar esas confusiones con notación científica que mencionas.",
+      "strengths": "• Autoevaluación honesta: Reconoces claramente dónde tienes dificultades (\"todavía me cuesta identificar que libera cada uno\") y dónde has mejorado (\"ahora puedo reconocer más fácil las fórmulas\"). Esto muestra madurez en tu aprendizaje.\n• Identificación de conceptos clave: Mencionas elementos importantes como escala de pH, teoría de Lewis, Arrhenius y notación científica. Demuestras que estás trabajando con contenidos relevantes de la materia.\n• Progreso visible en Teoría de Arrhenius: Pasaste de nivel 2 a nivel 3 en este tema, lo que indica que el esfuerzo está dando resultados. Es un buen indicador de que tus estrategias de estudio están funcionando en algunos temas.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En Fase 2, debes nombrar las variables en cada tema. Por ejemplo, en \"Escala de pH\": variables conocidas (concentración de H+), desconocidas (pH), controlables (temperatura, concentración). Crea una tabla simple para cada tema con estas categorías.\n• Proponer estrategias concretas para superar dificultades: Identificas que te confunde la notación científica, pero no dices cómo lo vas a resolver. Sugiero: practica 5 ejercicios diarios de conversión entre notación decimal y científica, y usa una calculadora científica para verificar. Esto te ayudará a automatizar el proceso.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Dedica 3-5 minutos a reflexionar: ¿Por qué es importante identificar variables? ¿Cómo te ayuda en química? ¿Qué has aprendido diferente esta semana respecto a la anterior? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-10-27T05:03:26.987Z"
+    },
+    {
+      "feedbackId": "c629f290-a68e-4bf5-acc9-ee93bd67110c",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que la semana de parciales es intensa y puede haber interrupciones en el calendario académico. Sin embargo, este reporte no contiene información que me permita evaluar tu progreso en Fase 2 ni reconocer el trabajo realizado.\n\nTu desempeño esta semana no es evaluable porque no hay evidencia de aprendizaje presentada. Esto afecta directamente tu calificación y no refleja tu verdadero potencial en el curso.\n\nPara la próxima semana, te pido que completes el reporte con contenido sustantivo. Aunque no hayas tenido clases, puedes trabajar de forma independiente: revisa tus apuntes de Fase 1, identifica variables en problemas de química que hayas visto, y documenta tu reflexión. Esto demostrará tu compromiso con el pensamiento crítico.",
+      "strengths": "Lamentablemente, este reporte no presenta fortalezas evaluables. La falta de contenido sustantivo impide identificar aspectos positivos del aprendizaje en Fase 2.",
+      "improvements": "• Completar el reporte con contenido real: Aunque no hayas tenido clases presenciales, puedes revisar apuntes anteriores, materiales de Fase 1 o trabajar de forma independiente en identificación de variables. Dedica tiempo a responder cada pregunta con ejemplos concretos de lo que has aprendido hasta ahora.\n• Documentar tu trabajo independiente: Si la semana fue de parciales, aprovecha para consolidar lo aprendido en Fase 1 y prepararte para Fase 2. Registra qué variables identificarías en un problema de química (ej: en una reacción de combustión, ¿cuáles son variables conocidas/desconocidas?).\n• Comunicar situaciones excepcionales: Si realmente no hubo actividades académicas, es importante que lo indiques claramente al inicio del reporte y propongas un plan de recuperación. Esto muestra responsabilidad y compromiso con tu aprendizaje.",
+      "createdAt": "2025-11-12T22:54:21.423Z"
+    }
+  ]
+}

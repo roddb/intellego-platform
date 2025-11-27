@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "studentId": "u_gz7nt32scme1bxita",
+    "studentName": "Dunia Claro",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.195779",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 63.0,
+      "minScore": 35,
+      "maxScore": 76,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Querida Dunia Claro, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en gases ideales y demuestras capacidad analítica al abordar el problema del neumático de Ana con metodología sistemática. Es importante mejorar la organización de tu trabajo y presentación de ideas, especialmente en la sección de comentarios adicionales donde puedes expresar reflexiones sobre tu proceso. Mantén mayor constancia y regularidad en la documentación de tu aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en gases ideales con metodología ABC y matriz 2×2",
+        "Organizas adecuadamente los datos del problema del neumático aplicando clasificación sistemática",
+        "Demuestras capacidad analítica al calcular cuantitativamente la variación de presión (-6.1%) usando la Ley de Gay-Lussac"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en la sección de comentarios adicionales",
+        "Es importante consolidar la ejecución matemática de fórmulas, practicando conversión fluida a Kelvin y despeje de ecuaciones",
+        "Mantén mayor constancia en la documentación reflexiva de tu aprendizaje semanal"
+      ],
+      "createdAt": "2025-10-07 14:04:57"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Querida Dunia Claro, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente la Ley de Charles para el problema del globo y muestras reflexión sobre tu proceso de aprendizaje mediante la estrategia F1+F2+F3. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, especialmente distinguiendo cuándo usar la ecuación general versus leyes específicas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en problemas más complejos. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente la Ley de Charles identificando correctamente que la presión permanece constante",
+        "Aplicas la metodología F1+F2+F3 de manera sistemática para elegir la herramienta adecuada",
+        "Realizas correctamente la conversión a Kelvin y obtienes el resultado de 2.14 L con proceso claro"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para distinguir cuándo conviene usar la ecuación general y cuándo una ley específica",
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas en cada caso",
+        "Trabaja en proporcionar más evidencias de tu proceso en problemas de mayor complejidad"
+      ],
+      "createdAt": "2025-10-07 14:05:35"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 69,
+      "generalComments": "Querida Dunia Claro, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Evidencias clara aplicación de las 4 fases integradas en el problema de mezclas gaseosas, con verificación sistemática del resultado. Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente en problemas con múltiples variables simultáneas. Busca aplicaciones prácticas de mezclas de gases en situaciones cotidianas para consolidar tu comprensión. Mantén mayor constancia y regularidad en la documentación reflexiva de tu aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Evidencias clara aplicación de F1+F2+F3+F4 integradas en el problema de presión parcial de etano",
+        "Verificas tu resultado correctamente sumando las presiones parciales (367+367=734 mmHg)",
+        "Aplicas la Ley de Dalton apropiadamente usando fracciones molares"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar en problemas multiparamétricos",
+        "Necesitas fortalecer el manejo de problemas donde cambian varias variables simultáneamente (P, V y T)",
+        "Busca aplicaciones prácticas de mezclas de gases en situaciones cotidianas para consolidar comprensión"
+      ],
+      "createdAt": "2025-10-07 14:05:35"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 58,
+      "generalComments": "Querida Dunia Claro, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Reconoces los componentes básicos de las leyes de gases y aplicas el protocolo de las 4 fases aunque con dificultades en la ejecución completa. Es fundamental fortalecer tu capacidad para identificar qué fórmula usar en cada problema y consolidar el manejo de conversiones de unidades. Necesitas ser más sistemática en la ejecución de los pasos de resolución, especialmente verificando cada etapa del cálculo. Te recomiendo incorporar la verificación de resultados como parte de tu proceso. Estoy disponible para apoyarte en tu proceso de aprendizaje. No dudes en consultar.",
+      "strengths": [
+        "Reconoces los componentes del problema e identificas variables conocidas y desconocidas",
+        "Aplicas el protocolo de las 4 fases aunque con apoyo en la ejecución",
+        "Muestras reflexión sobre tus dificultades identificando áreas específicas que te cuestan"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar qué fórmula usar en cada problema sin ayuda",
+        "Necesitas consolidar el manejo de conversiones de unidades (°C a K, unidades de presión)",
+        "Es importante ser más sistemática en la ejecución verificando cada paso antes de avanzar",
+        "Te recomiendo incorporar la verificación física de resultados (si aumenta T, debería cambiar P o V según corresponda)"
+      ],
+      "createdAt": "2025-10-07 14:06:35"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Querida Dunia Claro, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Evidencias aplicación completa de las 4 fases en el problema del tanque de eteno, con organización clara y verificación de unidades. Es importante mejorar la planificación de tu estrategia inicial, dedicando tiempo a identificar qué necesitas calcular antes de comenzar. Trabaja en expresar tus ideas con mayor claridad y precisión, especialmente explicando el razonamiento detrás de cada paso. Proporciona evidencias más concretas de tu proceso cuando trabajas sin la guía del cuadernillo. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Evidencias aplicación completa de F1+F2+F3+F4 en el problema del tanque de eteno con estructura clara",
+        "Organizas el problema identificando conocidas y desconocidas de manera sistemática",
+        "Verificas correctamente las conversiones de unidades (hPa a atm, °C a K, dm³ a L)"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación inicial dedicando tiempo a visualizar qué calcularás primero (moles) y después (masa, átomos)",
+        "Necesitas fortalecer la confianza en tu capacidad para aplicar las fórmulas sin depender del cuadernillo",
+        "Trabaja en expresar con mayor claridad el razonamiento detrás de cada paso matemático",
+        "Proporciona más evidencias de aplicación autónoma en problemas similares"
+      ],
+      "createdAt": "2025-10-07 14:06:35"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 35,
+      "generalComments": "Querida Dunia Claro, el contenido de tu reporte corresponde a Física (lanzamiento horizontal), cuando la evaluación es de Química. Reconoces los pasos de resolución de problemas en el contexto de cinemática. Es fundamental fortalecer tu organización del estudio y diferenciación clara entre las materias y sus contenidos específicos. Mejora la organización de tu trabajo verificando que entregas el reporte correcto en cada formulario. Es importante que consultes cuáles son los temas de Química que deberías estar trabajando esta semana. Te sugiero coordinar conmigo para recuperar el material correcto de Química y recibir el apoyo necesario.",
+      "strengths": [
+        "Aplicas la metodología de las 4 fases en la resolución del problema de física",
+        "Identificas correctamente las variables del problema cinemático",
+        "Realizas los cálculos matemáticos paso a paso mostrando el procedimiento"
+      ],
+      "improvements": [
+        "Es fundamental verificar que entregas el reporte correcto en el formulario de cada materia antes de enviarlo",
+        "Necesitas organizar tu estudio diferenciando claramente los temas y contenidos de Química versus Física",
+        "Es prioritario recuperar y trabajar el contenido real de Química de esta semana",
+        "Mejora tu sistema de organización para evitar confusiones entre materias"
+      ],
+      "createdAt": "2025-10-07 14:06:35"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 62,
+      "generalComments": "Querida Dunia Claro, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Aplicas correctamente la ecuación general de los gases con conversiones de unidades apropiadas y obtienes el resultado correcto. Es importante mejorar la planificación de tu estrategia inicial, escribiendo los pasos que seguirás antes de comenzar los cálculos. Necesitas fortalecer la confianza en tu aplicación de fórmulas sin depender constantemente de ayuda externa. Trabaja en expresar con mayor claridad tu proceso de pensamiento en cada paso. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la ecuación general de los gases despejando P2 de manera apropiada",
+        "Realizas las conversiones de unidades necesarias (°C a K, dm³ a cm³) antes de calcular",
+        "Obtienes el resultado correcto de 5767 mmHg con proceso ordenado"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación inicial escribiendo qué pasos seguirás antes de calcular",
+        "Necesitas fortalecer la confianza en tu capacidad para aplicar fórmulas sin requerir ayuda constante",
+        "Trabaja en expresar con mayor claridad por qué eliges cada paso del proceso",
+        "Proporciona más evidencias de verificación del resultado (¿tiene sentido físico que P aumente?)"
+      ],
+      "createdAt": "2025-10-07 14:07:23"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-09-29_008",
+      "weekStart": "2025-09-29",
+      "score": 70,
+      "generalComments": "Querida Dunia Claro, has alcanzado un buen nivel en la unidad de Gases Ideales, cumpliendo con las expectativas en la mayoría de los conceptos. Aplicas correctamente la ecuación general de los gases con conversiones apropiadas y evidencias dominio en problemas estándar. Reconoces tu mayor dificultad con mezclas de gases, mostrando autoconocimiento de tus áreas de mejora. Es importante consolidar el tema de mezclas de gases y presiones parciales, practicando la identificación de qué fórmulas intermedias necesitas. Trabaja en conectar los conceptos con aplicaciones reales más allá de los ejercicios del cuadernillo. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Aplicas correctamente la ecuación general despejando y calculando P2=5766 mmHg",
+        "Realizas conversiones de unidades de manera sistemática y correcta",
+        "Reconoces honestamente tus dificultades con mezclas de gases mostrando autoconocimiento",
+        "Conectas los temas con física identificando similitudes en la metodología de las 4 fases"
+      ],
+      "improvements": [
+        "Es importante consolidar el tema de mezclas de gases practicando identificación de fórmulas intermedias necesarias",
+        "Necesitas profundizar en las aplicaciones prácticas de gases más allá de los ejemplos del cuadernillo",
+        "Trabaja en la justificación de por qué usas cada fórmula en problemas multiparamétricos"
+      ],
+      "createdAt": "2025-10-07 14:07:23"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxita_2025-10-06_009",
+      "weekStart": "2025-10-06",
+      "score": 70,
+      "generalComments": "Querida Dunia Claro, has alcanzado un buen nivel en la unidad de Gases Ideales, cumpliendo con las expectativas en la mayoría de los conceptos. Aplicas correctamente la ecuación general de los gases con conversiones apropiadas y evidencias dominio en problemas estándar. Reconoces tu mayor dificultad con mezclas de gases, mostrando autoconocimiento de tus áreas de mejora. Es importante consolidar el tema de mezclas de gases y presiones parciales, practicando la identificación de qué fórmulas intermedias necesitas. Trabaja en conectar los conceptos con aplicaciones reales más allá de los ejercicios del cuadernillo. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Aplicas correctamente la ecuación general despejando y calculando P2=5766 mmHg",
+        "Realizas conversiones de unidades de manera sistemática y correcta",
+        "Reconoces honestamente tus dificultades con mezclas de gases mostrando autoconocimiento",
+        "Conectas los temas con física identificando similitudes en la metodología de las 4 fases"
+      ],
+      "improvements": [
+        "Es importante consolidar el tema de mezclas de gases practicando identificación de fórmulas intermedias necesarias",
+        "Necesitas profundizar en las aplicaciones prácticas de gases más allá de los ejemplos del cuadernillo",
+        "Trabaja en la justificación de por qué usas cada fórmula en problemas multiparamétricos"
+      ],
+      "createdAt": "2025-10-07 14:07:23"
+    },
+    {
+      "feedbackId": "804d8a04-7359-4c89-8cc7-1c2dd90d5dd6",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que estás avanzando en la comprensión de enlaces químicos. Tu análisis en Q2 es sólido y muestra que puedes aplicar conceptos cuando te enfocas. Reconozco tu honestidad al identificar dificultades con la estructura de Lewis y la representación gráfica.\n\nSin embargo, tu reporte está incompleto. Q5 está vacía, y tus respuestas en Q1 y Q3 son demasiado genéricas. Necesitas ser más específico: en lugar de decir \"me cuesta\", explica *exactamente qué* te cuesta y *cómo* lo vas a resolver.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas con respuestas detalladas, (2) practiques 3-4 estructuras de Lewis diarias con retroalimentación, y (3) reflexiones sobre cómo tus variables se conectan con propiedades reales que observas en el laboratorio.",
+      "strengths": "• Clasificación correcta de enlaces químicos: En Q2, clasificas acertadamente Cl₂, HCl, KCl y NaF, demostrando que comprendes la diferencia entre covalente no polar, covalente polar e iónico. Esto es un logro importante.\n• Conexión entre conceptos: Relacionas el tipo de enlace con propiedades observables (solubilidad, conductividad), mostrando que entiendes cómo las variables microscópicas afectan el comportamiento macroscópico.\n• Autoconciencia sobre dificultades: Reconoces honestamente que te cuesta la estructura de Lewis y la representación gráfica, lo que es el primer paso para mejorar.",
+      "improvements": "• Especificar variables en Q1: No solo digas que te cuesta la polaridad. Identifica exactamente qué variables necesitas: \"Me cuesta identificar la diferencia de electronegatividad entre átomos\" o \"No sé cómo determinar la geometría molecular para predecir polaridad\". Sé concreto.\n• Estrategias detalladas en Q3: En lugar de \"hacer más ejercicios\", propón un plan específico: \"Haré 5 estructuras de Lewis diarias usando la regla del octeto\" o \"Consultaré con el profesor sobre la tabla de electronegatividad\". Las estrategias vagas no funcionan.\n• Completar Q5 con reflexión profunda: Dedica tiempo a responder esta pregunta. Reflexiona sobre: ¿Por qué es importante clasificar variables? ¿Cómo has mejorado desde la Fase 1? ¿Qué descubriste esta semana? Esto demuestra pensamiento crítico real.",
+      "createdAt": "2025-10-27T05:02:40.365Z"
+    },
+    {
+      "feedbackId": "b71ef634-7df4-4cfa-aeca-68125537c1b0",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en los diagramas de Lewis y que tienes una base sólida en la aplicación práctica. Tu ejemplo del HNO₂ muestra que comprendes el procedimiento y que puedes seguir pasos complejos. Eso es valioso.\n\nSin embargo, tu reporte aún no refleja completamente lo que espero de Fase 2: identificar y clasificar *variables* de forma sistemática. Estás describiendo contenido, pero no analizando las variables que lo controlan. Es como si vieras el resultado final sin entender los \"ingredientes\" que lo hacen posible.\n\nPara la próxima semana, te pido que hagas un esfuerzo consciente por listar explícitamente las variables en cada problema (conocidas/desconocidas, controlables/no controlables) y que reflexiones sobre cómo esas variables determinan la estructura molecular. También completa todas las secciones del reporte: tu reflexión es tan importante como tus respuestas técnicas.",
+      "strengths": "• Autoconciencia sobre limitaciones: Reconoces honestamente que te cuesta ubicar átomos y elegir tipos de enlaces. Esta honestidad es el primer paso para mejorar y muestra madurez en tu autoevaluación.\n• Aplicación práctica del contenido: Tu ejemplo del HNO₂ demuestra que *sí* puedes aplicar el diagrama de Lewis en casos reales. Mostrar el proceso paso a paso (átomo central → enlaces → electrones) evidencia que comprendes la secuencia.\n• Conexión con conocimientos previos: Vinculas el tema actual con \"enlaces químicos\" y \"valencia\" que ya conocías, lo que muestra que intentas integrar conceptos. Esto es el inicio correcto de la Fase 2.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En lugar de solo describir el ejercicio, debes listar las variables involucradas. Por ejemplo, en HNO₂: \"Variables conocidas: número de átomos (3), tipo de átomos (H, N, O). Variables desconocidas: tipo de enlace, posición del átomo central.\" Practica esto en cada problema.\n• Profundizar en estrategias conceptuales: Tu estrategia actual es memorizar pasos. Necesitas entender *por qué* el nitrógeno va al centro (mayor valencia, menos electronegatividad). Estudia la regla del octeto y electronegatividad como variables que controlan la estructura. Esto te ayudará a predecir, no solo a reproducir.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre qué aprendiste, qué te sorprendió, o cómo evolucionaste desde Fase 1. Esto no es \"relleno\": es donde demuestras pensamiento crítico real.",
+      "createdAt": "2025-11-03T12:23:52.343Z"
+    },
+    {
+      "feedbackId": "976a0f7e-aac3-42e0-b4f2-23c625ffcc79",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que has trabajado en entender los modelos moleculares y tienes claridad sobre lo que necesitas mejorar, lo cual es un buen punto de partida. Tu conexión entre electrones de valencia y geometría molecular demuestra que estás integrando conceptos correctamente.\n\nSin embargo, tu reporte es muy breve y le falta profundidad en la identificación y clasificación de variables, que es el corazón de la Fase 2. Necesitas ir más allá de mencionar los temas: debes mostrar *cómo* identificas y clasificas las variables en cada caso.\n\nPara la próxima semana, te propongo que hagas ejercicios prácticos pero de forma estructurada: para cada molécula, crea una tabla donde identifiques variables conocidas, desconocidas, controlables y no controlables. Esto te dará la práctica que pides, pero de manera sistemática.",
+      "strengths": "• Reconocimiento honesto de necesidades: Identificas claramente que necesitas práctica para aplicar la teoría. Esto muestra madurez metacognitiva y disposición al mejoramiento.\n• Conexión conceptual válida: Tu respuesta en Q4 demuestra que comprendes la relación entre electrones de valencia y geometría molecular, integrando conceptos de Fase 1 correctamente.\n• Ejemplo concreto correcto: El modelo CO₂ (lineal, 180°) que proporcionas es preciso y muestra que sí dominas al menos un caso de aplicación.",
+      "improvements": "• Amplía la identificación de variables en Q1: No solo menciones los modelos, sino que clasifiques las variables que los definen. Por ejemplo: \"Variables controlables: número de pares de electrones, número de átomos. Variables que resultan: ángulos de enlace, geometría.\" Esto es lo que espera la Fase 2.\n• Profundiza en la evidencia de aprendizaje (Q2): Tu ejemplo del CO₂ es bueno, pero incompleto. Añade: qué variables identificaste, cómo las clasificaste (conocidas/desconocidas, controlables/no controlables) y cómo eso te llevó a la conclusión de 180°.\n• Desarrolla estrategias más específicas en Q3: En lugar de \"practicar más ejercicios\", propón: \"Haré una tabla comparativa de modelos donde liste: número de pares de electrones → geometría → ángulos. Esto me ayudará a ver patrones.\" Las estrategias concretas son más efectivas.",
+      "createdAt": "2025-11-12T23:03:17.065Z"
+    },
+    {
+      "feedbackId": "3baba7cc-cc43-4df6-87aa-6747fbf3a856",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que trabajaste durante la semana y que tienes conciencia de dónde están tus dificultades, lo cual es un buen punto de partida. Sin embargo, tu reporte está incompleto y muy superficial para la Fase 2. Las respuestas son demasiado cortas y no muestran el análisis sistemático de variables que es el corazón de esta fase.\n\nTu desempeño en la prueba (especialmente con polares y apolares) indica que necesitas profundizar en cómo identificar y clasificar las variables que determinan el tipo de enlace. No es suficiente saber que algo es \"difícil\"; necesitas analizar *qué variables específicas* no estás controlando bien.\n\nPara la próxima semana, te pido que: (1) hagas listas completas de variables para cada tipo de enlace, (2) escribas respuestas más desarrolladas en el reporte, y (3) reflexiones sobre estrategias concretas para mejorar. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces específicamente que tuviste dificultades con polares y apolares en la prueba, lo que muestra autoconciencia sobre tus limitaciones.\n• Ejemplo concreto proporcionado: En Q2 incluyes un diagrama de Lewis real (HNO₂), lo que demuestra que sí trabajaste con estructuras moleculares durante la semana.\n• Intento de conexión interdisciplinaria: Mencionas relaciones con matemática y física, mostrando que buscas ver el aprendizaje de forma más amplia.",
+      "improvements": "• Falta especificidad en la identificación de variables: Necesitas ir más allá de \"uniones químicas\" y nombrar explícitamente qué variables están en juego (ej: electronegatividad, ángulo de enlace, número de electrones de valencia). Practica haciendo listas de variables para cada tipo de enlace que estudies.\n• Respuestas muy breves sin análisis sistemático: Tus respuestas son fragmentadas y sin estructura. Para la próxima semana, desarrolla cada pregunta en párrafos completos que incluyan: qué aprendiste, cómo lo clasificas, qué dificultades tuviste y cómo las resolviste.\n• Ausencia de reflexión metacognitiva en Q3 y Q5: No reflexionas sobre *por qué* te cuesta diferenciar polares de apolares ni qué estrategia usarás para mejorar. Dedica tiempo a escribir: \"Mi dificultad es... porque... Mi estrategia será...\"",
+      "createdAt": "2025-11-17T14:00:58.052Z"
+    }
+  ]
+}

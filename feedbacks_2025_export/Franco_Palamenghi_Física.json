@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "studentId": "u_f1hq5788gme0b92xe",
+    "studentName": "Franco Palamenghi",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.201513",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 56.25,
+      "minScore": 48,
+      "maxScore": 62,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-01"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_palamenghi_sem1_2025",
+      "weekStart": "2025-08-04",
+      "score": 55,
+      "generalComments": "Franco, tu nivel 1 indica que necesitas apoyo para resolver ejercicios, lo cual es normal al inicio. Los ejercicios sobre conocimiento son fundamentales. Te sugiero completar más detalladamente los reportes futuros para poder brindarte mejor retroalimentación. No dudes en consultar todas tus dudas.",
+      "strengths": [
+        "Capacidad para resolver con apoyo",
+        "Reconocimiento de la necesidad de consultar dudas",
+        "Cumplimiento con el reporte semanal"
+      ],
+      "improvements": [
+        "Completar todos los campos del reporte con más detalle",
+        "Practicar ejercicios de forma más autónoma",
+        "Documentar específicamente qué dudas surgieron"
+      ],
+      "createdAt": "2025-01-09 17:35:00"
+    },
+    {
+      "feedbackId": "fb_palamenghi_sem2_2025",
+      "weekStart": "2025-08-11",
+      "score": 60,
+      "generalComments": "Franco, es positivo tu avance de Nivel 1 a Nivel 2. Entender y poder resolver con ayuda muestra progreso. Trabajar con la guía de ejercicios es el camino correcto. Sin embargo, necesito que completes todas las preguntas del reporte para poder ayudarte mejor con dificultades específicas.",
+      "strengths": [
+        "Progreso de Nivel 1 a Nivel 2",
+        "Trabajo sistemático con la guía de ejercicios",
+        "Comprensión con apoyo"
+      ],
+      "improvements": [
+        "Urgente: completar TODAS las preguntas del reporte",
+        "Especificar qué tipo de ayuda necesitas",
+        "Intentar al menos un ejercicio de forma independiente"
+      ],
+      "createdAt": "2025-01-09 17:36:00"
+    },
+    {
+      "feedbackId": "fb_palamenghi_sem3_2025",
+      "weekStart": "2025-08-18",
+      "score": 48,
+      "generalComments": "Franco, preocupa tu retroceso a Nivel 1. Indicar que \"la mayoría de ejercicios\" te resultan difíciles requiere atención urgente. Es fundamental que busques ayuda adicional del profesor o tutorías. También es crítico que completes todas las preguntas del reporte para poder ayudarte efectivamente.",
+      "strengths": [
+        "Honestidad al reconocer dificultades generalizadas",
+        "Continúa trabajando con la guía",
+        "Al menos respondió la pregunta sobre dificultades"
+      ],
+      "improvements": [
+        "URGENTE: Solicitar apoyo adicional o tutorías",
+        "Identificar específicamente qué conceptos no entiendes",
+        "Completar TODAS las preguntas del reporte sin excepción",
+        "Comenzar con ejercicios más básicos"
+      ],
+      "createdAt": "2025-01-09 17:37:00"
+    },
+    {
+      "feedbackId": "fb_palamenghi_sem4_2025",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Franco, es alentador que hayas recuperado el Nivel 2 y puedas resolver ejercicios con pocas complicaciones. Trabajar con el modelo de examen es excelente preparación. Sin embargo, DEBES completar todas las preguntas del reporte. Esta información es esencial para tu aprendizaje y mi capacidad de ayudarte.",
+      "strengths": [
+        "Recuperación importante de Nivel 1 a Nivel 2",
+        "Trabajo con modelo de examen (buena preparación)",
+        "Puede resolver con pocas complicaciones"
+      ],
+      "improvements": [
+        "IMPERATIVO: Responder TODAS las preguntas sin excepción",
+        "Documentar qué complicaciones específicas surgen",
+        "Reflexionar sobre estrategias y conexiones con otros temas"
+      ],
+      "createdAt": "2025-01-09 17:38:00"
+    }
+  ]
+}

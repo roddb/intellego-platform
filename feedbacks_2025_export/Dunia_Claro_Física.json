@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "studentId": "u_gz7nt32scme1bxita",
+    "studentName": "Dunia Claro",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.195506",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 67.07,
+      "minScore": 43,
+      "maxScore": 88,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "826bbbae-01b7-49d8-807e-a7f479676a89",
+      "weekStart": "2025-08-04",
+      "score": 79,
+      "generalComments": "Tu trabajo demuestra una comprensión sólida del pensamiento crítico y su aplicación práctica. Destacás especialmente en la estructuración de procesos sistemáticos, como evidenciaste en tu descripción de 5 pasos para resolver problemas de física. Tu capacidad para identificar aplicaciones interdisciplinares (orientación vocacional) muestra madurez en la transferencia conceptual. La honestidad al reconocer la dificultad de mantener la perseverancia ante desafíos complejos refleja autoconsciencia valiosa.",
+      "strengths": [
+        "Excelente estructuración del proceso de pensamiento crítico en 5 pasos aplicados a Física (Q2: 92 puntos)",
+        "Capacidad destacada para identificar aplicaciones interdisciplinares concretas (orientación vocacional en Q4)",
+        "Honestidad metacognitiva al reconocer la brecha entre comprensión teórica y aplicación práctica",
+        "Comprensión sólida de los conceptos fundamentales del pensamiento crítico"
+      ],
+      "improvements": [
+        "Desarrollar estrategias específicas para mantener la perseverancia cuando un problema parece difícil (mencionaste la tendencia a rendirse en Q3)",
+        "Ampliar la profundidad del análisis en Q3: describir técnicas concretas que usaste para superar dificultades",
+        "Aprovechar Q5 para reflexionar sobre tu proceso de aprendizaje o plantear dudas que surgieron",
+        "Profundizar en Q1 describiendo componentes específicos del PC que trabajaste (más allá de cómo aplicarlo)"
+      ],
+      "createdAt": "2025-10-01 13:44:36"
+    },
+    {
+      "feedbackId": "144a1b29-f318-413b-9cd8-96f9d6bba277",
+      "weekStart": "2025-08-11",
+      "score": 78,
+      "generalComments": "Tu reporte de esta semana muestra un salto cualitativo impresionante en la aplicación práctica. El análisis del problema de los neumáticos en Q2 es ejemplar: clasificaste todas las variables en la matriz de 4 cuadrantes con precisión, aplicaste la Ley de Gay-Lussac correctamente y consideraste factores secundarios como el calentamiento por fricción. Esta evidencia demuestra dominio técnico que contrasta con tu autoevaluación conservadora (Niveles 1-2 en Q1). La honestidad al reconocer confusiones es valiosa, pero tu trabajo muestra capacidad superior a la que te atribuís.",
+      "strengths": [
+        "Análisis EXCEPCIONAL en Q2: matriz completa de variables (A/B/C/D) con justificaciones precisas y aplicación correcta de Ley de Gay-Lussac (100 puntos)",
+        "Capacidad destacada de sistematización: estructura paso a paso impecable (PASO 1→2, categorías, reflexión final)",
+        "Diferenciación técnica precisa entre presión absoluta/manométrica y consideración de variables secundarias (fugas, calentamiento)",
+        "Estrategia metacognitiva efectiva: revisar ejemplos y replicar método cuando hay dificultades"
+      ],
+      "improvements": [
+        "Elevar tu autoevaluación: tu trabajo en Q2 es de Nivel 4, no Nivel 1-2 como indicás en Q1",
+        "Ampliar la profundidad en Q4: desarrollar más conexiones con Química (ej. comportamiento molecular, ecuación de estado)",
+        "Aprovechar Q5 para reflexionar sobre la discrepancia entre tu percepción de dificultad y tu desempeño real",
+        "Trabajar la confianza: tu dominio técnico (Q2: 100) es excelente, la inseguridad es el único obstáculo"
+      ],
+      "createdAt": "2025-10-01 13:46:10"
+    },
+    {
+      "feedbackId": "7581bf6b-5589-49a0-93e6-488a5e490d4e",
+      "weekStart": "2025-08-18",
+      "score": 78,
+      "generalComments": "Tu trabajo en tiro oblicuo demuestra progreso técnico sólido. La resolución del Ejercicio 1 en Q2 es completa: aplicaste correctamente la descomposición vectorial y las ecuaciones de posición, obteniendo resultados numéricos precisos. Tu identificación de la dificultad específica (fórmulas condicionales según h₀) y la estrategia F1+F2+F3 muestran pensamiento metacognitivo efectivo. La conexión conceptual en Q4 es acertada: el tiro oblicuo efectivamente combina movimientos vertical y horizontal.",
+      "strengths": [
+        "Resolución técnica completa en Q2: descomposición vectorial correcta y aplicación precisa de ecuaciones (x≈28.3m, y≈8.7m)",
+        "Identificación específica de dificultad conceptual: reconocer que fórmulas dependen de condiciones iniciales (h₀=0 o no)",
+        "Uso efectivo de estrategia sistemática F1+F2+F3 para ordenar información y seleccionar ecuaciones",
+        "Comprensión conceptual sólida: tiro oblicuo como combinación de movimientos (Q4)"
+      ],
+      "improvements": [
+        "Trabajar ejercicios adicionales con h₀≠0 para consolidar la distinción entre fórmulas condicionales",
+        "Elevar autoevaluación: tu aplicación en Q2 es de Nivel 3-4, no Nivel 2 como indicás",
+        "Ampliar Q4: explicar cómo específicamente se independizan los movimientos horizontal y vertical",
+        "Aprovechar Q5 para reflexionar sobre tu evolución desde la Fase 1 (PC) hasta aplicaciones en cinemática"
+      ],
+      "createdAt": "2025-10-01 13:46:54"
+    },
+    {
+      "feedbackId": "585f54cd-b38b-4b69-b60b-cffd0d2161a9",
+      "weekStart": "2025-09-01",
+      "score": 82,
+      "generalComments": "Este reporte representa un salto cualitativo significativo hacia el dominio de Fase 4. Tu análisis en Q2 es ejemplar: aplicaste la metodología completa de 4 fases de forma explícita, evaluaste 3 rutas alternativas (cinemática, energética, temporal) y justificaste tu elección. El chequeo de unidades y la consideración de suposiciones implícitas (sin fricción, g constante) demuestran rigor científico maduro. En Q3, identificaste múltiples dificultades específicas y articulaste estrategias concretas. Tu score de 82 refleja este avance real, aunque sigas autoevaluándote en Nivel 2.",
+      "strengths": [
+        "Análisis EXCEPCIONAL en Q2: metodología explícita Fase 1→2→3→4 con evaluación de 3 rutas alternativas (100 puntos)",
+        "Rigor científico destacado: chequeo de unidades, identificación de suposiciones implícitas, justificación de elección metodológica",
+        "Metacognición avanzada en Q3: múltiples dificultades identificadas con estrategias específicas y realistas",
+        "Progresión clara: evolución desde Fase 1 (79) hasta Fase 4 (82), mostrando dominio transversal del método"
+      ],
+      "improvements": [
+        "Elevar autoevaluación: tu trabajo es de Nivel 3-4, no Nivel 2 como indicás en Q1",
+        "Ampliar Q4: desarrollar ejemplos concretos de conexiones (ej. ecuaciones cuadráticas para y(t), vectores en descomposición)",
+        "Aprovechar Q5 para reflexionar sobre tu evolución metodológica a lo largo de las 4 fases",
+        "Practicar problemas multi-etapa que mencionás como dificultad en Q3, aprovechando tu ya sólido dominio del protocolo"
+      ],
+      "createdAt": "2025-10-01 13:47:41"
+    },
+    {
+      "feedbackId": "84c15c31-9e2b-4e51-8eee-2714cc97152a",
+      "weekStart": "2025-09-08",
+      "score": 88,
+      "generalComments": "Este es tu mejor reporte del año: alcanzás 88 puntos con un dominio técnico sobresaliente. En Q2, resolviste un problema complejo de sincronización balística incluyendo viento en contra, variación de gravedad por altitud y coordinación de movimientos. El análisis del resultado negativo (receptor debe empezar 1.6s antes) demuestra comprensión profunda. ADEMÁS, en Q5 incluiste un segundo ejercicio completo de tiro horizontal con las 4 fases. Esta doble evidencia contradice rotundamente tu autoevaluación de nivel bajo en Q1. Tu capacidad es de Nivel 4, no del nivel que te atribuís.",
+      "strengths": [
+        "DOBLE EVIDENCIA excepcional: problema NFL (Q2) + tiro horizontal (Q5), ambos con metodología completa Fase 1-4",
+        "Manejo de complejidad real: incorporación de viento, gravedad variable, sincronización de trayectorias en Q2",
+        "Interpretación física correcta de resultado negativo: comprensión de que el receptor debe anticiparse",
+        "Autorregulación (91) y metacognición (94) alcanzan niveles excelentes, reflejados en estrategias específicas de Q3"
+      ],
+      "improvements": [
+        "PRIORIDAD CRÍTICA: Recalibrar autoevaluación - tu Q1 dice nivel bajo, tu trabajo demuestra Nivel 4 excepcional",
+        "Mantener el nivel de doble evidencia: presentar múltiples ejercicios completos fortalece demostración de dominio",
+        "Ampliar Q4: desarrollar más aplicaciones reales (balística, ingeniería aeroespacial, deportes)",
+        "Reflexionar en futuros Q5 sobre la evolución desde 79 (Fase 1) hasta 88 (Fase 4 compleja): es una trayectoria ascendente notable"
+      ],
+      "createdAt": "2025-10-01 13:48:39"
+    },
+    {
+      "feedbackId": "66cd9788-b761-400c-a76d-55fe843e0fcb",
+      "weekStart": "2025-09-15",
+      "score": 63,
+      "generalComments": "Este reporte muestra una transición hacia contenidos de química (Ley de Boyle, gases) con resultados por debajo de tu nivel habitual. Tu score de 63 contrasta con el 88 de la semana anterior. En Q2 aplicaste la estructura de 4 fases de forma abreviada y llegaste a un planteo correcto de la Ley de Boyle, aunque hay un error aritmético en el resultado final (3.2/2.5 = 1.28 L, no 1.82 L). Las respuestas son notablemente más breves que en reportes anteriores. La dificultad principal parece estar en la selección de criterios para aplicar fórmulas (Q1 y Q3).",
+      "strengths": [
+        "Mantuviste la estructura metodológica (F1-F4) incluso en un tema nuevo y conceptualmente diferente",
+        "Planteo correcto de la Ley de Boyle: identificaste P1V1=P2V2 como herramienta adecuada",
+        "Conexión válida con aplicaciones reales (globos) y matemática (incógnitas)",
+        "Honestidad en reconocer nivel bajo en tema nuevo"
+      ],
+      "improvements": [
+        "Revisar cálculo aritmético en Q2: 3.2÷2.5 = 1.28 L (no 1.82 L) - pequeño error que no invalida el planteo correcto",
+        "Desarrollar criterios para selección de fórmulas: entender que Ley de Boyle aplica cuando T y n son constantes",
+        "Ampliar desarrollo en Q3: explicar qué específicamente te confundió y qué estrategia usaste o podrías usar",
+        "Retomar nivel de detalle de reportes anteriores: tus respuestas aquí son mucho más breves que en semanas previas",
+        "Aprovechar Q5 para reflexionar sobre la transición de temas (cinemática → gases) y cómo adaptar la metodología"
+      ],
+      "createdAt": "2025-10-01 13:57:22"
+    },
+    {
+      "feedbackId": "6dd77167-33a1-4cf7-b422-b12a08c94ab0",
+      "weekStart": "2025-09-22",
+      "score": 74,
+      "generalComments": "Este reporte muestra una recuperación parcial tras la semana de gases (63→74). Tu resolución en Q2 del problema del arquero es técnicamente sólida: aplicaste las 4 fases correctamente, descompusiste vectores con precisión (v₀ₓ=34.64, v₀ᵧ=20), calculaste tiempo de vuelo (4s) y alcance (138.6m), y llegaste a la conclusión correcta (impacta el blanco a 120m). Este desempeño de 92 puntos en Q2 contrasta nuevamente con tu autoevaluación de nivel 2 en Q1. Tu trayectoria general muestra dominio en cinemática (79-78-78-82-88) con dip en gases (63), indicando fortaleza específica en física mecánica.",
+      "strengths": [
+        "Resolución técnica completa en Q2: metodología F1-F4 aplicada correctamente con cálculos precisos (92 puntos)",
+        "Recuperación efectiva tras tema de gases: de 63 a 74 puntos al regresar a cinemática",
+        "Descomposición vectorial correcta: cos30°=0.866, sin30°=0.5 aplicados correctamente",
+        "Conclusión lógica acertada: comparación alcance (138.6m) vs. objetivo (120m) con interpretación correcta"
+      ],
+      "improvements": [
+        "Recalibrar autoevaluación persistente: tu Q2 (92) demuestra Nivel 3-4, no Nivel 2 como indicas",
+        "Desarrollar estrategias específicas en Q3: practicar más es válido, pero identificar QUÉ practicar (ej. problemas de tiempo de vuelo variable)",
+        "Ampliar conexiones en Q4: dar ejemplos concretos de aplicación de trigonometría en el problema del arquero",
+        "Reflexionar en Q5 sobre tu evolución: 79→78→78→82→88→63→74 muestra patrón claro de fortaleza en cinemática",
+        "Consolidar aprendizaje en gases (tema con mayor dificultad: 63) para futuras aplicaciones"
+      ],
+      "createdAt": "2025-10-01 13:58:36"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bxita_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 70,
+      "generalComments": "Hola Dunia Claro, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Física. Identificas correctamente las variables involucradas en el problema de tiro parabólico con viento. Tu capacidad para clasificar y categorizar información entre variables conocidas y desconocidas es efectiva. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada. Identifica con mayor precisión las dificultades que enfrentas. Tu progreso es notable. Continúa trabajando con esta dedicación.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en tiro parabólico: velocidad inicial, ángulo, velocidad del receptor y distancia inicial.",
+        "Tu capacidad para clasificar variables conocidas (vc) y desconocidas (vd) es clara y sistemática.",
+        "Muestras claridad al identificar el problema principal: determinar cuándo debe comenzar a correr el receptor.",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al autoevaluar tu nivel de preparación."
+      ],
+      "improvements": [
+        "Necesitas sistematizar el proceso de análisis de datos: incluir todas las magnitudes relevantes como la gravedad, el efecto del viento, y las componentes de velocidad.",
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas: ecuaciones de tiro parabólico, descomposición vectorial.",
+        "Identifica con mayor precisión las dificultades que enfrentas: especifica qué resultado obtuviste y por qué consideras que es incoherente.",
+        "Busca aplicaciones prácticas de las ecuaciones de movimiento en situaciones cotidianas, más allá del uso de funciones trigonométricas."
+      ],
+      "createdAt": "2025-10-10T03:00:00.000Z"
+    },
+    {
+      "feedbackId": "38e679ea-8687-4cf2-903a-b68b7f88c8c9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:51:41.322Z"
+    },
+    {
+      "feedbackId": "f1d7d00b-0442-4e8d-81cc-1a59d13de7a5",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:36:45.046Z"
+    },
+    {
+      "feedbackId": "d8df911b-d4a5-4709-a5fc-82692d5e04db",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que estás trabajando en Física y reconoces honestamente dónde tienes dificultades, lo cual es muy valioso. Tu cálculo del peso en Q2 muestra que entiendes algunas relaciones entre variables, pero necesitas dar un paso más: pasar de los números a la representación visual y conceptual de los diagramas de cuerpo libre.\n\nEsta semana tu desempeño está en nivel inicial, principalmente porque los diagramas no están realmente graficados y falta identificación clara de todas las variables involucradas. Sin embargo, tu disposición a mejorar es positiva.\n\nPara la próxima semana, enfócate en: (1) dibujar correctamente al menos 3 diagramas de cuerpo libre completos, (2) crear tu tabla de unidades de referencia, y (3) escribir reflexiones en Q5 sobre lo que aprendes. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Reconocimiento honesto de dificultades: Admites claramente que te cuesta entender diagramas de cuerpo libre y trabajar con unidades. Esta autoconciencia es el primer paso para mejorar.\n• Aplicación de fórmulas básicas: En Q2 demuestras que sabes aplicar la fórmula p=m·g correctamente (20×10=200N), lo que indica comprensión de relaciones entre variables.\n• Intención de mejorar: Propones practicar más ejercicios, mostrando disposición a trabajar en tus dificultades, aunque necesites estrategias más específicas.",
+      "improvements": "• Graficar realmente los diagramas de cuerpo libre: No basta con listar números. Dibuja o describe claramente cada vector (fuerza aplicada, rozamiento, peso, normal) con su dirección y magnitud. Usa papel cuadriculado o herramientas digitales para visualizar mejor.\n• Crear un sistema de unidades: Haz una tabla personal con magnitudes físicas (fuerza, masa, aceleración) y sus unidades estándar (N, kg, m/s²). Antes de cada problema, revísala. Esto te ayudará a identificar qué unidades usar sin dudas.\n• Completar la sección Q5 con reflexión: Dedica tiempo a escribir qué aprendiste esta semana, qué te sorprendió, y cómo esto conecta con lo que ya sabías. Esto consolida tu aprendizaje y te prepara mejor para la siguiente fase.",
+      "createdAt": "2025-10-27T05:01:51.752Z"
+    },
+    {
+      "feedbackId": "f91d15e3-b9a9-4b2e-b12a-23af719e268b",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en un tema complejo como cuerpos vinculados. Tu resolución del ejercicio de la polea demuestra que entiendes el procedimiento y puedes aplicar la segunda ley de Newton correctamente, lo cual es un logro importante. Reconoces honestamente dónde tienes dificultades, y eso es muy valioso.\n\nSin embargo, tu reporte muestra que aún estás en una fase de aplicación mecánica más que de análisis profundo. Identificas fuerzas y escribes ecuaciones, pero no clasificas variables ni reflexionas sobre por qué funcionan. Esto es normal en esta etapa, pero es el momento de dar el siguiente paso.\n\nPara la próxima semana, te propongo: antes de resolver cualquier ejercicio, dedica 2 minutos a hacer una tabla de variables (qué tengo, qué busco, qué puedo controlar). Esto te dará más seguridad al elegir fórmulas y te preparará mejor para problemas más complejos. También completa la sección de comentarios adicionales con reflexiones genuinas sobre tu aprendizaje.",
+      "strengths": "• Claridad en el procedimiento matemático: Tu resolución del ejercicio de la polea es ordenada y correcta. Escribes las ecuaciones para cada bloque y luego las combinas de forma lógica, lo que muestra que entiendes el proceso paso a paso.\n• Identificación de fuerzas en sistemas complejos: Reconoces correctamente que en el bloque 1 actúan peso y tensión, y en el bloque 2 aparece la tensión y el peso descompuesto. Esto demuestra que estás visualizando bien los diagramas de cuerpo libre.\n• Honestidad sobre tus dificultades: Reconoces explícitamente que te cuesta entender qué fórmulas usar y que necesitas ayuda. Esta autoconciencia es el primer paso para mejorar y buscar estrategias más efectivas.",
+      "improvements": "• Clasificación sistemática de variables: En tus respuestas no distingues entre variables conocidas (m1, m2, g, θ) y desconocidas (a, T). Crea una tabla simple en cada problema donde listes: \"Datos que tengo\" y \"Datos que busco\". Esto te ayudará a organizar mejor la información antes de escribir ecuaciones.\n• Estrategias específicas para descomponer fuerzas: Tu estrategia actual (\"mirar ejemplos\") es pasiva. Propón crear un protocolo personal: dibuja siempre el diagrama, identifica cada fuerza con color diferente, descompón en ejes x-y, y luego escribe ΣF. Practica esto en 3-4 ejercicios nuevos esta semana.\n• Profundidad en conexiones y reflexión: Las respuestas en Q4 y Q5 son muy breves. Dedica tiempo a escribir: ¿Por qué es importante identificar variables? ¿Cómo usarías esto en un problema de movimiento circular o colisiones? Esto fortalecerá tu comprensión conceptual.",
+      "createdAt": "2025-11-03T12:23:52.349Z"
+    },
+    {
+      "feedbackId": "7490c8d4-8846-43c6-8283-fb3dbe77543b",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Tu reporte muestra que estás trabajando activamente en el proyecto y que comprendes la teoría básica de las leyes de Newton. El trabajo en equipo está bien organizado y tu elección del vehículo con globo es inteligente porque permite aplicar los conceptos de forma práctica.\n\nSin embargo, tu reporte aún no refleja completamente lo que se espera en la Fase 2: identificar y clasificar variables de forma sistemática. Estás describiendo el proyecto, pero no analizando las variables físicas involucradas. Esto es crucial para pasar de la comprensión teórica a la aplicación real.\n\nPara la próxima semana, antes de hacer el experimento, dedica tiempo a listar todas las variables de tu proyecto (qué puedes medir, qué controlas, qué no controlas). Esto hará que tu práctica sea mucho más productiva y que entiendas realmente cómo funcionan las leyes de Newton en tu vehículo.",
+      "strengths": "• Trabajo colaborativo bien organizado: Describes claramente cómo distribuiste roles en el grupo (coordinador, secretario, etc.), mostrando capacidad de planificación y responsabilidad compartida en el proyecto.\n• Elección de proyecto fundamentada: Justificas por qué elegiste el vehículo con globo: \"nos pareció que podíamos aplicar las leyes de una manera dinámica\" y reconoces la practicidad de los materiales, demostrando pensamiento estratégico.\n• Conciencia de la brecha teoría-práctica: Reconoces honestamente que \"me falta ponerlas en práctica\", lo que muestra autoconciencia sobre tu aprendizaje y disposición a mejorar.",
+      "improvements": "• Identifica variables explícitamente en tu proyecto: En el vehículo con globo, debes listar variables como: conocidas (masa del vehículo, presión del aire), desconocidas (aceleración, distancia máxima) y controlables (tamaño del globo, peso agregado). Esto es central en la Fase 2 y falta en tu reporte.\n• Desarrolla estrategias concretas para las dificultades: En lugar de esperar a la práctica, investiga ahora: busca proporciones estándar en proyectos similares, calcula estimaciones previas o consulta con tu profesor sobre las medidas. Esto te preparará mejor para el experimento.\n• Completa la sección de comentarios adicionales (Q5): Reflexiona sobre cómo identificar variables te ayuda a entender mejor las leyes de Newton, o qué aprendiste nuevo comparando este proyecto con el del paracaídas. Esta reflexión es fundamental para consolidar tu pensamiento crítico.",
+      "createdAt": "2025-11-12T23:01:23.205Z"
+    },
+    {
+      "feedbackId": "55359d55-877d-4efe-91de-533d74a6c366",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que has avanzado bien en la construcción del vehículo propulsado y trabajas bien en equipo, lo que es excelente. Sin embargo, tu reporte muestra que aún no estás aplicando completamente lo que aprendiste en Fase 2 sobre identificación y clasificación de variables.\n\nTu desempeño esta semana es en desarrollo: tienes el proyecto físico avanzado, pero te falta profundizar en el análisis científico. Esto es normal, pero es el momento de conectar la construcción con el pensamiento crítico que requiere la Fase 2.\n\nPara la próxima semana, te pido que antes de hacer el informe, dediques tiempo a listar todas las variables de tu proyecto (masa, fuerzas, velocidades, presiones) y las clasifiques. Esto hará que tus cálculos sean más claros y tu informe mucho más fuerte.",
+      "strengths": "• Reconocimiento de dificultades: Identificas honestamente que los cálculos te resultan difíciles, lo que muestra autoconciencia sobre tus desafíos. Esto es el primer paso para mejorar.\n• Trabajo colaborativo: Mencionas que \"con mi grupo pudimos avanzar bastante\", demostrando que trabajas en equipo y logras avances concretos en la construcción del proyecto.\n• Conexión con aprendizaje previo: Intentas vincular este proyecto con experiencias anteriores de física, mostrando que buscas patrones entre temas.",
+      "improvements": "• Identificación explícita de variables: Necesitas listar las variables del vehículo propulsado de forma clara. Por ejemplo: \"Variables conocidas: masa del auto, longitud del tubo. Variables desconocidas: velocidad final, distancia recorrida.\" Esto es fundamental en Fase 2.\n• Estrategias específicas para cálculos: En lugar de decir \"la parte de calcular no\", propón acciones concretas: \"Voy a revisar las fórmulas de cinemática\" o \"Pediré ayuda para entender cómo calcular la aceleración a partir de la presión del aire.\" Sé específico.\n• Completar la reflexión final: Responde Q5 con comentarios sobre por qué es importante identificar variables correctamente. Pregúntate: ¿Cómo cambiaría mi proyecto si no identificara todas las variables? ¿Qué aprendí diferente en Fase 2 respecto a Fase 1?",
+      "createdAt": "2025-11-17T13:58:22.037Z"
+    }
+  ]
+}

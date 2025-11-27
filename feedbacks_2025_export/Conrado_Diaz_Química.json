@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "studentId": "u_asv9bhh8zme06j7jo",
+    "studentName": "Conrado Diaz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.194567",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 76.25,
+      "minScore": 73,
+      "maxScore": 80,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-25"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_322d157cb23582a73ef499b614ef54a4",
+      "weekStart": "2025-08-04",
+      "score": 80,
+      "generalComments": "Conrado muestra muy buena comprensión inicial de los gases ideales y el pensamiento crítico. Domina las leyes fundamentales y establece excelentes conexiones con fenómenos reales como los globos aerostáticos. Su capacidad reflexiva sobre el proceso de aprendizaje es destacable.",
+      "strengths": [
+        "Excelente comprensión conceptual de las leyes de gases (Boyle, Charles, Gay-Lussac)",
+        "Conexión sobresaliente entre teoría y aplicaciones prácticas reales",
+        "Reflexión madura sobre necesidades organizativas del aprendizaje"
+      ],
+      "improvements": [
+        "Fortalecer la confianza en la resolución práctica de ejercicios",
+        "Practicar más problemas paso a paso para consolidar la aplicación",
+        "Desarrollar un método personal sistemático para abordar ejercicios"
+      ],
+      "createdAt": "2025-09-28 20:05:30"
+    },
+    {
+      "feedbackId": "fb_54916b67aeedb222b4d027185febee0b",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Conrado demuestra buen dominio en la identificación de variables, especialmente en equilibrios químicos. Comprende la metodología pero experimenta cierta sobrecarga cognitiva con ejercicios extensos. La conexión entre pensamiento crítico y gases ideales está clara.",
+      "strengths": [
+        "Identificación correcta de variables de equilibrio químico",
+        "Comprensión sólida de la metodología de pensamiento crítico",
+        "Capacidad de relacionar conceptos entre diferentes temas"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para manejar ejercicios extensos dividiéndolos en partes",
+        "Practicar la construcción sistemática de matrices de variables",
+        "Trabajar la tolerancia a tareas complejas mediante pausas estratégicas"
+      ],
+      "createdAt": "2025-09-28 20:04:12"
+    },
+    {
+      "feedbackId": "fb_f822338c4843ce4070d4fdbc561155fd",
+      "weekStart": "2025-08-18",
+      "score": 75,
+      "generalComments": "Conrado muestra buen progreso en la comprensión y aplicación de las leyes de gases ideales. El repaso le ha permitido consolidar conceptos previos y mejorar su capacidad de resolución, aunque persisten dificultades en la selección correcta de fórmulas.",
+      "strengths": [
+        "Excelente aplicación de la ecuación de estado (PV=nRT) con cálculo correcto",
+        "Comprensión mejorada de conceptos tras el repaso sistemático",
+        "Capacidad de conectar los gases ideales con fenómenos cotidianos observables"
+      ],
+      "improvements": [
+        "Desarrollar un esquema de decisión para seleccionar la fórmula correcta según el problema",
+        "Practicar más ejercicios variados para evitar confusión entre fórmulas similares",
+        "Completar las reflexiones en comentarios adicionales para mejorar metacognición"
+      ],
+      "createdAt": "2025-09-28 20:02:24"
+    },
+    {
+      "feedbackId": "fb_bdb7782379413e9b12569549f498d6c0",
+      "weekStart": "2025-08-25",
+      "score": 77,
+      "generalComments": "Conrado demuestra muy buen dominio del proceso completo de pensamiento crítico aplicado a gases ideales. Ha logrado integrar exitosamente las 4 fases metodológicas, desde la identificación del problema hasta la ejecución de la estrategia, como se evidencia en su resolución del problema de la Ley de Charles.",
+      "strengths": [
+        "Excelente aplicación sistemática del método completo F1+F2+F3+F4 en problemas de gases",
+        "Identificación correcta de variables y selección apropiada de la Ley de Charles",
+        "Comprensión sólida de la teoría de gases ideales y su conexión con situaciones cotidianas"
+      ],
+      "improvements": [
+        "Practicar más la ejecución de cálculos para reducir errores en la fase 4",
+        "Desarrollar estrategias específicas para verificar la selección correcta de fórmulas",
+        "Incluir verificación dimensional y análisis de razonabilidad en los resultados finales"
+      ],
+      "createdAt": "2025-09-28 19:59:35"
+    }
+  ]
+}

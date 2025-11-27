@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "studentId": "u_jb53muhskme2x8253",
+    "studentName": "Gabriel Maximiliano Bollmann",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.202086",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 54.2,
+      "minScore": 27,
+      "maxScore": 64,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "b78fee84-cb29-433c-9e3a-11459ce74999",
+      "weekStart": "2025-08-04",
+      "score": 54,
+      "generalComments": "Gabriel está iniciando su camino en la metodología de pensamiento crítico. Muestra honestidad al autoevaluarse y reconocer que el tema es complicado. Ha trabajado con un problema concreto de tiro oblicuo, lo cual es un buen punto de partida. Sin embargo, necesita profundizar en la comprensión de cada paso metodológico, especialmente en la identificación del problema y la distinción entre información relevante e irrelevante.",
+      "strengths": [
+        "Honestidad en la autoevaluación al reconocer el nivel de dificultad del tema",
+        "Trabajo con un problema específico (jabalina) que permite aplicar conceptos de física",
+        "Intento de conectar con conocimientos previos (altura y velocidad)"
+      ],
+      "improvements": [
+        "Desarrollar mayor profundidad en las respuestas, especificando qué aspectos del pensamiento crítico resultan complicados",
+        "Practicar el Paso 1 del método: identificar claramente el problema, el objetivo y distinguir información relevante",
+        "Elaborar estrategias concretas para superar las dificultades identificadas, no solo mencionarlas"
+      ],
+      "createdAt": "2025-09-30 17:21:53"
+    },
+    {
+      "feedbackId": "333f8bf6-2a03-4111-8945-df17bd2000bf",
+      "weekStart": "2025-08-25",
+      "score": 62,
+      "generalComments": "Gabriel muestra una comprensión básica del trabajo con tiro oblicuo y está comenzando a familiarizarse con las fórmulas necesarias. Reconoce la importancia de las herramientas matemáticas y hace conexiones entre temas, aunque sus respuestas requieren mayor profundidad y desarrollo. Es positivo que identifique sus dificultades con la memorización de fórmulas y establezca conexiones con contenido previo.",
+      "strengths": [
+        "Identifica el tema específico trabajado (tiro oblicuo) y demuestra conocimiento del contenido",
+        "Establece conexiones entre fórmulas de diferentes temas, mostrando pensamiento relacional",
+        "Reconoce con honestidad sus dificultades con las fórmulas y es consciente de áreas a mejorar",
+        "Muestra evidencia de práctica al mencionar la resolución del ejercicio 5"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas y detalladas, especialmente en Q1 y Q2",
+        "Ir más allá de la memorización: enfocarse en comprender el significado físico de las fórmulas",
+        "Justificar por qué selecciona determinadas fórmulas y cómo se relacionan con el problema",
+        "Incluir ejemplos específicos de dificultades y estrategias concretas para superarlas",
+        "Explicar el proceso de resolución del ejercicio 5, no solo mencionar que lo resolvió"
+      ],
+      "createdAt": "2025-10-01 12:50:04"
+    },
+    {
+      "feedbackId": "ab95d0af-8a8e-4bb6-af0c-6710975e3934",
+      "weekStart": "2025-09-01",
+      "score": 64,
+      "generalComments": "Gabriel continúa trabajando con tiro oblicuo mostrando un nivel de dominio de 6.5 según su autoevaluación. Sus respuestas permanecen muy breves pero reconoce aspectos importantes: la persistente dificultad con las fórmulas, la conexión con matemática, y la necesidad de más práctica. Es positivo que identifique la práctica como área de mejora y que tenga consciencia del trabajo grupal necesario.",
+      "strengths": [
+        "Autoevaluación honesta de su nivel de dominio (6.5/10) muestra metacognición",
+        "Reconoce la conexión interdisciplinar entre Física y Matemática",
+        "Identifica la necesidad de más práctica como estrategia de mejora",
+        "Mantiene consciencia de trabajo colaborativo usando necesitamos en plural"
+      ],
+      "improvements": [
+        "Desarrollar respuestas significativamente más completas y detalladas en todas las preguntas",
+        "Especificar QUÉ fórmulas causan dificultad y POR QUÉ",
+        "Explicar el proceso de resolución del ejercicio 5, no solo mencionarlo",
+        "Profundizar en CÓMO se relaciona con matemática, dando ejemplos concretos",
+        "Proponer estrategias específicas de práctica más allá de la solicitud general"
+      ],
+      "createdAt": "2025-10-01 13:21:40"
+    },
+    {
+      "feedbackId": "a377fff4-88c3-4153-ba3d-cee25b737d6d",
+      "weekStart": "2025-09-22",
+      "score": 64,
+      "generalComments": "Gabriel ha trabajado con tiro oblicuo y ha identificado una dificultad específica muy relevante para Fase 2: la identificación de variables. Su autoevaluación de 6/10 muestra honestidad sobre su nivel actual. Es muy importante y valioso que haya comunicado la situación personal complicada que atraviesa su familia, lo cual contextualiza su proceso de aprendizaje. A pesar de las circunstancias, completó el reporte mostrando compromiso con su formación. El foco en variables indica que está trabajando en la fase correcta del método.",
+      "strengths": [
+        "Identifica con precisión su dificultad específica: sacar variables, clave en Fase 2",
+        "Comunicación honesta y madura sobre situación personal y ausencias",
+        "Mantiene compromiso académico a pesar de circunstancias difíciles en casa",
+        "Reconoce conexión con matemática, fundamental para trabajo con variables"
+      ],
+      "improvements": [
+        "Cuando sea posible, desarrollar respuestas más completas especificando QUÉ variables identifica",
+        "Explicar el proceso de resolución del ejercicio 1 del módulo 3",
+        "Describir estrategias específicas para mejorar la identificación de variables",
+        "Ampliar la conexión con matemática dando ejemplos concretos",
+        "No dudar en comunicar situaciones que afecten el estudio, como has hecho"
+      ],
+      "createdAt": "2025-10-01 13:26:57"
+    },
+    {
+      "feedbackId": "31f8457c-1a96-413e-aa3f-07777bc59d90",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana ha sido desafiante, pero tu reporte necesita mucho más desarrollo. Las respuestas muy cortas no permiten que yo vea realmente qué aprendiste sobre identificación de variables en Fase 2. \n\nObservo que mencionas elementos del proyecto (velocidad del motor), pero sin explicar cómo los analizaste ni qué dificultades encontraste. Esto sugiere que quizás necesitas más tiempo para procesar lo aprendido o aclarar dudas concretas.\n\nPara la próxima semana, te pido que dediques tiempo a escribir respuestas completas y reflexivas. No necesita ser perfecto, pero sí debe mostrar tu pensamiento. Si tienes dudas sobre cómo clasificar variables o qué significa \"variable controlable\", pregúntame en clase. Estoy aquí para ayudarte.",
+      "strengths": "• Mencionas un proyecto específico: Al referirte a \"Proyecto 3\" y \"Velocidad del motor\", demuestras que estás trabajando en contextos concretos de la materia, lo cual es un buen punto de partida.\n• Reconoces una magnitud física: Identificar \"velocidad del motor\" muestra que tienes presente al menos una variable importante, aunque necesitas desarrollar mucho más.",
+      "improvements": "• Respuestas muy breves sin desarrollo: Tus respuestas son frases cortas que no explican nada. Para la próxima semana, dedica tiempo a escribir párrafos completos donde describas qué variables identificaste, cómo las clasificaste y por qué son importantes. Ejemplo: \"En el Proyecto 3 identifiqué: velocidad (variable conocida), temperatura (variable controlable)...\"\n• Falta de clasificación de variables: No distingues entre variables conocidas/desconocidas ni controlables/no controlables. Crea una tabla simple en tu próximo reporte: en una columna escribe la variable, en otra su tipo. Esto te ayudará a organizar mejor tu pensamiento.\n• Ausencia de reflexión metacognitiva: No reflexionas sobre qué te cuesta trabajo ni cómo lo resuelves. Antes de entregar el próximo reporte, pregúntate: ¿Qué fue difícil? ¿Cómo lo superé? ¿Qué necesito practicar más? Escribe al menos 3 líneas respondiendo esto.",
+      "createdAt": "2025-11-17T13:39:14.110Z"
+    }
+  ]
+}

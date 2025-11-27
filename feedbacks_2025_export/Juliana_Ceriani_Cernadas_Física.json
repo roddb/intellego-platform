@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "studentId": "u_r9e5ufdasme0b8zqx",
+    "studentName": "Juliana Ceriani Cernadas",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.211178",
+    "statistics": {
+      "totalFeedbacks": 16,
+      "feedbacksWithScore": 16,
+      "averageScore": 64.25,
+      "minScore": 27,
+      "maxScore": 88,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_ceriani_w1_2025_fisica",
+      "weekStart": "2025-08-04",
+      "score": 85,
+      "generalComments": "Excelente comprensión del pensamiento crítico, Juliana. Tu nivel 4 está bien justificado y tu análisis de las conversaciones demuestra aplicación práctica perfecta.",
+      "strengths": [
+        "Dominio nivel 4 en fundamentos del pensamiento crítico",
+        "Análisis correcto y justificado de la conversación B",
+        "Conexión interdisciplinaria perspicaz con psicología",
+        "Comprensión profunda de metodología sistemática"
+      ],
+      "improvements": [
+        "Mantener este nivel de excelencia",
+        "Aplicar estos fundamentos en problemas más complejos",
+        "Compartir tu comprensión con compañeros"
+      ],
+      "createdAt": "2025-01-09 11:00:00"
+    },
+    {
+      "feedbackId": "fb_ceriani_w2_2025_fisica",
+      "weekStart": "2025-08-11",
+      "score": 78,
+      "generalComments": "Muy buen trabajo con la identificación de variables, Juliana. Tu análisis de la rutina de Ana es exhaustivo y bien estructurado. La autocrítica sobre respuestas repetitivas muestra madurez.",
+      "strengths": [
+        "Identificación completa de todas las variables relevantes",
+        "Análisis sistemático y detallado del problema de Ana",
+        "Nivel 3 bien alcanzado en identificación de variables",
+        "Diferenciación clara entre constantes (400m) y variables"
+      ],
+      "improvements": [
+        "Trabajar en diferenciar respuestas para preguntas similares",
+        "Buscar conexiones con otras materias además de física",
+        "Sintetizar respuestas para evitar repetición"
+      ],
+      "createdAt": "2025-01-09 11:05:00"
+    },
+    {
+      "feedbackId": "fb_ceriani_w3_2025_fisica",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Buen progreso en tiro oblicuo, Juliana. Tu nivel 2.5 refleja una transición natural. Identificas correctamente las herramientas básicas y la conexión con MRU/MRUV es excelente.",
+      "strengths": [
+        "Comprensión clara de los dos ejes (x horizontal, y vertical)",
+        "Identificación correcta de variables conocidas",
+        "Conexión acertada con MRU (eje x) y MRUV (eje y)",
+        "Selección apropiada de fórmulas básicas"
+      ],
+      "improvements": [
+        "Practicar uso del ángulo para descomponer velocidades",
+        "Clarificar diferencia entre v0, v0x y v0y",
+        "Realizar más ejercicios de aplicación práctica"
+      ],
+      "createdAt": "2025-01-09 11:10:00"
+    },
+    {
+      "feedbackId": "fb_ceriani_w4_2025_fisica",
+      "weekStart": "2025-08-25",
+      "score": 82,
+      "generalComments": "Excelente evolución al nivel 3, Juliana. Tu resolución del problema del bombero es metodológicamente perfecta con estrategia clara y cálculos precisos.",
+      "strengths": [
+        "Estrategia sistemática de 3 pasos bien ejecutada",
+        "Cálculos correctos: v0y=20m/s, t=2s, hmax=20m",
+        "Comprensión clara de condición vy=0 en altura máxima",
+        "Conexión consistente con MRU y MRUV"
+      ],
+      "improvements": [
+        "Aprender fórmula arcsen para calcular ángulos",
+        "Practicar problemas inversos de ángulo",
+        "Expandir repertorio de ejercicios complejos"
+      ],
+      "createdAt": "2025-01-09 11:15:00"
+    },
+    {
+      "feedbackId": "fb_ceriani_w5_2025_fisica",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Juliana, aunque reportas nivel 1, tu trabajo muestra comprensión mayor. El ejercicio del obrero está bien planteado con las 4 fases. Es normal la dificultad con ángulos inversos.",
+      "strengths": [
+        "Aplicación correcta de las 4 fases metodológicas",
+        "Cálculos precisos del tiempo (1.2s) y distancia (11.28m)",
+        "Análisis adicional voluntario de altura en x=8m",
+        "Identificación clara de todas las variables"
+      ],
+      "improvements": [
+        "Practicar conexión entre fórmulas paso a paso",
+        "Aprender funciones trigonométricas inversas",
+        "Fortalecer confianza en resolución independiente",
+        "Solicitar explicación de ángulos al profesor"
+      ],
+      "createdAt": "2025-01-09 11:20:00"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b8zqx_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Juliana Ceriani Cernadas, debido a ausencia de clases durante esta semana, no fue posible evaluar tu progreso en Física durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Informas con claridad la razón de la ausencia de contenido académico esta semana",
+        "Mantienes comunicación constante a través del reporte semanal",
+        "Cumples con la entrega del reporte a pesar de no haber tenido clases"
+      ],
+      "improvements": [
+        "Aprovecha este tiempo sin clases nuevas para consolidar conceptos previos de tiro oblicuo",
+        "Practica ejercicios de las semanas anteriores de forma autónoma",
+        "Prepara preguntas específicas sobre temas que requieren refuerzo para la siguiente clase"
+      ],
+      "createdAt": "2025-10-07 22:54:50"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b8zqx_2025-09-22_007",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Juliana Ceriani Cernadas, debido a ausencia del profesor por el viaje escolar a Madryn, no fue posible evaluar tu progreso en Física durante este período. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Informas con claridad la razón de la ausencia de contenido académico esta semana",
+        "Mantienes comunicación constante a través del reporte semanal",
+        "Cumples con la entrega del reporte a pesar de no haber tenido clases"
+      ],
+      "improvements": [
+        "Aprovecha este tiempo sin clases para consolidar conceptos de cinemática",
+        "Practica ejercicios de temas previos de forma autónoma",
+        "Prepara preguntas específicas sobre temas que requieren refuerzo para la siguiente clase"
+      ],
+      "createdAt": "2025-10-07 22:54:51"
+    },
+    {
+      "feedbackId": "fb_002_2_me0b8zqx_2025-09-29_008",
+      "weekStart": "2025-09-29",
+      "score": 88,
+      "generalComments": "Querida Juliana Ceriani Cernadas, has demostrado un excelente desempeño en la Fase 1: Identificación y comprensión del problema (nuevo ciclo en Dinámica), superando las expectativas para esta etapa del pensamiento crítico en Física. Identificas claramente las diferencias conceptuales entre masa y peso, inercia y fuerzas de acción-reacción. Demuestras buena comprensión del contexto de los principios de Newton. Muestras curiosidad e interés genuino por profundizar el concepto de acción y reacción. Desarrolla estrategias más específicas para visualizar ejemplos concretos del tercer principio de Newton. ¡Excelente trabajo! Continúa con este nivel de dedicación y profundidad.",
+      "strengths": [
+        "Identificas claramente las diferencias conceptuales entre masa y peso, demostrando comprensión profunda de magnitudes físicas",
+        "Demuestras buena comprensión del contexto de los principios de Newton y su aplicación a situaciones reales",
+        "Muestras curiosidad e interés genuino por profundizar el concepto de acción y reacción, evidenciando motivación intrínseca"
+      ],
+      "improvements": [
+        "Desarrolla estrategias más específicas para visualizar ejemplos concretos del tercer principio de Newton (acción y reacción)",
+        "Busca aplicaciones prácticas de la diferencia entre Dinámica y Cinemática en situaciones cotidianas",
+        "Proporciona evidencias más concretas y específicas de cómo distingues entre causa del movimiento (Dinámica) y descripción del movimiento (Cinemática)"
+      ],
+      "createdAt": "2025-10-07 22:54:51"
+    },
+    {
+      "feedbackId": "5955777e-396c-41df-8196-a21be0667616",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:51:42.978Z"
+    },
+    {
+      "feedbackId": "94b35270-adbd-45cd-af99-1945ebac7355",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:16:22.477Z"
+    },
+    {
+      "feedbackId": "1e885143-d557-41a2-845b-1b66fcd494e5",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:17:31.695Z"
+    },
+    {
+      "feedbackId": "789f670e-ea49-45e3-bbe9-1ebdc7f918a1",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:01:06.615Z"
+    },
+    {
+      "feedbackId": "b544d5a4-94ee-4f70-8b33-24ad58260945",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:53:49.343Z"
+    },
+    {
+      "feedbackId": "c874263b-cce3-40ef-a17c-3c1794400d34",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Has hecho un buen trabajo esta semana identificando y dibujando correctamente un diagrama de cuerpo libre en un caso horizontal. Tu proceso es ordenado y tus cálculos son precisos, lo que muestra que estás comprendiendo cómo pasar de datos a magnitudes físicas. Esto es un logro importante en la Fase 2.\n\nSin embargo, tu reporte muestra que aún necesitas profundizar en dos aspectos clave: primero, entender las *relaciones* entre variables (no solo identificarlas), y segundo, desarrollar estrategias concretas para superar tus dificultades en lugar de solo reconocerlas. El plano inclinado es un desafío común, pero es totalmente superable con práctica sistemática.\n\nPara la próxima semana, te propongo que dediques tiempo específico a resolver DCL en planos inclinados usando descomposición de fuerzas. Además, completa siempre la sección de comentarios adicionales: es donde demuestras tu pensamiento crítico más profundo. Estoy seguro de que puedes llegar a Nivel 4 con este enfoque.",
+      "strengths": "• Cálculo correcto de magnitudes: Aplicas bien la fórmula P = m·g y obtienes 200N. Esto muestra que comprendes cómo convertir datos en magnitudes físicas, que es fundamental en la Fase 2.\n• Proceso sistemático en el DCL: Tu descripción del dibujo es ordenada y clara: identificas cada fuerza (aplicada, rozamiento, normal, peso) y las ubicas correctamente en los ejes. Esto demuestra organización en la representación.\n• Autoevaluación honesta: Reconoces específicamente dónde tienes dificultad (plano inclinado) en lugar de decir \"todo está bien\". Esta honestidad es el primer paso para mejorar.",
+      "improvements": "• Profundiza en las relaciones entre variables: En tu DCL horizontal, no explicas por qué N = P (200N). En la Fase 2 debes identificar NO SOLO las variables, sino cómo se relacionan. Pregúntate: ¿por qué la normal es igual al peso aquí? ¿Cambiaría en un plano inclinado?\n• Transforma dificultades en estrategias: Dices \"no sé cómo dibujar fuerzas en plano inclinado\" pero no propones soluciones. Intenta esto: descompón el peso en componentes paralela y perpendicular al plano usando trigonometría. Dibuja primero el ángulo, luego las fuerzas. Practica con ángulos simples (30°, 45°).\n• Amplía tus conexiones a nuevos problemas: Tu conexión con Leyes de Newton es vaga. Intenta aplicar el DCL a un caso diferente: ¿cómo sería el DCL de un objeto en un ascensor acelerado? ¿O en un plano inclinado? Esto te ayudará a transferir lo aprendido.",
+      "createdAt": "2025-10-27T05:00:14.839Z"
+    },
+    {
+      "feedbackId": "f3598599-cea7-4ccf-9800-486914c11e0c",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que dominas bien los cálculos y las fórmulas de Dinámica, lo que es excelente. Tu resolución del problema del automóvil es clara y correcta, y reconoces honestamente dónde tienes dificultades. Eso demuestra madurez académica.\n\nSin embargo, tu reporte se enfoca más en resolver ejercicios que en analizar las variables que hay detrás de ellos. Recuerda que Fase 2 es precisamente eso: aprender a identificar, clasificar y entender las variables. Necesitas ser más explícito en nombrar qué es conocido/desconocido y controlable/no controlable en cada problema.\n\nPara la próxima semana, te pido que: (1) en cada ejercicio, escribas una lista de variables antes de resolver, (2) practiques problemas de tensión con diagramas de fuerzas separados, y (3) completes todas las preguntas del reporte, incluyendo reflexiones personales. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Resolución correcta de problemas: Tu cálculo en Q2 es preciso. Conviertes unidades correctamente (50 km/h → 13,8 m/s), aplicas MRUV adecuadamente y obtienes F = 1653 N. Esto muestra dominio operativo de las fórmulas.\n• Autoconciencia sobre limitaciones: Reconoces en Q1 que necesitas \"profundizar más\" y en Q3 identificas una dificultad específica (tensión en sistemas). Esta honestidad es valiosa para mejorar.\n• Conexión entre conceptos: Vinculas Dinámica con MRUV identificando la aceleración como variable común. Aunque básica, muestra que intentas integrar conocimientos de diferentes temas.",
+      "improvements": "• Identificación explícita de variables: En tus respuestas, no nombras las variables que usas. En Q2, deberías haber escrito: \"Variables conocidas: masa (950 kg), velocidades (50 y 100 km/h), tiempo (8 s). Variables desconocidas: aceleración, fuerza.\" Esto es el corazón de Fase 2.\n• Profundizar en dificultades con estrategias concretas: Dices que te cuesta la tensión en sistemas, pero no explicas por qué ni cómo lo resolverás. Propuesta: dibuja diagramas de fuerzas separando cada objeto, identifica qué variables son iguales (tensión) y cuáles diferentes (aceleración individual). Practica 3-4 ejercicios así.\n• Completar todas las preguntas del reporte: Q5 está vacía. Dedica 5 minutos a reflexionar: ¿Por qué es importante clasificar variables? ¿Cómo te ayuda a resolver problemas más complejos? ¿Qué has aprendido desde Fase 1? Esto consolida tu aprendizaje.",
+      "createdAt": "2025-11-03T12:19:48.590Z"
+    },
+    {
+      "feedbackId": "e3723f4d-ce58-4b8e-ab25-d0c7643c41b0",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Veo que trabajaste en equipo en un proyecto interesante, y eso es valioso. Sin embargo, tu reporte no refleja el aprendizaje específico de la Fase 2: identificar, clasificar y analizar variables. Respondiste de forma muy general, sin mostrar el pensamiento crítico que estamos desarrollando.\n\nEsta semana necesitas cambiar tu enfoque: en lugar de describir qué hiciste, describe *cómo* identificaste las variables en tu catapulta. ¿Cuáles fueron conocidas? ¿Cuáles desconocidas? ¿Cuáles controlaste? Eso es lo que queremos ver.\n\nPara la próxima semana, cuando construyan la catapulta, mantén un registro de las variables que manipulen y cómo afectan el resultado. Esto te preparará para un reporte mucho más sólido que demuestre verdadero dominio de la Fase 2.",
+      "strengths": "• Conexión con conceptos previos: Reconoces que el proyecto se relaciona con las leyes de Newton, mostrando que intentas integrar conocimientos de fases anteriores. Esto es un buen punto de partida para profundizar.\n• Trabajo colaborativo: Valoras el intercambio de opiniones en grupo, lo que demuestra apertura al aprendizaje colectivo. Esta es una habilidad importante que mantén.\n• Elección de proyecto relevante: La catapulta es un excelente dispositivo para estudiar dinámica, lo que sugiere que tu grupo pensó en algo con potencial físico real.",
+      "improvements": "• Identifica y lista variables específicas del proyecto: En tu próximo reporte, escribe explícitamente qué variables trabajaste: \"Variables controlables: ángulo de lanzamiento, masa del proyectil, longitud del brazo. Variables no controlables: resistencia del aire.\" Esto es lo que espera la Fase 2.\n• Proporciona evidencia concreta de aprendizaje: No digas \"no hicimos ejercicios\"; en su lugar, describe cómo aplicaste identificación de variables en el informe. Por ejemplo: \"Clasificamos las fuerzas en el sistema: tensión, peso, fricción.\" Esto demuestra el proceso real.\n• Reflexiona sobre dificultades reales: Evita respuestas genéricas como \"no tuve dificultad\". Pregúntate: ¿Qué fue difícil de medir? ¿Cómo diferenciaste variables controlables de no controlables? Escribe al menos una dificultad específica y cómo la resolviste.",
+      "createdAt": "2025-11-17T13:47:25.840Z"
+    }
+  ]
+}

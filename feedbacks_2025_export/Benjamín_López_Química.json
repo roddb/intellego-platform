@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "studentId": "u_eg4pqh49ume1bzrv3",
+    "studentName": "Benjamín López",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.186768",
+    "statistics": {
+      "totalFeedbacks": 4,
+      "feedbacksWithScore": 4,
+      "averageScore": 45.75,
+      "minScore": 36,
+      "maxScore": 54,
+      "weeksCovered": 4,
+      "dateRange": {
+        "firstWeek": "2025-09-01",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_ume1bzrv3_2025-09-01_001",
+      "weekStart": "2025-09-01",
+      "score": 36,
+      "generalComments": "Hola Benjamín López, te encuentras en la etapa inicial de la Fase 2: Identificación de variables y datos, necesitando fortalecer los fundamentos de esta fase en Química. Organizas adecuadamente los datos y la información disponible de manera básica. Debes trabajar en la identificación precisa de todas las variables involucradas en gases ideales. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Es importante profundizar más en la identificación de variables y propiedades de gases para alcanzar comprensión completa. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Reconoces la necesidad de practicar más, mostrando honestidad sobre tu nivel actual",
+        "Identificas que los ejercicios requieren trabajar con datos específicos",
+        "Mencionas la conexión entre química y otras disciplinas"
+      ],
+      "improvements": [
+        "Identifica con precisión las variables en problemas de gases ideales (presión, volumen, temperatura, cantidad de sustancia)",
+        "Desarrolla respuestas más específicas con ejemplos concretos de tu proceso de aprendizaje",
+        "Practica la clasificación de variables conocidas vs desconocidas en cada ejercicio"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_ume1bzrv3_2025-09-08_002",
+      "weekStart": "2025-09-08",
+      "score": 43,
+      "generalComments": "Hola Benjamín López, te encuentras en la etapa inicial de la Fase 2: Identificación de variables y datos, necesitando fortalecer los fundamentos de esta fase en Química. Identificas que los ejercicios requieren extraer propiedades a partir de datos proporcionados. Debes trabajar en la identificación precisa de todas las variables involucradas en gases ideales. Identifica con mayor precisión las dificultades que enfrentas más allá de decir que todo es difícil. Mantén mayor constancia y regularidad en la práctica de ejercicios. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Describes un ejercicio concreto trabajado en clase sobre propiedades de gases",
+        "Reconoces honestamente la necesidad de más práctica",
+        "Identificas conexiones entre química y biología"
+      ],
+      "improvements": [
+        "Especifica qué aspectos concretos te resultan difíciles (¿identificar variables? ¿usar fórmulas? ¿interpretar resultados?)",
+        "Practica la identificación sistemática de variables conocidas y desconocidas en cada problema",
+        "Desarrolla estrategias concretas para superar las dificultades más allá de solo practicar más"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_ume1bzrv3_2025-09-22_003",
+      "weekStart": "2025-09-22",
+      "score": 54,
+      "generalComments": "Hola Benjamín López, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Describes ejercicios concretos trabajados con gases ideales en recipientes cerrados. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas según cada situación. Es importante identificar con mayor precisión las dificultades que enfrentas con cada tipo de fórmula. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Describes con detalle el ejercicio del recipiente cerrado y las transformaciones de volumen y temperatura",
+        "Identificas con precisión tu dificultad: saber qué fórmulas aplicar y cuándo",
+        "Realizas conexiones entre química, biología y matemática de manera pertinente"
+      ],
+      "improvements": [
+        "Estudia las condiciones de aplicación de cada fórmula (PV=nRT, ley de Charles, ley de Boyle, etc.)",
+        "Crea un cuadro comparativo de cuándo usar cada ley de gases según qué magnitudes varían",
+        "Practica la justificación de por qué seleccionas determinada fórmula en cada caso"
+      ],
+      "createdAt": "2025-10-07T14:30:00Z"
+    },
+    {
+      "feedbackId": "e50c6a76-d298-440d-a8c4-4669bbaaf950",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que esta semana trabajaste en uniones químicas, pero tu reporte necesita mucho más detalle y reflexión. Reconozco que identificaste una dificultad real (plantear ecuaciones), lo que es un buen primer paso. Sin embargo, tus respuestas son muy cortas y no muestran el análisis sistemático que esperamos en la Fase 2.\n\nTu desempeño esta semana está en nivel inicial. Las respuestas son superficiales y no evidencian que hayas identificado, clasificado ni analizado las variables del tema. Esto es preocupante porque la Fase 2 es fundamental para desarrollar pensamiento crítico en ciencias.\n\nPara la próxima semana, te pido que: (1) escribas respuestas completas con ejemplos concretos, (2) identifiques explícitamente qué variables trabajaste en cada ejercicio, y (3) reflexiones genuinamente sobre tu proceso de aprendizaje. Estoy aquí para apoyarte, pero necesito que te comprometas con respuestas más profundas.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces tu nivel de dominio como \"nivel 2\" en uniones químicas, lo que muestra autoconsciencia sobre dónde estás parado en el aprendizaje.\n• Identificación de una dificultad real: Mencionas específicamente que te cuesta \"plantear qué ecuaciones usar\", lo que es un obstáculo concreto y no vago.\n• Intento de conexión interdisciplinaria: Relacionas el tema con matemáticas, mostrando que intentas ver conexiones entre disciplinas, aunque necesita más desarrollo.",
+      "improvements": "• Amplía tus respuestas con detalles específicos: En Q1, no solo digas \"uniones químicas\". Especifica: ¿Qué tipos de enlace estudiaste? ¿Cuáles son las variables (electronegatividad, número de electrones, tipo de átomo)? Esto es fundamental para la Fase 2.\n• Propón estrategias concretas para tus dificultades: En Q3, después de identificar que te cuesta plantear ecuaciones, sugiere: \"Voy a hacer una tabla con los pasos para identificar qué ecuación usar\" o \"Practicaré 5 ejercicios similares\". La estrategia debe ser accionable.\n• Desarrolla reflexiones genuinas en comentarios adicionales: En Q5, no dejes un punto. Escribe al menos 2-3 líneas reflexionando sobre: ¿Qué aprendiste? ¿Cómo te sentiste? ¿Qué harás diferente? Esto es clave para tu metacognición.",
+      "createdAt": "2025-11-12T23:03:18.187Z"
+    }
+  ]
+}

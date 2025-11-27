@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "studentId": "u_e31zk82yime3hz3bu",
+    "studentName": "Stefano Esses",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.234260",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 60.0,
+      "minScore": 27,
+      "maxScore": 76,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-08-04_1753b435",
+      "weekStart": "2025-08-04",
+      "score": 65,
+      "generalComments": "Stefano, esta semana trabajaste conceptos introductorios de equilibrio químico. Tu comprensión es de nivel medio: entiendes los conceptos teóricos pero necesitas más práctica para aplicarlos en problemas complejos. La evidencia que presentas (identificación de sistemas en equilibrio) es adecuada, aunque podrías ser más específico en las justificaciones. Tu conexión con situaciones reales (gaseosas) es pertinente.",
+      "strengths": [
+        "Comprende conceptos teóricos básicos de equilibrio químico",
+        "Identifica sistemas que pueden estar en equilibrio",
+        "Establece conexiones con situaciones cotidianas (bebidas carbonatadas)",
+        "Reconoce honestamente su tendencia a distraerse con detalles irrelevantes"
+      ],
+      "improvements": [
+        "Practicar la diferenciación entre información relevante e irrelevante en problemas",
+        "Profundizar en la justificación científica de por qué un sistema está o no en equilibrio",
+        "Desarrollar estrategias para mantener el foco en aspectos químicos esenciales"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-08-11_657d2998",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Stefano, buen progreso esta semana con la Fase 2. Tu trabajo con los ejercicios de buffer, fermentación y procesos industriales muestra que comprendes cómo identificar y clasificar variables usando la matriz 2x2. La diferenciación entre variables controlables y no controlables está correcta en la mayoría de los casos. Tu uso del método paso a paso (A-B-C) y la revisión de ejemplos demuestra buena autorregulación.",
+      "strengths": [
+        "Identifica variables completas en problemas químicos",
+        "Clasifica variables usando la matriz 2x2 correctamente",
+        "Utiliza ejemplos del cuadernillo para mejorar comprensión",
+        "Conecta con termodinámica, cinética y biología",
+        "Reconoce el valor de saber qué datos usar directamente vs calcular"
+      ],
+      "improvements": [
+        "Profundizar en la distinción entre variables desconocidas controlables vs no controlables",
+        "Practicar con casos más complejos donde la clasificación no sea evidente",
+        "Desarrollar justificaciones más elaboradas para cada clasificación"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-08-18_268ac2c0",
+      "weekStart": "2025-08-18",
+      "score": 73,
+      "generalComments": "Stefano, esta semana trabajaste con los conceptos fundamentales de equilibrio químico (reversibilidad, Kc, Qc). Tu comprensión de estos conceptos es buena y puedes aplicarlos en ejercicios básicos. El ejercicio 2 donde usaste Qc para predecir dirección de reacción está bien resuelto. Sin embargo, reconoces dificultades con el uso de Qc que necesitan más práctica. Tu conexión con termodinámica es apropiada.",
+      "strengths": [
+        "Identifica reacciones reversibles correctamente",
+        "Escribe expresiones de Kc apropiadamente",
+        "Aplica la comparación Qc vs Kc para predecir dirección",
+        "Repasa cuadernillo para consolidar comprensión",
+        "Establece conexiones con termodinámica (energía)"
+      ],
+      "improvements": [
+        "Profundizar en cuándo y por qué usar Qc vs solo Kc",
+        "Practicar con más ejercicios de predicción de dirección de reacciones",
+        "Desarrollar fluidez en los cálculos con notación científica"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-08-25_7d225f37",
+      "weekStart": "2025-08-25",
+      "score": 68,
+      "generalComments": "Stefano, esta semana trabajaste con equilibrio químico y tablas ICE. Tu nivel de comprensión es intermedio: no estás completamente seguro pero puedes hacer tablas IRFE (ICE) bien. La resolución de los ejercicios de NO₂ y HI usando tablas muestra que comprendes el método. Tu principal dificultad está en armar ecuaciones con Kc, lo cual es normal y requiere más práctica.",
+      "strengths": [
+        "Construye tablas IRFE (ICE) correctamente",
+        "Calcula valores de Kc en problemas con datos completos",
+        "Pasa de moles a concentraciones apropiadamente",
+        "Verifica resultados reemplazando en la expresión de Kc",
+        "Conecta con estequiometría"
+      ],
+      "improvements": [
+        "Practicar el armado de ecuaciones algebraicas con Kc cuando hay incógnitas",
+        "Desarrollar estrategias para identificar qué incógnita representa cada variable",
+        "Trabajar con más ejercicios donde debas despejar usando Kc"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-09-01_994c4f00",
+      "weekStart": "2025-09-01",
+      "score": 74,
+      "generalComments": "Stefano, buen trabajo esta semana consolidando el equilibrio químico. Comprendes el equilibrio dinámico y haces tablas IRFE correctamente. Tu resolución de los ejercicios de NO₂ y H₂+I₂ demuestra dominio de la metodología. La estrategia de escribir la reacción balanceada primero, armar la tabla y verificar resultados es excelente y debes mantenerla.",
+      "strengths": [
+        "Comprende equilibrio dinámico como proceso en dos direcciones",
+        "Construye tablas IRFE (ICE) sistemáticamente",
+        "Calcula Kc correctamente con verificación dimensional/numérica",
+        "Desarrolla estrategia ordenada de resolución (reacción → tabla → ecuación → verificación)",
+        "Conecta con estequiometría"
+      ],
+      "improvements": [
+        "Ganar más confianza al armar ecuaciones algebraicas con Kc",
+        "Practicar con problemas donde el álgebra sea más compleja",
+        "Desarrollar fluidez para no necesitar tanto tiempo en cada paso"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-09-15_b9b56307",
+      "weekStart": "2025-09-15",
+      "score": 67,
+      "generalComments": "Stefano, la presentación de repaso fue útil para consolidar tipos de reacciones. Puedes diferenciarlos sin demasiada dificultad, lo cual es positivo. Sin embargo, la falta de acceso a la presentación después limitó tu capacidad de repaso. Los ejercicios teóricos te permitieron practicar para el examen. Tu comprensión de QC y KC está en desarrollo pero necesita consolidación.",
+      "strengths": [
+        "Diferencia tipos de reacciones químicas adecuadamente",
+        "Comprende el equilibrio químico como proceso dinámico",
+        "Practica con ejercicios teóricos para preparación de examen",
+        "Identifica la limitación de no tener materiales disponibles",
+        "Conecta con Matemática por los cálculos"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para cuando no tengas acceso a presentaciones (notas más completas)",
+        "Consolidar la comprensión de QC vs KC mediante más ejercicios",
+        "Practicar con problemas numéricos, no solo teóricos"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me3hz3bu_2025-09-22_baed2b61",
+      "weekStart": "2025-09-22",
+      "score": 71,
+      "generalComments": "Stefano, esta semana continuaste practicando ejercicios para la evaluación. Tu nivel 3 de autoevaluación indica que puedes aplicar fórmulas aunque con algunas dificultades. La resolución del cálculo de Kc y el análisis de la descomposición endotérmica del HI muestran comprensión. Tu dificultad con cómo presión y moles afectan el equilibrio cuando hay igual cantidad de moles a cada lado es un punto específico para trabajar.",
+      "strengths": [
+        "Aplica fórmulas de Kc en ejercicios concretos",
+        "Analiza reacciones endotérmicas y su relación con equilibrio",
+        "Identifica específicamente qué aspectos le cuestan (presión y moles con coeficientes iguales)",
+        "Conecta con termodinámica",
+        "Se prepara activamente para evaluación"
+      ],
+      "improvements": [
+        "Profundizar en el Principio de Le Chatelier, especialmente casos con moles iguales",
+        "Entender que si Δn=0 (moles productos = moles reactivos), los cambios de presión NO afectan el equilibrio",
+        "Practicar análisis cualitativo de cómo temperatura afecta reacciones endotérmicas vs exotérmicas"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "2dbc4cf9-b82f-4c0c-a203-a9fe601911fb",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:45.530Z"
+    },
+    {
+      "feedbackId": "1d1b19e8-983f-412a-9f2d-faea715efc46",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:13:37.617Z"
+    },
+    {
+      "feedbackId": "dbaf493c-7995-4788-9330-45a87757e477",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:31:45.941Z"
+    },
+    {
+      "feedbackId": "fa07184b-9147-49cb-8882-657f50ca6a88",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:02:09.505Z"
+    },
+    {
+      "feedbackId": "0c9cb618-7a9e-4b30-bbd5-61a7764193ac",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana no tuviste clase, lo que explica por qué el reporte está incompleto. Sin embargo, es importante que mantengas el hábito de completar tus reportes semanales, incluso cuando no hay contenido nuevo.\n\nTe sugiero que, en futuras semanas sin clases, aproveches el tiempo para repasar temas anteriores, resolver dudas pendientes o prepararte para lo que viene. Esto te ayudará a mantener la continuidad en tu aprendizaje y a llegar mejor preparado cuando retomes las clases.\n\nCuando vuelvan las clases la próxima semana, asegúrate de completar todas las secciones del reporte con detalle. Si tienes dudas sobre temas anteriores, consulta con tus compañeros o con tu profesor antes de que comience la nueva unidad.",
+      "strengths": "• Comunicación clara: Informaste directamente que no hubo clase, lo que demuestra que intentaste explicar la situación en lugar de dejar el reporte completamente en blanco.",
+      "improvements": "• Completar el reporte incluso sin clases: Aunque no haya contenido nuevo, es importante que completes todas las preguntas. Puedes escribir \"Sin clases esta semana\" o aprovechar para reflexionar sobre temas anteriores. Esto mantiene el hábito de reportar y muestra responsabilidad.\n• Aprovechar semanas sin clases: Cuando no hay clase, puedes usar el tiempo para repasar conceptos difíciles, resolver ejercicios pendientes o prepararte para lo que viene. Esto te ayuda a no perder continuidad en tu aprendizaje.\n• Confirmar información: Verifica con tu profesor o en el calendario escolar si realmente no hay clase, para asegurar que no te perdiste de ninguna actividad importante o material que debas revisar.",
+      "createdAt": "2025-11-12T22:50:41.383Z"
+    },
+    {
+      "feedbackId": "7541675b-43c5-440e-892f-465f5ceb61f6",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Felicidades por tu trabajo esta semana. Demuestras que comprendes bien los procedimientos químicos: planteas correctamente tablas I/V/E, aplicas Ka y calculas porcentajes de ionización con precisión. Tu autoevaluación honesta (nivel 3) y la identificación de dificultades reales muestran que estás reflexionando sobre tu aprendizaje.\n\nSin embargo, tu reporte está incompleto en la aplicación de la Fase 2. Identificas *temas*, pero no *variables*. Resuelves ejercicios, pero no explícitas qué variables controlables/no controlables intervienen. Esto es crucial: la Fase 2 no es solo resolver problemas, sino entender *qué cambia y qué no cambia* en cada situación.\n\nPara la próxima semana, enfócate en ser más específico. En cada ejercicio, crea una tabla de variables. Propón estrategias concretas para superar dificultades, no solo menciónalas. Y desarrolla tus conexiones con ejemplos reales. Tu potencial es claro; ahora necesitas profundizar en el análisis sistemático.",
+      "strengths": "• Dominio de procedimientos químicos: Planteas correctamente la tabla I/V/E y aplicas la expresión del Ka de forma sistemática. Tu cálculo del porcentaje de ionización (1,09%) muestra comprensión del equilibrio químico.\n• Autoevaluación honesta: Reconoces tu nivel de dominio como 3 y admites dificultades reales con la aproximación, lo que demuestra autoconciencia sobre lo que aún necesitas reforzar.\n• Identificación de temas clave: Mencionas explícitamente los conceptos centrales de la semana (Ka, pH, ionización parcial), mostrando que seguiste la secuencia de aprendizaje propuesta.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes identificar y listar qué variables son conocidas (0,150 M, Ka = 1,78×10⁻⁵), desconocidas (pH, grado de ionización) y controlables/no controlables. Esto es el corazón de la Fase 2. Crea una tabla simple: \"Conocidas | Desconocidas | Controlables | No controlables\".\n• Estrategias concretas para dificultades: En Q3, no basta decir \"me cuesta la aproximación\". Propón acciones específicas: \"Practicaré 5 ejercicios donde compare resultados con y sin aproximación\" o \"Memorizaré la regla: si Ka < 10⁻⁵ y C > 100·Ka, puedo aproximar\". Esto demuestra metacognición real.\n• Conexiones profundas y ejemplos: En Q4, desarrolla tu respuesta. Explica: \"Usamos logaritmos para calcular pH = -log[H⁺]\" y \"Resolvemos ecuaciones cuadráticas cuando la aproximación no es válida\". Luego, transfiere: \"Si tuviera una solución de amoniaco débil, usaría el mismo método pero con Kb\".",
+      "createdAt": "2025-11-17T13:43:26.035Z"
+    }
+  ]
+}

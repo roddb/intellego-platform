@@ -1,0 +1,137 @@
+{
+  "curso": "5° B",
+  "alumnos": [
+    {
+      "nro": 1,
+      "nombre": "Arévalo, Sofía",
+      "id": "u_tq3ado57dme68sdj1",
+      "email": "soarev280208@gmail.com"
+    },
+    {
+      "nro": 2,
+      "nombre": "Caviglia, Paulina",
+      "id": "80ab8015-e261-43e0-9691-d88d361f344f",
+      "email": "policaviglia@gmail.com"
+    },
+    {
+      "nro": 3,
+      "nombre": "Cerredo, Victoria",
+      "id": "u_euk2lhb2sme67brrn",
+      "email": "cerredokiki@gmail.com"
+    },
+    {
+      "nro": 4,
+      "nombre": "Cresci, Catalina",
+      "id": "u_yjrnyfsg2me6bmfeg",
+      "email": "catalina.cresci@gmail.com"
+    },
+    {
+      "nro": 5,
+      "nombre": "Del Giudice, Juana",
+      "id": "u_0wl5v4c4qme3gkssk",
+      "email": "delgiudicejuana@gmail.com"
+    },
+    {
+      "nro": 6,
+      "nombre": "Falcon, Ignacio",
+      "id": "83cbd70b-ce50-4fd8-8b21-98885364e4d5",
+      "email": "nacofalcon@gmail.com"
+    },
+    {
+      "nro": 7,
+      "nombre": "Forlano, Sol María",
+      "id": "1ecd7666-623f-4d63-b35a-8d12bfdccd6c",
+      "email": "solmforlano@gmail.com"
+    },
+    {
+      "nro": 8,
+      "nombre": "Giurovich, Juana",
+      "id": "u_zh9pgmfs9me6i15hg",
+      "email": "giurovichjuana@gmail.com"
+    },
+    {
+      "nro": 9,
+      "nombre": "Lavarello, Victoria",
+      "id": "6f254450-c5be-4881-93fb-b0569bb2b0bc",
+      "email": "victoria.lavarello@gmail.com"
+    },
+    {
+      "nro": 10,
+      "nombre": "Mac Donald, Constanza",
+      "id": "u_wqdxobbqpme348kw4",
+      "email": "conimacdonald0@gmail.com"
+    },
+    {
+      "nro": 11,
+      "nombre": "Napoli, Julieta",
+      "id": "u_oho1zrk6pme6j1e97",
+      "email": "julietamanapoli@gmail.com"
+    },
+    {
+      "nro": 12,
+      "nombre": "Nasjleti Paz, Candelaria María",
+      "id": "u_bx5yrhd48me6eys07",
+      "email": "candelariamnp2008@gmail.com"
+    },
+    {
+      "nro": 13,
+      "nombre": "Ortiz Güemes, Isabel",
+      "id": "u_bap6b4k2rme73bmwt",
+      "email": "ortizguemesisabel@gmail.com"
+    },
+    {
+      "nro": 14,
+      "nombre": "Pergolesi, Bautista",
+      "id": "u_wnrgoh2t1me4pjpou",
+      "email": "bautista.pergolesi@gmail.com"
+    },
+    {
+      "nro": 15,
+      "nombre": "Ruffino, Andrés Francisco",
+      "id": "u_th3a596w3me34llcr",
+      "email": "andrefranruff@gmail.com"
+    },
+    {
+      "nro": 16,
+      "nombre": "Sabino, Fabrizio",
+      "id": "u_5hi83id4ime69nm4d",
+      "email": "fabriziosabino8@gmail.com"
+    },
+    {
+      "nro": 17,
+      "nombre": "Sansalone, Agustina",
+      "id": "9decba43-03f1-4391-84b8-a6cba1ffc75b",
+      "email": "agussansalone@gmail.com"
+    },
+    {
+      "nro": 18,
+      "nombre": "Sanz, María",
+      "id": "126e9cd8-f05a-4213-be02-673101d573da",
+      "email": "mariaasanzzzz@gmail.com"
+    },
+    {
+      "nro": 19,
+      "nombre": "Trillo, Agustina",
+      "id": "u_bu3vsghhsme6h3la1",
+      "email": "Agustrillo2007@gmail.com"
+    },
+    {
+      "nro": 20,
+      "nombre": "Uria, Manuela",
+      "id": "u_itbn7il5cme6h0gl3",
+      "email": "manu.j.uria@gmail.com"
+    },
+    {
+      "nro": 21,
+      "nombre": "Veliz, Sofia",
+      "id": "2c621d80-baac-4e07-86e8-8dd8b92d5553",
+      "email": "velizsofia595@gmail.com"
+    },
+    {
+      "nro": 22,
+      "nombre": "Zacharec, Milagros",
+      "id": "u_alllafm0rme678p88",
+      "email": "milizacharec@gmail.com"
+    }
+  ]
+}

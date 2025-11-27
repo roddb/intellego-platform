@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "studentId": "8bf80919-3a9f-4ac9-94c3-eccfa7f81c05",
+    "studentName": "Victoria Fernández Pazos",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.239982",
+    "statistics": {
+      "totalFeedbacks": 5,
+      "feedbacksWithScore": 5,
+      "averageScore": 41.6,
+      "minScore": 27,
+      "maxScore": 52,
+      "weeksCovered": 5,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-09-15"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_b60c_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 36,
+      "generalComments": "Querida Victoria Fernández Pazos, te encuentras en la etapa inicial de la Fase 2: Identificación de variables y datos, necesitando fortalecer los fundamentos de esta fase en Física. Intentas clasificar variables pero con incertidumbre sobre categorías. Te recomiendo practicar la distinción entre variables conocidas, desconocidas y controlables con ejercicios guiados. Es fundamental mejorar la identificación precisa de todas las variables involucradas. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Recuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Intentas organizar la información en categorías de variables",
+        "Reconoces la existencia de variables controlables y no controlables",
+        "Identificas que el tiro oblicuo involucra múltiples variables"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Debes trabajar en la identificación precisa de todas las variables involucradas",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T22:11:25Z"
+    },
+    {
+      "feedbackId": "fb_002_5_b60c_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 50,
+      "generalComments": "Querida Victoria Fernández Pazos, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Descompones correctamente la velocidad inicial en componentes horizontal y vertical. Reconoces la necesidad de anotar paso a paso para organizarte. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas según el problema. Debes practicar más la aplicación de ecuaciones a situaciones concretas. Trabaja en expresar tus ideas con mayor claridad sobre qué específicamente te traba. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Descompones correctamente la velocidad inicial en componentes horizontal y vertical",
+        "Organizas los datos identificando qué información tienes disponible",
+        "Reconoces la necesidad de anotar paso a paso para no perderte",
+        "Conectas el tiro oblicuo con deportes como fútbol y básquet"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas",
+        "Es importante mejorar la gestión del tiempo en tu proceso de análisis",
+        "Desarrolla estrategias más específicas para identificar qué fórmula usar en cada caso"
+      ],
+      "createdAt": "2025-10-07T22:11:25Z"
+    },
+    {
+      "feedbackId": "fb_002_5_b60c_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 52,
+      "generalComments": "Querida Victoria Fernández Pazos, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Participas activamente en la resolución guiada de ejercicios en clase. Muestras progreso al mencionar que terminaste entendiendo el ejercicio del alcance. Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos. Proporciona evidencias más concretas y específicas de tu proceso de resolución. Incluye reflexiones sobre tu aprendizaje en los comentarios adicionales. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces que trabajaron las 4 fases integradas en ejercicios",
+        "Participas en la resolución guiada del ejercicio de caída desde altura",
+        "Muestras progreso al mencionar que terminaste entendiendo aunque costó"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar",
+        "Proporciona evidencias más concretas de cómo resolviste el ejercicio",
+        "Desarrolla estrategias más específicas para superar las dificultades que identificas",
+        "Incluye comentarios reflexivos sobre qué aprendiste específicamente"
+      ],
+      "createdAt": "2025-10-07T22:11:25Z"
+    },
+    {
+      "feedbackId": "fb_002_5_b60c_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 43,
+      "generalComments": "Querida Victoria Fernández Pazos, te encuentras en la etapa inicial de la Fase 4: Estrategia y ejecución completa, necesitando fortalecer los fundamentos de esta fase en Física. Describes el proceso seguido con F2, F3 y F4 en el ejercicio de clase. Identificas con precisión tu dificultad para distinguir datos relevantes de información adicional. Es importante mejorar la planificación de tu estrategia antes de ejecutar. Es fundamental trabajar en la distinción entre información relevante e irrelevante desde F1. Proporciona evidencias más concretas de ejercicios que hayas resuelto de forma autónoma. Estoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Describes el proceso metodológico seguido con F2, F3 y F4 en ejercicio guiado",
+        "Identificas con precisión que te cuesta distinguir qué datos sirven",
+        "Reconoces que los problemas dan datos de más que te confunden"
+      ],
+      "improvements": [
+        "Es fundamental consolidar la identificación de información relevante desde Fase 1",
+        "Necesitas ser más sistemática en la ejecución de los pasos de resolución autónoma",
+        "Desarrolla estrategias específicas para filtrar datos relevantes antes de seleccionar fórmulas",
+        "Proporciona evidencias de ejercicios resueltos por ti misma, no solo los de clase"
+      ],
+      "createdAt": "2025-10-07T22:11:25Z"
+    },
+    {
+      "feedbackId": "fb_002_5_b60c_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Victoria Fernández Pazos, debido a la semana de Santo Tomás y el examen, no fue posible evaluar tu progreso en Física durante este período. Cumples con la entrega del reporte explicando la situación. Es fundamental retomar el trabajo con las 4 fases después del examen. Te sugiero coordinar conmigo para hacer seguimiento de los resultados del examen. Proporciona reflexión sobre tu desempeño en la evaluación en el próximo reporte. Te sugiero coordinar conmigo para recuperar el ritmo de trabajo y recibir el apoyo necesario.",
+      "strengths": [
+        "Cumples con la entrega del reporte semanal",
+        "Informas la situación de semana especial y examen"
+      ],
+      "improvements": [
+        "Retoma el trabajo sistemático con las 4 fases después del examen",
+        "Incluye reflexión sobre tu desempeño en la evaluación",
+        "Coordina consultas para resolver dudas pendientes del examen"
+      ],
+      "createdAt": "2025-10-07T22:11:25Z"
+    }
+  ]
+}

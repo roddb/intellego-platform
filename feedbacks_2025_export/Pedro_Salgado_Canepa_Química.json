@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "studentId": "u_3620qcgjwme6g2xx5",
+    "studentName": "Pedro Salgado Canepa",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.230455",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 62.36,
+      "minScore": 33,
+      "maxScore": 76,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-08-04_c965527a",
+      "weekStart": "2025-08-04",
+      "score": 73,
+      "generalComments": "Pedro, tu trabajo en esta semana muestra un buen entendimiento del equilibrio químico. Lograste comprender la naturaleza dinámica del equilibrio y la importancia de la constante Kc. Tu capacidad para expresar matemáticamente el equilibrio y conectarlo con aplicaciones reales (como el proceso Haber y las bebidas carbonatadas) es destacable. Sin embargo, notas que aún te cuesta aplicar estos conceptos en problemas más complejos, lo cual es completamente normal al abordar un tema nuevo mediante lecturas autoguiadas.",
+      "strengths": [
+        "Comprende claramente que el equilibrio químico es un proceso dinámico",
+        "Identifica correctamente la estructura de la expresión de Kc con coeficientes estequiométricos",
+        "Establece conexiones significativas con procesos industriales y situaciones cotidianas"
+      ],
+      "improvements": [
+        "Practicar con más ejemplos numéricos para consolidar el cálculo de Kc",
+        "Trabajar con representaciones gráficas de la evolución de concentraciones hasta el equilibrio",
+        "Desarrollar ejercicios que involucren la comparación entre Qc y Kc para predecir la dirección de las reacciones"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-08-11_e26e7874",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Pedro, esta semana has avanzado significativamente al aplicar el equilibrio químico a un problema real. Tu identificación de variables en el sistema buffer de Sofía demuestra que estás desarrollando pensamiento sistemático. Reconoces las variables controlables y no controlables, lo cual es fundamental para el diseño experimental. Tu honestidad al mencionar que no completaste el ejercicio, pero que lograste comprender el planteamiento, muestra madurez metacognitiva.",
+      "strengths": [
+        "Identifica correctamente el problema central del sistema buffer ácido-base",
+        "Clasifica variables de composición, condiciones y rendimiento de manera sistemática",
+        "Conecta el equilibrio químico con aplicaciones biológicas y cotidianas relevantes"
+      ],
+      "improvements": [
+        "Avanzar en la resolución completa de problemas prácticos, no solo en su planteamiento",
+        "Profundizar en los cálculos necesarios para determinar proporciones en sistemas buffer",
+        "Practicar la aplicación del Principio de Le Chatelier en contextos experimentales"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-08-18_1d07b82a",
+      "weekStart": "2025-08-18",
+      "score": 75,
+      "generalComments": "Pedro, en esta semana demostraste un dominio sólido del cálculo de Kc. Tu resolución del ejercicio de NO₂ es correcta y muestra que puedes aplicar la fórmula con precisión. La estrategia que desarrollaste (anotar datos, escribir la fórmula con calma, calcular por partes y verificar el orden de magnitud) es excelente y refleja un enfoque metódico que te ayudará en problemas más complejos.",
+      "strengths": [
+        "Aplica correctamente la expresión de Kc con coeficientes estequiométricos",
+        "Desarrolla una estrategia sistemática para evitar errores en los cálculos",
+        "Verifica la razonabilidad de resultados mediante análisis de órdenes de magnitud"
+      ],
+      "improvements": [
+        "Ganar más confianza en el manejo de notación científica con números muy pequeños",
+        "Practicar con ejercicios que involucren múltiples pasos para consolidar la fluidez",
+        "Trabajar con problemas que requieran convertir entre diferentes unidades de concentración"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-09-01_224af195",
+      "weekStart": "2025-09-01",
+      "score": 35,
+      "generalComments": "Pedro, comprendo que esta semana estuviste de viaje de egresados y no tuviste oportunidad de trabajar en química. Es importante que te pongas al día con el material cuando regreses. Recuerda que puedes consultar los cuadernillos y ejemplos disponibles en Classroom para retomar el tema de equilibrio químico donde lo dejaste.",
+      "strengths": [
+        "Comunicaste de manera honesta y directa la razón de la no presentación del trabajo"
+      ],
+      "improvements": [
+        "Ponerte al día con el material de equilibrio químico lo antes posible",
+        "Revisar los ejercicios trabajados por tus compañeros durante tu ausencia",
+        "Solicitar al profesor una sesión de recuperación o materiales complementarios si es necesario"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-09-08_c34f91ae",
+      "weekStart": "2025-09-08",
+      "score": 74,
+      "generalComments": "Pedro, es muy positivo ver que aprovechaste el tiempo de clase para repasar y ponerte al día después del viaje. Tu comprensión del equilibrio dinámico se ha consolidado, y reconocer que aún necesitas práctica con cálculos demuestra autocrítica constructiva. El repaso del ejercicio de NO₂ + O₂ te permitió confirmar que entiendes la lógica de aplicación de fórmulas.",
+      "strengths": [
+        "Retomaste el estudio de manera proactiva después de la ausencia",
+        "Comprendes claramente que el equilibrio es dinámico, no estático",
+        "Aplicas correctamente la estrategia de separar numerador y denominador en los cálculos"
+      ],
+      "improvements": [
+        "Practicar más ejercicios para ganar fluidez con exponentes y notación científica",
+        "Buscar recursos adicionales (videos, ejemplos resueltos) para reforzar lo visto en clase",
+        "Trabajar en tu concentración y predisposición al estudio después de eventos especiales"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me6g2xx5_2025-09-22_aa8bbbca",
+      "weekStart": "2025-09-22",
+      "score": 33,
+      "generalComments": "Pedro, comprendo que esta semana el profesor no asistió a clase, lo que limitó las oportunidades de avanzar. Sin embargo, esta situación también puede ser una oportunidad para desarrollar autonomía en el estudio. Es importante que aproveches los materiales disponibles y no dependas exclusivamente de las clases presenciales para progresar.",
+      "strengths": [
+        "Identificaste claramente la situación que impidió el avance académico"
+      ],
+      "improvements": [
+        "Desarrollar hábitos de estudio autónomo que no dependan exclusivamente de la presencia del docente",
+        "Utilizar recursos alternativos (libros, videos, plataformas online) cuando no hay clase",
+        "Aprovechar el tiempo libre para repasar conceptos previos o adelantar lecturas"
+      ],
+      "createdAt": "2025-10-05T19:00:00.000Z"
+    },
+    {
+      "feedbackId": "2bb32e05-9671-41e3-ba53-8b8bb9cb5435",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:13.734Z"
+    },
+    {
+      "feedbackId": "fbcc1b4a-31f5-4f88-803d-a3ddea0484b0",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:12.925Z"
+    },
+    {
+      "feedbackId": "8044ca8a-54d8-4979-8dfd-ae4c0216a99f",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:27:32.293Z"
+    },
+    {
+      "feedbackId": "f0cb53cf-17ae-48c3-a510-f613585cfe55",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:41:05.748Z"
+    },
+    {
+      "feedbackId": "72c17d75-dbe0-42da-b9ae-902203d81889",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 75,
+      "generalComments": "Esta semana demostraste un aprendizaje sólido en ácidos, bases y pH, con una autoevaluación honesta que refleja madurez académica. Tu clasificación de compuestos es correcta y bien razonada, y tu conexión con el ejemplo del hipoclorito muestra que estás pensando más allá de la teoría. Eso es excelente.\n\nSin embargo, tu reporte se enfoca más en *conceptos* que en *variables*. Recuerda que en Fase 2 el objetivo es identificar, clasificar y relacionar variables. Cuando hables de \"ácidos débiles\", pregúntate: ¿cuáles son las variables involucradas? ¿Cuál es conocida, cuál desconocida? ¿Cuál controlo, cuál no?\n\nPara la próxima semana, practica ejercicios donde debas *listar explícitamente* todas las variables de un problema (concentración, Ka, grado de ionización, pH) y clasificarlas. Esto te preparará mejor para la Fase 3 (análisis de datos) y evitará confusiones en equilibrios complejos.",
+      "strengths": "• Autoevaluación honesta y diferenciada: Reconoces claramente dónde estás en nivel 2 (ácidos/bases débiles y equilibrios) vs nivel 3 (pares conjugados, pH de ácidos fuertes). Esto muestra autoconciencia real sobre tu aprendizaje.\n• Razonamiento químico sólido en clasificaciones: Tu ejercicio de Q2 demuestra comprensión conceptual: explicas *por qué* HCl es fuerte (ionización 100%) y NH₃ es débil (acepta protones limitadamente), no solo memorizas categorías.\n• Conexiones interdisciplinarias avanzadas: Tu ejemplo del hipoclorito en piletas integra equilibrio químico, pH y aplicación biológica de forma coherente, mostrando pensamiento transferible más allá del aula.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En Q1 y Q2, debes nombrar las variables clave (concentración inicial, grado de ionización, Ka/Kb, número de protones) y clasificarlas como conocidas/desconocidas o controlables/no controlables. Por ejemplo: \"En HCl fuerte, la concentración inicial es conocida y controlable, pero el grado de ionización es no controlable (siempre 100%)\".\n• Profundizar en dificultades con equilibrios: Mencionas que te cuesta \"cómo se expresa el equilibrio en los débiles\", pero no especificas qué variable te confunde (¿la constante Ka? ¿la relación entre concentración inicial y concentración en equilibrio?). Identifica la variable problemática y practica cálculos paso a paso con ella aislada.\n• Completar la reflexión metacognitiva en Q5: No dejaste comentarios adicionales. Usa este espacio para reflexionar: ¿Qué variable fue más difícil de entender esta semana? ¿Cómo evolucionó tu comprensión desde Fase 1? Esto consolida tu aprendizaje y prepara la siguiente fase.",
+      "createdAt": "2025-10-27T04:58:37.451Z"
+    }
+  ]
+}

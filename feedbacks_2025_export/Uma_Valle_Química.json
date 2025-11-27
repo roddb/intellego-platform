@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "studentId": "u_3wmjdusbdme1bxp0i",
+    "studentName": "Uma Valle",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.238095",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 61.73,
+      "minScore": 50,
+      "maxScore": 77,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5_me1bxp0i_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 77,
+      "generalComments": "Hola Uma Valle, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Muestras claridad al identificar el problema principal y el proceso de 5 pasos del pensamiento crítico. Tu capacidad de reflexión sobre tu propio proceso de aprendizaje es destacable, especialmente cuando reconoces que te cuesta diferenciar datos relevantes. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas de gases ideales. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identificas con claridad el proceso de 5 pasos del pensamiento crítico y su aplicación en gases ideales",
+        "Demuestras honestidad y capacidad de autoevaluación al reconocer tu nivel de dominio",
+        "Realizas conexiones interesantes entre los conceptos de gases y situaciones cotidianas como globos aerostáticos"
+      ],
+      "improvements": [
+        "Practica la distinción entre información relevante e irrelevante en problemas de gases para consolidar el Paso 2",
+        "Busca aplicaciones prácticas de la identificación de problemas en situaciones cotidianas adicionales",
+        "Profundiza en la comprensión del contexto antes de avanzar identificando más variables en cada situación"
+      ],
+      "createdAt": "2025-10-07 15:27:17"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxp0i_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Hola Uma Valle, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Organizas adecuadamente los datos disponibles en el ejercicio de la jeringa y aplicas la ley de Boyle correctamente. Tu capacidad para desarrollar estrategias propias es destacable cuando te fijas qué variable queda constante para elegir la ley. Debes trabajar en la identificación precisa de todas las variables involucradas y sus relaciones. Es importante mejorar la distinción entre las diferentes leyes de gases y cuándo aplicar cada una. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la ley de Boyle en el ejercicio de la jeringa, calculando el cambio de presión con precisión",
+        "Desarrollas una estrategia propia efectiva: identificar qué variable permanece constante para elegir la ley apropiada",
+        "Realizas conexiones significativas entre las leyes de gases y fenómenos cotidianos como globos y jeringas"
+      ],
+      "improvements": [
+        "Practica la distinción sistemática entre las leyes de Boyle, Charles y la ecuación general para fortalecer tu criterio de selección",
+        "Consolida la conversión de unidades de temperatura a Kelvin mediante ejercicios específicos antes de aplicar las fórmulas",
+        "Crea una tabla de referencia que indique qué variable permanece constante en cada ley para facilitar tu selección"
+      ],
+      "createdAt": "2025-10-07 15:27:17"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxp0i_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Hola Uma Valle, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas cálculos correctamente usando la ecuación de los gases ideales y verificas tus resultados. Tu estrategia preventiva de convertir temperaturas a Kelvin desde el principio es muy efectiva. Necesitas ser más sistemática en la ejecución cuando hay múltiples conversiones de unidades simultáneas. Desarrolla estrategias más específicas para superar tus desafíos con densidades y moles. Proporciona evidencias más concretas de tu proceso de reflexión en los comentarios adicionales. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la ecuación de los gases ideales y verificas la razonabilidad de tus resultados",
+        "Desarrollas una estrategia preventiva efectiva al convertir temperaturas a Kelvin desde el inicio del problema",
+        "Demuestras capacidad de integración al conectar con conocimientos del año anterior"
+      ],
+      "improvements": [
+        "Practica ejercicios que combinen múltiples conversiones de unidades para desarrollar mayor fluidez en procesos complejos",
+        "Fortalece tu comprensión de las relaciones entre densidad, masa, volumen y moles mediante ejercicios específicos",
+        "Amplía tus reflexiones en los comentarios adicionales para evidenciar mejor tu proceso metacognitivo"
+      ],
+      "createdAt": "2025-10-07 15:27:17"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxp0i_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 65,
+      "generalComments": "Hola Uma Valle, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Aplicas correctamente la ley de Charles en el ejercicio del globo y obtienes resultados precisos. Tu estrategia de anotar qué dato cambia y cuál permanece constante es muy útil para identificar la ley apropiada. Debes trabajar en la identificación precisa de todas las variables involucradas para consolidar tu comprensión. Es importante mejorar el manejo de conversiones de temperatura a Kelvin mediante práctica sistemática. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en los comentarios adicionales. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Aplicas correctamente la ley de Charles calculando la expansión del globo de 2 L a 2.14 L con precisión",
+        "Desarrollas una estrategia organizacional efectiva al anotar qué variable cambia y cuál permanece constante",
+        "Realizas conexiones entre leyes de gases y fenómenos cotidianos como globos, jeringas y ruedas de bicicleta"
+      ],
+      "improvements": [
+        "Practica sistemáticamente la conversión de grados Celsius a Kelvin para automatizar este proceso esencial",
+        "Consolida la distinción entre las leyes de gases creando una tabla comparativa con ejemplos de cada caso",
+        "Amplía tus reflexiones metacognitivas en la pregunta 5 para evidenciar tu proceso de pensamiento y aprendizaje"
+      ],
+      "createdAt": "2025-10-07 15:27:18"
+    },
+    {
+      "feedbackId": "fb_002_5_me1bxp0i_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 68,
+      "generalComments": "Hola Uma Valle, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Integras exitosamente los conocimientos de las cuatro fases en el ejercicio de compresión de gas, aplicando cada paso metodológicamente. Verificas tus resultados y evalúas la razonabilidad de tu solución, reconociendo la coherencia entre volumen y presión. Tu comprensión de la utilidad del método de 4 fases para organizar la resolución es destacable. Debes trabajar en mantener coherencia entre todos los pasos evitando olvidos en las conversiones de unidades. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en los comentarios adicionales. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras las cuatro fases exitosamente en el problema de compresión de gas, mostrando proceso metodológico completo",
+        "Verificas la razonabilidad de tus resultados reconociendo la relación inversa entre volumen y presión",
+        "Comprendes la utilidad transversal del método de 4 fases para resolver problemas en diversas áreas"
+      ],
+      "improvements": [
+        "Incorpora la verificación de conversiones de unidades como checklist obligatorio antes de comenzar los cálculos",
+        "Desarrolla mayor profundidad en tus reflexiones metacognitivas para evidenciar tu proceso de pensamiento",
+        "Practica la aplicación del método de 4 fases en problemas de mayor complejidad para consolidar tu dominio"
+      ],
+      "createdAt": "2025-10-07 15:27:18"
+    },
+    {
+      "feedbackId": "1c074056-822a-4dc1-8cef-0447419a1837",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:15.360Z"
+    },
+    {
+      "feedbackId": "1f687cee-5199-460c-b9e2-cee616dfdeee",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:07:11.638Z"
+    },
+    {
+      "feedbackId": "9de12fd2-04b0-4d6a-b86d-1034d311bf56",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:52:30.382Z"
+    },
+    {
+      "feedbackId": "9da8d980-4cf5-46d7-aaf8-d72093114391",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:38:35.264Z"
+    },
+    {
+      "feedbackId": "f976cff4-e46f-4853-96ba-0909036547d3",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Valoro tu honestidad al reconocer que los conceptos abstractos te desafían y que necesitas recursos prácticos. Eso es un primer paso importante para mejorar. Sin embargo, esta semana tu reporte es muy breve y genérico: no profundizas en qué variables específicas trabajaste, cómo las clasificaste ni cómo aplicaste lo aprendido en la Fase 1.\n\nTu desempeño muestra que estás participando en las actividades, pero necesitas ser más detallado y reflexivo en tus respuestas. La Fase 2 requiere que identifiques y clasifiques variables de forma sistemática, no solo que menciones temas generales.\n\nPara la próxima semana, te pido que: (1) hagas listas concretas de variables en cada problema que resuelvas, (2) describas estrategias específicas para diferenciar tipos de enlaces, y (3) completes la sección de comentarios adicionales con reflexiones sobre tu progreso. Esto te ayudará a consolidar el pensamiento crítico.",
+      "strengths": "• Autoconciencia sobre dificultades: Reconoces que los conceptos abstractos te cuestan y que necesitas ejercicios prácticos. Esto es honesto y muestra que reflexionas sobre tu propio aprendizaje.\n• Conexión interdisciplinaria: Identificas que las uniones químicas se relacionan con biología, lo que demuestra que intentas vincular conocimientos entre áreas.\n• Participación en actividades colaborativas: Mencionas que trabajaste en grupo y resolviste formularios, mostrando disposición para aprender con otros.",
+      "improvements": "• Especificidad en identificación de variables: En lugar de decir \"me cuesta visualizar\", identifica variables concretas: ¿Cuál es la energía de ionización? ¿Cómo cambia la electronegatividad? ¿Qué distancia hay entre átomos? Practica listar 3-5 variables por cada tipo de enlace químico.\n• Profundidad en evidencia de aprendizaje: No basta mencionar que resolviste un formulario. Describe qué variables identificaste, cómo las clasificaste (controlables/no controlables, conocidas/desconocidas) y qué conclusiones sacaste. Adjunta ejemplos concretos de tu trabajo.\n• Estrategias claras para superar dificultades: En lugar de solo mencionar que los enlaces te cuestan, propón una estrategia: \"Haré una tabla comparativa de enlaces iónicos vs. covalentes\" o \"Buscaré videos con modelos 3D\". Luego, reporta si funcionó y qué ajustes necesitas.",
+      "createdAt": "2025-10-27T05:05:52.510Z"
+    },
+    {
+      "feedbackId": "f7e8978e-9df4-4d21-9080-0dcc113d9696",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que esta semana trabajaste con dedicación en temas complejos como electronegatividad y fuerzas intermoleculares. Tu análisis del H₂S es un buen ejemplo de que puedes integrar varios conceptos cuando te enfocas, y es honesto reconocer dónde tienes dificultades: eso es madurez académica.\n\nSin embargo, tu reporte es bastante breve y superficial en varios puntos. Parece que respondiste rápidamente sin profundizar en lo que realmente aprendiste sobre identificación de variables. Recuerda que Fase 2 es sobre *clasificar y entender relaciones entre variables*, no solo nombrar temas.\n\nPara la próxima semana, te pido que: (1) Dediques más tiempo a Q1 y Q5 — son donde demuestras pensamiento crítico real, (2) Practiques geometría molecular con ejercicios específicos (dibuja 5 moléculas diferentes y clasifica sus variables), (3) Completes siempre todas las preguntas, incluso si es breve. La reflexión es donde crece el aprendizaje.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente qué te salió bien (tipos de enlace) y qué te cuesta (geometría y pares libres). Esto muestra autoconciencia importante para mejorar.\n• Ejemplo concreto y completo: Tu análisis del H₂S demuestra que puedes aplicar el proceso completo: contar electrones → dibujar Lewis → determinar geometría → identificar polaridad y fuerzas. Es un buen indicador de comprensión integrada.\n• Identificación de dificultades reales: Reconoces que la geometría molecular y los pares libres son puntos débiles. Esto es el primer paso para trabajar en ellos de forma dirigida.",
+      "improvements": "• Profundiza en la clasificación de variables: En Q1, no solo nombres los temas, sino clasifica explícitamente qué variables son conocidas (ej: número de electrones en H₂S = 8) y cuáles desconocidas (ej: la geometría exacta antes de analizar). Esto es el corazón de Fase 2.\n• Desarrolla estrategias específicas y medibles: Tu estrategia \"dibujando despacio\" es vaga. Propón pasos concretos: (1) Contar electrones de valencia, (2) Aplicar VSEPR sistemáticamente, (3) Comparar con tabla de geometrías. Así podrás evaluar si funciona.\n• Completa siempre Q5 con reflexión metacognitiva: Usa este espacio para preguntarte: ¿Cómo evolucioné desde Fase 1? ¿Por qué es importante identificar variables? ¿Qué necesito practicar? Esto consolida tu aprendizaje y muestra pensamiento crítico real.",
+      "createdAt": "2025-11-17T13:57:01.198Z"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "studentId": "u_7l7mqqsh4me06hzx8",
+    "studentName": "Uma Cesarini",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.237622",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 45.77,
+      "minScore": 30,
+      "maxScore": 76,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "feedback_1737737940_u_7l7m_u_toez_kl12mn",
+      "weekStart": "2025-08-04",
+      "score": 76,
+      "generalComments": "Uma mantiene su excelente nivel de aplicación práctica del pensamiento crítico en química, demostrando consistencia metodológica entre materias.",
+      "strengths": [
+        "Aplicación clara del pensamiento crítico al ejercicio de presión-temperatura",
+        "Identifica relaciones específicas entre variables físicas",
+        "Transferencia exitosa del método entre materias"
+      ],
+      "improvements": [
+        "Profundizar en la comprensión teórica específica de química",
+        "Desarrollar mayor vocabulario técnico de la materia",
+        "Completar todas las respuestas del reporte semanal"
+      ],
+      "createdAt": "2025-01-24 15:52:20"
+    },
+    {
+      "feedbackId": "00fd9579-5a4d-4f37-a4f9-9ddb3daad407",
+      "weekStart": "2025-08-11",
+      "score": 70,
+      "generalComments": "Uma, buen trabajo en la Fase 2. Tu análisis del problema de Ana es correcto: identificaste que necesita entender el fenómeno químico y calcular el cambio. Tu nivel 3 autodeclarado refleja una comprensión sólida con espacio para crecer.",
+      "strengths": [
+        "Correcta identificación del problema y objetivo en el caso del neumático de Ana",
+        "Nivel 3 de dominio muestra buena comprensión de la Fase 2",
+        "Excelente conexión entre el pensamiento crítico y los contenidos químicos"
+      ],
+      "improvements": [
+        "Practicar la identificación de variables en tablas comparativas con ejemplos simples",
+        "Estudiar vocabulario químico básico: tipos de gases, componentes comunes",
+        "Diferenciar más claramente entre \"qué resolver\" (problema) y \"para qué\" (objetivo)"
+      ],
+      "createdAt": "2025-09-28 18:06:11"
+    },
+    {
+      "feedbackId": "6c084e67-6e72-4b7d-a836-42ffefa6915d",
+      "weekStart": "2025-08-18",
+      "score": 58,
+      "generalComments": "Uma, buen trabajo en la Fase 3. Tu selección de la Ley de Charles fue correcta y tu razonamiento sobre cuándo usarla es acertado. Es completamente normal tener dificultades con las fórmulas al inicio; con práctica se volverán más claras.",
+      "strengths": [
+        "Excelente aplicación de F1 y F2 identificando variables correctamente",
+        "Selección correcta de la Ley de Charles para el ejercicio del globo",
+        "Comprensión de que Charles es más eficiente cuando falta una variable"
+      ],
+      "improvements": [
+        "Crear un cuadro comparativo personal de las leyes de gases con ejemplos simples",
+        "Practicar vocabulario técnico: isotérmico, isobárico, isocórico",
+        "Resolver más ejercicios básicos antes de avanzar a los complejos"
+      ],
+      "createdAt": "2025-09-28 18:05:13"
+    },
+    {
+      "feedbackId": "4584937d-daab-4c4b-a7e3-eac0a0a8da8a",
+      "weekStart": "2025-08-25",
+      "score": 56,
+      "generalComments": "Uma, valoro tu esfuerzo por aplicar las 4 fases. Identificaste bien el problema y las variables, aunque la selección de fórmula necesita ajuste (no es Gay-Lussac sino la ecuación general cuando cambian P, V y T). Es normal tener dificultades con las fórmulas al inicio.",
+      "strengths": [
+        "Aplicación correcta de las Fases 1 y 2 identificando problema y variables",
+        "Reconocimiento claro de las áreas que necesitas reforzar",
+        "Buenas conexiones interdisciplinarias con matemática y fisicoquímica"
+      ],
+      "improvements": [
+        "Revisar la diferencia entre las leyes de gases: Boyle (T constante), Charles (P constante), Gay-Lussac (V constante)",
+        "Practicar la aplicación de la ecuación general P₁V₁/T₁ = P₂V₂/T₂ con ejercicios guiados",
+        "Solicitar explicación detallada de las fórmulas y sus componentes al profesor"
+      ],
+      "createdAt": "2025-09-28 18:04:16"
+    },
+    {
+      "feedbackId": "f6c689f0-e2d3-4f28-b12d-22d8037ee139",
+      "weekStart": "2025-09-01",
+      "score": 70,
+      "generalComments": "Uma, buen trabajo aplicando la Fase 4 en problemas de gases. Tu resolución del problema del buzo muestra comprensión sólida de la ecuación fundamental. Es normal encontrar dificultades con problemas complejos como el del Aconcagua; esto mejorará con práctica.",
+      "strengths": [
+        "Resolución correcta del problema del buzo con cálculo preciso (12.71 dm³)",
+        "Dominio de la ecuación fundamental PV=nRT en ejercicios directos",
+        "Autoevaluación honesta y reconocimiento de progreso personal"
+      ],
+      "improvements": [
+        "Practicar la identificación del objetivo en problemas complejos subrayando qué pide el ejercicio",
+        "Desglosar problemas largos en pasos más pequeños y manejables",
+        "Trabajar con problemas de múltiples etapas como el del montañista gradualmente"
+      ],
+      "createdAt": "2025-09-28 18:03:21"
+    },
+    {
+      "feedbackId": "88ef04ba-67ac-413d-93b5-044cc2db7d75",
+      "weekStart": "2025-09-08",
+      "score": 55,
+      "generalComments": "Uma, comprendo que esta semana tuviste prueba de física y dedicaste tiempo a prepararte. Es importante equilibrar las demandas de ambas materias. Aunque no pudiste completar el reporte de química, valoramos tu comunicación al respecto.",
+      "strengths": [
+        "Comunicación honesta sobre las razones de no completar el reporte",
+        "Priorización responsable de evaluaciones importantes",
+        "Compromiso al enviar el reporte aunque sea incompleto"
+      ],
+      "improvements": [
+        "Planificar tiempo para ambas materias durante semanas con evaluaciones",
+        "Revisar los contenidos de química trabajados esta semana",
+        "Completar actividades de recuperación para no perder continuidad"
+      ],
+      "createdAt": "2025-09-28 18:02:47"
+    },
+    {
+      "feedbackId": "fb_002_2_4me06hzx8_2025-09-29_001",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Querida Uma Cesarini,\n\nDebido a que esta semana estuvo marcada por la evaluación de Química y ausencia de clases regulares, no fue posible evaluar tu progreso en el desarrollo de habilidades de pensamiento crítico. Reconozco que en semanas de evaluación el formato del reporte semanal no refleja el proceso de aprendizaje habitual.\n\nEs importante completar las secciones del reporte cuando hay actividades de aprendizaje, incluso si son diferentes al formato habitual. Identifica con mayor precisión las dificultades que enfrentas en el proceso de evaluación.\n\nTe sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Registras puntualmente las actividades realizadas durante la semana",
+        "Mencionas claramente las instancias de evaluación",
+        "Entregas tu reporte en tiempo y forma",
+        "Reconoces el contexto especial de la semana"
+      ],
+      "improvements": [
+        "Desarrolla respuestas más completas en todas las preguntas del reporte",
+        "Reflexiona sobre tu proceso durante la preparación para las evaluaciones",
+        "Describe qué estrategias utilizaste para prepararte para el examen de química"
+      ],
+      "createdAt": "2025-10-06T15:30:00.000Z"
+    },
+    {
+      "feedbackId": "2255ffd6-424a-42ef-9c86-8caaf4ed674e",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:05.226Z"
+    },
+    {
+      "feedbackId": "c826943d-de05-4a5e-a7fd-7dddea848a53",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:15.428Z"
+    },
+    {
+      "feedbackId": "72972f6f-418f-46d2-a846-fb4d64be0db5",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:38:29.558Z"
+    },
+    {
+      "feedbackId": "3539d243-8ad9-418c-b37f-2bb49e897acc",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Tu reporte está incompleto. Entiendo que la ausencia del profesor fue una situación excepcional, pero esto no justifica dejar en blanco 4 de las 5 preguntas. La Fase 2 requiere que demuestres cómo identificas y clasificas variables, y eso es algo que puedes hacer incluso trabajando de forma independiente.\n\nTe animo a que completes este reporte usando el trabajo de física que recibiste. Identifica las variables en esos problemas, clasifícalas, reflexiona sobre las dificultades y conecta con lo que aprendiste en Fase 1. Así tendremos una evaluación real de tu progreso.",
+      "strengths": "1. Comunicación clara de la situación:\nTu explicación en Q5 es directa y honesta: mencionas que no hubo clase y que recibiste trabajo para resolver en horas libres. Esto muestra responsabilidad al informar sobre el contexto.\n\n2. Reconocimiento de la tarea pendiente:\nAl mencionar el trabajo de física asignado, demuestras que eres consciente de que hay contenido por trabajar, aunque no lo hayas documentado en el reporte.",
+      "improvements": "1. Completar todas las preguntas del reporte:\nAunque no tuviste clase presencial, debías responder las 5 preguntas basándote en el trabajo que te mandaron. Incluso sin clase, puedes identificar variables en los problemas de física que te asignaron. Sugerencia: revisa el trabajo, identifica qué variables aparecen (velocidad, tiempo, masa, etc.) y clasifícalas como conocidas/desconocidas.\n\n2. Reflexionar sobre tu propio aprendizaje:\nNo basta con justificar la ausencia de clase. Necesitas analizar qué aprendiste del trabajo independiente: ¿qué dificultades tuviste? ¿Cómo las resolviste? ¿Qué conexiones ves con lo de Fase 1? Esto es lo que el reporte busca evaluar.\n\n3. Documentar el proceso, no solo el resultado:\nAunque el profesor faltó, tu responsabilidad es mostrar que trabajaste en identificar variables y datos. Haz listas, clasifica, reflexiona. El reporte es tu evidencia de pensamiento crítico, no solo de asistencia a clase.",
+      "createdAt": "2025-10-21T06:13:29.044Z"
+    },
+    {
+      "feedbackId": "7f85d40b-3377-4053-8267-cc6080fe53fb",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Tu reporte está incompleto. Aunque reconoces el tema trabajado (dinámica), falta la reflexión sistemática sobre identificación de variables que es el corazón de la Fase 2. Entiendo que quizá fue una semana de mucha teoría, pero es precisamente en esos momentos cuando debes practicar clasificar variables.\n\nTe animo a que en la próxima semana dediques tiempo a completar este reporte con ejemplos concretos. Esto no solo te ayudará a mejorar tu calificación, sino que consolidará tu comprensión de cómo funcionan las variables en problemas de dinámica.",
+      "strengths": "1. Honestidad en la comunicación: Reconoces que solo tuvieron clases teóricas, lo que muestra transparencia sobre el contexto de aprendizaje. Esto es importante para entender dónde estás parado.\n\n2. Identificación del tema: Mencionas específicamente \"dinámica\", lo que indica que al menos sabes cuál fue el contenido trabajado en la semana.",
+      "improvements": "1. Completar todas las respuestas: Las preguntas 1-4 están vacías. Necesitas dedicar tiempo a responder cada una, aunque sea brevemente. Por ejemplo, en Q1 podrías listar: \"Variables trabajadas: fuerza, masa, aceleración, velocidad inicial...\"\n\n2. Profundizar en la reflexión: En lugar de solo mencionar que tuvieron clases teóricas, explica qué variables identificaste en esos temas. Por ejemplo: \"En dinámica, identifiqué que la fuerza es controlable (la aplicamos nosotros) pero la aceleración resultante depende de la masa (no controlable en el experimento).\"\n\n3. Documentar el proceso de aprendizaje: Necesitas mostrar evidencia de cómo clasificaste variables y qué dificultades tuviste. Esto es fundamental para que podamos ayudarte a mejorar. Usa ejemplos concretos de problemas que resolviste.",
+      "createdAt": "2025-10-21T06:01:03.899Z"
+    },
+    {
+      "feedbackId": "c39fadc5-3bb7-4dd0-9443-2b7f9a8bd133",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "Reconozco que mencionas el tema trabajado (dinámica en física), lo que indica que al menos identificas el contenido de la semana. Sin embargo, necesitas desarrollar mucho más tu respuesta para que esto sea una fortaleza real.\n\nTu disposición a completar el reporte es positiva, aunque el reporte esté incompleto. Esto sugiere que tienes la intención de participar en el proceso de evaluación.",
+      "improvements": "Completar todas las preguntas: Las preguntas 1-4 están vacías. Necesitas escribir respuestas concretas identificando variables (conocidas/desconocidas, controlables/no controlables) en los problemas de dinámica que trabajaste. Por ejemplo: \"En un problema de fuerzas, la masa es una variable conocida, la aceleración es desconocida, y la fricción es no controlable.\"\n\nProfundizar en Q5: Tu comentario es muy breve. Reflexiona sobre qué dificultades tuviste al identificar variables en dinámica y qué estrategias usaste para superarlas. Conecta esto con lo que aprendiste en Fase 1 (planteamiento de problemas).\n\nEvidenciar el proceso: Incluye ejemplos específicos de problemas trabajados en clase. Muestra cómo identificaste variables, cómo las clasificaste y cómo las relacionaste con conceptos de dinámica (fuerza, masa, aceleración).\n\nCOMENTARIOS GENERALES:\n\nTu reporte está incompleto y no permite evaluar tu comprensión de Fase 2. Aunque mencionas el tema de dinámica, necesitas desarrollar respuestas detalladas que demuestren cómo identificas y clasificas variables en problemas reales.\n\nTe animo a que completes este reporte con ejemplos concretos de tu trabajo en clase. Esto es fundamental para que podamos ver tu progreso en pensamiento crítico y ayudarte a mejorar.",
+      "createdAt": "2025-10-21T06:54:45.309Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "4f95a613-5bb1-447c-bf2b-2d0756c919ab",
+    "studentName": "Charo Reig",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.192264",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 34.0,
+      "minScore": 34,
+      "maxScore": 34,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-11-03T03:00:00.000Z",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "c6c8f96b-5c9c-45a7-a95e-f69bcc4d59b2",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Veo que participaste en la actividad del proyecto esta semana, y eso es positivo. Sin embargo, tu reporte no refleja el aprendizaje esperado en la Fase 2. Las respuestas son muy breves y no muestran que hayas identificado, clasificado ni analizado variables, que es exactamente lo que debería estar documentado aquí.\n\nTu desempeño esta semana está en nivel inicial. Necesitas ser mucho más específico y reflexivo en tus respuestas. No se trata solo de completar la actividad, sino de demostrar que entiendes *por qué* identificar variables es importante para resolver problemas en física.\n\nPara la próxima semana, te pido que dediques más tiempo a escribir tu reporte. Responde cada pregunta pensando en ejemplos concretos de tu proyecto: ¿qué variables mediste? ¿cuáles controlaste? ¿cuáles no? Esto hará que tu aprendizaje sea visible y podremos avanzar juntos.",
+      "strengths": "• Participación en trabajo grupal: Completaste la actividad del proyecto en equipo, lo que muestra disposición a colaborar y participar en las dinámicas de clase.\n• Intento de conexión con fases anteriores: En Q4 reconoces que existe relación entre el proyecto actual y temas previos de física, mostrando que intentas vincular conceptos.",
+      "improvements": "• Identificación explícita de variables: Necesitas nombrar específicamente qué variables trabajaste en tu proyecto (ej: \"masa del objeto\", \"tiempo de caída\", \"altura inicial\"). Para la próxima semana, haz una lista de al menos 5 variables y clasifícalas en conocidas/desconocidas y controlables/no controlables.\n• Reflexión sobre dificultades reales: Decir \"no fue difícil\" no ayuda a tu aprendizaje. Piensa honestamente: ¿Qué te costó? ¿Confundiste alguna variable? ¿Dudaste en clasificarlas? Escribe al menos 2 dificultades concretas y cómo las resolviste.\n• Profundidad en respuestas: Tus respuestas son muy cortas y superficiales. Dedica tiempo a explicar con detalle: qué hiciste, cómo lo hiciste, qué aprendiste. Cada respuesta debe tener mínimo 3-4 oraciones completas que demuestren tu pensamiento.",
+      "createdAt": "2025-11-12T23:01:22.636Z"
+    },
+    {
+      "feedbackId": "8efec0cc-8c85-4fd7-9ed9-91f51605b6f2",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Entiendo que esta semana fue desafiante para tu equipo, y valoro que seas honesto al respecto. Sin embargo, tu reporte está muy incompleto y no refleja el trabajo que debería haber en Fase 2. Necesitas documentar qué aprendiste sobre identificación de variables, aunque sea del proyecto grupal.\n\nTu desempeño esta semana está muy por debajo de lo esperado. Un reporte de pensamiento crítico requiere reflexión profunda, ejemplos concretos y evidencia de aprendizaje. Ahora mismo, no hay suficiente información para evaluar si comprendes cómo clasificar variables o distinguir magnitudes físicas.\n\nPara la próxima semana, te pido que: (1) completes este reporte con detalles específicos del proyecto, (2) identifiques al menos 3-4 variables del tema que trabajaron, (3) clasifícalas como conocidas/desconocidas y controlables/no controlables. Esto es esencial para avanzar a Fase 3.",
+      "strengths": "• Honestidad en la comunicación: Reconoces directamente que no resolvieron ejercicios y que el equipo tuvo dificultades para arrancar. Esta transparencia es el primer paso para mejorar.\n• Identificación de obstáculos grupales: Mencionas que \"costó arrancar como equipo\", lo que muestra conciencia de que hay factores que afectaron el trabajo, no solo falta de esfuerzo individual.",
+      "improvements": "• Completar el reporte con detalle: Necesitas describir específicamente qué variables identificaste en el proyecto (aunque sea una o dos). Por ejemplo: \"En el proyecto de caída libre, identificamos: altura (conocida), tiempo (desconocida), gravedad (controlable)\". Esto es fundamental para demostrar aprendizaje.\n• Conectar el proyecto con Fase 2: Explica qué magnitudes físicas trabajaron en el proyecto y cómo las clasificaron. Si trabajaron movimiento, energía o fuerzas, describe qué variables controlables y no controlables encontraron. Sin esto, no hay evidencia de dominio de la fase.\n• Reflexionar sobre estrategias de equipo: En lugar de solo mencionar que \"costó arrancar\", propón cómo lo resolverán: \"Para mejorar, decidimos asignar roles específicos\" o \"Haremos una lista de variables antes de empezar\". Esto muestra pensamiento crítico sobre el proceso.",
+      "createdAt": "2025-11-17T14:00:57.853Z"
+    }
+  ]
+}

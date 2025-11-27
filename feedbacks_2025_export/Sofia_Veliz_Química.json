@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "studentId": "2c621d80-baac-4e07-86e8-8dd8b92d5553",
+    "studentName": "Sofia Veliz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.232701",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 73.0,
+      "minScore": 65,
+      "maxScore": 79,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-27T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_7d77e063_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 72,
+      "generalComments": "Querida Sofia Veliz, Has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Muestras claridad al identificar variables conocidas y desconocidas en el ejercicio del buffer casero, y demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al reconocer tus dificultades. Es importante mejorar la organización y clasificación de los datos disponibles, especialmente en equilibrios industriales y heterogéneos donde hay múltiples variables. Desarrolla mayor confianza en tu nivel de dominio, ya que tus respuestas muestran comprensión más sólida de lo que percibes. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Identifica correctamente las variables involucradas en buffer casero con vinagre y acetato de sodio",
+        "Organiza adecuadamente los datos y la información disponible usando matriz de clasificación",
+        "Demuestra capacidad de reflexión sobre tu propio proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación de los datos disponibles en equilibrios complejos",
+        "Desarrolla mayor confianza en tus capacidades ya que tu nivel real es superior a tu autopercepción",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_7d77e063_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Querida Sofia Veliz, Has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas apropiadamente las herramientas (Kc, Qc) para determinar la dirección de reacciones, y demuestras capacidad de reflexión al reconocer que aprendiste a elegir mejor qué herramienta usar según el contexto. Te recomiendo practicar el análisis integrado de múltiples perturbaciones simultáneas, en lugar de abordarlas siempre por partes separadas, para desarrollar visión más holística de los equilibrios complejos. Busca aplicaciones prácticas de la relación Kc-Kp en situaciones industriales reales. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas apropiadamente las herramientas y fórmulas para determinar dirección de reacciones",
+        "Identificas correctamente las relaciones entre Kc, Qc y el sentido de evolución del equilibrio",
+        "Muestras reflexión sobre el propio pensamiento al reconocer mejora en criterio de selección"
+      ],
+      "improvements": [
+        "Te recomiendo practicar el análisis integrado de múltiples perturbaciones simultáneas",
+        "Busca aplicaciones prácticas de la relación Kc-Kp en situaciones industriales",
+        "Es importante desarrollar visión más holística en lugar de análisis siempre fragmentado"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_7d77e063_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 79,
+      "generalComments": "Querida Sofia Veliz, Has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Tu resolución del ejercicio H₂ + I₂ ⇌ 2HI fue excelente, demostrando dominio de la tabla ICE y el proceso completo de conversión de masas a concentraciones. Muestras perseverancia ante las dificultades al repasar fórmulas sistemáticamente y crear machetes como estrategia de apoyo. Presta mayor atención a las unidades y conversiones necesarias durante los cálculos para evitar errores. Es importante mejorar la claridad conceptual sobre reacciones endotérmicas versus exotérmicas y sus implicaciones en Le Chatelier. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa usando tabla ICE",
+        "Ejecutas los pasos de resolución de manera ordenada (masas→moles→concentraciones)",
+        "Muestras perseverancia ante las dificultades mediante estrategias compensatorias"
+      ],
+      "improvements": [
+        "Presta mayor atención a las unidades y conversiones necesarias",
+        "Es importante mejorar claridad sobre reacciones endotérmicas versus exotérmicas",
+        "Fortalece la comprensión conceptual de Le Chatelier aplicado a cambios térmicos"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_7d77e063_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 73,
+      "generalComments": "Querida Sofia Veliz, Estás trabajando adecuadamente en la Fase 4: Estrategia y ejecución completa, demostrando comprensión del proceso de tablas de variación y aplicación en contextos industriales. Tu resolución de la descomposición del NO₂ muestra organización clara del método inicial-reacciona-equilibrio. Es importante desarrollar mayor claridad conceptual para interpretar perturbaciones al equilibrio, especialmente cuando interviene temperatura en reacciones con carácter térmico definido. Desarrolla estrategias más específicas para superar tus desafíos con Le Chatelier, mediante práctica dirigida con casos variados. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada usando tabla inicial-reacciona-equilibrio",
+        "Reconoces las magnitudes físicas/químicas relevantes en contextos industriales",
+        "Realizas conexiones interesantes entre estequiometría, gases y termodinámica"
+      ],
+      "improvements": [
+        "Es importante desarrollar mayor claridad para interpretar perturbaciones térmicas al equilibrio",
+        "Desarrolla estrategias más específicas para superar desafíos con Le Chatelier",
+        "Fortalece la distinción entre efectos en reacciones endotérmicas versus exotérmicas"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_7d77e063_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 65,
+      "generalComments": "Querida Sofia Veliz, Te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Reconoces con honestidad las áreas que te cuestan, lo cual es el primer paso para superarlas. Necesitas ser más sistemática en la ejecución de los pasos de resolución, especialmente en las conversiones de moles a concentraciones y en la interpretación de Qc versus Kc. Es fundamental consolidar tu comprensión de hacia dónde se desplaza una reacción según la comparación entre cociente de reacción y constante de equilibrio. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en tus reportes futuros. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos. Estoy disponible para apoyarte en tu proceso de aprendizaje.",
+      "strengths": [
+        "Reconoces las magnitudes físicas/químicas relevantes y sus unidades",
+        "Realizas conexiones interesantes entre estequiometría, gases y matemática",
+        "Demuestras honestidad al reconocer tus dificultades actuales"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemática en la ejecución de pasos de resolución",
+        "Es fundamental consolidar comprensión de Qc versus Kc y dirección de desplazamiento",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "b2db4d81-72a2-4880-96b4-8c67169e1c2e",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 72,
+      "generalComments": "Excelente semana de trabajo. Has demostrado dominio técnico sólido en cálculos de pH/pOH y disociación de ácidos-bases fuertes, con resultados precisos en tus ejercicios. Lo que más destaca es tu capacidad para conectar estos temas con otras disciplinas (matemática, biología) y con situaciones reales, lo que muestra pensamiento crítico genuino.\n\nTu evolución es notable: comenzaste confundida con logaritmos y ahora los aplicas con confianza. Sin embargo, hay un aspecto importante que necesita atención: la pregunta 3 quedó sin responder, y es precisamente donde debes reflexionar sobre tus dificultades específicas con variables y proponer estrategias de mejora.\n\nPara la próxima semana, enfócate en dos cosas: (1) completa siempre todas las preguntas del reporte, especialmente la de dificultades, y (2) crea tablas de clasificación de variables (conocidas/desconocidas, controlables/no controlables) para cada ejercicio. Esto consolidará tu Fase 2 y te preparará mejor para la Fase 3.",
+      "strengths": "• Precisión en cálculos: Resuelves correctamente el ejercicio del KOH con todos los pasos (disociación completa → [OH⁻] = 0,0150 M → pOH = 1,82 → pH = 12,18). Esto muestra dominio técnico sólido de las fórmulas.\n• Conexiones interdisciplinarias: Vinculas pH/pOH no solo con química (equilibrio químico, Kw) sino también con matemática (logaritmos) y biología (acidez estomacal, equilibrio ácido-base en sangre). Esto demuestra pensamiento integrador.\n• Metacognición y autoconciencia: Reflexionas sobre tu proceso de aprendizaje (\"al principio me confundían los logaritmos, pero practicando entendí mejor\") y reconoces tu progreso. Esto es fundamental para el pensamiento crítico.",
+      "improvements": "• Respuesta incompleta en Q3: No contestaste la pregunta sobre dificultades y estrategias. Para la próxima semana, identifica específicamente qué te cuesta (ej: \"Confundo cuándo [H⁺] es variable controlable vs. no controlable\") y propón estrategias concretas (ej: \"Haré una tabla comparativa de variables en ácidos fuertes vs. débiles\").\n• Falta de clasificación sistemática de variables: En tus respuestas no distingues explícitamente entre variables conocidas/desconocidas ni controlables/no controlables. Intenta crear una tabla para cada ejercicio: columna 1 (variable), columna 2 (tipo), columna 3 (valor/relación). Esto es clave en Fase 2.\n• Integración débil de Fase 1 con Fase 2: Aunque resuelves bien el KOH, no mencionas cómo planteaste el problema inicialmente (Fase 1) ni cómo eso guió tu identificación de variables (Fase 2). En próximos reportes, explica: \"Primero identifiqué que el problema preguntaba por pH (Fase 1), luego clasifiqué [OH⁻] como variable conocida porque KOH es base fuerte (Fase 2)\".",
+      "createdAt": "2025-11-03T12:16:32.941Z"
+    }
+  ]
+}

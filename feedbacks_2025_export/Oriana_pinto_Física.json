@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "studentId": "u_yxgl6st6zme03hza8",
+    "studentName": "Oriana pinto",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.229348",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 51.0,
+      "minScore": 27,
+      "maxScore": 75,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 59,
+      "generalComments": "Querida Oriana Pinto, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Identificas correctamente las variables en el ejercicio de la rutina matutina. Es importante mejorar la identificación precisa de dificultades específicas del proceso. Necesitas fortalecer la capacidad de conectar conceptos con otras materias y contextos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en el ejercicio de tiempo y rutina",
+        "Organizas adecuadamente los datos del problema propuesto",
+        "Reconoces tu nivel de dominio actual con honestidad"
+      ],
+      "improvements": [
+        "Identifica con mayor precisión las dificultades que enfrentas en el análisis de variables",
+        "Desarrolla estrategias más específicas para superar tus desafíos",
+        "Busca aplicaciones prácticas de identificación de variables en situaciones cotidianas"
+      ],
+      "createdAt": "2025-10-07 16:36:31"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 52,
+      "generalComments": "Querida Oriana Pinto, te encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Física. Reconoces la necesidad de practicar más ejercicios para consolidar tu comprensión. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en gases ideales. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Reconoces tu nivel de dominio actual y la necesidad de práctica",
+        "Identificas el concepto principal trabajado: gases ideales",
+        "Muestras honestidad al expresar tus dificultades con la teoría"
+      ],
+      "improvements": [
+        "Es fundamental consolidar tu comprensión de las ecuaciones de gases ideales",
+        "Proporciona ejemplos concretos de ejercicios trabajados con gases ideales",
+        "Identifica con mayor precisión qué aspectos de la teoría te resultan difíciles"
+      ],
+      "createdAt": "2025-10-07 16:37:14"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-08-25_003",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Querida Oriana Pinto, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas los pasos de resolución de manera ordenada siguiendo la guía proporcionada. Realizas conexiones interesantes entre tiro oblicuo y contenidos previos como tiro vertical. Es importante mejorar la planificación de tu estrategia antes de ejecutar, especialmente en la interpretación del enunciado. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Ejecutas los pasos de resolución de manera ordenada y lógica siguiendo la guía",
+        "Presentas evidencia concreta del problema de la piedra lanzada desde el edificio",
+        "Realizas conexiones apropiadas con tiro vertical y caída libre del cuatrimestre anterior"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar cálculos",
+        "Necesitas ser más autónoma en la interpretación del enunciado sin ayuda inicial",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión en Q5"
+      ],
+      "createdAt": "2025-10-07 16:37:14"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-09-01_004",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Querida Oriana Pinto, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Presentas evidencias ricas del problema del jugador de futbol americano, demostrando comprensión del sistema con dos movimientos simultáneos. Realizas conexiones apropiadas con MRU, MRUV y tiro vertical de la primera unidad. Necesitas ser más sistemática en la interpretación de consignas de los modelos de examen. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Presentas evidencia rica del problema del futbolista con dos movimientos coordinados",
+        "Realizas conexiones significativas con MRU, MRUV y tiro vertical de unidades previas",
+        "Identificas con precisión tu dificultad principal: interpretación de consignas"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemática en la interpretación de enunciados complejos",
+        "Desarrolla estrategias específicas para analizar consignas de examen paso a paso",
+        "Practica la descomposición de enunciados largos en partes manejables"
+      ],
+      "createdAt": "2025-10-07 16:37:58"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-09-08_005",
+      "weekStart": "2025-09-08",
+      "score": 75,
+      "generalComments": "Querida Oriana Pinto, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas los pasos de resolución de manera ordenada resolviendo adecuadamente los problemas propuestos. Presentas evidencia concreta del problema del delfín y el aro, demostrando comprensión de trayectorias parabólicas. Realizas conexiones apropiadas con tiro vertical y caída libre. Trabaja en expresar reflexiones más profundas en tus comentarios adicionales. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Resuelves adecuadamente los problemas propuestos en clase con ejecución ordenada",
+        "Presentas evidencia concreta del problema del delfín con altura y distancia específicas",
+        "No presentas dificultades puntuales, mostrando dominio consolidado del tema"
+      ],
+      "improvements": [
+        "Trabaja en expresar reflexiones más profundas en Q5 más allá de respuestas mínimas",
+        "Desarrolla mayor especificidad al describir los inconvenientes de la guía mencionados",
+        "Profundiza en las conexiones con temas previos explicando cómo se relacionan"
+      ],
+      "createdAt": "2025-10-07 16:37:58"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-09-15_006",
+      "weekStart": "2025-09-15",
+      "score": 59,
+      "generalComments": "Querida Oriana Pinto, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Comprendes los conceptos de tiro oblicuo y ejecutas la teoría aprendida adecuadamente. Durante la semana Santo Tomás no hubo actividades específicas de Física. Necesitas profundizar en las conexiones con temas previos, especificando cómo se relacionan. Trabaja en expresar reflexiones más profundas en tus comentarios adicionales. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes todos los conceptos de tiro oblicuo y ejecutas la teoría aprendida",
+        "Reconoces tu nivel de dominio actual con autoevaluación apropiada",
+        "No presentas dificultades específicas, mostrando consolidación del tema"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas de actividades realizadas incluso en semanas especiales",
+        "Profundiza en las conexiones con temas pasados, explicando específicamente cuáles y cómo",
+        "Desarrolla mayor reflexión metacognitiva más allá de respuestas mínimas en Q5"
+      ],
+      "createdAt": "2025-10-07 16:38:56"
+    },
+    {
+      "feedbackId": "fb_002_4_me03hza8_2025-09-29_007",
+      "weekStart": "2025-09-29",
+      "score": 27,
+      "generalComments": "Querida Oriana Pinto, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Física. El contenido de tu reporte es muy general y no proporciona evidencias concretas del proceso de aprendizaje. Es fundamental establecer bases sólidas en la identificación de objetivos y contenidos antes de avanzar. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante.",
+      "strengths": [
+        "Reconoces que el trabajo práctico trata temas futuros",
+        "Asistes y participas en las actividades propuestas",
+        "Reportas tu experiencia semanal de forma puntual"
+      ],
+      "improvements": [
+        "Proporciona detalles específicos sobre qué temas contiene el trabajo práctico",
+        "Identifica qué conceptos o habilidades trabajaste durante la actividad",
+        "Reflexiona sobre qué aprendiste o qué te generó curiosidad del contenido nuevo"
+      ],
+      "createdAt": "2025-10-07 16:38:56"
+    },
+    {
+      "feedbackId": "2f3b0a7b-6707-4f5d-8bc2-850d7f18392e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:37:44.119Z"
+    },
+    {
+      "feedbackId": "9e42ba61-03ef-45f1-9eed-367305f2ec3a",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:12:17.777Z"
+    },
+    {
+      "feedbackId": "70bffb23-f7a4-4c11-b794-b89ce64cef07",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 45,
+      "generalComments": "Valoro tu confianza en el tema de uniones químicas y tu participación en los ejercicios de análisis molecular, a pesar de las limitaciones por el proyecto de física. Sin embargo, tu reporte es demasiado breve y genérico para evaluar realmente tu dominio de la Fase 2.\n\nEsta semana necesitas ser mucho más específico y reflexivo. La Fase 2 requiere que identifiques y clasifiques variables de forma sistemática, no solo que digas que entiendes los conceptos. Tus respuestas deben incluir ejemplos concretos de lo que trabajaste.\n\nPara la próxima semana, te pido que: (1) hagas listas explícitas de variables en cada ejercicio, (2) reflexiones honestamente sobre qué te cuesta trabajo, y (3) desarrolles tus respuestas con detalles y ejemplos. Esto hará que tu reporte sea mucho más útil para tu aprendizaje.",
+      "strengths": "• Confianza en el dominio conceptual: Expresas que entiendes los conceptos de uniones químicas y puedes ponerlos en práctica, lo que muestra seguridad en tu aprendizaje y disposición para aplicar lo aprendido.\n• Participación en actividades prácticas: Realizaste ejercicios de análisis molecular completo, demostrando que estás activamente involucrado en las actividades de clase a pesar de las limitaciones por el proyecto de física.",
+      "improvements": "• Falta de especificidad en identificación de variables: Necesitas ir más allá de afirmar que \"entiendes\" y mostrar concretamente qué variables identificaste en los ejercicios de uniones químicas. Por ejemplo: ¿cuáles eran conocidas? ¿cuáles desconocidas? ¿cuáles controlables? Haz listas explícitas en tu próximo reporte.\n• Ausencia de reflexión metacognitiva: Decir \"no tuve dificultades\" no es realista ni productivo. Todos enfrentamos desafíos. Reflexiona honestamente: ¿qué te costó? ¿cómo lo superaste? Esto demuestra pensamiento crítico real y ayuda a tu aprendizaje.\n• Respuestas muy breves y genéricas: Tus respuestas carecen de ejemplos concretos y detalles. En lugar de \"encuentro similitudes\", explica cuáles son esas similitudes específicamente. Esto es fundamental para que podamos evaluar tu verdadero nivel de comprensión.",
+      "createdAt": "2025-11-17T13:45:22.848Z"
+    }
+  ]
+}

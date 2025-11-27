@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "studentId": "u_l3ppw0vlzme1nox48",
+    "studentName": "Bianca Nazareth Picone",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.187736",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 55.73,
+      "minScore": 27,
+      "maxScore": 77,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-04_a5e20b7f",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Bianca muestra comprensión de los fundamentos del pensamiento crítico y logra identificar información relevante en problemas de equilibrio químico. Sin embargo, enfrenta dificultades para aplicar la metodología cuando los enunciados no presentan objetivos explícitos. Es importante que desarrolle mayor autonomía en la interpretación de consignas y que fortalezca su capacidad de análisis inicial del problema.",
+      "strengths": [
+        "Identifica correctamente información relevante vs irrelevante en problemas de equilibrio químico",
+        "Reconoce conexiones con unidades anteriores (balanceo de ecuaciones) y con matemática",
+        "Demuestra honestidad al señalar dificultades específicas con los enunciados"
+      ],
+      "improvements": [
+        "Trabajar en la identificación del objetivo cuando no está explícito en el enunciado",
+        "Desarrollar mayor autonomía para interpretar consignas sin información teórica previa",
+        "Practicar la distinción entre enfoques cualitativos y cuantitativos en problemas de equilibrio"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-11_85b3d2a1",
+      "weekStart": "2025-08-11",
+      "score": 64.5,
+      "generalComments": "Bianca demuestra comprensión teórica de la identificación de variables y datos, pero encuentra dificultades significativas en la aplicación práctica. Logra listar variables relevantes en situaciones analíticas complejas y reconoce conexiones metodológicas con física del año anterior. Sin embargo, necesita apoyo para resolver dudas que surgen durante la práctica y encuentra obstáculos cuando la teoría hace referencias a conceptos no consolidados.",
+      "strengths": [
+        "Identifica múltiples variables en situaciones complejas (8 variables en el problema de Ana)",
+        "Reconoce similitudes metodológicas con la recopilación de datos en física del año anterior",
+        "Honestidad al señalar conceptos teóricos que generan confusión (tipos de equilibrio químico)"
+      ],
+      "improvements": [
+        "Desarrollar estrategias para resolver dudas prácticas de forma autónoma",
+        "Fortalecer conocimientos previos necesarios antes de abordar clasificaciones complejas",
+        "Practicar la clasificación sistemática de variables en la matriz dual (conocidas/desconocidas, controlables/no controlables)"
+      ],
+      "createdAt": "2025-10-02T18:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-18_dd83c4f7",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Bianca alcanza su mejor desempeño (77 puntos, Nivel 3) en esta semana, trabajando en la Fase 3 enfocada en la selección de herramientas y relaciones matemáticas para el equilibrio químico. Tu capacidad para aplicar el principio de Le Chatelier y construir expresiones de Kc es sólida. El material didáctico de calidad (cuadernillo + clase) parece haber sido clave para tu comprensión, lo cual sugiere que aprendes mejor cuando tienes andamiaje conceptual claro antes de la práctica. Tu autoevaluación de 4/5 es realista y refleja confianza bien fundamentada. Sin embargo, persiste la falta de reflexión metacognitiva explícita (Q5 vacía) y de conexiones con aplicaciones reales (Q4).",
+      "strengths": [
+        "Dominio técnico excelente en la construcción de expresiones de Kc y aplicación de Le Chatelier",
+        "Comprensión profunda de cómo las condiciones (temperatura, presión, concentración) afectan el equilibrio",
+        "Capacidad de trabajar con problemas numéricos completos aplicando fórmulas correctamente"
+      ],
+      "improvements": [
+        "Completar Q5 con reflexiones sobre tu progreso semanal - qué mejoraste, qué te resultó más fácil/difícil",
+        "Buscar y mencionar aplicaciones reales del equilibrio químico en Q4 (industria, biología, ambiente)",
+        "Desarrollar mayor autonomía reduciendo gradualmente la dependencia de material didáctico muy estructurado"
+      ],
+      "createdAt": "2025-10-02T15:00:03Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-08-25_ffa5e6b9",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Bianca entra en la Fase 4 (ejecución completa) con un ajuste esperado en su desempeño (de 77 a 65 puntos). Esta caída es normal al enfrentar la fase más exigente, donde se requiere integración total de F1+F2+F3+F4. Tu necesidad de 'objetivos muy claros y explícitos' es una limitación que debes trabajar, ya que problemas reales rara vez tienen enunciados perfectamente delimitados. La tensión que describes entre problema abierto vs problema cerrado es exactamente el desafío pedagógico de la Fase 4. Sin embargo, demuestras capacidad crítica valiosa al señalar problemas en los enunciados - esto es pensamiento analítico de nivel superior.",
+      "strengths": [
+        "Capacidad crítica para identificar ambigüedades o problemas en enunciados (pensamiento analítico avanzado)",
+        "Comprensión clara de que problemas reales requieren definir objetivos propios",
+        "Honestidad al reconocer tu necesidad de estructura y claridad en los enunciados"
+      ],
+      "improvements": [
+        "Practicar problemas deliberadamente ambiguos donde tú debas definir el objetivo - esto simula situaciones reales",
+        "Desarrollar estrategias para cuando el enunciado es incierto: hacer supuestos explícitos, definir alcance, justificar decisiones",
+        "Trabajar en la tolerancia a la ambigüedad - en ciencia real, los problemas NO vienen con objetivos claros",
+        "Continuar desarrollando metacognición completando Q5 con reflexiones semanales"
+      ],
+      "createdAt": "2025-10-02T15:00:04Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-09-15_bbc7a8d1",
+      "weekStart": "2025-09-15",
+      "score": 74,
+      "generalComments": "Excelente recuperación en la Fase 4, Bianca. Tu desempeño en el simulacro (74 puntos) demuestra que has consolidado la integración de las cuatro fases del pensamiento crítico. El problema del volumen de KCl disuelto que presentas muestra aplicación completa: identificación del objetivo, manejo de variables (concentración, masa, volumen), selección de herramientas (fórmulas de concentración), y ejecución con cálculos. Tu dificultad con el 'salto' entre pasos es común en problemas multi-etapa y se supera con práctica. La conexión con proporciones de matemática (Q4) es pertinente. Sin embargo, Q5 sigue vacía, lo cual limita el desarrollo de tu autorregulación y metacognición.",
+      "strengths": [
+        "Aplicación exitosa del proceso completo de pensamiento crítico (F1+F2+F3+F4) en el simulacro",
+        "Manejo correcto de fórmulas de concentración y conversiones de unidades",
+        "Capacidad de identificar dónde está tu dificultad específica (saltos entre pasos)"
+      ],
+      "improvements": [
+        "Practicar descomposición de problemas multi-etapa: escribir explícitamente cada subpaso intermedio",
+        "Para saltos entre pasos: crear mapas de ruta (¿qué tengo? → paso 1 → resultado intermedio → paso 2 → resultado final)",
+        "Completar SIEMPRE Q5 con tu reflexión semanal - es clave para el desarrollo de autorregulación",
+        "Expandir conexiones interdisciplinarias más allá de matemática"
+      ],
+      "createdAt": "2025-10-02T15:00:05Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1nox48_2025-09-22_dde9c0f3",
+      "weekStart": "2025-09-22",
+      "score": 70,
+      "generalComments": "Bianca mantiene desempeño sólido (70 puntos, Nivel 3) en esta última semana antes de la evaluación. Tu trabajo con el simulacro modelo 1 y la resolución del ejercicio 1 evidencian dominio técnico del equilibrio químico. La dificultad que mencionas con el ejercicio 2 (sistema en equilibrio vs no equilibrio) es conceptual y refleja la complejidad inherente de distinguir estados. Tu conexión con reacciones químicas del cuatrimestre pasado (Q4) es válida pero genérica. El patrón de Q5 vacía persiste como área crítica de mejora. En general, estás preparada para la evaluación con expectativa de nivel 3 (Bueno).",
+      "strengths": [
+        "Consolidación del dominio técnico en problemas de equilibrio químico",
+        "Capacidad de identificar dificultades conceptuales específicas (equilibrio vs no equilibrio)",
+        "Preparación sistemática con simulacros y ejercicios modelo"
+      ],
+      "improvements": [
+        "Profundizar en la distinción conceptual: ¿cómo saber si un sistema está en equilibrio? Criterios: velocidades iguales, concentraciones constantes, Qc = Kc",
+        "Desarrollar mayor especificidad en las conexiones (Q4): ¿exactamente qué reacciones del cuatrimestre pasado se relacionan y cómo?",
+        "CRÍTICO: Incorporar el hábito de reflexión metacognitiva completando Q5 cada semana",
+        "Practicar verificación de soluciones: ¿cómo confirmo que mi respuesta es correcta?"
+      ],
+      "createdAt": "2025-10-02T15:00:06Z"
+    },
+    {
+      "feedbackId": "a18ebff0-3d40-41f2-9458-4b28b2d86f66",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Tu reporte actual no refleja el trabajo realizado en Fase 2. Las respuestas están incompletas o ausentes, lo que impide evaluar tu comprensión de variables, magnitudes físicas y sus relaciones. Entiendo que a veces es difícil expresar lo que aprendemos, pero este reporte es tu oportunidad para demostrar tu pensamiento.\n\nTe animo a que dediques tiempo real a responder cada pregunta. No se trata de escribir mucho, sino de ser claro y específico. Describe qué variables identificaste, qué dificultades tuviste, y cómo las superaste. Esto es lo que realmente importa para tu aprendizaje.",
+      "strengths": "Lamentablemente, el reporte no contiene respuestas desarrolladas que permitan identificar fortalezas específicas en tu pensamiento crítico. Sin embargo, reconozco que completaste el envío del reporte, lo que muestra intención de participar en el proceso.",
+      "improvements": "Completar las respuestas con contenido significativo. Actualmente casi todas las preguntas están vacías o con respuestas mínimas. Dedica tiempo a reflexionar sobre cada pregunta y escribe al menos 3-4 oraciones por cada una, describiendo concretamente qué aprendiste.\n\nIdentificar y clasificar variables específicas de los temas trabajados. En Q1 y Q2, debes listar variables reales de problemas que estudiaste (ej: temperatura, presión, concentración) y clasificarlas como controlables/no controlables o conocidas/desconocidas.\n\nReflexionar sobre tu propio proceso de aprendizaje. En Q3, Q4 y Q5, necesitas ser honesto sobre qué te cuesta entender, qué estrategias usas para mejorar, y cómo conectas lo aprendido con situaciones reales. Esta es la esencia del pensamiento crítico.",
+      "createdAt": "2025-10-21T05:38:31.124Z"
+    },
+    {
+      "feedbackId": "6f6776be-316e-492f-bf60-fd0078bd2484",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "Reconozco que completaste el reporte y lo enviaste. Esto muestra que tienes la responsabilidad de participar en el proceso de evaluación, aunque aún necesites desarrollar más el contenido.",
+      "improvements": "Problema 1 - Respuestas incompletas: Casi todas tus respuestas están vacías o son una sola frase. Necesitas dedicar tiempo real a reflexionar sobre cada pregunta y escribir respuestas completas (mínimo 3-4 líneas por pregunta). Tómate 15-20 minutos para cada sección.\n\nProblema 2 - Falta de contenido específico: No describes qué variables trabajaste en clase, cuáles son controlables, cuáles desconocidas, ni qué magnitudes físicas identificaste. Revisa tus apuntes de clase y lista al menos 5 variables de los problemas que resolvieron.\n\nProblema 3 - Ausencia de reflexión metacognitiva: No reflexionas sobre tus dificultades ni propones estrategias propias. Pregúntate: ¿Qué me costó entender? ¿Cómo lo resolví? ¿Qué haré diferente la próxima vez?\n\nCOMENTARIOS GENERALES:\n\nTu reporte no cumple con los estándares mínimos de la Fase 2. Las respuestas están prácticamente vacías, lo que impide evaluar tu comprensión de variables, magnitudes y relaciones entre ellas. Entiendo que quizás tuviste poco tiempo o no estaba claro qué escribir, pero esto es importante para tu aprendizaje.\n\nTe animo a que en el próximo reporte dediques tiempo real a responder cada pregunta con detalle. Consulta con tu profesor si tienes dudas sobre qué se espera. Tu participación genuina en estos reportes te ayudará a desarrollar pensamiento crítico real.",
+      "createdAt": "2025-10-21T06:14:36.186Z"
+    },
+    {
+      "feedbackId": "3355c990-c317-4f04-a0f9-8a3d5fcd3447",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:56:51.924Z"
+    },
+    {
+      "feedbackId": "0f68a441-f8b4-41e8-be3c-e724fd8941c9",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:46:30.861Z"
+    },
+    {
+      "feedbackId": "1bf84eea-e0ea-44a2-b633-3669bccad13a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Entiendo que esta semana tuviste una situación complicada: un examen de portugués que te obligó a ausentarte, más la dificultad de acceder al material en classroom. Es importante que te pongas al día lo antes posible para no perder la continuidad en Fase 2, donde estamos desarrollando habilidades críticas de análisis.\n\nTe sugiero que esta semana hagas lo siguiente: primero, obtén los apuntes y el material de tus compañeros o del profesor; segundo, dedica tiempo a completar el reporte semanal con las respuestas a las 5 preguntas; tercero, si hay dudas sobre los temas, consulta con el profesor en clase o en tutoría.\n\nSi necesitas apoyo adicional para ponerte al día, no dudes en comunicarlo. Estamos aquí para ayudarte a recuperar lo perdido sin que afecte tu calificación final.",
+      "strengths": "• Comunicación proactiva: Informaste sobre tu ausencia y el problema con el material en classroom, lo que facilita que podamos ayudarte a recuperarte sin sorpresas.",
+      "improvements": "• Recuperar el material de la semana: Coordina con tus compañeros o consulta directamente en classroom para obtener los apuntes y temas que se trabajaron. Si no encuentras el material, avísale al profesor para que lo suba o te lo proporcione.\n• Completar el reporte pendiente: Una vez tengas acceso al material, dedica tiempo a responder las 5 preguntas del reporte. Esto es fundamental para que no pierdas continuidad en tu pensamiento crítico y en la evaluación de tu aprendizaje.\n• Planificar mejor los tiempos: Si tienes exámenes de otras materias, intenta coordinar con anticipación para no perder clases de Ciencias. Esto te ayudará a mantener el ritmo de trabajo.",
+      "createdAt": "2025-10-27T04:56:57.687Z"
+    },
+    {
+      "feedbackId": "61fb5c27-ea66-4dc4-8e38-c304e96f8264",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que fue una semana de parciales y que el ritmo fue diferente al habitual. Sin embargo, un reporte completo es importante para documentar tu proceso de aprendizaje, incluso cuando no hay tareas nuevas.\n\nEsta semana no pudimos evaluar tu comprensión de variables, clasificación de magnitudes o integración de fases porque el reporte no contiene información sobre estos temas. Esto afecta directamente tu calificación en todas las preguntas.\n\nPara la próxima semana, te invito a que completes el reporte con reflexiones sobre lo que estudiaste para los parciales, cómo aplicaste el pensamiento crítico en los exámenes, y qué aspectos de Fase 2 necesitas reforzar. Así mantendremos la continuidad de tu aprendizaje.",
+      "strengths": "• Honestidad en la comunicación: Comunicas claramente que fue una semana atípica sin clases ni tareas, lo que es información útil para entender el contexto del reporte.",
+      "improvements": "• Completar el reporte incluso en semanas sin clase: Aunque no haya tareas nuevas, puedes reflexionar sobre lo aprendido en semanas anteriores, repasar conceptos de Fase 1 o anticipar qué esperas trabajar en la próxima semana. Esto mantiene la continuidad del pensamiento crítico.\n• Proporcionar contexto adicional: Si fue semana de parciales, podrías comentar cómo te preparaste, qué temas de variables y magnitudes repasaste, o qué dificultades enfrentaste en los exámenes. Esto enriquece el reporte significativamente.\n• Usar el reporte como herramienta de reflexión: Incluso sin tareas, el reporte es una oportunidad para documentar tu progreso. Puedes escribir sobre cómo aplicaste lo aprendido en los parciales o qué necesitas reforzar para la Fase 3.",
+      "createdAt": "2025-11-12T22:56:14.256Z"
+    },
+    {
+      "feedbackId": "474b12c7-2850-4239-b186-0586164e6b10",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Felicidades por tu desempeño en los cálculos de pH esta semana. Veo que dominaste bien la fórmula y obtuviste resultados correctos, lo cual es excelente. Además, reconoces honestamente dónde tuviste dificultades iniciales y cómo las superaste con las pistas de la guía, lo que muestra responsabilidad en tu aprendizaje.\n\nSin embargo, tu reporte se enfoca más en *qué* aprendiste que en *cómo* lo aprendiste. Fase 2 requiere que analices las variables detrás de cada problema: cuáles conoces, cuáles buscas, cuáles puedes controlar. Tu ejercicio de pH es correcto, pero no veo ese análisis de variables explícitamente.\n\nPara la próxima semana, te pido que: (1) en cada ejercicio, hagas una lista clara de variables clasificadas, (2) reflexiones específicamente sobre qué te cuesta con las variables (no solo con las fórmulas), y (3) completes siempre la sección de comentarios adicionales. Esto te preparará mejor para Fase 3.",
+      "strengths": "• Procedimiento matemático correcto: Tu cálculo de pH es preciso. Identificas correctamente que H3O+ = 1,63×10⁻³ M y aplicas la fórmula logarítmica sin errores, llegando a pH = 2,79. Esto muestra dominio del cálculo.\n• Reconocimiento de progreso: Expresas claramente que \"terminé de entender muy bien\" los temas de ácidos/bases y que las explicaciones te ayudaron a \"despejar dudas\". Esto demuestra honestidad sobre tu aprendizaje y apertura al apoyo.\n• Integración de conceptos previos: Mencionas conexiones con \"concentración molar\" y \"constante de equilibrio\", mostrando que intentas vincular lo nuevo con lo ya aprendido en Fase 1.",
+      "improvements": "• Clasificación explícita de variables: En tu ejercicio de pH, identifica claramente: ¿Cuáles son las variables *conocidas* (concentración inicial = 0,15 M, Ka del ácido acético)? ¿Cuáles son *desconocidas* (H3O+ en equilibrio, pH)? ¿Cuáles son *controlables* (concentración inicial) y cuáles *no controlables* (Ka)? Esto es el corazón de Fase 2.\n• Profundizar en dificultades específicas: En lugar de decir \"me costó implementar fórmulas\", sé más concreto: ¿Confundiste cuándo usar Ka vs Kb? ¿Tuviste dificultad distinguiendo ácidos fuertes de débiles? Luego propón estrategias específicas (ej: \"Ahora hago una tabla de equilibrio antes de aplicar fórmulas\").\n• Completar la reflexión final (Q5): Dedica 3-4 líneas a reflexionar: ¿Por qué es importante identificar variables en química? ¿Cómo te ayuda esto a resolver problemas? ¿Qué has aprendido sobre ti como estudiante esta semana? Esto fortalece tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:47:26.033Z"
+    }
+  ]
+}

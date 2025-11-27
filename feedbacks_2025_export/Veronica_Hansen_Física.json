@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "studentId": "u_icojg9yv3me1yt3l8",
+    "studentName": "Veronica Hansen",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.238931",
+    "statistics": {
+      "totalFeedbacks": 17,
+      "feedbacksWithScore": 17,
+      "averageScore": 61.94,
+      "minScore": 27,
+      "maxScore": 74,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 72,
+      "generalComments": "Querida Veronica Hansen, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Física. Reconoces con precisión los objetivos de aprendizaje en esta fase y muestras capacidad para analizar situaciones cotidianas aplicando el pensamiento crítico. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas, ya que mencionas que te resulta complicado diferenciar lo esencial. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Reconoces con precisión los objetivos de aprendizaje en esta fase",
+        "Tu capacidad analítica al abordar problemas de selección de compañeros es destacable",
+        "Realizas conexiones interesantes entre el pensamiento crítico y situaciones de la vida cotidiana"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Profundiza en la justificación de por qué cierta información es esencial y otra no"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 69,
+      "generalComments": "Querida Veronica Hansen, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Física. Organizas adecuadamente los datos y la información disponible en el cuadro de doble entrada, y tu capacidad para clasificar y categorizar información es efectiva. Debes trabajar en la identificación precisa de todas las variables involucradas, ya que mencionas que a veces te saltas variables o no sabes bien en qué cuadro van. Es importante mejorar la organización y clasificación de los datos disponibles de manera más sistemática. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Organizas adecuadamente los datos en el cuadro de doble entrada (conocidas/desconocidas, controlables/no controlables)",
+        "Tu capacidad para clasificar y categorizar información es efectiva",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje al identificar tus dificultades"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas sin omitir ninguna",
+        "Es importante mejorar la sistematización del proceso de análisis de datos de manera más estructurada",
+        "Practica con diferentes tipos de problemas para consolidar la clasificación correcta en cada categoría del cuadro"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-08-18_003",
+      "weekStart": "2025-08-18",
+      "score": 72,
+      "generalComments": "Querida Veronica Hansen, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Física. Comprendes las ecuaciones fundamentales de tiro oblicuo y reconoces las relaciones entre variables. Tu capacidad para identificar qué herramientas usar (grupos A+B+C) es apropiada. Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas, ya que aún mencionas confusión en algunos detalles. Es importante consolidar tu comprensión de las relaciones entre variables para aplicarlas con mayor confianza. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de tiro oblicuo (grupos A, B y C)",
+        "Identificas correctamente las relaciones entre variables fijas y variantes",
+        "Realizas conexiones interesantes entre MRU, MRUV, parábolas y las fases del pensamiento crítico"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para seleccionar las herramientas apropiadas en cada situación específica",
+        "Debes practicar más la justificación de por qué seleccionas determinadas fórmulas en lugar de otras",
+        "Es importante mejorar la aplicación de ecuaciones a situaciones concretas variadas para reducir la confusión en detalles"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-08-25_004",
+      "weekStart": "2025-08-25",
+      "score": 74,
+      "generalComments": "Querida Veronica Hansen, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Planteas una estrategia de resolución coherente y completa, evidenciando las 5 fases del proceso. Ejecutas los pasos de resolución de manera ordenada y lógica. Integras exitosamente los conocimientos de las fases anteriores. Necesitas ser más sistemática en la ejecución de los pasos de resolución, ya que identificas que te cuesta reconocer cuándo la altura inicial es cero. Te recomiendo incorporar la verificación de resultados como parte de tu proceso para detectar estos supuestos implícitos. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Planteas una estrategia de resolución coherente y completa con las 5 fases explícitamente identificadas",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica desde identificación hasta resultado final",
+        "Integras exitosamente los conocimientos de las fases anteriores (F1+F2+F3+F4)"
+      ],
+      "improvements": [
+        "Necesitas ser más sistemática en la identificación de supuestos implícitos del problema (como altura inicial = 0)",
+        "Te recomiendo incorporar la verificación de resultados como parte explícita de tu proceso de resolución",
+        "Es importante crear una lista de chequeo mental para identificar datos implícitos que no están escritos pero deben asumirse"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-09-01_005",
+      "weekStart": "2025-09-01",
+      "score": 65,
+      "generalComments": "Querida Veronica Hansen, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Física. Integras las fases anteriores adecuadamente y ejecutas cálculos con organización. Identificas correctamente las relaciones entre variables en el problema del salto en moto. Necesitas ser más sistemática en la ejecución de los pasos de resolución, prestando atención a todos los factores relevantes como la altura inicial. Es importante mejorar la planificación de tu estrategia antes de ejecutar, asegurándote de no olvidar variables críticas. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las 4 fases anteriores en tu resolución",
+        "Ejecutas los pasos de resolución con organización clara (Fase 1 a 4 explícitas)",
+        "Demuestras capacidad de reflexión al reconocer que habías olvidado la altura y lo corregiste comparando con un compañero"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación inicial identificando todas las variables antes de ejecutar cálculos",
+        "Necesitas ser más sistemática para no olvidar factores críticos como la altura inicial en problemas de tiro oblicuo",
+        "Debes trabajar en mantener coherencia verificando que hayas incluido todos los datos relevantes en cada fase"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-09-08_006",
+      "weekStart": "2025-09-08",
+      "score": 46,
+      "generalComments": "Querida Veronica Hansen, debido a que esta semana rindieron la prueba de tiro oblicuo, no fue posible evaluar tu progreso detallado en Física durante este período. Mencionas que te sentiste muy cómoda haciendo la prueba, lo cual es un indicador positivo de tu preparación. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en futuros reportes, incluyendo ejemplos de ejercicios trabajados. Identifica con mayor precisión las dificultades que enfrentas, incluso cuando te sientes cómoda con el material. Te sugiero coordinar conmigo para revisar los resultados de la prueba y reforzar los conceptos necesarios.",
+      "strengths": [
+        "Manifiestas confianza en tu desempeño en la prueba de tiro oblicuo (nivel 3)",
+        "Reconoces conexiones del tema con el universo, vida diaria, matemática y parábolas",
+        "Tu autoevaluación de comodidad sugiere preparación adecuada para la evaluación"
+      ],
+      "improvements": [
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluso en semanas de examen",
+        "Identifica con mayor precisión las dificultades que enfrentas o aspectos específicos que repasaste",
+        "Desarrolla estrategias para documentar tu proceso incluso cuando no tienes los ejercicios físicamente disponibles"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-09-15_007",
+      "weekStart": "2025-09-15",
+      "score": 27,
+      "generalComments": "Querida Veronica Hansen, debido a que no tuvieron clase de Física esta semana y realizaron un trabajo de Química, no fue posible evaluar tu progreso en Física durante este período. Reconoces conexiones transversales entre distintas disciplinas y el pensamiento crítico. Es fundamental que en semanas donde no hay clase presencial de una materia, aproveches para repasar contenidos previos o avanzar con lecturas del material. Proporciona evidencias de aprendizaje autónomo cuando no hay actividades presenciales programadas. Hagamos un seguimiento cercano para asegurar tu progreso. Estoy disponible para ayudarte.",
+      "strengths": [
+        "Reconoces conexiones transversales entre Química, Física, matemática y pensamiento crítico",
+        "Comprendes que los principios metodológicos se aplican a múltiples disciplinas",
+        "Comunicas claramente la situación excepcional de la semana"
+      ],
+      "improvements": [
+        "Es fundamental que en semanas sin clase presencial aproveches para repasar contenidos de Física trabajados previamente",
+        "Proporciona evidencias de aprendizaje autónomo cuando no hay actividades presenciales de la materia",
+        "Desarrolla estrategias de estudio independiente para mantener continuidad en tu aprendizaje de Física"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-09-22_008",
+      "weekStart": "2025-09-22",
+      "score": 27,
+      "generalComments": "Querida Veronica Hansen, debido a que estuvieron en viaje educativo a Puerto Madryn esta semana, no fue posible evaluar tu progreso en Física durante este período. Es completamente comprensible que no hayan tenido clases ni prácticas durante la actividad educativa externa. Te sugiero aprovechar la experiencia del viaje para reflexionar sobre conexiones entre lo observado en Puerto Madryn y conceptos de Física que hemos trabajado. Coordina conmigo para recuperar el material de la semana y recibir el apoyo necesario para mantenerte al día.",
+      "strengths": [
+        "Comunicas claramente la situación del viaje educativo y la ausencia justificada",
+        "Participas en actividades educativas institucionales que enriquecen tu formación integral",
+        "Mantienes la responsabilidad de reportar la situación excepcional de la semana"
+      ],
+      "improvements": [
+        "Te sugiero reflexionar sobre posibles conexiones entre experiencias educativas externas y contenidos de Física",
+        "Es importante coordinar la recuperación del material perdido durante ausencias justificadas",
+        "Desarrolla el hábito de preguntar qué temas se trabajaron durante tu ausencia para planificar tu puesta al día"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "fb_002_4_1yt3l8_2025-09-29_009",
+      "weekStart": "2025-09-29",
+      "score": 72,
+      "generalComments": "Querida Veronica Hansen, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema aplicada a Leyes de Newton, cumpliendo con las expectativas de esta etapa en Física. Demuestras buena comprensión del contexto de los principios de Newton y tu capacidad para problematizar situaciones de Física es notable. Realizas conexiones interesantes entre inercia, fuerza, dinámica y situaciones cotidianas como el movimiento en el colectivo. Necesitas profundizar en la comprensión del contexto con explicaciones más formales una vez recibido el contenido teórico. Busca aplicaciones prácticas de los principios de Newton en situaciones cotidianas variadas para consolidar comprensión. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Demuestras buena comprensión del Primer Principio de Newton y su aplicación a casos concretos",
+        "Tu capacidad para problematizar situaciones de Física cotidiana (pelota que rueda, inercia en colectivo) es notable",
+        "Realizas conexiones interesantes entre fuerza, dinámica, cinemática y experiencias de la vida diaria"
+      ],
+      "improvements": [
+        "Necesitas profundizar en la comprensión formal de las leyes una vez recibida la explicación teórica completa",
+        "Busca aplicaciones prácticas de los tres principios de Newton en situaciones cotidianas variadas",
+        "Desarrolla mayor precisión en el uso de terminología física específica (fuerza del envión vs. impulso inicial, resistencia del aire vs. fricción)"
+      ],
+      "createdAt": "2025-10-07 16:39:58"
+    },
+    {
+      "feedbackId": "06849189-27b4-406c-89d2-cdad5420b7d8",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:52:24.308Z"
+    },
+    {
+      "feedbackId": "ebe13fcb-dc80-4489-9dd0-e8cd8c39a768",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:20:02.034Z"
+    },
+    {
+      "feedbackId": "d00a1614-6d8b-4d10-b299-b4575a780a19",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:42:00.355Z"
+    },
+    {
+      "feedbackId": "86fe6d65-f20d-49f5-bfc9-c3e98b60abce",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 68,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:19:37.703Z"
+    },
+    {
+      "feedbackId": "e4324a3a-5d96-41e5-91d2-c1be69666e35",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Veo que has trabajado con dedicación esta semana en las Leyes de Newton, y tu comprensión conceptual es sólida: tu explicación de acción-reacción es correcta. Sin embargo, tu reporte muestra que aún no integras completamente la metodología de la Fase 2, que es identificar y clasificar variables de forma sistemática.\n\nTu mayor fortaleza es la honestidad: reconoces dónde tienes dudas (rozamiento estático/dinámico) y eso es el primer paso para mejorar. El problema es que tus estrategias aún son genéricas. Necesitas pasar de \"lo haré tranquila\" a \"haré un diagrama de fuerzas con variables etiquetadas\".\n\nPara la próxima semana, te propongo: antes de resolver cualquier ejercicio de fuerzas, escribe en una tabla las variables conocidas y desconocidas. Esto te ayudará a sentirte más segura y a aplicar correctamente la Fase 2. También completa la sección Q5 con reflexiones propias: ¿por qué es importante clasificar variables? ¿Cómo te ayuda a resolver problemas?",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que \"no me siento tan segura\" a pesar de hacer los ejercicios. Esto muestra autoconciencia real sobre tu aprendizaje, fundamental para mejorar.\n• Aplicación correcta de conceptos: Tu explicación de la tercera ley de Newton es precisa: identificas acción (150N de la persona) y reacción (150N de la pared). Demuestras comprensión conceptual del tema.\n• Identificación de dificultades específicas: Señalas exactamente dónde tienes problemas: \"rozamiento estático y dinámica\" y \"calcular la fuerza necesaria\". Esto es más valioso que decir \"no entiendo fuerzas\".",
+      "improvements": "• Clasificación sistemática de variables: En Q1 y Q2, debes identificar explícitamente qué variables son conocidas (masa, fuerza aplicada) y cuáles desconocidas (aceleración, fuerza de reacción). Crea una tabla simple: \"Conocidas: m=65kg, F=150N | Desconocidas: a=?, F_reacción=?\". Esto es el corazón de la Fase 2.\n• Estrategias más concretas para rozamiento: En lugar de \"hacerlo tranquila\", propón: \"Dibujaré un diagrama de fuerzas separando rozamiento estático (objeto en reposo) del dinámico (objeto en movimiento), y usaré μ_s y μ_k como variables diferenciadas\". Esto te dará herramientas reales.\n• Profundidad en conexiones: En Q4, no solo nombres temas relacionados. Explica: \"Las Leyes de Newton conectan con la gravedad porque ambas son fuerzas que aceleran objetos según F=ma\". Esto demuestra transferencia real de conocimiento.",
+      "createdAt": "2025-10-27T04:53:09.990Z"
+    },
+    {
+      "feedbackId": "99da57f0-9717-44c7-8295-668e7a257280",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 73,
+      "generalComments": "Excelente semana, has mostrado un progreso real en la aplicación de Leyes de Newton. Tu resolución del problema del trineo es precisa y metódica, y reconoces correctamente que superaste dificultades anteriores con datos y diagramas. Esto demuestra compromiso y mejora en tu método.\n\nSin embargo, tu reporte tiene un vacío importante: no estás siendo explícito en la clasificación de variables, que es el objetivo central de Fase 2. En Q1 describes tu dominio pero no identificas qué variables trabajaste. En Q4, tus conexiones son genéricas sin profundizar en las variables involucradas. Esto es crítico para desarrollar pensamiento crítico real.\n\nPara la próxima semana, enfócate en: (1) clasificar explícitamente cada variable en los problemas (conocida/desconocida, controlable/no controlable), (2) profundizar tus conexiones explicando qué variables intervienen en cada fenómeno, y (3) completar siempre la sección Q5 con reflexión genuina. Esto consolidará tu transición hacia Fase 3.",
+      "strengths": "• Dominio procedimental en resolución de problemas: Tu desarrollo del ejercicio del trineo es claro y ordenado. Aplicas correctamente las fórmulas (fr=μ·FN, F=m·a) y llegas a respuestas precisas (90N y 45N). Esto muestra que comprendes cómo usar las variables en contextos reales.\n• Progreso visible en organización: Reconoces que superaste dificultades de semanas anteriores (\"ya no tengo confusiones con datos o al dibujar\"). Esto demuestra autoconciencia y mejora en tu método de trabajo.\n• Identificación implícita de variables: Aunque no lo hagas explícitamente, en Q2 trabajas correctamente con variables conocidas (masa, coeficientes) y desconocidas (fuerzas). Tu diagrama de cuerpo libre evidencia esta comprensión.",
+      "improvements": "• Clasificación explícita de variables en Q1: Necesitas ir más allá de decir \"dominio 3\". Identifica y clasifica las variables de Leyes de Newton: ¿cuáles son conocidas/desconocidas? ¿Cuáles controlables/no controlables? Ejemplo: \"masa (conocida, controlable), aceleración (desconocida, depende de otras variables)\". Esto es el corazón de Fase 2.\n• Profundidad en conexiones (Q4): Tus ejemplos son válidos pero superficiales. Para cada conexión, explica *qué variables* intervienen. Ejemplo: \"Al caminar, la fuerza aplicada (variable controlable) y la fricción con el suelo (variable no controlable) determinan la aceleración del cuerpo\". Esto demuestra transferencia real.\n• Completar reflexión metacognitiva (Q5): No dejes esta sección en blanco. Reflexiona sobre: ¿Por qué es importante identificar variables antes de resolver? ¿Cómo ha mejorado tu pensamiento crítico desde Fase 1? ¿Qué estrategia te funcionó mejor esta semana? Dedica 3-4 líneas genuinas.",
+      "createdAt": "2025-11-03T12:17:08.444Z"
+    },
+    {
+      "feedbackId": "f635d2b1-c494-474c-8ced-ab382001aa84",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Veo que has entendido bien los conceptos de las Leyes de Newton y que tu grupo está organizándose bien para el proyecto de poleas. Eso es un buen punto de partida. Sin embargo, esta semana en Fase 2 necesitas ir más allá: no se trata solo de entender conceptos, sino de identificar y clasificar sistemáticamente las variables que intervienen en tu sistema.\n\nTu diagrama de fuerzas es útil, pero es apenas el primer paso. Antes de construir las poleas, debes hacer una lista completa de variables (masa, tensión, fricción, ángulos, etc.) y clasificarlas. Esto te ayudará a predecir qué pasará en tu experimento y a entender realmente por qué funciona.\n\nPara la próxima semana, cuando comiences a construir el proyecto, te recomiendo que primero completes una tabla de variables donde especifiques cuáles puedes controlar y cuáles no. Esto hará que tu trabajo sea más científico y tu aprendizaje más profundo.",
+      "strengths": "• Aplicación correcta de la tercera ley de Newton: Tu explicación sobre acción-reacción en el sistema de poleas es precisa. Identificas claramente que \"si la cuerda tira de la polea con tensión, la polea reacciona con fuerza igual pero en sentido contrario.\" Esto muestra comprensión conceptual sólida.\n• Conexiones con contextos reales: Reconoces que las poleas están presentes en situaciones cotidianas (persianas, toldos, gimnasio). Esta capacidad de ver la física en el mundo real es valiosa para el aprendizaje significativo.\n• Organización del trabajo en equipo: Mencionas que se dividieron materiales y organizaron el proyecto. Esto demuestra responsabilidad y planificación, aunque falta documentación de variables en esa organización.",
+      "improvements": "• Identificación explícita de variables: En tu proyecto de poleas, debes listar todas las variables: masa de los objetos, longitud de la cuerda, ángulo de la polea, fricción, tensión, aceleración. Clasifica cada una como conocida/desconocida y controlable/no controlable. Esto es el corazón de la Fase 2 y aún no lo haces sistemáticamente.\n• Reflexión sobre dificultades reales: Cuando dices \"no hubo nada difícil\", pierdes la oportunidad de metacognición. Pregúntate: ¿Cómo diferencio una variable controlable de una no controlable? ¿Qué magnitudes físicas son relevantes en poleas? Identifica al menos una dificultad genuina y propón una estrategia para resolverla.\n• Completar la sección Q5 con reflexión personal: Dedica tiempo a escribir comentarios sobre por qué es importante identificar variables antes de hacer un experimento, o cómo tu comprensión ha evolucionado desde la Fase 1. Esto fortalece tu pensamiento crítico y muestra madurez en el proceso.",
+      "createdAt": "2025-11-12T22:51:10.630Z"
+    },
+    {
+      "feedbackId": "271ad65e-9239-4471-a3d5-8387beab0b7e",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 58,
+      "generalComments": "Tu trabajo esta semana muestra entusiasmo genuino por la física y una buena capacidad para conectar conceptos con la realidad. El proyecto de poleas es un excelente ejemplo de cómo aplicas las leyes de Newton en contextos prácticos, y tu informe demuestra rigor académico.\n\nSin embargo, hay un desfase importante: la Fase 2 no se trata solo de entender las leyes, sino de identificar y clasificar sistemáticamente las variables que intervienen en cada problema. Tus respuestas son más sobre conceptos generales que sobre el análisis metodológico de variables que es el foco de esta fase.\n\nPara la próxima semana, te pido que hagas un ejercicio específico: toma tu proyecto de poleas y crea una tabla con todas las variables (masa, aceleración, tensión, etc.), clasifícalas, e identifica cuáles son conocidas, desconocidas, controlables y no controlables. Esto te ayudará a consolidar realmente la Fase 2.",
+      "strengths": "• Aplicación práctica integrada: Tu proyecto de poleas demuestra que conectas las leyes de Newton con un dispositivo real, mostrando que entiendes cómo la teoría se materializa en sistemas concretos.\n• Reconocimiento de ubicuidad de la física: Tu observación sobre que \"la física está en todos lados\" (gravedad, fuerza normal, movimiento) refleja una visión amplia y conectada del conocimiento, lo que es valioso para el pensamiento crítico.\n• Documentación del proceso: Incluir un fragmento del informe con citas (Newton, 1687) muestra que estás siendo riguroso en tu investigación y documentación académica.",
+      "improvements": "• Identificación explícita de variables: En tu proyecto de poleas, necesitas listar todas las variables: masa de cada recipiente, aceleración del sistema, tensión del hilo, gravedad. Luego clasifícalas: ¿cuáles son conocidas? ¿cuáles desconocidas? ¿cuáles puedes controlar en la maqueta? Esto es el corazón de la Fase 2.\n• Análisis de dificultades reales: Reflexiona honestamente sobre qué te cuesta: ¿distinguir entre fuerza neta y fuerzas individuales? ¿Identificar variables no controlables? Propón estrategias concretas (diagramas de fuerzas, tablas de variables) para superarlas. La metacognición es clave.\n• Profundidad en conexiones: Cuando mencionas \"fuerza normal y peso en los muebles\", ve más allá: ¿cómo varían estas fuerzas si el mueble está en un ascensor acelerado? ¿Qué variables cambiarían? Esto muestra transferencia real a nuevos problemas.",
+      "createdAt": "2025-11-17T13:45:28.853Z"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "studentId": "1ecd7666-623f-4d63-b35a-8d12bfdccd6c",
+    "studentName": "Sol María Forlano",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.233881",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 46.1,
+      "minScore": 27,
+      "maxScore": 81,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-20T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_dccd6c_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Querida Sol María Forlano,\n\nHas alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Identificas correctamente las variables involucradas en el proceso Haber-Bosch y organizas adecuadamente los datos mediante una matriz. Tu capacidad de reflexión sobre tu propio proceso de aprendizaje es notable.\n\nEs importante profundizar más en la clasificación sistemática de variables (conocidas/desconocidas, controlables/no controlables) para alcanzar mayor precisión en el análisis.\n\nVas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Identificas correctamente las variables involucradas en el proceso Haber-Bosch",
+        "Organizas adecuadamente los datos mediante una matriz de variables",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje, reconociendo cómo el análisis profundo a veces contrasta con tu intuición"
+      ],
+      "improvements": [
+        "Debes trabajar en la identificación precisa de todas las variables involucradas, diferenciando claramente entre conocidas y desconocidas",
+        "Es importante mejorar la organización y clasificación de los datos disponibles según su tipo (controlables/no controlables)",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en cada pregunta"
+      ],
+      "createdAt": "2025-10-07T15:30:00.000Z"
+    },
+    {
+      "feedbackId": "fb_002_1_dccd6c_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 68,
+      "generalComments": "Querida Sol María Forlano,\n\nTe encuentras en proceso de desarrollo en la Fase 3: Selección de herramientas y relaciones, mostrando avances parciales en Química. Comprendes las ecuaciones fundamentales de la constante de equilibrio y aplicas correctamente el cociente de reacción para predecir la dirección de una reacción.\n\nNecesitas fortalecer tu criterio para relacionar Kc con Kp y comprender el Principio de Le Chatelier. Es fundamental consolidar tu comprensión de las relaciones entre variables de equilibrio. Trabaja en expresar tus ideas con mayor claridad y precisión, especificando qué aspectos del método te resultan más desafiantes.\n\nSigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Comprendes las ecuaciones fundamentales de la constante de equilibrio (Kc)",
+        "Aplicas correctamente la fórmula del cociente de reacción (Qc) y la comparas con Kc para predecir el avance hacia productos",
+        "Realizas conexiones interesantes entre equilibrio químico y termodinámica, así como con cálculos estequiométricos"
+      ],
+      "improvements": [
+        "Necesitas fortalecer tu criterio para relacionar Kc con Kp, practicando la aplicación de la ecuación de conversión Kp = Kc(RT)^Δn",
+        "Es fundamental consolidar tu comprensión del Principio de Le Chatelier mediante ejemplos concretos de perturbaciones al equilibrio",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, especificando qué aspectos del método o conceptos te resultan más desafiantes para recibir apoyo más efectivo"
+      ],
+      "createdAt": "2025-10-07T15:31:00.000Z"
+    },
+    {
+      "feedbackId": "77910b7b-9eda-4c09-b596-11fd9f5cc139",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:44:17.934Z"
+    },
+    {
+      "feedbackId": "fb_002_1_dccd6c_2025-09-29_003",
+      "weekStart": "2025-09-29",
+      "score": 81,
+      "generalComments": "Querida Sol María Forlano,\n\nTu trabajo en Fase 3: Selección de herramientas y relaciones refleja un dominio destacado en la resolución sistemática de problemas de equilibrio químico, mostrando capacidad para integrar las fases previas de manera fluida. Justificas cada paso del cálculo de Kc con claridad ejemplar, desde el planteamiento de ecuaciones hasta la verificación numérica. Tu capacidad para identificar y reconocer errores propios (como el olvido del coeficiente de H2) demuestra madurez metacognitiva.\n\nTe recomiendo incorporar la práctica sistemática del cociente de reacción (Qc) para consolidar tu comprensión de cuándo y cómo aplicar esta herramienta en diferentes contextos de equilibrio.\n\n¡Muy buen desempeño! Te invito a explorar aplicaciones más complejas de estos conceptos en equilibrios heterogéneos y sistemas con múltiples equilibrios simultáneos.",
+      "strengths": [
+        "Justificas cada paso de la resolución con claridad ejemplar: planteamiento de ecuaciones, despeje de x=30, cálculo de moles en equilibrio (70 N2, 210 H2, 60 NH3), conversión a concentraciones molares y aplicación de la fórmula de Kc",
+        "Identificas correctamente las relaciones entre variables estequiométricas y de equilibrio, utilizando los coeficientes para establecer ecuaciones con una incógnita",
+        "Demuestras madurez metacognitiva al reconocer el error en el coeficiente de H2 y evaluar críticamente tu proceso de resolución"
+      ],
+      "improvements": [
+        "Es importante mejorar la comprensión conceptual y práctica del cociente de reacción (Qc), específicamente cuándo calcular Qc (estados de no-equilibrio) versus cuándo usar Kc (estado de equilibrio establecido)",
+        "Necesitas sistematizar la verificación de coeficientes estequiométricos antes de plantear ecuaciones, para evitar errores como el del coeficiente de H2",
+        "Desarrolla mayor confianza en la aplicación de herramientas que conceptualmente comprendes, como Qc, mediante práctica variada con retroalimentación inmediata"
+      ],
+      "createdAt": "2025-10-07T15:32:00.000Z"
+    },
+    {
+      "feedbackId": "7a0a9250-591e-449c-8080-428fa125115e",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:51:40.141Z"
+    },
+    {
+      "feedbackId": "182daa74-9cc3-4a29-92d0-df53a81aa5a2",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:16:17.186Z"
+    },
+    {
+      "feedbackId": "91bcfe46-80ff-4191-8c1f-f6804ff8a4a5",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 30,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:18:07.690Z"
+    },
+    {
+      "feedbackId": "8eb584d4-c8ac-4d42-adea-567683429fc5",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:58:26.187Z"
+    },
+    {
+      "feedbackId": "2a2b6e1d-6c4b-42a9-a8cb-e67361c64b96",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:49:09.257Z"
+    },
+    {
+      "feedbackId": "2f70fa06-86ac-4472-9058-82a445a2f3e5",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 65,
+      "generalComments": "Entiendo perfectamente que esta semana priorizaste el examen Celpe-Bras, que es una evaluación importante para tu futuro académico. Es completamente válido que hayas estado ausente con justificación.\n\nSin embargo, es crucial que te pongas al día con los contenidos de Física/Química que trabajó el grupo durante tu ausencia. Esto te ayudará a no perder el hilo de la Fase 2 y a mantener el ritmo de aprendizaje con tus compañeros.\n\nTe sugiero que esta semana dediques tiempo a revisar los apuntes de clase, consultes con tus compañeros sobre los temas trabajados, y completes el reporte semanal de manera integral. Si necesitas ayuda adicional para recuperar el material, no dudes en consultarme en clase o durante mis horas de atención.",
+      "strengths": "• Comunicación proactiva: Informaste claramente sobre tu situación sin dejar dudas. Esto facilita que el equipo docente entienda tu contexto y pueda apoyarte mejor en la recuperación.\n• Responsabilidad académica: El hecho de que hayas completado al menos la pregunta 5 para explicar tu ausencia muestra que reconoces la importancia de mantener comunicación con tus profesores, incluso en semanas difíciles.",
+      "improvements": "• Recuperación de contenidos: Coordina con tus compañeros o consulta los apuntes de clase para identificar qué temas se trabajaron esta semana en Física/Química. Esto te permitirá ponerte al día sin perder continuidad en la Fase 2.\n• Reporte completo la próxima semana: Una vez retomes las clases, asegúrate de completar todas las 5 preguntas del reporte semanal. Esto es fundamental para que podamos evaluar tu progreso en pensamiento crítico de manera integral.",
+      "createdAt": "2025-10-27T04:52:32.064Z"
+    }
+  ]
+}

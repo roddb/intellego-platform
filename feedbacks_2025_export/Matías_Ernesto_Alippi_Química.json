@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "studentId": "u_yf5munab0me67oai8",
+    "studentName": "Matías Ernesto Alippi",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.224643",
+    "statistics": {
+      "totalFeedbacks": 13,
+      "feedbacksWithScore": 13,
+      "averageScore": 54.69,
+      "minScore": 27,
+      "maxScore": 75.5,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-04_e6e23092",
+      "weekStart": "2025-08-04",
+      "score": 75.5,
+      "generalComments": "Querido Matías, has alcanzado un buen nivel en la Fase 1: Identificación y comprensión del problema, cumpliendo con las expectativas de esta etapa en Química. Reconoces con precisión los objetivos de aprendizaje en esta fase y muestras curiosidad e interés genuino por comprender el equilibrio químico. Te recomiendo practicar la distinción entre información relevante e irrelevante en los problemas y proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Vas por buen camino. Mantén el esfuerzo y la constancia.",
+      "strengths": [
+        "Reconoces con precisión los objetivos de aprendizaje en esta fase del pensamiento crítico",
+        "Muestras curiosidad e interés genuino por comprender mejor el equilibrio químico",
+        "Identificas correctamente la necesidad de consolidar el marco teórico antes de avanzar"
+      ],
+      "improvements": [
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en problemas de equilibrio",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje en las respuestas",
+        "Desarrolla estrategias más específicas para superar las dificultades identificadas"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-11_1c728029",
+      "weekStart": "2025-08-11",
+      "score": 68,
+      "generalComments": "Querido Matías, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas correctamente las variables involucradas en el ejercicio de espectrofotometría. Es importante mejorar la organización y clasificación de los datos disponibles y necesitas sistematizar el proceso de análisis de datos de manera más estructurada. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas correctamente las variables clave del experimento de espectrofotometría (concentración de glucosa, reactivo, tiempo, acidez, temperatura)",
+        "Demuestras comprensión del objetivo del método analítico",
+        "Reconoces la importancia de considerar múltiples factores que afectan el equilibrio"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación de los datos disponibles en problemas de Fase 2",
+        "Necesitas sistematizar el proceso de análisis de datos de manera más estructurada utilizando tablas o listas",
+        "Desarrolla estrategias más específicas para diferenciar entre variables conocidas y desconocidas"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-08-18_13e592f2",
+      "weekStart": "2025-08-18",
+      "score": 52.5,
+      "generalComments": "Querido Matías, te encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Tu respuesta al ejercicio 1 identifica correctamente la ecuación balanceada, lo cual es positivo. Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje de cada ejercicio, proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, y trabaja en expresar tus ideas con mayor claridad y precisión. Recuerda que cada desafío es una oportunidad de crecimiento. Adelante!",
+      "strengths": [
+        "Identificas correctamente la respuesta del ejercicio de escritura de ecuaciones químicas",
+        "Reconoces la conexión con el tema anterior de soluciones químicas",
+        "Demuestras perseverancia ante la dificultad de haber faltado a clase"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje de cada ejercicio",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, no solo la respuesta final",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, explicando tu razonamiento"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me67oai8_2025-09-22_c5433883",
+      "weekStart": "2025-09-22",
+      "score": 59,
+      "generalComments": "Querido Matías, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas mayoría de cálculos correctamente usando la tabla de equilibrio. Es importante mejorar la planificación de tu estrategia antes de ejecutar los cálculos, necesitas ser más sistemático en la ejecución de los pasos de resolución documentando cada fase, y te recomiendo incorporar la verificación de resultados como parte de tu proceso. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas los cálculos de la tabla de equilibrio llegando a resultados numéricos concretos",
+        "Reconoces con honestidad tu nivel de dominio del tema (Nivel 1)",
+        "Demuestras perseverancia utilizando recursos externos (YouTube) para superar dificultades"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de tu estrategia antes de ejecutar, explicitando las cuatro fases completas",
+        "Necesitas ser más sistemático en la ejecución de los pasos de resolución, documentando claramente cada fase del proceso",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso antes de finalizar"
+      ],
+      "createdAt": "2025-10-05T00:00:00Z"
+    },
+    {
+      "feedbackId": "af2981b8-af14-4dd3-8b30-99790effd172",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:10.478Z"
+    },
+    {
+      "feedbackId": "92aac519-fdae-4284-ae26-e6d8b8117b1a",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 54,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:16.859Z"
+    },
+    {
+      "feedbackId": "7171f387-8814-481c-8b4c-ff9c8edc5f42",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:14.758Z"
+    },
+    {
+      "feedbackId": "adf2ead7-4619-47df-a86d-0e12c93f5755",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 53,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:06:18.038Z"
+    },
+    {
+      "feedbackId": "68570c9c-6aab-46a8-a4fa-5060bf16788f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:44:34.324Z"
+    },
+    {
+      "feedbackId": "22db152b-6eb0-4e19-b8b1-52b02bf54e9f",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:24:23.552Z"
+    },
+    {
+      "feedbackId": "2dc4cf1b-8089-45c4-955e-c45d376d21d6",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Veo que trabajaste el Ejercicio 5 y lograste resultados correctos, lo cual es un buen punto de partida. Tu honestidad al reconocer que necesitaste ayuda muestra madurez. Sin embargo, tu reporte no refleja el análisis metodológico que Fase 2 requiere: identificar y clasificar variables de forma sistemática.\n\nEsta semana tu desempeño fue operativo (hiciste cálculos) pero no crítico (no analizaste *qué* variables identificabas ni *cómo* las clasificabas). Es como resolver un problema sin entender la estructura detrás. Necesitas cambiar el enfoque: antes de calcular, detente y pregúntate qué variables tienes y cómo se relacionan.\n\nPara la próxima semana, te propongo que en cada ejercicio hagas una tabla con: Variables Conocidas | Variables Desconocidas | Magnitudes Físicas Involucradas. Esto te ayudará a internalizar la Fase 2 y a no depender de pistas. También completa la Pregunta 5 con reflexiones genuinas sobre tu aprendizaje.",
+      "strengths": "• Honestidad en autoevaluación: Reconoces que necesitas más práctica y que usaste pistas para resolver el ejercicio. Esto muestra conciencia de tus limitaciones, que es el primer paso para mejorar.\n• Aplicación práctica del ejercicio: Completas el Ejercicio 5 con cálculos correctos (pH = 3.61, POH = 10.39, [OH⁻] = 4.08 × 10⁻¹¹). Demuestras capacidad operativa con fórmulas, aunque sin análisis metodológico.\n• Conexión con tu proyecto de vida: Vinculas el tema con tu objetivo de medicina, mostrando motivación extrínseca. Esto es positivo para mantener el engagement con la materia.",
+      "improvements": "• Identifica y clasifica variables explícitamente: En lugar de narrar pasos, haz una lista clara: \"Variables conocidas: [H₃O⁺] = 2.45 × 10⁻⁴ M, Kw = 1.0 × 10⁻¹⁴. Variables desconocidas: pH, POH, [OH⁻].\" Esto es lo que pide Fase 2. Practica con cada ejercicio antes de resolver.\n• Analiza tus dificultades con profundidad: No digas solo \"POH es lo que menos entendí\". Pregúntate: ¿Confundo la fórmula? ¿No entiendo la relación pH + POH = 14? ¿Me cuesta el logaritmo? Una vez identifiques la raíz, busca estrategias específicas (videos, ejercicios adicionales, tutorías).\n• Desarrolla estrategias propias antes de usar pistas: Intenta resolver sin pistas primero, aunque te equivoques. Luego compara tu proceso con la pista. Esto fortalece tu pensamiento crítico. Las pistas son herramientas de verificación, no de aprendizaje inicial.",
+      "createdAt": "2025-10-27T04:53:49.291Z"
+    },
+    {
+      "feedbackId": "781a9955-8f98-4c13-ad7c-21a73c8aa036",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes, pero también reconozco que tienes capacidad matemática real: tus cálculos de pH y pOH son correctos. El problema principal es que aún no conectas esos números con las variables químicas que representan. Es como resolver un rompecabezas sin ver la imagen de la caja.\n\nTu desempeño en Fase 2 requiere un cambio de enfoque: antes de hacer cálculos, necesitas identificar y clasificar qué variables tienes y cuáles buscas. Esto te dará claridad sobre qué fórmula usar y por qué. La honestidad que muestras es tu mayor fortaleza; úsala para pedir ayuda específica.\n\nPara la próxima semana, te propongo que antes de resolver cualquier ejercicio, hagas una lista simple: \"Conozco: ... Busco: ... Relación: ...\" Esto te tomará 30 segundos pero transformará tu comprensión. Además, organiza tus hojas en una carpeta para que tengas todo a mano cuando estudies.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente tus limitaciones matemáticas y conceptuales sin minimizarlas. Esto es el primer paso para mejorar y muestra madurez en tu proceso de aprendizaje.\n• Aplicación correcta de fórmulas: En el ejercicio 1.A, realizas los cálculos de pH y pOH de forma correcta (logaritmos negativos, manejo de notación científica). Esto demuestra que tienes capacidad para operaciones matemáticas cuando las comprendes.\n• Disposición a buscar ayuda: Mencionas que preguntarás al profesor, lo que indica que reconoces cuándo necesitas apoyo. Esta actitud es fundamental para avanzar en pensamiento crítico.",
+      "improvements": "• Identificar y clasificar variables explícitamente: En el ejercicio 1.A, deberías escribir: \"Variables conocidas: [H₃O⁺] = 0.015 M, Kw = 1.10e-14. Variables desconocidas: [OH⁻], pH, pOH.\" Esto te ayudará a ver la estructura del problema antes de calcular.\n• Conectar matemática con conceptos químicos: Tu limitación no es solo matemática, sino que no ves qué representa cada variable. Practica traduciendo: \"¿Qué mide [H₃O⁺]? ¿Qué mide pH? ¿Cómo se relacionan?\" Esto te dará contexto para los cálculos.\n• Proponer estrategias concretas para tus dificultades: En lugar de \"no lo solucioné\", escribe: \"Me confunde diferenciar entre concentración y pH. Estrategia: haré una tabla comparativa de magnitudes.\" Esto te da un plan de acción claro.",
+      "createdAt": "2025-11-03T12:26:26.456Z"
+    },
+    {
+      "feedbackId": "9c4fd326-c1ba-4137-9349-882a3d108c23",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Veo que esta semana ha sido desafiante para ti, y aprecio tu honestidad al reconocer las dificultades. Sin embargo, tu reporte muestra que necesitas un cambio de estrategia urgente: no puedes esperar pasivamente a que todo se resuelva en clase. La Fase 2 requiere práctica constante identificando variables, y eso solo lo lograrás trabajando regularmente.\n\nTu desempeño actual está en nivel inicial, pero esto no es permanente. Lo importante es que reconoces dónde están los problemas (matemáticas, interpretación de preguntas, anotación de respuestas). Estos son obstáculos superables con trabajo sistemático.\n\nPara la próxima semana, te propongo un plan concreto: (1) Dedica 15 minutos diarios a identificar variables en 2-3 problemas simples, sin resolver completamente; (2) Reúnete con el profesor en horario de consulta para que te explique un ejercicio paso a paso; (3) Usa la plataforma para practicar con ejemplos resueltos. Pequeños pasos consistentes te llevarán a resultados visibles.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente que no comprendiste el material (\"No comprendo el tema ni puedo realizar ejercicios básicos\"). Esta sinceridad es el primer paso para buscar ayuda y mejorar.\n• Identificación de obstáculos: Mencionas que las operaciones matemáticas salen mal y que no sabes anotar correctamente las respuestas. Esto muestra que identificas dónde están tus dificultades específicas.\n• Búsqueda de apoyo: Solicitas explícitamente que el profesor desacelere y explique de nuevo. Esto demuestra que reconoces la necesidad de refuerzo y estás dispuesto a pedir ayuda.",
+      "improvements": "• Análisis sistemático de variables: Necesitas practicar identificando variables en problemas simples antes de intentar ejercicios complejos. Sugiero que hagas una lista de 3-5 variables (conocidas/desconocidas) en cada problema, aunque no resuelvas el ejercicio completo. Esto te ayudará a entrenar el reconocimiento de patrones.\n• Conexión entre preguntas y procedimientos: Antes de resolver, dedica 1-2 minutos a escribir: \"¿Qué me pregunta?\" y \"¿Qué datos tengo?\". Esta pausa te permitirá entender la relación entre lo que pide el problema y cómo abordarlo, mejorando tu comprensión conceptual.\n• Aprovechamiento de recursos disponibles: Además de esperar al profesor, utiliza la plataforma Intellego para revisar ejemplos resueltos, videos tutoriales o ejercicios paso a paso. Esto te permitirá avanzar mientras esperas la próxima clase, sin depender completamente de explicaciones presenciales.",
+      "createdAt": "2025-11-12T22:53:18.781Z"
+    }
+  ]
+}

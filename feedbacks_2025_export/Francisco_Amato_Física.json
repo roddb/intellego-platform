@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "studentId": "u_tmyqpybslme1bxt15",
+    "studentName": "Francisco Amato",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.199712",
+    "statistics": {
+      "totalFeedbacks": 15,
+      "feedbacksWithScore": 15,
+      "averageScore": 57.07,
+      "minScore": 27,
+      "maxScore": 79,
+      "weeksCovered": 13,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "9f5a3199-9e62-4529-8a86-4ec3dea952b0",
+      "weekStart": "2025-08-04",
+      "score": 79,
+      "generalComments": "Francisco demuestra buena comprensión de los fundamentos del pensamiento crítico aplicado a Física. Destaca su capacidad para aplicar el método de 5 pasos a situaciones concretas, como se evidencia en el ejercicio del grupo de trabajo. Su conexión con conocimientos previos (critical thinking de primaria) muestra madurez en el aprendizaje.",
+      "strengths": [
+        "Aplica concretamente los 5 pasos del pensamiento crítico en la resolución del ejercicio 2, demostrando comprensión práctica del método",
+        "Identifica con claridad que no siempre lo más obvio (elegir al más inteligente) es la mejor decisión, mostrando análisis profundo",
+        "Reconoce su proceso de aprendizaje y adapta estrategias cuando tiene dificultades de concentración",
+        "Conecta el aprendizaje actual con experiencias previas relevantes, demostrando transferencia de conocimientos"
+      ],
+      "improvements": [
+        "Completar la pregunta 5 con reflexiones sobre el proceso de aprendizaje para enriquecer el feedback y la metacognición",
+        "Profundizar en la descripción de cómo cada uno de los 5 pasos se aplicó específicamente en el ejercicio del grupo",
+        "Desarrollar más estrategias concretas para mejorar la concentración durante la lectura de material teórico"
+      ],
+      "createdAt": "2025-09-30 16:39:59"
+    },
+    {
+      "feedbackId": "d6212f7e-945b-4a9e-856d-2822e350fb75",
+      "weekStart": "2025-08-11",
+      "score": 79,
+      "generalComments": "Francisco avanza consistentemente en Fase 2, demostrando dominio en la identificación y clasificación de variables. Su análisis del problema de Ana es ejemplar: lista sistemática de actividades, clasificación clara entre controlables y no controlables, e incluso identifica variables olvidadas. Muestra madurez al reconocer sus limitaciones y buscar estrategias (uso de IA).",
+      "strengths": [
+        "Realiza clasificación metódica de variables en el problema de Ana, distinguiendo claramente entre factores controlables (hora de salida, preparación) y no controlables (clima, semáforos)",
+        "Identifica variables omitidas inicialmente (buscar llaves), demostrando capacidad de verificación y completitud en el análisis",
+        "Aplica método sistemático paso a paso para resolver dificultades: primero listar, luego clasificar, finalmente verificar",
+        "Integra correctamente Fase 1 y Fase 2, reconociendo la progresión metodológica"
+      ],
+      "improvements": [
+        "Practicar la medición y registro de datos numéricos reales (cronometrar tiempos) para fortalecer la cuantificación de variables",
+        "Explorar conexiones con otras materias donde también se clasifican variables (Matemática, Química, Biología)",
+        "Completar Q5 con reflexiones sobre la evolución desde Fase 1 a Fase 2"
+      ],
+      "createdAt": "2025-09-30 16:40:47"
+    },
+    {
+      "feedbackId": "c3402061-a5da-440e-a0ad-b82ee2e2d0c0",
+      "weekStart": "2025-08-18",
+      "score": 70,
+      "generalComments": "Francisco enfrenta el desafío del tiro oblicuo con actitud positiva. Demuestra comprensión conceptual del tema (entiende la lógica de las ecuaciones) y logra resolver un ejercicio completo calculando el alcance de 87.15m. Su estrategia de consultar con IA paso a paso es efectiva. Necesita fortalecer la identificación de qué fórmula aplicar en cada situación.",
+      "strengths": [
+        "Resuelve ejercicio completo de lanzamiento parabólico desde torre, obteniendo resultado correcto (87.15m)",
+        "Utiliza estrategia efectiva de consulta con IA paso a paso para superar confusiones",
+        "Reconoce con honestidad sus dificultades y busca activamente soluciones",
+        "Conecta el tema con matemática, mostrando comprensión de la naturaleza interdisciplinar"
+      ],
+      "improvements": [
+        "Practicar la identificación sistemática de datos conocidos/desconocidos antes de elegir fórmulas",
+        "Crear una tabla de fórmulas de tiro oblicuo con sus condiciones de uso para consulta rápida",
+        "Resolver más ejercicios variados para ganar confianza en la selección de herramientas"
+      ],
+      "createdAt": "2025-09-30 16:42:14"
+    },
+    {
+      "feedbackId": "4c38108b-49ba-4e97-b003-d50ed11b6c36",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Francisco continúa trabajando intensamente con tiro oblicuo. Logra resolver 3 ejercicios en clase (4, 5 y 6), demostrando capacidad de análisis al concluir que la flecha no da en el blanco. Su diagnóstico es realista (Nivel 1) y reconoce que el desafío principal es seleccionar la fórmula correcta entre muchas opciones. La estrategia de anotar datos es excelente.",
+      "strengths": [
+        "Resuelve 3 ejercicios en clase aplicando metodología completa (cálculo de velocidad inicial, tiempo, posición final)",
+        "Propone estrategia concreta y útil: anotar los datos disponibles para no confundirse en la selección de fórmulas",
+        "Identifica conexiones con temas previos (MRU, caída libre, tiro vertical), mostrando visión integrada",
+        "Analiza críticamente el resultado del ejercicio 4, determinando que la flecha no alcanza el objetivo"
+      ],
+      "improvements": [
+        "Crear un esquema personal de decisión: qué fórmula usar según qué variables están disponibles",
+        "Practicar el descarte sistemático de fórmulas no aplicables antes de seleccionar la correcta",
+        "Reforzar la comprensión conceptual de cada fórmula para facilitar su identificación"
+      ],
+      "createdAt": "2025-09-30 16:42:14"
+    },
+    {
+      "feedbackId": "e3834f0e-8f5f-4483-bd61-584b882112c0",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Francisco muestra leve mejoría respecto a la semana anterior. Resuelve ejercicio del modelo de examen (bomberos apagando incendio) con ángulo de lanzamiento de 47°. Comprende la estrategia de predecir el ángulo, lo cual demuestra pensamiento estratégico. Mantiene su identificación realista de nivel 1 y reconoce que descartar valores es clave para la resolución.",
+      "strengths": [
+        "Resuelve ejercicio complejo del modelo de examen encontrando ángulo óptimo de 47° para apagar incendio",
+        "Comprende estrategia avanzada de predecir ángulos para simplificar resolución",
+        "Aplica método de descarte de valores no útiles para identificar fórmula correcta",
+        "Reconoce mejora respecto a semana anterior, mostrando capacidad de autoevaluación"
+      ],
+      "improvements": [
+        "Practicar predicción de magnitudes desconocidas como estrategia de resolución",
+        "Trabajar con mayor diversidad de ejercicios para identificar patrones en la selección de fórmulas",
+        "Documentar los procesos de descarte exitosos para crear un método propio"
+      ],
+      "createdAt": "2025-09-30 16:42:14"
+    },
+    {
+      "feedbackId": "b03c9636-8684-47f0-8cd3-da2825d2ab7f",
+      "weekStart": "2025-09-08",
+      "score": 64,
+      "generalComments": "Francisco trabaja con modelo de examen (ejercicio 2: artista lanzado por cañón). Calcula correctamente que el artista alcanza alturas de 9.63m y 6.89m, muy superiores a los 3m de la red. Su análisis es correcto pero reporta falta de práctica. Identifica valores trampa en las consignas como dificultad principal, lo cual muestra lectura crítica.",
+      "strengths": [
+        "Resuelve ejercicio completo del modelo de examen calculando trayectoria del artista (9.63m y 6.89m)",
+        "Concluye correctamente que el artista no caerá en la red de 3m de altura",
+        "Identifica valores trampa en las consignas, demostrando lectura crítica y analítica",
+        "Reconoce que prestar atención a la consigna es clave para la resolución"
+      ],
+      "improvements": [
+        "Aumentar la práctica semanal para consolidar el dominio del tema",
+        "Desarrollar técnica de subrayado o marcado de datos relevantes vs trampa en consignas",
+        "Practicar ejercicios con consignas deliberadamente confusas para entrenar la discriminación de datos"
+      ],
+      "createdAt": "2025-09-30 16:42:14"
+    },
+    {
+      "feedbackId": "c5fae51d-777c-473d-b559-f65429b02c9a",
+      "weekStart": "2025-09-15",
+      "score": 72,
+      "generalComments": "Francisco cierra la serie de reportes de tiro oblicuo con mejora notable. Resuelve ejercicio 1 del modelo 4 aplicando metodología completa: identifica el problema, define objetivo, calcula tiempo (0.85s), determina altura (-0.64m) y concluye correctamente que la llave no llega. Muestra evolución positiva y consciencia de que la práctica mejora el desempeño.",
+      "strengths": [
+        "Aplica metodología completa de resolución: identifica problema, define objetivo, calcula variables, verifica resultado",
+        "Resuelve ejercicio con múltiples pasos (cálculo de tiempo 0.85s, luego altura -0.64m) demostrando secuenciación lógica",
+        "Concluye correctamente que la llave no alcanza al compañero basándose en el análisis cuantitativo",
+        "Reconoce que la práctica es clave para mejorar, mostrando mentalidad de crecimiento"
+      ],
+      "improvements": [
+        "Practicar resolución completa sin errores en el primer intento para ganar confianza",
+        "Continuar ejercitando la identificación de fórmulas según el tipo de problema",
+        "Documentar los procesos exitosos para replicarlos en futuros ejercicios"
+      ],
+      "createdAt": "2025-09-30 16:42:14"
+    },
+    {
+      "feedbackId": "fb_002_2_me1bxt15_2025-09-29_001",
+      "weekStart": "2025-09-29",
+      "score": 79,
+      "generalComments": "Querido Francisco Amato, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Física. Ejecutas los pasos de resolución de manera ordenada y lógica, como se evidencia en tu resolución del problema de tiro horizontal donde aplicaste sistemáticamente F1+F2+F3+F4. Tu capacidad para identificar variables conocidas y desconocidas es efectiva, y realizas conexiones interesantes entre tiro oblicuo y los conceptos de MRU/MRUV trabajados anteriormente. Necesitas fortalecer tu capacidad para distinguir componentes en X e Y con mayor claridad, y te recomiendo proporcionar evidencias más concretas y específicas de tu proceso de aprendizaje en tus reportes. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Integras exitosamente los conocimientos de las fases anteriores, aplicando F1+F2+F3+F4 de manera coherente en la resolución del problema de tiro horizontal",
+        "Ejecutas los pasos de resolución de manera ordenada y lógica: identificaste el problema, organizaste variables, seleccionaste fórmulas apropiadas y realizaste cálculos sistemáticos",
+        "Realizas conexiones interesantes entre tiro oblicuo y los temas trabajados anteriormente como MRU y MRUV, demostrando comprensión de la continuidad conceptual"
+      ],
+      "improvements": [
+        "Es importante mejorar tu capacidad para distinguir y trabajar con componentes en X e Y, ya que identificaste esta como tu principal dificultad de la semana",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje, incluyendo más detalles sobre cómo resolviste las dificultades encontradas",
+        "Te recomiendo incorporar la verificación de resultados como parte de tu proceso, explicando cómo sabes que tu respuesta (14,3 m/s) es razonable para el contexto del problema"
+      ],
+      "createdAt": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "feedbackId": "9bc96148-e4c4-46fa-bb63-c81f1aabd879",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:32:35.567Z"
+    },
+    {
+      "feedbackId": "d41ee9a1-90c1-4191-9f34-831e019b3fb0",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:03:19.081Z"
+    },
+    {
+      "feedbackId": "4a4076ea-34af-4a77-9452-a8fd3b906baa",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:47:10.033Z"
+    },
+    {
+      "feedbackId": "b1126af2-d765-4b9d-abc7-505acf829342",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:30:20.221Z"
+    },
+    {
+      "feedbackId": "70e88c36-4700-4653-80ea-17655738d04a",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando en Leyes de Newton y que reconoces dónde tienes dificultades, lo cual es un buen primer paso. Tu cálculo del diagrama de cuerpo libre es correcto, y eso demuestra que tienes bases sólidas. Sin embargo, tu reporte esta semana es muy superficial: las respuestas son muy cortas y no muestran el análisis de variables que es el objetivo de Fase 2.\n\nTu desempeño muestra que entiendes los conceptos básicos, pero necesitas profundizar en cómo identificas y clasificas las variables en cada problema. Esto no es solo \"hacer la tarea,\" sino reflexionar sobre QUÉ datos tienes, CUÁLES son desconocidos, y CÓMO se relacionan entre sí.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas, incluso Q5; (2) hagas listas explícitas de variables clasificadas; (3) desarrolles tus respuestas con ejemplos concretos. Esto te ayudará a avanzar hacia Fase 3 con una base más sólida.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces explícitamente tu dificultad (\"se me hizo difícil entender las nuevas leyes de Newton\"), lo que muestra autoconciencia y disposición para mejorar.\n• Cálculos correctos en el ejemplo: Los valores que presentas (P=200N, N=200N) son correctos para el problema planteado, demostrando que comprendes la aplicación básica de las Leyes de Newton.\n• Identificación de una dificultad concreta: Señalas específicamente que los diagramas con ángulos de inclinación son tu punto débil, lo que es más útil que una queja genérica.",
+      "improvements": "• Falta identificación explícita de variables: En tu respuesta a Q1 y Q2, no clasificas las variables como conocidas/desconocidas o controlables/no controlables. Intenta hacer una lista: \"Variables conocidas: masa (20kg), fuerza aplicada (100N)... Variables desconocidas: aceleración...\" para cumplir con Fase 2.\n• Respuestas muy breves sin análisis: Tus respuestas son demasiado cortas y no muestran el proceso de pensamiento. Desarrolla cada respuesta con ejemplos concretos. Por ejemplo, en Q3 podrías escribir: \"Para resolver diagramas inclinados, necesito practicar descomponer fuerzas en componentes usando sen(θ) y cos(θ).\"\n• Pregunta 5 sin responder: Completa siempre todas las preguntas. En Q5 reflexiona sobre cómo las variables son la base para resolver cualquier problema físico, o cómo tu comprensión ha evolucionado desde Fase 1. Esto es fundamental para desarrollar pensamiento crítico.",
+      "createdAt": "2025-10-27T04:57:44.549Z"
+    },
+    {
+      "feedbackId": "53d6360f-0cc9-46d9-8c9b-3a86282f91c1",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que esta semana enfrentaste desafíos principalmente en la organización grupal, lo cual es comprensible. Sin embargo, tu reporte no refleja el trabajo específico que hiciste en Fase 2 sobre identificación de variables y clasificación de magnitudes físicas. Esto me preocupa porque no puedo evaluar si realmente comprendiste los conceptos clave.\n\nTu desempeño esta semana es inicial: las respuestas son muy breves, falta documentación y no hay evidencia clara de que aplicaras lo aprendido en Fase 1 + Fase 2. Necesitas ser más detallado y reflexivo en tus reportes.\n\nPara la próxima semana, te pido que: (1) guardes todas tus hojas de trabajo, (2) escribas respuestas completas con ejemplos específicos de variables que identificaste, y (3) reflexiones sobre qué te cuesta entender y cómo lo vas a resolver. Esto hará que tu reporte sea mucho más útil para tu aprendizaje.",
+      "strengths": "• Reconocimiento de trabajo colaborativo: Mencionas que trabajaste con tu grupo y lograste resolver la consigna, lo que muestra disposición para el trabajo en equipo, un aspecto importante en ciencias experimentales.\n• Conexión con aprendizajes previos: Intentas vincular el tema actual con el proyecto de junio, demostrando que buscas relacionar conceptos a lo largo del tiempo, aunque la conexión necesita más profundidad.",
+      "improvements": "• Documentación del trabajo: Debes guardar y organizar tus hojas de trabajo, fichas técnicas y resoluciones. Sin evidencia escrita, no puedo evaluar tu comprensión real. Sugiero crear una carpeta física o digital donde guardes TODO lo que resuelves cada semana, con fecha y tema.\n• Especificidad en respuestas: Tus respuestas son muy cortas y generales. En lugar de \"pude resolver la consigna\", escribe: \"Identifiqué las variables: masa (conocida), velocidad (desconocida), tiempo (controlable)\". Esto muestra exactamente qué aprendiste y facilita el feedback.\n• Reflexión sobre dificultades académicas: Enfócate en obstáculos de aprendizaje, no solo organizacionales. Por ejemplo: \"Me cuesta diferenciar entre variables controlables y no controlables porque...\" y luego propón una estrategia concreta como \"haré una tabla comparativa para cada problema\".",
+      "createdAt": "2025-11-12T23:03:19.842Z"
+    },
+    {
+      "feedbackId": "79f13e86-20a6-41bd-bf54-fbdead0251db",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que trabajaste con dedicación en el proyecto del auto propulsado y que lograste resolver un problema importante (las ruedas) después de varios intentos. Eso demuestra esfuerzo y perseverancia, cualidades muy valiosas en Ciencias.\n\nSin embargo, tu reporte muestra que aún no estás aplicando completamente la Fase 2. El objetivo de esta fase es que aprendas a identificar y clasificar variables en los problemas que resuelves. En tu caso, trabajaste en el proyecto pero no documentaste qué variables físicas estaban en juego ni cómo las analizaste.\n\nPara la próxima semana, te pido que hagas un análisis más profundo: cuando trabajes en un proyecto o problema, detente a pensar: ¿Qué variables están aquí? ¿Cuáles puedo controlar? ¿Cuáles son conocidas? Escribe esto en tu reporte. Así pasarás de \"nos falta el globo\" a \"necesitamos aumentar la presión del aire porque la variable de presión es desconocida y no controlable en nuestro diseño actual\".",
+      "strengths": "• Perseverancia en la resolución de problemas: Intentaste tres veces antes de lograr que las ruedas funcionaran. Esto muestra que no te rendiste ante la dificultad, lo cual es fundamental en Física.\n• Reconocimiento de incompletitud: Eres honesto al admitir que \"nos falta incluir el globo\", lo que indica que tienes conciencia de qué falta en tu proyecto.\n• Conexión con aprendizajes previos: Mencionas el proyecto anterior, mostrando que intentas vincular lo nuevo con lo que ya conoces.",
+      "improvements": "• Identificación explícita de variables: En tu próximo reporte, lista las variables del auto propulsado (ej: presión del aire, masa del auto, diámetro de ruedas, fricción). Clasifica cada una: ¿es conocida o desconocida? ¿Puedes controlarla o no? Esto es el corazón de la Fase 2.\n• Análisis de dificultades desde la Física: Cuando menciones que \"no salió 2 veces\", explica qué variables físicas causaron el problema. Por ejemplo: \"Las ruedas no giraban porque no consideramos la fricción del eje\" o \"El equilibrio falló porque no distribuimos bien la masa\". Conecta siempre con conceptos científicos.\n• Completar todas las secciones del reporte: La pregunta 5 está vacía. Usa ese espacio para reflexionar: ¿Qué aprendiste sobre cómo identificar variables? ¿Cómo te ayuda esto para futuros proyectos? Tómate 2-3 minutos para escribir tus observaciones personales.",
+      "createdAt": "2025-11-17T13:48:24.851Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "u_zbzlsfka9me0bba6t",
+    "studentName": "Ulises García Canteli",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.237144",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 30.0,
+      "minScore": 30,
+      "maxScore": 30,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_garcia_2025081101",
+      "weekStart": "2025-08-11",
+      "score": 30,
+      "generalComments": "Ulises muestra dificultades significativas con el material. Es importante buscar apoyo adicional y comunicar estas dificultades para recibir la ayuda necesaria.",
+      "strengths": [
+        "Honestidad al expresar dificultades",
+        "Entrega del reporte a tiempo",
+        "Comunicación clara de necesidades"
+      ],
+      "improvements": [
+        "Buscar apoyo inmediato del profesor",
+        "Solicitar explicaciones adicionales",
+        "Trabajar con compañeros tutores",
+        "Revisar material desde el inicio"
+      ],
+      "createdAt": "2025-01-09 09:02:00"
+    }
+  ]
+}

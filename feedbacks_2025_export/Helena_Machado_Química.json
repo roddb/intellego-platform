@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "studentId": "u_bgnqcmox2mdynijxl",
+    "studentName": "Helena Machado",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.203447",
+    "statistics": {
+      "totalFeedbacks": 14,
+      "feedbacksWithScore": 14,
+      "averageScore": 59.29,
+      "minScore": 27,
+      "maxScore": 91,
+      "weeksCovered": 11,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-04_07761561",
+      "weekStart": "2025-08-04",
+      "score": 72.5,
+      "generalComments": "Helena, tu reporte de esta semana muestra muy buen engagement con el contenido de la Fase 1 del pensamiento crítico aplicado al equilibrio químico. Demuestras comprensión sólida de los conceptos fundamentales y reflexión crítica sobre el proceso de aprendizaje. Tu comentario adicional sobre las dificultades con la guía es valioso y muestra pensamiento metacognitivo.",
+      "strengths": [
+        "Autoevaluación precisa y honesta (Nivel 1) con justificación clara: todavía están viendo más conceptos y pensamiento crítico",
+        "Evidencia concreta de aprendizaje con el ejercicio 7, describiendo sistemáticamente cada pregunta trabajada (problema, información adicional, explicaciones, determinación de grupo correcto)",
+        "Identificación clara de dificultades específicas con terminología (equilibrio, endotérmica, exotérmica) y aplicación de estrategia efectiva: usar Chat para aclarar conceptos",
+        "Conexión relevante con balance visto en el cuatrimestre pasado",
+        "Comentario adicional constructivo y reflexivo sobre las necesidades de aprendizaje: explicaciones en el cuadernillo sobre por qué se necesita cierta información y qué fórmulas involucran esas variables"
+      ],
+      "improvements": [
+        "Profundizar en Q2 explicando cómo específicamente el ejercicio 7 te ayudó a desarrollar pensamiento crítico: ¿qué aprendiste sobre el proceso de análisis sistemático?",
+        "Ampliar la conexión con balance: ¿cómo específicamente se relacionan los conceptos de balance de ecuaciones con equilibrio químico?",
+        "Incluir reflexión sobre cómo tu estrategia de usar Chat para clarificar conceptos está funcionando: ¿qué ventajas y desventajas tiene? ¿cómo la complementas con otras fuentes?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-11_3755ea2a",
+      "weekStart": "2025-08-11",
+      "score": 85.5,
+      "generalComments": "Helena, ¡excelente reporte esta semana! Demuestras dominio muy sólido de la Fase 2 (identificación de variables) con autoevaluación precisa (Nivel 4) y evidencia concreta de aplicación. Tu análisis del ejercicio 10 muestra integración efectiva de F1+F2 y comprensión profunda de la clasificación de variables. Los comentarios adicionales reflejan pensamiento crítico maduro sobre el diseño pedagógico de la guía.",
+      "strengths": [
+        "Autoevaluación precisa (Nivel 4) con justificación específica: capacidad de identificar correctamente variables y clasificarlas según su tipo",
+        "Evidencia excepcional de aprendizaje con análisis completo del ejercicio 10: integración clara de F1 (tipo de problema, objetivo, identificación de sistema) seguida de F2 (clasificación sistemática de variables en 4 categorías: conocidas-controlables, conocidas-no controlables, desconocidas-controlables, desconocidas-no controlables)",
+        "Identificación específica de dificultades con variables de termodinámica (ej: poder calorífico) y aplicación de estrategia efectiva: práctica con ejercicios y corrección con ayuda de IA",
+        "Conexión sólida con la metodología de estudio de 4 fases y con contenidos previos de química del bimestre pasado",
+        "Comentario adicional reflexivo y constructivo sobre el diseño de la guía: identificación de suposición de conocimientos previos y propuesta de simplificación/focalización en contextos específicos"
+      ],
+      "improvements": [
+        "Ampliar la reflexión sobre la estrategia de usar IA para corrección: ¿cómo específicamente te ayuda a entender mejor los tipos de variables? ¿qué patrones has identificado?",
+        "Elaborar más las conexiones con química del bimestre pasado: ¿qué conceptos específicos estás aplicando ahora en el análisis de variables de equilibrio?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-18_0b3895ff",
+      "weekStart": "2025-08-18",
+      "score": 91,
+      "generalComments": "Helena, ¡reporte excepcional! Demuestras dominio sobresaliente de la Fase 3 (selección de herramientas y relaciones) con análisis completo y sistemático del ejercicio 7 sobre perturbaciones múltiples. Tu proceso de razonamiento muestra integración fluida de F1+F2+F3, pensamiento crítico avanzado, y capacidad de autocorrección. El comentario final refleja engagement genuino con el material.",
+      "strengths": [
+        "Autoevaluación precisa (Nivel 4) con confianza justificada: capacidad de identificar correctamente la herramienta necesaria",
+        "Evidencia excepcional de aprendizaje con análisis exhaustivo del ejercicio 7: descripción detallada de cada fase del razonamiento sobre perturbaciones múltiples (análisis separado de T y P, consideración de endotérmica/exotérmica, número de moles, evaluación de magnitud relativa, determinación del efecto dominante)",
+        "Demostración explícita de autocorrección: reconocimiento de confusión inicial sobre relación V-P y corrección del razonamiento",
+        "Proceso metacognitivo claro: mientras hacía ejercicios le iba agarrando la mano, mostrando conciencia del desarrollo de competencia",
+        "Conexión profunda con F1 y F2: el análisis de perturbaciones te ayuda a comprender mejor para qué servían las fases anteriores al ver el cuadro un poco más grande",
+        "Comentario final entusiasta y reflexivo: Me encantó la guía de esta semana! Se sintió muy divertida y dinámica—demuestra engagement emocional positivo con el aprendizaje"
+      ],
+      "improvements": [
+        "Continuar documentando procesos de autocorrección como el que mostraste con la relación V-P: este tipo de reflexión es invaluable para el aprendizaje profundo"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-08-25_87b433d7",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Helena, este reporte muestra un retroceso significativo respecto a tu desempeño excepcional de semanas anteriores. Aunque mantienes honestidad en tu autoevaluación (Nivel 2) y proporcionas evidencia básica de trabajo con el ejercicio 4, el desarrollo es mucho más superficial de lo esperado para alguien con tu capacidad demostrada. Las respuestas breves sugieren menor engagement esta semana.",
+      "strengths": [
+        "Autoevaluación honesta (Nivel 2) reconociendo que estás empezando a entender mejor pero aún necesitas ayuda de IA",
+        "Evidencia concreta del ejercicio 4 mostrando aplicación de las 4 fases con análisis de la tabla ICE usando variable x",
+        "Identificación de dificultad específica: comprensión de la tabla ICE con variable x y aplicación de fórmulas",
+        "Reconocimiento de progreso mediante práctica: con práctica lo voy entendiendo",
+        "Conexión válida con intervalos vistos en Matemática y con contenidos previos de química"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con mucho mayor detalle: explicar paso a paso tu razonamiento en el ejercicio 4, no solo listar las ecuaciones finales",
+        "Elaborar las estrategias específicas que estás usando con la IA: ¿qué preguntas haces? ¿cómo te ayuda a entender la lógica de la tabla ICE?",
+        "Profundizar en la conexión con intervalos de matemática: ¿cómo específicamente el concepto de x es menor a 2/3 y mayor que 0 se relaciona con lo visto en mate?",
+        "Incluir reflexión metacognitiva sobre por qué esta semana tu reporte es más breve que las anteriores: ¿menos tiempo? ¿mayor dificultad? ¿menor motivación?",
+        "Retomar el nivel de detalle y análisis profundo que caracterizó tus reportes excepcionales de semanas 2 y 3"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-09-01_79f2ff7e",
+      "weekStart": "2025-09-01",
+      "score": 73,
+      "generalComments": "Helena, este reporte muestra recuperación parcial respecto a la semana anterior. Demuestras aplicación de las 4 fases en el ejercicio del trabajo práctico, pero el desarrollo aún es más conciso de lo esperado para tu capacidad. La autoevaluación de Nivel 3 es apropiada: puedes hacer los ejercicios correctamente pero reconoces que el uso de fórmulas sigue siendo desafiante.",
+      "strengths": [
+        "Autoevaluación realista (Nivel 3) reconociendo capacidad de hacer ejercicios correctamente pero identificando área específica de dificultad: uso de fórmulas",
+        "Evidencia concreta del ejercicio 1 del TP mostrando aplicación sistemática de las 4 fases: F1 (objetivo y problemática), F2 (variables conocidas y desconocidas), F3 (fórmulas seleccionadas), F4 (ejecución con resultado numérico Kc=800.000)",
+        "Identificación de dificultad persistente: falta de familiaridad con las fórmulas",
+        "Conexión válida con contenidos de semanas pasadas mostrando continuidad en el aprendizaje"
+      ],
+      "improvements": [
+        "Desarrollar Q2 con mayor profundidad: JUSTIFICAR la selección de fórmulas en F3. ¿Por qué Kc y no Kp? ¿Por qué necesitas concentraciones molares?",
+        "Elaborar estrategias concretas para superar la dificultad con fórmulas: ¿estás creando fichas de estudio? ¿practicando aplicaciones variadas? ¿relacionando fórmulas con conceptos?",
+        "Incluir verificación en F4: ¿tiene sentido químicamente que Kc=800.000? ¿qué implica un valor tan alto?",
+        "Ampliar las conexiones: ¿cómo específicamente se relaciona este ejercicio con lo visto en semanas previas?",
+        "Reflexionar sobre tu proceso: ¿qué funcionó bien? ¿qué cambiarías? ¿has mejorado en familiaridad con fórmulas?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynijxl_2025-09-22_2eb7fa92",
+      "weekStart": "2025-09-22",
+      "score": 87,
+      "generalComments": "Helena, ¡excelente recuperación y retorno a tu nivel de excelencia! Este reporte demuestra dominio sólido de la Fase 4 (estrategia y ejecución completa) aplicado a termodinámica. Tu autoevaluación (Nivel 4) es apropiada y madura: reconoces competencia correcta pero identificas oportunidad de mejora en eficiencia y rapidez. Esto muestra pensamiento metacognitivo avanzado.",
+      "strengths": [
+        "Autoevaluación madura y precisa (Nivel 4) reconociendo competencia actual pero identificando área de crecimiento: resolución más eficiente y rápida",
+        "Evidencia completa de aplicación de las 4 fases al ejercicio 1 del TP: F1 (objetivo claro y problemática identificada), F2 (variables conocidas y desconocida especificadas), F3 (justificación de herramientas: fórmula de Kc y concentraciones molares), F4 (ejecución ordenada con resultado numérico verificable)",
+        "Identificación honesta de dificultad persistente con comprensión de enunciados, mostrando autoconciencia",
+        "Conexión clara con contenidos de semanas previas, demostrando visión de continuidad del aprendizaje"
+      ],
+      "improvements": [
+        "Ampliar F3 justificando POR QUÉ seleccionaste la definición de Kc: ¿qué características del problema te indicaron usar Kc en lugar de Kp o Q?",
+        "Desarrollar estrategias específicas para mejorar comprensión de enunciados: ¿estás subrayando datos clave? ¿reformulando el problema con tus palabras? ¿identificando qué te pide exactamente?",
+        "Incluir verificación explícita del resultado: ¿tiene sentido químicamente Kc=800.000? ¿las unidades son correctas?",
+        "Elaborar cómo planeas mejorar eficiencia y rapidez sin sacrificar rigurosidad",
+        "Incluir comentarios adicionales sobre tu experiencia con termodinámica vs. equilibrio químico: ¿qué similitudes/diferencias encuentras?"
+      ],
+      "createdAt": "2025-10-02T16:00:00Z"
+    },
+    {
+      "feedbackId": "924bffd0-0232-441a-bd20-672a7940a5ad",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:49:09.714Z"
+    },
+    {
+      "feedbackId": "34ef284b-e439-494f-ae99-c7981b513b5a",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:14:56.582Z"
+    },
+    {
+      "feedbackId": "27c6ef7f-c78b-4d64-8fb0-d245d6da7892",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:35:10.952Z"
+    },
+    {
+      "feedbackId": "215e2c32-3c93-4302-96d3-c84be44dd583",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:08:38.241Z"
+    },
+    {
+      "feedbackId": "2781739e-e981-4b7e-a3f0-65d83ce32998",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:59:19.615Z"
+    },
+    {
+      "feedbackId": "582e34fb-402a-4b2e-b671-493495d1b481",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:50:23.822Z"
+    },
+    {
+      "feedbackId": "a36e4c18-ca6a-41b8-b201-c608caf7f70e",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Veo que has tenido una semana desafiante debido a las inasistencias, pero valoro tu honestidad al reconocerlo. El hecho de que hayas completado algunos ejercicios a pesar de las dificultades muestra compromiso, aunque claramente necesitas más apoyo para avanzar en esta fase.\n\nTu desempeño actual está en nivel inicial, principalmente porque no has podido identificar y clasificar las variables de ácidos y bases de forma sistemática. Esto es comprensible sin las explicaciones en clase, pero es urgente que recuperes ese contenido para no quedarte atrás.\n\nPara la próxima semana, te propongo: (1) Dedica 30 minutos a ver un video tutorial sobre ácidos y bases, (2) Haz una tabla con variables clave (pH, concentración, tipo de sustancia) y clasifícalas como conocidas/desconocidas y controlables/no controlables, (3) Resuelve 3 ejercicios completos documentando cada paso. Esto te posicionará en un nivel mucho mejor.",
+      "strengths": "• Honestidad y autoconciencia: Reconoces claramente que faltaste a clases y que esto afectó tu comprensión. Esto es el primer paso para mejorar y buscar apoyo.\n• Conexión con lo práctico: Intentas vincular el tema con experiencias reales del laboratorio, lo que muestra que entiendes que las variables existen en contextos concretos, no solo en teoría.\n• Disposición a resolver: A pesar de las dificultades, completaste algunos ejercicios, lo que demuestra que no abandonaste el trabajo incluso sin apoyo directo.",
+      "improvements": "• Identifica variables específicas en ácidos y bases: En lugar de decir \"estoy empezando a comprender\", haz una lista concreta: ¿Qué es el pH? ¿Qué es la concentración? ¿Cuál es controlable y cuál no? Esto te ayudará a estructurar tu aprendizaje y a ver exactamente qué necesitas estudiar.\n• Crea un plan de recuperación con procedimientos: Busca videos o tutoriales sobre \"cómo resolver ejercicios de ácidos y bases paso a paso\". Luego, resuelve 3-5 ejercicios completos documentando cada variable que identificas. Esto te dará los procedimientos claros que mencionas que te faltaron.\n• Desarrolla reflexiones más profundas: En la próxima semana, completa la sección Q5 con preguntas como: ¿Por qué es importante identificar si una variable es controlable? ¿Cómo cambiaría mi respuesta si cambio una variable? Esto fortalecerá tu pensamiento crítico.",
+      "createdAt": "2025-11-17T13:41:55.852Z"
+    },
+    {
+      "feedbackId": "ebfc76b9-0e19-41d9-b910-cd29c8fb8ecc",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando variables en un problema real de ácidos y bases. Tu estructura F1-F4 es clara y tus cálculos son correctos, lo que demuestra que estás aplicando las fórmulas con precisión. Sin embargo, tu reporte se queda en el nivel de \"hacer cálculos\" sin profundizar en el análisis de variables que es el objetivo de Fase 2.\n\nTu desempeño muestra que entiendes la mecánica del tema, pero necesitas reflexionar más sobre *por qué* clasificamos variables y *cómo* eso nos ayuda a resolver problemas. Las respuestas genéricas en Q3, Q4 y Q5 sugieren que aún no has integrado completamente el pensamiento crítico en tu proceso.\n\nPara la próxima semana, te pido que: (1) clasifiques explícitamente cada variable en tus problemas, (2) propongas estrategias específicas para superar la dificultad con logaritmos, y (3) reflexiones en Q5 sobre qué aprendiste sobre variables esta semana. Esto elevará significativamente tu desempeño.",
+      "strengths": "• Estructura metodológica clara en F2: Tu presentación de variables conocidas/desconocidas (V.C. y V.D.) muestra que entiendes la organización básica de Fase 2. El formato F1-F2-F3-F4 es preciso y fácil de seguir.\n• Cálculos correctos y completos: Los resultados numéricos (n=0,02mol, [OH⁻]=0,04M, pH=12,60) son exactos. Esto demuestra que aplicaste correctamente las fórmulas, incluso con logaritmos que te cuestan trabajo.\n• Reconocimiento honesto de dificultades: Admites que los logaritmos y números pequeños te complican el tema. Esta autoconciencia es el primer paso para mejorar y buscar estrategias específicas.",
+      "improvements": "• Clasificación explícita de variables: En Q1 y Q2, debes ir más allá de listar variables. Clasifica cada una: ¿es conocida o desconocida? ¿controlable o no controlable? ¿magnitud intensiva (pH) o extensiva (masa)? Esto es el corazón de Fase 2.\n• Estrategias concretas para logaritmos: En lugar de \"práctica\", propón acciones específicas: \"Haré 5 ejercicios diarios de cálculo de pH\" o \"Usaré la calculadora científica para entender cómo log[10⁻³]=−3\". La práctica sin dirección no es suficiente.\n• Profundizar conexiones con equilibrio: Explica cómo el equilibrio de disociación de Ba(OH)₂ afecta [OH⁻], y cómo esto se relaciona con Kw. Muestra que entiendes por qué estas variables importan, no solo que las calcules.",
+      "createdAt": "2025-11-17T14:01:03.831Z"
+    }
+  ]
+}

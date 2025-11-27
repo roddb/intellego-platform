@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "studentId": "u_tid7bop2gme6i2g6e",
+    "studentName": "Matilde Pasarin de la Torre",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.224066",
+    "statistics": {
+      "totalFeedbacks": 18,
+      "feedbacksWithScore": 18,
+      "averageScore": 44.22,
+      "minScore": 27,
+      "maxScore": 68,
+      "weeksCovered": 15,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_001",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Querida Matilde Pasarin de la Torre, debido a que esta semana fue de introducción a la plataforma y no hubo contenidos nuevos, no fue posible evaluar tu progreso en Química durante este período. Reconozco tu cumplimiento al completar el reporte semanal y familiarizarte con la nueva herramienta. Te recomiendo aprovechar la próxima semana para enfocarte en los fundamentos de la Fase 1 cuando comience el contenido regular. Te sugiero coordinar conmigo para resolver cualquier duda sobre el uso de la plataforma.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal en tiempo y forma",
+        "Mostraste disposición para adaptarte a la nueva plataforma Intellego",
+        "Comunicaste claramente la situación de la semana"
+      ],
+      "improvements": [
+        "En las próximas semanas, proporciona evidencias más concretas de tu proceso de aprendizaje",
+        "Comienza a familiarizarte con la metodología de pensamiento crítico en 4 fases",
+        "Prepárate para identificar problemas químicos desde la primera clase con contenido"
+      ],
+      "createdAt": "2025-10-05 22:17:17"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_002",
+      "weekStart": "2025-08-11",
+      "score": 59,
+      "generalComments": "Querida Matilde, te encuentras en proceso de desarrollo en la Fase 1: Identificación y comprensión del problema, mostrando avances parciales en Química. Identificas el problema principal del ejercicio de Ana y los neumáticos, y reconoces con precisión los objetivos de aprendizaje. Muestras capacidad para problematizar situaciones químicas relacionadas con gases. Es fundamental fortalecer tu capacidad para distinguir información relevante de irrelevante en los problemas. Te recomiendo practicar sistemáticamente la identificación de variables que permanecen constantes versus las que cambian en cada ley de gases. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas claramente el problema principal (relación presión-temperatura en neumáticos)",
+        "Reconoces con precisión el objetivo final de Ana (comprender la relación entre variables)",
+        "Comprendes la importancia del abordaje sistemático basado en evidencias",
+        "Realizas conexiones básicas con Matemática (proporciones y ecuaciones)"
+      ],
+      "improvements": [
+        "Necesitas consolidar la diferencia entre variables constantes y variables que cambian en las leyes de gases",
+        "Proporciona evidencias más específicas de tu proceso de pensamiento al resolver problemas",
+        "Profundiza en la identificación de qué variables son controlables e incontrolables en cada sistema"
+      ],
+      "createdAt": "2025-10-05 22:17:17"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_003",
+      "weekStart": "2025-08-18",
+      "score": 62,
+      "generalComments": "Querida Matilde, te encuentras en proceso de desarrollo en la Fase 2: Identificación de variables y datos, mostrando avances parciales en Química. Identificas correctamente variables de seguridad en el ejercicio de Sofía y la cocina a gas. Organizas adecuadamente información sobre renovación de aire, detectores y el significado del color de la llama. Haces conexiones básicas con Biología (CO y hemoglobina). Necesitas profundizar en la comprensión de qué distingue a los gases puros de las mezclas gaseosas. Es importante mejorar la clasificación sistemática de variables químicas en problemas complejos. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Identificas variables de seguridad relevantes (ventilación, detector de CO, color de llama)",
+        "Comprendes la relación entre color de llama y calidad de combustión",
+        "Realizas conexiones interdisciplinarias significativas con Biología",
+        "Reconoces la importancia de variables de control en sistemas químicos peligrosos"
+      ],
+      "improvements": [
+        "Necesitas consolidar la diferencia entre gases puros y mezclas gaseosas",
+        "Profundiza en el análisis de composición química de mezclas",
+        "Desarrolla estrategias para clasificar variables en sistemas complejos con múltiples componentes"
+      ],
+      "createdAt": "2025-10-05 22:17:17"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_004",
+      "weekStart": "2025-08-25",
+      "score": 27,
+      "generalComments": "Querida Matilde, debido a tu ausencia en clase esta semana, no fue posible evaluar tu progreso en Química durante este período. Reconozco tu responsabilidad al comunicar la situación en el reporte. Es prioritario fortalecer los fundamentos de la fase actual recuperando el material trabajado, comenzando con actividades de identificación de problema que proporcionen comprensión sólida de lo tratado en clase. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte comunicando tu situación",
+        "Mostraste responsabilidad al justificar tu ausencia",
+        "Mantuviste el compromiso con la plataforma a pesar de no asistir"
+      ],
+      "improvements": [
+        "Coordina conmigo para recuperar los contenidos de gases ideales trabajados esta semana",
+        "Solicita el material de clase y ejercicios realizados por tus compañeros",
+        "Prepárate para retomar la continuidad metodológica en la próxima semana"
+      ],
+      "createdAt": "2025-10-05 22:17:17"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_005",
+      "weekStart": "2025-09-01",
+      "score": 68,
+      "generalComments": "Querida Matilde, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas los pasos de resolución de manera ordenada y lógica en el ejercicio del tanque de oxígeno. Integras exitosamente F1+F2+F3+F4 identificando problemática, variables, ecuación y resolución numérica. Tu estrategia de verificación (comparar con 200 atm) demuestra pensamiento completo. Necesitas desarrollar conexiones más ricas entre teoría de gases y aplicaciones en otras áreas de conocimiento. Proporciona evidencias más concretas de cómo verificaste la razonabilidad de tu resultado. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Integras correctamente las 4 fases del pensamiento crítico en un problema completo",
+        "Ejecutas cálculos de manera ordenada con conversión correcta de temperaturas a Kelvin",
+        "Demuestras verificación de resultados comparando con el límite de seguridad (200 atm)",
+        "Identificas correctamente que la ecuación de gases ideales es la herramienta apropiada"
+      ],
+      "improvements": [
+        "Desarrolla conexiones más específicas con aplicaciones reales de gases comprimidos",
+        "Explica cómo verificaste que 201 atm es un resultado razonable físicamente",
+        "Profundiza en las implicaciones de seguridad de tu resultado numérico"
+      ],
+      "createdAt": "2025-10-05 22:17:17"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_006",
+      "weekStart": "2025-09-08",
+      "score": 32,
+      "generalComments": "Querida Matilde, debido a tu ausencia en clase esta semana, no fue posible evaluar tu progreso en Química durante este período. Reconozco tu responsabilidad al comunicar la situación y tu honestidad al indicar que necesitas más práctica con gases ideales. Es prioritario fortalecer los fundamentos de gases ideales recuperando el material trabajado, comenzando con ejercicios guiados que proporcionen práctica sistemática de las ecuaciones y conversiones. Te sugiero coordinar conmigo para recuperar el material y recibir el apoyo necesario.",
+      "strengths": [
+        "Reconoces honestamente tu nivel de comprensión (Nivel 2)",
+        "Identificas específicamente que necesitas más práctica",
+        "Cumples con la entrega del reporte a pesar de no haber asistido"
+      ],
+      "improvements": [
+        "Recupera los ejercicios de gases ideales trabajados en clase esta semana",
+        "Practica conversiones de unidades y aplicación de ecuaciones con ejercicios resueltos",
+        "Coordina sesión de consulta para resolver dudas específicas antes de la próxima clase"
+      ],
+      "createdAt": "2025-10-05 22:21:26"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_007",
+      "weekStart": "2025-09-15",
+      "score": 66,
+      "generalComments": "Querida Matilde, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Comprendes el uso de fórmulas y cuándo aplicarlas según tus propias palabras. Identificas correctamente variables conocidas y desconocidas en el ejercicio de CO₂. Reconoces que algunos enunciados no son claros y trabajas para comprenderlos. Es importante mejorar la claridad en la presentación de tu trabajo escrito (la Fase 3 quedó incompleta en tu evidencia). Desarrolla estrategias para interpretar enunciados complejos de manera más sistemática. Buen trabajo. Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Comprendes cuándo usar cada fórmula de gases ideales",
+        "Identificas correctamente el problema principal (verificar límite de CO₂)",
+        "Clasificas adecuadamente variables conocidas (V, T, P, masa total) y desconocidas (masa de CO₂)",
+        "Reconoces honestamente tus dificultades con enunciados"
+      ],
+      "improvements": [
+        "Completa el desarrollo de todas las fases en tus evidencias (tu Fase 3 quedó cortada)",
+        "Desarrolla estrategias específicas para interpretar enunciados: subrayar datos, identificar la pregunta, diagramar",
+        "Practica con problemas de mezclas de gases y fracciones molares para consolidar este tipo de ejercicios"
+      ],
+      "createdAt": "2025-10-05 22:21:26"
+    },
+    {
+      "feedbackId": "fb_002_5A_matilde_20251005_008",
+      "weekStart": "2025-09-22",
+      "score": 30,
+      "generalComments": "Querida Matilde, debido a que no hubo período de clase esta semana, no fue posible evaluar tu progreso en Química durante este período. Reconozco tu responsabilidad al completar el reporte semanal comunicando la situación. Te recomiendo aprovechar este tiempo para repasar los conceptos de gases ideales trabajados en semanas anteriores, especialmente ejercicios de mezclas y selección de ecuaciones. Te sugiero coordinar conmigo si necesitas aclarar dudas antes del próximo encuentro.",
+      "strengths": [
+        "Cumpliste con la entrega del reporte semanal",
+        "Comunicaste claramente la situación (semana sin clase)",
+        "Mantuviste el compromiso con la plataforma"
+      ],
+      "improvements": [
+        "Aprovecha semanas sin clase para repasar conceptos de gases ideales",
+        "Practica ejercicios de mezclas gaseosas que trabajaste parcialmente en semana anterior",
+        "Prepara consultas específicas para la próxima clase presencial"
+      ],
+      "createdAt": "2025-10-05 22:21:27"
+    },
+    {
+      "feedbackId": "8bc04883-1a05-4925-8778-6ccd15a5d8fb",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 48,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:44.874Z"
+    },
+    {
+      "feedbackId": "cf9059da-2adb-4781-a5ba-c81b359bc12b",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:51.443Z"
+    },
+    {
+      "feedbackId": "13c2767d-a525-49f7-a3dd-f5813b154da3",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:34:16.272Z"
+    },
+    {
+      "feedbackId": "2c6f87a2-f585-46ab-8a8a-d05a4b062c64",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 55,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:06:37.056Z"
+    },
+    {
+      "feedbackId": "d64ffacc-5201-4f2a-ad16-06999808f162",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:54:20.547Z"
+    },
+    {
+      "feedbackId": "9c2c7e7e-e7cb-47a4-af80-7bbfd65e5918",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:41:59.905Z"
+    },
+    {
+      "feedbackId": "b7bd6df8-835a-44ec-aa1b-46b59379d952",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 36,
+      "generalComments": "Veo que esta semana enfrentaste desafíos importantes con los enlaces químicos, y lo valoro porque reconoces honestamente dónde estás teniendo dificultades. Sin embargo, tu reporte muestra que necesitas ser mucho más específico y profundo en tu análisis. No es suficiente decir \"no entendí\"; necesitas identificar exactamente qué no entendiste y por qué.\n\nTu desempeño en la Fase 2 está en nivel inicial porque aún no estás clasificando variables de forma sistemática ni conectando lo que aprendes con situaciones reales. Esto es normal en esta etapa, pero requiere un cambio en tu enfoque: de respuestas cortas a análisis detallados.\n\nPara la próxima semana, te propongo que hagas listas explícitas de variables en cada problema, que escribas estrategias concretas para superar tus dificultades, y que busques ejemplos reales de iones en tu entorno. Esto transformará tu comprensión.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces claramente que \"no comprendiste del todo la teoría\" y que necesitas más práctica. Esta autoconsciencia es el primer paso para mejorar.\n• Participación en actividades: Completaste la actividad del classroom del 20/10 sobre formación de iones, lo que muestra que estás intentando involucrarte en el aprendizaje.\n• Conocimiento básico correcto: Identificas correctamente que el oxígeno forma O²⁻, lo que indica que tienes algunos conceptos químicos básicos en construcción.",
+      "improvements": "• Identificación sistemática de variables: Necesitas aprender a distinguir qué es una variable en cada problema. Por ejemplo, en la actividad de iones: ¿cuál es el número de electrones (variable)? ¿Es conocida o desconocida? ¿Es controlable? Haz listas explícitas de variables en cada ejercicio.\n• Profundidad en el análisis de dificultades: En lugar de decir \"me mezclé con otros temas\", especifica: ¿Confundes enlaces iónicos con covalentes? ¿No entiendes cómo contar electrones? Luego propón estrategias concretas: \"Haré una tabla comparativa\" o \"Practicaré 5 ejercicios diarios de formación de iones\".\n• Conexiones con fenómenos reales: Antes de decir \"no se me ocurre\", piensa: ¿Dónde veo iones en la vida real? (sal de cocina = NaCl, agua del mar, baterías). Conecta cada concepto con algo tangible. Esto te ayudará a transferir el conocimiento a nuevos problemas.",
+      "createdAt": "2025-10-27T05:01:54.123Z"
+    },
+    {
+      "feedbackId": "1cb9a25d-5bcc-49a2-b449-de19882f9a99",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Entiendo que esta semana no pudiste asistir a clase, lo que explica por qué tu reporte está incompleto. Sin embargo, es importante que entiendas que la Fase 2 es fundamental para desarrollar tu pensamiento crítico en Química: aprender a identificar variables es la base para resolver problemas complejos más adelante.\n\nTu desempeño esta semana no refleja tu potencial real, ya que la inasistencia impide cualquier evaluación significativa. Lo positivo es que aún estás a tiempo de recuperarte y ponerte al día con tus compañeros.\n\nPara la próxima semana, mi recomendación es que regreses a clase y dediques tiempo a recuperar los contenidos perdidos. Habla conmigo si necesitas apoyo adicional o si hay algo que te impida asistir regularmente. Juntos podemos asegurar que no te quedes atrás en tu aprendizaje.",
+      "strengths": "Lamentablemente, la inasistencia a clase esta semana no permite identificar fortalezas en tu desempeño académico. Sin embargo, reconozco que completaste el reporte semanal, lo que muestra intención de participar en el proceso de evaluación.",
+      "improvements": "• Asistencia a clase: Esta es la prioridad más crítica. Sin estar presente en las sesiones de Fase 2, es imposible aprender a identificar y clasificar variables. Coordina con tu tutor si hay obstáculos para asistir y busca recuperar las clases perdidas lo antes posible.\n• Recuperación de contenidos: Una vez regreses, solicita los apuntes de la semana a un compañero o accede a los materiales en Intellego. Dedica tiempo extra para ponerte al día con la identificación de variables (conocidas/desconocidas, controlables/no controlables) que se trabajó en clase.\n• Comunicación proactiva: Si anticipas futuras ausencias, avisa con anticipación. Esto permite que te proporcione material de estudio previo o sesiones de recuperación. La comunicación temprana es clave para no quedarte atrás en pensamiento crítico.",
+      "createdAt": "2025-11-03T12:22:13.163Z"
+    },
+    {
+      "feedbackId": "21442147-50f8-4b26-9735-43daa2fa6508",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Veo que esta semana enfrentaste una introducción a un tema complejo (Teoría de Repulsión de Pares de Valencia), y reconoces honestamente que necesitas más tiempo para dominarlo. Eso es valioso. Sin embargo, tu reporte está incompleto: varias preguntas no tienen respuesta, y las que sí tienen son muy breves.\n\nTu desempeño esta semana muestra que estás en una fase inicial de la Fase 2. Identificas algunos problemas (como la confusión entre modelos), pero aún no estás clasificando variables ni conectando lo aprendido con fenómenos reales. Esto es normal si recién comenzaste, pero necesitas ser más sistemático.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas del reporte, aunque sea con respuestas cortas; (2) hagas una lista explícita de variables en cada problema que trabajes; (3) propongas estrategias concretas para resolver tus dificultades. Esto te ayudará a avanzar hacia un Nivel 3.",
+      "strengths": "• Honestidad en la autoevaluación: Reconoces que solo viste \"introducción\" al tema y que necesitas más teoría y práctica. Esta sinceridad es el primer paso para mejorar.\n• Identificación de dificultades concretas: Mencionas específicamente que confundes el modelo piramidal con el tetraédrico, lo que muestra que al menos reconoces dónde está tu problema.\n• Disposición al aprendizaje: Tu comentario \"con más teoría y práctica podré mejorar\" demuestra que tienes conciencia de que el trabajo continuo es necesario.",
+      "improvements": "• Completa todas las preguntas del reporte: Tres de tus cinco respuestas están vacías o incompletas (\"no vimos ejercicios\", \"no se me ocurre\", sin comentarios). Dedica tiempo a reflexionar sobre cada pregunta, aunque sea brevemente. Esto es fundamental para desarrollar pensamiento crítico.\n• Identifica variables específicas, no solo temas: En lugar de decir \"vimos Teoría de Repulsión de Pares de Valencia\", lista las variables que trabajaste: pares de electrones (conocida/controlable), geometría molecular (desconocida/no controlable), ángulos de enlace (magnitud física). Esto demuestra verdadero dominio.\n• Propón estrategias para superar dificultades: Cuando identifiques que confundes modelos, sugiere cómo resolverlo: \"Haré una tabla comparativa entre pirámide y tetraedro\" o \"Usaré modelos 3D para visualizar mejor\". La metacognición requiere acción, no solo reconocimiento del problema.",
+      "createdAt": "2025-11-12T23:00:42.963Z"
+    },
+    {
+      "feedbackId": "0db4e51c-c975-4620-aeab-e28d4c0a09d1",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Veo que esta semana has trabajado en Fase 2, pero tu reporte muestra que aún no has integrado completamente lo que aprendiste. Tienes bases sólidas en conceptos básicos (como Lewis), y es positivo que reconozcas dónde tienes dificultades con fuerzas intermoleculares.\n\nSin embargo, tu reporte está incompleto: faltan respuestas en Q4 y Q5, y las que sí escribiste son muy breves y genéricas. Para que yo pueda ayudarte mejor, necesito que profundices en tus reflexiones y que muestres evidencia clara de cómo identificas y clasificas variables.\n\nPara la próxima semana, te pido que: (1) completes todas las preguntas con respuestas detalladas, (2) des ejemplos concretos de variables que trabajaste, y (3) propongas estrategias específicas para superar la dificultad con fuerzas intermoleculares. Estoy aquí para apoyarte.",
+      "strengths": "• Reconoces tus dificultades: Identificas que la parte 3 del examen (fuerzas intermoleculares) es un área de desafío. Esto muestra autoconciencia, que es el primer paso para mejorar.\n• Dominio parcial de conceptos básicos: Tu representación del símbolo de Lewis para el fósforo es correcta (5 electrones de valencia). Esto indica que tienes bases sólidas en estructura atómica.\n• Honestidad en la autoevaluación: Al decir que algo \"te cuesta\", demuestras disposición a reconocer limitaciones en lugar de pretender dominio total.",
+      "improvements": "• Sé específico en tus respuestas: En lugar de \"entiendo todo\", describe exactamente qué variables identificaste esta semana (ej: \"Identifiqué variables controlables como temperatura y presión en reacciones químicas\"). Esto permite que yo vea realmente qué aprendiste y dónde necesitas apoyo.\n• Profundiza en tus dificultades y propón soluciones: No basta decir \"me cuesta entender fuerzas intermoleculares\". Pregúntate: ¿Qué tipo específico? ¿Cómo puedo practicarlo? Propón estrategias concretas como \"haré una tabla comparativa de fuerzas\" o \"resolveré 5 ejercicios de aplicación\".\n• Conecta lo aprendido con ejemplos reales: Para Q4, intenta responder: ¿Cómo identificarías variables en un experimento de tu vida cotidiana? (ej: \"En la ebullición del agua, la temperatura es variable controlable y el tiempo es variable dependiente\"). Esto demuestra que realmente comprendes, no solo memorizas.",
+      "createdAt": "2025-11-17T13:58:54.860Z"
+    }
+  ]
+}

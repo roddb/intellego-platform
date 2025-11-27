@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "studentId": "u_dolvu0ftme1bvul5",
+    "studentName": "Catalina Cacopardo",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189420",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 71.6,
+      "minScore": 62,
+      "maxScore": 77,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-08-11_001",
+      "weekStart": "2025-08-11",
+      "score": 73,
+      "generalComments": "Querida Catalina Cacopardo, has alcanzado un buen nivel en la Fase 2: Identificación de variables y datos, cumpliendo con las expectativas de esta etapa en Química. Organizas adecuadamente los datos y la información disponible. Reconoces las magnitudes físicas/químicas relevantes y sus unidades. Es importante mejorar la organización y clasificación de los datos disponibles. Necesitas sistematizar el proceso de análisis de datos de manera más estructurada. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Organizas adecuadamente los datos y la información disponible en problemas de gases ideales",
+        "Reconoces las magnitudes físicas/químicas relevantes y sus unidades (presión, volumen, temperatura)",
+        "Demuestras capacidad de reflexión sobre tu propio proceso de aprendizaje"
+      ],
+      "improvements": [
+        "Es importante mejorar la organización y clasificación sistemática de los datos disponibles",
+        "Necesitas sistematizar el proceso de análisis de datos mediante matrices de clasificación",
+        "Te recomiendo practicar la distinción entre variables controlables y no controlables"
+      ],
+      "createdAt": "2025-10-07 13:49:03"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-08-18_002",
+      "weekStart": "2025-08-18",
+      "score": 77,
+      "generalComments": "Querida Catalina Cacopardo, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas fórmulas correctas mayormente para problemas de gases ideales. Comprendes relaciones básicas entre presión, volumen y temperatura. Aplicas teoría básica de ecuaciones de estado. Es importante mejorar la justificación de por qué seleccionas determinadas herramientas. Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas fórmulas correctas para problemas de gases ideales (ecuación general)",
+        "Comprendes relaciones básicas entre variables termodinámicas (P, V, T)",
+        "Desarrollas estrategias para identificar qué herramienta usar (anotar qué datos cambian)"
+      ],
+      "improvements": [
+        "Es importante mejorar la justificación de por qué seleccionas determinadas herramientas matemáticas",
+        "Debes practicar más la aplicación de ecuaciones a situaciones concretas variadas",
+        "Te recomiendo profundizar en distinguir cuándo usar leyes específicas vs ecuación general"
+      ],
+      "createdAt": "2025-10-07 13:50:29"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-09-01_003",
+      "weekStart": "2025-09-01",
+      "score": 77,
+      "generalComments": "Querida Catalina Cacopardo, has alcanzado un buen nivel en la Fase 3: Selección de herramientas y relaciones, cumpliendo con las expectativas de esta etapa en Química. Seleccionas herramientas apropiadas para problemas con cambios de temperatura y presión. Comprendes la relación entre variables en ecuaciones de gases. Muestras organización en el proceso de resolución. Es importante mejorar el manejo de conversiones de unidades de manera sistemática. Debes trabajar en la integración simultánea de múltiples variables. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Seleccionas herramientas apropiadas para problemas termodinámicos complejos (tanque con incendio)",
+        "Comprendes la relación entre variables en ecuaciones de gases y aplicas correctamente",
+        "Muestras organización al anotar primero información importante antes de resolver"
+      ],
+      "improvements": [
+        "Es importante mejorar el manejo sistemático de conversiones de unidades (°C a K)",
+        "Debes trabajar en la integración simultánea de múltiples variables y datos adicionales",
+        "Te recomiendo practicar la distinción entre información relevante e irrelevante en enunciados complejos"
+      ],
+      "createdAt": "2025-10-07 13:50:30"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-09-08_004",
+      "weekStart": "2025-09-08",
+      "score": 73,
+      "generalComments": "Querida Catalina Cacopardo, te encuentras en proceso de desarrollo en la Fase 4: Estrategia y ejecución completa, mostrando avances parciales en Química. Ejecutas cálculos correctamente en problemas simples (Ley de Charles). Desarrollas estrategias para organizar datos y conversiones. Realizas conexiones con aplicaciones cotidianas. Es importante mejorar la planificación de estrategia en problemas de mayor complejidad. Necesitas ser más sistemática en la ejecución cuando hay múltiples pasos. Te recomiendo incorporar la verificación de unidades como parte habitual de tu proceso. Sigue trabajando con dedicación. Cada paso que das te acerca más a tus objetivos.",
+      "strengths": [
+        "Ejecutas cálculos correctamente en problemas con una variable (Ley de Charles, 2 L a 2,14 L)",
+        "Desarrollas estrategias de organización (anotar qué cambia y qué se mantiene)",
+        "Realizas conexiones significativas con aplicaciones cotidianas (globos, jeringas, ruedas)"
+      ],
+      "improvements": [
+        "Es importante mejorar la planificación de estrategia completa en problemas largos y complejos",
+        "Necesitas ser más sistemática en la ejecución cuando hay múltiples pasos secuenciales",
+        "Te recomiendo incorporar la verificación dimensional y de unidades como parte habitual de tu proceso",
+        "Proporciona evidencias más concretas del proceso completo de resolución"
+      ],
+      "createdAt": "2025-10-07 13:50:30"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-09-15_005",
+      "weekStart": "2025-09-15",
+      "score": 77,
+      "generalComments": "Querida Catalina Cacopardo, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Planificas adecuadamente la estrategia de resolución en problemas con múltiples cambios de variables. Ejecutas correctamente la mayoría de los cálculos aplicando la ley combinada de gases. Evidencias organización al convertir unidades antes de comenzar los cálculos. Es importante mejorar la ejecución cuando hay múltiples variables cambiando simultáneamente. Necesitas incorporar más verificación de resultados al finalizar. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Planificas adecuadamente la estrategia en problemas con cambios múltiples (P, V, T simultáneos)",
+        "Ejecutas correctamente cálculos complejos (presión final 8,35 atm en compresión con enfriamiento)",
+        "Evidencias organización sistemática al convertir y anotar todos los datos antes de calcular"
+      ],
+      "improvements": [
+        "Es importante mejorar la confianza en la ejecución cuando múltiples variables cambian simultáneamente",
+        "Necesitas incorporar verificación de razonabilidad de resultados al finalizar",
+        "Te recomiendo explicitar más tu proceso de pensamiento en las 4 fases"
+      ],
+      "createdAt": "2025-10-07 13:50:31"
+    },
+    {
+      "feedbackId": "fb_002_1_me1bvul5_2025-09-22_006",
+      "weekStart": "2025-09-22",
+      "score": 77,
+      "generalComments": "Querida Catalina Cacopardo, has alcanzado un buen nivel en la Fase 4: Estrategia y ejecución completa, cumpliendo con las expectativas de esta etapa en Química. Ejecutas cálculos correctamente obteniendo el resultado esperado (5610 mm Hg). Desarrollas herramientas propias de apoyo (tabla de conversiones). Realizas conexiones significativas con fenómenos cotidianos (aerosoles, gomas de auto). Es importante profundizar en problemas con mezclas de gases y presiones parciales. Necesitas ampliar tu dominio a contextos más variados. ¡Buen trabajo! Sigue así y podrás alcanzar niveles de excelencia.",
+      "strengths": [
+        "Ejecutas cálculos con múltiples cambios de variables correctamente (resultado 5610 mm Hg)",
+        "Desarrollas herramientas propias de apoyo (tabla de conversiones en carpeta)",
+        "Realizas conexiones significativas con fenómenos cotidianos (aerosoles, gomas de auto)"
+      ],
+      "improvements": [
+        "Es importante profundizar en problemas con mezclas de gases y presiones parciales (nivel 2 identificado)",
+        "Necesitas ampliar tu dominio a contextos más variados más allá de P, V, T básicos",
+        "Te recomiendo practicar sin consultar el apunte para fortalecer autonomía completa"
+      ],
+      "createdAt": "2025-10-07 13:50:31"
+    },
+    {
+      "feedbackId": "00936b11-cd8c-4e0d-9bed-348a7d612a4d",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:53:22.946Z"
+    },
+    {
+      "feedbackId": "9113db22-89a3-407b-b69c-839c75273aae",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:40:05.730Z"
+    },
+    {
+      "feedbackId": "7b95a6a2-5a8b-46bd-9e72-e555b9ae493b",
+      "weekStart": "2025-10-20T03:00:00.000Z",
+      "score": 62,
+      "generalComments": "Veo que estás trabajando con conceptos químicos importantes y que tu ejemplo del CO demuestra que puedes analizar problemas reales. Tu honestidad al reconocer dificultades es valiosa, porque te permite buscar estrategias específicas para superarlas.\n\nSin embargo, esta semana tu reporte no evidencia completamente el trabajo de la Fase 2. Identificas variables en el ejemplo, pero no las clasificas sistemáticamente ni las distingues como magnitudes físicas. Además, Q5 está vacía, lo que significa que perdiste la oportunidad de reflexionar sobre tu progreso.\n\nPara la próxima semana, enfócate en: (1) clasificar explícitamente cada variable que identifiques, (2) proponer estrategias concretas (no genéricas) para tus dificultades, y (3) completar todas las preguntas, especialmente la reflexión final. Esto te preparará mejor para la Fase 3.",
+      "strengths": "• Comprensión conceptual del enlace químico: Tu análisis del CO muestra que entiendes cómo la geometría molecular y la electronegatividad determinan la polaridad. Esto demuestra pensamiento integrador entre conceptos.\n• Honestidad metacognitiva: Reconoces claramente qué te cuesta (\"imaginar cosas que no se pueden ver\") y solicitas apoyo. Esta autoconciencia es el primer paso para mejorar tu aprendizaje.\n• Conexión con lo práctico: Intentas vincular la teoría con el laboratorio, lo que muestra disposición a aplicar lo aprendido más allá del aula.",
+      "improvements": "• Clasificación sistemática de variables: En Fase 2 debes identificar explícitamente qué variables son conocidas/desconocidas y controlables/no controlables. Por ejemplo, en el CO: electronegatividad (conocida, no controlable), forma molecular (derivada, controlable). Practica esto en cada problema.\n• Estrategias concretas para visualizar lo abstracto: En lugar de pedir \"más ejemplos\", propón métodos específicos: modelos 3D, simulaciones interactivas, o analogías con sistemas macroscópicos. Prueba con PhET Simulations o modelos moleculares físicos.\n• Profundidad en Q5 - Reflexión metacognitiva: Dedica tiempo a escribir cómo evolucionaste desde Fase 1, qué categorías de variables ahora entiendes mejor, y qué preguntas nuevas surgieron. Esto consolida tu aprendizaje.",
+      "createdAt": "2025-10-27T05:06:43.029Z"
+    },
+    {
+      "feedbackId": "88482728-409e-461a-8309-fb8e48ae8c9a",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 69,
+      "generalComments": "Hiciste un buen trabajo esta semana identificando geometrías moleculares y aplicando los modelos AX correctamente. Tus ejemplos son precisos y tu estrategia de dibujar estructuras de Lewis es muy efectiva. Veo que estás construyendo una base sólida en este tema.\n\nSin embargo, tu reporte muestra que aún no estás clasificando variables de forma sistemática, que es el corazón de la Fase 2. Tus respuestas son descriptivas pero no analíticas. Además, dejaste vacía la pregunta 5, lo que significa que perdiste la oportunidad de reflexionar profundamente sobre tu aprendizaje.\n\nPara la próxima semana, te propongo que: (1) en cada molécula que analices, hagas una tabla explícita de variables (pares de electrones, ángulos, geometría) clasificándolas; (2) intentes predecir la geometría de moléculas nuevas sin mirar respuestas, para practicar transferencia; (3) dediques tiempo a escribir reflexiones genuinas sobre lo que aprendiste y cómo lo aprendiste.",
+      "strengths": "• Dominio de modelos moleculares: Identificas correctamente los modelos AX y sus geometrías asociadas (lineal, angular, tetraédrica). Tu ejemplo del CH₄ con ángulo 109,5° muestra precisión en los datos clave.\n• Estrategia de visualización efectiva: Reconoces que dibujar estructuras de Lewis te ayuda a comprender mejor. Esta es una estrategia metacognitiva valiosa que demuestra autoconocimiento sobre tu propio aprendizaje.\n• Conexión con conceptos previos: Relacionas la geometría molecular con enlaces covalentes y electronegatividad, mostrando que intentas integrar lo aprendido en fases anteriores.",
+      "improvements": "• Clasificación explícita de variables: Tu respuesta describe temas pero no clasifica variables como \"conocidas/desconocidas\" o \"controlables/no controlables\". Por ejemplo, en H₂O podrías identificar: número de pares libres (conocido, no controlable), ángulo de enlace (conocido, no controlable), geometría (derivada, no controlable). Practica esta clasificación en cada molécula que analices.\n• Profundidad en conexiones: Tu respuesta a Q4 es muy breve. Necesitas explicar *específicamente* cómo la electronegatividad afecta la distribución de electrones y, por tanto, la geometría. Intenta responder: \"¿Qué pasaría si cambio la electronegatividad de un átomo?\" para demostrar transferencia real.\n• Completar reflexiones finales: La pregunta 5 está vacía. Dedica tiempo a reflexionar sobre: ¿Qué aprendiste sobre ti como estudiante esta semana? ¿Cómo evolucionaste desde la Fase 1? ¿Qué preguntas nuevas surgieron? Estas reflexiones son cruciales para el pensamiento crítico.",
+      "createdAt": "2025-11-17T13:40:17.061Z"
+    }
+  ]
+}

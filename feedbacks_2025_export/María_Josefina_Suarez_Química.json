@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "studentId": "db79e911-5a6b-426e-b2f3-6c3e27ce623b",
+    "studentName": "María Josefina Suarez",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.221800",
+    "statistics": {
+      "totalFeedbacks": 10,
+      "feedbacksWithScore": 10,
+      "averageScore": 58.9,
+      "minScore": 34,
+      "maxScore": 82,
+      "weeksCovered": 7,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-10-13T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-08-11_6a2c3634",
+      "weekStart": "2025-08-11",
+      "score": 75.5,
+      "generalComments": "María Josefina demuestra una comprensión sólida de la Fase 2 del pensamiento crítico aplicada al equilibrio químico. Su trabajo con el ejercicio del buffer casero muestra que puede identificar y clasificar variables químicas en contextos reales, lo cual es un logro significativo. Su autoevaluación realista ('entendí bastante bien... pero todavía me confundo un poco') refleja metacognición apropiada. Aprecia la conexión con situaciones cotidianas, lo cual facilita su aprendizaje.",
+      "strengths": [
+        "Identifica correctamente variables químicas relevantes: concentración de vinagre, cantidad de acetato de sodio, pH objetivo, temperatura",
+        "Clasifica variables usando la matriz conocidas/desconocidas y controlables/no controlables",
+        "Valora explícitamente la conexión con ejemplos cotidianos (buffer casero, fermentación del yogur, procesos industriales)"
+      ],
+      "improvements": [
+        "Profundizar en la distinción entre variables controlables y no controlables: crear una lista de ejemplos de cada tipo para referencia",
+        "Practicar con ejercicios adicionales donde deba clasificar la constante de equilibrio (Kc) correctamente como conocida y no controlable",
+        "Desarrollar Q4 con mayor especificidad: además de tablas y datos, ¿qué herramientas matemáticas específicas usa?"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-01_7581b22f",
+      "weekStart": "2025-09-01",
+      "score": 80.5,
+      "generalComments": "María Josefina demuestra un nivel avanzado de comprensión del equilibrio químico, trabajando con problemas complejos que requieren múltiples herramientas y análisis profundo. Su autoevaluación detallada por subtemas (niveles 2-4) muestra metacognición desarrollada. Su capacidad para analizar Qc, construir tablas ICE, y calcular Kc con procedimiento completo evidencia integración sólida de F1+F2+F3+F4. La conexión con cinética química que establece es sofisticada y muestra pensamiento crítico avanzado.",
+      "strengths": [
+        "Autoevaluación exhaustiva de 5 subtemas específicos con niveles diferenciados, mostrando análisis metacognitivo profundo",
+        "Resolución completa de ejercicios complejos (NOBr y NH₃) con cálculos de Qc, predicción de dirección, y determinación de Kc",
+        "Establece conexión sofisticada entre equilibrio y cinética: 'K favorece productos pero si reacción es lenta hay que usar catalizadores'"
+      ],
+      "improvements": [
+        "Practicar la escritura de expresiones de Kc con diferentes coeficientes estequiométricos hasta automatizar el proceso de potenciación",
+        "Consolidar el procedimiento de conversión de moles a concentraciones ([]=moles/volumen) con ejercicios adicionales",
+        "Desarrollar Q5 con reflexiones sobre su proceso de aprendizaje y evolución desde fases anteriores"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-08_64a0bde5",
+      "weekStart": "2025-09-08",
+      "score": 72,
+      "generalComments": "María Josefina trabajó en repaso de equilibrio químico, consolidando conceptos a través de mayor cantidad de ejemplos y práctica con tablas de variación. Su comprensión ha mejorado notablemente respecto a reportes anteriores, y su capacidad de seguir procedimientos paso a paso con tablas ICE es correcta. Sin embargo, sus respuestas en este reporte son más breves y menos detalladas que lo habitual, lo cual puede deberse al enfoque de repaso en lugar de contenido nuevo.",
+      "strengths": [
+        "Reconoce mejora en su comprensión gracias a 'más ejemplos y práctica con tablas de variación'",
+        "Describe correctamente el procedimiento: datos en tabla → concentraciones en equilibrio → cálculo de Kc",
+        "Identifica apropiadamente la conversión moles-concentración como su principal dificultad"
+      ],
+      "improvements": [
+        "Especificar el ejercicio de descomposición de NO₂ con más detalle: ¿ecuación? ¿valores iniciales? ¿resultado de Kc?",
+        "Profundizar en Q3 sobre la estrategia para convertir moles a concentración: ¿usa []=moles/V(L)? ¿Qué otros métodos conoce?",
+        "Desarrollar Q4 más allá de cuentas y ecuaciones: ¿estequiometría? ¿sistemas de ecuaciones? ¿proporciones?"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "fb_backfill_27ce623b_2025-09-15_bfc03a07",
+      "weekStart": "2025-09-15",
+      "score": 82,
+      "generalComments": "Excelente desempeño. Demuestra una muy buena comprensión de los conceptos de enlace químico y su aplicación práctica. La presentación es clara y las explicaciones están bien fundamentadas.",
+      "strengths": [
+        "Identifica correctamente los conceptos clave de enlace iónico, covalente y metálico",
+        "Aplica adecuadamente los conocimientos para explicar propiedades de los materiales",
+        "Presenta información de manera clara y organizada con buen uso de ejemplos",
+        "Demuestra comprensión profunda al relacionar tipo de enlace con propiedades físicas"
+      ],
+      "improvements": [
+        "Podría profundizar más en las explicaciones sobre las diferencias entre enlaces covalentes polares y no polares",
+        "Sería beneficioso incluir más ejemplos concretos de cada tipo de enlace",
+        "Podría mejorar la conexión entre teoría y aplicaciones cotidianas"
+      ],
+      "createdAt": "2025-10-02T17:00:00Z"
+    },
+    {
+      "feedbackId": "85172e54-559b-4645-815f-5f51c2153ba5",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:46.451Z"
+    },
+    {
+      "feedbackId": "ad6c8db6-a580-44f5-9d99-48b89c03e2ff",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 59,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:54.070Z"
+    },
+    {
+      "feedbackId": "d2d474ed-f017-4d4b-b87b-850cceca8530",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:32:33.465Z"
+    },
+    {
+      "feedbackId": "f8d6de65-80ed-4e72-948a-53918e2ab052",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 43,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:03:35.833Z"
+    },
+    {
+      "feedbackId": "cad14ac6-0c5f-4800-9357-d96ca32df9ea",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 41,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:51:41.842Z"
+    },
+    {
+      "feedbackId": "5c218151-a4a0-4802-8375-90a73ed442fc",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:37:39.942Z"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "studentId": "u_4cnmxf77amdynltex",
+    "studentName": "Catalina Varrente",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.191589",
+    "statistics": {
+      "totalFeedbacks": 11,
+      "feedbacksWithScore": 11,
+      "averageScore": 51.18,
+      "minScore": 27,
+      "maxScore": 70,
+      "weeksCovered": 9,
+      "dateRange": {
+        "firstWeek": "2025-08-11",
+        "lastWeek": "2025-11-10T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-08-11_7a274257",
+      "weekStart": "2025-08-11",
+      "score": 62,
+      "generalComments": "Catalina, en esta semana trabajaste en la Fase 2 del pensamiento crítico, enfocada en la identificación de variables y datos. Tu reporte es muy breve y falta evidencia del proceso de aprendizaje. Mencionas que 'trabajaste con variables' pero no especificas cuáles ni cómo las identificaste. Es importante que desarrolles tus respuestas con mayor detalle para demostrar tu comprensión del proceso metodológico de las 4 fases.",
+      "strengths": [
+        "Identificación del tema trabajado (variables)",
+        "Reconocimiento de que estás en Fase 2",
+        "Entrega del reporte en tiempo y forma"
+      ],
+      "improvements": [
+        "Desarrollar respuestas más completas que muestren el proceso de identificación de variables (conocidas/desconocidas, controlables)",
+        "Incluir ejemplos concretos de problemas trabajados en clase",
+        "Especificar las dificultades encontradas y las estrategias utilizadas",
+        "Completar Q5 con reflexiones sobre tu progreso semanal",
+        "Conectar las variables químicas con situaciones prácticas o conceptos previos"
+      ],
+      "createdAt": "2025-10-02T15:00:12Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-08-18_3c5b0131",
+      "weekStart": "2025-08-18",
+      "score": 66,
+      "generalComments": "Catalina, avanzas a la Fase 3 trabajando con la selección de herramientas y relaciones (fórmulas para equilibrio químico). Tu comentario sobre la dificultad con 'el tema' es demasiado general - necesitas especificar qué aspecto exacto te resulta difícil (¿las fórmulas de Kc? ¿el principio de Le Chatelier? ¿los cálculos?). La mención de que usaste 'IA para resolver' es importante pero requiere reflexión: ¿qué aprendiste del proceso? ¿podrías resolver un problema similar sin ayuda? En Q5 no incluiste reflexión, lo cual limita el desarrollo de tu metacognición.",
+      "strengths": [
+        "Reconocimiento de que estás en Fase 3 (selección de herramientas)",
+        "Honestidad al mencionar el uso de IA como recurso de apoyo",
+        "Identificación de una dificultad con el tema"
+      ],
+      "improvements": [
+        "Especificar exactamente qué aspecto del equilibrio químico te resulta difícil (fórmulas, conceptos, cálculos)",
+        "Reflexionar sobre el uso de IA: ¿qué pasos seguiste? ¿qué aprendiste que puedas aplicar de forma independiente?",
+        "Desarrollar estrategias propias antes de recurrir a ayuda externa",
+        "Completar Q5 con reflexiones sobre tu proceso de aprendizaje",
+        "Incluir ejemplos concretos de problemas trabajados"
+      ],
+      "createdAt": "2025-10-02T15:00:13Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-01_ed69f939",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Catalina, trabajas en la Fase 4 con el modelo de examen. Tu comentario de que 'no tuviste dificultades' contrasta con la brevedad de tu reporte y la falta de evidencia del proceso completo. En Fase 4 se espera ver: identificación del objetivo, análisis de variables, selección de fórmulas justificada, y ejecución con verificación. Tu respuesta no demuestra estos elementos. Q5 continúa vacía, lo cual es un patrón preocupante que limita severamente tu desarrollo de autorregulación.",
+      "strengths": [
+        "Identificación de que estás en Fase 4 (modelo de examen)",
+        "Percepción de que no tuviste dificultades (podría indicar confianza)",
+        "Entrega del reporte"
+      ],
+      "improvements": [
+        "Mostrar el proceso completo de resolución de problemas, no solo mencionar que los hiciste",
+        "En Fase 4, evidenciar las 4 fases integradas: F1 (objetivo), F2 (variables), F3 (fórmulas), F4 (ejecución)",
+        "Desarrollar autocrítica: si realmente no tuviste dificultades, demuéstralo con un problema resuelto completo",
+        "CRÍTICO: Completar Q5 en todos los reportes - es obligatorio para desarrollar metacognición",
+        "Buscar conexiones más profundas con otros contextos (Q4 está vacío)"
+      ],
+      "createdAt": "2025-10-02T15:00:14Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-15_5979c17f",
+      "weekStart": "2025-09-15",
+      "score": 62,
+      "generalComments": "Catalina, en este simulacro de examen (Fase 4) tus respuestas continúan siendo muy breves. Mencionas 'me ayudó la IA' pero esto es problemático si no comprendes el proceso de forma independiente. En una evaluación real no tendrás acceso a IA, por lo que es fundamental que desarrolles autonomía ahora. La dificultad con 'manejar muchas variables' es específica y valiosa - esto es exactamente lo que debes practicar intensamente antes del examen. Q5 sigue vacío.",
+      "strengths": [
+        "Identificación de una dificultad específica (manejo de múltiples variables)",
+        "Reconocimiento del uso de IA como recurso",
+        "Honestidad sobre las limitaciones"
+      ],
+      "improvements": [
+        "Practicar problemas de equilibrio de forma INDEPENDIENTE sin IA - es urgente antes del examen",
+        "Desarrollar estrategias para manejar múltiples variables: tablas organizativas, diagramas, listas sistemáticas",
+        "Trabajar con problemas guiados que te obliguen a mostrar cada paso del proceso",
+        "Completar Q5 OBLIGATORIAMENTE - sin reflexión metacognitiva no hay aprendizaje profundo",
+        "Preparar un plan de estudio específico para el examen"
+      ],
+      "createdAt": "2025-10-02T15:00:15Z"
+    },
+    {
+      "feedbackId": "fb_backfill_mdynltex_2025-09-22_1af7bb26",
+      "weekStart": "2025-09-22",
+      "score": 70,
+      "generalComments": "Excelente mejora en este último reporte antes del examen, Catalina. Tu respuesta en Q2 es significativamente más completa: mencionas las 4 fases explícitamente y describes el proceso (identificar objetivo, variables, fórmulas, resolver). Esto es exactamente lo que se esperaba desde hace varias semanas. Tu reconocimiento de que 'a veces no sé qué herramientas usar' es una dificultad concreta que puede trabajarse. La mejora en el nivel de detalle y la estructura de tu respuesta demuestra que SÍ puedes hacerlo cuando te lo propones. Sin embargo, Q5 continúa vacío.",
+      "strengths": [
+        "Mejora notable en el nivel de detalle y estructura de las respuestas",
+        "Mención explícita de las 4 fases del pensamiento crítico aplicadas al problema",
+        "Identificación de una dificultad técnica específica (selección de herramientas)",
+        "Demostración de que puede desarrollar reportes completos cuando se enfoca"
+      ],
+      "improvements": [
+        "Mantener este nivel de detalle en todos los futuros reportes",
+        "Practicar la selección justificada de herramientas: crear un menú de fórmulas con criterios de cuándo usar cada una",
+        "Completar Q5 - es el único elemento que falta para tener reportes completos",
+        "Desarrollar autoverificación: antes de entregar, preguntarte ¿demostré mi proceso de pensamiento?"
+      ],
+      "createdAt": "2025-10-02T15:00:16Z"
+    },
+    {
+      "feedbackId": "85a5e5f6-0348-4ed8-8977-b49919333108",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T04:47:04.706Z"
+    },
+    {
+      "feedbackId": "59f5a07a-76df-4e10-974a-6d7d96ab7da0",
+      "weekStart": "2025-09-29T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:12:48.690Z"
+    },
+    {
+      "feedbackId": "5dbb9188-8d36-466e-a44e-e4fd4ab37e93",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:26:43.550Z"
+    },
+    {
+      "feedbackId": "2947169a-ce1f-43f3-9f54-393c5122f017",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 27,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:38:43.918Z"
+    },
+    {
+      "feedbackId": "35cb0361-d799-4bcf-a4ef-e3d516c0f590",
+      "weekStart": "2025-10-27T03:00:00.000Z",
+      "score": 66,
+      "generalComments": "Veo que tienes capacidad real para resolver problemas químicos complejos. Tu Ejercicio 11.6 está muy bien hecho: identificas variables, aplicas fórmulas correctamente y llegas a resultados precisos. Eso es un logro importante que debes reconocer.\n\nSin embargo, tu reporte muestra una inconsistencia preocupante: cuando trabajas un ejercicio específico, demuestras dominio; pero cuando reflexionas sobre lo aprendido, tus respuestas son muy genéricas. Esto sugiere que entiendes los temas, pero aún no reflexionas profundamente sobre tu propio proceso de aprendizaje.\n\nPara la próxima semana: Dedica tiempo a responder cada pregunta con detalle. No es suficiente decir \"me cuesta\"; explica QUÉ te cuesta y POR QUÉ. Esto te ayudará a identificar exactamente dónde necesitas refuerzo y acelerará tu progreso.",
+      "strengths": "• Dominio de cálculos ácido-base: Tu resolución del Ejercicio 11.6 muestra precisión en operaciones logarítmicas y manejo correcto de Kw. Los pasos están bien organizados y los resultados son exactos.\n• Identificación clara de variables en contexto: Cuando trabajas un problema específico, distingues bien entre datos (0,0150 M) e incógnitas ([H₃O⁺], pH). Esto demuestra que SÍ sabes identificar variables cuando te enfocas.\n• Estructura metodológica en resolución: Tu formato F1-F2-F3-F4 muestra que comprendes la importancia de organizar el problema antes de resolverlo. Esto es fundamental para el pensamiento crítico.",
+      "improvements": "• Amplía tu respuesta en Q1: No basta decir \"lo entiendo pero me cuesta.\" Especifica: ¿Qué variables del pH te cuestan? ¿Es diferenciar [H⁺] de [OH⁻]? ¿O entender por qué pH + pOH = 14? Sé concreto para que podamos ayudarte mejor.\n• Conecta variables con fenómenos reales: En Q4, en lugar de solo mencionar matemática, pregúntate: ¿Por qué necesitamos calcular pH en una solución? ¿Qué cambia si usamos HCl en lugar de KOH? Esto te ayudará a transferir lo aprendido a nuevas situaciones.\n• Completa todas las preguntas del reporte: Q5 está vacía. Usa ese espacio para reflexionar: ¿Qué aprendiste sobre clasificar variables? ¿Cómo ha mejorado tu forma de abordar problemas desde la Fase 1? La reflexión es clave para consolidar aprendizaje.",
+      "createdAt": "2025-11-03T12:27:53.515Z"
+    },
+    {
+      "feedbackId": "84994453-db1c-446b-bfcb-cb189d6bf02b",
+      "weekStart": "2025-11-10T03:00:00.000Z",
+      "score": 67,
+      "generalComments": "Excelente trabajo en esta semana. Tu desempeño en Q1 y Q2 es muy sólido: dominas los cálculos de pH/pOH, identificas correctamente ácidos y bases fuertes, y resuelves problemas de forma sistemática. El ejercicio 11.6 es un ejemplo claro de cómo aplicas el método paso a paso.\n\nSin embargo, tu reporte tiene un desequilibrio importante: las preguntas 3, 4 y 5 están muy incompletas o superficiales. Esto reduce significativamente la calidad de tu reflexión crítica. La Fase 2 no es solo calcular bien; es también reflexionar sobre *cómo* identificas variables, *dónde* las aplicas y *qué* aprendiste del proceso.\n\nPara la próxima semana, dedica tiempo a responder con profundidad las preguntas de reflexión. Sé específico en tus dificultades, propón estrategias concretas y conecta lo que aprendes con situaciones reales. Esto elevará tu pensamiento crítico al siguiente nivel.",
+      "strengths": "• Dominio de cálculos y procedimientos: Tu resolución del ejercicio 11.6 es impecable. Aplicas correctamente la disociación completa, el factor 2 en Ca(OH)₂, y verificas tu respuesta. Esto muestra precisión matemática y rigor en el método.\n• Autoevaluación honesta: Reconoces que Ka y Kb te cuestan más trabajo (Nivel 3), lo que demuestra autoconciencia. No pretendas dominar todo; esto es realista y ayuda a identificar dónde enfocarte.\n• Integración de conceptos previos: Conectas Kw con pH/pOH y entiendes la relación pH + pOH = 14. Esto muestra que integras bien la Fase 1 con la Fase 2 en problemas de bases fuertes.",
+      "improvements": "• Profundizar en Q3 (Dificultades y estrategias): Tu respuesta es muy vaga. Necesitas ser específico: ¿Qué te cuesta? ¿Distinguir entre Ka y Kb? ¿Trabajar con logaritmos? ¿Identificar si una base es fuerte o débil? Propón estrategias concretas: \"Para diferenciar, hago una tabla comparativa\" o \"Practico logaritmos con ejercicios adicionales.\"\n• Expandir Q4 (Conexiones reales): No basta mencionar matemática. Conecta con química real: ¿Cómo se usa pH en laboratorios? ¿Por qué importa saber si HCl es fuerte? ¿Dónde se aplica Kw en la industria? Transfiere tu identificación de variables a problemas nuevos que no hayas visto.\n• Completar Q5 (Reflexión final): Escribe al menos 3-4 líneas reflexionando sobre: ¿Qué aprendiste sobre variables en ácidos/bases? ¿Cómo evolucionaste desde Fase 1? ¿Qué te sorprendió? Esto consolida tu aprendizaje y muestra pensamiento crítico profundo.",
+      "createdAt": "2025-11-17T13:57:03.989Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "studentId": "u_gw49maclcme6i3g64",
+    "studentName": "mercedes rizzo lynch",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.245883",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 30.0,
+      "minScore": 30,
+      "maxScore": 30,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_mercedes_week1_56EAF045FF893029",
+      "weekStart": "2025-08-04",
+      "score": 30,
+      "generalComments": "Mercedes, comprendo que faltaste y que el contenido te resultó difícil. Es importante solicitar el material de las clases perdidas y buscar apoyo. Tu conexión con matemática muestra pensamiento integrador.",
+      "strengths": [
+        "Identificación de la conexión entre física y matemática",
+        "Honestidad al reconocer dificultades",
+        "Intención de comprender más profundamente"
+      ],
+      "improvements": [
+        "Solicitar material y explicación de clases perdidas",
+        "Buscar apoyo adicional para ponerse al día",
+        "Completar las respuestas con mayor detalle",
+        "Establecer estrategia de recuperación"
+      ],
+      "createdAt": "2025-01-10 19:27:00"
+    }
+  ]
+}

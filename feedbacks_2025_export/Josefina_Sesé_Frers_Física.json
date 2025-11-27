@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_2a8ho1wtpme1opou7",
+    "studentName": "Josefina Sesé Frers",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.207704",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 72.5,
+      "minScore": 66,
+      "maxScore": 79,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-18"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1opou7_2025-08-04_a9d4a5e3",
+      "weekStart": "2025-08-04",
+      "score": 66,
+      "generalComments": "Josefina, tu desempeño en la Fase 1 muestra una comprensión sólida de los conceptos fundamentales de termodinámica. Has identificado correctamente los tipos de sistemas termodinámicos y las variables de estado, demostrando capacidad para analizar situaciones concretas como el ejemplo del recipiente con tapa. Tu autoevaluación honesta (nivel 2) refleja madurez metacognitiva. El principal desafío es profundizar en la aplicación práctica del equilibrio térmico y desarrollar estrategias más elaboradas para superar dificultades conceptuales.",
+      "strengths": [
+        "Identificas claramente los tipos de sistemas termodinámicos (abierto, cerrado, aislado) y sus características distintivas",
+        "Presentas evidencia concreta de razonamiento sistemático al analizar el ejercicio del recipiente con tapa, conectando con definiciones del cuadernillo",
+        "Demuestras comprensión del contexto general de variables de estado y capacidad de autoevaluación realista"
+      ],
+      "improvements": [
+        "Desarrollar estrategias más específicas para diferenciar sistema cerrado de aislado, más allá de repasar definiciones. Considera crear tablas comparativas o diagramas de flujo",
+        "Profundizar en las conexiones con química mencionando ejemplos concretos de cambios de estado y cómo se comportan los sistemas en cada caso",
+        "Incluir comentarios adicionales en Q5 que reflejen tu proceso de aprendizaje, dificultades superadas o curiosidades que surgieron durante la semana"
+      ],
+      "createdAt": "2025-10-02 14:48:32"
+    },
+    {
+      "feedbackId": "fb_backfill_me1opou7_2025-08-18_b0e5b6f4",
+      "weekStart": "2025-08-18",
+      "score": 79,
+      "generalComments": "Josefina, tu desempeño en la Fase 3 demuestra un progreso significativo en la integración de las fases metodológicas. Has logrado seleccionar fórmulas apropiadas (Q=mcΔT, Q=mL, ΔU=Q-W) con justificación clara y aplicarlas sistemáticamente en ejercicios de termodinámica. Tu reflexión extensa en Q5 muestra madurez metacognitiva excepcional, reconociendo la evolución desde F1 y F2 hacia la selección de herramientas. La comprensión de la Primera Ley y los procesos termodinámicos está en desarrollo, lo cual es esperable. Continúa con este nivel de reflexión y práctica deliberada.",
+      "strengths": [
+        "Seleccionas fórmulas termodinámicas apropiadas con comprensión clara de cuándo usar cada una (calor sensible vs latente, Primera Ley)",
+        "Evidencias integración fluida de F1+F2+F3, mostrando proceso sistemático desde identificación del problema hasta selección de herramientas en el ejercicio del calentador de agua",
+        "Reflexión metacognitiva excepcional en Q5, articulando claramente la progresión metodológica y conexiones interdisciplinares con química y matemática"
+      ],
+      "improvements": [
+        "Profundizar en la aplicación de la Primera Ley en procesos con gases, practicando especialmente el análisis de signos del trabajo (W positivo vs negativo) con múltiples ejemplos de procesos isotérmicos y adiabáticos",
+        "Fortalecer la distinción entre variables controlables y no controlables mediante ejercicios adicionales con la matriz de clasificación, documentando el razonamiento detrás de cada clasificación",
+        "Practicar la verificación de unidades y cálculos numéricos de forma independiente para ganar confianza en la ejecución completa sin necesitar ayuda externa"
+      ],
+      "createdAt": "2025-10-02 14:48:33"
+    }
+  ]
+}

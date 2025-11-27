@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "studentId": "u_c8qoo6z03me0b5zlp",
+    "studentName": "Valentino Papa",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.238637",
+    "statistics": {
+      "totalFeedbacks": 6,
+      "feedbacksWithScore": 6,
+      "averageScore": 65.67,
+      "minScore": 62,
+      "maxScore": 76,
+      "weeksCovered": 6,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-09-08"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250804_001",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre  con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas"
+      ],
+      "createdAt": "2025-10-06 02:54:38"
+    },
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250811_002",
+      "weekStart": "2025-08-11",
+      "score": 76,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel bueno en la Fase 2 del pensamiento crítico. Has trabajado sobre q1, q2, q3 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Demuestra buen dominio de los temas trabajados durante la semana",
+        "Presenta evidencias concretas de su proceso de aprendizaje",
+        "Identifica dificultades y propone estrategias para superarlas"
+      ],
+      "improvements": [
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones",
+        "Ampliar las reflexiones sobre el proceso de aprendizaje",
+        "Continuar desarrollando el pensamiento crítico en las respuestas"
+      ],
+      "createdAt": "2025-10-06 02:54:38"
+    },
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250818_003",
+      "weekStart": "2025-08-18",
+      "score": 65,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 2 del pensamiento crítico. Has trabajado sobre q3 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Identifica dificultades y propone estrategias para superarlas",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones"
+      ],
+      "createdAt": "2025-10-06 02:54:38"
+    },
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250825_004",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre q3 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Identifica dificultades y propone estrategias para superarlas",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones"
+      ],
+      "createdAt": "2025-10-06 02:54:38"
+    },
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250901_005",
+      "weekStart": "2025-09-01",
+      "score": 62,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre q3 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Identifica dificultades y propone estrategias para superarlas",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Establecer conexiones más explícitas entre los conceptos y sus aplicaciones"
+      ],
+      "createdAt": "2025-10-06 02:55:03"
+    },
+    {
+      "feedbackId": "fb_002_3_c8qoo6z03me0b5zlp_20250908_006",
+      "weekStart": "2025-09-08",
+      "score": 64,
+      "generalComments": "Tu reporte de esta semana demuestra un nivel en desarrollo en la Fase 1 del pensamiento crítico. Has trabajado sobre q5 con solidez. Continúa desarrollando tus habilidades de análisis y reflexión.",
+      "strengths": [
+        "Aporta reflexiones significativas sobre su proceso de aprendizaje",
+        "Muestra compromiso al completar el reporte semanal",
+        "Evidencia esfuerzo en la comprensión de los contenidos"
+      ],
+      "improvements": [
+        "Profundizar en la explicación de los temas trabajados con ejemplos específicos",
+        "Incluir evidencias más concretas y detalladas del proceso de aprendizaje",
+        "Identificar dificultades específicas y desarrollar estrategias claras para superarlas"
+      ],
+      "createdAt": "2025-10-06 02:55:03"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "studentId": "u_e06uzoxujme1bwdgt",
+    "studentName": "Mateo Delaygue",
+    "subject": "Física",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.222682",
+    "statistics": {
+      "totalFeedbacks": 12,
+      "feedbacksWithScore": 12,
+      "averageScore": 51.58,
+      "minScore": 34,
+      "maxScore": 65,
+      "weeksCovered": 10,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-11-03T03:00:00.000Z"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-08-04_f0a6f7b3",
+      "weekStart": "2025-08-04",
+      "score": 62,
+      "generalComments": "Tu comprensión inicial del pensamiento crítico es básica pero válida. Identificaste correctamente que el tema ayuda a 'identificar, entender y resolver temas complejos', lo cual es un buen punto de partida. Sin embargo, tus respuestas son muy generales y carecen de ejemplos específicos o evidencia concreta de aplicación, lo que indica que estás en un nivel de desarrollo (nivel 2) en la Fase 1.",
+      "strengths": [
+        "Identificación correcta del tema principal: pensamiento crítico y su propósito general",
+        "Reconocimiento de la aplicabilidad del tema ('nos ayuda a resolver todo tipo de problemas')",
+        "Honestidad al indicar que no tuviste dificultades, lo cual refleja autoevaluación"
+      ],
+      "improvements": [
+        "Q2 es extremadamente vaga: Identificar pensamiento crítico en una conversación entre dos chicos sin explicar QUÉ identificaste ni CÓMO lo hiciste",
+        "Falta evidencia concreta de aprendizaje: no describes qué características del pensamiento crítico encontraste en la conversación",
+        "Q3 menciona ninguno pero sin reflexión sobre por qué te resultó fácil o qué aspectos comprendiste mejor",
+        "Q4 hace una conexión superficial (relación más fuerte con la escuela) sin especificar cómo se aplica en diferentes contextos",
+        "Todas las respuestas son breves y generales; necesitas desarrollar más tus ideas con ejemplos concretos"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-08-11_a1b7a8c4",
+      "weekStart": "2025-08-11",
+      "score": 40,
+      "generalComments": "Mateo, reconozco y valoro tu honestidad al explicar la situación familiar que te impidió participar plenamente esta semana. Es importante que comuniques estas circunstancias. Sin embargo, el reporte muestra contenido mínimo y no hay evidencia de trabajo con el tema de la semana (tiro oblicuo - Fase 2). La disculpa y disposición a hablar sobre el tema en Q5 es muy apreciada y muestra responsabilidad.",
+      "strengths": [
+        "Honestidad y comunicación clara sobre la situación familiar que te afectó",
+        "Disposición explícita a resolver dudas: 'estoy dispuesto a hablarla'",
+        "Identificación correcta del tema tratado en clase: tiro oblicuo",
+        "Anticipación reflexiva de posibles dificultades futuras con el pensamiento crítico",
+        "Conexión básica pero válida del tema con fenómenos reales (caída de pelota de fútbol)"
+      ],
+      "improvements": [
+        "Q2 no aporta contenido académico: Ninguno ya que me ví envuelto en temas familiares - era el momento de indicar que no pudiste trabajar",
+        "Q3 menciona dificultades FUTURAS pero no describe estrategias para superarlas ni plan de recuperación",
+        "Falta evidencia de intento de ponerte al día con el material perdido",
+        "No se menciona si revisaste el cuadernillo, consultaste con compañeros o revisaste material en classroom"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-08-25_b2c8b9d5",
+      "weekStart": "2025-08-25",
+      "score": 65,
+      "generalComments": "Mateo, tu reporte muestra progreso respecto a semanas anteriores. Aplicaste la metodología de 4 fases de forma sistemática en el ejercicio de la flecha, lo cual es muy positivo. Tu autoevaluación (nivel 2 - 'entiendo básico del tema') es coherente con el trabajo presentado. Hay evidencia de comprensión del proceso, aunque la ejecución matemática todavía necesita mayor desarrollo y claridad.",
+      "strengths": [
+        "Aplicación completa de las 4 fases: identificaste problemática → variables → fórmulas → resolución",
+        "Identificación correcta del objetivo: determinar si la flecha da en el blanco",
+        "Clasificación de variables conocidas y desconocidas apropiada",
+        "Conclusión correcta: la flecha no daría en el blanco",
+        "Reflexión honesta sobre la dificultad: 'la parte matemática se me resultó muy difícil'",
+        "Conexión válida del tema con comportamiento real de los objetos"
+      ],
+      "improvements": [
+        "Q2 no muestra el desarrollo matemático completo: falta el cálculo específico de Xf2 (solo mencionas la conclusión)",
+        "No especificas QUÉ fórmulas usaste en F3 (mencionas que las analizaste pero no las escribes)",
+        "En Q3 identificas la parte matemática como difícil pero no describes qué estrategia usaste para superarla",
+        "Falta verificación del resultado o análisis de razonabilidad física",
+        "Las fórmulas seleccionadas en F3 deberían estar explícitas con sus respectivas variables"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-09-01_c3d9c0e6",
+      "weekStart": "2025-09-01",
+      "score": 60,
+      "generalComments": "Mateo, tu autoevaluación ha bajado a nivel 1 esta semana, lo cual es preocupante y requiere atención. El reporte muestra que estás aplicando la metodología de las 4 fases de forma automática, pero sigues enfrentando dificultades significativas tanto con la selección de fórmulas como con la ejecución matemática. Es fundamental abordar estos obstáculos para evitar que se consoliden.",
+      "strengths": [
+        "Aplicación consistente de la estructura F1→F2→F3→F4 en el problema del chorro de agua",
+        "Identificación clara del problema: calcular ángulo de salida y ángulo necesario para pasar por cierto lugar",
+        "Reconocimiento honesto de dificultades en Q3: 'encontrar fórmulas indicadas' y 'parte matemática'",
+        "Mención de que trabajaste con ayuda del docente, mostrando búsqueda activa de apoyo",
+        "Conexión apropiada del tema con la gravedad"
+      ],
+      "improvements": [
+        "Q2 no muestra NINGUNA fórmula específica ni desarrollo matemático: solo describes los pasos pero no los ejecutas",
+        "No especificas cuáles fueron las variables conocidas y desconocidas identificadas en F2",
+        "Las dificultades mencionadas en Q3 (encontrar fórmulas, parte matemática) son CRÍTICAS para Fase 4 y requieren intervención urgente",
+        "No se evidencia estrategia específica para superar las dificultades más allá de la ayuda del docente",
+        "Falta totalmente la verificación del resultado o análisis de razonabilidad"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-09-08_d4e0d1f7",
+      "weekStart": "2025-09-08",
+      "score": 58,
+      "generalComments": "Mateo, esta semana continúas en el mismo nivel que la anterior, sin evidencia de mejora en las áreas críticas identificadas. Tu reporte sigue el patrón de describir los pasos (F1→F2→F3→F4) sin mostrar la ejecución matemática real. Las dificultades reportadas en Q3 son idénticas a la semana pasada ('encontrar fórmulas' y 'plantear cuentas matemáticas'), lo que sugiere que no se implementaron estrategias efectivas de mejora.",
+      "strengths": [
+        "Mantienes la estructura metodológica de las 4 fases",
+        "Identificación del problema: 'calcular cómo caía un objeto al ser lanzado desde cierto lugar'",
+        "Reconocimiento persistente de las dificultades específicas que enfrentas",
+        "Conexión del tema con comportamiento de objetos y gravedad"
+      ],
+      "improvements": [
+        "CRÍTICO: Q2 sigue sin mostrar contenido matemático real - solo describes analicé, identifiqué, encontré fórmulas, resolví pero NO muestras QUÉ analizaste, QUÉ fórmulas, CÓMO resolviste",
+        "Las dificultades en Q3 se repiten semana tras semana sin cambio: esto indica que no estás trabajando activamente en superarlas",
+        "No hay evidencia de que hayas implementado las recomendaciones de feedbacks anteriores",
+        "Falta completamente valores numéricos, fórmulas escritas, o cálculos específicos",
+        "No se menciona si buscaste ayuda adicional, estudiaste material de apoyo, o practicaste ejercicios extra"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-09-15_e5f1e2a8",
+      "weekStart": "2025-09-15",
+      "score": 57,
+      "generalComments": "Mateo, lamentablemente esta semana no hay mejora respecto a las anteriores. Tu reporte mantiene exactamente el mismo patrón: describes el proceso de las 4 fases pero no muestras ejecución matemática concreta. Las dificultades reportadas son idénticas ('plantear cuentas matemáticas' y 'encontrar fórmulas'), confirmando que el estancamiento persiste. Esta es la cuarta semana consecutiva con el mismo problema.",
+      "strengths": [
+        "Persistencia en intentar aplicar la metodología de 4 fases",
+        "Identificación del tema trabajado: tiro oblicuo y su cálculo",
+        "Honestidad al reportar las mismas dificultades recurrentes"
+      ],
+      "improvements": [
+        "CRÍTICO: Q2 es casi idéntica a semanas anteriores - identifiqué objetivo, identifiqué variables, analicé fórmulas, pasé a la parte matemática SIN MOSTRAR NADA",
+        "Las dificultades en Q3 son EXACTAMENTE las mismas que en las últimas 4 semanas: plantear cuentas y encontrar fórmulas",
+        "No hay evidencia alguna de que hayas trabajado en resolver estas dificultades",
+        "Cero desarrollo matemático, cero fórmulas escritas, cero números, cero cálculos",
+        "La conexión en Q4 se repite de forma automática (comportamiento de objetos y gravedad)"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "fb_backfill_me1bwdgt_2025-09-22_f6a2f3b9",
+      "weekStart": "2025-09-22",
+      "score": 55,
+      "generalComments": "Mateo, esta es la quinta semana consecutiva sin progreso evidente. Tu autoevaluación se mantiene en nivel 1 ('aún sigo sin comprender algunas cosas del tema'), lo cual es consistente con el trabajo presentado. Sin embargo, ahora hay un agravante: en Q3 mencionas TRES dificultades diferentes ('plantear el ejercicio', 'encontrar la problemática' y 'el resolver'), lo que sugiere que el problema se está expandiendo, no resolviendo.",
+      "strengths": [
+        "Autoevaluación honesta y precisa: nivel 1 es coherente con el desempeño",
+        "Identificación del problema en el ejercicio: calcular tiempo de caída desde una terraza",
+        "Reconocimiento de múltiples áreas de dificultad (planteo, problemática, resolución)"
+      ],
+      "improvements": [
+        "CRÍTICO: Q3 ahora lista TRES dificultades en lugar de dos, indicando retroceso en lugar de avance",
+        "El problema se está expandiendo: ahora también tienes dificultad con plantear el ejercicio y encontrar la problemática (que son F1 y F2, fases que antes no reportabas como difíciles)",
+        "Q2 mantiene el mismo patrón de 5 semanas: descripción sin ejecución matemática",
+        "No hay evidencia de implementación de ninguna estrategia de mejora",
+        "La conexión en Q4 se está volviendo cada vez más vaga"
+      ],
+      "createdAt": "2025-10-02T02:53:41Z"
+    },
+    {
+      "feedbackId": "1ecfd9d7-2cc5-4909-80f5-6044f71d0012",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:28:21.138Z"
+    },
+    {
+      "feedbackId": "731b1033-7d13-454b-8b24-9fb71ed4b595",
+      "weekStart": "2025-10-06T03:00:00.000Z",
+      "score": 34,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:46:18.491Z"
+    },
+    {
+      "feedbackId": "6fcf4f41-5f16-405e-883d-f34c1ef340be",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T05:48:54.346Z"
+    },
+    {
+      "feedbackId": "6eab30ce-5741-41c4-a834-a85ef13bb189",
+      "weekStart": "2025-10-13T03:00:00.000Z",
+      "score": 52,
+      "generalComments": "Continuar con el trabajo actual y buscar retroalimentación adicional.",
+      "strengths": "No se identificaron fortalezas específicas.",
+      "improvements": "No se identificaron áreas de mejora específicas.",
+      "createdAt": "2025-10-21T06:32:09.598Z"
+    },
+    {
+      "feedbackId": "4727dc74-8164-4f0b-a24a-f596e90aef7b",
+      "weekStart": "2025-11-03T03:00:00.000Z",
+      "score": 50,
+      "generalComments": "Veo que estás trabajando en Física y reconoces que necesitas refuerzo en leyes de Newton. Eso es positivo porque significa que eres consciente de dónde mejorar. Sin embargo, tu reporte esta semana es muy breve y no muestra el análisis detallado que esperamos en la Fase 2.\n\nTu desempeño indica que estás en un nivel inicial de identificación de variables. Necesitas pasar de respuestas cortas a análisis más profundos donde expliques qué variables identificaste, cómo las clasificaste y por qué son importantes para resolver cada problema.\n\nPara la próxima semana, te pido que: (1) Escribas respuestas más desarrolladas (mínimo 3-4 líneas por pregunta), (2) Hagas listas explícitas de variables en cada problema, (3) Reflexiones sobre qué estrategias te ayudaron a entender mejor. Esto te permitirá avanzar del Nivel 1 al Nivel 2 o 3.",
+      "strengths": "• Reconoces tu nivel de dominio: Mencionas honestamente que tienes \"nivel de dominio 2\" en leyes de Newton, lo que muestra autoconciencia sobre dónde estás parado.\n• Intentas resolver problemas prácticos: Trabajaste con un ejemplo concreto (la cuerda y el auto), lo que demuestra que estás aplicando conceptos a situaciones reales, no solo teóricas.\n• Identificas que hay dificultades: Reconoces que te confundes con los pasos a seguir, lo que es el primer paso para mejorar tu estrategia de resolución.",
+      "improvements": "• Desarrolla respuestas más completas: Tus respuestas son muy cortas (1-2 líneas). Para la próxima semana, dedica más tiempo a explicar cada pregunta con ejemplos específicos. Por ejemplo, en Q1 deberías listar: \"Variables conocidas: masa del auto (500 kg), ángulo de la cuerda (30°). Variables desconocidas: fuerza de la cuerda.\"\n• Identifica variables de forma sistemática: En los problemas que resuelvas, haz una lista explícita separando: (1) Variables conocidas, (2) Variables desconocidas, (3) Variables controlables, (4) Variables no controlables. Esto te ayudará a organizar mejor la información antes de resolver.\n• Conecta con fenómenos reales específicos: En lugar de decir \"cómo se comporta todo\", menciona ejemplos concretos: \"Las leyes de Newton explican por qué un auto acelera diferente según su masa\" o \"La fricción es una variable no controlable que afecta la fuerza necesaria.\" Esto demuestra comprensión real.",
+      "createdAt": "2025-11-12T22:56:38.492Z"
+    }
+  ]
+}

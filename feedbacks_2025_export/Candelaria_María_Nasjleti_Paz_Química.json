@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "studentId": "u_bx5yrhd48me6eys07",
+    "studentName": "Candelaria María Nasjleti Paz",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.189054",
+    "statistics": {
+      "totalFeedbacks": 2,
+      "feedbacksWithScore": 2,
+      "averageScore": 30.5,
+      "minScore": 27,
+      "maxScore": 34,
+      "weeksCovered": 2,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-11"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_002_1_me6eys07_2025-08-04_001",
+      "weekStart": "2025-08-04",
+      "score": 34,
+      "generalComments": "Querida Candelaria María Nasjleti Paz,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Demuestras perseverancia ante las dificultades en el inicio del estudio de equilibrio químico.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Trabaja en expresar tus ideas con mayor claridad y precisión.\n\nRecuerda que cada desafío es una oportunidad de crecimiento. ¡Adelante!",
+      "strengths": [
+        "Demuestras perseverancia ante las dificultades en el inicio del estudio de equilibrio químico",
+        "Reconoces tus limitaciones y expresas disposición para preguntar",
+        "Muestras actitud positiva hacia las clases"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en equilibrio químico",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    },
+    {
+      "feedbackId": "fb_002_1_me6eys07_2025-08-11_002",
+      "weekStart": "2025-08-11",
+      "score": 27,
+      "generalComments": "Querida Candelaria María Nasjleti Paz,\n\nTe encuentras en la etapa inicial de la Fase 1: Identificación y comprensión del problema, necesitando fortalecer los fundamentos de esta fase en Química. Tu reporte de esta semana está incompleto y con respuestas muy breves, lo que dificulta evaluar tu avance en esta fase.\n\nEs fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en equilibrio químico. Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje. Trabaja en expresar tus ideas con mayor claridad y precisión, desarrollando respuestas completas que muestren tu pensamiento.\n\nEstoy aquí para acompañarte en este proceso. Vamos paso a paso.",
+      "strengths": [
+        "Continúas asistiendo y participando en las clases",
+        "Mencionas haber trabajado con los ejercicios de la guía",
+        "Mantienes compromiso con la entrega del reporte"
+      ],
+      "improvements": [
+        "Es fundamental fortalecer tu capacidad para identificar el problema central y los objetivos de aprendizaje en equilibrio químico",
+        "Proporciona evidencias más concretas y específicas de tu proceso de aprendizaje con respuestas desarrolladas",
+        "Trabaja en expresar tus ideas con mayor claridad y precisión, dedicando tiempo a explicar tu pensamiento"
+      ],
+      "createdAt": "2025-10-07T10:00:00Z"
+    }
+  ]
+}

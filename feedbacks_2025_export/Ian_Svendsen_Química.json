@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "studentId": "u_fdz0c0x1lme4fe22c",
+    "studentName": "Ian Svendsen",
+    "subject": "Química",
+    "academicYear": 2025,
+    "generatedAt": "2025-11-19T10:14:39.203707",
+    "statistics": {
+      "totalFeedbacks": 1,
+      "feedbacksWithScore": 1,
+      "averageScore": 68.0,
+      "minScore": 68,
+      "maxScore": 68,
+      "weeksCovered": 1,
+      "dateRange": {
+        "firstWeek": "2025-08-04",
+        "lastWeek": "2025-08-04"
+      }
+    }
+  },
+  "feedbacks": [
+    {
+      "feedbackId": "fb_backfill_me4fe22c_2025-08-04_c325b380",
+      "weekStart": "2025-08-04",
+      "score": 68,
+      "generalComments": "Ian muestra una comprensión básica inicial de la Fase 1 del pensamiento crítico en equilibrio químico. Logra aplicar los pasos 1 y 2 en el ejercicio de los 3 sistemas, aunque con algo de confusión inicial. Su nivel de dominio autoevaluado es realista y demuestra honestidad académica. Hay espacio significativo para profundizar en los conceptos.",
+      "strengths": [
+        "Autoevaluación realista de su nivel de dominio en cada herramienta (niveles 1-3)",
+        "Aplicación correcta de pasos 1 y 2 en el Ejercicio 1 para identificar objetivos y recopilar información",
+        "Conclusión correcta sobre equilibrio: solo la gaseosa puede alcanzar equilibrio dinámico (CO₂ disuelto ↔ CO₂ gaseoso)",
+        "Reconocimiento de que vela y neutralización son irreversibles",
+        "Estrategia proactiva de consultar el cuadernillo teórico cuando tuvo dudas",
+        "Uso efectivo de las preguntas guía al principio del cuadernillo como herramienta de verificación"
+      ],
+      "improvements": [
+        "En Q1 mencionas nivel 1 en Tabla ICE y Le Chatelier; dedica tiempo adicional a estudiar estos conceptos fundamentales",
+        "La respuesta en Q2 es muy breve; podrías expandir explicando por qué el sistema abierto vs cerrado es relevante para el equilibrio",
+        "En Q3 mencionas confusión inicial sobre reacción completa; crea un esquema comparativo: irreversible (completa) vs reversible (equilibrio)",
+        "Q4 queda muy general; intenta conectar con temas específicos como balanceo de ecuaciones o concentraciones",
+        "Q5 está vacía; aprovecha este espacio para reflexionar sobre tu proceso de aprendizaje"
+      ],
+      "createdAt": "2025-10-03T14:50:06Z"
+    }
+  ]
+}
