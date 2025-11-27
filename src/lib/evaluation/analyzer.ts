@@ -293,6 +293,16 @@ Devuelve SOLO el JSON, sin texto adicional.
  * Parsea la respuesta JSON de Claude para rúbricas 5-phases
  */
 function parseAIResponse5Phases(content: string, costInfo: APICostInfo): AIAnalysis5Phases {
+  // === DIAGNOSTIC LOGGING ===
+  console.log("🔍 [DIAGNOSTIC] RAW Claude Response Info:", {
+    length: content.length,
+    first100: content.substring(0, 100),
+    last100: content.substring(content.length - 100),
+    startsWithBrace: content.trim().startsWith('{'),
+    endsWithBrace: content.trim().endsWith('}'),
+  });
+  // === END DIAGNOSTIC ===
+
   try {
     // Usar la función de limpieza robusta
     const cleanedContent = cleanAIJsonResponse(content);
@@ -396,8 +406,16 @@ function parseAIResponse5Phases(content: string, costInfo: APICostInfo): AIAnaly
       costInfo,
     } as AIAnalysis5Phases;
   } catch (error) {
-    console.error("❌ Error parseando respuesta de Claude:", error);
-    console.error("Contenido recibido:", content);
+    // === ENHANCED DIAGNOSTIC LOGGING ===
+    console.error("❌ ============ PARSING ERROR DIAGNOSTIC ============");
+    console.error("❌ Error Type:", error instanceof Error ? error.constructor.name : typeof error);
+    console.error("❌ Error Message:", error instanceof Error ? error.message : String(error));
+    console.error("❌ Content Length:", content.length);
+    console.error("❌ Content Preview (first 500 chars):", content.substring(0, 500));
+    console.error("❌ Content Preview (last 500 chars):", content.substring(content.length - 500));
+    console.error("❌ Full Content (for debugging):");
+    console.error(content);
+    console.error("❌ ============ END DIAGNOSTIC ============");
 
     throw new EvaluationError(
       ErrorCodes.AI_ANALYSIS_FAILED,
@@ -411,6 +429,16 @@ function parseAIResponse5Phases(content: string, costInfo: APICostInfo): AIAnaly
  * Parsea la respuesta JSON de Claude para rúbricas custom
  */
 function parseAIResponseCustom(content: string, costInfo: APICostInfo): AIAnalysisCustom {
+  // === DIAGNOSTIC LOGGING ===
+  console.log("🔍 [DIAGNOSTIC] RAW Claude Response Info (custom):", {
+    length: content.length,
+    first100: content.substring(0, 100),
+    last100: content.substring(content.length - 100),
+    startsWithBrace: content.trim().startsWith('{'),
+    endsWithBrace: content.trim().endsWith('}'),
+  });
+  // === END DIAGNOSTIC ===
+
   try {
     // Usar la función de limpieza robusta
     const cleanedContent = cleanAIJsonResponse(content);
@@ -468,8 +496,16 @@ function parseAIResponseCustom(content: string, costInfo: APICostInfo): AIAnalys
       costInfo,
     } as AIAnalysisCustom;
   } catch (error) {
-    console.error("❌ Error parseando respuesta de Claude (custom):", error);
-    console.error("Contenido recibido:", content);
+    // === ENHANCED DIAGNOSTIC LOGGING ===
+    console.error("❌ ============ PARSING ERROR DIAGNOSTIC (CUSTOM) ============");
+    console.error("❌ Error Type:", error instanceof Error ? error.constructor.name : typeof error);
+    console.error("❌ Error Message:", error instanceof Error ? error.message : String(error));
+    console.error("❌ Content Length:", content.length);
+    console.error("❌ Content Preview (first 500 chars):", content.substring(0, 500));
+    console.error("❌ Content Preview (last 500 chars):", content.substring(content.length - 500));
+    console.error("❌ Full Content (for debugging):");
+    console.error(content);
+    console.error("❌ ============ END DIAGNOSTIC ============");
 
     throw new EvaluationError(
       ErrorCodes.AI_ANALYSIS_FAILED,
