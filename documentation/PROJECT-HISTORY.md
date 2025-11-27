@@ -65,6 +65,12 @@ Se extendió el sistema de corrección de exámenes para incluir a los alumnos d
 - ✅ Consultas SQL verificadas en producción vía turso-intellego MCP
 - ✅ Navegación devuelve correctamente "Biofísica" como opción
 
+**Bug Fix (mismo día):**
+- ❌ Error inicial: "Error al procesar los exámenes" al confirmar corrección
+- 🔍 Causa raíz: `matcher.ts` filtraba por `subjects LIKE '%Biofísica%'`, pero 5 de 6 estudiantes COSUDEC tienen `subjects = ''` vacío
+- ✅ Solución: Modificar matcher para omitir filtro de subjects cuando materia es "Biofísica" (ya se filtra por sede='CONSUDEC')
+- 📁 Archivo adicional modificado: `src/lib/evaluation/matcher.ts`
+
 **Flujo de Uso:**
 1. Instructor accede a Corrección de Exámenes
 2. Selecciona materia "Biofísica"

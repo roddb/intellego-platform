@@ -139,7 +139,9 @@ export async function matchStudent(
         queryStr += ` AND sede = ?`;
         params.push(context.sede);
       }
-      if (context.materia) {
+      // Special case: Biofísica uses CONSUDEC students (sede-based, not subject-based)
+      // COSUDEC students may have empty subjects field, so we skip subject filter for Biofísica
+      if (context.materia && context.materia !== 'Biofísica') {
         queryStr += ` AND subjects LIKE ?`;
         params.push(`%${context.materia}%`);
       }
