@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import type { Rubric } from "@/lib/evaluation/types";
 
 interface ExamContext {
-  materia: "Física" | "Química";
+  materia: "Física" | "Química" | "Biofísica";
   division: string;
   anioAcademico: string;
   sede: string;
@@ -29,7 +29,7 @@ export default function ExamContextForm({
   initialContext,
 }: ExamContextFormProps) {
   // Form state
-  const [materia, setMateria] = useState<"Física" | "Química" | "">(
+  const [materia, setMateria] = useState<"Física" | "Química" | "Biofísica" | "">(
     initialContext?.materia || ""
   );
   const [division, setDivision] = useState(initialContext?.division || "");
@@ -158,7 +158,7 @@ export default function ExamContextForm({
     if (!isFormValid) return;
 
     onSubmit({
-      materia: materia as "Física" | "Química",
+      materia: materia as "Física" | "Química" | "Biofísica",
       division,
       anioAcademico,
       sede,
@@ -187,7 +187,7 @@ export default function ExamContextForm({
         <select
           value={materia}
           onChange={(e) => {
-            setMateria(e.target.value as "Física" | "Química" | "");
+            setMateria(e.target.value as "Física" | "Química" | "Biofísica" | "");
             setAnioAcademico("");
             setDivision("");
             setSede("");

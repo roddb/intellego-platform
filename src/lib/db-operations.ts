@@ -832,25 +832,48 @@ export async function getCoursesBySubjectAndYear(subject: string, year: string):
 
 /**
  * Gets all students for a specific subject, year, and course with their report counts
+ * Special handling for "Biofísica" which uses COSUDEC students (sede-based filtering)
  */
 export async function getStudentsByCourse(subject: string, year: string, course: string): Promise<HierarchicalStudent[]> {
   try {
-    // Get ALL students registered for this subject, year, and course
-    // Uses LEFT JOIN to include students even if they haven't submitted reports yet
-    const result = await query(`
-      SELECT DISTINCT 
-        u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects,
-        COUNT(pr.id) as reportCount
-      FROM User u
-      LEFT JOIN ProgressReport pr ON (u.id = pr.userId AND pr.subject = ?)
-      WHERE u.role = 'STUDENT' 
-        AND u.academicYear = ?
-        AND u.division = ?
-        AND u.subjects LIKE ?
-      GROUP BY u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects
-      ORDER BY u.name
-    `, [subject, year, course, `%${subject}%`]);
-    
+    // Special case: Biofísica uses COSUDEC students (sede-based, not subject-based)
+    // COSUDEC students have subjects stored as JSON array or empty
+    const isBiofisica = subject === 'Biofísica';
+
+    let result;
+
+    if (isBiofisica) {
+      // For Biofísica, get all COSUDEC students for the year and course
+      // They don't have ProgressReports, so reportCount will be 0
+      result = await query(`
+        SELECT DISTINCT
+          u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects,
+          0 as reportCount
+        FROM User u
+        WHERE u.role = 'STUDENT'
+          AND u.sede = 'CONSUDEC'
+          AND u.academicYear = ?
+          AND u.division = ?
+        ORDER BY u.name
+      `, [year, course]);
+    } else {
+      // Standard case: Get students registered for this subject, year, and course
+      // Uses LEFT JOIN to include students even if they haven't submitted reports yet
+      result = await query(`
+        SELECT DISTINCT
+          u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects,
+          COUNT(pr.id) as reportCount
+        FROM User u
+        LEFT JOIN ProgressReport pr ON (u.id = pr.userId AND pr.subject = ?)
+        WHERE u.role = 'STUDENT'
+          AND u.academicYear = ?
+          AND u.division = ?
+          AND u.subjects LIKE ?
+        GROUP BY u.id, u.name, u.email, u.studentId, u.sede, u.academicYear, u.division, u.subjects
+        ORDER BY u.name
+      `, [subject, year, course, `%${subject}%`]);
+    }
+
     return result.rows.map(row => ({
       id: String((row as any).id),
       name: String((row as any).name),
@@ -859,7 +882,9 @@ export async function getStudentsByCourse(subject: string, year: string, course:
       sede: String((row as any).sede || ''),
       academicYear: String((row as any).academicYear),
       division: String((row as any).division),
-      subjects: String((row as any).subjects || '').split(',').map(s => s.trim()).filter(s => s),
+      subjects: isBiofisica
+        ? ['Biofísica']
+        : String((row as any).subjects || '').split(',').map(s => s.trim()).filter(s => s),
       reportCount: Number((row as any).reportCount || 0)
     }));
   } catch (error) {
@@ -1179,6 +1204,7 @@ export async function getSubjectStatistics(subject: string): Promise<{
 /**
  * Gets quick navigation structure (subjects -> years -> courses) without full student data
  * This is optimized for building navigation menus quickly
+ * Includes both regular students (from ProgressReport) and COSUDEC students (from User.subjects)
  */
 export async function getHierarchicalNavigation(): Promise<{
   [subject: string]: {
@@ -1186,22 +1212,38 @@ export async function getHierarchicalNavigation(): Promise<{
   }
 }> {
   try {
-    // Get subjects from actual progress reports to ensure we only show subjects with data
+    // Get subjects from actual progress reports (Santo Tomás students)
+    // UNION with COSUDEC students who have subjects defined in User table
     const result = await query(`
-      SELECT DISTINCT 
+      SELECT DISTINCT
         pr.subject,
         u.academicYear,
         u.division
       FROM ProgressReport pr
       INNER JOIN User u ON pr.userId = u.id
-      WHERE u.role = 'STUDENT' 
+      WHERE u.role = 'STUDENT'
         AND pr.subject IS NOT NULL
         AND pr.subject != ''
-        AND u.academicYear IS NOT NULL 
+        AND u.academicYear IS NOT NULL
         AND u.academicYear != ''
-        AND u.division IS NOT NULL 
+        AND u.division IS NOT NULL
         AND u.division != ''
-      ORDER BY pr.subject, u.academicYear DESC, u.division
+
+      UNION
+
+      SELECT DISTINCT
+        'Biofísica' as subject,
+        u.academicYear,
+        u.division
+      FROM User u
+      WHERE u.role = 'STUDENT'
+        AND u.sede = 'CONSUDEC'
+        AND u.academicYear IS NOT NULL
+        AND u.academicYear != ''
+        AND u.division IS NOT NULL
+        AND u.division != ''
+
+      ORDER BY subject, academicYear DESC, division
     `);
     
     const navigation: { [subject: string]: { [year: string]: string[] } } = {};

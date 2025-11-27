@@ -20,7 +20,7 @@ import MatchPreviewTable from "@/components/evaluation/MatchPreviewTable";
 
 // Types
 interface ExamContext {
-  materia: "Física" | "Química";
+  materia: "Física" | "Química" | "Biofísica";
   division: string;
   anioAcademico: string;
   sede: string;

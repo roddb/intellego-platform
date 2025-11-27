@@ -4,6 +4,77 @@ Complete development history and updates for the Intellego Platform.
 
 ## 📅 Development Timeline
 
+### November 27, 2025 - Habilitación de Corrección de Exámenes para COSUDEC/Biofísica
+
+#### Extensión del Sistema de Evaluación para Alumnos COSUDEC
+
+Se extendió el sistema de corrección de exámenes para incluir a los alumnos de COSUDEC (Biofísica), que anteriormente solo tenían acceso al sistema de actividades.
+
+**Requerimiento del Usuario:**
+- Los alumnos de COSUDEC (6 estudiantes de Biofísica) necesitaban ser evaluados mediante el sistema de corrección de exámenes
+- Anteriormente solo tenían acceso al sistema de actividades (ConsudecActivity/ConsudecSubmission)
+- Se requería que "Biofísica" apareciera como opción en el selector de materias junto a "Física" y "Química"
+
+**Diagnóstico Inicial:**
+- El sistema de corrección de exámenes estaba diseñado exclusivamente para Santo Tomás (Colegiales/Congreso)
+- El tipo TypeScript de materia estaba hardcodeado como `"Física" | "Química"`
+- La navegación jerárquica solo buscaba en la tabla `ProgressReport` (que COSUDEC no usa)
+- Los datos de estudiantes COSUDEC tenían formato inconsistente en el campo `subjects`
+
+**Solución Implementada:**
+
+✅ **TypeScript - Extensión de Tipos:**
+- `/src/components/evaluation/ExamContextForm.tsx`:
+  - Tipo `ExamContext.materia` extendido a `"Física" | "Química" | "Biofísica"`
+  - Estado `materia` actualizado para incluir "Biofísica"
+  - Handlers de onChange actualizados
+- `/src/app/dashboard/instructor/evaluation/correct/page.tsx`:
+  - Interfaz `ExamContext` actualizada con nuevo tipo de materia
+
+✅ **Backend - Navegación Jerárquica:**
+- `/src/lib/db-operations.ts` - `getHierarchicalNavigation()`:
+  - Agregada consulta UNION para incluir estudiantes COSUDEC
+  - Biofísica aparece automáticamente en el selector cuando hay estudiantes COSUDEC
+  - Query modificada para combinar datos de ProgressReport con datos de COSUDEC
+
+✅ **Backend - Obtención de Estudiantes:**
+- `/src/lib/db-operations.ts` - `getStudentsByCourse()`:
+  - Manejo especial para subject "Biofísica"
+  - Cuando se selecciona Biofísica, busca por `sede = 'CONSUDEC'` en lugar de por subjects
+  - Esto evita problemas con el formato inconsistente del campo subjects en COSUDEC
+  - Los estudiantes de Biofísica se muestran con subjects: ['Biofísica'] normalizado
+
+**Archivos Modificados:**
+- `src/components/evaluation/ExamContextForm.tsx` - Tipos y estados actualizados
+- `src/app/dashboard/instructor/evaluation/correct/page.tsx` - Interfaz ExamContext
+- `src/lib/db-operations.ts` - Funciones getHierarchicalNavigation y getStudentsByCourse
+
+**Datos de Producción Verificados:**
+- 6 estudiantes COSUDEC disponibles para evaluación:
+  - Agustina Laura Cecere
+  - Benjamin Rengifo
+  - Emilse Paola Lencina
+  - Paula Sidabra
+  - Rodrigo Gaston Di Bernardo
+  - Sofía Cuoco
+- Rúbricas existentes pueden usarse para Biofísica (Rúbrica 5 Fases, etc.)
+
+**Testing:**
+- ✅ TypeScript type-check: Sin errores
+- ✅ ESLint: Sin errores nuevos (warnings pre-existentes)
+- ✅ Consultas SQL verificadas en producción vía turso-intellego MCP
+- ✅ Navegación devuelve correctamente "Biofísica" como opción
+
+**Flujo de Uso:**
+1. Instructor accede a Corrección de Exámenes
+2. Selecciona materia "Biofísica"
+3. Selecciona año "4to Año" y división "Única"
+4. Sistema muestra los 6 estudiantes COSUDEC
+5. Instructor sube archivos .md y procesa correcciones
+6. Evaluaciones se guardan igual que para Física/Química
+
+---
+
 ### January 19, 2025 - Sistema de Rúbricas Dinámicas para Evaluación de Exámenes
 
 #### Implementación de Selección de Rúbricas Personalizadas
