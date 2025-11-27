@@ -177,7 +177,7 @@ async function addRubricEstequiometria(): Promise<void> {
       throw new Error('No instructor found. Please create an instructor user first.');
     }
 
-    const instructorId = (usersResult.rows[0] as { id: string }).id;
+    const instructorId = (usersResult.rows[0] as any).id;
     const now = new Date().toISOString();
     const rubricId = `rubric-quimica-estequiometria`;
 
@@ -225,7 +225,7 @@ async function addRubricEstequiometria(): Promise<void> {
     });
 
     if (verifyResult.rows.length > 0) {
-      const rubric = verifyResult.rows[0] as { id: string; name: string; subject: string; description: string };
+      const rubric = verifyResult.rows[0] as any;
       console.log('✅ Rubric verified:');
       console.log(`   ID: ${rubric.id}`);
       console.log(`   Name: ${rubric.name}`);

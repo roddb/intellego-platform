@@ -40,7 +40,7 @@ async function updateRubricNames(): Promise<void> {
     `);
 
     for (const row of result.rows) {
-      const r = row as { id: string; name: string; subject: string };
+      const r = row as any;
       console.log(`   ${r.subject}: ${r.name}`);
     }
 

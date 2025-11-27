@@ -280,7 +280,7 @@ function analyzeStrengths(feedbacks: FeedbackEntry[]): SkillAnalysis[] {
 
   const analyses: SkillAnalysis[] = [];
 
-  for (const [skill, data] of strengthMap.entries()) {
+  for (const [skill, data] of Array.from(strengthMap.entries())) {
     const frequency = data.count;
     let level: SkillAnalysis['level'];
 
@@ -328,7 +328,7 @@ function analyzeChallenges(feedbacks: FeedbackEntry[]): SkillAnalysis[] {
 
   const analyses: SkillAnalysis[] = [];
 
-  for (const [skill, data] of challengeMap.entries()) {
+  for (const [skill, data] of Array.from(challengeMap.entries())) {
     const frequency = data.count;
     let level: SkillAnalysis['level'];
 
